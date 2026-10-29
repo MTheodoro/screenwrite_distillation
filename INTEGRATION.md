@@ -1,145 +1,165 @@
-# Integrating the Screenwrite analyzers
+# Integrating the Screenwrite analyzers (v2)
 
-(Built without access to the Screenwrite codebase or UI. Where this says "Timeline" or "UI that shows analysis", map it
-to whatever views the app actually has.)
+(Built without access to the Screenwrite codebase or UI. Where this says "Timeline" or "character view", map it to the
+views the app actually has.)
 
-These are small, local analyzers for Screenwrite. They run in a **Web Worker**, work offline, never write into the screenplay, and the editor never imports them. Per scene they produce:
+Small, local analyzers that run in a **Web Worker**, work offline, never write into the screenplay, and are never
+imported by the editor. Per scene they produce:
 
-- **Beats**: where each dramatic beat starts.
-- **Tension**: a score from 0 to 1 per beat, for the Timeline.
-- **Who**: which character performs, or is described by, each action line. The answer can be several characters, or none.
-- **Mood**: one of 8 emotions plus a strength, for each line and summarized for each beat (`beatMood`).
-
-(An addressee model, for who a line is spoken to, exists but is off by default. Pass `{ addressee: true }` to
-`analyzeModelStages` to enable it.)
+- **Beats**: *dramatic* beats (a turn in the scene: new tactic, reveal, entrance, decision), typically 4–8 per scene.
+  Not paragraphs.
+- **Tension**: 0–1 per beat.
+- **Beat mood**: the tone of each beat, as a writer would name it: a family (calm / warm / light / sad / tense /
+  conflict), a mood within it (16: tense, suspense, ominous, playful, tender, melancholy, grief, hostile, …), and an
+  intensity of 1–5.
+- **Beat summaries**: one outline line per beat, built from the writer's own key sentence (pronouns resolved to names),
+  e.g. `Desmond: "Two years, Pri. Two years and you didn't even look"`.
+- **Who** (every action line is classified, nothing is left out):
+  - `who`: the character(s) acting or described, possibly several.
+  - `kind`: one of `character`, `setting` (place, light, weather), `event` (objects, sounds, machines),
+    `extra` (unnamed people or animals), `camera` (shots, inserts, on-screen text) or `abstract` (narration, reflection,
+    time passing).
+  - `why`: which rule decided, for confidence display (see §5).
+- **Line emotion**: 8 emotions + intensity per line (feeds beat mood).
 
 ## 1. What to ship
 
-| File | Size (gzipped) | Loaded |
+Copy these from `src/analyzers/` (all plain ES modules, no dependencies, no network):
+
+| Files | Size (gz) | Loaded |
 |---|---|---|
-| `src/analyzers/{fountain,cast,lexicon,rules,model,service,worker}.js` | ~16 KB | with the worker |
-| `src/analyzers/weights.js` (distilled decision trees, generated) | ~80 KB | lazily, via `import()`, the first time analysis is shown |
+| `fountain cast names lexicon rules model service worker wordtable summarize describe taxonomy` `.js` | ~57 KB | with the worker |
+| `emotable kindtable beatcue` `.js` (learned word tables) | ~64 KB | with the worker |
+| `weights.js` (trees + mood tables, generated) | ~175 KB | lazily via `import()` on `need-model` |
 
-The total is about **100 KB**, and **no network calls at all**. The weights are an ordinary ES module in the app's own bundle, so they work offline, under `file://`, in Electron and the like. There is no server, no `fetch`, no WASM and no dependency. Copy `src/analyzers/` into the app source, and make sure the bundler keeps `worker.js` as a module worker. Most bundlers handle `new Worker(new URL("./analyzers/worker.js", import.meta.url), { type: "module" })` out of the box. The worker's `import("./weights.js")` becomes a lazily loaded chunk of the app.
+About **300 KB gzipped** in total. Everything is in the app bundle: no `fetch`, no server, no WASM, works under
+`file://` and in Electron. Keep `worker.js` a module worker:
+`new Worker(new URL("./analyzers/worker.js", import.meta.url), { type: "module" })`.
 
-Do **not** ship `src/analyzers/{refine,tinybert,xenc,embed}.js`, `public/models/` or anything in `models-archive/`. Those are experiments and benchmark inputs.
+Do **not** ship `refine.js`, `tinybert.js`, `xenc.js`, `embed.js`, `describe_weights.js`, `public/models/` or
+`models-archive/` (experiments / training artefacts).
 
 ## 2. How it runs
 
 ```
 editor (main thread)                          analyzer worker
-  text changes ─ 300 ms debounce ─► {update, text} ─► split into scenes, hash each scene
+  text changes ─ 300 ms debounce ─► {update, text, characters} ─► split into scenes, hash each scene
                                                       ├─ hash cached (memory / IndexedDB) → result at once
                                                       └─ else queued, one small task at a time:
-                                                           1. beats + tension    → partial result
-                                                           2. who + addressee
-                                                           3. emotion            → final result
+                                                           1. beats + tension          → partial result
+                                                           2. who + line kind
+                                                           3. emotion, beat mood, beat summaries → final result
   first UI that shows analyzer output ─► {need-model}   (import bundled weights; rule-based results until then)
   ◄── {scenes, hashes, starts}   {result, index, hash, result, cached}   {model, status}
 ```
 
-- **While typing:** nothing runs per keystroke. After a 300 ms pause, only the edited scene is re-analyzed. That takes about 3 ms, or about 14.5 ms (p50) on a 4× throttled CPU, split into three tasks of about 4–11 ms each. Results update about 0.3 s after the writer pauses. The main thread is never blocked.
-- **Opening a script:** unchanged scenes come from the IndexedDB cache, so they are instant. On a cold open, every scene gets beats and tension first, so the Timeline fills in before who and emotion.
-- **Stale work is dropped:** a newer `update` cancels anything queued from older text.
+Only edited scenes are re-analyzed, ~0.3 s after the writer pauses; a newer `update` cancels queued work for older text.
 
 ## 3. Main-thread wiring
 
 ```js
 const worker = new Worker(new URL("./analyzers/worker.js", import.meta.url), { type: "module" });
-let starts = [];               // first line of each scene in the posted text
+let starts = [];
 const results = new Map();     // scene index -> latest result
 
 worker.onmessage = ({ data: m }) => {
   if (m.type === "scenes") starts = m.starts;
-  if (m.type === "result") {   // may arrive twice per scene: partial (beats + tension), then final
-    results.set(m.index, m.result);
-    scheduleRender(m.index);   // update whatever UI shows analysis, never the document
-  }
+  if (m.type === "result") { results.set(m.index, m.result); scheduleRender(m.index); }  // partial, then final
 };
 
 let timer;
 editor.onChange(() => {
   clearTimeout(timer);
-  timer = setTimeout(() => worker.postMessage({ type: "update", text: editor.getText() }), 300);
+  timer = setTimeout(() => worker.postMessage({
+    type: "update",
+    text: editor.getText(),
+    // NEW: the app's character tags, as given. Strongly recommended: names the app knows are never missed, and a
+    // gender the writer set wins over inference. Shape: [{ name, aliases?: [], gender?: "m" | "f" }] or plain names.
+    characters: app.characters.map((c) => ({ name: c.name, aliases: c.aliases || [], gender: c.gender })),
+  }), 300);
 });
 
-// Lazy weights (80 KB, bundled; no network): send once, the first time any UI that displays beats / tension / who / mood opens.
-// Alternatively send it at idle after startup (requestIdleCallback); it is cheap either way.
-function ensureAnalyzerModel() {
+function ensureAnalyzerModel() {   // once, when any analysis UI first opens (or at idle after startup)
   if (!ensureAnalyzerModel.sent) worker.postMessage({ type: "need-model" });
   ensureAnalyzerModel.sent = true;
 }
 ```
 
-The editor line of unit `u` in scene `i` is `starts[i] + results.get(i).unitLines[u]`, 0-based, in the text you posted. Results are cached by scene hash, so these offsets stay valid when text above the scene moves.
+The editor line of unit `u` in scene `i` is `starts[i] + results.get(i).unitLines[u]` (0-based, in the posted text).
+
+**Script-wide characters.** Even without tags, the worker learns the cast across the whole script: a character
+introduced in scene 3 is recognised by name in scene 40, and a pronoun that pins down someone's gender anywhere counts
+everywhere ("ZORGABITCH draws a knife. She…" in scene 1 makes "She smiles" in scene 9 hers).
 
 ## 4. Result format (one scene)
 
 ```js
 {
-  cast: [{ id, name, names, gender }],     // gender "m" | "f" | "?"
-  beats: [unitIndex, ...],                 // units that start a beat
-  tension: [0..1, ...],                    // one per beat
-  beatMood: [[label, strength], ...],      // one per beat: strongest non-neutral emotion, or ["neutral", 0]
-  unitLines: [lineOffset, ...],            // per unit, relative to the scene's first line
+  cast: [{ id, name, names, gender }],          // gender "m" | "f" | "?"
+  beats: [unitIndex, ...],                       // units that start a dramatic beat
+  tension: [0..1, ...],                          // one per beat
+  beatMood: [{ family, mood, intensity, conf }, ...],   // one per beat; intensity 1..5, conf = family probability
+  beatSummaries: ["outline sentence", ...],      // one per beat
+  unitLines: [lineOffset, ...],                  // per unit, relative to the scene's first line
   lines: {
-    [unitIndex]: { who: [charId], conf, margin, runnerUp, emo: [label, intensity] },   // action line
-    [unitIndex]: { speaker, emo },                                                       // dialogue (speaker = from the cue)
+    [unitIndex]: { who: [charId], kind, why, emo: [label, intensity] },   // action line
+    [unitIndex]: { speaker, emo },                                        // dialogue (speaker = from the cue)
   },
 }
 ```
 
-A unit is one action **sentence**, one dialogue block, a heading or a transition, as `fountain.js` defines them. `who: []` means setting, or nobody.
+A unit is one action **sentence**, one dialogue block, a heading or a transition. For a character view: a character's
+lines are their dialogue + action lines with their id in `who`; add the scene's `setting` lines so the view keeps the
+places they are in.
 
-**Show only confident answers.** `margin` is the gap between the best and the second-best answer. Use these thresholds:
+## 5. Confidence: what to show as fact
 
-```js
-const SHOW_WHO = 0.4;   // ~94% correct on screenplay-style scenes, ~80% on plays; about half the lines shown
-const who = line.margin >= SHOW_WHO ? line.who : null;   // null -> show "?" and let the writer choose
-```
+Who is rule-based; `why` names the rule and each rule has a measured accuracy. Show the reliable ones as facts and the
+rest as suggestions the writer can confirm:
 
-Below the threshold, show "?" and let the writer pick, or show the guess styled as a suggestion. A confidently shown wrong answer is worse than a gap. Accuracy against the share of lines shown, measured on the gold sets:
+| `why` | share of action lines | accuracy (dev) | show as |
+|---|---|---|---|
+| `nameLead`, `titleLead`, `namePair`, `appositive`, `screenText` | ~25% | 95–99% | fact |
+| `pronounUnique` (only one present character fits the pronoun) | ~8% | 92% | fact |
+| `none` (no character: setting / event / camera …) | ~38% | 91% | fact (with `kind`) |
+| `firstMention`, `fragmentPrev`, `possessive` | ~15% | 82–85% | suggestion |
+| `pronounSalient` (several candidates of that gender) | ~9% | 83% | suggestion |
+| `plural*`, `everyone`, `nobody`, `extras`, `pronounFallback`, `objectOnly` | ~4% | 30–75% | suggestion |
 
-| Task / set | margin ≥ | 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 |
-|---|---|---|---|---|---|---|---|---|
-| Who synthetic | accuracy | 78% | 84% | 88% | 91% | 94% | 96% | 98% |
-| | shown | 100% | 88% | 77% | 68% | 55% | 48% | 42% |
-| Who plays | accuracy | 64% | 69% | 72% | 75% | 80% | 81% | 82% |
-| | shown | 100% | 86% | 74% | 61% | 49% | 32% | 22% |
-
-Make the thresholds a setting, so they can be tuned once real screenplays are measured.
-
-## 5. Offline and updates
-
-- **Everything is local.** Code and weights are part of the app bundle. Analysis results are cached in IndexedDB by scene hash, so reopening a script is instant.
-- **When you ship new weights:** regenerate `weights.js` with `tools/analyzers/train.py`, and bump `ANALYZER_VERSION` in `service.js` so cached results from old weights aren't reused.
+Measured on held-out labels (synthetic + contemporary scenes). Passing the app's character tags (§3) raises all of
+these. Make the "fact" set a setting.
 
 ## 6. Accuracy and speed (measured)
 
-| | Synthetic screenplay scenes (116) | Real text: public-domain play excerpts (21) |
-|---|---|---|
-| Beat boundaries, F1 (±1 line) | 0.90 | 0.93 |
-| Who, exact / top-1 | 81% / 85% | ~60% / ~64% |
-| Mood (line emotion), accuracy | 71% | 48% |
-| Tension, pairs ordered correctly within a scene | 84% | — |
+Gold = the agreement of three independent Claude Opus passes. Ceiling = how often two Opus passes agree with each
+other; no system can be meaningfully scored above it.
 
-Gold labels are the agreement of 3 independent Claude Opus passes. Plays are a harder, different format, and no real screenplays were available to test on (copyright), so treat **who** and **emotion** as assistive hints. Beats, tension and addressee are solid.
+| | Synthetic (116 scenes) | Contemporary, 20 writer styles (60 scenes) | Ceiling |
+|---|---|---|---|
+| Who, exact set | 87% | 85% | 98% |
+| Line kind (non-character lines) | 84% | – | – |
+| Line emotion | 71% | 74% | 92% |
+| Dramatic beats, boundary F1 (±1 unit) | 0.55 | – | 0.76 (pass vs pass) |
+| Beat mood family (6) / mood (16) | 58% / 34% | – | 83% / 67% |
+| Tension, pairs ordered within scene | 84% | – | – |
+| Beat summary, overlap with Opus summary (ROUGE-1) | 0.26 (first-line baseline 0.16) | – | 0.39 (best single line) |
 
-Speed, measured in headless Chromium with a 4× CPU throttle (`node tools/analyzers/perf_browser.mjs 4`):
+Speed (headless Chromium, 4× CPU throttle, `node tools/analyzers/perf_browser.mjs 4`): per worker task p50 ~11 ms,
+p95 ~28 ms; whole edited scene p50 ~32 ms. All off the main thread; typing never waits. A cold ~135-page script
+takes ~2.6 s in total, with the Timeline (beats + tension) at ~1.3 s; reopening is instant from cache.
 
-- **Per worker task:** p50 ~4.3 ms, p95 ~11 ms.
-- **Whole edited scene:** p50 ~14.5 ms, p95 ~33 ms (large scenes).
-- **Cold, ~135-page script:** ~1.3 s in total, with the Timeline (beats + tension) ready at ~0.65 s. Reopening is instant from cache.
+## 7. Updates, tests, tools
 
-## 7. Tests and tools
-
-- `npm test`: worker service, covering incremental re-analysis, cache hits, lazy loading and pre-emption.
-- `node tools/analyzers/perf.mjs` and `node tools/analyzers/perf_browser.mjs 4`: speed.
-- `python tools/analyzers/bench.py --bundle public/models/analyzers.json [--prefix pd_|s]`: accuracy against the gold sets.
-- Retraining: see `tools/analyzers/NOTES.md`. Training data lives on the `data-backup` branch.
+- New weights: regenerate with the trainers in `tools/analyzers/` then `python tools/analyzers/ship.py`, and bump
+  `ANALYZER_VERSION` in `service.js` (now `"2"`, so v1 cached results are not reused).
+- `npm test`: worker service (incremental re-analysis, cache, lazy loading, pre-emption).
+- `python tools/analyzers/bench.py --bundle public/models/analyzers.json [--prefix s0|s05]`: accuracy vs gold.
+- `python tools/analyzers/rules_dev.py`: who rules on the dev sets, with per-rule accuracy and error dump.
+- Training data: `data-backup` branch.
 
 ## 8. Known limits
 
-- **Who** and **emotion** are weaker on real text than on synthetic scenes; see the table in §6.
-- Joint actions ("They fight") are right only about 30% of the time.
-- Narrative aliases (STRANGER → INGRID once named) are not merged in the cast list.
+- Beats and beat mood are the weakest: well below their (already low) human-agreement ceilings. Treat as hints.
+- Joint actions ("They fight", "Neither moves") are right well under half the time.
+- Descriptions of places / atmosphere / character roles exist (`describe.js`, `describe_weights.js`) but are not
+  wired into the worker yet: accuracy is too low to show (place 52%, role 34%).

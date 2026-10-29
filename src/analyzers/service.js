@@ -6,7 +6,7 @@ import { analyzeModelStages, unitLines } from "./model.js";
 import { sceneContext, actorCandidates } from "./rules.js";
 import { buildCast, charKey } from "./cast.js";
 
-export const ANALYZER_VERSION = "1";
+export const ANALYZER_VERSION = "2";
 
 // FNV-1a 53-bit-ish hash (two 32-bit lanes) -> hex. Fast enough for whole scenes.
 export function hashText(s) {
