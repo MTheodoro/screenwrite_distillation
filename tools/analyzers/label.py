@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "analyzers"
 UNITS = DATA / "units"
 LAB = DATA / "labels"
-SCENE_DIRS = [DATA / "gen" / "scenes", DATA / "pd" / "scenes", ROOT / "data" / "own"]
+SCENE_DIRS = [DATA / "gen" / "scenes", DATA / "pd" / "scenes", DATA / "pdtrain" / "scenes", ROOT / "data" / "own"]
 
 EMOTIONS = ["neutral", "joy", "sadness", "anger", "fear", "surprise", "disgust", "affection"]
 LINE_TYPES = {"A": "action", "D": "description", "S": "setting"}

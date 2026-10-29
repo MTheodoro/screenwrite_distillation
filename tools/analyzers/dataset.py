@@ -97,11 +97,14 @@ def gold_scene_labels():
 def requests_for(labels):
     reqs = []
     for sid, lab in labels.items():
-        reqs.append({"scene_id": sid, "source": lab["d"]["source"], "index": scene_index(sid), "beats": {"label": lab["beats"]}})
+        reqs.append({"scene_id": sid, "source": lab["d"]["source"], "index": scene_index(sid, lab["d"]["source"]), "beats": {"label": lab["beats"]}})
     return reqs
 
 
-def scene_index(sid):
+def scene_index(sid, source=None):
+    """Scene number inside its source file: ids are the file stem, or stem_k for multi-scene files."""
+    if source is not None and Path(source).stem == sid:
+        return 0
     return int(sid.rsplit("_", 1)[1]) if "_" in sid and sid.rsplit("_", 1)[1].isdigit() else 0
 
 

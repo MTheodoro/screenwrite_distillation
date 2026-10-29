@@ -5,6 +5,7 @@ import { AutoTokenizer, AutoModelForSequenceClassification, env } from "@hugging
 
 const NONE_NAME = "nobody (setting)";
 
+// modelId: "who-xenc" (bert-mini, 12 MB, more accurate) or "who-xenc-lite" (bert-tiny, 5 MB, ~3x faster).
 export async function loadXenc({ localPath, modelId = "who-xenc", margin = 0.3, topk = 3 } = {}) {
   env.allowRemoteModels = false;
   env.localModelPath = localPath;

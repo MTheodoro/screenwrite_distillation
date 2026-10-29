@@ -71,9 +71,11 @@ def macro_f1(y, p, k=8):
     return float(np.mean(fs)) if fs else 0.0
 
 
-def run(bundle, xenc=False):
+def run(bundle, xenc=False, prefix=None):
     gold = DS.gold_scene_labels()
-    reqs = [{"scene_id": s, "source": g["d"]["source"], "index": DS.scene_index(s), "beats": g["beats"]} for s, g in gold.items()]
+    if prefix is not None:  # "pd_" = public-domain plays only, "s" = synthetic only
+        gold = {k: v for k, v in gold.items() if k.startswith(prefix)}
+    reqs = [{"scene_id": s, "source": g["d"]["source"], "index": DS.scene_index(s, g["d"]["source"]), "beats": g["beats"]} for s, g in gold.items()]
     cmd = ["node", str(L.ROOT / "tools/analyzers/predict.mjs")] + ([str(bundle)] if bundle else []) + (["--xenc"] if xenc else [])
     res = subprocess.run(cmd, input="".join(json.dumps(r) + "\n" for r in reqs), capture_output=True, text=True, check=True)
     preds = {d["scene_id"]: d for d in map(json.loads, res.stdout.splitlines())}
@@ -157,7 +159,8 @@ if __name__ == "__main__":
     ap.add_argument("--bundle", default=None)
     ap.add_argument("--out", default=str(L.DATA / "bench.md"))
     ap.add_argument("--xenc", action="store_true")
+    ap.add_argument("--prefix", default=None)
     a = ap.parse_args()
-    md = run(Path(a.bundle) if a.bundle else None, a.xenc)
+    md = run(Path(a.bundle) if a.bundle else None, a.xenc, a.prefix)
     Path(a.out).write_text(md + "\n")
     print(md)

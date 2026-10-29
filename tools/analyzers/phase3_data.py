@@ -34,7 +34,7 @@ def cand_name(d, c):
 
 
 def predictions(labels, bundle):
-    reqs = [{"scene_id": s, "source": g["d"]["source"], "index": DS.scene_index(s), "beats": []} for s, g in labels.items()]
+    reqs = [{"scene_id": s, "source": g["d"]["source"], "index": DS.scene_index(s, g["d"]["source"]), "beats": []} for s, g in labels.items()]
     res = subprocess.run(["node", str(L.ROOT / "tools/analyzers/predict.mjs"), str(bundle)],
                          input="".join(json.dumps(r) + "\n" for r in reqs), capture_output=True, text=True, check=True)
     return {p["scene_id"]: p for p in map(json.loads, res.stdout.splitlines())}
@@ -73,12 +73,14 @@ def main():
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     bundle = L.ROOT / "public/models/analyzers.json"
-    gold = DS.gold_scene_labels()
-    train = {k: v for k, v in DS.train_scene_labels().items() if k not in gold}
+    gold = {k: v for k, v in DS.gold_scene_labels().items() if not k.startswith("pd_")}  # synthetic gold, comparable
+    train = {k: v for k, v in DS.train_scene_labels().items() if k not in DS.gold_scene_labels()}
     for name, labels, tag in (("gold", gold, "gold"), ("train", train, "train")):
         preds = predictions(labels, bundle)
         feats = DS.features(DS.requests_for(labels), tag)
         rows = pairs_for(labels, preds, feats, a.margin, a.topk)
+        if name == "train":  # upweight real-text excerpts by repetition (x4, as in Phase 1)
+            rows += [r for r in rows if r["scene_id"].startswith("pt_")] * 3
         if name == "train":
             sids = sorted({r["scene_id"] for r in rows})
             random.Random(0).shuffle(sids)
