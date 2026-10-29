@@ -4,3 +4,4 @@ data/analyzers/*
 node_modules/
 __pycache__/
 test/perf/scenes.json
+screenwrite-analyzers.zip
