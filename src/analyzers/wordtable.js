@@ -13,17 +13,26 @@ export function loadTable(t) {
   return t;
 }
 
+export function tokenize(text) {
+  return text.toLowerCase().match(TOKEN) || [];
+}
+
 export function scoreTable(t, text) {
+  return scoreTokens(t, tokenize(text));
+}
+
+// Score an already tokenized text (callers cache per-unit tokens and concatenate them for beats / scenes).
+export function scoreTokens(t, toks) {
   loadTable(t);
-  const n = t.classes.length, z = t.bias.slice();
-  const toks = text.toLowerCase().match(TOKEN) || [];
+  const n = t.classes.length, z = t.bias.slice(), idx = t.index, w = t.weights, sc = t.scale;
   const seen = new Set();
   const add = (g) => {
     if (seen.has(g)) return;
     seen.add(g);
-    const k = t.index.get(g);
+    const k = idx.get(g);
     if (k === undefined) return;
-    for (let c = 0; c < n; c++) z[c] += t.scale * t.weights[k * n + c];
+    const o = k * n;
+    for (let c = 0; c < n; c++) z[c] += sc * w[o + c];
   };
   for (let k = 0; k < toks.length; k++) { add(toks[k]); if (k + 1 < toks.length) add(toks[k] + " " + toks[k + 1]); }
   let mx = -Infinity;

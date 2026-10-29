@@ -34,6 +34,9 @@ def slots(gold, spec):
     return out
 
 
+ARGS = None
+
+
 def set_match(pred, gold, spec, actor):
     gs = slots(gold, spec)
     if actor:
@@ -171,6 +174,7 @@ if __name__ == "__main__":
     ap.add_argument("--emo-cm", action="store_true")
     ap.add_argument("--tiny", action="store_true", help="plain-JS tiny BERT refiner (who-tiny.bin)")
     a = ap.parse_args()
+    ARGS = a
     md = run(Path(a.bundle) if a.bundle else None, a.xenc, a.prefix, a.tiny)
     Path(a.out).write_text(md + "\n")
     print(md)

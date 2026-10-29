@@ -2,7 +2,8 @@
 // Feature order is defined by the *_FEATURES arrays; models and Python export depend on it.
 import EMO_TABLE from "./emotable.js";
 import KIND_TABLE from "./kindtable.js";
-import { scoreTable } from "./wordtable.js";
+import BEAT_CUE from "./beatcue.js";
+import { scoreTable, scoreTokens, tokenize } from "./wordtable.js";
 import { buildCast, presence, speakerId, pronounClass } from "./cast.js";
 import { LEX, EMOTIONS, lexCount, count, NEGATION, INTENSIFIER, GROUP_ADDR, CUT_WORDS, IMPERATIVE } from "./lexicon.js";
 
@@ -110,6 +111,75 @@ export const BOUNDARY_FEATURES = ["prevA", "prevD", "curA", "curD", "paraStart",
   "exitPrev", "introHere", "cutWord", "prevQuestion", "mentionJacc", "emoShift", "dialogueRun", "sentInPara",
   "curWords", "prevWords", "posInScene", "curHasName", "curStartsPronoun", "tensionDelta", "imperative", "prevExclaim",
   "prevInterrupted", "parenHere"];
+
+// Dramatic beats (beat2): the unit features plus window comparisons (W content units before vs from here) and the
+// distance from the previous boundary (filled in during sequential decoding).
+export const BEAT2_FEATURES = [...BOUNDARY_FEATURES, "topicJacc", "castJacc", "emoDist", "tensionShift", "dlgShareShift",
+  "prevQuestions", "newCastAhead", "sinceLast", "sinceLastParas", "kindShift", "beatCue", "beatCuePrev", "beatCueNext"];
+// Learned beat-start cue (beat_cue_table.py): this unit's words, the end of the previous unit, both kinds.
+function beatCue(ctx, k) {
+  ctx._cue ??= new Map();
+  if (!ctx._cue.has(k)) {
+    const i = ctx.content[k], p = k > 0 ? ctx.content[k - 1] : -1;
+    if (i === undefined || k === 0) { ctx._cue.set(k, 0); return 0; }
+    const toks = ["__k" + ctx.units[i].kind[0], "__pk" + ctx.units[p].kind[0], ...unitTokens(ctx, i),
+      ...unitTokens(ctx, p).slice(-4).map((w) => "__p" + w)];
+    ctx._cue.set(k, scoreTokens(BEAT_CUE, toks)[1]);
+  }
+  return ctx._cue.get(k);
+}
+const STOP = new Set("that this with from have they them their there what when where which while will would could should about into your just like been were then than over back down only also even still some very".split(" "));
+function contentWords(ctx, i) {
+  ctx._cw ??= new Map();
+  if (!ctx._cw.has(i)) ctx._cw.set(i, new Set((ctx.units[i].text.toLowerCase().match(/[a-z]{4,}/g) || []).filter((w) => !STOP.has(w))));
+  return ctx._cw.get(i);
+}
+function unitCast(ctx, i) {
+  const s = new Set(ctx.cast.mentions[i].map((m) => m.c));
+  if (ctx.units[i].kind === "dialogue" && ctx.speaker[i] >= 0) s.add(ctx.speaker[i]);
+  return s;
+}
+const jacc = (a, b) => { let n = 0; for (const x of a) if (b.has(x)) n++; const u = a.size + b.size - n; return u ? n / u : 1; };
+// Lowercased tokens of a unit's text (cached; beat and scene texts are concatenations of these).
+export function unitTokens(ctx, i) {
+  ctx._tok ??= new Map();
+  if (!ctx._tok.has(i)) ctx._tok.set(i, tokenize(ctx.units[i].text));
+  return ctx._tok.get(i);
+}
+// Emotion word-table probabilities of a unit (text + parentheticals), computed once per unit.
+export function unitEmoTable(ctx, i) {
+  ctx._et ??= new Map();
+  if (!ctx._et.has(i)) {
+    const u = ctx.units[i];
+    const par = (u.paren || []).join(" ");
+    ctx._et.set(i, scoreTokens(EMO_TABLE, [u.kind === "dialogue" ? "d" : "a", ...unitTokens(ctx, i), ...(par ? tokenize(par) : [])]));
+  }
+  return ctx._et.get(i);
+}
+export function beat2Features(ctx, i, sinceLast = 0, sinceLastParas = 0) {
+  const k = ctx.content.indexOf(i), W = 4;
+  const before = ctx.content.slice(Math.max(0, k - W), k), after = ctx.content.slice(k, k + W);
+  const union = (idx, f) => { const s = new Set(); for (const j of idx) for (const x of f(ctx, j)) s.add(x); return s; };
+  const mean = (idx) => { const m = new Array(8).fill(0); for (const j of idx) unitEmoTable(ctx, j).forEach((v, c) => { m[c] += v / idx.length; }); return m; };
+  const eb = before.length ? mean(before) : null, ea = mean(after);
+  const tl = (idx) => idx.reduce((s, j) => s + unitTensionLex(ctx, j), 0) / Math.max(1, idx.length);
+  const dl = (idx) => idx.filter((j) => ctx.units[j].kind === "dialogue").length / Math.max(1, idx.length);
+  const castB = union(before, unitCast), castA = union(after, unitCast);
+  const kindOf = (j) => (ctx.units[j].kind === "dialogue" ? 1 : 0);
+  return [
+    ...boundaryBase(ctx, i),
+    before.length ? jacc(union(before, contentWords), union(after, contentWords)) : 1,
+    before.length ? jacc(castB, castA) : 1,
+    eb ? eb.reduce((s, v, c) => s + Math.abs(v - ea[c]), 0) : 0,
+    tl(after) - tl(before),
+    dl(after) - dl(before),
+    before.filter((j) => /\?/.test(ctx.units[j].text)).length,
+    [...castA].filter((c) => !castB.has(c)).length,
+    sinceLast, sinceLastParas,
+    before.length ? Math.abs(before.map(kindOf).reduce((a, b) => a + b, 0) / before.length - after.map(kindOf).reduce((a, b) => a + b, 0) / after.length) : 0,
+    beatCue(ctx, k), beatCue(ctx, k - 1), beatCue(ctx, k + 1),
+  ];
+}
 
 function tensionLex(t) { return lexCount(t, "threat") + lexCount(t, "conflict") + lexCount(t, "urgency") - lexCount(t, "calm"); }
 function unitTensionLex(ctx, i) {
@@ -556,7 +626,7 @@ function emotionBase(ctx, i, prevEmo) {
     count(NEGATION, t), count(INTENSIFIER, t), count(/!/g, t), count(/\?/g, t), count(/\.\.\.|…/g, t),
     /(--|—)\s*$/.test(t) ? 1 : 0, count(/\b[A-Z]{3,}\b/g, t), log1p(words(t)), prevEmo,
     lexCount(t, "threat"), lexCount(t, "calm"),
-    ...scoreTable(EMO_TABLE, (u.kind === "dialogue" ? "d " : "a ") + t + (par ? " " + par : "")),
+    ...unitEmoTable(ctx, i),
   ];
 }
 

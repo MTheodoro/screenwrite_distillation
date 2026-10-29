@@ -183,6 +183,17 @@ def train(use_emb=False, out_path=None):
     meta["emb"] = bool(use_emb)
     out = {"version": 1, "meta": meta, "models": models}
     out_path = out_path or (L.ROOT / "public" / "models" / ("analyzers-emb.json" if use_emb else "analyzers.json"))
+    # keep the models other trainers add to the same bundle (train_beats2 / mood_train / summary_train)
+    if out_path.exists():
+        prev = json.loads(out_path.read_text())
+        for k in ("beat2", "mood", "keyline"):
+            if k in prev.get("models", {}):
+                models[k] = prev["models"][k]
+        for k in ("beat2", "mood"):
+            if k in prev.get("meta", {}):
+                meta[k] = prev["meta"][k]
+        if "tables" in prev:
+            out["tables"] = prev["tables"]
     out_path.write_text(json.dumps(out, separators=(",", ":")))
     if not use_emb:  # shipped form: an ES module bundled with the app, so loading never touches the network
         js = L.ROOT / "src" / "analyzers" / "weights.js"

@@ -2,10 +2,12 @@
 // Pure functions; runs in the Web Worker (and in Node for benchmarks/tests).
 import {
   sceneContext, boundaryFeatures, addrCandidates, addrFeatures, emotionFeatures,
-  unitTensionFeatures, attachEmbedder, SPECIAL, ruleActors, lineKind,
+  unitTensionFeatures, attachEmbedder, SPECIAL, ruleActors, lineKind, beat2Features, unitTokens,
 } from "./rules.js";
 import { explicitEmotion } from "./lexicon.js";
 import { describeScene } from "./describe.js";
+import { scoreTokens } from "./wordtable.js";
+import { summarizeBeat } from "./summarize.js";
 
 // Trees are packed once into typed arrays (one set per model) for cache-friendly evaluation.
 function pack(m) {
@@ -76,10 +78,18 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
     if (!embedder) throw new Error("this model bundle needs the embedding table");
     attachEmbedder(ctx, embedder);
   }
-  const beats = [];
-  ctx.content.forEach((i, k) => {
-    if (k === 0 || predictRaw(models.boundary, boundaryFeatures(ctx, i)) > meta.boundary.threshold) beats.push(i);
-  });
+  let beats = [];
+  if (models.beat2 && ctx.content.length) {
+    // Dramatic beats (a turn in the scene), see decodeBeats2TopK; meta.beat2.threshold "kN" = N content units per beat.
+    const b2 = meta.beat2 || {};
+    const thr = String(b2.threshold ?? "k7");
+    beats = thr.startsWith("k") ? decodeBeats2TopK(ctx, models.beat2, Number(thr.slice(1)), b2.minLen ?? 3)
+      : decodeBeats2(ctx, models.beat2, Number(thr), b2.minLen ?? 3);
+  } else {
+    ctx.content.forEach((i, k) => {
+      if (k === 0 || predictRaw(models.boundary, boundaryFeatures(ctx, i)) > meta.boundary.threshold) beats.push(i);
+    });
+  }
   const groups = beats.map((b, k) => ctx.content.filter((i) => i >= b && (k + 1 >= beats.length || i < beats[k + 1])));
   const result = {
     cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name, names: c.names, gender: c.gender })),
@@ -105,6 +115,7 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
   for (const i of ctx.content) {
     const x = emotionFeatures(ctx, i);
     const ep = predictRaw(models.emo, x);
+    (ctx._emoP ??= new Map()).set(i, ep);
     let best = 0;
     for (let k = 1; k < ep.length; k++) if (ep[k] > ep[best]) best = k;
     let emo = meta.emo.classes[best], inten = Math.max(0, Math.min(1, predictRaw(models.emo_int, x)));
@@ -115,12 +126,74 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
     }
     result.lines[i].emo = [emo, inten];
   }
-  result.beatMood = beatMood(result, ctx.content);
+  result.beatMood = bundle.tables?.mood && models.mood ? beatMood2(ctx, result, bundle) : beatMood(result, ctx.content);
+  if (models.keyline) {
+    result.beatSummaries = groups.map((g, k) => summarizeBeat(ctx, g, result, k, models.keyline, predictRaw).text);
+  }
   if (bundle.describe) {
     yield result;
     describeScene(ctx, scene, result, bundle.describe);
   }
   return result;
+}
+
+// Beat mood (stacked): beat and scene word tables (6 families) + position -> trees pick the family; the fine table
+// picks the mood within it; intensity 1-5 follows the beat's tension. Text + signals mirror mood_table.py beat_text.
+const EXPL = { anger: /\b(angry|furious|rage|hate|yell|shout|scream|slam|fuck|damn)\w*/gi, fear: /\b(afraid|scared|terrif|panic|trembl|fear)\w*/gi,
+  sad: /\b(cry|cries|tears|sob|grief|mourn|funeral|sad|miss)\w*/gi, joy: /\b(laugh|grin|smile|cheer|celebrat|happy)\w*/gi,
+  tender: /\b(hug|kiss|hold|gentle|soft|love|darling)\w*/gi, threat: /\b(gun|knife|blood|kill|dead|shoot|bomb|threat)\w*/gi };
+export function moodTokens(ctx, units) {
+  const us = units.filter((i) => ctx.units[i].kind === "action" || ctx.units[i].kind === "dialogue");
+  const txt = us.map((i) => ctx.units[i].text).join(" ");
+  const q = (txt.match(/\?/g) || []).length, e = (txt.match(/!/g) || []).length;
+  const d = us.filter((i) => ctx.units[i].kind === "dialogue").length / Math.max(1, us.length);
+  const sig = [q === 0 ? "__q0" : q <= 2 ? "__q1" : "__q3", e === 0 ? "__e0" : e <= 2 ? "__e1" : "__e3", d < 0.2 ? "__dlg0" : d < 0.6 ? "__dlg1" : "__dlg2"];
+  for (const [k, r] of Object.entries(EXPL)) { const n = (txt.match(r) || []).length; if (n) sig.push(`__${k}${Math.min(n, 3)}`); }
+  sig.push("__len" + (us.length <= 4 ? "s" : us.length <= 12 ? "m" : "l"));
+  const toks = sig;
+  for (const i of us) for (const t of unitTokens(ctx, i)) toks.push(t);
+  return toks;
+}
+// Beat aggregates of the line models for the mood trees: mean / max of the line emotion probabilities, tension of the
+// beat (mean, max, relative to the scene), dialogue share.
+export function moodAggregates(ctx, groups, bundle) {
+  const ut = unitTension(ctx, bundle);
+  const all = ctx.content.map((i) => ut.get(i));
+  const sceneMean = all.reduce((a, b) => a + b, 0) / Math.max(1, all.length);
+  return groups.map((g) => {
+    const mean = new Array(8).fill(0), max = new Array(8).fill(0);
+    for (const i of g) {
+      const p = ctx._emoP?.get(i) || predictRaw(bundle.models.emo, emotionFeatures(ctx, i));
+      p.forEach((v, c) => { mean[c] += v / g.length; max[c] = Math.max(max[c], v); });
+    }
+    const ts = g.map((i) => ut.get(i));
+    const tm = ts.reduce((a, b) => a + b, 0) / Math.max(1, ts.length);
+    return [...mean, ...max, tm, Math.max(...ts), tm - sceneMean, g.filter((i) => ctx.units[i].kind === "dialogue").length / Math.max(1, g.length)];
+  });
+}
+
+function beatMood2(ctx, result, bundle) {
+  const T = bundle.tables.mood, fams = bundle.meta.mood.families, famOf = bundle.meta.mood.family_of;
+  const b = result.beats;
+  const groups = b.map((s, k) => ctx.content.filter((i) => i >= s && (k + 1 >= b.length || i < b[k + 1])));
+  const ps = scoreTokens(T.scene, moodTokens(ctx, ctx.content));
+  const famProbs = (p) => fams.map((f) => p[T.scene.classes.indexOf(f)] ?? 0);
+  const psF = famProbs(ps);
+  const agg = bundle.meta.mood.agg ? moodAggregates(ctx, groups, bundle) : null;
+  return groups.map((g, k) => {
+    const toks = moodTokens(ctx, g);
+    const pbRaw = scoreTokens(T.beat, toks);
+    const pb = fams.map((f) => pbRaw[T.beat.classes.indexOf(f)] ?? 0);
+    const pf = predictRaw(bundle.models.mood, [...pb, ...psF, k / Math.max(1, groups.length - 1), ...(bundle.meta.mood.agg ? agg[k] : [])]);
+    let fam = 0;
+    for (let j = 1; j < pf.length; j++) if (pf[j] > pf[fam]) fam = j;
+    const family = fams[bundle.meta.mood.classes ? bundle.meta.mood.classes[fam] : fam];
+    const fine = scoreTokens(T.fine, toks);
+    let mood = null, best = -1;
+    T.fine.classes.forEach((m, j) => { if (famOf[m] === family && fine[j] > best) { best = fine[j]; mood = m; } });
+    const t = result.tension[k] ?? 0.5;
+    return { family, mood, intensity: Math.max(1, Math.min(5, 1 + Math.round(4 * t))), conf: pf[fam] };
+  });
 }
 
 // Mood per beat: the non-neutral emotion with the largest summed intensity over the beat's lines,
@@ -139,6 +212,35 @@ export function beatMood(result, content) {
     for (const [label, v] of sum) if (v > best[1]) best = [label, v];
     return best[0] === "neutral" ? best : [best[0], Math.min(1, best[1] / Math.max(1, units.length) * 2)];
   });
+}
+
+// Dramatic beats: greedy left-to-right decoding; a boundary needs p > threshold and at least minLen content units
+// since the previous one (sinceLast / paragraphs-since-last are features, so decoding is sequential).
+export function decodeBeats2(ctx, m, threshold = 0.5, minLen = 2) {
+  const beats = [ctx.content[0]];
+  let last = 0, paras = 0;
+  for (let k = 1; k < ctx.content.length; k++) {
+    const i = ctx.content[k];
+    if (k - last >= minLen && predictRaw(m, beat2Features(ctx, i, k - last, paras)) > threshold) { beats.push(i); last = k; paras = 0; }
+    else if (ctx.units[i].kind === "action" && ctx.units[i].sent === 0) paras++;
+  }
+  return beats;
+}
+
+// Alternative decoding: score every candidate once (sinceLast taken as the distance from the previous candidate
+// paragraph start), then keep the top round(n / unitsPerBeat) with at least minLen units between boundaries.
+export function decodeBeats2TopK(ctx, m, unitsPerBeat = 7, minLen = 2, floor = 0.05) {
+  const n = ctx.content.length;
+  const k = Math.max(0, Math.round(n / unitsPerBeat) - 1);
+  const sc = [];
+  for (let j = 1; j < n; j++) sc.push([predictRaw(m, beat2Features(ctx, ctx.content[j], Math.min(j, unitsPerBeat), 1)), j]);
+  sc.sort((a, b) => b[0] - a[0]);
+  const chosen = [0];
+  for (const [p, j] of sc) {
+    if (chosen.length > k || p < floor) break;
+    if (chosen.every((c) => Math.abs(c - j) >= minLen)) chosen.push(j);
+  }
+  return chosen.sort((a, b) => a - b).map((j) => ctx.content[j]);
 }
 
 export function unitLines(scene) {
