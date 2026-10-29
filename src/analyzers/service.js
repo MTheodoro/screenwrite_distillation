@@ -2,7 +2,7 @@
 // The worker glue (worker.js) supplies storage (IndexedDB) and the weight loader (fetch + Cache API).
 import { parse } from "./fountain.js";
 import { analyzeRules } from "./rules.js";
-import { analyzeModel } from "./model.js";
+import { analyzeModelStages } from "./model.js";
 import { sceneContext, actorCandidates } from "./rules.js";
 
 export const ANALYZER_VERSION = "1";
@@ -56,8 +56,10 @@ export class AnalyzerService {
 
   key(hash) { return `${ANALYZER_VERSION}:${this.bundle ? (this.refiner ? "x" : "m") : "r"}:${hash}`; }
 
-  analyzeScene(scene) {
-    return this.bundle ? analyzeModel(scene, this.bundle) : analyzeRules(scene);
+  // Generator: one stage per scheduled task, so no single task blocks the worker for long.
+  *analyzeScene(scene) {
+    if (!this.bundle) return analyzeRules(scene);
+    return yield* analyzeModelStages(scene, this.bundle);
   }
 
   // Called with the full script text (debounced by the caller). Returns scene hashes in order; results
@@ -89,7 +91,10 @@ export class AnalyzerService {
       const it = this.queue.shift();
       if (!it) { this.running = false; return; }
       if (it.gen === this.generation) {
-        const r = this.analyzeScene(it.scene);
+        it.stages ??= this.analyzeScene(it.scene);
+        const st = it.stages.next();
+        if (!st.done) { this.queue.unshift(it); this.schedule(step); return; } // more stages: yield first
+        const r = st.value;
         const k = this.key(it.hash);
         if (!this.refiner) {
           this.mem.set(k, r);

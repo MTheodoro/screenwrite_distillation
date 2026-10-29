@@ -2,7 +2,13 @@
 <script type="module">
 const texts = await (await fetch("./scenes.json")).json();
 const script = texts.slice(0, 95).join("\n\n");
-const w = new Worker("./perf-worker.js", { type: "module" });
-w.onmessage = (e) => { window.__result = e.data; };
-w.postMessage({ texts, script });
+if (location.search.includes("main")) {
+  // CDP CPU throttling applies to the page's main thread, not to dedicated workers: measure here for throttled runs.
+  const { run } = await import("./perf-worker.js");
+  window.__result = await run({ texts, script });
+} else {
+  const w = new Worker("./perf-worker.js", { type: "module" });
+  w.onmessage = (e) => { window.__result = e.data; };
+  w.postMessage({ texts, script });
+}
 </script>

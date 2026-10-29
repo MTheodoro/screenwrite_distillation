@@ -94,3 +94,21 @@ Rule verdict: weighted sum of normalised signals.
   Tension: 3 passes on the majority beats; pairs kept only if all 3 agree.
 - Spend: subagents have no per-call bill; `spend.py` prices their real token usage at API rates so the
   250 USD plan stays enforceable.
+
+## Results (gold: 116 scenes, 3 Opus passes, unanimous labels)
+
+| Metric | Rules | Phase 1 model | + Phase 3 cross-encoder |
+|---|---|---|---|
+| Beat boundary F1 exact / ±1 | 0.63 / 0.82 | 0.83 / 0.90 | |
+| Who exact / top-1 | 80.5% / 82.7% | 81.1% / 85.2% | 86.0% / 90.3% |
+| Addressee exact | 77.9% | 83.6% | |
+| Emotion acc / macro-F1 | 65.6% / 0.22 | 70.9% / 0.25 (0.29 with Phase 2 embeddings) | |
+| Tension pairs within / across scenes | 55.6% / 51.4% | 84.0% / 69.2% | |
+
+Shipped weights: `public/models/analyzers.json` (0.4 MB, Phase 1), `who-xenc/` (12 MB int8 ONNX, Phase 3, lazy),
+`embed.bin` (1.2 MB, Phase 2, optional; only emotion gains).
+
+Latency, headless Chromium, 4x CPU throttle (`tools/analyzers/perf_browser.mjs`): model stage p50 4.5 ms /
+p95 10 ms / max ~22 ms; whole edited scene p50 ~17 ms; cold ~135-page script: rules 0.52 s, model 1.2 s.
+Cross-encoder pass: ~31 ms/scene mean (unthrottled, Node), run after the fast result is delivered.
+Note: CDP throttling does not apply to dedicated workers, so throttled numbers are measured on the main thread.

@@ -28,7 +28,8 @@ PARAMS = dict(n_estimators=150, learning_rate=0.08, num_leaves=15, max_depth=5, 
 # (actor/addressee run for every candidate) or the 8-class emotion model (8 trees per round).
 SMALL = dict(n_estimators=70, learning_rate=0.15)
 P_SMALL = {**PARAMS, **SMALL}
-P_EMO = {**PARAMS, "n_estimators": 40, "learning_rate": 0.2}
+P_EMO = {**PARAMS, "n_estimators": 25, "learning_rate": 0.28}
+P_TENSION = {**PARAMS, "n_estimators": 100, "learning_rate": 0.11}
 
 
 def split_scenes(sids, frac=0.15, seed=0):
@@ -155,7 +156,7 @@ def train(use_emb=False, out_path=None):
     if pp:
         s = fit_bt(pp, items)
         ys = np.array([s[(sid, int(k))] for sid, k in zip(T["sid"], T["k"])])
-        reg = lgb.LGBMRegressor(**PARAMS).fit(T["X"], ys)
+        reg = lgb.LGBMRegressor(**P_TENSION).fit(T["X"], ys)
         pred = reg.predict(T["X"])
         models["tension"] = dump(reg, "regression")
         meta["tension"] = {"lo": float(np.percentile(pred, 2)), "hi": float(np.percentile(pred, 98)), "pairs": len(pp)}

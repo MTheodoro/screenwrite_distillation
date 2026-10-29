@@ -62,43 +62,53 @@ function decodeSet(cands, probs, tau) {
   return { ids, conf: p0, runnerUp: order[1]?.[1] ?? null, margin: p0 - (order[1]?.[0] ?? 0) };
 }
 
+// Analysis runs in three stages so the worker can yield between them (each stays well under a frame):
+// 1. beats + tension, 2. who / addressee, 3. emotion. analyzeModel runs all three at once.
 // embedder: required when the bundle was trained with embedding features (meta.emb), see embed.js.
-export function analyzeModel(scene, bundle, embedder = null) {
+export function* analyzeModelStages(scene, bundle, embedder = null) {
   const { models, meta } = bundle;
   const ctx = sceneContext(scene);
   if (meta.emb) {
     if (!embedder) throw new Error("this model bundle needs the embedding table");
     attachEmbedder(ctx, embedder);
   }
-  const ext = (x) => x;
-  // beats
   const beats = [];
   ctx.content.forEach((i, k) => {
-    if (k === 0) { beats.push(i); return; }
-    if (predictRaw(models.boundary, ext(boundaryFeatures(ctx, i), i)) > meta.boundary.threshold) beats.push(i);
+    if (k === 0 || predictRaw(models.boundary, boundaryFeatures(ctx, i)) > meta.boundary.threshold) beats.push(i);
   });
-  const lines = {};
+  const groups = beats.map((b, k) => ctx.content.filter((i) => i >= b && (k + 1 >= beats.length || i < beats[k + 1])));
+  const result = {
+    cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name, names: c.names, gender: c.gender })),
+    beats, lines: {}, tension: scoreBeats(ctx, groups, bundle),
+  };
+  yield result;
   for (const i of ctx.content) {
-    const u = ctx.units[i];
-    const ep = predictRaw(models.emo, ext(emotionFeatures(ctx, i), i));
-    let best = 0;
-    for (let k = 1; k < ep.length; k++) if (ep[k] > ep[best]) best = k;
-    const emo = [meta.emo.classes[best], Math.max(0, Math.min(1, predictRaw(models.emo_int, ext(emotionFeatures(ctx, i), i))))];
-    if (u.kind === "action") {
+    if (ctx.units[i].kind === "action") {
       const cands = actorCandidates(ctx, i);
-      const probs = cands.map((c) => predictRaw(models.actor, ext(actorFeatures(ctx, i, c), i)));
-      const d = decodeSet(cands, probs, meta.actor.tau);
-      lines[i] = { who: d.ids, conf: d.conf, margin: d.margin, runnerUp: d.runnerUp, emo };
+      const d = decodeSet(cands, cands.map((c) => predictRaw(models.actor, actorFeatures(ctx, i, c))), meta.actor.tau);
+      result.lines[i] = { who: d.ids, conf: d.conf, margin: d.margin, runnerUp: d.runnerUp };
     } else {
       const cands = addrCandidates(ctx, i);
-      const probs = cands.map((c) => predictRaw(models.addr, ext(addrFeatures(ctx, i, c), i)));
-      const d = decodeSet(cands, probs, meta.addr.tau);
-      lines[i] = { speaker: ctx.speaker[i], to: d.ids, conf: d.conf, margin: d.margin, emo };
+      const d = decodeSet(cands, cands.map((c) => predictRaw(models.addr, addrFeatures(ctx, i, c))), meta.addr.tau);
+      result.lines[i] = { speaker: ctx.speaker[i], to: d.ids, conf: d.conf, margin: d.margin };
     }
   }
-  const groups = beats.map((b, k) => ctx.content.filter((i) => i >= b && (k + 1 >= beats.length || i < beats[k + 1])));
-  const tension = scoreBeats(ctx, groups, bundle);
-  return { cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name, names: c.names, gender: c.gender })), beats, lines, tension };
+  yield result;
+  for (const i of ctx.content) {
+    const x = emotionFeatures(ctx, i);
+    const ep = predictRaw(models.emo, x);
+    let best = 0;
+    for (let k = 1; k < ep.length; k++) if (ep[k] > ep[best]) best = k;
+    result.lines[i].emo = [meta.emo.classes[best], Math.max(0, Math.min(1, predictRaw(models.emo_int, x)))];
+  }
+  return result;
+}
+
+export function analyzeModel(scene, bundle, embedder = null) {
+  const it = analyzeModelStages(scene, bundle, embedder);
+  let r = it.next();
+  while (!r.done) r = it.next();
+  return r.value;
 }
 
 // Tension is predicted per content unit (windowed features); a beat's score is the mean of its units.

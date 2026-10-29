@@ -218,10 +218,26 @@ function candRecency(ctx, i, c) {
   return a < 0 ? 99 : i - a;
 }
 
+// At most MAX_CANDS characters per line: everyone named in the line, then the most recently seen. Keeps the
+// per-candidate scorers cheap in big scenes; memoised per unit.
+const MAX_CANDS = 4;
+function capCandidates(ctx, i, set, must) {
+  let ids = [...set];
+  if (ids.length > MAX_CANDS) {
+    const keep = ids.filter((c) => must.has(c));
+    const rest = ids.filter((c) => !must.has(c)).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
+    ids = keep.concat(rest).slice(0, Math.max(MAX_CANDS, keep.length));
+  }
+  return ids.sort((a, b) => a - b);
+}
+
 export function actorCandidates(ctx, i) {
+  ctx._actorCands ??= [];
+  if (ctx._actorCands[i]) return ctx._actorCands[i];
   const set = new Set(ctx.pres[i]);
-  for (const m of ctx.cast.mentions[i]) set.add(m.c);
-  return [SPECIAL.NONE, ...[...set].sort((a, b) => a - b)];
+  const named = new Set(ctx.cast.mentions[i].map((m) => m.c));
+  for (const c of named) set.add(c);
+  return (ctx._actorCands[i] = [SPECIAL.NONE, ...capCandidates(ctx, i, set, named)]);
 }
 
 export function actorFeatures(ctx, i, c) {
@@ -317,13 +333,17 @@ function nameRe(ctx, c) {
 }
 
 export function addrCandidates(ctx, i) {
+  ctx._addrCands ??= [];
+  if (ctx._addrCands[i]) return ctx._addrCands[i];
   const sp = ctx.speaker[i];
   const set = new Set(ctx.pres[i]);
-  for (const m of ctx.cast.mentions[i]) set.add(m.c);
-  const ns = nextSpeaker(ctx, i, sp);
-  if (ns >= 0) set.add(ns);
-  set.delete(sp);
-  return [SPECIAL.ALL, SPECIAL.SELF, SPECIAL.NOBODY, ...[...set].sort((a, b) => a - b)];
+  const must = new Set(ctx.cast.mentions[i].map((m) => m.c));
+  for (const c of must) set.add(c);
+  const ns = nextSpeaker(ctx, i, sp), ps = prevSpeaker(ctx, i, sp);
+  if (ns >= 0) { set.add(ns); must.add(ns); }
+  if (ps >= 0) must.add(ps);
+  set.delete(sp); must.delete(sp);
+  return (ctx._addrCands[i] = [SPECIAL.ALL, SPECIAL.SELF, SPECIAL.NOBODY, ...capCandidates(ctx, i, set, must)]);
 }
 
 export function addrFeatures(ctx, i, c) {
