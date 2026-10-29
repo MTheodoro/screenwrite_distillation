@@ -17,7 +17,7 @@ const xenc = process.argv.includes("--xenc")
   : null;
 import { makeRefiner } from "../../src/analyzers/refine.js";
 const tiny = process.argv.includes("--tiny")
-  ? makeRefiner(readFileSync(new URL("../../public/models/who-tiny.bin", import.meta.url)), { margin: Number(process.env.XENC_MARGIN || 0.3) })
+  ? makeRefiner(readFileSync(new URL("../../models-archive/who-tiny.bin", import.meta.url)), { margin: Number(process.env.XENC_MARGIN || 0.3) })
   : null;
 const embedder = bundle?.meta.emb ? loadEmbedder(readFileSync(new URL("../../models-archive/embed.bin", import.meta.url))) : null;
 const cache = new Map();
