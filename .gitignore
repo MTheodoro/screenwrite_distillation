@@ -3,3 +3,4 @@ data/analyzers/*
 .venv/
 node_modules/
 __pycache__/
+test/perf/scenes.json

@@ -1,0 +1,8 @@
+<!doctype html><meta charset="utf-8"><title>analyzer perf</title>
+<script type="module">
+const texts = await (await fetch("./scenes.json")).json();
+const script = texts.slice(0, 95).join("\n\n");
+const w = new Worker("./perf-worker.js", { type: "module" });
+w.onmessage = (e) => { window.__result = e.data; };
+w.postMessage({ texts, script });
+</script>

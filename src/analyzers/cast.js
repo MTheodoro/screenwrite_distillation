@@ -25,8 +25,15 @@ export function pronounClass(w) {
   return null;
 }
 
+const keyCache = new Map();
 export function keyTokens(name) {
-  return name.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((t) => t && !TITLES.has(t));
+  let k = keyCache.get(name);
+  if (!k) {
+    k = name.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((t) => t && !TITLES.has(t));
+    if (keyCache.size > 5000) keyCache.clear();
+    keyCache.set(name, k);
+  }
+  return k;
 }
 
 function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }

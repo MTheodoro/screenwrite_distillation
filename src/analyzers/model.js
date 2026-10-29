@@ -24,10 +24,16 @@ function pack(m) {
   return m.packed;
 }
 
-function treeValue(p, root, x) {
-  let n = root;
-  while (p.f[n] >= 0) n = x[p.f[n]] <= p.v[n] ? p.l[n] : p.r[n];
-  return p.v[n];
+function sumTrees(p, x, from, step, out, k) {
+  const f = p.f, v = p.v, l = p.l, r = p.r, roots = p.roots;
+  let s = 0;
+  for (let i = from; i < roots.length; i += step) {
+    let n = roots[i];
+    let fi = f[n];
+    while (fi >= 0) { n = x[fi] <= v[n] ? l[n] : r[n]; fi = f[n]; }
+    s += v[n];
+  }
+  return s;
 }
 
 const sigmoid = (z) => 1 / (1 + Math.exp(-z));
@@ -36,7 +42,7 @@ export function predictRaw(m, x) {
   const p = pack(m);
   if (m.kind === "multiclass") {
     const k = m.num_class, out = new Float64Array(k);
-    for (let i = 0; i < p.roots.length; i++) out[i % k] += treeValue(p, p.roots[i], x);
+    for (let c = 0; c < k; c++) out[c] = sumTrees(p, x, c, k);
     let mx = -Infinity;
     for (const v of out) mx = Math.max(mx, v);
     let s = 0;
@@ -44,8 +50,7 @@ export function predictRaw(m, x) {
     for (let i = 0; i < k; i++) out[i] /= s;
     return out;
   }
-  let s = 0;
-  for (let i = 0; i < p.roots.length; i++) s += treeValue(p, p.roots[i], x);
+  const s = sumTrees(p, x, 0, 1);
   return m.kind === "binary" ? sigmoid(s) : s;
 }
 
