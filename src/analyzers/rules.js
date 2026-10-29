@@ -285,25 +285,35 @@ export function subjectless(ctx, i) {
   const ms = ctx.cast.mentions[i], prons = ctx.cast.pronouns[i];
   if ((ms.length && ms[0].lead) || (prons.length && prons[0].at <= 1)) return 0;
   const t = u.text.trim();
-  if (verbless(t) && !PLURAL_SUBJ.test(t) && words(t) <= 12) return 1; // descriptive fragment
-  if (DET.test(t)) return 0;
-  // Verb-first fragment ("Opens a folder.", "Chews.", "Then smiles."); a bare noun or adverb ("Cash.", "Radio hisses.",
-  // "Slowly.") has no actor.
-  // Continuations of the previous action line: "He looks at her. At the cart." / "Sees her. Doesn't say anything."
+  // Is this line continuing a character's action? (previous line is that character's action, in the same paragraph
+  // or a look / point / turn line: "He looks at her. / At the cart.")
   const prev = i > 0 ? ctx.units[i - 1] : null;
-  if (prev && prev.kind === "action" && (prev.para === u.para || /\b(looks?|points?|glances?|stares?|nods?|gestures?|turns?)\b/i.test(prev.text)) && words(t) <= 6 &&
-      (/^(?:then\s+)?(?:at|to|toward|towards|into|back to|over|down at|up at)\b/i.test(t) && !AUX.test(t) ||
-       /^(?:then\s+)?(?:doesn't|don't|can't|won't|isn't|hasn't|didn't|never|barely|almost|not)\b/i.test(t))) return 1;
+  const pa = prev && prev.kind === "action" ? prevActorOf(ctx, i) : null;
+  const cont = !!(pa && pa.ids.length && pa.dist === 1 && (prev.para === u.para || /\b(looks?|points?|glances?|stares?|nods?|gestures?|turns?|watches|studies)\b/i.test(prev.text)));
+  if (verbless(t) && !PLURAL_SUBJ.test(t) && words(t) <= 12) return 1; // descriptive fragment
+  if (cont && words(t) <= 6) {
+    if (/^(?:then,?\s+)?(?:at|to|toward|towards|into|back to|over|down at|up at|across)\b/i.test(t) && !AUX.test(t)) return 1;   // "At the butler."
+    if (/^(?:then,?\s+)?(?:doesn't|don't|can't|won't|isn't|hasn't|didn't|never|barely|almost|not)\b/i.test(t)) return 1;          // "Doesn't say anything."
+    if (/^then\b/i.test(t) && !/^then\s+(the|a|an|it|there|silence|nothing)\b/i.test(t)) return 1;                                  // "Then stops." / "Then another."
+    // short description of the character just shown: "Violent." "Red-rimmed." "Grey hood." "Phone in hand."
+    const w = t.replace(/[.!?…]+$/, "").split(/\s+/);
+    const adj = w.length <= 2 && w.every((x) => /^(?:[A-Z]?[a-z]+-)?[A-Za-z]+(?:ed|en|ful|less|ous|ive|y|al|ic|ish|er|ly|ing|ant|ent|ble)$/.test(x)) && !SETTING_NOUN.test(t);
+    const looks = w.length <= 5 && (LOOKS.test(t) || /\bin (hand|his hand|her hand|hands)\b/i.test(t)) && !SETTING_NOUN.test(t.replace(LOOKS, ""));
+    if ((adj || looks) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
+  }
+  if (DET.test(t)) return 0;
   // "exasperated." / "Rising." / "Smiles." after a speech; not "Rain." / "BEEP." / "Her phone."
-  if (words(t) <= 3 && i > 0 && ctx.units[i - 1].kind === "dialogue" && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t) &&
-      /^(?:[a-z]|[A-Z][a-z]+(?:s|ed|ing|ly)\b)/.test(t) && !/^[A-Z]+\W*$/.test(t)) return 1;
+  if (words(t) <= 3 && prev && prev.kind === "dialogue" && /^(?:[a-z]|[A-Z][a-z]+(?:s|ed|ing|ly)\b)/.test(t) && !/^[A-Z]+\W*$/.test(t)) return 1;
   if (/^(something|nothing|everything|someone|somebody|anything|anyone)\b/i.test(t)) return 0;
   const ws = t.replace(/^(then|and|but|now|still|again|just|finally|slowly|quickly|suddenly),?\s+/i, "").split(/\s+/);
   const w0 = ws[0] || "";
-  // "Forks clink." / "Blankets rustle." / "Headlights sweep across ..." = noun subject + verb, not a verb-first fragment
-  if (/^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[a-z]+$/.test(ws[1]) && !/^(to|the|a|an|his|her|their|its|at|up|down|back|away|out|in|on|off|over|into|from|with|it|him|them|me|us|toward|towards|across|through|slowly|quickly|again|for|around|behind|past|by|open|shut)$/.test(ws[1])) return 0;
+  // "Forks clink." / "Pens scratch." / "Headlights sweep across ..." = plural noun + base-form verb (a subject), unlike
+  // "Counts coins." (verb + plural object).
+  if (/^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[a-z]+$/.test(ws[1]) && !/s$/.test(ws[1]) && !/^(to|the|a|an|his|her|their|its|at|up|down|back|away|out|in|on|off|over|into|from|with|it|him|them|me|us|toward|towards|across|through|slowly|quickly|again|for|around|behind|past|by|open|shut|half|one|another|something|nothing)$/.test(ws[1])) return 0;
   if (/^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[A-Z]{2,}/.test(ws[1])) return 0; // "Something RATTLES"
-  return /^[A-Z]?[a-z]+(?<!s)(s|es|ed|ing)\b/.test(w0) && !/(ness|ss|us|is|ics)$/i.test(w0.replace(/\W+$/, "")) && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t) ? 1 : 0;
+  if (!cont && /^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[a-z]+$/.test(ws[1]) && !/^(to|the|a|an|his|her|their|its|at|up|down|back|away|out|in|on|off|over|into|from|with|it|him|them|me|us|toward|towards|across|through|slowly|quickly|again|for|around|behind|past|by|open|shut)$/.test(ws[1])) return 0;
+  // Verb-first fragment ("Opens a folder.", "Chews.", "Closes his eyes."); a bare noun or adverb has no actor.
+  return /^[A-Z]?[a-z]+(?<!s)(s|es|ed|ing)\b/.test(w0) && !/(ness|ss|us|is|ics)$/i.test(w0.replace(/\W+$/, "")) ? 1 : 0;
 }
 
 // Actor of the nearest previous action unit (rule verdict, memoised), with distance.
