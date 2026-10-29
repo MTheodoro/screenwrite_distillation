@@ -2,7 +2,7 @@
 // Pure functions; runs in the Web Worker (and in Node for benchmarks/tests).
 import {
   sceneContext, boundaryFeatures, actorCandidates, actorFeatures, addrCandidates, addrFeatures, emotionFeatures,
-  unitTensionFeatures, SPECIAL,
+  unitTensionFeatures, attachEmbedder, SPECIAL,
 } from "./rules.js";
 
 // Trees are packed once into typed arrays (one set per model) for cache-friendly evaluation.
@@ -57,11 +57,15 @@ function decodeSet(cands, probs, tau) {
   return { ids, conf: p0, runnerUp: order[1]?.[1] ?? null, margin: p0 - (order[1]?.[0] ?? 0) };
 }
 
-// emb: optional (unitIndex) -> Float32Array extra features (Phase 2). Appended to every feature row of that unit.
-export function analyzeModel(scene, bundle, emb = null) {
+// embedder: required when the bundle was trained with embedding features (meta.emb), see embed.js.
+export function analyzeModel(scene, bundle, embedder = null) {
   const { models, meta } = bundle;
   const ctx = sceneContext(scene);
-  const ext = (x, i) => (emb ? x.concat(Array.from(emb(i))) : x);
+  if (meta.emb) {
+    if (!embedder) throw new Error("this model bundle needs the embedding table");
+    attachEmbedder(ctx, embedder);
+  }
+  const ext = (x) => x;
   // beats
   const beats = [];
   ctx.content.forEach((i, k) => {
@@ -88,27 +92,25 @@ export function analyzeModel(scene, bundle, emb = null) {
     }
   }
   const groups = beats.map((b, k) => ctx.content.filter((i) => i >= b && (k + 1 >= beats.length || i < beats[k + 1])));
-  const tension = scoreBeats(ctx, groups, bundle, emb);
+  const tension = scoreBeats(ctx, groups, bundle);
   return { cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name, names: c.names })), beats, lines, tension };
 }
 
 // Tension is predicted per content unit (windowed features); a beat's score is the mean of its units.
-export function unitTension(ctx, bundle, emb = null) {
+export function unitTension(ctx, bundle) {
   if (ctx._unitTension) return ctx._unitTension;
   const feats = unitTensionFeatures(ctx);
   const m = new Map();
   ctx.content.forEach((i, k) => {
-    let x = feats[k];
-    if (emb) x = x.concat(Array.from(emb(i)));
-    m.set(i, predictRaw(bundle.models.tension, x));
+    m.set(i, predictRaw(bundle.models.tension, feats[k]));
   });
   ctx._unitTension = m;
   return m;
 }
 
-export function scoreBeats(ctx, groups, bundle, emb = null) {
+export function scoreBeats(ctx, groups, bundle) {
   const { lo, hi } = bundle.meta.tension;
-  const ut = unitTension(ctx, bundle, emb);
+  const ut = unitTension(ctx, bundle);
   const raw = groups.map((g) => g.reduce((s, i) => s + ut.get(i), 0) / Math.max(1, g.length));
   const norm = raw.map((v) => Math.max(0, Math.min(1, (v - lo) / (hi - lo || 1))));
   // light smoothing inside the scene: [0.2, 0.6, 0.2]

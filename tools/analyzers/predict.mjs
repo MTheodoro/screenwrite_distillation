@@ -6,7 +6,10 @@ import { parse } from "../../src/analyzers/fountain.js";
 import { analyzeRules, sceneContext, tensionFeatures, ruleTension } from "../../src/analyzers/rules.js";
 import { analyzeModel, scoreBeats } from "../../src/analyzers/model.js";
 
+import { loadEmbedder } from "../../src/analyzers/embed.js";
+import { attachEmbedder } from "../../src/analyzers/rules.js";
 const bundle = process.argv[2] ? JSON.parse(readFileSync(process.argv[2], "utf8")) : null;
+const embedder = bundle?.meta.emb ? loadEmbedder(readFileSync(new URL("../../public/models/embed.bin", import.meta.url))) : null;
 const cache = new Map();
 const sceneOf = (src, k) => {
   if (!cache.has(src)) cache.set(src, parse(readFileSync(src, "utf8")).scenes);
@@ -18,7 +21,7 @@ const groupsOf = (ctx, beats) => beats.map((b, k) => ctx.content.filter((i) => i
 const rl = createInterface({ input: process.stdin });
 const reqs = [];
 for await (const line of rl) if (line.trim()) reqs.push(JSON.parse(line));
-for (const r of reqs.slice(0, 5)) { const s = sceneOf(r.source, r.index); analyzeRules(s); if (bundle) analyzeModel(s, bundle); }
+for (const r of reqs.slice(0, 5)) { const s = sceneOf(r.source, r.index); analyzeRules(s); if (bundle) analyzeModel(s, bundle, embedder); }
 
 for (const r of reqs) {
   const scene = sceneOf(r.source, r.index);
@@ -30,8 +33,9 @@ for (const r of reqs) {
   const out = { scene_id: r.scene_id, rule, tRule, ruleTensionGold: gold.map((g) => ruleTension(tensionFeatures(ctx, g))) };
   if (bundle) {
     t = performance.now();
-    out.model = analyzeModel(scene, bundle);
+    out.model = analyzeModel(scene, bundle, embedder);
     out.tModel = performance.now() - t;
+    if (embedder) attachEmbedder(ctx, embedder);
     out.modelTensionGold = scoreBeats(ctx, gold, bundle);
   }
   process.stdout.write(JSON.stringify(out) + "\n");

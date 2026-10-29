@@ -61,6 +61,45 @@ function firstSpeechUnit(ctx, sp) {
   return ctx._firstSpeech.get(sp);
 }
 
+// ---------------- optional static embeddings (Phase 2) ----------------
+// attachEmbedder(ctx, embedder) enables extra features; without it every feature row is unchanged.
+export const EMB = { boundary: 16, actor: 16, addr: 16, emo: 64, tension: 32 };
+
+export function attachEmbedder(ctx, embedder) {
+  ctx._embedder = embedder;
+  ctx._emb = [];
+  return ctx;
+}
+
+function unitEmb(ctx, i) {
+  if (!ctx._emb[i]) {
+    const u = ctx.units[i];
+    ctx._emb[i] = ctx._embedder.embed(u.text + (u.paren && u.paren.length ? " " + u.paren.join(" ") : ""));
+  }
+  return ctx._emb[i];
+}
+
+function embHead(ctx, i, k) {
+  return Array.from(unitEmb(ctx, i).subarray(0, k));
+}
+
+function cosine(a, b) {
+  let ab = 0, aa = 0, bb = 0;
+  for (let d = 0; d < a.length; d++) { ab += a[d] * b[d]; aa += a[d] * a[d]; bb += b[d] * b[d]; }
+  return aa && bb ? ab / Math.sqrt(aa * bb) : 0;
+}
+
+export function featureNames(emb = false) {
+  const tail = (k, p) => (emb ? Array.from({ length: k }, (_, d) => `${p}${d}`) : []);
+  return {
+    boundary: [...BOUNDARY_FEATURES, ...(emb ? ["embCosPrev"] : []), ...tail(EMB.boundary, "e")],
+    actor: [...ACTOR_FEATURES, ...tail(EMB.actor, "e")],
+    addr: [...ADDR_FEATURES, ...tail(EMB.addr, "e")],
+    emo: [...EMO_FEATURES, ...tail(EMB.emo, "e")],
+    tension: [...TENSION_FEATURES, ...tail(EMB.tension, "e")],
+  };
+}
+
 // ---------------- beats ----------------
 
 export const BOUNDARY_FEATURES = ["prevA", "prevD", "curA", "curD", "paraStart", "speakerChange", "newSpeaker", "entrance",
@@ -75,6 +114,13 @@ function unitTensionLex(ctx, i) {
 }
 
 export function boundaryFeatures(ctx, i) {
+  const f = boundaryBase(ctx, i);
+  if (!ctx._embedder) return f;
+  const p = prevContent(ctx, i);
+  return f.concat([p >= 0 ? cosine(unitEmb(ctx, i), unitEmb(ctx, p)) : 1], embHead(ctx, i, EMB.boundary));
+}
+
+function boundaryBase(ctx, i) {
   const u = ctx.units[i];
   const p = prevContent(ctx, i);
   const pu = p >= 0 ? ctx.units[p] : null;
@@ -179,6 +225,11 @@ export function actorCandidates(ctx, i) {
 }
 
 export function actorFeatures(ctx, i, c) {
+  const f = actorBase(ctx, i, c);
+  return ctx._embedder ? f.concat(embHead(ctx, i, EMB.actor)) : f;
+}
+
+function actorBase(ctx, i, c) {
   const u = ctx.units[i];
   const ms = ctx.cast.mentions[i];
   const prons = ctx.cast.pronouns[i];
@@ -276,6 +327,11 @@ export function addrCandidates(ctx, i) {
 }
 
 export function addrFeatures(ctx, i, c) {
+  const f = addrBase(ctx, i, c);
+  return ctx._embedder ? f.concat(embHead(ctx, i, EMB.addr)) : f;
+}
+
+function addrBase(ctx, i, c) {
   const u = ctx.units[i];
   const sp = ctx.speaker[i];
   const text = u.text;
@@ -338,6 +394,11 @@ export const EMO_FEATURES = ["isDialogue", ...EMOTIONS.slice(1).map((e) => "lex_
   "threat", "calm"];
 
 export function emotionFeatures(ctx, i, prevEmo = null) {
+  const f = emotionBase(ctx, i, prevEmo);
+  return ctx._embedder && prevEmo !== -1 ? f.concat(embHead(ctx, i, EMB.emo)) : f;
+}
+
+function emotionBase(ctx, i, prevEmo) {
   const u = ctx.units[i];
   if (prevEmo === null) {
     prevEmo = -1;
@@ -400,6 +461,14 @@ function sceneDensity(ctx) {
 
 // beat = array of unit indices.
 export function tensionFeatures(ctx, beat, sceneThreatDensity = null) {
+  const f = tensionBase(ctx, beat, sceneThreatDensity);
+  if (!ctx._embedder) return f;
+  const m = new Float64Array(EMB.tension);
+  for (const i of beat) { const e = unitEmb(ctx, i); for (let d = 0; d < m.length; d++) m[d] += e[d]; }
+  return f.concat(Array.from(m, (v) => v / Math.max(1, beat.length)));
+}
+
+function tensionBase(ctx, beat, sceneThreatDensity) {
   const n = beat.length || 1;
   const density = sceneThreatDensity ?? sceneDensity(ctx);
   let W = 0, neg = 0, imp = 0, q = 0, ex = 0, intr = 0, short = 0, wsum = 0, caps = 0, you = 0, dlg = 0, switches = 0;

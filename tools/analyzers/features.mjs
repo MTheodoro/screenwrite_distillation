@@ -9,10 +9,15 @@ import {
   tensionFeatures, unitTensionFeatures, analyzeRules, BOUNDARY_FEATURES, ACTOR_FEATURES, ADDR_FEATURES, EMO_FEATURES, TENSION_FEATURES,
 } from "../../src/analyzers/rules.js";
 
-if (process.argv[2] === "--names") {
-  console.log(JSON.stringify({ boundary: BOUNDARY_FEATURES, actor: ACTOR_FEATURES, addr: ADDR_FEATURES, emo: EMO_FEATURES, tension: TENSION_FEATURES }));
+import { attachEmbedder, featureNames } from "../../src/analyzers/rules.js";
+import { loadEmbedder } from "../../src/analyzers/embed.js";
+
+const useEmb = process.argv.includes("--emb");
+if (process.argv.includes("--names")) {
+  console.log(JSON.stringify(featureNames(useEmb)));
   process.exit(0);
 }
+const embedder = useEmb ? loadEmbedder(readFileSync(new URL("../../public/models/embed.bin", import.meta.url))) : null;
 
 const cache = new Map();
 function sceneOf(source, index) {
@@ -28,6 +33,7 @@ for await (const line of rl) {
   const req = JSON.parse(line);
   const scene = sceneOf(req.source, req.index);
   const ctx = sceneContext(scene);
+  if (embedder) attachEmbedder(ctx, embedder);
   const out = { scene_id: req.scene_id, boundary: [], actor: [], addr: [], emo: [], tension: {}, rule: analyzeRules(scene) };
   for (const i of ctx.content) {
     out.boundary.push([i, boundaryFeatures(ctx, i)]);

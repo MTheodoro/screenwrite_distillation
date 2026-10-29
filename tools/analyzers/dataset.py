@@ -19,12 +19,13 @@ SPECIAL = {"ALL": ALL, "SELF": SELF, "NONE": NOBODY}
 EMOS = L.EMOTIONS
 
 
-def feature_names():
-    r = subprocess.run(["node", str(ROOT / "tools/analyzers/features.mjs"), "--names"], capture_output=True, text=True, check=True)
+def feature_names(emb=False):
+    r = subprocess.run(["node", str(ROOT / "tools/analyzers/features.mjs"), "--names"] + (["--emb"] if emb else []),
+                       capture_output=True, text=True, check=True)
     return json.loads(r.stdout)
 
 
-def features(requests, tag):
+def features(requests, tag, emb=False):
     """requests: list of {scene_id, source, beats:{name:[...]}}. Cached per tag."""
     FEAT_CACHE.mkdir(parents=True, exist_ok=True)
     path = FEAT_CACHE / f"{tag}.jsonl"
@@ -36,8 +37,8 @@ def features(requests, tag):
     todo = [r for r in requests if r["scene_id"] not in have]
     if todo:
         inp = "".join(json.dumps(r) + "\n" for r in todo)
-        res = subprocess.run(["node", str(ROOT / "tools/analyzers/features.mjs")], input=inp, capture_output=True,
-                             text=True, check=True)
+        res = subprocess.run(["node", str(ROOT / "tools/analyzers/features.mjs")] + (["--emb"] if emb else []),
+                             input=inp, capture_output=True, text=True, check=True)
         with path.open("a") as f:
             for l in res.stdout.splitlines():
                 d = json.loads(l)

@@ -106,11 +106,8 @@ def train(use_emb=False, out_path=None):
     labels = DS.train_scene_labels()
     gold = DS.gold_scene_labels()
     labels = {k: v for k, v in labels.items() if k not in gold}  # never train on gold scenes
-    feats = DS.features(DS.requests_for(labels), "train")
+    feats = DS.features(DS.requests_for(labels), "train_emb" if use_emb else "train", emb=use_emb)
     data = DS.build(labels, feats)
-    if use_emb:
-        import embed
-        data = embed.add_features(data, labels)
     models, meta = {}, {}
 
     # boundary
@@ -163,7 +160,7 @@ def train(use_emb=False, out_path=None):
         models["tension"] = dump(reg, "regression")
         meta["tension"] = {"lo": float(np.percentile(pred, 2)), "hi": float(np.percentile(pred, 98)), "pairs": len(pp)}
     meta["counts"] = {k: int(len(v["X"])) for k, v in data.items()}
-    meta["features"] = DS.feature_names()
+    meta["features"] = DS.feature_names(use_emb)
     meta["emb"] = bool(use_emb)
     out = {"version": 1, "meta": meta, "models": models}
     out_path = out_path or (L.ROOT / "public" / "models" / ("analyzers-emb.json" if use_emb else "analyzers.json"))
