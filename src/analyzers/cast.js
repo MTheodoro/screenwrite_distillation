@@ -145,8 +145,12 @@ export function buildCast(scene) {
     const [, dLast] = seen(d);
     // the new name must be spoken or shown right at the hand-over ("Desmond?") and the newcomer is not introduced
     // with a description of their own (that would be a different person entering)
+    // ... or the description introduces themself in dialogue ("I'm Hannah by the way." / "Call me Rook.")
+    const said = units.filter((x) => x.kind === "dialogue" && d.names.some((n) => sameChar(n, x.name)))
+      .map((x) => (x.text.match(/\b(?:I'?m|I am|my name'?s|my name is|call me|name's)\s+([A-Z][a-z]+)/i) || [])[1]).find(Boolean);
     const named = chars.find((c) => c && c !== d && !DESCR.test(c.names[0]) && c.first > d.first && c.intro < 0 &&
-      seen(c)[0] >= dLast && seen(c)[0] - dLast <= 3);
+      seen(c)[0] >= dLast && seen(c)[0] - dLast <= 3) ||
+      (said && chars.find((c) => c && c !== d && !DESCR.test(c.names[0]) && keyTokens(c.name).includes(said.toUpperCase())));
     if (!named) continue;
     named.names.push(...d.names);
     named.first = d.first;
@@ -226,7 +230,16 @@ export function buildCast(scene) {
     if (u.kind !== "action") continue;
     const ids = [...new Set(mentions[u.i].map((m) => m.c))];
     if (ids.length !== 1 || mentions[u.i][0].pos > 0.2) continue;
-    for (const p of pronouns[u.i]) if (p.at > mentions[u.i][0].at && p.g !== "p") chars[ids[0]].g[p.g]++;
+    // Only pronouns that refer back to the subject: possessive "his / her + noun", reflexives, and he / she starting a
+    // new clause. Object pronouns ("hands her a bottle", "looks at him") are someone else.
+    for (const p of pronouns[u.i]) {
+      if (p.at <= mentions[u.i][0].at || p.g === "p") continue;
+      const after = u.text.slice(p.at + p.w.length).trimStart(), before = u.text.slice(0, p.at);
+      const refBack = /^(himself|herself)$/.test(p.w) || p.w === "his" && /^[a-z]/.test(after) ||
+        p.w === "her" && /^[a-z]/.test(after) && !/^(a|an|the|to|and|or|but|that|this|back|away|up|down|out|off|in|on|at|for|with|from|into|again|now|then|so|as|if|is|was)\b/.test(after) ||
+        /^(he|she)$/.test(p.w) && /(,|;|\band|\bthen|\bbut|\bas|\bwhile|\bbefore|\bafter|\buntil|\bwhen)\s*$/i.test(before);
+      if (refBack) chars[ids[0]].g[p.g]++;
+    }
   }
   // Pronoun opening the sentence right after one that names exactly one character ("This is UATAKI. She is ...").
   for (let k = 1; k < acts.length; k++) {
