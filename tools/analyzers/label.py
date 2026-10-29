@@ -491,6 +491,83 @@ def cmd_kind_tasks(a):
     print(f"{len(todo)} scenes, {n_lines} lines -> {n} kind tasks in {tdir}")
 
 
+MOODS = ["calm", "tender", "playful", "joyful", "hopeful", "awkward", "melancholy", "grief", "tense", "suspense",
+         "ominous", "fear", "hostile", "chaotic", "triumphant", "bittersweet"]
+
+
+def beat2_task_text(out):
+    import importlib.util, re as _re
+    tax = (ROOT / "src/analyzers/taxonomy.js").read_text()
+    m = _re.search(r"export const BEAT_FINE = \{(.*?)\n\};", tax, _re.S)
+    fine = "\n".join("  " + l.strip().rstrip(",") for l in m.group(1).strip().splitlines())
+    return f"""You segment screenplay scenes into DRAMATIC BEATS for a screenwriting tool (timeline, mood track, outline).
+
+A dramatic beat is one exchange of action and reaction around a single intention: a character pursues something with
+one tactic, and the beat ends when the tactic, the power balance, the subject or the situation changes (a reveal, an
+entrance or exit, a decision, a turn in the argument, a new attempt after a failure). Scenes usually have 3-8 beats;
+a short scene can have 1-2, a long one up to ~12.
+- A beat usually spans SEVERAL paragraphs and dialogue blocks. Do NOT start a beat at every paragraph or speaker change.
+- Keep the setup (setting and introductions before anything is at stake) inside the first beat unless it is long
+  and self-contained.
+- A beat may start in the middle of an action paragraph if the turn happens there.
+
+For each beat give:
+- "start": unit number where it starts (the first content unit starts beat 1)
+- "type": the coarse beat type and "fine": the best phrase for it, from this list (coarse: [fine phrases]):
+{fine}
+- "actor": the character driving the beat (cue name) or null; "target": who it is aimed at, or null
+- "mood": the TONE of the beat as an audience feels it, one of: {", ".join(MOODS)}
+- "intensity": 1 (faint) to 5 (overwhelming)
+- "summary": 6-15 words, present tense, what happens in the beat (names, no quotes)
+
+Units: `A` = action sentence (¶ = first sentence of a paragraph), `D` = dialogue block.
+
+Write ONE JSON file to {out} with the Write tool:
+{{"<scene_id>": [{{"start": 1, "type": "...", "fine": "...", "actor": "...", "target": null, "mood": "...", "intensity": 3, "summary": "..."}}, ...], ...}}
+Include every scene below. Valid JSON only. Reply only with "done".
+"""
+
+
+def cmd_beat2_tasks(a):
+    if a.gold:
+        ids = [json.loads(l)["scene_id"] for f in ("gold.jsonl",) for l in (DATA / f).open()]
+    else:
+        ids = parse_ids(a.ids) if a.ids else []
+    if a.extra:
+        ids += [l.strip() for l in open(a.extra) if l.strip()]
+    od = LAB / f"beats2_{a.tag}"
+    od.mkdir(parents=True, exist_ok=True)
+    tdir = LAB / "tasks" / f"beats2_{a.tag}"
+    tdir.mkdir(parents=True, exist_ok=True)
+    for old in tdir.glob("*.md"):
+        old.unlink()
+    done = set()
+    for f in od.glob("group_*.json"):
+        try:
+            done |= set(json.loads(f.read_text()))
+        except json.JSONDecodeError:
+            pass
+    todo = [s for s in ids if s not in done and (UNITS / f"{s}.json").exists()]
+    if a.shuffle:
+        random.Random(a.shuffle).shuffle(todo)
+    n, cur, chars = 0, [], 0
+    start = len(list(od.glob("group_*.json"))) + 1000 * a.shuffle
+    def flush():
+        nonlocal n, cur, chars
+        if cur:
+            out = od / f"group_{start + n:05d}.json"
+            (tdir / f"task_{n:03d}.md").write_text("\n".join([beat2_task_text(out), "## Scenes", ""] + cur))
+            n += 1
+        cur, chars = [], 0
+    for s in todo:
+        r = render_scene(load_units(s))
+        if cur and chars + len(r) > a.max_chars:
+            flush()
+        cur.append(r + "\n"); chars += len(r)
+    flush()
+    print(f"{len(todo)} scenes -> {n} beat2 tasks in {tdir}")
+
+
 def beat_labels(tag):
     out = {}
     for f in sorted((LAB / f"beats_{tag}").glob("group_*.json")):
@@ -685,10 +762,13 @@ if __name__ == "__main__":
     tt.add_argument("--pairs", type=int, default=30)
     tt.add_argument("--force", action="store_true")
     e = sub.add_parser("export"); e.add_argument("--append", action="store_true")
+    b2 = sub.add_parser("beat2-tasks"); b2.add_argument("--tag", required=True); b2.add_argument("--gold", action="store_true")
+    b2.add_argument("--ids", default=""); b2.add_argument("--extra", default=""); b2.add_argument("--max-chars", type=int, default=60000)
+    b2.add_argument("--shuffle", type=int, default=0)
     kt = sub.add_parser("kind-tasks"); kt.add_argument("--tag", required=True); kt.add_argument("--gold", action="store_true")
     kt.add_argument("--lines-per-task", type=int, default=300); kt.add_argument("--offset", type=int, default=0)
     bt = sub.add_parser("beat-tasks"); bt.add_argument("--tag", required=True); bt.add_argument("--ids", default="")
     bt.add_argument("--batch-size", type=int, default=50)
     a = ap.parse_args()
     {"units": cmd_units, "tasks": cmd_tasks, "check": cmd_check, "merge-gold": cmd_merge_gold,
-     "tension-tasks": cmd_tension_tasks, "export": cmd_export, "beat-tasks": cmd_beat_tasks, "kind-tasks": cmd_kind_tasks}[a.cmd](a)
+     "tension-tasks": cmd_tension_tasks, "export": cmd_export, "beat-tasks": cmd_beat_tasks, "kind-tasks": cmd_kind_tasks, "beat2-tasks": cmd_beat2_tasks}[a.cmd](a)

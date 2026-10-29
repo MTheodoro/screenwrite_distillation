@@ -38,7 +38,7 @@ export function keyTokens(name) {
 
 function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
-function sameChar(a, b) {
+export function sameChar(a, b) {
   const ka = keyTokens(a), kb = keyTokens(b);
   if (!ka.length || !kb.length) return a === b;
   const [s, l] = ka.length <= kb.length ? [ka, kb] : [kb, ka];
@@ -127,6 +127,32 @@ export function buildCast(scene) {
       if (keyTokens(n).some((t) => GROUP_NOUNS.has(t))) c.group = true;
     }
   }
+  // Named later: a descriptive character ("HOODIE GUY", "THE WOMAN", "STRANGER") who is last seen right where a newly
+  // named character first appears, and never alongside them, is that character ("HOODIE GUY: Priya. It's me." /
+  // "Desmond?" / "DESMOND: Two years."). Merged before ids are used anywhere.
+  const DESCR = /\b(GUY|MAN|WOMAN|GIRL|BOY|KID|LADY|STRANGER|FIGURE|VOICE|PERSON|DRIVER|HOODED|MASKED|TEEN|TEENAGER|OLD|YOUNG|TALL|SHORT)\b|^(THE|A|AN) /;
+  const seen = (c) => {
+    const re = new RegExp(`\\b(?:${[...new Set(c.names.flatMap(keyTokens))].filter((t) => t.length > 1).map(escapeRe).join("|")})\\b`);
+    const at = units.filter((u) => (u.kind === "dialogue" && c.names.some((n) => sameChar(n, u.name))) || (u.kind === "action" && re.test(u.text))).map((u) => u.i);
+    return at.length ? [at[0], at[at.length - 1]] : [c.first, c.first];
+  };
+  for (let a = 0; a < chars.length; a++) {
+    const d = chars[a];
+    if (!d || d.tagName || !DESCR.test(d.names[0]) || !d.spoke) continue;
+    const [, dLast] = seen(d);
+    // the new name must be spoken or shown right at the hand-over ("Desmond?") and the newcomer is not introduced
+    // with a description of their own (that would be a different person entering)
+    const named = chars.find((c) => c && c !== d && !DESCR.test(c.names[0]) && c.first > d.first && c.intro < 0 &&
+      seen(c)[0] >= dLast && seen(c)[0] - dLast <= 3);
+    if (!named) continue;
+    named.names.push(...d.names);
+    named.first = d.first;
+    if (d.intro >= 0 && (named.intro < 0 || d.intro < named.intro)) named.intro = d.intro;
+    named.spoke += d.spoke;
+    chars[a] = null;
+  }
+  for (let k = chars.length - 1; k >= 0; k--) if (!chars[k]) chars.splice(k, 1);
+  chars.forEach((c, k) => { c.id = k; });
   // Introduced before being named: "A teenage girl ... This is UATAKI." -> the description sentence belongs to UATAKI
   // and "the girl" becomes an alias.
   const acts = units.filter((u) => u.kind === "action");
@@ -139,7 +165,9 @@ export function buildCast(scene) {
     }
   });
   // Prefer the longest/full name as display name.
-  for (const c of chars) c.name = c.tagName || c.names.reduce((a, b) => (keyTokens(b).length > keyTokens(a).length ? b : a));
+  // Display name: the app's tag, else the longest real name (a later-revealed name beats the description).
+  const rank = (n) => (DESCR.test(n) ? 0 : 10) + keyTokens(n).length;
+  for (const c of chars) c.name = c.tagName || c.names.reduce((a, b) => (rank(b) > rank(a) ? b : a));
   // Mention regexes: each key token as a word, case-insensitive (Maya / MAYA / Maya's).
   // A word in two characters' names ("COUSIN BEA" / "COUSIN TEDDY", siblings' surname) identifies neither.
   const tokSets = chars.map((c) => [...new Set(c.names.flatMap(keyTokens))].filter((t) => t.length > 1));

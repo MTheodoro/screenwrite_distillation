@@ -33,11 +33,26 @@ const reqs = [];
 for await (const line of rl) if (line.trim()) reqs.push(JSON.parse(line));
 for (const r of reqs.slice(0, 5)) { const s = sceneOf(r.source, r.index); analyzeRules(s); if (bundle) analyzeModel(s, bundle, embedder); }
 
+// Gold labels use the cast frozen in data/analyzers/units/<id>.json. Cast detection changes (merges, new names) shift
+// ids, so predicted ids are mapped to frozen ids by name; a merged character matches any of its frozen ids.
+import { sameChar } from "../../src/analyzers/cast.js";
+function remap(r, scene, result) {
+  let frozen;
+  try { frozen = JSON.parse(readFileSync(new URL(`../../data/analyzers/units/${r.scene_id}.json`, import.meta.url), "utf8")).cast; } catch { return; }
+  const now = sceneContext(scene).cast.chars;
+  const map = now.map((c) => {
+    const ids = frozen.map((f, k) => [f, k]).filter(([f]) => [f.name, ...(f.names || [])].some((n) => c.names.some((m) => sameChar(n, m)))).map(([, k]) => k);
+    return ids.length ? ids : [1000 + c.id];
+  });
+  for (const l of Object.values(result.lines)) if (l.who) l.who = l.who.map((c) => (c >= 0 ? map[c] ?? [c] : c));
+}
+
 for (const r of reqs) {
   const scene = sceneOf(r.source, r.index);
   let t = performance.now();
   const rule = analyzeRules(scene);
   const tRule = performance.now() - t;
+  remap(r, scene, rule);
   const ctx = sceneContext(scene);
   const gold = groupsOf(ctx, r.beats || []);
   const out = { scene_id: r.scene_id, rule, tRule, ruleTensionGold: gold.map((g) => ruleTension(tensionFeatures(ctx, g))) };
@@ -45,6 +60,7 @@ for (const r of reqs) {
     t = performance.now();
     out.model = analyzeModel(scene, bundle, embedder, { addressee: true });
     out.tModel = performance.now() - t;
+    remap(r, scene, out.model);
     if (tiny) {
       const c2 = sceneContext(scene);
       t = performance.now();

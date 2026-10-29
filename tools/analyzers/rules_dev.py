@@ -45,7 +45,7 @@ for s in ids:
             prev = d["units"][u - 1] if u > 0 else {}
             errs.append({"s": s, "u": u, "grp": grp, "text": d["units"][u]["text"][:110],
                          "prev": ((prev.get("name", "") + ": ") if prev.get("kind") == "dialogue" else "") + prev.get("text", "")[:70],
-                         "rule": [names.get(i, i) for i in r], "gold": gold_names, "model_ok": okm})
+                         "rule": [names.get(i[0] if isinstance(i, list) else i, i) for i in r], "gold": gold_names, "model_ok": okm})
 for g, (n, r, m) in stats.items():
     print(f"{g}: n={n}  rules {r / max(1, n):.1%}  model+rules {m / max(1, n):.1%}")
 json.dump(errs, open("/tmp/claude-0/-home-user-screenwrite-distillation/af2941e1-2134-51a1-a024-8405a6a16593/scratchpad/dev/errs.json", "w"))

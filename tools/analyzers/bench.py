@@ -38,17 +38,19 @@ def set_match(pred, gold, spec, actor):
     gs = slots(gold, spec)
     if actor:
         gs = [s for s in gs if s != {-1}] or []  # OTHER/none -> expect NONE
-        pred = [p for p in pred if p != -1]
+        pred = [p for p in pred if p != -1 and p != [-1]]
         if not gs:
             return not pred, not pred
+    # a predicted element may be a list of equivalent ids (a merged character, see predict.mjs remap)
+    hit = lambda p, s: any(x in s for x in p) if isinstance(p, list) else p in s
     used = set()
     for p in pred:
-        k = next((k for k, s in enumerate(gs) if p in s and k not in used), None)
+        k = next((k for k, s in enumerate(gs) if hit(p, s) and k not in used), None)
         if k is None:
-            return False, any(pred[0] in s for s in gs) if pred else False
+            return False, any(hit(pred[0], s) for s in gs) if pred else False
         used.add(k)
     exact = len(used) == len(gs)
-    top1 = bool(pred) and any(pred[0] in s for s in gs)
+    top1 = bool(pred) and any(hit(pred[0], s) for s in gs)
     return exact, top1
 
 
