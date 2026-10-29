@@ -6,7 +6,7 @@ import { createInterface } from "node:readline";
 import { parse } from "../../src/analyzers/fountain.js";
 import { sceneContext } from "../../src/analyzers/rules.js";
 import { analyzeModel } from "../../src/analyzers/model.js";
-import { beatTypeFeatures, sceneFeatures, charFeatures } from "../../src/analyzers/describe.js";
+import { beatTypeFeatures, sceneFeatures, charFeatures, fineTexts, tokens } from "../../src/analyzers/describe.js";
 
 const bundle = JSON.parse(readFileSync(new URL("../../public/models/analyzers.json", import.meta.url), "utf8"));
 const cache = new Map();
@@ -22,7 +22,9 @@ for await (const line of createInterface({ input: process.stdin })) {
   const result = analyzeModel(scene, bundle, null, { addressee: true });
   const bs = [...r.beats].sort((a, b) => a - b);
   const groups = bs.map((b, k) => ctx.content.filter((i) => i >= b && (k + 1 >= bs.length || i < bs[k + 1])));
+  const tx = fineTexts(ctx, scene, result, groups);
   process.stdout.write(JSON.stringify({
+    tok: { beat: tx.beat.map(tokens), scene: tokens(tx.scene), chars: tx.chars.map(tokens) },
     scene_id: r.scene_id,
     beat: groups.map((g, k) => [k, beatTypeFeatures(ctx, g, result)]),
     scene: sceneFeatures(ctx, scene, result),

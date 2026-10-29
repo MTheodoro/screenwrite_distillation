@@ -128,8 +128,8 @@ For each scene write one JSON object:
  "beats": ["<fine for beat 0>", "<fine for beat 1>", ...],
  "chars": {"<NAME>": {"role": "<fine>", "traits": ["<fine for each coarse trait, same order>"]}}}
 
-Write all scenes as JSON Lines in THREE files with the Write tool: scenes 1-30 to %OUT%_a.jsonl, 31-60 to %OUT%_b.jsonl,
-the rest to %OUT%_c.jsonl. No other text in the files. Reply only with "done N".
+Write all scenes as JSON Lines (one object per line) to %OUT%.jsonl with the Write tool. No other text in the file.
+Include every scene below. Reply only with "done N".
 """
 
 
@@ -142,11 +142,12 @@ def cmd_fine_tasks(a):
     tdir.mkdir(parents=True, exist_ok=True)
     for f in tdir.glob("*.md"):
         f.unlink()
-    ids = sorted(s for s in coarse if s in opus and (L.UNITS / f"{s}.json").exists())
+    done = set(load_fine())
+    ids = sorted(s for s in coarse if s in opus and s not in done and (L.UNITS / f"{s}.json").exists())
     opt = lambda group, key: " | ".join(tax[group].get(key, []))
     for k in range(0, len(ids), a.batch_size):
         chunk = ids[k:k + a.batch_size]
-        out = FINE_OUT / f"part_{k // a.batch_size:03d}"
+        out = FINE_OUT / f"part_{chunk[0]}"
         body = [FINE_GUIDE.replace("%OUT%", str(out)), "## Scenes", ""]
         for s in chunk:
             c = coarse[s]
@@ -179,5 +180,5 @@ def load_fine():
 
 
 if __name__ == "__main__" and len(__import__("sys").argv) > 1 and __import__("sys").argv[1] == "fine-tasks":
-    ap = argparse.ArgumentParser(); ap.add_argument("cmd"); ap.add_argument("--batch-size", type=int, default=90)
+    ap = argparse.ArgumentParser(); ap.add_argument("cmd"); ap.add_argument("--batch-size", type=int, default=20)
     cmd_fine_tasks(ap.parse_args())

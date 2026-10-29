@@ -3,6 +3,8 @@
 // written into the screenplay.
 import { tensionFeatures } from "./rules.js";
 import { lexCount, count, NEGATION, IMPERATIVE } from "./lexicon.js";
+import { predictRaw } from "./model.js"; // used at call time only (model.js imports this module too)
+import { BEAT_FINE, PLACE_FINE, ATMOS_FINE, ROLE_FINE, TRAIT_FINE } from "./taxonomy.js";
 
 export const BEAT_TYPES = ["arrives", "leaves", "confronts", "accuses", "threatens", "attacks", "defends", "flees", "hides",
   "searches", "discovers", "reveals", "confesses", "lies", "deflects", "persuades", "pleads", "comforts", "bonds", "jokes",
@@ -149,22 +151,111 @@ const PLACE_TEXT = { home: "home", workplace: "workplace", street: "street", veh
   venue: "venue", transit: "transit", other: "" };
 const nice = (n) => n.toLowerCase().replace(/\b\w/g, (m) => m.toUpperCase());
 
-export function beatSummary(type, actorName, targetName, tensionDelta, mood) {
+export function beatSummary(type, actorName, targetName, tensionDelta, mood, fine = null) {
   let v = VERB[type] || type;
+  if (fine) v = v.includes("{t}") ? fine + " {t}" : fine;
   v = targetName ? v.replace("{t}", nice(targetName)) : v.replace(/ (to|with|against)? ?\{t\}/, "").replace(" {t}", "");
   const who = actorName ? nice(actorName) : "";
   const arrow = tensionDelta > 0.08 ? "tension ↑" : tensionDelta < -0.08 ? "tension ↓" : "";
   return [who ? `${who} ${v}` : v[0].toUpperCase() + v.slice(1), arrow, mood && mood[0] !== "neutral" ? mood[0] : ""].filter(Boolean).join(" · ");
 }
 
-export function placeText(heading, place, atmos) {
+export function placeText(heading, place, atmos, fine = null) {
   const h = (heading || "").toUpperCase();
   const io = /^(INT\.?\/EXT|I\/E)/.test(h) ? "Interior/exterior" : /^EXT/.test(h) ? "Exterior" : "Interior";
   const time = (h.split(/\s+-\s+/).pop() || "").trim();
   const t = /NIGHT|DUSK|EVENING/.test(time) ? "night" : /DAY|MORNING|NOON|DAWN|AFTERNOON/.test(time) ? "day" : "";
-  return [`${io}${t ? ", " + t : ""}`, PLACE_TEXT[place], atmos.join(", ")].filter(Boolean).join(" · ");
+  return [`${io}${t ? ", " + t : ""}`, fine || PLACE_TEXT[place], atmos.join(", ")].filter(Boolean).join(" · ");
 }
 
-export function characterText(name, role, traits) {
-  return `${nice(name)}: ${[ROLE_TEXT[role], traits.join(", ")].filter(Boolean).join(" · ")}`;
+export function characterText(name, role, traits, fine = null) {
+  return `${nice(name)}: ${[fine || ROLE_TEXT[role], traits.join(", ")].filter(Boolean).join(" · ")}`;
+}
+
+// ---------- two-level inference ----------
+// Coarse label: small tree models over rule features. Fine label within the coarse group: a word-cue scorer
+// (prior + learned cue-word weights + a bonus when the label's own words appear in the text). Low confidence -> coarse.
+const STOP = new Set("the and that this with for from you your are was were have has had not but what all out his her him she they them their there then into just over when where who will would can could about been our its it's i'm don't".split(" "));
+export function tokens(text) {
+  const out = new Set();
+  for (const w of (text.toLowerCase().match(/[a-z][a-z']+/g) || [])) if (w.length > 2 && !STOP.has(w)) out.add(w.replace(/'s$/, ""));
+  return [...out];
+}
+const FINE = { beat: BEAT_FINE, place: PLACE_FINE, atmos: ATMOS_FINE, role: ROLE_FINE, traits: TRAIT_FINE };
+const labelStems = new Map();
+function stems(label) {
+  if (!labelStems.has(label)) labelStems.set(label, label.toLowerCase().split(/[\s/-]+/).filter((w) => w.length > 3 && !STOP.has(w)).map((w) => w.slice(0, 5)));
+  return labelStems.get(label);
+}
+// Text each head reads: beat text, scene action text + heading, a character's lines + actions + mentions.
+export function fineTexts(ctx, scene, result, beatGroups) {
+  const beat = beatGroups.map((g) => g.map((i) => unitText(ctx.units[i])).join(" "));
+  const sceneText = (scene.heading || "") + " " + ctx.content.filter((i) => ctx.units[i].kind === "action").map((i) => ctx.units[i].text).join(" ");
+  const chars = ctx.cast.chars.map((c) => ctx.content.filter((i) => ctx.speaker[i] === c.id || (result?.lines?.[i]?.who || []).includes(c.id) ||
+    ctx.cast.mentions[i].some((m) => m.c === c.id)).map((i) => unitText(ctx.units[i])).join(" "));
+  return { beat, scene: sceneText, chars };
+}
+// -> [fine label or null, prob]
+export function pickFine(F, head, group, toks) {
+  const opts = FINE[head][group];
+  if (!opts) return [null, 0];
+  const g = F?.[head]?.[group];
+  const sc = opts.map((_, k) => (g ? g.p[k] : 0));
+  if (g) for (const t of toks) { const w = g.w[t]; if (w) for (let j = 0; j < w.length; j += 2) sc[w[j]] += w[j + 1]; }
+  const bonus = F?.bonus ?? 1.5;
+  opts.forEach((o, k) => {
+    const st = stems(o);
+    if (st.length && st.every((s) => toks.some((t) => t.startsWith(s)))) sc[k] += bonus;
+  });
+  let mx = -Infinity, b = 0;
+  sc.forEach((v, k) => { if (v > mx) { mx = v; b = k; } });
+  let z = 0;
+  for (const v of sc) z += Math.exp(v - mx);
+  const p = 1 / z;
+  return p >= (F?.minConf ?? 0.25) ? [opts[b], p] : [null, p];
+}
+
+// Stage 4: beat summaries, place / atmosphere, characters. D = the describe bundle (describe_weights.js).
+export function describeScene(ctx, scene, result, D) {
+  const M = D.models, meta = D.meta, F = D.fine;
+  const pick = (m, classes, x) => { const p = predictRaw(m, x); let b = 0; for (let k = 1; k < p.length; k++) if (p[k] > p[b]) b = k; return [classes[b], p[b]]; };
+  const tags = (ms, labels, x, max, min) => ms.map((m, j) => [labels[j], m ? predictRaw(m, x) : 0])
+    .sort((a, b) => b[1] - a[1]).filter((t, k) => k === 0 || t[1] >= min).slice(0, max).map((t) => t[0]);
+  const name = (c) => (c >= 0 ? ctx.cast.chars[c].name : null);
+  const b = result.beats;
+  const groups = b.map((start, k) => ctx.content.filter((i) => i >= start && (k + 1 >= b.length || i < b[k + 1])));
+  const texts = fineTexts(ctx, scene, result, groups);
+  result.beatSummaries = groups.map((units, k) => {
+    const [type, conf] = pick(M.beat, meta.beat.classes.map((c) => BEAT_TYPES[c]), beatTypeFeatures(ctx, units, result));
+    const [fine] = pickFine(F, "beat", type, tokens(texts.beat[k]));
+    const score = new Map(), aim = new Map();
+    for (const i of units) {
+      const l = result.lines[i] || {};
+      for (const c of l.who || []) score.set(c, (score.get(c) || 0) + 1);
+      if (l.speaker >= 0) score.set(l.speaker, (score.get(l.speaker) || 0) + 1);
+      for (const c of l.to || []) if (c >= 0) aim.set(c, (aim.get(c) || 0) + 1);
+    }
+    const top = (m, not) => [...m].filter(([c]) => c !== not).sort((x, y) => y[1] - x[1])[0]?.[0] ?? -1;
+    const actor = top(score, -9), target = top(aim, actor) >= 0 ? top(aim, actor) : top(score, actor);
+    const dt = k > 0 ? result.tension[k] - result.tension[k - 1] : 0;
+    return { type, fine, conf, actor, target, text: beatSummary(type, name(actor), name(target), dt, result.beatMood?.[k], fine) };
+  });
+  const sf = sceneFeatures(ctx, scene, result);
+  const st = tokens(texts.scene);
+  const [place] = pick(M.place, meta.place.classes.map((c) => PLACES[c]), sf);
+  const [placeFine] = pickFine(F, "place", place, st);
+  const atmos = tags(M.atmos, ATMOS, sf, 2, 0.35);
+  const atmosFine = atmos.map((a) => pickFine(F, "atmos", a, st)[0] || a);
+  result.place = { place, fine: placeFine, atmos, atmosFine, text: placeText(scene.heading, place, atmosFine, placeFine) };
+  result.characters = ctx.cast.chars.filter((c) => c.spoke || ctx.content.some((i) => (result.lines[i]?.who || []).includes(c.id)))
+    .map((c) => {
+      const x = charFeatures(ctx, c.id, result);
+      const ct = tokens(texts.chars[c.id]);
+      const [role] = pick(M.role, meta.role.classes.map((r) => ROLES[r]), x);
+      const [roleFine] = pickFine(F, "role", role, ct);
+      const traits = tags(M.traits, TRAITS, x, 3, 0.4);
+      const traitsFine = traits.map((t) => pickFine(F, "traits", t, ct)[0] || t);
+      return { id: c.id, role, roleFine, traits, traitsFine, text: characterText(c.name, role, traitsFine, roleFine) };
+    });
+  return result;
 }

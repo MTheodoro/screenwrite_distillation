@@ -1,7 +1,8 @@
 // Web Worker entry. The editor never imports analyzer code; it only posts text here.
 //
 // Messages in:
-//   { type: "update", text }            full script text, debounced by the caller (e.g. 300 ms after typing stops)
+//   { type: "update", text, characters? } full script text, debounced by the caller (e.g. 300 ms after typing stops);
+//                                       characters: the app's character tags [{ name, aliases?, gender? }]
 //   { type: "need-model" }              first time analysis is shown: load the bundled weights module
 // Messages out:
 //   { type: "scenes", hashes, starts }  scene hashes and first-line numbers, in script order
@@ -48,20 +49,20 @@ async function loadBundle() {
 const schedule = (fn) => setTimeout(fn, 0);
 
 const service = new AnalyzerService({ storage: idbStorage(), loadBundle, schedule });
-let lastText = "";
+let lastText = "", lastChars = [];
 
 self.onmessage = async (e) => {
   const msg = e.data;
   if (msg.type === "update") {
-    lastText = msg.text;
+    lastText = msg.text; lastChars = msg.characters || [];
     const hashes = await service.update(msg.text, (index, hash, result, cached) =>
-      self.postMessage({ type: "result", index, hash, result, cached }));
+      self.postMessage({ type: "result", index, hash, result, cached }), lastChars);
     self.postMessage({ type: "scenes", hashes, starts: service.lastStarts });
   } else if (msg.type === "need-model") {
     try {
       await service.ensureModel();
       self.postMessage({ type: "model", status: "ready" });
-      if (lastText) self.onmessage({ data: { type: "update", text: lastText } }); // upgrade rule results
+      if (lastText) self.onmessage({ data: { type: "update", text: lastText, characters: lastChars } }); // upgrade rule results
     } catch (err) {
       self.postMessage({ type: "model", status: "error", error: String(err) });
     }

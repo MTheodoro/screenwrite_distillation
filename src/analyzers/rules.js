@@ -208,11 +208,15 @@ export function subjectless(ctx, i) {
   const u = ctx.units[i];
   if (u.kind !== "action") return 0;
   const ms = ctx.cast.mentions[i], prons = ctx.cast.pronouns[i];
-  if ((ms.length && ms[0].at <= 1) || (prons.length && prons[0].at <= 1)) return 0;
+  if ((ms.length && ms[0].lead) || (prons.length && prons[0].at <= 1)) return 0;
   const t = u.text.trim();
   if (verbless(t) && !PLURAL_SUBJ.test(t) && words(t) <= 12) return 1; // descriptive fragment
   if (DET.test(t)) return 0;
-  return /^[A-Z][a-z]+(s|es|ed|ly|ing)\b/.test(t) || /^[A-Z][a-z]+\.$/.test(t) || words(t) <= 3 ? 1 : 0;
+  // Verb-first fragment ("Opens a folder.", "Chews.", "Then smiles."); a bare noun or adverb ("Cash.", "Radio hisses.",
+  // "Slowly.") has no actor.
+  if (words(t) <= 3 && i > 0 && ctx.units[i - 1].kind === "dialogue" && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t)) return 1; // "exasperated."
+  const w0 = t.replace(/^(then|and|but|now|still|again|just|finally|slowly|quickly|suddenly),?\s+/i, "").split(/\s+/)[0] || "";
+  return /^[A-Z]?[a-z]+(?<!s)(s|es|ed|ing)\b/.test(w0) && !/(ness|ss|us|is|ics)$/i.test(w0.replace(/\W+$/, "")) && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t) ? 1 : 0;
 }
 
 // Actor of the nearest previous action unit (rule verdict, memoised), with distance.
@@ -321,8 +325,17 @@ export function strongActors(ctx, i) {
   const u = ctx.units[i];
   if (u.kind !== "action") return null;
   const ms = ctx.cast.mentions[i];
+  const pair = namePair(ctx, i);
+  if (pair) return pair;
   const joint = new Set(ms.filter((m) => m.pos < 0.4).map((m) => m.c)).size > 1 || PLURAL.test(u.text);
-  if (ms.length && ms[0].at <= 1) return joint ? null : [ms[0].c]; // "MAYA and JONAH fight": leave to the model
+  if (ms.length && ms[0].lead) {
+    const lp = leadPossessive(ctx, i);
+    if (lp) return lp;
+    return joint ? null : [ms[0].c]; // other joint shapes: leave to the model
+  }
+  const pa = pronounAppositive(ctx, i);
+  if (pa) return pa;
+  if (EVERYONE.test(u.text)) { const all = everyone(ctx, i); if (all.length) return all; }
   const fwd = ctx.cast.chars.find((c) => c.fwd === i);
   if (fwd) return [fwd.id];
   const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
@@ -337,27 +350,88 @@ export function strongActors(ctx, i) {
   return null;
 }
 
+// Body parts act for their owner ("Maya's hands shake", "His jaw tightens"); other possessed things don't
+// ("Hattie's board blinks", "His chair scrapes" -> nobody).
+const BODY = /^(eyes?|face|hands?|fingers?|fingertips|knuckles|fists?|voice|breath|breathing|jaw|lips?|mouth|head|shoulders?|heart|knees?|legs?|feet|foot|arms?|gaze|smile|grin|hair|brow|forehead|chest|stomach|throat|body|back|expression|look|grip|pulse|tears|cheeks?|nose|neck|skin|teeth|tongue|wrists?|palms?|thumbs?|whole|own|eyelids|lashes|nostrils|posture|frame|silhouette|footsteps|steps|hand-|attention)\b/i;
+// "MARISOL's husband, DESMOND, ..." -> DESMOND; "Maya's hands shake" -> Maya; "Maya's phone buzzes" -> nobody.
+function leadPossessive(ctx, i) {
+  const ms = ctx.cast.mentions[i], t = ctx.units[i].text;
+  if (!ms[0].poss) return null;
+  const nxt = ms.find((m) => m.at > ms[0].at && m.c !== ms[0].c);
+  if (nxt && /^[\w\s.-]{0,30},\s*$/.test(t.slice(ms[0].at, nxt.at).replace(/^\S+['’]s\s+/, ""))) return [nxt.c];
+  return [ms[0].c]; // "Maya's hands shake", "Maya's phone is dead": hers
+}
+// "Her partner, DET. REYNALD KOWALSKI, 50s, eats ..." -> the appositive name.
+function pronounAppositive(ctx, i) {
+  const ms = ctx.cast.mentions[i], t = ctx.units[i].text;
+  const m = t.match(/^(?:his|her|their)\s+[\w-]+(?:\s+[\w-]+)?,\s*/i);
+  if (!m || !ms.length || ms[0].at !== m[0].length) return null;
+  return [ms[0].c];
+}
+// A pronoun before anyone is on stage ("She mounts the mule." as the scene's first line): the next character of that gender.
+function laterOfGender(ctx, i, g) {
+  for (let j = i + 1; j < Math.min(ctx.units.length, i + 6); j++) {
+    for (const m of ctx.cast.mentions[j]) if (ctx.cast.chars[m.c].gender === g) return m.c;
+    const sp = ctx.speaker[j];
+    if (sp >= 0 && ctx.cast.chars[sp].gender === g) return sp;
+  }
+  return -1;
+}
+// "Everyone turns." / "Nobody moves." -> everybody present.
+const EVERYONE = /^(everyone|everybody|nobody|no one|all of them|all eyes|the whole (room|table|group|family))\b/i;
+function everyone(ctx, i, window = 99) {
+  return [...new Set(ctx.pres[i])].filter((c) => candRecency(ctx, i, c) <= window);
+}
+
+// "MAYA and JONAH face each other." / "Maya, Jonah and Ruth run." -> all names in the leading subject.
+function namePair(ctx, i) {
+  const u = ctx.units[i], ms = ctx.cast.mentions[i];
+  if (!ms.length || !ms[0].lead || ms[0].poss) return null;
+  const ids = [ms[0].c];
+  let end = ms[0].at;
+  for (const m of ms.slice(1)) {
+    const gap = u.text.slice(end, m.at).replace(/^[A-Za-z'’.-]+(?:\s+[A-Z][A-Za-z'’.-]+)*/, "");
+    if (/^\s*(,|,?\s+and|&)\s*$/i.test(gap) && !ids.includes(m.c)) { ids.push(m.c); end = m.at; } else break;
+  }
+  return ids.length > 1 ? ids : null;
+}
+
 // Rule verdict: array of char ids (empty = NONE).
 export function ruleActors(ctx, i) {
   const u = ctx.units[i];
   const ms = ctx.cast.mentions[i];
+  const pair = namePair(ctx, i);
+  if (pair) return pair;
   const prons = ctx.cast.pronouns[i];
   const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
-  if (ms.length && ms[0].at <= 1) return [ms[0].c];
+  if (ms.length && ms[0].lead) return leadPossessive(ctx, i) || [ms[0].c];
+  const pa = pronounAppositive(ctx, i);
+  if (pa) return pa;
+  if (EVERYONE.test(u.text)) { const all = everyone(ctx, i); if (all.length) return all; }
   const fwd = ctx.cast.chars.find((c) => c.fwd === i);
   if (fwd) return [fwd.id];
-  if (subjectless(ctx, i)) { const pa = prevActorOf(ctx, i); if (pa.ids.length && pa.dist <= 4) return pa.ids; }
+  if (subjectless(ctx, i)) {
+    // A stage direction next to a speech belongs to that speaker ("Smiles." / "Breaking off.").
+    for (const j of [i + 1, i - 1]) if (ctx.units[j]?.kind === "dialogue" && ctx.speaker[j] >= 0) return [ctx.speaker[j]];
+    const pa = prevActorOf(ctx, i); if (pa.ids.length && pa.dist <= 4) return pa.ids;
+  }
   const initPron = initialPronoun(ctx, i);
   const salient = (filter) => cands.filter(filter).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
   if (initPron === "p" || PLURAL_SUBJ.test(u.text) || /^(together|the two)\b/i.test(u.text)) {
     const g = salient((c) => ctx.cast.chars[c].group);
     if (g.length) return [g[0]];
+    // "Both" / "the two" / "neither" -> the two most recent; "They" / "All" -> everyone present.
+    if (!/^(both|the two|neither|together)\b/i.test(u.text)) { const all = everyone(ctx, i, 8); if (all.length > 1) return all; }
     const s = salient(() => true).slice(0, 2);
     if (s.length) return s;
   }
   if (initPron) {
-    const s = salient((c) => ctx.cast.chars[c].gender === initPron || ctx.cast.chars[c].gender === "?");
+    const s = salient((c) => ctx.cast.chars[c].gender === initPron);
     if (s.length) return [s[0]];
+    const q = salient((c) => ctx.cast.chars[c].gender === "?");
+    if (q.length) return [q[0]];
+    const ahead = laterOfGender(ctx, i, initPron);
+    if (ahead >= 0) return [ahead];
   }
   if (ms.length) return [ms[0].c];
   if (/^(she|he|they|her|his)\b/i.test(u.text) && cands.length) return [salient(() => true)[0]];

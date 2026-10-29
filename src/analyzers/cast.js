@@ -45,6 +45,11 @@ function sameChar(a, b) {
   return s.every((t) => l.includes(t));
 }
 
+import NAME_GENDER from "./names.js";
+
+// Script-level key for a character (same person across scenes): name tokens without titles.
+export function charKey(name) { return keyTokens(name).join(" "); }
+
 // Collective / plural entities: act as one group character ("they", "all of them", "many of the people").
 export const GROUP_NOUNS = new Set(("PROCESSION CROWD MOB ARMY GANG CREW FAMILY CHOIR TROOPS SOLDIERS GUARDS PEOPLE VILLAGERS " +
   "TOURISTS GUESTS STUDENTS PASSENGERS AUDIENCE CONGREGATION TRIBE BAND TEAM COUPLE TWINS WORKERS MEN WOMEN CHILDREN KIDS " +
@@ -66,12 +71,17 @@ export function capsNames(text, cueNames) {
     if (n.replace(/[^A-Z]/g, "").length < 2) continue;
     const after = text.slice(m.index + m[0].length, m.index + m[0].length + 3);
     const before = text.slice(Math.max(0, m.index - 5), m.index);
+    // Signs, labels and on-screen text: "a sign reads STAFF ONLY", "stamped CANCELLED", "SUPER: ..."
+    if (/\b(reads?|marked|labell?ed|stamped|printed|super|caption)\s*:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 16), m.index))) continue;
     const isCue = cueNames.some((c) => sameChar(c, n));
     const art = /\b(a|an|the|two|three)\s+$/i.test(before);
     if (isCue || /^\s*[(,—–-]/.test(after) || /^['’]S/.test(after) || art) out.push(art ? n + "\u0000" : n);
   }
   return out;
 }
+
+// Words that can stand before a name that still leads the sentence ("Cousin LEANDRO carries", "Old TOMASZ").
+const LEAD_TITLE = /^(?:(?:then|now|and|but|meanwhile|suddenly|finally|cousin|aunt|auntie|uncle|grandma|grandpa|granny|nana|old|young|little|big|baby|father|mother|brother|sister|mr|mrs|ms|miss|dr|doctor|officer|detective|det|captain|capt|sergeant|sgt|private|pvt|corporal|cpl|lieutenant|lt|agent|nurse|judge|lady|lord|sir|madam|professor|prof|chef|coach|pastor|reverend|rev|saint|st|king|queen|prince|princess)\.?,?\s+){1,2}$/i;
 
 // Build cast + per-unit annotations. Mutates nothing; returns { chars, mentions, pronouns, firstSeen }.
 export function buildCast(scene) {
@@ -89,6 +99,24 @@ export function buildCast(scene) {
     if (how === "cue") c.spoke++;
     return c;
   };
+  // Characters known from the rest of the script (filled by the service) count like cue names here, and are picked up
+  // when mentioned by name ("ZORGABITCH and BRUNO...", "Zorgabitch smiles.").
+  // Entries are names or { name, aliases } (the app's character tags).
+  const known = (scene.knownNames || []).map((k) => (typeof k === "string" ? { name: k, aliases: [] } : { aliases: [], ...k }));
+  cueNames.push(...known.flatMap((k) => [k.name, ...k.aliases]));
+  const knownRes = known.map((k) => {
+    const toks = [...new Set([k.name, ...k.aliases].flatMap(keyTokens))].filter((t) => t.length > 1 && !/^(THE|AN?|OF)$/.test(t));
+    // Case-sensitive: Name or NAME (a lowercase "grace" / "will" is a word, not the character).
+    return toks.length ? new RegExp(`\\b(?:${toks.map((t) => escapeRe(t[0] + t.slice(1).toLowerCase()) + "|" + escapeRe(t)).join("|")})\\b`) : null;
+  });
+  for (const u of units) {
+    if (u.kind === "action") known.forEach((k, j) => {
+      if (!knownRes[j] || !knownRes[j].test(u.text)) return;
+      const c = add(k.name, u.i, "known");
+      c.tagName = k.name;
+      for (const a of k.aliases) if (!c.names.includes(a)) c.names.push(a);
+    });
+  }
   for (const u of units) {
     if (u.kind === "dialogue") add(u.name, u.i, "cue");
     else if (u.kind === "action") for (let n of capsNames(u.text, cueNames)) {
@@ -111,10 +139,15 @@ export function buildCast(scene) {
     }
   });
   // Prefer the longest/full name as display name.
-  for (const c of chars) c.name = c.names.reduce((a, b) => (keyTokens(b).length > keyTokens(a).length ? b : a));
+  for (const c of chars) c.name = c.tagName || c.names.reduce((a, b) => (keyTokens(b).length > keyTokens(a).length ? b : a));
   // Mention regexes: each key token as a word, case-insensitive (Maya / MAYA / Maya's).
-  const res = chars.map((c) => {
-    const toks = [...new Set(c.names.flatMap(keyTokens))].filter((t) => t.length > 1);
+  // A word in two characters' names ("COUSIN BEA" / "COUSIN TEDDY", siblings' surname) identifies neither.
+  const tokSets = chars.map((c) => [...new Set(c.names.flatMap(keyTokens))].filter((t) => t.length > 1));
+  const owners = new Map();
+  for (const ts of tokSets) for (const t of ts) owners.set(t, (owners.get(t) || 0) + 1);
+  const res = chars.map((c, k) => {
+    const own = tokSets[k].filter((t) => owners.get(t) === 1);
+    const toks = own.length ? own : tokSets[k];
     return toks.length ? new RegExp(`\\b(?:${toks.map(escapeRe).join("|")})(?:['’]s)?\\b`, "gi") : null;
   });
   // Common-noun characters ("a WOMAN") are later referred to as "the woman"; forward-introduced ones by their noun.
@@ -130,11 +163,12 @@ export function buildCast(scene) {
       for (const m of text.matchAll(res[k])) {
         // Case-sensitive guard: lowercase common words that collide with names ("will", "grace") don't count.
         if (m[0][0] !== m[0][0].toUpperCase()) continue;
-        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: /['’]s$/i.test(m[0]) });
+        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: /['’]s$/i.test(m[0]),
+          lead: m.index <= 1 || LEAD_TITLE.test(text.slice(0, m.index)) });
         if (c.first > u.i) c.first = u.i;
       }
       if (commonRes[k]) for (const m of text.matchAll(commonRes[k])) {
-        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: false });
+        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: false, lead: m.index <= 1 });
       }
     });
     mentions[u.i].sort((a, b) => a.at - b.at);
@@ -151,6 +185,7 @@ export function buildCast(scene) {
   for (let k = 1; k < acts.length; k++) {
     const ids = [...new Set(mentions[acts[k - 1].i].map((m) => m.c))];
     const p0 = pronouns[acts[k].i][0];
+    if (acts[k].i !== acts[k - 1].i + 1) continue; // only directly consecutive action, no dialogue in between
     if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length) chars[ids[0]].g[p0.g]++;
   }
   // Descriptor nouns in the introduction sentence ("a jesuitic priest", "a teenage girl").
@@ -162,9 +197,22 @@ export function buildCast(scene) {
       c.g.m += 2 * (t.match(MALE) || []).length;
     }
   }
+  // Titles in the name itself (MRS. HALL, SIR TOBY, FATHER BROWN).
+  for (const c of chars) for (const n of c.names) {
+    const t = n.toUpperCase().replace(/[.,]/g, "").split(/\s+/)[0];
+    const g = NAME_GENDER[t];
+    if (g && t !== keyTokens(n)[0]) c.g[g] += 3;
+  }
+  // Decide: this scene's evidence + evidence from the rest of the script (scene.priorGender, filled by the service),
+  // and only if there is none at all, the first-name list.
+  const prior = scene.priorGender || {};
   for (const c of chars) {
-    const { m, f } = c.g;
-    c.gender = c.group ? "p" : m > f ? "m" : f > m ? "f" : "?";
+    c.evidence = { m: c.g.m, f: c.g.f };
+    const p = prior[charKey(c.name)] || { m: 0, f: 0 };
+    const m = c.g.m + p.m, f = c.g.f + p.f;
+    let g = m > f ? "m" : f > m ? "f" : "?";
+    if (g === "?" && !c.group) g = NAME_GENDER[keyTokens(c.name)[0]] || "?";
+    c.gender = c.group ? "p" : g;
   }
   return { chars, mentions, pronouns };
 }

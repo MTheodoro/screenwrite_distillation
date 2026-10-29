@@ -4,6 +4,7 @@ import { parse } from "./fountain.js";
 import { analyzeRules } from "./rules.js";
 import { analyzeModelStages, unitLines } from "./model.js";
 import { sceneContext, actorCandidates } from "./rules.js";
+import { buildCast, charKey } from "./cast.js";
 
 export const ANALYZER_VERSION = "1";
 
@@ -69,10 +70,45 @@ export class AnalyzerService {
 
   // Called with the full script text (debounced by the caller). Returns scene hashes in order; results
   // stream through onResult(index, hash, result) as they become available.
-  async update(text, onResult) {
+  // characters (optional): the app's character tags, [{ name, aliases?: [], gender?: "m" | "f" }] or names.
+  // They are taken as given; characters the app hasn't tagged are still detected from cues and introductions.
+  async update(text, onResult, characters = []) {
     const gen = ++this.generation;
     const scenes = splitScenes(text);
     const items = scenes.map((s, index) => ({ index, scene: s, hash: hashText(s.units.map((u) => u.cue || u.text).join("\n")) }));
+    const tags = characters.map((c) => (typeof c === "string" ? { name: c, aliases: [] } : { aliases: [], ...c }));
+    // Pass 1: the script-wide cast (a character introduced in scene 3 is recognised by name in scene 40).
+    this.names ??= new Map(); // scene hash -> [names]
+    this.evidence ??= new Map(); // scene hash + cast signature -> [[charKey, m, f], ...]
+    const known = new Map(tags.map((t) => [charKey(t.name), t]));
+    for (const it of items) {
+      if (!this.names.has(it.hash)) this.names.set(it.hash, buildCast(it.scene).chars.map((c) => c.name));
+      for (const n of this.names.get(it.hash)) if (!known.has(charKey(n)) && ![...known.values()].some((t) => t.aliases.some((a) => charKey(a) === charKey(n)))) known.set(charKey(n), { name: n, aliases: [] });
+    }
+    const knownNames = [...known.values()];
+    const castSig = hashText(knownNames.map((k) => [k.name, ...k.aliases].join("/")).sort().join("|"));
+    // Pass 2: script-wide gender evidence: a pronoun or descriptor that pins a character down in one scene counts in all.
+    const total = {};
+    for (const it of items) {
+      const ek = it.hash + ":" + castSig;
+      if (!this.evidence.has(ek)) {
+        it.scene.knownNames = knownNames;
+        this.evidence.set(ek, buildCast(it.scene).chars.map((c) => [charKey(c.name), c.evidence.m, c.evidence.f]));
+      }
+      for (const [k, m, f] of this.evidence.get(ek)) {
+        total[k] ??= { m: 0, f: 0 };
+        total[k].m += m; total[k].f += f;
+      }
+    }
+    for (const t of tags) if (t.gender === "m" || t.gender === "f") { const k = charKey(t.name); total[k] ??= { m: 0, f: 0 }; total[k][t.gender] += 1000; }
+    if (this.names.size > 4 * items.length + 100) { this.names.clear(); this.evidence.clear(); }
+    // Cache key covers the script-wide cast and genders (they change rarely: a new character or new evidence).
+    const sig = hashText(castSig + Object.keys(total).sort().map((k) => k + (total[k].m > total[k].f ? "m" : total[k].f > total[k].m ? "f" : "?")).join("|"));
+    for (const it of items) {
+      it.scene.knownNames = knownNames;
+      it.scene.priorGender = total;
+      it.hash = it.hash + ":" + sig;
+    }
     const pending = [];
     for (const it of items) {
       const k = this.key(it.hash);

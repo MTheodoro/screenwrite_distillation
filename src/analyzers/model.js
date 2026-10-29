@@ -4,6 +4,7 @@ import {
   sceneContext, boundaryFeatures, actorCandidates, actorFeatures, addrCandidates, addrFeatures, emotionFeatures,
   unitTensionFeatures, attachEmbedder, SPECIAL, ACTOR_FEATURES, strongActors,
 } from "./rules.js";
+import { explicitEmotion } from "./lexicon.js";
 import {
   BEAT_TYPES, PLACES, ATMOS, ROLES, TRAITS, beatTypeFeatures, sceneFeatures, charFeatures, beatSummary, placeText, characterText,
 } from "./describe.js";
@@ -113,7 +114,13 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
     const ep = predictRaw(models.emo, x);
     let best = 0;
     for (let k = 1; k < ep.length; k++) if (ep[k] > ep[best]) best = k;
-    result.lines[i].emo = [meta.emo.classes[best], Math.max(0, Math.min(1, predictRaw(models.emo_int, x)))];
+    let emo = meta.emo.classes[best], inten = Math.max(0, Math.min(1, predictRaw(models.emo_int, x)));
+    // Explicit emotion words beat a "neutral" verdict (the model leans neutral on action lines).
+    if (emo === "neutral") {
+      const t = ctx.units[i].text, ex = explicitEmotion(t);
+      if (ex) { emo = ex[0]; inten = Math.min(1, 0.45 + 0.15 * ex[1] + 0.1 * Math.min(2, (t.match(/!/g) || []).length)); }
+    }
+    result.lines[i].emo = [emo, inten];
   }
   result.beatMood = beatMood(result, ctx.content);
   if (bundle.describe) {

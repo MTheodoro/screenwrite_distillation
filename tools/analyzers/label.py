@@ -403,6 +403,89 @@ def cmd_beat_tasks(a):
     print(f"{len(todo)} scenes -> {n} beat tasks in {tdir}")
 
 
+KIND_TASK = """You classify screenplay action lines that have NO character as their agent, for a writing tool.
+Every line in the script must belong somewhere, so each marked line (`*`) gets exactly one kind:
+
+- `setting`  : the place, scenery, light, weather, time of day, what a space looks/sounds like as a whole
+               ("A cramped kitchen.", "Rain hammers the windows.", "Dawn over the harbor.", "Silence.")
+- `event`    : something happens or an object/sound/vehicle/machine acts, with no character doing it
+               ("The phone rings.", "A car backfires outside.", "Cash.", "The door swings shut.", "A light blinks.")
+- `extra`    : done by people or creatures who are NOT characters of the scene (unnamed passers-by, a crowd that
+               is not in the names list, an animal, a monster) ("A waiter passes.", "Two women lean on its bumper.")
+- `camera`   : shot, edit or on-screen-text directions ("CLOSE ON the letter.", "We see...", "INSERT - phone",
+               "SUPER: 1999", "Back to scene.", "INTERCUT", "Time cut.")
+- `abstract` : narration, reflection, commentary, theme, time passing, things that are not visible action
+               ("Some wounds never close.", "Years pass.", "This is the last time they will speak.")
+- `character`: actually done by / describing a character in the names list (the marking was wrong). Then also give
+               the name(s).
+
+Units: `A` = action sentence (¶ = first sentence of a paragraph), `D` = dialogue block. Only `*` lines need a label;
+the rest is context.
+
+Write ONE JSON file to %OUT% with the Write tool:
+{"<scene_id>": {"<unit number>": "<kind>" | ["character", "<NAME>", ...], ...}, ...}
+Include every marked line of every scene below. Valid JSON only. Reply only with "done".
+"""
+
+
+def kind_targets(sid, d, gold=None):
+    """Unit numbers of action lines labeled as having no character agent."""
+    if gold is not None:
+        return [int(k) for k, v in gold.get("units", {}).items() if not v.get("who")]
+    f = LAB / "train" / f"{sid}.json"
+    if not f.exists():
+        return []
+    lab = json.loads(f.read_text())
+    return [int(k) for k, v in lab.get("lines", {}).items() if isinstance(v, dict) and not v.get("who")]
+
+
+def cmd_kind_tasks(a):
+    gold = {}
+    if a.gold:
+        for f in ("gold.jsonl", "gold_pd.jsonl"):
+            for l in (DATA / f).open():
+                g = json.loads(l); gold[g["scene_id"]] = g
+    ids = sorted(gold) if a.gold else [p.stem for p in sorted((LAB / "train").glob("*.json"))]
+    od = LAB / f"kinds_{a.tag}"
+    od.mkdir(parents=True, exist_ok=True)
+    tdir = LAB / "tasks" / f"kinds_{a.tag}"
+    tdir.mkdir(parents=True, exist_ok=True)
+    for old in tdir.glob("*.md"):
+        old.unlink()
+    done = set()
+    for f in od.glob("group_*.json"):
+        try:
+            done |= set(json.loads(f.read_text()))
+        except json.JSONDecodeError:
+            pass
+    todo, n_lines = [], 0
+    for s in ids:
+        if s in done or not (UNITS / f"{s}.json").exists():
+            continue
+        t = kind_targets(s, None, gold.get(s) if a.gold else None)
+        if t:
+            todo.append((s, set(t))); n_lines += len(t)
+    n, b, cur, size = 0, 0, [], 0
+    def flush():
+        nonlocal n, cur, size
+        if not cur:
+            return
+        out = od / f"group_{a.offset + n:04d}.json"
+        body = [KIND_TASK.replace("%OUT%", str(out)), "## Scenes", ""]
+        for s, t in cur:
+            lines = render_scene(load_units(s)).split("\n")
+            lines = [("* " + l) if l.split(" ", 1)[0].isdigit() and int(l.split(" ", 1)[0]) in t else l for l in lines]
+            body += lines + [""]
+        (tdir / f"task_{n:03d}.md").write_text("\n".join(body))
+        n += 1; cur = []; size = 0
+    for s, t in todo:
+        cur.append((s, t)); size += len(t)
+        if size >= a.lines_per_task:
+            flush()
+    flush()
+    print(f"{len(todo)} scenes, {n_lines} lines -> {n} kind tasks in {tdir}")
+
+
 def beat_labels(tag):
     out = {}
     for f in sorted((LAB / f"beats_{tag}").glob("group_*.json")):
@@ -597,8 +680,10 @@ if __name__ == "__main__":
     tt.add_argument("--pairs", type=int, default=30)
     tt.add_argument("--force", action="store_true")
     e = sub.add_parser("export"); e.add_argument("--append", action="store_true")
+    kt = sub.add_parser("kind-tasks"); kt.add_argument("--tag", required=True); kt.add_argument("--gold", action="store_true")
+    kt.add_argument("--lines-per-task", type=int, default=300); kt.add_argument("--offset", type=int, default=0)
     bt = sub.add_parser("beat-tasks"); bt.add_argument("--tag", required=True); bt.add_argument("--ids", default="")
     bt.add_argument("--batch-size", type=int, default=50)
     a = ap.parse_args()
     {"units": cmd_units, "tasks": cmd_tasks, "check": cmd_check, "merge-gold": cmd_merge_gold,
-     "tension-tasks": cmd_tension_tasks, "export": cmd_export, "beat-tasks": cmd_beat_tasks}[a.cmd](a)
+     "tension-tasks": cmd_tension_tasks, "export": cmd_export, "beat-tasks": cmd_beat_tasks, "kind-tasks": cmd_kind_tasks}[a.cmd](a)
