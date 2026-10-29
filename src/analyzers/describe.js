@@ -151,9 +151,16 @@ const PLACE_TEXT = { home: "home", workplace: "workplace", street: "street", veh
   venue: "venue", transit: "transit", other: "" };
 const nice = (n) => n.toLowerCase().replace(/\b\w/g, (m) => m.toUpperCase());
 
+// A fine verb phrase takes the target when it ends in a preposition ("pleads with") or is one transitive verb ("corners").
+const INTRANSITIVE = /^(waits|listens|lingers|hesitates|freezes|pauses|sits|stands|stays|watches on|looks on|broods|sulks|cleans|cooks|works|rests|sleeps|laughs|smiles|nods|shrugs|sighs|cries|weeps|panics|runs|hides|flees|leaves|arrives|returns|exits)$/;
+function takesObject(f) {
+  if (/\b(to|with|at|on|from|for|against|over|of|into|about|toward|towards|after|past|around)$/.test(f)) return true;
+  return !f.includes(" ") && !INTRANSITIVE.test(f);
+}
+
 export function beatSummary(type, actorName, targetName, tensionDelta, mood, fine = null) {
   let v = VERB[type] || type;
-  if (fine) v = v.includes("{t}") ? fine + " {t}" : fine;
+  if (fine) v = v.includes("{t}") && takesObject(fine) ? fine + " {t}" : fine;
   v = targetName ? v.replace("{t}", nice(targetName)) : v.replace(/ (to|with|against)? ?\{t\}/, "").replace(" {t}", "");
   const who = actorName ? nice(actorName) : "";
   const arrow = tensionDelta > 0.08 ? "tension ↑" : tensionDelta < -0.08 ? "tension ↓" : "";
@@ -184,7 +191,7 @@ export function tokens(text) {
 const FINE = { beat: BEAT_FINE, place: PLACE_FINE, atmos: ATMOS_FINE, role: ROLE_FINE, traits: TRAIT_FINE };
 const labelStems = new Map();
 function stems(label) {
-  if (!labelStems.has(label)) labelStems.set(label, label.toLowerCase().split(/[\s/-]+/).filter((w) => w.length > 3 && !STOP.has(w)).map((w) => w.slice(0, 5)));
+  if (!labelStems.has(label)) labelStems.set(label, label.toLowerCase().split(/[\s/-]+/).filter((w) => w.length > 3 && !STOP.has(w)).map((w) => w.slice(0, Math.max(4, w.length - 2))));
   return labelStems.get(label);
 }
 // Text each head reads: beat text, scene action text + heading, a character's lines + actions + mentions.
@@ -215,6 +222,15 @@ export function pickFine(F, head, group, toks) {
   return p >= (F?.minConf ?? 0.25) ? [opts[b], p] : [null, p];
 }
 
+// Coarse label from cue words (place): prior + cue weights, argmax.
+function pickCoarse(g, labels, toks) {
+  const sc = g.p.slice();
+  for (const t of toks) { const w = g.w[t]; if (w) for (let j = 0; j < w.length; j += 2) sc[w[j]] += w[j + 1]; }
+  let b = 0;
+  for (let k = 1; k < sc.length; k++) if (sc[k] > sc[b]) b = k;
+  return [labels[b], sc[b]];
+}
+
 // Stage 4: beat summaries, place / atmosphere, characters. D = the describe bundle (describe_weights.js).
 export function describeScene(ctx, scene, result, D) {
   const M = D.models, meta = D.meta, F = D.fine;
@@ -242,7 +258,7 @@ export function describeScene(ctx, scene, result, D) {
   });
   const sf = sceneFeatures(ctx, scene, result);
   const st = tokens(texts.scene);
-  const [place] = pick(M.place, meta.place.classes.map((c) => PLACES[c]), sf);
+  const [place] = D.place ? pickCoarse(D.place, PLACES, st) : pick(M.place, meta.place.classes.map((c) => PLACES[c]), sf);
   const [placeFine] = pickFine(F, "place", place, st);
   const atmos = tags(M.atmos, ATMOS, sf, 2, 0.35);
   const atmosFine = atmos.map((a) => pickFine(F, "atmos", a, st)[0] || a);

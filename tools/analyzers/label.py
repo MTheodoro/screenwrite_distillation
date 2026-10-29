@@ -431,12 +431,14 @@ Include every marked line of every scene below. Valid JSON only. Reply only with
 def kind_targets(sid, d, gold=None):
     """Unit numbers of action lines labeled as having no character agent."""
     if gold is not None:
-        return [int(k) for k, v in gold.get("units", {}).items() if not v.get("who")]
+        act = {u["u"] for u in d["units"] if u["kind"] == "action"}
+        return [int(k) for k, v in gold.get("units", {}).items() if not v.get("who") and int(k) in act]
     f = LAB / "train" / f"{sid}.json"
     if not f.exists():
         return []
     lab = json.loads(f.read_text())
-    return [int(k) for k, v in lab.get("lines", {}).items() if isinstance(v, dict) and not v.get("who")]
+    act = {u["u"] for u in d["units"] if u["kind"] == "action"}
+    return [int(k) for k, v in lab.get("lines", {}).items() if isinstance(v, dict) and not v.get("who") and int(k) in act]
 
 
 def cmd_kind_tasks(a):
@@ -462,7 +464,7 @@ def cmd_kind_tasks(a):
     for s in ids:
         if s in done or not (UNITS / f"{s}.json").exists():
             continue
-        t = kind_targets(s, None, gold.get(s) if a.gold else None)
+        t = kind_targets(s, load_units(s), gold.get(s) if a.gold else None)
         if t:
             todo.append((s, set(t))); n_lines += len(t)
     n, b, cur, size = 0, 0, [], 0
@@ -478,10 +480,13 @@ def cmd_kind_tasks(a):
             body += lines + [""]
         (tdir / f"task_{n:03d}.md").write_text("\n".join(body))
         n += 1; cur = []; size = 0
+    chars = 0
     for s, t in todo:
-        cur.append((s, t)); size += len(t)
-        if size >= a.lines_per_task:
-            flush()
+        n_chars = len(render_scene(load_units(s)))
+        if cur and (size + len(t) > a.lines_per_task or chars + n_chars > 90000):
+            flush(); chars = 0
+        cur.append((s, t)); size += len(t); chars += n_chars
+    chars = 0
     flush()
     print(f"{len(todo)} scenes, {n_lines} lines -> {n} kind tasks in {tdir}")
 

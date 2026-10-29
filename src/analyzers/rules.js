@@ -1,5 +1,8 @@
 // Rule-based analyzers. Each rule exposes numeric signals (features) and keeps its old verdict path.
 // Feature order is defined by the *_FEATURES arrays; models and Python export depend on it.
+import EMO_TABLE from "./emotable.js";
+import KIND_TABLE from "./kindtable.js";
+import { scoreTable } from "./wordtable.js";
 import { buildCast, presence, speakerId, pronounClass } from "./cast.js";
 import { LEX, EMOTIONS, lexCount, count, NEGATION, INTENSIFIER, GROUP_ADDR, CUT_WORDS, IMPERATIVE } from "./lexicon.js";
 
@@ -553,6 +556,7 @@ function emotionBase(ctx, i, prevEmo) {
     count(NEGATION, t), count(INTENSIFIER, t), count(/!/g, t), count(/\?/g, t), count(/\.\.\.|…/g, t),
     /(--|—)\s*$/.test(t) ? 1 : 0, count(/\b[A-Z]{3,}\b/g, t), log1p(words(t)), prevEmo,
     lexCount(t, "threat"), lexCount(t, "calm"),
+    ...scoreTable(EMO_TABLE, (u.kind === "dialogue" ? "d " : "a ") + t + (par ? " " + par : "")),
   ];
 }
 
@@ -665,4 +669,53 @@ export function analyzeRules(scene) {
   const beatUnits = beats.map((b, k) => ctx.content.filter((i) => i >= b && (k + 1 >= beats.length || i < beats[k + 1])));
   const tension = beatUnits.map((bu) => ruleTension(tensionFeatures(ctx, bu)));
   return { cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name })), beats, lines, tension };
+}
+
+// ---------------- line kind: what a line without a character agent is ----------------
+// "character" lines have who; the rest is setting (place, light, weather, how a space looks or sounds), event (an
+// object, sound or machine acts), extra (people or creatures that are not characters), camera (shot / edit / on-screen
+// text directions) or abstract (narration, reflection, time passing, beats).
+export const LINE_KINDS = ["character", "setting", "event", "extra", "camera", "abstract"];
+const CAMERA = /^(close on|close up|closeup|extreme|angle on|angle|insert|pov|p\.o\.v|we see|we hear|we follow|we move|we pan|back to|intercut|super:?|title:?|subtitle|caption|fade|cut to|smash cut|match cut|dissolve|black\.?$|tableau|montage|end montage|series of shots|end series|on screen|on the screen:|wide|wider|push in|pull back|pan|tilt|track|tracking|aerial|overhead|reverse|two shot|split screen|freeze frame|slow motion|time cut|jump cut|flashback|end flashback|back in|resume|later\.?$|moments later\.?$)\b/i;
+const ABSTRACT = /^(a (long |brief |short )?(beat|pause|moment|second|breath)\b|beat\.?$|pause\.?$|a long time|time passes|days pass|weeks pass|months pass|years pass|hours pass|for a (while|moment|second)|no one (hears|sees|notices|knows|comes|answers)|nobody (hears|sees|notices|knows|comes|answers)|nothing (happens|changes|moves)|it is (the|a) (last|first|only)|this is (the|a|how|what|where|when)|some (things|wounds|people|doors)|that is all|that's all|which is (to say|why)|in another life|perhaps|maybe|somewhere,? (someone|a))/i;
+const PERSON = /\b(man|men|woman|women|boy|boys|girl|girls|kid|kids|child|children|baby|toddler|teen|teenager|guard|guards|waiter|waitress|nurse|soldier|soldiers|cop|cops|officer|officers|stranger|strangers|figure|figures|passer-?by|passers-?by|crowd|people|tourists?|customers?|patrons?|students?|workers?|villagers?|diners?|commuters?|neighbou?rs?|someone|somebody|dog|dogs|cat|cats|horse|horses|bird|birds|gulls?|crows?|rats?|mice|mouse|cow|cows|sheep|goat|goats|wolf|wolves|deer|fox|owl|creature|creatures|monster|thing|beast|ghost|hand|hands|face|faces|eyes|voice|voices|footsteps|silhouette|shadow figure)\b/i;
+const EXTRA_SUBJ = new RegExp("^(?:a|an|the|two|three|four|several|some|many|few|a few|other|another|one|an old|a young|a little)\\s+(?:[\\w-]+\\s+){0,3}?" + PERSON.source.replace(/^\\b|\\b$/g, ""), "i");
+const SETTING_NOUN = /\b(rain|snow|sleet|hail|fog|mist|wind|breeze|storm|thunder|lightning|sun|sunlight|sunrise|sunset|dawn|dusk|twilight|moon|moonlight|stars|sky|clouds?|night|morning|afternoon|evening|light|lights|shadows?|darkness|dark|silence|quiet|heat|cold|dust|smoke|haze|room|hall|kitchen|office|street|road|field|forest|woods|river|lake|sea|ocean|beach|shore|harbou?r|mountains?|hills?|desert|city|town|village|house|building|walls?|floor|ceiling|windows?|corridor|hallway|stairs|garden|yard|park|church|bar|restaurant|cafe|shop|store|station|platform|parking lot|alley|bridge|dock|pier|landscape|horizon|view|space|interior|exterior)\b/i;
+const STATIC_VERB = /\b(is|are|was|were|stands?|sits?|lies|lie|hangs?|looms?|stretch(es)?|glows?|gleams?|shines?|glitters?|shimmers?|twinkles?|flickers?|blankets?|covers?|fills?|lines?|dots?|surrounds?|overlooks?|rises?|towers?|sprawls?|extends?|leads?|smells?|reeks?|stinks?|seems?|remains?|waits?|sleeps?|rests?|settles?|hums?|falls?|drifts?|pours?|beats? down|bakes?)\b/i;
+const EVENT_VERB = /\b(rings?|buzz(es)?|beeps?|clicks?|chimes?|slams?|bangs?|crash(es)?|smash(es)?|shatters?|breaks?|explodes?|bursts?|opens?|closes?|swings?|creaks?|squeaks?|thuds?|drops?|rolls?|spins?|tips?|topples?|tumbles?|skids?|screech(es)?|honks?|roars?|blares?|hisses?|whirs?|clatters?|rattles?|knocks?|cracks?|snaps?|pops?|blinks?|flashes?|goes (dark|off|out|black|dead|silent)|cuts? out|dies|stops?|starts?|lands?|hits?|strikes?|arrives?|pulls (up|in|away|out)|speeds?|races?|passes?|appears?|vanishes|disappears?|moves?|shifts?|turns?|changes?|ticks?|vibrates?|lights up|comes on|kicks in|boils?|burns?|spills?|leaks?|drips?)\b/i;
+
+// Text + rule signals as tokens, the input of the learned kind table (kindtable.js).
+export function kindSignals(ctx, i) {
+  const t = ctx.units[i].text.trim();
+  const sig = [];
+  if (CAMERA.test(t)) sig.push("__cam");
+  if (ABSTRACT.test(t)) sig.push("__abs");
+  if (EXTRA_SUBJ.test(t)) sig.push("__ext");
+  if (PERSON.test(t)) sig.push("__person");
+  if (SETTING_NOUN.test(t)) sig.push("__place");
+  if (STATIC_VERB.test(t)) sig.push("__static");
+  if (EVENT_VERB.test(t)) sig.push("__event");
+  if (!AUX.test(t) && !STATIC_VERB.test(t) && !EVENT_VERB.test(t) && !/\b[a-z]+s\b/.test(t.split(/\s+/).slice(1).join(" "))) sig.push("__noverb");
+  if (/\b[A-Z]{3,}\b/.test(t.replace(/^[A-Z ]+(?=[,.])/, ""))) sig.push("__caps");
+  if (t === t.toUpperCase() && /[A-Z]{2}/.test(t)) sig.push("__allcaps");
+  const w = words(t);
+  sig.push(w <= 2 ? "__w2" : w <= 5 ? "__w5" : w <= 12 ? "__w12" : "__wlong");
+  if (i === ctx.content[0]) sig.push("__first");
+  const prev = ctx.units[i - 1];
+  if (prev && prev.kind === "dialogue") sig.push("__afterdlg");
+  return sig.join(" ") + " " + t.toLowerCase();
+}
+
+export function lineKind(ctx, i, who) {
+  const u = ctx.units[i];
+  if (u.kind !== "action") return null;
+  if (who && who.length) return "character";
+  const t = u.text.trim();
+  // High-precision patterns first; the learned word table decides the rest (setting vs event vs extra).
+  if (CAMERA.test(t) || (/^[A-Z0-9 .,:'’!?-]+$/.test(t) && /[A-Z]{3,}/.test(t) && words(t) <= 6)) return "camera";
+  if (ABSTRACT.test(t)) return "abstract";
+  const p = scoreTable(KIND_TABLE, kindSignals(ctx, i));
+  let best = 0;
+  for (let k = 1; k < p.length; k++) if (p[k] > p[best]) best = k;
+  return KIND_TABLE.classes[best];
 }

@@ -125,6 +125,12 @@ def run(bundle, xenc=False, prefix=None, tiny=False):
             k = "tw" if a == b else "tx"
             M[s][k + "_n"] += 1
             M[s][k + "_ok"] += int((ta[i] > tb[j]) == bool(y)) if ta[i] != tb[j] else 0.5
+    if getattr(ARGS, "emo_cm", False):
+        for s in systems:
+            cm = np.zeros((len(L.EMOTIONS), len(L.EMOTIONS)), int)
+            for y, p in zip(emo_y, emo_p[s]):
+                cm[y, p] += 1
+            print(f"emotion confusion [{s}] rows=gold cols=pred", [e[:4] for e in L.EMOTIONS]); print(cm)
     rows = []
     def f1(c, k): return 2 * c[k + "tp"] / max(1, 2 * c[k + "tp"] + c[k + "fp"] + c[k + "fn"])
     def pct(c, a, n): return f"{c[a] / max(1, c[n]):.1%}"
@@ -160,6 +166,7 @@ if __name__ == "__main__":
     ap.add_argument("--out", default=str(L.DATA / "bench.md"))
     ap.add_argument("--xenc", action="store_true")
     ap.add_argument("--prefix", default=None)
+    ap.add_argument("--emo-cm", action="store_true")
     ap.add_argument("--tiny", action="store_true", help="plain-JS tiny BERT refiner (who-tiny.bin)")
     a = ap.parse_args()
     md = run(Path(a.bundle) if a.bundle else None, a.xenc, a.prefix, a.tiny)

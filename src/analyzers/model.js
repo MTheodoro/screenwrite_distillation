@@ -1,13 +1,11 @@
 // Inference for the distilled analyzers: rule features -> exported LightGBM trees -> decisions.
 // Pure functions; runs in the Web Worker (and in Node for benchmarks/tests).
 import {
-  sceneContext, boundaryFeatures, actorCandidates, actorFeatures, addrCandidates, addrFeatures, emotionFeatures,
-  unitTensionFeatures, attachEmbedder, SPECIAL, ACTOR_FEATURES, strongActors,
+  sceneContext, boundaryFeatures, addrCandidates, addrFeatures, emotionFeatures,
+  unitTensionFeatures, attachEmbedder, SPECIAL, ruleActors, lineKind,
 } from "./rules.js";
 import { explicitEmotion } from "./lexicon.js";
-import {
-  BEAT_TYPES, PLACES, ATMOS, ROLES, TRAITS, beatTypeFeatures, sceneFeatures, charFeatures, beatSummary, placeText, characterText,
-} from "./describe.js";
+import { describeScene } from "./describe.js";
 
 // Trees are packed once into typed arrays (one set per model) for cache-friendly evaluation.
 function pack(m) {
@@ -91,15 +89,10 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
   yield result;
   for (const i of ctx.content) {
     if (ctx.units[i].kind === "action") {
-      const cands = actorCandidates(ctx, i);
-      const feats = cands.map((c) => actorFeatures(ctx, i, c));
-      const plural = feats[0][ACTOR_FEATURES.indexOf("plural")] > 0;
-      const tau = plural && meta.actor.tau_plural != null ? meta.actor.tau_plural : meta.actor.tau;
-      const d = decodeSet(cands, feats.map((x) => predictRaw(models.actor, x)), tau);
-      const strong = strongActors(ctx, i); // high-precision rule patterns win over the model
-      result.lines[i] = strong
-        ? { who: strong, conf: 1, margin: 1, runnerUp: d.ids[0] ?? -1, rule: true }
-        : { who: d.ids, conf: d.conf, margin: d.margin, runnerUp: d.runnerUp };
+      // Who: rules only (they beat the distilled model on the gold sets). Every action line also gets a kind:
+      // character / setting / event / extra / camera / abstract, so no text is left unclassified.
+      const who = ruleActors(ctx, i);
+      result.lines[i] = { who, kind: lineKind(ctx, i, who) };
     } else if (!opts.addressee) {
       result.lines[i] = { speaker: ctx.speaker[i] };
     } else {
@@ -128,41 +121,6 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
     describeScene(ctx, scene, result, bundle.describe);
   }
   return result;
-}
-
-// Stage 4 (only when the bundle has description models): beat summaries, place / atmosphere, characters.
-function describeScene(ctx, scene, result, D) {
-  const pick = (m, classes, x) => { const p = predictRaw(m, x); let b = 0; for (let k = 1; k < p.length; k++) if (p[k] > p[b]) b = k; return [classes[b], p[b]]; };
-  const tags = (ms, labels, x, max, min) => ms.map((m, j) => [labels[j], m ? predictRaw(m, x) : 0])
-    .sort((a, b) => b[1] - a[1]).filter((t, k) => k === 0 || t[1] >= min).slice(0, max).map((t) => t[0]);
-  const name = (c) => (c >= 0 ? ctx.cast.chars[c].name : null);
-  const b = result.beats;
-  result.beatSummaries = b.map((start, k) => {
-    const units = ctx.content.filter((i) => i >= start && (k + 1 >= b.length || i < b[k + 1]));
-    const [type, conf] = pick(D.models.beat, D.meta.beat.classes.map((c) => BEAT_TYPES[c]), beatTypeFeatures(ctx, units, result));
-    const score = new Map(), aim = new Map();
-    for (const i of units) {
-      const l = result.lines[i] || {};
-      for (const c of l.who || []) score.set(c, (score.get(c) || 0) + 1);
-      if (l.speaker >= 0) score.set(l.speaker, (score.get(l.speaker) || 0) + 1);
-      for (const c of l.to || []) if (c >= 0) aim.set(c, (aim.get(c) || 0) + 1);
-    }
-    const top = (m, not) => [...m].filter(([c]) => c !== not).sort((x, y) => y[1] - x[1])[0]?.[0] ?? -1;
-    const actor = top(score, -9), target = top(aim, actor) >= 0 ? top(aim, actor) : top(score, actor);
-    const dt = k > 0 ? result.tension[k] - result.tension[k - 1] : 0;
-    return { type, conf, actor, target, text: beatSummary(type, name(actor), name(target), dt, result.beatMood[k]) };
-  });
-  const sf = sceneFeatures(ctx, scene, result);
-  const [place] = pick(D.models.place, D.meta.place.classes.map((c) => PLACES[c]), sf);
-  const atmos = tags(D.models.atmos, ATMOS, sf, 2, 0.35);
-  result.place = { place, atmos, text: placeText(scene.heading, place, atmos) };
-  result.characters = ctx.cast.chars.filter((c) => c.spoke || ctx.content.some((i) => (result.lines[i]?.who || []).includes(c.id)))
-    .map((c) => {
-      const x = charFeatures(ctx, c.id, result);
-      const [role] = pick(D.models.role, D.meta.role.classes.map((r) => ROLES[r]), x);
-      const traits = tags(D.models.traits, TRAITS, x, 3, 0.4);
-      return { id: c.id, role, traits, text: characterText(c.name, role, traits) };
-    });
 }
 
 // Mood per beat: the non-neutral emotion with the largest summed intensity over the beat's lines,
