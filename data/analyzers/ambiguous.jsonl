@@ -979,3 +979,185 @@
 {"scene_id": "s01118", "u": 20, "field": "emo", "text": "\"He did not fall.\"", "votes": ["surprise", "fear", "fear"]}
 {"scene_id": "s01118", "u": 29, "field": "emo", "text": "You tell me, Inspector. You're the one in the tower.", "votes": ["neutral", "anger", "fear"]}
 {"scene_id": "s01118", "u": 33, "field": "emo", "text": "She looks at the ceiling, at the spiral stair, and then at the pen in her hand.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "pd_dollhouse_0", "u": 13, "field": "who", "text": "She leaves the outer door open after her, and through it is seen a PORTER who is carrying a Christmas Tree and a basket, which he gives to the MAID who has opened the door.]", "votes": [[[0], [1]], [[0], [1]], [[1]]]}
+{"scene_id": "pd_dollhouse_0", "u": 32, "field": "emo", "text": "Just now.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "pd_dollhouse_0", "u": 37, "field": "emo", "text": "Bought, did you say? All these things? Has my little spendthrift been wasting money again?", "votes": ["affection", "anger", "surprise"]}
+{"scene_id": "pd_dollhouse_0", "u": 40, "field": "emo", "text": "Yes, Torvald, we may be a wee bit more reckless now, mayn\u2019t we? Just a tiny wee bit! You are going to have a big salary and earn lots and lots of money.", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "pd_dollhouse_0", "u": 43, "field": "emo", "text": "Nora!", "votes": ["surprise", "surprise", "anger"]}
+{"scene_id": "pd_dollhouse_0", "u": 51, "field": "emo", "text": "They? Who would bother about them? I should not know who they were.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "pd_dollhouse_0", "u": 53, "field": "emo", "text": "moving towards the stove.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "pd_dollhouse_0", "u": 58, "field": "emo", "text": "Nora, what do you think I have got here?", "votes": ["affection", "joy", "joy"]}
+{"scene_id": "pd_dollhouse_1", "u": 4, "field": "emo", "text": "So it has all had to come out of your own necessaries of life, poor Nora?", "votes": ["sadness", "affection", "sadness"]}
+{"scene_id": "pd_dollhouse_1", "u": 27, "field": "emo", "text": "Mrs LINDE starts, trembles, and turns to the window.", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "pd_dollhouse_1", "u": 35, "field": "emo", "text": "Nora\u2014who was that man?", "votes": ["fear", "surprise", "surprise"]}
+{"scene_id": "pd_dollhouse_1", "u": 37, "field": "to", "text": "Then it really was he.", "votes": [[["SELF"]], [[0]], [[0]]]}
+{"scene_id": "pd_dollhouse_2", "u": 3, "field": "emo", "text": "No, mother; but will you come and play again?", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "pd_dollhouse_2", "u": 4, "field": "emo", "text": "No, no,\u2014not now.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "pd_dollhouse_2", "u": 7, "field": "emo", "text": "She gets them into the room by degrees and shuts the door on them; then sits down on the sofa, takes up a piece of needlework and sews a few stitches, but soon stops.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "pd_dollhouse_2", "u": 11, "field": "emo", "text": "Goes to the table on the left, opens a drawer, and stops again.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "pd_dollhouse_2", "u": 25, "field": "emo", "text": "That is strange. I saw Krogstad going out of the gate.", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "pd_dollhouse_2", "u": 32, "field": "emo", "text": "A lie\u2014?", "votes": ["surprise", "fear", "fear"]}
+{"scene_id": "pd_dollhouse_2", "u": 34, "field": "emo", "text": "Shakes his finger at her.", "votes": ["affection", "neutral", "anger"]}
+{"scene_id": "pd_dollhouse_2", "u": 44, "field": "emo", "text": "Torvald!", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "pd_dollhouse_3", "u": 11, "field": "emo", "text": "She puts her hands over her face, pulls herself together, goes to the door and opens it.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "pd_dollhouse_3", "u": 15, "field": "emo", "text": "And you?", "votes": ["neutral", "affection", "neutral"]}
+{"scene_id": "pd_dollhouse_3", "u": 33, "field": "emo", "text": "I won\u2019t have him there. Not on any account. I bar my door to him. As soon as I am quite certain that the worst has come, I shall send you my card with a black cross on it, and then you will know that the loathsome end has begun.", "votes": ["sadness", "anger", "sadness"]}
+{"scene_id": "pd_dollhouse_3", "u": 36, "field": "emo", "text": "putting her hands over her ears.", "votes": ["disgust", "fear", "disgust"]}
+{"scene_id": "pd_dollhouse_3", "u": 37, "field": "emo", "text": ". Rubbish! Do talk of something cheerful.", "votes": ["disgust", "anger", "disgust"]}
+{"scene_id": "pd_dollhouse_3", "u": 41, "field": "emo", "text": "Yes, and to truffles.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "pd_dollhouse_3", "u": 43, "field": "emo", "text": "Oysters, of course, that goes without saying.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "pd_dollhouse_4", "u": 1, "field": "emo", "text": "And your husband keeps the key?", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "pd_dollhouse_4", "u": 3, "field": "emo", "text": "Krogstad must ask for his letter back unread, he must find some pretence\u2014", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "pd_dollhouse_4", "u": 7, "field": "emo", "text": "goes to HELMER\u2019S door, opens it and peeps in.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "pd_dollhouse_4", "u": 14, "field": "emo", "text": "Rank led me to expect a splendid transformation.", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "pd_dollhouse_4", "u": 16, "field": "to", "text": ". I understood so, but evidently I was mistaken.", "votes": [[[1], [2]], [[1], [2]], [[2]]]}
+{"scene_id": "pd_dollhouse_4", "u": 18, "field": "emo", "text": "But, my dear Nora, you look so worn out. Have you been practising too much?", "votes": ["affection", "affection", "fear"]}
+{"scene_id": "pd_dollhouse_4", "u": 33, "field": "emo", "text": "NORA, at the piano, plays the first bars of the Tarantella.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "pd_dollhouse_4", "u": 34, "field": "emo", "text": "HELMER stops in the doorway.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "pd_dollhouse_4", "u": 35, "field": "emo", "text": "Aha!", "votes": ["joy", "joy", "surprise"]}
+{"scene_id": "pd_dollhouse_4", "u": 43, "field": "emo", "text": "She hastily drapes the shawl round her.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "pd_dollhouse_4", "u": 45, "field": "emo", "text": ". Now play for me! I am going to dance!", "votes": ["joy", "fear", "fear"]}
+{"scene_id": "pd_dollhouse_4", "u": 49, "field": "emo", "text": ". Slower, slower!", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "pd_dollhouse_5", "u": 3, "field": "emo", "text": "in a fretful whisper.", "votes": ["anger", "anger", "disgust"]}
+{"scene_id": "pd_dollhouse_5", "u": 4, "field": "emo", "text": ". Oh, what does he want now?", "votes": ["anger", "anger", "disgust"]}
+{"scene_id": "pd_dollhouse_5", "u": 25, "field": "emo", "text": "Just listen!\u2014little Nora talking about scientific investigations!", "votes": ["affection", "joy", "joy"]}
+{"scene_id": "pd_dollhouse_5", "u": 32, "field": "emo", "text": "Absolute certainty. So wasn\u2019t I entitled to make a merry evening of it after that?", "votes": ["joy", "sadness", "sadness"]}
+{"scene_id": "pd_dollhouse_5", "u": 36, "field": "emo", "text": "Doctor Rank\u2014are you fond of fancy-dress balls?", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "pd_dollhouse_5", "u": 41, "field": "emo", "text": "Yes, but what do you suggest as an appropriate costume for that?", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "pd_dollhouse_6", "u": 2, "field": "emo", "text": "Perhaps\u2014if your doll is taken away from you.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "pd_dollhouse_6", "u": 5, "field": "emo", "text": ". That makes it all the more certain that it must be done.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "pd_dollhouse_6", "u": 34, "field": "emo", "text": "Tell me what that would be!", "votes": ["joy", "surprise", "surprise"]}
+{"scene_id": "pd_dollhouse_6", "u": 36, "field": "emo", "text": "But I will believe in it. Tell me! So changed that\u2014?", "votes": ["joy", "sadness", "joy"]}
+{"scene_id": "pd_dollhouse_6", "u": 37, "field": "emo", "text": "That our life together would be a real wedlock. Goodbye.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "pd_earnest_0", "u": 5, "field": "emo", "text": "Did you hear what I was playing, Lane?", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "pd_earnest_0", "u": 20, "field": "emo", "text": "I don\u2019t know that I am much interested in your family life, Lane.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "pd_earnest_0", "u": 32, "field": "emo", "text": "Stiffly .", "votes": ["anger", "neutral", "disgust"]}
+{"scene_id": "pd_earnest_0", "u": 33, "field": "emo", "text": "I believe it is customary in good society to take some slight refreshment at five o\u2019clock. Where have you been since last Thursday?", "votes": ["anger", "anger", "disgust"]}
+{"scene_id": "pd_earnest_0", "u": 36, "field": "emo", "text": "What on earth do you do there?", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "pd_earnest_0", "u": 38, "field": "emo", "text": "When one is in town one amuses oneself. When one is in the country one amuses other people. It is excessively boring.", "votes": ["neutral", "disgust", "disgust"]}
+{"scene_id": "pd_earnest_0", "u": 45, "field": "who", "text": "Goes over and takes sandwich.", "votes": [[[2]], [[0]], [[0]]]}
+{"scene_id": "pd_earnest_1", "u": 6, "field": "emo", "text": "But your name is Ernest.", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "pd_earnest_1", "u": 11, "field": "emo", "text": "It suits you perfectly. It is a divine name. It has a music of its own. It produces vibrations.", "votes": ["joy", "affection", "affection"]}
+{"scene_id": "pd_earnest_1", "u": 12, "field": "emo", "text": "Well, really, Gwendolen, I must say that I think there are lots of other much nicer names. I think Jack, for instance, a charming name.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "pd_earnest_1", "u": 22, "field": "emo", "text": "Yes, Mr. Worthing, what have you got to say to me?", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "pd_earnest_1", "u": 23, "field": "emo", "text": "You know what I have got to say to you.", "votes": ["affection", "fear", "neutral"]}
+{"scene_id": "pd_earnest_1", "u": 24, "field": "emo", "text": "Yes, but you don\u2019t say it.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "pd_earnest_1", "u": 31, "field": "emo", "text": "Mr. Worthing! Rise, sir, from this semi-recumbent posture. It is most indecorous.", "votes": ["disgust", "anger", "anger"]}
+{"scene_id": "pd_earnest_1", "u": 34, "field": "emo", "text": "I must beg you to retire. This is no place for you. Besides, Mr. Worthing has not quite finished yet.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "pd_earnest_1", "u": 36, "field": "emo", "text": "I am engaged to Mr. Worthing, mamma.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "pd_earnest_2", "u": 5, "field": "emo", "text": "Drawing herself up.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "pd_earnest_2", "u": 8, "field": "emo", "text": "Cecily! I am surprised at you. Mr. Worthing has many troubles in his life. Idle merriment and triviality would be out of place in his conversation. You must remember his constant anxiety about that unfortunate young man his brother.", "votes": ["anger", "anger", "surprise"]}
+{"scene_id": "pd_earnest_2", "u": 9, "field": "emo", "text": "I wish Uncle Jack would allow that unfortunate young man, his brother, to come down here sometimes. We might have a good influence over him, Miss Prism. I am sure you certainly would. You know German, and geology, and things of that kind influence a man very much.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "pd_earnest_2", "u": 16, "field": "emo", "text": "Do not speak slightingly of the three-volume novel, Cecily. I wrote one myself in earlier days.", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "pd_earnest_2", "u": 28, "field": "to", "text": "And how are we this morning? Miss Prism, you are, I trust, well?", "votes": [[[1]], [[0], [1]], [[0], [1]]]}
+{"scene_id": "pd_earnest_2", "u": 30, "field": "emo", "text": "Cecily, I have not mentioned anything about a headache.", "votes": ["anger", "anger", "surprise"]}
+{"scene_id": "pd_earnest_2", "u": 31, "field": "emo", "text": "No, dear Miss Prism, I know that, but I felt instinctively that you had a headache. Indeed I was thinking about that, and not about my German lesson, when the Rector came in.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "pd_earnest_2", "u": 41, "field": "to", "text": "A classical allusion merely, drawn from the Pagan authors. I shall see you both no doubt at Evensong?", "votes": [[[0], [1]], [[0], [1]], [[1]]]}
+{"scene_id": "pd_earnest_2", "u": 44, "field": "to", "text": "That would be delightful. Cecily, you will read your Political Economy in my absence. The chapter on the Fall of the Rupee you may omit. It is somewhat too sensational. Even these metallic problems have their melodramatic side.", "votes": [[[0]], [[0]], [[0], [2]]]}
+{"scene_id": "pd_earnest_2", "u": 44, "field": "emo", "text": "That would be delightful. Cecily, you will read your Political Economy in my absence. The chapter on the Fall of the Rupee you may omit. It is somewhat too sensational. Even these metallic problems have their melodramatic side.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "pd_earnest_3", "u": 6, "field": "to", "text": "I feel very happy.", "votes": [[["ALL"]], [[0], [1]], [["ALL"]]]}
+{"scene_id": "pd_earnest_3", "u": 25, "field": "emo", "text": "Well, Cecily is a darling.", "votes": ["joy", "affection", "affection"]}
+{"scene_id": "pd_earnest_3", "u": 30, "field": "emo", "text": "Well, will you go if I change my clothes?", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "pd_earnest_3", "u": 36, "field": "emo", "text": "I think it has been a great success. I\u2019m in love with Cecily, and that is everything.", "votes": ["joy", "affection", "affection"]}
+{"scene_id": "pd_earnest_3", "u": 40, "field": "emo", "text": "Oh, I merely came back to water the roses. I thought you were with Uncle Jack.", "votes": ["neutral", "surprise", "surprise"]}
+{"scene_id": "pd_earnest_3", "u": 46, "field": "emo", "text": "It is always painful to part from people whom one has known for a very brief space of time. The absence of old friends one can endure with equanimity. But even a momentary separation from anyone to whom one has just been introduced is almost unbearable.", "votes": ["sadness", "affection", "affection"]}
+{"scene_id": "pd_earnest_4", "u": 2, "field": "emo", "text": "Satirically.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "pd_earnest_4", "u": 14, "field": "emo", "text": "Are there many interesting walks in the vicinity, Miss Cardew?", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "pd_earnest_4", "u": 26, "field": "emo", "text": "Ah! This is what the newspapers call agricultural depression, is it not? I believe the aristocracy are suffering very much from it just at present. It is almost an epidemic amongst them, I have been told. May I offer you some tea, Miss Fairfax?", "votes": ["disgust", "anger", "anger"]}
+{"scene_id": "pd_earnest_4", "u": 30, "field": "emo", "text": "Detestable girl! But I require tea!", "votes": ["disgust", "anger", "disgust"]}
+{"scene_id": "pd_earnest_4", "u": 33, "field": "emo", "text": "Superciliously.", "votes": ["disgust", "disgust", "neutral"]}
+{"scene_id": "pd_earnest_4", "u": 36, "field": "emo", "text": "Severely.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "pd_earnest_4", "u": 38, "field": "emo", "text": "In a bored manner.", "votes": ["disgust", "neutral", "neutral"]}
+{"scene_id": "pd_earnest_4", "u": 41, "field": "emo", "text": "Hand that to Miss Fairfax.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "pd_earnest_4", "u": 42, "field": "who", "text": "Merriman does so, and goes out with footman.", "votes": [[["OTHER"], [2]], [["OTHER"], [2]], [[2]]]}
+{"scene_id": "pd_earnest_4", "u": 44, "field": "emo", "text": "Puts down cup at once, reaches out her hand to the bread and butter, looks at it, and finds it is cake.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "pd_earnest_4", "u": 53, "field": "emo", "text": "Ernest! My own Ernest!", "votes": ["affection", "joy", "joy"]}
+{"scene_id": "pd_earnest_5", "u": 3, "field": "to", "text": "How absurd to talk of the equality of the sexes! Where questions of self-sacrifice are concerned, men are infinitely beyond us.", "votes": [[[3]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "pd_earnest_5", "u": 3, "field": "emo", "text": "How absurd to talk of the equality of the sexes! Where questions of self-sacrifice are concerned, men are infinitely beyond us.", "votes": ["joy", "joy", "affection"]}
+{"scene_id": "pd_earnest_5", "u": 5, "field": "who", "text": "Clasps hands with Algernon.", "votes": [[[1], [3]], [[3]], [[3]]]}
+{"scene_id": "pd_earnest_5", "u": 5, "field": "emo", "text": "Clasps hands with Algernon.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "pd_earnest_5", "u": 6, "field": "emo", "text": "They have moments of physical courage of which we women know absolutely nothing.", "votes": ["joy", "joy", "affection"]}
+{"scene_id": "pd_earnest_5", "u": 14, "field": "emo", "text": "Ahem! Ahem! Lady Bracknell!", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "pd_earnest_5", "u": 31, "field": "emo", "text": "Airily.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "pd_earnest_5", "u": 32, "field": "emo", "text": "Oh! I killed Bunbury this afternoon. I mean poor Bunbury died this afternoon.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "pd_earnest_5", "u": 34, "field": "emo", "text": "Bunbury? Oh, he was quite exploded.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "pd_earnest_5", "u": 36, "field": "emo", "text": "My dear Aunt Augusta, I mean he was found out! The doctors found out that Bunbury could not live, that is what I mean\u2014so Bunbury died.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "pd_earnest_5", "u": 40, "field": "emo", "text": "I am engaged to be married to Cecily, Aunt Augusta.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "pd_earnest_5", "u": 42, "field": "emo", "text": "Mr. Moncrieff and I are engaged to be married, Lady Bracknell.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "pd_earnest_5", "u": 46, "field": "emo", "text": "In a clear, cold voice.", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "pd_earnest_6", "u": 2, "field": "to", "text": "Dr. Chasuble, my unfortunate brother. Miss Prism, my unfortunate brother. Gwendolen, my unfortunate brother. Algy, you young scoundrel, you will have to treat me with more respect in the future. You have never behaved to me like a brother in all your life.", "votes": [[["ALL"]], [[1], [2], [5], [6]], [["ALL"]]]}
+{"scene_id": "pd_earnest_6", "u": 7, "field": "emo", "text": "Good heavens! . . . I had quite forgotten that point. Your decision on the subject of my name is irrevocable, I suppose?", "votes": ["surprise", "fear", "fear"]}
+{"scene_id": "pd_earnest_6", "u": 12, "field": "emo", "text": "Then I was christened! That is settled. Now, what name was I given? Let me know the worst.", "votes": ["joy", "fear", "fear"]}
+{"scene_id": "pd_earnest_6", "u": 20, "field": "emo", "text": "His name would appear in the Army Lists of the period, I suppose, Aunt Augusta?", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "pd_earnest_6", "u": 23, "field": "emo", "text": "Rushes to bookcase and tears the books out.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "pd_earnest_6", "u": 27, "field": "to", "text": "Yes, I remember now that the General was called Ernest, I knew I had some particular reason for disliking the name.", "votes": [[["ALL"]], [[0]], [["ALL"]]]}
+{"scene_id": "pd_earnest_6", "u": 29, "field": "emo", "text": "Gwendolen, it is a terrible thing for a man to find out suddenly that all his life he has been speaking nothing but the truth. Can you forgive me?", "votes": ["affection", "fear", "affection"]}
+{"scene_id": "pd_earnest_6", "u": 39, "field": "emo", "text": "At last!", "votes": ["affection", "joy", "affection"]}
+{"scene_id": "pd_earnest_6", "u": 42, "field": "emo", "text": "At last!", "votes": ["affection", "joy", "affection"]}
+{"scene_id": "pd_earnest_6", "u": 45, "field": "who", "text": "TABLEAU", "votes": [[[0], [1], [2], [3], [4], [5], [6]], [], []]}
+{"scene_id": "pd_sisters_0", "u": 4, "field": "who", "text": "In the dining-room the table is being laid for lunch.", "votes": [[["OTHER"]], [], []]}
+{"scene_id": "pd_sisters_0", "u": 8, "field": "to", "text": "And the clock struck just the same way then.", "votes": [[[2]], [["ALL"]], [[2]]]}
+{"scene_id": "pd_sisters_0", "u": 10, "field": "to", "text": "I remember that there was music at the funeral, and they fired a volley in the cemetery. He was a general in command of a brigade but there were few people present. Of course, it was raining then, raining hard, and snowing.", "votes": [[[2]], [["ALL"]], [[2]]]}
+{"scene_id": "pd_sisters_0", "u": 13, "field": "to", "text": "It\u2019s so warm to-day that we can keep the windows open, though the birches are not yet in flower. Father was put in command of a brigade, and he rode out of Moscow with us eleven years ago. I remember perfectly that it was early in May and that everything in Moscow was flowering then. It was warm too, everything was bathed in sunshine. Eleven years have gone, and I remember everything as if we rode out only yesterday. Oh, God! When I awoke this morning and saw all the light and the spring, joy entered my heart, and I longed passionately to go home.", "votes": [[[1], [2]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "pd_sisters_0", "u": 15, "field": "emo", "text": "Oh, nonsense.", "votes": ["disgust", "disgust", "neutral"]}
+{"scene_id": "pd_sisters_0", "u": 19, "field": "to", "text": "I\u2019m always having headaches from having to go to the High School every day and then teach till evening. Strange thoughts come to me, as if I were already an old woman. And really, during these four years that I have been working here, I have been feeling as if every day my strength and youth have been squeezed out of me, drop by drop. And only one desire grows and gains in strength...", "votes": [[[1], [2]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "pd_sisters_0", "u": 26, "field": "to", "text": "Everything will be arranged, please God.", "votes": [[[0]], [["ALL"]], [[0]]]}
+{"scene_id": "pd_sisters_0", "u": 31, "field": "to", "text": "I should love my husband.", "votes": [[[2]], [["SELF"]], [[2]]]}
+{"scene_id": "pd_sisters_0", "u": 31, "field": "emo", "text": "I should love my husband.", "votes": ["affection", "sadness", "affection"]}
+{"scene_id": "pd_sisters_0", "u": 45, "field": "to", "text": "With one hand I can only lift fifty-four pounds, but with both hands I can lift 180, or even 200 pounds. From this I conclude that two men are not twice as strong as one, but three times, perhaps even more....", "votes": [[[4]], [[4]], [["ALL"]]]}
+{"scene_id": "pd_sisters_1", "u": 19, "field": "emo", "text": "Why?", "votes": ["neutral", "surprise", "surprise"]}
+{"scene_id": "pd_sisters_1", "u": 29, "field": "emo", "text": "Are you superstitious?", "votes": ["neutral", "surprise", "surprise"]}
+{"scene_id": "pd_sisters_1", "u": 31, "field": "emo", "text": "That\u2019s strange.", "votes": ["surprise", "surprise", "neutral"]}
+{"scene_id": "pd_sisters_1", "u": 34, "field": "who", "text": "Sits on another chair.", "votes": [[[1]], [[1]], [[2]]]}
+{"scene_id": "pd_sisters_1", "u": 41, "field": "emo", "text": "Covers her face with her hands.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "pd_sisters_2", "u": 9, "field": "to", "text": "In this town absolutely nobody understands music, not a soul except myself, but I do understand it, and assure you on my word of honour that Maria Sergeyevna plays excellently, almost with genius.", "votes": [[[0], [2]], [[2]], [["ALL"]]]}
+{"scene_id": "pd_sisters_2", "u": 9, "field": "emo", "text": "In this town absolutely nobody understands music, not a soul except myself, but I do understand it, and assure you on my word of honour that Maria Sergeyevna plays excellently, almost with genius.", "votes": ["joy", "affection", "affection"]}
+{"scene_id": "pd_sisters_2", "u": 11, "field": "to", "text": "To be able to play so admirably and to realize at the same time that nobody, nobody can understand you!", "votes": [[["ALL"]], [[0]], [["ALL"]]]}
+{"scene_id": "pd_sisters_2", "u": 12, "field": "who", "text": "Sighs.", "votes": [[[0]], [[1]], [[1]]]}
+{"scene_id": "pd_sisters_2", "u": 15, "field": "emo", "text": "You see, I don\u2019t know anything about it. Perhaps it will even be all to the good. Although I must admit that our Director is a good man, a very good man even, a very clever man, still he has such views.... Of course it isn\u2019t his business but still, if you wish it, perhaps I\u2019d better talk to him.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "pd_sisters_2", "u": 19, "field": "emo", "text": "Yesterday I happened to hear, casually, that they want to transfer our brigade to some distant place. Some said to Poland, others, to Chita.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "pd_sisters_2", "u": 24, "field": "who", "text": "A pause; everybody is pained and confused.", "votes": [[[0], [1], [2], [3], [4]], [[0], [1], [2], [3], [4]], [[0], [1], [2], [4]]]}
+{"scene_id": "pd_sisters_2", "u": 32, "field": "emo", "text": "Won\u2019t you please accept this date....", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "pd_sisters_2", "u": 38, "field": "emo", "text": "When the fire broke out, I hurried off home; when I get there I see the house is whole, uninjured, and in no danger, but my two girls are standing by the door in just their underclothes, their mother isn\u2019t there, the crowd is excited, horses and dogs are running about, and the girls\u2019 faces are so agitated, terrified, beseeching, and I don\u2019t know what else. My heart was pained when I saw those faces. My God, I thought, what these girls will have to put up with if they live long! I caught them up and ran, and still kept on thinking the one thing: what they will have to live through in this world!", "votes": ["fear", "sadness", "sadness"]}
+{"scene_id": "pd_sisters_2", "u": 42, "field": "emo", "text": "And when my girls were standing by the door in just their underclothes, and the street was red from the fire, there was a dreadful noise, and I thought that something of the sort used to happen many years ago when an enemy made a sudden attack, and looted, and burned.... And at the same time what a difference there really is between the present and the past! And when a little more time has gone by, in two or three hundred years perhaps, people will look at our present life with just the same fear, and the same contempt, and the whole past will seem clumsy and dull, and very uncomfortable, and strange. Oh, indeed, what a life there will be, what a life!", "votes": ["joy", "sadness", "joy"]}
+{"scene_id": "pd_sisters_3", "u": 23, "field": "emo", "text": "Yes, yes, of course. You need not worry.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "pd_sisters_3", "u": 28, "field": "emo", "text": "Well... thank you for everything. Forgive me if I\u2019ve... I\u2019ve said such an awful lot--forgive me for that too, don\u2019t think badly of me.", "votes": ["sadness", "sadness", "affection"]}
+{"scene_id": "pd_sisters_3", "u": 30, "field": "to", "text": "Why isn\u2019t Masha coming...", "votes": [[[1]], [["SELF"]], [[1]]]}
+{"scene_id": "pd_sisters_3", "u": 33, "field": "emo", "text": "Life is heavy. To many of us it seems dull and hopeless, but still, it must be acknowledged that it is getting lighter and clearer, and it seems that the time is not far off when it will be quite clear.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "pd_sisters_3", "u": 35, "field": "emo", "text": "It\u2019s time I went! Mankind used to be absorbed in wars, and all its existence was filled with campaigns, attacks, defeats, now we\u2019ve outlived all that, leaving after us a great waste place, which there is nothing to fill with at present; but mankind is looking for something, and will certainly find it. Oh, if it only happened more quickly.", "votes": ["neutral", "joy", "sadness"]}
+{"scene_id": "pd_sisters_3", "u": 39, "field": "emo", "text": "It\u2019s time I went....", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "pd_sisters_3", "u": 44, "field": "emo", "text": "Looking him in the face.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "pd_sisters_4", "u": 3, "field": "emo", "text": "Lubov Andreyevna!", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "pd_sisters_4", "u": 5, "field": "emo", "text": "I only want to show myself, and I\u2019ll go away.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "pd_sisters_4", "u": 7, "field": "emo", "text": "I was told to wait till the morning, but I didn\u2019t have the patience.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "pd_sisters_4", "u": 13, "field": "emo", "text": "Confused.", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "pd_sisters_4", "u": 17, "field": "to", "text": "My Grisha... my boy... Grisha... my son.", "votes": [[["SELF"]], [["SELF"]], [[0]]]}
+{"scene_id": "pd_sisters_4", "u": 26, "field": "emo", "text": "You were quite a boy then, a nice little student, and now your hair is not at all thick and you wear spectacles. Are you really still a student?", "votes": ["affection", "surprise", "affection"]}
+{"scene_id": "pd_sisters_4", "u": 27, "field": "who", "text": "Goes to the door.", "votes": [[[1]], [[1]], [[0]]]}
+{"scene_id": "pd_sisters_4", "u": 30, "field": "to", "text": "Well, let\u2019s go to bed.... And you\u2019ve grown older, Leonid.", "votes": [[["ALL"], [3]], [["ALL"], [3]], [[3]]]}
+{"scene_id": "pd_sisters_4", "u": 32, "field": "emo", "text": "Yes, we\u2019ve got to go to bed.... Oh, my gout! I\u2019ll stay the night here. If only, Lubov Andreyevna, my dear, you could get me 240 roubles to-morrow morning--", "votes": ["sadness", "fear", "fear"]}
+{"scene_id": "pd_sisters_4", "u": 33, "field": "to", "text": "Still the same story.", "votes": [[["SELF"]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "pd_sisters_4", "u": 34, "field": "emo", "text": "Two hundred and forty roubles... to pay the interest on the mortgage.", "votes": ["sadness", "fear", "fear"]}
+{"scene_id": "pd_sisters_4", "u": 35, "field": "emo", "text": "I haven\u2019t any money, dear man.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "pd_sisters_4", "u": 36, "field": "emo", "text": "I\u2019ll give it back... it\u2019s a small sum....", "votes": ["sadness", "fear", "fear"]}
+{"scene_id": "pd_sisters_4", "u": 37, "field": "to", "text": "Well, then, Leonid will give it to you.... Let him have it, Leonid.", "votes": [[[3], [4]], [[3], [4]], [[3]]]}
+{"scene_id": "pd_sisters_4", "u": 42, "field": "to", "text": "My sister hasn\u2019t lost the habit of throwing money about.", "votes": [[[2]], [["ALL"]], [[2]]]}
+{"scene_id": "pd_sisters_4", "u": 46, "field": "emo", "text": "You are just the same as ever, Leonid Andreyevitch.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "pd_sisters_5", "u": 5, "field": "to", "text": "Bravo, bravo!", "votes": [[[0]], [["OTHER"], [0]], [["OTHER"], [0]]]}
+{"scene_id": "pd_sisters_5", "u": 16, "field": "to", "text": "Leonid hasn\u2019t come yet. I don\u2019t understand what he\u2019s doing so long in town! Everything must be over by now. The estate must be sold; or, if the sale never came off, then why does he stay so long?", "votes": [[[2]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "pd_sisters_5", "u": 19, "field": "emo", "text": "Sarcastically.", "votes": ["disgust", "neutral", "neutral"]}
+{"scene_id": "pd_sisters_5", "u": 21, "field": "emo", "text": "Grandmother sent him her authority for him to buy it in her name and transfer the debt to her. She\u2019s doing it for Anya. And I\u2019m certain that God will help us and uncle will buy it.", "votes": ["affection", "fear", "joy"]}
+{"scene_id": "pd_sisters_5", "u": 24, "field": "emo", "text": "My fate will be settled to-day, my fate....", "votes": ["fear", "sadness", "sadness"]}
+{"scene_id": "pd_sisters_5", "u": 28, "field": "to", "text": "Eternal student! He\u2019s already been expelled twice from the university.", "votes": [[[4]], [[1]], [[1]]]}
+{"scene_id": "pd_sisters_5", "u": 30, "field": "emo", "text": "I do look at the matter seriously, little mother, to be quite frank. He\u2019s a good man, and I like him.", "votes": ["affection", "sadness", "neutral"]}
+{"scene_id": "pd_sisters_5", "u": 33, "field": "emo", "text": "How nice!", "votes": ["joy", "disgust", "joy"]}
+{"scene_id": "pd_sisters_5", "u": 39, "field": "emo", "text": "But I can\u2019t go on without working, little mother. I want to be doing something every minute.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "pd_sisters_5", "u": 46, "field": "emo", "text": "Don\u2019t tease her, Peter, you see that she\u2019s quite unhappy without that.", "votes": ["sadness", "sadness", "affection"]}
+{"scene_id": "pd_sisters_6", "u": 5, "field": "emo", "text": "Peter, here they are, your goloshes, by that trunk.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "pd_sisters_6", "u": 12, "field": "emo", "text": "Let\u2019s go!", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "pd_sisters_6", "u": 16, "field": "to", "text": "Good-bye, home! Good-bye, old life!", "votes": [[["ALL"]], [["ALL"]], [["SELF"]]]}
+{"scene_id": "pd_sisters_6", "u": 17, "field": "to", "text": "Welcome, new life!", "votes": [[[5, 7]], [["ALL"]], [[5, 7]]]}
+{"scene_id": "pd_sisters_6", "u": 33, "field": "to", "text": "To look at the walls and the windows for the last time.... My dead mother used to like to walk about this room....", "votes": [[[3]], [["SELF"]], [[3]]]}
+{"scene_id": "pd_sisters_6", "u": 37, "field": "emo", "text": "We\u2019re coming!", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "pd_sisters_6", "u": 48, "field": "emo", "text": "It\u2019s locked. They\u2019ve gone away.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "pd_sisters_6", "u": 52, "field": "emo", "text": "I didn\u2019t see.... Oh, these young people!", "votes": ["fear", "sadness", "sadness"]}
