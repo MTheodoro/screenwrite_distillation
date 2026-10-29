@@ -1,0 +1,5 @@
+data/analyzers/*
+!data/analyzers/.gitkeep
+.venv/
+node_modules/
+__pycache__/
