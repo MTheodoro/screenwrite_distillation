@@ -1,0 +1,194 @@
+{
+"s05066": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "COREY", "target": "DANI", "mood": "playful", "intensity": 2, "summary": "Exhausted coworkers agree not to provoke Greg and bicker about Bex's tastes."},
+{"start": 11, "type": "reveals", "fine": "breaks news to", "actor": "COREY", "target": "DANI", "mood": "playful", "intensity": 2, "summary": "Greg's text announces another breakout and Bex schemes to avoid presenting."},
+{"start": 22, "type": "arrives", "fine": "shows up unannounced", "actor": "GREG", "target": null, "mood": "awkward", "intensity": 3, "summary": "Group chat warns Greg is coming, and he steps off the elevator crying."},
+{"start": 34, "type": "leaves", "fine": "leaves", "actor": "GREG", "target": null, "mood": "awkward", "intensity": 2, "summary": "Greg sniffles praise and enters the suite, leaving the team frozen outside."}
+],
+"s05109": [
+{"start": 1, "type": "works", "fine": "cooks", "actor": "MO", "target": null, "mood": "calm", "intensity": 1, "summary": "Mo cooks eggs in his drizzly food truck as commuters queue."},
+{"start": 7, "type": "discovers", "fine": "realizes", "actor": "MO", "target": null, "mood": "tense", "intensity": 2, "summary": "An automated call tells Mo his health inspection arrives in two minutes."},
+{"start": 15, "type": "hides", "fine": "covers up", "actor": "MO", "target": null, "mood": "chaotic", "intensity": 3, "summary": "Mo hides dodgy food as the inspector approaches and the queue scatters."}
+],
+"s05060": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "THE WOMAN", "target": "MO", "mood": "melancholy", "intensity": 2, "summary": "A guarded woman with a duffel gets into exhausted Mo's late-night rideshare."},
+{"start": 12, "type": "observes", "fine": "studies", "actor": "MO", "target": "THE WOMAN", "mood": "melancholy", "intensity": 2, "summary": "Mo studies her in the mirror and recognizes someone rehearsing something hard."},
+{"start": 17, "type": "deflects", "fine": "brushes off", "actor": "THE WOMAN", "target": "MO", "mood": "tense", "intensity": 2, "summary": "She shuts down Mo's small talk, insisting she paid for a ride only."},
+{"start": 29, "type": "pleads", "fine": "asks for help from", "actor": "THE WOMAN", "target": "MO", "mood": "tender", "intensity": 3, "summary": "She asks Mo to make the trip longer, and he takes the river road."},
+{"start": 40, "type": "bonds", "fine": "confides in", "actor": "MO", "target": "THE WOMAN", "mood": "melancholy", "intensity": 3, "summary": "Mo mentions his daughter, admitting she only mostly calls on Sundays."},
+{"start": 50, "type": "confesses", "fine": "opens up to", "actor": "THE WOMAN", "target": "MO", "mood": "grief", "intensity": 3, "summary": "Ignoring her brother's calls, she admits she's returning to her estranged mother."},
+{"start": 63, "type": "reveals", "fine": "breaks news to", "actor": "THE WOMAN", "target": "MO", "mood": "bittersweet", "intensity": 4, "summary": "Learning her mother always leaves the porch light on, she breaks down crying."},
+{"start": 72, "type": "confesses", "fine": "comes clean to", "actor": "TAMSIN", "target": "MO", "mood": "tender", "intensity": 2, "summary": "She reveals her real name is Tamsin, and they share a small joke."},
+{"start": 82, "type": "comforts", "fine": "reassures", "actor": "MO", "target": "TAMSIN", "mood": "tender", "intensity": 3, "summary": "Mo promises she can sit in the car as long as she needs."},
+{"start": 86, "type": "observes", "fine": "hesitates", "actor": "TAMSIN", "target": null, "mood": "suspense", "intensity": 3, "summary": "They park by the lit house; Tamsin freezes until a curtain moves upstairs."},
+{"start": 96, "type": "decides", "fine": "commits", "actor": "TAMSIN", "target": "MO", "mood": "hopeful", "intensity": 4, "summary": "Shaking, Tamsin gets out, asks Mo to wait, and thanks him."},
+{"start": 106, "type": "observes", "fine": "takes it in", "actor": "MO", "target": null, "mood": "bittersweet", "intensity": 4, "summary": "Her mother opens the door, and Mo looks away and switches off the radio."}
+],
+"s05126": [
+{"start": 1, "type": "works", "fine": "works", "actor": "JEN", "target": "MO", "mood": "playful", "intensity": 2, "summary": "On a heritage sailing smack, Jen scolds Mo's rope work while a stranger watches."},
+{"start": 25, "type": "threatens", "fine": "warns", "actor": "SAL", "target": "THE WOMAN", "mood": "tense", "intensity": 3, "summary": "Sal warns the woman the boom is coming round, but she refuses to move."},
+{"start": 34, "type": "defends", "fine": "protects", "actor": "JEN", "target": "THE WOMAN", "mood": "chaotic", "intensity": 4, "summary": "The boom swings and Jen dives, dragging the woman clear just in time."},
+{"start": 42, "type": "confronts", "fine": "demands answers from", "actor": "JEN", "target": "RO", "mood": "tense", "intensity": 3, "summary": "Shaken, Jen and Sal question the woman, who gives her name as Ro."},
+{"start": 52, "type": "arrives", "fine": "shows up unannounced", "actor": "BIG DAVE", "target": "SAL", "mood": "tense", "intensity": 2, "summary": "Big Dave's harbour patrol launch emerges from the fog for a permit check."},
+{"start": 57, "type": "reveals", "fine": "lets slip to", "actor": "BIG DAVE", "target": "RO", "mood": "melancholy", "intensity": 3, "summary": "Big Dave reveals Ro's mother is searching; Ro explains she wanted to see her roots."},
+{"start": 64, "type": "works", "fine": "works", "actor": "MO", "target": null, "mood": "bittersweet", "intensity": 2, "summary": "Mo finally ties the rope correctly as rain begins."}
+],
+"s05012": [
+{"start": 1, "type": "works", "fine": "cooks", "actor": "LUCY", "target": "BIG MO", "mood": "playful", "intensity": 2, "summary": "Lucy, Big Mo and robot Zip run the taco truck under three moons."},
+{"start": 8, "type": "jokes", "fine": "teases", "actor": "GRANDMA TESS", "target": "LUCY", "mood": "playful", "intensity": 2, "summary": "Grandma Tess calls by hologram, fussing over Lucy and scolding Mo."}
+],
+"s05177": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "KOFI", "target": "TARA", "mood": "playful", "intensity": 2, "summary": "Night-shift nurses joke about Orrin's messages about a glowing thing in room six."},
+{"start": 12, "type": "reveals", "fine": "breaks news to", "actor": "DR. NAKAMURA", "target": "KOFI", "mood": "suspense", "intensity": 2, "summary": "Dr. Nakamura reports a patient in room six who isn't on the board."},
+{"start": 17, "type": "arrives", "fine": "drifts in", "actor": "THE WOMAN", "target": "PIP", "mood": "ominous", "intensity": 3, "summary": "A barefoot, faintly glowing woman appears at the desk asking where others wait."},
+{"start": 20, "type": "reveals", "fine": "drops a bombshell on", "actor": "THE WOMAN", "target": "KOFI", "mood": "ominous", "intensity": 4, "summary": "Elspeth says she was admitted four hundred years ago, and everything stops."}
+],
+"s05163": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "PHILIPPA", "target": "THADDEUS", "mood": "awkward", "intensity": 2, "summary": "Online friends Philippa and Thaddeus meet in person at a reenactment camp."},
+{"start": 14, "type": "arrives", "fine": "makes an entrance", "actor": "WICK", "target": "THADDEUS", "mood": "playful", "intensity": 2, "summary": "Wick joins by video from work, flustered about their manager and mute."},
+{"start": 29, "type": "bonds", "fine": "shares a moment with", "actor": "THADDEUS", "target": "PHILIPPA", "mood": "joyful", "intensity": 2, "summary": "Over a fake-period Costco biscuit, the three friends tease each other and laugh."}
+],
+"s05105": [
+{"start": 1, "type": "comforts", "fine": "reassures", "actor": "DR. HAQ", "target": "DANA", "mood": "tense", "intensity": 2, "summary": "Dr. Haq checks Dana is fine being filmed; she says Wes disapproves."},
+{"start": 8, "type": "pleads", "fine": "calls for", "actor": "DANA", "target": "WES", "mood": "tense", "intensity": 3, "summary": "Wes texts from the parking lot, so Dana puts him on speaker."},
+{"start": 21, "type": "reveals", "fine": "breaks news to", "actor": "DR. HAQ", "target": "DANA", "mood": "grief", "intensity": 4, "summary": "Dr. Haq says the third cycle failed; Dana insists brittle that it's fine."},
+{"start": 26, "type": "persuades", "fine": "pitches to", "actor": "DR. HAQ", "target": "DANA", "mood": "tense", "intensity": 3, "summary": "Haq gently offers a costly fourth option, and Wes calls it pushing."},
+{"start": 29, "type": "leaves", "fine": "walks out on", "actor": "DANA", "target": "WES", "mood": "hostile", "intensity": 4, "summary": "Fed up with Wes counting costs, Dana hangs up on him."},
+{"start": 37, "type": "decides", "fine": "accepts", "actor": "DANA", "target": "DR. HAQ", "mood": "bittersweet", "intensity": 3, "summary": "Dana addresses the camera and agrees to discuss the fourth option; Wes is coming."}
+],
+"s05129": [
+{"start": 1, "type": "persuades", "fine": "flatters", "actor": "THE WOMAN", "target": "MARISOL", "mood": "calm", "intensity": 1, "summary": "In a Chicago nail salon, a poised woman compliments Marisol's steady hands."},
+{"start": 20, "type": "reveals", "fine": "lets slip to", "actor": "MARISOL", "target": "THE WOMAN", "mood": "suspense", "intensity": 3, "summary": "Talk of boxing leads Marisol to mention Danny Kessler, and the woman stiffens."},
+{"start": 34, "type": "accuses", "fine": "implicates", "actor": "MARISOL", "target": "THE WOMAN", "mood": "ominous", "intensity": 4, "summary": "Marisol recounts the fixed fight that ruined her father and the boss behind it."},
+{"start": 53, "type": "confronts", "fine": "corners", "actor": "MARISOL", "target": "THE WOMAN", "mood": "suspense", "intensity": 4, "summary": "Two men enter; Marisol says she has every receipt as proof."},
+{"start": 64, "type": "reveals", "fine": "unmasks", "actor": "MARISOL", "target": "THE WOMAN", "mood": "tense", "intensity": 4, "summary": "Marisol names herself Kessler's daughter and names the woman as Corinne Vale."},
+{"start": 73, "type": "discovers", "fine": "realizes", "actor": "CORINNE", "target": "MARISOL", "mood": "ominous", "intensity": 4, "summary": "Corinne realizes the men at the door belong to Marisol."},
+{"start": 80, "type": "observes", "fine": "waits", "actor": "CORINNE", "target": null, "mood": "ominous", "intensity": 3, "summary": "Corinne ignores her buzzing phone as the boxing crowd roars on TV."}
+],
+"s05180": [
+{"start": 1, "type": "searches", "fine": "searches", "actor": "RUIZ", "target": null, "mood": "tense", "intensity": 3, "summary": "Ruiz narrates as soldiers sweep a vet clinic hunting a deserter."},
+{"start": 5, "type": "confronts", "fine": "interrogates", "actor": "RUIZ", "target": "OKAFOR", "mood": "tense", "intensity": 3, "summary": "Ruiz demands Hale's location; Okafor explains he treated Hale and his dog."},
+{"start": 13, "type": "accuses", "fine": "charges", "actor": "RUIZ", "target": "OKAFOR", "mood": "hostile", "intensity": 4, "summary": "Ruiz accuses Okafor of harboring a killer; Okafor defends his duty to patients."},
+{"start": 18, "type": "reveals", "fine": "drops a bombshell on", "actor": "OKAFOR", "target": "RUIZ", "mood": "suspense", "intensity": 4, "summary": "Okafor reveals Hale kept repeating Ruiz's own name under anesthesia."},
+{"start": 24, "type": "decides", "fine": "gives an order", "actor": "RUIZ", "target": "THE SQUAD", "mood": "tense", "intensity": 4, "summary": "Movement in surgery; Ruiz holds the squad back and admits Hale runs from her."},
+{"start": 32, "type": "discovers", "fine": "discovers", "actor": "RUIZ", "target": null, "mood": "ominous", "intensity": 4, "summary": "They storm surgery to find Hale gone and the dog waiting for Ruiz."},
+{"start": 36, "type": "attacks", "fine": "ambushes", "actor": null, "target": "RUIZ", "mood": "chaotic", "intensity": 5, "summary": "Contact at the front entrance as the lights die in the clinic."}
+],
+"s05068_0": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "THE MAN", "target": "DEB", "mood": "tense", "intensity": 2, "summary": "A nervous man enters the parole office clutching a folder and waits."},
+{"start": 10, "type": "deflects", "fine": "dodges", "actor": "THE MAN", "target": "DEB", "mood": "awkward", "intensity": 2, "summary": "The man avoids giving Deb his name until she tells him to sit."}
+],
+"s05150_0": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "THE WOMAN", "target": null, "mood": "ominous", "intensity": 2, "summary": "A soaked woman with bolt cutters walks the rainy storage facility corridor."},
+{"start": 8, "type": "deflects", "fine": "stonewalls", "actor": "THE WOMAN", "target": "NELL", "mood": "ominous", "intensity": 2, "summary": "She ignores Nell's worried texts as the lights flicker overhead."}
+],
+"s05171_1": [
+{"start": 1, "type": "hides", "fine": "conceals something", "actor": "BEA", "target": "RENA", "mood": "tense", "intensity": 3, "summary": "Bea tells Rena not to look at the camera as the crowd chants outside."}
+],
+"s05064_0": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "NATE", "target": null, "mood": "ominous", "intensity": 2, "summary": "Nate vlogs his entry into an abandoned vet clinic and its creepy lore."},
+{"start": 16, "type": "searches", "fine": "investigates", "actor": "NATE", "target": null, "mood": "ominous", "intensity": 2, "summary": "The camera pushes toward a dark hallway behind a rusted gurney."},
+{"start": 19, "type": "deflects", "fine": "brushes off", "actor": "NATE", "target": "MO", "mood": "suspense", "intensity": 2, "summary": "Mo texts begging him to come home, and Nate brushes him off."},
+{"start": 25, "type": "discovers", "fine": "catches", "actor": null, "target": "NATE", "mood": "ominous", "intensity": 3, "summary": "The camera catches something pale passing outside as Nate heads for the hallway."}
+],
+"s05150_3": [
+{"start": 1, "type": "reveals", "fine": "breaks news to", "actor": "PRIYA", "target": "NELL", "mood": "melancholy", "intensity": 3, "summary": "Priya finally answers Nell, flatly telling her she found everything."},
+{"start": 6, "type": "decides", "fine": "refuses", "actor": "PRIYA", "target": "TOBY", "mood": "ominous", "intensity": 2, "summary": "Priya tells Toby to leave the hall light off as rain drips."}
+],
+"s05064_2": [
+{"start": 1, "type": "flees", "fine": "runs", "actor": "NATE", "target": null, "mood": "fear", "intensity": 5, "summary": "Nate sprints from the creature but finds the front door locked from outside."},
+{"start": 8, "type": "pleads", "fine": "begs", "actor": "NATE", "target": "TEENAGERS", "mood": "fear", "intensity": 5, "summary": "Nate begs teenagers filming outside to open the door; one just waves."},
+{"start": 12, "type": "attacks", "fine": "ambushes", "actor": null, "target": "NATE", "mood": "fear", "intensity": 5, "summary": "The pale creature rises behind Nate; the camera falls as he is dragged away."}
+],
+"s05144": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "JEN", "target": null, "mood": "tense", "intensity": 2, "summary": "In a crowded parole waiting room, Jen orders everyone to sign in."},
+{"start": 9, "type": "confronts", "fine": "challenges", "actor": "BIG DAVE", "target": "JEN", "mood": "tense", "intensity": 3, "summary": "Big Dave protests a new parole condition despite eleven months of compliance."},
+{"start": 14, "type": "accuses", "fine": "implicates", "actor": "BIG DAVE", "target": "MO", "mood": "awkward", "intensity": 3, "summary": "Dave drags Mo in over a promised letter; Mo dodges."},
+{"start": 18, "type": "decides", "fine": "gives an order", "actor": "JEN", "target": null, "mood": "tense", "intensity": 3, "summary": "Jen clears the room so they can talk."},
+{"start": 22, "type": "confronts", "fine": "demands answers from", "actor": "BIG DAVE", "target": "JEN", "mood": "hostile", "intensity": 4, "summary": "Dave demands to know who reported him; Jen refuses to say."},
+{"start": 26, "type": "attacks", "fine": "lunges at", "actor": "BIG DAVE", "target": "JEN", "mood": "chaotic", "intensity": 4, "summary": "Dave lunges and they crash into the water cooler."},
+{"start": 30, "type": "confesses", "fine": "admits guilt to", "actor": "MO", "target": "BIG DAVE", "mood": "tense", "intensity": 5, "summary": "Mo admits she made the call, and Dave sinks into his chair."}
+],
+"s05093": [
+{"start": 1, "type": "works", "fine": "works", "actor": "MO", "target": "LINUS", "mood": "playful", "intensity": 2, "summary": "Mo coaxes take after take of Linus's earnest song about ham."},
+{"start": 10, "type": "deflects", "fine": "stalls", "actor": "MO", "target": "DENISE", "mood": "playful", "intensity": 2, "summary": "Label boss Denise demands the single; Mo claims it's still ripening."},
+{"start": 19, "type": "jokes", "fine": "riffs with", "actor": "MO", "target": "PRIYA", "mood": "playful", "intensity": 2, "summary": "Mo calls a huddle and jokes about Linus's emotionally honest ham."},
+{"start": 26, "type": "observes", "fine": "takes it in", "actor": "MO", "target": null, "mood": "awkward", "intensity": 2, "summary": "Wren threatens to quit, Denise overhears, and take forty-three begins."}
+],
+"s05111_1": [
+{"start": 1, "type": "flees", "fine": "escapes", "actor": null, "target": null, "mood": "chaotic", "intensity": 4, "summary": "They tumble into the rain as the studio windows blow out."},
+{"start": 4, "type": "decides", "fine": "refuses", "actor": "RILEY", "target": null, "mood": "tense", "intensity": 3, "summary": "Riley gets a text saying take twelve and drops his phone in a puddle."}
+],
+"s05174": [
+{"start": 1, "type": "confronts", "fine": "calls out", "actor": "JEN", "target": "MO", "mood": "awkward", "intensity": 2, "summary": "Jen confronts Mo for seating Big Dave next to his ex."},
+{"start": 18, "type": "observes", "fine": "listens to", "actor": "JEN", "target": null, "mood": "awkward", "intensity": 2, "summary": "A door slams outside; they both assume it's Dave."},
+{"start": 22, "type": "comforts", "fine": "reassures", "actor": "JEN", "target": "MO", "mood": "tender", "intensity": 3, "summary": "Jen softens and tells Mo it was the best wedding in years."},
+{"start": 30, "type": "bonds", "fine": "shares a moment with", "actor": "JEN", "target": "MO", "mood": "tender", "intensity": 3, "summary": "Mo ignores an HR text and they stay together for the last song."}
+],
+"s05058": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "ANIKA", "target": "ROY", "mood": "calm", "intensity": 2, "summary": "On a quiet trawler, Anika jinxes the trip and Roy warns her off."},
+{"start": 16, "type": "attacks", "fine": "strikes", "actor": null, "target": "TEO", "mood": "chaotic", "intensity": 5, "summary": "A loose net slams into Teo, pinning him on the deck."},
+{"start": 21, "type": "comforts", "fine": "tends to", "actor": "ANIKA", "target": "TEO", "mood": "tense", "intensity": 5, "summary": "Anika assesses Teo's injuries and directs Roy to hold his head steady."},
+{"start": 35, "type": "comforts", "fine": "reassures", "actor": "ANIKA", "target": "TEO", "mood": "tense", "intensity": 4, "summary": "Anika promises Teo he'll live despite Roy's doubt as they board him."}
+],
+"s05118_0": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "AIDEN", "target": null, "mood": "suspense", "intensity": 2, "summary": "Aiden, Sasha and Marlon break into a dark vet clinic."},
+{"start": 11, "type": "hides", "fine": "lies low", "actor": null, "target": null, "mood": "playful", "intensity": 3, "summary": "A squeaky toy wakes a beagle, which yawns and ignores them."},
+{"start": 19, "type": "reveals", "fine": "reveals", "actor": "AIDEN", "target": "MARLON", "mood": "playful", "intensity": 2, "summary": "Aiden explains the safe holds a ring Okafor lies about; they bicker over motives."},
+{"start": 29, "type": "searches", "fine": "snoops", "actor": "AIDEN", "target": null, "mood": "suspense", "intensity": 2, "summary": "They creep to the office while Marlon guards the door."}
+],
+"s05150_2": [
+{"start": 1, "type": "discovers", "fine": "uncovers", "actor": "THE WOMAN", "target": null, "mood": "ominous", "intensity": 4, "summary": "She finds photos of herself as a child with eyes scratched out."},
+{"start": 10, "type": "arrives", "fine": "shows up unannounced", "actor": "TOBY", "target": "THE WOMAN", "mood": "suspense", "intensity": 3, "summary": "Lights go out as teenage Toby appears offering to help carry."},
+{"start": 18, "type": "discovers", "fine": "notices", "actor": "THE WOMAN", "target": null, "mood": "ominous", "intensity": 4, "summary": "She turns to see the mirror now facing the room, untouched."}
+],
+"s05027": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "KIKI", "target": "KAI", "mood": "playful", "intensity": 2, "summary": "Kiki films a dance at the fountain while bickering with Kai and Jada."},
+{"start": 9, "type": "deflects", "fine": "brushes off", "actor": "KIKI", "target": "KAI", "mood": "suspense", "intensity": 2, "summary": "An unknown text says stop filming; Kiki laughs it off as a bot."},
+{"start": 16, "type": "confronts", "fine": "faces off with", "actor": "MARCUS", "target": "KIKI", "mood": "tense", "intensity": 3, "summary": "A stranger steps into frame and cites her morning post about the fountain."},
+{"start": 24, "type": "discovers", "fine": "realizes", "actor": "KIKI", "target": null, "mood": "fear", "intensity": 3, "summary": "Another text warns her to walk away; they panic over who sent it."},
+{"start": 31, "type": "reveals", "fine": "unmasks", "actor": "MARCUS", "target": "KIKI", "mood": "fear", "intensity": 4, "summary": "Marcus admits he sent the texts and orders Kai to drop the phone."},
+{"start": 37, "type": "threatens", "fine": "coerces", "actor": "MARCUS", "target": "KIKI", "mood": "fear", "intensity": 5, "summary": "A black van screeches up and Marcus orders all three inside."}
+],
+"s05036": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "STRANGER", "target": "BRODIE", "mood": "tense", "intensity": 2, "summary": "A neat stranger questions Skipper Brodie about the catch on his trawler."},
+{"start": 7, "type": "reveals", "fine": "shows", "actor": "STRANGER", "target": "BRODIE", "mood": "suspense", "intensity": 3, "summary": "The stranger lays out the smuggling timeline; Brodie asks who he is."},
+{"start": 11, "type": "reveals", "fine": "unmasks", "actor": "MARCUS", "target": "BRODIE", "mood": "tense", "intensity": 4, "summary": "He reveals a badge: Detective Marcus Hale of the Maritime Task Force."},
+{"start": 14, "type": "decides", "fine": "gives an order", "actor": "MARCUS", "target": null, "mood": "chaotic", "intensity": 4, "summary": "Searchlights sweep the water as Hale orders units to board."},
+{"start": 18, "type": "mocks", "fine": "needles", "actor": "MARCUS", "target": "BRODIE", "mood": "tense", "intensity": 4, "summary": "Brodie realizes the betrayal; Hale quips about his chowder as the lamp shatters."}
+],
+"s05150_1": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "THE WOMAN", "target": "ODELL", "mood": "ominous", "intensity": 2, "summary": "She reaches Unit 214 and night manager Odell speaks over the intercom."},
+{"start": 8, "type": "searches", "fine": "snoops", "actor": "THE WOMAN", "target": null, "mood": "suspense", "intensity": 3, "summary": "She cuts the padlock and raises the door to cold air."}
+],
+"s05181": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "MARISOL", "target": null, "mood": "ominous", "intensity": 2, "summary": "Marisol pushes her cart through a stormy Victorian hospital, ignoring a text."},
+{"start": 12, "type": "arrives", "fine": "arrives", "actor": "TEAGUE", "target": "MARISOL", "mood": "tense", "intensity": 2, "summary": "Dr. Teague arrives early, trading barbs with Marisol as thunder rolls."},
+{"start": 23, "type": "reveals", "fine": "breaks news to", "actor": "BRAM", "target": "TEAGUE", "mood": "tense", "intensity": 3, "summary": "Bram reports a patient vanished through an open window."},
+{"start": 32, "type": "threatens", "fine": "warns", "actor": "JUNO", "target": "MARISOL", "mood": "suspense", "intensity": 4, "summary": "Juno calls, warning Marisol to slowly walk away from Teague."},
+{"start": 48, "type": "defends", "fine": "shields", "actor": "MARISOL", "target": "BRAM", "mood": "fear", "intensity": 4, "summary": "The lights die and Marisol steps between Teague and Bram."}
+],
+"s05088": [
+{"start": 1, "type": "observes", "fine": "spies on", "actor": "NORA", "target": null, "mood": "suspense", "intensity": 2, "summary": "At the afterparty, Nora secretly points out a man at the bar to Callum."},
+{"start": 18, "type": "hides", "fine": "masks a feeling", "actor": "NORA", "target": "DEVON", "mood": "awkward", "intensity": 3, "summary": "Devon joins cheerfully; Nora covers her nerves with forced brightness."},
+{"start": 28, "type": "arrives", "fine": "drifts in", "actor": "MARIN", "target": "NORA", "mood": "tense", "intensity": 3, "summary": "Marin sends Devon away and pointedly asks Callum to watch Nora."},
+{"start": 39, "type": "deflects", "fine": "dodges", "actor": "NORA", "target": "CALLUM", "mood": "suspense", "intensity": 3, "summary": "Callum asks about her clutch; Nora refuses to say here."}
+],
+"s05056": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "THE WOMAN", "target": "HOLLIS", "mood": "tense", "intensity": 3, "summary": "A woman presses Hollis about a brand book, but his trunk is empty."},
+{"start": 16, "type": "threatens", "fine": "warns", "actor": "WADE", "target": "HOLLIS", "mood": "tense", "intensity": 3, "summary": "Wade calls warning Hollis not to open anything, asking who's there."},
+{"start": 24, "type": "reveals", "fine": "reveals", "actor": "ODALYS", "target": "WADE", "mood": "ominous", "intensity": 3, "summary": "The woman gives her name as Odalys; Wade coldly says he's coming."},
+{"start": 29, "type": "observes", "fine": "waits", "actor": "ODALYS", "target": "HOLLIS", "mood": "melancholy", "intensity": 3, "summary": "Odalys says she has waited thirty years, ten minutes more is nothing."}
+],
+"s05081": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "VESPER", "target": null, "mood": "suspense", "intensity": 3, "summary": "Vesper and Okafor work on a padlock while Del keeps watch."},
+{"start": 6, "type": "hides", "fine": "lies low", "actor": "DEL", "target": null, "mood": "fear", "intensity": 4, "summary": "Del hears movement and orders the light killed; they freeze in darkness."},
+{"start": 13, "type": "observes", "fine": "listens to", "actor": null, "target": null, "mood": "ominous", "intensity": 4, "summary": "A door shuts softly far down the hall."}
+],
+"s05148_0": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "MAYA", "target": "DEV", "mood": "tense", "intensity": 2, "summary": "Maya and Dev wait silently in a storm-darkened fertility clinic."},
+{"start": 13, "type": "decides", "fine": "refuses", "actor": "NURSE", "target": "DEV", "mood": "melancholy", "intensity": 3, "summary": "The nurse calls only Maya in, leaving Dev behind."},
+{"start": 28, "type": "pleads", "fine": "asks for help from", "actor": "DEV", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Alone, Dev texts his mom for advice and stares at a dying fish."},
+{"start": 34, "type": "arrives", "fine": "arrives", "actor": "THE WOMAN", "target": "DEV", "mood": "suspense", "intensity": 3, "summary": "A soaked woman says she's here for the freezer and Dev follows her."}
+]
+}

@@ -1,0 +1,140 @@
+{
+"s05033": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"RUSS","target":null,"mood":"ominous","intensity":2,"summary":"On a 3 a.m. night bus, passengers drift while Russ and Nina sit apart."},
+{"start":7,"type":"threatens","fine":"intimidates","actor":"RUSS","target":"NINA","mood":"tense","intensity":3,"summary":"Russ quietly demands the item Nina's brother took; Nina refuses, steady."},
+{"start":11,"type":"reveals","fine":"unmasks","actor":"DESMOND","target":"RUSS","mood":"suspense","intensity":4,"summary":"Desmond, an undercover cop, makes himself known as Nina says the drive stays with her."},
+{"start":23,"type":"confronts","fine":"stares down","actor":"DESMOND","target":"RUSS","mood":"tense","intensity":4,"summary":"Desmond shows his badge and orders Russ to sit; Russ reaches into the bag."},
+{"start":28,"type":"attacks","fine":"lunges at","actor":"RUSS","target":"DESMOND","mood":"chaotic","intensity":5,"summary":"The bus lurches, a gun spills out, and Desmond draws as Russ trembles over it."},
+{"start":35,"type":"observes","fine":"waits","actor":"RUSS","target":null,"mood":"suspense","intensity":5,"summary":"The lights die and nobody moves while the dog keeps barking."}
+],
+"s05035_0": [
+{"start":1,"type":"decides","fine":"makes a plan","actor":"MIRA","target":"TOBIAS","mood":"tense","intensity":3,"summary":"Disguised in a protest crowd, Mira lays out a forty-second heist plan; Tobias jokes about it."},
+{"start":10,"type":"discovers","fine":"realizes","actor":"JUNO","target":"MIRA","mood":"tense","intensity":3,"summary":"Juno reports the guards changed shift early, forcing Mira to move the plan up."},
+{"start":19,"type":"reveals","fine":"breaks news to","actor":"RAFA","target":"MIRA","mood":"fear","intensity":4,"summary":"Rafa warns that federal agents in the crowd are there for them, and the dock warns them off."},
+{"start":25,"type":"decides","fine":"changes course","actor":"MIRA","target":null,"mood":"bittersweet","intensity":3,"summary":"Mira calls off the heist and sends the four melting into the march as rain begins."}
+],
+"s05035_1": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"melancholy","intensity":2,"summary":"The plaza empties; a broken cardboard sun lies face down in a puddle."}
+],
+"s05037": [
+{"start":1,"type":"confronts","fine":"stares down","actor":"KIM","target":"KIP","mood":"tense","intensity":3,"summary":"Kim needles Kip, who stands in the cabin doorway in his coat, refusing to sit."},
+{"start":9,"type":"discovers","fine":"notices","actor":"KIP","target":"KIM","mood":"ominous","intensity":4,"summary":"The radio phone rings; Kip answers and learns Mr. Brandt demands the job done tonight."},
+{"start":25,"type":"hides","fine":"conceals something","actor":"KIP","target":"KIM","mood":"suspense","intensity":3,"summary":"Kip hangs up, sets the duffel between them and unzips and rezips it; Kim asks for tea."}
+],
+"s05038": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"DENNIS","target":"PHILLIPA","mood":"playful","intensity":2,"summary":"Dennis and Phillipa, the only two at the meeting, trade dry jokes."},
+{"start":13,"type":"confesses","fine":"opens up to","actor":"PHILLIPA","target":"DENNIS","mood":"melancholy","intensity":4,"summary":"Phillipa admits the surgeon's fear and her craving for a drink; Dennis reassures her."},
+{"start":24,"type":"leaves","fine":"excuses themself","actor":"PHILLIPA","target":"DENNIS","mood":"bittersweet","intensity":3,"summary":"The hospital calls; Dennis lends his cardigan and sends her off with a promise to return."}
+],
+"s05039_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"calm","intensity":1,"summary":"A taco truck sits near the old market with a small line in the sun."}
+],
+"s05039_1": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"JEN","target":null,"mood":"playful","intensity":2,"summary":"Jen, Mo and Big Dave work the truck while Sam quietly watches the street."},
+{"start":10,"type":"observes","fine":"spies on","actor":"SAM","target":"MO","mood":"tense","intensity":2,"summary":"Sam notes a grey car across the road two days running; Mo suggests ignoring it."},
+{"start":35,"type":"arrives","fine":"shows up unannounced","actor":"THE MAN IN THE BROWN COAT","target":"SAM","mood":"suspense","intensity":4,"summary":"A man in a brown coat approaches the window and greets Sam as Inspector."},
+{"start":50,"type":"leaves","fine":"exits quietly","actor":"SAM","target":null,"mood":"ominous","intensity":3,"summary":"Sam folds his apron and walks off with the inspector while the crew carries on."}
+],
+"s05040_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"DESMOND","target":"PRIYA","mood":"tense","intensity":2,"summary":"Desmond visits his sleepless cousin Priya as she guards a locked laptop folder."},
+{"start":13,"type":"confronts","fine":"presses","actor":"DESMOND","target":"PRIYA","mood":"tense","intensity":3,"summary":"Desmond asks about her Harrow Lane text; she deflects, then reveals her evidence."},
+{"start":24,"type":"accuses","fine":"presents evidence to","actor":"PRIYA","target":"DESMOND","mood":"hostile","intensity":4,"summary":"Priya shows a spreadsheet of deliveries to one house and the missing girl's key."},
+{"start":38,"type":"pleads","fine":"implores","actor":"DESMOND","target":"PRIYA","mood":"suspense","intensity":4,"summary":"Desmond demands the key and Priya, standing on the bed, demands explanation first."}
+],
+"s05040_1": [
+{"start":1,"type":"confesses","fine":"breaks down to","actor":"DESMOND","target":"PRIYA","mood":"grief","intensity":4,"summary":"Desmond insists the girl called him for a ride and he arrived too late."},
+{"start":9,"type":"discovers","fine":"finds a clue","actor":"PRIYA","target":"DESMOND","mood":"tender","intensity":3,"summary":"Priya reads the girl's note on the photo and believes him."},
+{"start":14,"type":"decides","fine":"commits","actor":"PRIYA","target":"DESMOND","mood":"suspense","intensity":4,"summary":"Priya opens the locked folder with the key, and together they press play on the video."}
+],
+"s05041": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"HALVORSEN","target":"MAYA OKONKWO","mood":"playful","intensity":2,"summary":"A documentary crew films Halvorsen and Maya at a freight depot, joking about manifests."},
+{"start":12,"type":"discovers","fine":"notices","actor":"MAYA OKONKWO","target":"MUM","mood":"tense","intensity":3,"summary":"Maya's mum warns the news named her port and an unmarked truck is at the gate."},
+{"start":27,"type":"threatens","fine":"coerces","actor":"KORVAC","target":"HALVORSEN","mood":"fear","intensity":4,"summary":"Korvac demands phones in a bin and the camera off; the camera drops on a pried crate."}
+],
+"s05042": [
+{"start":1,"type":"works","fine":"drives","actor":"MO","target":"THE WOMAN","mood":"tense","intensity":3,"summary":"Mo drives a woman carrying an organ cooler to the hospital as the timer runs."},
+{"start":10,"type":"pleads","fine":"calls for","actor":"DR. NAIR","target":"JEN","mood":"suspense","intensity":3,"summary":"Dr. Nair urgently calls; Jen admits their courier crashed and the clock is running."},
+{"start":23,"type":"flees","fine":"runs","actor":"MO","target":null,"mood":"chaotic","intensity":4,"summary":"Mo runs a red light and floors it as high beams close in behind them."}
+],
+"s05043_0": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"KIM HALLORAN","target":"KIP HALLORAN","mood":"playful","intensity":2,"summary":"At a church basement meeting, Kim rants about sober cake and catches Kip texting his ex."},
+{"start":10,"type":"bonds","fine":"teams up with","actor":"KIP HALLORAN","target":"KIM HALLORAN","mood":"tender","intensity":2,"summary":"Tomasz tears up, donuts circulate, and Kip and Kim call a truce."}
+],
+"s05043_1": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"calm","intensity":1,"summary":"The chairs are stacked and the banner finally falls."}
+],
+"s05044": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"TOBIAS","target":"THE WOMAN","mood":"ominous","intensity":3,"summary":"Passengers in Tobias's rideshare notice the clock stuck at 2:07 and repeating trees."},
+{"start":22,"type":"discovers","fine":"notices","actor":"INES","target":"THE WOMAN","mood":"fear","intensity":4,"summary":"The hooded woman's glowing box, failing brakes and upward silver rain panic everyone."},
+{"start":37,"type":"accuses","fine":"charges","actor":"MARA","target":"HOLLIS","mood":"fear","intensity":5,"summary":"Mara unhooded accuses Hollis of stealing her mother's key; he is forty-one, not young."},
+{"start":46,"type":"confesses","fine":"begs forgiveness from","actor":"HOLLIS","target":"MARA","mood":"melancholy","intensity":4,"summary":"Hollis surrenders the key; the car stops and he vanishes, leaving his suit folded."},
+{"start":55,"type":"leaves","fine":"exits quietly","actor":"MARA","target":"TOBIAS","mood":"ominous","intensity":2,"summary":"Mara tells Tobias Hollis went home and walks off as the clock reaches 2:08."}
+],
+"s05045": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"RAY","target":"LUIS","mood":"melancholy","intensity":2,"summary":"At Coach Dunleavy's funeral, old teammates Ray and Luis see each other across the hall."},
+{"start":9,"type":"accuses","fine":"points the finger at","actor":"LUIS","target":"RAY","mood":"hostile","intensity":4,"summary":"Luis accuses Ray of throwing the game that Frank took to his grave."},
+{"start":19,"type":"confesses","fine":"apologizes to","actor":"RAY","target":"LUIS","mood":"grief","intensity":4,"summary":"After a dropped plate silences the room, Ray apologizes and stands in the projector beam facing Frank."}
+],
+"s05046_0": [
+{"start":1,"type":"observes","fine":"waits","actor":"THE NEW GIRL","target":null,"mood":"awkward","intensity":2,"summary":"A nervous new night nurse fumbles through her first hours at the station."},
+{"start":12,"type":"comforts","fine":"reassures","actor":"KESSLER","target":"THE NEW GIRL","mood":"tender","intensity":2,"summary":"Mr. Kessler kindly tells Priya she has kind hands, easing her nerves."},
+{"start":20,"type":"jokes","fine":"lightens the mood for","actor":"PRIYA","target":"CHARGE NURSE","mood":"playful","intensity":2,"summary":"The intercom reveals her mom called about her forgotten lunch; she vows to quit, Kessler doubts it."}
+],
+"s05046_1": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"PRIYA","target":null,"mood":"calm","intensity":1,"summary":"Priya sits back down and for once does not check her phone."}
+],
+"s05047": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"ROSALIND","target":"TOM","mood":"melancholy","intensity":2,"summary":"In a candlelit power cut, Rosalind avoids Tom's gaze while his father texts him."},
+{"start":22,"type":"reveals","fine":"breaks news to","actor":"TOM","target":"ROSALIND","mood":"awkward","intensity":3,"summary":"Tom reveals his Durham offer; Rosalind's brittle congratulations show her pain."},
+{"start":31,"type":"decides","fine":"gives an order","actor":"ROSALIND","target":"TOM","mood":"bittersweet","intensity":4,"summary":"Tom refuses to leave her alone, but Rosalind insists he will go and she will be fine."}
+],
+"s05048": [
+{"start":1,"type":"jokes","fine":"plays with","actor":"JUNE","target":"WESLEY","mood":"playful","intensity":2,"summary":"June, Wesley and Ben huddle under a blanket whispering ghost-story rules."},
+{"start":6,"type":"lies","fine":"fakes it with","actor":"JUNE","target":"MOM","mood":"fear","intensity":3,"summary":"A text from Mom and a slamming door spook them; Mom asks who walked past her door."},
+{"start":21,"type":"reveals","fine":"unmasks","actor":"AUNT LIN","target":"JUNE","mood":"joyful","intensity":3,"summary":"Aunt Lin bursts from the closet in ghoul makeup, and everyone laughs and throws pillows."}
+],
+"s05050": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"HANNAH","target":null,"mood":"calm","intensity":2,"summary":"Hannah builds a cozy candlelit kitchen during a power cut, while Desmond studies the dark street."},
+{"start":18,"type":"discovers","fine":"notices","actor":"DESMOND","target":"HANNAH","mood":"ominous","intensity":4,"summary":"Desmond summons Hannah; wrong stars above, one moving toward the house, and Beck says it is no transformer."},
+{"start":35,"type":"reveals","fine":"lets slip to","actor":"ILYA","target":"HANNAH","mood":"fear","intensity":4,"summary":"Hannah sees Ilya smiling at the window, saying they said it would be evening."}
+],
+"s05051": [
+{"start":1,"type":"observes","fine":"scans the room","actor":"NELL","target":"HOODIE GUY","mood":"ominous","intensity":2,"summary":"On a strange double-decker, armed Nell tells riders they are ahead of their pursuers."},
+{"start":14,"type":"discovers","fine":"notices","actor":"IRIS","target":null,"mood":"fear","intensity":4,"summary":"The bus coughs and dies, thumps hit the roof, and a claw punches through."},
+{"start":37,"type":"defends","fine":"protects","actor":"HOODIE GUY","target":"NELL","mood":"triumphant","intensity":4,"summary":"The hooded man drives off the creature with silver light and names himself Cass."}
+],
+"s05052": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"KIP","target":"KIM","mood":"awkward","intensity":2,"summary":"Kip and Kim sit silent outside the store, bickering only through their group chat."},
+{"start":11,"type":"arrives","fine":"drifts in","actor":"JO","target":"KIP","mood":"awkward","intensity":2,"summary":"Jo rides up, slowly ties his horse and suggests a soda; the others stay stiff."},
+{"start":25,"type":"bonds","fine":"reconnects with","actor":"KIM","target":"KIP","mood":"hopeful","intensity":2,"summary":"A message admits the weirdness; both ask Jo to stay and follow him for sodas."}
+],
+"s05053": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"SAM","target":"MO","mood":"tense","intensity":3,"summary":"Sam and Mo tell a documentary crew to stop filming in the bathroom before their hearing."},
+{"start":13,"type":"confronts","fine":"challenges","actor":"BIG DAVE","target":"SAM","mood":"hostile","intensity":3,"summary":"Big Dave and Jen argue over the matching statement and the story that it was a door."},
+{"start":33,"type":"decides","fine":"commits","actor":"SAM","target":null,"mood":"suspense","intensity":4,"summary":"Mrs. K calls time and Sam sets his phone down, whispering that he will tell them."}
+],
+"s05055": [
+{"start":1,"type":"hides","fine":"conceals something","actor":"IVO","target":"DASHA","mood":"tense","intensity":3,"summary":"On a crowded train, Dasha texts Ivo for what he carries while Pavel watches."},
+{"start":11,"type":"threatens","fine":"looms over","actor":"PAVEL","target":"IVO","mood":"suspense","intensity":4,"summary":"Pavel closes in through the crowd, Ivo turns, and Pavel says he is in his seat."}
+],
+"s05057": [
+{"start":1,"type":"observes","fine":"waits","actor":"EDITH","target":null,"mood":"ominous","intensity":2,"summary":"In a gaslit clinic room, Edith waits as the doctor and porter enter with a covered item."},
+{"start":13,"type":"discovers","fine":"notices","actor":"MARGARET","target":"DR. HALE","mood":"fear","intensity":4,"summary":"Knocking inside the wall and a spreading dark stain frighten Pruitt and Margaret."},
+{"start":26,"type":"comforts","fine":"reassures","actor":"DR. HALE","target":"EDITH","mood":"bittersweet","intensity":2,"summary":"The knocking stops; the cloth hides only a thermometer and Hale says it is finished."}
+],
+"s05059": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"OKAFOR","target":"THE TRAVELER","mood":"tense","intensity":3,"summary":"Okafor questions a masked traveler whose card dates from a future year."},
+{"start":13,"type":"reveals","fine":"comes clean to","actor":"THE TRAVELER","target":"OKAFOR","mood":"suspense","intensity":4,"summary":"The traveler unmasks as Mirela, claiming she was born in the booth to Dunne's wife."},
+{"start":33,"type":"decides","fine":"gives an order","actor":"DUNNE","target":"OKAFOR","mood":"bittersweet","intensity":4,"summary":"Dunne overrides Okafor and orders the barrier opened for Mirela, who thanks them."}
+],
+"s05061": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PRIYA","target":"TOMAS","mood":"playful","intensity":2,"summary":"Vet Priya and Tomas banter over his old cat Biscuit, hiding tension from a cancelled dinner."},
+{"start":20,"type":"confesses","fine":"opens up to","actor":"TOMAS","target":"PRIYA","mood":"bittersweet","intensity":4,"summary":"Tomas explains his mother's illness and death; Priya's armor falls."},
+{"start":36,"type":"arrives","fine":"bursts in","actor":"WENDY","target":"PRIYA","mood":"awkward","intensity":2,"summary":"Wendy with a puppy interrupts, reads the room, and tactfully tows the puppy out."},
+{"start":49,"type":"persuades","fine":"pitches to","actor":"TOMAS","target":"PRIYA","mood":"hopeful","intensity":4,"summary":"Tomas asks her to dinner; Priya agrees to Thursday and a Great Dane emergency calls her away."}
+],
+"s05063": [
+{"start":1,"type":"observes","fine":"listens to","actor":"KIM","target":"KIP","mood":"ominous","intensity":3,"summary":"Kim and Kip crouch in a dark van hearing scraping from under the floor."},
+{"start":21,"type":"arrives","fine":"makes an entrance","actor":"MO","target":"KIM","mood":"fear","intensity":5,"summary":"The latch turns and soaked Mo appears grinning, though Kim says Mo is up front driving."}
+]
+}

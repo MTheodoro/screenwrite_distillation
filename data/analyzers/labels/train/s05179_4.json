@@ -1,0 +1,20 @@
+{
+  "scene_id": "s05179_4",
+  "cast": {"ROSA": "ROSA", "Danny": "DANNY", "Chuy": "CHUY", "Skye": "SKYE", "Wells": "WELLS"},
+  "beats": [1, 4, 7, 10],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.9},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["DANNY"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["SKYE"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["ROSA"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["ROSA"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["ROSA"], "emo": {}, "c": 0.9},
+    "9": {"to": ["SELF"], "emo": ["sadness", 0.4], "c": 0.7},
+    "10": {"t": "A", "who": ["SKYE"], "emo": {"SKYE": ["joy", 0.5]}, "c": 0.9},
+    "11": {"t": "A", "who": ["DANNY"], "emo": {"DANNY": ["joy", 0.5]}, "c": 0.9},
+    "12": {"t": "A", "who": ["WELLS"], "emo": {"WELLS": ["joy", 0.4]}, "c": 0.9}
+  },
+  "tension": [45, 35, 15, 5]
+}

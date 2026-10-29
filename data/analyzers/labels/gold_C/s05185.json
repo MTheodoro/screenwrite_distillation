@@ -1,0 +1,32 @@
+{
+  "scene_id": "s05185",
+  "cast": {"DANA": "DANA", "Dana": "DANA", "Dana Whitlock": "DANA", "WALTER": "WALTER", "Walter": "WALTER", "Walter Pruitt": "WALTER", "TOMAS": "TOMAS", "Tomas": "TOMAS", "Tomas Reyes": "TOMAS", "FATHER MORAN": "FATHER MORAN", "Father Moran": "FATHER MORAN", "Father Gil Moran": "FATHER MORAN", "Rosalind": "ROSALIND", "Rosalind Kerr": "ROSALIND", "Priya": "PRIYA", "Priya Anand": "PRIYA", "ALL": "GROUP"},
+  "beats": [1, 4, 5, 7, 9, 11, 12, 14, 15, 18, 20, 22, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["DANA", "WALTER", "ROSALIND", "TOMAS", "FATHER MORAN", "PRIYA"], "emo": {}, "c": 0.5},
+    "4": {"t": "D", "who": ["DANA", "WALTER", "ROSALIND", "TOMAS", "FATHER MORAN", "PRIYA"], "emo": {"TOMAS": ["fear", 0.3]}, "c": 0.85},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 0.85},
+    "7": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.95},
+    "8": {"to": ["DANA"], "emo": ["neutral", 0.1], "c": 0.95},
+    "9": {"t": "D", "who": ["WALTER"], "emo": {}, "c": 0.85},
+    "10": {"t": "A", "who": ["WALTER"], "emo": {}, "c": 0.95},
+    "11": {"t": "D", "who": ["DANA", "WALTER", "ROSALIND", "TOMAS", "FATHER MORAN", "PRIYA"], "emo": {}, "c": 0.6},
+    "12": {"to": ["DANA"], "emo": ["neutral", 0.3], "c": 0.95},
+    "13": {"to": ["WALTER"], "emo": ["neutral", 0.2], "c": 0.95},
+    "14": {"to": ["DANA"], "emo": ["anger", 0.3], "c": 0.95},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["ROSALIND"], "emo": {"ROSALIND": ["fear", 0.5]}, "c": 0.95},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.7},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "20": {"t": "A", "who": ["FATHER MORAN"], "emo": {}, "c": 0.95},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "22": {"to": ["ALL"], "emo": ["fear", 0.5], "c": 0.9},
+    "23": {"to": ["TOMAS", "ALL", "DANA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "24": {"t": "A", "who": ["DANA"], "emo": {}, "c": 0.95},
+    "25": {"t": "A", "who": ["DANA"], "emo": {}, "c": 0.85}
+  }
+}

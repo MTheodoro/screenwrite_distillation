@@ -1,0 +1,131 @@
+{
+"s00792": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"HORACE","target":"PHOEBE","mood":"playful","intensity":2,"summary":"On graduation night, six teens bargain with night manager Horace for more bowling time."},
+{"start":18,"type":"jokes","fine":"riffs with","actor":"COSMO","target":"LOCKY","mood":"playful","intensity":2,"summary":"Cosmo catches Locky's tossed keys in a fry and regrets exactly one thing."},
+{"start":25,"type":"confesses","fine":"opens up to","actor":"BEATRIX","target":"PHOEBE","mood":"melancholy","intensity":3,"summary":"Beatrix asks about September plans; Phoebe admits she has none."},
+{"start":37,"type":"observes","fine":"takes it in","actor":"PHOEBE","target":null,"mood":"hopeful","intensity":3,"summary":"Phoebe rolls a last ball that wobbles in for a strike; the friends grin."}
+],
+"s01409": [
+{"start":1,"type":"works","fine":"prepares","actor":"IGNATIUS","target":"MANUEL","mood":"tense","intensity":2,"summary":"Trainer Ignatius tapes Manuel's wrist in a steamy locker room as a stranger watches."},
+{"start":16,"type":"arrives","fine":"shows up unannounced","actor":"AMBROSE","target":"MANUEL","mood":"ominous","intensity":3,"summary":"Tall man Ambrose introduces himself as the promoter's representative; Ignatius resists."},
+{"start":30,"type":"threatens","fine":"coerces","actor":"AMBROSE","target":"MANUEL","mood":"hostile","intensity":4,"summary":"Ambrose says Manuel must go down in round three; both order him out."},
+{"start":37,"type":"decides","fine":"refuses","actor":"MANUEL","target":null,"mood":"tense","intensity":3,"summary":"Ignatius shuts the door and Manuel curls his gloved hands into fists."}
+],
+"s00533": [
+{"start":1,"type":"observes","fine":"watches","actor":"DOLLY","target":"HOLLIS","mood":"tense","intensity":2,"summary":"At a cattle auction, Hollis, estranged wife Maribel and rival Tavish sit in tense silence."},
+{"start":10,"type":"persuades","fine":"bargains with","actor":"TAVISH","target":"HOLLIS","mood":"tense","intensity":3,"summary":"Tavish bids on the heifer; Hollis hesitates, then raises one finger."},
+{"start":22,"type":"decides","fine":"resigns","actor":"HOLLIS","target":"TAVISH","mood":"melancholy","intensity":3,"summary":"Tavish nods and outbids; Maribel mutters eleven years and Hollis lowers his hand."}
+],
+"s00848": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"PERPETUA","target":"THE STRANGER","mood":"calm","intensity":2,"summary":"Perpetua and Yoshiro offer tea to a silent stranger on the offshore platform."},
+{"start":16,"type":"decides","fine":"decides","actor":"PERPETUA","target":"YOSHIRO","mood":"tender","intensity":2,"summary":"Perpetua insists the stranger is their guest and gives her own bunk."},
+{"start":23,"type":"reveals","fine":"comes clean to","actor":"ADEBOLA","target":"PERPETUA","mood":"ominous","intensity":3,"summary":"The stranger gives her name, Adebola, and says she swam to the platform."},
+{"start":41,"type":"bonds","fine":"bonds with","actor":"ADEBOLA","target":"PERPETUA","mood":"tender","intensity":3,"summary":"Adebola explains she wanted to see if anyone lived there; Perpetua laughs and offers burnt toast."}
+],
+"s00639": [
+{"start":1,"type":"works","fine":"works","actor":"BEA","target":"SORAYA","mood":"tense","intensity":2,"summary":"Tailor Bea pins a wedding dress while tense Soraya stares at herself in the mirror."},
+{"start":17,"type":"pleads","fine":"asks for help from","actor":"SORAYA","target":"BEA","mood":"suspense","intensity":4,"summary":"Soraya asks if Bea would stop her leaving through the back."},
+{"start":18,"type":"comforts","fine":"steadies","actor":"BEA","target":"SORAYA","mood":"hopeful","intensity":4,"summary":"Bea silently unbuttons the dress and tells her the alley door sticks."}
+],
+"s00574": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BARAKZAI","target":"NOWAK","mood":"calm","intensity":2,"summary":"Two soldiers in a cold relay hut ration wood and take a status call."},
+{"start":27,"type":"arrives","fine":"bursts in","actor":"SAARI","target":"BARAKZAI","mood":"chaotic","intensity":3,"summary":"Medic Saari arrives from the storm after nine hours' walk, asking for tea."},
+{"start":38,"type":"comforts","fine":"tends to","actor":"SAARI","target":"NOWAK","mood":"tense","intensity":3,"summary":"Saari orders Nowak to remove his boot and finds white frostbitten toes."},
+{"start":50,"type":"decides","fine":"decides","actor":"BARAKZAI","target":null,"mood":"hopeful","intensity":2,"summary":"Command announces a weather window; Barakzai looks at the young faces and says tomorrow."}
+],
+"s00725": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"SUNITA","target":"DMITRI","mood":"tense","intensity":3,"summary":"Attorney Sunita questions foreman Dmitri at an arbitration about a safety valve."},
+{"start":28,"type":"confesses","fine":"admits guilt to","actor":"DMITRI","target":"HELENA","mood":"grief","intensity":4,"summary":"Dmitri admits he disengaged the valve and signed the log to pay for his nephew's hospital."},
+{"start":42,"type":"decides","fine":"accepts","actor":"CONRAD","target":"HELENA","mood":"bittersweet","intensity":3,"summary":"Conrad withdraws his motion and offers settlement; Helena adjourns."}
+],
+"s02132": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"RUTH","target":"ARJUN","mood":"tense","intensity":3,"summary":"Attorney Ruth deposes anxious inspector Arjun in a ferry terminal and probes his crane certificate."},
+{"start":34,"type":"discovers","fine":"uncovers","actor":"RUTH","target":"ARJUN","mood":"tense","intensity":3,"summary":"Arjun admits he inspected the wrong crane and blames his supervisor."}
+],
+"s00145": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"ELEANOR","target":"ZEB","mood":"tense","intensity":3,"summary":"Coach Eleanor scolds her late rowers and silently measures their nerve."},
+{"start":18,"type":"decides","fine":"gives an order","actor":"ELEANOR","target":"BASHIR","mood":"tense","intensity":3,"summary":"She finds a loose rigger and has Bashir fix it before ordering the boat out."}
+],
+"s00235": [
+{"start":1,"type":"lies","fine":"covers a story for","actor":"PHILIPPE","target":"RADIO","mood":"suspense","intensity":3,"summary":"Lieutenant Philippe reports a quiet night to Battalion but notices the candle too steady."},
+{"start":16,"type":"arrives","fine":"slips in","actor":"STRANGER","target":"PHILIPPE","mood":"ominous","intensity":4,"summary":"A boy slips in with tea from the other side and says they have been listening."},
+{"start":30,"type":"reveals","fine":"unmasks","actor":"ALOIS","target":"PHILIPPE","mood":"fear","intensity":4,"summary":"He tunes the radio to an enemy voice and gives his name, Alois; Philippe drinks."}
+],
+"s01554": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"REN","target":"SOL","mood":"tense","intensity":3,"summary":"Ren slips into the pawn shop and says Gabe sent her to collect."},
+{"start":26,"type":"threatens","fine":"menaces","actor":"REN","target":"SOL","mood":"tense","intensity":3,"summary":"Ren demands eight thousand; Sol offers six and edges toward the lamp."},
+{"start":47,"type":"attacks","fine":"fights","actor":"SOL","target":"REN","mood":"chaotic","intensity":4,"summary":"Sol rises and swings the lamp; they collide, and the lamp shatters in darkness."},
+{"start":55,"type":"bonds","fine":"shares a moment with","actor":"REN","target":"SOL","mood":"bittersweet","intensity":3,"summary":"Winded Sol offers the six; Ren lowers her hammer, takes the cash and leaves."}
+],
+"s01227": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"KOLYA","target":"PADMA","mood":"playful","intensity":2,"summary":"An underground curling team banters before Padma throws a perfect stone on the button."},
+{"start":25,"type":"observes","fine":"waits","actor":"OKONKWO","target":null,"mood":"suspense","intensity":3,"summary":"The referee measures; Kolya says that is the match."},
+{"start":37,"type":"accuses","fine":"calls out","actor":"JUNE","target":"TEDDY","mood":"hostile","intensity":4,"summary":"June accuses Teddy of brushing the stone; the referee removes it from play."},
+{"start":52,"type":"leaves","fine":"abandons","actor":"KOLYA","target":null,"mood":"grief","intensity":4,"summary":"Kolya mourns five years of Thursdays and walks away as the brooms fall."}
+],
+"s00245": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"ISABELLA","target":"ZORZI","mood":"ominous","intensity":3,"summary":"Isabella enters Master Zorzi's furnace room and says the Council sends regards."},
+{"start":20,"type":"accuses","fine":"calls out","actor":"ZORZI","target":"ISABELLA","mood":"hostile","intensity":3,"summary":"She sets down a glass sample taken from his apprentice; Zorzi calls it stealing."},
+{"start":39,"type":"threatens","fine":"menaces","actor":"ZORZI","target":"ISABELLA","mood":"tense","intensity":4,"summary":"Zorzi grabs tongs; Isabella shows the glass bird and warns of the Council."},
+{"start":60,"type":"decides","fine":"refuses","actor":"ZORZI","target":"ISABELLA","mood":"ominous","intensity":4,"summary":"Zorzi smashes the bird, tells her to report ash; she pockets a shard."}
+],
+"s02426": [
+{"start":1,"type":"observes","fine":"watches","actor":"GWEN","target":"RAFI","mood":"calm","intensity":1,"summary":"In a lunar laundromat, Gwen watches new hauler Rafi fumble with Euros."},
+{"start":20,"type":"jokes","fine":"banters with","actor":"MR. DAVENPORT","target":"GWEN","mood":"playful","intensity":1,"summary":"Davenport's crossword clue draws answers from Gwen and Rafi."},
+{"start":28,"type":"bonds","fine":"shares a moment with","actor":"GWEN","target":"RAFI","mood":"tender","intensity":2,"summary":"Gwen hands Rafi a fallen sock and leaves the chair between them empty on purpose."}
+],
+"s01876": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"SABLE","target":"the bell","mood":"ominous","intensity":3,"summary":"Queen Sable stands before a humming bell in a drowned tower and demands it speak."},
+{"start":13,"type":"arrives","fine":"returns","actor":"DOBRINA","target":"SABLE","mood":"tense","intensity":3,"summary":"Her squire Dobrina climbs up, warning that the water is rising fast."},
+{"start":27,"type":"decides","fine":"commits","actor":"SABLE","target":"DOBRINA","mood":"fear","intensity":4,"summary":"The bell cracks; they place their hands on it and a child's voice begins counting."}
+],
+"s01154": [
+{"start":1,"type":"observes","fine":"studies","actor":"THORNE","target":"ALDYTH","mood":"ominous","intensity":2,"summary":"Thorne, Moss and Briar wait in the oak grove for Aldyth to arrive."},
+{"start":16,"type":"reveals","fine":"shows","actor":"THORNE","target":"ALDYTH","mood":"suspense","intensity":3,"summary":"Thorne points to a green sapling pushing up from the salted soil."},
+{"start":28,"type":"confronts","fine":"demands answers from","actor":"ALDYTH","target":"THORNE","mood":"tense","intensity":3,"summary":"Aldyth steps into the ring, disbelieves the shoot, and learns it was planted before the burning."},
+{"start":46,"type":"leaves","fine":"storms out","actor":"ALDYTH","target":"MOSS","mood":"bittersweet","intensity":4,"summary":"Aldyth declares the oath broken and strides away as Briar shields the sapling."}
+],
+"s00524": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"OYELARAN","target":"PELL","mood":"tense","intensity":3,"summary":"Inspector Oyelaran presses watchmaker Pell about his alibi among ticking clocks."},
+{"start":23,"type":"accuses","fine":"suspects","actor":"OYELARAN","target":"PELL","mood":"suspense","intensity":4,"summary":"She spots the new mainspring and notes Hartigan's watch was found stopped at 8:52."},
+{"start":34,"type":"reveals","fine":"exposes a secret to","actor":"DELPHINE","target":"PELL","mood":"tense","intensity":4,"summary":"A phone call reveals his daughter Delphine put the watch in the canal."},
+{"start":56,"type":"confesses","fine":"breaks down to","actor":"PELL","target":"OYELARAN","mood":"grief","intensity":4,"summary":"Pell insists Hartigan fell after laughing at his wife's cuckoo, then slumps."},
+{"start":76,"type":"decides","fine":"gives an order","actor":"OYELARAN","target":"PELL","mood":"melancholy","intensity":2,"summary":"Pell surrenders the cellar key and the phone rings again."}
+],
+"s00247": [
+{"start":1,"type":"works","fine":"cooks","actor":"ZAINAB","target":null,"mood":"calm","intensity":2,"summary":"A multi-generational family bakes bread in a mountain village kitchen at dawn."},
+{"start":27,"type":"arrives","fine":"shows up unannounced","actor":"ELIAS","target":"FARIDA","mood":"awkward","intensity":2,"summary":"Inspector Elias arrives early through the snow, asking for the headmistress."},
+{"start":36,"type":"bonds","fine":"bonds with","actor":"ZAINAB","target":"ELIAS","mood":"joyful","intensity":3,"summary":"Zainab hands him warm bread first; he relaxes and the kettle sings."}
+],
+"s02450": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ELLSWORTH","target":"MOLOI","mood":"playful","intensity":2,"summary":"Farmer Ellsworth jokes with his dialysis staff about the long drive and diner pie."},
+{"start":33,"type":"works","fine":"works","actor":"MOLOI","target":"ELLSWORTH","mood":"fear","intensity":4,"summary":"An air-in-line alarm sounds; Moloi and Krzysztof scramble to clamp and flush."},
+{"start":51,"type":"comforts","fine":"reassures","actor":"MOLOI","target":"ELLSWORTH","mood":"bittersweet","intensity":2,"summary":"The alarm stops; Ellsworth opens an eye and jokes with shaken staff."}
+],
+"s00503": [
+{"start":1,"type":"bonds","fine":"bonds with","actor":"IMOGEN","target":"NORBERT","mood":"awkward","intensity":2,"summary":"New hire Imogen offers donuts to grim Norbert, who doesn't look up."},
+{"start":13,"type":"bonds","fine":"thanks","actor":"NORBERT","target":"IMOGEN","mood":"tender","intensity":3,"summary":"Norbert tastes a donut, tears up at fourteen years without one, and she sits."}
+],
+"s00263": [
+{"start":1,"type":"threatens","fine":"holds at gunpoint","actor":"STRANGER","target":"GEORGIANA","mood":"tense","intensity":3,"summary":"A hiding courier points a pistol at Lady Georgiana as she climbs into the loft."},
+{"start":13,"type":"bonds","fine":"charms","actor":"GEORGIANA","target":"MATTHIAS","mood":"playful","intensity":3,"summary":"Georgiana charms and bluffs; he lowers his pistol and gives his name, Matthias."},
+{"start":36,"type":"hides","fine":"lies low","actor":"GEORGIANA","target":"MATTHIAS","mood":"suspense","intensity":4,"summary":"Soldiers search; Georgiana pulls Matthias into the hay under her cloak."},
+{"start":57,"type":"bonds","fine":"shares a moment with","actor":"MATTHIAS","target":"GEORGIANA","mood":"joyful","intensity":3,"summary":"Beneath the cloak they laugh with relief, and he says he owes her."}
+],
+"s01525": [
+{"start":1,"type":"confronts","fine":"questions witnesses","actor":"LINDQVIST","target":"MAN","mood":"suspense","intensity":3,"summary":"Ferry officer Lindqvist presses a soaked man hiding in his car on the deck."},
+{"start":27,"type":"discovers","fine":"notices","actor":"KOFI","target":"MAN","mood":"tense","intensity":4,"summary":"Deckhand Kofi spots blood on the man's boot as he steps out."},
+{"start":49,"type":"confesses","fine":"owns up to","actor":"HENRIK","target":"LINDQVIST","mood":"grief","intensity":5,"summary":"The man confesses his sister Annelie is dead in the terminal lockers."},
+{"start":63,"type":"comforts","fine":"tends to","actor":"LINDQVIST","target":"HENRIK","mood":"melancholy","intensity":3,"summary":"Henrik gives his name and waits; Lindqvist orders a blanket as police arrive."}
+],
+"s01155": [
+{"start":1,"type":"observes","fine":"waits","actor":"CORRIE","target":null,"mood":"calm","intensity":1,"summary":"Depot staff load an armored truck as a delivery man arrives with water jugs."},
+{"start":17,"type":"attacks","fine":"ambushes","actor":"WINSTON","target":"CORRIE","mood":"chaotic","intensity":4,"summary":"Winston triggers a hidden smoke latch, masks up, and the bay door slams shut."}
+],
+"s01277": [
+{"start":1,"type":"confronts","fine":"presses","actor":"KAI","target":"ODALYS","mood":"awkward","intensity":2,"summary":"Kai complains at being summoned to a 3 a.m. laundromat, where Odalys folds towels."},
+{"start":23,"type":"confesses","fine":"unburdens to","actor":"ODALYS","target":"KAI","mood":"melancholy","intensity":3,"summary":"Odalys admits his mother is moving to Portland and invites him to come."},
+{"start":54,"type":"comforts","fine":"reassures","actor":"ODALYS","target":"KAI","mood":"tender","intensity":3,"summary":"She names his fear, jokes about her age, and says she came for the warmth."},
+{"start":82,"type":"bonds","fine":"teams up with","actor":"KAI","target":"ODALYS","mood":"tender","intensity":3,"summary":"Kai helps fold towels as Odalys calls folding a promise of warmth."}
+]
+}

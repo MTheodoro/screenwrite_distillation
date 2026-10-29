@@ -1,0 +1,192 @@
+{
+"s00272": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "ODALYS", "target": "BARNABY", "mood": "playful", "intensity": 2, "summary": "Odalys and Barnaby argue whether the boathouse holds eleven or twelve swans"},
+{"start": 10, "type": "jokes", "fine": "banters with", "actor": "PETE", "target": "BARNABY", "mood": "playful", "intensity": 2, "summary": "Pete dangles from the rafters and drops a flashlight into the water"},
+{"start": 23, "type": "reveals", "fine": "lets slip to", "actor": "ODALYS", "target": "BARNABY", "mood": "playful", "intensity": 2, "summary": "Odalys insists she rode a twelfth swan named Gerald"},
+{"start": 36, "type": "confesses", "fine": "owns up to", "actor": "BARNABY", "target": "ODALYS", "mood": "playful", "intensity": 2, "summary": "Barnaby admits naming one swan, Lucille, the one they sank"},
+{"start": 42, "type": "confesses", "fine": "comes clean to", "actor": "BARNABY", "target": "ODALYS", "mood": "ominous", "intensity": 3, "summary": "In silence Barnaby quietly concedes there are twelve swans"},
+{"start": 48, "type": "discovers", "fine": "notices", "actor": "BARNABY", "target": null, "mood": "ominous", "intensity": 3, "summary": "The dropped clipboard drifts toward a far swan that turns its head"}
+],
+"s01720": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "PRUDENCE", "target": "ODALYS", "mood": "tense", "intensity": 3, "summary": "In the drained pool Prudence forces everyone to remember the drowned boy"},
+{"start": 9, "type": "discovers", "fine": "notices", "actor": "BRAM", "target": null, "mood": "suspense", "intensity": 3, "summary": "Bram hears knocking under the tile and Prudence says it is counting"},
+{"start": 12, "type": "flees", "fine": "scrambles away", "actor": "ODALYS", "target": null, "mood": "chaotic", "intensity": 4, "summary": "The light dies and the group panics amid knocks and laughter"},
+{"start": 18, "type": "discovers", "fine": "notices", "actor": null, "target": null, "mood": "fear", "intensity": 5, "summary": "Light returns and wet footprints walk toward them from the deep end"}
+],
+"s00284": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "HUMPHREY", "target": "PRIZZY", "mood": "awkward", "intensity": 2, "summary": "Humphrey and Prizzy wait forty minutes for an absent seminar presenter"},
+{"start": 16, "type": "jokes", "fine": "riffs with", "actor": "HUMPHREY", "target": "PRIZZY", "mood": "playful", "intensity": 2, "summary": "Humphrey riffs about the stately doomed cockroach on the screen"},
+{"start": 29, "type": "decides", "fine": "commits", "actor": "PRIZZY", "target": "HUMPHREY", "mood": "hopeful", "intensity": 2, "summary": "Prizzy offers to present the seminar herself from her laptop"},
+{"start": 35, "type": "works", "fine": "prepares", "actor": "PRIZZY", "target": null, "mood": "playful", "intensity": 2, "summary": "Prizzy takes the front, plugs in, and greets the empty room"},
+{"start": 43, "type": "jokes", "fine": "lightens the mood for", "actor": "HUMPHREY", "target": "PRIZZY", "mood": "playful", "intensity": 2, "summary": "A door bangs, nobody enters, and Prizzy keeps presenting regardless"}
+],
+"s00205": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "COACH IGNATIUS", "target": "DARIUS", "mood": "tense", "intensity": 2, "summary": "Coach Ignatius warns Darius his weak glove side will lose games"},
+{"start": 17, "type": "arrives", "fine": "is introduced", "actor": "LEN", "target": "COACH IGNATIUS", "mood": "awkward", "intensity": 2, "summary": "Rookie Len arrives early and nervous, and Coach needles him"},
+{"start": 26, "type": "decides", "fine": "gives an order", "actor": "COACH IGNATIUS", "target": "LEN", "mood": "tense", "intensity": 2, "summary": "Coach orders Len to shoot on Darius, who saves and mutters"},
+{"start": 39, "type": "confronts", "fine": "challenges", "actor": "LEN", "target": "DARIUS", "mood": "tense", "intensity": 2, "summary": "Len keeps shooting until a puck sails over Darius's glove"},
+{"start": 44, "type": "bonds", "fine": "shares a moment with", "actor": "DARIUS", "target": "LEN", "mood": "playful", "intensity": 2, "summary": "Darius and Len both demand again, and Coach hides a smile"}
+],
+"s00163": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "HOBB", "target": "JOAN", "mood": "playful", "intensity": 2, "summary": "The baker's household shares supper while Hobb and Joan whisper jokes"},
+{"start": 16, "type": "threatens", "fine": "warns", "actor": "STRANGER", "target": "ABRAHAM", "mood": "ominous", "intensity": 3, "summary": "The silent Stranger says he is saving room for the fire"},
+{"start": 22, "type": "reveals", "fine": "unmasks", "actor": "SILVANUS", "target": "THOMAS", "mood": "tense", "intensity": 3, "summary": "Silvanus reveals himself as the Lord Mayor's man warning about the oven"},
+{"start": 30, "type": "decides", "fine": "gives an order", "actor": "THOMAS", "target": "HOBB", "mood": "chaotic", "intensity": 4, "summary": "Thomas orders the hearth damped and Hobb floods it with steam"},
+{"start": 41, "type": "reveals", "fine": "breaks news to", "actor": "SILVANUS", "target": "THOMAS", "mood": "ominous", "intensity": 4, "summary": "Silvanus sadly says it is too late as a bell begins ringing"}
+],
+"s02324": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "ELINBORG", "target": "ÓSKAR", "mood": "tense", "intensity": 2, "summary": "Elinborg confronts her father for reopening the fish-drying shed"},
+{"start": 23, "type": "decides", "fine": "gives an order", "actor": "ELINBORG", "target": "KARI", "mood": "awkward", "intensity": 2, "summary": "Elinborg makes Kari take out his earbuds for his grandfather"},
+{"start": 30, "type": "accuses", "fine": "exposes", "actor": "ÓSKAR", "target": "ELINBORG", "mood": "tense", "intensity": 3, "summary": "Óskar announces Elinborg wants to sell while Sigrún counts fish"},
+{"start": 37, "type": "persuades", "fine": "pitches to", "actor": "ELINBORG", "target": "ÓSKAR", "mood": "tense", "intensity": 3, "summary": "Elinborg pitches the developer offer and Óskar recalls family history bitterly"},
+{"start": 51, "type": "confesses", "fine": "opens up to", "actor": "KARI", "target": "ÓSKAR", "mood": "tender", "intensity": 3, "summary": "Kari says the shed smells like his grandfather and he loves it"},
+{"start": 57, "type": "reveals", "fine": "lets slip to", "actor": "SIGRÚN", "target": "ÓSKAR", "mood": "awkward", "intensity": 3, "summary": "Sigrún reveals the developer's offer amount she read in the folder"},
+{"start": 65, "type": "confesses", "fine": "owns up to", "actor": "ELINBORG", "target": "ÓSKAR", "mood": "tender", "intensity": 3, "summary": "Elinborg admits she is taking a little and Óskar forgives her"},
+{"start": 69, "type": "bonds", "fine": "shares a moment with", "actor": "ÓSKAR", "target": "KARI", "mood": "tender", "intensity": 3, "summary": "Óskar has Kari smell a fish and admits its worth is unknowable"},
+{"start": 81, "type": "comforts", "fine": "reconnects with", "actor": "BJARNI", "target": "ELINBORG", "mood": "bittersweet", "intensity": 3, "summary": "Elinborg laughs through tears as Bjarni silently hands her coffee"}
+],
+"s00490": [
+{"start": 1, "type": "arrives", "fine": "bursts in", "actor": "BILLIE", "target": "KITTREDGE", "mood": "hostile", "intensity": 3, "summary": "Sheriff Billie drags chained Kittredge into the flooded telegraph office"},
+{"start": 21, "type": "reveals", "fine": "breaks news to", "actor": "OPERATOR", "target": "BILLIE", "mood": "tense", "intensity": 3, "summary": "The telegraph relays Judge Maddox's order to hold the prisoner overnight"},
+{"start": 30, "type": "confronts", "fine": "challenges", "actor": "BILLIE", "target": "OPERATOR", "mood": "hostile", "intensity": 3, "summary": "Billie seizes the horn and dares the judge to come himself"},
+{"start": 37, "type": "mocks", "fine": "needles", "actor": "KITTREDGE", "target": "BILLIE", "mood": "tense", "intensity": 3, "summary": "Kittredge mocks Billie, who says she'd have made a fine hangman"},
+{"start": 44, "type": "confronts", "fine": "stares down", "actor": "BILLIE", "target": "KITTREDGE", "mood": "tense", "intensity": 4, "summary": "Billie crouches face to face with Kittredge about surviving the night"},
+{"start": 52, "type": "works", "fine": "prepares", "actor": "BILLIE", "target": "TOBIAS", "mood": "hopeful", "intensity": 2, "summary": "Billie lights the cold stove with damp matches, bringing warmth"},
+{"start": 70, "type": "reveals", "fine": "breaks news to", "actor": "OPERATOR", "target": "BILLIE", "mood": "triumphant", "intensity": 2, "summary": "The judge replies understood and Billie almost smiles"}
+],
+"s01840": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "RICO", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Rico bowls a solitary strike, deep into a perfect game"},
+{"start": 19, "type": "arrives", "fine": "shows up unannounced", "actor": "DAISY", "target": "RICO", "mood": "suspense", "intensity": 3, "summary": "Young Daisy appears and claims to be the next frame"},
+{"start": 29, "type": "reveals", "fine": "shows", "actor": "DAISY", "target": "RICO", "mood": "ominous", "intensity": 3, "summary": "The scoreboard spells Daisy and she says her dad sent her"},
+{"start": 44, "type": "confronts", "fine": "presses", "actor": "RICO", "target": "DAISY", "mood": "tense", "intensity": 3, "summary": "Rico learns she is Manny's daughter and insists Manny missed"},
+{"start": 55, "type": "accuses", "fine": "exposes", "actor": "DAISY", "target": "RICO", "mood": "tense", "intensity": 4, "summary": "Daisy says Rico moved the pin, citing her father's letter"},
+{"start": 62, "type": "confesses", "fine": "admits guilt to", "actor": "RICO", "target": "DAISY", "mood": "melancholy", "intensity": 4, "summary": "Rico admits he cheated out of envy and still missed perfection"},
+{"start": 73, "type": "pleads", "fine": "asks for help from", "actor": "DAISY", "target": "RICO", "mood": "bittersweet", "intensity": 3, "summary": "Daisy asks only that Rico show her how to throw"},
+{"start": 79, "type": "bonds", "fine": "shares a moment with", "actor": "RICO", "target": "DAISY", "mood": "tender", "intensity": 2, "summary": "Rico positions her fingers and teaches her to aim at arrows"},
+{"start": 85, "type": "comforts", "fine": "encourages", "actor": "RICO", "target": "DAISY", "mood": "hopeful", "intensity": 3, "summary": "After a gutter ball Daisy hits three pins and Rico smiles"}
+],
+"s00512": [
+{"start": 1, "type": "comforts", "fine": "calms", "actor": "AMOS", "target": "LEONORA", "mood": "tense", "intensity": 3, "summary": "Amos tells Leonora to keep still in the stagecoach stuck midriver"},
+{"start": 10, "type": "comforts", "fine": "steadies", "actor": "LEONORA", "target": "LIJAH", "mood": "fear", "intensity": 3, "summary": "Water seeps in and Leonora silently holds frightened Lijah's hand"},
+{"start": 18, "type": "defends", "fine": "protects", "actor": "AMOS", "target": "LEONORA", "mood": "chaotic", "intensity": 4, "summary": "The coach lurches and Amos hauls mother and son onto the box"},
+{"start": 22, "type": "comforts", "fine": "reassures", "actor": "AMOS", "target": "LIJAH", "mood": "bittersweet", "intensity": 2, "summary": "Lijah's hat floats away and Amos wryly reassures him"},
+{"start": 31, "type": "reveals", "fine": "shows", "actor": "LEONORA", "target": "AMOS", "mood": "tender", "intensity": 3, "summary": "Leonora shows a christening gown and Lijah tucks it safe"},
+{"start": 42, "type": "flees", "fine": "escapes", "actor": null, "target": null, "mood": "hopeful", "intensity": 2, "summary": "The horses pull the groaning coach toward the bank"}
+],
+"s00797": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "BEVERLY", "target": null, "mood": "tense", "intensity": 2, "summary": "Coach Beverly paces the deck and whistles her underwater hockey team to attention"},
+{"start": 14, "type": "confronts", "fine": "challenges", "actor": "BEVERLY", "target": "RUSLAN", "mood": "tense", "intensity": 3, "summary": "Beverly asks who takes the final shot as Ruslan and Lottie volunteer"},
+{"start": 22, "type": "confronts", "fine": "faces off with", "actor": "RUSLAN", "target": "DEWAYNE", "mood": "hostile", "intensity": 3, "summary": "Ruslan and Dewayne clash over the risky last-second play"},
+{"start": 28, "type": "decides", "fine": "gives an order", "actor": "PHAM", "target": null, "mood": "tense", "intensity": 3, "summary": "Beverly steps between them and Pham whistles everyone to positions"},
+{"start": 32, "type": "observes", "fine": "watches", "actor": "BEVERLY", "target": null, "mood": "suspense", "intensity": 3, "summary": "The team slips underwater and Beverly watches bubbles erupt"}
+],
+"s01990": [
+{"start": 1, "type": "persuades", "fine": "coerces", "actor": "OCTAVIA", "target": "SAMUEL", "mood": "tense", "intensity": 3, "summary": "Octavia coaches Samuel to call ledger discrepancies accounting error"},
+{"start": 15, "type": "defends", "fine": "pushes back on", "actor": "SAMUEL", "target": "OCTAVIA", "mood": "tense", "intensity": 3, "summary": "Samuel resists, saying the discrepancies are not accounting error"},
+{"start": 23, "type": "confronts", "fine": "challenges", "actor": "SAMUEL", "target": "OCTAVIA", "mood": "tense", "intensity": 3, "summary": "Samuel asks what happens if he tells the truth"},
+{"start": 35, "type": "decides", "fine": "refuses", "actor": "SAMUEL", "target": "OCTAVIA", "mood": "tense", "intensity": 4, "summary": "Samuel pushes back the folder and vows to testify honestly"},
+{"start": 38, "type": "persuades", "fine": "bargains with", "actor": "OCTAVIA", "target": "SAMUEL", "mood": "calm", "intensity": 2, "summary": "Octavia offers a truthful but careful statement and Samuel accepts"}
+],
+"s01723": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "PHILIPPA", "target": "AGNES", "mood": "tense", "intensity": 3, "summary": "Philippa presses Agnes, insisting it was only a drill"},
+{"start": 8, "type": "hides", "fine": "conceals something", "actor": "AGNES", "target": "PHILIPPA", "mood": "suspense", "intensity": 3, "summary": "Agnes hides her message and refuses to show Philippa"},
+{"start": 14, "type": "decides", "fine": "gives an order", "actor": "CAPTAIN HARGREAVES", "target": "AGNES", "mood": "tense", "intensity": 3, "summary": "The captain orders Agnes to send the whole message as written"},
+{"start": 19, "type": "discovers", "fine": "realizes", "actor": "PHILIPPA", "target": null, "mood": "ominous", "intensity": 4, "summary": "Philippa takes the paper, reads it, and goes white"},
+{"start": 22, "type": "decides", "fine": "gives an order", "actor": "PHILIPPA", "target": "AGNES", "mood": "ominous", "intensity": 4, "summary": "Philippa quietly tells Agnes to send it, and the spark leaps"}
+],
+"s01309": [
+{"start": 1, "type": "deflects", "fine": "brushes off", "actor": "ELIJAH", "target": "NADINE", "mood": "suspense", "intensity": 2, "summary": "Nadine insists a batteryless phone is ringing; Elijah brushes it off"},
+{"start": 12, "type": "discovers", "fine": "uncovers", "actor": "NADINE", "target": null, "mood": "ominous", "intensity": 4, "summary": "Nadine opens the case and a pale finger curls from inside"},
+{"start": 18, "type": "attacks", "fine": "strikes", "actor": "NADINE", "target": null, "mood": "fear", "intensity": 5, "summary": "Nadine hurls the phone against the shutter, silencing it"},
+{"start": 23, "type": "discovers", "fine": "notices", "actor": "ELIJAH", "target": null, "mood": "ominous", "intensity": 4, "summary": "They stand frozen until a green light blinks in the wreckage"}
+],
+"s02407": [
+{"start": 1, "type": "deflects", "fine": "brushes off", "actor": "MABEL", "target": "CORA", "mood": "suspense", "intensity": 2, "summary": "The stalled bus sits in fog and Mabel curtly answers the kids"},
+{"start": 13, "type": "discovers", "fine": "notices", "actor": "OSWIN", "target": null, "mood": "suspense", "intensity": 3, "summary": "Oswin spots a tall motionless figure at the edge of the headlights"},
+{"start": 21, "type": "observes", "fine": "hesitates", "actor": "MABEL", "target": null, "mood": "fear", "intensity": 4, "summary": "The figure approaches and Mabel grips the door lever but holds"},
+{"start": 27, "type": "threatens", "fine": "menaces", "actor": null, "target": "MABEL", "mood": "fear", "intensity": 5, "summary": "The figure taps the windshield once with a long finger"},
+{"start": 29, "type": "hides", "fine": "lies low", "actor": "MABEL", "target": null, "mood": "fear", "intensity": 5, "summary": "Mabel kills the headlights, leaving four people breathing in darkness"}
+],
+"s00400": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "TOMASZ", "target": "REN", "mood": "tense", "intensity": 2, "summary": "Tomasz demands a recount as the crew disagree on pod numbers"},
+{"start": 16, "type": "discovers", "fine": "realizes", "actor": "ASTRID", "target": "TOMASZ", "mood": "ominous", "intensity": 3, "summary": "Astrid finds the pod cracked from inside; someone woke up"},
+{"start": 24, "type": "discovers", "fine": "finds a clue", "actor": "BASHIR", "target": "TOMASZ", "mood": "ominous", "intensity": 4, "summary": "Bashir shows the hatch tape was peeled from the inside"},
+{"start": 28, "type": "decides", "fine": "gives an order", "actor": "TOMASZ", "target": "BASHIR", "mood": "tense", "intensity": 4, "summary": "Tomasz orders the hatch opened and Bashir resists"},
+{"start": 32, "type": "arrives", "fine": "shows up unannounced", "actor": null, "target": null, "mood": "fear", "intensity": 5, "summary": "Someone behind the hatch knocks once, politely"}
+],
+"s01983": [
+{"start": 1, "type": "mocks", "fine": "needles", "actor": "FERDY", "target": "GUS", "mood": "playful", "intensity": 2, "summary": "Gus rehearses his tour pitch while Ferdy critiques his smile"},
+{"start": 13, "type": "confronts", "fine": "calls out", "actor": "FERDY", "target": "GUS", "mood": "playful", "intensity": 2, "summary": "Gus fumbles a date and Ferdy corrects it from the back"},
+{"start": 26, "type": "confronts", "fine": "faces off with", "actor": "GUS", "target": "FERDY", "mood": "hostile", "intensity": 3, "summary": "Gus learns Ferdy rewrote his card and they fight over ownership"},
+{"start": 34, "type": "mocks", "fine": "insults", "actor": "GUS", "target": "FERDY", "mood": "hostile", "intensity": 3, "summary": "Both insult each other to empty seats, dredging up the carousel crash"},
+{"start": 44, "type": "attacks", "fine": "lunges at", "actor": "FERDY", "target": "GUS", "mood": "chaotic", "intensity": 3, "summary": "Ferdy lunges for the microphone and trips onto a seat"},
+{"start": 48, "type": "confesses", "fine": "owns up to", "actor": "FERDY", "target": "GUS", "mood": "awkward", "intensity": 3, "summary": "Ferdy finally admits he hit the carousel, stunning Gus"},
+{"start": 57, "type": "bonds", "fine": "confides in", "actor": "GUS", "target": "FERDY", "mood": "tender", "intensity": 2, "summary": "Gus confesses he swerved because he thought the pony was real"},
+{"start": 64, "type": "jokes", "fine": "riffs with", "actor": "FERDY", "target": "GUS", "mood": "joyful", "intensity": 4, "summary": "Both men collapse into helpless laughter about the real pony"},
+{"start": 72, "type": "bonds", "fine": "reconnects with", "actor": "FERDY", "target": "GUS", "mood": "tender", "intensity": 2, "summary": "Ferdy hands Gus the mic and Gus resumes the tour"}
+],
+"s02336": [
+{"start": 1, "type": "arrives", "fine": "makes an entrance", "actor": "MS. VOLKOV", "target": "CASSANDRA", "mood": "awkward", "intensity": 2, "summary": "Ms. Volkov sweeps into the break room where a nervous intern stands"},
+{"start": 6, "type": "confronts", "fine": "calls out", "actor": "MS. VOLKOV", "target": "CASSANDRA", "mood": "awkward", "intensity": 2, "summary": "Volkov says Cassandra has done nothing; Cassandra says she's been shadowing"},
+{"start": 12, "type": "confronts", "fine": "challenges", "actor": "MS. VOLKOV", "target": "CASSANDRA", "mood": "awkward", "intensity": 2, "summary": "Volkov trashes the pod and Cassandra admits noticing the wrong brand"},
+{"start": 18, "type": "decides", "fine": "gives an order", "actor": "MS. VOLKOV", "target": "CASSANDRA", "mood": "playful", "intensity": 3, "summary": "Volkov abruptly promotes Cassandra to associate"},
+{"start": 25, "type": "leaves", "fine": "leaves", "actor": "CASSANDRA", "target": "MS. VOLKOV", "mood": "hopeful", "intensity": 2, "summary": "Volkov exits and Cassandra sets down the pod and follows"}
+],
+"s01881": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "YAZZIE", "target": "CORDELIA", "mood": "calm", "intensity": 1, "summary": "The lunar crew make breakfast small talk with visitor Cordelia"},
+{"start": 16, "type": "arrives", "fine": "is introduced", "actor": "PRYCE", "target": "COMMANDER LINDQVIST", "mood": "awkward", "intensity": 2, "summary": "The stranger is introduced as relief mechanic Pryce and sits"},
+{"start": 23, "type": "confronts", "fine": "interrogates", "actor": "OKONKWO-REYES", "target": "PRYCE", "mood": "tense", "intensity": 3, "summary": "Okonkwo-Reyes notes Pryce is not on any manifest"},
+{"start": 32, "type": "reveals", "fine": "unmasks", "actor": "PRYCE", "target": "COMMANDER LINDQVIST", "mood": "tense", "intensity": 4, "summary": "Pryce reveals he is chairman of the board come to investigate"},
+{"start": 37, "type": "accuses", "fine": "charges", "actor": "PRYCE", "target": "COMMANDER LINDQVIST", "mood": "tense", "intensity": 4, "summary": "Pryce accuses the crew of lying to Earth for six months"},
+{"start": 40, "type": "reveals", "fine": "shows", "actor": "COMMANDER LINDQVIST", "target": "PRYCE", "mood": "ominous", "intensity": 4, "summary": "Lindqvist shows Pryce a ring of strange lights beyond the dome"}
+],
+"s02460": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "GORLAN", "target": "PHINEAS", "mood": "tense", "intensity": 2, "summary": "Gorlan demands eleven sheep from Phineas, counting an unborn lamb"},
+{"start": 13, "type": "threatens", "fine": "looms over", "actor": "VESUVIA", "target": "PHINEAS", "mood": "ominous", "intensity": 3, "summary": "The dragon's voice booms, disliking negotiation"},
+{"start": 20, "type": "persuades", "fine": "bargains with", "actor": "GORLAN", "target": "PHINEAS", "mood": "playful", "intensity": 2, "summary": "Gorlan offers a choice between sheep and weekly apple pies"},
+{"start": 25, "type": "decides", "fine": "chooses", "actor": "PHINEAS", "target": "VESUVIA", "mood": "playful", "intensity": 2, "summary": "Phineas chooses the pie and the dragon is delighted"}
+],
+"s00290": [
+{"start": 1, "type": "decides", "fine": "gives an order", "actor": "COLONEL", "target": "SIMONE", "mood": "tense", "intensity": 3, "summary": "In the flooded crypt the colonel orders them to hold until dawn"},
+{"start": 20, "type": "decides", "fine": "commits", "actor": "WINIFRED", "target": "LUCIAN", "mood": "tense", "intensity": 3, "summary": "Winifred accepts five more hours of holding"},
+{"start": 24, "type": "observes", "fine": "keeps watch", "actor": "REUBEN", "target": null, "mood": "fear", "intensity": 4, "summary": "A shell shakes the crypt as Reuben watches the stairs"},
+{"start": 30, "type": "decides", "fine": "makes a plan", "actor": "WINIFRED", "target": "LUCIAN", "mood": "tense", "intensity": 3, "summary": "Winifred and Lucian plan a retreat through the ossuary"},
+{"start": 35, "type": "discovers", "fine": "notices", "actor": "REUBEN", "target": null, "mood": "fear", "intensity": 4, "summary": "Reuben spots movement and everyone drops behind cover"},
+{"start": 42, "type": "decides", "fine": "gives an order", "actor": "WINIFRED", "target": "REUBEN", "mood": "suspense", "intensity": 5, "summary": "An open hand appears on the stairs and Winifred orders hold fire"},
+{"start": 49, "type": "decides", "fine": "gives an order", "actor": "WINIFRED", "target": null, "mood": "melancholy", "intensity": 2, "summary": "The barrage ends and Winifred orders rest in shifts"}
+],
+"s01551": [
+{"start": 1, "type": "works", "fine": "works", "actor": "CHIDINMA", "target": "TOBIAS", "mood": "tense", "intensity": 4, "summary": "Chidinma leads the trauma team as a stabbed teen's pressure falls"},
+{"start": 20, "type": "decides", "fine": "gives an order", "actor": "CHIDINMA", "target": "TOBIAS", "mood": "tense", "intensity": 4, "summary": "Chidinma orders Tobias to place the chest tube himself"},
+{"start": 24, "type": "works", "fine": "works", "actor": "TOBIAS", "target": null, "mood": "suspense", "intensity": 4, "summary": "Tobias inserts the chest tube under Chidinma's coaching"},
+{"start": 36, "type": "decides", "fine": "gives an order", "actor": "CHIDINMA", "target": "BEATRIZ", "mood": "hopeful", "intensity": 3, "summary": "Pressure recovers and Chidinma sends the patient to the OR"},
+{"start": 44, "type": "comforts", "fine": "encourages", "actor": "CHIDINMA", "target": "TOBIAS", "mood": "tender", "intensity": 2, "summary": "Tobias admits he thought the boy was gone; Chidinma praises him"}
+],
+"s01006": [
+{"start": 1, "type": "mocks", "fine": "dismisses", "actor": "JUDGE FAIRWEATHER", "target": "TIMOTHY", "mood": "playful", "intensity": 2, "summary": "On the ferry courtroom the judge overrules Timothy and gets his name wrong"},
+{"start": 17, "type": "searches", "fine": "looks for", "actor": "ROSAMUND", "target": "BAILIFF DOYLE", "mood": "awkward", "intensity": 2, "summary": "Rosamund calls the defendant's mother, who wandered to the galley"},
+{"start": 23, "type": "bonds", "fine": "shares a moment with", "actor": "ROSAMUND", "target": "TIMOTHY", "mood": "playful", "intensity": 2, "summary": "The ferry lurches and the rival lawyers share a smile"},
+{"start": 29, "type": "decides", "fine": "gives an order", "actor": "JUDGE FAIRWEATHER", "target": null, "mood": "playful", "intensity": 2, "summary": "Settlement refused, the judge adjourns court until they dock"}
+],
+"s00673": [
+{"start": 1, "type": "deflects", "fine": "dodges", "actor": "IGNACIO", "target": "GIRL", "mood": "melancholy", "intensity": 2, "summary": "The girl asks why they're late; Ignacio blames the captain"},
+{"start": 13, "type": "comforts", "fine": "steadies", "actor": "IGNACIO", "target": "GIRL", "mood": "tender", "intensity": 2, "summary": "A swell hits and Ignacio lets her grip his sleeve"},
+{"start": 17, "type": "works", "fine": "prepares", "actor": "IGNACIO", "target": "WREN", "mood": "melancholy", "intensity": 3, "summary": "Ignacio has Wren rehearse her full name for the dock"},
+{"start": 25, "type": "deflects", "fine": "stonewalls", "actor": "IGNACIO", "target": "WREN", "mood": "melancholy", "intensity": 4, "summary": "Wren asks who will ask, and Ignacio does not answer"},
+{"start": 29, "type": "pleads", "fine": "implores", "actor": "WREN", "target": "IGNACIO", "mood": "grief", "intensity": 4, "summary": "Wren asks if he'll be there; he says he's here now"},
+{"start": 32, "type": "comforts", "fine": "tends to", "actor": "IGNACIO", "target": "WREN", "mood": "bittersweet", "intensity": 4, "summary": "Ignacio places his hat on Wren's head and she lets him"}
+],
+"s02392": [
+{"start": 1, "type": "works", "fine": "packs", "actor": "CALLIE", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Callie slowly packs her father's tackle shop into a box"},
+{"start": 10, "type": "observes", "fine": "hesitates", "actor": "CALLIE", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Callie avoids the blinking answering machine and closes the shop"},
+{"start": 19, "type": "observes", "fine": "listens to", "actor": "CALLIE", "target": null, "mood": "grief", "intensity": 4, "summary": "The machine plays the old greeting and Callie replays it"},
+{"start": 31, "type": "decides", "fine": "commits", "actor": "CALLIE", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Callie rips the phone off the wall and tapes the box shut"},
+{"start": 36, "type": "leaves", "fine": "exits quietly", "actor": "CALLIE", "target": null, "mood": "bittersweet", "intensity": 4, "summary": "Callie takes the pike, whispers a farewell, and turns off the light"}
+],
+"s02190": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "GRANDMOTHER ILONA", "target": "TOBY", "mood": "melancholy", "intensity": 2, "summary": "The family sits at supper beside an empty chair; Toby won't eat"},
+{"start": 16, "type": "confronts", "fine": "presses", "actor": "NELL", "target": "RAFE", "mood": "tense", "intensity": 2, "summary": "Nell asks Rafe what he found at the rocks; he deflects"},
+{"start": 20, "type": "works", "fine": "prepares", "actor": "MRS. PATTERSON", "target": "GRANDMOTHER ILONA", "mood": "grief", "intensity": 3, "summary": "Mrs. Patterson sets a bowl for the absent one who liked leeks"},
+{"start": 26, "type": "observes", "fine": "takes it in", "actor": "TOBY", "target": null, "mood": "grief", "intensity": 4, "summary": "Toby sets down his spoon as the lighthouse beam passes"}
+]
+}

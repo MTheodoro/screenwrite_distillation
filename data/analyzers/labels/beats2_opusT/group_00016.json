@@ -1,0 +1,190 @@
+{
+"s00875": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "NWOSU", "target": "BELLAMY", "mood": "calm", "intensity": 1, "summary": "Nwosu descends into the crypt kitchen and sits on a bishop's tomb"},
+{"start": 24, "type": "jokes", "fine": "jokes with", "actor": "BELLAMY", "target": "NWOSU", "mood": "playful", "intensity": 2, "summary": "Bellamy jokes about the rabbit that ran into his boot; Nwosu laughs"},
+{"start": 33, "type": "bonds", "fine": "confides in", "actor": "BELLAMY", "target": "NWOSU", "mood": "melancholy", "intensity": 3, "summary": "They listen to distant guns; Bellamy admits you only learn to pretend"},
+{"start": 44, "type": "comforts", "fine": "tends to", "actor": "BELLAMY", "target": "NWOSU", "mood": "tender", "intensity": 2, "summary": "Bellamy serves Nwosu hot stew and she eats gratefully"},
+{"start": 59, "type": "bonds", "fine": "shares a moment with", "actor": "NWOSU", "target": "BELLAMY", "mood": "tender", "intensity": 2, "summary": "Nwosu asks about his letters home; Bellamy jokes about the company"},
+{"start": 66, "type": "confesses", "fine": "opens up to", "actor": "NWOSU", "target": "BELLAMY", "mood": "melancholy", "intensity": 4, "summary": "Nwosu admits her unfinished letter: she fears being good at war"},
+{"start": 81, "type": "works", "fine": "writes", "actor": "NWOSU", "target": null, "mood": "hopeful", "intensity": 3, "summary": "Encouraged by Bellamy, Nwosu begins writing the honest letter"},
+{"start": 91, "type": "bonds", "fine": "thanks", "actor": "NWOSU", "target": "BELLAMY", "mood": "tender", "intensity": 2, "summary": "Nwosu thanks Bellamy for the rabbit and laughs as she writes"}
+],
+"s00625": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "SILAS", "target": null, "mood": "suspense", "intensity": 2, "summary": "Silas's crew times the watchman's round at the pump house vault"},
+{"start": 13, "type": "works", "fine": "works", "actor": "SILAS", "target": null, "mood": "suspense", "intensity": 4, "summary": "Nell hands Silas the drill and he begins on the vault"}
+],
+"s00983": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "AUGUSTINE", "target": "PRU", "mood": "tense", "intensity": 3, "summary": "Augustine questions Pru about the missing barge and the body"},
+{"start": 13, "type": "discovers", "fine": "finds a clue", "actor": "AUGUSTINE", "target": "HALVORSEN", "mood": "suspense", "intensity": 4, "summary": "Halvorsen phones: the barge is found empty but for a woman's boot"},
+{"start": 25, "type": "accuses", "fine": "suspects", "actor": "AUGUSTINE", "target": "PRU", "mood": "tense", "intensity": 4, "summary": "Augustine eyes Pru's feet and asks her to remove her boots"},
+{"start": 34, "type": "reveals", "fine": "comes clean to", "actor": "PRU", "target": "AUGUSTINE", "mood": "playful", "intensity": 3, "summary": "Pru laughs and reveals she swapped boots with her mother's pair"},
+{"start": 36, "type": "decides", "fine": "changes course", "actor": "AUGUSTINE", "target": "HALVORSEN", "mood": "calm", "intensity": 2, "summary": "Augustine calls it a cobbler's mistake, hangs up, and pours tea"}
+],
+"s00380": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "LEILANI", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Leilani records her nightly log about the empty toll road"},
+{"start": 10, "type": "discovers", "fine": "realizes", "actor": "LEILANI", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Leilani plays back her hopeful March recording and laughs painfully"},
+{"start": 19, "type": "confesses", "fine": "unburdens to", "actor": "LEILANI", "target": null, "mood": "melancholy", "intensity": 4, "summary": "Leilani admits her job was eliminated and she's worked unpaid for weeks"},
+{"start": 24, "type": "decides", "fine": "decides", "actor": "LEILANI", "target": null, "mood": "bittersweet", "intensity": 4, "summary": "Leilani decides to go home, leaving lights on and the recorder running"}
+],
+"s00852": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "DUANE", "target": null, "mood": "awkward", "intensity": 2, "summary": "Duane fumbles through a frustrating call reading his script"},
+{"start": 13, "type": "jokes", "fine": "teases", "actor": "SHANICE", "target": "DUANE", "mood": "playful", "intensity": 2, "summary": "Shanice notes Duane has said I understand eleven times"},
+{"start": 17, "type": "mocks", "fine": "mocks", "actor": "SHANICE", "target": "KOVACS", "mood": "playful", "intensity": 2, "summary": "Kovacs announces handle time is up; Shanice mocks him to the room"},
+{"start": 23, "type": "decides", "fine": "resigns", "actor": "DUANE", "target": "KOVACS", "mood": "tense", "intensity": 3, "summary": "Warned about logged chats, Duane and Shanice set down their headsets"},
+{"start": 30, "type": "confronts", "fine": "challenges", "actor": "DUANE", "target": "KOVACS", "mood": "playful", "intensity": 2, "summary": "Duane questions Kovacs, who deflects to a future version of himself"},
+{"start": 34, "type": "attacks", "fine": "grabs", "actor": "SHANICE", "target": null, "mood": "triumphant", "intensity": 4, "summary": "Shanice and Duane tear down the motivational banner together"},
+{"start": 38, "type": "bonds", "fine": "confides in", "actor": "DUANE", "target": "SHANICE", "mood": "bittersweet", "intensity": 2, "summary": "Shanice says she hated the banner; Duane admits he wrote it"}
+],
+"s01534": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "HORATIO", "target": "EUPHEMIA", "mood": "calm", "intensity": 2, "summary": "Horatio arrives late to visit Euphemia and sits without opening his bag"},
+{"start": 15, "type": "deflects", "fine": "stalls", "actor": "HORATIO", "target": "EUPHEMIA", "mood": "melancholy", "intensity": 2, "summary": "Horatio makes small talk about roses; Euphemia says they are blighted"},
+{"start": 24, "type": "reveals", "fine": "breaks news to", "actor": "HORATIO", "target": "EUPHEMIA", "mood": "melancholy", "intensity": 4, "summary": "Horatio says the results are bad; Euphemia presses his hand down"},
+{"start": 35, "type": "bonds", "fine": "shares a moment with", "actor": "HORATIO", "target": "EUPHEMIA", "mood": "tender", "intensity": 3, "summary": "Horatio offers to visit on Thursdays too; they fall quiet together"},
+{"start": 46, "type": "comforts", "fine": "tends to", "actor": "HORATIO", "target": "EUPHEMIA", "mood": "bittersweet", "intensity": 2, "summary": "When the waltz ends, Horatio asks someone to turn the record"}
+],
+"s00113": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "SELENE", "target": null, "mood": "tense", "intensity": 2, "summary": "Selene takes reports on oxygen, pumps, and an approaching storm"},
+{"start": 20, "type": "reveals", "fine": "breaks news to", "actor": "CONTROL", "target": "SELENE", "mood": "suspense", "intensity": 4, "summary": "Earth Control questions the Observer and reveals he was registered dead"},
+{"start": 31, "type": "deflects", "fine": "shrugs off", "actor": "THE OBSERVER", "target": "SELENE", "mood": "ominous", "intensity": 3, "summary": "The Observer smiles and calls it a clerical error"},
+{"start": 35, "type": "reveals", "fine": "reveals", "actor": "THE OBSERVER", "target": "SELENE", "mood": "ominous", "intensity": 5, "summary": "As the crew rises, the Observer says he watches what comes after"}
+],
+"s01265": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "MARLOWE-DIAZ", "target": "SOLOMON", "mood": "tense", "intensity": 2, "summary": "Marlowe-Diaz asks Solomon about a delivery; Solomon stays vague"},
+{"start": 13, "type": "arrives", "fine": "makes an entrance", "actor": "VICTOR", "target": null, "mood": "tense", "intensity": 3, "summary": "Victor Stanhope enters dripping and greets the room"},
+{"start": 19, "type": "discovers", "fine": "recognizes", "actor": "TIPPER", "target": "MARLOWE-DIAZ", "mood": "suspense", "intensity": 4, "summary": "Tipper whispers that's him, then denies it when Marlowe-Diaz asks"},
+{"start": 25, "type": "reveals", "fine": "lets slip to", "actor": "CLEO", "target": "VICTOR", "mood": "suspense", "intensity": 4, "summary": "Cleo tells Victor he is early; Marlowe-Diaz eyes the safe"}
+],
+"s00079": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "HELENE", "target": "ROSALIND", "mood": "melancholy", "intensity": 2, "summary": "Helene sits by Rosalind's dialysis chair and checks the pressure"},
+{"start": 17, "type": "bonds", "fine": "shares a moment with", "actor": "HELENE", "target": "ROSALIND", "mood": "awkward", "intensity": 2, "summary": "Helene fidgets and asks about Rosalind's paperback"},
+{"start": 23, "type": "confronts", "fine": "calls out", "actor": "ROSALIND", "target": "HELENE", "mood": "melancholy", "intensity": 3, "summary": "Rosalind says Helene asks the thing next to the thing, like her father"},
+{"start": 28, "type": "observes", "fine": "hesitates", "actor": "HELENE", "target": "ROSALIND", "mood": "awkward", "intensity": 3, "summary": "Both reach for the call button, hands touch, and neither moves"},
+{"start": 35, "type": "comforts", "fine": "comforts", "actor": "HELENE", "target": "ROSALIND", "mood": "tender", "intensity": 3, "summary": "Helene takes the book and reads aloud to Rosalind"}
+],
+"s01420": [
+{"start": 1, "type": "persuades", "fine": "flatters", "actor": "DELPHINE", "target": null, "mood": "awkward", "intensity": 2, "summary": "Delphine pours tea in matching cups and chirps through a forced catch-up"},
+{"start": 25, "type": "deflects", "fine": "dodges", "actor": "DELPHINE", "target": "BARNABY", "mood": "ominous", "intensity": 3, "summary": "Barnaby and Tomoko raise the shut elevator and locked door; Delphine dodges"},
+{"start": 31, "type": "persuades", "fine": "flatters", "actor": "DELPHINE", "target": "MEERA", "mood": "awkward", "intensity": 2, "summary": "Delphine explains the unclaimed tea and praises Meera for knowing policy"},
+{"start": 37, "type": "confronts", "fine": "presses", "actor": "BARNABY", "target": "DELPHINE", "mood": "ominous", "intensity": 4, "summary": "Barnaby asks about the folder with their five names on it"},
+{"start": 47, "type": "discovers", "fine": "pieces it together", "actor": "BARNABY", "target": "DELPHINE", "mood": "ominous", "intensity": 4, "summary": "Barnaby questions the matching cups; Gus repeats the disposal policy"},
+{"start": 56, "type": "reveals", "fine": "presents evidence to", "actor": "DELPHINE", "target": null, "mood": "ominous", "intensity": 5, "summary": "Delphine slides the folder across as the umbrella tags begin ticking"}
+],
+"s00970": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "KEZIAH", "target": "ORSOLYA", "mood": "playful", "intensity": 2, "summary": "Keziah climbs into the drowned belfry and Orsolya teases his lateness"},
+{"start": 12, "type": "reveals", "fine": "shows", "actor": "KEZIAH", "target": "ORSOLYA", "mood": "joyful", "intensity": 3, "summary": "Keziah reveals the stolen moon-ember and Orsolya kisses his forehead"},
+{"start": 19, "type": "discovers", "fine": "notices", "actor": "KEZIAH", "target": "ORSOLYA", "mood": "ominous", "intensity": 4, "summary": "The bell hums wrongly and they freeze"},
+{"start": 25, "type": "defends", "fine": "protects", "actor": "ORSOLYA", "target": "KEZIAH", "mood": "chaotic", "intensity": 5, "summary": "Water surges and Orsolya shoves Keziah to the bell-rope"},
+{"start": 35, "type": "decides", "fine": "gives an order", "actor": "ORSOLYA", "target": "KEZIAH", "mood": "chaotic", "intensity": 5, "summary": "Orsolya orders him to ring; Keziah pulls and the tide retreats"},
+{"start": 45, "type": "jokes", "fine": "banters with", "actor": "KEZIAH", "target": "ORSOLYA", "mood": "joyful", "intensity": 3, "summary": "They burst out laughing and swear never again"},
+{"start": 50, "type": "flees", "fine": "runs", "actor": "ORSOLYA", "target": null, "mood": "playful", "intensity": 3, "summary": "A furious drowned choir starts singing and they run hand in hand"}
+],
+"s00716": [
+{"start": 1, "type": "accuses", "fine": "accuses", "actor": "LEONA", "target": "PASCAL", "mood": "hostile", "intensity": 3, "summary": "Leona accuses Pascal of taking their dead father's watch"},
+{"start": 13, "type": "attacks", "fine": "grabs", "actor": "PASCAL", "target": "LEONA", "mood": "tense", "intensity": 3, "summary": "They tug over a box of photos until it spills"},
+{"start": 22, "type": "bonds", "fine": "reminisces with", "actor": "LEONA", "target": "PASCAL", "mood": "bittersweet", "intensity": 3, "summary": "Leona recalls Pascal's childhood haircut and he finally admits hiding"},
+{"start": 33, "type": "confesses", "fine": "opens up to", "actor": "LEONA", "target": "PASCAL", "mood": "tender", "intensity": 4, "summary": "Pascal offers the watch; Leona admits she didn't want to be alone"}
+],
+"s00088": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "TALLIS", "target": "BRYNMOR", "mood": "calm", "intensity": 2, "summary": "Tallis crosses the bone bridge and Brynmor asks a true thing as toll"},
+{"start": 15, "type": "confesses", "fine": "opens up to", "actor": "TALLIS", "target": "BRYNMOR", "mood": "melancholy", "intensity": 3, "summary": "Tallis admits he fears he will not finish anything"},
+{"start": 21, "type": "comforts", "fine": "reassures", "actor": "BRYNMOR", "target": "TALLIS", "mood": "tender", "intensity": 2, "summary": "Brynmor pours tea and accepts the confession as enough"},
+{"start": 29, "type": "bonds", "fine": "shares a moment with", "actor": "TALLIS", "target": "BRYNMOR", "mood": "ominous", "intensity": 2, "summary": "Brynmor says fewer cross than cross back; a light appears beyond"},
+{"start": 34, "type": "comforts", "fine": "encourages", "actor": "BRYNMOR", "target": "TALLIS", "mood": "hopeful", "intensity": 3, "summary": "Brynmor sends Tallis onward, warning of the lonely singing rib"}
+],
+"s01817": [
+{"start": 1, "type": "jokes", "fine": "jokes with", "actor": "TOBY", "target": "ISAAC", "mood": "playful", "intensity": 1, "summary": "Toby insists the river is getting wider; Isaac disagrees"},
+{"start": 11, "type": "confronts", "fine": "presses", "actor": "MRS. PRIEST", "target": "ISAAC", "mood": "playful", "intensity": 2, "summary": "Mrs. Priest demands the ferry depart and turns to the others"},
+{"start": 19, "type": "deflects", "fine": "brushes off", "actor": "HOLLOWAY", "target": "MRS. PRIEST", "mood": "ominous", "intensity": 3, "summary": "Holloway mutters it won't be long, then claims he spoke to the river"},
+{"start": 25, "type": "arrives", "fine": "arrives", "actor": null, "target": null, "mood": "tense", "intensity": 4, "summary": "Three riders appear on the bluff and Isaac orders Mrs. Priest to hide"},
+{"start": 34, "type": "reveals", "fine": "reveals", "actor": "HOLLOWAY", "target": "MRS. PRIEST", "mood": "tense", "intensity": 4, "summary": "Holloway shows his deputy's badge; he has awaited Ned Cutler's gang"},
+{"start": 39, "type": "reveals", "fine": "shows", "actor": "MRS. PRIEST", "target": "HOLLOWAY", "mood": "triumphant", "intensity": 4, "summary": "Mrs. Priest pulls a revolver from her hatbox, also waiting"},
+{"start": 41, "type": "defends", "fine": "holds the line against", "actor": "MRS. PRIEST", "target": null, "mood": "tense", "intensity": 5, "summary": "Riders descend; everyone takes cover as Mrs. Priest steps out armed"}
+],
+"s02187": [
+{"start": 1, "type": "bonds", "fine": "shares a moment with", "actor": "LORD EDMUND", "target": "LADY CATHERINE", "mood": "calm", "intensity": 2, "summary": "Edmund and Catherine play chess, trading dry remarks about her mother"},
+{"start": 26, "type": "arrives", "fine": "slips in", "actor": "ASHBY", "target": "LADY CATHERINE", "mood": "tense", "intensity": 3, "summary": "Captain Ashby enters quietly and Catherine grips a pawn"},
+{"start": 34, "type": "confronts", "fine": "demands answers from", "actor": "LORD EDMUND", "target": "ASHBY", "mood": "tense", "intensity": 4, "summary": "Edmund demands why Ashby is late; Ashby names Waterloo"},
+{"start": 38, "type": "hides", "fine": "masks a feeling", "actor": "LADY CATHERINE", "target": "ASHBY", "mood": "bittersweet", "intensity": 4, "summary": "Edmund bids Ashby sit; Catherine steadies the rook and calls check"}
+],
+"s00480": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "RAMÓN", "target": "DEX", "mood": "tense", "intensity": 2, "summary": "Dex steps on the scale at weigh-in and makes weight"},
+{"start": 20, "type": "comforts", "fine": "tends to", "actor": "BELLWETHER", "target": "DEX", "mood": "calm", "intensity": 2, "summary": "Bellwether hands Dex a banana and tells him to eat slow"},
+{"start": 31, "type": "observes", "fine": "studies", "actor": "BELLWETHER", "target": "DEX", "mood": "melancholy", "intensity": 2, "summary": "Bellwether notes Dex looks starved and watches him, very still"},
+{"start": 40, "type": "searches", "fine": "examines", "actor": "BELLWETHER", "target": "RAMÓN", "mood": "tense", "intensity": 3, "summary": "Bellwether inspects the scale certificate and finds it expired"},
+{"start": 54, "type": "deflects", "fine": "brushes off", "actor": "BELLWETHER", "target": "DEX", "mood": "tense", "intensity": 3, "summary": "Dex asks what's wrong; Bellwether tells him to eat"},
+{"start": 61, "type": "discovers", "fine": "uncovers", "actor": "BELLWETHER", "target": "RAMÓN", "mood": "suspense", "intensity": 4, "summary": "Bellwether tests the scale with a weight and exposes a seven-pound drift"},
+{"start": 69, "type": "accuses", "fine": "accuses", "actor": "BELLWETHER", "target": "RAMÓN", "mood": "hostile", "intensity": 4, "summary": "Bellwether accuses Ramón of rejecting her wrestlers all season"},
+{"start": 75, "type": "reveals", "fine": "breaks news to", "actor": "BELLWETHER", "target": "DEX", "mood": "tense", "intensity": 4, "summary": "Bellwether tells Dex his true weight and orders Ramón to wait"},
+{"start": 82, "type": "reveals", "fine": "presents evidence to", "actor": "PRIYA", "target": "BELLWETHER", "mood": "triumphant", "intensity": 3, "summary": "Priya confirms the certificate was never renewed; Ramón sits down"}
+],
+"s02475_0": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "TOMMASO", "target": "NASRIN", "mood": "chaotic", "intensity": 4, "summary": "The helicopter lands and Tommaso briefs Nasrin on an unidentified fall victim"},
+{"start": 12, "type": "searches", "fine": "examines", "actor": "BEA", "target": "YOUNG MAN", "mood": "tense", "intensity": 4, "summary": "Bea questions the patient, who asks for his boy and gives his name"}
+],
+"s01312": [
+{"start": 1, "type": "hides", "fine": "lies low", "actor": "YASMINE", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Yasmine sits alone in the dark bus after graduation, unable to leave"},
+{"start": 13, "type": "deflects", "fine": "brushes off", "actor": "YASMINE", "target": "MOM", "mood": "melancholy", "intensity": 2, "summary": "Mom calls from the restaurant; Yasmine says nothing is wrong"},
+{"start": 23, "type": "arrives", "fine": "returns", "actor": "COACH", "target": "YASMINE", "mood": "awkward", "intensity": 2, "summary": "Coach Abara returns for his keys, finds Yasmine, and lingers"},
+{"start": 34, "type": "bonds", "fine": "thanks", "actor": "YASMINE", "target": "COACH", "mood": "tender", "intensity": 2, "summary": "Yasmine relays Mom's thanks and Coach sits across the aisle"},
+{"start": 43, "type": "bonds", "fine": "shares a moment with", "actor": "YASMINE", "target": "COACH", "mood": "bittersweet", "intensity": 3, "summary": "Yasmine says the bus feels smaller; Coach says everything is"},
+{"start": 48, "type": "decides", "fine": "decides", "actor": "YASMINE", "target": "COACH", "mood": "hopeful", "intensity": 2, "summary": "Yasmine asks Coach to drive her and the bus pulls away"}
+],
+"s02136": [
+{"start": 1, "type": "comforts", "fine": "reassures", "actor": "MAUDE", "target": "HATTIE", "mood": "melancholy", "intensity": 3, "summary": "After the crisis, Ethel and Maude reassure guilt-stricken Hattie"},
+{"start": 15, "type": "persuades", "fine": "convinces", "actor": "MAUDE", "target": "HATTIE", "mood": "tense", "intensity": 4, "summary": "A light blinks; Maude and Miss Calloway push Hattie to take the call"},
+{"start": 22, "type": "works", "fine": "works", "actor": "HATTIE", "target": "CALLER", "mood": "tense", "intensity": 4, "summary": "Hattie handles a flood call and tells the woman to go upstairs"},
+{"start": 34, "type": "comforts", "fine": "encourages", "actor": "MISS CALLOWAY", "target": "HATTIE", "mood": "tender", "intensity": 2, "summary": "Miss Calloway praises Hattie; Maude says most will be all right"},
+{"start": 38, "type": "works", "fine": "works", "actor": "HATTIE", "target": null, "mood": "hopeful", "intensity": 2, "summary": "The operators take new calls together and Miss Calloway finally sits"}
+],
+"s02088": [
+{"start": 1, "type": "jokes", "fine": "jokes with", "actor": "CASPER", "target": "LUPE", "mood": "calm", "intensity": 1, "summary": "At the stage station, Casper whittles a duck that Lupe calls a spoon"},
+{"start": 18, "type": "jokes", "fine": "banters with", "actor": "TOMÁS", "target": "JEDEDIAH", "mood": "playful", "intensity": 2, "summary": "Travelers gather and banter about schedules, rest, and Reno"},
+{"start": 30, "type": "observes", "fine": "watches", "actor": "LUPE", "target": null, "mood": "calm", "intensity": 2, "summary": "Everyone watches a hawk wheel away; Casper calls it a duck"}
+],
+"s01391": [
+{"start": 1, "type": "works", "fine": "cooks", "actor": "MAMA ROSALIE", "target": null, "mood": "playful", "intensity": 2, "summary": "Mama Rosalie burns pancakes and the boys tease about the fire"},
+{"start": 15, "type": "arrives", "fine": "returns", "actor": "AMOS", "target": "MAMA ROSALIE", "mood": "suspense", "intensity": 3, "summary": "A man knocks; Rosalie recognizes Amos as he steps inside"},
+{"start": 26, "type": "bonds", "fine": "reconnects with", "actor": "AMOS", "target": "BEN", "mood": "bittersweet", "intensity": 4, "summary": "Tucker hides but Ben, with his mother's nod, runs to his father"}
+],
+"s01307": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "PETER", "target": "DR. LINDEN", "mood": "grief", "intensity": 3, "summary": "Peter finds Dr. Linden weeping in the garage; she denies summoning him"},
+{"start": 15, "type": "comforts", "fine": "consoles", "actor": "PETER", "target": "DR. LINDEN", "mood": "grief", "intensity": 4, "summary": "Peter names the lost boy; Linden recalls the nine-year-old and his dog"},
+{"start": 26, "type": "comforts", "fine": "steadies", "actor": "PETER", "target": "DR. LINDEN", "mood": "tender", "intensity": 3, "summary": "Peter sits beside her and offers to cover her shift"}
+],
+"s00487": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "SULLY", "target": "MAEVE", "mood": "awkward", "intensity": 3, "summary": "Sully knocks at Maeve's bookmobile, eleven years late"},
+{"start": 15, "type": "reveals", "fine": "shows", "actor": "SULLY", "target": "MAEVE", "mood": "tender", "intensity": 3, "summary": "Sully returns Maeve's dog-eared Neruda"},
+{"start": 20, "type": "confronts", "fine": "calls out", "actor": "MAEVE", "target": "SULLY", "mood": "melancholy", "intensity": 3, "summary": "Maeve declines calls; Sully learns she's married and she calls out his bravery"},
+{"start": 33, "type": "confesses", "fine": "opens up to", "actor": "SULLY", "target": "MAEVE", "mood": "tender", "intensity": 4, "summary": "Sully reveals his note in the margin of page forty"},
+{"start": 41, "type": "jokes", "fine": "jokes with", "actor": "MAEVE", "target": "SULLY", "mood": "playful", "intensity": 2, "summary": "Maeve charges eleven years of overdue fees; Sully offers installments"},
+{"start": 47, "type": "decides", "fine": "chooses", "actor": "MAEVE", "target": "SULLY", "mood": "tender", "intensity": 4, "summary": "Maeve turns off her phone and stays, not asking him to leave"}
+],
+"s01718": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "HILDEGARD", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Survivors in a lifeboat scan the horizon; a gull might mean land"},
+{"start": 12, "type": "observes", "fine": "listens to", "actor": "HILDEGARD", "target": null, "mood": "suspense", "intensity": 3, "summary": "The wind drops and a faint mechanical drone grows"},
+{"start": 17, "type": "arrives", "fine": "arrives", "actor": "PILOT", "target": "HILDEGARD", "mood": "hopeful", "intensity": 4, "summary": "A seaplane appears to rescue them; Hildegard orders everyone seated"}
+],
+"s02489": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "JOJO", "target": "TARIQ", "mood": "playful", "intensity": 2, "summary": "Jojo teases Tariq for clutching the rail on rental skates"},
+{"start": 17, "type": "reveals", "fine": "breaks news to", "actor": "JOJO", "target": "TARIQ", "mood": "melancholy", "intensity": 2, "summary": "Jojo reveals the rink is closing for condos"},
+{"start": 22, "type": "confronts", "fine": "challenges", "actor": "TARIQ", "target": "JOJO", "mood": "tense", "intensity": 3, "summary": "Tariq asks why she didn't say; they blame each other's silence"},
+{"start": 29, "type": "confesses", "fine": "apologizes to", "actor": "TARIQ", "target": "JOJO", "mood": "tender", "intensity": 3, "summary": "Tariq apologizes for everything he said in the cafeteria"},
+{"start": 34, "type": "comforts", "fine": "encourages", "actor": "JOJO", "target": "TARIQ", "mood": "joyful", "intensity": 3, "summary": "Jojo takes his hands and pulls him skating across the floor"},
+{"start": 52, "type": "bonds", "fine": "bonds with", "actor": "TARIQ", "target": "JOJO", "mood": "hopeful", "intensity": 2, "summary": "They plan to skate at the Eastbrook rink by bike"},
+{"start": 61, "type": "reveals", "fine": "breaks news to", "actor": "JOJO", "target": "TARIQ", "mood": "bittersweet", "intensity": 4, "summary": "Jojo reveals her family moves to Tucson in June; Tariq stumbles"},
+{"start": 73, "type": "pleads", "fine": "pleads with", "actor": "TARIQ", "target": "MR. LINDQVIST", "mood": "bittersweet", "intensity": 3, "summary": "Tariq begs one more lap and Lindqvist grants it in silence"}
+],
+"s00476": [
+{"start": 1, "type": "searches", "fine": "scans the room", "actor": "OKONKWO", "target": null, "mood": "suspense", "intensity": 3, "summary": "Okonkwo's squad sweeps the ruined opera house stalls"},
+{"start": 14, "type": "threatens", "fine": "holds at gunpoint", "actor": "OKONKWO", "target": "WOUNDED SOLDIER", "mood": "tense", "intensity": 5, "summary": "A wounded enemy soldier staggers out and Okonkwo forces him down"},
+{"start": 23, "type": "comforts", "fine": "tends to", "actor": "TRAN", "target": "PETRESCU", "mood": "tense", "intensity": 3, "summary": "Tran treats the wounded man, who gives his name"},
+{"start": 27, "type": "confronts", "fine": "interrogates", "actor": "OKONKWO", "target": "PETRESCU", "mood": "tense", "intensity": 4, "summary": "Petrescu warns his unit is coming for the radio; a shell lands"},
+{"start": 32, "type": "discovers", "fine": "notices", "actor": "ACHTERBERG", "target": "OKONKWO", "mood": "fear", "intensity": 5, "summary": "Achterberg spots boots in the lobby; Petrescu says fifteen with a mortar"},
+{"start": 36, "type": "decides", "fine": "gives an order", "actor": "OKONKWO", "target": null, "mood": "chaotic", "intensity": 5, "summary": "Okonkwo scatters the squad as Tran hauls Petrescu toward the pit"}
+],
+"s00650": [
+{"start": 1, "type": "decides", "fine": "gives an order", "actor": "BRYNJA", "target": "RUFUS", "mood": "tense", "intensity": 2, "summary": "Trapped in a stalled elevator, Brynja makes Rufus press the button"},
+{"start": 18, "type": "pleads", "fine": "calls for", "actor": "BRYNJA", "target": "INTERCOM", "mood": "tense", "intensity": 2, "summary": "The intercom answers and promises maintenance in forty minutes"},
+{"start": 24, "type": "accuses", "fine": "suspects", "actor": "INTERCOM", "target": "BRYNJA", "mood": "ominous", "intensity": 4, "summary": "The intercom asks about bags; the car is heavier than it should be"}
+]
+}

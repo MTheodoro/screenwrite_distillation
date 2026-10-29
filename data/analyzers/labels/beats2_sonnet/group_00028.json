@@ -1,0 +1,153 @@
+{
+"s01613": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BEATRICE","target":null,"mood":"awkward","intensity":2,"summary":"Four deadlocked jurors settle in; Beatrice tries to recap while others declare no progress."},
+{"start":19,"type":"confronts","fine":"challenges","actor":"MARCELINO","target":"PRUDENCE","mood":"tense","intensity":2,"summary":"Jurors argue whether the signature was genuine or traced and whether the plaintiff lies."},
+{"start":36,"type":"deflects","fine":"stalls","actor":"BEATRICE","target":"OFFICER","mood":"calm","intensity":2,"summary":"A court officer asks about a verdict; Beatrice buys another hour."},
+{"start":44,"type":"decides","fine":"changes course","actor":"BEATRICE","target":null,"mood":"hopeful","intensity":3,"summary":"Beatrice writes Evidence on a fresh sheet and the jurors lean in together."}
+],
+"s00227": [
+{"start":1,"type":"observes","fine":"waits","actor":"JED","target":null,"mood":"suspense","intensity":3,"summary":"Jed whittles on a salt flat as Marisol rides in and stops short."},
+{"start":14,"type":"confronts","fine":"faces off with","actor":"MARISOL","target":"JED","mood":"tense","intensity":3,"summary":"Marisol dismounts without her rifle; they trade terse words about the years since."},
+{"start":32,"type":"threatens","fine":"holds at gunpoint","actor":"MARISOL","target":"JED","mood":"ominous","intensity":4,"summary":"Her hand goes to her holster; Jed shows he left his gun in the well."},
+{"start":45,"type":"confesses","fine":"owns up to","actor":"JED","target":"MARISOL","mood":"bittersweet","intensity":4,"summary":"Marisol draws, shakes, holsters, and slaps him; he takes it and they are even."}
+],
+"s01857": [
+{"start":1,"type":"bonds","fine":"trusts","actor":"NORA","target":"ELISE","mood":"tense","intensity":3,"summary":"Journalist Nora meets nervous Dr. Elise Marchetti in a dim garage before midnight."},
+{"start":26,"type":"persuades","fine":"negotiates with","actor":"ELISE","target":"NORA","mood":"tense","intensity":3,"summary":"Elise demands her name stay out of the story; Nora resists."},
+{"start":39,"type":"observes","fine":"listens to","actor":"NORA","target":null,"mood":"suspense","intensity":3,"summary":"A passing engine freezes them; they learn they have fifteen minutes."},
+{"start":46,"type":"reveals","fine":"presents evidence to","actor":"ELISE","target":"NORA","mood":"ominous","intensity":4,"summary":"Elise opens the case, revealing backdated drug trial records and eleven patient deaths."},
+{"start":74,"type":"confesses","fine":"owns up to","actor":"ELISE","target":"NORA","mood":"grief","intensity":3,"summary":"Elise admits she signed the reports and would rather go down with the truth."},
+{"start":83,"type":"flees","fine":"retreats","actor":"NORA","target":"ELISE","mood":"fear","intensity":4,"summary":"Another engine starts; Elise sends Nora off with the case as it closes in."}
+],
+"s01711": [
+{"start":1,"type":"flees","fine":"evades","actor":"VESTA","target":"ABEL","mood":"tense","intensity":3,"summary":"Vesta is followed to her car in the garage; a stranger confronts her."},
+{"start":19,"type":"persuades","fine":"recruits","actor":"ABEL","target":"VESTA","mood":"suspense","intensity":3,"summary":"Abel claims he worked with her brother and offers to take her to him."},
+{"start":36,"type":"arrives","fine":"makes an entrance","actor":"LENNOX","target":"ABEL","mood":"tense","intensity":4,"summary":"A sergeant emerges from the dark and orders Abel away from Vesta."},
+{"start":44,"type":"arrives","fine":"shows up unannounced","actor":"HAYDEN","target":"VESTA","mood":"ominous","intensity":4,"summary":"Federal agents arrive and claim Abel is not who he says; he silently says he told her."}
+],
+"s00497": [
+{"start":1,"type":"observes","fine":"waits","actor":"MALIK","target":null,"mood":"awkward","intensity":2,"summary":"After a failed prom, three teens sit awkwardly by an idling limo."},
+{"start":13,"type":"accuses","fine":"points the finger at","actor":"BLYTHE","target":"FRANKIE","mood":"tense","intensity":3,"summary":"Blythe says Frankie promised to tell Malik something tonight."},
+{"start":19,"type":"reveals","fine":"breaks news to","actor":"BLYTHE","target":"MALIK","mood":"hostile","intensity":4,"summary":"Malik learns Frankie is moving to Denver and told Blythe first."},
+{"start":33,"type":"attacks","fine":"shoves","actor":"MALIK","target":"FRANKIE","mood":"grief","intensity":3,"summary":"Frankie has no words; Malik shoves him gently and they stand frozen."},
+{"start":41,"type":"comforts","fine":"reassures","actor":"MALIK","target":"FRANKIE","mood":"bittersweet","intensity":3,"summary":"Malik says Denver is not the end; Blythe pins the corsage on Malik."}
+],
+"s01548": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"JERRY","target":"GUS","mood":"tense","intensity":2,"summary":"Sheriff Jerry makes small talk with Gus on the saloon porch at dusk."},
+{"start":14,"type":"accuses","fine":"points the finger at","actor":"DOLLY MAE","target":"GUS","mood":"tense","intensity":3,"summary":"Dolly Mae remarks that watering cattle is no reason to rob a bank."},
+{"start":22,"type":"arrives","fine":"makes an entrance","actor":"PRUDENCE","target":"JERRY","mood":"ominous","intensity":3,"summary":"Veiled widow Prudence rides in and drops a letter on the porch."},
+{"start":27,"type":"confronts","fine":"demands answers from","actor":"PRUDENCE","target":"JERRY","mood":"tense","intensity":4,"summary":"She says her banker husband died and someone in town knows how."},
+{"start":42,"type":"threatens","fine":"issues an ultimatum to","actor":"PRUDENCE","target":"JERRY","mood":"ominous","intensity":4,"summary":"Prudence gives them until sunrise and walks into the saloon; they avoid each other's eyes."}
+],
+"s01447": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"GWEN","target":"ABEL","mood":"playful","intensity":2,"summary":"Gwen and Abel trade crossword banter while the doctor watches uneasily."},
+{"start":23,"type":"hides","fine":"keeps a secret","actor":"SAMIR","target":"GWEN","mood":"suspense","intensity":3,"summary":"Samir pulls Gwen aside; Abel watches their whispered, troubled conversation."},
+{"start":36,"type":"deflects","fine":"plays dumb with","actor":"GWEN","target":"ABEL","mood":"awkward","intensity":3,"summary":"Gwen returns with forced cheer; Abel's crossword clue exposes the lie."},
+{"start":43,"type":"reveals","fine":"breaks news to","actor":"SAMIR","target":"ABEL","mood":"grief","intensity":4,"summary":"Samir shows Abel the downward graph and says he has months."},
+{"start":52,"type":"decides","fine":"accepts","actor":"ABEL","target":"GWEN","mood":"bittersweet","intensity":3,"summary":"Abel fills in the crossword with Protect and puts his cap on."}
+],
+"s01342": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"OKONKWO","target":null,"mood":"calm","intensity":1,"summary":"Crew tend the hydroponic bay, trading small maintenance remarks."},
+{"start":13,"type":"arrives","fine":"drifts in","actor":"NEWT","target":null,"mood":"playful","intensity":2,"summary":"Ship-born Newt wanders in with a bucket of worms and the crew indulge her."}
+],
+"s00260": [
+{"start":1,"type":"bonds","fine":"reminisces with","actor":"KEZIAH","target":"HARPER","mood":"ominous","intensity":2,"summary":"Five friends camp in the lighthouse while Keziah reads eerie logbook entries."},
+{"start":21,"type":"discovers","fine":"notices","actor":"LOTTIE","target":null,"mood":"suspense","intensity":4,"summary":"A creak sounds; Lottie senses something on the stairs and a keeper's figure appears."},
+{"start":38,"type":"arrives","fine":"makes an entrance","actor":"KEEPER","target":"LOTTIE","mood":"fear","intensity":4,"summary":"The figure descends toward them and Lottie, mesmerized, steps toward it."},
+{"start":47,"type":"defends","fine":"protects","actor":"HARPER","target":"LOTTIE","mood":"fear","intensity":5,"summary":"The stove dies, the keeper whispers Stay, and Harper wrenches Lottie free as they flee."},
+{"start":66,"type":"decides","fine":"gives an order","actor":"HARPER","target":"MATT","mood":"bittersweet","intensity":3,"summary":"Outside, Harper asks Matt to delete the footage and he does."}
+],
+"s01221": [
+{"start":1,"type":"deflects","fine":"stalls","actor":"HANNELORE","target":"DESMOND","mood":"tense","intensity":2,"summary":"Hannelore keeps peeling potatoes while the agent pitches the lighthouse sale."},
+{"start":16,"type":"mocks","fine":"needles","actor":"HANNELORE","target":"INGRID","mood":"hostile","intensity":3,"summary":"Hannelore jabs at Ingrid for reading the structural report and leaving."},
+{"start":22,"type":"observes","fine":"listens to","actor":"HANNELORE","target":null,"mood":"melancholy","intensity":3,"summary":"A recorded coastguard warning plays and Hannelore ignores the handset."},
+{"start":28,"type":"pleads","fine":"appeals to","actor":"INGRID","target":"HANNELORE","mood":"hostile","intensity":4,"summary":"Ingrid urges her to sign; the three argue over the folder and father's burial."},
+{"start":46,"type":"attacks","fine":"lunges at","actor":"HANNELORE","target":"INGRID","mood":"grief","intensity":4,"summary":"Told her husband wanted her gone, Hannelore hurls a potato and calls Ingrid a liar."},
+{"start":52,"type":"decides","fine":"accepts","actor":"HANNELORE","target":null,"mood":"melancholy","intensity":4,"summary":"Hannelore touches the radio handset, puts it down, and takes up the pen."}
+],
+"s02415": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"BLAISE","target":"TEODORA","mood":"chaotic","intensity":3,"summary":"A bickering family on a road trip fights over kicking, radio volume and the exit."},
+{"start":24,"type":"flees","fine":"bolts","actor":"MATEUS","target":null,"mood":"chaotic","intensity":3,"summary":"Mateus swerves for the exit, brakes squeal and a truck honks; they argue whether he missed it."},
+{"start":35,"type":"jokes","fine":"amuses","actor":"NANDI","target":null,"mood":"playful","intensity":2,"summary":"The baby's giraffe flies into the windshield and she laughs."}
+],
+"s00228": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"HESPERIA","target":null,"mood":"calm","intensity":1,"summary":"In the hollow-tree archive, keepers record the evening's weather readings."},
+{"start":21,"type":"jokes","fine":"banters with","actor":"BRAMBLE-JACK","target":"ILUNA","mood":"playful","intensity":2,"summary":"Bramble-Jack shows a brass key found in a trout and Iluna laughs."},
+{"start":28,"type":"pleads","fine":"asks for help from","actor":"ILUNA","target":"HESPERIA","mood":"hopeful","intensity":2,"summary":"Iluna asks about the legendary door under the tree and Hesperia counsels patience."},
+{"start":45,"type":"persuades","fine":"charms","actor":"ILUNA","target":"HESPERIA","mood":"hopeful","intensity":3,"summary":"Iluna says the river calls the quiet the door, impressing Hesperia."},
+{"start":55,"type":"discovers","fine":"uncovers","actor":"BRAMBLE-JACK","target":null,"mood":"joyful","intensity":4,"summary":"Bramble-Jack listens, touches the key to wood, and the hidden door opens in gold light."}
+],
+"s02303": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"RENATA","target":"GWEN","mood":"tense","intensity":3,"summary":"Attorney Renata deposes Captain Gwen aboard her boat about a woman found in her hold."},
+{"start":17,"type":"reveals","fine":"lets slip to","actor":"GWEN","target":"RENATA","mood":"ominous","intensity":4,"summary":"Gwen grimly admits the deckhand went below alive and never came up."}
+],
+"s00826": [
+{"start":1,"type":"searches","fine":"investigates","actor":"NEIL","target":"MILDRED","mood":"ominous","intensity":2,"summary":"Neil, Mildred and Fitz explore the derelict rink as a dead organ wheezes."},
+{"start":14,"type":"discovers","fine":"notices","actor":"FITZ","target":null,"mood":"suspense","intensity":4,"summary":"They see a pair of white skates that were not there before."},
+{"start":25,"type":"hides","fine":"masks a feeling","actor":"MILDRED","target":null,"mood":"fear","intensity":4,"summary":"The skates slide toward them; Mildred calmly says to note it in the listing."},
+{"start":31,"type":"discovers","fine":"realizes","actor":"FITZ","target":"NEIL","mood":"ominous","intensity":4,"summary":"Fitz reports the doors are locked from outside as the organ plays a chord."}
+],
+"s00396": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PIP","target":"SEREN","mood":"playful","intensity":2,"summary":"Aldous, Seren and Pip tease over milk and an invisible cat at tea."},
+{"start":23,"type":"arrives","fine":"makes an entrance","actor":"WIDOW HARROWGATE","target":"ALDOUS","mood":"ominous","intensity":3,"summary":"Widow Harrowgate enters, trades barbs with Aldous and takes the head seat."},
+{"start":38,"type":"observes","fine":"takes it in","actor":"ALDOUS","target":null,"mood":"suspense","intensity":2,"summary":"Everyone falls silent as the lanterns brighten and the kettle sings."}
+],
+"s00226": [
+{"start":1,"type":"searches","fine":"investigates","actor":"LEONIDAS","target":"CORA","mood":"tense","intensity":2,"summary":"Auditor Leonidas goes over the ledger as manager Cora brings coffee and watches."},
+{"start":29,"type":"confronts","fine":"presses","actor":"LEONIDAS","target":"CORA","mood":"suspense","intensity":3,"summary":"He raises the missing four thousand bushels; she deflects, and he asks for the phone."},
+{"start":41,"type":"attacks","fine":"wrestles","actor":"CORA","target":"LEONIDAS","mood":"chaotic","intensity":4,"summary":"They struggle over the phone and the coffee mugs shatter on the ledger."},
+{"start":51,"type":"reveals","fine":"drops a bombshell on","actor":"LEONIDAS","target":"CORA","mood":"ominous","intensity":4,"summary":"Leonidas says he already sent copies to the state office; Cora laughs as the belts start."}
+],
+"s02200": [
+{"start":1,"type":"confronts","fine":"presses","actor":"KLINE","target":"ASARE","mood":"tense","intensity":2,"summary":"Prosecutor Kline starts questioning Nurse Asare about her shift on March ninth."},
+{"start":29,"type":"confronts","fine":"corners","actor":"KLINE","target":"ASARE","mood":"suspense","intensity":3,"summary":"Kline produces conflicting medication records of fifty and five milligrams."},
+{"start":40,"type":"confesses","fine":"owns up to","actor":"ASARE","target":"KLINE","mood":"tense","intensity":4,"summary":"Asare admits she gave fifty milligrams because the doctor wrote it."},
+{"start":61,"type":"confesses","fine":"breaks down to","actor":"ASARE","target":"KLINE","mood":"grief","intensity":5,"summary":"She admits she knew it was wrong when she gave it and why she did it."},
+{"start":74,"type":"leaves","fine":"exits quietly","actor":"ASARE","target":null,"mood":"bittersweet","intensity":3,"summary":"Relieved and unsteady, Asare walks out into the light and the judge adjourns."}
+],
+"s01474": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"DOM","target":"HARLAN","mood":"calm","intensity":1,"summary":"Car wash staff trade crossword banter during the quiet 3 a.m. shift."},
+{"start":23,"type":"discovers","fine":"notices","actor":"LUIS","target":null,"mood":"suspense","intensity":3,"summary":"A black sedan parks outside; Luis warns it has come three nights running."},
+{"start":35,"type":"arrives","fine":"makes an entrance","actor":"VANCE","target":"LUIS","mood":"ominous","intensity":4,"summary":"Mr. Vance steps out, smiling; Luis says he asked about cameras and Nadia grabs something cold."}
+],
+"s00190": [
+{"start":1,"type":"threatens","fine":"holds at gunpoint","actor":"KAZIMIR","target":"SOLVEIG","mood":"tense","intensity":3,"summary":"The cable car stalls; armed Kazimir stops Tamara filming and eyes Solveig's briefcase."},
+{"start":19,"type":"attacks","fine":"fights","actor":"SOLVEIG","target":"KAZIMIR","mood":"chaotic","intensity":5,"summary":"Kazimir shoots the roof light; Solveig lunges for his pistol and they struggle."},
+{"start":34,"type":"decides","fine":"changes course","actor":"LUCIEN","target":null,"mood":"chaotic","intensity":4,"summary":"Lucien restarts the brake; Solveig seizes the pistol and Tamara aims at Kazimir."},
+{"start":49,"type":"reveals","fine":"unmasks","actor":"SOLVEIG","target":"KAZIMIR","mood":"ominous","intensity":4,"summary":"The case holds only a photograph with Solveig's name; Kazimir wanted the man in it."},
+{"start":67,"type":"confronts","fine":"demands answers from","actor":"SOLVEIG","target":"KAZIMIR","mood":"suspense","intensity":3,"summary":"Solveig asks who sent him and learns her father took the photo."},
+{"start":79,"type":"reveals","fine":"drops a bombshell on","actor":"KAZIMIR","target":"SOLVEIG","mood":"fear","intensity":5,"summary":"At the dock, armed men wear her father's uniforms and her face falls."}
+],
+"s01670": [
+{"start":1,"type":"jokes","fine":"flirts with","actor":"DEZ","target":"ELOISE","mood":"tender","intensity":2,"summary":"Dez brings Eloise apricot pastries and flirts through the ticket booth slot."},
+{"start":12,"type":"arrives","fine":"makes an entrance","actor":"PRUDENCE","target":null,"mood":"playful","intensity":2,"summary":"Mrs. Lawson buys tickets, remarks on how alike the two speak, then departs."}
+],
+"s02045": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ISOLDE","target":"PRISCA","mood":"calm","intensity":2,"summary":"Over dinner on a train, the Countess bluntly disparages the dead man."},
+{"start":17,"type":"confronts","fine":"interrogates","actor":"BELLWETHER","target":"PRISCA","mood":"suspense","intensity":3,"summary":"Bellwether questions Prisca and catches her in a pen detail."},
+{"start":28,"type":"deflects","fine":"stalls","actor":"BELLWETHER","target":"ISOLDE","mood":"tense","intensity":3,"summary":"After a tunnel blackout, he calmly postpones the matter until after dessert."}
+],
+"s02253": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"MILLIE","target":"LAZARUS","mood":"playful","intensity":2,"summary":"Cowhands trade jibes at supper over beans and seconds."},
+{"start":16,"type":"mocks","fine":"needles","actor":"LAZARUS","target":"PETE","mood":"playful","intensity":2,"summary":"Lazarus and Pete argue which leg of the mare is lame; Hank says to look."},
+{"start":27,"type":"discovers","fine":"finds a clue","actor":"PETE","target":null,"mood":"calm","intensity":2,"summary":"Pete finds a stone in the hoof; the leg quarrel continues until Hank calls everyone to eat."}
+],
+"s00359": [
+{"start":1,"type":"works","fine":"prepares","actor":"JUNO","target":null,"mood":"hopeful","intensity":2,"summary":"Pilot Juno prepares a balloon launch before dawn as Colm glances at Phoebe."},
+{"start":13,"type":"jokes","fine":"flirts with","actor":"JUNO","target":"PHOEBE","mood":"awkward","intensity":3,"summary":"Juno helps Phoebe into the basket while jealous Colm mutters at himself."},
+{"start":23,"type":"persuades","fine":"recruits","actor":"JUNO","target":"COLM","mood":"joyful","intensity":3,"summary":"Juno coaxes hesitant Colm aboard and the three rise into the first light."}
+],
+"s02306": [
+{"start":1,"type":"observes","fine":"waits","actor":"ISAIAH","target":null,"mood":"suspense","intensity":2,"summary":"Five people sit on a farmhouse porch while Isaiah alone watches the road."},
+{"start":20,"type":"arrives","fine":"shows up unannounced","actor":"TELEGRAPH CLERK","target":"EUGENE","mood":"ominous","intensity":3,"summary":"A clerk shouts a telegram for Hauser and the porch stiffens."},
+{"start":29,"type":"reveals","fine":"breaks news to","actor":"CORA","target":"EUGENE","mood":"hopeful","intensity":3,"summary":"Eugene has Cora read it; it only asks them to sign for water rights."}
+],
+"s01461": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"NANA PHILOMENA","target":"TEODOR","mood":"tender","intensity":2,"summary":"Nana Philomena and young Teodor shape dough animals in the warm kitchen."},
+{"start":17,"type":"bonds","fine":"shares a moment with","actor":"TEODOR","target":"NANA PHILOMENA","mood":"tender","intensity":3,"summary":"Teodor asks for the bread song and they hum it together, slightly off."}
+],
+"s02411": [
+{"start":1,"type":"works","fine":"prepares","actor":"NOREEN","target":"ANSELM","mood":"chaotic","intensity":3,"summary":"Exhausted parents scramble to warm a bottle while the baby wails at 3 a.m."},
+{"start":13,"type":"observes","fine":"waits","actor":"NOREEN","target":"ANSELM","mood":"tender","intensity":2,"summary":"The cries finally stop and they whisper, afraid to breathe."}
+]
+}

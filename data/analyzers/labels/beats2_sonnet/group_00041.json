@@ -1,0 +1,152 @@
+{
+"s00460": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ADAEZE","target":"GRETCHEN","mood":"calm","intensity":1,"summary":"Tired Adaeze folds laundry while neighbor Gretchen notices a baby's sleeper."},
+{"start":22,"type":"bonds","fine":"shares a moment with","actor":"ADAEZE","target":"TEO","mood":"tender","intensity":2,"summary":"Teo joins them and carefully folds the baby sleeper at his mother's request."}
+],
+"s00344": [
+{"start":1,"type":"flees","fine":"scrambles away","actor":"INGRID","target":null,"mood":"fear","intensity":4,"summary":"Ingrid dangles in a crevasse while Solange and Dag haul her rope."},
+{"start":15,"type":"comforts","fine":"steadies","actor":"DAG","target":"SOLANGE","mood":"bittersweet","intensity":3,"summary":"Ingrid reaches the lip and crawls out; Dag gently unwraps the rope from Solange's hands."}
+],
+"s01438": [
+{"start":1,"type":"searches","fine":"looks for","actor":"WARD","target":"KROLL","mood":"ominous","intensity":2,"summary":"Ward and Kroll creep through the refrigerated hold toward a particular crate."},
+{"start":14,"type":"discovers","fine":"uncovers","actor":"WARD","target":"KROLL","mood":"suspense","intensity":4,"summary":"They pry open the crate and find a preserved bride in antique lace."},
+{"start":29,"type":"flees","fine":"retreats","actor":"KROLL","target":null,"mood":"fear","intensity":5,"summary":"The bride's eyelids flutter and a whisper rises; they hammer the lid shut."},
+{"start":37,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"ominous","intensity":4,"summary":"Three polite knocks come from within the sealed crate."}
+],
+"s01649": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"PETRA","target":"LEOPOLD","mood":"chaotic","intensity":2,"summary":"Petra, Leopold and onlookers converge at a crowded Venice vaporetto stop."},
+{"start":12,"type":"pleads","fine":"implores","actor":"LEOPOLD","target":"PETRA","mood":"tender","intensity":3,"summary":"Leopold admits being a fool and begs Petra to stay as the last boat nears."},
+{"start":25,"type":"decides","fine":"chooses","actor":"PETRA","target":"LEOPOLD","mood":"joyful","intensity":3,"summary":"Petra takes the daisies, drops her suitcase into the water and lets the boat leave."}
+],
+"s00152": [
+{"start":1,"type":"observes","fine":"waits","actor":"EDMUND","target":"LIORA","mood":"melancholy","intensity":2,"summary":"Edmund and Liora wait silently in the pre-dawn kitchen amid unopened bills."},
+{"start":13,"type":"reveals","fine":"breaks news to","actor":"QUENTIN","target":"EDMUND","mood":"grief","intensity":3,"summary":"Quentin announces the auctioneer's truck is early; Edmund releases him to start on the tractor."},
+{"start":40,"type":"decides","fine":"accepts","actor":"EDMUND","target":"LIORA","mood":"bittersweet","intensity":3,"summary":"Edmund pushes the envelopes forward; Liora reads one and fills the kettle."}
+],
+"s02441": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"DARNELL","target":"HORTENSE","mood":"awkward","intensity":2,"summary":"Drive-through taxidermy clerk Darnell takes a customer's dead cat in a shoebox."},
+{"start":15,"type":"reveals","fine":"breaks news to","actor":"KEVIN","target":"HORTENSE","mood":"awkward","intensity":2,"summary":"A manager's call reveals a forty-dollar cat surcharge; the impatient line honks behind."}
+],
+"s01577": [
+{"start":1,"type":"works","fine":"prepares","actor":"SIMONE","target":"DEE","mood":"tense","intensity":2,"summary":"Simone drills her handcuffed client Dee on his alibi before court."},
+{"start":21,"type":"confronts","fine":"challenges","actor":"LACROIX","target":"SIMONE","mood":"tense","intensity":3,"summary":"DA Lacroix arrives and shows pizza shop footage of a man in a hoodie."},
+{"start":37,"type":"attacks","fine":"lunges at","actor":"DEE","target":"LACROIX","mood":"chaotic","intensity":4,"summary":"Dee lunges up; Templeton and Simone restrain him as the tablet crashes down the steps."},
+{"start":45,"type":"defends","fine":"pushes back on","actor":"SIMONE","target":"LACROIX","mood":"hostile","intensity":3,"summary":"Simone attacks the footage's chain of custody; Lacroix retorts and leaves a plea deadline."},
+{"start":55,"type":"comforts","fine":"steadies","actor":"SIMONE","target":"DEE","mood":"bittersweet","intensity":2,"summary":"Simone sits beside Dee and lets her shoulders drop."}
+],
+"s00633": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"YOUNG MAN","target":"PHILOMENA","mood":"tense","intensity":2,"summary":"A soaked young man enters the ferry galley; the cook sees his face and goes still."},
+{"start":12,"type":"bonds","fine":"reconnects with","actor":"PHILOMENA","target":"LEO","mood":"tender","intensity":3,"summary":"Philomena serves him soup, learns he is Leo and admits she always knew he existed."},
+{"start":22,"type":"comforts","fine":"embraces","actor":"LEO","target":"PHILOMENA","mood":"bittersweet","intensity":3,"summary":"They share silent soup and their hands meet on the counter."}
+],
+"s00495": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"OTIS","target":null,"mood":"fear","intensity":4,"summary":"Three survivors count off in a capsized, flooding cabin with an hour of air."},
+{"start":16,"type":"attacks","fine":"strikes","actor":"OTIS","target":null,"mood":"chaotic","intensity":5,"summary":"They fight the hatch as the hull rolls and something white bumps the porthole."},
+{"start":24,"type":"discovers","fine":"notices","actor":"LAKSHMI","target":null,"mood":"hopeful","intensity":4,"summary":"Silence reveals a ship's engine overhead; they bang the hull to signal."},
+{"start":35,"type":"observes","fine":"waits","actor":null,"target":null,"mood":"triumphant","intensity":4,"summary":"Three knocks answer from above."}
+],
+"s01197": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"SHAPE","target":"NELL","mood":"ominous","intensity":3,"summary":"Night-shift Nell finds a hooded figure in the shadows of the cannery."},
+{"start":13,"type":"confronts","fine":"demands answers from","actor":"NELL","target":"SHAPE","mood":"fear","intensity":3,"summary":"Nell challenges the dripping figure, who knows her name from her apron."},
+{"start":24,"type":"reveals","fine":"unmasks","actor":"CELESTINE","target":"NELL","mood":"fear","intensity":4,"summary":"The figure reveals herself as Nell's drowned mother, asking if she still sings."},
+{"start":33,"type":"threatens","fine":"looms over","actor":"CELESTINE","target":"NELL","mood":"fear","intensity":5,"summary":"A man appears with Nell's own face, saying they waited for her to come home."},
+{"start":54,"type":"flees","fine":"runs","actor":"NELL","target":"CELESTINE","mood":"ominous","intensity":5,"summary":"The belts accelerate and Nell runs as the cannery hums a lullaby."}
+],
+"s01546": [
+{"start":1,"type":"comforts","fine":"calms","actor":"SABINE","target":"DEE","mood":"tense","intensity":2,"summary":"Attorney Sabine urges anxious Dee to sit while a silent woman in grey waits."},
+{"start":15,"type":"accuses","fine":"blames","actor":"DEE","target":"NICOLA","mood":"hostile","intensity":3,"summary":"Dee claims coworker Nicola told police she took the money."},
+{"start":26,"type":"reveals","fine":"unmasks","actor":"NICOLA","target":"DEE","mood":"suspense","intensity":3,"summary":"The woman in grey rises and says she is Nicola."},
+{"start":45,"type":"confesses","fine":"admits guilt to","actor":"NICOLA","target":"DEE","mood":"grief","intensity":5,"summary":"Nicola confesses she took the money and blamed Dee because she'd be believed."},
+{"start":57,"type":"defends","fine":"protects","actor":"SABINE","target":"NICOLA","mood":"tense","intensity":3,"summary":"Sabine warns Nicola to stay silent; Nicola refuses and Dee slides down the mesh."},
+{"start":71,"type":"persuades","fine":"negotiates with","actor":"SABINE","target":"NICOLA","mood":"hopeful","intensity":3,"summary":"Sabine secures Nicola's promise to repeat it to judge and prosecutor and hands her a card."}
+],
+"s00976": [
+{"start":1,"type":"mocks","fine":"needles","actor":"SPUD","target":"MR. PELLINGHAM","mood":"playful","intensity":2,"summary":"Employees in a former funeral home deadpan jabs at Pellingham's buzzword pivot."},
+{"start":27,"type":"decides","fine":"changes course","actor":"MR. PELLINGHAM","target":null,"mood":"awkward","intensity":2,"summary":"Defeated, Pellingham climbs down and offers cake, possibly from the last funeral."}
+],
+"s01746": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"COACH RUIZ","target":"BEX","mood":"tense","intensity":2,"summary":"Coach Ruiz criticizes Bex for standing still while the team trails by nine."},
+{"start":13,"type":"jokes","fine":"banters with","actor":"KALANI","target":"TAMSIN","mood":"playful","intensity":2,"summary":"Captain Kalani sets the plan and jokes about making a whistle noise."},
+{"start":22,"type":"comforts","fine":"encourages","actor":"KALANI","target":"TAMSIN","mood":"hopeful","intensity":3,"summary":"Tamsin is sick with nerves; Kalani vows to hit the wall for her."},
+{"start":28,"type":"leaves","fine":"leaves","actor":"COACH RUIZ","target":null,"mood":"triumphant","intensity":3,"summary":"The stopwatch clicks and the team skates out as the crowd stomps."}
+],
+"s00817": [
+{"start":1,"type":"lies","fine":"fakes it with","actor":"ZINNIA","target":"HENRY","mood":"suspense","intensity":2,"summary":"A masked woman cashes out a huge stack of chips at the cashier cage."},
+{"start":16,"type":"threatens","fine":"holds at gunpoint","actor":"FINNEGAN","target":"HENRY","mood":"tense","intensity":4,"summary":"Waiter Finnegan reveals a pistol and the two rob the cage, cheerfully polite."},
+{"start":38,"type":"flees","fine":"slips out","actor":"ZINNIA","target":null,"mood":"chaotic","intensity":3,"summary":"Zinnia blinds the camera and they slip out with the cash."},
+{"start":44,"type":"decides","fine":"commits","actor":"HENRY","target":null,"mood":"suspense","intensity":3,"summary":"Henry composes himself, then rings a small silver bell twice."}
+],
+"s01995": [
+{"start":1,"type":"works","fine":"works","actor":"ZUANNE","target":"SERENELLA","mood":"tense","intensity":2,"summary":"In a Murano glass furnace hall, Zuanne and Serenella work while a nobleman intrudes."},
+{"start":12,"type":"pleads","fine":"appeals to","actor":"ALVISE","target":"ZUANNE","mood":"awkward","intensity":3,"summary":"Alvise insists on speaking to Serenella and then kneels, asking for her hand."},
+{"start":27,"type":"attacks","fine":"strikes","actor":"ZUANNE","target":null,"mood":"chaotic","intensity":3,"summary":"Zuanne's molten glass shatters, scattering everyone."},
+{"start":33,"type":"confronts","fine":"presses","actor":"ZUANNE","target":"ALVISE","mood":"awkward","intensity":2,"summary":"Alvise explains he proposed here because it was the honest place; Serenella and Zuanne weigh it."},
+{"start":42,"type":"decides","fine":"accepts","actor":"ZUANNE","target":"ALVISE","mood":"hopeful","intensity":3,"summary":"Zuanne tells Alvise to learn to hold the furnace door, which he does."}
+],
+"s00502": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"BRIGITTE","target":"MIRKO","mood":"tense","intensity":2,"summary":"In the van, Brigitte complains the wedding cake leans like the Tower of Pisa."},
+{"start":21,"type":"decides","fine":"makes a plan","actor":"MIRKO","target":"TAMSIN","mood":"tense","intensity":3,"summary":"Tamsin offers a skewer fix; Mirko organizes the team and Leonard holds the top tier."},
+{"start":52,"type":"bonds","fine":"thanks","actor":"BRIGITTE","target":"MIRKO","mood":"joyful","intensity":3,"summary":"The tier snaps straight and the four share relief and a quiet thanks."},
+{"start":66,"type":"observes","fine":"hesitates","actor":"MIRKO","target":null,"mood":"suspense","intensity":2,"summary":"The cake team is called up and the cake leans slightly again."}
+],
+"s02083": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ADELAIDE","target":"FLOYD","mood":"playful","intensity":2,"summary":"Switchboard operator Adelaide banters with bellhop Floyd while handling calls."},
+{"start":15,"type":"deflects","fine":"brushes off","actor":"ADELAIDE","target":"CLARENCE","mood":"playful","intensity":2,"summary":"She cuts off the man in 412 and admits she's being difficult tonight."},
+{"start":27,"type":"works","fine":"works","actor":"ADELAIDE","target":"HOLCOMB","mood":"chaotic","intensity":3,"summary":"The board floods with calls; Adelaide returns to work and puts Clarence through to the front desk."}
+],
+"s01263": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"LAVINIA","target":null,"mood":"calm","intensity":1,"summary":"Astronomer Lavinia rehearses her planetarium talk to empty seats, unaware a guard watches."},
+{"start":20,"type":"bonds","fine":"shares a moment with","actor":"ELIAN","target":"LAVINIA","mood":"awkward","intensity":2,"summary":"Guard Elian speaks up from the dark and compliments her; she invites him to stay."},
+{"start":46,"type":"bonds","fine":"confides in","actor":"LAVINIA","target":"ELIAN","mood":"tender","intensity":3,"summary":"Lavinia delivers the speech to him, revealing she studies light that arrives too late."},
+{"start":71,"type":"bonds","fine":"trusts","actor":"LAVINIA","target":"ELIAN","mood":"tender","intensity":2,"summary":"She sits in the row ahead and they watch the stars in silence."}
+],
+"s01272": [
+{"start":1,"type":"mocks","fine":"provokes","actor":"WYATT","target":"PAKS","mood":"playful","intensity":2,"summary":"Wyatt goads Paks on a bus roof of a school bus graveyard."},
+{"start":10,"type":"attacks","fine":"shoves","actor":"WYATT","target":"PAKS","mood":"chaotic","intensity":3,"summary":"They shove over a beer can and the roof booms."},
+{"start":15,"type":"flees","fine":"bolts","actor":"LUCIA","target":null,"mood":"joyful","intensity":4,"summary":"A siren sounds and the three scramble off, laughing in the sunflowers."}
+],
+"s00153_1": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"JASMINE","target":null,"mood":"tense","intensity":3,"summary":"Four strangers stuck five hours in a gondola listen to the cable groan."},
+{"start":14,"type":"comforts","fine":"consoles","actor":"ROSALIE","target":"KIERAN","mood":"tender","intensity":2,"summary":"Nurse Rosalie tends Kieran's pain; Jasmine despairs the dead radio."},
+{"start":25,"type":"bonds","fine":"shares a moment with","actor":"AUGUSTIN","target":"KIERAN","mood":"tender","intensity":2,"summary":"Augustin shares his thermos tea around the cabin."},
+{"start":35,"type":"flees","fine":"hides from","actor":null,"target":null,"mood":"fear","intensity":4,"summary":"The cabin lurches and swings wildly, then steadies."},
+{"start":45,"type":"bonds","fine":"thanks","actor":"AUGUSTIN","target":null,"mood":"bittersweet","intensity":3,"summary":"Augustin toasts the view of the gorge he mapped; all four drink."}
+],
+"s01591": [
+{"start":1,"type":"searches","fine":"tracks","actor":"NAOMI","target":"THE CARNY","mood":"tense","intensity":3,"summary":"Detectives track a carny holding a hostage through a mirror maze."},
+{"start":9,"type":"attacks","fine":"shoots at","actor":"THE CARNY","target":"NAOMI","mood":"chaotic","intensity":4,"summary":"The carny fires at reflections and detectives take cover."},
+{"start":23,"type":"observes","fine":"waits","actor":"THE CARNY","target":null,"mood":"suspense","intensity":4,"summary":"The carny laughs among countless footsteps."}
+],
+"s01433": [
+{"start":1,"type":"works","fine":"prepares","actor":"MUNGO","target":null,"mood":"suspense","intensity":3,"summary":"A heist crew cracks a case of pearls in the shark tunnel on a camera loop."},
+{"start":18,"type":"arrives","fine":"shows up unannounced","actor":"ILSE","target":"VESPER","mood":"awkward","intensity":3,"summary":"Guard Ilse rounds the corner, sips her tea and finds the crew with the pearls."},
+{"start":29,"type":"threatens","fine":"coerces","actor":"VESPER","target":"ILSE","mood":"playful","intensity":2,"summary":"Vesper tells Ilse to sit and call it in later; she sits on the floor."}
+],
+"s01412": [
+{"start":1,"type":"works","fine":"repairs something","actor":"YUSUF","target":"PRISCA","mood":"fear","intensity":4,"summary":"Yusuf and Prisca struggle to force a warped airlock hatch as pressure drops."},
+{"start":16,"type":"discovers","fine":"realizes","actor":"PRISCA","target":"YUSUF","mood":"fear","intensity":5,"summary":"The last valve breaks; they stare at each other as the hatch seals and lights die."}
+],
+"s00890": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"PADDY","target":"EZEKIEL","mood":"melancholy","intensity":2,"summary":"Porter Paddy surprises a sleepless surgeon hiding in the noisy hospital laundry."},
+{"start":26,"type":"confesses","fine":"unburdens to","actor":"EZEKIEL","target":"PADDY","mood":"grief","intensity":4,"summary":"Ezekiel tells Paddy a thirty-one-year-old died on his table, leaving a young daughter."},
+{"start":34,"type":"comforts","fine":"consoles","actor":"PADDY","target":"EZEKIEL","mood":"tender","intensity":3,"summary":"Paddy sits knee to knee, shares his brother's story and offers a warm towel."},
+{"start":59,"type":"bonds","fine":"bonds with","actor":"EZEKIEL","target":"PADDY","mood":"bittersweet","intensity":3,"summary":"They exchange names and Ezekiel gets ready to return upstairs."},
+{"start":74,"type":"leaves","fine":"leaves","actor":"EZEKIEL","target":"PADDY","mood":"hopeful","intensity":2,"summary":"Ezekiel thanks Paddy for the towel; Paddy alone puts his cigarettes away."}
+],
+"s01793": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"VIKTORIA","target":null,"mood":"suspense","intensity":3,"summary":"Agent Viktoria and Jude hide in a garage waiting for a handoff."},
+{"start":10,"type":"discovers","fine":"notices","actor":"VIKTORIA","target":"JUDE","mood":"tense","intensity":3,"summary":"A silhouette receives an envelope from the sedan; Viktoria sees it's not their contact."},
+{"start":22,"type":"threatens","fine":"holds at gunpoint","actor":"MIKHAIL","target":"VIKTORIA","mood":"tense","intensity":4,"summary":"Mikhail steps from the shadows with a pistol and orders them out."},
+{"start":27,"type":"attacks","fine":"shoots at","actor":"MIKHAIL","target":"VIKTORIA","mood":"chaotic","intensity":5,"summary":"The sedan roars, shots fly and the van crashes as Viktoria escapes, leaving Jude cuffed."}
+],
+"s00125": [
+{"start":1,"type":"searches","fine":"examines","actor":"STRANGER","target":null,"mood":"suspense","intensity":2,"summary":"A stranger with a crowbar finds a cassette recorder alone in the storage unit."},
+{"start":6,"type":"discovers","fine":"recognizes","actor":"STRANGER","target":null,"mood":"melancholy","intensity":4,"summary":"A boy's recorded voice reveals the stranger is Desmond and points to a hidden key."},
+{"start":12,"type":"discovers","fine":"finds a clue","actor":"DESMOND","target":null,"mood":"bittersweet","intensity":3,"summary":"Desmond finds the brass key behind the third brick and walks out into the rain."}
+],
+"s00662": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"RIDER","target":null,"mood":"melancholy","intensity":1,"summary":"A gray-bearded rider finishes his last coffee at dawn camp and talks to his horse."},
+{"start":13,"type":"reveals","fine":"shows","actor":"RIDER","target":null,"mood":"melancholy","intensity":3,"summary":"He reads a letter saying the farm is sold and he cannot return, and gives his name Abel."},
+{"start":24,"type":"decides","fine":"changes course","actor":"ABEL","target":null,"mood":"bittersweet","intensity":3,"summary":"Abel tucks the letter away, hears a distant train whistle, remembers a letter and rides east."}
+]
+}

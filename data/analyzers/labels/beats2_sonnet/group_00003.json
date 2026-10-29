@@ -1,0 +1,140 @@
+{
+"s00593": [
+{"start":1,"type":"hides","fine":"conceals something","actor":"ARCHIE","target":null,"mood":"tense","intensity":3,"summary":"Teens at the snack bar scramble to hide a stolen trophy from Mrs. Baptiste."},
+{"start":22,"type":"jokes","fine":"banters with","actor":"PORTIA","target":"ARCHIE","mood":"playful","intensity":2,"summary":"Relieved after the adult passes, the friends laugh and tease Archie."},
+{"start":32,"type":"flees","fine":"evades","actor":"ARCHIE","target":null,"mood":"suspense","intensity":3,"summary":"The adult turns back and Archie panics, shoving the trophy into his hood."},
+{"start":38,"type":"jokes","fine":"amuses","actor":"PORTIA","target":"ARCHIE","mood":"joyful","intensity":3,"summary":"Danger gone, the four collapse into laughter, Archie covered in nacho cheese."}
+],
+"s01231": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"melancholy","intensity":2,"summary":"A shuttered parlour sits dust-sheeted, its clock stopped, a phonograph waiting."},
+{"start":10,"type":"arrives","fine":"is introduced","actor":"EVELINE ASHCROFT","target":null,"mood":"melancholy","intensity":3,"summary":"Eveline, veiled in mourning, enters the parlour and notices the phonograph."},
+{"start":16,"type":"discovers","fine":"uncovers","actor":"EVELINE ASHCROFT","target":null,"mood":"grief","intensity":4,"summary":"She plays the wax cylinder and hears her own young voice swear never to leave."},
+{"start":30,"type":"decides","fine":"changes course","actor":"EVELINE ASHCROFT","target":null,"mood":"bittersweet","intensity":3,"summary":"Calling her younger self a liar, she sits, then restarts the stopped clock."}
+],
+"s01998": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"tense","intensity":2,"summary":"In a small courtroom, the judge, defendant, attorney and prosecutor are introduced before sentencing."},
+{"start":8,"type":"confronts","fine":"faces off with","actor":"ODALYS FERRARI-NKEMELU","target":"MALCOLM ASHFORD-IGWE","mood":"tense","intensity":3,"summary":"Defense and prosecutor talk over each other, trading repayment against the maximum sentence."},
+{"start":21,"type":"confesses","fine":"opens up to","actor":"SERAPHINA DUBOIS-TANAKA","target":"JUDGE CORNELIUS ABERNATHY-OKOYE","mood":"melancholy","intensity":3,"summary":"Urged by the judge, Seraphina briefly explains her mother's illness and her theft."},
+{"start":36,"type":"decides","fine":"changes course","actor":"ODALYS FERRARI-NKEMELU","target":null,"mood":"hopeful","intensity":3,"summary":"Odalys unexpectedly withdraws the State's recommendation and the judge adjourns."}
+],
+"s00352": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"HENRY LINDQVIST","target":"ROSE LINDQVIST","mood":"tense","intensity":3,"summary":"Henry pushes his widowed mother to sell the store before Friday's deadline."},
+{"start":21,"type":"confronts","fine":"calls out","actor":"ROSE LINDQVIST","target":"HENRY LINDQVIST","mood":"hostile","intensity":4,"summary":"Henry blurts that Dad is dead; Rose demands he repeat it to her face."},
+{"start":34,"type":"attacks","fine":"lunges at","actor":"HENRY LINDQVIST","target":null,"mood":"chaotic","intensity":3,"summary":"Danny stands, the bucket clatters, and Henry knocks screwdrivers across the floor."},
+{"start":45,"type":"reveals","fine":"shows","actor":"ROSE LINDQVIST","target":"HENRY LINDQVIST","mood":"tender","intensity":4,"summary":"Rose shows the cigar box of cards recording forty years of forgiven customer debts."},
+{"start":57,"type":"decides","fine":"commits","actor":"DANNY LINDQVIST","target":null,"mood":"hopeful","intensity":3,"summary":"Danny refuses to sell and the family agrees to run the store together."}
+],
+"s01517": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"melancholy","intensity":2,"summary":"Three adults sit at children's desks in a nearly abandoned village schoolhouse."},
+{"start":9,"type":"confronts","fine":"interrogates","actor":"GWENDOLEN","target":"FATIMA","mood":"awkward","intensity":2,"summary":"Gwendolen presses about the missing registers and the collapse to eleven pupils."},
+{"start":30,"type":"arrives","fine":"shows up unannounced","actor":"BOY","target":null,"mood":"hopeful","intensity":3,"summary":"A small boy arrives asking if this is school; Gwendolen welcomes him as twelfth."}
+],
+"s01832": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"tense","intensity":2,"summary":"Six strangers sit to an unwanted meal at a way station; a stranger watches the door."},
+{"start":13,"type":"deflects","fine":"stonewalls","actor":"MA TULLIVER","target":"SABINA ROJAS","mood":"awkward","intensity":2,"summary":"Stilted talk about weather and a missed stage; Ma Tulliver cuts Sabina off."},
+{"start":23,"type":"confronts","fine":"challenges","actor":"OSCAR HALE","target":"JUDE CALLAHAN","mood":"hostile","intensity":3,"summary":"Oscar needles the untouched-bowl stranger; Ma Tulliver rises and stands behind his chair."},
+{"start":42,"type":"reveals","fine":"presents evidence to","actor":"JUDE CALLAHAN","target":"MA TULLIVER","mood":"ominous","intensity":4,"summary":"Jude reaches into his duster and sets a folded letter in the middle of the table."}
+],
+"s01286": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"PRIYANKA DESHMUKH","target":"BIRTHDAY CLOWN","mood":"awkward","intensity":2,"summary":"The party planner scolds the late clown while the zookeeper warns about the goat."},
+{"start":24,"type":"flees","fine":"bolts","actor":"GERALD","target":null,"mood":"chaotic","intensity":4,"summary":"The goat charges after Gerald pops his balloon sword; everyone chases the chaos."},
+{"start":41,"type":"jokes","fine":"amuses","actor":"TEDDY","target":null,"mood":"joyful","intensity":3,"summary":"The goat eats Gerald's wig, the crowd applauds, and Teddy declares best birthday ever."}
+],
+"s02254": [
+{"start":1,"type":"observes","fine":"waits","actor":"NOOR","target":"FELIX","mood":"tense","intensity":2,"summary":"Noor hesitates at the base of the ten-meter platform while cousin Felix watches."},
+{"start":14,"type":"comforts","fine":"reassures","actor":"FELIX","target":"NOOR","mood":"tender","intensity":2,"summary":"Felix jokes about family lore and promises to stay close as she climbs."},
+{"start":23,"type":"decides","fine":"commits","actor":"NOOR","target":"FELIX","mood":"hopeful","intensity":3,"summary":"Noor reaches the top, Felix covers his eyes, and she laughs and jumps."}
+],
+"s00554": [
+{"start":1,"type":"works","fine":"prepares","actor":"ODILE LAFARGE-MENDOZA","target":null,"mood":"suspense","intensity":3,"summary":"Bakers chisel through an oven tunnel wall on a tight schedule."},
+{"start":23,"type":"reveals","fine":"breaks news to","actor":"MARCELLUS TREMAINE","target":"TOBIAS GR","mood":"tense","intensity":3,"summary":"Tobias learns the wall leads to the bank vault and protests."},
+{"start":37,"type":"persuades","fine":"convinces","actor":"ODILE LAFARGE-MENDOZA","target":"TOBIAS GR","mood":"tender","intensity":3,"summary":"Odile reminds Tobias of their record and wins his trust to hold the lantern."},
+{"start":51,"type":"works","fine":"works","actor":"ODILE LAFARGE-MENDOZA","target":null,"mood":"suspense","intensity":4,"summary":"Odile picks the vault lock in silence while the men wait."},
+{"start":61,"type":"bonds","fine":"shares a moment with","actor":"MARCELLUS TREMAINE","target":"TOBIAS GR","mood":"triumphant","intensity":4,"summary":"The lock opens; the men laugh in relief and turn to the clock."}
+],
+"s00660": [
+{"start":1,"type":"works","fine":"prepares","actor":"MAGS","target":null,"mood":"awkward","intensity":2,"summary":"Mags opens a corporate summit in a salt mine to an unamused audience."},
+{"start":24,"type":"confronts","fine":"challenges","actor":"STRANGER","target":"MAGS","mood":"tense","intensity":3,"summary":"A silent stranger calls her pyramid good and cryptically says he is observing."},
+{"start":39,"type":"discovers","fine":"realizes","actor":"MAGS","target":null,"mood":"ominous","intensity":3,"summary":"Tybalt reveals the company was bought last Thursday and the stranger is from corporate."},
+{"start":53,"type":"reveals","fine":"unmasks","actor":"RAYMOND PELLETIER","target":"MAGS","mood":"tense","intensity":4,"summary":"Raymond identifies himself as Acquisitions and mocks the pyramid's deep pit."},
+{"start":63,"type":"comforts","fine":"consoles","actor":"DOLORES PE","target":"TYBALT CHANDRASEKHAR","mood":"bittersweet","intensity":2,"summary":"Defeated, Mags sits; Dolores comforts Tybalt and Raymond offers sandwiches."}
+],
+"s00853": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"playful","intensity":2,"summary":"A makeshift small claims court sits at the end of a bowling lane."},
+{"start":9,"type":"accuses","fine":"charges","actor":"ELSPETH MORROW","target":"ABERNATHY","mood":"playful","intensity":2,"summary":"Elspeth accuses Abernathy of bowling a ball through her window; he quibbles over the time."},
+{"start":19,"type":"jokes","fine":"amuses","actor":"JUDGE FAIRCLOTH","target":null,"mood":"playful","intensity":2,"summary":"The judge jokes about no jury or coffee, and his gavel rolls under the lane."}
+],
+"s00237": [
+{"start":1,"type":"pleads","fine":"calls for","actor":"MAEVE ONWUACHI-DRUMM","target":"COAST GUARD","mood":"fear","intensity":4,"summary":"Maeve radios a mayday as the trawler floods and help is an hour away."},
+{"start":16,"type":"decides","fine":"gives an order","actor":"CAPTAIN RUTH ABERNATHY-KOMA","target":"MAEVE ONWUACHI-DRUMM","mood":"tense","intensity":4,"summary":"Ruth takes the radio and announces they will abandon ship in ten minutes."},
+{"start":27,"type":"searches","fine":"looks for","actor":"MAEVE ONWUACHI-DRUMM","target":null,"mood":"chaotic","intensity":5,"summary":"With the pump dead, Maeve dives into flooded water to retrieve the flare."},
+{"start":40,"type":"discovers","fine":"catches","actor":"BASTIEN LEFEBVRE-ADEOLA","target":null,"mood":"hopeful","intensity":4,"summary":"On deck the flare fires and a searchlight finds the crew."}
+],
+"s02203": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"suspense","intensity":2,"summary":"Five operatives sit in a circle under an open observatory dome."},
+{"start":13,"type":"confronts","fine":"presses","actor":"ELSPETH COURTENAY","target":"OKSANA PETRENKO","mood":"tense","intensity":3,"summary":"Elspeth warns of an impending leak and checks everyone's devices."},
+{"start":47,"type":"decides","fine":"makes a plan","actor":"ELSPETH COURTENAY","target":"HAMZA YILMAZ","mood":"ominous","intensity":3,"summary":"Elspeth proposes feeding each member false stories to trap the leaker."},
+{"start":85,"type":"hides","fine":"keeps a secret","actor":"ELSPETH COURTENAY","target":"HAMZA YILMAZ","mood":"suspense","intensity":3,"summary":"Oksana and Cecilia leave; Hamza privately asks whom Elspeth suspects."}
+],
+"s00171": [
+{"start":1,"type":"arrives","fine":"returns","actor":"NACHO","target":"BERNADETTE COLE","mood":"tense","intensity":3,"summary":"Nacho enters a laundromat and sets a ring before his coldly folding sister."},
+{"start":15,"type":"accuses","fine":"blames","actor":"NACHO","target":"BERNADETTE COLE","mood":"hostile","intensity":4,"summary":"Siblings argue over their dead father and who kept Nacho from his bedside."},
+{"start":27,"type":"attacks","fine":"shoves","actor":"BERNADETTE COLE","target":null,"mood":"hostile","intensity":4,"summary":"Bernadette sweeps the shirts to the floor and Nacho kicks the duffel, losing the ring."}
+],
+"s00184_0": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"RUTH","target":"JUSTICE AMADOU DIALLO-FERNANDEZ","mood":"tense","intensity":3,"summary":"Ruth closes her appeal argument for excluded recorded testimony before the Justice."},
+{"start":16,"type":"reveals","fine":"breaks news to","actor":"BAILIFF","target":"RUTH","mood":"hopeful","intensity":4,"summary":"A note arrives: the State has withdrawn its opposition and the conviction will be vacated."},
+{"start":32,"type":"discovers","fine":"realizes","actor":"RUTH","target":null,"mood":"triumphant","intensity":3,"summary":"A call confirms the real priest verified the story; Ruth exhales."},
+{"start":41,"type":"leaves","fine":"exits quietly","actor":"RUTH","target":null,"mood":"bittersweet","intensity":2,"summary":"Ruth gathers her papers and walks out, steady back, unsteady knees."}
+],
+"s01191": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"TEODORA VANCE-MBEKI","target":"DESMOND CHALK","mood":"ominous","intensity":2,"summary":"Teodora and a real-estate agent tour an abandoned carousel workshop of hanging horses."},
+{"start":11,"type":"observes","fine":"studies","actor":"OLD HARLAN","target":null,"mood":"suspense","intensity":3,"summary":"A motionless old man paints a wooden horse and ignores the intruders."},
+{"start":23,"type":"reveals","fine":"unmasks","actor":"OLD HARLAN","target":"TEODORA VANCE-MBEKI","mood":"fear","intensity":4,"summary":"Harlan turns, revealing a carved hinged face, and says closing time as the horses turn."}
+],
+"s01986": [
+{"start":1,"type":"accuses","fine":"exposes","actor":"LEONIE BARTHOLOMEW-ACHEBE","target":"NATE","mood":"tense","intensity":3,"summary":"Leonie exposes laser-etched fake corks on bottles sold as vintage 1982."},
+{"start":19,"type":"accuses","fine":"points the finger at","actor":"NATE","target":"MAXIMILIAN VOSS-KAGAN","mood":"hostile","intensity":3,"summary":"Nate, Maximilian and Dorothea blame each other for the forged provenance."},
+{"start":37,"type":"observes","fine":"keeps watch","actor":"LEONIE BARTHOLOMEW-ACHEBE","target":null,"mood":"suspense","intensity":4,"summary":"A creak above leads Leonie to take phones; the flashlight dies as footsteps descend."}
+],
+"s02260": [
+{"start":1,"type":"works","fine":"prepares","actor":"KALINDA","target":null,"mood":"calm","intensity":2,"summary":"Kalinda stretches at the empty pre-dawn track and plays her recorded log."},
+{"start":12,"type":"works","fine":"goes through routine","actor":"KALINDA","target":null,"mood":"hopeful","intensity":3,"summary":"She runs laps while old audio logs trace her progress; dawn lights the sky."}
+],
+"s01450": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ORSOLYA THANE","target":null,"mood":"calm","intensity":2,"summary":"Orsolya tends an orchard of glass trees and senses a deeper chime from the roots."},
+{"start":20,"type":"arrives","fine":"shows up unannounced","actor":"KAEDMON ASH","target":"ORSOLYA THANE","mood":"ominous","intensity":3,"summary":"Kaedmon arrives uninvited bearing a satchel and bare dagger."},
+{"start":31,"type":"threatens","fine":"menaces","actor":"KAEDMON ASH","target":"ORSOLYA THANE","mood":"ominous","intensity":4,"summary":"He produces a black seed that silences the orchard; Orsolya demands where he got it."},
+{"start":39,"type":"attacks","fine":"fights","actor":"ORSOLYA THANE","target":"KAEDMON ASH","mood":"chaotic","intensity":5,"summary":"He plants the seed, they fight, and a giant root splits the well and ignites the orchard."}
+],
+"s00035": [
+{"start":1,"type":"flees","fine":"escapes","actor":"ROZ","target":null,"mood":"tense","intensity":3,"summary":"Roz and Dennis are trapped in a freezer, pounding the frozen door."},
+{"start":13,"type":"reveals","fine":"lets slip to","actor":"LAZARUS BELL","target":"DENNIS ABERNATHY-VOSS","mood":"ominous","intensity":4,"summary":"A stranger in a tuxedo has been there for days and his breath does not fog."},
+{"start":32,"type":"flees","fine":"scrambles away","actor":"ROZ","target":"LAZARUS BELL","mood":"fear","intensity":4,"summary":"Roz and Dennis smash through the door and escape while Lazarus waves goodbye."}
+],
+"s02041": [
+{"start":1,"type":"bonds","fine":"teams up with","actor":"BARNABY OKONKWO-FITCH","target":"PENELOPE ARAKAWA","mood":"playful","intensity":2,"summary":"Barnaby gently teases nervous new assistant Penelope as he introduces the python Gladys."},
+{"start":31,"type":"observes","fine":"watches","actor":"PENELOPE ARAKAWA","target":null,"mood":"calm","intensity":2,"summary":"Penelope watches unflinching as Gladys strikes a mouse; Barnaby is impressed."},
+{"start":44,"type":"reveals","fine":"drops a bombshell on","actor":"BARNABY OKONKWO-FITCH","target":"PENELOPE ARAKAWA","mood":"suspense","intensity":4,"summary":"Barnaby admits Gladys is missing and the snake is a decoy."},
+{"start":64,"type":"observes","fine":"hesitates","actor":"PENELOPE ARAKAWA","target":null,"mood":"fear","intensity":4,"summary":"A thump in the vent above makes both freeze as something coils overhead."}
+],
+"s02089": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"playful","intensity":2,"summary":"A barn serves as small claims court, with goats, a cowbell and a buzzing crate."},
+{"start":10,"type":"accuses","fine":"charges","actor":"ARCHIE","target":"DOROTHEA WEBB","mood":"playful","intensity":2,"summary":"Archie accuses Dorothea's bees of using his clover without paying."},
+{"start":23,"type":"decides","fine":"decides","actor":"JUDGE HORTENSE BEAUMONT-LEE","target":null,"mood":"joyful","intensity":2,"summary":"The judge asks what he wants, honey, and settles it with a jar."}
+],
+"s02108": [
+{"start":1,"type":"works","fine":"works","actor":"ANSELM OYELARAN-PRICE","target":null,"mood":"chaotic","intensity":4,"summary":"Doctors and nurses race to revive a crashing patient with compressions and epinephrine."},
+{"start":31,"type":"discovers","fine":"notices","actor":"BEATRIZ HAMMOND-LU","target":null,"mood":"hopeful","intensity":4,"summary":"A weak beep returns and the patient has a thready pulse."},
+{"start":41,"type":"comforts","fine":"steadies","actor":"BEATRIZ HAMMOND-LU","target":"ANSELM OYELARAN-PRICE","mood":"bittersweet","intensity":2,"summary":"Exhausted doctors insist they are fine until Beatriz glares them into sitting."}
+],
+"s00719": [
+{"start":1,"type":"works","fine":"works","actor":"COMMANDER HALLORAN","target":null,"mood":"tense","intensity":4,"summary":"The crew races eleven minutes against a critical engine core."},
+{"start":11,"type":"arrives","fine":"bursts in","actor":"ENSIGN RAVI","target":"COMMANDER HALLORAN","mood":"chaotic","intensity":4,"summary":"Ravi reports failing aft shields and is ordered to a console."},
+{"start":20,"type":"works","fine":"repairs something","actor":"XIMENA ROJAS-VANCE","target":"BOSUN TUCK","mood":"triumphant","intensity":4,"summary":"Ximena and Tuck push the lever together, stabilizing the core."}
+],
+"s00062": [
+{"start":1,"type":"works","fine":"prepares","actor":"BRUISER","target":"JOSEFINA ABERNATHY-SILVA","mood":"tense","intensity":2,"summary":"Derby skaters lace up before the season's last bout as Horty briefs the nervous rookie."},
+{"start":16,"type":"bonds","fine":"teams up with","actor":"BRUISER","target":"JOSEFINA ABERNATHY-SILVA","mood":"hopeful","intensity":3,"summary":"Bruiser takes Josefina under her wing and the three walk into the lights."}
+]
+}

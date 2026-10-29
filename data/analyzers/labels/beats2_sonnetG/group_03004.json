@@ -1,0 +1,123 @@
+{
+"s00017": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"GLORIA","target":null,"mood":"playful","intensity":2,"summary":"Gloria shouts a tradition greeting from the balloon while nervous Winnie clings to the rope."},
+{"start":16,"type":"hides","fine":"conceals something","actor":"GLORIA","target":"WINNIE","mood":"tense","intensity":2,"summary":"Gloria mutters about the dial, fakes a camera, and tells Winnie to hold the burner."}
+],
+"s01056": [
+{"start":1,"type":"works","fine":"makes a plan","actor":"DUCHESS","target":null,"mood":"playful","intensity":2,"summary":"Duchess convenes the crew in the carousel pavilion and Slim lays out the heist."},
+{"start":21,"type":"decides","fine":"makes a plan","actor":"DUCHESS","target":"PEARL","mood":"playful","intensity":2,"summary":"Duchess assigns roles, joking about permits and Pearl's cut."},
+{"start":33,"type":"reveals","fine":"drops a bombshell on","actor":"BONES","target":"DUCHESS","mood":"ominous","intensity":4,"summary":"Bones notes a sixth share in the ledger; Lavalle admits he withheld the truth."}
+],
+"s01073": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"ELI","target":"NADIA","mood":"tense","intensity":3,"summary":"Rival lawyers Nadia and Eli spar over a ledger missing from the inventory."},
+{"start":18,"type":"arrives","fine":"makes an entrance","actor":"JUDGE OKONKWO-REYES","target":"ELI","mood":"tense","intensity":3,"summary":"The Judge appears and demands to know why a sealed ledger sits on a dock."},
+{"start":25,"type":"attacks","fine":"lunges at","actor":"ELI","target":"NADIA","mood":"chaotic","intensity":4,"summary":"Eli lunges for the ledger, boxes topple, and Deputy Hale bursts in."},
+{"start":34,"type":"decides","fine":"gives an order","actor":"JUDGE OKONKWO-REYES","target":"NADIA","mood":"tense","intensity":3,"summary":"The Judge stands down the deputy and takes the ledger to chambers."}
+],
+"pd_sisters_0": [
+{"start":1,"type":"bonds","fine":"reminisces with","actor":"OLGA","target":"IRINA","mood":"melancholy","intensity":2,"summary":"Olga recalls their father's death a year ago on a bright noon."},
+{"start":12,"type":"confesses","fine":"opens up to","actor":"OLGA","target":"IRINA","mood":"bittersweet","intensity":2,"summary":"Olga complains of exhaustion; she and Irina long for Moscow while the men laugh."},
+{"start":27,"type":"bonds","fine":"shares a moment with","actor":"IRINA","target":"OLGA","mood":"hopeful","intensity":2,"summary":"Irina glows with name-day joy; Olga muses she would like a husband."},
+{"start":34,"type":"reveals","fine":"breaks news to","actor":"TUZENBACH","target":"IRINA","mood":"calm","intensity":1,"summary":"Tuzenbach announces Vershinin's visit and describes him, while Soleni and Chebutikin wander in."}
+],
+"s01054": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"WOMAN","target":null,"mood":"suspense","intensity":3,"summary":"A wary woman locks herself in the motel room and checks every corner."},
+{"start":16,"type":"works","fine":"writes","actor":"WOMAN","target":null,"mood":"ominous","intensity":3,"summary":"She tests her recorder and logs day one; playback adds a whispered line."},
+{"start":45,"type":"hides","fine":"masks a feeling","actor":"LENA","target":null,"mood":"fear","intensity":3,"summary":"A key tag reveals she is repeating a borrowed identity as Lena Marsh."},
+{"start":60,"type":"flees","fine":"hides from","actor":"LENA","target":null,"mood":"fear","intensity":5,"summary":"The recorder starts itself, speaks of the future; she smashes it and hides as the bathroom stirs."}
+],
+"pd_earnest_3": [
+{"start":1,"type":"leaves","fine":"excuses themself","actor":"CHASUBLE","target":"JACK","mood":"playful","intensity":1,"summary":"Chasuble, Miss Prism and Cecily leave the two brothers together."},
+{"start":8,"type":"confronts","fine":"demands answers from","actor":"JACK","target":"ALGERNON","mood":"playful","intensity":2,"summary":"Jack orders Algernon out; Merriman's unpacked luggage forces Jack to arrange his departure."},
+{"start":19,"type":"mocks","fine":"needles","actor":"ALGERNON","target":"JACK","mood":"playful","intensity":2,"summary":"Algernon and Jack trade barbs over mourning clothes and the four-five train."},
+{"start":36,"type":"bonds","fine":"flirts with","actor":"ALGERNON","target":"CECILY","mood":"tender","intensity":2,"summary":"Algernon, alone, praises Cecily, then tells her he is being sent away."}
+],
+"s01116": [
+{"start":1,"type":"jokes","fine":"teases","actor":"CAMILA","target":"TEDDY","mood":"awkward","intensity":2,"summary":"At a wine tasting, Camila teases ex Teddy about his sour-faced verdict."},
+{"start":21,"type":"reveals","fine":"drops a bombshell on","actor":"IZABELLA","target":"TEDDY","mood":"awkward","intensity":4,"summary":"Henrik praises the wine; Izabella introduces him to Teddy as her fiance."},
+{"start":33,"type":"hides","fine":"masks a feeling","actor":"TEDDY","target":"IZABELLA","mood":"melancholy","intensity":3,"summary":"Teddy congratulates them, drains his glass, and Camila tenderly refills it."}
+],
+"s01093": [
+{"start":1,"type":"works","fine":"prepares","actor":"PEGGY","target":null,"mood":"calm","intensity":1,"summary":"Mr. Abernathy instructs Peggy to start the film at eight and leaves."},
+{"start":17,"type":"reveals","fine":"breaks news to","actor":"TUCKER","target":"PEGGY","mood":"hopeful","intensity":4,"summary":"Tucker gives Peggy an envelope: she won the scholarship."},
+{"start":40,"type":"hides","fine":"keeps a secret","actor":"PEGGY","target":"TUCKER","mood":"tender","intensity":4,"summary":"Tucker says Dad already read it and put it back; Peggy tears up."},
+{"start":47,"type":"works","fine":"goes through routine","actor":"PEGGY","target":"TUCKER","mood":"bittersweet","intensity":2,"summary":"Peggy starts the projector and asks for the next reel; their fingers brush."}
+],
+"s01076": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"MARGUERITE","target":"THADDEUS","mood":"awkward","intensity":2,"summary":"Marguerite offers Thaddeus a pointless promotion as Chief Pod Officer."},
+{"start":23,"type":"accuses","fine":"condemns","actor":"THADDEUS","target":"MARGUERITE","mood":"hostile","intensity":4,"summary":"Thaddeus condemns the layoffs and the Farewell Sync invite for his mentor's funeral."},
+{"start":37,"type":"confesses","fine":"unburdens to","actor":"THADDEUS","target":"MARGUERITE","mood":"grief","intensity":4,"summary":"He admits cheerfully training people marked for layoff, then quits."},
+{"start":48,"type":"leaves","fine":"walks out on","actor":"THADDEUS","target":"MARGUERITE","mood":"bittersweet","intensity":3,"summary":"He slaps his name tag on the table and rejects the budget."}
+],
+"pd_sisters_3": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"ANFISA","target":"IRINA","mood":"tender","intensity":2,"summary":"Anfisa happily describes her new government flat while Vershinin checks his watch."},
+{"start":14,"type":"bonds","fine":"reconnects with","actor":"VERSHININ","target":"OLGA","mood":"melancholy","intensity":3,"summary":"Vershinin and Olga say farewell, trading regrets and philosophy while waiting for Masha."},
+{"start":40,"type":"arrives","fine":"returns","actor":"MASHA","target":"VERSHININ","mood":"melancholy","intensity":3,"summary":"Masha arrives; Olga steps aside as she and Vershinin say a final good-bye."}
+],
+"s01034": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"BEATRIX","target":"FENWICK","mood":"suspense","intensity":3,"summary":"Beatrix and Nico note the fox missing an eye and question Fenwick's claim."},
+{"start":7,"type":"discovers","fine":"finds a clue","actor":"BEATRIX","target":"FENWICK","mood":"suspense","intensity":4,"summary":"Beatrix finds a note in the socket as Fenwick edges away; it points to the owl."}
+],
+"pd_sisters_1": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ANDREY","target":null,"mood":"calm","intensity":1,"summary":"Andrey dismisses a visitor and retires; a nurse sings to the child."},
+{"start":8,"type":"confides","fine":"confides in","actor":"VERSHININ","target":"MASHA","mood":"tender","intensity":3,"summary":"Vershinin and Masha talk of civilians and army men; he confesses his unhappy home."},
+{"start":32,"type":"confesses","fine":"opens up to","actor":"VERSHININ","target":"MASHA","mood":"tender","intensity":4,"summary":"Vershinin kisses her hand and declares love; Masha laughs, afraid, then hides her face."},
+{"start":43,"type":"arrives","fine":"makes an entrance","actor":"TUZENBACH","target":"IRINA","mood":"playful","intensity":1,"summary":"Irina and Tuzenbach enter, he declaring he will escort her home for years."}
+],
+"pd_earnest_0": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ALGERNON","target":"LANE","mood":"playful","intensity":2,"summary":"Algernon and Lane banter over piano, sandwiches, champagne and marriage."},
+{"start":26,"type":"arrives","fine":"makes an entrance","actor":"JACK","target":"ALGERNON","mood":"playful","intensity":2,"summary":"Jack arrives as Ernest; Algernon grills him about the country, noticing the tea."}
+],
+"s01038": [
+{"start":1,"type":"interrogates","fine":"interrogates","actor":"KWAN","target":"ELOISE","mood":"tense","intensity":3,"summary":"Kwan questions Eloise at a deposition in a funeral home about the will witness."},
+{"start":17,"type":"hides","fine":"masks a feeling","actor":"ELOISE","target":"KWAN","mood":"tense","intensity":3,"summary":"Brandao finds the damaging statement; Eloise asks for water, steadying her shaking glove."}
+],
+"s00005": [
+{"start":1,"type":"decides","fine":"makes a plan","actor":"SABINE","target":"TEO","mood":"tense","intensity":3,"summary":"Sabine lays out the casino vault plan timings to her crew."},
+{"start":10,"type":"bonds","fine":"teams up with","actor":"HALVARD","target":"SABINE","mood":"suspense","intensity":3,"summary":"The gray man gives his name as the funicular nears the summit."}
+],
+"s01075": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"QUEEN ISOLDE","target":"MORVAN","mood":"ominous","intensity":4,"summary":"Isolde and Morvan trade threats across the silver bridge."},
+{"start":13,"type":"decides","fine":"commits","actor":"QUEEN ISOLDE","target":"MORVAN","mood":"tense","intensity":4,"summary":"Despite news the east wall fell, Isolde draws her sword and stays to fight."},
+{"start":23,"type":"attacks","fine":"fights","actor":"QUEEN ISOLDE","target":"MORVAN","mood":"chaotic","intensity":5,"summary":"She charges across the swaying bridge, deflects his spear, and presses the attack."}
+],
+"s01098": [
+{"start":1,"type":"accuses","fine":"turns on","actor":"DELPHINE","target":"ROSEMARY","mood":"hostile","intensity":3,"summary":"At the wake, Delphine, Rosemary and Benedict squabble over the will."},
+{"start":29,"type":"comforts","fine":"consoles","actor":"BENEDICT","target":"ROSEMARY","mood":"bittersweet","intensity":3,"summary":"Silence falls; Benedict touches Rosemary's arm and they laugh through grief."},
+{"start":42,"type":"bonds","fine":"shares a moment with","actor":"DELPHINE","target":"ROSEMARY","mood":"tender","intensity":3,"summary":"Oswald announces they are ready; Delphine joins them in a row facing the casket."}
+],
+"s01020": [
+{"start":1,"type":"investigates","fine":"investigates","actor":"OKONKWO","target":"PEDERSEN","mood":"tense","intensity":2,"summary":"Okonkwo surveys the bowling-alley evidence annex and questions the staff about unsigned boxes."},
+{"start":22,"type":"searches","fine":"questions witnesses","actor":"OKONKWO","target":"LENNOX","mood":"suspense","intensity":3,"summary":"Officer Tran reports a Lennox in the gate log; Lennox emerges from hiding."},
+{"start":33,"type":"discovers","fine":"finds a clue","actor":"BASHIR","target":"OKONKWO","mood":"tense","intensity":3,"summary":"Bashir says box nineteen was cut by a razor; Okonkwo waits Lennox out."}
+],
+"s00008": [
+{"start":1,"type":"deflects","fine":"stonewalls","actor":"JUNE","target":"WALLACE","mood":"tense","intensity":3,"summary":"June fends off guard Wallace's questions while secretly relaying to her crew."},
+{"start":20,"type":"bonds","fine":"reminisces with","actor":"WALLACE","target":"JUNE","mood":"tender","intensity":2,"summary":"Wallace recalls his late wife and Orion; June laughs genuinely."},
+{"start":33,"type":"reveals","fine":"comes clean to","actor":"WALLACE","target":"JUNE","mood":"playful","intensity":3,"summary":"Wallace reveals he knows about the heist, pours her coffee, and asks them to spare the telescope."}
+],
+"s01101": [
+{"start":1,"type":"works","fine":"works","actor":"LUCIANA","target":"DORIAN","mood":"tense","intensity":2,"summary":"The crew struggles to wake the dead console; Imani notes the hull is making noise."},
+{"start":17,"type":"discovers","fine":"realizes","actor":"ESPERANZA","target":"LUCIANA","mood":"suspense","intensity":3,"summary":"A rhythmic tapping is identified as a countdown pattern."},
+{"start":27,"type":"discovers","fine":"uncovers","actor":"LUCIANA","target":null,"mood":"fear","intensity":4,"summary":"Comms say they are locked in the sub bay, so the tapping source is something else."},
+{"start":44,"type":"observes","fine":"takes it in","actor":"TEO","target":null,"mood":"fear","intensity":5,"summary":"The light dies and thin laughter comes from the vent."}
+],
+"s01086": [
+{"start":1,"type":"observes","fine":"waits","actor":"MURIEL","target":"ANNIKA","mood":"suspense","intensity":3,"summary":"The crowd waits silent at the league finals as Annika needs a final spare."},
+{"start":14,"type":"attacks","fine":"strikes","actor":"ANNIKA","target":null,"mood":"tense","intensity":4,"summary":"Annika's first ball leaves one pin wobbling and standing; Hank gloats and taunts."},
+{"start":39,"type":"comforts","fine":"encourages","actor":"MURIEL","target":"ANNIKA","mood":"hopeful","intensity":3,"summary":"Muriel calms Annika and Deshawn hands her a towel."},
+{"start":50,"type":"decides","fine":"commits","actor":"ANNIKA","target":null,"mood":"triumphant","intensity":5,"summary":"Annika's gentle second throw topples the last pin and the alley erupts."},
+{"start":70,"type":"bonds","fine":"thanks","actor":"HANK","target":"ANNIKA","mood":"joyful","intensity":2,"summary":"Hank graciously shakes her hand across the rail and promises a rematch."}
+],
+"s00001": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"ODALYS","target":"INGRID","mood":"suspense","intensity":2,"summary":"Detective Odalys enters a taxidermy workshop at night to question a woman."},
+{"start":12,"type":"interrogates","fine":"interrogates","actor":"ODALYS","target":"INGRID","mood":"tense","intensity":3,"summary":"Odalys probes the museum break-in and the woman gives her name, Ingrid."},
+{"start":21,"type":"threatens","fine":"menaces","actor":"INGRID","target":"ODALYS","mood":"ominous","intensity":4,"summary":"A museum key tag gives Ingrid away; Odalys reaches for her weapon and orders the needle down."}
+],
+"pd_sisters_4": [
+{"start":1,"type":"arrives","fine":"returns","actor":"TROFIMOV","target":"LUBOV","mood":"grief","intensity":3,"summary":"Trofimov arrives early; Lubov embraces him and weeps for her drowned son."},
+{"start":24,"type":"bonds","fine":"reminisces with","actor":"LUBOV","target":"TROFIMOV","mood":"bittersweet","intensity":2,"summary":"Lubov notes how he has aged and he accepts being an eternal student."},
+{"start":30,"type":"pleads","fine":"asks for help from","actor":"PISCHIN","target":"LUBOV","mood":"awkward","intensity":2,"summary":"Pischin begs 240 roubles; Lubov has none and sends him to Gaev."},
+{"start":40,"type":"mocks","fine":"insults","actor":"GAEV","target":"YASHA","mood":"awkward","intensity":2,"summary":"Alone with Varya and Yasha, Gaev snipes at Lubov's spending and Yasha's smell."}
+]
+}

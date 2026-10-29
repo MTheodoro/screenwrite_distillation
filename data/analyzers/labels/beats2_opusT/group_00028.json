@@ -1,0 +1,270 @@
+{
+"s05157": [
+{"start": 1, "type": "hides", "fine": "lies low", "actor": "NADIA", "target": null, "mood": "fear", "intensity": 3, "summary": "On siege day eleven, Nadia hides in a stall as Mom's texts fail."},
+{"start": 15, "type": "arrives", "fine": "bursts in", "actor": "KOFI", "target": null, "mood": "tense", "intensity": 3, "summary": "Kofi drags injured Lucas in and wedges the door with a mop."},
+{"start": 24, "type": "reveals", "fine": "shows", "actor": "NADIA", "target": "KOFI", "mood": "tense", "intensity": 2, "summary": "Nadia reveals herself from the stall and Kofi lowers his light."},
+{"start": 31, "type": "observes", "fine": "takes it in", "actor": "LUCAS", "target": null, "mood": "fear", "intensity": 4, "summary": "Lucas's ankle is badly swollen as a blast shakes the walls."},
+{"start": 40, "type": "persuades", "fine": "persuades", "actor": "MS. BRANDT", "target": "NADIA", "mood": "ominous", "intensity": 4, "summary": "A voice claiming to be Ms. Brandt asks to be let in."},
+{"start": 44, "type": "accuses", "fine": "suspects", "actor": "LUCAS", "target": "MS. BRANDT", "mood": "suspense", "intensity": 4, "summary": "They whisper-argue; Kofi says Brandt left on the first bus."},
+{"start": 47, "type": "hides", "fine": "lies low", "actor": "KOFI", "target": null, "mood": "suspense", "intensity": 4, "summary": "The handle turns against the mop as shadows glide past outside."},
+{"start": 55, "type": "observes", "fine": "takes it in", "actor": "NADIA", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Mom texts I love you and Nadia clutches the phone wordlessly."},
+{"start": 59, "type": "confronts", "fine": "calls out", "actor": "NADIA", "target": "KOFI", "mood": "tense", "intensity": 3, "summary": "Nadia coldly catches Kofi's hand on the mop and he pulls back."},
+{"start": 67, "type": "hides", "fine": "ducks out of sight", "actor": "KOFI", "target": null, "mood": "fear", "intensity": 5, "summary": "Brandt's final warning, a bang, and all three dive beneath the sinks."},
+{"start": 72, "type": "observes", "fine": "waits", "actor": "NADIA", "target": null, "mood": "suspense", "intensity": 4, "summary": "Smoke curls under the door; Mom texts that she's coming."}
+],
+"s05158": [
+{"start": 1, "type": "discovers", "fine": "notices", "actor": "GRIEVE", "target": "OKONKWO", "mood": "suspense", "intensity": 2, "summary": "At a misty checkpoint, the passport photo doesn't match the man."},
+{"start": 11, "type": "confronts", "fine": "presses", "actor": "OKONKWO", "target": "GRIEVE", "mood": "tense", "intensity": 3, "summary": "Okonkwo presses Grieve, insisting the paperwork is immaculate."},
+{"start": 12, "type": "mocks", "fine": "needles", "actor": "GRIEVE", "target": "OKONKWO", "mood": "tense", "intensity": 3, "summary": "Grieve says the perfection bothers him and trades dry barbs."},
+{"start": 19, "type": "reveals", "fine": "exposes a secret to", "actor": "VANE", "target": "GRIEVE", "mood": "tense", "intensity": 4, "summary": "Vane says the order was revoked and both identities are false."},
+{"start": 23, "type": "persuades", "fine": "talks down", "actor": "OKONKWO", "target": "GRIEVE", "mood": "tense", "intensity": 4, "summary": "Okonkwo reaches for her briefcase and urges everyone to breathe."},
+{"start": 27, "type": "reveals", "fine": "lets slip to", "actor": "LENA", "target": "OKONKWO", "mood": "suspense", "intensity": 4, "summary": "The girl wakes and calls Okonkwo Mummy."},
+{"start": 31, "type": "decides", "fine": "decides", "actor": "GRIEVE", "target": "OKONKWO", "mood": "tense", "intensity": 4, "summary": "Grieve weighs the barrier and drops his clipboard."}
+],
+"s05159_0": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "BETH", "target": null, "mood": "calm", "intensity": 2, "summary": "Nervous Beth and Cal wait in a quiet clinic waiting room."},
+{"start": 10, "type": "comforts", "fine": "reassures", "actor": "CAL", "target": "BETH", "mood": "playful", "intensity": 2, "summary": "Cal promises it'll be great; Beth recalls the camping trip."},
+{"start": 13, "type": "observes", "fine": "watches", "actor": "BETH", "target": null, "mood": "calm", "intensity": 1, "summary": "Beth stares at a circling orange fish."},
+{"start": 16, "type": "comforts", "fine": "steadies", "actor": "CAL", "target": "BETH", "mood": "awkward", "intensity": 2, "summary": "They're called in; flustered Beth drops her tissue and Cal steadies her."}
+],
+"s05159_1": [
+{"start": 1, "type": "arrives", "fine": "is ushered in", "actor": "DR. OKAFOR", "target": "BETH", "mood": "awkward", "intensity": 2, "summary": "Dr. Okafor greets the couple, who insist they're fine."},
+{"start": 9, "type": "confesses", "fine": "opens up to", "actor": "BETH", "target": "DR. OKAFOR", "mood": "tender", "intensity": 3, "summary": "They admit terror and say together it's been three years."},
+{"start": 17, "type": "comforts", "fine": "consoles", "actor": "DR. OKAFOR", "target": "BETH", "mood": "tender", "intensity": 3, "summary": "Okafor acknowledges their long hope and offers tissues as Beth cries."},
+{"start": 22, "type": "observes", "fine": "listens to", "actor": "DR. OKAFOR", "target": "TINA", "mood": "suspense", "intensity": 4, "summary": "Tina interrupts; the lab results arrive and Okafor's face changes."},
+{"start": 30, "type": "reveals", "fine": "breaks news to", "actor": "DR. OKAFOR", "target": "BETH", "mood": "joyful", "intensity": 5, "summary": "Beth fears bad news; Okafor smiles and confirms it's a yes."},
+{"start": 38, "type": "bonds", "fine": "shares a moment with", "actor": "CAL", "target": "BETH", "mood": "joyful", "intensity": 4, "summary": "Beth weeps, Cal fumbles the model, and they hold each other."}
+],
+"s05160": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "JUNIPER", "target": null, "mood": "awkward", "intensity": 2, "summary": "Juniper wearily announces take nineteen to a shaky camera."},
+{"start": 4, "type": "confronts", "fine": "calls out", "actor": "OSEI", "target": "JUNIPER", "mood": "tense", "intensity": 3, "summary": "Osei says Juniper rushed the bridge; they blame the click track."},
+{"start": 13, "type": "confronts", "fine": "presses", "actor": "MARGUERITE", "target": "JUNIPER", "mood": "tense", "intensity": 3, "summary": "Marguerite calls saying the label wants the single by Friday."},
+{"start": 20, "type": "accuses", "fine": "blames", "actor": "JUNIPER", "target": "MARGUERITE", "mood": "hostile", "intensity": 4, "summary": "Juniper explodes that Marguerite made the promise, not them."},
+{"start": 21, "type": "attacks", "fine": "strikes", "actor": "JUNIPER", "target": null, "mood": "chaotic", "intensity": 5, "summary": "Juniper hurls the headphones into the glass; everyone scatters."}
+],
+"s05161": [
+{"start": 1, "type": "arrives", "fine": "makes an entrance", "actor": "BARRY", "target": null, "mood": "playful", "intensity": 2, "summary": "Self-important supervisor Barry strides into the warehouse at dawn."},
+{"start": 6, "type": "mocks", "fine": "needles", "actor": "NADINE", "target": "BARRY", "mood": "playful", "intensity": 2, "summary": "Nadine and Robin deadpan through Barry's early-bird pep talk."},
+{"start": 13, "type": "lies", "fine": "misleads", "actor": "BARRY", "target": "NADINE", "mood": "playful", "intensity": 2, "summary": "Barry starts the belt and insists today is totally normal."},
+{"start": 17, "type": "accuses", "fine": "suspects", "actor": "ROBIN", "target": "BARRY", "mood": "playful", "intensity": 2, "summary": "Robin and Nadine agree Barry is obviously lying."},
+{"start": 22, "type": "discovers", "fine": "finds a clue", "actor": "NADINE", "target": "BARRY", "mood": "playful", "intensity": 3, "summary": "An unscanned private box rolls by and Nadine asks about it."},
+{"start": 27, "type": "hides", "fine": "covers up", "actor": "BARRY", "target": "ROBIN", "mood": "playful", "intensity": 3, "summary": "Barry blusters that some boxes just lack barcodes."},
+{"start": 30, "type": "pleads", "fine": "begs", "actor": "BARRY", "target": "ROBIN", "mood": "chaotic", "intensity": 3, "summary": "The box rattles and sweating Barry begs them to put it down."},
+{"start": 40, "type": "discovers", "fine": "uncovers", "actor": "NADINE", "target": "BARRY", "mood": "playful", "intensity": 3, "summary": "Nadine rips it open: shampoo, stolen name tags, a boss award."},
+{"start": 45, "type": "confesses", "fine": "owns up to", "actor": "BARRY", "target": "ROBIN", "mood": "awkward", "intensity": 3, "summary": "Barry admits he made himself an award to be presented Friday."},
+{"start": 51, "type": "mocks", "fine": "humiliates", "actor": "NADINE", "target": "BARRY", "mood": "playful", "intensity": 3, "summary": "Nadine announces it to the warehouse and Barry buries his face."},
+{"start": 55, "type": "jokes", "fine": "teases", "actor": "ROBIN", "target": "BARRY", "mood": "playful", "intensity": 2, "summary": "Nadine tosses him shampoo and Robin crowns him with the sign."}
+],
+"s05162": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "BRANDT", "target": null, "mood": "tense", "intensity": 2, "summary": "Wired Detective Brandt waits at the rooftop bar watching the elevator."},
+{"start": 5, "type": "confronts", "fine": "interrogates", "actor": "HALE", "target": "BRANDT", "mood": "tense", "intensity": 2, "summary": "Hale calls, says he's in the garage, and asks if she's alone."},
+{"start": 15, "type": "discovers", "fine": "catches", "actor": "BRANDT", "target": "HALE", "mood": "suspense", "intensity": 3, "summary": "Brandt tests Hale's repeated location and lets it pass."},
+{"start": 19, "type": "discovers", "fine": "notices", "actor": "BRANDT", "target": null, "mood": "suspense", "intensity": 4, "summary": "An anonymous text warns she is not alone up there."},
+{"start": 24, "type": "searches", "fine": "investigates", "actor": "BRANDT", "target": null, "mood": "ominous", "intensity": 4, "summary": "Brandt radios backup about the garage and gets only a click."},
+{"start": 29, "type": "arrives", "fine": "arrives", "actor": "HALE", "target": "BRANDT", "mood": "tense", "intensity": 3, "summary": "Hale steps out of the elevator and sits warily beside her."},
+{"start": 35, "type": "reveals", "fine": "comes clean to", "actor": "HALE", "target": "BRANDT", "mood": "suspense", "intensity": 4, "summary": "Hale reveals he never called; a man has his phone and kid's schedule."},
+{"start": 45, "type": "discovers", "fine": "realizes", "actor": "BRANDT", "target": "HALE", "mood": "fear", "intensity": 4, "summary": "The watcher texts orders; Brandt realizes he's heard everything."},
+{"start": 57, "type": "decides", "fine": "gives an order", "actor": "BRANDT", "target": "HALE", "mood": "tense", "intensity": 4, "summary": "Brandt stands and orders Hale to stay seated whatever happens."},
+{"start": 63, "type": "confronts", "fine": "faces off with", "actor": "BRANDT", "target": null, "mood": "tense", "intensity": 5, "summary": "She lays the wire on the bar and turns to face him."}
+],
+"s05164": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "MIRA", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Mira rides a rainy night bus across from a hooded man."},
+{"start": 12, "type": "confesses", "fine": "opens up to", "actor": "MIRA", "target": "TEODOR", "mood": "melancholy", "intensity": 3, "summary": "Mira calls Dad, admitting she left for Aunt Lena's without telling."},
+{"start": 17, "type": "confronts", "fine": "calls out", "actor": "MIRA", "target": "TEODOR", "mood": "tense", "intensity": 3, "summary": "Teodor says he's not mad; Mira bitterly calls out his voice."},
+{"start": 19, "type": "hides", "fine": "conceals something", "actor": "HOODIE GUY", "target": "MIRA", "mood": "suspense", "intensity": 3, "summary": "The hooded man tenses and turns his lit phone face down."},
+{"start": 25, "type": "accuses", "fine": "blames", "actor": "MIRA", "target": "TEODOR", "mood": "hostile", "intensity": 4, "summary": "Mira erupts that he always says nothing, even when Mom left."},
+{"start": 29, "type": "reveals", "fine": "unmasks", "actor": "TEODOR", "target": "MIRA", "mood": "bittersweet", "intensity": 5, "summary": "The hooded man lowers his hood: Teodor, apologizing aloud across the aisle."},
+{"start": 35, "type": "confesses", "fine": "begs forgiveness from", "actor": "TEODOR", "target": "MIRA", "mood": "bittersweet", "intensity": 4, "summary": "Teodor stands and asks her to say it all to his face."}
+],
+"s05166": [
+{"start": 1, "type": "observes", "fine": "watches", "actor": "COLT", "target": "MO", "mood": "tense", "intensity": 2, "summary": "Teens in a laundromat warn each other as Colt eyes Mo's duffel."},
+{"start": 6, "type": "confronts", "fine": "demands answers from", "actor": "COLT", "target": "MO", "mood": "tense", "intensity": 3, "summary": "Colt demands his stuff; Mo says it belongs to Wren."},
+{"start": 8, "type": "arrives", "fine": "arrives", "actor": "WREN", "target": "COLT", "mood": "chaotic", "intensity": 4, "summary": "Wren appears, Jaylen blocks Colt, and flash drives spill everywhere."},
+{"start": 10, "type": "deflects", "fine": "plays dumb with", "actor": "PRISCILLA", "target": null, "mood": "playful", "intensity": 2, "summary": "Priscilla declares she saw nothing; Tessa mutters I told you."},
+{"start": 13, "type": "attacks", "fine": "lunges at", "actor": "WREN", "target": "COLT", "mood": "chaotic", "intensity": 4, "summary": "Colt grabs a drive and Wren lunges at him."},
+{"start": 15, "type": "discovers", "fine": "notices", "actor": null, "target": null, "mood": "suspense", "intensity": 4, "summary": "Lights flicker and police lights sweep the window; everyone freezes."}
+],
+"s05167": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "DR. PRUITT", "target": "LUCAS", "mood": "tense", "intensity": 2, "summary": "Dr. Pruitt makes Lucas explain how Mrs. Abernathy's cat vanished."},
+{"start": 14, "type": "searches", "fine": "examines", "actor": "LUCAS", "target": null, "mood": "suspense", "intensity": 3, "summary": "Lucas finds torn kibble and paw prints leading to the staff door."},
+{"start": 27, "type": "defends", "fine": "protects", "actor": "DR. PRUITT", "target": "MRS. ABERNATHY", "mood": "fear", "intensity": 4, "summary": "The knob turns by itself; Pruitt shields Abernathy, Lucas raises the flashlight."},
+{"start": 33, "type": "discovers", "fine": "notices", "actor": "LUCAS", "target": null, "mood": "suspense", "intensity": 4, "summary": "The door opens on darkness and two green eyes."},
+{"start": 39, "type": "arrives", "fine": "bursts in", "actor": "DEPUTY HARLOW", "target": "DR. PRUITT", "mood": "tense", "intensity": 3, "summary": "Deputy Harlow bangs in out of the storm and surveys the scene."},
+{"start": 46, "type": "defends", "fine": "denies to", "actor": "DR. PRUITT", "target": "DEPUTY HARLOW", "mood": "tense", "intensity": 3, "summary": "Harlow reports a break-in call; Pruitt and Lucas deny it too fast."},
+{"start": 50, "type": "reveals", "fine": "drops a bombshell on", "actor": "DEPUTY HARLOW", "target": "LUCAS", "mood": "ominous", "intensity": 4, "summary": "Harlow says the call came from inside the clinic."},
+{"start": 51, "type": "discovers", "fine": "recognizes", "actor": "MRS. ABERNATHY", "target": null, "mood": "ominous", "intensity": 4, "summary": "Biscuit steps into the light with a tiny brass key on her collar."}
+],
+"s05168": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "FRANCESCA", "target": null, "mood": "awkward", "intensity": 2, "summary": "A packed subway stalls; Francesca is pinned against the door."},
+{"start": 8, "type": "jokes", "fine": "banters with", "actor": "DEVIN", "target": "FRANCESCA", "mood": "awkward", "intensity": 2, "summary": "Devin apologizes for his cake box and says it's his sister's wedding."},
+{"start": 13, "type": "discovers", "fine": "recognizes", "actor": "FRANCESCA", "target": "DEVIN", "mood": "playful", "intensity": 3, "summary": "They realize they're in the same wedding; she needles his RSVPs."},
+{"start": 19, "type": "jokes", "fine": "teases", "actor": "GUS", "target": "FRANCESCA", "mood": "playful", "intensity": 2, "summary": "Gus chuckles that they should marry; both say no together."},
+{"start": 25, "type": "discovers", "fine": "realizes", "actor": "FRANCESCA", "target": "DEVIN", "mood": "tense", "intensity": 3, "summary": "Lights die and frantic texts show the ceremony is in twenty minutes."},
+{"start": 35, "type": "bonds", "fine": "shares a moment with", "actor": "FRANCESCA", "target": "DEVIN", "mood": "tender", "intensity": 3, "summary": "In the blue glow, they look at each other and soften."},
+{"start": 39, "type": "defends", "fine": "protects", "actor": "FRANCESCA", "target": "DEVIN", "mood": "playful", "intensity": 3, "summary": "The train lurches; Francesca saves the cake in a chain of catches."}
+],
+"s05169": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "ABEL", "target": null, "mood": "calm", "intensity": 1, "summary": "A desert barn studio idles while Abel stares at the monitor."},
+{"start": 10, "type": "confronts", "fine": "calls out", "actor": "ABEL", "target": "CLEMENTINE", "mood": "tense", "intensity": 2, "summary": "Abel accuses Clementine of slowing yesterday's bridge."},
+{"start": 13, "type": "confesses", "fine": "owns up to", "actor": "HUX", "target": "ABEL", "mood": "awkward", "intensity": 2, "summary": "Hux admits he slowed it because it felt like riding in."},
+{"start": 18, "type": "decides", "fine": "refuses", "actor": "ABEL", "target": "THE BAND", "mood": "tense", "intensity": 2, "summary": "The band asks if they're ready; Abel says not yet."},
+{"start": 23, "type": "persuades", "fine": "persuades", "actor": "HUX", "target": "ABEL", "mood": "tense", "intensity": 3, "summary": "Clementine and Hux push Abel to say yes for once."},
+{"start": 28, "type": "leaves", "fine": "walks out on", "actor": "ABEL", "target": "HUX", "mood": "tense", "intensity": 3, "summary": "Abel grabs his hat and shoulders past Hux for the door."},
+{"start": 37, "type": "discovers", "fine": "realizes", "actor": "ABEL", "target": "CLEMENTINE", "mood": "bittersweet", "intensity": 3, "summary": "Abel sees the ON AIR light; Clementine has been recording."},
+{"start": 43, "type": "decides", "fine": "accepts", "actor": "ABEL", "target": "THE BAND", "mood": "hopeful", "intensity": 3, "summary": "The band asks again and Abel finally says yeah."}
+],
+"s05170": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "PRIYA", "target": "TOBY", "mood": "calm", "intensity": 2, "summary": "Night nurse Priya checks on a boy waiting with a silent woman."},
+{"start": 10, "type": "deflects", "fine": "stonewalls", "actor": "THE WOMAN", "target": "PRIYA", "mood": "tense", "intensity": 2, "summary": "The woman refuses help while Priya gently probes."},
+{"start": 16, "type": "defends", "fine": "covers for", "actor": "PRIYA", "target": "GUS", "mood": "tense", "intensity": 2, "summary": "Gus checks in and Priya waves him off."},
+{"start": 23, "type": "confesses", "fine": "opens up to", "actor": "THE WOMAN", "target": "PRIYA", "mood": "melancholy", "intensity": 3, "summary": "The woman explains her mother is upstairs and kids aren't allowed."},
+{"start": 25, "type": "comforts", "fine": "reassures", "actor": "PRIYA", "target": "THE WOMAN", "mood": "tender", "intensity": 3, "summary": "Priya offers to sit with Toby; the exhausted woman looks up."},
+{"start": 35, "type": "bonds", "fine": "shares a moment with", "actor": "TOBY", "target": "PRIYA", "mood": "tender", "intensity": 2, "summary": "Denise lets go of the strap; Toby teases Priya's badge photo."},
+{"start": 42, "type": "arrives", "fine": "arrives", "actor": "DR. OKAFOR", "target": "DENISE", "mood": "hopeful", "intensity": 3, "summary": "Dr. Okafor says Denise's mother wants them both upstairs tonight."},
+{"start": 47, "type": "leaves", "fine": "leaves", "actor": "DENISE", "target": "PRIYA", "mood": "bittersweet", "intensity": 2, "summary": "Denise thanks Priya and leaves with Toby as Gus holds the elevator."}
+],
+"s05172": [
+{"start": 1, "type": "observes", "fine": "listens to", "actor": "JUNO", "target": null, "mood": "ominous", "intensity": 2, "summary": "Juno lies awake in her dark bedroom, listening."},
+{"start": 9, "type": "discovers", "fine": "notices", "actor": "JUNO", "target": null, "mood": "fear", "intensity": 3, "summary": "Slow thuds through the wall; her phone is dead; a wrong hum."},
+{"start": 23, "type": "searches", "fine": "investigates", "actor": "JUNO", "target": null, "mood": "fear", "intensity": 4, "summary": "Juno whispers hello and creeps out of bed, freezing at a creak."},
+{"start": 30, "type": "discovers", "fine": "realizes", "actor": "JUNO", "target": "THE BAND", "mood": "playful", "intensity": 2, "summary": "A flat Wonderwall reveals a garage band rehearsing next door."},
+{"start": 36, "type": "confronts", "fine": "calls out", "actor": "JUNO", "target": "THE BAND", "mood": "playful", "intensity": 2, "summary": "Relieved, Juno laughs and yells that it's one a.m."},
+{"start": 41, "type": "observes", "fine": "waits", "actor": "JUNO", "target": null, "mood": "ominous", "intensity": 3, "summary": "She settles back, unaware her closet door has opened an inch."},
+{"start": 50, "type": "reveals", "fine": "drops a bombshell on", "actor": "THE BAND", "target": "JUNO", "mood": "fear", "intensity": 5, "summary": "The voices whisper they're not in the garage; her eyes snap open."}
+],
+"s05173": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "LENA", "target": "MARCUS", "mood": "tense", "intensity": 4, "summary": "Dr. Voss works on a collapsed man as a bleeding stranger blocks a dryer."},
+{"start": 8, "type": "confronts", "fine": "interrogates", "actor": "LENA", "target": "MARCUS", "mood": "tense", "intensity": 3, "summary": "Marcus gives his name and Lena asks who did this."},
+{"start": 11, "type": "pleads", "fine": "calls for", "actor": "JOSIE", "target": null, "mood": "chaotic", "intensity": 3, "summary": "Josie backs away calling 911 as a terrier yaps."},
+{"start": 14, "type": "arrives", "fine": "bursts in", "actor": "ABEL", "target": null, "mood": "chaotic", "intensity": 4, "summary": "Security guard Abel bursts in ordering nobody to move."},
+{"start": 17, "type": "decides", "fine": "refuses", "actor": "ABEL", "target": "MARCUS", "mood": "tense", "intensity": 4, "summary": "Marcus urges Abel to chase the attacker; Abel doesn't go."},
+{"start": 19, "type": "threatens", "fine": "holds at gunpoint", "actor": "KANE", "target": null, "mood": "chaotic", "intensity": 5, "summary": "Officer Kane storms in, gun raised, demanding hands."},
+{"start": 21, "type": "defends", "fine": "holds the line against", "actor": "LENA", "target": "KANE", "mood": "tense", "intensity": 4, "summary": "Everyone raises their hands except Lena, still pressing the wound."},
+{"start": 24, "type": "discovers", "fine": "notices", "actor": null, "target": null, "mood": "ominous", "intensity": 4, "summary": "The dryer thuds; something inside is still running."}
+],
+"s05175": [
+{"start": 1, "type": "works", "fine": "cooks", "actor": "SAL", "target": null, "mood": "calm", "intensity": 2, "summary": "During a blackout Sal cooks by candlelight with family around."},
+{"start": 7, "type": "arrives", "fine": "arrives", "actor": "BIG DAVE", "target": "SAL", "mood": "playful", "intensity": 2, "summary": "Big Dave arrives soaked with ice; Sal and Kay banter."},
+{"start": 12, "type": "jokes", "fine": "teases", "actor": "KAY", "target": "TEDDY", "mood": "playful", "intensity": 2, "summary": "Teddy's mug tower collapses and Kay teases him."},
+{"start": 16, "type": "discovers", "fine": "notices", "actor": "BIG DAVE", "target": null, "mood": "suspense", "intensity": 2, "summary": "Dave points out a still woman with an umbrella on the drive."},
+{"start": 25, "type": "arrives", "fine": "is ushered in", "actor": "RUTH", "target": "SAL", "mood": "awkward", "intensity": 2, "summary": "Sal lets in Ruth, who has the wrong house number."},
+{"start": 30, "type": "bonds", "fine": "bonds with", "actor": "KAY", "target": "RUTH", "mood": "tender", "intensity": 2, "summary": "The family welcomes Ruth with soup, bread and a chair."}
+],
+"s05176_0": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "ominous", "intensity": 2, "summary": "A trawler creaks through fog on black water."}
+],
+"s05176_1": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "NELL", "target": "JONAH", "mood": "tense", "intensity": 4, "summary": "Nell presses a rag to Jonah's bleeding wound and calls Dr. Sun."},
+{"start": 8, "type": "pleads", "fine": "asks for help from", "actor": "NELL", "target": "DR. SUN", "mood": "tense", "intensity": 4, "summary": "Nell reports the deep wound and names Pete as the only option."},
+{"start": 10, "type": "decides", "fine": "refuses", "actor": "PETE", "target": "NELL", "mood": "tense", "intensity": 4, "summary": "Pale Pete refuses to do it again."},
+{"start": 13, "type": "persuades", "fine": "persuades", "actor": "DR. SUN", "target": "PETE", "mood": "tense", "intensity": 3, "summary": "Dr. Sun insists Pete can do it."},
+{"start": 14, "type": "discovers", "fine": "notices", "actor": "HALE", "target": null, "mood": "fear", "intensity": 4, "summary": "Something heavy drags across the deck and the hatch shakes."},
+{"start": 22, "type": "threatens", "fine": "warns", "actor": "JONAH", "target": "NELL", "mood": "fear", "intensity": 5, "summary": "Jonah warns something's out there and the lights die."}
+],
+"s05179_0": [
+{"start": 1, "type": "works", "fine": "cooks", "actor": "ROSA", "target": "DANNY", "mood": "playful", "intensity": 2, "summary": "Rosa flips tortillas for a long line while teasing Danny."},
+{"start": 10, "type": "deflects", "fine": "shrugs off", "actor": "ROSA", "target": "SKYE", "mood": "playful", "intensity": 2, "summary": "Skye warns the health inspector is coming; Rosa shrugs it off."}
+],
+"s05179_1": [
+{"start": 1, "type": "threatens", "fine": "warns", "actor": "CHUY", "target": "ROSA", "mood": "tense", "intensity": 2, "summary": "Chuy warns the whistling propane tank is low."},
+{"start": 8, "type": "decides", "fine": "gives an order", "actor": "ROSA", "target": "SKYE", "mood": "tense", "intensity": 2, "summary": "Rosa hears the hiss and orders Skye to check; Skye refuses."},
+{"start": 13, "type": "decides", "fine": "refuses", "actor": "ROSA", "target": "DANNY", "mood": "awkward", "intensity": 2, "summary": "Danny volunteers but Rosa orders him to stay at the window."}
+],
+"s05179_2": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "WELLS", "target": "ROSA", "mood": "tense", "intensity": 2, "summary": "Inspector Wells pulls up and calls for whoever's in charge."},
+{"start": 6, "type": "deflects", "fine": "dodges", "actor": "ROSA", "target": "WELLS", "mood": "playful", "intensity": 2, "summary": "Rosa dodges the permit question; Skye corrects her; Wells heads in."}
+],
+"s05179_3": [
+{"start": 1, "type": "searches", "fine": "investigates", "actor": "WELLS", "target": "ROSA", "mood": "tense", "intensity": 3, "summary": "Wells smells gas and Rosa jokes it off as tortillas."},
+{"start": 9, "type": "discovers", "fine": "notices", "actor": "SKYE", "target": "ROSA", "mood": "tense", "intensity": 3, "summary": "Skye spots the cracked hose, now audibly hissing."},
+{"start": 13, "type": "accuses", "fine": "turns on", "actor": "ROSA", "target": "DANNY", "mood": "hostile", "intensity": 4, "summary": "Danny admits the leak since Friday; Rosa turns on him and Chuy."},
+{"start": 20, "type": "defends", "fine": "holds the line against", "actor": "ROSA", "target": "WELLS", "mood": "hostile", "intensity": 4, "summary": "Wells orders everyone out; Rosa refuses, defending thirty years."},
+{"start": 24, "type": "accuses", "fine": "blames", "actor": "ROSA", "target": "SKYE", "mood": "tense", "intensity": 4, "summary": "The gauge hits red; Rosa rebuffs Skye and blames them all."},
+{"start": 31, "type": "confesses", "fine": "apologizes to", "actor": "DANNY", "target": "ROSA", "mood": "melancholy", "intensity": 3, "summary": "Danny apologizes and Rosa's anger drains away."},
+{"start": 36, "type": "attacks", "fine": "grabs", "actor": "WELLS", "target": "ROSA", "mood": "chaotic", "intensity": 5, "summary": "Rosa lunges for the valve as Wells grabs her and Skye shouts out."},
+{"start": 45, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "chaotic", "intensity": 5, "summary": "The hiss stops, a still beat, then the grill erupts in fire."}
+],
+"s05179_4": [
+{"start": 1, "type": "flees", "fine": "escapes", "actor": "DANNY", "target": null, "mood": "chaotic", "intensity": 4, "summary": "Everyone drags each other clear as smoke billows from the truck."},
+{"start": 7, "type": "jokes", "fine": "lightens the mood for", "actor": "ROSA", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Rosa deadpans about the inspection and everyone, even Wells, laughs."}
+],
+"s05182": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "THE BAND", "target": null, "mood": "calm", "intensity": 1, "summary": "A band sets up for take fourteen as a storm builds outside."},
+{"start": 12, "type": "works", "fine": "goes through routine", "actor": "THE BAND", "target": null, "mood": "tense", "intensity": 2, "summary": "They count in and play until the take falls apart."},
+{"start": 18, "type": "pleads", "fine": "calls for", "actor": "THE BAND", "target": null, "mood": "suspense", "intensity": 3, "summary": "Talkback is dead; the click ticks on and nobody answers."},
+{"start": 28, "type": "searches", "fine": "investigates", "actor": "THE BAND", "target": null, "mood": "suspense", "intensity": 3, "summary": "Rain leaks in and guitarists head to check the breaker."},
+{"start": 33, "type": "discovers", "fine": "realizes", "actor": "THE BAND", "target": null, "mood": "fear", "intensity": 4, "summary": "The click stops and a rising transformer whine fills the walls."},
+{"start": 41, "type": "flees", "fine": "scrambles away", "actor": "THE BAND", "target": null, "mood": "chaotic", "intensity": 4, "summary": "They yank cables and tangle, crashing to the floor."},
+{"start": 44, "type": "discovers", "fine": "notices", "actor": "THE BAND", "target": null, "mood": "fear", "intensity": 4, "summary": "Water spreads toward the power strips in silence."},
+{"start": 48, "type": "flees", "fine": "runs", "actor": "THE BAND", "target": null, "mood": "chaotic", "intensity": 5, "summary": "Everything powers up screaming; they flee as lights burst."},
+{"start": 59, "type": "observes", "fine": "takes it in", "actor": "THE BAND", "target": null, "mood": "hopeful", "intensity": 3, "summary": "Outside in the rain, they count heads: all five safe."}
+],
+"s05183": [
+{"start": 1, "type": "flees", "fine": "retreats", "actor": "KIM", "target": null, "mood": "fear", "intensity": 3, "summary": "Kim backs along a flooded hotel corridor, narrating the disaster."},
+{"start": 8, "type": "arrives", "fine": "arrives", "actor": "KIP", "target": "KIM", "mood": "tense", "intensity": 3, "summary": "Kip limps in with an axe; Sora drags bleeding Mrs. Odom."},
+{"start": 13, "type": "discovers", "fine": "notices", "actor": "KIM", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Kim's phone flickers with a message, then dies again."},
+{"start": 17, "type": "decides", "fine": "makes a plan", "actor": "SORA", "target": "KIM", "mood": "tense", "intensity": 4, "summary": "The siblings find the stairs flooded; Sora says go for the roof."},
+{"start": 23, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "fear", "intensity": 4, "summary": "A pipe bursts and the lights die into darkness."}
+],
+"s05184": [
+{"start": 1, "type": "observes", "fine": "watches", "actor": null, "target": null, "mood": "playful", "intensity": 2, "summary": "In an emptied wedding barn, the cake topper climbs down."},
+{"start": 6, "type": "arrives", "fine": "bursts in", "actor": "GUS", "target": "BEA", "mood": "playful", "intensity": 3, "summary": "Corgi Gus trots in with a garter and Bea skids up to him."},
+{"start": 9, "type": "jokes", "fine": "teases", "actor": "BEA", "target": "GUS", "mood": "playful", "intensity": 3, "summary": "Bea orders the garter dropped; Gus causes chaos and denies cheating."},
+{"start": 16, "type": "jokes", "fine": "banters with", "actor": "BEA", "target": "GUS", "mood": "playful", "intensity": 2, "summary": "Bea sets ground rules for the relay; Gus protests."},
+{"start": 20, "type": "jokes", "fine": "plays with", "actor": "BEA", "target": "GUS", "mood": "joyful", "intensity": 4, "summary": "A cork pops and they race through the barn."},
+{"start": 30, "type": "bonds", "fine": "shares a moment with", "actor": "GUS", "target": "BEA", "mood": "joyful", "intensity": 4, "summary": "They tie at the ribbon and Gus crowns Bea with the garter."}
+],
+"s05186": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "JONI", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Joni hosts Grandma Lucille's funeral reception while Ames watches the siblings."},
+{"start": 10, "type": "reveals", "fine": "lets slip to", "actor": "AMES", "target": "JONI", "mood": "tense", "intensity": 2, "summary": "Jory grumbles; Ames mentions the will reading and Joni stiffens."},
+{"start": 14, "type": "bonds", "fine": "reminisces with", "actor": "JORY", "target": "JONI", "mood": "bittersweet", "intensity": 3, "summary": "The siblings laugh about Lucille's terrible driving."},
+{"start": 23, "type": "discovers", "fine": "catches", "actor": "JORY", "target": "JONI", "mood": "tense", "intensity": 3, "summary": "A text about the house freezes Ames; Jory catches Joni noticing."},
+{"start": 28, "type": "confronts", "fine": "demands answers from", "actor": "JORY", "target": "JONI", "mood": "tense", "intensity": 4, "summary": "Jory stops Ames leaving and demands what house."},
+{"start": 34, "type": "reveals", "fine": "drops a bombshell on", "actor": "JONI", "target": "JORY", "mood": "tense", "intensity": 4, "summary": "Joni admits Grandma sold her the house for a dollar."}
+],
+"s05187_0": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "TAVI", "target": null, "mood": "calm", "intensity": 1, "summary": "A busy startup office; Tavi stares at a laptop."},
+{"start": 10, "type": "deflects", "fine": "stalls", "actor": "TAVI", "target": "RHEA", "mood": "awkward", "intensity": 2, "summary": "Rhea asks for a word; Tavi stalls, then follows her."}
+],
+"s05187_1": [
+{"start": 1, "type": "reveals", "fine": "breaks news to", "actor": "RHEA", "target": "TAVI", "mood": "tense", "intensity": 3, "summary": "Rhea says the Series B failed and payroll is Friday."},
+{"start": 6, "type": "accuses", "fine": "blames", "actor": "TAVI", "target": "RHEA", "mood": "tense", "intensity": 3, "summary": "Tavi reminds Rhea she promised cover through spring."},
+{"start": 12, "type": "reveals", "fine": "breaks news to", "actor": "RECEPTIONIST", "target": "RHEA", "mood": "tense", "intensity": 3, "summary": "A board member is already on his way up."},
+{"start": 16, "type": "confesses", "fine": "admits guilt to", "actor": "TAVI", "target": "RHEA", "mood": "tense", "intensity": 4, "summary": "Osei's text exposes Tavi; they admit signing it."},
+{"start": 22, "type": "arrives", "fine": "arrives", "actor": null, "target": "RHEA", "mood": "ominous", "intensity": 3, "summary": "The dog trots to the elevator as it dings open."}
+],
+"s05188": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "PAT", "target": null, "mood": "calm", "intensity": 1, "summary": "Three people sit in a church basement beneath a singing choir."},
+{"start": 9, "type": "jokes", "fine": "banters with", "actor": "PAT", "target": "PATSY", "mood": "playful", "intensity": 2, "summary": "Pat tries to begin; Patsy needles him and they bicker."},
+{"start": 17, "type": "lies", "fine": "covers a story for", "actor": "DEACON FLINT", "target": "PAT", "mood": "playful", "intensity": 2, "summary": "Deacon mutters for a drink, then claims he was humming."},
+{"start": 24, "type": "decides", "fine": "gives an order", "actor": "PAT", "target": null, "mood": "playful", "intensity": 2, "summary": "Pat declares what's said under the floor stays there."},
+{"start": 27, "type": "accuses", "fine": "exposes", "actor": "DEACON FLINT", "target": "PATSY", "mood": "playful", "intensity": 3, "summary": "Deacon exposes Patsy's relapses; Pat lets slip a third drink."},
+{"start": 34, "type": "accuses", "fine": "condemns", "actor": "DEACON FLINT", "target": "PAT", "mood": "chaotic", "intensity": 4, "summary": "Deacon rises denouncing liars and everyone shouts over the organ."},
+{"start": 43, "type": "jokes", "fine": "lightens the mood for", "actor": "PATSY", "target": null, "mood": "playful", "intensity": 3, "summary": "A pickle jar smashes; Patsy calls it a sign; Deacon wants one."}
+],
+"s05189_0": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "VOSS", "target": null, "mood": "melancholy", "intensity": 2, "summary": "An old trawler wallows at dawn; Captain Voss stands in the wheelhouse."},
+{"start": 10, "type": "works", "fine": "works", "actor": "LIN", "target": null, "mood": "calm", "intensity": 2, "summary": "First-season deckhand Lin hauls nets with torn gloves."}
+],
+"s05189_1": [
+{"start": 1, "type": "threatens", "fine": "warns", "actor": "COAST GUARD", "target": "VOSS", "mood": "tense", "intensity": 3, "summary": "The Coast Guard warns of a force nine gale within hours."},
+{"start": 10, "type": "observes", "fine": "hesitates", "actor": "VOSS", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Voss sets down the handset and stares at the heaving sea."},
+{"start": 15, "type": "deflects", "fine": "brushes off", "actor": "VOSS", "target": null, "mood": "melancholy", "intensity": 3, "summary": "A text begs Dad to come home; he turns it face down."}
+],
+"s05189_2": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "LIN", "target": null, "mood": "ominous", "intensity": 2, "summary": "Lin asks for news; unseen Noelle answers from the hold."},
+{"start": 5, "type": "discovers", "fine": "notices", "actor": "LIN", "target": null, "mood": "ominous", "intensity": 3, "summary": "Lin sees a grey wall of storm climbing the horizon."},
+{"start": 8, "type": "decides", "fine": "gives an order", "actor": "VOSS", "target": "LIN", "mood": "tense", "intensity": 4, "summary": "Voss orders Lin to cut the six-ton net."},
+{"start": 11, "type": "works", "fine": "works", "actor": "LIN", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Lin cuts the rope and the net falls away into the dark."}
+],
+"s05190": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "VOSS", "target": null, "mood": "calm", "intensity": 2, "summary": "Corporal Voss stamps papers at a rainy 1948 checkpoint."},
+{"start": 7, "type": "searches", "fine": "examines", "actor": "VOSS", "target": "MARTA", "mood": "tense", "intensity": 3, "summary": "Marta presents papers and holds her breath as Voss checks them."},
+{"start": 14, "type": "confronts", "fine": "challenges", "actor": "VOSS", "target": "MARTA", "mood": "tense", "intensity": 3, "summary": "Voss flags a stamp from a nonexistent town; Marta quips back."},
+{"start": 18, "type": "searches", "fine": "examines", "actor": "VOSS", "target": "MARTA", "mood": "tense", "intensity": 4, "summary": "The barrier slams; Voss shakes the violin and it rattles."},
+{"start": 26, "type": "pleads", "fine": "appeals to", "actor": "MARTA", "target": "VOSS", "mood": "tense", "intensity": 4, "summary": "Marta begs him to choose mercy over breaking her mother's violin."},
+{"start": 27, "type": "mocks", "fine": "needles", "actor": "VOSS", "target": "MARTA", "mood": "tense", "intensity": 3, "summary": "Voss needles her talking; she admits fear; he sets the violin down."},
+{"start": 31, "type": "arrives", "fine": "bursts in", "actor": "THE BAND", "target": "VOSS", "mood": "chaotic", "intensity": 3, "summary": "A muddy brass band arrives demanding passage; the boy bolts."},
+{"start": 35, "type": "decides", "fine": "accepts", "actor": "VOSS", "target": "MARTA", "mood": "hopeful", "intensity": 4, "summary": "Voss lifts the barrier and tells them to go."}
+]
+}

@@ -1,0 +1,22 @@
+{
+  "pt_hedda_0": {"1": "setting", "2": "setting", "3": "setting", "4": "setting", "5": "setting", "6": "setting", "7": "setting", "8": "setting", "9": "setting", "10": "setting", "11": "setting", "12": "setting", "13": "setting", "14": "setting", "15": "setting", "16": "setting"},
+  "pt_hedda_11": {"54": "setting", "55": "setting", "56": "setting", "57": "setting", "60": "setting"},
+  "pt_hedda_12": {"24": "setting"},
+  "pt_hedda_20": {"23": "setting"},
+  "pt_hedda_23": {"26": "setting", "27": "setting", "28": "setting", "29": "setting"},
+  "pt_hedda_24": {"41": "setting"},
+  "pt_hedda_3": {"63": "setting"},
+  "pt_hedda_31": {"6": "setting", "7": "setting", "8": "setting", "9": "setting", "10": "setting"},
+  "pt_hedda_37": {"54": "setting", "71": "event", "76": "setting"},
+  "pt_hedda_9": {"47": ["character", "JUDGE BRACK", "HEDDA", "MRS. ELVSTED"]},
+  "pt_husband_0": {"23": "setting", "24": "setting", "27": "setting", "28": "setting", "29": "event", "30": "setting"},
+  "pt_husband_22": {"45": "event"},
+  "pt_husband_24": {"12": "event", "42": "setting"},
+  "pt_husband_25": {"38": "event"},
+  "pt_husband_26": {"44": ["character", "MRS. CHEVELEY"]},
+  "pt_husband_28": {"34": ["character", "LORD GORING"]},
+  "pt_husband_29": {"54": "setting"},
+  "pt_husband_30": {"9": "setting", "41": "setting"},
+  "pt_husband_32": {"33": "setting"},
+  "pt_husband_38": {"26": "camera", "27": "camera", "28": "camera"}
+}

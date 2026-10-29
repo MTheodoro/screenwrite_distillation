@@ -1,0 +1,17 @@
+{
+"pt_seagull_5": {"22": "setting", "31": "setting"},
+"pt_seagull_7": {"6": "setting", "20": "event", "21": "setting", "22": "setting", "23": "setting", "24": "setting", "25": "setting", "27": "setting"},
+"pt_seagull_8": {"30": "setting", "42": "setting"},
+"pt_superman_0": {"2": "setting", "3": "setting", "12": "abstract", "13": "abstract", "16": "setting", "17": "camera", "18": "setting", "19": "setting", "20": "setting", "21": "setting", "22": "setting", "23": "setting", "26": "abstract", "35": ["character", "RAMSDEN"]},
+"pt_superman_10": {"20": "setting"},
+"pt_superman_11": {"1": "setting"},
+"pt_superman_14": {"59": "setting"},
+"pt_superman_17": {"17": "setting", "18": "setting", "19": "setting", "20": "setting", "21": "setting", "22": "setting", "23": "setting", "29": "abstract", "30": "abstract", "32": "abstract", "33": "abstract", "34": "abstract", "35": "abstract", "36": "abstract", "37": "abstract", "38": "abstract", "39": "abstract", "40": "abstract", "41": "abstract", "42": "abstract", "43": "abstract", "44": "abstract", "45": "abstract", "46": "abstract", "47": "abstract", "51": "abstract", "54": "setting", "55": "abstract"},
+"pt_superman_2": {"30": ["character", "RAMSDEN"], "41": ["character", "RAMSDEN"]},
+"pt_superman_21": {"1": "setting", "2": "event", "3": "camera"},
+"pt_superman_28": {"11": "event", "34": "event", "35": "setting", "39": "event"},
+"pt_superman_30": {"37": "setting", "38": "abstract", "39": "setting", "40": "abstract", "41": "setting", "42": "camera", "43": "setting", "44": "setting", "45": "setting", "46": "setting", "47": "abstract", "48": "setting", "49": "abstract"},
+"pt_woman_0": {"1": "setting", "2": "setting", "3": "setting", "4": "camera", "5": "camera", "22": "setting"},
+"pt_woman_1": {"35": "setting"},
+"pt_woman_12": {"23": "event"}
+}

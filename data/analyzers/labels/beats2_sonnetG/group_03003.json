@@ -1,0 +1,140 @@
+{
+"s01041": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"HOLLIS","target":"BRIGID","mood":"calm","intensity":2,"summary":"Four fishers and sleeping Ansel settle in the glowing shanty, trading small talk."},
+{"start":13,"type":"jokes","fine":"plays with","actor":"TEDDY","target":null,"mood":"joyful","intensity":2,"summary":"Teddy hooks a fish, struggles, and loses it, laughing while the adults cheer."},
+{"start":25,"type":"observes","fine":"takes it in","actor":"BRIGID","target":null,"mood":"calm","intensity":1,"summary":"Quiet settles; Brigid asks whether the lake talks, and the ice groans."},
+{"start":43,"type":"hides","fine":"keeps a secret","actor":"HOLLIS","target":"TEDDY","mood":"ominous","intensity":3,"summary":"Teddy hears humming; Hollis and Margot dismiss it in unison, neither smiling."},
+{"start":53,"type":"discovers","fine":"notices","actor":"ANSEL","target":"TEDDY","mood":"fear","intensity":5,"summary":"Ansel warns them off the hole as a pale hand rises and grips Teddy's mitten."}
+],
+"s01107": [
+{"start":1,"type":"bonds","fine":"reconnects with","actor":"MILO","target":"SADIE","mood":"melancholy","intensity":2,"summary":"Milo climbs up to Sadie's ledge; she silently makes room and they sit."},
+{"start":17,"type":"bonds","fine":"confides in","actor":"MILO","target":"SADIE","mood":"tender","intensity":2,"summary":"Milo offers a cracker; they share it in the dark."},
+{"start":20,"type":"jokes","fine":"plays with","actor":"SADIE","target":"MILO","mood":"tense","intensity":3,"summary":"Playful shoving nearly sends Sadie off the ledge; Milo catches her sleeve."},
+{"start":26,"type":"comforts","fine":"encourages","actor":"SADIE","target":"MILO","mood":"tender","intensity":2,"summary":"Sadie offers her hand and they climb down together."}
+],
+"s01035": [
+{"start":1,"type":"observes","fine":"waits","actor":"RENATA","target":null,"mood":"calm","intensity":1,"summary":"Renata, Miles and Adebayo wait in the dark gift shop; the captain orders them to stay."},
+{"start":15,"type":"jokes","fine":"banters with","actor":"ADEBAYO","target":"MILES","mood":"playful","intensity":2,"summary":"Adebayo and Miles joke about snow globes and a cure."},
+{"start":19,"type":"discovers","fine":"realizes","actor":"MILES","target":"ADEBAYO","mood":"tense","intensity":3,"summary":"Adebayo coughs; Miles presses him and learns the cough dates from Tuesday."},
+{"start":25,"type":"accuses","fine":"blames","actor":"RENATA","target":"MILES","mood":"hostile","intensity":4,"summary":"Renata reaches for the radio and accuses Miles of lying about symptoms."},
+{"start":35,"type":"discovers","fine":"notices","actor":"RENATA","target":null,"mood":"ominous","intensity":4,"summary":"Searchlights from an unknown hull sweep the promenade; the captain warns them to stay hidden."}
+],
+"s01102": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MARISOL","target":null,"mood":"chaotic","intensity":3,"summary":"In the soaked tent, Marisol on a chair tries to rally guests nobody hears."},
+{"start":17,"type":"attacks","fine":"lunges at","actor":"CALLUM","target":null,"mood":"chaotic","intensity":3,"summary":"The canopy leaks; three dive for the cake and slide into the mud."},
+{"start":22,"type":"jokes","fine":"amuses","actor":"MARISOL","target":null,"mood":"joyful","intensity":4,"summary":"Marisol laughs, toasts the wettest wedding, and leaps into Adebayo's arms."}
+],
+"s01043": [
+{"start":1,"type":"arrives","fine":"bursts in","actor":"CORNELIA","target":"THADDEUS","mood":"calm","intensity":2,"summary":"Cornelia strides into Thaddeus's assay office and drops a pouch of gold dust."},
+{"start":15,"type":"works","fine":"examines","actor":"THADDEUS","target":"CORNELIA","mood":"tense","intensity":2,"summary":"Thaddeus tests the dust with acid while she dryly answers his questions."},
+{"start":32,"type":"persuades","fine":"bargains with","actor":"CORNELIA","target":"THADDEUS","mood":"playful","intensity":2,"summary":"They haggle to seventeen dollars an ounce; he pays and she leaves uncounted."},
+{"start":44,"type":"threatens","fine":"warns","actor":"CORNELIA","target":"THADDEUS","mood":"tense","intensity":3,"summary":"Thaddeus fishes about her being alone; she reveals a claim and a rifle."},
+{"start":55,"type":"accuses","fine":"exposes","actor":"CORNELIA","target":"THADDEUS","mood":"hostile","intensity":4,"summary":"Cornelia exposes his rigged scale and draws a weapon, demanding the strongbox."},
+{"start":78,"type":"reveals","fine":"presents evidence to","actor":"CORNELIA","target":"THADDEUS","mood":"suspense","intensity":4,"summary":"She names the hidden four thousand under the false bottom; he surrenders it."},
+{"start":87,"type":"leaves","fine":"exits quietly","actor":"CORNELIA","target":"THADDEUS","mood":"ominous","intensity":2,"summary":"They echo 'We never met'; she smiles and leaves him shaken."}
+],
+"pd_dollhouse_0": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"NORA","target":null,"mood":"joyful","intensity":2,"summary":"Humming Nora enters in the winter parlor with parcels and a Christmas tree."},
+{"start":14,"type":"hides","fine":"conceals something","actor":"NORA","target":"HELMER","mood":"playful","intensity":2,"summary":"Nora tips the porter, sneaks macaroons, and listens at Helmer's door."},
+{"start":25,"type":"jokes","fine":"banters with","actor":"HELMER","target":"NORA","mood":"playful","intensity":2,"summary":"Helmer calls out pet names; Nora answers and hides the macaroons."},
+{"start":34,"type":"persuades","fine":"pitches to","actor":"NORA","target":"HELMER","mood":"playful","intensity":2,"summary":"Nora coaxes Torvald to let them spend more this Christmas."},
+{"start":48,"type":"defends","fine":"pushes back on","actor":"HELMER","target":"NORA","mood":"awkward","intensity":2,"summary":"Helmer lectures against debt; Nora submits, then he teases her with his purse."}
+],
+"s01052": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"TAMARA","target":null,"mood":"melancholy","intensity":2,"summary":"Sleepless Tamara floats in the cramped capsule, eyes open, stars motionless."},
+{"start":8,"type":"works","fine":"goes through routine","actor":"TAMARA","target":null,"mood":"melancholy","intensity":3,"summary":"She replays identical recorded logs and handles a creased photograph."},
+{"start":26,"type":"observes","fine":"takes it in","actor":"TAMARA","target":null,"mood":"grief","intensity":3,"summary":"She presses her palm to the cold porthole, wiping the fog away."},
+{"start":33,"type":"confesses","fine":"unburdens to","actor":"TAMARA","target":null,"mood":"grief","intensity":4,"summary":"Recording a new log, Tamara cannot say the lie and stops."}
+],
+"s01068": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"EVELYN","target":null,"mood":"melancholy","intensity":2,"summary":"Evelyn sways alone in the empty marathon hall at hour 487, asking for a cigarette."},
+{"start":12,"type":"jokes","fine":"banters with","actor":"JACK","target":"EVELYN","mood":"playful","intensity":2,"summary":"Jack shuffles out with a cigarette; they trade jokes about pacing."},
+{"start":26,"type":"bonds","fine":"flirts with","actor":"EVELYN","target":"JACK","mood":"tender","intensity":3,"summary":"Evelyn asks him to dance; they talk of hats and promises."},
+{"start":38,"type":"bonds","fine":"confides in","actor":"JACK","target":"EVELYN","mood":"bittersweet","intensity":3,"summary":"They speak the same line, laugh, and hold each other as the record skips."}
+],
+"s01044": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"ORRIN","target":null,"mood":"suspense","intensity":2,"summary":"Orrin and Sable creep into the moth library; Tamsin startles them."},
+{"start":11,"type":"flees","fine":"scrambles away","actor":"ORRIN","target":null,"mood":"chaotic","intensity":3,"summary":"The moths lift, swords ring, and the three tumble into a tangle."},
+{"start":14,"type":"threatens","fine":"issues an ultimatum to","actor":"VESPER","target":"SABLE","mood":"ominous","intensity":4,"summary":"Masked Vesper stills the moths and orders Sable to put down the lantern."}
+],
+"s01091": [
+{"start":1,"type":"threatens","fine":"holds at gunpoint","actor":"COURIER","target":"IRINA","mood":"tense","intensity":4,"summary":"The Courier holds Hayes at gunpoint and demands the agents drop weapons."},
+{"start":20,"type":"attacks","fine":"ambushes","actor":"IRINA","target":"COURIER","mood":"chaotic","intensity":5,"summary":"Irina's coin distracts him; Kofi fires and they brawl, freeing Hayes."},
+{"start":33,"type":"decides","fine":"gives an order","actor":"KOFI","target":"COURIER","mood":"tense","intensity":3,"summary":"Kofi seizes the gun and Irina cuffs the stilled Courier."},
+{"start":41,"type":"reveals","fine":"breaks news to","actor":"HAYES","target":"KOFI","mood":"suspense","intensity":3,"summary":"Hayes says the Courier was warning him about the Directorate; arrival is imminent."},
+{"start":51,"type":"flees","fine":"runs","actor":"IRINA","target":null,"mood":"tense","intensity":4,"summary":"They rush the Courier and Hayes to the stairwell as headlights sweep in."}
+],
+"pd_dollhouse_2": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"NORA","target":"THE CHILDREN","mood":"tense","intensity":2,"summary":"Nora makes the children swear secrecy about the stranger and sends them off."},
+{"start":7,"type":"hides","fine":"masks a feeling","actor":"NORA","target":null,"mood":"tense","intensity":3,"summary":"Alone, Nora frets and dresses the tree, forcing cheer."},
+{"start":21,"type":"confronts","fine":"calls out","actor":"HELMER","target":"NORA","mood":"tense","intensity":3,"summary":"Helmer deduces Krogstad visited and chides Nora for lying."},
+{"start":36,"type":"comforts","fine":"reassures","actor":"HELMER","target":"NORA","mood":"awkward","intensity":2,"summary":"He pardons her, settles by the stove, and she hesitantly calls him."}
+],
+"s01064": [
+{"start":1,"type":"confronts","fine":"stares down","actor":"IDRISSA","target":"FINNEGAN","mood":"tense","intensity":3,"summary":"Queen Idrissa and Balthazar challenge trespassing minstrel Finnegan, denying his brother exists."},
+{"start":11,"type":"reveals","fine":"shows","actor":"MORGANA","target":"BALTHAZAR","mood":"suspense","intensity":4,"summary":"Morgana emerges, vouches for him, and claims to be the brother; the bridge hums."}
+],
+"s01053": [
+{"start":1,"type":"observes","fine":"waits","actor":"EDMUND","target":null,"mood":"suspense","intensity":2,"summary":"Wardens wait in the shelter as the drone of bombers grows."},
+{"start":12,"type":"decides","fine":"gives an order","actor":"EDMUND","target":"VERA","mood":"tense","intensity":3,"summary":"Control warns of incendiaries; Edmund orders helmets on and buckets ready."},
+{"start":30,"type":"discovers","fine":"realizes","actor":"EDMUND","target":null,"mood":"fear","intensity":4,"summary":"A strike lands on Albert Road; Edmund learns it is his shop."},
+{"start":40,"type":"decides","fine":"changes course","actor":"EDMUND","target":"ALF","mood":"ominous","intensity":4,"summary":"Ignoring orders, Edmund leaves Vera in charge and heads out into the fire."}
+],
+"s01103": [
+{"start":1,"type":"searches","fine":"investigates","actor":"CORDELIA","target":null,"mood":"suspense","intensity":2,"summary":"Cordelia and Artemus wade through the flooded cellar, trading uneasy remarks."},
+{"start":10,"type":"discovers","fine":"notices","actor":"ARTEMUS","target":null,"mood":"fear","intensity":4,"summary":"A camera flash reveals a figure against the wall, then nothing."},
+{"start":24,"type":"deflects","fine":"stalls","actor":"CORDELIA","target":"ARTEMUS","mood":"ominous","intensity":3,"summary":"Artemus begs to leave; Cordelia explains patient forty-one, locked away for hearing things."},
+{"start":30,"type":"attacks","fine":"grabs","actor":"VOICE","target":"CORDELIA","mood":"fear","intensity":5,"summary":"A lullaby draws a drowned woman's hand around Cordelia's ankle in darkness."}
+],
+"s01055": [
+{"start":1,"type":"confronts","fine":"presses","actor":"PHILOMENA","target":"ARTUR","mood":"tense","intensity":2,"summary":"Philomena jabs at Artur for missing Sundays and senses he has news."},
+{"start":34,"type":"reveals","fine":"breaks news to","actor":"ARTUR","target":"PHILOMENA","mood":"grief","intensity":4,"summary":"Artur tells her the doctor wants her in care; she already knows."},
+{"start":57,"type":"comforts","fine":"consoles","actor":"PHILOMENA","target":"SOLEDAD","mood":"bittersweet","intensity":4,"summary":"Philomena feeds Soledad and shares the secret of the sauce: showing up."},
+{"start":80,"type":"bonds","fine":"shares a moment with","actor":"ARTUR","target":"PHILOMENA","mood":"tender","intensity":3,"summary":"Artur takes his mother's hand while the sauce simmers."}
+],
+"pd_sisters_5": [
+{"start":1,"type":"jokes","fine":"amuses","actor":"CHARLOTTA","target":"PISCHIN","mood":"playful","intensity":2,"summary":"Charlotta performs a shawl trick, producing Anya and Varya to applause."},
+{"start":16,"type":"pleads","fine":"appeals to","actor":"LUBOV","target":"VARYA","mood":"tense","intensity":3,"summary":"Lubov frets over Leonid and the estate sale; Varya hopes uncle bought it."},
+{"start":25,"type":"mocks","fine":"teases","actor":"TROFIMOV","target":"VARYA","mood":"hostile","intensity":3,"summary":"Trofimov teases Varya about Lopakhin; she snaps and admits she wants to marry him."},
+{"start":40,"type":"arrives","fine":"makes an entrance","actor":"YASHA","target":null,"mood":"playful","intensity":2,"summary":"Yasha announces a broken billiard cue, and Varya storms out."},
+{"start":46,"type":"defends","fine":"justifies themself to","actor":"TROFIMOV","target":"LUBOV","mood":"awkward","intensity":2,"summary":"Lubov chides Trofimov; he complains Varya meddles and insists they are above love."}
+],
+"s01027": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"JUNIOR","target":"DEZI","mood":"melancholy","intensity":2,"summary":"Heartbroken Dezi in the empty rink trades wry lines with a boy in a letterman jacket."},
+{"start":17,"type":"confronts","fine":"calls out","actor":"JUNIOR","target":"DEZI","mood":"awkward","intensity":2,"summary":"He mentions the borrowed car and introduces himself as Junior."},
+{"start":29,"type":"confesses","fine":"breaks down to","actor":"DEZI","target":"JUNIOR","mood":"bittersweet","intensity":3,"summary":"Dezi falls, screams and laughs; Junior joins and they vent about their parents."},
+{"start":48,"type":"arrives","fine":"shows up unannounced","actor":"FAIRWEATHER","target":"DEZI","mood":"awkward","intensity":2,"summary":"Ms. Fairweather finds them and kindly sends Dezi to call her mother."}
+],
+"s01063": [
+{"start":1,"type":"hides","fine":"lies low","actor":"SERAPHINA","target":null,"mood":"suspense","intensity":2,"summary":"Four thieves crouch among the clocks five minutes before midnight, a guard approaching."},
+{"start":12,"type":"works","fine":"prepares","actor":"BARTHOLOMEW","target":"KENJI","mood":"tense","intensity":3,"summary":"They open the panel, clip a wire, and Despina listens to the dome's lock."},
+{"start":33,"type":"works","fine":"repairs something","actor":"DESPINA","target":null,"mood":"suspense","intensity":4,"summary":"Despina matches the lock's rhythm and lifts the dome; Kenji frees the golden sun."},
+{"start":56,"type":"jokes","fine":"amuses","actor":"KENJI","target":"SERAPHINA","mood":"joyful","intensity":3,"summary":"Midnight chimes mask the guard; the crew laughs, relieved, and prepares to leave."}
+],
+"s01089": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"SIOBHAN","target":"TEDDY","mood":"tense","intensity":2,"summary":"In the church hospital, Siobhan asks Teddy to search for a signal."},
+{"start":14,"type":"reveals","fine":"breaks news to","actor":"TEDDY","target":"SIOBHAN","mood":"hopeful","intensity":3,"summary":"The radio reports the enemy withdrawing; Siobhan tempers hope and checks Oswin."},
+{"start":32,"type":"jokes","fine":"banters with","actor":"ROSALIND","target":"MIKHAIL","mood":"playful","intensity":2,"summary":"Rosalind checks Mikhail's wound and they joke quietly about his arm."},
+{"start":45,"type":"reveals","fine":"breaks news to","actor":"TEDDY","target":"SIOBHAN","mood":"melancholy","intensity":3,"summary":"A ceasefire at six is announced and exhaustion washes over the room."},
+{"start":52,"type":"works","fine":"cleans","actor":"SIOBHAN","target":null,"mood":"bittersweet","intensity":3,"summary":"Siobhan folds the bloody altar sheet and takes first watch as others sleep."}
+],
+"s00004": [
+{"start":1,"type":"observes","fine":"studies","actor":"HORACE","target":"NEELY","mood":"tense","intensity":2,"summary":"On a riverboat, Horace begins a deposition of genial Neely, Miles objecting."},
+{"start":32,"type":"searches","fine":"questions witnesses","actor":"HORACE","target":"NEELY","mood":"tense","intensity":2,"summary":"Horace casually asks about guests and sprinklers while Miles warns Neely."},
+{"start":45,"type":"confronts","fine":"corners","actor":"HORACE","target":"NEELY","mood":"suspense","intensity":4,"summary":"Horace turns to the engine room fire and the door locked from outside."},
+{"start":60,"type":"reveals","fine":"presents evidence to","actor":"HORACE","target":"NEELY","mood":"hostile","intensity":4,"summary":"He produces the signed work order for an exterior bolt from the dead contractor's file."},
+{"start":80,"type":"confesses","fine":"admits guilt to","actor":"NEELY","target":"HORACE","mood":"grief","intensity":4,"summary":"Neely admits the room was supposed to be empty; Horace writes one line."}
+]
+,
+"s00012": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BIRGITTA","target":null,"mood":"calm","intensity":1,"summary":"Birgitta dries laundry with her son Tobias in a rainy night laundromat."},
+{"start":14,"type":"bonds","fine":"charms","actor":"TOBIAS","target":"NOOR","mood":"playful","intensity":2,"summary":"Tobias offers his dinosaur to a lone girl, who critiques its brain size."},
+{"start":29,"type":"searches","fine":"questions witnesses","actor":"BIRGITTA","target":"NOOR","mood":"tense","intensity":3,"summary":"Birgitta learns Noor's father has been parking for an hour; Noor panics at calling someone."},
+{"start":46,"type":"arrives","fine":"bursts in","actor":"MAN","target":"NOOR","mood":"tender","intensity":4,"summary":"Noor's father bursts in, relieved, embraces her, and thanks Birgitta; Noor waves goodbye."}
+],
+"s01046": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"PRUDENCE","target":"MALCOLM","mood":"tense","intensity":2,"summary":"Prudence lingers by the pods; Malcolm emerges, unsurprised, and offers her coat."},
+{"start":23,"type":"accuses","fine":"suspects","actor":"PRUDENCE","target":"MALCOLM","mood":"hostile","intensity":3,"summary":"She doubts the spreadsheet he rewrote; he calls it streamlining."},
+{"start":37,"type":"decides","fine":"refuses","actor":"PRUDENCE","target":"MALCOLM","mood":"melancholy","intensity":3,"summary":"Prudence smooths her coat, refuses to leave, asks if he dreams, and exits."}
+]
+}

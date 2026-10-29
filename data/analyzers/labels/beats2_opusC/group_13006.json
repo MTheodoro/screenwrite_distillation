@@ -1,0 +1,53 @@
+{
+"pd_sisters_4": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "TROFIMOV", "target": "LUBOV", "mood": "tender", "intensity": 3, "summary": "Trofimov arrives early, kisses Lubov's hand, and she struggles to recognize him"},
+{"start": 12, "type": "confesses", "fine": "breaks down to", "actor": "LUBOV", "target": "TROFIMOV", "mood": "grief", "intensity": 5, "summary": "Lubov embraces Trofimov and weeps for her drowned son Grisha"},
+{"start": 23, "type": "bonds", "fine": "reconnects with", "actor": "LUBOV", "target": "TROFIMOV", "mood": "bittersweet", "intensity": 2, "summary": "Lubov remarks how old Trofimov has grown, still an eternal student"},
+{"start": 32, "type": "pleads", "fine": "begs", "actor": "PISCHIN", "target": "LUBOV", "mood": "awkward", "intensity": 2, "summary": "Pischin begs 240 roubles and Lubov has Gaev lend it"},
+{"start": 40, "type": "mocks", "fine": "belittles", "actor": "GAEV", "target": "YASHA", "mood": "playful", "intensity": 2, "summary": "Gaev grumbles about his sister's spending and insults Yasha"}
+],
+"s01057": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "ISMAIL", "target": null, "mood": "calm", "intensity": 1, "summary": "The hospital barge staff run quiet night rounds"},
+{"start": 20, "type": "comforts", "fine": "tends to", "actor": "ISMAIL", "target": "MRS. WRAY", "mood": "calm", "intensity": 2, "summary": "The barge groans and Mrs. Wray tells Ismail she is only bored"},
+{"start": 31, "type": "jokes", "fine": "amuses", "actor": "LINH", "target": "MRS. WRAY", "mood": "playful", "intensity": 2, "summary": "Linh reads the cracker box aloud and Mrs. Wray calls it beautiful"},
+{"start": 39, "type": "jokes", "fine": "banters with", "actor": "LINH", "target": "ISMAIL", "mood": "playful", "intensity": 1, "summary": "The horn sounds Calder Landing and Linh jokes about shore leave"},
+{"start": 51, "type": "comforts", "fine": "reassures", "actor": "BRONWEN", "target": "MRS. WRAY", "mood": "tender", "intensity": 2, "summary": "Bronwen tucks Mrs. Wray in and assures her everything's fine"}
+],
+"s01037": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "SUNNY", "target": "ROZ", "mood": "playful", "intensity": 2, "summary": "Sunny slides into Roz and Trevor's table with the codes"},
+{"start": 12, "type": "arrives", "fine": "is introduced", "actor": "ROZ", "target": "TREVOR", "mood": "playful", "intensity": 2, "summary": "Roz introduces Sunny, a teenage locksmith's daughter"},
+{"start": 20, "type": "decides", "fine": "makes a plan", "actor": "ROZ", "target": "TREVOR", "mood": "suspense", "intensity": 3, "summary": "Roz lays out the vault plan timed to the rotation"},
+{"start": 25, "type": "persuades", "fine": "bargains with", "actor": "SUNNY", "target": "ROZ", "mood": "playful", "intensity": 2, "summary": "Sunny haggles over her cut of the eleven million"},
+{"start": 37, "type": "decides", "fine": "makes a plan", "actor": "ROZ", "target": "SUNNY", "mood": "playful", "intensity": 2, "summary": "Roz explains the pneumatic tube, her sister, and the sleepy guards"},
+{"start": 58, "type": "deflects", "fine": "brushes off", "actor": "ROZ", "target": "SUNNY", "mood": "playful", "intensity": 2, "summary": "Roz brushes off Trevor and Sunny's what-if questions"},
+{"start": 69, "type": "bonds", "fine": "shares a moment with", "actor": "TREVOR", "target": "ROZ", "mood": "bittersweet", "intensity": 2, "summary": "Trevor finds the view beautiful; Roz insists it's a job as they toast"}
+],
+"s01059": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "PETRA", "target": "OTTOLINE", "mood": "tense", "intensity": 3, "summary": "Petra questions Ottoline about the survey as Reginald objects"},
+{"start": 19, "type": "arrives", "fine": "bursts in", "actor": "ABIODUN", "target": "PETRA", "mood": "awkward", "intensity": 3, "summary": "Clerk Abiodun bursts in with an urgent filing about the ridge"},
+{"start": 28, "type": "reveals", "fine": "presents evidence to", "actor": "ABIODUN", "target": "PETRA", "mood": "awkward", "intensity": 3, "summary": "Petra and Reginald both grab for the folder, then draw back"},
+{"start": 34, "type": "discovers", "fine": "realizes", "actor": "OTTOLINE", "target": null, "mood": "suspense", "intensity": 4, "summary": "Ottoline reads the folder and declares the ridge was never theirs"}
+],
+"s01047": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "CULLEN", "target": null, "mood": "tense", "intensity": 3, "summary": "Stranded on the salt flat, the trio watch a speck approach"},
+{"start": 6, "type": "pleads", "fine": "bargains for mercy with", "actor": "DUTCH", "target": "CULLEN", "mood": "tense", "intensity": 2, "summary": "Dutch asks to be unshackled to shoot; Cullen refuses and shares water"},
+{"start": 13, "type": "observes", "fine": "watches", "actor": "CULLEN", "target": null, "mood": "suspense", "intensity": 3, "summary": "A lone rider stops and waves a white cloth; Cullen lowers his rifle"}
+],
+"s01074": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "GLORIA", "target": null, "mood": "playful", "intensity": 1, "summary": "Gloria serves cake at a closet anniversary party as a stranger watches"},
+{"start": 20, "type": "searches", "fine": "investigates", "actor": "TALL MAN", "target": "GLORIA", "mood": "awkward", "intensity": 2, "summary": "The Tall Man asks if it's a huddle and takes notes"},
+{"start": 37, "type": "persuades", "fine": "charms", "actor": "GLORIA", "target": "BERTRAM", "mood": "awkward", "intensity": 2, "summary": "Gloria gets his name and coaxes Bertram into eating cake"},
+{"start": 44, "type": "threatens", "fine": "warns", "actor": "BERTRAM", "target": "GLORIA", "mood": "tense", "intensity": 3, "summary": "Bertram reveals closets are being made efficient; Dez snaps back"},
+{"start": 56, "type": "defends", "fine": "holds the line against", "actor": "GLORIA", "target": "BERTRAM", "mood": "awkward", "intensity": 2, "summary": "Bertram notes the cake and Gloria answers drily about lemon frosting"},
+{"start": 65, "type": "works", "fine": "repairs something", "actor": "DEZ", "target": null, "mood": "chaotic", "intensity": 3, "summary": "A driverless toner cart hits the cake box and all four grab it"},
+{"start": 76, "type": "bonds", "fine": "shares a moment with", "actor": "GLORIA", "target": "BERTRAM", "mood": "playful", "intensity": 2, "summary": "Frozen together holding everything, they joke that alignment is achieved"},
+{"start": 91, "type": "arrives", "fine": "shows up unannounced", "actor": "MAILROOM KID", "target": "GLORIA", "mood": "playful", "intensity": 1, "summary": "The mailroom kid asks about cake and Gloria orders another slice"}
+],
+"s01066": [
+{"start": 1, "type": "pleads", "fine": "calls for", "actor": "BERNADETTE", "target": "RESCUE ONE", "mood": "tense", "intensity": 2, "summary": "On an ice floe camp, Bernadette radios for rescue"},
+{"start": 12, "type": "reveals", "fine": "breaks news to", "actor": "BERNADETTE", "target": "JOSEPHINE", "mood": "hopeful", "intensity": 3, "summary": "Bernadette announces rescue is two hours away"},
+{"start": 18, "type": "flees", "fine": "scrambles away", "actor": "JOSEPHINE", "target": null, "mood": "chaotic", "intensity": 5, "summary": "The floe splits and all three dive into the raft"},
+{"start": 22, "type": "decides", "fine": "gives an order", "actor": "JOSEPHINE", "target": "BERNADETTE", "mood": "tense", "intensity": 4, "summary": "They cut the line and the stove sinks into black water"},
+{"start": 28, "type": "comforts", "fine": "reassures", "actor": "RESCUE ONE", "target": "BERNADETTE", "mood": "hopeful", "intensity": 3, "summary": "Rescue One comes in clearly: they have them, stay put"}
+]
+}

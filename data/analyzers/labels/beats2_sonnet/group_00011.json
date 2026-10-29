@@ -1,0 +1,130 @@
+{
+"s00729": [
+{"start":1,"type":"comforts","fine":"calms","actor":"KWAME","target":"SAMIRA","mood":"tense","intensity":3,"summary":"Six strangers stuck in a stalled cable car argue over waiting versus climbing out."},
+{"start":30,"type":"bonds","fine":"teams up with","actor":"HIRO","target":"SAMIRA","mood":"tender","intensity":3,"summary":"They share tea and Hiro's story of singing in a cave, then sing together."},
+{"start":55,"type":"observes","fine":"takes it in","actor":"KWAME","target":null,"mood":"suspense","intensity":3,"summary":"The cable shudders and the car lurches back into motion, cheered by all."},
+{"start":77,"type":"discovers","fine":"notices","actor":"KWAME","target":"BRONWYN","mood":"ominous","intensity":4,"summary":"The car heads for a ranger hut with an armed figure, and Kwame demands silence."}
+],
+"s02196": [
+{"start":1,"type":"searches","fine":"questions witnesses","actor":"HALVERSON","target":"MISS FITCH","mood":"suspense","intensity":3,"summary":"Inspector Halverson questions Miss Fitch and Ashworth over a conservatory murder."},
+{"start":19,"type":"discovers","fine":"finds a clue","actor":"HALVERSON","target":null,"mood":"suspense","intensity":4,"summary":"He finds a silver button in the fountain that isn't the victim's."},
+{"start":36,"type":"threatens","fine":"issues an ultimatum to","actor":"HALVERSON","target":"MISS FITCH","mood":"tense","intensity":4,"summary":"Halverson eyes both suspects and forbids anyone from leaving the glasshouse."}
+],
+"s00871": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"INES","target":"HARLAN","mood":"tense","intensity":2,"summary":"Six relatives argue over where to scatter Marta's ashes on the ferry deck."},
+{"start":13,"type":"accuses","fine":"calls out","actor":"DMITRI","target":"HARLAN","mood":"hostile","intensity":3,"summary":"Dmitri notices the urn was opened; Harlan admits he looked, and tempers flare."},
+{"start":23,"type":"reveals","fine":"drops a bombshell on","actor":"ZOFIA","target":"INES","mood":"suspense","intensity":4,"summary":"Priya tips out ash, but Zofia declares the ashes are not Marta."}
+],
+"s00024": [
+{"start":1,"type":"works","fine":"repairs something","actor":"MARGUERITE","target":"TOBIAS","mood":"tense","intensity":4,"summary":"Marguerite splints Tobias's broken leg on a crevasse ledge as he urges her to leave."},
+{"start":15,"type":"reveals","fine":"breaks news to","actor":"RANGER","target":"MARGUERITE","mood":"hopeful","intensity":3,"summary":"A radio call promises a helicopter in forty minutes and Marguerite laughs with relief."},
+{"start":25,"type":"comforts","fine":"steadies","actor":"MARGUERITE","target":"TOBIAS","mood":"fear","intensity":5,"summary":"She sees Tobias fading, holds him warm, and tells base they are going nowhere."}
+],
+"s00590": [
+{"start":1,"type":"confronts","fine":"confronts","actor":"RAFAEL","target":"CORALIE","mood":"tense","intensity":3,"summary":"Rafael returns, finding Coralie and her aunt Sigrid; he challenges the letter saying she was leaving."},
+{"start":33,"type":"leaves","fine":"excuses themself","actor":"SIGRID","target":null,"mood":"calm","intensity":2,"summary":"Sigrid sighs and exits to see to tea, leaving the pair alone."},
+{"start":37,"type":"bonds","fine":"reconnects with","actor":"CORALIE","target":"RAFAEL","mood":"bittersweet","intensity":4,"summary":"Coralie drops the letter in the pond and they stop an arm's length apart."}
+],
+"s01573": [
+{"start":1,"type":"works","fine":"works","actor":"NADIA","target":null,"mood":"suspense","intensity":3,"summary":"Nadia races to finish a covert data task while dispatch presses her."},
+{"start":14,"type":"deflects","fine":"stalls","actor":"NADIA","target":"DISPATCH","mood":"tense","intensity":3,"summary":"She tells dispatch the weights have been wrong since March and the auditors can wait."},
+{"start":25,"type":"arrives","fine":"slips in","actor":"MARCUS","target":"NADIA","mood":"ominous","intensity":4,"summary":"Footsteps climb and plant manager Marcus enters smiling, then switches off the radio."},
+{"start":44,"type":"attacks","fine":"lunges at","actor":"MARCUS","target":"NADIA","mood":"chaotic","intensity":5,"summary":"Marcus demands she step away; she refuses, he lunges, and she swings the wrench."}
+],
+"s00622": [
+{"start":1,"type":"bonds","fine":"reconnects with","actor":"ROZ","target":"KWAME","mood":"tender","intensity":2,"summary":"Roz shows grandson Kwame the booth's projector, and the dusk light fades on the screen."},
+{"start":17,"type":"confesses","fine":"apologizes to","actor":"KWAME","target":"ROZ","mood":"bittersweet","intensity":3,"summary":"Kwame apologizes about Grandad; Roz gruffly makes him sit and touches his hair."}
+],
+"s02133": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"HOLLOWAY","target":"ANSELMO","mood":"calm","intensity":2,"summary":"Soldiers share wine in the abbey cellar with Brother Anselmo."},
+{"start":28,"type":"discovers","fine":"pieces it together","actor":"FONTAINE","target":"HOLLOWAY","mood":"suspense","intensity":4,"summary":"Anselmo fetches bread, and Fontaine notices his eleven days contradicts the shelling."},
+{"start":45,"type":"searches","fine":"tracks","actor":"HOLLOWAY","target":"ANSELMO","mood":"tense","intensity":4,"summary":"The soldiers creep through the casks to a narrow door and call him out."},
+{"start":51,"type":"threatens","fine":"holds at gunpoint","actor":"KRAUSS","target":"HOLLOWAY","mood":"suspense","intensity":5,"summary":"Wounded German officer Krauss aims a Luger as guns rise and Anselmo steps between."}
+],
+"s01471": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PEPPER","target":"DEZ","mood":"playful","intensity":2,"summary":"Pepper stuffs a turkey in her oven while nervous inspector Dez notes the lamp is off."},
+{"start":29,"type":"deflects","fine":"stonewalls","actor":"PEPPER","target":"DEZ","mood":"tense","intensity":3,"summary":"A phone rings; Pepper ignores it, Dez answers and learns a ferry is out there."},
+{"start":49,"type":"works","fine":"repairs something","actor":"PEPPER","target":null,"mood":"triumphant","intensity":3,"summary":"Pepper takes the phone, pulls a lever to light the beam, and reveals she turned it off to test him."},
+{"start":70,"type":"bursts in","fine":"bursts in","actor":"BRANNIGAN","target":"PEPPER","mood":"hostile","intensity":3,"summary":"Furious Captain Brannigan storms in demanding who turned off his lighthouse."},
+{"start":80,"type":"bonds","fine":"shares a moment with","actor":"PEPPER","target":"BRANNIGAN","mood":"joyful","intensity":3,"summary":"The smell of sage softens him and the three men settle in for turkey."}
+],
+"s00071": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"AGNES","target":"WEI-LING","mood":"calm","intensity":2,"summary":"Four strangers share tea in a closed funicular station on a rainy night."},
+{"start":17,"type":"discovers","fine":"notices","actor":"WEI-LING","target":"DELROY","mood":"suspense","intensity":3,"summary":"Wei-Ling spots a cash box behind the ticket grille that Delroy swore was empty."},
+{"start":26,"type":"attacks","fine":"grabs","actor":"DELROY","target":"FATHER TOBIAS","mood":"chaotic","intensity":4,"summary":"Delroy lunges for the window and grapples with Father Tobias until Agnes shows a revolver."}
+],
+"s01906_1": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"AMOS","target":null,"mood":"melancholy","intensity":2,"summary":"Amos enters the empty roadhouse and takes off his hat reverently."},
+{"start":16,"type":"discovers","fine":"uncovers","actor":"AMOS","target":null,"mood":"grief","intensity":4,"summary":"He reads Lottie's letter, which leaves him the house and says there is no grave."},
+{"start":36,"type":"leaves","fine":"exits quietly","actor":"AMOS","target":null,"mood":"bittersweet","intensity":3,"summary":"Amos pockets the letter, sets the lantern on the sill, and quietly departs."}
+],
+"s02224": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"SOO-JIN","target":"BARTY","mood":"playful","intensity":2,"summary":"Defense counsel Soo-Jin questions beekeeper Barty while Judge Cardenas overrules Wendell's objections."},
+{"start":20,"type":"reveals","fine":"lets slip to","actor":"BARTY","target":"SOO-JIN","mood":"suspense","intensity":3,"summary":"Barty reveals the bees went quiet an hour before the van, implicating Uncle Dario."},
+{"start":40,"type":"mocks","fine":"provokes","actor":"WENDELL","target":"BARTY","mood":"playful","intensity":2,"summary":"Wendell implies a grudge; Barty quips, and the judge recesses and asks for honey."}
+],
+"s01347": [
+{"start":1,"type":"works","fine":"writes","actor":"HALE","target":null,"mood":"melancholy","intensity":2,"summary":"Sergeant Hale writes a letter in the quiet mess tent as Private Quayle enters."},
+{"start":24,"type":"bonds","fine":"shares a moment with","actor":"HALE","target":"QUAYLE","mood":"calm","intensity":2,"summary":"Hale seats Quayle and offers his mug as they comment on the silence."},
+{"start":38,"type":"reveals","fine":"breaks news to","actor":"HALE","target":"QUAYLE","mood":"bittersweet","intensity":4,"summary":"Hale reads the message and tells Quayle the armistice means the war is over."},
+{"start":60,"type":"comforts","fine":"reassures","actor":"HALE","target":"QUAYLE","mood":"tender","intensity":3,"summary":"Quayle laughs helplessly; Hale tells him to eat and write his mother."}
+],
+"s01194": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"SERAPHINA","target":null,"mood":"suspense","intensity":2,"summary":"Seraphina, Bram and Tashi cross a giant whale-rib bridge toward Greymoor."},
+{"start":11,"type":"flees","fine":"scrambles away","actor":"SERAPHINA","target":null,"mood":"chaotic","intensity":4,"summary":"A rib cracks and a gap opens as the three crash to their knees."},
+{"start":14,"type":"confronts","fine":"stares down","actor":"GREYMOOR","target":"SERAPHINA","mood":"ominous","intensity":3,"summary":"Greymoor heals the bridge with mist and holds Seraphina's unblinking gaze."}
+],
+"s01301": [
+{"start":1,"type":"comforts","fine":"reassures","actor":"LARS","target":"MIKA","mood":"tense","intensity":3,"summary":"Coach Lars reassures trembling Mika about shifting winds before her jump."},
+{"start":19,"type":"leaves","fine":"abandons","actor":"MIKA","target":null,"mood":"suspense","intensity":5,"summary":"The tower falls silent and Mika pushes off down the ramp."},
+{"start":28,"type":"observes","fine":"takes it in","actor":"LARS","target":null,"mood":"triumphant","intensity":4,"summary":"Mika lands standing and Lars weeps with joy."}
+],
+"s00972": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"DOLORES","target":"PAZ","mood":"tense","intensity":2,"summary":"Estranged sisters Dolores and Paz face each other as lawyer Henrik arrives."},
+{"start":13,"type":"accuses","fine":"points the finger at","actor":"DOLORES","target":"PAZ","mood":"hostile","intensity":3,"summary":"Henrik says the house goes to the one who stayed, and each sister claims it."},
+{"start":35,"type":"reveals","fine":"presents evidence to","actor":"HENRIK","target":"DOLORES","mood":"bittersweet","intensity":4,"summary":"Henrik reads their mother's letter: neither gets the house."}
+],
+"s01750": [
+{"start":1,"type":"decides","fine":"gives an order","actor":"WHITCOMBE","target":"TRAN","mood":"calm","intensity":2,"summary":"Major Whitcombe assigns radio watch to Tran until dawn in the leaking hut."},
+{"start":18,"type":"mocks","fine":"needles","actor":"ODETTE","target":"WHITCOMBE","mood":"playful","intensity":2,"summary":"Odette teases the Major about wanting to hear a human voice."},
+{"start":31,"type":"confesses","fine":"opens up to","actor":"TRAN","target":"WHITCOMBE","mood":"melancholy","intensity":3,"summary":"Tran admits his brother fights for the other side."},
+{"start":42,"type":"observes","fine":"listens to","actor":"WHITCOMBE","target":null,"mood":"melancholy","intensity":3,"summary":"A faint woman's song comes through the static and they listen."}
+],
+"s00309": [
+{"start":1,"type":"observes","fine":"waits","actor":"MARIGOLD","target":null,"mood":"suspense","intensity":2,"summary":"Four partners wait in a dark lighthouse for something to appear on the sea."},
+{"start":24,"type":"discovers","fine":"notices","actor":"ZEPHYR","target":null,"mood":"suspense","intensity":3,"summary":"Zephyr spots a boat with a light approaching the unscheduled landing."},
+{"start":40,"type":"arrives","fine":"makes an entrance","actor":"MALACHI","target":null,"mood":"ominous","intensity":4,"summary":"Inspector Malachi enters, opens a case with a letter and revolver, and asks who wrote."}
+],
+"s00720": [
+{"start":1,"type":"reveals","fine":"presents evidence to","actor":"GWENDOLYN","target":"TOBIAS","mood":"playful","intensity":2,"summary":"Gwendolyn announces only eleven pigeons counted; Anjali says it is one limping bird."},
+{"start":21,"type":"reveals","fine":"breaks news to","actor":"LEONARD","target":"GWENDOLYN","mood":"playful","intensity":2,"summary":"Leonard on the intercom says the deadline is moved because the Mayor found squirrels."},
+{"start":28,"type":"decides","fine":"commits","actor":"GWENDOLYN","target":"MARISOL","mood":"bittersweet","intensity":2,"summary":"Gwendolyn pins a feather on the map and counts it as pigeon twelve."}
+],
+"s02335": [
+{"start":1,"type":"observes","fine":"waits","actor":"NOOR","target":null,"mood":"awkward","intensity":3,"summary":"Noor sits silent at her birthday as friends fidget and her mother stays distant."},
+{"start":16,"type":"hides","fine":"masks a feeling","actor":"PRISCILLA","target":"NOOR","mood":"melancholy","intensity":3,"summary":"Wesley prods Noor to bowl; Priscilla whispers that someone is not coming."},
+{"start":29,"type":"attacks","fine":"strikes","actor":"NOOR","target":null,"mood":"melancholy","intensity":3,"summary":"Noor throws a gutter ball; Rudy raises the bumpers and she lingers at the line."}
+],
+"s00121": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"WENDELL","target":"PIA","mood":"playful","intensity":2,"summary":"Pia and Wendell tease each other as they thread film in the booth."},
+{"start":13,"type":"works","fine":"works","actor":"PIA","target":"WENDELL","mood":"suspense","intensity":3,"summary":"Mrs. Dubois warns reel two is late; they thread it together under pressure."},
+{"start":33,"type":"bonds","fine":"shares a moment with","actor":"WENDELL","target":"PIA","mood":"joyful","intensity":3,"summary":"The changeover works, cars cheer, and they savor the best view in the county."}
+],
+"s00025": [
+{"start":1,"type":"works","fine":"prepares","actor":"IMELDA","target":"TOOTS","mood":"calm","intensity":2,"summary":"Dr. Imelda receives a gurney patient, cheerful Wendell, who fell from the Ferris wheel."},
+{"start":30,"type":"reveals","fine":"lets slip to","actor":"TOOTS","target":"IMELDA","mood":"suspense","intensity":4,"summary":"Toots privately tells her Wendell has no injuries and no pulse."},
+{"start":43,"type":"discovers","fine":"realizes","actor":"IMELDA","target":null,"mood":"ominous","intensity":4,"summary":"Dispatch says the victim was pronounced dead, and Wendell sits up unbreathing."},
+{"start":56,"type":"comforts","fine":"consoles","actor":"IMELDA","target":"WENDELL","mood":"grief","intensity":4,"summary":"Wendell fades; Imelda holds his hand, cancels the ambulance, and he thanks her."}
+],
+"s02365": [
+{"start":1,"type":"works","fine":"repairs something","actor":"RENATA","target":null,"mood":"melancholy","intensity":2,"summary":"Marooned astronauts struggle with a burned-out radio in the derelict Mars habitat."},
+{"start":17,"type":"discovers","fine":"notices","actor":"LEOPOLD","target":"HATTIE","mood":"hopeful","intensity":3,"summary":"A rumble builds; Leopold recognizes an engine, thrusters roar overhead."},
+{"start":29,"type":"arrives","fine":"returns","actor":"BILLIE","target":"HATTIE","mood":"joyful","intensity":4,"summary":"Captain Billie enters through the hatch; Renata embraces her and Hattie is stunned."},
+{"start":43,"type":"decides","fine":"makes a plan","actor":"HATTIE","target":"BILLIE","mood":"hopeful","intensity":3,"summary":"With eleven minutes before a dust storm, they leave and Billie helps Leopold."}
+],
+"s00911": [
+{"start":1,"type":"threatens","fine":"holds at gunpoint","actor":"RENATA","target":"LEO","mood":"tense","intensity":4,"summary":"Agent Renata holds the crane cab at gunpoint and demands Leo's satchel."},
+{"start":26,"type":"hides","fine":"keeps a secret","actor":"OLGA","target":"RENATA","mood":"suspense","intensity":4,"summary":"Olga's hand drifts inside her coat as Karim muses about dropping a container."},
+{"start":33,"type":"attacks","fine":"shoots at","actor":"OLGA","target":"RENATA","mood":"chaotic","intensity":5,"summary":"Olga draws, Renata aims, Karim yanks the lever, and the cab swings out over the water."}
+]
+}

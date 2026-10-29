@@ -1,0 +1,212 @@
+{
+"s01069": [
+{"start": 1, "type": "hides", "fine": "covers up", "actor": "MAN", "target": null, "mood": "suspense", "intensity": 2, "summary": "A man and woman arrive at the salvage yard to dispose of a sedan"},
+{"start": 7, "type": "observes", "fine": "spies on", "actor": "ELI", "target": "MAN", "mood": "suspense", "intensity": 2, "summary": "A kid watches from the office window as they unload"},
+{"start": 10, "type": "confronts", "fine": "presses", "actor": "NINA", "target": "MAN", "mood": "tense", "intensity": 3, "summary": "Nina frets about the plates and scolds him for using her name"},
+{"start": 20, "type": "arrives", "fine": "arrives", "actor": "ELI", "target": "MAN", "mood": "tense", "intensity": 3, "summary": "Eli walks out and refuses the crusher without papers"},
+{"start": 31, "type": "threatens", "fine": "intimidates", "actor": "MAN", "target": "ELI", "mood": "tense", "intensity": 4, "summary": "The man steps close and leans on Eli; Eli holds firm"},
+{"start": 40, "type": "attacks", "fine": "fights", "actor": "MAN", "target": "ELI", "mood": "chaotic", "intensity": 5, "summary": "The man grabs Eli; a brawl sends all three into the gravel"},
+{"start": 45, "type": "decides", "fine": "chooses", "actor": "ELI", "target": "NINA", "mood": "chaotic", "intensity": 5, "summary": "Eli starts the crusher, which drags the gym bag in with the car"},
+{"start": 53, "type": "defends", "fine": "holds the line against", "actor": "ELI", "target": "MAN", "mood": "triumphant", "intensity": 4, "summary": "The bleeding man asks about the bag; Eli calmly cites Terrence's rules as cash flies"}
+],
+"s01070": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "TEODOR", "target": "OKAFOR", "mood": "tense", "intensity": 3, "summary": "In a flooded mill, soldiers halt a stranger wading out of the dark"},
+{"start": 9, "type": "confronts", "fine": "interrogates", "actor": "OKAFOR", "target": "TEODOR", "mood": "tense", "intensity": 3, "summary": "Okafor demands his name; Halvorsen suspects he came from enemy side"},
+{"start": 16, "type": "hides", "fine": "lies low", "actor": "OKAFOR", "target": null, "mood": "suspense", "intensity": 4, "summary": "Engines approach; Okafor kills the light and the radio gives only static"}
+],
+"s01071": [
+{"start": 1, "type": "arrives", "fine": "returns", "actor": "ADELAIDE", "target": "TOBIAS", "mood": "awkward", "intensity": 2, "summary": "Adelaide stands gloved in the doorway of Tobias's cold workshop"},
+{"start": 14, "type": "mocks", "fine": "needles", "actor": "ADELAIDE", "target": "TOBIAS", "mood": "tense", "intensity": 2, "summary": "Adelaide notes the dust and hints the shop barely survives"},
+{"start": 24, "type": "confronts", "fine": "presses", "actor": "ADELAIDE", "target": "TOBIAS", "mood": "melancholy", "intensity": 3, "summary": "The boy shouts outside; Adelaide remarks he sounds like his mother"},
+{"start": 32, "type": "comforts", "fine": "tends to", "actor": "TOBIAS", "target": "ADELAIDE", "mood": "awkward", "intensity": 2, "summary": "Tobias fumbles offering tea and urges her to remove her gloves"},
+{"start": 46, "type": "confesses", "fine": "opens up to", "actor": "ADELAIDE", "target": "TOBIAS", "mood": "melancholy", "intensity": 3, "summary": "She nearly removes a glove; they acknowledge the burned letter's message"},
+{"start": 54, "type": "leaves", "fine": "leaves", "actor": "ADELAIDE", "target": "TOBIAS", "mood": "bittersweet", "intensity": 3, "summary": "Adelaide asks him to light a lamp for her and leaves"},
+{"start": 65, "type": "works", "fine": "cleans", "actor": "TOBIAS", "target": null, "mood": "tender", "intensity": 2, "summary": "Tobias carefully wipes her glove smear from the dusty lamp"}
+],
+"s01072": [
+{"start": 1, "type": "hides", "fine": "lies low", "actor": "RENATA", "target": null, "mood": "playful", "intensity": 1, "summary": "Renata contentedly eats lunch in her secret crawlspace hideout"},
+{"start": 12, "type": "observes", "fine": "listens to", "actor": "RENATA", "target": "INTERCOM", "mood": "playful", "intensity": 2, "summary": "The intercom announces an audit of all workstations"},
+{"start": 17, "type": "discovers", "fine": "realizes", "actor": "RENATA", "target": null, "mood": "tense", "intensity": 3, "summary": "Her own long-empty desk is called out; she peers at it"},
+{"start": 24, "type": "discovers", "fine": "catches", "actor": null, "target": "RENATA", "mood": "suspense", "intensity": 3, "summary": "A flashlight sweeps the crawlspace behind her"}
+],
+"s01073": [
+{"start": 1, "type": "confronts", "fine": "faces off with", "actor": "ELI", "target": "NADIA", "mood": "tense", "intensity": 2, "summary": "Opposing counsel Eli and Nadia trade jabs on the loading dock"},
+{"start": 13, "type": "reveals", "fine": "presents evidence to", "actor": "NADIA", "target": "ELI", "mood": "tense", "intensity": 3, "summary": "Nadia opens a box revealing a ledger missing from inventory"},
+{"start": 18, "type": "arrives", "fine": "makes an entrance", "actor": "JUDGE OKONKWO-REYES", "target": null, "mood": "tense", "intensity": 3, "summary": "The judge appears and demands why a sealed ledger is here"},
+{"start": 22, "type": "accuses", "fine": "accuses", "actor": "ELI", "target": "NADIA", "mood": "hostile", "intensity": 3, "summary": "Each lawyer blames the other over the ledger's custody"},
+{"start": 25, "type": "attacks", "fine": "lunges at", "actor": "ELI", "target": "NADIA", "mood": "chaotic", "intensity": 4, "summary": "Eli lunges for the ledger; boxes fall; Deputy Hale bursts in"},
+{"start": 30, "type": "decides", "fine": "gives an order", "actor": "JUDGE OKONKWO-REYES", "target": "DEPUTY HALE", "mood": "playful", "intensity": 3, "summary": "The judge calmly stands down Hale and confiscates the ledger"},
+{"start": 39, "type": "observes", "fine": "takes it in", "actor": "NADIA", "target": "ELI", "mood": "tense", "intensity": 2, "summary": "Eli fears ruin; Nadia says the judge decides who digs"}
+],
+"s01074": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "GLORIA", "target": null, "mood": "playful", "intensity": 1, "summary": "Gloria cuts anniversary cake in a closet as a stranger watches"},
+{"start": 13, "type": "jokes", "fine": "banters with", "actor": "GLORIA", "target": "PRIYA", "mood": "playful", "intensity": 1, "summary": "Gloria offers cake; Priya happily takes Dez's share"},
+{"start": 20, "type": "confronts", "fine": "interrogates", "actor": "TALL MAN", "target": "GLORIA", "mood": "awkward", "intensity": 2, "summary": "The tall man asks if this is a huddle and takes notes"},
+{"start": 29, "type": "confronts", "fine": "demands answers from", "actor": "GLORIA", "target": "BERTRAM", "mood": "tense", "intensity": 2, "summary": "Gloria pins him down as Efficiency's Bertram Hollis and wins him over with cake"},
+{"start": 44, "type": "threatens", "fine": "warns", "actor": "BERTRAM", "target": "GLORIA", "mood": "tense", "intensity": 3, "summary": "Bertram signals closets are targeted; Dez jabs back"},
+{"start": 56, "type": "deflects", "fine": "changes the subject on", "actor": "GLORIA", "target": "BERTRAM", "mood": "awkward", "intensity": 2, "summary": "Bertram notes the cake; Gloria steers to lemon frosting"},
+{"start": 65, "type": "bonds", "fine": "teams up with", "actor": "DEZ", "target": "BERTRAM", "mood": "chaotic", "intensity": 3, "summary": "A runaway toner cart hits the cake; all four save it"},
+{"start": 76, "type": "jokes", "fine": "lightens the mood for", "actor": "GLORIA", "target": "BERTRAM", "mood": "playful", "intensity": 2, "summary": "Frozen holding things, they joke the huddle achieved alignment"},
+{"start": 91, "type": "arrives", "fine": "shows up unannounced", "actor": "MAILROOM KID", "target": "GLORIA", "mood": "joyful", "intensity": 2, "summary": "The mailroom kid asks about cake; Gloria orders another cut"}
+],
+"s01075": [
+{"start": 1, "type": "confronts", "fine": "faces off with", "actor": "QUEEN ISOLDE", "target": "MORVAN", "mood": "ominous", "intensity": 3, "summary": "Isolde faces Morvan across a silk bridge and denies his claim"},
+{"start": 9, "type": "threatens", "fine": "issues an ultimatum to", "actor": "QUEEN ISOLDE", "target": "MORVAN", "mood": "tense", "intensity": 4, "summary": "She steps onto the bridge ordering him back; he dares her"},
+{"start": 13, "type": "decides", "fine": "chooses", "actor": "QUEEN ISOLDE", "target": "ROYAL HERALD", "mood": "tense", "intensity": 4, "summary": "The herald says the wall fell; Isolde stays and orders the gate held"},
+{"start": 18, "type": "mocks", "fine": "taunts", "actor": "MORVAN", "target": "QUEEN ISOLDE", "mood": "ominous", "intensity": 4, "summary": "Both draw weapons; Morvan mocks that she cannot be in two places"},
+{"start": 23, "type": "attacks", "fine": "attacks", "actor": "QUEEN ISOLDE", "target": "MORVAN", "mood": "chaotic", "intensity": 5, "summary": "Isolde charges, meets his shadow spear, and drives through the smoke"}
+],
+"s01076": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "MARGUERITE", "target": "THADDEUS", "mood": "awkward", "intensity": 2, "summary": "Marguerite sits and Thaddeus stands in an emptied conference ballroom"},
+{"start": 10, "type": "persuades", "fine": "pitches to", "actor": "MARGUERITE", "target": "THADDEUS", "mood": "awkward", "intensity": 2, "summary": "Marguerite offers a hollow promotion: Chief Pod Officer, no budget"},
+{"start": 23, "type": "accuses", "fine": "condemns", "actor": "THADDEUS", "target": "MARGUERITE", "mood": "hostile", "intensity": 3, "summary": "Thaddeus attacks the cuts and the Farewell Sync funeral invite"},
+{"start": 34, "type": "confesses", "fine": "unburdens to", "actor": "THADDEUS", "target": "MARGUERITE", "mood": "hostile", "intensity": 4, "summary": "He vents about training people he learned were being laid off"},
+{"start": 44, "type": "decides", "fine": "resigns", "actor": "THADDEUS", "target": "MARGUERITE", "mood": "triumphant", "intensity": 4, "summary": "Thaddeus quits and slaps his badge down despite unvested shares"}
+],
+"s01077": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "OROZCO", "target": "VOSS", "mood": "tense", "intensity": 2, "summary": "By a stranded locomotive, Orozco spots heavy dust on the east road"},
+{"start": 11, "type": "comforts", "fine": "steadies", "actor": "VOSS", "target": "OROZCO", "mood": "tense", "intensity": 3, "summary": "Voss sees Orozco's fear and tells him to breathe"},
+{"start": 22, "type": "reveals", "fine": "breaks news to", "actor": "VOSS", "target": "OROZCO", "mood": "fear", "intensity": 4, "summary": "Voss looks and confirms both armor and trucks are coming"},
+{"start": 29, "type": "decides", "fine": "refuses", "actor": "VOSS", "target": "OROZCO", "mood": "tense", "intensity": 3, "summary": "She rejects hiding in the engine and produces a signal mirror"},
+{"start": 36, "type": "pleads", "fine": "calls for", "actor": "VOSS", "target": null, "mood": "suspense", "intensity": 4, "summary": "Voss flashes the ridge; nothing answers, she keeps signaling"},
+{"start": 46, "type": "comforts", "fine": "steadies", "actor": "VOSS", "target": "OROZCO", "mood": "suspense", "intensity": 4, "summary": "Voss gently lowers his rifle, saying not yet"},
+{"start": 53, "type": "observes", "fine": "waits", "actor": "VOSS", "target": null, "mood": "suspense", "intensity": 4, "summary": "Engines rise as she keeps flashing and he counts"}
+],
+"s01078": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "JUNE", "target": null, "mood": "calm", "intensity": 1, "summary": "June counts quarters alone at the rink concession stand"},
+{"start": 9, "type": "arrives", "fine": "arrives", "actor": "DANNY", "target": "JUNE", "mood": "awkward", "intensity": 1, "summary": "Danny arrives early and waits, pretending not to look at June"},
+{"start": 21, "type": "bonds", "fine": "bonds with", "actor": "JUNE", "target": "DANNY", "mood": "tender", "intensity": 2, "summary": "They chat about her endless shifts; she slips him popcorn"},
+{"start": 32, "type": "jokes", "fine": "teases", "actor": "JUNE", "target": "MR. PRUITT", "mood": "playful", "intensity": 1, "summary": "Pruitt patronizes June over the PA; she rolls her eyes"},
+{"start": 38, "type": "reveals", "fine": "shows", "actor": "DANNY", "target": "JUNE", "mood": "tense", "intensity": 3, "summary": "Danny shows a missing-person flyer of his sister Rosalind"},
+{"start": 48, "type": "reveals", "fine": "lets slip to", "actor": "JUNE", "target": "DANNY", "mood": "ominous", "intensity": 4, "summary": "June reveals Pruitt's locked room with Rosalind's jacket on its door"},
+{"start": 62, "type": "decides", "fine": "refuses", "actor": "JUNE", "target": "DANNY", "mood": "suspense", "intensity": 3, "summary": "Danny demands to see; June refuses as Pruitt opens early"},
+{"start": 69, "type": "bonds", "fine": "teams up with", "actor": "JUNE", "target": "DANNY", "mood": "suspense", "intensity": 4, "summary": "June gives him keys and a plan for four o'clock"},
+{"start": 75, "type": "hides", "fine": "masks a feeling", "actor": "JUNE", "target": null, "mood": "suspense", "intensity": 3, "summary": "Danny melts into the crowd; June returns calmly to the register"}
+],
+"s01080": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "SALAZAR-KIM", "target": null, "mood": "awkward", "intensity": 1, "summary": "The arbitrator reads as Pike clicks and Mrs. Yusupova fidgets"},
+{"start": 9, "type": "searches", "fine": "questions witnesses", "actor": "SALAZAR-KIM", "target": "MRS. YUSUPOVA", "mood": "calm", "intensity": 2, "summary": "Salazar-Kim reviews the heat claim; Pike cites eleven certified letters"},
+{"start": 17, "type": "reveals", "fine": "lets slip to", "actor": "MRS. YUSUPOVA", "target": "SALAZAR-KIM", "mood": "playful", "intensity": 2, "summary": "Mrs. Yusupova reveals the landlord once gave her a blanket"},
+{"start": 20, "type": "mocks", "fine": "dismisses", "actor": "SALAZAR-KIM", "target": "PIKE", "mood": "playful", "intensity": 2, "summary": "Salazar-Kim rebuffs Pike and insists on hearing about the blanket"},
+{"start": 24, "type": "decides", "fine": "refuses", "actor": "MRS. YUSUPOVA", "target": "SALAZAR-KIM", "mood": "tender", "intensity": 2, "summary": "Pike asks nine thousand; Mrs. Yusupova keeps the warm blanket"}
+],
+"s01081": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "ROCCO", "target": null, "mood": "tense", "intensity": 2, "summary": "Rocco counts cash among stuffed animals as the crew waits"},
+{"start": 10, "type": "confronts", "fine": "presses", "actor": "SAL", "target": "TIMOTHY", "mood": "tense", "intensity": 3, "summary": "Sal and Lena press sweating Timothy to put the bag down"},
+{"start": 21, "type": "discovers", "fine": "notices", "actor": "LENA", "target": "ROCCO", "mood": "suspense", "intensity": 3, "summary": "A creak above; Rocco dismisses it as a dead possum"},
+{"start": 35, "type": "confronts", "fine": "demands answers from", "actor": "SAL", "target": "TIMOTHY", "mood": "tense", "intensity": 4, "summary": "Another creak; Sal demands the bag and Timothy refuses"},
+{"start": 45, "type": "confesses", "fine": "admits guilt to", "actor": "TIMOTHY", "target": "ROCCO", "mood": "fear", "intensity": 4, "summary": "Timothy admits it is not the money; the man upstairs made him"},
+{"start": 55, "type": "arrives", "fine": "makes an entrance", "actor": null, "target": "ROCCO", "mood": "fear", "intensity": 5, "summary": "Boots descend the stairs; Rocco urges calm"},
+{"start": 64, "type": "threatens", "fine": "menaces", "actor": null, "target": "ROCCO", "mood": "ominous", "intensity": 5, "summary": "A hand kills the bulb; Rocco whispers nobody move"}
+],
+"s01082": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "BARNABY", "target": "ODALYS", "mood": "playful", "intensity": 1, "summary": "Barnaby rehearses his pirate speech to an empty clubhouse"},
+{"start": 9, "type": "jokes", "fine": "teases", "actor": "ODALYS", "target": "BARNABY", "mood": "playful", "intensity": 2, "summary": "Odalys needles him about the parrot; she sinks a trick putt"},
+{"start": 20, "type": "jokes", "fine": "riffs with", "actor": "BARNABY", "target": "ODALYS", "mood": "playful", "intensity": 2, "summary": "They riff on addressing the single gentleperson"},
+{"start": 25, "type": "arrives", "fine": "arrives", "actor": null, "target": "BARNABY", "mood": "joyful", "intensity": 2, "summary": "A family of six arrives; Barnaby launches into his welcome"},
+{"start": 30, "type": "jokes", "fine": "charms", "actor": "BARNABY", "target": "CHILD", "mood": "playful", "intensity": 2, "summary": "Barnaby's showmanship clashes with Odalys's honesty; the family cheers"},
+{"start": 40, "type": "jokes", "fine": "plays with", "actor": "CHILD", "target": "BARNABY", "mood": "joyful", "intensity": 2, "summary": "Barnaby's hat lands on the child, who wears it"},
+{"start": 45, "type": "works", "fine": "goes through routine", "actor": "BARNABY", "target": null, "mood": "playful", "intensity": 1, "summary": "They hand out putters; Odalys quips about mutiny"}
+],
+"s01083": [
+{"start": 1, "type": "works", "fine": "writes", "actor": "THESSALY", "target": null, "mood": "calm", "intensity": 1, "summary": "Thessaly copies runes in the turning library with Kestrel"},
+{"start": 8, "type": "threatens", "fine": "menaces", "actor": "VOICE", "target": "THESSALY", "mood": "ominous", "intensity": 3, "summary": "A voice from the stone accuses Thessaly of taking its book"},
+{"start": 16, "type": "discovers", "fine": "uncovers", "actor": "KESTREL", "target": null, "mood": "ominous", "intensity": 3, "summary": "Kestrel reads the last page; the book refuses to return"},
+{"start": 25, "type": "arrives", "fine": "makes an entrance", "actor": "SCRIBE", "target": "THESSALY", "mood": "fear", "intensity": 4, "summary": "The raven-headed Scribe materializes and announces himself"},
+{"start": 33, "type": "confronts", "fine": "faces off with", "actor": "THESSALY", "target": "SCRIBE", "mood": "tense", "intensity": 4, "summary": "Thessaly says the pages belonged to the kingdom; he claims authorship"},
+{"start": 37, "type": "threatens", "fine": "menaces", "actor": "SCRIBE", "target": "KESTREL", "mood": "fear", "intensity": 5, "summary": "His shadow writes Kestrel's name and foretells her death tonight"},
+{"start": 46, "type": "defends", "fine": "shields", "actor": "THESSALY", "target": "KESTREL", "mood": "tense", "intensity": 5, "summary": "Thessaly steps between them and slashes a barrier of light"},
+{"start": 56, "type": "defends", "fine": "holds the line against", "actor": "KESTREL", "target": "SCRIBE", "mood": "chaotic", "intensity": 5, "summary": "Kestrel slams the book shut and refuses to give it back"},
+{"start": 62, "type": "leaves", "fine": "abandons", "actor": "SCRIBE", "target": "KESTREL", "mood": "ominous", "intensity": 4, "summary": "The Scribe dissolves into ink, promising to wait"},
+{"start": 69, "type": "discovers", "fine": "realizes", "actor": "KESTREL", "target": "THESSALY", "mood": "ominous", "intensity": 3, "summary": "It is not over; something beats inside the warm book"}
+],
+"s01084": [
+{"start": 1, "type": "searches", "fine": "investigates", "actor": "RHEE", "target": "OSEI", "mood": "suspense", "intensity": 2, "summary": "Rhee and Osei work a death scene in a drained pool"},
+{"start": 14, "type": "discovers", "fine": "finds a clue", "actor": "RHEE", "target": null, "mood": "suspense", "intensity": 3, "summary": "Under the tarp, Rhee finds one red high heel"},
+{"start": 19, "type": "observes", "fine": "listens to", "actor": "RHEE", "target": "CAPTAIN VOSS", "mood": "tense", "intensity": 2, "summary": "The captain phones to say a janitor witness is coming"},
+{"start": 27, "type": "searches", "fine": "questions witnesses", "actor": "RHEE", "target": "DOLORES", "mood": "suspense", "intensity": 3, "summary": "Dolores descends and describes a tall man in a gray coat"},
+{"start": 37, "type": "reveals", "fine": "presents evidence to", "actor": "DOLORES", "target": "RHEE", "mood": "suspense", "intensity": 3, "summary": "Dolores produces the second red shoe, bagged with gloves"},
+{"start": 44, "type": "attacks", "fine": "lunges at", "actor": "RHEE", "target": null, "mood": "chaotic", "intensity": 5, "summary": "A man leaps from the diving board; Rhee lunges and all collide"},
+{"start": 54, "type": "flees", "fine": "escapes", "actor": null, "target": "RHEE", "mood": "chaotic", "intensity": 4, "summary": "The man escapes up the stairs as Rhee vows pursuit"},
+{"start": 60, "type": "discovers", "fine": "recognizes", "actor": "DOLORES", "target": "RHEE", "mood": "suspense", "intensity": 3, "summary": "Dolores says she thinks she knows that coat"}
+],
+"s01085": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "IMOGEN", "target": null, "mood": "calm", "intensity": 1, "summary": "Imogen sits in a 2 a.m. laundromat watching one sock spin"},
+{"start": 10, "type": "works", "fine": "cleans", "actor": "SULEIMAN", "target": null, "mood": "calm", "intensity": 1, "summary": "Suleiman carefully folds shirts before loading the washer"},
+{"start": 14, "type": "jokes", "fine": "banters with", "actor": "IMOGEN", "target": "SULEIMAN", "mood": "playful", "intensity": 2, "summary": "Imogen remarks on his folding; they trade dry quips"},
+{"start": 32, "type": "bonds", "fine": "bonds with", "actor": "IMOGEN", "target": "SULEIMAN", "mood": "tender", "intensity": 2, "summary": "They discover they are both night-shift nurses on adjacent floors"},
+{"start": 43, "type": "bonds", "fine": "flirts with", "actor": "SULEIMAN", "target": "IMOGEN", "mood": "tender", "intensity": 3, "summary": "Suleiman recalls passing her once with a croissant; she hides a smile"},
+{"start": 56, "type": "discovers", "fine": "discovers", "actor": "IMOGEN", "target": "SULEIMAN", "mood": "tender", "intensity": 3, "summary": "He produces the matching blue sock from his pocket"},
+{"start": 68, "type": "leaves", "fine": "leaves", "actor": "IMOGEN", "target": "SULEIMAN", "mood": "bittersweet", "intensity": 3, "summary": "They agree on Tuesday; she gives him her sock and walks out"}
+],
+"s01086": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "MURIEL", "target": "ANNIKA", "mood": "suspense", "intensity": 3, "summary": "Tense crowd and teams gather for the league's final frame"},
+{"start": 14, "type": "works", "fine": "goes through routine", "actor": "ANNIKA", "target": null, "mood": "suspense", "intensity": 4, "summary": "Annika bowls and leaves a single pin standing"},
+{"start": 30, "type": "mocks", "fine": "taunts", "actor": "HANK", "target": "ANNIKA", "mood": "hostile", "intensity": 3, "summary": "Hank gloats she choked; Muriel restrains Deshawn"},
+{"start": 37, "type": "comforts", "fine": "encourages", "actor": "MURIEL", "target": "ANNIKA", "mood": "hopeful", "intensity": 3, "summary": "Muriel steadies Annika: the pin has waited thirty years"},
+{"start": 44, "type": "works", "fine": "goes through routine", "actor": "ANNIKA", "target": null, "mood": "suspense", "intensity": 5, "summary": "Annika steps up again and gently tips the last pin"},
+{"start": 61, "type": "bonds", "fine": "shares a moment with", "actor": "MURIEL", "target": "ANNIKA", "mood": "triumphant", "intensity": 5, "summary": "The alley erupts; Deshawn lifts Annika as Muriel celebrates"},
+{"start": 70, "type": "bonds", "fine": "thanks", "actor": "HANK", "target": "ANNIKA", "mood": "joyful", "intensity": 3, "summary": "Hank offers a handshake and a playful rematch threat"}
+],
+"s01087": [
+{"start": 1, "type": "works", "fine": "works", "actor": "HOSEA", "target": "EZEKIEL", "mood": "calm", "intensity": 1, "summary": "Hosea works the lock as the Ardens' barge waits"},
+{"start": 11, "type": "accuses", "fine": "blames", "actor": "EZEKIEL", "target": "HOSEA", "mood": "playful", "intensity": 2, "summary": "Ezekiel complains of delay; Clementine corrects him cheekily"},
+{"start": 16, "type": "defends", "fine": "stands up for", "actor": "PERPETUA", "target": "HOSEA", "mood": "playful", "intensity": 2, "summary": "Perpetua tells Ezekiel to let the man work; Hosea doubts the train"},
+{"start": 24, "type": "works", "fine": "repairs something", "actor": "CLEMENTINE", "target": null, "mood": "chaotic", "intensity": 4, "summary": "A rope snaps; Clementine, Hosea and Perpetua steady the barge"},
+{"start": 33, "type": "threatens", "fine": "warns", "actor": "OFFICER", "target": "EZEKIEL", "mood": "tense", "intensity": 4, "summary": "Officers on the towpath order the barge to halt"},
+{"start": 39, "type": "pleads", "fine": "implores", "actor": "EZEKIEL", "target": "HOSEA", "mood": "tense", "intensity": 4, "summary": "Humbled, Ezekiel urgently begs Hosea to open the upper gate"},
+{"start": 43, "type": "decides", "fine": "chooses", "actor": "HOSEA", "target": "EZEKIEL", "mood": "suspense", "intensity": 5, "summary": "Hosea decides, opens the gate, and the barge escapes into darkness"}
+],
+"s01088": [
+{"start": 1, "type": "works", "fine": "works", "actor": "BEE", "target": "BRAM", "mood": "tense", "intensity": 3, "summary": "Bee and limping Bram haul the unconscious captain across the mud"},
+{"start": 12, "type": "comforts", "fine": "tends to", "actor": "BEE", "target": "CAPTAIN HALVARD", "mood": "tense", "intensity": 3, "summary": "Bee checks the captain's pulse; he stirs but doesn't wake"},
+{"start": 20, "type": "threatens", "fine": "issues an ultimatum to", "actor": "BEE", "target": "BRAM", "mood": "tense", "intensity": 4, "summary": "With the tide coming, Bee makes Bram drop the water for the captain"},
+{"start": 32, "type": "comforts", "fine": "steadies", "actor": "BEE", "target": "BRAM", "mood": "fear", "intensity": 4, "summary": "Bram falls and says go on; Bee hauls him up refusing"},
+{"start": 46, "type": "comforts", "fine": "reassures", "actor": "BEE", "target": "BRAM", "mood": "melancholy", "intensity": 4, "summary": "Bram begins a farewell; Bee won't let him finish"},
+{"start": 50, "type": "decides", "fine": "commits", "actor": "CAPTAIN HALVARD", "target": "BEE", "mood": "hopeful", "intensity": 4, "summary": "The captain wakes and insists on crawling himself"},
+{"start": 61, "type": "bonds", "fine": "shares a moment with", "actor": "BEE", "target": "BRAM", "mood": "bittersweet", "intensity": 3, "summary": "Bee and Bram follow their stubborn captain toward the roots"}
+],
+"s01089": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "SIOBHAN", "target": "TEDDY", "mood": "melancholy", "intensity": 2, "summary": "In a church hospital, Siobhan asks Teddy to search radio bands"},
+{"start": 14, "type": "discovers", "fine": "notices", "actor": "TEDDY", "target": "SIOBHAN", "mood": "hopeful", "intensity": 3, "summary": "The radio reports the enemy withdrawing; Siobhan tempers hope"},
+{"start": 24, "type": "comforts", "fine": "tends to", "actor": "SIOBHAN", "target": "OSWIN", "mood": "tender", "intensity": 2, "summary": "Siobhan checks Oswin's pulse and covers him"},
+{"start": 32, "type": "jokes", "fine": "jokes with", "actor": "ROSALIND", "target": "MIKHAIL", "mood": "tender", "intensity": 2, "summary": "Rosalind checks Mikhail's wound and they joke softly about his wife"},
+{"start": 42, "type": "reveals", "fine": "breaks news to", "actor": "TEDDY", "target": "SIOBHAN", "mood": "bittersweet", "intensity": 4, "summary": "Teddy relays the ceasefire at six; Rosalind sinks down"},
+{"start": 52, "type": "works", "fine": "cleans", "actor": "SIOBHAN", "target": null, "mood": "grief", "intensity": 3, "summary": "Siobhan carefully folds the bloody altar sheet"},
+{"start": 58, "type": "decides", "fine": "gives an order", "actor": "SIOBHAN", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Siobhan sends everyone to rest and keeps first watch"}
+],
+"s01090": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "NELL", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Bruised Nell sits alone in the orchard eating pears"},
+{"start": 12, "type": "arrives", "fine": "drifts in", "actor": "THEO", "target": "NELL", "mood": "awkward", "intensity": 2, "summary": "Theo steps out and probes about sides and her leaving"},
+{"start": 26, "type": "bonds", "fine": "shares a moment with", "actor": "NELL", "target": "THEO", "mood": "tender", "intensity": 2, "summary": "Nell offers a pear; they sit and eat in silence"},
+{"start": 32, "type": "confesses", "fine": "opens up to", "actor": "THEO", "target": "NELL", "mood": "melancholy", "intensity": 3, "summary": "Theo shares his brother's absence; they catch a song fragment"},
+{"start": 45, "type": "reveals", "fine": "lets slip to", "actor": "NELL", "target": "THEO", "mood": "melancholy", "intensity": 3, "summary": "A woman calls an old name; Nell says it's a girl she was"},
+{"start": 51, "type": "comforts", "fine": "steadies", "actor": "THEO", "target": "NELL", "mood": "tender", "intensity": 3, "summary": "Theo offers his hand and pulls her up"},
+{"start": 58, "type": "arrives", "fine": "makes an entrance", "actor": "MRS. DUNNING", "target": "NELL", "mood": "tense", "intensity": 3, "summary": "Mrs. Dunning appears; Theo steps protectively in front of Nell"},
+{"start": 66, "type": "decides", "fine": "accepts", "actor": "MRS. DUNNING", "target": "NELL", "mood": "hopeful", "intensity": 3, "summary": "She walks back leaving the door open; they follow together"}
+],
+"s01091": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "IRINA", "target": "COURIER", "mood": "tense", "intensity": 3, "summary": "Agents Irina and Kofi stalk a courier holding Hayes hostage"},
+{"start": 11, "type": "threatens", "fine": "holds at gunpoint", "actor": "COURIER", "target": "IRINA", "mood": "tense", "intensity": 4, "summary": "The courier orders them to drop their weapons; Kofi tries talk"},
+{"start": 17, "type": "decides", "fine": "makes a plan", "actor": "IRINA", "target": "KOFI", "mood": "suspense", "intensity": 4, "summary": "Irina whispers a plan to make him move"},
+{"start": 20, "type": "attacks", "fine": "ambushes", "actor": "IRINA", "target": "COURIER", "mood": "chaotic", "intensity": 5, "summary": "A coin distracts him; Kofi fires and Irina charges in a brawl"},
+{"start": 31, "type": "attacks", "fine": "wrestles", "actor": "IRINA", "target": "COURIER", "mood": "chaotic", "intensity": 4, "summary": "Irina pins him; Kofi covers; the courier yields and is cuffed"},
+{"start": 41, "type": "reveals", "fine": "drops a bombshell on", "actor": "HAYES", "target": "KOFI", "mood": "suspense", "intensity": 4, "summary": "Freed Hayes says the courier was warning him about the Directorate"},
+{"start": 47, "type": "discovers", "fine": "realizes", "actor": "IRINA", "target": "COURIER", "mood": "tense", "intensity": 4, "summary": "The courier says they arrive in four minutes"},
+{"start": 51, "type": "flees", "fine": "runs", "actor": "KOFI", "target": null, "mood": "suspense", "intensity": 5, "summary": "They race for the stairwell as headlights sweep the level"}
+],
+"s01092": [
+{"start": 1, "type": "deflects", "fine": "stonewalls", "actor": "PASCAL", "target": "HESTER", "mood": "melancholy", "intensity": 2, "summary": "Coach Hester and her lone rower Pascal talk past each other"},
+{"start": 17, "type": "comforts", "fine": "tends to", "actor": "HESTER", "target": "PASCAL", "mood": "tender", "intensity": 2, "summary": "Hester pours tea; their terse banter softens him into taking it"},
+{"start": 30, "type": "bonds", "fine": "reminisces with", "actor": "PASCAL", "target": "HESTER", "mood": "bittersweet", "intensity": 3, "summary": "No one's coming; they recall the full squad and Camille"},
+{"start": 43, "type": "confesses", "fine": "opens up to", "actor": "PASCAL", "target": "HESTER", "mood": "melancholy", "intensity": 3, "summary": "Pascal voices fear of missing the cut; Hester says row anyway"},
+{"start": 51, "type": "bonds", "fine": "teams up with", "actor": "HESTER", "target": "PASCAL", "mood": "hopeful", "intensity": 3, "summary": "Together they lift a single shell and carry it into the mist"}
+],
+"s01093": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "PEGGY", "target": "MR. ABERNATHY", "mood": "calm", "intensity": 1, "summary": "Peggy threads a reel as Abernathy gives instructions and leaves"},
+{"start": 14, "type": "reveals", "fine": "shows", "actor": "TUCKER", "target": "PEGGY", "mood": "suspense", "intensity": 2, "summary": "Once alone, Tucker hands Peggy a secret envelope"},
+{"start": 27, "type": "reveals", "fine": "breaks news to", "actor": "TUCKER", "target": "PEGGY", "mood": "joyful", "intensity": 4, "summary": "Peggy reads it; Tucker tells her she won the scholarship"},
+{"start": 37, "type": "reveals", "fine": "lets slip to", "actor": "TUCKER", "target": "PEGGY", "mood": "bittersweet", "intensity": 4, "summary": "Peggy asks secrecy; Tucker says Dad read it and put it back"},
+{"start": 44, "type": "bonds", "fine": "shares a moment with", "actor": "PEGGY", "target": "TUCKER", "mood": "tender", "intensity": 3, "summary": "Peggy wipes her eyes, starts the projector, and takes Tucker's reel"}
+]
+}

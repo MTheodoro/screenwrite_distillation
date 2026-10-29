@@ -1,0 +1,110 @@
+{
+"pd_earnest_4": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"CECILY","target":"GWENDOLEN","mood":"hostile","intensity":3,"summary":"Cecily and Gwendolen trade barbed politeness until servants arrive to restrain them."},
+{"start":8,"type":"mocks","fine":"needles","actor":"CECILY","target":"GWENDOLEN","mood":"playful","intensity":3,"summary":"Over tea, they exchange sweet insults about town and country."},
+{"start":35,"type":"accuses","fine":"turns on","actor":"GWENDOLEN","target":"CECILY","mood":"hostile","intensity":4,"summary":"Cecily's sugar and cake revenge erupts into open accusation of distrust and deceit."},
+{"start":51,"type":"arrives","fine":"makes an entrance","actor":"JACK","target":"GWENDOLEN","mood":"tense","intensity":2,"summary":"Jack enters and Gwendolen greets him as Ernest."}
+],
+"pd_earnest_6": [
+{"start":1,"type":"reveals","fine":"comes clean to","actor":"JACK","target":"ALGERNON","mood":"joyful","intensity":3,"summary":"Jack presents Algy as his brother; Gwendolen asks what his real Christian name is."},
+{"start":10,"type":"searches","fine":"looks for","actor":"JACK","target":"LADY BRACKNELL","mood":"playful","intensity":3,"summary":"Jack quizzes Lady Bracknell and consults the Army Lists for his father's name."},
+{"start":26,"type":"discovers","fine":"realizes","actor":"JACK","target":"GWENDOLEN","mood":"joyful","intensity":4,"summary":"He finds his name is Ernest after all, and Gwendolen forgives him."},
+{"start":33,"type":"bonds","fine":"reconnects with","actor":"CHASUBLE","target":"MISS PRISM","mood":"joyful","intensity":4,"summary":"Couples embrace, and Jack declares the importance of being earnest."}
+],
+"s01114": [
+{"start":1,"type":"deflects","fine":"brushes off","actor":"ANSELMO","target":"OPERATOR","mood":"melancholy","intensity":2,"summary":"Exhausted Dr. Anselmo ignores a page, sitting on the stairs."},
+{"start":14,"type":"confesses","fine":"unburdens to","actor":"ANSELMO","target":null,"mood":"melancholy","intensity":3,"summary":"He lists his workload and recalls advice about carrying what you cannot fix."},
+{"start":21,"type":"decides","fine":"accepts","actor":"ANSELMO","target":"OPERATOR","mood":"hopeful","intensity":3,"summary":"He straightens his paper hat, answers the call, and climbs back up."}
+],
+"pd_dollhouse_1": [
+{"start":1,"type":"confesses","fine":"opens up to","actor":"NORA","target":"MRS LINDE","mood":"playful","intensity":2,"summary":"Nora tells Christine how she secretly scrimped, copied, and paid off her debt."},
+{"start":16,"type":"bonds","fine":"shares a moment with","actor":"NORA","target":"MRS LINDE","mood":"joyful","intensity":2,"summary":"Nora delights in feeling free from care just as the bell rings."},
+{"start":22,"type":"arrives","fine":"shows up unannounced","actor":"KROGSTAD","target":"NORA","mood":"tense","intensity":3,"summary":"Krogstad arrives; Nora coldly sends him to the study as Mrs Linde recognizes him."}
+],
+"pd_dollhouse_3": [
+{"start":1,"type":"comforts","fine":"reassures","actor":"HELMER","target":"NORA","mood":"tender","intensity":2,"summary":"Helmer reassures Nora and sends her to practice the Tarantella before shutting his door."},
+{"start":7,"type":"pleads","fine":"calls for","actor":"NORA","target":null,"mood":"fear","intensity":3,"summary":"Alone, Nora whispers desperately for any way out as the bell rings."},
+{"start":14,"type":"reveals","fine":"breaks news to","actor":"RANK","target":"NORA","mood":"grief","intensity":4,"summary":"Dr. Rank tells Nora he is dying and bars Helmer from his sickroom."},
+{"start":36,"type":"deflects","fine":"changes the subject on","actor":"NORA","target":"RANK","mood":"bittersweet","intensity":2,"summary":"Nora asks for cheer; they joke grimly about his father's rich living."}
+],
+"s01029": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"DARRYL","target":null,"mood":"awkward","intensity":3,"summary":"Darryl smiles manically in a bleak office while his inner voice mocks corporate speak."}
+],
+"s00019": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"MAGNUS","target":null,"mood":"ominous","intensity":2,"summary":"Four people walk the dark mushroom tunnel with flashlights; Magnus evades the inspector."},
+{"start":17,"type":"discovers","fine":"notices","actor":"ZUZU","target":"MAGNUS","mood":"suspense","intensity":3,"summary":"Zuzu spots caps that seem to move; the Stranger shows they shrink from light."},
+{"start":44,"type":"discovers","fine":"finds a clue","actor":"ZUZU","target":"MAGNUS","mood":"fear","intensity":4,"summary":"Zuzu finds half a boot; Magnus explains it away as a picker who quit."},
+{"start":62,"type":"accuses","fine":"exposes","actor":"STRANGER","target":"MAGNUS","mood":"fear","intensity":4,"summary":"The Stranger notes Magnus locked the gate; rustling nears and Magnus admits his keys open another door."},
+{"start":95,"type":"decides","fine":"changes course","actor":"STRANGER","target":null,"mood":"suspense","intensity":4,"summary":"A cap rises; the Stranger draws a steel canister and leads them the other way."}
+],
+"s01113": [
+{"start":1,"type":"discovers","fine":"investigates","actor":"ODALYS","target":null,"mood":"ominous","intensity":3,"summary":"The crew finds cryo pod 17 cold and reportedly empty."},
+{"start":16,"type":"decides","fine":"gives an order","actor":"ODALYS","target":"SANTIAGO","mood":"melancholy","intensity":3,"summary":"Odalys orders the capsule opened and finds a blanket, a child's drawing, and a dead monitor."},
+{"start":27,"type":"comforts","fine":"consoles","actor":"MIRIAM","target":"ODALYS","mood":"grief","intensity":3,"summary":"Santiago restrains Pixie, they seal the pod, and Miriam steadies Odalys as she pockets the drawing."}
+],
+"s01082": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ODALYS","target":"BARNABY","mood":"playful","intensity":2,"summary":"Barnaby rehearses a pirate speech to an empty clubhouse while bored Odalys teases him."},
+{"start":25,"type":"arrives","fine":"shows up unannounced","actor":"BARNABY","target":null,"mood":"joyful","intensity":2,"summary":"A noisy family enters; Barnaby hams it up and Odalys deadpans back."},
+{"start":39,"type":"jokes","fine":"amuses","actor":"BARNABY","target":"ODALYS","mood":"playful","intensity":2,"summary":"His hat rolls to a child, and they hand out putters with parting jabs."}
+],
+"s01050": [
+{"start":1,"type":"works","fine":"drives","actor":"ODALYS","target":null,"mood":"melancholy","intensity":3,"summary":"Widowed Odalys sits in a car wash, narrating her husband never washing the car."},
+{"start":19,"type":"decides","fine":"accepts","actor":"ODALYS","target":null,"mood":"bittersweet","intensity":3,"summary":"She laughs, stops, and drives out into the light."}
+],
+"pd_earnest_2": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"CECILY","target":"MISS PRISM","mood":"playful","intensity":2,"summary":"Cecily and Miss Prism chat about German, Uncle Jack's seriousness, diaries and novels."},
+{"start":24,"type":"arrives","fine":"makes an entrance","actor":"CHASUBLE","target":"MISS PRISM","mood":"playful","intensity":2,"summary":"Chasuble arrives; Cecily feigns Miss Prism's headache to prompt a stroll."},
+{"start":42,"type":"leaves","fine":"excuses themself","actor":"MISS PRISM","target":"CECILY","mood":"playful","intensity":1,"summary":"Miss Prism accepts the stroll and leaves Cecily to her studies."}
+],
+"s01070": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"OKAFOR","target":"TEODOR","mood":"tense","intensity":3,"summary":"Soldiers in a flooded mill challenge a stranger who claims to live there."},
+{"start":16,"type":"hides","fine":"lies low","actor":"OKAFOR","target":null,"mood":"suspense","intensity":4,"summary":"Engines approach; Okafor kills the lantern and Halvorsen cocks his rifle."}
+],
+"s01110": [
+{"start":1,"type":"confesses","fine":"opens up to","actor":"CORNELIUS","target":"MARA","mood":"grief","intensity":4,"summary":"Cornelius leaves an answering-machine message telling estranged Mara her mother is dying."},
+{"start":25,"type":"pleads","fine":"implores","actor":"CORNELIUS","target":"MARA","mood":"melancholy","intensity":4,"summary":"He asks her to sing as she once did, then waits in static."}
+],
+"s01069": [
+{"start":1,"type":"hides","fine":"covers up","actor":"MAN","target":"NINA","mood":"tense","intensity":2,"summary":"A man and Nina prepare to crush a sedan at a salvage yard."},
+{"start":20,"type":"confronts","fine":"stares down","actor":"ELI","target":"MAN","mood":"hostile","intensity":3,"summary":"A kid named Eli refuses the crusher without papers, stonewalling their pressure."},
+{"start":40,"type":"attacks","fine":"grabs","actor":"MAN","target":"ELI","mood":"chaotic","intensity":5,"summary":"The man grabs Eli; a brawl ends with Eli running the crusher on the sedan and the bag."},
+{"start":55,"type":"defends","fine":"holds the line against","actor":"ELI","target":"MAN","mood":"ominous","intensity":3,"summary":"Eli cites Terrence's rules calmly as banknotes swirl from the crushed car."}
+],
+"pd_sisters_6": [
+{"start":1,"type":"leaves","fine":"leaves","actor":"LOPAKHIN","target":null,"mood":"melancholy","intensity":3,"summary":"Departing family members gather their things and bid the old life farewell."},
+{"start":23,"type":"confesses","fine":"breaks down to","actor":"LUBOV","target":"GAEV","mood":"grief","intensity":5,"summary":"Left alone, Lubov and Gaev sob in each other's arms and say good-bye to the orchard."},
+{"start":39,"type":"observes","fine":"takes it in","actor":"FIERS","target":null,"mood":"melancholy","intensity":4,"summary":"Locked in and forgotten, ill Fiers lies down as a breaking string and an axe sound."}
+],
+"s01092": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"HESTER","target":"PASCAL","mood":"calm","intensity":1,"summary":"Coach Hester and her last rower Pascal share terse routine in the misty boathouse."},
+{"start":17,"type":"comforts","fine":"tends to","actor":"HESTER","target":"PASCAL","mood":"tender","intensity":2,"summary":"Hester pours tea for him; he softens and takes the mug."},
+{"start":36,"type":"bonds","fine":"reminisces with","actor":"PASCAL","target":"HESTER","mood":"bittersweet","intensity":3,"summary":"They recall the full squad, and he worries about missing the cut; she says they row anyway."},
+{"start":51,"type":"works","fine":"prepares","actor":"PASCAL","target":"HESTER","mood":"hopeful","intensity":2,"summary":"Together they lift a shell and carry it out into the mist."}
+],
+"s01049": [
+{"start":1,"type":"confronts","fine":"presses","actor":"GLORIA","target":"MIN-JUN","mood":"tense","intensity":3,"summary":"Gloria calls another vote; Min-Jun wavers and Deez stays silent."},
+{"start":21,"type":"accuses","fine":"calls out","actor":"DEEZ","target":"GLORIA","mood":"hostile","intensity":4,"summary":"Deez erupts that the jury ignored the young defendant and Gloria decided on day one."},
+{"start":39,"type":"attacks","fine":"shoves","actor":"DEEZ","target":"GLORIA","mood":"hostile","intensity":4,"summary":"Gloria slaps down her cards, Deez knocks them to the floor, and Min-Jun intervenes."},
+{"start":46,"type":"observes","fine":"takes it in","actor":"GLORIA","target":null,"mood":"ominous","intensity":3,"summary":"The generator fails and the tent goes dark."}
+],
+"s01059": [
+{"start":1,"type":"interrogates","fine":"interrogates","actor":"PETRA","target":"OTTOLINE","mood":"tense","intensity":2,"summary":"Petra grills foreman Ottoline about the timber survey as Reginald objects."},
+{"start":19,"type":"arrives","fine":"bursts in","actor":"ABIODUN","target":null,"mood":"chaotic","intensity":2,"summary":"A clerk bursts in with an urgent filing; both lawyers grab for it."},
+{"start":34,"type":"reveals","fine":"shows","actor":"OTTOLINE","target":"PETRA","mood":"suspense","intensity":4,"summary":"Ottoline reads the folder and says the ridge was never theirs."}
+],
+"s01066": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BERNADETTE","target":null,"mood":"hopeful","intensity":3,"summary":"Bernadette radios Rescue One and gets a garbled reply, learning help is two hours away."},
+{"start":18,"type":"flees","fine":"scrambles away","actor":"JOSEPHINE","target":null,"mood":"chaotic","intensity":5,"summary":"The floe splits; the survivors leap into the raft and cut the line."},
+{"start":28,"type":"comforts","fine":"reassures","actor":"RESCUE ONE","target":"BERNADETTE","mood":"hopeful","intensity":3,"summary":"The stove sinks as Rescue One reports a clear lock and tells them to stay put."}
+],
+"pd_dollhouse_4": [
+{"start":1,"type":"decides","fine":"makes a plan","actor":"MRS LINDE","target":"NORA","mood":"tense","intensity":3,"summary":"Mrs Linde tells Nora to delay Torvald while she acts, then leaves."},
+{"start":7,"type":"deflects","fine":"stalls","actor":"NORA","target":"HELMER","mood":"tense","intensity":3,"summary":"Nora begs Helmer not to check the letter box, plays the Tarantella, and gets him to the piano."},
+{"start":41,"type":"works","fine":"goes through routine","actor":"NORA","target":"HELMER","mood":"ominous","intensity":3,"summary":"Nora dances wildly with tambourine and shawl as Helmer plays and Rank watches."}
+],
+"s00003": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ABEBE","target":null,"mood":"tense","intensity":3,"summary":"The Deepwater Miners trail in the final; Abebe's stone dies short of the button."},
+{"start":17,"type":"arrives","fine":"makes an entrance","actor":"GUS","target":"DEZ","mood":"tense","intensity":3,"summary":"Foreman Gus says the lane must clear for shift change but grants one last stone."},
+{"start":31,"type":"comforts","fine":"steadies","actor":"INEZ","target":"ABEBE","mood":"melancholy","intensity":3,"summary":"Inez gently coaches shaking Abebe; his clean release goes long and touches nothing."}
+]
+}

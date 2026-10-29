@@ -1,0 +1,191 @@
+{
+"s01127": [
+{"start": 1, "type": "decides", "fine": "gives an order", "actor": "RAHIMI", "target": null, "mood": "tense", "intensity": 3, "summary": "Chief Rahimi seals the planetarium dome around a dead body"},
+{"start": 12, "type": "discovers", "fine": "finds a clue", "actor": "RAHIMI", "target": "OYELARAN", "mood": "suspense", "intensity": 3, "summary": "Oyelaran says the floor was clean; fresh prints lead to Sunny's seat"},
+{"start": 19, "type": "accuses", "fine": "suspects", "actor": "FINCH", "target": "SUNNY", "mood": "tense", "intensity": 4, "summary": "Sunny denies the prints as Finch eyes her boots"},
+{"start": 24, "type": "confronts", "fine": "demands answers from", "actor": "RAHIMI", "target": null, "mood": "suspense", "intensity": 3, "summary": "Rahimi orders everyone to show their shoes; nobody moves"}
+],
+"s00043": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "HADLEY", "target": "WINNIE", "mood": "tense", "intensity": 2, "summary": "Hadley drills rookie Winnie on her delivery until she sounds confident"},
+{"start": 19, "type": "jokes", "fine": "teases", "actor": "HADLEY", "target": "ARCHIE", "mood": "playful", "intensity": 2, "summary": "Archie retells his broken-wrist victory and Hadley teases him"},
+{"start": 23, "type": "works", "fine": "prepares", "actor": "HADLEY", "target": null, "mood": "suspense", "intensity": 2, "summary": "The team is called to the ice as Archie starts broadcasting"},
+{"start": 34, "type": "decides", "fine": "gives an order", "actor": "HADLEY", "target": "WINNIE", "mood": "hopeful", "intensity": 3, "summary": "Hadley tells Winnie she will throw the last stone"},
+{"start": 41, "type": "observes", "fine": "watches", "actor": "ARCHIE", "target": null, "mood": "hopeful", "intensity": 2, "summary": "Archie watches the three step onto the ice and toasts silently"}
+],
+"s01885": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "CHIARA", "target": "ELIAS", "mood": "playful", "intensity": 2, "summary": "Chiara teases Elias about the furnace heat as glass swells"},
+{"start": 9, "type": "discovers", "fine": "stumbles on", "actor": "ELIAS", "target": "CHIARA", "mood": "chaotic", "intensity": 3, "summary": "Elias steps in, the glass drops, and they collide on the floor"},
+{"start": 13, "type": "confesses", "fine": "apologizes to", "actor": "ELIAS", "target": "CHIARA", "mood": "awkward", "intensity": 2, "summary": "Elias berates himself while Chiara laughs"},
+{"start": 18, "type": "comforts", "fine": "tends to", "actor": "CHIARA", "target": "ELIAS", "mood": "tender", "intensity": 3, "summary": "Chiara inspects his burn and they freeze, close"},
+{"start": 26, "type": "bonds", "fine": "flirts with", "actor": "CHIARA", "target": "ELIAS", "mood": "tender", "intensity": 3, "summary": "She quotes her father; Elias looks at her, not the glass"}
+],
+"s02339": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "FERRYWOMAN", "target": "LANTERN VOICE", "mood": "ominous", "intensity": 2, "summary": "The Ferrywoman counts five shadows for the lantern voice"},
+{"start": 13, "type": "decides", "fine": "gives an order", "actor": "FERRYWOMAN", "target": null, "mood": "calm", "intensity": 2, "summary": "She orders the shadows aboard one at a time"},
+{"start": 19, "type": "works", "fine": "goes through routine", "actor": "FERRYWOMAN", "target": "LANTERN VOICE", "mood": "playful", "intensity": 2, "summary": "She pays a coinless shadow's fare and grumbles at the lantern"},
+{"start": 28, "type": "leaves", "fine": "leaves", "actor": "FERRYWOMAN", "target": "LANTERN VOICE", "mood": "melancholy", "intensity": 2, "summary": "She pushes off as the lantern dims, warning her not to be late"},
+{"start": 34, "type": "comforts", "fine": "reassures", "actor": "FERRYWOMAN", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "A spark shows her young face; she softly warns the shadows"}
+],
+"s01722": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "CAL", "target": "MARISOL", "mood": "tense", "intensity": 3, "summary": "Ex-boyfriend Cal appears at the laundromat wanting to talk"},
+{"start": 14, "type": "defends", "fine": "shields", "actor": "TEDDY", "target": "CAL", "mood": "tense", "intensity": 3, "summary": "Teddy steps between Cal and Marisol holding her prom dress"},
+{"start": 23, "type": "decides", "fine": "changes course", "actor": "CAL", "target": "MARISOL", "mood": "melancholy", "intensity": 3, "summary": "Cal drops his keys and admits he doesn't know what to say"},
+{"start": 29, "type": "decides", "fine": "accepts", "actor": "MARISOL", "target": "CAL", "mood": "hopeful", "intensity": 2, "summary": "Marisol gives Cal one dryer cycle; Teddy hands him a towel"}
+],
+"s00602": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "ALBERICH", "target": "THISTLE", "mood": "playful", "intensity": 2, "summary": "Alberich and Thistle bicker over tea while dragon Umbra scolds them"},
+{"start": 19, "type": "bonds", "fine": "shares a moment with", "actor": "ALBERICH", "target": "UMBRA", "mood": "playful", "intensity": 2, "summary": "Umbra says the mountain holds while it breathes; they trade quips"},
+{"start": 30, "type": "comforts", "fine": "tends to", "actor": "THISTLE", "target": "ALBERICH", "mood": "tender", "intensity": 3, "summary": "Alberich coughs and Thistle holds tea to his lips"},
+{"start": 35, "type": "decides", "fine": "chooses", "actor": "ALBERICH", "target": "UMBRA", "mood": "calm", "intensity": 2, "summary": "Alberich delays closing the sky; Thistle serves Umbra a bucket of tea"},
+{"start": 43, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "joyful", "intensity": 2, "summary": "The sunrise lights the ice and all three silently watch"}
+],
+"s01172": [
+{"start": 1, "type": "observes", "fine": "watches", "actor": "LEOPOLD", "target": null, "mood": "suspense", "intensity": 2, "summary": "A tense table-tennis match tied at ten aboard a rocking ferry"},
+{"start": 11, "type": "attacks", "fine": "strikes", "actor": "AKIKO", "target": "RUSLAN", "mood": "suspense", "intensity": 3, "summary": "Ruslan takes the lead and Akiko composes herself"},
+{"start": 23, "type": "discovers", "fine": "stumbles on", "actor": "AKIKO", "target": null, "mood": "tense", "intensity": 3, "summary": "The ship lurches and Akiko's paddle skids away; Nadia returns it"},
+{"start": 29, "type": "attacks", "fine": "strikes", "actor": "AKIKO", "target": "RUSLAN", "mood": "triumphant", "intensity": 4, "summary": "Akiko serves an unreturnable ball to tie at eleven"},
+{"start": 35, "type": "bonds", "fine": "shares a moment with", "actor": "RUSLAN", "target": "AKIKO", "mood": "tender", "intensity": 2, "summary": "Ruslan offers a handshake and Big Ed urges Akiko to take it"}
+],
+"s05000": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "COACH REEVE", "target": "PRIYA", "mood": "calm", "intensity": 2, "summary": "Priya wraps her hands while Reeve barks warmup orders"},
+{"start": 10, "type": "confronts", "fine": "presses", "actor": "PRIYA", "target": "COACH REEVE", "mood": "suspense", "intensity": 2, "summary": "Priya asks about the hooded guy; Reeve answers in riddles"},
+{"start": 14, "type": "reveals", "fine": "unmasks", "actor": "DESMOND", "target": "PRIYA", "mood": "tense", "intensity": 4, "summary": "The hoodie guy reveals himself as Desmond after two years"},
+{"start": 20, "type": "accuses", "fine": "accuses", "actor": "PRIYA", "target": "DESMOND", "mood": "hostile", "intensity": 3, "summary": "Priya confronts Desmond's lies and suspects everyone knew"},
+{"start": 27, "type": "pleads", "fine": "implores", "actor": "DESMOND", "target": "PRIYA", "mood": "tense", "intensity": 3, "summary": "Desmond begs her to say anything rather than go quiet"},
+{"start": 30, "type": "confesses", "fine": "opens up to", "actor": "PRIYA", "target": "DESMOND", "mood": "tender", "intensity": 4, "summary": "Priya admits she practiced hitting him but just wants to know he ate"},
+{"start": 32, "type": "decides", "fine": "gives an order", "actor": "COACH REEVE", "target": "PRIYA", "mood": "hopeful", "intensity": 2, "summary": "Reeve orders both to wrap up and Priya tosses Desmond tape"}
+],
+"s05001": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "SAM", "target": "JUNO", "mood": "playful", "intensity": 2, "summary": "Sam teases Juno about the gym bag she clutches on the night bus"},
+{"start": 18, "type": "observes", "fine": "watches", "actor": null, "target": "JUNO", "mood": "ominous", "intensity": 2, "summary": "The driver's eyes watch them in the mirror"},
+{"start": 20, "type": "attacks", "fine": "grabs", "actor": "JUNO", "target": null, "mood": "chaotic", "intensity": 3, "summary": "Cash spills and Juno and Sam crack heads diving for it"},
+{"start": 26, "type": "reveals", "fine": "lets slip to", "actor": "BERNIE", "target": "JUNO", "mood": "playful", "intensity": 3, "summary": "Sleeping Bernie reveals he knows and doesn't care whose money it is"},
+{"start": 30, "type": "discovers", "fine": "realizes", "actor": "SAM", "target": "JUNO", "mood": "tense", "intensity": 3, "summary": "Sam shows Juno news of the bank robbery; Juno improvises Plan B"},
+{"start": 37, "type": "observes", "fine": "takes it in", "actor": "SAM", "target": "JUNO", "mood": "suspense", "intensity": 3, "summary": "Police lights ahead; Sam grins and Bernie asks to be woken at the courthouse"}
+],
+"s05002": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "HARRIET", "target": "GILES", "mood": "melancholy", "intensity": 2, "summary": "Harriet and Giles make brittle small talk at their father's funeral reception"},
+{"start": 15, "type": "arrives", "fine": "drifts in", "actor": "THE WOMAN", "target": "HARRIET", "mood": "awkward", "intensity": 2, "summary": "A dripping stranger approaches Harriet, who offers her a sandwich"},
+{"start": 28, "type": "arrives", "fine": "arrives", "actor": "NELL", "target": "HARRIET", "mood": "awkward", "intensity": 2, "summary": "Nell arrives and asks who the stranger is"},
+{"start": 31, "type": "reveals", "fine": "drops a bombshell on", "actor": "MARGARET", "target": "HARRIET", "mood": "tense", "intensity": 4, "summary": "Margaret reveals she was their father's partner for nineteen years"},
+{"start": 35, "type": "confronts", "fine": "faces off with", "actor": "GILES", "target": "HARRIET", "mood": "tense", "intensity": 4, "summary": "Giles and Harriet tense as tea overflows and Nell intervenes"},
+{"start": 43, "type": "reveals", "fine": "presents evidence to", "actor": "MARGARET", "target": "HARRIET", "mood": "tense", "intensity": 3, "summary": "Margaret hands Harriet a letter her father insisted she deliver"},
+{"start": 50, "type": "discovers", "fine": "realizes", "actor": "HARRIET", "target": "NELL", "mood": "grief", "intensity": 4, "summary": "Harriet reads the letter and announces he left Margaret the house"}
+],
+"s05003": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "MAYA", "target": "LUCAS", "mood": "melancholy", "intensity": 2, "summary": "Maya films her silent father hauling nets on her last trip"},
+{"start": 18, "type": "deflects", "fine": "brushes off", "actor": "MAYA", "target": "JESS", "mood": "awkward", "intensity": 2, "summary": "Maya ignores stacking messages from Jess, then takes her call"},
+{"start": 29, "type": "reveals", "fine": "breaks news to", "actor": "JESS", "target": "MAYA", "mood": "tense", "intensity": 4, "summary": "Jess says Maya's video of her dad yelling went viral"},
+{"start": 44, "type": "lies", "fine": "lies to", "actor": "MAYA", "target": "LUCAS", "mood": "tense", "intensity": 3, "summary": "Lucas asks who called and Maya says nobody, ending the call"},
+{"start": 50, "type": "mocks", "fine": "taunts", "actor": "THE CREW", "target": "LUCAS", "mood": "hostile", "intensity": 4, "summary": "A neighboring crew films Lucas chanting Angry Fisherman"},
+{"start": 60, "type": "confesses", "fine": "owns up to", "actor": "MAYA", "target": "LUCAS", "mood": "tense", "intensity": 4, "summary": "Maya admits she posted the video to expose how they're treated"},
+{"start": 64, "type": "confronts", "fine": "corners", "actor": "LUCAS", "target": "MAYA", "mood": "suspense", "intensity": 4, "summary": "Lucas approaches, takes her phone, and dangles it over the rail"},
+{"start": 85, "type": "bonds", "fine": "teams up with", "actor": "LUCAS", "target": "MAYA", "mood": "hopeful", "intensity": 3, "summary": "Lucas asks Maya to help him say something else; she films both"}
+],
+"s05004": [
+{"start": 1, "type": "jokes", "fine": "riffs with", "actor": "ARTHUR", "target": "DOLORES", "mood": "playful", "intensity": 2, "summary": "Arthur rants about the neighborhood grid during a blackout"},
+{"start": 15, "type": "bonds", "fine": "shares a moment with", "actor": "WINIFRED", "target": "RIVER", "mood": "playful", "intensity": 2, "summary": "River's phone is dead and Winifred asks them to talk instead"},
+{"start": 21, "type": "jokes", "fine": "amuses", "actor": "RIVER", "target": "WINIFRED", "mood": "joyful", "intensity": 2, "summary": "River shows a text from Mum and the lights snap back on"}
+],
+"s05005": [
+{"start": 1, "type": "bonds", "fine": "reconnects with", "actor": "ODALYS", "target": "JONAH", "mood": "awkward", "intensity": 2, "summary": "Jonah and Odalys meet in person for the first time and hug"},
+{"start": 8, "type": "arrives", "fine": "drifts in", "actor": "TAMSIN", "target": "ODALYS", "mood": "awkward", "intensity": 2, "summary": "Nervous Tamsin hovers in and is recognized from the chat"},
+{"start": 14, "type": "arrives", "fine": "makes an entrance", "actor": "RAFE", "target": "JONAH", "mood": "bittersweet", "intensity": 3, "summary": "Rafe arrives on a cane and jokes about looking like hell"},
+{"start": 21, "type": "confesses", "fine": "opens up to", "actor": "TAMSIN", "target": "ODALYS", "mood": "tender", "intensity": 3, "summary": "Each admits they almost didn't come in"},
+{"start": 28, "type": "persuades", "fine": "convinces", "actor": "ODALYS", "target": "JONAH", "mood": "tense", "intensity": 3, "summary": "Odalys insists they discuss the March incident and Tamsin starts"}
+],
+"s05006": [
+{"start": 1, "type": "observes", "fine": "spies on", "actor": "KENJI", "target": "JAMAL", "mood": "suspense", "intensity": 2, "summary": "Kenji secretly films the same man on the subway, day three"},
+{"start": 18, "type": "accuses", "fine": "calls out", "actor": "KENJI", "target": "JAMAL", "mood": "tense", "intensity": 4, "summary": "Kenji accuses Jamal of touching his sister's bag for three stops"},
+{"start": 26, "type": "lies", "fine": "feigns innocence to", "actor": "JAMAL", "target": "KENJI", "mood": "tense", "intensity": 4, "summary": "Dee edges forward as Jamal dismisses Kenji as confused"},
+{"start": 29, "type": "confronts", "fine": "challenges", "actor": "KENJI", "target": "JAMAL", "mood": "tense", "intensity": 4, "summary": "Kenji dares Jamal to repeat it into the camera"},
+{"start": 32, "type": "attacks", "fine": "lunges at", "actor": "JAMAL", "target": "KENJI", "mood": "chaotic", "intensity": 5, "summary": "Jamal lunges for the camera, chaos erupts, and the footage goes black"}
+],
+"s05007": [
+{"start": 1, "type": "decides", "fine": "gives an order", "actor": "PETROV", "target": null, "mood": "tense", "intensity": 3, "summary": "Petrov halts the broadcast after a glitch in the final frame"},
+{"start": 12, "type": "searches", "fine": "investigates", "actor": "SOYINKA", "target": "PETROV", "mood": "tense", "intensity": 3, "summary": "Soyinka traces a latency spike and Brandt cites the voiding rule"},
+{"start": 15, "type": "discovers", "fine": "notices", "actor": "PETROV", "target": "HOODIE PLAYER", "mood": "suspense", "intensity": 3, "summary": "They find station four's player registered under only a handle"},
+{"start": 20, "type": "reveals", "fine": "unmasks", "actor": "DANTE", "target": null, "mood": "suspense", "intensity": 4, "summary": "The hooded player names himself Dante Vasquez to the crowd"},
+{"start": 26, "type": "discovers", "fine": "pieces it together", "actor": "SOYINKA", "target": "PETROV", "mood": "tense", "intensity": 4, "summary": "Soyinka finds a patch pushed mid-round signed by Dante"},
+{"start": 29, "type": "reveals", "fine": "presents evidence to", "actor": "DANTE", "target": "PETROV", "mood": "triumphant", "intensity": 3, "summary": "Dante hands over a drive exposing every edit; Petrov takes charge"}
+],
+"s05009": [
+{"start": 1, "type": "threatens", "fine": "intimidates", "actor": "ROSALIND", "target": "CROWE", "mood": "tense", "intensity": 3, "summary": "Crowe demands papers and Rosalind answers with a veiled threat"},
+{"start": 13, "type": "reveals", "fine": "breaks news to", "actor": "SHERIFF", "target": "CROWE", "mood": "tense", "intensity": 3, "summary": "The sheriff calls ordering Crowe to hold the wanted Rosalind"},
+{"start": 18, "type": "decides", "fine": "chooses", "actor": "CROWE", "target": "ROSALIND", "mood": "bittersweet", "intensity": 3, "summary": "Crowe tells her, admits he's tired, and opens the gate"},
+{"start": 29, "type": "defends", "fine": "covers for", "actor": "CROWE", "target": "ROSALIND", "mood": "bittersweet", "intensity": 2, "summary": "Rosalind rides off and Crowe tells the sheriff she never came"}
+],
+"s05010": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "PRIYA", "target": null, "mood": "awkward", "intensity": 2, "summary": "Priya waits at the pizza place for her online group chat"},
+{"start": 2, "type": "reveals", "fine": "unmasks", "actor": "JAYDEN", "target": "PRIYA", "mood": "chaotic", "intensity": 3, "summary": "Chat friend Jayden turns out to be Priya's half brother"},
+{"start": 6, "type": "arrives", "fine": "bursts in", "actor": "MOONBEAM", "target": "PRIYA", "mood": "chaotic", "intensity": 3, "summary": "Moonbeam arrives with snacks and everyone yells"},
+{"start": 11, "type": "arrives", "fine": "arrives", "actor": "DEVON", "target": "PRIYA", "mood": "joyful", "intensity": 3, "summary": "Devon arrives and they laugh that they're all kids"},
+{"start": 13, "type": "bonds", "fine": "bonds with", "actor": "JAYDEN", "target": "PRIYA", "mood": "joyful", "intensity": 2, "summary": "Jayden lowers his hood and buys garlic knots as peace offering"}
+],
+"s05011": [
+{"start": 1, "type": "pleads", "fine": "begs", "actor": "THE WOMAN", "target": "MO", "mood": "tense", "intensity": 3, "summary": "A woman begs Mo to see her sick cat immediately"},
+{"start": 6, "type": "comforts", "fine": "tends to", "actor": "SAM", "target": "THE WOMAN", "mood": "tender", "intensity": 2, "summary": "Sam kneels by Biscuit and jokes the woman's ex is an idiot"},
+{"start": 12, "type": "mocks", "fine": "needles", "actor": "MO", "target": "SAM", "mood": "awkward", "intensity": 3, "summary": "Mo needles Sam, and Sam reveals they were together"},
+{"start": 19, "type": "accuses", "fine": "blames", "actor": "MO", "target": "SAM", "mood": "hostile", "intensity": 4, "summary": "Sam prioritizes Jen and Mo erupts about their hidden past"},
+{"start": 27, "type": "arrives", "fine": "bursts in", "actor": "BIG DAVE", "target": "MO", "mood": "awkward", "intensity": 2, "summary": "Big Dave walks in with an injured dog and senses drama"},
+{"start": 32, "type": "confesses", "fine": "opens up to", "actor": "SAM", "target": "MO", "mood": "tender", "intensity": 4, "summary": "Sam admits she was scared of how Mo looks at her"},
+{"start": 39, "type": "bonds", "fine": "reconnects with", "actor": "MO", "target": "SAM", "mood": "joyful", "intensity": 4, "summary": "Mo asks her to repeat it and they reconcile tearfully"},
+{"start": 47, "type": "decides", "fine": "makes a plan", "actor": "MO", "target": "SAM", "mood": "playful", "intensity": 2, "summary": "Mo sends Sam to Biscuit and sets a coffee date"}
+],
+"s05013": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "SAM", "target": "JULES", "mood": "ominous", "intensity": 3, "summary": "Sam drinks by candlelight as Jules says the blackout was deliberate"},
+{"start": 6, "type": "observes", "fine": "keeps watch", "actor": "JULES", "target": "SAM", "mood": "suspense", "intensity": 3, "summary": "Jules counts watchers outside and kills the flashlight"},
+{"start": 11, "type": "decides", "fine": "decides", "actor": "SAM", "target": "JULES", "mood": "ominous", "intensity": 2, "summary": "Sam decides they sit and listen, musing on endless waiting"}
+],
+"s05015": [
+{"start": 1, "type": "comforts", "fine": "encourages", "actor": "RAY", "target": "AVA", "mood": "suspense", "intensity": 3, "summary": "Ray steadies Ava as the esports final counts down"},
+{"start": 13, "type": "comforts", "fine": "encourages", "actor": "WALT", "target": "AVA", "mood": "chaotic", "intensity": 3, "summary": "Grandpa Walt calls in cheering as Ava battles"},
+{"start": 21, "type": "attacks", "fine": "fights", "actor": "STRANGER", "target": "AVA", "mood": "tense", "intensity": 4, "summary": "The hooded rival grabs the golden shield and pushes Ava back"},
+{"start": 34, "type": "reveals", "fine": "unmasks", "actor": "MARCUS", "target": "RAY", "mood": "playful", "intensity": 3, "summary": "The rival reveals he is Marcus, Ray's old opponent"},
+{"start": 39, "type": "attacks", "fine": "fights", "actor": "AVA", "target": "MARCUS", "mood": "suspense", "intensity": 5, "summary": "The final seconds tick down and the screen explodes in light"}
+],
+"s05016": [
+{"start": 1, "type": "lies", "fine": "covers a story for", "actor": "KIT", "target": "LEO", "mood": "tense", "intensity": 2, "summary": "In the border line Kit invents an aunt story with Leo"},
+{"start": 7, "type": "lies", "fine": "lies to", "actor": "KIT", "target": "OKOYE", "mood": "tense", "intensity": 3, "summary": "Kit and Leo give Okoye conflicting names for the aunt"},
+{"start": 17, "type": "searches", "fine": "searches", "actor": "BRANDT", "target": "LEO", "mood": "suspense", "intensity": 4, "summary": "Brandt demands the trunk and the siblings freeze"},
+{"start": 28, "type": "discovers", "fine": "finds a clue", "actor": "BRANDT", "target": "KIT", "mood": "hopeful", "intensity": 3, "summary": "The trunk holds a photo of Marguerite Margaret Vance"},
+{"start": 33, "type": "decides", "fine": "accepts", "actor": "OKOYE", "target": "KIT", "mood": "joyful", "intensity": 2, "summary": "Okoye waves them through and they laugh with relief"}
+],
+"s05018": [
+{"start": 1, "type": "arrives", "fine": "bursts in", "actor": "FRANKIE", "target": "PRIYA", "mood": "playful", "intensity": 3, "summary": "Frankie bursts in late, tripping over a mop bucket"},
+{"start": 10, "type": "jokes", "fine": "charms", "actor": "FRANKIE", "target": "PRIYA", "mood": "playful", "intensity": 2, "summary": "Frankie flatters Priya with coffees and botches his math"},
+{"start": 16, "type": "jokes", "fine": "amuses", "actor": "FRANKIE", "target": "PRIYA", "mood": "chaotic", "intensity": 3, "summary": "Frankie spills both coffees and breaks a chair"},
+{"start": 26, "type": "jokes", "fine": "charms", "actor": "FRANKIE", "target": "PRIYA", "mood": "playful", "intensity": 2, "summary": "Frankie hands over a hot dog receipt and makes Priya smile"},
+{"start": 39, "type": "arrives", "fine": "bursts in", "actor": "THE GUARDS", "target": "PRIYA", "mood": "playful", "intensity": 2, "summary": "Guards check in and Priya sends Frankie off with orders"},
+{"start": 48, "type": "hides", "fine": "masks a feeling", "actor": "PRIYA", "target": null, "mood": "tender", "intensity": 2, "summary": "Frankie exits clumsily and Priya secretly keeps his receipt"}
+],
+"s05019": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "TOM", "target": "THE STRANGER", "mood": "melancholy", "intensity": 2, "summary": "Tom and a hooded stranger wait silently in a powerless laundromat"},
+{"start": 10, "type": "bonds", "fine": "shares a moment with", "actor": "TOM", "target": "THE STRANGER", "mood": "tender", "intensity": 2, "summary": "Tom offers his can opener and the stranger introduces herself as Dana"},
+{"start": 27, "type": "bonds", "fine": "confides in", "actor": "DANA", "target": "TOM", "mood": "melancholy", "intensity": 3, "summary": "They share beans and wonder whether anyone is coming"},
+{"start": 34, "type": "jokes", "fine": "lightens the mood for", "actor": "DANA", "target": "TOM", "mood": "bittersweet", "intensity": 2, "summary": "The last dryer dies and Dana's joke makes them both laugh"}
+],
+"s05020": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "KIM", "target": "KIP", "mood": "suspense", "intensity": 3, "summary": "Kim watches a black sedan while Kip instructs her by phone"},
+{"start": 15, "type": "confronts", "fine": "presses", "actor": "KIM", "target": "KIP", "mood": "tense", "intensity": 3, "summary": "Kim questions whether the bag is really clean"},
+{"start": 19, "type": "deflects", "fine": "stalls", "actor": "KIM", "target": null, "mood": "suspense", "intensity": 4, "summary": "The sedan man approaches and Kim smiles to stall him"}
+],
+"s05022": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "DANA", "target": "DAN", "mood": "calm", "intensity": 2, "summary": "Dana runs a friendly video check-in with parolee Dan"},
+{"start": 11, "type": "discovers", "fine": "finds a clue", "actor": "DANA", "target": "DAN", "mood": "suspense", "intensity": 3, "summary": "Gus urgently messages Dana to check Dan's GPS"},
+{"start": 17, "type": "discovers", "fine": "catches", "actor": "DANA", "target": "DAN", "mood": "tense", "intensity": 3, "summary": "Dana spots a Fulton Street sign behind him and Dan stammers"}
+],
+"s05023": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "WEI", "target": "JONAS", "mood": "suspense", "intensity": 3, "summary": "Wei plants a box under the stage as Jonas plays the final"},
+{"start": 11, "type": "discovers", "fine": "notices", "actor": "BIANCA", "target": "WEI", "mood": "tense", "intensity": 4, "summary": "Bianca spots a grey-suited man watching Jonas"},
+{"start": 19, "type": "decides", "fine": "commits", "actor": "JONAS", "target": "WEI", "mood": "tense", "intensity": 4, "summary": "Jonas finishes the transfer and vows to win the game too"},
+{"start": 22, "type": "observes", "fine": "watches", "actor": "BIANCA", "target": null, "mood": "suspense", "intensity": 3, "summary": "Bianca reports the grey suit is gone as the countdown begins"}
+],
+"s05025": [
+{"start": 1, "type": "hides", "fine": "masks a feeling", "actor": "TESS", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Tess rides the night bus, angry, her phone dead"},
+{"start": 9, "type": "observes", "fine": "hesitates", "actor": "TESS", "target": "LORNA", "mood": "tense", "intensity": 3, "summary": "Her mother's old phone rings and Tess finally answers"},
+{"start": 18, "type": "confronts", "fine": "faces off with", "actor": "LORNA", "target": "TESS", "mood": "tense", "intensity": 3, "summary": "Lorna demands where she is; Tess retorts curtly"},
+{"start": 24, "type": "accuses", "fine": "accuses", "actor": "TESS", "target": "LORNA", "mood": "hostile", "intensity": 5, "summary": "Tess screams that Lorna hid Dad's leaving to protect herself"},
+{"start": 29, "type": "attacks", "fine": "strikes", "actor": "TESS", "target": "LORNA", "mood": "grief", "intensity": 5, "summary": "Tess smashes the phone on the bus floor amid the rain"}
+]
+}

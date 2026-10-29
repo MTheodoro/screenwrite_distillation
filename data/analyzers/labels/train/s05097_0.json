@@ -1,0 +1,22 @@
+{
+  "scene_id": "s05097_0",
+  "cast": {"DARNELL WHITFIELD": "DARNELL", "DARNELL": "DARNELL", "OFFICER IMELDA CRUZ": "CRUZ", "CRUZ": "CRUZ"},
+  "beats": [1, 5, 8, 11, 12],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "5": {"t": "A", "who": ["DARNELL"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["DARNELL"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["DARNELL"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["CRUZ"], "emo": {}, "c": 0.95},
+    "9": {"t": "D", "who": ["CRUZ"], "emo": {}, "c": 0.95},
+    "10": {"t": "D", "who": ["CRUZ"], "emo": {}, "c": 0.95},
+    "11": {"to": ["DARNELL"], "emo": ["neutral", 0.3], "c": 0.95},
+    "12": {"t": "A", "who": ["DARNELL"], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["DARNELL"], "emo": {}, "c": 0.9},
+    "14": {"t": "A", "who": ["DARNELL"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 15, 25, 15]
+}

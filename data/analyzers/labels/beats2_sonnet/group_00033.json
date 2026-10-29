@@ -1,0 +1,140 @@
+{
+"s01584": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"EVELYN","target":"JULIAN","mood":"playful","intensity":2,"summary":"Lady Evelyn pours tea and spars wittily with young solicitor Julian over sugar and flattery."},
+{"start":21,"type":"persuades","fine":"pitches to","actor":"JULIAN","target":"EVELYN","mood":"tense","intensity":2,"summary":"Julian raises the Hargreaves offer for the east orchard; Evelyn parries and sizes him up."},
+{"start":38,"type":"hides","fine":"keeps a secret","actor":"EVELYN","target":"JULIAN","mood":"ominous","intensity":3,"summary":"Evelyn hints something is buried beneath the fourth pear tree and deflects with biscuits."},
+{"start":54,"type":"decides","fine":"refuses","actor":"EVELYN","target":"JULIAN","mood":"calm","intensity":2,"summary":"Evelyn refuses to sell the orchard, calling it sentimental; Julian warns the firm will persist."},
+{"start":67,"type":"bonds","fine":"shares a moment with","actor":"EVELYN","target":"JULIAN","mood":"tender","intensity":2,"summary":"They smile and share another cup of tea as rain falls."}
+],
+"s00629": [
+{"start":1,"type":"observes","fine":"waits","actor":"DEVON","target":"GRACE","mood":"melancholy","intensity":2,"summary":"Devon waits at the quiet hospice station while Grace answers a call about his father."},
+{"start":15,"type":"pleads","fine":"asks for help from","actor":"DEVON","target":"GRACE","mood":"grief","intensity":3,"summary":"Devon admits he is not ready; Grace urges him to go in and be Walter."},
+{"start":27,"type":"bonds","fine":"confides in","actor":"DEVON","target":"GRACE","mood":"tender","intensity":3,"summary":"Devon asks if it gets easier; Grace says no, you get kinder, and he goes."},
+{"start":34,"type":"comforts","fine":"consoles","actor":"GRACE","target":null,"mood":"bittersweet","intensity":3,"summary":"Leonidas joyfully greets Walter from down the hall as Grace quietly logs the time."}
+],
+"s02480": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"LUCIANA","target":"DEACON","mood":"melancholy","intensity":2,"summary":"Luciana waits in the bay; Deacon joins her and she announces her three hundred shots."},
+{"start":21,"type":"confronts","fine":"presses","actor":"DEACON","target":"LUCIANA","mood":"tense","intensity":3,"summary":"Over the PA the coach wants her out; Deacon pushes her to admit she is out of the lineup."},
+{"start":35,"type":"decides","fine":"commits","actor":"LUCIANA","target":"DEACON","mood":"hopeful","intensity":3,"summary":"Luciana pulls on her helmet and orders Deacon to open the door to the ice."}
+],
+"s00898_0": [
+{"start":1,"type":"observes","fine":"waits","actor":"ELIJAH","target":null,"mood":"calm","intensity":2,"summary":"Elijah sips coffee on his porch step, composing a letter to Ruth in his head."},
+{"start":10,"type":"decides","fine":"makes a plan","actor":"ELIJAH","target":null,"mood":"ominous","intensity":3,"summary":"A rider approaches; Elijah goes inside and loads his shotgun."}
+],
+"s01385": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"MIREILLE","target":null,"mood":"tense","intensity":3,"summary":"Three exhausted soldiers hide behind a wall by the mill while Mireille watches the far bank."},
+{"start":13,"type":"jokes","fine":"banters with","actor":"OSKAR","target":"MIREILLE","mood":"awkward","intensity":2,"summary":"Oskar and Mireille trade dry banter as the wounded soldier mutters in delirium."},
+{"start":44,"type":"decides","fine":"gives an order","actor":"MIREILLE","target":"OSKAR","mood":"tense","intensity":3,"summary":"Mireille orders a crossing at dark and insists they carry the wounded man."},
+{"start":49,"type":"pleads","fine":"implores","actor":"WOUNDED SOLDIER","target":"MIREILLE","mood":"grief","intensity":4,"summary":"The wounded soldier wakes lucid and begs to be left; Oskar finds he is bleeding out."},
+{"start":69,"type":"attacks","fine":"shoots at","actor":"MORTAR","target":"MIREILLE","mood":"chaotic","intensity":5,"summary":"Mortar rounds destroy the wall; the soldier dies and Mireille and Oskar scramble for the river."},
+{"start":85,"type":"flees","fine":"scrambles away","actor":"MIREILLE","target":"OSKAR","mood":"chaotic","intensity":5,"summary":"Under machine-gun fire they plunge into the river and vanish into the mist."}
+],
+"s01902": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"ELIAS","target":"BILYK","mood":"tense","intensity":3,"summary":"Soldiers hold a salt-flat radio shack as a barefoot priest approaches waving a white rag."},
+{"start":17,"type":"confronts","fine":"interrogates","actor":"AUGUSTIN","target":"ELIAS","mood":"tense","intensity":2,"summary":"The soldiers test the priest's claims; he offers a Bible and stale bread and says both armies left."},
+{"start":29,"type":"reveals","fine":"breaks news to","actor":"LIAM","target":"BILYK","mood":"hopeful","intensity":3,"summary":"Liam's radio brings a ceasefire order already in effect; the soldiers lower their weapons."}
+],
+"s00924": [
+{"start":1,"type":"arrives","fine":"bursts in","actor":"TOMAS","target":"ZEKE","mood":"tense","intensity":2,"summary":"Deputy Tomas bursts in as stationmaster Zeke copies a telegram; a stranger rides up behind."},
+{"start":11,"type":"reveals","fine":"breaks news to","actor":"ZEKE","target":"TOMAS","mood":"tense","intensity":3,"summary":"Zeke reads the wire: the Harlan gang crossed the river and orders say do not engage."},
+{"start":16,"type":"persuades","fine":"recruits","actor":"BILLIE","target":"TOMAS","mood":"tense","intensity":3,"summary":"Billie reads the telegram and tells the green deputy that today he is the law."},
+{"start":24,"type":"attacks","fine":"shoots at","actor":"BILLIE","target":null,"mood":"suspense","intensity":4,"summary":"Riders appear; Billie shoots the lead horse and the gang scatters behind the water tower."},
+{"start":32,"type":"observes","fine":"waits","actor":"BILLIE","target":null,"mood":"hopeful","intensity":2,"summary":"A white handkerchief appears on a rifle barrel; someone wants to talk."}
+],
+"s00465": [
+{"start":1,"type":"works","fine":"prepares","actor":"ISOLDE","target":null,"mood":"tense","intensity":3,"summary":"Five survivors huddle by a tiny stove beside a wrecked sled as Isolde checks rations."},
+{"start":18,"type":"discovers","fine":"realizes","actor":"ISOLDE","target":"TEMI","mood":"ominous","intensity":3,"summary":"The compass spins uselessly and Cas asks if they are lost."},
+{"start":26,"type":"confronts","fine":"presses","actor":"ISOLDE","target":"WILFRED","mood":"tense","intensity":3,"summary":"Isolde warns Wilfred his injured hand will blacken; he tucks it away."},
+{"start":32,"type":"decides","fine":"chooses","actor":"ISOLDE","target":"TEMI","mood":"hopeful","intensity":3,"summary":"Isolde has Temi pick a heading, east, and decides they will carry the injured dog Bramble."},
+{"start":53,"type":"leaves","fine":"leaves","actor":"ISOLDE","target":null,"mood":"bittersweet","intensity":3,"summary":"They break camp; Isolde bids the broken sled farewell and leads them east."}
+],
+"s02274": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ODELL","target":"MAUDE","mood":"calm","intensity":1,"summary":"Odell, Maude and Zeb idly bicker over why the stagecoach is late."},
+{"start":13,"type":"arrives","fine":"drifts in","actor":"BARNABY","target":null,"mood":"playful","intensity":1,"summary":"The driver calls from afar that the axle broke; they accept another night and ask about stew."}
+],
+"s01544_0": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"COLETTE","target":"CASS","mood":"hostile","intensity":4,"summary":"Wounded Colette levels an empty pistol at Cass over the body of Nestor."},
+{"start":21,"type":"discovers","fine":"realizes","actor":"COLETTE","target":"NESTOR","mood":"chaotic","intensity":3,"summary":"Nestor coughs awake, causing a clumsy collision, and turns out to be alive."},
+{"start":31,"type":"decides","fine":"makes a plan","actor":"NESTOR","target":"COLETTE","mood":"hopeful","intensity":3,"summary":"With the dish broken, Nestor proposes uploading by hand from a basement transmitter, despite mines."},
+{"start":50,"type":"bonds","fine":"teams up with","actor":"COLETTE","target":"CASS","mood":"hopeful","intensity":2,"summary":"Colette tosses Cass the drive and the trio help Nestor toward the stairwell."}
+],
+"s02209": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"NAOMI","target":null,"mood":"calm","intensity":2,"summary":"Alone in a secret shipyard rowing tank, Naomi rows her single scull at dawn."},
+{"start":22,"type":"arrives","fine":"shows up unannounced","actor":"COACH VORHEES","target":"NAOMI","mood":"tense","intensity":3,"summary":"Coach Vorhees appears at the dock, Naomi falters, and her time is disappointing."},
+{"start":42,"type":"confronts","fine":"presses","actor":"COACH VORHEES","target":"NAOMI","mood":"tense","intensity":3,"summary":"On the dock Vorhees reminds her Beijing is eleven weeks away and she rows like she has forgotten."},
+{"start":58,"type":"confesses","fine":"breaks down to","actor":"NAOMI","target":"COACH VORHEES","mood":"grief","intensity":4,"summary":"Naomi tells her coach she is done and cannot do it anymore."},
+{"start":70,"type":"reveals","fine":"comes clean to","actor":"COACH VORHEES","target":"NAOMI","mood":"bittersweet","intensity":4,"summary":"Vorhees admits she faked the splits since March because Naomi needed someone to lie to her."},
+{"start":79,"type":"comforts","fine":"embraces","actor":"COACH VORHEES","target":"NAOMI","mood":"triumphant","intensity":3,"summary":"Sun breaks, Naomi laughs and weeps, and they agree to row again."}
+],
+"s01288": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"HOLT","target":"LOWE","mood":"tense","intensity":3,"summary":"Inspector Holt questions nervous archivist Lowe about a bloodstained umbrella found on the tracks."},
+{"start":29,"type":"accuses","fine":"suspects","actor":"HOLT","target":"LOWE","mood":"suspense","intensity":3,"summary":"Holt tells Lowe he thinks he is afraid, mentioning a man found injured in a signal box."},
+{"start":32,"type":"arrives","fine":"makes an entrance","actor":"MAGDA","target":null,"mood":"tense","intensity":3,"summary":"Magda emerges from the dark claiming the umbrella and contradicts Lowe about knowing him."},
+{"start":44,"type":"confronts","fine":"challenges","actor":"HOLT","target":"MAGDA","mood":"ominous","intensity":3,"summary":"Holt asks whose name is on the ticket stub; both deny it as an umbrella falls in the dark."}
+],
+"s00215": [
+{"start":1,"type":"discovers","fine":"finds a clue","actor":"MARCUS","target":"HILDEGARD","mood":"suspense","intensity":3,"summary":"Marcus finds drawer fourteen occupied by a body identical to the one on his gurney."},
+{"start":30,"type":"deflects","fine":"stalls","actor":"HILDEGARD","target":"EUGENE","mood":"fear","intensity":3,"summary":"Hildegard drags reluctant guard Eugene to look; they offer twins as an explanation."},
+{"start":45,"type":"discovers","fine":"realizes","actor":"EUGENE","target":null,"mood":"fear","intensity":4,"summary":"Drawers slide open on their own and Eugene recalls the dead all sat up in '98."},
+{"start":62,"type":"flees","fine":"hides from","actor":"HILDEGARD","target":null,"mood":"fear","intensity":5,"summary":"A hand grips drawer fourteen, the door is locked from outside, and the lights go out."},
+{"start":72,"type":"reveals","fine":"shows","actor":"BODY","target":"HILDEGARD","mood":"ominous","intensity":4,"summary":"The lights return to show every drawer open and every sheet empty."}
+],
+"s02009": [
+{"start":1,"type":"works","fine":"prepares","actor":"DENISE","target":"THE BRIDE","mood":"chaotic","intensity":2,"summary":"Six women bustle around the panicked bride, fixing her dress, makeup and flowers amid chaos."},
+{"start":15,"type":"reveals","fine":"breaks news to","actor":"DENISE","target":"ODALYS","mood":"tense","intensity":3,"summary":"A radio message silences the room; Denise brightly insists all is fine, then admits the groom wants a word."},
+{"start":25,"type":"leaves","fine":"walks out on","actor":"THE BRIDE","target":"DENISE","mood":"awkward","intensity":3,"summary":"The bride hands over her veil and quietly leaves to see the groom."}
+],
+"s00275": [
+{"start":1,"type":"searches","fine":"looks for","actor":"GRETCHEN","target":"RUSS","mood":"playful","intensity":2,"summary":"Gretchen is stuck in the windmill tunnel retrieving her ball while Russ protests."},
+{"start":11,"type":"attacks","fine":"lunges at","actor":"GRETCHEN","target":"RUSS","mood":"chaotic","intensity":3,"summary":"A blade clips Waldo's hat and Gretchen shoots out, toppling all three in a heap."}
+],
+"s00516": [
+{"start":1,"type":"works","fine":"prepares","actor":"HARRIET","target":null,"mood":"ominous","intensity":2,"summary":"Judge Harriet convenes court in a dark, powerless courtroom by conference phone."},
+{"start":10,"type":"pleads","fine":"appeals to","actor":"QUIGLEY","target":"HARRIET","mood":"tense","intensity":2,"summary":"Quigley asks for a continuance because of the outage; Harriet denies it."},
+{"start":25,"type":"decides","fine":"gives an order","actor":"HARRIET","target":"QUIGLEY","mood":"tense","intensity":3,"summary":"Harriet orders Quigley to bring his seventy-eight-year-old client up eleven flights of stairs."},
+{"start":32,"type":"comforts","fine":"reassures","actor":"HARRIET","target":"QUIGLEY","mood":"tender","intensity":2,"summary":"Harriet softens, telling him to take thirty minutes, and waits in the dark."}
+],
+"s02030": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"ARNAUD","target":null,"mood":"ominous","intensity":2,"summary":"Five people taste cheese around a table in the cave, with unease beneath the ritual."},
+{"start":28,"type":"hides","fine":"masks a feeling","actor":"TOMAS","target":"ARNAUD","mood":"tense","intensity":3,"summary":"Tomas refuses the cheese; Sabine sets down her knife and Leilani pours Yosef too much wine."},
+{"start":46,"type":"threatens","fine":"warns","actor":"ARNAUD","target":"TOMAS","mood":"ominous","intensity":4,"summary":"Arnaud muses that things in the cave turn into what they were always going to be."},
+{"start":49,"type":"discovers","fine":"notices","actor":"TOMAS","target":null,"mood":"suspense","intensity":4,"summary":"Tomas's jacket falls open revealing a holster; everyone sees, nobody speaks, and Arnaud turns to business."}
+],
+"s02286": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"TALL MAN","target":"DOLORES","mood":"tense","intensity":2,"summary":"A large man in the 24-hour laundromat complains that a broken dryer took his quarters."},
+{"start":16,"type":"confronts","fine":"presses","actor":"TALL MAN","target":"NIKOLAI","mood":"tense","intensity":3,"summary":"He approaches the dryer; Nikolai warns him off, and the man yanks it open."},
+{"start":30,"type":"attacks","fine":"shoves","actor":"TALL MAN","target":"NIKOLAI","mood":"chaotic","intensity":4,"summary":"Cash spills from the dryer and Nikolai lunges; the tall man shoves him into the table."},
+{"start":34,"type":"accuses","fine":"points the finger at","actor":"DOLORES","target":"NIKOLAI","mood":"tense","intensity":3,"summary":"Marcus reveals himself as police and the three accuse each other over the money."}
+],
+"s01957": [
+{"start":1,"type":"searches","fine":"rummages","actor":"LUCA","target":null,"mood":"suspense","intensity":2,"summary":"Three thieves find the black-wax wheel in the cheese cave and crack out a steel case."},
+{"start":20,"type":"arrives","fine":"shows up unannounced","actor":"RHIANNON","target":"LUCA","mood":"tense","intensity":3,"summary":"Rhiannon, the night watch, appears; Luca hands over the case and learns she knew."},
+{"start":38,"type":"mocks","fine":"dismisses","actor":"RHIANNON","target":"BRODIE","mood":"awkward","intensity":2,"summary":"Brodie asks if they are fired; Rhiannon says they were never hired."}
+],
+"s00234": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"ZEKE","target":null,"mood":"tense","intensity":2,"summary":"Three soldiers watch a shelled farmhouse, trading wary remarks on how quiet it is."},
+{"start":30,"type":"discovers","fine":"notices","actor":"RAFA","target":"ZEKE","mood":"suspense","intensity":3,"summary":"The farmhouse door is ajar; the squad rises with rifles up and three goats walk out."},
+{"start":45,"type":"jokes","fine":"amuses","actor":"RAFA","target":"COLM","mood":"joyful","intensity":3,"summary":"Relief turns to laughter among the soldiers at the goats."},
+{"start":48,"type":"flees","fine":"scrambles away","actor":"ZEKE","target":null,"mood":"chaotic","intensity":5,"summary":"A shell whistles in and explodes in the barn; the radio is dead and they take cover."}
+],
+"s02255": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"TORVALD","target":"MERCEDES","mood":"tense","intensity":3,"summary":"Agent Torvald demands the crew open a van on the ferry deck while they argue about his warrant."},
+{"start":27,"type":"discovers","fine":"uncovers","actor":"TORVALD","target":null,"mood":"suspense","intensity":3,"summary":"Torvald opens the van and finds crates of cash hidden under straw."},
+{"start":38,"type":"threatens","fine":"holds at gunpoint","actor":"BEATRIX","target":"TORVALD","mood":"tense","intensity":4,"summary":"Beatrix claims the cargo and draws a pistol, telling Torvald to step away."},
+{"start":55,"type":"attacks","fine":"strikes","actor":"COLM","target":"BEATRIX","mood":"playful","intensity":3,"summary":"Colm offers coffee and clangs a pan on her wrist; the crew subdues her."}
+],
+"s01182": [
+{"start":1,"type":"observes","fine":"waits","actor":"BEATRIZ","target":null,"mood":"fear","intensity":3,"summary":"Stranded passengers in a swaying gondola get dispatch's order to hold position; Tariq snaps."},
+{"start":17,"type":"decides","fine":"gives an order","actor":"ELSPETH","target":"GUS","mood":"tense","intensity":3,"summary":"The light dies and Elspeth orders everyone to pool warm clothing and supplies."},
+{"start":28,"type":"comforts","fine":"steadies","actor":"ELSPETH","target":"MIREILLE","mood":"hopeful","intensity":3,"summary":"Dispatch warns of a storm in forty minutes; Elspeth wraps Mireille in a scarf and they hold on."}
+],
+"s02106": [
+{"start":1,"type":"observes","fine":"watches","actor":"BASTIAN","target":"OTIS","mood":"calm","intensity":1,"summary":"Graciela and Bastian tend their peach stand as Otis pulls up and pays at the honesty box."},
+{"start":15,"type":"bonds","fine":"thanks","actor":"OTIS","target":"GRACIELA","mood":"tender","intensity":2,"summary":"Otis leaves an extra dollar for the view and drives off; Graciela quietly pockets it."}
+],
+"s02157": [
+{"start":1,"type":"works","fine":"prepares","actor":"FARRUKH","target":"CASPIAN","mood":"tense","intensity":2,"summary":"Captain Farrukh tests rookie bowler Caspian on a rooftop pitch under a new coach's eye."},
+{"start":20,"type":"comforts","fine":"encourages","actor":"NEW COACH","target":"CASPIAN","mood":"hopeful","intensity":2,"summary":"The coach corrects Caspian's grip and Farrukh smashes the next ball off the roof."},
+{"start":28,"type":"confronts","fine":"challenges","actor":"IBARRA","target":"FARRUKH","mood":"tense","intensity":3,"summary":"She identifies herself as Ibarra and challenges Farrukh to play the last ball well."}
+]
+}

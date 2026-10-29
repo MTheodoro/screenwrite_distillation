@@ -1,0 +1,27 @@
+{
+  "scene_id": "s05049",
+  "cast": {"SADIE KROLL": "SADIE", "SADIE": "SADIE", "CLETUS": "CLETUS", "Cletus": "CLETUS", "Uncle Cletus": "CLETUS", "MARSHAL REEVES": "REEVES", "REEVES": "REEVES", "Reeves": "REEVES", "Marshal": "REEVES", "JOLENE": "JOLENE", "Jolene": "JOLENE", "two teenagers": "TEENAGERS", "dog": "DOG"},
+  "beats": [1, 4, 8, 9, 10, 11, 12, 14, 15, 16, 18, 19, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["TEENAGERS"], "emo": {}, "c": 0.8},
+    "4": {"t": "D", "who": ["SADIE"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["CLETUS"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["REEVES"], "emo": {}, "c": 0.95},
+    "7": {"t": "D", "who": ["JOLENE"], "emo": {}, "c": 0.95},
+    "8": {"t": "D", "who": ["REEVES"], "emo": {}, "c": 0.7},
+    "9": {"to": ["SADIE"], "emo": ["neutral", 0.2], "c": 0.6},
+    "10": {"to": ["REEVES"], "emo": ["fear", 0.4], "c": 0.95},
+    "11": {"to": ["CLETUS"], "emo": ["neutral", 0.2], "c": 0.95},
+    "12": {"t": "A", "who": ["DOG"], "emo": {}, "c": 0.9},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "14": {"to": ["CLETUS"], "emo": ["anger", 0.3], "c": 0.95},
+    "15": {"t": "A", "who": ["JOLENE"], "emo": {}, "c": 0.95},
+    "16": {"to": ["CLETUS"], "emo": ["fear", 0.4], "c": 0.95},
+    "17": {"to": ["JOLENE"], "emo": ["fear", 0.6], "c": 0.95},
+    "18": {"to": ["ALL"], "emo": ["anger", 0.4], "c": 0.85},
+    "19": {"to": ["SADIE"], "emo": ["joy", 0.3], "c": 0.95},
+    "20": {"t": "A", "who": ["TEENAGERS", "DOG"], "emo": {}, "c": 0.6}
+  }
+}

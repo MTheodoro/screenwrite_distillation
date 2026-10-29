@@ -1,0 +1,137 @@
+{
+"s01843": [
+{"start":1,"type":"works","fine":"works","actor":"SADIE","target":null,"mood":"tense","intensity":4,"summary":"Dr. Sadie leads a resuscitation at twelve minutes while the attending Hargrove watches and Ilse hesitates."},
+{"start":19,"type":"comforts","fine":"steadies","actor":"BEN","target":"SADIE","mood":"tense","intensity":3,"summary":"Ben insists on swapping out Sadie's tiring arms; she finally yields."},
+{"start":30,"type":"discovers","fine":"notices","actor":"SADIE","target":"HARGROVE","mood":"hopeful","intensity":4,"summary":"The monitor shows a rhythm; Sadie insists it is real and Ben finds a pulse."},
+{"start":50,"type":"confronts","fine":"calls out","actor":"SADIE","target":"HARGROVE","mood":"hostile","intensity":4,"summary":"Sadie accuses Hargrove of mentally calling time of death six minutes ago until he admits it."},
+{"start":66,"type":"leaves","fine":"exits quietly","actor":"HARGROVE","target":"SADIE","mood":"bittersweet","intensity":3,"summary":"Hargrove offers to tell the family; Sadie insists she will and he exits."},
+{"start":77,"type":"comforts","fine":"tends to","actor":"ILSE","target":null,"mood":"melancholy","intensity":2,"summary":"Sadie steadies herself at the sink and Ilse tucks the sheet around the patient."}
+],
+"s01719": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"SAOIRSE","target":"MATEO","mood":"calm","intensity":2,"summary":"Sleepless Saoirse and Mateo talk quietly in the hydroponics bay at night."},
+{"start":20,"type":"discovers","fine":"notices","actor":"MATEO","target":"SAOIRSE","mood":"suspense","intensity":3,"summary":"Mateo notices the drip is irregular; Saoirse finds a vine leaf warm like skin and orders a scan."},
+{"start":32,"type":"reveals","fine":"shows","actor":"ORCHARD","target":"SAOIRSE","mood":"fear","intensity":4,"summary":"Plants turn toward the humans, the mist forms a face, and Orchard says they are not alone."}
+],
+"s00806": [
+{"start":1,"type":"works","fine":"writes","actor":"EVANGELINE","target":null,"mood":"melancholy","intensity":2,"summary":"Detective Evangeline records case notes on a library fire and a missing librarian."},
+{"start":26,"type":"discovers","fine":"recognizes","actor":"EVANGELINE","target":null,"mood":"ominous","intensity":4,"summary":"A tape starts on its own with her own voice telling her she found the right basement."},
+{"start":36,"type":"searches","fine":"rummages","actor":"EVANGELINE","target":null,"mood":"suspense","intensity":4,"summary":"Following the voice, she clears the shelf, finds a hidden door and opens it with the key."},
+{"start":42,"type":"discovers","fine":"finds a clue","actor":"EVANGELINE","target":null,"mood":"ominous","intensity":3,"summary":"Inside is a single reel marked PLAY LAST."}
+],
+"s00501": [
+{"start":1,"type":"comforts","fine":"encourages","actor":"ZEB","target":"MATT","mood":"melancholy","intensity":3,"summary":"Zeb leads a failing mule across the salt flats with his thirsty son Matt."},
+{"start":19,"type":"comforts","fine":"tends to","actor":"ZEB","target":"MATT","mood":"tender","intensity":3,"summary":"Zeb offers Matt the last mouthful of water; Matt shares and Zeb gives the rest to the mule."},
+{"start":32,"type":"flees","fine":"hides from","actor":"ZEB","target":"MATT","mood":"fear","intensity":5,"summary":"A wall of dust approaches; Zeb pulls Matt down and shields him with his coat."},
+{"start":42,"type":"bonds","fine":"reconnects with","actor":"ZEB","target":"MATT","mood":"hopeful","intensity":2,"summary":"The storm passes, father and son are alive, and the mule waits in the distance."}
+],
+"s02148": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"SUNDERLY","target":"GRETEL","mood":"tense","intensity":3,"summary":"Sunderly the dragon confronts Gretel for trespassing in his aching tooth."},
+{"start":20,"type":"persuades","fine":"bargains with","actor":"GRETEL","target":"SUNDERLY","mood":"hopeful","intensity":3,"summary":"Gretel shows her iron pick and offers to fix the rotten tooth, and the dragon allows it."},
+{"start":30,"type":"works","fine":"repairs something","actor":"GRETEL","target":"SUNDERLY","mood":"chaotic","intensity":4,"summary":"She wedges the pick in, the tooth cracks and a gold avalanche buries her knees; she laughs."}
+],
+"s02301": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"BO","target":"KWAME","mood":"playful","intensity":2,"summary":"Four teens banter in a treehouse as Bo plays ukulele badly."},
+{"start":24,"type":"reveals","fine":"breaks news to","actor":"SOLEDAD","target":"ANNELIESE","mood":"melancholy","intensity":4,"summary":"Soledad announces she is leaving for Tucson at seven in the morning."},
+{"start":38,"type":"comforts","fine":"embraces","actor":"KWAME","target":"SOLEDAD","mood":"grief","intensity":3,"summary":"They wordlessly cling to her as Bo stares at the dark where the ukulele fell."}
+],
+"s01236": [
+{"start":1,"type":"decides","fine":"makes a plan","actor":"HOLLIS","target":"TRINH","mood":"tense","intensity":3,"summary":"Disguised as janitors, three thieves descend in a freight elevator and rehearse their plan."},
+{"start":30,"type":"discovers","fine":"notices","actor":"TRINH","target":"HOLLIS","mood":"suspense","intensity":4,"summary":"The guard's desk is empty and the lamp clicks off, and the vault door stands open."},
+{"start":54,"type":"reveals","fine":"unmasks","actor":"GUARD","target":"HOLLIS","mood":"playful","intensity":3,"summary":"The guard, eating biscuits inside the vault, greets them casually and urges them to act tonight."},
+{"start":80,"type":"reveals","fine":"shows","actor":"GUARD","target":"HOLLIS","mood":"playful","intensity":3,"summary":"The lights go out; the guard lights a candle, saying the sale starts at nine."}
+],
+"s01600": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"VICTOR","target":"IRIS","mood":"tense","intensity":2,"summary":"Victor and Iris trade guarded remarks in their penthouse, both hiding something."},
+{"start":24,"type":"arrives","fine":"slips in","actor":"LEONARD","target":"VICTOR","mood":"ominous","intensity":3,"summary":"A fake waiter in military shoes brings champagne, claiming Henri has the night off."},
+{"start":49,"type":"confronts","fine":"stares down","actor":"LEONARD","target":"VICTOR","mood":"ominous","intensity":4,"summary":"Leonard names Delacroix, a man Victor told Iris was dead, and pours three glasses."}
+],
+"s00800": [
+{"start":1,"type":"searches","fine":"rummages","actor":"LEONID","target":null,"mood":"playful","intensity":2,"summary":"Two burglars pry open a wedding cake that hides a safe and bicker over the code."},
+{"start":19,"type":"attacks","fine":"fights","actor":"LEONID","target":"CASPIAN","mood":"chaotic","intensity":3,"summary":"A wrong code trips an alarm; they tumble into the cake and blame each other."},
+{"start":36,"type":"discovers","fine":"finds a clue","actor":"CASPIAN","target":null,"mood":"playful","intensity":3,"summary":"The safe opens to reveal only a note from Mom, leaving them covered in frosting."}
+],
+"s01681": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ILSE","target":"KWAME","mood":"calm","intensity":1,"summary":"Crew members tend tomatoes in a lunar greenhouse; the commander checks in."},
+{"start":16,"type":"discovers","fine":"notices","actor":"ILSE","target":null,"mood":"ominous","intensity":4,"summary":"Lights flicker, the hum drops, and every plant leans toward the airlock door."}
+],
+"s01238": [
+{"start":1,"type":"observes","fine":"waits","actor":"VITO","target":"DANTE","mood":"tense","intensity":3,"summary":"Vito gathers nephew Dante, Odette and accountant Sundar in a back office before dawn."},
+{"start":27,"type":"confronts","fine":"presses","actor":"VITO","target":"DANTE","mood":"hostile","intensity":3,"summary":"Vito orders Dante to read the ledger's third page as accusations and argument break out."},
+{"start":49,"type":"reveals","fine":"presents evidence to","actor":"VITO","target":"DANTE","mood":"ominous","intensity":5,"summary":"Vito shows a photo of Dante passing an envelope to a stranger who is Vito's man."},
+{"start":61,"type":"decides","fine":"decides","actor":"VITO","target":"DANTE","mood":"ominous","intensity":4,"summary":"Vito murmurs blood and dials a single digit on the phone."}
+],
+"s01175": [
+{"start":1,"type":"deflects","fine":"stalls","actor":"FELIX","target":"GLORIA","mood":"awkward","intensity":2,"summary":"Felix and mother-in-law Gloria sit stuck in a car wash; he explains it away."},
+{"start":16,"type":"confesses","fine":"apologizes to","actor":"FELIX","target":"GLORIA","mood":"awkward","intensity":2,"summary":"They both apologize at once for the wedding toast as the brushes stop."}
+],
+"s02497": [
+{"start":1,"type":"works","fine":"prepares","actor":"SORREL","target":null,"mood":"ominous","intensity":2,"summary":"Apprentice Sorrel grinds herbs in a whale-bone shop when the door opens on nobody."},
+{"start":16,"type":"arrives","fine":"makes an entrance","actor":"OSWIN","target":"SORREL","mood":"ominous","intensity":3,"summary":"A drowned sailor materializes and asks Sorrel for a remedy for breathing."}
+],
+"s00517": [
+{"start":1,"type":"works","fine":"prepares","actor":"SILAS","target":"CALLUM","mood":"tense","intensity":2,"summary":"Crew fill a stalled locomotive's water tank while the marshal stands guard."},
+{"start":11,"type":"reveals","fine":"breaks news to","actor":"TELEGRAPH CLERK","target":"DELPHINE","mood":"suspense","intensity":3,"summary":"The telegraph clerk warns of eight or ten riders on the ridge; Delphine demands speed."},
+{"start":20,"type":"flees","fine":"scrambles away","actor":"DELPHINE","target":null,"mood":"chaotic","intensity":4,"summary":"Water crashes down, the crew scatters, riders appear and the locomotive lurches away."}
+],
+"s00914": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"ORLAITH","target":"BRACKEN","mood":"calm","intensity":2,"summary":"Travelers aboard the marsh ferry trade quips; Pipkin bickers with his lantern."},
+{"start":37,"type":"observes","fine":"keeps watch","actor":"BRACKEN","target":null,"mood":"suspense","intensity":3,"summary":"The ferry enters green stillness; Bracken warns of something old and all ready their weapons."},
+{"start":48,"type":"comforts","fine":"reassures","actor":"BRACKEN","target":"PIPKIN","mood":"hopeful","intensity":2,"summary":"A great shape ripples and vanishes; Bracken calls it a greeting and Yarrow gifts Pipkin a sprig."}
+],
+"s01539": [
+{"start":1,"type":"pleads","fine":"appeals to","actor":"SIORA","target":"ALDERMERE","mood":"ominous","intensity":2,"summary":"Five petitioners kneel before the Willow King and complain of the thinning river."},
+{"start":13,"type":"reveals","fine":"shows","actor":"IVO","target":"ALDERMERE","mood":"ominous","intensity":4,"summary":"Ivo says the dead stag walks and lowers his hood to reveal antlers and dead eyes."}
+],
+"s00399": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"WINIFRED","target":null,"mood":"awkward","intensity":2,"summary":"Four wedding-bound strangers in a stalled elevator keep tight smiles; Vijay frets over the ring."},
+{"start":13,"type":"reveals","fine":"breaks news to","actor":"MAINTENANCE","target":"WINIFRED","mood":"playful","intensity":3,"summary":"Maintenance reveals the groom called about the trapped group; Winifred admits she is the bride's mother."},
+{"start":22,"type":"discovers","fine":"discovers","actor":"VIJAY","target":null,"mood":"awkward","intensity":3,"summary":"Vijay opens the ring box and finds it empty."}
+],
+"s01497": [
+{"start":1,"type":"comforts","fine":"reassures","actor":"WINIFRED","target":"AMADEO","mood":"fear","intensity":4,"summary":"Captain Winifred steadies panicking deckhand Amadeo on a sinking trawler with gallows humor."},
+{"start":19,"type":"bonds","fine":"teams up with","actor":"WINIFRED","target":"AMADEO","mood":"hopeful","intensity":4,"summary":"A swell slams the hull, the boat settles, and they affirm they are still here."}
+],
+"s00774": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ANSELMA","target":"TOMASZ","mood":"calm","intensity":1,"summary":"Bakers in a converted bus depot discuss shortages of rye for Thursday's orders."},
+{"start":25,"type":"arrives","fine":"drifts in","actor":"WINSTON","target":"ANSELMA","mood":"tender","intensity":2,"summary":"Old bus driver Winston visits, reminisces about the depot and gets a warm roll."}
+],
+"s01934": [
+{"start":1,"type":"observes","fine":"waits","actor":"COSTA","target":null,"mood":"calm","intensity":1,"summary":"Sergeant Costa eats sardines in a ruined bell tower, hearing a scrape on the stairs."},
+{"start":11,"type":"arrives","fine":"arrives","actor":"TADEUSZ","target":"COSTA","mood":"tense","intensity":3,"summary":"A wounded soldier climbs up begging not to be shot; Costa lowers his rifle and shares food."},
+{"start":25,"type":"confesses","fine":"apologizes to","actor":"TADEUSZ","target":"COSTA","mood":"fear","intensity":4,"summary":"Tadeusz admits his unit is below looking for Costa and apologizes; they threatened his brother."}
+],
+"s01387": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"TALLIS","target":"ILSEBETH","mood":"tense","intensity":2,"summary":"Tallis poles up to Ilsebeth's silent raft in the floating bell market."},
+{"start":18,"type":"reveals","fine":"breaks news to","actor":"ILSEBETH","target":"CROWD","mood":"tense","intensity":4,"summary":"Ilsebeth tells the crowd the river is dropping and they must choose to wait or leave tonight."},
+{"start":31,"type":"decides","fine":"commits","actor":"ILSEBETH","target":"TALLIS","mood":"hopeful","intensity":3,"summary":"She confirms tow help with Tallis and pushes off; the ropes are cast and the bells ring."}
+],
+"s00054": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"BELL","target":"SPARROW","mood":"tense","intensity":3,"summary":"Sheriff Bell questions Sparrow about being near the Henderson place; Clementine vouches for him."},
+{"start":24,"type":"deflects","fine":"shrugs off","actor":"SPARROW","target":"BELL","mood":"suspense","intensity":3,"summary":"Sparrow offers a carved bird, denies the killing and points to the sweating deputy Willet."},
+{"start":36,"type":"accuses","fine":"points the finger at","actor":"SPARROW","target":"WILLET","mood":"ominous","intensity":4,"summary":"Sparrow slides the bird toward shaking Willet as Bell turns on him and the wind stops."}
+],
+"s00921": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"IMOGEN","target":null,"mood":"suspense","intensity":3,"summary":"Detective Imogen climbs a grain elevator catwalk while others lurk above and below."},
+{"start":14,"type":"confronts","fine":"faces off with","actor":"IMOGEN","target":"RAFFERTY","mood":"tense","intensity":4,"summary":"Abebe holds a lever, Rafferty greets her, Maxi claims the ledger, and a conveyor groans awake."}
+],
+"s00164": [
+{"start":1,"type":"confronts","fine":"presses","actor":"MARIGOLD","target":"CASSIUS","mood":"awkward","intensity":2,"summary":"Corporate auditor Marigold presses mattress manager Cassius about sixty percent lower sales."},
+{"start":30,"type":"discovers","fine":"discovers","actor":"MARIGOLD","target":null,"mood":"playful","intensity":3,"summary":"Marigold tests the Cloud Nine, finding it the best mattress she has tried, and learns why staff nap."},
+{"start":53,"type":"decides","fine":"accepts","actor":"MARIGOLD","target":"CASSIUS","mood":"calm","intensity":2,"summary":"She removes her shoes and lies down; Cassius covers her and turns off the lights."}
+],
+"s00920": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"ORSOLYA","target":"TEMBO","mood":"calm","intensity":2,"summary":"In a drowned chapel tower, travelers share broth while a hooded stranger sits apart."},
+{"start":11,"type":"discovers","fine":"realizes","actor":"PIP","target":"TEMBO","mood":"suspense","intensity":3,"summary":"Pip counts four bells where the chart shows three, and the stranger confirms it."},
+{"start":24,"type":"threatens","fine":"menaces","actor":"CORVANE","target":"ORSOLYA","mood":"fear","intensity":5,"summary":"The stranger unhoods as Corvane, the fourth bell; a toll rises and he says they will ring with him."}
+],
+"s01646": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"MAUDE","target":"FERDIE","mood":"hostile","intensity":2,"summary":"Maude and Ferdie bicker over a tuna and escalate bids at the fish auction."},
+{"start":24,"type":"bonds","fine":"reconnects with","actor":"MAUDE","target":"FERDIE","mood":"joyful","intensity":2,"summary":"Both reveal they bid for their sisters' wedding, laugh, split the tuna and shake hands."}
+],
+"s02347": [
+{"start":1,"type":"searches","fine":"examines","actor":"HELENA","target":"JO","mood":"ominous","intensity":3,"summary":"Helena shows Jo yellowing plants crumbling to powder, and a radiation reading on the readout."},
+{"start":28,"type":"reveals","fine":"lets slip to","actor":"HELENA","target":"JO","mood":"tense","intensity":3,"summary":"They reveal the commander keeps secrets from Jo, and the shielding was rated for the old sun."},
+{"start":44,"type":"arrives","fine":"is introduced","actor":"CADET LISANDRA","target":"HELENA","mood":"tense","intensity":4,"summary":"The commander calls all hands and Cadet Lisandra says there is an eleven-hour window to decide on evacuating half."},
+{"start":75,"type":"discovers","fine":"realizes","actor":"HELENA","target":"JO","mood":"fear","intensity":5,"summary":"A flare lights the stars as the shield fails, sirens sound and Wu summons them."}
+]
+}

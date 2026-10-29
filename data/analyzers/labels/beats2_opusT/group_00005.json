@@ -1,0 +1,157 @@
+{
+"s01167": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "SOLENE", "target": null, "mood": "calm", "intensity": 2, "summary": "Solene readies herself at the base of the climbing wall"},
+{"start": 10, "type": "works", "fine": "works", "actor": "SOLENE", "target": null, "mood": "tense", "intensity": 4, "summary": "Solene races up the wall, slips at the crux, and misses the record"},
+{"start": 23, "type": "observes", "fine": "listens to", "actor": "SOLENE", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "A tape of her younger self tells her to breathe at the third hold"},
+{"start": 33, "type": "decides", "fine": "commits", "actor": "SOLENE", "target": null, "mood": "suspense", "intensity": 4, "summary": "Solene wipes her tears, chalks up, and climbs again, pausing to breathe"},
+{"start": 49, "type": "works", "fine": "works", "actor": "SOLENE", "target": null, "mood": "triumphant", "intensity": 4, "summary": "She breaks the record and hugs the boombox to her chest"}
+],
+"s00748": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "HORTENSE", "target": null, "mood": "calm", "intensity": 1, "summary": "Veteran executive Hortense sits in her sterile corner office facing the speakerphone"},
+{"start": 11, "type": "mocks", "fine": "needles", "actor": "ARCHIBALD", "target": "HORTENSE", "mood": "playful", "intensity": 2, "summary": "Archibald calls and waves from the tower opposite, having moved his desk"},
+{"start": 26, "type": "threatens", "fine": "intimidates", "actor": "ARCHIBALD", "target": "HORTENSE", "mood": "tense", "intensity": 3, "summary": "Archibald brandishes a reorganisation binder threatening her Henderson account"},
+{"start": 40, "type": "reveals", "fine": "drops a bombshell on", "actor": "ARCHIBALD", "target": "HORTENSE", "mood": "tense", "intensity": 4, "summary": "Archibald announces that under the plan Hortense reports to him"},
+{"start": 47, "type": "confronts", "fine": "stares down", "actor": "HORTENSE", "target": "ARCHIBALD", "mood": "tense", "intensity": 4, "summary": "Hortense coolly tells him people with binders fear people without them"},
+{"start": 61, "type": "decides", "fine": "resigns", "actor": "HORTENSE", "target": "ARCHIBALD", "mood": "triumphant", "intensity": 4, "summary": "Hortense writes and displays a resignation sign; Archibald fumbles his binder"},
+{"start": 77, "type": "leaves", "fine": "walks out on", "actor": "HORTENSE", "target": "ARCHIBALD", "mood": "triumphant", "intensity": 3, "summary": "Hortense hangs up, leaves a clock behind, and walks out as Archibald stares"}
+],
+"s00730": [
+{"start": 1, "type": "arrives", "fine": "returns", "actor": "ORRIN", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Orrin climbs into his dead friend's dusty library and greets it softly"},
+{"start": 13, "type": "observes", "fine": "takes it in", "actor": "ORRIN", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Orrin reads his friend's letter bequeathing him the lonely book"},
+{"start": 23, "type": "bonds", "fine": "bonds with", "actor": "ORRIN", "target": null, "mood": "hopeful", "intensity": 3, "summary": "Orrin opens the book, it glows and turns its own pages for him"}
+],
+"s01818": [
+{"start": 1, "type": "bonds", "fine": "shares a moment with", "actor": "CALEB", "target": "FATHER EMILIO", "mood": "calm", "intensity": 1, "summary": "Caleb and Rosalie meet a wandering priest in the ruined mission courtyard"},
+{"start": 12, "type": "jokes", "fine": "plays with", "actor": "ROSALIE", "target": "FATHER EMILIO", "mood": "tender", "intensity": 2, "summary": "Rosalie questions the empty fountain and the priest answers gently"},
+{"start": 22, "type": "bonds", "fine": "trusts", "actor": "FATHER EMILIO", "target": "CALEB", "mood": "tender", "intensity": 2, "summary": "The priest shares terrible but warm coffee, easing Caleb"},
+{"start": 33, "type": "confesses", "fine": "opens up to", "actor": "CALEB", "target": "FATHER EMILIO", "mood": "melancholy", "intensity": 3, "summary": "Caleb reveals he came to scatter his wife's ashes where they married"},
+{"start": 40, "type": "comforts", "fine": "consoles", "actor": "FATHER EMILIO", "target": "CALEB", "mood": "grief", "intensity": 4, "summary": "The priest blesses her and the ashes drift away as Rosalie says goodbye"}
+],
+"s02391": [
+{"start": 1, "type": "decides", "fine": "chooses", "actor": "THEO", "target": "GABRIEL", "mood": "playful", "intensity": 2, "summary": "Theo declares the lemon slice the one while Gabriel wants to try all"},
+{"start": 13, "type": "bonds", "fine": "shares a moment with", "actor": "GABRIEL", "target": "THEO", "mood": "joyful", "intensity": 3, "summary": "They feed each other the almond and settle their order"},
+{"start": 20, "type": "confesses", "fine": "opens up to", "actor": "THEO", "target": "GABRIEL", "mood": "tender", "intensity": 3, "summary": "Alone, Theo admits he only wanted to watch Gabriel pick"},
+{"start": 29, "type": "jokes", "fine": "amuses", "actor": "GABRIEL", "target": "THEO", "mood": "playful", "intensity": 3, "summary": "Gabriel presses lemon cake into his face as Marguerite deadpans"}
+],
+"s01137": [
+{"start": 1, "type": "decides", "fine": "makes a plan", "actor": "SUKI", "target": "MOSES", "mood": "suspense", "intensity": 2, "summary": "Disguised as tourists, Suki and Moses plan to steal a rare orchid"},
+{"start": 20, "type": "reveals", "fine": "exposes a secret to", "actor": "GARDENER", "target": "SUKI", "mood": "tense", "intensity": 3, "summary": "The gardener Ulrich reveals he knows exactly what they are after"},
+{"start": 30, "type": "persuades", "fine": "bargains with", "actor": "ULRICH", "target": "SUKI", "mood": "hopeful", "intensity": 2, "summary": "Ulrich offers a live cutting instead, and they follow him"}
+],
+"s01629": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "CRANE", "target": null, "mood": "suspense", "intensity": 3, "summary": "The group barricades the telegraph office as the key repeats hold"},
+{"start": 14, "type": "discovers", "fine": "recognizes", "actor": "CRANE", "target": null, "mood": "ominous", "intensity": 4, "summary": "Crane recognizes the voice outside as Tommy, buried Tuesday"},
+{"start": 18, "type": "decides", "fine": "gives an order", "actor": "CRANE", "target": null, "mood": "fear", "intensity": 5, "summary": "As the roar builds, Crane draws and orders no one to fire"},
+{"start": 25, "type": "observes", "fine": "takes it in", "actor": "NELL", "target": null, "mood": "calm", "intensity": 2, "summary": "The roar passes and the line reports all clear"}
+],
+"s00758": [
+{"start": 1, "type": "works", "fine": "works", "actor": "DELPHINE", "target": "EUSTACE", "mood": "tense", "intensity": 2, "summary": "Saoirse and Delphine begin Eustace's MRI scan"},
+{"start": 10, "type": "discovers", "fine": "realizes", "actor": "SAOIRSE", "target": null, "mood": "hopeful", "intensity": 3, "summary": "They see the shadow is not a tumour and share relief"},
+{"start": 22, "type": "defends", "fine": "protects", "actor": "SAOIRSE", "target": "EUSTACE", "mood": "chaotic", "intensity": 5, "summary": "The magnet yanks his ring and a tray; they slam emergency stops"},
+{"start": 31, "type": "comforts", "fine": "tends to", "actor": "DELPHINE", "target": "EUSTACE", "mood": "bittersweet", "intensity": 2, "summary": "They pull Eustace free and he laughs about his forty-year ring"}
+],
+"s02273": [
+{"start": 1, "type": "accuses", "fine": "accuses", "actor": "TONINO", "target": "MARCELLO", "mood": "playful", "intensity": 2, "summary": "On the ferry bocce court, Tonino accuses Marcello of nudging the pallino"},
+{"start": 10, "type": "attacks", "fine": "strikes", "actor": "TONINO", "target": "MARCELLO", "mood": "tense", "intensity": 3, "summary": "Losing by a thumbnail, Tonino knocks Marcello's bowl overboard"}
+],
+"s02034": [
+{"start": 1, "type": "mocks", "fine": "taunts", "actor": "GERT", "target": "MARCEL", "mood": "suspense", "intensity": 3, "summary": "Marcel needs a spare to win the championship as Gert taunts him"},
+{"start": 14, "type": "works", "fine": "works", "actor": "MARCEL", "target": null, "mood": "tense", "intensity": 3, "summary": "Marcel bowls and leaves three pins standing; Gert smirks"},
+{"start": 24, "type": "attacks", "fine": "attacks", "actor": "MARCEL", "target": null, "mood": "chaotic", "intensity": 4, "summary": "Marcel hurls the ball in fury and it ricochets to fell the pins"},
+{"start": 31, "type": "bonds", "fine": "shares a moment with", "actor": "GERT", "target": "MARCEL", "mood": "joyful", "intensity": 3, "summary": "They all laugh, the shot counts, and rivals shake hands"}
+],
+"s01337": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "MADAME OSTERHOUT", "target": null, "mood": "ominous", "intensity": 2, "summary": "Guests gather for a seance as the table begins to knock"},
+{"start": 16, "type": "pleads", "fine": "calls for", "actor": "COMMODORE FENN", "target": null, "mood": "suspense", "intensity": 3, "summary": "The Commodore calls to dead Edmund despite Miriam's objection; three knocks answer"},
+{"start": 28, "type": "leaves", "fine": "storms out", "actor": "LADY MIRIAM", "target": "COMMODORE FENN", "mood": "tense", "intensity": 3, "summary": "Tull blames the tide, the room darkens, and Miriam walks out"},
+{"start": 35, "type": "reveals", "fine": "exposes a secret to", "actor": "MADAME OSTERHOUT", "target": "THEODORA", "mood": "ominous", "intensity": 4, "summary": "Madame reveals she knows Miriam is Theodora's mother"}
+],
+"s00158_0": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "calm", "intensity": 1, "summary": "A lantern-lit gold rush dentist tent advertises cheap tooth pulling"}
+],
+"s00342": [
+{"start": 1, "type": "confronts", "fine": "faces off with", "actor": "NONNA FILOMENA", "target": "BIG WALT", "mood": "playful", "intensity": 2, "summary": "Nonna and Big Walt's bowls collide and the pallino rolls under a chair"},
+{"start": 9, "type": "accuses", "fine": "accuses", "actor": "NONNA FILOMENA", "target": "BIG WALT", "mood": "playful", "intensity": 3, "summary": "They argue over the point until Darius measures it for Nonna"},
+{"start": 21, "type": "bonds", "fine": "shares a moment with", "actor": "NONNA FILOMENA", "target": "BIG WALT", "mood": "tender", "intensity": 2, "summary": "Nonna sips her espresso and graciously offers the thermos to Walt"}
+],
+"s00269": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "WOMAN", "target": "MAN", "mood": "suspense", "intensity": 3, "summary": "A bloodied woman joins an armed man in a descending freight elevator"},
+{"start": 13, "type": "confronts", "fine": "interrogates", "actor": "WOMAN", "target": "MAN", "mood": "tense", "intensity": 3, "summary": "She questions him about the missing third and the plan"},
+{"start": 23, "type": "searches", "fine": "searches", "actor": "WOMAN", "target": "MAN", "mood": "tense", "intensity": 4, "summary": "She pulls his false papers and demands his real name to shoot"},
+{"start": 38, "type": "attacks", "fine": "fights", "actor": "WOMAN", "target": "MAN", "mood": "chaotic", "intensity": 5, "summary": "The lights die and they struggle until she pins him"},
+{"start": 51, "type": "discovers", "fine": "recognizes", "actor": "NAOMI", "target": "STEFAN", "mood": "bittersweet", "intensity": 4, "summary": "He reveals he is Stefan, her lost brother; she slaps then hugs him"}
+],
+"s00446": [
+{"start": 1, "type": "defends", "fine": "protects", "actor": "SOLOMON", "target": "FIONNUALA", "mood": "suspense", "intensity": 3, "summary": "Agent Solomon guards Dr. Brady and a cuffed briefcase in a descending elevator"},
+{"start": 13, "type": "arrives", "fine": "arrives", "actor": "JANITOR", "target": null, "mood": "suspense", "intensity": 3, "summary": "A janitor boards with his cart, and Solomon's hand drifts to his jacket"},
+{"start": 24, "type": "attacks", "fine": "fights", "actor": "SOLOMON", "target": "JANITOR", "mood": "chaotic", "intensity": 5, "summary": "The janitor reveals a blade and Solomon fights him in the dark"},
+{"start": 39, "type": "leaves", "fine": "leaves", "actor": "SOLOMON", "target": "FIONNUALA", "mood": "calm", "intensity": 2, "summary": "Solomon hands over the briefcase in the lobby and walks out"}
+],
+"s02454": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "DOROTHEA", "target": "STANLEY", "mood": "tense", "intensity": 2, "summary": "Dorothea furiously preps funeral food and snipes at Stanley about the spoons"},
+{"start": 17, "type": "accuses", "fine": "blames", "actor": "DOROTHEA", "target": "STANLEY", "mood": "hostile", "intensity": 4, "summary": "Dorothea blames Stanley for abandoning Mama during her illness"},
+{"start": 31, "type": "defends", "fine": "pushes back on", "actor": "ROSALIND", "target": null, "mood": "chaotic", "intensity": 4, "summary": "Stanley slams the casserole and Rosalind intervenes, warning upstairs can hear"},
+{"start": 38, "type": "bonds", "fine": "reminisces with", "actor": "STANLEY", "target": "DOROTHEA", "mood": "bittersweet", "intensity": 3, "summary": "Stanley says Mama loved a good fight and Dorothea almost smiles"},
+{"start": 44, "type": "persuades", "fine": "talks down", "actor": "ROSALIND", "target": "DOROTHEA", "mood": "tender", "intensity": 3, "summary": "Rosalind makes them promise kindness and they carry dishes upstairs together"}
+],
+"s00664": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "ELI", "target": "CASSIDY", "mood": "melancholy", "intensity": 2, "summary": "Eli finds Cassidy on the storage rooftop after she left prom"},
+{"start": 14, "type": "confesses", "fine": "breaks down to", "actor": "CASSIDY", "target": "ELI", "mood": "melancholy", "intensity": 3, "summary": "Cassidy explains the curtain-dress insult, laughs, then breaks down"},
+{"start": 26, "type": "comforts", "fine": "reassures", "actor": "ELI", "target": "CASSIDY", "mood": "tender", "intensity": 3, "summary": "Eli offers to stay despite hating heights, and shares warm soda"},
+{"start": 43, "type": "bonds", "fine": "confides in", "actor": "CASSIDY", "target": "ELI", "mood": "tender", "intensity": 3, "summary": "They agree everyone is faking and hold hands"},
+{"start": 53, "type": "jokes", "fine": "teases", "actor": "CASSIDY", "target": "ELI", "mood": "playful", "intensity": 3, "summary": "Cassidy snatches his phone until Eli admits he's glad he came"},
+{"start": 69, "type": "bonds", "fine": "flirts with", "actor": "ELI", "target": "CASSIDY", "mood": "joyful", "intensity": 3, "summary": "Eli ignores the phone and asks for a dance; she accepts"}
+],
+"s02139": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "TASKER", "target": "JUBAL", "mood": "tense", "intensity": 2, "summary": "Perpetua serves drifter Jubal while Deputy Tasker nervously questions him"},
+{"start": 24, "type": "arrives", "fine": "bursts in", "actor": "BELLE", "target": "JUBAL", "mood": "tense", "intensity": 4, "summary": "Bounty hunter Belle bursts in with a rifle and overrules the deputy"},
+{"start": 37, "type": "accuses", "fine": "presents evidence to", "actor": "BELLE", "target": "JUBAL", "mood": "tense", "intensity": 4, "summary": "Belle lays down Jubal's wanted poster and silences Tasker"},
+{"start": 48, "type": "persuades", "fine": "convinces", "actor": "JUBAL", "target": "BELLE", "mood": "suspense", "intensity": 3, "summary": "Jubal claims he helped a judge's man vanish, implicating the poster's signer"},
+{"start": 55, "type": "discovers", "fine": "pieces it together", "actor": "BELLE", "target": "TASKER", "mood": "suspense", "intensity": 3, "summary": "Belle checks the seal and Tasker confirms Judge Garrity's signature"},
+{"start": 68, "type": "decides", "fine": "changes course", "actor": "BELLE", "target": "PERPETUA", "mood": "tense", "intensity": 2, "summary": "Belle folds the poster, takes stew, and they eat in wary silence"}
+],
+"s00824": [
+{"start": 1, "type": "observes", "fine": "listens to", "actor": "ODALYS", "target": null, "mood": "melancholy", "intensity": 2, "summary": "On her last day, Odalys plays an old tape of her younger self"},
+{"start": 9, "type": "bonds", "fine": "reminisces with", "actor": "ODALYS", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Her recorded voice recalls the ferry schedule and calls it a good job"},
+{"start": 15, "type": "leaves", "fine": "exits quietly", "actor": "ODALYS", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Odalys pockets the stamp, agrees it was, and pulls the shutter down"}
+],
+"s02128": [
+{"start": 1, "type": "reveals", "fine": "breaks news to", "actor": "SOLOMON", "target": "MIREILLE", "mood": "tense", "intensity": 2, "summary": "In the ticking shop, Solomon reads the will to the assembled family"},
+{"start": 18, "type": "reveals", "fine": "reveals", "actor": "SOLOMON", "target": "KASPAR", "mood": "tense", "intensity": 3, "summary": "The Brandt clock goes to whoever kept it running, and Kaspar claims it"},
+{"start": 26, "type": "accuses", "fine": "exposes", "actor": "TEDDY", "target": "KASPAR", "mood": "tense", "intensity": 4, "summary": "Teddy says the clock was sabotaged; Mireille notes Kaspar's clean hands"},
+{"start": 39, "type": "decides", "fine": "decides", "actor": "MIREILLE", "target": null, "mood": "ominous", "intensity": 3, "summary": "The bequest fails; Mireille pockets the winding key from his body"},
+{"start": 54, "type": "leaves", "fine": "walks out on", "actor": "MIREILLE", "target": "KASPAR", "mood": "triumphant", "intensity": 3, "summary": "Mireille leaves with a parting jab, and Kaspar's watch stops"},
+{"start": 62, "type": "leaves", "fine": "exits quietly", "actor": "TEDDY", "target": "SOLOMON", "mood": "suspense", "intensity": 2, "summary": "Teddy hints she has the weights and leaves; Rossiter demands the will"}
+],
+"s00759": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "BARNABAS", "target": "HOLLIS", "mood": "awkward", "intensity": 2, "summary": "In a funeral home, Barnabas deposes Hollis amid Rosamund's objections"},
+{"start": 27, "type": "comforts", "fine": "tends to", "actor": "SELWYN", "target": "HOLLIS", "mood": "awkward", "intensity": 2, "summary": "The funeral director interrupts to offer tissues"},
+{"start": 32, "type": "works", "fine": "cleans", "actor": "BARNABAS", "target": "ROSAMUND", "mood": "chaotic", "intensity": 3, "summary": "A pitcher spills across the exhibits and everyone mops with black linen"}
+],
+"s01974": [
+{"start": 1, "type": "threatens", "fine": "holds at gunpoint", "actor": "DRAGAN", "target": "KESTREL", "mood": "tense", "intensity": 4, "summary": "Dragan holds Kestrel at gunpoint, demanding her bag of ledgers"},
+{"start": 18, "type": "arrives", "fine": "arrives", "actor": "ROSALIND", "target": "DRAGAN", "mood": "suspense", "intensity": 4, "summary": "Inspector Rosalind arrives, but she and Dragan clearly know each other"},
+{"start": 33, "type": "discovers", "fine": "realizes", "actor": "KESTREL", "target": "ROSALIND", "mood": "ominous", "intensity": 4, "summary": "Kestrel realizes Rosalind came for the bag, not to arrest Dragan"},
+{"start": 40, "type": "arrives", "fine": "shows up unannounced", "actor": "ALVARO", "target": null, "mood": "suspense", "intensity": 3, "summary": "A stranger on the catwalk interrupts and Kestrel surrenders the bag"},
+{"start": 60, "type": "reveals", "fine": "reveals", "actor": "KESTREL", "target": "ROSALIND", "mood": "triumphant", "intensity": 4, "summary": "The bag is empty; Kestrel has flooded the dock with the laptop"},
+{"start": 71, "type": "leaves", "fine": "walks out on", "actor": "KESTREL", "target": "DRAGAN", "mood": "triumphant", "intensity": 3, "summary": "Rosalind runs, Alvaro applauds, and Kestrel climbs out past him"}
+],
+"s01541": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "LAKSHMI", "target": "INSPECTOR", "mood": "ominous", "intensity": 2, "summary": "Lakshmi questions a hooded inspector with no logged clearance"},
+{"start": 18, "type": "discovers", "fine": "finds a clue", "actor": "LAKSHMI", "target": null, "mood": "suspense", "intensity": 3, "summary": "The station orders a rescan and Lakshmi finds fungal contamination"},
+{"start": 28, "type": "reveals", "fine": "unmasks", "actor": "INSPECTOR", "target": "LAKSHMI", "mood": "fear", "intensity": 4, "summary": "Roots bend to the Inspector, who unhoods and calls himself the contamination"},
+{"start": 40, "type": "flees", "fine": "escapes", "actor": "LAKSHMI", "target": null, "mood": "fear", "intensity": 5, "summary": "Lakshmi tries to seal the ring but the station asks if she's specimen"},
+{"start": 48, "type": "confronts", "fine": "challenges", "actor": "INSPECTOR", "target": "LAKSHMI", "mood": "ominous", "intensity": 3, "summary": "He asks why the seeds were buried in darkness"},
+{"start": 59, "type": "persuades", "fine": "seduces", "actor": "AMBROSE", "target": "LAKSHMI", "mood": "bittersweet", "intensity": 3, "summary": "He names himself Ambrose and Lakshmi softens, putting down the scanner"},
+{"start": 69, "type": "decides", "fine": "chooses", "actor": "LAKSHMI", "target": "AMBROSE", "mood": "ominous", "intensity": 4, "summary": "The ring turns green and Lakshmi declares herself specimen"}
+],
+"s01531_0": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "MILO", "target": "ZEKE", "mood": "playful", "intensity": 2, "summary": "Milo teases Zeke over the smudged number a girl wrote on his hand"},
+{"start": 18, "type": "flees", "fine": "bolts", "actor": "ZEKE", "target": null, "mood": "chaotic", "intensity": 3, "summary": "June shouts outside and the boys bolt, colliding in the doorway"}
+],
+"s01803": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "HESTER", "target": "LEOPOLD", "mood": "tense", "intensity": 3, "summary": "Hester challenges Leopold's alibi with the mystery of the second lamp"},
+{"start": 17, "type": "confronts", "fine": "presses", "actor": "HESTER", "target": "CLEMENTINE", "mood": "suspense", "intensity": 3, "summary": "Hester presses Clementine and notes the moved, warm telescope canvas"},
+{"start": 26, "type": "confesses", "fine": "admits guilt to", "actor": "CLEMENTINE", "target": "HESTER", "mood": "tense", "intensity": 4, "summary": "Clementine confesses she was there and lied because Leopold told her"}
+]
+}

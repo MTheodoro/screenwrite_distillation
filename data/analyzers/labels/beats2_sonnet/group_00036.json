@@ -1,0 +1,143 @@
+{
+"s00049": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ALDRIC","target":null,"mood":"tense","intensity":2,"summary":"Aldric's weary party climbs the endless temple staircase, bantering about the stairs."},
+{"start":12,"type":"discovers","fine":"notices","actor":"THESSALY","target":"ALDRIC","mood":"suspense","intensity":3,"summary":"Thessaly finds the wind gate open; Sorrel welcomes the danger."},
+{"start":20,"type":"reveals","fine":"breaks news to","actor":"BARNABUS","target":"ALDRIC","mood":"melancholy","intensity":3,"summary":"Barnabus warns of the Warden's question about fear; Sorrel and Thessaly confess theirs."},
+{"start":31,"type":"decides","fine":"commits","actor":"ALDRIC","target":null,"mood":"hopeful","intensity":3,"summary":"Aldric steps toward the howling gate and tells the group they go together."}
+],
+"s01496": [
+{"start":1,"type":"observes","fine":"waits","actor":"PATROL","target":null,"mood":"tense","intensity":2,"summary":"Six people sit stranded in a dark gondola; the radio brings news of a three-hour wait."},
+{"start":24,"type":"comforts","fine":"reassures","actor":"MAN","target":"TEENAGER","mood":"tender","intensity":2,"summary":"Cold teenager gets a stranger's jacket while Ines reassures her."},
+{"start":37,"type":"discovers","fine":"realizes","actor":"WOMAN","target":"INES","mood":"fear","intensity":4,"summary":"The gondola lurches and the woman recognizes the singing cable; Ines radios Base."},
+{"start":56,"type":"bonds","fine":"shares a moment with","actor":"WOMAN","target":"TEENAGER","mood":"suspense","intensity":4,"summary":"After the car drops, strangers link hands in a chain awaiting rescue."}
+],
+"s00757": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"AMBROSE","target":"JOSEPHINE","mood":"tense","intensity":3,"summary":"Inspector Ambrose questions the suspects about the stolen Duke's Key, pressing Josephine and Hadley."},
+{"start":22,"type":"reveals","fine":"presents evidence to","actor":"AMBROSE","target":"CORDELIA","mood":"suspense","intensity":4,"summary":"Ambrose examines the cushion, orders nobody leave, and declares the key was swapped."},
+{"start":36,"type":"flees","fine":"bolts","actor":"CORDELIA","target":"AMBROSE","mood":"chaotic","intensity":4,"summary":"The four suspects bolt in different directions as Ambrose blows his whistle."}
+],
+"s00293": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"DOLLIE","target":null,"mood":"calm","intensity":1,"summary":"The grief support circle is introduced, with one chair left empty."},
+{"start":9,"type":"confesses","fine":"opens up to","actor":"CORNELL","target":"YASMINE","mood":"melancholy","intensity":2,"summary":"Cornell and Yasmine share silences with lost loved ones; Tiberius misses a word."},
+{"start":19,"type":"deflects","fine":"stalls","actor":"HARPER","target":"DOLLIE","mood":"awkward","intensity":2,"summary":"Harper is misgendered by Tiberius, then reluctantly agrees to share."},
+{"start":28,"type":"bonds","fine":"confides in","actor":"HARPER","target":"YASMINE","mood":"tender","intensity":3,"summary":"Harper confesses reading texts on his dead father's phone; others share small rituals."},
+{"start":46,"type":"bonds","fine":"shares a moment with","actor":"TIBERIUS","target":"DOLLIE","mood":"bittersweet","intensity":3,"summary":"Tiberius says his wife sits in the empty chair and everyone agrees the circle is full."}
+],
+"s01564": [
+{"start":1,"type":"observes","fine":"waits","actor":"LEILA","target":null,"mood":"melancholy","intensity":2,"summary":"Five survivors drift on a raft, counting days and bailing water."},
+{"start":19,"type":"comforts","fine":"reassures","actor":"SOLENE","target":"KIT","mood":"tense","intensity":2,"summary":"Kit asks about rain; Solene answers honestly and Leila objects because he is twelve."},
+{"start":26,"type":"observes","fine":"takes it in","actor":"SOLENE","target":"ELWOOD","mood":"ominous","intensity":2,"summary":"Solene asks the captain where they drift, and he answers north towards nothing."},
+{"start":33,"type":"discovers","fine":"notices","actor":"ANSELM","target":"LEILA","mood":"fear","intensity":4,"summary":"Anselm spots shadows beneath the raft and everyone braces as dark shapes pass."},
+{"start":46,"type":"jokes","fine":"banters with","actor":"LEILA","target":"ANSELM","mood":"hopeful","intensity":2,"summary":"The shapes prove harmless dolphins; Kit laughs and Elwood spots clouds in the east."}
+],
+"s01162": [
+{"start":1,"type":"observes","fine":"waits","actor":"WEBB","target":null,"mood":"tense","intensity":2,"summary":"Marshal Webb loads his shotgun in the hot smithy while Laurent works silently."},
+{"start":11,"type":"pleads","fine":"asks for help from","actor":"WEBB","target":"LAURENT","mood":"hostile","intensity":3,"summary":"Webb demands the horses shod in two hours; Laurent refuses and tempers rise."},
+{"start":23,"type":"threatens","fine":"coerces","actor":"WEBB","target":"SISSY","mood":"tense","intensity":2,"summary":"Webb orders Sissy to stay put when she tries to leave."},
+{"start":30,"type":"persuades","fine":"pitches to","actor":"WEBB","target":"LAURENT","mood":"ominous","intensity":3,"summary":"Webb explains the Tarrant boys are coming and asks Laurent to shoe a horse."},
+{"start":46,"type":"works","fine":"repairs something","actor":"LAURENT","target":null,"mood":"suspense","intensity":3,"summary":"Laurent agrees by hammering the shoe, and Webb asks him to shoe them all."}
+],
+"s01935": [
+{"start":1,"type":"threatens","fine":"issues an ultimatum to","actor":"GRIMBOLD","target":"WYNDRA","mood":"tense","intensity":2,"summary":"Troll Grimbold demands a three-coin toll from the party on the bridge."},
+{"start":10,"type":"attacks","fine":"fights","actor":"MARROW","target":"THISBE","mood":"chaotic","intensity":4,"summary":"Wyndra tosses a coin away, the wolf lunges, and a brawl breaks out on the bridge."},
+{"start":21,"type":"decides","fine":"gives an order","actor":"WYNDRA","target":"GRIMBOLD","mood":"playful","intensity":3,"summary":"Wyndra magically stills the fight and Grimbold grumbles down to two coins."}
+],
+"s01476": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"IMOGEN","target":null,"mood":"calm","intensity":1,"summary":"Imogen tends her tomato vines alone in the orbital greenhouse, humming and logging."},
+{"start":16,"type":"discovers","fine":"realizes","actor":"IMOGEN","target":null,"mood":"ominous","intensity":4,"summary":"A recording of her younger self warns her about vines in the east corner."}
+],
+"s00956": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"VICTORINE","target":null,"mood":"melancholy","intensity":2,"summary":"Medic Victorine winds gauze alone and lets the radio ask twice before answering."},
+{"start":13,"type":"reveals","fine":"breaks news to","actor":"BRANDVOLD","target":"VICTORINE","mood":"grief","intensity":3,"summary":"Brandvold orders evacuation; Victorine asks if Anselmo died and he confirms."},
+{"start":24,"type":"hides","fine":"masks a feeling","actor":"VICTORINE","target":null,"mood":"grief","intensity":3,"summary":"Victorine folds Anselmo's blanket, switches off the radio, and sits in silence."}
+],
+"s01415": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"AUGIE","target":"THALIA","mood":"calm","intensity":2,"summary":"Four climbers ascend a frozen waterfall with Augie leading and Thalia belaying."},
+{"start":21,"type":"attacks","fine":"strikes","actor":"ZEPH","target":null,"mood":"fear","intensity":4,"summary":"The ice cracks and a slab falls; Zeph dodges and clings to the wall."},
+{"start":29,"type":"defends","fine":"protects","actor":"AUGIE","target":"ZEPH","mood":"chaotic","intensity":5,"summary":"As the ice sheet peels away, Augie and Thalia haul Zeph up to safety."},
+{"start":42,"type":"jokes","fine":"amuses","actor":"QUINLAN","target":"ZEPH","mood":"triumphant","intensity":3,"summary":"The climbers collapse in relief; Quinlan laughs while Zeph denies it was incredible."}
+],
+"s00104": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"DARIUS","target":"LEILANI","mood":"awkward","intensity":2,"summary":"Darius arrives with dumplings while Leilani fires her kiln, and she resists his offer."},
+{"start":21,"type":"jokes","fine":"flirts with","actor":"DARIUS","target":"LEILANI","mood":"playful","intensity":2,"summary":"Darius admires her unfinished bowls and trades a rehearsed, terrible line."},
+{"start":29,"type":"bonds","fine":"reconnects with","actor":"LEILANI","target":"DARIUS","mood":"tender","intensity":3,"summary":"Both say they missed each other and she asks him to stay for the firing."},
+{"start":39,"type":"bonds","fine":"shares a moment with","actor":"DARIUS","target":"LEILANI","mood":"hopeful","intensity":2,"summary":"They share dumplings by the glowing kiln, with six hours ahead."}
+],
+"s01809": [
+{"start":1,"type":"observes","fine":"waits","actor":"HOLLINGBERRY","target":null,"mood":"tense","intensity":2,"summary":"Lawyers, judge and defendant wait in a corridor until the wall phone rings."},
+{"start":19,"type":"reveals","fine":"breaks news to","actor":"JUROR FOREPERSON","target":"HOLLINGBERRY","mood":"tense","intensity":3,"summary":"The foreperson reports a verdict but juror number nine has gone missing."},
+{"start":26,"type":"confronts","fine":"challenges","actor":"THEODORE","target":"LUCINDA","mood":"chaotic","intensity":3,"summary":"Everyone erupts; Theodore moves for mistrial and Lucinda opposes before the judge silences them."},
+{"start":35,"type":"discovers","fine":"uncovers","actor":"JUDGE","target":null,"mood":"playful","intensity":3,"summary":"The judge takes the phone and learns the missing juror knocked back from the restroom."}
+],
+"s01851": [
+{"start":1,"type":"lies","fine":"plays along with","actor":"POLLY","target":"VERONIKA","mood":"tense","intensity":2,"summary":"Polly and Veronika trade barbed small talk at dinner while Kaz watches."},
+{"start":16,"type":"reveals","fine":"lets slip to","actor":"KAZ","target":"POLLY","mood":"ominous","intensity":3,"summary":"Kaz mentions he prepared the steak himself, and Polly's knife stops."},
+{"start":25,"type":"discovers","fine":"realizes","actor":"POLLY","target":"VERONIKA","mood":"fear","intensity":4,"summary":"Polly collapses poisoned; Veronika catches him and has Kaz open the window."},
+{"start":39,"type":"threatens","fine":"menaces","actor":"KAZ","target":"VERONIKA","mood":"ominous","intensity":4,"summary":"Veronika turns on Kaz, who coldly says she was not meant to be there."}
+],
+"s00439": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"HATTIE","target":"TOM","mood":"playful","intensity":2,"summary":"Three riders bicker over who should dig for a buried treasure of dubious origin."}
+],
+"s00264": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"CASSIUS","target":null,"mood":"suspense","intensity":2,"summary":"Detective Cassius stakes out an elevator in a garage and calls dispatch."},
+{"start":30,"type":"observes","fine":"hesitates","actor":"CASSIUS","target":null,"mood":"suspense","intensity":3,"summary":"The elevator dings and opens empty; Cassius exhales in relief."},
+{"start":41,"type":"leaves","fine":"leaves","actor":"CASSIUS","target":"DISPATCH","mood":"melancholy","intensity":2,"summary":"Dispatch says the subject was caught elsewhere; Cassius gives up and drives away."}
+],
+"s00556": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"BETTINA","target":"DARREN","mood":"playful","intensity":2,"summary":"Six strangers at a karaoke table bicker over who goes first; Chuks volunteers."},
+{"start":24,"type":"jokes","fine":"amuses","actor":"CHUKS","target":"JOSEFINA","mood":"joyful","intensity":3,"summary":"Chuks sings Dancing Queen gloriously off-key and the table cheers."},
+{"start":34,"type":"bonds","fine":"flirts with","actor":"ANDRE","target":"MEI-LING","mood":"tender","intensity":2,"summary":"Andre offers a duet to shy Mei-Ling while Darren pushes Josefina to sing."},
+{"start":52,"type":"bonds","fine":"shares a moment with","actor":"JOSEFINA","target":"DARREN","mood":"joyful","intensity":3,"summary":"The bar sings along; Josefina mouths the words and laughs with Darren."}
+],
+"s00299": [
+{"start":1,"type":"works","fine":"prepares","actor":"BART","target":"JUDGE PERPETUA","mood":"awkward","intensity":2,"summary":"Bart asks to submit an exhibit in traffic court before a skeptical judge."},
+{"start":10,"type":"reveals","fine":"shows","actor":"BART","target":"ILSE","mood":"playful","intensity":3,"summary":"Bart unfurls a cartoonish poster, causing a slapstick pileup and Ilse's objection."},
+{"start":20,"type":"accuses","fine":"exposes","actor":"ILSE","target":"BART","mood":"playful","intensity":3,"summary":"Ilse reveals Bart planted the sycamore that hid the sign; he pays the fine."}
+],
+"s00606": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PRISCILLA","target":"DOLLY","mood":"awkward","intensity":2,"summary":"Relatives bicker over funeral details while Carol brings tuna casserole."},
+{"start":24,"type":"confronts","fine":"challenges","actor":"DOLLY","target":"PRISCILLA","mood":"grief","intensity":3,"summary":"Dolly and Priscilla argue who loved the dead woman more, then settle on green."}
+],
+"s00620": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"DELPHINE","target":"BARN","mood":"awkward","intensity":2,"summary":"Delphine pitches a lighthouse pivot to her skeptical team in a salt-ruined office."},
+{"start":12,"type":"confronts","fine":"calls out","actor":"MAEVE","target":"DELPHINE","mood":"hostile","intensity":3,"summary":"Staff argue over finances and Maeve blasts months of unpaid invoices."},
+{"start":27,"type":"reveals","fine":"breaks news to","actor":"OZZIE","target":"DELPHINE","mood":"chaotic","intensity":4,"summary":"Ozzie says the tower leans, the whiteboard slips, and Maeve storms off ripping her printout."}
+],
+"s01659": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"TESS","target":"UNCLE BASIL","mood":"awkward","intensity":2,"summary":"Tess and Monty enter a funeral parlor and exchange cryptic words with Uncle Basil."},
+{"start":19,"type":"reveals","fine":"drops a bombshell on","actor":"ZELDA","target":"TESS","mood":"suspense","intensity":3,"summary":"Zelda confirms the heist plan and says the man at the door is Basil's twin."},
+{"start":38,"type":"reveals","fine":"shows","actor":"ZELDA","target":"TESS","mood":"suspense","intensity":4,"summary":"The organ starts, Zelda signals go, and the coffin lid opens by itself."}
+],
+"s01859": [
+{"start":1,"type":"jokes","fine":"teases","actor":"LUCY","target":"TEO","mood":"calm","intensity":1,"summary":"Adela rounds up her grown children in a laundromat; Lucy teases Teo."},
+{"start":24,"type":"reveals","fine":"breaks news to","actor":"TEO","target":"ADELA","mood":"melancholy","intensity":3,"summary":"Teo announces he got a job in Tucson and leaves Friday."},
+{"start":33,"type":"hides","fine":"masks a feeling","actor":"ADELA","target":"TEO","mood":"bittersweet","intensity":3,"summary":"Adela says it's good, denies crying, and clasps Teo's hand."}
+],
+"s01943": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"PALOMA","target":"ORIN","mood":"tense","intensity":3,"summary":"Paloma challenges an unregistered visitor who came as cargo and orders his helmet off."},
+{"start":17,"type":"reveals","fine":"comes clean to","actor":"ORIN","target":"PALOMA","mood":"suspense","intensity":4,"summary":"He removes the helmet and says he is Orin Feld, long presumed dead."},
+{"start":29,"type":"attacks","fine":"strikes","actor":"PALOMA","target":"ORIN","mood":"hostile","intensity":4,"summary":"Paloma slaps Orin, furious about four years of grieving him."},
+{"start":36,"type":"bonds","fine":"reconnects with","actor":"ORIN","target":"PALOMA","mood":"bittersweet","intensity":3,"summary":"The first red tomato falls; Orin eats it, laughing and crying, and Paloma smiles."}
+],
+"s00549": [
+{"start":1,"type":"searches","fine":"examines","actor":"LUTHRA","target":"ASHBY","mood":"suspense","intensity":3,"summary":"Dr. Luthra briefs the crew on a repeating signal of prime numbers."},
+{"start":20,"type":"reveals","fine":"drops a bombshell on","actor":"LUTHRA","target":"ASHBY","mood":"ominous","intensity":4,"summary":"Luthra reveals the signal contains the Moon's own coordinates; Ashby orders silence."}
+],
+"s00090": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"DR. VANCE-HOLLOWAY","target":"MRS. LINDQUIST","mood":"melancholy","intensity":2,"summary":"Dr. Vance-Holloway studies a boy's chart while Mrs. Lindquist asks if he is comfortable."},
+{"start":22,"type":"discovers","fine":"notices","actor":"NURSE OKONJO","target":"DR. VANCE-HOLLOWAY","mood":"ominous","intensity":3,"summary":"Okonjo opens the blinds and the doctor checks the boy's wrist, then asks for oxygen."},
+{"start":37,"type":"reveals","fine":"breaks news to","actor":"CHAPLAIN","target":"MRS. LINDQUIST","mood":"grief","intensity":4,"summary":"The chaplain is fetched and takes Mrs. Lindquist's hand; she realizes her boy has died."},
+{"start":51,"type":"observes","fine":"takes it in","actor":"MRS. LINDQUIST","target":null,"mood":"grief","intensity":5,"summary":"Mrs. Lindquist touches the machine in silence; Okonjo switches off the cheerful radio."}
+],
+"s00546": [
+{"start":1,"type":"observes","fine":"waits","actor":"BRITTA","target":null,"mood":"suspense","intensity":3,"summary":"Britta's team sweeps a stone across the ice as the crowd holds its breath."},
+{"start":19,"type":"works","fine":"works","actor":"MURDOCH","target":null,"mood":"triumphant","intensity":4,"summary":"The stone curls, knocks the opponent aside, and settles dead center as the crowd explodes."},
+{"start":27,"type":"reveals","fine":"breaks news to","actor":"OLUWASEUN","target":"BRITTA","mood":"joyful","intensity":3,"summary":"The official confirms the end win but reminds them the match is Thursday."}
+],
+"s01783": [
+{"start":1,"type":"observes","fine":"listens to","actor":"INEZ","target":null,"mood":"melancholy","intensity":2,"summary":"Sixteen-year-old Inez plays her childhood mix tape alone in the DJ booth."},
+{"start":16,"type":"bonds","fine":"reminisces with","actor":"INEZ","target":null,"mood":"bittersweet","intensity":3,"summary":"She replays her twelve-year-old dreams, laughs, and calls the old tape bad."},
+{"start":32,"type":"works","fine":"prepares","actor":"INEZ","target":null,"mood":"hopeful","intensity":3,"summary":"Inez mixes the same song seamlessly, then records a new tape at sixteen."},
+{"start":46,"type":"works","fine":"goes through routine","actor":"INEZ","target":null,"mood":"tender","intensity":2,"summary":"She labels the cassette, pockets it, and turns off the neon as the mirror ball spins."}
+]
+}

@@ -1,0 +1,151 @@
+{
+"pd_dollhouse_2": [
+{"start": 1, "type": "hides", "fine": "keeps a secret", "actor": "NORA", "target": "THE CHILDREN", "mood": "tense", "intensity": 3, "summary": "Nora swears the children to secrecy about the stranger and sends them away."},
+{"start": 7, "type": "hides", "fine": "masks a feeling", "actor": "NORA", "target": null, "mood": "tense", "intensity": 3, "summary": "Nora fights her panic, has the tree brought in, and resolves to please Torvald."},
+{"start": 21, "type": "lies", "fine": "lies to", "actor": "NORA", "target": "HELMER", "mood": "tense", "intensity": 3, "summary": "Helmer returns and Nora denies anyone visited, then admits Krogstad came."},
+{"start": 27, "type": "confronts", "fine": "calls out", "actor": "HELMER", "target": "NORA", "mood": "tense", "intensity": 3, "summary": "Helmer scolds Nora for lying, patronizingly calling her his songbird, then forgives."},
+{"start": 40, "type": "observes", "fine": "hesitates", "actor": "NORA", "target": "HELMER", "mood": "suspense", "intensity": 2, "summary": "Helmer settles by the stove while Nora busies herself, then calls to him."}
+],
+"s01074": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "GLORIA", "target": "PRIYA", "mood": "playful", "intensity": 1, "summary": "Gloria serves cake at a closet office party while a stranger watches."},
+{"start": 20, "type": "confronts", "fine": "interrogates", "actor": "GLORIA", "target": "BERTRAM", "mood": "awkward", "intensity": 2, "summary": "The tall man asks about huddles; Gloria probes who he is and wins him with cake."},
+{"start": 45, "type": "threatens", "fine": "warns", "actor": "BERTRAM", "target": "GLORIA", "mood": "tense", "intensity": 3, "summary": "Bertram reveals the closets are being made efficient; Gloria and Dez push back."},
+{"start": 65, "type": "works", "fine": "works", "actor": "DEZ", "target": null, "mood": "chaotic", "intensity": 3, "summary": "A runaway toner cart nearly topples the cake and everyone grabs at once."},
+{"start": 76, "type": "bonds", "fine": "shares a moment with", "actor": "GLORIA", "target": "BERTRAM", "mood": "playful", "intensity": 2, "summary": "Frozen together, they joke that alignment is achieved and Bertram almost smiles."},
+{"start": 91, "type": "arrives", "fine": "shows up unannounced", "actor": "MAILROOM KID", "target": "GLORIA", "mood": "joyful", "intensity": 1, "summary": "The mailroom kid asks about cake, and Gloria orders another slice cut."}
+],
+"s01116": [
+{"start": 1, "type": "mocks", "fine": "needles", "actor": "CAMILA", "target": "TEDDY", "mood": "awkward", "intensity": 2, "summary": "Teddy tastes his ex's wine and Camila teases that he finds it sour."},
+{"start": 20, "type": "reveals", "fine": "drops a bombshell on", "actor": "IZABELLA", "target": "TEDDY", "mood": "awkward", "intensity": 4, "summary": "Henrik praises the wine, and Izabella introduces him as her fiance."},
+{"start": 31, "type": "comforts", "fine": "consoles", "actor": "CAMILA", "target": "TEDDY", "mood": "bittersweet", "intensity": 3, "summary": "Teddy congratulates them stiffly, drains his glass, and Camila offers another."}
+],
+"s01081": [
+{"start": 1, "type": "confronts", "fine": "presses", "actor": "SAL", "target": "TIMOTHY", "mood": "tense", "intensity": 2, "summary": "Rocco counts cash while Sal and Lena press sweating Timothy about the bag."},
+{"start": 21, "type": "searches", "fine": "investigates", "actor": "LENA", "target": "ROCCO", "mood": "suspense", "intensity": 3, "summary": "A creak upstairs alarms the group; Rocco dismisses it as a stuffed possum."},
+{"start": 35, "type": "confronts", "fine": "demands answers from", "actor": "SAL", "target": "TIMOTHY", "mood": "tense", "intensity": 4, "summary": "Another creak; Sal demands the bag and Timothy admits it isn't the money."},
+{"start": 51, "type": "confesses", "fine": "confesses to", "actor": "TIMOTHY", "target": "ROCCO", "mood": "fear", "intensity": 4, "summary": "Timothy confesses he was forced by the man upstairs."},
+{"start": 55, "type": "arrives", "fine": "makes an entrance", "actor": null, "target": null, "mood": "fear", "intensity": 5, "summary": "A figure descends the stairs and kills the light, plunging them into darkness."}
+],
+"s01028": [
+{"start": 1, "type": "searches", "fine": "searches", "actor": "ORSOLYA", "target": null, "mood": "ominous", "intensity": 2, "summary": "Orsolya and Tavi drift through a derelict station, hailing anyone aboard."},
+{"start": 19, "type": "discovers", "fine": "finds a clue", "actor": "ORSOLYA", "target": "TAVI", "mood": "suspense", "intensity": 3, "summary": "Orsolya finds sabotaged wiring and hides her fear from trembling Tavi."},
+{"start": 36, "type": "comforts", "fine": "reassures", "actor": "ORSOLYA", "target": "TAVI", "mood": "suspense", "intensity": 4, "summary": "Thuds echo through the ring; Orsolya insists they're far away, unconvincingly."},
+{"start": 45, "type": "flees", "fine": "retreats", "actor": "ORSOLYA", "target": "TAVI", "mood": "fear", "intensity": 4, "summary": "A louder scrape; Orsolya announces departure and tows Tavi to the airlock."},
+{"start": 66, "type": "observes", "fine": "takes it in", "actor": "ORSOLYA", "target": null, "mood": "ominous", "intensity": 3, "summary": "One polite knock follows; she seals the hatch and sits shaken."}
+],
+"s00015": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "HETTY", "target": "SOLI", "mood": "suspense", "intensity": 2, "summary": "Around Marrow's empty coat, Hetty asks who saw him; Soli explains the locks."},
+{"start": 15, "type": "searches", "fine": "questions witnesses", "actor": "MEI-LING", "target": "SOLI", "mood": "tense", "intensity": 3, "summary": "Mei-Ling and Hetty probe Soli and Bastian's stories about the keys and alibis."},
+{"start": 24, "type": "accuses", "fine": "exposes", "actor": "MEI-LING", "target": "PRATT", "mood": "tense", "intensity": 3, "summary": "Mei-Ling catches Pratt contradicting himself, and Hetty notes he has a key."},
+{"start": 35, "type": "mocks", "fine": "needles", "actor": "PRATT", "target": "MEI-LING", "mood": "ominous", "intensity": 3, "summary": "Pratt needles Mei-Ling about the coat and insists someone must explain."},
+{"start": 43, "type": "accuses", "fine": "points the finger at", "actor": "BASTIAN", "target": "PRATT", "mood": "tense", "intensity": 4, "summary": "Bastian notes Pratt's wet cane; Hetty demands to know where Marrow is."}
+],
+"s01072": [
+{"start": 1, "type": "hides", "fine": "lies low", "actor": "RENATA", "target": null, "mood": "playful", "intensity": 1, "summary": "Renata contentedly eats lunch in her secret crawlspace above the office."},
+{"start": 12, "type": "discovers", "fine": "realizes", "actor": "RENATA", "target": null, "mood": "tense", "intensity": 3, "summary": "The intercom announces an audit and names her long-abandoned desk."},
+{"start": 24, "type": "discovers", "fine": "catches", "actor": null, "target": "RENATA", "mood": "suspense", "intensity": 3, "summary": "A flashlight beam sweeps the crawlspace behind her; she whispers oh no."}
+],
+"s01107": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "MILO", "target": "SADIE", "mood": "calm", "intensity": 1, "summary": "Milo climbs to the rooftop where Sadie sits, and she makes room."},
+{"start": 13, "type": "bonds", "fine": "shares a moment with", "actor": "MILO", "target": "SADIE", "mood": "tender", "intensity": 2, "summary": "They listen to the radio and share a cracker in silence."},
+{"start": 20, "type": "jokes", "fine": "plays with", "actor": "SADIE", "target": "MILO", "mood": "playful", "intensity": 3, "summary": "Playful shoving nearly sends Sadie off the ledge; Milo catches her sleeve."},
+{"start": 26, "type": "bonds", "fine": "trusts", "actor": "SADIE", "target": "MILO", "mood": "tender", "intensity": 2, "summary": "Sadie offers her hand and they climb down together as the song swells."}
+],
+"s00007": [
+{"start": 1, "type": "works", "fine": "packs", "actor": "ROSALIND", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Rosalind packs her late father's trophies in the closed bowling alley."},
+{"start": 19, "type": "bonds", "fine": "reminisces with", "actor": "PEARL", "target": "ROSALIND", "mood": "bittersweet", "intensity": 2, "summary": "Pearl recalls their father's 290 game; Devante corrects it to 289."},
+{"start": 39, "type": "confronts", "fine": "challenges", "actor": "DEVANTE", "target": "ROSALIND", "mood": "tense", "intensity": 3, "summary": "Devante calls the trophies junk, and Pearl laments the buyer's gym plans."},
+{"start": 54, "type": "observes", "fine": "takes it in", "actor": "DEVANTE", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Devante walks lane nine one last time as Rosalind warns about scuffs."},
+{"start": 66, "type": "defends", "fine": "pushes back on", "actor": "ROSALIND", "target": "PEARL", "mood": "tense", "intensity": 3, "summary": "Pearl says Rosalind was meant to close up; Rosalind refuses all help."},
+{"start": 88, "type": "reveals", "fine": "shows", "actor": "PEARL", "target": "ROSALIND", "mood": "grief", "intensity": 4, "summary": "Pearl offers their father's old bowling shirt; Devante lays it in the box."},
+{"start": 108, "type": "leaves", "fine": "exits quietly", "actor": "PEARL", "target": "ROSALIND", "mood": "melancholy", "intensity": 2, "summary": "Pearl buttons up and leaves, promising coffee in the morning."},
+{"start": 115, "type": "bonds", "fine": "reconnects with", "actor": "DEVANTE", "target": "ROSALIND", "mood": "bittersweet", "intensity": 3, "summary": "Devante hands Rosalind the last trophy, learns its story, and kills the radio."}
+],
+"pd_earnest_5": [
+{"start": 1, "type": "bonds", "fine": "flirts with", "actor": "CECILY", "target": "ALGERNON", "mood": "playful", "intensity": 2, "summary": "The couples praise the men's courage and fall into each other's arms."},
+{"start": 12, "type": "arrives", "fine": "bursts in", "actor": "LADY BRACKNELL", "target": "GWENDOLEN", "mood": "awkward", "intensity": 3, "summary": "Merriman announces Lady Bracknell, and the couples spring apart in alarm."},
+{"start": 19, "type": "decides", "fine": "refuses", "actor": "LADY BRACKNELL", "target": "JACK", "mood": "playful", "intensity": 3, "summary": "Lady Bracknell forbids Jack all contact with Gwendolen."},
+{"start": 25, "type": "lies", "fine": "covers a story for", "actor": "ALGERNON", "target": "LADY BRACKNELL", "mood": "playful", "intensity": 3, "summary": "Questioned about Bunbury, Algernon flusteredly declares him exploded and dead."},
+{"start": 37, "type": "confronts", "fine": "interrogates", "actor": "LADY BRACKNELL", "target": "JACK", "mood": "playful", "intensity": 3, "summary": "Learning of Cecily's engagement, Lady Bracknell coldly interrogates Jack about her origins."}
+],
+"s01070": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "TEODOR", "target": "OKAFOR", "mood": "tense", "intensity": 3, "summary": "A stranger wades out of the flooded mill with hands up."},
+{"start": 10, "type": "confronts", "fine": "interrogates", "actor": "OKAFOR", "target": "TEODOR", "mood": "tense", "intensity": 3, "summary": "Okafor interrogates Teodor; Halvorsen notes he came from the enemy bank."},
+{"start": 16, "type": "hides", "fine": "lies low", "actor": "OKAFOR", "target": null, "mood": "suspense", "intensity": 4, "summary": "Engines approach; Okafor kills the lantern but the radio gives only static."}
+],
+"pd_earnest_3": [
+{"start": 1, "type": "leaves", "fine": "leaves", "actor": "CHASUBLE", "target": null, "mood": "calm", "intensity": 1, "summary": "Chasuble, Miss Prism and Cecily leave the reconciled brothers alone."},
+{"start": 8, "type": "decides", "fine": "gives an order", "actor": "JACK", "target": "ALGERNON", "mood": "playful", "intensity": 3, "summary": "Jack orders Algy out, but Merriman has already unpacked his luggage."},
+{"start": 19, "type": "mocks", "fine": "insults", "actor": "ALGERNON", "target": "JACK", "mood": "playful", "intensity": 3, "summary": "Algernon and Jack trade insults about clothes, duty and Cecily."},
+{"start": 35, "type": "bonds", "fine": "flirts with", "actor": "ALGERNON", "target": "CECILY", "mood": "playful", "intensity": 2, "summary": "Cecily returns; Algernon laments their painful parting and she flirts back."}
+],
+"s01030": [
+{"start": 1, "type": "searches", "fine": "investigates", "actor": "STROZZI", "target": null, "mood": "ominous", "intensity": 2, "summary": "Strozzi replays her tape notes beside the projector in the abandoned planetarium."},
+{"start": 7, "type": "discovers", "fine": "finds a clue", "actor": "STROZZI", "target": null, "mood": "suspense", "intensity": 3, "summary": "She finds a fresh greasy thumbprint and the projector is still warm."},
+{"start": 13, "type": "discovers", "fine": "realizes", "actor": "STROZZI", "target": null, "mood": "ominous", "intensity": 4, "summary": "She notices fresh chalk stars on the dome as the projector clicks."}
+],
+"s00008": [
+{"start": 1, "type": "lies", "fine": "bluffs", "actor": "JUNE", "target": "WALLACE", "mood": "suspense", "intensity": 2, "summary": "June claims maintenance while secretly coordinating a heist over her headset."},
+{"start": 20, "type": "bonds", "fine": "reminisces with", "actor": "WALLACE", "target": "JUNE", "mood": "tender", "intensity": 2, "summary": "Wallace shares his late wife's joke about Orion, and June laughs."},
+{"start": 33, "type": "lies", "fine": "covers a story for", "actor": "JUNE", "target": "WALLACE", "mood": "suspense", "intensity": 2, "summary": "June slips on the headset again and covers clumsily."},
+{"start": 37, "type": "reveals", "fine": "reveals", "actor": "WALLACE", "target": "JUNE", "mood": "playful", "intensity": 3, "summary": "Wallace reveals he knew all along and lets the heist happen."},
+{"start": 45, "type": "bonds", "fine": "shares a moment with", "actor": "WALLACE", "target": "JUNE", "mood": "playful", "intensity": 2, "summary": "He offers coffee and asks them to leave the telescope; June relays it."}
+],
+"s01053": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "EDMUND", "target": null, "mood": "tense", "intensity": 2, "summary": "Wardens in an air raid shelter mark the time as bombers drone."},
+{"start": 12, "type": "decides", "fine": "gives an order", "actor": "EDMUND", "target": "VERA", "mood": "tense", "intensity": 3, "summary": "Control warns of incendiaries; Edmund orders helmets on and spars with Alf."},
+{"start": 30, "type": "discovers", "fine": "realizes", "actor": "EDMUND", "target": null, "mood": "fear", "intensity": 5, "summary": "Control reports a strike on Edmund's shop, where his daughter lives."},
+{"start": 40, "type": "decides", "fine": "commits", "actor": "EDMUND", "target": "ALF", "mood": "tense", "intensity": 4, "summary": "Defying orders, Edmund leaves Vera in charge and goes up with Alf."}
+],
+"s01055": [
+{"start": 1, "type": "mocks", "fine": "needles", "actor": "PHILOMENA", "target": "ARTUR", "mood": "playful", "intensity": 2, "summary": "Philomena stirs sauce and needles Artur about missing Sundays and her late husband."},
+{"start": 28, "type": "confronts", "fine": "presses", "actor": "PHILOMENA", "target": "ARTUR", "mood": "tense", "intensity": 3, "summary": "Philomena sees through the visit and demands Artur say what he practiced."},
+{"start": 34, "type": "reveals", "fine": "breaks news to", "actor": "ARTUR", "target": "PHILOMENA", "mood": "grief", "intensity": 4, "summary": "Artur tells her she is sick; she already knew."},
+{"start": 50, "type": "persuades", "fine": "persuades", "actor": "ARTUR", "target": "PHILOMENA", "mood": "melancholy", "intensity": 4, "summary": "Artur reveals they want to move her to care; she sees through it."},
+{"start": 57, "type": "comforts", "fine": "tends to", "actor": "PHILOMENA", "target": "SOLEDAD", "mood": "bittersweet", "intensity": 4, "summary": "Tearful, Philomena seats them and feeds Soledad, joking darkly about her absence."},
+{"start": 70, "type": "bonds", "fine": "confides in", "actor": "PHILOMENA", "target": "ARTUR", "mood": "grief", "intensity": 4, "summary": "She shares the recipe's true ingredient, her devotion; Artur takes her hand."}
+],
+"s00011": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "PRUDENCE", "target": "BARNABY", "mood": "playful", "intensity": 1, "summary": "Prudence announces insufficient synergy at an absurd meeting about meetings."},
+{"start": 16, "type": "bonds", "fine": "flirts with", "actor": "BARNABY", "target": "DELPHINE", "mood": "awkward", "intensity": 2, "summary": "Barnaby and Delphine touch fingers reaching for a pen and both recoil."},
+{"start": 19, "type": "deflects", "fine": "brushes off", "actor": "PRUDENCE", "target": "DELPHINE", "mood": "playful", "intensity": 2, "summary": "A pigeon drops something; Prudence takes it offline and forbids a mop."},
+{"start": 30, "type": "hides", "fine": "covers up", "actor": "BARNABY", "target": "PRUDENCE", "mood": "awkward", "intensity": 2, "summary": "Barnaby's deck is one useless slide; everyone pretends not to see."},
+{"start": 40, "type": "deflects", "fine": "stalls", "actor": "PRUDENCE", "target": "DELPHINE", "mood": "playful", "intensity": 1, "summary": "Prudence lists no action items and defers Delphine's lanyard to an unscheduled review."},
+{"start": 47, "type": "observes", "fine": "waits", "actor": "BARNABY", "target": null, "mood": "awkward", "intensity": 1, "summary": "Barnaby and Delphine wait side by side at a long-broken elevator."}
+],
+"s00009": [
+{"start": 1, "type": "comforts", "fine": "steadies", "actor": "TAMARA", "target": "BRUISE", "mood": "tense", "intensity": 3, "summary": "Down nine in the final jam, Tamara coaches tense Bruise on the bench."},
+{"start": 19, "type": "mocks", "fine": "taunts", "actor": "DOT", "target": "BRUISE", "mood": "tense", "intensity": 3, "summary": "At the line, Dot and Bruise trade jabs while Tamara keeps coaching."},
+{"start": 39, "type": "mocks", "fine": "needles", "actor": "DOT", "target": "BRUISE", "mood": "tense", "intensity": 3, "summary": "Dot needles Bruise about praying; Tamara mentions her mother, angering her."},
+{"start": 51, "type": "confronts", "fine": "stares down", "actor": "BRUISE", "target": "DOT", "mood": "suspense", "intensity": 4, "summary": "The jammers lock eyes in silence until the whistle shrieks."}
+],
+"s01054": [
+{"start": 1, "type": "searches", "fine": "scans the room", "actor": "WOMAN", "target": null, "mood": "tense", "intensity": 2, "summary": "A frightened woman locks into a motel room and checks every corner."},
+{"start": 16, "type": "works", "fine": "writes", "actor": "WOMAN", "target": null, "mood": "tense", "intensity": 2, "summary": "She tests her tape recorder and logs her first day on the run."},
+{"start": 32, "type": "discovers", "fine": "discovers", "actor": "WOMAN", "target": null, "mood": "fear", "intensity": 4, "summary": "Playback reveals an unspoken whisper saying I'm in the room, then vanishes."},
+{"start": 45, "type": "discovers", "fine": "recognizes", "actor": "LENA", "target": null, "mood": "ominous", "intensity": 3, "summary": "A key tag reminds her she is Lena Marsh; she recites her identity."},
+{"start": 56, "type": "attacks", "fine": "attacks", "actor": "LENA", "target": null, "mood": "fear", "intensity": 5, "summary": "The recorder speaks to her of tomorrow; she rips out and smashes the cassette."},
+{"start": 74, "type": "hides", "fine": "hides", "actor": "LENA", "target": null, "mood": "fear", "intensity": 5, "summary": "The bathroom light and doorknob move alone; Lena hides under the bed."},
+{"start": 91, "type": "pleads", "fine": "begs", "actor": "LENA", "target": null, "mood": "ominous", "intensity": 5, "summary": "The cracked cassette speaks of day two; Lena whispers back, and the lamp clicks on."}
+],
+"s00014": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "JUDGE FAIRWEATHER", "target": null, "mood": "calm", "intensity": 1, "summary": "On a ferry courtroom, both counsel agree and the judge prepares to adjourn."},
+{"start": 19, "type": "arrives", "fine": "bursts in", "actor": "ARROYO", "target": "JUDGE FAIRWEATHER", "mood": "suspense", "intensity": 3, "summary": "Lieutenant Arroyo interrupts with a newly found engine room log."},
+{"start": 27, "type": "confronts", "fine": "presents evidence to", "actor": "JUDGE FAIRWEATHER", "target": "PERCY", "mood": "tense", "intensity": 4, "summary": "The judge confronts Percy with his signature in the engineer's log."},
+{"start": 37, "type": "confronts", "fine": "faces off with", "actor": "DE LUCA", "target": "OSEI", "mood": "hostile", "intensity": 3, "summary": "De Luca and Osei clash over ambush versus evidence; the judge restores order."},
+{"start": 44, "type": "reveals", "fine": "lets slip to", "actor": "PERCY", "target": "DE LUCA", "mood": "ominous", "intensity": 4, "summary": "Percy whispers to De Luca, who pales and asks who Annabelle is."}
+],
+"s01094": [
+{"start": 1, "type": "discovers", "fine": "uncovers", "actor": "HELENA", "target": null, "mood": "suspense", "intensity": 2, "summary": "Helena pries up a floorboard and finds Warrick's hidden journal."},
+{"start": 10, "type": "searches", "fine": "examines", "actor": "HELENA", "target": null, "mood": "ominous", "intensity": 3, "summary": "She reads the journal's ominous note and a star circled with NO."},
+{"start": 19, "type": "defends", "fine": "pushes back on", "actor": "HELENA", "target": "DETECTIVE GRANT", "mood": "tense", "intensity": 3, "summary": "Grant scolds her for not waiting; she spots another person's footprints."},
+{"start": 33, "type": "searches", "fine": "tracks", "actor": "HELENA", "target": null, "mood": "suspense", "intensity": 4, "summary": "Helena follows the footprints to a door as a tall man emerges."},
+{"start": 44, "type": "confronts", "fine": "interrogates", "actor": "HELENA", "target": "TALL MAN", "mood": "tense", "intensity": 4, "summary": "Helena demands whether Warrick's student killed him and what the star is."},
+{"start": 55, "type": "attacks", "fine": "lunges at", "actor": "TALL MAN", "target": "HELENA", "mood": "chaotic", "intensity": 5, "summary": "The dome closes; Helena throws the journal and the man lunges in darkness."}
+],
+"s01024": [
+{"start": 1, "type": "accuses", "fine": "accuses", "actor": "HARTMANN", "target": "OYELARAN", "mood": "tense", "intensity": 3, "summary": "Oyelaran presents the contract, and Hartmann objects that it was never signed."},
+{"start": 14, "type": "accuses", "fine": "points the finger at", "actor": "HARTMANN", "target": "OYELARAN", "mood": "hostile", "intensity": 4, "summary": "The argument escalates into forgery and slander accusations."},
+{"start": 22, "type": "decides", "fine": "gives an order", "actor": "VANCE", "target": null, "mood": "tense", "intensity": 4, "summary": "Vance splinters her gavel and orders them to sit; silence falls."}
+]
+}

@@ -1,0 +1,194 @@
+{
+"s01028": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"ORSOLYA","target":null,"mood":"suspense","intensity":2,"summary":"Orsolya and Tavi drift through the frosted ring, calling out to anyone aboard."},
+{"start":19,"type":"discovers","fine":"finds a clue","actor":"ORSOLYA","target":null,"mood":"ominous","intensity":3,"summary":"Behind a wall panel she finds burned wiring and mutters that it was no accident."},
+{"start":25,"type":"comforts","fine":"steadies","actor":"ORSOLYA","target":"TAVI","mood":"tense","intensity":2,"summary":"She notices Tavi's trembling hand and gives him a screwdriver instead of the lantern."},
+{"start":36,"type":"observes","fine":"listens to","actor":"ORSOLYA","target":"TAVI","mood":"fear","intensity":4,"summary":"Thuds roll through the ring; Tavi insists they sound close, Orsolya says far."},
+{"start":50,"type":"lies","fine":"covers a story for","actor":"ORSOLYA","target":"TAVI","mood":"fear","intensity":4,"summary":"Orsolya calmly announces a recovery crew will leave in five minutes, though no one is there."},
+{"start":53,"type":"flees","fine":"retreats","actor":"ORSOLYA","target":"TAVI","mood":"tense","intensity":4,"summary":"She tows Tavi gently to the airlock and pushes him through."},
+{"start":66,"type":"discovers","fine":"notices","actor":"ORSOLYA","target":null,"mood":"ominous","intensity":4,"summary":"A small, almost polite knock sounds from the dark as she seals the hatch."},
+{"start":71,"type":"hides","fine":"masks a feeling","actor":"ORSOLYA","target":"TAVI","mood":"fear","intensity":3,"summary":"She stays motionless a long time while Tavi sets the lantern between them."}
+],
+"s01094": [
+{"start":1,"type":"searches","fine":"rummages","actor":"HELENA","target":null,"mood":"suspense","intensity":3,"summary":"Helena pulls up a loose board in the observatory and finds a hidden journal."},
+{"start":10,"type":"discovers","fine":"finds a clue","actor":"HELENA","target":null,"mood":"suspense","intensity":3,"summary":"She reads the journal and finds a sketch with a red circle and the word NO."},
+{"start":19,"type":"deflects","fine":"evades","actor":"HELENA","target":"GRANT","mood":"tense","intensity":3,"summary":"Grant phones to warn her to wait; Helena says she is not alone."},
+{"start":27,"type":"discovers","fine":"notices","actor":"HELENA","target":null,"mood":"ominous","intensity":3,"summary":"She finds deliberate footprints leading to a half-open door."},
+{"start":39,"type":"arrives","fine":"makes an entrance","actor":"TALL MAN","target":"HELENA","mood":"ominous","intensity":4,"summary":"A tall man in a gray overcoat steps slowly into the dome holding a brass key."},
+{"start":44,"type":"confronts","fine":"demands answers from","actor":"HELENA","target":"TALL MAN","mood":"tense","intensity":4,"summary":"Helena asks if he killed Warrick; he says he was the student who closed the shutter."},
+{"start":55,"type":"threatens","fine":"menaces","actor":"TALL MAN","target":"HELENA","mood":"fear","intensity":5,"summary":"He lifts the key and the dome shutter begins to close, cutting off the stars."},
+{"start":59,"type":"flees","fine":"escapes","actor":"HELENA","target":"TALL MAN","mood":"chaotic","intensity":5,"summary":"Helena shouts to Grant and hurls the journal; the dome slams shut in darkness."}
+],
+"s01065": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"JUDGE ABBOTT-LUND","target":null,"mood":"tense","intensity":2,"summary":"In a shabby housing court, the judge hears about a notice of rent increase."},
+{"start":11,"type":"defends","fine":"pushes back on","actor":"PRATT","target":"DEXTER","mood":"tense","intensity":3,"summary":"Pratt says Marisela never got notice; Dexter claims it was posted in the lobby."},
+{"start":19,"type":"accuses","fine":"charges","actor":"PRATT","target":"DEXTER","mood":"hostile","intensity":3,"summary":"Pratt charges Dexter with collecting rent for a unit lacking a working stove for months."},
+{"start":22,"type":"decides","fine":"gives an order","actor":"JUDGE ABBOTT-LUND","target":null,"mood":"awkward","intensity":2,"summary":"The judge cuts them off while the leaky ceiling bucket pings."}
+],
+"s00006": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"MAEVE","target":null,"mood":"calm","intensity":2,"summary":"Merchants gather on the crest of a giant tortoise carrying a market."},
+{"start":9,"type":"threatens","fine":"warns","actor":"MAEVE","target":"KIT","mood":"suspense","intensity":3,"summary":"The ground trembles as the tortoise stops and Maeve calls for quiet."},
+{"start":15,"type":"mocks","fine":"insults","actor":"DOMINIC","target":"ISOLDE","mood":"hostile","intensity":2,"summary":"Dominic grumbles and Isolde tells him to keep quiet, hearing him call her a witch."},
+{"start":19,"type":"decides","fine":"gives an order","actor":"MAEVE","target":null,"mood":"chaotic","intensity":4,"summary":"A groan rolls through the shell and Maeve orders everyone to hold the rails as it rises."}
+],
+"s01097": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"RAGS","target":null,"mood":"awkward","intensity":1,"summary":"Curling team members brood in the club bar after a one-stone loss."},
+{"start":8,"type":"confronts","fine":"calls out","actor":"RAGS","target":"LOLO","mood":"hostile","intensity":2,"summary":"Rags tells Lolo to put down her phone and snaps at Toby for second-guessing."},
+{"start":12,"type":"accuses","fine":"blames","actor":"TOBY","target":"RAGS","mood":"hostile","intensity":3,"summary":"Toby blames Rags for calling the hammer late."},
+{"start":17,"type":"defends","fine":"justifies themself to","actor":"RAGS","target":"TOBY","mood":"tense","intensity":3,"summary":"Rags slams her glass and insists she called it when the ice told her."},
+{"start":27,"type":"bonds","fine":"teams up with","actor":"RAGS","target":"LOLO","mood":"tender","intensity":2,"summary":"Rags softens, praises the team, and they toast the ninth end."}
+],
+"s01036": [
+{"start":1,"type":"works","fine":"prepares","actor":"AGNES","target":"DELPHINE","mood":"calm","intensity":1,"summary":"Agnes pins a hem while Delphine stands on a stool avoiding the mirror."},
+{"start":6,"type":"arrives","fine":"makes an entrance","actor":"ASHBY-GREY","target":"DELPHINE","mood":"tense","intensity":3,"summary":"Colonel Ashby-Grey arrives with Yusuf, insisting the wedding is Saturday."},
+{"start":16,"type":"threatens","fine":"coerces","actor":"ASHBY-GREY","target":"DELPHINE","mood":"hostile","intensity":3,"summary":"He orders the bodice tightened while Yusuf measures with trembling fingers."},
+{"start":28,"type":"bonds","fine":"flirts with","actor":"DELPHINE","target":"YUSUF","mood":"hopeful","intensity":3,"summary":"Delphine looks in the mirror and asks Yusuf how far away Damascus is."},
+{"start":36,"type":"confronts","fine":"stares down","actor":"ASHBY-GREY","target":"DELPHINE","mood":"tense","intensity":3,"summary":"Ashby-Grey narrows his eyes and says her name in warning."},
+{"start":40,"type":"hides","fine":"covers up","actor":"AGNES","target":"ASHBY-GREY","mood":"suspense","intensity":3,"summary":"Agnes touches Delphine's wrist and covers a slip about letting out the seam."},
+{"start":51,"type":"leaves","fine":"leaves","actor":"ASHBY-GREY","target":null,"mood":"tense","intensity":2,"summary":"Ashby-Grey demands Saturday at ten and takes his hat and leaves."},
+{"start":54,"type":"observes","fine":"takes it in","actor":"DELPHINE","target":null,"mood":"ominous","intensity":2,"summary":"Delphine steps down slowly from the stool as if from a scaffold."}
+],
+"s01042": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"COACH","target":"ZEKE","mood":"tense","intensity":3,"summary":"Coach paces and rallies her team, down two goals going into the third."},
+{"start":12,"type":"comforts","fine":"encourages","actor":"COACH","target":"ZEKE","mood":"hopeful","intensity":3,"summary":"Coach tells Zeke he's the fastest on the ice despite his knee."},
+{"start":21,"type":"decides","fine":"commits","actor":"MEI-LING","target":null,"mood":"hopeful","intensity":3,"summary":"Mei-Ling punches her pads and promises no one gets past her."},
+{"start":25,"type":"leaves","fine":"leaves","actor":null,"target":null,"mood":"triumphant","intensity":3,"summary":"The horn sounds and the team rises as one; Zeke limps then doesn't."}
+],
+"pd_earnest_1": [
+{"start":1,"type":"bonds","fine":"flirts with","actor":"JACK","target":"GWENDOLEN","mood":"playful","intensity":3,"summary":"Jack and Gwendolen trade declarations and debate the name Ernest."},
+{"start":14,"type":"persuades","fine":"pitches to","actor":"JACK","target":"GWENDOLEN","mood":"playful","intensity":3,"summary":"Jack suggests marrying at once and she teasingly says he hasn't proposed."},
+{"start":25,"type":"decides","fine":"commits","actor":"JACK","target":"GWENDOLEN","mood":"joyful","intensity":4,"summary":"Jack kneels and proposes; Gwendolen accepts and critiques his technique."},
+{"start":30,"type":"arrives","fine":"makes an entrance","actor":"LADY BRACKNELL","target":"JACK","mood":"tense","intensity":3,"summary":"Lady Bracknell enters and orders Jack to rise from his indecorous posture."},
+{"start":35,"type":"defends","fine":"stands up for","actor":"GWENDOLEN","target":"LADY BRACKNELL","mood":"tense","intensity":3,"summary":"Gwendolen announces her engagement to her mother."},
+{"start":38,"type":"decides","fine":"gives an order","actor":"LADY BRACKNELL","target":"GWENDOLEN","mood":"hostile","intensity":3,"summary":"Lady Bracknell denies the engagement and sends Gwendolen to the carriage."},
+{"start":42,"type":"leaves","fine":"leaves","actor":"GWENDOLEN","target":"JACK","mood":"playful","intensity":2,"summary":"Gwendolen leaves reluctantly, blowing kisses behind her mother's back."}
+],
+"s01118": [
+{"start":1,"type":"searches","fine":"examines","actor":"GWENDOLYN","target":null,"mood":"suspense","intensity":2,"summary":"Inspector Gwendolyn reads lighthouse logbooks in the foggy log room."},
+{"start":11,"type":"discovers","fine":"notices","actor":"GWENDOLYN","target":null,"mood":"suspense","intensity":3,"summary":"She spots an entry noting Mr. Pellew did not return, in the same hand and ink."},
+{"start":18,"type":"discovers","fine":"finds a clue","actor":"GWENDOLYN","target":null,"mood":"ominous","intensity":4,"summary":"Held to the flame, the page shows a scratched-out line: He did not fall."},
+{"start":21,"type":"confronts","fine":"presses","actor":"GWENDOLYN","target":"HARBORMASTER","mood":"tense","intensity":3,"summary":"On the radio she presses the harbormaster about the empty boat and who lit the lamp."},
+{"start":30,"type":"observes","fine":"listens to","actor":"GWENDOLYN","target":null,"mood":"fear","intensity":3,"summary":"A floorboard creaks above her and she eyes the spiral stair."},
+{"start":34,"type":"decides","fine":"commits","actor":"GWENDOLYN","target":null,"mood":"suspense","intensity":3,"summary":"She pockets the log and climbs toward the sound."}
+],
+"s00000": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"ADAEZE","target":null,"mood":"tense","intensity":2,"summary":"A flooded roller rink serves as courtroom, with Adaeze alone and Lev calm."},
+{"start":18,"type":"confronts","fine":"faces off with","actor":"ADAEZE","target":"LEV","mood":"hostile","intensity":3,"summary":"Lev calls the defendant's hospital stay convenient; Adaeze bristles."},
+{"start":45,"type":"reveals","fine":"presents evidence to","actor":"LEV","target":"JUDGE TRAN","mood":"tense","intensity":4,"summary":"Lev moves to proceed in absentia, citing a signed waiver."},
+{"start":49,"type":"defends","fine":"pushes back on","actor":"ADAEZE","target":"LEV","mood":"tense","intensity":4,"summary":"Adaeze objects on constitutional grounds but is shown page four."},
+{"start":57,"type":"discovers","fine":"realizes","actor":"ADAEZE","target":null,"mood":"tense","intensity":4,"summary":"She finds the signature and notes it lacks his usual loop."},
+{"start":69,"type":"accuses","fine":"accuses","actor":"ADAEZE","target":"LEV","mood":"hostile","intensity":4,"summary":"At the bench Adaeze accuses Lev of forging or allowing forgery."},
+{"start":93,"type":"discovers","fine":"finds a clue","actor":"JUDGE TRAN","target":"LEV","mood":"suspense","intensity":4,"summary":"Judge Tran rubs the signature and finds the ink still wet."},
+{"start":101,"type":"confronts","fine":"corners","actor":"JUDGE TRAN","target":"LEV","mood":"tense","intensity":4,"summary":"Lev's smile dies as the judge demands who re-signed the waiver."},
+{"start":112,"type":"arrives","fine":"makes an entrance","actor":"CLERK","target":"LEV","mood":"suspense","intensity":4,"summary":"A clerk appears holding a felt-tip, admitting Lev told her it was routine."},
+{"start":117,"type":"decides","fine":"gives an order","actor":"JUDGE TRAN","target":"LEV","mood":"triumphant","intensity":3,"summary":"Lev sits; the judge grants dismissal with prejudice."},
+{"start":126,"type":"comforts","fine":"calms","actor":"ADAEZE","target":null,"mood":"calm","intensity":1,"summary":"Adaeze exhales as court adjourns and the disco ball stops turning."}
+],
+"s01117": [
+{"start":1,"type":"observes","fine":"studies","actor":"FELIX","target":"BABCIA","mood":"calm","intensity":1,"summary":"Felix watches his grandmother stir porridge in the early kitchen."},
+{"start":8,"type":"confronts","fine":"presses","actor":"FELIX","target":"BABCIA","mood":"tender","intensity":3,"summary":"Felix asks why his mother left."},
+{"start":16,"type":"deflects","fine":"brushes off","actor":"BABCIA","target":"FELIX","mood":"tender","intensity":2,"summary":"Babcia tells him to eat first and serves porridge."},
+{"start":25,"type":"confesses","fine":"opens up to","actor":"BABCIA","target":"FELIX","mood":"melancholy","intensity":3,"summary":"She says his mother wanted a different life, and the farm is not bad."},
+{"start":40,"type":"pleads","fine":"asks for help from","actor":"FELIX","target":"BABCIA","mood":"melancholy","intensity":3,"summary":"Felix asks if his mother will come back."},
+{"start":43,"type":"comforts","fine":"consoles","actor":"BABCIA","target":"FELIX","mood":"bittersweet","intensity":3,"summary":"Babcia holds his hand and speaks of swallows returning; the mist lifts."}
+],
+"s01115": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"WINNIE","target":"AUGUSTINE","mood":"playful","intensity":2,"summary":"Friends banter and tease in the treehouse as new neighbor Lotte watches."},
+{"start":18,"type":"bonds","fine":"shares a moment with","actor":"LOTTE","target":"WINNIE","mood":"joyful","intensity":2,"summary":"Lotte offers licorice and is welcomed by the others."},
+{"start":26,"type":"observes","fine":"studies","actor":"KIERAN","target":"LOTTE","mood":"playful","intensity":1,"summary":"They ask Lotte where she moved from; Rotterdam, she says, far away."},
+{"start":32,"type":"bonds","fine":"trusts","actor":"LOTTE","target":null,"mood":"tender","intensity":2,"summary":"Four friends sit together in green quiet and a card drops into Lotte's lap."}
+],
+"s00015": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"HETTY","target":null,"mood":"ominous","intensity":3,"summary":"Five people stand around an empty coat in the observatory dome."},
+{"start":10,"type":"confronts","fine":"interrogates","actor":"HETTY","target":"SOLI","mood":"tense","intensity":3,"summary":"Hetty asks who last saw Doctor Marrow, pointing suspicion at Soli."},
+{"start":17,"type":"accuses","fine":"points the finger at","actor":"BASTIAN","target":"SOLI","mood":"hostile","intensity":3,"summary":"Bastian accuses Soli of lying about the keys; Soli says he misheard."},
+{"start":24,"type":"confronts","fine":"calls out","actor":"MEI-LING","target":"PRATT","mood":"tense","intensity":3,"summary":"Mei-Ling catches Pratt contradicting his earlier claim he hadn't visited."},
+{"start":28,"type":"confronts","fine":"presses","actor":"HETTY","target":"PRATT","mood":"tense","intensity":3,"summary":"Hetty notes Pratt has a key, and four keys exist."},
+{"start":43,"type":"accuses","fine":"exposes","actor":"BASTIAN","target":"PRATT","mood":"suspense","intensity":4,"summary":"Bastian asks why Pratt's cane is wet."},
+{"start":46,"type":"deflects","fine":"stonewalls","actor":"PRATT","target":"HETTY","mood":"tense","intensity":3,"summary":"Pratt claims rain; Soli says it hasn't rained since Tuesday."}
+],
+"s01032": [
+{"start":1,"type":"observes","fine":"studies","actor":"HENRIK","target":null,"mood":"tense","intensity":2,"summary":"In a steamy mill, referee Henrik sets the hands for an arm-wrestling match."},
+{"start":17,"type":"attacks","fine":"fights","actor":"JETHRO","target":"PILAR","mood":"tense","intensity":4,"summary":"Both tense; the table groans and neither gives while the crowd chants."},
+{"start":24,"type":"mocks","fine":"needles","actor":"PILAR","target":"JETHRO","mood":"hostile","intensity":3,"summary":"Pilar needles Jethro about his sweat and his mother's apron."},
+{"start":38,"type":"attacks","fine":"shoves","actor":"JETHRO","target":"PILAR","mood":"tense","intensity":4,"summary":"Jethro surges and pushes her hand an inch; she drives back to even."},
+{"start":48,"type":"bonds","fine":"shares a moment with","actor":"JETHRO","target":"PILAR","mood":"playful","intensity":3,"summary":"They talk about Matanzas and laugh briefly while locked."},
+{"start":56,"type":"attacks","fine":"lunges at","actor":"JETHRO","target":"PILAR","mood":"chaotic","intensity":5,"summary":"Jethro lunges, the table skids, and they tumble wrestling over barrels."},
+{"start":78,"type":"bonds","fine":"teams up with","actor":"PILAR","target":"JETHRO","mood":"playful","intensity":3,"summary":"They call a truce till dawn and Henrik declares a draw."},
+{"start":86,"type":"jokes","fine":"riffs with","actor":"JETHRO","target":"PILAR","mood":"joyful","intensity":3,"summary":"They plan a rematch, joking about her dead father's arm."},
+{"start":94,"type":"decides","fine":"commits","actor":"PILAR","target":"JETHRO","mood":"playful","intensity":3,"summary":"Pilar slams her elbow on the plank and Jethro joins her again."}
+],
+"s01085": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"IMOGEN","target":"SULEIMAN","mood":"calm","intensity":1,"summary":"Imogen and Suleiman sit silently in a night laundromat, glancing at each other."},
+{"start":17,"type":"bonds","fine":"flirts with","actor":"IMOGEN","target":"SULEIMAN","mood":"awkward","intensity":2,"summary":"She notes he folds before washing; they trade shy small talk."},
+{"start":37,"type":"bonds","fine":"confides in","actor":"SULEIMAN","target":"IMOGEN","mood":"tender","intensity":2,"summary":"They discover they are both night nurses and recall passing on the stairs."},
+{"start":56,"type":"discovers","fine":"notices","actor":"IMOGEN","target":"SULEIMAN","mood":"hopeful","intensity":2,"summary":"Imogen pulls the lone blue sock from the dryer and asks if he's lost one."},
+{"start":63,"type":"reveals","fine":"shows","actor":"SULEIMAN","target":"IMOGEN","mood":"tender","intensity":3,"summary":"He pulls out the matching blue sock from his cardigan pocket."},
+{"start":70,"type":"leaves","fine":"leaves","actor":"IMOGEN","target":"SULEIMAN","mood":"bittersweet","intensity":2,"summary":"They agree on Tuesday; she hands over her sock and walks out into rain."}
+],
+"s01105": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"FIONNUALA","target":null,"mood":"suspense","intensity":3,"summary":"Fionnuala scans the street through a scope atop the bombed cinema."},
+{"start":17,"type":"confronts","fine":"stares down","actor":"FIONNUALA","target":"TAVAKOLI","mood":"tense","intensity":3,"summary":"Falling masonry makes Fionnuala flinch; Ikenna restrains her annoyance at the old man."},
+{"start":24,"type":"confesses","fine":"apologizes to","actor":"TAVAKOLI","target":"FIONNUALA","mood":"awkward","intensity":2,"summary":"Tavakoli apologizes and offers his knowledge of the roof."},
+{"start":28,"type":"searches","fine":"looks for","actor":"FIONNUALA","target":"TAVAKOLI","mood":"tense","intensity":3,"summary":"She asks which boards creak; he points to a safe line of beams."},
+{"start":33,"type":"decides","fine":"makes a plan","actor":"FIONNUALA","target":"IKENNA","mood":"tense","intensity":4,"summary":"She sends wounded Ikenna crawling and tells Tavakoli to follow while she stays."},
+{"start":46,"type":"flees","fine":"scrambles away","actor":"IKENNA","target":null,"mood":"suspense","intensity":4,"summary":"Ikenna reaches the beams and signals; Tavakoli crawls after him."},
+{"start":49,"type":"attacks","fine":"shoots at","actor":"FIONNUALA","target":null,"mood":"suspense","intensity":5,"summary":"Fionnuala rises, raises her rifle, and takes aim at the flaring balcony light."}
+],
+"s01021": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"IGNACIO","target":null,"mood":"calm","intensity":1,"summary":"Ignacio oils the lighthouse lens humming off-key."},
+{"start":10,"type":"arrives","fine":"shows up unannounced","actor":"WREN","target":"IGNACIO","mood":"tense","intensity":3,"summary":"Boots clang on the stairs and soaked Wren hauls herself through the hatch."},
+{"start":21,"type":"confronts","fine":"challenges","actor":"IGNACIO","target":"WREN","mood":"hostile","intensity":3,"summary":"Ignacio says she can't be here; she says she rowed nine miles."},
+{"start":35,"type":"accuses","fine":"blames","actor":"IGNACIO","target":"WREN","mood":"hostile","intensity":3,"summary":"He reminds her she wrote a four-line letter saying she was done."},
+{"start":44,"type":"bonds","fine":"reconnects with","actor":"WREN","target":"IGNACIO","mood":"melancholy","intensity":3,"summary":"Wren notes he kept the light polished; she nearly drowned and he admits he'd have been oiling."},
+{"start":61,"type":"confronts","fine":"presses","actor":"WREN","target":"IGNACIO","mood":"tender","intensity":3,"summary":"Wren asks him to say what he's been rehearsing."},
+{"start":69,"type":"confesses","fine":"opens up to","actor":"IGNACIO","target":"WREN","mood":"tender","intensity":4,"summary":"They say I missed you at once, admitting anger and fear."},
+{"start":79,"type":"jokes","fine":"banters with","actor":"IGNACIO","target":"WREN","mood":"playful","intensity":2,"summary":"They joke about her dripping and an old tin of tea."},
+{"start":94,"type":"leaves","fine":"leaves","actor":"IGNACIO","target":"WREN","mood":"hopeful","intensity":2,"summary":"He takes her suitcase and they descend; the lens keeps turning."}
+],
+"s01037": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"ROZ","target":null,"mood":"calm","intensity":1,"summary":"Roz and Trevor wait at a table in a rotating tower restaurant."},
+{"start":6,"type":"arrives","fine":"slips in","actor":"SUNNY","target":"ROZ","mood":"playful","intensity":2,"summary":"A young locksmith, Sunny, joins late and brings the codes."},
+{"start":20,"type":"decides","fine":"makes a plan","actor":"ROZ","target":"SUNNY","mood":"tense","intensity":3,"summary":"Roz lays out the vault heist timed to the restaurant's rotation."},
+{"start":25,"type":"persuades","fine":"bargains with","actor":"SUNNY","target":"ROZ","mood":"playful","intensity":2,"summary":"Sunny haggles over her cut and Roz settles at two and a half."},
+{"start":58,"type":"jokes","fine":"riffs with","actor":"SUNNY","target":"ROZ","mood":"playful","intensity":2,"summary":"Sunny asks what-if questions as Roz answers with confident quips."},
+{"start":69,"type":"observes","fine":"takes it in","actor":"TREVOR","target":"ROZ","mood":"calm","intensity":2,"summary":"The city turns outside; Trevor finds it beautiful but Roz says it's a job."},
+{"start":75,"type":"bonds","fine":"teams up with","actor":"SUNNY","target":"ROZ","mood":"hopeful","intensity":2,"summary":"Sunny and Roz clink glasses while Trevor hesitates."}
+],
+"s01024": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"VANCE","target":null,"mood":"awkward","intensity":1,"summary":"A small claims court convenes on a former skating rink."},
+{"start":7,"type":"confronts","fine":"faces off with","actor":"OYELARAN","target":"HARTMANN","mood":"hostile","intensity":3,"summary":"Oyelaran and Hartmann argue over a contract exhibit while the judge tries to speak."},
+{"start":17,"type":"accuses","fine":"calls out","actor":"HARTMANN","target":"OYELARAN","mood":"hostile","intensity":4,"summary":"Hartmann calls the contract a forgery; Oyelaran claims slander."},
+{"start":22,"type":"decides","fine":"gives an order","actor":"VANCE","target":null,"mood":"tense","intensity":4,"summary":"The judge splinters her gavel and orders them both to sit."}
+],
+"s01074": [
+{"start":1,"type":"works","fine":"prepares","actor":"GLORIA","target":null,"mood":"awkward","intensity":1,"summary":"Gloria cuts cake in an office closet turned party room."},
+{"start":9,"type":"arrives","fine":"drifts in","actor":"TALL MAN","target":"GLORIA","mood":"awkward","intensity":2,"summary":"A tall unknown man with a clipboard lingers in the doorway."},
+{"start":20,"type":"mocks","fine":"needles","actor":"TALL MAN","target":"GLORIA","mood":"awkward","intensity":2,"summary":"He asks if the cake is a huddle; Dez grumbles that everything is."},
+{"start":29,"type":"confronts","fine":"interrogates","actor":"GLORIA","target":"BERTRAM","mood":"tense","intensity":2,"summary":"Gloria asks his department and name; he turns out to be Bertram Hollis of Efficiency."},
+{"start":45,"type":"threatens","fine":"warns","actor":"BERTRAM","target":"GLORIA","mood":"tense","intensity":3,"summary":"He says closets are being made efficient; Gloria defends it as morale."},
+{"start":55,"type":"mocks","fine":"insults","actor":"DEZ","target":"BERTRAM","mood":"hostile","intensity":2,"summary":"Dez retorts that Bertram is not a line item either; silence follows."},
+{"start":65,"type":"works","fine":"goes through routine","actor":null,"target":null,"mood":"chaotic","intensity":3,"summary":"A toner cart bumps the cake and all four lunge to save everything."},
+{"start":76,"type":"bonds","fine":"shares a moment with","actor":"BERTRAM","target":"GLORIA","mood":"joyful","intensity":2,"summary":"Holding the banner together, they declare alignment achieved and Bertram nearly smiles."},
+{"start":91,"type":"arrives","fine":"drifts in","actor":"MAILROOM KID","target":null,"mood":"playful","intensity":2,"summary":"A mailroom kid asks if there's cake and Gloria tells him to cut another."}
+],
+"s01039": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"MARISOL","target":"NADIA","mood":"calm","intensity":1,"summary":"Strangers in a night laundromat share tips and grumbles about the weather."},
+{"start":24,"type":"arrives","fine":"drifts in","actor":"WALTER","target":null,"mood":"melancholy","intensity":2,"summary":"Elderly Walter shuffles in dragging a laundry bag, needing change."},
+{"start":34,"type":"comforts","fine":"consoles","actor":"NADIA","target":"WALTER","mood":"tender","intensity":2,"summary":"Nadia gives him quarters and he blesses her."},
+{"start":43,"type":"confesses","fine":"opens up to","actor":"WALTER","target":"NADIA","mood":"grief","intensity":3,"summary":"Walter says his wife died last spring and he never learned laundry."},
+{"start":47,"type":"bonds","fine":"bonds with","actor":"NADIA","target":"MARISOL","mood":"tender","intensity":2,"summary":"Nadia and Marisol say it's not hard in unison and smile."},
+{"start":51,"type":"comforts","fine":"encourages","actor":"TUCKER","target":"WALTER","mood":"tender","intensity":3,"summary":"Tucker invites Walter to sit, and the four share a quiet moment."}
+],
+"s01080": [
+{"start":1,"type":"observes","fine":"studies","actor":"SALAZAR-KIM","target":null,"mood":"awkward","intensity":1,"summary":"The arbitrator reads her file as lawyer and client wait in the stuffy room."},
+{"start":9,"type":"confronts","fine":"interrogates","actor":"SALAZAR-KIM","target":"MRS. YUSUPOVA","mood":"calm","intensity":2,"summary":"She checks the tenant's claim of three cold winters and the landlord's denial."},
+{"start":17,"type":"confesses","fine":"opens up to","actor":"MRS. YUSUPOVA","target":"SALAZAR-KIM","mood":"tender","intensity":2,"summary":"Mrs. Yusupova says she knocked on his door and he once gave her a blanket."},
+{"start":20,"type":"defends","fine":"pushes back on","actor":"SALAZAR-KIM","target":"PIKE","mood":"playful","intensity":2,"summary":"She overrules Pike's objection and lets the blanket story continue."}
+],
+"s00002": [
+{"start":1,"type":"works","fine":"examines","actor":"TAMSIN","target":null,"mood":"calm","intensity":2,"summary":"Tamsin traces spines in a flooded cathedral library full of bees."},
+{"start":12,"type":"arrives","fine":"makes an entrance","actor":"SERAPH","target":"BRAM","mood":"ominous","intensity":2,"summary":"Seraph Vane enters in a coat of feathers and asks for the keeper."},
+{"start":17,"type":"hides","fine":"conceals something","actor":"TAMSIN","target":"SERAPH","mood":"suspense","intensity":2,"summary":"Tamsin slides the humming book back into place and the bees go quiet."}
+]
+}

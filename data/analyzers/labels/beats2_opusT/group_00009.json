@@ -1,0 +1,181 @@
+{
+"s01607": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "ARCHIE", "target": "PENELOPE", "mood": "playful", "intensity": 2, "summary": "Archie teases Penelope about her net while the cousins squabble over fireflies"},
+{"start": 13, "type": "attacks", "fine": "lunges at", "actor": "PENELOPE", "target": "BARNABY", "mood": "chaotic", "intensity": 3, "summary": "Penelope lunges for the jar, crashes the table, and the fireflies escape"},
+{"start": 24, "type": "comforts", "fine": "reassures", "actor": "ARCHIE", "target": "PENELOPE", "mood": "tender", "intensity": 2, "summary": "Archie tells the children to let the fireflies go home"},
+{"start": 25, "type": "observes", "fine": "takes it in", "actor": "PENELOPE", "target": null, "mood": "joyful", "intensity": 3, "summary": "The children stand amazed among the glowing fireflies as Archie whittles on"}
+],
+"s02424": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "SIGRID", "target": null, "mood": "calm", "intensity": 2, "summary": "Sigrid, Tembo and Barry run a routine hyperbaric session for Aram"},
+{"start": 24, "type": "comforts", "fine": "reassures", "actor": "SIGRID", "target": "LENKA", "mood": "melancholy", "intensity": 2, "summary": "Lenka asks how long, revealing her father's grief since her mother died"},
+{"start": 29, "type": "works", "fine": "repairs something", "actor": "BARRY", "target": null, "mood": "suspense", "intensity": 2, "summary": "Barry coaxes a trembling gauge to hold steady"},
+{"start": 33, "type": "comforts", "fine": "reassures", "actor": "TEMBO", "target": "LENKA", "mood": "tender", "intensity": 3, "summary": "Lenka presses her palm to the glass as Tembo assures her Aram knows"},
+{"start": 41, "type": "discovers", "fine": "notices", "actor": "BARRY", "target": "SIGRID", "mood": "tense", "intensity": 4, "summary": "The gauge ticks and Barry spots a supply line fault"},
+{"start": 55, "type": "works", "fine": "repairs something", "actor": "SIGRID", "target": null, "mood": "tense", "intensity": 4, "summary": "Imai warns of low oxygen and Sigrid and Tembo work the valves"},
+{"start": 63, "type": "lies", "fine": "covers a story for", "actor": "TEMBO", "target": "LENKA", "mood": "tense", "intensity": 3, "summary": "Tembo and Sigrid tell Lenka it is routine; she doesn't believe them"},
+{"start": 69, "type": "works", "fine": "repairs something", "actor": "BARRY", "target": null, "mood": "fear", "intensity": 5, "summary": "Barry clamps the leaking coupling barehanded while Sigrid shuts the valve"},
+{"start": 81, "type": "comforts", "fine": "steadies", "actor": "SIGRID", "target": "TEMBO", "mood": "bittersweet", "intensity": 3, "summary": "The crisis passes; the team sags in relief and Barry laughs helplessly"},
+{"start": 87, "type": "reveals", "fine": "breaks news to", "actor": "SIGRID", "target": "LENKA", "mood": "hopeful", "intensity": 3, "summary": "Aram gives a thumbs up and Sigrid tells Lenka he is perfect"}
+],
+"s01190": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "CORDELIA", "target": "CAPTAIN WARRINGTON", "mood": "tense", "intensity": 2, "summary": "Cordelia connects Warrington to the reserved Admiralty line despite Fenwick's objection"},
+{"start": 13, "type": "defends", "fine": "pushes back on", "actor": "CORDELIA", "target": "MRS. FENWICK", "mood": "tense", "intensity": 3, "summary": "The Admiralty doesn't answer and Cordelia resists Fenwick's order to disconnect"},
+{"start": 17, "type": "reveals", "fine": "breaks news to", "actor": "CAPTAIN WARRINGTON", "target": "CORDELIA", "mood": "suspense", "intensity": 4, "summary": "Warrington reports a harbor fire and asks her to ring everyone"},
+{"start": 18, "type": "decides", "fine": "gives an order", "actor": "MRS. FENWICK", "target": "CORDELIA", "mood": "triumphant", "intensity": 4, "summary": "Fenwick relents and Cordelia frantically plugs every line"}
+],
+"s01339": [
+{"start": 1, "type": "searches", "fine": "examines", "actor": "QUINN", "target": null, "mood": "ominous", "intensity": 2, "summary": "Quinn kneels in the cold room examining a dead man's hand"},
+{"start": 7, "type": "threatens", "fine": "warns", "actor": "CAPTAIN WREN", "target": "QUINN", "mood": "tense", "intensity": 3, "summary": "Wren calls to warn Quinn the furious florist is coming"},
+{"start": 19, "type": "hides", "fine": "lies low", "actor": "QUINN", "target": null, "mood": "suspense", "intensity": 4, "summary": "A latch clicks and Quinn freezes as a shadow nears the door"},
+{"start": 30, "type": "arrives", "fine": "bursts in", "actor": null, "target": "QUINN", "mood": "suspense", "intensity": 4, "summary": "The door swings wide and Quinn calmly reports she's here"}
+],
+"s00037": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "CASSIUS", "target": null, "mood": "suspense", "intensity": 2, "summary": "Cassius's crew slips into the moonlit dinosaur hall"},
+{"start": 8, "type": "works", "fine": "prepares", "actor": "CASSIUS", "target": null, "mood": "suspense", "intensity": 3, "summary": "The crew takes positions, loops cameras and climbs toward the egg"},
+{"start": 15, "type": "works", "fine": "goes through routine", "actor": "RENATA", "target": null, "mood": "suspense", "intensity": 3, "summary": "Renata opens the case and Gustav swaps the egg as a click sounds"},
+{"start": 18, "type": "hides", "fine": "ducks out of sight", "actor": "CASSIUS", "target": "ROLAND", "mood": "tense", "intensity": 4, "summary": "Quincy warns of a guard and the crew scatters into hiding"},
+{"start": 23, "type": "observes", "fine": "waits", "actor": "ROLAND", "target": null, "mood": "suspense", "intensity": 5, "summary": "Roland sweeps the case with his light as Cassius readies a fist"},
+{"start": 29, "type": "flees", "fine": "slips out", "actor": "CASSIUS", "target": null, "mood": "triumphant", "intensity": 3, "summary": "Roland blames pigeons and leaves; the crew regroups and slips out"}
+],
+"s01223": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "CORAZÓN", "target": null, "mood": "ominous", "intensity": 3, "summary": "Three survivors shelter beside an overturned truck with almost no water"},
+{"start": 9, "type": "confronts", "fine": "challenges", "actor": "DASH", "target": "JUNIOR", "mood": "tense", "intensity": 3, "summary": "They argue the distance and Dash dismisses Junior's ability to walk"},
+{"start": 17, "type": "decides", "fine": "makes a plan", "actor": "CORAZÓN", "target": "JUNIOR", "mood": "tense", "intensity": 3, "summary": "Corazón decides to wait for dusk over Junior's despairing protests"},
+{"start": 22, "type": "comforts", "fine": "tends to", "actor": "DASH", "target": "JUNIOR", "mood": "melancholy", "intensity": 2, "summary": "Dash ties a brusque bandage around Junior's swollen wrist"},
+{"start": 26, "type": "discovers", "fine": "notices", "actor": "JUNIOR", "target": null, "mood": "suspense", "intensity": 4, "summary": "A thin sound and a glint on the horizon freeze them"},
+{"start": 35, "type": "pleads", "fine": "calls for", "actor": "CORAZÓN", "target": null, "mood": "suspense", "intensity": 5, "summary": "Corazón signals the distant rider with her cracked compact mirror"},
+{"start": 43, "type": "arrives", "fine": "arrives", "actor": null, "target": null, "mood": "triumphant", "intensity": 4, "summary": "A quad bike stops and the rider waves; Junior breaks down laughing"},
+{"start": 51, "type": "comforts", "fine": "steadies", "actor": "DASH", "target": "CORAZÓN", "mood": "bittersweet", "intensity": 3, "summary": "Dash steadies Corazón's shaking hand and they share the last water"}
+],
+"s02208": [
+{"start": 1, "type": "comforts", "fine": "consoles", "actor": "PRUDENCE", "target": "AUDREY", "mood": "awkward", "intensity": 2, "summary": "Fired Audrey sits in her car as colleagues offer awkward condolences"},
+{"start": 17, "type": "works", "fine": "goes through routine", "actor": "PRUDENCE", "target": "AUDREY", "mood": "awkward", "intensity": 2, "summary": "Prudence brings forms and Bo calls the firing a shame"},
+{"start": 27, "type": "bonds", "fine": "reminisces with", "actor": "AUDREY", "target": "NATHANIEL", "mood": "bittersweet", "intensity": 3, "summary": "Audrey reflects on twelve years and laughs at Nathaniel's honest answer"},
+{"start": 38, "type": "leaves", "fine": "leaves", "actor": "AUDREY", "target": "NATHANIEL", "mood": "bittersweet", "intensity": 3, "summary": "Audrey takes the fern, gives Nathaniel a parting word, and drives away"}
+],
+"s01217": [
+{"start": 1, "type": "confronts", "fine": "demands answers from", "actor": "IMANI", "target": "TOBY", "mood": "tense", "intensity": 4, "summary": "Imani confronts Toby in the cold room with a stabbed groom nearby"},
+{"start": 12, "type": "accuses", "fine": "points the finger at", "actor": "CALLUM", "target": "SERAFINA", "mood": "tense", "intensity": 4, "summary": "Callum accuses Serafina, who rises as Toby shields her"},
+{"start": 16, "type": "defends", "fine": "stands up for", "actor": "TOBY", "target": "SERAFINA", "mood": "tense", "intensity": 4, "summary": "Toby refuses to step aside and claims self-defense; Callum calls it a lie"},
+{"start": 23, "type": "comforts", "fine": "tends to", "actor": "IMANI", "target": "CALLUM", "mood": "melancholy", "intensity": 3, "summary": "Toby sets down the shears and Imani presses Callum's wound as sirens rise"}
+],
+"s00769": [
+{"start": 1, "type": "bonds", "fine": "shares a moment with", "actor": "HALVARD", "target": "IMELDA", "mood": "calm", "intensity": 2, "summary": "Halvard learns he leads as Imelda checks his tired lead dog"},
+{"start": 17, "type": "reveals", "fine": "breaks news to", "actor": "GRAHAM", "target": "HALVARD", "mood": "grief", "intensity": 4, "summary": "Graham reveals Delacroix's team went through the ice"},
+{"start": 31, "type": "decides", "fine": "refuses", "actor": "HALVARD", "target": "GRAHAM", "mood": "tense", "intensity": 3, "summary": "Halvard considers stopping until Graham explains Delacroix cut a corner"},
+{"start": 37, "type": "decides", "fine": "commits", "actor": "HALVARD", "target": null, "mood": "hopeful", "intensity": 3, "summary": "Halvard resolves not to hurry and sets off with his team"}
+],
+"s00916": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "LOGAN", "target": "ODILE", "mood": "ominous", "intensity": 3, "summary": "Logan questions Odile about finding the body behind a locked door"},
+{"start": 17, "type": "deflects", "fine": "stonewalls", "actor": "ODILE", "target": "LOGAN", "mood": "suspense", "intensity": 3, "summary": "Asked about the key, Odile falls silent as everyone circles"},
+{"start": 21, "type": "discovers", "fine": "finds a clue", "actor": "DAVIES", "target": "LOGAN", "mood": "suspense", "intensity": 4, "summary": "Davies spots a brass key in the shattered glass; Logan eyes Odile"}
+],
+"s00946": [
+{"start": 1, "type": "confronts", "fine": "stares down", "actor": "ODALYS", "target": "MARCELLUS", "mood": "ominous", "intensity": 3, "summary": "Odalys stares down Marcellus in the climbing funicular, chiding his lateness"},
+{"start": 14, "type": "threatens", "fine": "intimidates", "actor": "MARCELLUS", "target": "ODALYS", "mood": "tense", "intensity": 3, "summary": "Marcellus demands to see the item; Odalys refuses until the top"},
+{"start": 23, "type": "threatens", "fine": "menaces", "actor": "MARCELLUS", "target": "ODALYS", "mood": "fear", "intensity": 4, "summary": "The car shudders and stops mid-slope as Marcellus implies control"},
+{"start": 35, "type": "threatens", "fine": "holds at gunpoint", "actor": "ODALYS", "target": "MARCELLUS", "mood": "tense", "intensity": 5, "summary": "Odalys draws a revolver and demands he cut the cable"},
+{"start": 42, "type": "threatens", "fine": "menaces", "actor": "MARCELLUS", "target": "ODALYS", "mood": "hostile", "intensity": 5, "summary": "Marcellus unsheathes a cane blade and Odalys cocks the hammer"}
+],
+"s00966": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "HORATIA", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Horatia opens the last broadcast of Midnight Confessional in a dusty booth"},
+{"start": 10, "type": "confesses", "fine": "unburdens to", "actor": "HORATIA", "target": null, "mood": "grief", "intensity": 4, "summary": "Horatia confesses she brushed off a caller before Marian Pruitt's murder"},
+{"start": 20, "type": "reveals", "fine": "shows", "actor": "HORATIA", "target": null, "mood": "ominous", "intensity": 4, "summary": "Horatia plays the old tape of nineteen seconds of silent breathing"},
+{"start": 31, "type": "confesses", "fine": "apologizes to", "actor": "HORATIA", "target": null, "mood": "grief", "intensity": 4, "summary": "Horatia apologizes to Marian and the caller and signs off"}
+],
+"s02112": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": null, "target": null, "mood": "awkward", "intensity": 2, "summary": "Six cheese executives crowd into a glass elevator that won't move"},
+{"start": 11, "type": "confronts", "fine": "presses", "actor": "NADEZHDA", "target": "INTERN", "mood": "playful", "intensity": 2, "summary": "Executives demand floor six; the intern insists she pressed it"},
+{"start": 17, "type": "comforts", "fine": "calms", "actor": "MR. HOLLOWELL", "target": null, "mood": "playful", "intensity": 3, "summary": "Hollowell assures everyone the cheese is safe as the lights flicker"},
+{"start": 22, "type": "decides", "fine": "gives an order", "actor": "MR. HOLLOWELL", "target": "FRANCESCA", "mood": "playful", "intensity": 2, "summary": "Hollowell questions intern Francesca and orders her to fill out a form"}
+],
+"s02464": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "RAVENNA", "target": null, "mood": "suspense", "intensity": 3, "summary": "Five strangers sit silent in a gondola stalled over a canyon"},
+{"start": 13, "type": "decides", "fine": "gives an order", "actor": "RAVENNA", "target": "LORENZO", "mood": "tense", "intensity": 2, "summary": "Ravenna orders everyone seated and Lorenzo needles her"},
+{"start": 16, "type": "reveals", "fine": "breaks news to", "actor": "CONTROL", "target": "RAVENNA", "mood": "tense", "intensity": 3, "summary": "Base reports a generator fault and a forty-minute wait"},
+{"start": 27, "type": "comforts", "fine": "reassures", "actor": "LOTTE", "target": "PEARL", "mood": "tender", "intensity": 3, "summary": "Pearl asks for her mom and Lotte gently takes her hand"},
+{"start": 34, "type": "defends", "fine": "protects", "actor": "RAVENNA", "target": "PEARL", "mood": "awkward", "intensity": 2, "summary": "Ravenna stops Lorenzo from giving Pearl brandy"},
+{"start": 44, "type": "comforts", "fine": "calms", "actor": "KWAME", "target": null, "mood": "tender", "intensity": 3, "summary": "The cabin rocks and Kwame's humming calms the group"},
+{"start": 52, "type": "confesses", "fine": "opens up to", "actor": "LORENZO", "target": null, "mood": "tender", "intensity": 3, "summary": "Lorenzo admits fear of heights; Kwame shares his earbud with Pearl"},
+{"start": 64, "type": "pleads", "fine": "calls for", "actor": "RAVENNA", "target": "CONTROL", "mood": "fear", "intensity": 5, "summary": "The gondola drops six inches and Ravenna radios base in panic"},
+{"start": 78, "type": "observes", "fine": "takes it in", "actor": "KWAME", "target": null, "mood": "triumphant", "intensity": 4, "summary": "The cable moves and the gondola glides down; Pearl thanks Kwame"}
+],
+"s02332": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "AGNIESZKA", "target": "BRANTLEY", "mood": "tender", "intensity": 2, "summary": "Sister Agnieszka tends wounded Brantley in an opera house ward"},
+{"start": 22, "type": "jokes", "fine": "banters with", "actor": "BRANTLEY", "target": "AGNIESZKA", "mood": "bittersweet", "intensity": 2, "summary": "They banter about the quiet and the listening building"},
+{"start": 26, "type": "discovers", "fine": "recognizes", "actor": "AGNIESZKA", "target": "BRANTLEY", "mood": "ominous", "intensity": 4, "summary": "Agnieszka reads his dog tags and notes his English name"},
+{"start": 36, "type": "deflects", "fine": "evades", "actor": "AGNIESZKA", "target": "BRANTLEY", "mood": "suspense", "intensity": 4, "summary": "She offers water and evades Brantley's question about the ward"},
+{"start": 44, "type": "hides", "fine": "conceals something", "actor": "AGNIESZKA", "target": null, "mood": "ominous", "intensity": 5, "summary": "Behind the curtain Agnieszka draws a hidden pistol"}
+],
+"s00345": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "DOC", "target": "HARGREAVE", "mood": "tense", "intensity": 2, "summary": "The patrol crouches on a misty dike and Doc quips at Hargreave"},
+{"start": 12, "type": "attacks", "fine": "shoots at", "actor": null, "target": "HARGREAVE", "mood": "fear", "intensity": 4, "summary": "Lin spots contact and gunfire stitches the water beside them"},
+{"start": 14, "type": "confronts", "fine": "challenges", "actor": "HARGREAVE", "target": "OKAFOR", "mood": "chaotic", "intensity": 3, "summary": "Hargreave and Okafor argue about calling in with the cornflakes code"},
+{"start": 22, "type": "decides", "fine": "gives an order", "actor": "HARGREAVE", "target": null, "mood": "tense", "intensity": 4, "summary": "Lin raises the radio and Hargreave leads a dash to the banyan"}
+],
+"s01001": [
+{"start": 1, "type": "mocks", "fine": "needles", "actor": "PAXTON", "target": "REN", "mood": "playful", "intensity": 2, "summary": "Residents of a zero-g launderette needle Ren over his hot cycles"},
+{"start": 14, "type": "discovers", "fine": "notices", "actor": "VASHTI", "target": null, "mood": "suspense", "intensity": 3, "summary": "A breach klaxon sounds and dryer six bulges with knocking"},
+{"start": 28, "type": "attacks", "fine": "ambushes", "actor": null, "target": "VASHTI", "mood": "playful", "intensity": 3, "summary": "The dryer bursts and a soapy cat clings to deadpan Vashti"}
+],
+"s01359": [
+{"start": 1, "type": "reveals", "fine": "breaks news to", "actor": "ASHDOWN", "target": "CROYDE", "mood": "ominous", "intensity": 3, "summary": "Ashdown announces cable delays and admits it is the Titanic"},
+{"start": 19, "type": "confesses", "fine": "opens up to", "actor": "HARRIET", "target": "ROSALIND", "mood": "grief", "intensity": 3, "summary": "Harriet reveals her brother was a stoker; Rosalind consoles her"},
+{"start": 22, "type": "reveals", "fine": "breaks news to", "actor": "ROSALIND", "target": null, "mood": "hopeful", "intensity": 4, "summary": "Rosalind relays that Carpathia picked up survivors, names to follow"},
+{"start": 31, "type": "persuades", "fine": "pitches to", "actor": "CROYDE", "target": "ASHDOWN", "mood": "tense", "intensity": 3, "summary": "Harriet prays as Croyde demands priority and Ashdown refuses"},
+{"start": 36, "type": "reveals", "fine": "breaks news to", "actor": "ROSALIND", "target": null, "mood": "suspense", "intensity": 5, "summary": "Rosalind begins reading the first batch of survivor names"}
+],
+"s02439": [
+{"start": 1, "type": "works", "fine": "writes", "actor": "AMOS", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Stranded Amos writes Ruth about the broken wheel and lost water"},
+{"start": 11, "type": "searches", "fine": "scans the room", "actor": "AMOS", "target": null, "mood": "grief", "intensity": 3, "summary": "Amos scans the empty horizon, kicks the wheel, resolves to wait"},
+{"start": 19, "type": "discovers", "fine": "notices", "actor": "AMOS", "target": null, "mood": "hopeful", "intensity": 3, "summary": "A distant bell rings and Amos walks toward it with empty canteen"}
+],
+"s01619": [
+{"start": 1, "type": "searches", "fine": "investigates", "actor": "ODELIA", "target": null, "mood": "ominous", "intensity": 3, "summary": "Odelia leads four nervous guests into the attic to find the tapping"},
+{"start": 17, "type": "observes", "fine": "hesitates", "actor": "FERDINAND", "target": null, "mood": "suspense", "intensity": 4, "summary": "Taps and scraping come from behind the dummy as everyone freezes"},
+{"start": 25, "type": "attacks", "fine": "lunges at", "actor": null, "target": null, "mood": "chaotic", "intensity": 5, "summary": "A shape lunges, Ferdinand fires wildly, and it escapes through the skylight"},
+{"start": 34, "type": "jokes", "fine": "lightens the mood for", "actor": "THOMAS", "target": null, "mood": "playful", "intensity": 2, "summary": "Panting, they conclude it was a very large gull"},
+{"start": 41, "type": "decides", "fine": "gives an order", "actor": "ODELIA", "target": null, "mood": "ominous", "intensity": 3, "summary": "Odelia sends everyone to bed; Thomas lingers and hears another tap"}
+],
+"s00305": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "STRANGER", "target": "TEODORICO", "mood": "calm", "intensity": 2, "summary": "A rain-soaked stranger arrives at the bakery asking for the rye baker"},
+{"start": 14, "type": "confesses", "fine": "apologizes to", "actor": "STRANGER", "target": "PENNY", "mood": "awkward", "intensity": 3, "summary": "The stranger apologizes for her one-star review; Penny coolly remembers"},
+{"start": 22, "type": "reveals", "fine": "comes clean to", "actor": "PERPETUA", "target": "PENNY", "mood": "awkward", "intensity": 2, "summary": "Perpetua names herself the critic and says she must review again"},
+{"start": 28, "type": "bonds", "fine": "shares a moment with", "actor": "PENNY", "target": "PERPETUA", "mood": "tender", "intensity": 2, "summary": "Perpetua waits; Penny makes her toast and Quincy sits beside her"}
+],
+"s01821": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "COACH HALVORSEN", "target": null, "mood": "tense", "intensity": 2, "summary": "Six players wait silently in a dim rink for a late teammate"},
+{"start": 18, "type": "mocks", "fine": "needles", "actor": "DEE", "target": "LUCAS", "mood": "tense", "intensity": 2, "summary": "Lucas questions Nadia's intensity and Dee tells him he's in Winnie's spot"},
+{"start": 32, "type": "decides", "fine": "gives an order", "actor": "COACH HALVORSEN", "target": "DEE", "mood": "calm", "intensity": 1, "summary": "Coach tells Dee he's starting and eats his apple core"},
+{"start": 37, "type": "confronts", "fine": "calls out", "actor": "NADIA", "target": "LUCAS", "mood": "hostile", "intensity": 4, "summary": "Nadia calls out Lucas's sponsor-bought spot; Winnie tells her to leave it"},
+{"start": 48, "type": "mocks", "fine": "belittles", "actor": "BIG TOMÁS", "target": "LUCAS", "mood": "tense", "intensity": 3, "summary": "Tomás criticizes Lucas's stick tape and Lucas hides his shaking hand"},
+{"start": 56, "type": "decides", "fine": "gives an order", "actor": "COACH HALVORSEN", "target": "NADIA", "mood": "hostile", "intensity": 4, "summary": "Coach puts Lucas on Nadia's line, benching her"},
+{"start": 63, "type": "decides", "fine": "resigns", "actor": "NADIA", "target": "COACH HALVORSEN", "mood": "hostile", "intensity": 5, "summary": "Nadia tears off her captain's C and storms to the far end"},
+{"start": 73, "type": "threatens", "fine": "warns", "actor": "WINNIE", "target": "LUCAS", "mood": "suspense", "intensity": 4, "summary": "Winnie warns Lucas to skate wide as Nadia waits"},
+{"start": 83, "type": "attacks", "fine": "shoves", "actor": "NADIA", "target": "LUCAS", "mood": "hostile", "intensity": 5, "summary": "Nadia slams Lucas into the boards and stands over him"},
+{"start": 90, "type": "defends", "fine": "holds the line against", "actor": "BIG TOMÁS", "target": "NADIA", "mood": "tense", "intensity": 5, "summary": "Tomás restrains Nadia, Coach calls time, and the lights go out"}
+],
+"s01228": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "OZZIE", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Ozzie waits at the piano beside an empty chair in the foundry"},
+{"start": 12, "type": "deflects", "fine": "brushes off", "actor": "OZZIE", "target": "HIRO", "mood": "tense", "intensity": 2, "summary": "Ozzie insists Margit is just late as Hiro voices doubt"},
+{"start": 20, "type": "comforts", "fine": "reassures", "actor": "OZZIE", "target": "DELPHINE", "mood": "bittersweet", "intensity": 2, "summary": "Ozzie plays a chord and smiles kindly at Delphine's small talk"},
+{"start": 27, "type": "reveals", "fine": "breaks news to", "actor": "MARGIT", "target": "OZZIE", "mood": "grief", "intensity": 4, "summary": "Margit calls from the hospital to say her end is near"},
+{"start": 40, "type": "reveals", "fine": "breaks news to", "actor": "OZZIE", "target": "DELPHINE", "mood": "grief", "intensity": 5, "summary": "Ozzie speaks of bells and strikes the great bell as the singers understand"}
+],
+"s01931": [
+{"start": 1, "type": "discovers", "fine": "notices", "actor": "NADIA", "target": "GRAHAM", "mood": "suspense", "intensity": 2, "summary": "Nadia notices lot forty-one has a reprinted ticket"},
+{"start": 14, "type": "confronts", "fine": "interrogates", "actor": "NADIA", "target": "LUCINDA", "mood": "tense", "intensity": 3, "summary": "Nadia gets Lucinda to admit the ticket changed to signed"},
+{"start": 21, "type": "searches", "fine": "examines", "actor": "NADIA", "target": null, "mood": "suspense", "intensity": 3, "summary": "Nadia examines the clock dial with a loupe, giving nothing away"},
+{"start": 26, "type": "confronts", "fine": "presses", "actor": "NADIA", "target": "GRAHAM", "mood": "tense", "intensity": 4, "summary": "Nadia questions Emeka about the courier as Graham tries to stop her"},
+{"start": 38, "type": "threatens", "fine": "warns", "actor": "NADIA", "target": "GRAHAM", "mood": "ominous", "intensity": 4, "summary": "Nadia warns Graham the ticket stay unchanged and leaves"},
+{"start": 46, "type": "hides", "fine": "covers up", "actor": "LUCINDA", "target": null, "mood": "ominous", "intensity": 3, "summary": "The staff fear Nadia knows; Graham mutters about twelve years"}
+],
+"s00609": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "KAMAU", "target": null, "mood": "tense", "intensity": 2, "summary": "Kamau's squad keeps watch from a ruined church tower"},
+{"start": 12, "type": "works", "fine": "goes through routine", "actor": "KAMAU", "target": "REYES", "mood": "tense", "intensity": 2, "summary": "Kamau reports no movement and Reyes orders them to hold"},
+{"start": 22, "type": "comforts", "fine": "tends to", "actor": "KAMAU", "target": "SANTOS", "mood": "tender", "intensity": 2, "summary": "Kamau orders pale Santos to eat"},
+{"start": 28, "type": "bonds", "fine": "reminisces with", "actor": "DUVALL", "target": "KAMAU", "mood": "bittersweet", "intensity": 2, "summary": "The men share hopes of farms, orchards and a hot bath"},
+{"start": 38, "type": "observes", "fine": "waits", "actor": "KAMAU", "target": null, "mood": "fear", "intensity": 4, "summary": "Mortar thumps freeze them; Kamau judges they're shelling the road"},
+{"start": 52, "type": "jokes", "fine": "jokes with", "actor": "SANTOS", "target": "KAMAU", "mood": "bittersweet", "intensity": 2, "summary": "Shelling passes and Santos jokes about a hot bath; Kamau smiles"}
+]
+}

@@ -1,0 +1,184 @@
+{
+"s01293": [
+{"start": 1, "type": "arrives", "fine": "returns", "actor": "ARTHUR", "target": "IMELDA", "mood": "bittersweet", "intensity": 3, "summary": "Arthur finds Imelda waiting in the station hall after years away"},
+{"start": 19, "type": "confronts", "fine": "calls out", "actor": "IMELDA", "target": "ARTHUR", "mood": "tense", "intensity": 3, "summary": "Imelda reproaches Arthur for being four years late; he offers excuses"},
+{"start": 23, "type": "leaves", "fine": "exits quietly", "actor": "WINIFRED", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Winifred rises and walks away down the hall without looking back"},
+{"start": 25, "type": "bonds", "fine": "reconnects with", "actor": "IMELDA", "target": "ARTHUR", "mood": "tender", "intensity": 3, "summary": "Imelda gives Arthur his father's hat and straightens it on him"}
+],
+"s00654": [
+{"start": 1, "type": "works", "fine": "drives", "actor": "TANDI", "target": null, "mood": "tense", "intensity": 2, "summary": "Tandi drives the cash-filled hearse while the crew cleans up in back"},
+{"start": 15, "type": "mocks", "fine": "needles", "actor": "MIREILLE", "target": "IZZY", "mood": "tense", "intensity": 3, "summary": "Mireille's humming frays Izzy's nerves as Laurence orders silence"},
+{"start": 26, "type": "observes", "fine": "keeps watch", "actor": "TANDI", "target": null, "mood": "suspense", "intensity": 3, "summary": "Tandi has them watch steady headlights following far behind"},
+{"start": 36, "type": "hides", "fine": "lies low", "actor": "TANDI", "target": null, "mood": "suspense", "intensity": 4, "summary": "Tandi pulls over and kills the engine as the headlights approach"},
+{"start": 43, "type": "observes", "fine": "takes it in", "actor": "MIREILLE", "target": "IZZY", "mood": "ominous", "intensity": 2, "summary": "A taxi passes; Mireille calls it the end of fear, Izzy doubts"}
+],
+"s02361": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "ERLANDEL", "target": "BRUNHILDE", "mood": "calm", "intensity": 2, "summary": "Erlandel slips into Brunhilde's tollhouse, pays, and trades quiet greetings"},
+{"start": 14, "type": "reveals", "fine": "lets slip to", "actor": "SPRIGGET", "target": "ERLANDEL", "mood": "melancholy", "intensity": 2, "summary": "Sprigget whispers that Ulfric hasn't spoken since the flood; Ulfric bristles"},
+{"start": 21, "type": "comforts", "fine": "tends to", "actor": "BRUNHILDE", "target": "ULFRIC", "mood": "tender", "intensity": 2, "summary": "Brunhilde serves tea, nudging a cup to Ulfric, who takes it"},
+{"start": 24, "type": "hides", "fine": "conceals something", "actor": "SPRIGGET", "target": null, "mood": "playful", "intensity": 1, "summary": "Sprigget steals a coin while everyone pretends not to notice"}
+],
+"s02479": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "SAL", "target": "MOSES", "mood": "tense", "intensity": 2, "summary": "Sal, Duke and Barney wait in the closed alley with nervous Moses"},
+{"start": 10, "type": "confronts", "fine": "presses", "actor": "SAL", "target": "MOSES", "mood": "tense", "intensity": 3, "summary": "Sal and Duke needle sweaty Moses, who wants to leave without paying"},
+{"start": 20, "type": "discovers", "fine": "uncovers", "actor": "SAL", "target": "MOSES", "mood": "ominous", "intensity": 4, "summary": "Moses opens the bag to reveal folded newspaper instead of cash"},
+{"start": 27, "type": "threatens", "fine": "looms over", "actor": "SAL", "target": "MOSES", "mood": "fear", "intensity": 4, "summary": "Sal stands and Duke steps behind Moses, who drops the bag"}
+],
+"s00782": [
+{"start": 1, "type": "works", "fine": "works", "actor": "LUCIA", "target": "ABEL", "mood": "tense", "intensity": 3, "summary": "Lucia and Greta fight to stabilize Abel in the ice-rink hospital"},
+{"start": 18, "type": "arrives", "fine": "bursts in", "actor": "RAFI", "target": "LUCIA", "mood": "chaotic", "intensity": 3, "summary": "Rafi bursts in with Kofi, who recognizes his brother Abel"},
+{"start": 26, "type": "flees", "fine": "runs", "actor": "KOFI", "target": "ABEL", "mood": "chaotic", "intensity": 4, "summary": "Kofi runs to Abel, toppling Greta's tray and sending Lucia sprawling"},
+{"start": 34, "type": "works", "fine": "works", "actor": "LUCIA", "target": "ABEL", "mood": "suspense", "intensity": 5, "summary": "Abel flatlines and Lucia shocks him back to a heartbeat"},
+{"start": 48, "type": "comforts", "fine": "reassures", "actor": "RAFI", "target": "KOFI", "mood": "hopeful", "intensity": 2, "summary": "Lucia's hands shake as Rafi reassures Kofi his brother is okay"},
+{"start": 53, "type": "comforts", "fine": "tends to", "actor": "LUCIA", "target": "KOFI", "mood": "tender", "intensity": 2, "summary": "Lucia gruffly inspects Kofi's bad bandage as Abel wakes"}
+],
+"s00765": [
+{"start": 1, "type": "comforts", "fine": "encourages", "actor": "MEL", "target": "PRISS", "mood": "tense", "intensity": 3, "summary": "Between rounds, Mel coaches battered Priss through the earpiece from Tulsa"},
+{"start": 18, "type": "attacks", "fine": "fights", "actor": "PRISS", "target": null, "mood": "tense", "intensity": 4, "summary": "Priss rises, weaves past jabs, and slips her opponent's hook"},
+{"start": 24, "type": "attacks", "fine": "strikes", "actor": "PRISS", "target": null, "mood": "triumphant", "intensity": 5, "summary": "Priss lands the counter, drops her opponent, and Mel cheers"}
+],
+"s00952": [
+{"start": 1, "type": "observes", "fine": "spies on", "actor": "CONSTANCE", "target": "DUCHESS", "mood": "playful", "intensity": 2, "summary": "Constance and Georgiana whisper about the Duchess watching them"},
+{"start": 10, "type": "confronts", "fine": "calls out", "actor": "DUCHESS", "target": "CONSTANCE", "mood": "awkward", "intensity": 3, "summary": "The Duchess overhears and skewers their flattery about her pearls and debts"},
+{"start": 17, "type": "decides", "fine": "gives an order", "actor": "DUCHESS", "target": "GEORGIANA", "mood": "playful", "intensity": 2, "summary": "The Duchess orders both young women to dance and smile"}
+],
+"s00148": [
+{"start": 1, "type": "works", "fine": "repairs something", "actor": "STRANGER", "target": null, "mood": "tense", "intensity": 2, "summary": "The masked man works the gondola hatch while Imelda shushes him"},
+{"start": 9, "type": "jokes", "fine": "banters with", "actor": "STRANGER", "target": "IMELDA", "mood": "playful", "intensity": 2, "summary": "The hatch opens and he climbs up, joking out of habit"},
+{"start": 16, "type": "confronts", "fine": "calls out", "actor": "IMELDA", "target": "DMITRI", "mood": "playful", "intensity": 2, "summary": "The wheel lurches and Imelda points out Dmitri's slipped mask"},
+{"start": 23, "type": "bonds", "fine": "teams up with", "actor": "IMELDA", "target": "DMITRI", "mood": "playful", "intensity": 3, "summary": "In sync, they grin, clip the rope, and Dmitri steps out"}
+],
+"s01728": [
+{"start": 1, "type": "works", "fine": "repairs something", "actor": "DEV", "target": "JORUND", "mood": "tense", "intensity": 2, "summary": "Stranded on the salt flat, Dev finds the fuel line cracked"},
+{"start": 12, "type": "comforts", "fine": "calms", "actor": "PILAR", "target": "ANNELIESE", "mood": "awkward", "intensity": 2, "summary": "Pilar tries to settle Anneliese, who reassures anxious Mox with exact mileage"},
+{"start": 19, "type": "confronts", "fine": "presses", "actor": "DEV", "target": "JORUND", "mood": "tense", "intensity": 3, "summary": "Jorund hedges about the satellite phone until Dev presses him"},
+{"start": 31, "type": "pleads", "fine": "calls for", "actor": "JORUND", "target": "DISPATCH", "mood": "hopeful", "intensity": 3, "summary": "Jorund calls rescue and Dispatch promises a team by ten"},
+{"start": 53, "type": "reveals", "fine": "drops a bombshell on", "actor": "DISPATCH", "target": "JORUND", "mood": "ominous", "intensity": 4, "summary": "Dispatch reports a triggered beacon and two vehicles at their coordinates"},
+{"start": 56, "type": "discovers", "fine": "notices", "actor": "DEV", "target": "PILAR", "mood": "suspense", "intensity": 4, "summary": "Dev asks about spare keys as a running truck appears on the horizon"},
+{"start": 62, "type": "accuses", "fine": "turns on", "actor": "JORUND", "target": "MOX", "mood": "fear", "intensity": 5, "summary": "Jorund realizes Mox's betrayal and orders his hands up"}
+],
+"s00708": [
+{"start": 1, "type": "reveals", "fine": "breaks news to", "actor": "QUENTIN", "target": null, "mood": "tense", "intensity": 2, "summary": "Quentin tells his gathered guests they are snowed in for days"},
+{"start": 14, "type": "confronts", "fine": "interrogates", "actor": "HARLAN", "target": "QUENTIN", "mood": "tense", "intensity": 3, "summary": "Harlan and Odette press Quentin about the reunion and the late guest"},
+{"start": 25, "type": "reveals", "fine": "drops a bombshell on", "actor": "QUENTIN", "target": "NGOZI", "mood": "ominous", "intensity": 4, "summary": "Quentin names the guest as Teddy Marsh, whom Basil says died"},
+{"start": 36, "type": "decides", "fine": "gives an order", "actor": "NGOZI", "target": "BASIL", "mood": "fear", "intensity": 3, "summary": "The door rattles; Ngozi orders Basil to check and he refuses"},
+{"start": 45, "type": "observes", "fine": "hesitates", "actor": "HARLAN", "target": null, "mood": "ominous", "intensity": 5, "summary": "Harlan recoils from the rattling latch as Quentin calmly announces the arrival"}
+],
+"s01631": [
+{"start": 1, "type": "confronts", "fine": "faces off with", "actor": "OKAFOR", "target": "LINDGREN", "mood": "hostile", "intensity": 3, "summary": "Okafor and Lindgren trade barbs over the client's signature before the judge"},
+{"start": 16, "type": "jokes", "fine": "lightens the mood for", "actor": "DUFFY", "target": "JUDGE ABERNATHY", "mood": "playful", "intensity": 2, "summary": "The radiator interrupts and Tsukamoto asks counsel to speak in turn"},
+{"start": 22, "type": "reveals", "fine": "presents evidence to", "actor": "OKAFOR", "target": "JUDGE ABERNATHY", "mood": "tense", "intensity": 3, "summary": "Okafor submits Exhibit nine, a notarized signature dated the fourth"},
+{"start": 25, "type": "accuses", "fine": "exposes", "actor": "LINDGREN", "target": "OKAFOR", "mood": "tense", "intensity": 4, "summary": "Lindgren points out the signature is actually Okafor's own"},
+{"start": 31, "type": "deflects", "fine": "stalls", "actor": "OKAFOR", "target": "JUDGE ABERNATHY", "mood": "awkward", "intensity": 3, "summary": "Asked to explain, Okafor laughs and claims he grabbed the wrong folder"}
+],
+"s00552": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "WALTER", "target": "AGNES", "mood": "playful", "intensity": 2, "summary": "Agnes fights the vending machine as Walter shuffles in to advise"},
+{"start": 21, "type": "bonds", "fine": "shares a moment with", "actor": "AGNES", "target": "WALTER", "mood": "melancholy", "intensity": 2, "summary": "Sharing pretzels, they trade news of spouses in rooms 412 and 414"},
+{"start": 40, "type": "confesses", "fine": "opens up to", "actor": "AGNES", "target": "WALTER", "mood": "bittersweet", "intensity": 3, "summary": "Agnes admits she needs looking after; Walter jokes about his pole"},
+{"start": 49, "type": "reveals", "fine": "breaks news to", "actor": "AGNES", "target": "WALTER", "mood": "tense", "intensity": 3, "summary": "Agnes gently tells Walter she is his wife and he called her Delia"},
+{"start": 60, "type": "discovers", "fine": "realizes", "actor": "WALTER", "target": "AGNES", "mood": "grief", "intensity": 5, "summary": "Walter's confusion breaks as he realizes Agnes is his wife"},
+{"start": 73, "type": "comforts", "fine": "consoles", "actor": "AGNES", "target": "WALTER", "mood": "tender", "intensity": 4, "summary": "Agnes holds his hand and buys more pretzels before taking him back"}
+],
+"s01914": [
+{"start": 1, "type": "works", "fine": "writes", "actor": "ZEPHYRA", "target": null, "mood": "calm", "intensity": 2, "summary": "Zephyra announces the ship's tally is forty crowns short"},
+{"start": 14, "type": "accuses", "fine": "blames", "actor": "BRANNOCH", "target": "PIP", "mood": "playful", "intensity": 2, "summary": "The crew bicker over who ate the last of the pie"},
+{"start": 19, "type": "decides", "fine": "gives an order", "actor": "ZEPHYRA", "target": null, "mood": "playful", "intensity": 2, "summary": "Pip and Gunnar collide over a lantern; Zephyra calmly issues orders"},
+{"start": 31, "type": "arrives", "fine": "makes an entrance", "actor": "OSWYTHA", "target": "ZEPHYRA", "mood": "tense", "intensity": 3, "summary": "Dame Oswytha bursts into the galley and demands a word"},
+{"start": 39, "type": "reveals", "fine": "shows", "actor": "OSWYTHA", "target": "ZEPHYRA", "mood": "suspense", "intensity": 3, "summary": "Oswytha delivers a royal-sealed tube that the crew eyes with dread"},
+{"start": 44, "type": "reveals", "fine": "exposes a secret to", "actor": "ZEPHYRA", "target": "PIP", "mood": "playful", "intensity": 3, "summary": "The scroll is a pardon, and Pip learns they always smuggled"},
+{"start": 57, "type": "persuades", "fine": "recruits", "actor": "OSWYTHA", "target": "ZEPHYRA", "mood": "joyful", "intensity": 3, "summary": "Oswytha reveals the Crown wants to hire them for new smuggling"},
+{"start": 63, "type": "bonds", "fine": "shares a moment with", "actor": "ZEPHYRA", "target": "OSWYTHA", "mood": "joyful", "intensity": 2, "summary": "Zephyra laughs and invites Oswytha to join them for dinner"}
+],
+"s01802": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "RUTH", "target": "LORELEI", "mood": "melancholy", "intensity": 2, "summary": "Ruth and Lorelei sit in strained silence over refilled coffee"},
+{"start": 16, "type": "arrives", "fine": "shows up unannounced", "actor": "MAN", "target": "RUTH", "mood": "tense", "intensity": 3, "summary": "A soaked stranger arrives, addresses Ruth, and sits beside Lorelei"},
+{"start": 27, "type": "confronts", "fine": "presses", "actor": "MAN", "target": "RUTH", "mood": "tense", "intensity": 4, "summary": "The man pushes Ruth to tell Lorelei the truth about their father"},
+{"start": 39, "type": "reveals", "fine": "drops a bombshell on", "actor": "BERNARD", "target": "LORELEI", "mood": "tense", "intensity": 5, "summary": "The man reveals he is Bernard, their father's secret son"},
+{"start": 45, "type": "confesses", "fine": "apologizes to", "actor": "RUTH", "target": "LORELEI", "mood": "grief", "intensity": 4, "summary": "Ruth tearfully admits she always meant to tell Lorelei"},
+{"start": 47, "type": "decides", "fine": "gives an order", "actor": "LORELEI", "target": "RUTH", "mood": "hostile", "intensity": 4, "summary": "Lorelei stands, pulls away from Ruth, and orders both to sit"}
+],
+"s00957": [
+{"start": 1, "type": "confronts", "fine": "demands answers from", "actor": "LEONIDAS", "target": "STRANGER", "mood": "tense", "intensity": 3, "summary": "Leonidas demands the Stranger's name; he claims to have none"},
+{"start": 11, "type": "reveals", "fine": "unmasks", "actor": "STRANGER", "target": "SALLY", "mood": "tense", "intensity": 4, "summary": "The Stranger recognizes Sally and reveals he is her brother Ephraim"},
+{"start": 16, "type": "confronts", "fine": "faces off with", "actor": "SALLY", "target": "EPHRAIM", "mood": "hostile", "intensity": 5, "summary": "Sally refuses to believe him as Leonidas orders her to stand down"}
+],
+"s01778": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "DELPHINE", "target": null, "mood": "suspense", "intensity": 3, "summary": "In the silo, Delphine orders everyone still as a stranger waits"},
+{"start": 12, "type": "comforts", "fine": "calms", "actor": "ENRICO", "target": "MAX", "mood": "tense", "intensity": 3, "summary": "Enrico tells frightened Max to lower the crowbar; Max refuses"},
+{"start": 15, "type": "arrives", "fine": "makes an entrance", "actor": "STRANGER", "target": "DELPHINE", "mood": "ominous", "intensity": 4, "summary": "The Stranger steps into the light and names himself Anselm"},
+{"start": 21, "type": "threatens", "fine": "looms over", "actor": "ANSELM", "target": "MAX", "mood": "fear", "intensity": 4, "summary": "In darkness Anselm closes on Max while the grain stirs; Delphine orders retreat"},
+{"start": 29, "type": "attacks", "fine": "attacks", "actor": "MAX", "target": "ANSELM", "mood": "chaotic", "intensity": 5, "summary": "Max swings, Anselm catches the bar, and the wheat rises"}
+],
+"s01242": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "STRANGER", "target": "JEREMIAH", "mood": "calm", "intensity": 2, "summary": "A stranger rides up to Jeremiah's porch and asks for water"},
+{"start": 22, "type": "bonds", "fine": "shares a moment with", "actor": "JEREMIAH", "target": "STRANGER", "mood": "calm", "intensity": 2, "summary": "The stranger praises the well and Jeremiah invites him to sit"},
+{"start": 40, "type": "reveals", "fine": "comes clean to", "actor": "JEDEDIAH", "target": "JEREMIAH", "mood": "tense", "intensity": 4, "summary": "The stranger names himself Jedediah Pike, Jeremiah's runaway son"},
+{"start": 49, "type": "bonds", "fine": "reminisces with", "actor": "JEREMIAH", "target": "JEDEDIAH", "mood": "bittersweet", "intensity": 3, "summary": "They recall the day Jedediah ran off with a horse"},
+{"start": 55, "type": "decides", "fine": "accepts", "actor": "JEREMIAH", "target": "JEDEDIAH", "mood": "bittersweet", "intensity": 3, "summary": "Jeremiah sets down the carving and gruffly offers his son beans"},
+{"start": 70, "type": "hides", "fine": "masks a feeling", "actor": "JEREMIAH", "target": "JEDEDIAH", "mood": "tender", "intensity": 4, "summary": "Jeremiah hides his tears going inside; Jedediah finishes his father's carving"}
+],
+"s01499": [
+{"start": 1, "type": "observes", "fine": "watches", "actor": "SOLANGE", "target": null, "mood": "suspense", "intensity": 2, "summary": "Two couples trade wary glances as the revolving restaurant turns"},
+{"start": 13, "type": "reveals", "fine": "shows", "actor": "THEODORE", "target": "SOLANGE", "mood": "suspense", "intensity": 3, "summary": "Theodore slips Solange a note, which she reads without expression"},
+{"start": 18, "type": "attacks", "fine": "grabs", "actor": "SABINE", "target": "HALVARD", "mood": "tense", "intensity": 4, "summary": "Sabine seizes Halvard's wrist as Dimitri reaches for his jacket"},
+{"start": 23, "type": "reveals", "fine": "drops a bombshell on", "actor": "SOLANGE", "target": "SABINE", "mood": "ominous", "intensity": 5, "summary": "Solange smiles and says the elevator has stopped; the lights die"}
+],
+"s01673": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "TOBIAS", "target": null, "mood": "melancholy", "intensity": 2, "summary": "In the derelict rink, Tobias kneels at the hack as the radio announces the final"},
+{"start": 11, "type": "deflects", "fine": "brushes off", "actor": "TOBIAS", "target": "MIREILLE", "mood": "melancholy", "intensity": 2, "summary": "Tobias throws a crooked stone and blames the ice when Mireille notices"},
+{"start": 16, "type": "reveals", "fine": "breaks news to", "actor": "MIREILLE", "target": "TOBIAS", "mood": "melancholy", "intensity": 3, "summary": "Mireille tells Tobias the team filled her spot; he deflects"},
+{"start": 22, "type": "leaves", "fine": "leaves", "actor": "MIREILLE", "target": "TOBIAS", "mood": "bittersweet", "intensity": 3, "summary": "A truck horn sounds; Mireille lays down her broom and asks him to come"},
+{"start": 29, "type": "observes", "fine": "hesitates", "actor": "TOBIAS", "target": "MIREILLE", "mood": "melancholy", "intensity": 4, "summary": "Tobias sets the stone aside and lingers as she goes"}
+],
+"s02055": [
+{"start": 1, "type": "confronts", "fine": "calls out", "actor": "HOLLY", "target": "JUBILEE", "mood": "tense", "intensity": 2, "summary": "Holly confronts Jubilee about the rumor that she quit band"},
+{"start": 14, "type": "defends", "fine": "justifies themself to", "actor": "JUBILEE", "target": "HOLLY", "mood": "melancholy", "intensity": 3, "summary": "Jubilee explains she's tired of being second chair to Ingrid"},
+{"start": 22, "type": "confronts", "fine": "challenges", "actor": "HOLLY", "target": "JUBILEE", "mood": "tense", "intensity": 3, "summary": "Holly challenges her despair; Jubilee says being good doesn't matter"},
+{"start": 28, "type": "confesses", "fine": "opens up to", "actor": "HOLLY", "target": "JUBILEE", "mood": "tender", "intensity": 3, "summary": "Holly admits he listens to her practice every Tuesday through the wall"},
+{"start": 37, "type": "deflects", "fine": "brushes off", "actor": "HOLLY", "target": "MOM", "mood": "awkward", "intensity": 2, "summary": "Holly's mom calls and he fends off her questions about Jubilee"},
+{"start": 48, "type": "comforts", "fine": "encourages", "actor": "HOLLY", "target": "JUBILEE", "mood": "hopeful", "intensity": 3, "summary": "Holly tells Jubilee everyone knows she's good and urges her to play"},
+{"start": 63, "type": "decides", "fine": "accepts", "actor": "JUBILEE", "target": "HOLLY", "mood": "tender", "intensity": 3, "summary": "Jubilee opens her case and Holly counts her in on the piano"}
+],
+"s00111": [
+{"start": 1, "type": "persuades", "fine": "persuades", "actor": "VALERIAN", "target": "DOROTHEA", "mood": "tense", "intensity": 3, "summary": "In the stalled cage, Valerian urges wary Dorothea to press the red button"},
+{"start": 19, "type": "confronts", "fine": "presses", "actor": "DOROTHEA", "target": "VALERIAN", "mood": "tense", "intensity": 3, "summary": "Dorothea questions why he needs it stopped; he says to talk"},
+{"start": 27, "type": "decides", "fine": "chooses", "actor": "DOROTHEA", "target": "VALERIAN", "mood": "tense", "intensity": 4, "summary": "Dorothea presses the alarm, and the cage shrieks and shudders"},
+{"start": 33, "type": "attacks", "fine": "fights", "actor": "VALERIAN", "target": "DOROTHEA", "mood": "chaotic", "intensity": 5, "summary": "Valerian lunges; they grapple, the lever snaps, and the cage drops"},
+{"start": 37, "type": "confronts", "fine": "demands answers from", "actor": "DOROTHEA", "target": "VALERIAN", "mood": "tense", "intensity": 3, "summary": "Gasping, Dorothea demands he talk; Valerian warns she won't like it"},
+{"start": 51, "type": "confesses", "fine": "admits guilt to", "actor": "VALERIAN", "target": "DOROTHEA", "mood": "tense", "intensity": 4, "summary": "Valerian admits he sold the whole shipment to her brother"},
+{"start": 61, "type": "decides", "fine": "makes a plan", "actor": "DOROTHEA", "target": "VALERIAN", "mood": "ominous", "intensity": 4, "summary": "Dorothea coldly welcomes the news and drives the elevator up to her brother"}
+],
+"s00678": [
+{"start": 1, "type": "threatens", "fine": "threatens", "actor": "SPUD", "target": "LORETTA", "mood": "tense", "intensity": 3, "summary": "Spud demands Loretta drop the cash; she mocks his rented shoes"},
+{"start": 11, "type": "deflects", "fine": "dodges", "actor": "PEARL", "target": "DUTCH", "mood": "playful", "intensity": 2, "summary": "Dutch asks Pearl to pick a side; she sides with Lane 14"},
+{"start": 13, "type": "flees", "fine": "bolts", "actor": "GIDEON", "target": null, "mood": "chaotic", "intensity": 4, "summary": "Gideon bolts for the exit"},
+{"start": 14, "type": "attacks", "fine": "strikes", "actor": "SPUD", "target": "GIDEON", "mood": "chaotic", "intensity": 4, "summary": "Spud's thundering ball scatters pins and Gideon; Minnow yells strike"}
+],
+"s01566": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "WARDEN", "target": "WILLA", "mood": "tense", "intensity": 2, "summary": "On the glass desert, the Warden questions why Willa has come"},
+{"start": 15, "type": "reveals", "fine": "shows", "actor": "WILLA", "target": "WARDEN", "mood": "suspense", "intensity": 3, "summary": "Willa raises her lantern and something stirs beneath the sand"},
+{"start": 21, "type": "pleads", "fine": "appeals to", "actor": "WILLA", "target": "WARDEN", "mood": "melancholy", "intensity": 3, "summary": "Willa says the lantern was her buried grandmother's; the Warden refuses the dead"},
+{"start": 27, "type": "reveals", "fine": "shows", "actor": "WARDEN", "target": "WILLA", "mood": "bittersweet", "intensity": 3, "summary": "The Warden's lens shows Willa's grandmother among spinning figures"},
+{"start": 32, "type": "pleads", "fine": "implores", "actor": "WILLA", "target": "WARDEN", "mood": "tense", "intensity": 3, "summary": "Willa demands her release; the Warden names the Silent Court"},
+{"start": 41, "type": "confronts", "fine": "stares down", "actor": "WILLA", "target": "WARDEN", "mood": "tense", "intensity": 4, "summary": "Willa steps forward, cracking the glass, and the Warden retreats"},
+{"start": 48, "type": "persuades", "fine": "bargains with", "actor": "WARDEN", "target": "WILLA", "mood": "suspense", "intensity": 4, "summary": "The Warden asks Willa's spring in exchange for one hour"},
+{"start": 64, "type": "decides", "fine": "accepts", "actor": "WILLA", "target": "WARDEN", "mood": "bittersweet", "intensity": 4, "summary": "Willa weighs the price and both seal the bargain with yes"},
+{"start": 74, "type": "leaves", "fine": "leaves", "actor": "WILLA", "target": "WARDEN", "mood": "bittersweet", "intensity": 4, "summary": "A stair opens; Willa descends as the Warden watches her light vanish"}
+],
+"s02015": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "CLEMENTINE", "target": "PRUDENCE", "mood": "tense", "intensity": 2, "summary": "Clementine questions Prudence about the book missing from the locked cabinet"},
+{"start": 21, "type": "confronts", "fine": "presses", "actor": "CLEMENTINE", "target": "PRUDENCE", "mood": "tense", "intensity": 3, "summary": "Clementine studies the shelf and probes Prudence's service and the book's value"},
+{"start": 32, "type": "accuses", "fine": "suspects", "actor": "CLEMENTINE", "target": "PRUDENCE", "mood": "tense", "intensity": 3, "summary": "Clementine suggests Prudence could have taken it; Prudence coolly agrees"},
+{"start": 42, "type": "reveals", "fine": "drops a bombshell on", "actor": "PRUDENCE", "target": "CLEMENTINE", "mood": "suspense", "intensity": 3, "summary": "Prudence reveals she expected her and the book was never there"},
+{"start": 49, "type": "discovers", "fine": "uncovers", "actor": "CLEMENTINE", "target": "PRUDENCE", "mood": "suspense", "intensity": 3, "summary": "Clementine finds the hidden slot and learns the shelf is a decoy"},
+{"start": 62, "type": "reveals", "fine": "comes clean to", "actor": "PRUDENCE", "target": "CLEMENTINE", "mood": "playful", "intensity": 2, "summary": "They share a smile and Prudence reveals the book is behind the flour tin"}
+],
+"s00865": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "MINA", "target": "ROWAN", "mood": "tense", "intensity": 2, "summary": "Mina rushes the morning routine while Rowan sits frozen with his backpack"},
+{"start": 9, "type": "confronts", "fine": "presses", "actor": "MINA", "target": "ROWAN", "mood": "tense", "intensity": 3, "summary": "Mina pushes Rowan about shoes and he pulls away from her touch"},
+{"start": 16, "type": "defends", "fine": "stands up for", "actor": "GUS", "target": "ROWAN", "mood": "tense", "intensity": 2, "summary": "Gus tells Mina to let the boy be; he isn't ready"},
+{"start": 19, "type": "comforts", "fine": "calms", "actor": "MINA", "target": "ROWAN", "mood": "melancholy", "intensity": 2, "summary": "Mina softens and gently asks if it's the test; Rowan shakes his head"},
+{"start": 25, "type": "comforts", "fine": "steadies", "actor": "GUS", "target": "ROWAN", "mood": "tender", "intensity": 3, "summary": "Gus sits beside Rowan and offers to walk him in"},
+{"start": 28, "type": "bonds", "fine": "reconnects with", "actor": "MINA", "target": "ROWAN", "mood": "tender", "intensity": 3, "summary": "Mina hands over the lunch and Rowan finally lets her kiss him"}
+]
+}

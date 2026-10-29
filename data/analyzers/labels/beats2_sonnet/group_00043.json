@@ -1,0 +1,172 @@
+{
+"s00545": [
+{"start":1,"type":"searches","fine":"questions witnesses","actor":"HARGROVE","target":"BLYTHE","mood":"playful","intensity":2,"summary":"Blythe lectures the Constable on taxidermy while he asks about the missing curator."},
+{"start":12,"type":"arrives","fine":"makes an entrance","actor":"FITCH","target":null,"mood":"suspense","intensity":3,"summary":"Fitch steps alive from behind the Great Elk, claiming he merely fell asleep."},
+{"start":22,"type":"discovers","fine":"finds a clue","actor":"HARGROVE","target":"BLYTHE","mood":"ominous","intensity":4,"summary":"Hargrove spots bloodied tweed in the antlers while Blythe's candle shakes."}
+],
+"s02418": [
+{"start":1,"type":"comforts","fine":"reassures","actor":"LENORE","target":"DERRICK","mood":"tense","intensity":3,"summary":"Lenore tells Derrick to stay silent at arraignment as he protests his innocence."},
+{"start":18,"type":"defends","fine":"pushes back on","actor":"LENORE","target":"CALLOWAY","mood":"hostile","intensity":2,"summary":"Calloway orders quiet, and Derrick snaps back at the deputy."},
+{"start":22,"type":"comforts","fine":"calms","actor":"LENORE","target":"DERRICK","mood":"tender","intensity":3,"summary":"Lenore touches Derrick's knee and he calms; Calloway glimpses sympathy in the mirror."}
+],
+"s01157": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ADAIR","target":null,"mood":"melancholy","intensity":2,"summary":"Six survivors share ration biscuits on a lifeboat at dawn."},
+{"start":18,"type":"discovers","fine":"notices","actor":"NAN","target":"BRODIE","mood":"hopeful","intensity":3,"summary":"Nan points out a smudge of smoke, and the others debate what it is."},
+{"start":32,"type":"reveals","fine":"comes clean to","actor":"TOLLIVER","target":"BRODIE","mood":"playful","intensity":3,"summary":"Tolliver admits he has had a flare in his pocket all night."},
+{"start":40,"type":"decides","fine":"commits","actor":"TOLLIVER","target":null,"mood":"triumphant","intensity":4,"summary":"Tolliver fires the flare, and crimson smoke fills the boat."},
+{"start":43,"type":"comforts","fine":"embraces","actor":"SAMSON","target":"NAN","mood":"joyful","intensity":4,"summary":"Nan laughs, Mei cries, and a mast rises on the horizon."}
+],
+"s00694": [
+{"start":1,"type":"confronts","fine":"presses","actor":"RAY","target":"LAZLO","mood":"tense","intensity":3,"summary":"Ray says the money is short; Lazlo keeps counting, insisting it is four thousand."},
+{"start":14,"type":"discovers","fine":"notices","actor":"RAY","target":"LAZLO","mood":"suspense","intensity":3,"summary":"Ray notices Lazlo's sweat and double counting, then senses someone behind the fabric."},
+{"start":26,"type":"threatens","fine":"holds at gunpoint","actor":"RAY","target":"LAZLO","mood":"ominous","intensity":4,"summary":"Ray draws his revolver, and a teenage boy steps out clutching cash."}
+],
+"s00363": [
+{"start":1,"type":"searches","fine":"rummages","actor":"IVO","target":null,"mood":"suspense","intensity":3,"summary":"Ivo pries open a steel case in the seed vault under Nora's timer."},
+{"start":11,"type":"discovers","fine":"realizes","actor":"IVO","target":"NORA","mood":"tense","intensity":3,"summary":"Ivo inspects the vial, finds the label wrong, and moves to the next case."},
+{"start":19,"type":"flees","fine":"scrambles away","actor":"IVO","target":null,"mood":"chaotic","intensity":4,"summary":"A siren starts; Ivo slips and barely catches the falling vial."},
+{"start":27,"type":"lies","fine":"deceives","actor":"NORA","target":"IVO","mood":"fear","intensity":5,"summary":"Nora has Ivo turn to face a rifle; she betrayed him for better pay."}
+],
+"s01704": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"NELLIE","target":"PERCIVAL","mood":"awkward","intensity":2,"summary":"Nellie meets new hire Percival on his first day as Hector chimes in."},
+{"start":11,"type":"reveals","fine":"breaks news to","actor":"NELLIE","target":"PERCIVAL","mood":"chaotic","intensity":3,"summary":"The intercom reports a mamba loose, and Nellie shuts her eyes."},
+{"start":16,"type":"flees","fine":"scrambles away","actor":"NELLIE","target":null,"mood":"chaotic","intensity":4,"summary":"They tangle in the doorway, then scatter down the hall as more animals escape."}
+],
+"s00250": [
+{"start":1,"type":"works","fine":"repairs something","actor":"OKSANA","target":"COMMS","mood":"tense","intensity":2,"summary":"Oksana keeps repairing the coupling, stonewalling the bridge's status request."},
+{"start":21,"type":"arrives","fine":"drifts in","actor":"SIMEON","target":"OKSANA","mood":"suspense","intensity":3,"summary":"Simeon floats in and relays the captain's order to come up."},
+{"start":30,"type":"reveals","fine":"breaks news to","actor":"COMMS","target":"OKSANA","mood":"ominous","intensity":4,"summary":"Comms reports an unknown object matching their heading, twelve kilometers away."},
+{"start":43,"type":"discovers","fine":"notices","actor":"OKSANA","target":null,"mood":"fear","intensity":4,"summary":"Oksana sees a shape too regular to be debris behind the wreck."},
+{"start":50,"type":"decides","fine":"accepts","actor":"OKSANA","target":"COMMS","mood":"ominous","intensity":3,"summary":"Oksana answers they are coming up and follows Simeon out."}
+],
+"s01822": [
+{"start":1,"type":"observes","fine":"waits","actor":"CASIMIR","target":"LEILA","mood":"tense","intensity":3,"summary":"The cage stalls in the shaft; Casimir and Leila trade blame about the guide rails."},
+{"start":25,"type":"discovers","fine":"notices","actor":"CASIMIR","target":null,"mood":"ominous","intensity":3,"summary":"A metallic groan rises from below and a light sweeps up through the grating."},
+{"start":35,"type":"arrives","fine":"makes an entrance","actor":"DOMINIK","target":"CASIMIR","mood":"playful","intensity":3,"summary":"Dominik climbs up the rails, scolds Casimir, and ties Leila to the cage."},
+{"start":53,"type":"threatens","fine":"warns","actor":"DOMINIK","target":"CASIMIR","mood":"fear","intensity":4,"summary":"Dominik warns the cable is fraying at the third splice; the cage drops an inch."},
+{"start":69,"type":"decides","fine":"commits","actor":"CASIMIR","target":"LEILA","mood":"suspense","intensity":5,"summary":"Casimir pulls the lever and the cage climbs; a hard hat falls into darkness."}
+],
+"s01411": [
+{"start":1,"type":"observes","fine":"waits","actor":"FINN","target":"MINA","mood":"awkward","intensity":1,"summary":"Strangers wait out a flight delay at a rainy airport gate."},
+{"start":14,"type":"bonds","fine":"flirts with","actor":"FINN","target":"MINA","mood":"awkward","intensity":2,"summary":"Finn chats with Mina, who admits she is flying to her own wedding."},
+{"start":30,"type":"jokes","fine":"banters with","actor":"ESME","target":"TOBIAS","mood":"playful","intensity":2,"summary":"The old couple bicker over whether Mina is nervous, and Finn and Mina laugh."},
+{"start":36,"type":"bonds","fine":"confides in","actor":"MINA","target":"FINN","mood":"melancholy","intensity":3,"summary":"Mina describes her kind fiance with hesitation; Finn pockets a folded note."},
+{"start":48,"type":"confesses","fine":"opens up to","actor":"FINN","target":"MINA","mood":"tender","intensity":3,"summary":"Boarding is announced; Mina sits by Finn and he admits fear of staying."},
+{"start":66,"type":"decides","fine":"changes course","actor":"MINA","target":"FINN","mood":"hopeful","intensity":4,"summary":"Esme urges them to decide; Mina removes her ring and Finn closes her hand."}
+],
+"s01608": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"calm","intensity":1,"summary":"Five passengers and a porter sit in a swaying dining car."},
+{"start":9,"type":"deflects","fine":"changes the subject on","actor":"ODALYS","target":"MIRABELLE","mood":"awkward","intensity":2,"summary":"Diners talk over each other while Odalys insists she is perfectly fine."},
+{"start":22,"type":"discovers","fine":"stumbles on","actor":"DESMOND","target":"ODALYS","mood":"suspense","intensity":3,"summary":"A glass shatters, and Desmond finds a brass key; Odalys silently begs him."},
+{"start":36,"type":"hides","fine":"pockets evidence","actor":"DESMOND","target":null,"mood":"ominous","intensity":3,"summary":"Desmond closes his hand over the key and says nothing."}
+],
+"s02518": [
+{"start":1,"type":"works","fine":"prepares","actor":"ARCHIBALD","target":"ANSELM","mood":"calm","intensity":2,"summary":"Coach Archibald drills the crew at dawn while Anselm ties his shoes slowly."},
+{"start":20,"type":"observes","fine":"studies","actor":"ARCHIBALD","target":"JASPER","mood":"tense","intensity":2,"summary":"Archibald warns of the rival's stroke rate and notes the crew's clean rowing."},
+{"start":25,"type":"comforts","fine":"encourages","actor":"DOLORES","target":"ARCHIBALD","mood":"hopeful","intensity":3,"summary":"Dolores says they are never as bad as they think; Archibald praises her."},
+{"start":35,"type":"decides","fine":"gives an order","actor":"ARCHIBALD","target":null,"mood":"calm","intensity":2,"summary":"Archibald orders the boat on the water and the crew lifts the shell."}
+],
+"s00960": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BRYNHILD","target":"FINA","mood":"grief","intensity":3,"summary":"Captain Brynhild rations biscuits on the frozen lifeboat, saving a quarter for Temperance."},
+{"start":14,"type":"comforts","fine":"consoles","actor":"FINA","target":"TEMPERANCE","mood":"melancholy","intensity":3,"summary":"Temperance wakes and asks if it is warm; Fina gently says no."},
+{"start":23,"type":"discovers","fine":"notices","actor":"HIRAM","target":"BRYNHILD","mood":"hopeful","intensity":3,"summary":"Hiram hears an engine, but Fina dismisses it as wind."},
+{"start":33,"type":"discovers","fine":"recognizes","actor":"BRYNHILD","target":null,"mood":"joyful","intensity":4,"summary":"A rescue helicopter resolves from the speck; Hiram weeps and Brynhild lifts the flare gun."}
+],
+"s00846": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"THE MAN","target":null,"mood":"suspense","intensity":2,"summary":"A furtive man with a briefcase enters the car wash while Duke and Rhoda watch."},
+{"start":12,"type":"confronts","fine":"interrogates","actor":"RHODA","target":"THE MAN","mood":"tense","intensity":3,"summary":"Inspector Rhoda questions the man, who gives his name as Boone."},
+{"start":35,"type":"confronts","fine":"presses","actor":"RHODA","target":"BOONE","mood":"suspense","intensity":3,"summary":"Rhoda makes Boone open the briefcase, revealing stacks of cash."},
+{"start":45,"type":"jokes","fine":"riffs with","actor":"DUKE","target":"RHODA","mood":"playful","intensity":2,"summary":"Duke arms himself with a squeegee and asks crossword clues; both stare at him."}
+],
+"s00414": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"SAMUEL","target":"PERPETUA","mood":"awkward","intensity":1,"summary":"Council inspector Samuel enters Perpetua's tiny tea shop and is offered tea."},
+{"start":17,"type":"confronts","fine":"challenges","actor":"SAMUEL","target":"PERPETUA","mood":"playful","intensity":2,"summary":"Samuel cites a sign size violation; Perpetua serenely asks which code."},
+{"start":25,"type":"persuades","fine":"seduces","actor":"PERPETUA","target":"SAMUEL","mood":"tender","intensity":2,"summary":"Perpetua pours tea and Samuel wavers between the law and the cup."},
+{"start":37,"type":"decides","fine":"accepts","actor":"SAMUEL","target":"PERPETUA","mood":"calm","intensity":2,"summary":"Samuel sips, loves the tea, sets down his clipboard, and stays."}
+],
+"s01291": [
+{"start":1,"type":"works","fine":"prepares","actor":"BART","target":null,"mood":"chaotic","intensity":3,"summary":"The groom, bride and chef panic over the cake with the ceremony an hour away."},
+{"start":11,"type":"confronts","fine":"challenges","actor":"DONNA","target":"BART","mood":"hostile","intensity":3,"summary":"Donna on the phone insists the cake flower is a sunflower."},
+{"start":26,"type":"decides","fine":"commits","actor":"LUDWIK","target":null,"mood":"chaotic","intensity":3,"summary":"Ludwik slices off the offending flower, and Chloe flings her bouquet."},
+{"start":35,"type":"bonds","fine":"shares a moment with","actor":"CHLOE","target":"BART","mood":"joyful","intensity":3,"summary":"Chloe proposes they elope, and Ludwik hands them slices of sunflower."}
+],
+"s00053": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"RAY","target":"DELPHINE","mood":"awkward","intensity":2,"summary":"Ray calls a last-minute Friday sync while Delphine and Quentin look on."},
+{"start":15,"type":"jokes","fine":"amuses","actor":"RAY","target":"QUENTIN","mood":"playful","intensity":2,"summary":"Ray draws three circles on the whiteboard and delights in his Triple Loop."},
+{"start":23,"type":"leaves","fine":"walks out on","actor":"DELPHINE","target":"RAY","mood":"playful","intensity":2,"summary":"Delphine announces she's going home; loyal Quentin stays, and she tells him to run."}
+],
+"s02428": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"NELL","target":null,"mood":"calm","intensity":1,"summary":"Operators work the switchboards as Nell connects a caller."},
+{"start":10,"type":"discovers","fine":"realizes","actor":"ADELAIDE","target":"NELL","mood":"tense","intensity":3,"summary":"Adelaide listens in and hears the caller say the bank is on fire."},
+{"start":20,"type":"decides","fine":"gives an order","actor":"ADELAIDE","target":"LOUISA","mood":"chaotic","intensity":4,"summary":"Adelaide orders the fire brigade called, and the operators connect in unison."},
+{"start":29,"type":"comforts","fine":"reassures","actor":"ADELAIDE","target":"NELL","mood":"tender","intensity":2,"summary":"Shaking Nell is reassured by Adelaide, and the room exhales."}
+],
+"s00636": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"SABINA","target":"ARMANDO","mood":"calm","intensity":2,"summary":"Sabina and Felix run a final MRI sequence while Armando jokes through the speaker."},
+{"start":18,"type":"discovers","fine":"realizes","actor":"SABINA","target":"FELIX","mood":"ominous","intensity":4,"summary":"Sabina goes quiet as the images reveal something serious and bilateral."},
+{"start":34,"type":"hides","fine":"masks a feeling","actor":"SABINA","target":"ARMANDO","mood":"grief","intensity":4,"summary":"Sabina tells Armando everything's fine; Felix turns the monitor away from the glass."}
+],
+"s02359": [
+{"start":1,"type":"observes","fine":"waits","actor":"VOSS","target":null,"mood":"tense","intensity":2,"summary":"Voss lies silent in a shell crater at dawn."},
+{"start":7,"type":"comforts","fine":"steadies","actor":"DOBOS","target":"VOSS","mood":"tender","intensity":3,"summary":"Dobos crawls in, says the enemy is gone, and steadies his shaking hand."},
+{"start":15,"type":"discovers","fine":"notices","actor":"VOSS","target":null,"mood":"suspense","intensity":3,"summary":"A scrape of stone freezes them as a child rises behind the wall."},
+{"start":21,"type":"bonds","fine":"shares a moment with","actor":"DOBOS","target":"CHILD","mood":"bittersweet","intensity":3,"summary":"The child offers grapes; Voss lowers his rifle and Dobos eats one."}
+],
+"s01336": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"ALARIC","target":"BRYNJOLF","mood":"tense","intensity":2,"summary":"Alaric and Brynjolf meet in the middle of a frozen waterfall bridge."},
+{"start":8,"type":"confronts","fine":"faces off with","actor":"ALARIC","target":"BRYNJOLF","mood":"tense","intensity":3,"summary":"The rivals trade terse lines, each demanding the other yield passage."},
+{"start":21,"type":"bonds","fine":"shares a moment with","actor":"BRYNJOLF","target":"ALARIC","mood":"playful","intensity":2,"summary":"They speak in unison, smile, and lower their weapons as a crack spreads."},
+{"start":37,"type":"defends","fine":"protects","actor":"BRYNJOLF","target":"ALARIC","mood":"chaotic","intensity":4,"summary":"Brynjolf pulls Alaric clear as an ice pillar shatters, and they grapple."},
+{"start":45,"type":"decides","fine":"makes a plan","actor":"ALARIC","target":"BRYNJOLF","mood":"hopeful","intensity":3,"summary":"The bridge is breaking, so they agree to cross together and help each other up."}
+],
+"s00831": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"KOWALCZYK","target":"LOU","mood":"suspense","intensity":2,"summary":"Detective Kowalczyk browses Lou's pawn shop while nervous Artie glances at the desk."},
+{"start":13,"type":"accuses","fine":"implicates","actor":"KOWALCZYK","target":"LOU","mood":"tense","intensity":4,"summary":"She shows an engraved watch tied to a drowned man, and Lou closes the drawer."},
+{"start":20,"type":"leaves","fine":"is sent away","actor":"ARTIE","target":"LOU","mood":"ominous","intensity":3,"summary":"Lou sends fumbling Artie home; the detective sits and tells Lou to take his time."}
+],
+"s00082": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"HOLLIS","target":null,"mood":"playful","intensity":1,"summary":"Staff man a call center in a haunted-house decor, until every line goes dead."},
+{"start":15,"type":"arrives","fine":"makes an entrance","actor":"DARIUS","target":"HOLLIS","mood":"ominous","intensity":3,"summary":"Pale VP Darius glides in and asks who scared the callers away."},
+{"start":20,"type":"deflects","fine":"shrugs off","actor":"KENJI","target":"DARIUS","mood":"playful","intensity":2,"summary":"Kenji points at the skeleton; Darius praises Hollis and the phones ring."}
+],
+"s01563": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"SERAPHINA","target":"FERRYWOMAN","mood":"ominous","intensity":2,"summary":"Seraphina and the Ferrywoman wait on a jetty among floating lanterns as a shadow wades near."},
+{"start":16,"type":"arrives","fine":"makes an entrance","actor":"SHADOW","target":"SERAPHINA","mood":"ominous","intensity":3,"summary":"The shadow climbs up as a gaunt young man and greets Seraphina; the Ferrywoman warns her."},
+{"start":29,"type":"confronts","fine":"demands answers from","actor":"SERAPHINA","target":"SHADOW","mood":"tense","intensity":3,"summary":"Seraphina demands her brother; the Shadow says he is now a lantern."},
+{"start":41,"type":"persuades","fine":"bargains with","actor":"SHADOW","target":"SERAPHINA","mood":"ominous","intensity":4,"summary":"The Shadow offers a year of her life for a year of her brother's."},
+{"start":48,"type":"threatens","fine":"warns","actor":"FERRYWOMAN","target":"SERAPHINA","mood":"fear","intensity":4,"summary":"The Ferrywoman demands his name; he says Orren and the lanterns flare."}
+],
+"s01828": [
+{"start":1,"type":"works","fine":"repairs something","actor":"PRIYA","target":"HELMUT","mood":"tense","intensity":2,"summary":"Priya rewires a panel as falling pressure and Helmut hover nearby."},
+{"start":18,"type":"bonds","fine":"teams up with","actor":"HELMUT","target":"PRIYA","mood":"tender","intensity":2,"summary":"Helmut holds the penlight for Priya without being thanked."},
+{"start":20,"type":"reveals","fine":"lets slip to","actor":"UNIT SEVEN","target":"PRIYA","mood":"ominous","intensity":4,"summary":"The drone reminds them the capsule holds two and the habitat holds three."},
+{"start":32,"type":"comforts","fine":"steadies","actor":"HELMUT","target":"PRIYA","mood":"melancholy","intensity":3,"summary":"Helmut touches her wrist and writes a list of names for the capsule."},
+{"start":49,"type":"lies","fine":"covers a story for","actor":"PRIYA","target":"UNIT SEVEN","mood":"bittersweet","intensity":3,"summary":"Priya covers the wet list and tells the drone to report they are fine."},
+{"start":57,"type":"bonds","fine":"shares a moment with","actor":"HELMUT","target":"PRIYA","mood":"hopeful","intensity":2,"summary":"The pressure holds; Helmut sits beside her and they quietly trade percentages."}
+],
+"s01287": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ELSPETH","target":null,"mood":"tense","intensity":3,"summary":"Four exhausted people wade single file through a mangrove swamp."},
+{"start":22,"type":"observes","fine":"keeps watch","actor":"ELSPETH","target":null,"mood":"fear","intensity":4,"summary":"Elspeth freezes the group as something large surfaces and slides under a root."},
+{"start":33,"type":"jokes","fine":"banters with","actor":"YUSUF","target":"WANJIRU","mood":"tense","intensity":2,"summary":"They whisper about the creature while feverish Henrik asks to sit."},
+{"start":46,"type":"confesses","fine":"opens up to","actor":"ELSPETH","target":"WANJIRU","mood":"melancholy","intensity":3,"summary":"Elspeth explains the left bank is safer; her husband took the right."},
+{"start":61,"type":"bonds","fine":"shares a moment with","actor":"YUSUF","target":"HENRIK","mood":"tender","intensity":2,"summary":"Fireflies appear; Yusuf calls them beautiful and Henrik says malaria."},
+{"start":67,"type":"flees","fine":"escapes","actor":"ELSPETH","target":null,"mood":"chaotic","intensity":5,"summary":"A splash behind them sends the linked group plunging across the channel."},
+{"start":78,"type":"comforts","fine":"reassures","actor":"WANJIRU","target":"YUSUF","mood":"bittersweet","intensity":3,"summary":"They collapse on the far bank, relieved, then learn two miles remain."}
+],
+"s00386": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"GILES","target":null,"mood":"tense","intensity":2,"summary":"Auctioneer Giles opens bidding on a brig in a crowded tavern."},
+{"start":10,"type":"persuades","fine":"bargains with","actor":"MARGUERITE","target":"CAPTAIN SILAS","mood":"tense","intensity":3,"summary":"Marguerite and Captain Silas trade rising bids while Jeb protests."},
+{"start":20,"type":"confronts","fine":"stares down","actor":"SILAS","target":"MARGUERITE","mood":"suspense","intensity":4,"summary":"The room hushes as Silas and Marguerite stare, and he bids ninety."},
+{"start":26,"type":"decides","fine":"commits","actor":"MARGUERITE","target":"SILAS","mood":"triumphant","intensity":4,"summary":"Marguerite puts everything she owns on the block and wins the brig."}
+],
+"s02170": [
+{"start":1,"type":"works","fine":"repairs something","actor":"ADAEZE","target":null,"mood":"chaotic","intensity":4,"summary":"The crew fights a sealed hatch and dropping pressure on a failing ship."},
+{"start":9,"type":"discovers","fine":"notices","actor":"MIRA","target":"SENNA","mood":"fear","intensity":4,"summary":"Mira spots a stowaway child in the vent, while Kozlov brushes her off."},
+{"start":20,"type":"flees","fine":"bolts","actor":"KOZLOV","target":null,"mood":"fear","intensity":5,"summary":"Something moves fast in the bulkhead and buckles it as everyone panics."}
+],
+"s00749": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"BASTIAN","target":"GIRL","mood":"ominous","intensity":3,"summary":"Five people find an uninvited soaked girl in the dark workshop."},
+{"start":11,"type":"reveals","fine":"lets slip to","actor":"GIRL","target":"ROYSTON","mood":"fear","intensity":4,"summary":"The girl points at the stuffed stag and says he said she could sleep in him."},
+{"start":20,"type":"reveals","fine":"unmasks","actor":"GIRL","target":"BASTIAN","mood":"ominous","intensity":5,"summary":"She gives her name as Pia; the stag's head lowers as she says he's warm."}
+]
+}

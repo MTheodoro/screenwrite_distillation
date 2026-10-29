@@ -1,0 +1,135 @@
+{
+"s02141": [
+{"start":1,"type":"comforts","fine":"encourages","actor":"MAREN","target":"BOY","mood":"melancholy","intensity":2,"summary":"Maren rations water to a nameless boy in the drifting balloon."},
+{"start":22,"type":"discovers","fine":"realizes","actor":"MAREN","target":"BOY","mood":"tense","intensity":3,"summary":"The burner coughs as fuel runs low; Maren spots the boy's medal reading Amadi."},
+{"start":38,"type":"bonds","fine":"confides in","actor":"BOY","target":"MAREN","mood":"bittersweet","intensity":3,"summary":"Maren names him Amadi; he admits shouting brought no one, and she hands him the water."},
+{"start":56,"type":"observes","fine":"takes it in","actor":"MAREN","target":null,"mood":"ominous","intensity":3,"summary":"The wind turns the basket toward black smoke, then the flame dies."}
+],
+"s00094": [
+{"start":1,"type":"works","fine":"works","actor":"AMARA","target":"THEO","mood":"playful","intensity":2,"summary":"Amara and Theo tend the rooftop hives, teasing as he lights the smoker."},
+{"start":15,"type":"arrives","fine":"makes an entrance","actor":"NNEKA","target":"AMARA","mood":"joyful","intensity":3,"summary":"Grandmother Nneka arrives with plantains, sets the bag on a hive, and invites Theo to eat."}
+],
+"s00518": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"IMANI","target":null,"mood":"calm","intensity":1,"summary":"Imani rides the funicular alone, gazing at the city lights."},
+{"start":11,"type":"bonds","fine":"reconnects with","actor":"IGNATIUS","target":"IMANI","mood":"awkward","intensity":3,"summary":"Ignatius, her ex, boards and they trade awkward words over hot chestnuts."},
+{"start":33,"type":"confesses","fine":"opens up to","actor":"IMANI","target":"IGNATIUS","mood":"tender","intensity":3,"summary":"He mentions her postcards; Imani admits she left a note because she was scared."},
+{"start":50,"type":"bonds","fine":"shares a moment with","actor":"IGNATIUS","target":"IMANI","mood":"hopeful","intensity":3,"summary":"A power cut stalls the car; they are left together as city lights flicker."}
+],
+"s01678": [
+{"start":1,"type":"discovers","fine":"notices","actor":"SABINE","target":null,"mood":"fear","intensity":4,"summary":"The deep-sea lab shudders and Vesper reports hull stress beyond tolerance."},
+{"start":18,"type":"works","fine":"repairs something","actor":"SABINE","target":"TEODOR","mood":"suspense","intensity":5,"summary":"A pale shape presses the porthole and the scientists force the bulkhead wheel closed."}
+],
+"s02024": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ROSALIND","target":"TOBY","mood":"playful","intensity":2,"summary":"The Halloran family jokes in the greenhouse as Toby digs with a trowel."},
+{"start":13,"type":"discovers","fine":"stumbles on","actor":"TOBY","target":"ROSALIND","mood":"suspense","intensity":3,"summary":"Toby's trowel hits metal and Rosalind sternly orders him to stop digging."},
+{"start":37,"type":"reveals","fine":"comes clean to","actor":"ROSALIND","target":"DESMOND","mood":"tense","intensity":4,"summary":"Rosalind opens a buried tin of letters, watch and baby shoe from forty years ago."},
+{"start":46,"type":"accuses","fine":"condemns","actor":"DESMOND","target":"ROSALIND","mood":"hostile","intensity":4,"summary":"Desmond shouts that she lied about his father, and she shouts back."},
+{"start":58,"type":"bonds","fine":"reconnects with","actor":"ROSALIND","target":"TOBY","mood":"bittersweet","intensity":3,"summary":"The ticking watch softens everyone and Rosalind lets Toby hold it."},
+{"start":73,"type":"jokes","fine":"lightens the mood for","actor":"DESMOND","target":"JUNIPER","mood":"joyful","intensity":3,"summary":"The family breaks into helpless laughter, and Rosalind returns to planting tomatoes."}
+],
+"s02309": [
+{"start":1,"type":"searches","fine":"investigates","actor":"LUCIAN","target":null,"mood":"suspense","intensity":3,"summary":"The crew finds Container Seventeen sealed from within with a body-warm heat signature."},
+{"start":22,"type":"pleads","fine":"implores","actor":"STOWAWAY","target":"LUCIAN","mood":"fear","intensity":4,"summary":"The stowaway begs them not to open it as the seal weakens."},
+{"start":28,"type":"reveals","fine":"unmasks","actor":"LUCIAN","target":null,"mood":"fear","intensity":5,"summary":"The container bursts open, revealing a figure with the boy's face."}
+],
+"s01538": [
+{"start":1,"type":"bonds","fine":"reminisces with","actor":"NEELY","target":"LUCY","mood":"tender","intensity":2,"summary":"Neely and Lucy share coffee on a truck hood and talk about his father."},
+{"start":25,"type":"confesses","fine":"opens up to","actor":"LUCY","target":"NEELY","mood":"bittersweet","intensity":3,"summary":"Lucy says she leaves Friday; Neely can only say he knows, and their hands touch."},
+{"start":34,"type":"arrives","fine":"drifts in","actor":"OLD BARN","target":"NEELY","mood":"suspense","intensity":3,"summary":"Headlights stop and security guard Old Barn appears."},
+{"start":45,"type":"reveals","fine":"breaks news to","actor":"OLD BARN","target":"NEELY","mood":"hopeful","intensity":4,"summary":"Old Barn says Neely's late father left a reel in the booth, and they go to the projector."}
+],
+"s00859": [
+{"start":1,"type":"decides","fine":"gives an order","actor":"OKONJO","target":"RAVI","mood":"tense","intensity":4,"summary":"With the seal failing in minutes, Okonjo orders Ravi to reroute power."},
+{"start":14,"type":"defends","fine":"pushes back on","actor":"OKONJO","target":"SURFACE","mood":"tense","intensity":4,"summary":"Surface urges ascent; Okonjo refuses as the hull groans and a rivet pops."},
+{"start":26,"type":"comforts","fine":"steadies","actor":"RAVI","target":null,"mood":"triumphant","intensity":4,"summary":"Ravi's repair works, the pressure normalizes and the crew exhales in relief."}
+],
+"s01955_1": [
+{"start":1,"type":"observes","fine":"waits","actor":"NEIL","target":null,"mood":"tense","intensity":2,"summary":"Six strangers wait in a stalled gondola, each coping in their own way."},
+{"start":15,"type":"comforts","fine":"reassures","actor":"NKECHI","target":"DARIUSZ","mood":"calm","intensity":2,"summary":"They compare how long it has been; Nkechi coaxes pale Dariusz to drink water."},
+{"start":36,"type":"observes","fine":"takes it in","actor":"NEIL","target":null,"mood":"hopeful","intensity":3,"summary":"The cabin lurches and finally begins to move."}
+],
+"s02350": [
+{"start":1,"type":"observes","fine":"waits","actor":"HANNELORE","target":null,"mood":"melancholy","intensity":2,"summary":"Three passengers freeze in a stranded cable car since the previous night."},
+{"start":18,"type":"bonds","fine":"teams up with","actor":"ISAAC","target":"PAULINE","mood":"tender","intensity":3,"summary":"Pauline offers matches and Hannelore her newspaper; they burn it for warmth together."},
+{"start":44,"type":"discovers","fine":"recognizes","actor":"HANNELORE","target":null,"mood":"hopeful","intensity":3,"summary":"The cable jolts and Hannelore recognizes the generator sound as rescuers trying."}
+],
+"s02153": [
+{"start":1,"type":"defends","fine":"justifies themself to","actor":"PETRA","target":"DOMINIC","mood":"playful","intensity":2,"summary":"Dominic sues baker Petra over a collapsed wedding cake; she blames his uncle's dive."},
+{"start":35,"type":"decides","fine":"gives an order","actor":"JUDGE","target":"DOMINIC","mood":"playful","intensity":2,"summary":"The judge rules for Petra and wryly recommends she keep the flash drive."}
+],
+"s01214": [
+{"start":1,"type":"deflects","fine":"stalls","actor":"LAVINIA","target":"DESMOND","mood":"awkward","intensity":2,"summary":"Lavinia tells Desmond he is being reallocated, not fired, to the bell tower."},
+{"start":26,"type":"reveals","fine":"breaks news to","actor":"DESMOND","target":"LAVINIA","mood":"bittersweet","intensity":3,"summary":"Desmond learns he is the whole quality team, then announces his promotion to the room."},
+{"start":47,"type":"leaves","fine":"exits quietly","actor":"DESMOND","target":null,"mood":"bittersweet","intensity":3,"summary":"He climbs to the tower; Lavinia watches, and a bell rings."}
+],
+"s02502": [
+{"start":1,"type":"works","fine":"drives","actor":"LEILANI","target":"CORMAC","mood":"tense","intensity":4,"summary":"Leilani hauls on the rope as Cormac dangles thirty feet below in a crevasse."},
+{"start":18,"type":"comforts","fine":"encourages","actor":"LEILANI","target":"CORMAC","mood":"suspense","intensity":5,"summary":"The axe slips; Cormac finds a foothold and Leilani urges him to climb."}
+],
+"s02508": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"BRONAGH","target":"EMEKA","mood":"hostile","intensity":2,"summary":"Siblings bicker over their late mother's old cake after the funeral."},
+{"start":21,"type":"accuses","fine":"calls out","actor":"EMEKA","target":"BRONAGH","mood":"grief","intensity":3,"summary":"Emeka snaps that she slices the cake while their mother was buried hours ago."},
+{"start":30,"type":"confesses","fine":"breaks down to","actor":"EMEKA","target":"BRONAGH","mood":"grief","intensity":4,"summary":"Emeka admits he never said goodbye and Bronagh tells him their mother squeezed her hand."},
+{"start":45,"type":"bonds","fine":"shares a moment with","actor":"BRONAGH","target":"EMEKA","mood":"tender","intensity":3,"summary":"Bronagh cuts the cake into three pieces and serves each sibling."}
+],
+"s01841": [
+{"start":1,"type":"observes","fine":"studies","actor":"WOO","target":"MIRIAM","mood":"tense","intensity":2,"summary":"Two detectives and the owner gather around bookkeeper Miriam in her office."},
+{"start":16,"type":"threatens","fine":"intimidates","actor":"RUTH","target":"MIRIAM","mood":"ominous","intensity":4,"summary":"Ruth drifts about, Enzo locks the door, and they demand the second ledger."},
+{"start":27,"type":"hides","fine":"keeps a secret","actor":"MIRIAM","target":"RUTH","mood":"tense","intensity":4,"summary":"Miriam denies a second ledger, sweating onto the page."}
+],
+"s00366": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"DUANE","target":"LUCINDA","mood":"playful","intensity":2,"summary":"Salesman Duane pitches memory foam to a couple testing mattresses."},
+{"start":9,"type":"works","fine":"goes through routine","actor":"DUANE","target":"THEO","mood":"chaotic","intensity":3,"summary":"Theo sinks into foam and cannot get up; Duane and Lucinda pull him and all tumble."}
+],
+"s00402": [
+{"start":1,"type":"reveals","fine":"presents evidence to","actor":"IGNATIUS","target":"FLORENCE","mood":"awkward","intensity":2,"summary":"The lawyer reads Uncle Teodoro's will, leaving the fish to Lola."},
+{"start":17,"type":"reveals","fine":"drops a bombshell on","actor":"IGNATIUS","target":"EZEKIEL","mood":"tense","intensity":4,"summary":"The final line leaves the land and trailer to neighbor Wanjiru, who stayed."},
+{"start":24,"type":"attacks","fine":"shoves","actor":"EZEKIEL","target":"DARIUS","mood":"chaotic","intensity":5,"summary":"Ezekiel hurls magazines, kicks a box, and scuffles with Darius against the fish tank."},
+{"start":35,"type":"reveals","fine":"shows","actor":"WANJIRU","target":"EZEKIEL","mood":"suspense","intensity":4,"summary":"Calm Wanjiru says Teodoro foresaw this and shows a brass key."}
+],
+"s01183": [
+{"start":1,"type":"observes","fine":"spies on","actor":"FINCH","target":"OSKAR","mood":"tense","intensity":2,"summary":"Lt. Finch watches Oskar and his briefcase while Spud sings karaoke."},
+{"start":7,"type":"attacks","fine":"lunges at","actor":"FINCH","target":"OSKAR","mood":"chaotic","intensity":4,"summary":"Finch draws and chases Oskar, who hurls the briefcase, spilling shoe coupons."},
+{"start":17,"type":"jokes","fine":"amuses","actor":"SPUD","target":"FINCH","mood":"playful","intensity":3,"summary":"Both freeze at the coupons, Spud cheers and Beth demands payment."}
+],
+"s00169": [
+{"start":1,"type":"accuses","fine":"blames","actor":"CYRIL","target":"AUGUSTINE","mood":"hostile","intensity":3,"summary":"The family squabbles over the late father's boat at the funeral meal."},
+{"start":34,"type":"reveals","fine":"shows","actor":"ZAINAB","target":"CYRIL","mood":"tense","intensity":4,"summary":"Zainab produces the will written on a napkin: give the boat to whoever sails it."},
+{"start":45,"type":"decides","fine":"commits","actor":"THADDEUS","target":null,"mood":"hopeful","intensity":3,"summary":"Thaddeus says quietly that he knows how, and everyone falls silent."}
+],
+"s01581": [
+{"start":1,"type":"mocks","fine":"needles","actor":"PRIYANKA","target":"BRANDEN","mood":"awkward","intensity":2,"summary":"Weary staff trade sarcasm as Branden runs a Friday pulse check."},
+{"start":23,"type":"confronts","fine":"presses","actor":"PRIYANKA","target":"BRANDEN","mood":"tense","intensity":3,"summary":"Holloway raises layoff rumors and Priyanka presses Branden, who deflects."},
+{"start":37,"type":"leaves","fine":"exits quietly","actor":"HOLLOWAY","target":null,"mood":"bittersweet","intensity":2,"summary":"Holloway ends the call early and Branden erases the whiteboard."}
+],
+"s00238": [
+{"start":1,"type":"observes","fine":"hesitates","actor":"PETE","target":null,"mood":"awkward","intensity":2,"summary":"Six teens hesitate atop the ten-meter platform, nobody wanting to go first."},
+{"start":25,"type":"confesses","fine":"opens up to","actor":"SUNITA","target":"ROSALIND","mood":"melancholy","intensity":3,"summary":"Sunita stops the twins, saying after this it is September."},
+{"start":33,"type":"bonds","fine":"shares a moment with","actor":"PETE","target":"SUNITA","mood":"bittersweet","intensity":3,"summary":"Pete sits and the others gather on the edge; the twins then jump."}
+],
+"s02452": [
+{"start":1,"type":"works","fine":"prepares","actor":"BASIL","target":null,"mood":"tense","intensity":2,"summary":"Coach Basil readies rivals Dmitri and Hector for a winner-to-State match."},
+{"start":23,"type":"attacks","fine":"wrestles","actor":"HECTOR","target":"DMITRI","mood":"tense","intensity":4,"summary":"They wrestle fiercely; Hector scores first and Dmitri spits in frustration."},
+{"start":49,"type":"attacks","fine":"wrestles","actor":"HECTOR","target":"DMITRI","mood":"suspense","intensity":5,"summary":"Dmitri nearly pins Hector, who explodes, rolls, and pins him instead."},
+{"start":76,"type":"bonds","fine":"reconnects with","actor":"DMITRI","target":"HECTOR","mood":"bittersweet","intensity":3,"summary":"Dmitri accepts Hector's hand and tells him to take it to State."}
+],
+"s01611": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"GABRIEL","target":"NADINE","mood":"tense","intensity":2,"summary":"Two lawyers spar over a right of way before Judge Florence."},
+{"start":14,"type":"decides","fine":"gives an order","actor":"FLORENCE","target":"GABRIEL","mood":"suspense","intensity":3,"summary":"Florence silences both, seats them, and rules from the bench: affirmed."}
+],
+"s00753": [
+{"start":1,"type":"observes","fine":"waits","actor":"FATHER MALACHY","target":null,"mood":"awkward","intensity":2,"summary":"At the altar the officiant asks for objections and the hungover best man speaks up."},
+{"start":17,"type":"arrives","fine":"bursts in","actor":"DJ","target":null,"mood":"chaotic","intensity":4,"summary":"A DJ's voice blares over the PA, bass thumps, and the organ turns to a remix."}
+],
+"s02476": [
+{"start":1,"type":"confronts","fine":"confronts","actor":"HOLLOWAY","target":"STOWAWAY","mood":"tense","intensity":3,"summary":"Purser Holloway drags a soot-faced stowaway before the captain."},
+{"start":11,"type":"reveals","fine":"unmasks","actor":"CLEMENTINE","target":"VANE","mood":"tense","intensity":3,"summary":"The cap falls revealing a woman, Clementine, who demands passage to New York."},
+{"start":21,"type":"pleads","fine":"appeals to","actor":"CLEMENTINE","target":"VANE","mood":"tender","intensity":3,"summary":"She explains her father thinks she is dead, and Captain Vane orders tea and a blanket."},
+{"start":29,"type":"mocks","fine":"dismisses","actor":"VANE","target":"HOLLOWAY","mood":"playful","intensity":2,"summary":"Vane brushes off Holloway's regulations and Clementine laughs."}
+],
+"s01829": [
+{"start":1,"type":"observes","fine":"waits","actor":"ROSALIND","target":"ELIAS","mood":"tense","intensity":2,"summary":"Rosalind, her son Elias and lawyer Noel wait outside the courtroom."},
+{"start":12,"type":"pleads","fine":"appeals to","actor":"ROSALIND","target":"ELIAS","mood":"melancholy","intensity":3,"summary":"Rosalind urges Elias to eat; Noel says Elias must read his statement aloud."},
+{"start":34,"type":"comforts","fine":"encourages","actor":"ROSALIND","target":"ELIAS","mood":"tender","intensity":3,"summary":"Elias goes to the window and Rosalind begins reading the statement with him."}
+]
+}

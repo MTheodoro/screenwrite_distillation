@@ -1,0 +1,171 @@
+{
+"s02327": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "HUGO", "target": "MARISOL", "mood": "playful", "intensity": 2, "summary": "Hugo pulls up to the bail drive-thru to free his sleepwalking brother"},
+{"start": 15, "type": "mocks", "fine": "needles", "actor": "DOUG", "target": "HUGO", "mood": "playful", "intensity": 2, "summary": "Doug butts in over the intercom and sets bail at two thousand"},
+{"start": 21, "type": "persuades", "fine": "bargains with", "actor": "HUGO", "target": "MARISOL", "mood": "awkward", "intensity": 3, "summary": "Hugo only has eleven hundred and balks at leaving his father's watch"},
+{"start": 30, "type": "decides", "fine": "accepts", "actor": "MARISOL", "target": "HUGO", "mood": "tender", "intensity": 2, "summary": "Marisol relents and sends Hugo the form to sign"}
+],
+"s01443": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "ELOWEN", "target": "GRUMBLEWICK", "mood": "playful", "intensity": 2, "summary": "Grumblewick demands a raised toll and the travelers protest in unison"},
+{"start": 12, "type": "decides", "fine": "accepts", "actor": "ELOWEN", "target": "GRUMBLEWICK", "mood": "calm", "intensity": 1, "summary": "Elowen pays, Bramblekin needles the troll, and they are waved across"}
+],
+"s01653": [
+{"start": 1, "type": "arrives", "fine": "makes an entrance", "actor": "ELDRIN", "target": null, "mood": "ominous", "intensity": 2, "summary": "Eldrin stalks the bone market announcing closing while Sylvette pockets a vial"},
+{"start": 15, "type": "persuades", "fine": "bargains with", "actor": "ELDRIN", "target": "GORRAK", "mood": "calm", "intensity": 2, "summary": "Eldrin buys a jar of glowing powder from Gorrak"},
+{"start": 26, "type": "jokes", "fine": "plays with", "actor": "THISTLE", "target": "GORRAK", "mood": "playful", "intensity": 2, "summary": "Thistle touches the forbidden tooth and sparks leap from her fingers"},
+{"start": 34, "type": "confronts", "fine": "challenges", "actor": "SYLVETTE", "target": "THISTLE", "mood": "tense", "intensity": 2, "summary": "Sylvette tries to take the tooth from Thistle"},
+{"start": 39, "type": "reveals", "fine": "exposes a secret to", "actor": "ELDRIN", "target": "SYLVETTE", "mood": "tense", "intensity": 3, "summary": "Eldrin lets Thistle keep the tooth and reveals he saw Sylvette's theft"},
+{"start": 50, "type": "observes", "fine": "waits", "actor": "GORRAK", "target": null, "mood": "suspense", "intensity": 4, "summary": "A vast winged shape passes overhead as the market hushes and hides"}
+],
+"s01313": [
+{"start": 1, "type": "works", "fine": "works", "actor": "PARK", "target": "KERR", "mood": "tense", "intensity": 4, "summary": "Six crash survivors huddle on the ice as Park fights Kerr's bleeding"},
+{"start": 24, "type": "works", "fine": "prepares", "actor": "OKAFOR", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Okafor burns thirty years of legal briefs to feed the dying fire"},
+{"start": 31, "type": "pleads", "fine": "calls for", "actor": "BEATRIZ", "target": null, "mood": "suspense", "intensity": 4, "summary": "A distant thrum; Beatriz fires the flare and waits as it returns"},
+{"start": 43, "type": "arrives", "fine": "arrives", "actor": null, "target": null, "mood": "triumphant", "intensity": 5, "summary": "A rescue helicopter bursts over the trees and the survivors break down"}
+],
+"s02147": [
+{"start": 1, "type": "lies", "fine": "covers a story for", "actor": "JULES", "target": "PENELOPE", "mood": "playful", "intensity": 3, "summary": "With the cake van wedged under an overpass, Jules assures Penelope all is fine"},
+{"start": 17, "type": "decides", "fine": "makes a plan", "actor": "BARTEK", "target": "JULES", "mood": "playful", "intensity": 3, "summary": "Bartek decides to deflate the tires while Jules invents a parade"},
+{"start": 28, "type": "works", "fine": "repairs something", "actor": "BARTEK", "target": null, "mood": "suspense", "intensity": 4, "summary": "Bartek lets out air, the cake sways, and Penelope demands answers"},
+{"start": 43, "type": "works", "fine": "drives", "actor": "BARTEK", "target": null, "mood": "triumphant", "intensity": 4, "summary": "The van rolls free, the cake survives, and the horns erupt joyfully"}
+],
+"s01453": [
+{"start": 1, "type": "arrives", "fine": "returns", "actor": "ARLO", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Arlo comes home from a bad party to a dark apartment and apologizes to a plant"},
+{"start": 14, "type": "observes", "fine": "listens to", "actor": "ARLO", "target": null, "mood": "melancholy", "intensity": 3, "summary": "The answering machine plays only his own cheerful greeting and silence"},
+{"start": 21, "type": "works", "fine": "prepares", "actor": "ARLO", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Arlo opens his smeared fortieth cake, lights the bent candle, and sits"},
+{"start": 32, "type": "discovers", "fine": "realizes", "actor": "ARLO", "target": null, "mood": "bittersweet", "intensity": 4, "summary": "A message from future me makes Arlo laugh until he cries and eat the cake"}
+],
+"s01377": [
+{"start": 1, "type": "works", "fine": "works", "actor": "HELEN", "target": "CECILIA", "mood": "tense", "intensity": 3, "summary": "Helen and Agnes examine a missing elderly patient who fell down the chute"},
+{"start": 21, "type": "comforts", "fine": "tends to", "actor": "HELEN", "target": "CECILIA", "mood": "tender", "intensity": 2, "summary": "Cecilia wakes confused about the day and her hens; Helen takes her hand"},
+{"start": 34, "type": "attacks", "fine": "grabs", "actor": "CECILIA", "target": "HELEN", "mood": "fear", "intensity": 4, "summary": "Cecilia locks onto both women and rises demanding her husband"},
+{"start": 54, "type": "discovers", "fine": "realizes", "actor": "CECILIA", "target": null, "mood": "grief", "intensity": 4, "summary": "The radiator bangs and Cecilia remembers her husband has been dead nine years"},
+{"start": 63, "type": "comforts", "fine": "consoles", "actor": "AGNES", "target": "CECILIA", "mood": "tender", "intensity": 2, "summary": "Agnes comforts her, Helen calls a gurney, and Cecilia pats her hand"}
+],
+"s00087": [
+{"start": 1, "type": "works", "fine": "works", "actor": "NAOMI", "target": "PAUL", "mood": "calm", "intensity": 2, "summary": "Naomi runs Paul's hyperbaric treatment as pressure holds at two atmospheres"},
+{"start": 7, "type": "comforts", "fine": "reassures", "actor": "NAOMI", "target": "PAUL", "mood": "tender", "intensity": 2, "summary": "Naomi tells Paul he crawled from his ascent and will remember tomorrow"}
+],
+"s02394": [
+{"start": 1, "type": "pleads", "fine": "appeals to", "actor": "JULIAN", "target": "JUDGE PRENTISS", "mood": "tense", "intensity": 3, "summary": "Julian argues by phone that the late petition used a slow clock"},
+{"start": 10, "type": "pleads", "fine": "implores", "actor": "JULIAN", "target": "JUDGE PRENTISS", "mood": "hostile", "intensity": 5, "summary": "Julian explodes that an innocent man dies in six hours"},
+{"start": 18, "type": "leaves", "fine": "walks out on", "actor": "JUDGE PRENTISS", "target": "JULIAN", "mood": "grief", "intensity": 4, "summary": "Prentiss coldly advises him to use the time wisely and hangs up"}
+],
+"s01007": [
+{"start": 1, "type": "arrives", "fine": "is ushered in", "actor": "ALOYSIUS", "target": "BRYONY", "mood": "ominous", "intensity": 2, "summary": "Aloysius leads visitors into the ruined planetarium where the stars were never switched off"},
+{"start": 15, "type": "works", "fine": "repairs something", "actor": "DELPHINE", "target": null, "mood": "suspense", "intensity": 3, "summary": "Delphine powers up the old projector and light climbs the dome"},
+{"start": 23, "type": "discovers", "fine": "notices", "actor": "DELPHINE", "target": null, "mood": "ominous", "intensity": 3, "summary": "Delphine sees the constellations are wrong, with an extra star"},
+{"start": 29, "type": "discovers", "fine": "realizes", "actor": "EZRA", "target": "ALOYSIUS", "mood": "fear", "intensity": 4, "summary": "After a flash, Ezra stands entranced, saying the star whispers his name"},
+{"start": 36, "type": "decides", "fine": "changes course", "actor": "DELPHINE", "target": null, "mood": "fear", "intensity": 4, "summary": "Delphine kills the power; a hiss, then the camera clicks by itself"}
+],
+"s01805": [
+{"start": 1, "type": "observes", "fine": "hesitates", "actor": "BEN", "target": "MARCELLUS", "mood": "melancholy", "intensity": 2, "summary": "The family sits in tense small talk as Marcellus prepares to leave"},
+{"start": 20, "type": "hides", "fine": "masks a feeling", "actor": "ADELAIDE", "target": "MARCELLUS", "mood": "melancholy", "intensity": 3, "summary": "Ben stares at the orchard while Adelaide checks his ticket tenderly"},
+{"start": 30, "type": "pleads", "fine": "begs", "actor": "PHILIPPA", "target": "BEN", "mood": "bittersweet", "intensity": 3, "summary": "Philippa wins Ben over to come to the bus stop and hugs Marcellus"},
+{"start": 39, "type": "bonds", "fine": "shares a moment with", "actor": "BEN", "target": "MARCELLUS", "mood": "tender", "intensity": 3, "summary": "Ben promises the trees will wait and Adelaide hands over the lunch pail"},
+{"start": 51, "type": "leaves", "fine": "leaves", "actor": "MARCELLUS", "target": "BEN", "mood": "bittersweet", "intensity": 4, "summary": "Marcellus lingers, takes his thermos, embraces Ben, and goes out the door"},
+{"start": 62, "type": "comforts", "fine": "steadies", "actor": "ADELAIDE", "target": "BEN", "mood": "melancholy", "intensity": 3, "summary": "Adelaide ladles oatmeal and makes Ben eat anyway"}
+],
+"s01139": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "HENRIK", "target": "NAOMI", "mood": "awkward", "intensity": 2, "summary": "Henrik escapes into the generator trailer and startles a crying Naomi"},
+{"start": 16, "type": "bonds", "fine": "confides in", "actor": "NAOMI", "target": "HENRIK", "mood": "bittersweet", "intensity": 2, "summary": "They share the flask and admit doubts about the toast and wedding"},
+{"start": 36, "type": "bonds", "fine": "flirts with", "actor": "HENRIK", "target": "NAOMI", "mood": "tender", "intensity": 4, "summary": "Neither leaves, their fingers touch, and they lean in for a kiss"},
+{"start": 54, "type": "arrives", "fine": "bursts in", "actor": "GRAN IMELDA", "target": "HENRIK", "mood": "awkward", "intensity": 3, "summary": "Gran Imelda and Dewey burst in and summon them to the photographs"},
+{"start": 60, "type": "leaves", "fine": "leaves", "actor": "NAOMI", "target": "HENRIK", "mood": "hopeful", "intensity": 3, "summary": "They vow this isn't over and leave; Imelda swears Dewey to secrecy"}
+],
+"s02060": [
+{"start": 1, "type": "hides", "fine": "ducks out of sight", "actor": "MASKED MAN", "target": null, "mood": "suspense", "intensity": 3, "summary": "A masked man cracking the safe hides behind a curtain as someone enters"},
+{"start": 11, "type": "discovers", "fine": "catches", "actor": "GENEVIEVE", "target": "MASKED MAN", "mood": "suspense", "intensity": 3, "summary": "Genevieve calmly reveals she knows he is hiding and calls him out"},
+{"start": 24, "type": "confronts", "fine": "interrogates", "actor": "GENEVIEVE", "target": "MASKED MAN", "mood": "tense", "intensity": 3, "summary": "Genevieve circles the thief, probing his accomplice and his purpose"},
+{"start": 36, "type": "reveals", "fine": "drops a bombshell on", "actor": "MASKED MAN", "target": "GENEVIEVE", "mood": "tense", "intensity": 4, "summary": "He reveals he knows her diamonds are fake"},
+{"start": 41, "type": "attacks", "fine": "fights", "actor": "GENEVIEVE", "target": "MASKED MAN", "mood": "chaotic", "intensity": 5, "summary": "They brawl over the painting, smashing glass and the cocktail cabinet"},
+{"start": 45, "type": "reveals", "fine": "unmasks", "actor": "GENEVIEVE", "target": "LUCIEN", "mood": "bittersweet", "intensity": 4, "summary": "She tears off the mask to find Lucien, and both stand betrayed"}
+],
+"s01967": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "OTTILIE", "target": "PAVEL", "mood": "melancholy", "intensity": 2, "summary": "Ottilie sets out cups and quietly slides one to withdrawn Pavel"},
+{"start": 15, "type": "jokes", "fine": "banters with", "actor": "YOSHIRO", "target": "OTTILIE", "mood": "calm", "intensity": 1, "summary": "Yoshiro and Ottilie banter about running it again while they wait"},
+{"start": 23, "type": "comforts", "fine": "comforts", "actor": "OTTILIE", "target": "PAVEL", "mood": "tender", "intensity": 3, "summary": "Ottilie senses Pavel's grief from last year and brings him a cup"},
+{"start": 30, "type": "arrives", "fine": "arrives", "actor": null, "target": "PAVEL", "mood": "hopeful", "intensity": 3, "summary": "A lone runner appears and Pavel steps forward offering the cup"}
+],
+"s01692": [
+{"start": 1, "type": "arrives", "fine": "makes an entrance", "actor": "SOLANGE", "target": "ARTHUR", "mood": "playful", "intensity": 2, "summary": "Pre-party chaos in the conservatory as Solange stumbles into a fern"},
+{"start": 8, "type": "threatens", "fine": "intimidates", "actor": "LAZARUS", "target": "SOLANGE", "mood": "suspense", "intensity": 3, "summary": "Lazarus appears and signals Solange, who stiffens while Arthur is fussed over"},
+{"start": 15, "type": "hides", "fine": "masks a feeling", "actor": "SOLANGE", "target": "ARTHUR", "mood": "awkward", "intensity": 2, "summary": "Solange and Arthur both ask for a moment and laugh awkwardly"},
+{"start": 19, "type": "discovers", "fine": "uncovers", "actor": "SOLANGE", "target": null, "mood": "ominous", "intensity": 4, "summary": "Lazarus leaves an envelope; Solange opens it and goes pale"}
+],
+"s01747": [
+{"start": 1, "type": "lies", "fine": "bluffs", "actor": "YSOLDE", "target": "GREAVES", "mood": "tense", "intensity": 2, "summary": "Ysolde and Pavan assure Inspector Greaves they are ahead of schedule"},
+{"start": 19, "type": "reveals", "fine": "presents evidence to", "actor": "GREAVES", "target": "YSOLDE", "mood": "tense", "intensity": 4, "summary": "Greaves shows them the filed log full of warnings, disproving their claims"},
+{"start": 30, "type": "deflects", "fine": "changes the subject on", "actor": "YSOLDE", "target": "GREAVES", "mood": "tense", "intensity": 3, "summary": "Ysolde offers tea; Greaves says he knows what they haven't done"},
+{"start": 36, "type": "observes", "fine": "takes it in", "actor": "YSOLDE", "target": "GREAVES", "mood": "ominous", "intensity": 5, "summary": "The turbines fail and Greaves politely holds the door with four minutes left"}
+],
+"s02213": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "TEDDY", "target": "BASTIEN", "mood": "suspense", "intensity": 2, "summary": "Trapped in the stuck lift, Teddy and Bastien bicker about the time"},
+{"start": 16, "type": "discovers", "fine": "notices", "actor": "BASTIEN", "target": null, "mood": "ominous", "intensity": 3, "summary": "Bastien's watch is frozen and he masks his unease"},
+{"start": 25, "type": "reveals", "fine": "lets slip to", "actor": "MOTH", "target": "BASTIEN", "mood": "ominous", "intensity": 4, "summary": "Moth says home is below the basement where those who stay are kept"},
+{"start": 46, "type": "confronts", "fine": "demands answers from", "actor": "BASTIEN", "target": "TEDDY", "mood": "fear", "intensity": 4, "summary": "Teddy reveals Moth is a ghost girl from a farm a century ago"},
+{"start": 59, "type": "threatens", "fine": "looms over", "actor": "MOTH", "target": "BASTIEN", "mood": "fear", "intensity": 5, "summary": "The bulb pops and the lift descends as Moth hums in the dark"},
+{"start": 67, "type": "discovers", "fine": "finds a clue", "actor": "BASTIEN", "target": null, "mood": "fear", "intensity": 5, "summary": "Teddy and Moth are gone; doors open on a corridor with Moth waving"}
+],
+"s01703": [
+{"start": 1, "type": "decides", "fine": "gives an order", "actor": "CROWE", "target": null, "mood": "suspense", "intensity": 2, "summary": "Crowe leads his disguised crew through the laundry with strict instructions"},
+{"start": 10, "type": "lies", "fine": "fakes it with", "actor": "CROWE", "target": "BELLHOP", "mood": "suspense", "intensity": 3, "summary": "The slow lift arrives and they bluff past a bellhop and ride up"},
+{"start": 26, "type": "arrives", "fine": "slips in", "actor": "CROWE", "target": null, "mood": "suspense", "intensity": 3, "summary": "They creep past a sleeping guard and open the suite to the vault"},
+{"start": 38, "type": "threatens", "fine": "holds at gunpoint", "actor": "GUARD", "target": "CROWE", "mood": "tense", "intensity": 5, "summary": "The lights blaze and the security director draws on them; Crowe surrenders"}
+],
+"s00114": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "ELOWEN", "target": "ARTEMIS", "mood": "melancholy", "intensity": 2, "summary": "Elowen dances alone, then challenges Artemis that he never asked her to dance"},
+{"start": 22, "type": "bonds", "fine": "reconnects with", "actor": "ELOWEN", "target": "ARTEMIS", "mood": "tender", "intensity": 3, "summary": "Artemis confesses the still lake frightens him and she draws him into a waltz"},
+{"start": 38, "type": "observes", "fine": "watches", "actor": "MIRABEL", "target": "ARTEMIS", "mood": "bittersweet", "intensity": 3, "summary": "Mirabel predicts Artemis will cry as he admits he couldn't stay"},
+{"start": 52, "type": "confronts", "fine": "presses", "actor": "ELOWEN", "target": "ARTEMIS", "mood": "tense", "intensity": 4, "summary": "The record stops and Elowen presses him to say what he came for"},
+{"start": 60, "type": "reveals", "fine": "lets slip to", "actor": "MIRABEL", "target": "ELOWEN", "mood": "tense", "intensity": 4, "summary": "Mirabel announces he wants Elowen back, and Artemis confirms it"},
+{"start": 66, "type": "attacks", "fine": "strikes", "actor": "ELOWEN", "target": "ARTEMIS", "mood": "hostile", "intensity": 5, "summary": "Elowen slaps Artemis for eleven years of silence and sending a child"},
+{"start": 76, "type": "comforts", "fine": "steadies", "actor": "LEONID", "target": "ELOWEN", "mood": "bittersweet", "intensity": 3, "summary": "Artemis laughs helplessly as Leonid offers Elowen a drink she downs"}
+],
+"s02119": [
+{"start": 1, "type": "threatens", "fine": "intimidates", "actor": "MILOS", "target": "LENA", "mood": "tense", "intensity": 3, "summary": "In a stalled gondola, Milos menaces Lena and reaches for her briefcase"},
+{"start": 15, "type": "observes", "fine": "studies", "actor": "LENA", "target": "MILOS", "mood": "suspense", "intensity": 3, "summary": "Milos feigns calm while Lena watches his drumming fingers"},
+{"start": 23, "type": "threatens", "fine": "issues an ultimatum to", "actor": "MILOS", "target": "LENA", "mood": "ominous", "intensity": 4, "summary": "Milos reveals his watch controls the car and gives her ten minutes"},
+{"start": 32, "type": "decides", "fine": "accepts", "actor": "LENA", "target": "MILOS", "mood": "suspense", "intensity": 4, "summary": "Lena offers him the case but Milos hesitates and does not take it"}
+],
+"s02017": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "HILDEGARD", "target": "REGINALD", "mood": "playful", "intensity": 2, "summary": "Hildegard rehearses the accusation scene and Reginald's rubber dagger folds"},
+{"start": 18, "type": "discovers", "fine": "pieces it together", "actor": "HILDEGARD", "target": "JUNIPER", "mood": "ominous", "intensity": 3, "summary": "During the break Hildegard realizes Reginald brought his own knife"},
+{"start": 30, "type": "confronts", "fine": "calls out", "actor": "HILDEGARD", "target": "REGINALD", "mood": "suspense", "intensity": 4, "summary": "They spot a real blade in his pocket and Hildegard calmly demands it"}
+],
+"s01018": [
+{"start": 1, "type": "searches", "fine": "tracks", "actor": "ALVARO", "target": null, "mood": "suspense", "intensity": 3, "summary": "Deep down, Alvaro's sonar picks up something enormous and breathing"},
+{"start": 15, "type": "decides", "fine": "gives an order", "actor": "ZHAO", "target": "LENA", "mood": "tense", "intensity": 4, "summary": "Oxygen drops and the contact closes as Zhao orders them up"},
+{"start": 24, "type": "flees", "fine": "escapes", "actor": "ZHAO", "target": null, "mood": "fear", "intensity": 5, "summary": "A glow rises below and the ballast valves freeze as they try to flee"},
+{"start": 34, "type": "discovers", "fine": "stumbles on", "actor": null, "target": null, "mood": "fear", "intensity": 5, "summary": "A cathedral-sized eye fills the viewport, gazing curiously at them"}
+],
+"s00265": [
+{"start": 1, "type": "decides", "fine": "makes a plan", "actor": "IRENEUS", "target": "HOLGER", "mood": "calm", "intensity": 2, "summary": "Ireneus decides to camp under the dead starship despite Holger's worry"},
+{"start": 13, "type": "jokes", "fine": "lightens the mood for", "actor": "MYRT", "target": "HOLGER", "mood": "playful", "intensity": 2, "summary": "Myrt's music makes the mushrooms glow and Grandmama teases Holger"},
+{"start": 23, "type": "discovers", "fine": "realizes", "actor": "THEO", "target": "IRENEUS", "mood": "ominous", "intensity": 4, "summary": "Theo reads the glyphs: do not wake the garden, and the ground stirs"},
+{"start": 41, "type": "attacks", "fine": "fights", "actor": "HOLGER", "target": null, "mood": "chaotic", "intensity": 5, "summary": "Vines descend and attack; the party fights them off and runs"},
+{"start": 60, "type": "flees", "fine": "escapes", "actor": "THEO", "target": "GRANDMAMA", "mood": "triumphant", "intensity": 3, "summary": "They escape the convulsing garden and Grandmama asks to go home"}
+],
+"s00050": [
+{"start": 1, "type": "bonds", "fine": "flirts with", "actor": "DOM", "target": "CELESTE", "mood": "playful", "intensity": 2, "summary": "Dom asks about Celeste's mystery novel and makes her laugh"},
+{"start": 14, "type": "bonds", "fine": "shares a moment with", "actor": "DOM", "target": "CELESTE", "mood": "tender", "intensity": 2, "summary": "A pothole drops her book; Dom returns it and their fingers touch"},
+{"start": 18, "type": "bonds", "fine": "flirts with", "actor": "CELESTE", "target": "DOM", "mood": "hopeful", "intensity": 3, "summary": "At the rest stop they collide, introduce themselves, and discover both go to Chicago"}
+],
+"s01131": [
+{"start": 1, "type": "searches", "fine": "investigates", "actor": "ROXANNE", "target": null, "mood": "ominous", "intensity": 3, "summary": "Roxanne finds that the resurfacer's leak is a trail of blood"},
+{"start": 14, "type": "discovers", "fine": "notices", "actor": "ROXANNE", "target": null, "mood": "fear", "intensity": 4, "summary": "The engine coughs alone and a frost-furred figure uncurls from beneath"},
+{"start": 23, "type": "attacks", "fine": "fights", "actor": "GUS", "target": "FIGURE", "mood": "chaotic", "intensity": 5, "summary": "Gus and Roxanne fight the Figure and are hurled against the wall"},
+{"start": 28, "type": "flees", "fine": "scrambles away", "actor": "TAMSIN", "target": null, "mood": "fear", "intensity": 4, "summary": "They scatter as the Figure patiently folds back under the machine"}
+],
+"s00598": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "TOLLIVER", "target": "ROYCE", "mood": "calm", "intensity": 2, "summary": "Around the fire the travelers bicker about the river and the mule"},
+{"start": 21, "type": "threatens", "fine": "warns", "actor": "TOLLIVER", "target": null, "mood": "ominous", "intensity": 3, "summary": "Tolliver orders everyone to sleep booted; Celestine senses he felt something"},
+{"start": 32, "type": "discovers", "fine": "notices", "actor": "PEARL", "target": "TOLLIVER", "mood": "suspense", "intensity": 4, "summary": "Pearl spots a signaling lantern on the north ridge"},
+{"start": 42, "type": "hides", "fine": "lies low", "actor": "TOLLIVER", "target": null, "mood": "suspense", "intensity": 4, "summary": "They douse the fire and stay silent as the light blinks out"}
+],
+"s01936": [
+{"start": 1, "type": "observes", "fine": "listens to", "actor": "IMOGEN", "target": null, "mood": "fear", "intensity": 3, "summary": "Four people trapped in a dark silo hear something moving"},
+{"start": 14, "type": "confronts", "fine": "demands answers from", "actor": "KATYA", "target": "IMOGEN", "mood": "fear", "intensity": 4, "summary": "Something drags on the ladder and Katya fights Imogen for the light"},
+{"start": 22, "type": "observes", "fine": "waits", "actor": "SILAS", "target": null, "mood": "fear", "intensity": 5, "summary": "They realize it waits for a scream as the flashlight dies"}
+]
+}

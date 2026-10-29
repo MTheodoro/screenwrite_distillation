@@ -1,0 +1,141 @@
+{
+"s00034": [
+{"start":1,"type":"works","fine":"prepares","actor":"HOLLOWAY","target":null,"mood":"tense","intensity":2,"summary":"Captain Holloway and his crew plan a Thursday sailing in a rainy shipyard loft."},
+{"start":16,"type":"confronts","fine":"presses","actor":"JEREMIAH","target":"HOLLOWAY","mood":"tense","intensity":3,"summary":"Vane, Petherbridge and Finch spar over the insured cargo; cabin boy Jeremiah asks what it is."},
+{"start":21,"type":"hides","fine":"keeps a secret","actor":"HOLLOWAY","target":"JEREMIAH","mood":"ominous","intensity":4,"summary":"Holloway says only tea, but hints of Lisbon and a darker cargo; Finch worries."}
+],
+"s01553": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"COACH","target":"JAZZ","mood":"hostile","intensity":3,"summary":"Coach berates her team for being fourteen down and watching the wrong thing."},
+{"start":19,"type":"reveals","fine":"shows","actor":"DEE","target":"COACH","mood":"hopeful","intensity":3,"summary":"Rookie Dee bursts in and reveals the opponent's tell: a dropping left shoulder."},
+{"start":29,"type":"decides","fine":"commits","actor":"JAZZ","target":"COACH","mood":"triumphant","intensity":3,"summary":"Coach and Jazz resolve to hit the tell in the second half."}
+],
+"s01185": [
+{"start":1,"type":"threatens","fine":"intimidates","actor":"STRANGER","target":"SADIE","mood":"tense","intensity":3,"summary":"Sadie meets a stranger at the drive-in, who has brought a hulking friend with a tire iron."},
+{"start":16,"type":"arrives","fine":"shows up unannounced","actor":"ORTEGA","target":"SADIE","mood":"chaotic","intensity":4,"summary":"Detective Ortega steps out ordering hands up, and a brawl erupts amid gunfire."},
+{"start":29,"type":"lies","fine":"misleads","actor":"STRANGER","target":"ORTEGA","mood":"ominous","intensity":3,"summary":"The stranger gives a name, then turns the tables as his truck roars to life."}
+],
+"s01593": [
+{"start":1,"type":"discovers","fine":"finds a clue","actor":"TEDDY","target":null,"mood":"suspense","intensity":2,"summary":"Teddy finds something in a ledger and Ezekiel watches her over his newspaper."},
+{"start":16,"type":"hides","fine":"pockets evidence","actor":"TEDDY","target":"EZEKIEL","mood":"tense","intensity":3,"summary":"She photographs the page; Ezekiel probes her about the ledger's age and clerk."},
+{"start":30,"type":"searches","fine":"questions witnesses","actor":"TEDDY","target":"MIRIAM","mood":"suspense","intensity":3,"summary":"Teddy asks Miriam who else has requested the ledger and learns it went out four times."},
+{"start":44,"type":"leaves","fine":"exits quietly","actor":"TEDDY","target":null,"mood":"ominous","intensity":3,"summary":"Teddy returns the ledger and leaves; Ezekiel requests the same page and photographs it."}
+],
+"s02421": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"WANDA","target":"DELPHINE","mood":"playful","intensity":2,"summary":"Roller derby teammates banter about skating the rival jammer into the wall."},
+{"start":17,"type":"jokes","fine":"riffs with","actor":"GUS","target":"TINY","mood":"playful","intensity":2,"summary":"Announcer Gus asks for name pronunciations and is chased out by the coach."},
+{"start":25,"type":"comforts","fine":"encourages","actor":"WANDA","target":"DELPHINE","mood":"hopeful","intensity":3,"summary":"Wanda tells scared rookie Delphine she is jamming; the coach lays out the plan."},
+{"start":34,"type":"bonds","fine":"teams up with","actor":"WANDA","target":"DELPHINE","mood":"triumphant","intensity":4,"summary":"Whistle blows and the team puts hands in, letting trembling Delphine call the cheer."}
+],
+"s00320": [
+{"start":1,"type":"confronts","fine":"presses","actor":"ODALYS","target":"BRAM","mood":"tense","intensity":3,"summary":"Insurance assessor Odalys presses Bram about an unexplained fire in a sealed cellar."},
+{"start":19,"type":"reveals","fine":"drops a bombshell on","actor":"HESTER","target":"BRAM","mood":"ominous","intensity":4,"summary":"Hester interjects, revealing she holds the burned logbook naming a drowned boy."},
+{"start":36,"type":"attacks","fine":"strikes","actor":"BRAM","target":"HESTER","mood":"hostile","intensity":5,"summary":"Bram smashes the teapot as the secret of the cellar comes out."}
+],
+"s01937": [
+{"start":1,"type":"confronts","fine":"presses","actor":"THEODORE","target":"BERNADETTE","mood":"calm","intensity":2,"summary":"Dr. Abiodun finds patient Bernadette in the MRI suite at night and questions her."},
+{"start":26,"type":"confesses","fine":"owns up to","actor":"THEODORE","target":"BERNADETTE","mood":"melancholy","intensity":4,"summary":"Pressed, Theodore admits she has fourteen to sixteen months and calls himself a coward."},
+{"start":32,"type":"bonds","fine":"shares a moment with","actor":"BERNADETTE","target":"THEODORE","mood":"tender","intensity":3,"summary":"Bernadette takes it calmly and asks him to sit and listen to the machine's hum."}
+],
+"s00256": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"KASPAR","target":"OLGA","mood":"tense","intensity":3,"summary":"Detective Kaspar coolly questions Olga about a poisoned man she knew."},
+{"start":24,"type":"discovers","fine":"finds a clue","actor":"KASPAR","target":"OLGA","mood":"suspense","intensity":4,"summary":"He crosses the cabin, strips her glove and finds a bruise of fingertips."},
+{"start":38,"type":"attacks","fine":"wrestles","actor":"OLGA","target":"KASPAR","mood":"chaotic","intensity":5,"summary":"Olga tears free and they grapple, ending pinned on the bunk with a hairpin at his ribs."},
+{"start":46,"type":"arrives","fine":"makes an entrance","actor":"LAURA","target":null,"mood":"playful","intensity":2,"summary":"Kaspar's wife Laura interrupts and Olga laughs, calling it a different kind of poisoning."}
+],
+"s00146": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BEATRIX","target":"HENRY","mood":"calm","intensity":2,"summary":"Notary Beatrix stamps documents as Henry and son-in-law Dante prepare to sign."},
+{"start":26,"type":"decides","fine":"chooses","actor":"HENRY","target":"DANTE","mood":"tender","intensity":3,"summary":"Henry names Dante trustee for his grandchildren, and Dante hesitantly accepts."},
+{"start":42,"type":"decides","fine":"commits","actor":"HENRY","target":null,"mood":"bittersweet","intensity":3,"summary":"Henry reads the final page slowly and signs; Beatrix stamps it and pours coffee."}
+],
+"s00626": [
+{"start":1,"type":"comforts","fine":"tends to","actor":"IMOGEN","target":"CALLUM","mood":"melancholy","intensity":3,"summary":"Stranded in the desert, Imogen braids a map-strip bracelet for Callum as water runs low."},
+{"start":13,"type":"bonds","fine":"shares a moment with","actor":"CALLUM","target":"IMOGEN","mood":"tender","intensity":3,"summary":"Callum offers her the last of the water; she pushes it back."},
+{"start":17,"type":"discovers","fine":"notices","actor":"IMOGEN","target":"CALLUM","mood":"fear","intensity":5,"summary":"Imogen notices water dripping from the truck and finds the spare jug empty."}
+],
+"s00707": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"VINCE","target":null,"mood":"tense","intensity":2,"summary":"Vince counts cash in the laundry's back room while others work in silence."},
+{"start":12,"type":"confronts","fine":"interrogates","actor":"VINCE","target":"MOE","mood":"tense","intensity":3,"summary":"Vince asks who was supposed to lock up and Moe and Dolly give conflicting answers."},
+{"start":26,"type":"threatens","fine":"looms over","actor":"VINCE","target":"NADIA","mood":"ominous","intensity":4,"summary":"Vince notes Nadia keeps watching the door as the front bell chimes."}
+],
+"s00945": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"PHILOMENA","target":null,"mood":"ominous","intensity":2,"summary":"An unattended NICU phone rings out as Dr. Philomena returns and replays the message."},
+{"start":19,"type":"searches","fine":"examines","actor":"PHILOMENA","target":null,"mood":"suspense","intensity":3,"summary":"She checks the incubators, finds a baby staring at her and then an empty one."},
+{"start":33,"type":"discovers","fine":"uncovers","actor":"PHILOMENA","target":null,"mood":"fear","intensity":5,"summary":"A warm bracelet marked with her name appears, monitors flatline and all incubators stand empty."}
+],
+"s01003": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"HARLAN","target":null,"mood":"suspense","intensity":2,"summary":"Three explorers wade through a flooded crypt as Nola insists there were four."},
+{"start":28,"type":"discovers","fine":"notices","actor":"NOLA","target":null,"mood":"fear","intensity":4,"summary":"The water ripples unnaturally, the stairs vanish and Penny's name appears on the wall."},
+{"start":41,"type":"flees","fine":"hides from","actor":"HARLAN","target":null,"mood":"fear","intensity":5,"summary":"The lanterns go out one by one."}
+],
+"s01606": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"FAITH","target":"DRIFTER","mood":"tense","intensity":2,"summary":"Faith, Walt, June and the Drifter shelter in a cellar of jarred peaches."},
+{"start":13,"type":"reveals","fine":"shows","actor":"DRIFTER","target":"WALT","mood":"ominous","intensity":4,"summary":"The Drifter shows a jar with something alive inside and names himself Ephraim, hinting at what Walt keeps."}
+],
+"s01004": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"WINIFRED","target":"LEOPOLD","mood":"playful","intensity":2,"summary":"Library volunteers Winifred and Leopold find a note in a returned book."},
+{"start":27,"type":"arrives","fine":"slips in","actor":"STRANGER","target":"WINIFRED","mood":"playful","intensity":2,"summary":"A stranger named Caspian, who leaves a note every Tuesday, arrives, followed by Agnes through the chute."},
+{"start":62,"type":"confronts","fine":"calls out","actor":"MURIEL","target":"LEOPOLD","mood":"awkward","intensity":3,"summary":"Strict librarian Muriel enters, sends the lovers out and demands who encouraged them."},
+{"start":75,"type":"bonds","fine":"shares a moment with","actor":"MURIEL","target":null,"mood":"playful","intensity":2,"summary":"Muriel finds a second note in the Dostoevsky and smiles, agreeing to next Tuesday."}
+],
+"s01253": [
+{"start":1,"type":"comforts","fine":"tends to","actor":"MERCEDES","target":"RAMIRO","mood":"calm","intensity":2,"summary":"Doctor Mercedes serves tea to a dying woman's three grown children."},
+{"start":16,"type":"reveals","fine":"breaks news to","actor":"MERCEDES","target":"RAMIRO","mood":"grief","intensity":4,"summary":"Mercedes explains their mother's bright spell is likely a final rally; days remain."},
+{"start":54,"type":"comforts","fine":"consoles","actor":"MERCEDES","target":"CONSTANZA","mood":"tender","intensity":3,"summary":"They ask for the garden and radio; Mercedes grants everything they ask."},
+{"start":70,"type":"works","fine":"cleans","actor":"MERCEDES","target":null,"mood":"bittersweet","intensity":2,"summary":"The siblings leave, and Mercedes alone fits a puzzle piece into place."}
+],
+"s00564": [
+{"start":1,"type":"bonds","fine":"flirts with","actor":"PHOEBE","target":"ROSCOE","mood":"awkward","intensity":2,"summary":"Roscoe and Phoebe, alone on a bus, learn he volunteered to stay with her."},
+{"start":26,"type":"bonds","fine":"teams up with","actor":"PHOEBE","target":"ROSCOE","mood":"tender","intensity":3,"summary":"They count the passing train cars together as she leans against him."},
+{"start":51,"type":"bonds","fine":"shares a moment with","actor":"PHOEBE","target":"ROSCOE","mood":"joyful","intensity":4,"summary":"Their hands interlace as the count climbs until the last car passes."}
+],
+"s01099_1": [
+{"start":1,"type":"observes","fine":"hesitates","actor":"GIDEON","target":null,"mood":"tense","intensity":2,"summary":"Gideon stands tensely at the lectern in a packed appellate courtroom and begins his argument."},
+{"start":7,"type":"confronts","fine":"calls out","actor":"PHILOMENA","target":"GIDEON","mood":"awkward","intensity":2,"summary":"Philomena interrupts Gideon's opening to correct how he addresses the court."}
+],
+"s01760": [
+{"start":1,"type":"attacks","fine":"lunges at","actor":"AURELIO","target":"BEATRIX","mood":"chaotic","intensity":3,"summary":"Rival florists Aurelio and Beatrix collide over a bucket of ranunculus."},
+{"start":15,"type":"bonds","fine":"flirts with","actor":"BEATRIX","target":"AURELIO","mood":"playful","intensity":3,"summary":"His grandmother phones and Beatrix tucks a flower behind his ear."},
+{"start":27,"type":"bonds","fine":"banters with","actor":"AURELIO","target":"BEATRIX","mood":"playful","intensity":3,"summary":"They split the stems and learn their weddings are at the same hour."}
+],
+"s02026": [
+{"start":1,"type":"hides","fine":"lies low","actor":"RENATA","target":null,"mood":"suspense","intensity":3,"summary":"Agent Renata checks a duffel of cash and passports as footsteps climb the stairs."},
+{"start":14,"type":"confronts","fine":"faces off with","actor":"ELIAS","target":"RENATA","mood":"tense","intensity":4,"summary":"Elias and Deputy Hannah arrive; Renata and Elias eye the bag."},
+{"start":24,"type":"attacks","fine":"fights","actor":"RENATA","target":"ELIAS","mood":"chaotic","intensity":5,"summary":"Renata and Elias brawl over the bag while Hannah tries to aim."},
+{"start":42,"type":"decides","fine":"resigns","actor":"RENATA","target":"ELIAS","mood":"bittersweet","intensity":3,"summary":"A siren and Dr. Amara's arrival halt the fight; Renata sits and offers her wrists."}
+],
+"s01515": [
+{"start":1,"type":"works","fine":"prepares","actor":"IMANI","target":"ALARIC","mood":"tense","intensity":3,"summary":"A transplant team runs final checks on a donor-heart cooler on a rooftop helipad."},
+{"start":21,"type":"observes","fine":"takes it in","actor":"SERAPHINA","target":null,"mood":"bittersweet","intensity":3,"summary":"The team boards while Seraphina quietly thanks the donor as the sun rises."}
+],
+"s00462": [
+{"start":1,"type":"observes","fine":"watches","actor":"NELL","target":"JULIAN","mood":"tender","intensity":2,"summary":"At a ballroom dance, Nell and the captain trade glances while her aunt chaperones."},
+{"start":20,"type":"bonds","fine":"flirts with","actor":"JULIAN","target":"NELL","mood":"tender","intensity":3,"summary":"Julian crosses the floor and asks Nell for a dance, which Beatrice allows."},
+{"start":41,"type":"arrives","fine":"bursts in","actor":"PERCIVAL","target":"NELL","mood":"tense","intensity":4,"summary":"Drunk Lord Percival crashes in shouting for Eleanor, bottle in hand, scattering stewards."},
+{"start":57,"type":"defends","fine":"stands up for","actor":"NELL","target":"PERCIVAL","mood":"tense","intensity":4,"summary":"Julian shields Nell; she steps forward and orders Percival to put down the bottle."},
+{"start":71,"type":"bonds","fine":"reconnects with","actor":"JULIAN","target":"NELL","mood":"hopeful","intensity":3,"summary":"Beatrice leads Percival away and Nell takes Julian's hand to resume dancing."}
+],
+"s00674": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"CORA","target":"HARTWIG","mood":"tense","intensity":3,"summary":"A caller through the intercom presses Professor Hartwig about his assistant's disappearance."},
+{"start":23,"type":"reveals","fine":"unmasks","actor":"CORA","target":"HARTWIG","mood":"tense","intensity":4,"summary":"Cora enters, says Daniel Calloway was her brother, and traps Hartwig with a slip of her name."},
+{"start":47,"type":"confesses","fine":"comes clean to","actor":"HARTWIG","target":"CORA","mood":"melancholy","intensity":4,"summary":"Hartwig shows a ledger confession naming the old director and admits his fear."}
+],
+"s00688": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"YUSUF","target":"LENNY","mood":"hostile","intensity":3,"summary":"Estranged siblings and their father argue over the diner being put up for sale."},
+{"start":17,"type":"comforts","fine":"calms","actor":"BEA","target":"YUSUF","mood":"tense","intensity":2,"summary":"Bea restrains Yusuf, who sits; Lenny pours coffee for all."}
+],
+"s00926": [
+{"start":1,"type":"observes","fine":"listens to","actor":"ISADORA","target":"KOFI","mood":"melancholy","intensity":3,"summary":"Isadora and Kofi hear a cease-fire order over the radio and cannot yet believe it."},
+{"start":15,"type":"hides","fine":"masks a feeling","actor":"ISADORA","target":null,"mood":"bittersweet","intensity":2,"summary":"Isadora slowly puts on her socks and asks for a minute before answering."}
+],
+"s00258": [
+{"start":1,"type":"deflects","fine":"stonewalls","actor":"HESTER","target":"AMARA","mood":"calm","intensity":1,"summary":"Hester and Amara share a fire; Hester guardedly asks about her writing and destination."},
+{"start":23,"type":"bonds","fine":"confides in","actor":"HESTER","target":"AMARA","mood":"melancholy","intensity":3,"summary":"Hester tells how her husband rode to Redwater and never returned."},
+{"start":44,"type":"bonds","fine":"teams up with","actor":"AMARA","target":"HESTER","mood":"hopeful","intensity":3,"summary":"Amara insists on going along; Hester laughs and they settle in as a whistle sounds."}
+],
+"s01271": [
+{"start":1,"type":"works","fine":"prepares","actor":"HALASZ","target":"FARQUHAR","mood":"tense","intensity":3,"summary":"Lieutenant Farquhar joins soldiers in a bell tower under threat from enemy tanks."},
+{"start":39,"type":"flees","fine":"hides from","actor":"FARQUHAR","target":null,"mood":"fear","intensity":4,"summary":"Shells hit and they drop flat as the radio is dead and ammo is short."},
+{"start":66,"type":"comforts","fine":"steadies","actor":"HALASZ","target":"LI","mood":"bittersweet","intensity":4,"summary":"A shell rings the bell and panicking Li is steadied by Halasz with grim humor."},
+{"start":84,"type":"decides","fine":"commits","actor":"HALASZ","target":"LI","mood":"suspense","intensity":5,"summary":"Basco finds an unknown radio signal; as a shell hits they take positions and wait."}
+]
+}

@@ -1,0 +1,24 @@
+{
+"s05197": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"Leon","target":"The Woman","mood":"awkward","intensity":2,"summary":"On a crab boat, a woman hunts for signal while Leon and his nephew watch."},
+{"start":7,"type":"deflects","fine":"brushes off","actor":"The Woman","target":"Mum","mood":"playful","intensity":2,"summary":"Her mum calls asking about the fisherman; she dodges questions and hangs up."},
+{"start":30,"type":"jokes","fine":"teases","actor":"Hannah","target":"Leon","mood":"tender","intensity":3,"summary":"Hannah introduces herself, teases Leon about rushing her aboard, and rests a hand on his arm."}
+],
+"s05198_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"Brenda","target":null,"mood":"awkward","intensity":2,"summary":"A fertility clinic waiting room with a receptionist, doctor, and the Feldman couple."},
+{"start":9,"type":"arrives","fine":"bursts in","actor":"Brett","target":"Mara","mood":"awkward","intensity":3,"summary":"Brad's brother Brett barges in with a bouquet, confusing everyone."},
+{"start":20,"type":"leaves","fine":"excuses themself","actor":"Mara","target":"Brad","mood":"tense","intensity":2,"summary":"Brenda allows only one husband; Mara goes in alone with Dr. Vance."},
+{"start":37,"type":"hides","fine":"keeps a secret","actor":"Brad","target":"Brett","mood":"chaotic","intensity":4,"summary":"Brad hides a warning text from Brett and they grapple, flinging the bouquet into the tank."}
+],
+"s05198_1": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"Mara","target":"Dr. Vance","mood":"suspense","intensity":4,"summary":"Mara spots a vial labeled Feldman and presses Dr. Vance on whose it is."},
+{"start":17,"type":"arrives","fine":"bursts in","actor":"Brad","target":"Dr. Vance","mood":"chaotic","intensity":4,"summary":"Brad and Brett burst in, overlapping protests as Vance reaches into his coat."},
+{"start":27,"type":"discovers","fine":"catches","actor":"Brenda","target":"Dr. Vance","mood":"tense","intensity":4,"summary":"Brenda announces the police, Vance's smile falls, and Brett surrenders his bouquet."}
+],
+"s05199": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"Kit","target":"Jo","mood":"awkward","intensity":2,"summary":"During a blackout Kit and Jo scramble to finish a soccer lineup on a dying laptop."},
+{"start":21,"type":"bonds","fine":"teams up with","actor":"Jo","target":"Kit","mood":"playful","intensity":2,"summary":"Jo bullies a dead marker into working while Kit holds the light."},
+{"start":38,"type":"decides","fine":"commits","actor":"Kit","target":"Jo","mood":"chaotic","intensity":3,"summary":"With 2 percent battery, they lunge for the keyboard and send an unsure lineup."},
+{"start":53,"type":"bonds","fine":"shares a moment with","actor":"Kit","target":"Jo","mood":"joyful","intensity":2,"summary":"The power returns and they laugh, settling on peas for dinner."}
+]
+}

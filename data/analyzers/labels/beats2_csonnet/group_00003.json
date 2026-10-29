@@ -1,0 +1,163 @@
+{
+"s05097_0": [
+{"start":1,"type":"observes","fine":"waits","actor":"Darnell","target":null,"mood":"tense","intensity":2,"summary":"Darnell, eleven years inside, waits in the parole office, studying the floor."},
+{"start":8,"type":"arrives","fine":"makes an entrance","actor":"Cruz","target":"Darnell","mood":"calm","intensity":1,"summary":"Officer Cruz appears and kindly calls Darnell back; he follows."}
+],
+"s05097_1": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"Cruz","target":"Darnell","mood":"calm","intensity":2,"summary":"Cruz asks Darnell about the halfway house while Gideon pretends to type."},
+{"start":12,"type":"observes","fine":"listens to","actor":"Darnell","target":null,"mood":"ominous","intensity":3,"summary":"Darnell hears ticking in the ceiling; Cruz dismisses it as pipes."},
+{"start":23,"type":"confronts","fine":"presses","actor":"Gideon","target":"Darnell","mood":"hostile","intensity":2,"summary":"Gideon checks Darnell's employment slip and snaps at him over 'sir'."},
+{"start":31,"type":"arrives","fine":"slips in","actor":"Marisol","target":"Cruz","mood":"awkward","intensity":1,"summary":"Intern Marisol brings the clean drug screen and lingers until Cruz shoos her."},
+{"start":38,"type":"confesses","fine":"opens up to","actor":"Darnell","target":"Cruz","mood":"tender","intensity":3,"summary":"Darnell admits he counted ceiling tiles inside; Cruz gently reassures him."},
+{"start":44,"type":"leaves","fine":"leaves","actor":"Darnell","target":"Cruz","mood":"bittersweet","intensity":3,"summary":"Darnell thanks Cruz, walks out, and Gideon blames the pipes for another tick."}
+],
+"s05098": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"Teo","target":"Alex","mood":"playful","intensity":2,"summary":"Teo and his child Alex work the warehouse bay, trading gentle banter."},
+{"start":10,"type":"observes","fine":"takes it in","actor":"Keiko","target":"Teo","mood":"tense","intensity":2,"summary":"Keiko warns over the PA about the audit and appears with a clipboard."},
+{"start":17,"type":"confesses","fine":"owns up to","actor":"Alex","target":"Teo","mood":"fear","intensity":3,"summary":"Alex drops a fragile box; it cracks and everyone freezes."},
+{"start":24,"type":"comforts","fine":"reassures","actor":"Teo","target":"Alex","mood":"tender","intensity":3,"summary":"Keiko sends them home; Teo reassures tearful Alex that nobody is fired."}
+],
+"s05099_0": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"Karina","target":"Kari","mood":"playful","intensity":2,"summary":"Karina and Kari, two nurses with confusable names, bicker at reception."},
+{"start":15,"type":"bonds","fine":"shares a moment with","actor":"Dev","target":"Mira","mood":"tender","intensity":2,"summary":"Dev and Mira arrive nervous, joking about his mother's specific prayers."},
+{"start":24,"type":"observes","fine":"waits","actor":"Dev","target":null,"mood":"awkward","intensity":2,"summary":"Hours of waiting pass as the couple fidget and nurses squabble over a chart."},
+{"start":41,"type":"bonds","fine":"confides in","actor":"Dev","target":"Mira","mood":"hopeful","intensity":3,"summary":"Dr. Fontaine calls them in; Dev and Mira trade scared declarations of love."}
+],
+"s05099_1": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"Mira","target":"Dev","mood":"joyful","intensity":3,"summary":"Three weeks later Mira shows Dev a positive test; they laugh and embrace."},
+{"start":13,"type":"arrives","fine":"bursts in","actor":"Courier","target":null,"mood":"chaotic","intensity":4,"summary":"A nervous courier bursts in with a cooler, setting off a hallway scramble."},
+{"start":35,"type":"reveals","fine":"shows","actor":"Dev","target":"Mira","mood":"tender","intensity":3,"summary":"The cooler holds flowers and a card from Dev's mother, and everyone softens."}
+],
+"s05100": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"Okafor","target":"Lena","mood":"awkward","intensity":2,"summary":"Okafor and Lena trade dry banter at the rooftop bar after her late shift."},
+{"start":10,"type":"leaves","fine":"excuses themself","actor":"Lena","target":"Okafor","mood":"melancholy","intensity":3,"summary":"A hospital call pulls Lena away; Okafor sends her off, resigned."},
+{"start":24,"type":"accuses","fine":"exposes","actor":"Webb","target":"Okafor","mood":"tense","intensity":4,"summary":"Sergeant Webb charges in with evidence that the murder ring was Okafor's."}
+],
+"s05101": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"Kim","target":"Kip","mood":"awkward","intensity":2,"summary":"Kim objects to the documentary camera filming her client Jen."},
+{"start":14,"type":"reveals","fine":"breaks news to","actor":"Kim","target":"Jen","mood":"tense","intensity":3,"summary":"Kim tells Jen her partner Mo's record violates her parole terms."},
+{"start":21,"type":"confesses","fine":"opens up to","actor":"Jen","target":"Kim","mood":"tender","intensity":4,"summary":"Jen admits she loves Mo, the first honest thing she has said there."},
+{"start":24,"type":"decides","fine":"changes course","actor":"Kim","target":"Jen","mood":"hopeful","intensity":3,"summary":"Kim closes the folder and has Jen sign, skipping the damning second page."}
+],
+"s05104": [
+{"start":1,"type":"works","fine":"drives","actor":"Jamal","target":null,"mood":"calm","intensity":1,"summary":"Jamal drives four tipsy teens home through the rainy night."},
+{"start":5,"type":"mocks","fine":"needles","actor":"Ruben","target":"Cole","mood":"awkward","intensity":2,"summary":"Ruben and Bianca tease Cole about his drunken confession at the party."},
+{"start":10,"type":"pleads","fine":"asks for help from","actor":"Mika","target":"Jamal","mood":"melancholy","intensity":3,"summary":"Mika asks to be dropped first so no one sees her cry; Jamal agrees."}
+],
+"s05106": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"Boz","target":"Cal","mood":"playful","intensity":2,"summary":"Boz teases Cal at the gym while a silent woman sits on a mat."},
+{"start":5,"type":"observes","fine":"studies","actor":"Boz","target":null,"mood":"awkward","intensity":2,"summary":"Cal, Boz and Pat gossip about the woman who just sits there with her bag."},
+{"start":16,"type":"reveals","fine":"presents evidence to","actor":"Ines","target":"Cal","mood":"tense","intensity":3,"summary":"Ines, a nurse, returns Cal's pills and spots that he took a double dose."},
+{"start":23,"type":"leaves","fine":"exits quietly","actor":"Ines","target":null,"mood":"melancholy","intensity":2,"summary":"Ines leaves; Boz quietly tells shaken Cal to sit down."}
+],
+"s05107": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"Sam","target":"Jen","mood":"tense","intensity":2,"summary":"In a rattling moving van Sam frets over the valuable clock with Jen."},
+{"start":21,"type":"discovers","fine":"uncovers","actor":"Mrs. K","target":"Sam","mood":"chaotic","intensity":3,"summary":"Old Mrs. K emerges from hiding behind the dresser, refusing to leave her clock."},
+{"start":28,"type":"observes","fine":"takes it in","actor":"Jen","target":"Lou","mood":"tense","intensity":3,"summary":"Dispatch calls Jen about the missing client; the van then brakes hard."},
+{"start":39,"type":"bonds","fine":"shares a moment with","actor":"Mrs. K","target":"Sam","mood":"tender","intensity":3,"summary":"A rainbow appears and Mrs. K and Sam share a quiet understanding."}
+],
+"s05108": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"Wendell","target":null,"mood":"melancholy","intensity":2,"summary":"A disgraced surgeon waits in the drab parole office with his wife."},
+{"start":8,"type":"pleads","fine":"appeals to","actor":"Wendell","target":"Bell","mood":"tense","intensity":4,"summary":"Wendell begs Officer Bell to let him sit with a dying patient."},
+{"start":14,"type":"decides","fine":"changes course","actor":"Bell","target":"Wendell","mood":"hopeful","intensity":3,"summary":"Bell stalls, then steps out so Wendell can leave unseen."}
+],
+"s05110": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"Mrs. K","target":null,"mood":"calm","intensity":1,"summary":"The nail salon fills with regulars through a slow afternoon."},
+{"start":17,"type":"discovers","fine":"notices","actor":"Tasha","target":"Lily","mood":"suspense","intensity":3,"summary":"Tasha notices Lily sweating and shaky, and asks if she is okay."},
+{"start":29,"type":"attacks","fine":"grabs","actor":"Tasha","target":"Lily","mood":"chaotic","intensity":5,"summary":"Lily collapses; Tasha takes charge amid panic and shattered polish."},
+{"start":36,"type":"observes","fine":"waits","actor":"Tasha","target":"Lily","mood":"hopeful","intensity":3,"summary":"Lily's chest rises again as sirens approach."}
+],
+"s05112": [
+{"start":1,"type":"confesses","fine":"unburdens to","actor":"Donna","target":null,"mood":"awkward","intensity":3,"summary":"Donna records a rambling culture-review statement full of forced cheer."},
+{"start":11,"type":"accuses","fine":"condemns","actor":"Donna","target":null,"mood":"hostile","intensity":3,"summary":"She lists her grievances, ending in a furious plea to be heard."},
+{"start":15,"type":"hides","fine":"masks a feeling","actor":"Donna","target":null,"mood":"awkward","intensity":3,"summary":"Interrupted at the door, Donna composes herself and cheerfully ends the call."}
+],
+"s05113": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"Kim","target":null,"mood":"ominous","intensity":2,"summary":"A quiet hospital corridor with a charge nurse, an orderly, and a sleeping visitor."},
+{"start":6,"type":"confronts","fine":"demands answers from","actor":"Marguerite","target":"Kim","mood":"tense","intensity":3,"summary":"Marguerite demands the patient in 412; Ozzie says he went down hours ago."},
+{"start":15,"type":"discovers","fine":"finds a clue","actor":"Marguerite","target":null,"mood":"fear","intensity":4,"summary":"The signature is wet, 412's call light chimes, and Dr. Hale emerges."},
+{"start":26,"type":"observes","fine":"takes it in","actor":"Dr. Hale","target":null,"mood":"ominous","intensity":4,"summary":"The lights flicker and the sleeping visitor vanishes."}
+],
+"s05114": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"Pam","target":"Lou","mood":"calm","intensity":1,"summary":"Pam does Lou's nails in a cold, rainy salon."},
+{"start":20,"type":"observes","fine":"listens to","actor":"Lou","target":"Pam","mood":"ominous","intensity":3,"summary":"They hear scraping from the back room; Pam brushes it off."},
+{"start":34,"type":"arrives","fine":"makes an entrance","actor":"Gus","target":"Pam","mood":"fear","intensity":4,"summary":"Soaked, grinning Gus arrives and the pedicure jets switch on by themselves."}
+],
+"s05115": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"Weems","target":null,"mood":"suspense","intensity":2,"summary":"Detective Weems enters the quiet corridor and checks room 714."},
+{"start":12,"type":"reveals","fine":"breaks news to","actor":"Claire","target":"Weems","mood":"tense","intensity":3,"summary":"Claire bursts in with the bellhop's story of a woman with a violin case."},
+{"start":25,"type":"hides","fine":"keeps a secret","actor":"Claire","target":"Weems","mood":"suspense","intensity":4,"summary":"Warning texts arrive; Claire refuses to show Weems her phone."},
+{"start":37,"type":"reveals","fine":"shows","actor":"Ricky","target":"Weems","mood":"fear","intensity":4,"summary":"Bloody Ricky exits the elevator and Claire runs for the stairwell."},
+{"start":50,"type":"decides","fine":"makes a plan","actor":"Weems","target":"Ricky","mood":"ominous","intensity":4,"summary":"Weems admits he knew; they chase Claire as a shadow with a violin case appears."}
+],
+"s05116": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"Wally","target":"Ines","mood":"playful","intensity":2,"summary":"Costumed Wally and dry night nurse Ines trade barbs at the station."},
+{"start":23,"type":"discovers","fine":"recognizes","actor":"Ines","target":"Wally","mood":"tense","intensity":3,"summary":"Ines slides over a chart for the unknown Mr. Alder and grows rattled."},
+{"start":47,"type":"confesses","fine":"opens up to","actor":"Ines","target":"Wally","mood":"melancholy","intensity":4,"summary":"Ines admits Alder saved her in a flood and goes to his room."}
+],
+"s05117": [
+{"start":1,"type":"hides","fine":"conceals something","actor":"Jo","target":"Ray","mood":"tense","intensity":3,"summary":"Jo tries to slip out of the clinic but guard Ray blocks her."},
+{"start":19,"type":"discovers","fine":"catches","actor":"Ray","target":"Jo","mood":"chaotic","intensity":4,"summary":"The alarm trips and Bea sprints out with a cryogenic canister."},
+{"start":36,"type":"threatens","fine":"intimidates","actor":"Vic","target":"Jo","mood":"fear","intensity":5,"summary":"Director Vic enters with a keycard; Jo and Bea shove past and bolt."}
+],
+"s05119": [
+{"start":1,"type":"hides","fine":"conceals something","actor":"Pip","target":null,"mood":"suspense","intensity":2,"summary":"Pip hides a talking bag on a packed subway while her mom texts."},
+{"start":22,"type":"searches","fine":"questions witnesses","actor":"Mabel","target":"Pip","mood":"tense","intensity":3,"summary":"Knitting Mabel notices the loud bag and gently calls Pip's bluff."},
+{"start":30,"type":"reveals","fine":"unmasks","actor":"Zed","target":"Mabel","mood":"playful","intensity":4,"summary":"The lights fail and robot Zed emerges and greets Mabel, who knows him."}
+],
+"s05120": [
+{"start":1,"type":"works","fine":"prepares","actor":"Cal","target":null,"mood":"calm","intensity":1,"summary":"Veterinarian Cal tends a sleeping hound in the rainy clinic."},
+{"start":10,"type":"arrives","fine":"makes an entrance","actor":"Cole","target":"Cal","mood":"tense","intensity":3,"summary":"Cole enters from the dark; the old friends trade tight, polite remarks."},
+{"start":31,"type":"bonds","fine":"reminisces with","actor":"Cole","target":"Cal","mood":"bittersweet","intensity":3,"summary":"Cole recalls the mare they pulled from the river years ago."},
+{"start":49,"type":"threatens","fine":"looms over","actor":"Cole","target":"Cal","mood":"ominous","intensity":4,"summary":"Cole eyes the heavy pouch in Cal's saddle bag."},
+{"start":64,"type":"reveals","fine":"presents evidence to","actor":"Cal","target":"Cole","mood":"suspense","intensity":4,"summary":"The marshal's call warns of Cole; Cal says he knew and made coffee."},
+{"start":87,"type":"confronts","fine":"calls out","actor":"Cal","target":"Cole","mood":"tense","intensity":5,"summary":"Cal reveals the hound is the dog Cole shot, hand hidden under the counter."},
+{"start":108,"type":"decides","fine":"gives an order","actor":"Cal","target":"Cole","mood":"bittersweet","intensity":3,"summary":"Cole backs down and leaves the pouch; Cal was holding dog biscuits."}
+],
+"s05121": [
+{"start":1,"type":"confronts","fine":"presses","actor":"Dana","target":"Eli","mood":"tense","intensity":3,"summary":"Officer Dana presses Eli on missed check-ins while his brother Ellis hovers."},
+{"start":17,"type":"reveals","fine":"breaks news to","actor":"Sgt. Hayes","target":"Eli","mood":"hostile","intensity":4,"summary":"Sergeant Hayes announces by phone that Eli's appeal was denied; Ellis erupts."},
+{"start":37,"type":"pleads","fine":"appeals to","actor":"Eli","target":"Sgt. Hayes","mood":"melancholy","intensity":4,"summary":"Eli quietly reminds Hayes what he did and asks for a pen stroke."},
+{"start":49,"type":"attacks","fine":"shoves","actor":"Ellis","target":null,"mood":"chaotic","intensity":4,"summary":"Ellis kicks over a chair and rages before Eli sends him out."},
+{"start":62,"type":"hides","fine":"masks a feeling","actor":"Eli","target":"Dana","mood":"bittersweet","intensity":3,"summary":"Eli composes himself and asks what he needs to sign."}
+],
+"s05122": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"Tim","target":"Tom","mood":"tense","intensity":3,"summary":"Boxer Tim freezes at the microphone, unable to voice his lyrics."},
+{"start":32,"type":"comforts","fine":"steadies","actor":"Tom","target":"Tim","mood":"tender","intensity":3,"summary":"Trainer Tom fixes Tim's collar, hinting at Tim's father's fear."},
+{"start":51,"type":"confesses","fine":"opens up to","actor":"Tim","target":"Tom","mood":"hopeful","intensity":4,"summary":"Tim finally speaks his fear into the beat and defies it."}
+],
+"s05123": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"Lia","target":"Priya","mood":"playful","intensity":2,"summary":"The nervous esports team squabbles at the loud finals stage."},
+{"start":13,"type":"defends","fine":"pushes back on","actor":"Priya","target":"Zed","mood":"awkward","intensity":2,"summary":"Zed insists on always going left; Priya objects and Omar jokes about pizza."},
+{"start":28,"type":"observes","fine":"waits","actor":"Zed","target":null,"mood":"suspense","intensity":3,"summary":"The countdown begins and they whisper their conflicting strategies."}
+],
+"s05124": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"Nell","target":null,"mood":"suspense","intensity":3,"summary":"Nell walks the backstage corridor sensing something wrong."},
+{"start":35,"type":"discovers","fine":"realizes","actor":"Nell","target":"Neil","mood":"fear","intensity":4,"summary":"Neil appears smiling wrongly, though Rook says Neil is in the van."},
+{"start":53,"type":"threatens","fine":"menaces","actor":"Bram","target":"Nell","mood":"ominous","intensity":5,"summary":"Guard Bram asks who is not on his list, then the lights die and a shot rings."}
+],
+"s05125": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"Gloria","target":"Harlan","mood":"playful","intensity":1,"summary":"Parole officer Gloria meets twin brothers in matching ties, narrating dryly."},
+{"start":11,"type":"jokes","fine":"amuses","actor":"Frank","target":"Gloria","mood":"tender","intensity":1,"summary":"Gloria's husband calls to ask if she ate while Harlan sips an empty cup."}
+],
+"s05127": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"Leo","target":null,"mood":"suspense","intensity":3,"summary":"Undercover Leo takes position at the afterparty while a countdown runs in his ear."},
+{"start":19,"type":"lies","fine":"plays along with","actor":"Leo","target":null,"mood":"tense","intensity":3,"summary":"A terrier and a waiter nearly distract Leo; he stays calm and sips champagne."},
+{"start":34,"type":"decides","fine":"commits","actor":"Leon","target":"Leo","mood":"chaotic","intensity":4,"summary":"On the mark the lights die and Leo vanishes."}
+],
+"s05128": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"Ash","target":null,"mood":"calm","intensity":1,"summary":"Teens ride the rainy night bus; Bri's mom texts."},
+{"start":13,"type":"mocks","fine":"needles","actor":"Ash","target":"Teo","mood":"tense","intensity":2,"summary":"Ash, Bri and Teo bicker over noise and a mysterious video."},
+{"start":32,"type":"discovers","fine":"notices","actor":"Ash","target":"Bri","mood":"fear","intensity":4,"summary":"Ash notices the bus has left its route; the driver tells them to sit."}
+],
+"s05130": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"Priya","target":"Hollis","mood":"chaotic","intensity":3,"summary":"Fired employees ride in a moving van, trading absurd corporate remarks."},
+{"start":11,"type":"accuses","fine":"turns on","actor":"Marisol","target":"Hollis","mood":"chaotic","intensity":4,"summary":"Dispatch says zero employees aboard; Marisol demands what Hollis told them."},
+{"start":17,"type":"decides","fine":"gives an order","actor":"Tomasz","target":null,"mood":"chaotic","intensity":5,"summary":"Tomasz slams the brakes and orders everyone out."}
+],
+"s05132": [
+{"start":1,"type":"works","fine":"cooks","actor":"Pauline","target":"June","mood":"calm","intensity":1,"summary":"Pauline runs her chip van with grandchild June on a drizzly afternoon."},
+{"start":11,"type":"arrives","fine":"makes an entrance","actor":"Graham","target":"Pauline","mood":"tense","intensity":3,"summary":"Council man Graham arrives about the pitch; June guesses it is sold."},
+{"start":21,"type":"hides","fine":"masks a feeling","actor":"Pauline","target":"Graham","mood":"ominous","intensity":3,"summary":"Pauline smiles fixedly and insists he eat free chips; he complies."}
+]
+}

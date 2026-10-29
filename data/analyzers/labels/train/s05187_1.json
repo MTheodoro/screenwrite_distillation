@@ -1,0 +1,31 @@
+{
+  "scene_id": "s05187_1",
+  "cast": {"RHEA": "RHEA", "TAVI": "TAVI", "RECEPTIONIST": "RECEPTIONIST", "OSEI": "OSEI", "osei": "OSEI", "Osei": "OSEI", "dog": "DOG"},
+  "beats": [1, 6, 10, 12, 16, 20, 22],
+  "lines": {
+    "1": {"t": "A", "who": ["RHEA"], "emo": {}, "c": 0.95},
+    "2": {"t": "A", "who": ["RHEA"], "emo": {}, "c": 0.95},
+    "3": {"to": ["TAVI"], "emo": ["neutral", 0.4], "c": 0.9},
+    "4": {"to": ["RHEA"], "emo": ["neutral", 0.4], "c": 0.9},
+    "5": {"to": ["TAVI"], "emo": ["sadness", 0.5], "c": 0.9},
+    "6": {"t": "A", "who": ["TAVI"], "emo": {"TAVI": ["fear", 0.3]}, "c": 0.9},
+    "7": {"to": ["RHEA"], "emo": ["anger", 0.5], "c": 0.85},
+    "8": {"to": ["TAVI"], "emo": ["neutral", 0.3], "c": 0.8},
+    "9": {"to": ["RHEA"], "emo": ["anger", 0.7], "c": 0.9},
+    "10": {"t": "A", "who": ["OSEI"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["OSEI"], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "13": {"to": ["RHEA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "14": {"to": ["RECEPTIONIST"], "emo": ["neutral", 0.4], "c": 0.7},
+    "15": {"to": ["RHEA"], "emo": ["fear", 0.4], "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "18": {"t": "A", "who": ["TAVI"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["RHEA"], "emo": {}, "c": 0.95},
+    "20": {"to": ["TAVI"], "emo": ["anger", 0.4], "c": 0.9},
+    "21": {"to": ["RHEA"], "emo": ["neutral", 0.5], "c": 0.9},
+    "22": {"t": "A", "who": ["DOG"], "emo": {}, "c": 0.9},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [40, 55, 35, 55, 65, 60, 75]
+}

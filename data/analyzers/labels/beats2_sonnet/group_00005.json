@@ -1,0 +1,130 @@
+{
+"s01167": [
+{"start":1,"type":"works","fine":"prepares","actor":"SOLENE DUBOIS","target":null,"mood":"calm","intensity":2,"summary":"Solene prepares at a speed-climbing wall, then climbs and slightly misses the record."},
+{"start":23,"type":"bonds","fine":"reminisces with","actor":"SOLENE DUBOIS","target":null,"mood":"tender","intensity":3,"summary":"A tape of her younger self advises her to breathe and race yesterday's Solene."},
+{"start":39,"type":"works","fine":"works","actor":"SOLENE DUBOIS","target":null,"mood":"triumphant","intensity":4,"summary":"She climbs again, breathes at the third hold, and beats the record."}
+],
+"s00748": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"ARCHIBALD DRUMMOND","target":"HORTENSE BELLWEATHER","mood":"tense","intensity":2,"summary":"Archibald phones Hortense from the opposing tower, smugly claiming her account."},
+{"start":32,"type":"reveals","fine":"drops a bombshell on","actor":"ARCHIBALD DRUMMOND","target":"HORTENSE BELLWEATHER","mood":"hostile","intensity":3,"summary":"He holds up the reorganisation binder and announces she now reports to him."},
+{"start":47,"type":"decides","fine":"resigns","actor":"HORTENSE BELLWEATHER","target":"ARCHIBALD DRUMMOND","mood":"triumphant","intensity":4,"summary":"Hortense writes I RESIGN, shows it through the window, and leaves."}
+],
+"s00730": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"ORRIN THISTLEDOWN","target":null,"mood":"melancholy","intensity":2,"summary":"Old Orrin enters his late friend's abandoned wizard library."},
+{"start":13,"type":"discovers","fine":"uncovers","actor":"ORRIN THISTLEDOWN","target":null,"mood":"tender","intensity":3,"summary":"He reads a letter saying the lonely book will open only for him."},
+{"start":23,"type":"bonds","fine":"reconnects with","actor":"ORRIN THISTLEDOWN","target":null,"mood":"hopeful","intensity":3,"summary":"The book glows and turns its pages as Orrin sits down to read."}
+],
+"s01818": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"CALEB MONTOYA-HART","target":"FATHER EMILIO DUARTE","mood":"calm","intensity":2,"summary":"A rancher and granddaughter meet a wandering priest in a ruined mission courtyard."},
+{"start":36,"type":"confesses","fine":"opens up to","actor":"CALEB MONTOYA-HART","target":"FATHER EMILIO DUARTE","mood":"melancholy","intensity":3,"summary":"Caleb explains he came to scatter his wife's ashes where they married."},
+{"start":47,"type":"works","fine":"goes through routine","actor":"FATHER EMILIO DUARTE","target":"CALEB MONTOYA-HART","mood":"grief","intensity":4,"summary":"The priest blesses the scattering and the ashes drift into the last light."}
+],
+"s02391": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"THEO ANDRZEJEWSKI","target":"GABRIEL ROSSETTI-OKEKE","mood":"playful","intensity":2,"summary":"Engaged couple sample wedding cakes, quickly choosing almond and lemon."},
+{"start":23,"type":"confesses","fine":"opens up to","actor":"THEO ANDRZEJEWSKI","target":"GABRIEL ROSSETTI-OKEKE","mood":"tender","intensity":3,"summary":"Theo admits he only wanted the excuse to watch Gabriel choose."},
+{"start":29,"type":"jokes","fine":"amuses","actor":"GABRIEL ROSSETTI-OKEKE","target":"THEO ANDRZEJEWSKI","mood":"playful","intensity":3,"summary":"Gabriel presses lemon cake into his own face; the chef deadpans."}
+],
+"s01137": [
+{"start":1,"type":"hides","fine":"conceals something","actor":"SUKI","target":null,"mood":"suspense","intensity":2,"summary":"Posing as tourists, Suki and Moses discuss their plan to steal a rare orchid."},
+{"start":20,"type":"confronts","fine":"calls out","actor":"ULRICH","target":"SUKI","mood":"tense","intensity":3,"summary":"The gardener Ulrich reveals he knows their plan and that the orchid isn't the last."},
+{"start":30,"type":"persuades","fine":"bargains with","actor":"ULRICH","target":"MOSES","mood":"hopeful","intensity":3,"summary":"Ulrich offers a real cutting if they leave the blue pot, and leads them on."}
+],
+"s01629": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"CRANE","target":null,"mood":"tense","intensity":3,"summary":"Five people barricade a telegraph office as a stampede shakes the floor."},
+{"start":8,"type":"discovers","fine":"notices","actor":"NELL FENTON","target":"CRANE","mood":"ominous","intensity":3,"summary":"The telegraph repeats hold, and a voice like dead Tommy calls from outside."},
+{"start":18,"type":"threatens","fine":"holds at gunpoint","actor":"CRANE","target":null,"mood":"suspense","intensity":4,"summary":"They brace with weapons as the roar rises, then passes and the key says all clear."}
+],
+"s00758": [
+{"start":1,"type":"works","fine":"works","actor":"SAOIRSE KEANE","target":"EUSTACE QUINN","mood":"calm","intensity":2,"summary":"Staff begin an MRI scan on elderly patient Eustace Quinn."},
+{"start":15,"type":"discovers","fine":"finds a clue","actor":"DELPHINE ABERNATHY","target":"SAOIRSE KEANE","mood":"hopeful","intensity":3,"summary":"The image shows it is not a tumour and the radiologists smile."},
+{"start":22,"type":"attacks","fine":"grabs","actor":"EUSTACE QUINN","target":null,"mood":"chaotic","intensity":4,"summary":"The magnet yanks his ring and the table; they halt it and free him."}
+],
+"s02273": [
+{"start":1,"type":"accuses","fine":"accuses","actor":"TONINO FERRARI","target":"MARCELLO DELUCA","mood":"hostile","intensity":2,"summary":"On a ferry bocce court, Tonino accuses brother-in-law Marcello of nudging the pallino."},
+{"start":15,"type":"attacks","fine":"strikes","actor":"TONINO FERRARI","target":"MARCELLO DELUCA","mood":"hostile","intensity":3,"summary":"Luca measures Marcello closer; Tonino knocks Marcello's bowl into the sea."}
+],
+"s02034": [
+{"start":1,"type":"observes","fine":"waits","actor":"MARCEL","target":"GERT","mood":"suspense","intensity":3,"summary":"At the championship's last frame, Marcel needs a spare while Gert scowls."},
+{"start":14,"type":"defends","fine":"holds the line against","actor":"MARCEL","target":"GERT","mood":"tense","intensity":3,"summary":"His throw leaves three pins; Gert smirks."},
+{"start":24,"type":"attacks","fine":"lunges at","actor":"MARCEL","target":null,"mood":"chaotic","intensity":4,"summary":"Marcel hurls the ball in rage and it ricochets to topple the standing pins."},
+{"start":31,"type":"bonds","fine":"shares a moment with","actor":"GERT","target":"MARCEL","mood":"joyful","intensity":3,"summary":"They laugh, the throw counts, and rivals Gert and Marcel shake hands."}
+],
+"s01337": [
+{"start":1,"type":"works","fine":"prepares","actor":"MADAME CORDELIA OSTERHOUT","target":null,"mood":"ominous","intensity":2,"summary":"A medium opens a seance in a lighthouse parlor as the table knocks."},
+{"start":16,"type":"pleads","fine":"calls for","actor":"COMMODORE FENN","target":"LADY MIRIAM FENN","mood":"tense","intensity":3,"summary":"The Commodore asks if dead Edmund is present; Lady Miriam begs him to stop."},
+{"start":30,"type":"leaves","fine":"storms out","actor":"LADY MIRIAM FENN","target":null,"mood":"ominous","intensity":4,"summary":"The candle lies flat and Miriam walks out onto the gallery."},
+{"start":37,"type":"reveals","fine":"unmasks","actor":"MADAME CORDELIA OSTERHOUT","target":"MISS THEODORA CRANE","mood":"suspense","intensity":4,"summary":"Madame tells Theodora she never said Miriam was her mother."}
+],
+"s00158_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"calm","intensity":1,"summary":"A canvas dentist tent on a muddy hill advertises teeth pulled for two dollars."}
+],
+"s00342": [
+{"start":1,"type":"accuses","fine":"calls out","actor":"NONNA FILOMENA","target":"BIG WALT","mood":"playful","intensity":2,"summary":"Nonna and Big Walt clash on a bocce court over whose ball is closer."},
+{"start":21,"type":"bonds","fine":"teams up with","actor":"NONNA FILOMENA","target":"BIG WALT","mood":"playful","intensity":2,"summary":"Darius measures for Nonna, and she shares her espresso thermos with Walt."}
+],
+"s00269": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"WOMAN","target":"MAN","mood":"tense","intensity":3,"summary":"A bloodied woman joins an armed man in a freight elevator."},
+{"start":26,"type":"confronts","fine":"interrogates","actor":"WOMAN","target":"MAN","mood":"hostile","intensity":4,"summary":"She searches his folio, finds a false identity, and demands his real name."},
+{"start":38,"type":"attacks","fine":"fights","actor":"WOMAN","target":"MAN","mood":"chaotic","intensity":4,"summary":"The lights die and they scuffle; she pins him by the throat."},
+{"start":51,"type":"bonds","fine":"reconnects with","actor":"NAOMI","target":"STEFAN","mood":"bittersweet","intensity":4,"summary":"He is her brother Stefan; she slaps then hugs him after eleven years."}
+],
+"s00446": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"SOLOMON","target":"FIONNUALA BRADY","mood":"tense","intensity":3,"summary":"An agent escorts a scientist with a cuffed briefcase down an elevator."},
+{"start":16,"type":"attacks","fine":"ambushes","actor":"JANITOR","target":"SOLOMON","mood":"chaotic","intensity":4,"summary":"A janitor draws a blade from his mop and Solomon beats him in the dark."},
+{"start":44,"type":"leaves","fine":"exits quietly","actor":"SOLOMON","target":"FIONNUALA BRADY","mood":"tense","intensity":2,"summary":"In the lobby Solomon uncuffs the briefcase, hands it over, and walks out."}
+],
+"s02454": [
+{"start":1,"type":"works","fine":"prepares","actor":"DOROTHEA PELLEGRINO","target":"STANLEY PELLEGRINO","mood":"tense","intensity":2,"summary":"At a funeral reception, Dorothea bosses siblings preparing food in the basement kitchen."},
+{"start":24,"type":"accuses","fine":"blames","actor":"DOROTHEA PELLEGRINO","target":"STANLEY PELLEGRINO","mood":"hostile","intensity":4,"summary":"Dorothea blames Stanley for not helping with bills or their mother's illness."},
+{"start":31,"type":"comforts","fine":"calms","actor":"ROSALIND VANCOUVER-ADEYEMI","target":"DOROTHEA PELLEGRINO","mood":"bittersweet","intensity":3,"summary":"Rosalind stops the fight; they recall Mama loved a fight and carry dishes up."}
+],
+"s00664": [
+{"start":1,"type":"confesses","fine":"opens up to","actor":"CASSIDY ODEKUNLE","target":"ELI","mood":"melancholy","intensity":3,"summary":"On a rooftop, Cassidy admits she left prom after being mocked about her dress."},
+{"start":22,"type":"comforts","fine":"consoles","actor":"ELI","target":"CASSIDY ODEKUNLE","mood":"tender","intensity":3,"summary":"Eli stays with her, jokes about roofs, and holds her hand."},
+{"start":53,"type":"jokes","fine":"plays with","actor":"CASSIDY ODEKUNLE","target":"ELI","mood":"joyful","intensity":3,"summary":"His phone shows 14 missed calls; they scuffle over it and she makes him say he's glad."},
+{"start":69,"type":"bonds","fine":"shares a moment with","actor":"CASSIDY ODEKUNLE","target":"ELI","mood":"hopeful","intensity":3,"summary":"Eli ignores the phone and they dance to a scratchy waltz."}
+],
+"s02139": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"JUBAL CREED","target":"DEPUTY HENRY TASKER","mood":"tense","intensity":2,"summary":"Drifter Jubal watches the door at a salt works while the deputy questions his business."},
+{"start":24,"type":"arrives","fine":"bursts in","actor":"BELLE","target":"JUBAL CREED","mood":"tense","intensity":4,"summary":"Bounty hunter Belle enters and lays a wanted poster before Jubal."},
+{"start":48,"type":"persuades","fine":"bargains with","actor":"JUBAL CREED","target":"BELLE","mood":"suspense","intensity":3,"summary":"Jubal claims the poster hides a judge's cover-up; the seal confirms Garrity's signature."},
+{"start":68,"type":"decides","fine":"changes course","actor":"BELLE","target":null,"mood":"tense","intensity":2,"summary":"Belle sits to eat stew, rifle on her knees, as the four share a wary silence."}
+],
+"s00824": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"ODALYS PRIETO","target":null,"mood":"melancholy","intensity":2,"summary":"On her last day, Odalys plays an old cassette in the empty ferry ticket booth."},
+{"start":9,"type":"bonds","fine":"reminisces with","actor":"ODALYS PRIETO","target":null,"mood":"bittersweet","intensity":3,"summary":"Her younger voice recites the schedule and calls it a good job; she pockets the stamp and closes up."}
+],
+"s02128": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"SOLOMON","target":null,"mood":"awkward","intensity":2,"summary":"Family and staff gather in a clockmaker's shop for the reading of the will."},
+{"start":18,"type":"accuses","fine":"exposes","actor":"TEDDY","target":"KASPAR DUVAL","mood":"tense","intensity":3,"summary":"The Brandt clock is bequeathed to its keeper, but Teddy says it stopped and its weights were taken."},
+{"start":33,"type":"accuses","fine":"suspects","actor":"MIREILLE DUVAL","target":"KASPAR DUVAL","mood":"tense","intensity":3,"summary":"Mireille notes Kaspar's too-clean hands; the bequest depends on a working clock."},
+{"start":44,"type":"leaves","fine":"walks out on","actor":"MIREILLE DUVAL","target":"KASPAR DUVAL","mood":"ominous","intensity":3,"summary":"Mireille pockets the winding key and leaves; Kaspar's new watch has stopped."},
+{"start":62,"type":"leaves","fine":"slips away","actor":"TEDDY","target":null,"mood":"suspense","intensity":2,"summary":"Teddy hints she has the weights and leaves; Rossiter will read the will himself."}
+],
+"s00759": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BARNABAS FLINT","target":"HOLLIS DUNMORE","mood":"awkward","intensity":2,"summary":"Lawyers depose a witness in a funeral home, bickering over objections."},
+{"start":31,"type":"jokes","fine":"amuses","actor":"SELWYN CRANE","target":null,"mood":"chaotic","intensity":3,"summary":"Water floods the exhibits in a tangle of accidents; the director supplies black linens."},
+{"start":42,"type":"works","fine":"cleans","actor":"BARNABAS FLINT","target":null,"mood":"awkward","intensity":2,"summary":"They mop up in silence and resume the deposition."}
+],
+"s01974": [
+{"start":1,"type":"threatens","fine":"holds at gunpoint","actor":"DRAGAN MIHAJLOVI","target":"KESTREL OYELARAN-FINCH","mood":"tense","intensity":4,"summary":"Dragan demands the bag from Kestrel, who refuses, saying backups protect her."},
+{"start":18,"type":"arrives","fine":"makes an entrance","actor":"INSPECTOR ROSALIND ACHTERBERG","target":"DRAGAN MIHAJLOVI","mood":"ominous","intensity":4,"summary":"Inspector Rosalind descends, revealing she wants the bag too, not an arrest."},
+{"start":40,"type":"observes","fine":"eavesdrops on","actor":"ALVARO","target":null,"mood":"suspense","intensity":3,"summary":"A voice on the catwalk reveals a listener; Kestrel gives up the bag."},
+{"start":60,"type":"reveals","fine":"comes clean to","actor":"KESTREL OYELARAN-FINCH","target":"ROSALIND ACHTERBERG","mood":"triumphant","intensity":4,"summary":"The bag is empty; Kestrel flooded the dry dock to destroy the laptop and walks out."}
+],
+"s01541": [
+{"start":1,"type":"searches","fine":"questions witnesses","actor":"LAKSHMI","target":"INSPECTOR","mood":"suspense","intensity":3,"summary":"Lakshmi challenges a nameless inspector in a seed vault; the station asks for quarantine."},
+{"start":28,"type":"reveals","fine":"unmasks","actor":"INSPECTOR","target":"LAKSHMI","mood":"fear","intensity":4,"summary":"The inspector unhoods, revealing mycelial skin, and calls himself the contamination."},
+{"start":50,"type":"accuses","fine":"calls out","actor":"AMBROSE","target":"LAKSHMI","mood":"ominous","intensity":3,"summary":"Ambrose asks why they buried his kind and says he wants to grow."},
+{"start":69,"type":"decides","fine":"accepts","actor":"LAKSHMI","target":"AMBROSE","mood":"ominous","intensity":4,"summary":"The ring turns green and Lakshmi takes his hand, declaring herself specimen."}
+],
+"s01531_0": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"MILO FERRANTI-SATO","target":"ZEKE ADEBAYO","mood":"playful","intensity":2,"summary":"Milo teases Zeke about a smudged phone number in a skate park snack shack."},
+{"start":18,"type":"flees","fine":"bolts","actor":"ZEKE ADEBAYO","target":null,"mood":"chaotic","intensity":3,"summary":"June shouts for a towel; the boys collide in the doorway rushing out."}
+],
+"s01803": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"HESTER","target":"LEOPOLD AUGUSTIN","mood":"tense","intensity":3,"summary":"Inspector Hester exposes inconsistencies about a second lamp in the observatory."},
+{"start":21,"type":"confronts","fine":"presses","actor":"HESTER","target":"LEOPOLD AUGUSTIN","mood":"suspense","intensity":4,"summary":"She notes the moved telescope and warm canvas, suggesting someone was just there."},
+{"start":28,"type":"confesses","fine":"owns up to","actor":"CLEMENTINE OYELOWO","target":"HESTER","mood":"tense","intensity":4,"summary":"Clementine admits she lied about being at the cottage because he told her to."}
+]
+}

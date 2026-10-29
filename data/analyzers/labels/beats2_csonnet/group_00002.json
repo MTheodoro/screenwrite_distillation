@@ -1,0 +1,131 @@
+{
+"s05065": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"INES","target":"LORNA","mood":"calm","intensity":1,"summary":"Ines films as Lorna and Walt begin sorting their late mother's storage unit."},
+{"start":20,"type":"bonds","fine":"reminisces with","actor":"WALT","target":"LORNA","mood":"bittersweet","intensity":2,"summary":"Walt and Lorna trade memories over records and a child's shoe, softening old disputes."},
+{"start":36,"type":"decides","fine":"chooses","actor":"LORNA","target":"WALT","mood":"melancholy","intensity":2,"summary":"They choose to keep the shoe, the dress and the Singer, then linger in silence."}
+],
+"s05067": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"HAL","target":null,"mood":"ominous","intensity":2,"summary":"Retired driver Hal finds his minivan overfull with strange passengers and a fogged, unknown road."},
+{"start":14,"type":"reveals","fine":"lets slip to","actor":"IVO","target":"HAL","mood":"tense","intensity":3,"summary":"Ivo says they must pass the gate by sunrise because the girl is the key."},
+{"start":28,"type":"deflects","fine":"brushes off","actor":"SORCHA","target":"DEV","mood":"tense","intensity":2,"summary":"Dev's mother texts and Sorcha tells him not to answer until the border."},
+{"start":36,"type":"discovers","fine":"stumbles on","actor":"HAL","target":null,"mood":"suspense","intensity":4,"summary":"White light rises through the floor and the road becomes a stone staircase into a lantern valley."}
+],
+"s05069": [
+{"start":1,"type":"observes","fine":"studies","actor":"REGGIE","target":"SHAY","mood":"tense","intensity":2,"summary":"In the studio control room, Reggie replays a vocal take while a late email sits on Kat's laptop."},
+{"start":19,"type":"confronts","fine":"challenges","actor":"OMAR","target":"SHAY","mood":"hostile","intensity":3,"summary":"Omar argues Shay's take isn't the one for the record, citing money."},
+{"start":30,"type":"reveals","fine":"drops a bombshell on","actor":"KAT","target":"REGGIE","mood":"tense","intensity":4,"summary":"Kat discloses the wire and that Omar secretly owns the masters Shay signed away."},
+{"start":46,"type":"accuses","fine":"turns on","actor":"SHAY","target":"OMAR","mood":"hostile","intensity":4,"summary":"Shay asks if it is true, Omar justifies it as business, and she sets down her headphones."},
+{"start":58,"type":"threatens","fine":"looms over","actor":"OMAR","target":"SHAY","mood":"suspense","intensity":4,"summary":"Thunder breaks, Omar blocks the door forbidding copies, and Shay presses record."}
+],
+"s05070": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MAYA","target":null,"mood":"calm","intensity":1,"summary":"Maya scans parcels late at night in a rainy warehouse, texting friend Bee."},
+{"start":20,"type":"hides","fine":"keeps a secret","actor":"JOSS","target":"MAYA","mood":"suspense","intensity":2,"summary":"Joss arrives and sits oddly quiet; Maya notices he holds his phone like a grenade."},
+{"start":40,"type":"reveals","fine":"shows","actor":"JOSS","target":"MAYA","mood":"joyful","intensity":3,"summary":"Joss shows a chat with her photo; Bee enters with a birthday cake and Maya laughs and cries."}
+],
+"s05071": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"MO","target":"SAM","mood":"playful","intensity":2,"summary":"Sam and Mo trade deadpan jokes and crisps on a slowing night bus in the snow."},
+{"start":21,"type":"discovers","fine":"notices","actor":"SAM","target":"MO","mood":"suspense","intensity":3,"summary":"The bus halts in a white nothing; the driver goes out to radio in."},
+{"start":46,"type":"comforts","fine":"steadies","actor":"MO","target":"SAM","mood":"tender","intensity":2,"summary":"They joke about taking turns being warm; Sam admires Mo's coat and Mo throws a crisp."},
+{"start":66,"type":"observes","fine":"waits","actor":"SAM","target":"MO","mood":"calm","intensity":2,"summary":"The driver returns snow-covered and everyone settles in to wait in the quiet."}
+],
+"s05072": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"CAPTAIN PIP","target":"MARLO","mood":"playful","intensity":2,"summary":"Captain Pip warns the crab and seagull away from the net as the boat bobs at dawn."},
+{"start":14,"type":"discovers","fine":"notices","actor":"OLLIE","target":"CAPTAIN PIP","mood":"suspense","intensity":3,"summary":"Ollie the lantern senses the humming sea while Nina serves cocoa."},
+{"start":24,"type":"observes","fine":"keeps watch","actor":"CAPTAIN PIP","target":null,"mood":"suspense","intensity":4,"summary":"Bubbles rise and something huge approaches; Pip decides to say hello as the water swells."}
+],
+"s05073": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"ASH","target":"THE WOMAN","mood":"tense","intensity":4,"summary":"Shaking Ash holds a knife on a stranger who entered through a locked back door."},
+{"start":11,"type":"persuades","fine":"talks down","actor":"DELPHINE","target":"ASH","mood":"suspense","intensity":3,"summary":"Delphine introduces herself as a lab survivor and offers explanation; Ash lowers the knife."},
+{"start":14,"type":"discovers","fine":"notices","actor":"ASH","target":"DELPHINE","mood":"fear","intensity":3,"summary":"The radio warns of someone at the window; Ash demands the whole story."}
+],
+"s05074": [
+{"start":1,"type":"observes","fine":"waits","actor":"TIM","target":"TOM","mood":"awkward","intensity":2,"summary":"Tim and Tom sit sulking in a deserted wedding hall, trading stilted remarks."},
+{"start":18,"type":"accuses","fine":"blames","actor":"TOM","target":"TIM","mood":"hostile","intensity":3,"summary":"Hattie presses them about a medal; Tom accuses Tim of throwing the baton years ago."},
+{"start":44,"type":"leaves","fine":"storms out","actor":"TIM","target":"TOM","mood":"hostile","intensity":3,"summary":"Tim and Tom agree to take it outside; Hattie shrugs as bins crash."}
+],
+"s05075": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"DRIVER","target":"THE TWINS","mood":"calm","intensity":2,"summary":"A rideshare driver chats with sleepy twins on camera during a 2 a.m. drive."},
+{"start":16,"type":"bonds","fine":"confides in","actor":"THE TWINS","target":"PRIYA","mood":"tender","intensity":3,"summary":"The twins reveal their mother is in labor; Priya teaches them her name for safety."},
+{"start":43,"type":"leaves","fine":"leaves","actor":"THE TWINS","target":"PRIYA","mood":"joyful","intensity":3,"summary":"At the hospital the twins run to their father; Priya signs off with congratulations."}
+],
+"s05076": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"THE BAND","target":"GUARD","mood":"playful","intensity":2,"summary":"A touring band hands over four passports all reading Gary; the guard is unamused."},
+{"start":22,"type":"discovers","fine":"catches","actor":"GUARD","target":"THE BAND","mood":"playful","intensity":3,"summary":"The guard asks about the drummer and spots a dog in sunglasses in the van."},
+{"start":40,"type":"decides","fine":"gives an order","actor":"WALT","target":"THE BAND","mood":"playful","intensity":2,"summary":"Walt sends the dog to quarantine and drops the gate; the vending machine drops soup."}
+],
+"s05077": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"KIP","target":"KIM","mood":"tense","intensity":2,"summary":"Kip brings Kim tea in a silent office and notices an external upload."},
+{"start":23,"type":"confronts","fine":"calls out","actor":"KIP","target":"KIM","mood":"hostile","intensity":4,"summary":"Kip calls the upload theft; Kim says it is leverage and the team turns."},
+{"start":46,"type":"leaves","fine":"walks out on","actor":"KIP","target":"KIM","mood":"tense","intensity":4,"summary":"Kip leads the team out, then shows Kim a text meant for him, paling her."}
+],
+"s05078_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"DANA","target":null,"mood":"tense","intensity":3,"summary":"Protesters march on a dusty road as Tess locks herself into concrete and Cole arrives."}
+],
+"s05078_1": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"DANA","target":"COLE","mood":"tense","intensity":3,"summary":"Dana, Rosa, Eli and Tess argue with Cole over land, drought and a signed order."},
+{"start":38,"type":"decides","fine":"gives an order","actor":"COLE","target":"HANK","mood":"chaotic","intensity":4,"summary":"Cole orders the sheriff to arrest the barrel; the crowd surges until sirens and dust approach."}
+],
+"s05079": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"JUNE","target":"RIVER","mood":"playful","intensity":2,"summary":"New receptionist June flusters through check-in with River and their dog Biscuit."},
+{"start":27,"type":"arrives","fine":"bursts in","actor":"MR. HALVERSEN","target":"LENA","mood":"chaotic","intensity":3,"summary":"A cat escapes, the fish tank spills, and a drenched man with a parrot demands the boss."}
+],
+"s05080": [
+{"start":1,"type":"observes","fine":"waits","actor":"TESS HALLORAN","target":null,"mood":"melancholy","intensity":2,"summary":"Court-ordered Tess sits alone in an empty church basement on a rainy night."},
+{"start":12,"type":"arrives","fine":"bursts in","actor":"THE WOMAN","target":"TESS HALLORAN","mood":"tense","intensity":3,"summary":"A soaked woman storms in claiming Tess's chair; they learn nobody else is coming."},
+{"start":37,"type":"persuades","fine":"convinces","actor":"GRETA","target":"TESS HALLORAN","mood":"tender","intensity":3,"summary":"Tess tries to leave; Greta shares her story and Tess sits and introduces herself."}
+],
+"s05083": [
+{"start":1,"type":"comforts","fine":"consoles","actor":"PRIYA","target":"JAYLEN","mood":"melancholy","intensity":2,"summary":"Priya sits with Jaylen, buried in a group chat over a damaging screenshot, and jokes him along."},
+{"start":27,"type":"arrives","fine":"makes an entrance","actor":"MS. ADEYEMI","target":"JAYLEN","mood":"tense","intensity":3,"summary":"Lawyer Ms. Adeyemi arrives, moves the deposition, and tells Jaylen to start from the beginning."}
+],
+"s05084": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"MAYA","target":"DESMOND","mood":"awkward","intensity":2,"summary":"Three group chat strangers meet in a diner and introduce their handles."},
+{"start":22,"type":"confesses","fine":"comes clean to","actor":"THEO","target":"MAYA","mood":"melancholy","intensity":4,"summary":"Theo admits he invented his church story because he wanted someone to message back."},
+{"start":40,"type":"comforts","fine":"reassures","actor":"MAYA","target":"THEO","mood":"tender","intensity":3,"summary":"Maya and Desmond accept Theo, share his fries and order more as the chat lights up."}
+],
+"s05085_0": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"GARRETT","target":"BRIDGET","mood":"playful","intensity":2,"summary":"Bridget and Garrett wait in a magical fertility clinic where Dr. Plum introduces a dragon."}
+],
+"s05085_1": [
+{"start":1,"type":"reveals","fine":"breaks news to","actor":"DR. PLUM","target":"BRIDGET","mood":"playful","intensity":3,"summary":"Dr. Plum announces magical test results with a small curse, a Hex of Perpetual Maybe."},
+{"start":18,"type":"decides","fine":"makes a plan","actor":"DR. PLUM","target":"GARRETT","mood":"playful","intensity":2,"summary":"Dr. Plum proposes a gentle exorcism and shoos away the dragon Kevin."}
+],
+"s05086": [
+{"start":1,"type":"works","fine":"cooks","actor":"BIG DAVE","target":null,"mood":"playful","intensity":2,"summary":"Big Dave, Mo, Jen and goblin Sam work a frantic food truck kitchen."},
+{"start":19,"type":"mocks","fine":"needles","actor":"MRS. K","target":"JEN","mood":"awkward","intensity":2,"summary":"Mrs. K calls to complain about the line, free pickles and Mo's slow chopping."},
+{"start":32,"type":"works","fine":"cooks","actor":"BIG DAVE","target":null,"mood":"chaotic","intensity":4,"summary":"Dave ignores Sam's warning; the fryer ignites, Jen hangs up and Dave douses the kitchen in foam."}
+],
+"s05089": [
+{"start":1,"type":"works","fine":"prepares","actor":"LIN","target":"KOFI","mood":"playful","intensity":2,"summary":"Lin sets up a video about a haunted fountain; nervous Kofi questions it."},
+{"start":20,"type":"discovers","fine":"notices","actor":"KOFI","target":"LIN","mood":"ominous","intensity":3,"summary":"Park-goers vanish, the video glitches, and a figure appears in the fountain only on screen."},
+{"start":48,"type":"flees","fine":"retreats","actor":"LIN","target":"KOFI","mood":"fear","intensity":3,"summary":"Lin shuts the phone off and leaves quickly with Kofi, never looking back."}
+],
+"s05090": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"GORDON","target":"TESS","mood":"awkward","intensity":2,"summary":"Gordon flounders through clinic forms; his wife's call reveals he left the sample in a hot car."},
+{"start":27,"type":"discovers","fine":"notices","actor":"GORDON","target":"THE WOMAN","mood":"suspense","intensity":3,"summary":"A motionless woman in sunglasses opens her coat to reveal the cooler bag strapped to her."},
+{"start":48,"type":"attacks","fine":"wrestles","actor":"GORDON","target":"THE WOMAN","mood":"chaotic","intensity":4,"summary":"Gordon lunges, Halloran joins, and all crash into the pamphlet rack."},
+{"start":57,"type":"reveals","fine":"comes clean to","actor":"BEV","target":"GORDON","mood":"playful","intensity":3,"summary":"The woman is Bev, Rosalind's sister, who confesses stealing it was freelance; Tess asks about the co-pay."}
+],
+"s05091": [
+{"start":1,"type":"observes","fine":"spies on","actor":"JUNO KESSLER","target":"HOODIE GUY","mood":"ominous","intensity":3,"summary":"Juno waits at her station as a still hooded figure stands behind her and the loading bar stalls."},
+{"start":15,"type":"discovers","fine":"notices","actor":"DEV","target":"JUNO KESSLER","mood":"fear","intensity":4,"summary":"The crowd goes silent, Dev warns Juno away from the screen, and the monitors type a message."},
+{"start":26,"type":"flees","fine":"scrambles away","actor":"JUNO KESSLER","target":null,"mood":"fear","intensity":5,"summary":"Two unmoving twins appear; the pit blacks out and only empty headsets remain."}
+],
+"s05092": [
+{"start":1,"type":"observes","fine":"waits","actor":"MARGARET","target":"DR. WHITCOMBE","mood":"tense","intensity":2,"summary":"In 1923, Margaret and cold Edmund hear the doctor discuss their childlessness."},
+{"start":14,"type":"reveals","fine":"breaks news to","actor":"DR. WHITCOMBE","target":"EDMUND","mood":"tense","intensity":4,"summary":"The doctor states there is no fault in Margaret and the laboratory results blame Edmund."},
+{"start":27,"type":"accuses","fine":"turns on","actor":"EDMUND","target":"MARGARET","mood":"hostile","intensity":4,"summary":"Edmund rages and knocks the tray down; Sister Brigid threatens to call the porters."},
+{"start":41,"type":"leaves","fine":"storms out","actor":"EDMUND","target":null,"mood":"melancholy","intensity":3,"summary":"Edmund takes his hat and leaves; Margaret is offered tea and rest."}
+],
+"s05095": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"SAGE","target":"TOBIAS","mood":"playful","intensity":2,"summary":"Sage slides into Tobias's booth and deadpans about a stolen casserole dish and eleven suspects."},
+{"start":20,"type":"reveals","fine":"shows","actor":"SAGE","target":"TOBIAS","mood":"playful","intensity":2,"summary":"Sage shows a message that Linda found the dish in her oven and makes Tobias pay."}
+],
+"s05096_0": [
+{"start":1,"type":"confronts","fine":"presses","actor":"VIC","target":"NORA","mood":"tense","intensity":3,"summary":"At the funeral reception, Vic presses widow Nora about the will."},
+{"start":12,"type":"discovers","fine":"notices","actor":"NORA","target":"VIC","mood":"suspense","intensity":4,"summary":"A distorted caller warns Nora about the study; Vic heads for the hallway and runs."}
+],
+"s05096_1": [
+{"start":1,"type":"flees","fine":"slips out","actor":"VIC","target":null,"mood":"suspense","intensity":2,"summary":"A door slams in the hallway."}
+]
+}

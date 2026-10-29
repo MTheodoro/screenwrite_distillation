@@ -1,0 +1,126 @@
+{
+"s02075": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"WREN","target":"HANK","mood":"calm","intensity":1,"summary":"Wren and Dottie idle the night shift while Hank checks in by radio."},
+{"start":17,"type":"bonds","fine":"banters with","actor":"DOTTIE","target":"WREN","mood":"awkward","intensity":2,"summary":"Dottie asks if Wren applied to the Duluth program and teases about her mother."},
+{"start":39,"type":"confesses","fine":"opens up to","actor":"WREN","target":"DOTTIE","mood":"tender","intensity":3,"summary":"Wren asks whether everyone would be mad if she skips the Duluth program."},
+{"start":45,"type":"bonds","fine":"shares a moment with","actor":"DOTTIE","target":"WREN","mood":"tender","intensity":3,"summary":"They hit the emergency stop, share the pen, and Dottie leans on Wren's shoulder."},
+{"start":63,"type":"bonds","fine":"teams up with","actor":"DOTTIE","target":"WREN","mood":"hopeful","intensity":2,"summary":"Wren fetches a pop as headlights approach; Dottie turns the car away and returns laughing."}
+],
+"s02086": [
+{"start":1,"type":"works","fine":"prepares","actor":"MADAME ADEBOLA-QUINN","target":"PIETRO","mood":"calm","intensity":2,"summary":"Madame Adebola-Quinn and her crew bake as dispatch warns of cloud shear."},
+{"start":24,"type":"arrives","fine":"bursts in","actor":"INSPECTOR LOGANATHAN","target":null,"mood":"chaotic","intensity":3,"summary":"Inspector Loganathan staggers in for a surprise audit just as the shear nears."},
+{"start":31,"type":"flees","fine":"scrambles away","actor":"PIETRO","target":null,"mood":"chaotic","intensity":5,"summary":"The shear hits, tossing the kitchen; Pietro panics while Madame deadpans and flour falls."},
+{"start":49,"type":"works","fine":"goes through routine","actor":"MADAME ADEBOLA-QUINN","target":"INSPECTOR LOGANATHAN","mood":"triumphant","intensity":2,"summary":"Madame eats a floor-dropped cake and the inspector tastes one and passes them."}
+],
+"s00703": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"OSTRANDER","target":"PRUITT","mood":"ominous","intensity":4,"summary":"Ostrander steadies himself, reports his depleted company to Battalion and hears orders to hold."}
+],
+"s01763": [
+{"start":1,"type":"comforts","fine":"reassures","actor":"MAGDA","target":"RAVI","mood":"tense","intensity":2,"summary":"Trapped survivors take stock; Magda assures them rescue knows they are there."},
+{"start":16,"type":"comforts","fine":"consoles","actor":"BEA","target":"XIMENA","mood":"tender","intensity":3,"summary":"Bea asks gently about Ximena's baby while Teo plays a tender harmonica tune."},
+{"start":34,"type":"bonds","fine":"confides in","actor":"JOAQUIN","target":"BEA","mood":"melancholy","intensity":3,"summary":"Joaquin frets about his wife; Bea mentions her grandmother waiting at Elm station."},
+{"start":44,"type":"decides","fine":"gives an order","actor":"MAGDA","target":"RAVI","mood":"tense","intensity":2,"summary":"Magda organizes rationing, splitting a granola bar six ways; the group shares it."},
+{"start":55,"type":"bonds","fine":"shares a moment with","actor":"TEO","target":"BEA","mood":"hopeful","intensity":3,"summary":"As concrete groans, Teo asks Bea to hum and joins her on harmonica."}
+],
+"s00112": [
+{"start":1,"type":"observes","fine":"waits","actor":"MAGNUS","target":null,"mood":"melancholy","intensity":2,"summary":"Four castaways drift in a lifeboat at dawn, silent and exhausted."},
+{"start":13,"type":"discovers","fine":"notices","actor":"MAGNUS","target":null,"mood":"hopeful","intensity":3,"summary":"Magnus spots a smoke trail; Delphine and Baz urge firing, but he says wait."},
+{"start":28,"type":"decides","fine":"gives an order","actor":"MAGNUS","target":"DELPHINE","mood":"triumphant","intensity":5,"summary":"As a ship's hull appears, Magnus orders the flare fired and they scream together."}
+],
+"s00522": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ISOLDE","target":null,"mood":"calm","intensity":1,"summary":"Purser Isolde walks the car deck chatting briefly with Rafferty, Jung-Ho and Winnie."},
+{"start":35,"type":"discovers","fine":"realizes","actor":"ISOLDE","target":"SALAZAR","mood":"suspense","intensity":3,"summary":"Isolde counts forty-one vehicles against a manifest of forty and finds an unticked van."},
+{"start":60,"type":"searches","fine":"investigates","actor":"ISOLDE","target":null,"mood":"ominous","intensity":4,"summary":"She tries the van's locked door; Jung-Ho and Rafferty warn her of its strange engine whine."},
+{"start":75,"type":"flees","fine":"retreats","actor":"ISOLDE","target":null,"mood":"fear","intensity":5,"summary":"A hand sets a black box on the deck as Isolde orders everyone to evacuate."}
+],
+"s01813": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"JUDGE","target":"CORWIN","mood":"playful","intensity":2,"summary":"Night court arraigns a barefoot man in a hospital gown for trespassing in a shark tank."},
+{"start":24,"type":"reveals","fine":"comes clean to","actor":"CORWIN","target":"JUDGE","mood":"playful","intensity":3,"summary":"Corwin explains he sought a woman who lived in the tank, then recalls his name."},
+{"start":34,"type":"decides","fine":"gives an order","actor":"JUDGE","target":"CORWIN","mood":"bittersweet","intensity":2,"summary":"The judge releases him on his own recognizance on condition he stays out of the tank."}
+],
+"s00870": [
+{"start":1,"type":"mocks","fine":"dismisses","actor":"DESMOND","target":"ANOUK","mood":"awkward","intensity":2,"summary":"Desmond hosts a joyless mandatory-fun event in a parking garage as employees ignore him."},
+{"start":23,"type":"attacks","fine":"fights","actor":"LOLA","target":"DESMOND","mood":"playful","intensity":2,"summary":"Absurd bureaucratic squabbles erupt over a safety balloon and a slice of cake."},
+{"start":39,"type":"flees","fine":"escapes","actor":"TAKESHI","target":null,"mood":"awkward","intensity":2,"summary":"Staff try to leave, lack the right keys, and drift back to the table."}
+],
+"s01189": [
+{"start":1,"type":"works","fine":"works","actor":"PRIYA","target":"SEBASTIAN","mood":"tense","intensity":3,"summary":"Dr. Priya examines a feverish boy in the cinema hospital and orders treatment."},
+{"start":26,"type":"comforts","fine":"reassures","actor":"PRIYA","target":"THEO","mood":"grief","intensity":3,"summary":"Out of the second antibiotic, Priya honestly tells Theo she does not yet know if his son will live."},
+{"start":46,"type":"comforts","fine":"tends to","actor":"PRIYA","target":null,"mood":"tender","intensity":3,"summary":"She tucks the boy's blanket and whispers to him; then the generator fails."},
+{"start":59,"type":"persuades","fine":"recruits","actor":"PRIYA","target":"MS. HALLORAN","mood":"hopeful","intensity":3,"summary":"In darkness Sebastian brings ex-pharmacist Ms. Halloran; Priya trusts her to mix pediatric doses."}
+],
+"s00334": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"CORNELIA","target":"DESMOND","mood":"tense","intensity":2,"summary":"Attorney Cornelia deposes taxidermist Desmond about the animals in his shop."},
+{"start":17,"type":"accuses","fine":"exposes","actor":"CORNELIA","target":"DESMOND","mood":"tense","intensity":4,"summary":"She reveals a forty-second animal is her client's dead Great Dane, and he panics."}
+],
+"s02050": [
+{"start":1,"type":"discovers","fine":"finds a clue","actor":"KIRA","target":"DMITRI","mood":"suspense","intensity":3,"summary":"Kira finds a warm panel from Sector Nine bearing a scratched-out name."},
+{"start":12,"type":"threatens","fine":"warns","actor":"DMITRI","target":"KIRA","mood":"tense","intensity":4,"summary":"Dmitri orders her to put it back; she refuses."},
+{"start":20,"type":"arrives","fine":"makes an entrance","actor":"LEOPOLDINE","target":"KIRA","mood":"ominous","intensity":4,"summary":"Inspector Leopoldine arrives, halts the belts and asks for Asante-Volkov by name."}
+],
+"s00594": [
+{"start":1,"type":"observes","fine":"waits","actor":"GLORIA","target":"WALTER","mood":"grief","intensity":3,"summary":"Gloria and Walter wait in strained silence for news in the hospital."},
+{"start":22,"type":"decides","fine":"commits","actor":"GLORIA","target":"WALTER","mood":"grief","intensity":5,"summary":"The doctor calls them in; they gather courage and walk together to the door."}
+],
+"s00573": [
+{"start":1,"type":"threatens","fine":"coerces","actor":"MAWDLEY","target":"TAMSIN","mood":"hostile","intensity":2,"summary":"Goblin Mawdley demands tolls from pilgrims Tamsin and Rook and probes a silent stranger."},
+{"start":23,"type":"reveals","fine":"unmasks","actor":"ZEPHYRINE","target":"MAWDLEY","mood":"ominous","intensity":5,"summary":"The ribs hum as the stranger reveals herself as Zephyrine and condemns Mawdley's tolls."}
+],
+"s01153": [
+{"start":1,"type":"searches","fine":"investigates","actor":"ISSA","target":"ROOK","mood":"ominous","intensity":2,"summary":"Commander Issa and crew debate salvaging a lifeless derelict as the temperature drops."},
+{"start":25,"type":"discovers","fine":"notices","actor":"TARQUIN","target":"ISSA","mood":"ominous","intensity":3,"summary":"A looping distress hail from the derelict plays, and Issa decides to board alone."},
+{"start":46,"type":"arrives","fine":"shows up unannounced","actor":"JONAH","target":"ISSA","mood":"fear","intensity":4,"summary":"Jonah emerges from the airlock, claiming he's been stranded fourteen months and the loop isn't his."},
+{"start":56,"type":"decides","fine":"gives an order","actor":"ISSA","target":"TARQUIN","mood":"fear","intensity":5,"summary":"Issa sounds the alarm and has the hull link severed, but a light turns toward them."}
+],
+"s02243": [
+{"start":1,"type":"searches","fine":"questions witnesses","actor":"SANDHU","target":"LORNA","mood":"suspense","intensity":2,"summary":"Detective Sandhu questions the hotel staff about a dead parrot in the locked aviary."},
+{"start":15,"type":"discovers","fine":"finds a clue","actor":"SANDHU","target":null,"mood":"ominous","intensity":3,"summary":"He reads the tag on the parrot's leg and clears everyone out."}
+],
+"s01380": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"WALTER","target":"RHEA","mood":"awkward","intensity":2,"summary":"Walter brings Rhea terrible coffee after the trial and they share a silent moment."},
+{"start":17,"type":"confesses","fine":"opens up to","actor":"RHEA","target":"WALTER","mood":"melancholy","intensity":3,"summary":"Rhea mourns her teenage client's sentence; Walter reminds her of the victim."},
+{"start":36,"type":"bonds","fine":"reconnects with","actor":"WALTER","target":"RHEA","mood":"bittersweet","intensity":2,"summary":"They push cups together; she declines a drink but leaves him to fix the chairs."}
+],
+"s01826": [
+{"start":1,"type":"works","fine":"works","actor":"VINNIE","target":"LORNE","mood":"tense","intensity":2,"summary":"Vinnie counts cash for courier Lorne, who disputes the amount as Marisol watches."},
+{"start":20,"type":"confronts","fine":"presses","actor":"LORNE","target":"VINNIE","mood":"tense","intensity":3,"summary":"Lorne questions Marisol and demands to know what is in the duffel."},
+{"start":44,"type":"threatens","fine":"faces off with","actor":"DARIUS","target":"LORNE","mood":"suspense","intensity":5,"summary":"Everyone stands; Darius blocks Lorne, and Marisol draws a hidden pocket weapon."},
+{"start":70,"type":"works","fine":"goes through routine","actor":"VINNIE","target":"DARIUS","mood":"playful","intensity":2,"summary":"Lorne leaves with his money; the pocket held a stapler, and they laugh and recount."}
+],
+"s01483": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"DESTA","target":"KIPP","mood":"ominous","intensity":2,"summary":"Desta and Kipp reach an oxbow camp that she once lied about."},
+{"start":20,"type":"discovers","fine":"finds a clue","actor":"KIPP","target":"DESTA","mood":"suspense","intensity":3,"summary":"Kipp finds fresh notches on a tree while Desta urges him to eat and not touch things."},
+{"start":38,"type":"reveals","fine":"shows","actor":"DESTA","target":"KIPP","mood":"fear","intensity":5,"summary":"Kipp sees a child's boot and counts a fresh notch in the tally meant for him."}
+],
+"s00477": [
+{"start":1,"type":"confronts","fine":"presses","actor":"GUARD DESHAWN","target":"GILBERT","mood":"playful","intensity":2,"summary":"Guard Deshawn finds sleepless Gilbert in the mattress showroom and demands he leave."},
+{"start":24,"type":"persuades","fine":"charms","actor":"GILBERT","target":"GUARD DESHAWN","mood":"playful","intensity":3,"summary":"Gilbert wins Deshawn over with name banter and a claim that Brenda approved."},
+{"start":44,"type":"bonds","fine":"shares a moment with","actor":"GUARD DESHAWN","target":"GILBERT","mood":"calm","intensity":2,"summary":"Deshawn sits, recalls his mother's bed, and both lie down and fall asleep."}
+],
+"s00126": [
+{"start":1,"type":"observes","fine":"studies","actor":"SLIM","target":null,"mood":"tense","intensity":2,"summary":"Five wary players gather for a late card game on the roller rink floor."},
+{"start":17,"type":"accuses","fine":"suspects","actor":"MOUSE","target":"SLIM","mood":"tense","intensity":3,"summary":"Mouse accuses Slim of cutting twice, and Sato's motives are questioned."},
+{"start":25,"type":"accuses","fine":"exposes","actor":"SLIM","target":"BIG TEDDY","mood":"hostile","intensity":5,"summary":"Slim notes the sixth chair for whoever collects and forces Teddy to admit giving away the route."}
+],
+"s00771": [
+{"start":1,"type":"confronts","fine":"stares down","actor":"ROSALIND","target":"ELIAS","mood":"tense","intensity":3,"summary":"Rosalind recognizes the stranger on the ferry bench as Elias after twenty years."},
+{"start":18,"type":"hides","fine":"conceals something","actor":"ROSALIND","target":"TEO","mood":"tense","intensity":3,"summary":"Her grandson Teo appears; Rosalind calls Elias nobody as a deckhand checks in."},
+{"start":25,"type":"observes","fine":"takes it in","actor":"ROSALIND","target":"ELIAS","mood":"bittersweet","intensity":2,"summary":"Rosalind sits near, not beside him, and sips in silence."}
+],
+"s00692": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"FOLA","target":null,"mood":"suspense","intensity":2,"summary":"Agent Fola and Detective Reuben sweep a warehouse and find a dropped key ring."},
+{"start":13,"type":"confronts","fine":"interrogates","actor":"FOLA","target":"STRANGER","mood":"tense","intensity":3,"summary":"A stranger who knows Fola's name hints she has a secret in Lagos."},
+{"start":32,"type":"threatens","fine":"holds at gunpoint","actor":"IMELDA","target":"REUBEN","mood":"ominous","intensity":5,"summary":"Imelda holds a silenced pistol to Reuben's neck and demands the ledger."},
+{"start":41,"type":"reveals","fine":"presents evidence to","actor":"NIKOLAI","target":"FOLA","mood":"hostile","intensity":4,"summary":"Nikolai says the ledger names everyone present and sows suspicion among them."}
+],
+"s02331": [
+{"start":1,"type":"bonds","fine":"flirts with","actor":"JONAH","target":"PILAR","mood":"tender","intensity":2,"summary":"Pilar scores loaves as delivery driver Jonah lingers and brings her a single cherry."},
+{"start":24,"type":"bonds","fine":"shares a moment with","actor":"JONAH","target":"PILAR","mood":"tender","intensity":3,"summary":"Jonah steps close and they laugh quietly together."},
+{"start":31,"type":"arrives","fine":"makes an entrance","actor":"MR. DELACROIX-WU","target":"PILAR","mood":"playful","intensity":2,"summary":"Her landlord enters and complains of a roof leak; a drop falls on a loaf."}
+],
+"s00954": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"OBADIAH","target":"JED","mood":"calm","intensity":1,"summary":"Four townsfolk idle on a saloon roof at sunset, bantering about pie."},
+{"start":21,"type":"discovers","fine":"notices","actor":"FINN","target":null,"mood":"suspense","intensity":4,"summary":"They hear thundering hoofbeats and drop behind the parapet as a stampede approaches."},
+{"start":33,"type":"discovers","fine":"realizes","actor":"OBADIAH","target":"JED","mood":"ominous","intensity":5,"summary":"Obadiah points out masked riders with torches; he draws his revolver to face them."}
+]
+}

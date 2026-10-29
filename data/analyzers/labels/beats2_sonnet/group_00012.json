@@ -1,0 +1,167 @@
+{
+"s00422": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MARGUERITE","target":null,"mood":"melancholy","intensity":2,"summary":"Family and surveyor gather in the empty pool on the day of its sale."},
+{"start":4,"type":"pleads","fine":"appeals to","actor":"EMMANUEL","target":"MARGUERITE","mood":"tense","intensity":3,"summary":"Emmanuel urges his mother to accept the sale while she recalls teaching him to swim."},
+{"start":11,"type":"bonds","fine":"shares a moment with","actor":"JOSÉPHINE","target":"MARGUERITE","mood":"tender","intensity":3,"summary":"Joséphine asks to jump and sits beside her grandmother; the men fall quiet."}
+],
+"s01864": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"DEBORAH","target":null,"mood":"awkward","intensity":2,"summary":"Deborah strides into the dreary office with her team and a silent stranger."},
+{"start":7,"type":"deflects","fine":"brushes off","actor":"DEBORAH","target":"SANJAY","mood":"awkward","intensity":3,"summary":"Deborah cheerfully spins disastrous Q3 numbers while Sanjay admits the missed target."},
+{"start":21,"type":"reveals","fine":"drops a bombshell on","actor":"MR. LYLE","target":"DEBORAH","mood":"tense","intensity":4,"summary":"Deborah introduces Mr. Lyle, who announces he is there to make cuts."},
+{"start":36,"type":"leaves","fine":"is sent away","actor":"DEBORAH","target":null,"mood":"tense","intensity":3,"summary":"Lyle takes Deborah aside privately and her composure cracks."},
+{"start":42,"type":"decides","fine":"gives an order","actor":"MR. LYLE","target":"SANJAY","mood":"playful","intensity":3,"summary":"Lyle announces Deborah's leave and unexpectedly puts Sanjay in charge."}
+],
+"s00412": [
+{"start":1,"type":"arrives","fine":"drifts in","actor":"CASPIAN","target":"JOSEFINA","mood":"calm","intensity":2,"summary":"Caspian sits beside lone Josefina at the noodle bar counter."},
+{"start":13,"type":"bonds","fine":"banters with","actor":"CASPIAN","target":"JOSEFINA","mood":"playful","intensity":2,"summary":"They trade wary banter about his regular seat and her red coat."},
+{"start":32,"type":"bonds","fine":"confides in","actor":"CASPIAN","target":"JOSEFINA","mood":"tender","intensity":3,"summary":"Caspian probes why she sits unseen at the counter and turns toward her."},
+{"start":52,"type":"jokes","fine":"charms","actor":"CASPIAN","target":"JOSEFINA","mood":"joyful","intensity":3,"summary":"His nineteen-hour days startle a laugh from Josefina; they tease warmly."},
+{"start":58,"type":"bonds","fine":"trusts","actor":"JOSEFINA","target":"CASPIAN","mood":"tender","intensity":3,"summary":"Josefina shares her bowl with Caspian, amazing Basil and Wren."}
+],
+"s00032": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"GRAINGER","target":"HANNAH","mood":"tense","intensity":2,"summary":"Marshal Grainger rides up to a stranded couple at their broken wagon."},
+{"start":17,"type":"searches","fine":"examines","actor":"GRAINGER","target":"ZEKE","mood":"suspense","intensity":3,"summary":"Grainger notes the bandaged hand and says the wound looks like teeth."},
+{"start":27,"type":"discovers","fine":"uncovers","actor":"GRAINGER","target":null,"mood":"ominous","intensity":4,"summary":"Grainger lifts the tarp and finds a bloodstained sack."},
+{"start":30,"type":"confesses","fine":"owns up to","actor":"HANNAH","target":"GRAINGER","mood":"tense","intensity":4,"summary":"The couple say together they killed the man because he came for their children."},
+{"start":38,"type":"decides","fine":"commits","actor":"GRAINGER","target":"HANNAH","mood":"calm","intensity":3,"summary":"Grainger drops his gun belt and sits down despite Hannah's rifle."}
+],
+"s02282": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"EZEKIEL","target":null,"mood":"calm","intensity":1,"summary":"Ezekiel sets type in his candlelit printing shop."},
+{"start":6,"type":"arrives","fine":"slips in","actor":"PRUDENCE","target":"EZEKIEL","mood":"hopeful","intensity":2,"summary":"Prudence, a mill girl, enters with an unsigned handbill about ten hours."},
+{"start":16,"type":"decides","fine":"accepts","actor":"EZEKIEL","target":"PRUDENCE","mood":"hopeful","intensity":3,"summary":"Ezekiel reads the bill, praises it, and agrees to print it tonight."}
+],
+"s00469": [
+{"start":1,"type":"works","fine":"prepares","actor":"INGRID","target":"ADEBAYO","mood":"calm","intensity":2,"summary":"Ingrid and Adebayo run suit and tether checks in the airlock bay."},
+{"start":14,"type":"confronts","fine":"presses","actor":"INGRID","target":"ADEBAYO","mood":"tense","intensity":3,"summary":"Ingrid presses him about the light in the crater he downplays as a reflection."},
+{"start":22,"type":"leaves","fine":"leaves","actor":"ADEBAYO","target":null,"mood":"ominous","intensity":3,"summary":"The outer door opens and they step out onto the black surface."}
+],
+"s02175": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"NOOR","target":"IMELDA","mood":"awkward","intensity":2,"summary":"Noor enters the greenhouse at Imelda's command to remove her shoes."},
+{"start":17,"type":"deflects","fine":"stonewalls","actor":"IMELDA","target":"NOOR","mood":"awkward","intensity":3,"summary":"Imelda deflects Noor's remarks about Teo and unanswered calls with curt replies."},
+{"start":30,"type":"reveals","fine":"breaks news to","actor":"NOOR","target":"IMELDA","mood":"tense","intensity":3,"summary":"Noor says Marcos called asking whether Imelda plans to sell the house."},
+{"start":40,"type":"deflects","fine":"changes the subject on","actor":"IMELDA","target":"NOOR","mood":"melancholy","intensity":3,"summary":"Imelda talks of tomatoes and basil for the church supper instead of answering."},
+{"start":51,"type":"comforts","fine":"tends to","actor":"IMELDA","target":"NOOR","mood":"tender","intensity":3,"summary":"Imelda gives Noor a basil plant, saying it will grow toward what light there is."},
+{"start":62,"type":"arrives","fine":"drifts in","actor":"FATHER ANSELMO","target":null,"mood":"calm","intensity":1,"summary":"Father Anselmo and Greta bustle in for the basil."},
+{"start":69,"type":"bonds","fine":"reconnects with","actor":"IMELDA","target":"NOOR","mood":"bittersweet","intensity":3,"summary":"Noor starts to leave; Imelda gives her a tomato vine for Teo and their fingers linger."},
+{"start":82,"type":"leaves","fine":"exits quietly","actor":"NOOR","target":"IMELDA","mood":"bittersweet","intensity":2,"summary":"Noor takes her shoes and a seed packet from Teo; Imelda returns to her vines."}
+],
+"s02007": [
+{"start":1,"type":"observes","fine":"waits","actor":"MARGUERITE","target":"ISAAC","mood":"awkward","intensity":1,"summary":"Marguerite and Isaac bicker pointlessly over who should refill the beeping coffee machine."},
+{"start":18,"type":"arrives","fine":"makes an entrance","actor":"LEOPOLD","target":"MARGUERITE","mood":"awkward","intensity":2,"summary":"Leopold arrives and introduces himself as the new efficiency consultant."},
+{"start":29,"type":"searches","fine":"examines","actor":"LEOPOLD","target":"MARGUERITE","mood":"playful","intensity":2,"summary":"Leopold inspects the empty machine and learns nobody is responsible."},
+{"start":37,"type":"decides","fine":"gives an order","actor":"LEOPOLD","target":"MARGUERITE","mood":"awkward","intensity":2,"summary":"Leopold announces two weeks of observation; the others freeze while the machine beeps."}
+],
+"s00529": [
+{"start":1,"type":"works","fine":"examines","actor":"WREN","target":null,"mood":"calm","intensity":1,"summary":"Wren studies an orchid with a magnifying glass at the show."},
+{"start":5,"type":"bonds","fine":"banters with","actor":"STRANGER","target":"WREN","mood":"playful","intensity":2,"summary":"A stranger corrects the orchid's label and Wren laughs, delighted."},
+{"start":17,"type":"threatens","fine":"warns","actor":"MR. ABARA","target":"WREN","mood":"playful","intensity":1,"summary":"A steward reminds them to keep to the path; the women exchange conspiratorial glances."},
+{"start":21,"type":"bonds","fine":"flirts with","actor":"WREN","target":"TAMSIN","mood":"tender","intensity":3,"summary":"They exchange names and hold hands a beat too long."},
+{"start":27,"type":"reveals","fine":"shows","actor":"TAMSIN","target":"WREN","mood":"hopeful","intensity":3,"summary":"Tamsin shyly shows her own hybrid orchid, and Wren urges her not to lose on purpose."}
+],
+"s00101": [
+{"start":1,"type":"works","fine":"prepares","actor":"LAVINIA","target":null,"mood":"ominous","intensity":2,"summary":"Six people hold a candlelit séance in a dark radio booth."},
+{"start":17,"type":"discovers","fine":"notices","actor":"DEREK","target":null,"mood":"suspense","intensity":3,"summary":"The candle bows, the board is dead, and a voice crackles from the speaker."},
+{"start":25,"type":"discovers","fine":"recognizes","actor":"MARGUERITE","target":null,"mood":"fear","intensity":4,"summary":"Marguerite recognizes the dead Vincent's voice as the speaker repeats commands."},
+{"start":39,"type":"accuses","fine":"points the finger at","actor":"LAVINIA","target":"NIGEL","mood":"tense","intensity":4,"summary":"Lavinia says the voice is saying Nigel's name and he denies it."},
+{"start":47,"type":"attacks","fine":"strikes","actor":"NIGEL","target":null,"mood":"chaotic","intensity":4,"summary":"Nigel slams the table; everyone reacts and the booth goes black."},
+{"start":54,"type":"reveals","fine":"presents evidence to","actor":"MARGUERITE","target":"NIGEL","mood":"suspense","intensity":4,"summary":"Marguerite lights a match and shows Vincent's cassette, pinning Nigel under everyone's gaze."}
+],
+"s01403": [
+{"start":1,"type":"hides","fine":"covers up","actor":"BARNABUS","target":"LAVINIA","mood":"awkward","intensity":2,"summary":"A sweating chef and crew fake readiness as the planner asks about the leaning cake."},
+{"start":27,"type":"discovers","fine":"realizes","actor":"DEXTER","target":null,"mood":"tense","intensity":2,"summary":"After she leaves they fear she knows; a sugar rose falls and Dexter eats it."},
+{"start":44,"type":"lies","fine":"bluffs","actor":"BARNABUS","target":"REGGIE","mood":"playful","intensity":3,"summary":"The groom asks if the cake should lean and Barnabus calls it a Pisan reference."},
+{"start":63,"type":"decides","fine":"makes a plan","actor":"PETRONELLA","target":null,"mood":"chaotic","intensity":2,"summary":"The three together lift the cake to carry it out."}
+],
+"s01730": [
+{"start":1,"type":"bonds","fine":"teams up with","actor":"LUCIA","target":"DELPHINE","mood":"tender","intensity":2,"summary":"Lucia gets the stubborn machine to accept Delphine's bill, and they trade quiet familiarity."},
+{"start":20,"type":"reveals","fine":"breaks news to","actor":"NORBERT","target":"DELPHINE","mood":"grief","intensity":4,"summary":"Norbert phones to say the woman died quickly without waking."},
+{"start":30,"type":"comforts","fine":"consoles","actor":"ARLO","target":"DELPHINE","mood":"bittersweet","intensity":3,"summary":"Delphine ends the call and Arlo offers her the first pretzel."}
+],
+"s00595": [
+{"start":1,"type":"pleads","fine":"appeals to","actor":"CORDELIA","target":"MAEVE","mood":"tense","intensity":2,"summary":"Cordelia irons while asking packed Maeve to stay past tonight's bus."},
+{"start":15,"type":"confronts","fine":"calls out","actor":"CORDELIA","target":"MAEVE","mood":"tense","intensity":3,"summary":"Cordelia raises their mother's will and Maeve admits she lied about not reading it."},
+{"start":21,"type":"hides","fine":"masks a feeling","actor":"CORDELIA","target":"MAEVE","mood":"melancholy","intensity":3,"summary":"Cordelia swallows what she wants to say and takes up the iron again."},
+{"start":24,"type":"accuses","fine":"blames","actor":"MAEVE","target":"CORDELIA","mood":"grief","intensity":4,"summary":"Maeve says she wanted to hear 'stay', not 'you don't have to go'."},
+{"start":32,"type":"leaves","fine":"walks out on","actor":"MAEVE","target":"CORDELIA","mood":"grief","intensity":4,"summary":"Maeve says goodbye and leaves gently while the soup boils over."},
+{"start":44,"type":"hides","fine":"keeps a secret","actor":"CORDELIA","target":null,"mood":"grief","intensity":3,"summary":"Cordelia lets the iron scorch the tablecloth, watching it burn."}
+],
+"s02178": [
+{"start":1,"type":"observes","fine":"waits","actor":"CALEB","target":"PRUITT","mood":"tense","intensity":2,"summary":"Sheriff Caleb guards bound Pruitt while Opal taps a dead telegraph key."},
+{"start":12,"type":"threatens","fine":"menaces","actor":"PRUITT","target":"CALEB","mood":"suspense","intensity":4,"summary":"Boots gather outside; Pruitt calls out and the telegraph wire proves cut."},
+{"start":23,"type":"decides","fine":"gives an order","actor":"CALEB","target":"OPAL","mood":"tense","intensity":4,"summary":"Caleb sends Opal out the back door to ride for Fort Hale."},
+{"start":34,"type":"leaves","fine":"slips out","actor":"OPAL","target":"CALEB","mood":"bittersweet","intensity":3,"summary":"Opal and Caleb share a soft moment and she rides away."},
+{"start":43,"type":"defends","fine":"holds the line against","actor":"CALEB","target":"PRUITT","mood":"tense","intensity":3,"summary":"Caleb readies his rifle and tells Pruitt's friends to come in one at a time."}
+],
+"s00624": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"STRANGER","target":"KESTREL","mood":"ominous","intensity":2,"summary":"Four figures wade into the drowned chapel to meet Kestrel."},
+{"start":14,"type":"challenges","fine":"challenges","actor":"STRANGER","target":"HOLLIS","mood":"suspense","intensity":3,"summary":"The Stranger heads for the bell rope; Hollis blocks him and is told he flinches like one who rang it."},
+{"start":24,"type":"decides","fine":"gives an order","actor":"CINDER","target":"HOLLIS","mood":"tense","intensity":3,"summary":"Cinder orders Hollis aside and the Stranger takes the rope as Morwenna recognizes him."},
+{"start":33,"type":"reveals","fine":"unmasks","actor":"STRANGER","target":"KESTREL","mood":"ominous","intensity":4,"summary":"Kestrel demands his name; he lowers his hood and says Ambrose Thale."},
+{"start":40,"type":"decides","fine":"commits","actor":"AMBROSE","target":null,"mood":"ominous","intensity":4,"summary":"Ambrose pulls the rope; the water goes still and every flame dies."},
+{"start":46,"type":"comforts","fine":"steadies","actor":"CINDER","target":null,"mood":"bittersweet","intensity":2,"summary":"Cinder laughs softly; Kestrel relights the lantern and Morwenna unbuckles her keys."}
+],
+"s01400": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"THEODORA","target":"MAEVE","mood":"tense","intensity":2,"summary":"At a viewing, the family silently notices a stranger with a toddler."},
+{"start":12,"type":"confronts","fine":"challenges","actor":"GABRIEL","target":"MAEVE","mood":"hostile","intensity":3,"summary":"Gabriel crosses to Maeve and demands she leave; she insists she knew the deceased."},
+{"start":25,"type":"comforts","fine":"embraces","actor":"THEODORA","target":"MAEVE","mood":"tender","intensity":4,"summary":"Theodora asks the child's name, learns it honors his mother, and silences her sons."},
+{"start":36,"type":"bonds","fine":"trusts","actor":"THEODORA","target":"MAEVE","mood":"bittersweet","intensity":3,"summary":"Everyone sits and Theodora puts her arm around the sleeping child."}
+],
+"s00801": [
+{"start":1,"type":"works","fine":"drives","actor":"PERPETUA","target":null,"mood":"calm","intensity":1,"summary":"Pilot Perpetua steers the balloon over fields, ignoring her nervous passengers."},
+{"start":8,"type":"jokes","fine":"banters with","actor":"PERPETUA","target":"ARABELLA","mood":"playful","intensity":2,"summary":"Arabella screams while Perpetua mutters a quip and Murdoch wakes grumbling."},
+{"start":18,"type":"jokes","fine":"riffs with","actor":"FITZ","target":"MURDOCH","mood":"playful","intensity":2,"summary":"Fitz and Murdoch joke about the sold house; Arabella begs to land."},
+{"start":29,"type":"attacks","fine":"shoves","actor":"PERPETUA","target":"ARABELLA","mood":"chaotic","intensity":2,"summary":"A gust shoves the basket, dropping Arabella while Murdoch and Fitz delight."}
+],
+"s00110": [
+{"start":1,"type":"works","fine":"prepares","actor":"ISOLDE","target":null,"mood":"suspense","intensity":2,"summary":"A diver climbs the quarry tower and records a dive log."},
+{"start":12,"type":"confesses","fine":"opens up to","actor":"ISOLDE","target":null,"mood":"melancholy","intensity":3,"summary":"Isolde confesses her doubts about coaches, letting go, and her reasons for diving."},
+{"start":21,"type":"decides","fine":"commits","actor":"ISOLDE","target":null,"mood":"triumphant","intensity":4,"summary":"Isolde replays her words, smiles, and dives into the water."},
+{"start":30,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"joyful","intensity":2,"summary":"The abandoned recorder catches a delighted shout from the water."}
+],
+"s00153_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"ominous","intensity":2,"summary":"A gondola cabin hangs over a gorge in icy wind."}
+],
+"s00427": [
+{"start":1,"type":"works","fine":"works","actor":"POLO","target":null,"mood":"tense","intensity":3,"summary":"A crew races a countdown to pick a steel case's lock."},
+{"start":16,"type":"discovers","fine":"uncovers","actor":"POLO","target":null,"mood":"chaotic","intensity":3,"summary":"The lock opens and the case holds only salted cod."},
+{"start":29,"type":"observes","fine":"hesitates","actor":"NADIA","target":null,"mood":"suspense","intensity":3,"summary":"The truck slows at the checkpoint as the crew reacts in dismay."}
+],
+"s01508": [
+{"start":1,"type":"works","fine":"drives","actor":"TAMARA","target":null,"mood":"calm","intensity":2,"summary":"Tamara calmly pilots through a tumbling asteroid field."},
+{"start":13,"type":"deflects","fine":"brushes off","actor":"TAMARA","target":"PILOT","mood":"melancholy","intensity":2,"summary":"She silences her recorded control calls, saying status is lonely."},
+{"start":18,"type":"decides","fine":"changes course","actor":"TAMARA","target":"PILOT","mood":"bittersweet","intensity":3,"summary":"She threads a gap, turns off the loop for good and heads toward a silver vein."}
+],
+"s01900": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"STRANGER","target":"COLLEEN","mood":"tense","intensity":2,"summary":"Two survivors of a snowmobile wreck meet on cracking ice."},
+{"start":12,"type":"bonds","fine":"teams up with","actor":"COLLEEN","target":"NAT","mood":"tense","intensity":3,"summary":"Colleen has Nat crawl low, learns her name, and blames her for the crash."},
+{"start":27,"type":"discovers","fine":"notices","actor":"NAT","target":"COLLEEN","mood":"fear","intensity":4,"summary":"A crack splits the ice between them, freezing them in place."},
+{"start":33,"type":"decides","fine":"makes a plan","actor":"COLLEEN","target":"NAT","mood":"suspense","intensity":4,"summary":"Colleen finds rope in Nat's pack and plans to haul her across."},
+{"start":47,"type":"comforts","fine":"steadies","actor":"COLLEEN","target":"NAT","mood":"triumphant","intensity":4,"summary":"Colleen pulls Nat over the groaning ice and they crawl toward shore."}
+],
+"s01602": [
+{"start":1,"type":"works","fine":"works","actor":"SOLEDAD","target":"AGNES","mood":"tense","intensity":3,"summary":"Soledad and Sister Agnes tend a dying soldier and decide to operate without plasma."},
+{"start":19,"type":"arrives","fine":"bursts in","actor":"RENARD","target":"SOLEDAD","mood":"ominous","intensity":3,"summary":"Colonel Renard storms in through the storm and claims the soldier as his."},
+{"start":30,"type":"decides","fine":"accepts","actor":"SOLEDAD","target":"RENARD","mood":"suspense","intensity":3,"summary":"Soledad lets Renard watch as she makes the first incision."}
+],
+"s00987": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ARCHIBALD","target":null,"mood":"tense","intensity":2,"summary":"Three men descend in a diving bell, Tobias thrilled and Cornelius uneasy."},
+{"start":15,"type":"threatens","fine":"warns","actor":"ARCHIBALD","target":"TOBIAS","mood":"suspense","intensity":3,"summary":"A monkfish passes; Archibald warns Tobias away from the glass."},
+{"start":30,"type":"discovers","fine":"notices","actor":"ARCHIBALD","target":null,"mood":"fear","intensity":4,"summary":"The bell groans and the speaking tube goes dead."},
+{"start":44,"type":"decides","fine":"commits","actor":"ARCHIBALD","target":null,"mood":"fear","intensity":4,"summary":"Archibald tugs the signal cord; silence answers, and Tobias jokes grimly."},
+{"start":57,"type":"works","fine":"repairs something","actor":"ARCHIBALD","target":"CORNELIUS","mood":"triumphant","intensity":3,"summary":"Archibald hammers the wall, knocks answer, and the bell rises."}
+],
+"s01368": [
+{"start":1,"type":"observes","fine":"watches","actor":"WHITLOCK","target":null,"mood":"calm","intensity":1,"summary":"Surgeons and observers sit in the gallery watching a quiet cardiac operation."},
+{"start":22,"type":"jokes","fine":"lightens the mood for","actor":"BUKOWSKI","target":"WHITLOCK","mood":"playful","intensity":2,"summary":"Bukowski crinkles a lemon drop wrapper and banters about outliving cardiologists."},
+{"start":36,"type":"bonds","fine":"banters with","actor":"RAO","target":"PALOMA","mood":"playful","intensity":2,"summary":"Paloma admires the valve and Rao calls it a pump with a door."},
+{"start":47,"type":"jokes","fine":"teases","actor":"SINEAD","target":"TAKUMI","mood":"playful","intensity":2,"summary":"Takumi wakes having missed the valve and promises to watch the closing."},
+{"start":60,"type":"observes","fine":"watches","actor":"BUKOWSKI","target":null,"mood":"calm","intensity":1,"summary":"The monitor settles and the group watches the closing, Bukowski rationing lemon drops."}
+],
+"s00943": [
+{"start":1,"type":"searches","fine":"investigates","actor":"ISOLDE","target":null,"mood":"suspense","intensity":2,"summary":"The crew gathers to trace a faint knocking in the ring's walls."},
+{"start":9,"type":"observes","fine":"takes it in","actor":"ISOLDE","target":null,"mood":"fear","intensity":3,"summary":"The knocking stops and the crew freezes; Perry insists the wheat is strange."},
+{"start":15,"type":"flees","fine":"scrambles away","actor":"ISOLDE","target":null,"mood":"chaotic","intensity":5,"summary":"Lights die, the wall bulges, and everyone scatters toward the hatch."},
+{"start":26,"type":"hides","fine":"ducks out of sight","actor":"ZAINAB","target":"BART","mood":"fear","intensity":4,"summary":"Bart stares at the thing until Zainab hauls him away and Isolde seals the bulkhead."},
+{"start":30,"type":"discovers","fine":"realizes","actor":"MERCATOR","target":"ISOLDE","mood":"ominous","intensity":3,"summary":"Mercator says it isn't wheat while the knocking resumes and Fionnuala laughs shakily."}
+]
+}

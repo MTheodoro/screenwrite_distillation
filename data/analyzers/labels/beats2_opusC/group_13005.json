@@ -1,0 +1,180 @@
+{
+"pd_earnest_6": [
+{"start": 1, "type": "bonds", "fine": "reconnects with", "actor": "JACK", "target": "ALGERNON", "mood": "joyful", "intensity": 3, "summary": "Jack embraces Algernon as his brother and introduces him to everyone"},
+{"start": 5, "type": "confronts", "fine": "presses", "actor": "GWENDOLEN", "target": "JACK", "mood": "playful", "intensity": 3, "summary": "Gwendolen demands to know Jack's real Christian name"},
+{"start": 10, "type": "searches", "fine": "investigates", "actor": "JACK", "target": "LADY BRACKNELL", "mood": "playful", "intensity": 3, "summary": "Jack questions Lady Bracknell and Algernon about his father's name"},
+{"start": 22, "type": "discovers", "fine": "uncovers", "actor": "JACK", "target": null, "mood": "suspense", "intensity": 3, "summary": "Jack tears through the Army Lists and finds the name Ernest John"},
+{"start": 25, "type": "reveals", "fine": "reveals", "actor": "JACK", "target": "GWENDOLEN", "mood": "triumphant", "intensity": 4, "summary": "Jack calmly announces his name is Ernest and Gwendolen forgives him"},
+{"start": 32, "type": "bonds", "fine": "embraces", "actor": "CHASUBLE", "target": "MISS PRISM", "mood": "joyful", "intensity": 4, "summary": "Three couples embrace, crying at last"},
+{"start": 43, "type": "jokes", "fine": "riffs with", "actor": "JACK", "target": "LADY BRACKNELL", "mood": "triumphant", "intensity": 3, "summary": "Jack answers Lady Bracknell with the importance of being earnest"}
+],
+"s01116": [
+{"start": 1, "type": "observes", "fine": "watches", "actor": "IZABELLA", "target": "TEDDY", "mood": "awkward", "intensity": 2, "summary": "Izabella pours for her ex Teddy as everyone watches him taste"},
+{"start": 12, "type": "mocks", "fine": "needles", "actor": "CAMILA", "target": "TEDDY", "mood": "playful", "intensity": 2, "summary": "Camila exposes Teddy's tepid verdict as code for sour"},
+{"start": 20, "type": "reveals", "fine": "drops a bombshell on", "actor": "IZABELLA", "target": "TEDDY", "mood": "awkward", "intensity": 4, "summary": "Henrik praises the wine and Izabella introduces him as her fiance"},
+{"start": 31, "type": "comforts", "fine": "consoles", "actor": "CAMILA", "target": "TEDDY", "mood": "bittersweet", "intensity": 3, "summary": "Teddy congratulates stiffly, drains his glass, and Camila offers another"}
+],
+"s01105": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "FIONNUALA", "target": null, "mood": "tense", "intensity": 3, "summary": "Fionnuala scopes enemies from a ruined cinema roof beside wounded Ikenna"},
+{"start": 15, "type": "threatens", "fine": "menaces", "actor": "FIONNUALA", "target": "MR. TAVAKOLI", "mood": "tense", "intensity": 4, "summary": "Tavakoli's noise makes Fionnuala flinch and Ikenna calms her"},
+{"start": 24, "type": "persuades", "fine": "pitches to", "actor": "MR. TAVAKOLI", "target": "FIONNUALA", "mood": "suspense", "intensity": 3, "summary": "The projectionist reveals which roof beams do not creak"},
+{"start": 33, "type": "decides", "fine": "makes a plan", "actor": "FIONNUALA", "target": "IKENNA", "mood": "suspense", "intensity": 3, "summary": "Ikenna crawls toward the beams, leaving a trail of blood"},
+{"start": 36, "type": "decides", "fine": "gives an order", "actor": "FIONNUALA", "target": "MR. TAVAKOLI", "mood": "bittersweet", "intensity": 4, "summary": "Fionnuala orders Tavakoli to follow and says she will stay"},
+{"start": 43, "type": "flees", "fine": "escapes", "actor": "MR. TAVAKOLI", "target": null, "mood": "tense", "intensity": 4, "summary": "A shell whistles in, and Tavakoli crawls after Ikenna's signal"},
+{"start": 49, "type": "defends", "fine": "covers for", "actor": "FIONNUALA", "target": null, "mood": "suspense", "intensity": 4, "summary": "Fionnuala rises and takes aim as fire flickers in the screen"}
+],
+"s01103": [
+{"start": 1, "type": "searches", "fine": "investigates", "actor": "CORDELIA", "target": null, "mood": "ominous", "intensity": 2, "summary": "Cordelia and Artemus wade through the flooded asylum cellar"},
+{"start": 10, "type": "discovers", "fine": "notices", "actor": "ARTEMUS", "target": null, "mood": "fear", "intensity": 4, "summary": "Artemus's flash reveals a figure standing against the far wall"},
+{"start": 21, "type": "persuades", "fine": "pleads with", "actor": "ARTEMUS", "target": "CORDELIA", "mood": "suspense", "intensity": 3, "summary": "Artemus wants to leave; Cordelia explains they seek patient Mary Hargreave"},
+{"start": 30, "type": "observes", "fine": "listens to", "actor": "CORDELIA", "target": null, "mood": "fear", "intensity": 4, "summary": "A woman's voice hums a lullaby and Cordelia warns not to answer"},
+{"start": 39, "type": "hides", "fine": "masks a feeling", "actor": "CORDELIA", "target": null, "mood": "fear", "intensity": 4, "summary": "A pale face rises in the water and they both look away"},
+{"start": 46, "type": "attacks", "fine": "grabs", "actor": "VOICE", "target": "CORDELIA", "mood": "fear", "intensity": 5, "summary": "A hand seizes Cordelia's ankle, she screams, the lantern falls"},
+{"start": 51, "type": "discovers", "fine": "catches", "actor": "ARTEMUS", "target": "CORDELIA", "mood": "ominous", "intensity": 5, "summary": "A flash shows a woman in a nightgown gripping Cordelia, then black"}
+],
+"s01114": [
+{"start": 1, "type": "deflects", "fine": "stalls", "actor": "ANSELMO", "target": "OPERATOR", "mood": "melancholy", "intensity": 2, "summary": "Anselmo sits in the stairwell ignoring urgent pages"},
+{"start": 14, "type": "confesses", "fine": "unburdens to", "actor": "ANSELMO", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Anselmo lists his crushing workload and recalls an attending's words"},
+{"start": 21, "type": "decides", "fine": "accepts", "actor": "ANSELMO", "target": "OPERATOR", "mood": "bittersweet", "intensity": 2, "summary": "He puts his hat back on, answers the page, and climbs"}
+],
+"s00010": [
+{"start": 1, "type": "threatens", "fine": "intimidates", "actor": "DEZ", "target": "OKSANA", "mood": "tense", "intensity": 3, "summary": "Armed Dez watches Oksana at the dials, warning her off the brake"},
+{"start": 17, "type": "pleads", "fine": "appeals to", "actor": "OKSANA", "target": "DEZ", "mood": "tense", "intensity": 3, "summary": "Oksana reminds Dez that eleven people, including kids, are stranded"},
+{"start": 19, "type": "lies", "fine": "covers a story for", "actor": "OKSANA", "target": "MARGUERITE", "mood": "suspense", "intensity": 4, "summary": "At gunpoint, Oksana lies to Base that everything is fine"},
+{"start": 31, "type": "threatens", "fine": "holds at gunpoint", "actor": "DEZ", "target": "OKSANA", "mood": "suspense", "intensity": 4, "summary": "Dez levels the pistol and makes Oksana send Marguerite home"},
+{"start": 41, "type": "decides", "fine": "makes a plan", "actor": "DEZ", "target": "OKSANA", "mood": "tense", "intensity": 3, "summary": "Dez calculates they have fifteen minutes before the sheriff"},
+{"start": 47, "type": "discovers", "fine": "uncovers", "actor": "OKSANA", "target": "DEZ", "mood": "ominous", "intensity": 4, "summary": "Forced to open the duffel, Oksana finds a steel case with a wrist strap"},
+{"start": 57, "type": "arrives", "fine": "shows up unannounced", "actor": "TARIQ", "target": "DEZ", "mood": "tense", "intensity": 4, "summary": "Ski patroller Tariq walks in and sees the gun"},
+{"start": 65, "type": "threatens", "fine": "coerces", "actor": "DEZ", "target": "TARIQ", "mood": "tense", "intensity": 4, "summary": "Dez seats Tariq and rips away his radio"},
+{"start": 79, "type": "reveals", "fine": "comes clean to", "actor": "OKSANA", "target": "MARGUERITE", "mood": "suspense", "intensity": 5, "summary": "As headlights approach, Oksana tells Base about the gunman"},
+{"start": 95, "type": "decides", "fine": "makes a plan", "actor": "MARGUERITE", "target": "OKSANA", "mood": "suspense", "intensity": 4, "summary": "Marguerite tells her to move the car into the sheriff's hands"},
+{"start": 102, "type": "persuades", "fine": "talks down", "actor": "OKSANA", "target": "DEZ", "mood": "tense", "intensity": 5, "summary": "Oksana offers Dez a way out; he kicks the case at her"},
+{"start": 116, "type": "threatens", "fine": "issues an ultimatum to", "actor": "DEZ", "target": "OKSANA", "mood": "suspense", "intensity": 5, "summary": "Dez cocks the pistol and Oksana pulls the lever"}
+],
+"pd_earnest_5": [
+{"start": 1, "type": "bonds", "fine": "embraces", "actor": "ALGERNON", "target": "CECILY", "mood": "playful", "intensity": 3, "summary": "The men vow to face christening and the couples embrace"},
+{"start": 12, "type": "arrives", "fine": "is ushered in", "actor": "LADY BRACKNELL", "target": "GWENDOLEN", "mood": "awkward", "intensity": 3, "summary": "Merriman announces Lady Bracknell and the couples spring apart"},
+{"start": 19, "type": "decides", "fine": "refuses", "actor": "LADY BRACKNELL", "target": "JACK", "mood": "tense", "intensity": 3, "summary": "Lady Bracknell forbids Gwendolen's engagement to Jack outright"},
+{"start": 25, "type": "lies", "fine": "covers a story for", "actor": "ALGERNON", "target": "LADY BRACKNELL", "mood": "playful", "intensity": 3, "summary": "Algernon flusters through Bunbury's sudden explosive death"},
+{"start": 37, "type": "reveals", "fine": "breaks news to", "actor": "ALGERNON", "target": "LADY BRACKNELL", "mood": "playful", "intensity": 3, "summary": "Algernon and Cecily announce their engagement"},
+{"start": 43, "type": "confronts", "fine": "interrogates", "actor": "LADY BRACKNELL", "target": "JACK", "mood": "tense", "intensity": 3, "summary": "Lady Bracknell probes Cecily's origins and Jack coldly lists addresses"}
+],
+"s01109": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "BILLIE", "target": null, "mood": "calm", "intensity": 1, "summary": "Billie tests the old scoreboard and blares the horn by mistake"},
+{"start": 13, "type": "deflects", "fine": "stalls", "actor": "BILLIE", "target": "JANITOR", "mood": "calm", "intensity": 1, "summary": "The janitor warns of lights out and Billie asks for five minutes"},
+{"start": 18, "type": "observes", "fine": "takes it in", "actor": "BILLIE", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Billie spotlights center court and gazes at the empty circle"},
+{"start": 24, "type": "jokes", "fine": "plays with", "actor": "BILLIE", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Billie stages a phantom game, running the score up to 99"},
+{"start": 32, "type": "leaves", "fine": "exits quietly", "actor": "BILLIE", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "She sounds a final horn, whispers good game, and goes dark"}
+],
+"s01035": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "RENATA", "target": null, "mood": "calm", "intensity": 2, "summary": "Renata reports three calm souls in the quarantined gift shop"},
+{"start": 15, "type": "jokes", "fine": "banters with", "actor": "MILES", "target": "ADEBAYO", "mood": "playful", "intensity": 2, "summary": "Adebayo and Miles joke about snow globes and placebos"},
+{"start": 19, "type": "searches", "fine": "examines", "actor": "MILES", "target": "ADEBAYO", "mood": "tense", "intensity": 3, "summary": "Adebayo coughs and Miles presses him on how long"},
+{"start": 25, "type": "accuses", "fine": "blames", "actor": "RENATA", "target": "MILES", "mood": "tense", "intensity": 4, "summary": "Renata orders everyone still and blames Miles for missing symptoms"},
+{"start": 35, "type": "discovers", "fine": "notices", "actor": "RENATA", "target": null, "mood": "ominous", "intensity": 4, "summary": "Searchlights from a foreign hull sweep the promenade"},
+{"start": 41, "type": "pleads", "fine": "calls for", "actor": "RENATA", "target": "CAPTAIN HALE", "mood": "fear", "intensity": 5, "summary": "Renata radios the bridge and Hale whispers not to open the door"}
+],
+"s00001": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "ODALYS", "target": "STRANGER", "mood": "ominous", "intensity": 2, "summary": "Detective Odalys enters a rain-swept taxidermy workshop and is offered tea"},
+{"start": 12, "type": "searches", "fine": "questions witnesses", "actor": "ODALYS", "target": "STRANGER", "mood": "tense", "intensity": 3, "summary": "Odalys probes the woman about the museum break-in"},
+{"start": 17, "type": "discovers", "fine": "finds a clue", "actor": "ODALYS", "target": "INGRID", "mood": "suspense", "intensity": 4, "summary": "Ingrid turns, and a museum key tag sits on her shelf"},
+{"start": 25, "type": "threatens", "fine": "warns", "actor": "ODALYS", "target": "INGRID", "mood": "tense", "intensity": 4, "summary": "Odalys reaches for her belt and orders Ingrid to drop the needle"}
+],
+"s01077": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "OROZCO", "target": "VOSS", "mood": "tense", "intensity": 3, "summary": "Orozco spots a dust cloud on the east road"},
+{"start": 15, "type": "comforts", "fine": "steadies", "actor": "VOSS", "target": "OROZCO", "mood": "tense", "intensity": 3, "summary": "Voss sees Orozco's fear and tells him to breathe"},
+{"start": 22, "type": "reveals", "fine": "breaks news to", "actor": "VOSS", "target": "OROZCO", "mood": "ominous", "intensity": 4, "summary": "Voss looks and reports both armor and trucks approaching"},
+{"start": 29, "type": "decides", "fine": "makes a plan", "actor": "VOSS", "target": "OROZCO", "mood": "tense", "intensity": 3, "summary": "Voss rejects hiding in the engine and readies a signal mirror"},
+{"start": 36, "type": "pleads", "fine": "calls for", "actor": "VOSS", "target": null, "mood": "melancholy", "intensity": 3, "summary": "She flashes the ridge; no answer, but she will signal anyway"},
+{"start": 46, "type": "comforts", "fine": "calms", "actor": "VOSS", "target": "OROZCO", "mood": "suspense", "intensity": 4, "summary": "As the dust swells, Voss gently stops Orozco's rifle"},
+{"start": 53, "type": "observes", "fine": "waits", "actor": "VOSS", "target": null, "mood": "suspense", "intensity": 4, "summary": "Engines rise while she keeps flashing and he counts"}
+],
+"s01088": [
+{"start": 1, "type": "works", "fine": "works", "actor": "BEE", "target": "BRAM", "mood": "tense", "intensity": 3, "summary": "Bee and Bram drag the unconscious captain across the mudflat"},
+{"start": 12, "type": "searches", "fine": "examines", "actor": "BEE", "target": "CAPTAIN HALVARD", "mood": "tense", "intensity": 3, "summary": "Bee checks the captain's pulse as Bram warns the tide is turning"},
+{"start": 23, "type": "threatens", "fine": "issues an ultimatum to", "actor": "BEE", "target": "BRAM", "mood": "tense", "intensity": 4, "summary": "Bee forces Bram to choose between the water and the captain"},
+{"start": 29, "type": "works", "fine": "works", "actor": "BRAM", "target": null, "mood": "tense", "intensity": 4, "summary": "They lift the stretcher but Bram falls and the captain groans"},
+{"start": 39, "type": "defends", "fine": "stands up for", "actor": "BEE", "target": "BRAM", "mood": "tender", "intensity": 4, "summary": "Bram says go without him; Bee hauls him up and refuses"},
+{"start": 50, "type": "decides", "fine": "refuses", "actor": "CAPTAIN HALVARD", "target": "BEE", "mood": "bittersweet", "intensity": 3, "summary": "The captain wakes and insists on crawling himself"},
+{"start": 61, "type": "bonds", "fine": "shares a moment with", "actor": "BEE", "target": "BRAM", "mood": "hopeful", "intensity": 3, "summary": "Bee and Bram follow the stubborn old man toward the roots"}
+],
+"s01110": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "CORNELIUS", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Cornelius sits in his car as an answering machine picks up"},
+{"start": 9, "type": "pleads", "fine": "appeals to", "actor": "CORNELIUS", "target": "MARA", "mood": "melancholy", "intensity": 3, "summary": "Cornelius begins a message to estranged Mara without asking her to pick up"},
+{"start": 13, "type": "confesses", "fine": "comes clean to", "actor": "CORNELIUS", "target": "MARA", "mood": "grief", "intensity": 4, "summary": "He tells of her mother's illness and admits lying about the flowers"},
+{"start": 20, "type": "reveals", "fine": "breaks news to", "actor": "CORNELIUS", "target": "MARA", "mood": "grief", "intensity": 4, "summary": "He shares the uncertain prognosis and where to find them"},
+{"start": 23, "type": "pleads", "fine": "implores", "actor": "CORNELIUS", "target": "MARA", "mood": "bittersweet", "intensity": 4, "summary": "He recalls her singing on the machine and asks her to sing"},
+{"start": 28, "type": "observes", "fine": "waits", "actor": "CORNELIUS", "target": null, "mood": "grief", "intensity": 3, "summary": "Only static answers before the machine cheerfully saves the message"}
+],
+"s00016": [
+{"start": 1, "type": "arrives", "fine": "drifts in", "actor": "STRANGER", "target": "YOUNG WOMAN", "mood": "ominous", "intensity": 2, "summary": "A stranger rides into a dry creek where an armed woman waits"},
+{"start": 11, "type": "searches", "fine": "questions witnesses", "actor": "STRANGER", "target": "YOUNG WOMAN", "mood": "tense", "intensity": 3, "summary": "He asks after Cullen Pike; she claims never to have heard of him"},
+{"start": 21, "type": "confronts", "fine": "faces off with", "actor": "YOUNG WOMAN", "target": "STRANGER", "mood": "tense", "intensity": 4, "summary": "She crosses to face him, shotgun ready, and demands his name"},
+{"start": 28, "type": "bonds", "fine": "shares a moment with", "actor": "JEDEDIAH", "target": "ODALYS", "mood": "playful", "intensity": 2, "summary": "Jedediah's church name draws a startled laugh and the shotgun dips"},
+{"start": 35, "type": "reveals", "fine": "drops a bombshell on", "actor": "ODALYS", "target": "JEDEDIAH", "mood": "grief", "intensity": 4, "summary": "Odalys reveals Cullen was her father, buried under the second pier"},
+{"start": 40, "type": "accuses", "fine": "points the finger at", "actor": "ODALYS", "target": "JEDEDIAH", "mood": "tense", "intensity": 5, "summary": "Jedediah doffs his hat; Odalys levels the shotgun, blaming his employer"}
+],
+"s01055": [
+{"start": 1, "type": "mocks", "fine": "needles", "actor": "PHILOMENA", "target": "ARTUR", "mood": "playful", "intensity": 2, "summary": "Philomena cooks and needles Artur for missing Sundays"},
+{"start": 17, "type": "jokes", "fine": "riffs with", "actor": "PHILOMENA", "target": "SOLEDAD", "mood": "playful", "intensity": 2, "summary": "Philomena jokes her late husband's cooking was all lies"},
+{"start": 21, "type": "deflects", "fine": "stalls", "actor": "ARTUR", "target": "PHILOMENA", "mood": "tense", "intensity": 2, "summary": "Artur tries to keep the day light while Philomena prods"},
+{"start": 26, "type": "confronts", "fine": "calls out", "actor": "PHILOMENA", "target": "ARTUR", "mood": "tense", "intensity": 3, "summary": "Philomena calls out that he brought Soledad to deliver news"},
+{"start": 34, "type": "reveals", "fine": "breaks news to", "actor": "ARTUR", "target": "PHILOMENA", "mood": "grief", "intensity": 4, "summary": "Artur tells his mother the doctor's results show she is sick"},
+{"start": 45, "type": "confesses", "fine": "opens up to", "actor": "PHILOMENA", "target": "ARTUR", "mood": "melancholy", "intensity": 4, "summary": "Philomena says she already knew from the cough"},
+{"start": 50, "type": "persuades", "fine": "convinces", "actor": "ARTUR", "target": "PHILOMENA", "mood": "grief", "intensity": 4, "summary": "Artur says they want to place her with nurses for a while"},
+{"start": 57, "type": "comforts", "fine": "tends to", "actor": "PHILOMENA", "target": "SOLEDAD", "mood": "bittersweet", "intensity": 4, "summary": "Tearful, Philomena gathers them to sit and feeds Soledad"},
+{"start": 70, "type": "reveals", "fine": "unburdens to", "actor": "PHILOMENA", "target": "ARTUR", "mood": "bittersweet", "intensity": 4, "summary": "Philomena reveals the only secret ingredient is her Sunday devotion"},
+{"start": 77, "type": "bonds", "fine": "shares a moment with", "actor": "ARTUR", "target": "PHILOMENA", "mood": "tender", "intensity": 3, "summary": "Soledad eats through tears and Artur takes his mother's hand"}
+],
+"s00003": [
+{"start": 1, "type": "works", "fine": "works", "actor": "ABEBE", "target": null, "mood": "suspense", "intensity": 3, "summary": "Abebe's crucial stone in the salt mine final dies short"},
+{"start": 10, "type": "comforts", "fine": "reassures", "actor": "INEZ", "target": "ABEBE", "mood": "melancholy", "intensity": 2, "summary": "Dez calls the game; Abebe blames himself and Inez reassures him"},
+{"start": 17, "type": "arrives", "fine": "arrives", "actor": "GUS", "target": "DEZ", "mood": "tense", "intensity": 3, "summary": "Foreman Gus arrives demanding they clear the lane for shift change"},
+{"start": 25, "type": "pleads", "fine": "begs", "actor": "INEZ", "target": "GUS", "mood": "tense", "intensity": 3, "summary": "Inez begs for the end and Gus grants one stone"},
+{"start": 31, "type": "comforts", "fine": "steadies", "actor": "INEZ", "target": "ABEBE", "mood": "tender", "intensity": 3, "summary": "Inez steadies Abebe's shaking hands before his throw"},
+{"start": 37, "type": "works", "fine": "works", "actor": "ABEBE", "target": null, "mood": "melancholy", "intensity": 3, "summary": "The clean release slides long and touches nothing"}
+],
+"pd_sisters_2": [
+{"start": 1, "type": "persuades", "fine": "pitches to", "actor": "TUZENBACH", "target": "KULIGIN", "mood": "calm", "intensity": 2, "summary": "Tuzenbach proposes a benefit concert praising Masha's playing"},
+{"start": 16, "type": "reveals", "fine": "breaks news to", "actor": "VERSHININ", "target": "IRINA", "mood": "melancholy", "intensity": 3, "summary": "Vershinin reports the brigade may be transferred far away"},
+{"start": 22, "type": "attacks", "fine": "strikes", "actor": "CHEBUTIKIN", "target": null, "mood": "awkward", "intensity": 3, "summary": "Chebutikin drops and smashes the clock that belonged to their mother"},
+{"start": 28, "type": "reveals", "fine": "lets slip to", "actor": "CHEBUTIKIN", "target": "IRINA", "mood": "bittersweet", "intensity": 3, "summary": "Chebutikin muses nihilistically and blurts Natasha's affair before exiting"},
+{"start": 34, "type": "bonds", "fine": "confides in", "actor": "VERSHININ", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Vershinin recounts his frightened girls during the fire"},
+{"start": 41, "type": "bonds", "fine": "confides in", "actor": "VERSHININ", "target": "MASHA", "mood": "hopeful", "intensity": 2, "summary": "As Masha enters, Vershinin philosophizes about life centuries ahead"}
+],
+"s01096": [
+{"start": 1, "type": "searches", "fine": "tracks", "actor": "INEZ", "target": "FIGURE", "mood": "suspense", "intensity": 3, "summary": "Inez leads a team along the catwalk toward a crouched figure"},
+{"start": 13, "type": "confronts", "fine": "corners", "actor": "INEZ", "target": "FIGURE", "mood": "tense", "intensity": 4, "summary": "With four minutes to overture, Inez orders the figure to drop the case"},
+{"start": 22, "type": "decides", "fine": "gives an order", "actor": "DOROTHEA", "target": "AUGUSTO", "mood": "tense", "intensity": 3, "summary": "Dorothea sends Augusto to cut the chandelier cable"},
+{"start": 30, "type": "persuades", "fine": "talks down", "actor": "INEZ", "target": "VIOLETTA", "mood": "tense", "intensity": 4, "summary": "Inez urges restraint and the figure turns out to be Violetta"},
+{"start": 39, "type": "confesses", "fine": "opens up to", "actor": "VIOLETTA", "target": "INEZ", "mood": "melancholy", "intensity": 4, "summary": "Violetta laments being fired after four hundred nights of singing"},
+{"start": 44, "type": "defends", "fine": "protects", "actor": "INEZ", "target": "VIOLETTA", "mood": "suspense", "intensity": 5, "summary": "Barnabas aims as Violetta reaches for the clasp; Inez makes him lower it"},
+{"start": 51, "type": "pleads", "fine": "appeals to", "actor": "VIOLETTA", "target": "INEZ", "mood": "bittersweet", "intensity": 3, "summary": "Violetta asks to sing once more and Dorothea gives her a spotlight"},
+{"start": 59, "type": "reveals", "fine": "reveals", "actor": "VIOLETTA", "target": "INEZ", "mood": "bittersweet", "intensity": 4, "summary": "The briefcase spills blank sheet music; there was never a bomb"},
+{"start": 67, "type": "reveals", "fine": "shows", "actor": "VIOLETTA", "target": null, "mood": "triumphant", "intensity": 4, "summary": "Violetta sings one clear note and everyone stands awed"}
+],
+"s01054": [
+{"start": 1, "type": "searches", "fine": "searches", "actor": "WOMAN", "target": null, "mood": "tense", "intensity": 2, "summary": "A woman locks herself in a motel room and checks every corner"},
+{"start": 16, "type": "works", "fine": "writes", "actor": "WOMAN", "target": null, "mood": "tense", "intensity": 2, "summary": "She tests a tape recorder and logs day one"},
+{"start": 32, "type": "discovers", "fine": "notices", "actor": "WOMAN", "target": null, "mood": "fear", "intensity": 4, "summary": "Playback adds her own voice whispering I'm in the room"},
+{"start": 39, "type": "hides", "fine": "masks a feeling", "actor": "WOMAN", "target": null, "mood": "ominous", "intensity": 3, "summary": "The extra line vanishes on replay and she forces calm"},
+{"start": 45, "type": "discovers", "fine": "realizes", "actor": "LENA", "target": null, "mood": "ominous", "intensity": 3, "summary": "A key tag reminds her she is Lena Marsh, rehearsing her identity"},
+{"start": 56, "type": "discovers", "fine": "realizes", "actor": "LENA", "target": null, "mood": "fear", "intensity": 5, "summary": "The recorder turns on alone and her voice speaks of tomorrow"},
+{"start": 69, "type": "attacks", "fine": "lunges at", "actor": "LENA", "target": null, "mood": "chaotic", "intensity": 5, "summary": "Lena rips out the cassette and hurls it into the TV"},
+{"start": 74, "type": "pleads", "fine": "begs", "actor": "LENA", "target": null, "mood": "fear", "intensity": 5, "summary": "The bathroom light and doorknob move on their own as she begs"},
+{"start": 87, "type": "hides", "fine": "hides", "actor": "LENA", "target": null, "mood": "fear", "intensity": 5, "summary": "Hiding under the bed, the cracked tape murmurs day two"}
+],
+"s00018": [
+{"start": 1, "type": "jokes", "fine": "amuses", "actor": "EZEKIEL", "target": "PIPPA", "mood": "playful", "intensity": 2, "summary": "Ezekiel tells Pippa he fell off boats twice, painlessly the second time"},
+{"start": 12, "type": "jokes", "fine": "banters with", "actor": "EZEKIEL", "target": "JUNIOR", "mood": "playful", "intensity": 2, "summary": "Junior wants off and Ezekiel calls them simply committed"}
+],
+"s01033": [
+{"start": 1, "type": "accuses", "fine": "accuses", "actor": "SILAS", "target": "AUGUST", "mood": "tense", "intensity": 3, "summary": "In a stalled funicular, Silas accuses August of pulling the brake"},
+{"start": 12, "type": "threatens", "fine": "warns", "actor": "AUGUST", "target": "SILAS", "mood": "tense", "intensity": 4, "summary": "August warns Silas off his pocket and hints at their employer"},
+{"start": 28, "type": "discovers", "fine": "notices", "actor": "SILAS", "target": null, "mood": "suspense", "intensity": 4, "summary": "Scrapes sound on the roof and the car sways"},
+{"start": 35, "type": "arrives", "fine": "bursts in", "actor": "ZOFIA", "target": "AUGUST", "mood": "tense", "intensity": 5, "summary": "Zofia drops through the hatch with an ice axe and demands the briefcase"},
+{"start": 46, "type": "reveals", "fine": "shows", "actor": "SILAS", "target": "ZOFIA", "mood": "suspense", "intensity": 4, "summary": "Silas opens the case to reveal it empty"},
+{"start": 54, "type": "accuses", "fine": "implicates", "actor": "AUGUST", "target": "SILAS", "mood": "ominous", "intensity": 4, "summary": "August says Silas knows and points to a handprint outside the glass"},
+{"start": 60, "type": "flees", "fine": "scrambles away", "actor": null, "target": null, "mood": "fear", "intensity": 5, "summary": "The car drops ten feet and catches as all three scream"}
+]
+}

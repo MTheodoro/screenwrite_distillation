@@ -1,0 +1,147 @@
+{
+"s00418": [
+{"start":1,"type":"mocks","fine":"needles","actor":"LUKA","target":"TEO","mood":"playful","intensity":2,"summary":"Luka teases stalling Teo into a game of twenty-one in the driveway."},
+{"start":20,"type":"attacks","fine":"fights","actor":"TEO","target":"LUKA","mood":"playful","intensity":3,"summary":"Teo scores first; they tangle going for a rebound and argue over the foul."},
+{"start":38,"type":"reveals","fine":"breaks news to","actor":"LUKA","target":"TEO","mood":"tense","intensity":4,"summary":"Lying on the asphalt, Luka tells Teo his dad says he is staying all summer."},
+{"start":57,"type":"decides","fine":"changes course","actor":"TEO","target":"LUKA","mood":"bittersweet","intensity":3,"summary":"Teo gets up, picks up the ball, and insists they finish the game."},
+{"start":68,"type":"jokes","fine":"plays with","actor":"LUKA","target":"TEO","mood":"playful","intensity":2,"summary":"They collide again, the floodlight dies, and they laugh over the foul in darkness."}
+],
+"s00174": [
+{"start":1,"type":"observes","fine":"waits","actor":"GUS","target":null,"mood":"ominous","intensity":3,"summary":"Stranded in a fogbound gondola, Gus insists the operator will return as laughter echoes below."},
+{"start":14,"type":"arrives","fine":"makes an entrance","actor":"PIKE","target":"GUS","mood":"fear","intensity":4,"summary":"The silent man in yellow demands tickets and unmasks a painted grin; Gus recognizes Pike."},
+{"start":26,"type":"threatens","fine":"looms over","actor":"PIKE","target":"GUS","mood":"fear","intensity":5,"summary":"The gondola drops and stops while Pike's grin widens."}
+],
+"s00892": [
+{"start":1,"type":"observes","fine":"watches","actor":"LORRAINE","target":null,"mood":"ominous","intensity":2,"summary":"Guests gather in the motel ice alcove, uneasy about the shuddering machine."},
+{"start":12,"type":"deflects","fine":"brushes off","actor":"GIDEON","target":"LORRAINE","mood":"tense","intensity":3,"summary":"Hiram arrives and the clerk dismisses the knocking as pipes."},
+{"start":23,"type":"confesses","fine":"unburdens to","actor":"LORRAINE","target":"HIRAM","mood":"fear","intensity":4,"summary":"Dot and Lorraine reveal guests heard their names; Lorraine heard her dead mother's voice."},
+{"start":37,"type":"decides","fine":"commits","actor":"GIDEON","target":"DOT","mood":"suspense","intensity":4,"summary":"Over Dot's objections, Gideon unlocks the machine and finds a woman's eyes in the ice."}
+],
+"s00231": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"LINDQVIST","target":"CONSTANCE","mood":"tense","intensity":3,"summary":"Inspector Lindqvist questions Constance about her dead partner and a quarrel over a heron."},
+{"start":29,"type":"confronts","fine":"corners","actor":"LINDQVIST","target":"CONSTANCE","mood":"suspense","intensity":3,"summary":"He presses her about a safe-shaped hole behind the heron."},
+{"start":36,"type":"arrives","fine":"shows up unannounced","actor":"ELLIOTT","target":null,"mood":"suspense","intensity":4,"summary":"A soaked delivery boy brings a ticking parcel for the dead Mr. Pennington."},
+{"start":51,"type":"discovers","fine":"finds a clue","actor":"CONSTANCE","target":null,"mood":"ominous","intensity":4,"summary":"Inside the parcel, a watch and a note tell them to look behind the heron."}
+],
+"s01552": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ASHER","target":"CONSTANCE","mood":"awkward","intensity":2,"summary":"Opposing counsel share an anteroom, awkwardly bumping hands on a stapler and trading quips before court."}
+],
+"s01252": [
+{"start":1,"type":"confesses","fine":"unburdens to","actor":"SERAPHINA","target":null,"mood":"melancholy","intensity":3,"summary":"Detective Seraphina records an apology in her parked car in the rain."},
+{"start":6,"type":"discovers","fine":"pieces it together","actor":"SERAPHINA","target":null,"mood":"suspense","intensity":4,"summary":"She replays her notes and deduces the dead man was swapped and Corwin Hale is alive."},
+{"start":27,"type":"observes","fine":"takes it in","actor":"SERAPHINA","target":null,"mood":"fear","intensity":5,"summary":"Headlights turn into the quarry; she records her last words and the light floods the car."}
+],
+"s01743": [
+{"start":1,"type":"confesses","fine":"opens up to","actor":"KIKI","target":"PRISHA","mood":"awkward","intensity":3,"summary":"Osvaldo pushes Kiki to admit she likes new girl Prisha; they trade denials."},
+{"start":17,"type":"confesses","fine":"comes clean to","actor":"KIKI","target":"PRISHA","mood":"joyful","intensity":4,"summary":"Kiki and Osvaldo both blurt that they like Prisha, and Kiki kills the music."}
+],
+"s01872": [
+{"start":1,"type":"works","fine":"repairs something","actor":"VANCE","target":null,"mood":"chaotic","intensity":4,"summary":"An alarm sounds and the crew scrambles to seal a hull breach in the greenhouse."},
+{"start":11,"type":"comforts","fine":"steadies","actor":"VANCE","target":"DELACROIX","mood":"triumphant","intensity":2,"summary":"The breach is contained and Vance steadies shaken Cadet Delacroix to close the airlock."}
+],
+"s01686": [
+{"start":1,"type":"mocks","fine":"taunts","actor":"MINNIE","target":"ARNOLD","mood":"playful","intensity":2,"summary":"Rival bowlers Arnold and Minnie trade strikes, gutters and smug looks."},
+{"start":22,"type":"jokes","fine":"riffs with","actor":"ARNOLD","target":"MINNIE","mood":"awkward","intensity":2,"summary":"They reach for the same ball; Deacon points out the rack."},
+{"start":28,"type":"mocks","fine":"humiliates","actor":"MINNIE","target":"ARNOLD","mood":"tense","intensity":3,"summary":"Minnie bowls a strike and bows; the score is a razor-thin lead and they shove to the board."}
+],
+"s00103": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"ABERNETHY-LOWE","target":null,"mood":"tense","intensity":2,"summary":"Soldiers keep watch in the bell tower; the captain reports quiet by field phone."},
+{"start":24,"type":"confronts","fine":"challenges","actor":"ELIJAH","target":"ABERNETHY-LOWE","mood":"suspense","intensity":3,"summary":"Elijah asks about the bells ringing before attacks and why the captain keeps checking."},
+{"start":36,"type":"discovers","fine":"notices","actor":"ABERNETHY-LOWE","target":null,"mood":"ominous","intensity":4,"summary":"A bell hums in the belfry, the light turns pale gold, and it rings."}
+],
+"s01239": [
+{"start":1,"type":"deflects","fine":"plays dumb with","actor":"NINA","target":"MAN","mood":"awkward","intensity":2,"summary":"Girl Nina builds a sugar tower while a silent stranger enters; she guesses him a plumber."},
+{"start":19,"type":"reveals","fine":"comes clean to","actor":"MAN","target":"NINA","mood":"tender","intensity":3,"summary":"The man asks about a fridge photo and Nina names her father Tomas."},
+{"start":32,"type":"bonds","fine":"reconnects with","actor":"TOMAS","target":"NINA","mood":"bittersweet","intensity":4,"summary":"Tomas sits, Nina notes his nose, and lets him add a cube to the tower."},
+{"start":48,"type":"bonds","fine":"shares a moment with","actor":"NINA","target":"TOMAS","mood":"bittersweet","intensity":4,"summary":"She calls him Daddy, acknowledges his stay may be brief, and chooses to build taller."}
+],
+"s00434": [
+{"start":1,"type":"lies","fine":"plays along with","actor":"CLEMENTINE","target":"ALDOUS","mood":"calm","intensity":2,"summary":"Inspector Clementine pours tea for Sir Aldous in the dead conservatory."},
+{"start":13,"type":"accuses","fine":"exposes","actor":"CLEMENTINE","target":"ALDOUS","mood":"suspense","intensity":4,"summary":"She spots a conservatory leaf on his cuff, disproving his London alibi."},
+{"start":23,"type":"decides","fine":"gives an order","actor":"CLEMENTINE","target":"ALDOUS","mood":"tense","intensity":4,"summary":"She signals; constables emerge from the hedges and he sets down his cup."}
+],
+"s02348": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"RAYMOND","target":"JUNE","mood":"tense","intensity":3,"summary":"Teens argue over a dead bus on the tracks while Devi hunts for a phone signal."},
+{"start":15,"type":"pleads","fine":"calls for","actor":"DEVI","target":null,"mood":"fear","intensity":4,"summary":"Devi reaches 911 as a train approaches; they argue where they are."},
+{"start":25,"type":"flees","fine":"runs","actor":"JUNE","target":null,"mood":"fear","intensity":5,"summary":"The horn nears and the three run hand in hand into the weeds."}
+],
+"s00571": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"VOSS","target":"BRANDVOLD","mood":"tense","intensity":3,"summary":"Defense counsel Voss cross-examines dock clerk Brandvold about a whistle she heard."},
+{"start":17,"type":"reveals","fine":"exposes a secret to","actor":"VOSS","target":"BRANDVOLD","mood":"tense","intensity":4,"summary":"Voss shows the lower-landing whistle was out of service, and Brandvold admits she may be wrong."},
+{"start":36,"type":"decides","fine":"changes course","actor":"THORNQUIST","target":"VOSS","mood":"calm","intensity":3,"summary":"Thornquist withdraws the second count rather than rest a case on a broken whistle."},
+{"start":48,"type":"mocks","fine":"patronizes","actor":"PRUITT","target":"THORNQUIST","mood":"playful","intensity":2,"summary":"At the bench, Judge Pruitt dismisses count two and teases Elias for letting Voss win."},
+{"start":65,"type":"bonds","fine":"flirts with","actor":"THORNQUIST","target":"VOSS","mood":"tender","intensity":2,"summary":"Voss and Thornquist banter about dinner and leave together."}
+],
+"s01495": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"IGNATIUS","target":"PERPETUA","mood":"tense","intensity":3,"summary":"Detectives question those who found a body at the fish market."},
+{"start":28,"type":"confronts","fine":"presses","actor":"YASMINE","target":"DIEGO","mood":"suspense","intensity":3,"summary":"Yasmine has Diego identify the dead man by lifting the tarp."},
+{"start":41,"type":"accuses","fine":"implicates","actor":"DIEGO","target":"BARTHOLOMEW","mood":"hostile","intensity":4,"summary":"Diego and Perpetua reveal Koval visited weekly for private money talks with the owner."},
+{"start":51,"type":"leaves","fine":"is escorted out","actor":"BARTHOLOMEW","target":null,"mood":"tense","intensity":3,"summary":"Bartholomew demands a lawyer and is escorted out as dawn arrives."}
+],
+"s00267": [
+{"start":1,"type":"lies","fine":"feigns innocence to","actor":"SABRINA","target":"VIC","mood":"awkward","intensity":2,"summary":"Courier Sabrina gives a nonsense story about a delayed bag to a deadpan security guard."},
+{"start":15,"type":"confronts","fine":"calls out","actor":"MIRA","target":"SABRINA","mood":"tense","intensity":3,"summary":"Inspector Mira reveals she knows about the handcuffed case."},
+{"start":23,"type":"flees","fine":"bolts","actor":"SABRINA","target":"MIRA","mood":"chaotic","intensity":4,"summary":"Sabrina swings the case at Vic, clips Mira, and runs; Mira calls her back."},
+{"start":38,"type":"discovers","fine":"realizes","actor":"SABRINA","target":null,"mood":"bittersweet","intensity":3,"summary":"The case springs open empty and Sabrina learns it was always empty."},
+{"start":45,"type":"comforts","fine":"tends to","actor":"VIC","target":"SABRINA","mood":"bittersweet","intensity":2,"summary":"Sabrina sinks to the floor laughing and Vic offers her tea."}
+],
+"s01801": [
+{"start":1,"type":"arrives","fine":"returns","actor":"WILLIAM","target":"CECILIA","mood":"hopeful","intensity":3,"summary":"William races to the seawall to find Cecilia, who missed her train."},
+{"start":12,"type":"confesses","fine":"opens up to","actor":"CECILIA","target":"WILLIAM","mood":"tender","intensity":3,"summary":"She admits she lingered hoping he would come; the porter discreetly looks away."},
+{"start":24,"type":"bonds","fine":"flirts with","actor":"WILLIAM","target":"CECILIA","mood":"joyful","intensity":4,"summary":"Their hands collide over the windblown ticket; she says anywhere he is, and he takes her hand."}
+],
+"s02396": [
+{"start":1,"type":"threatens","fine":"holds at gunpoint","actor":"TULL","target":"CORDELIA","mood":"tense","intensity":3,"summary":"Sheriff Tull and Cordelia face off with guns across a bridge while a coach wheel is stuck."},
+{"start":15,"type":"works","fine":"repairs something","actor":"WENDELL","target":null,"mood":"suspense","intensity":3,"summary":"Wendell shoves at the jammed wheel as the preacher prays and Cordelia needles him."},
+{"start":32,"type":"decides","fine":"chooses","actor":"TULL","target":"CORDELIA","mood":"tense","intensity":4,"summary":"The wheel frees; Tull and Cordelia aim, then she lowers her rifle before the preacher."}
+],
+"s01319": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MARCEL","target":null,"mood":"calm","intensity":1,"summary":"Archive staff bicker about temperature while an unnoticed stranger stands near the doors."},
+{"start":22,"type":"discovers","fine":"notices","actor":"ASHA","target":null,"mood":"suspense","intensity":3,"summary":"Asha notices the stacks blinking in counts as the stranger opens an empty toolbox."},
+{"start":35,"type":"confronts","fine":"challenges","actor":"MARCEL","target":"STRANGER","mood":"ominous","intensity":4,"summary":"Marcel asks who let him in; lights blink in unison and the stranger says they have waited ten years."},
+{"start":49,"type":"threatens","fine":"looms over","actor":"STRANGER","target":"MARCEL","mood":"fear","intensity":5,"summary":"The humming rises, the stranger flickers as a projection, and the vault seals."},
+{"start":81,"type":"reveals","fine":"unmasks","actor":"STRANGER","target":"WREN","mood":"ominous","intensity":5,"summary":"With blue eyes he speaks as the archive, saying they kept secrets and must keep theirs."},
+{"start":85,"type":"decides","fine":"accepts","actor":"WREN","target":"STRANGER","mood":"ominous","intensity":3,"summary":"Marcel lowers the extinguisher and Wren asks where they begin."}
+],
+"s01532": [
+{"start":1,"type":"observes","fine":"waits","actor":"PENNY","target":null,"mood":"awkward","intensity":2,"summary":"Penny guards her peach pie while Grandma Maude watches and the judge circulates."},
+{"start":9,"type":"arrives","fine":"bursts in","actor":"WILLIE","target":"PENNY","mood":"playful","intensity":3,"summary":"Willie bursts in four minutes late with a burnt-looking pie."},
+{"start":27,"type":"confronts","fine":"challenges","actor":"CROMWELL","target":"WILLIE","mood":"suspense","intensity":3,"summary":"Judge Cromwell questions Willie and samples the lopsided blackberry pie."},
+{"start":61,"type":"decides","fine":"gives an order","actor":"CROMWELL","target":"WILLIE","mood":"triumphant","intensity":4,"summary":"He disqualifies Willie but pins the rare Judge's Indulgence rosette on him."},
+{"start":73,"type":"bonds","fine":"thanks","actor":"CROMWELL","target":"PENNY","mood":"joyful","intensity":4,"summary":"Penny wins first place, Maude smiles, and the stunned teens follow her out grinning."}
+],
+"s00740": [
+{"start":1,"type":"deflects","fine":"stalls","actor":"MORTIMER","target":"LAKSHMI","mood":"awkward","intensity":2,"summary":"Mortimer answers every question with buzzwords while Lakshmi and Duncan press for substance."}
+],
+"s00702": [
+{"start":1,"type":"jokes","fine":"riffs with","actor":"PIBBLE","target":"LADY VANETH","mood":"playful","intensity":2,"summary":"The fool echoes Lady Vaneth's report to King Osric, who asks him for a song."}
+],
+"s01504": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BOY","target":null,"mood":"grief","intensity":3,"summary":"Four people bury a small grave; the boy takes the spade and finishes it himself."},
+{"start":18,"type":"confronts","fine":"demands answers from","actor":"WOMAN","target":"MAN","mood":"tense","intensity":3,"summary":"The woman lifts her veil and asks who is going to tell the boy."}
+],
+"s01494": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"JONAH","target":null,"mood":"tense","intensity":2,"summary":"Three soldiers hiding in a silo search the radio and argue over Berlin or Brussels."},
+{"start":24,"type":"pleads","fine":"asks for help from","actor":"JONAH","target":"CASIMIR","mood":"bittersweet","intensity":3,"summary":"Jonah asks if they will be all right; Casimir answers with dark humor and they grin."},
+{"start":36,"type":"observes","fine":"listens to","actor":"TIBERIUS","target":null,"mood":"suspense","intensity":4,"summary":"A droning begins overhead and they identify the engines as friendly."},
+{"start":51,"type":"comforts","fine":"calms","actor":"TIBERIUS","target":null,"mood":"calm","intensity":2,"summary":"They sit back down and resume cleaning and music."}
+],
+"s00440": [
+{"start":1,"type":"works","fine":"drives","actor":"BEN","target":"CELESTE","mood":"tense","intensity":2,"summary":"Ben burns the balloon's flame as it sinks, holding an unopened ring box."},
+{"start":13,"type":"confesses","fine":"opens up to","actor":"BEN","target":"CELESTE","mood":"awkward","intensity":3,"summary":"Ben tries to propose but fumbles the box; their hands meet on the lid."},
+{"start":26,"type":"jokes","fine":"lightens the mood for","actor":"CELESTE","target":"BEN","mood":"tender","intensity":3,"summary":"A farmer offers a ride; they laugh and Celeste opens the box."},
+{"start":34,"type":"decides","fine":"accepts","actor":"CELESTE","target":"BEN","mood":"hopeful","intensity":3,"summary":"Celeste tells him to ask on the ground; Ben lets the flame sigh."}
+],
+"s01120": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"BRAM","target":"ODALYS","mood":"hostile","intensity":3,"summary":"Bram demands his mother account for missing deposit money in front of customers."},
+{"start":19,"type":"attacks","fine":"shoves","actor":"BRAM","target":"ODALYS","mood":"chaotic","intensity":3,"summary":"He slams the keys down, scattering glass eyes as they both grab a tray."},
+{"start":28,"type":"confesses","fine":"owns up to","actor":"BRAM","target":"ODALYS","mood":"melancholy","intensity":4,"summary":"Bram admits he gambled away the Hendry money at the track."},
+{"start":33,"type":"comforts","fine":"forgives","actor":"ODALYS","target":"BRAM","mood":"tender","intensity":3,"summary":"Odalys exhales and tells Bram to pick up every eye; Hosea shows his dead canary."}
+],
+"s02289": [
+{"start":1,"type":"bonds","fine":"confides in","actor":"SOLOMON","target":"NURSE","mood":"melancholy","intensity":2,"summary":"Sleepless dying Solomon trades quiet remarks with the new night nurse."},
+{"start":20,"type":"bonds","fine":"reminisces with","actor":"SOLOMON","target":"DANIELLE","mood":"tender","intensity":3,"summary":"Solomon recalls his wife humming like a kettle and learns the nurse's name."},
+{"start":38,"type":"comforts","fine":"consoles","actor":"DANIELLE","target":"SOLOMON","mood":"grief","intensity":4,"summary":"Solomon asks if his son is coming; Danielle's kind lie stays unchallenged as she sits."},
+{"start":47,"type":"comforts","fine":"embraces","actor":"DANIELLE","target":"SOLOMON","mood":"bittersweet","intensity":4,"summary":"Danielle hums like a kettle as his hand slackens on hers."}
+]
+}

@@ -1,0 +1,139 @@
+{
+"s01293": [
+{"start":1,"type":"observes","fine":"waits","actor":"IMELDA","target":null,"mood":"melancholy","intensity":2,"summary":"Imelda and Winifred wait on a station bench in 1946 among sleeping soldiers."},
+{"start":11,"type":"arrives","fine":"makes an entrance","actor":"ARTHUR","target":"IMELDA","mood":"tense","intensity":3,"summary":"Arthur arrives in demobbed uniform and recognizes Imelda, who stands, dropping the hat."},
+{"start":19,"type":"accuses","fine":"calls out","actor":"IMELDA","target":"ARTHUR","mood":"bittersweet","intensity":3,"summary":"Imelda scolds Arthur for arriving four years late while he insists he is here now."},
+{"start":25,"type":"bonds","fine":"reconnects with","actor":"IMELDA","target":"ARTHUR","mood":"tender","intensity":3,"summary":"Imelda returns his father's hat; he puts it on and she straightens it."}
+],
+"s00654": [
+{"start":1,"type":"works","fine":"drives","actor":"TANDI","target":null,"mood":"tense","intensity":3,"summary":"A hearse carrying a coffin of cash speeds through rainy night as the crew works."},
+{"start":20,"type":"confronts","fine":"presses","actor":"LAURENCE","target":"MIREILLE","mood":"tense","intensity":3,"summary":"Frayed nerves surface as Laurence demands silence and Mireille laughs it off."},
+{"start":26,"type":"observes","fine":"keeps watch","actor":"TANDI","target":null,"mood":"suspense","intensity":4,"summary":"Tandi spots trailing headlights, pulls onto the shoulder and kills the engine."},
+{"start":43,"type":"decides","fine":"changes course","actor":"MIREILLE","target":null,"mood":"bittersweet","intensity":2,"summary":"The car passes as a taxi; relieved, Mireille remarks on fear and restarts the engine."}
+],
+"s02361": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"ERLANDEL","target":"BRUNHILDE","mood":"calm","intensity":2,"summary":"In the rainy tollhouse, elf Erlandel arrives and pays Brunhilde three silver coins."},
+{"start":14,"type":"observes","fine":"takes it in","actor":"ULFRIC","target":"BRUNHILDE","mood":"melancholy","intensity":3,"summary":"Sprigget reveals Ulfric's silence since the flood; he answers curtly to the wall."},
+{"start":21,"type":"comforts","fine":"tends to","actor":"BRUNHILDE","target":"ULFRIC","mood":"tender","intensity":2,"summary":"Brunhilde serves tea; Ulfric silently accepts his cup while Sprigget steals a coin."}
+],
+"s02479": [
+{"start":1,"type":"observes","fine":"waits","actor":"SAL","target":"MOSES","mood":"ominous","intensity":2,"summary":"In the empty bowling alley, Sal, Duke and Barney wait for nervous Moses."},
+{"start":10,"type":"presses","fine":"presses","actor":"SAL","target":"MOSES","mood":"tense","intensity":3,"summary":"Sal and Duke needle sweating Moses about payment until he insists it is in the bag."},
+{"start":20,"type":"discovers","fine":"discovers","actor":"SAL","target":"MOSES","mood":"fear","intensity":4,"summary":"The bag holds only newspaper; Sal rises and Duke closes in on Moses."}
+],
+"s00782": [
+{"start":1,"type":"works","fine":"works","actor":"LUCIA","target":"ABEL","mood":"tense","intensity":3,"summary":"Lucia and Greta fight to stabilize wounded Abel in the ice rink hospital."},
+{"start":18,"type":"arrives","fine":"bursts in","actor":"RAFI","target":"LUCIA","mood":"chaotic","intensity":3,"summary":"Paramedic Rafi bursts in with Abel's brother Kofi, who runs to him."},
+{"start":26,"type":"attacks","fine":"lunges at","actor":"KOFI","target":"GRETA","mood":"chaotic","intensity":4,"summary":"Kofi crashes into Greta, the tray flies, Lucia and Rafi fall, and Abel flatlines."},
+{"start":37,"type":"works","fine":"works","actor":"LUCIA","target":"ABEL","mood":"suspense","intensity":5,"summary":"Lucia and Greta shock Abel with paddles until his heartbeat returns."},
+{"start":53,"type":"comforts","fine":"tends to","actor":"LUCIA","target":"KOFI","mood":"tender","intensity":2,"summary":"Shaking, Lucia criticizes Kofi's bandage, promises to redo it, and Abel wakes."}
+],
+"s00765": [
+{"start":1,"type":"comforts","fine":"encourages","actor":"MEL","target":"PRISS","mood":"tense","intensity":3,"summary":"Between rounds, remote coach Mel checks battered Priss and gives tactical advice."},
+{"start":18,"type":"attacks","fine":"strikes","actor":"PRISS","target":"opponent","mood":"triumphant","intensity":5,"summary":"Priss slips the hook, lands a right and left, and drops her opponent."}
+],
+"s00952": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"CONSTANCE","target":"DUCHESS","mood":"awkward","intensity":2,"summary":"Constance and Georgiana whisper about the staring Duchess at a Bath assembly."},
+{"start":10,"type":"confronts","fine":"calls out","actor":"DUCHESS","target":"CONSTANCE","mood":"hostile","intensity":3,"summary":"The Duchess overhears, rebukes them as fools, and orders them to dance and smile."}
+],
+"s00148": [
+{"start":1,"type":"works","fine":"works","actor":"STRANGER","target":null,"mood":"tense","intensity":3,"summary":"Masked Dmitri and Imelda break through the Ferris wheel gondola's roof hatch."},
+{"start":16,"type":"jokes","fine":"banters with","actor":"IMELDA","target":"DMITRI","mood":"playful","intensity":2,"summary":"The wheel lurches; Imelda notes his slipped mask and they banter over names."},
+{"start":23,"type":"bonds","fine":"teams up with","actor":"IMELDA","target":"DMITRI","mood":"playful","intensity":2,"summary":"They whisper in unison, grin, and prepare to climb out onto the roof."}
+],
+"s01728": [
+{"start":1,"type":"observes","fine":"scans the room","actor":"ANNELIESE","target":null,"mood":"tense","intensity":3,"summary":"Five stranded travelers assess a dead truck with a cracked fuel line in the salt flat."},
+{"start":19,"type":"confronts","fine":"presses","actor":"DEV","target":"JORUND","mood":"tense","intensity":3,"summary":"Dev presses Jorund about whether the satellite phone actually works."},
+{"start":31,"type":"reveals","fine":"presents evidence to","actor":"JORUND","target":"others","mood":"hopeful","intensity":3,"summary":"Jorund dials; Dispatch answers and promises a rescue team by ten."},
+{"start":53,"type":"reveals","fine":"drops a bombshell on","actor":"DISPATCH","target":"JORUND","mood":"suspense","intensity":4,"summary":"Dispatch reports a beacon trigger and a second vehicle, which Dev and Anneliese spot nearby."},
+{"start":62,"type":"accuses","fine":"suspects","actor":"JORUND","target":"MOX","mood":"hostile","intensity":4,"summary":"Jorund suspects Mox and orders his hands up as Mox steps out."}
+],
+"s00708": [
+{"start":1,"type":"observes","fine":"waits","actor":"QUENTIN","target":null,"mood":"ominous","intensity":2,"summary":"Five guests are snowed in at a hunting lodge, with no phone signal."},
+{"start":14,"type":"confronts","fine":"demands answers from","actor":"HARLAN","target":"QUENTIN","mood":"tense","intensity":3,"summary":"Harlan demands to know who summoned them and why a guest is missing."},
+{"start":27,"type":"reveals","fine":"drops a bombshell on","actor":"QUENTIN","target":"group","mood":"fear","intensity":4,"summary":"Quentin names the late guest Teddy Marsh; Basil drops his glass."},
+{"start":36,"type":"observes","fine":"takes it in","actor":"HARLAN","target":null,"mood":"ominous","intensity":4,"summary":"The front door rattles, Harlan tries the latch, and Quentin says that would be him."}
+],
+"s01631": [
+{"start":1,"type":"accuses","fine":"blames","actor":"OKAFOR","target":"LINDGREN","mood":"hostile","intensity":3,"summary":"Okafor and Lindgren trade accusations of stalling before Judge Abernathy over a signed contract."},
+{"start":16,"type":"jokes","fine":"amuses","actor":"DUFFY","target":null,"mood":"playful","intensity":1,"summary":"The knocking radiator briefly distracts the room before counsel are ordered to speak singly."},
+{"start":23,"type":"accuses","fine":"exposes","actor":"LINDGREN","target":"OKAFOR","mood":"awkward","intensity":3,"summary":"Okafor presents Exhibit nine; Lindgren shows the signature is Okafor's, who laughs it off."}
+],
+"s00552": [
+{"start":1,"type":"observes","fine":"watches","actor":"WALTER","target":"AGNES","mood":"calm","intensity":2,"summary":"Walter watches Agnes fight a vending machine at four in the morning."},
+{"start":13,"type":"bonds","fine":"shares a moment with","actor":"AGNES","target":"WALTER","mood":"tender","intensity":2,"summary":"Agnes finally gets pretzels and shares them with Walter while they compare sick spouses."},
+{"start":40,"type":"confesses","fine":"opens up to","actor":"AGNES","target":"WALTER","mood":"melancholy","intensity":3,"summary":"Agnes admits she needs looking after; they laugh and sit together quietly."},
+{"start":49,"type":"discovers","fine":"realizes","actor":"AGNES","target":"WALTER","mood":"grief","intensity":5,"summary":"Walter confuses his wife with Delia; Agnes gently tells him she is his wife."},
+{"start":73,"type":"comforts","fine":"steadies","actor":"AGNES","target":"WALTER","mood":"bittersweet","intensity":4,"summary":"Agnes holds his hand, suggests going back, and feeds the machine another dollar."}
+],
+"s01914": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PIP","target":"GUNNAR","mood":"playful","intensity":2,"summary":"The sky-ferry crew bickers over short tally and a missing pie."},
+{"start":31,"type":"arrives","fine":"bursts in","actor":"OSWYTHA","target":"ZEPHYRA","mood":"suspense","intensity":3,"summary":"Dame Oswytha enters the galley and delivers a sealed royal tube to Captain Zephyra."},
+{"start":44,"type":"reveals","fine":"breaks news to","actor":"OSWYTHA","target":"ZEPHYRA","mood":"hopeful","intensity":4,"summary":"Zephyra reads a full pardon for smuggling; Oswytha says the Crown wants to hire them."},
+{"start":63,"type":"bonds","fine":"thanks","actor":"ZEPHYRA","target":"OSWYTHA","mood":"joyful","intensity":3,"summary":"The stunned crew laughs and Zephyra invites Oswytha to dinner."}
+],
+"s01802": [
+{"start":1,"type":"observes","fine":"waits","actor":"RUTH","target":"LORELEI","mood":"awkward","intensity":2,"summary":"Sisters Ruth and Lorelei sit in uneasy silence at a night diner."},
+{"start":16,"type":"arrives","fine":"shows up unannounced","actor":"MAN","target":"RUTH","mood":"tense","intensity":3,"summary":"An unknown man in a soaked coat joins their booth and demands Ruth tell Lorelei about Dad."},
+{"start":39,"type":"reveals","fine":"unmasks","actor":"BERNARD","target":"LORELEI","mood":"hostile","intensity":4,"summary":"The man reveals himself as Bernard, their brother; Ruth cries and admits she hid it."},
+{"start":47,"type":"leaves","fine":"walks out on","actor":"LORELEI","target":"RUTH","mood":"tense","intensity":4,"summary":"Lorelei rises to leave, then orders Ruth and Bernard to sit."}
+],
+"s00957": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"LEONIDAS","target":"STRANGER","mood":"tense","intensity":3,"summary":"Riders on a mesa overlook demand the name of a rifle-bearing stranger."},
+{"start":11,"type":"reveals","fine":"comes clean to","actor":"STRANGER","target":"SALLY","mood":"suspense","intensity":4,"summary":"The Stranger recognizes Sally and identifies himself as her supposedly dead brother Ephraim."}
+],
+"s01778": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"DELPHINE","target":"STRANGER","mood":"suspense","intensity":3,"summary":"In a grain silo, a ticking stops and a motionless stranger stands by the ladder."},
+{"start":15,"type":"reveals","fine":"presents evidence to","actor":"STRANGER","target":"DELPHINE","mood":"ominous","intensity":4,"summary":"The Stranger steps into the light and gives his name as Anselm."},
+{"start":21,"type":"attacks","fine":"fights","actor":"MAX","target":"ANSELM","mood":"fear","intensity":5,"summary":"The bulb dies; Anselm reappears and Max swings, but Anselm catches the bar as wheat rises."}
+],
+"s01242": [
+{"start":1,"type":"observes","fine":"waits","actor":"JEREMIAH","target":null,"mood":"calm","intensity":1,"summary":"Old rancher Jeremiah whittles on his dry porch as a rider approaches."},
+{"start":8,"type":"bonds","fine":"shares a moment with","actor":"JEREMIAH","target":"STRANGER","mood":"calm","intensity":2,"summary":"Jeremiah directs the Stranger to the well, then invites him to sit."},
+{"start":40,"type":"reveals","fine":"comes clean to","actor":"STRANGER","target":"JEREMIAH","mood":"bittersweet","intensity":4,"summary":"The Stranger gives his name as Jedediah Pike, Jeremiah's long-lost son."},
+{"start":59,"type":"bonds","fine":"reconnects with","actor":"JEREMIAH","target":"JEDEDIAH","mood":"tender","intensity":3,"summary":"Jeremiah offers beans and hides his emotion; Jedediah finishes the carving."}
+],
+"s01499": [
+{"start":1,"type":"observes","fine":"scans the room","actor":"SOLANGE","target":null,"mood":"suspense","intensity":3,"summary":"Two couples and a waiter trade glances in a revolving restaurant."},
+{"start":14,"type":"reveals","fine":"presents evidence to","actor":"WAITER","target":"SOLANGE","mood":"tense","intensity":4,"summary":"Solange reads the waiter's napkin note; Sabine grips Halvard's wrist and Dimitri reaches for his jacket."},
+{"start":23,"type":"threatens","fine":"menaces","actor":"SOLANGE","target":"SABINE","mood":"ominous","intensity":5,"summary":"Solange smiles and says the elevator has stopped, and the lights go out."}
+],
+"s01673": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"TOBIAS","target":null,"mood":"melancholy","intensity":2,"summary":"Tobias pushes a stone on a ruined rink while the radio announces a title."},
+{"start":14,"type":"confesses","fine":"opens up to","actor":"MIREILLE","target":"TOBIAS","mood":"melancholy","intensity":3,"summary":"Mireille tells Tobias her team spot was filled; he deflects about the cold."},
+{"start":25,"type":"leaves","fine":"leaves","actor":"MIREILLE","target":"TOBIAS","mood":"bittersweet","intensity":3,"summary":"Mireille lays down her broom and leaves while Tobias stays behind."}
+],
+"s02055": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"HOLLY","target":"JUBILEE","mood":"awkward","intensity":2,"summary":"Holly challenges Jubilee over quitting; she explains she can't beat Ingrid."},
+{"start":25,"type":"bonds","fine":"confides in","actor":"HOLLY","target":"JUBILEE","mood":"tender","intensity":3,"summary":"Holly admits he listens through the wall; Jubilee bristles but doesn't push him away."},
+{"start":37,"type":"jokes","fine":"banters with","actor":"HOLLY","target":"MOM","mood":"playful","intensity":2,"summary":"Holly's mother calls, and he admits he's helping Jubilee."},
+{"start":58,"type":"persuades","fine":"persuades","actor":"HOLLY","target":"JUBILEE","mood":"hopeful","intensity":3,"summary":"Holly persuades Jubilee to play; she opens the case and he counts her in."}
+],
+"s00111": [
+{"start":1,"type":"threatens","fine":"coerces","actor":"VALERIAN","target":"DOROTHEA","mood":"tense","intensity":3,"summary":"In a hanging silo elevator, Valerian pressures Dorothea to press the red stop button."},
+{"start":27,"type":"attacks","fine":"fights","actor":"DOROTHEA","target":"VALERIAN","mood":"chaotic","intensity":5,"summary":"She presses the alarm, he lunges, they struggle, and the elevator drops and catches."},
+{"start":43,"type":"confesses","fine":"admits guilt to","actor":"VALERIAN","target":"DOROTHEA","mood":"hostile","intensity":4,"summary":"Valerian admits he sold the whole shipment to her brother."},
+{"start":65,"type":"decides","fine":"changes course","actor":"DOROTHEA","target":"VALERIAN","mood":"ominous","intensity":4,"summary":"Coldly pleased, Dorothea repairs the lever and raises the elevator to see her brother."}
+],
+"s00678": [
+{"start":1,"type":"threatens","fine":"menaces","actor":"SPUD","target":"LORETTA","mood":"tense","intensity":3,"summary":"Spud threatens Loretta over a pile of cash at a standoff in the bowling lane."},
+{"start":13,"type":"flees","fine":"bolts","actor":"GIDEON","target":null,"mood":"chaotic","intensity":3,"summary":"Gideon bolts, Spud hurls the ball and strikes, and Minnow cheers from under the table."}
+],
+"s01566": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"WARDEN","target":"WILLA","mood":"ominous","intensity":3,"summary":"The Warden of Salt meets Willa on the glass desert and asks her reason for coming."},
+{"start":18,"type":"reveals","fine":"shows","actor":"WILLA","target":"WARDEN","mood":"suspense","intensity":3,"summary":"Willa's lantern stirs the sand; the Warden shows her grandmother in the lens."},
+{"start":41,"type":"confronts","fine":"challenges","actor":"WILLA","target":"WARDEN","mood":"tense","intensity":4,"summary":"Willa steps forward, cracking the glass, and says she is older than she looks."},
+{"start":51,"type":"persuades","fine":"bargains with","actor":"WARDEN","target":"WILLA","mood":"ominous","intensity":4,"summary":"The Warden demands a season of Willa's life, spring, for an hour with her grandmother."},
+{"start":71,"type":"decides","fine":"accepts","actor":"WILLA","target":"WARDEN","mood":"bittersweet","intensity":4,"summary":"Both say yes, the glass clears, and Willa descends the stair alone."}
+],
+"s02015": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"CLEMENTINE","target":"PRUDENCE","mood":"tense","intensity":3,"summary":"Inspector Clementine questions the housekeeper Prudence about the missing book."},
+{"start":34,"type":"accuses","fine":"suspects","actor":"CLEMENTINE","target":"PRUDENCE","mood":"tense","intensity":3,"summary":"Clementine notes Prudence had the key and hour; Prudence says she would have been caught."},
+{"start":47,"type":"reveals","fine":"lets slip to","actor":"PRUDENCE","target":"CLEMENTINE","mood":"playful","intensity":3,"summary":"Prudence reveals the book was never there; the cabinet is a decoy."},
+{"start":62,"type":"bonds","fine":"shares a moment with","actor":"PRUDENCE","target":"CLEMENTINE","mood":"hopeful","intensity":2,"summary":"They share a smile; Prudence says the book is in the kitchen and goes to make tea."}
+],
+"s00865": [
+{"start":1,"type":"pleads","fine":"appeals to","actor":"MINA","target":"ROWAN","mood":"tense","intensity":2,"summary":"Mina pushes withdrawn Rowan to get ready for school while Gus asks her to let him be."},
+{"start":19,"type":"comforts","fine":"comforts","actor":"GUS","target":"ROWAN","mood":"tender","intensity":3,"summary":"Gus offers to walk Rowan in, and Rowan lets Mina kiss his hair."}
+]
+}

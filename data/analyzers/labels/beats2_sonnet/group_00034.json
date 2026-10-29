@@ -1,0 +1,139 @@
+{
+"s00744": [
+{"start":1,"type":"works","fine":"writes","actor":"MARGUERITE","target":null,"mood":"tense","intensity":3,"summary":"Marguerite records a wartime report in a shelled cellar, correcting her own take."},
+{"start":30,"type":"hides","fine":"ducks out of sight","actor":"MARGUERITE","target":null,"mood":"fear","intensity":4,"summary":"German boots cross overhead; she douses the lamp and smothers the recorder until they leave."},
+{"start":52,"type":"works","fine":"writes","actor":"MARGUERITE","target":null,"mood":"tense","intensity":3,"summary":"She relights the lamp, records that they have gone, and writes as shells fall closer."},
+{"start":64,"type":"discovers","fine":"realizes","actor":"MARGUERITE","target":null,"mood":"fear","intensity":3,"summary":"She finds the cellar door locked from outside and leaves a message for her newspaper."},
+{"start":77,"type":"flees","fine":"escapes","actor":"MARGUERITE","target":null,"mood":"chaotic","intensity":5,"summary":"The ceiling cracks; she gathers her reel and forces the door open with a splintered post."},
+{"start":96,"type":"leaves","fine":"leaves","actor":"MARGUERITE","target":null,"mood":"triumphant","intensity":3,"summary":"She tumbles into the burning kitchen, confirms the reel is intact and walks into the firelight."}
+],
+"s01796": [
+{"start":1,"type":"observes","fine":"waits","actor":"EZEKIEL","target":null,"mood":"tense","intensity":2,"summary":"Four men idle in a trading post, offering coffee in an uneasy hush."},
+{"start":30,"type":"confronts","fine":"presses","actor":"EZEKIEL","target":"WILEY","mood":"suspense","intensity":3,"summary":"Ezekiel questions Wiley's destination; Josiah slips and Wiley snaps at him."},
+{"start":43,"type":"accuses","fine":"exposes","actor":"EZEKIEL","target":"WILEY","mood":"suspense","intensity":4,"summary":"Ezekiel recounts a man named Cutter who laid the black eight on the red nine, as Wiley just did."},
+{"start":51,"type":"reveals","fine":"unmasks","actor":"EZEKIEL","target":"WILEY","mood":"triumphant","intensity":4,"summary":"Ezekiel produces a shotgun; the reverend reveals he is the marshal and Wiley surrenders."}
+],
+"s02205": [
+{"start":1,"type":"defends","fine":"justifies themself to","actor":"CORKY","target":"PRIYANKA","mood":"chaotic","intensity":3,"summary":"With the wedding at three, Corky denies that the leaning cake is a problem as others bicker."},
+{"start":24,"type":"decides","fine":"commits","actor":"MRS. CRESPO","target":"CORKY","mood":"playful","intensity":3,"summary":"Mrs. Crespo rolls up her sleeves and dowels the cake straight while the team holds its breath."},
+{"start":48,"type":"bonds","fine":"thanks","actor":"CORKY","target":"MRS. CRESPO","mood":"joyful","intensity":2,"summary":"The cake stands perfect; Corky says he owes her his career and she demands slices."},
+{"start":55,"type":"decides","fine":"makes a plan","actor":"MRS. CRESPO","target":"CORKY","mood":"hopeful","intensity":3,"summary":"The delivery van is broken, so Mrs. Crespo offers her large station wagon and they go."}
+],
+"s02382": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"EMMELINE","target":null,"mood":"tense","intensity":3,"summary":"Corporal Emmeline sends a warning of approaching bombers by key while a recorder captures it."},
+{"start":22,"type":"works","fine":"goes through routine","actor":"EMMELINE","target":null,"mood":"fear","intensity":4,"summary":"No reply comes; the lamp goes out and Emmeline keeps tapping as the walls shake."}
+],
+"s01416": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"FERN","target":"CORDELIA","mood":"tense","intensity":2,"summary":"In a court corridor Cordelia coaches Fern to stay silent while the opposing side sits across."},
+{"start":13,"type":"mocks","fine":"provokes","actor":"MARISELA","target":"FERN","mood":"hostile","intensity":3,"summary":"Marisela loudly calls Fern a liar, and both sides rise to confront each other."},
+{"start":23,"type":"comforts","fine":"calms","actor":"BRONWEN","target":"FERN","mood":"tender","intensity":3,"summary":"Bronwen quietly asks Fern to sit down, and he does."},
+{"start":37,"type":"jokes","fine":"banters with","actor":"FERN","target":"BRONWEN","mood":"awkward","intensity":2,"summary":"Called in, Fern and Bronwen stubbornly refuse to go first until Cordelia shoves them through."}
+],
+"s01224": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"MARISOL","target":null,"mood":"suspense","intensity":3,"summary":"Three explorers film their way through a ruined house of mirrors."},
+{"start":9,"type":"discovers","fine":"notices","actor":"MARISOL","target":null,"mood":"fear","intensity":4,"summary":"A thump and an extra reflection appear; a figure steps from the mirror as the light dies."}
+],
+"s01348": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ILSE","target":"WYNNE","mood":"calm","intensity":2,"summary":"Ilse and Wynne climb a singing glass staircase toward a distant citadel."},
+{"start":16,"type":"bonds","fine":"confides in","actor":"ILSE","target":"WYNNE","mood":"melancholy","intensity":2,"summary":"Ilse asks if her mother returned; Wynne answers that she did not say."},
+{"start":25,"type":"bonds","fine":"teams up with","actor":"WYNNE","target":"ILSE","mood":"hopeful","intensity":3,"summary":"Ilse tests a cracked step, and the two agree they are both followers."}
+],
+"s01536": [
+{"start":1,"type":"confronts","fine":"presses","actor":"TOBIAS","target":"ROSIE","mood":"tense","intensity":3,"summary":"Tobias questions Rosie's pressure logs, and the live gauge contradicts her numbers."},
+{"start":28,"type":"discovers","fine":"realizes","actor":"TOBIAS","target":"ROSIE","mood":"fear","intensity":4,"summary":"Deck Two reports a rotten-egg smell; they realize it is hydrogen sulphide."},
+{"start":38,"type":"decides","fine":"gives an order","actor":"TOBIAS","target":"ROSIE","mood":"tense","intensity":4,"summary":"Tobias orders Deck Two to evacuate and holds the alarm, then announces an orderly muster."},
+{"start":58,"type":"flees","fine":"runs","actor":"TOBIAS","target":"ROSIE","mood":"chaotic","intensity":5,"summary":"The gauge plunges, Rosie pulls the alarm, and they run into the red corridor."}
+],
+"s00690": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"CONSTANCE","target":"HATTIE","mood":"ominous","intensity":3,"summary":"In a cold kitchen, Hattie burns a match down while Constance and father Walter stay stiff and silent."},
+{"start":15,"type":"reveals","fine":"lets slip to","actor":"HATTIE","target":"CONSTANCE","mood":"ominous","intensity":4,"summary":"Hattie says their dead mother came back last night; Walter insists she is buried."},
+{"start":26,"type":"hides","fine":"conceals something","actor":"WALTER","target":null,"mood":"tense","intensity":3,"summary":"Constance tells Hattie to take the matchbox away; Walter stares at it and covers it with his hand."}
+],
+"s01838": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"TEDDY","target":"ARMAND","mood":"playful","intensity":2,"summary":"Teddy and Armand banter on the dock with wine while Corinne calls her to dinner."},
+{"start":19,"type":"reveals","fine":"comes clean to","actor":"ARMAND","target":"TEDDY","mood":"hopeful","intensity":3,"summary":"His father questions the good shirt, and Armand says he has something to ask Teddy."}
+],
+"s02036": [
+{"start":1,"type":"works","fine":"works","actor":"ASHER","target":null,"mood":"tense","intensity":3,"summary":"Asher ice-fishes while the ranger radios warnings that the ice is thinning."},
+{"start":12,"type":"attacks","fine":"wrestles","actor":"ASHER","target":null,"mood":"suspense","intensity":4,"summary":"A huge catch tugs the line as a crack spreads, and Asher keeps hauling."},
+{"start":25,"type":"decides","fine":"changes course","actor":"ASHER","target":null,"mood":"bittersweet","intensity":3,"summary":"He lands a trout, cradles it gently, answers the radio and heads north."}
+],
+"s01614": [
+{"start":1,"type":"confronts","fine":"presses","actor":"MO","target":"GABBY","mood":"melancholy","intensity":2,"summary":"On a rooftop, Mo presses Gabby about her likely move to Toronto."},
+{"start":29,"type":"reveals","fine":"comes clean to","actor":"SI","target":"MO","mood":"bittersweet","intensity":3,"summary":"Si reveals he got into film school in L.A., and Mo realizes both friends are leaving."},
+{"start":50,"type":"bonds","fine":"shares a moment with","actor":"SI","target":"GABBY","mood":"bittersweet","intensity":3,"summary":"They laugh wearily, then film the sunset and record that they were here."}
+],
+"s00128": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"GREER","target":"STRANGER","mood":"tense","intensity":2,"summary":"Coach Greer finds an elderly woman on the closed ice and demands how she got in."},
+{"start":15,"type":"persuades","fine":"talks down","actor":"MARGIT","target":"GREER","mood":"calm","intensity":2,"summary":"Margit says the championship stone pulls left and urges him to grind it."},
+{"start":24,"type":"discovers","fine":"finds a clue","actor":"GREER","target":"MARGIT","mood":"hopeful","intensity":3,"summary":"Greer finds a burr on the stone as Margit says it pulled left in 1961 and leaves."}
+],
+"s01407": [
+{"start":1,"type":"lies","fine":"deceives","actor":"ODILE","target":"ALISTAIR","mood":"ominous","intensity":3,"summary":"Madame Odile conducts a seance for widower Alistair, with a hidden gramophone as her trick."},
+{"start":15,"type":"discovers","fine":"realizes","actor":"ODILE","target":"PRUDENCE","mood":"fear","intensity":4,"summary":"A voice speaks as Alistair's wife, but Prudence did not make it; it tells the fraud to stop."},
+{"start":27,"type":"defends","fine":"denies to","actor":"ODILE","target":"ALISTAIR","mood":"chaotic","intensity":4,"summary":"Odile denies being behind it as the candle blows out and a window bangs open."}
+],
+"s00794": [
+{"start":1,"type":"works","fine":"prepares","actor":"ALISTAIR","target":null,"mood":"calm","intensity":2,"summary":"Prosecutor Alistair rehearses an opening to an empty jury box while Roxanne watches."},
+{"start":13,"type":"mocks","fine":"needles","actor":"ROXANNE","target":"ALISTAIR","mood":"playful","intensity":2,"summary":"Roxanne jabs that he is nervous and mocks his opening."},
+{"start":28,"type":"confronts","fine":"challenges","actor":"ROXANNE","target":"ALISTAIR","mood":"tense","intensity":3,"summary":"She says her client is innocent; he says to prove it, and they take their tables."}
+],
+"s01651": [
+{"start":1,"type":"works","fine":"prepares","actor":"BRANDEN","target":"KIMBERLEIGH","mood":"awkward","intensity":2,"summary":"Branden leads an awkward team-building exercise in a decommissioned submarine."},
+{"start":25,"type":"decides","fine":"commits","actor":"BRANDEN","target":"DEVONTE","mood":"playful","intensity":3,"summary":"Branden insists on a trust fall, climbs the ladder and falls as nobody catches him."}
+],
+"s02154": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"MARISOL","target":null,"mood":"grief","intensity":3,"summary":"Marisol plays a voice memo to her mother and cannot bring herself to open her results envelope."},
+{"start":23,"type":"works","fine":"goes through routine","actor":"MARISOL","target":null,"mood":"melancholy","intensity":3,"summary":"She folds warm towels as if praying, places the envelope on the stack and replays the memo."}
+],
+"s01356": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"BELL","target":"ANDERS","mood":"tense","intensity":3,"summary":"Soldiers in a crater wake an enemy prisoner, and Sergeant Bell questions him."},
+{"start":20,"type":"comforts","fine":"tends to","actor":"BELL","target":"ANDERS","mood":"tender","intensity":2,"summary":"Bell feeds the prisoner hardtack and insists on his name, Anders."},
+{"start":25,"type":"defends","fine":"shields","actor":"ANDERS","target":"HARGROVE","mood":"bittersweet","intensity":4,"summary":"A shell lands and Anders covers the boy Hargrove's helmet, winning Bell's trust."}
+],
+"s00550": [
+{"start":1,"type":"works","fine":"cleans","actor":"CLEO","target":"BARNABY","mood":"playful","intensity":2,"summary":"Cleo mops the museum while curator Barnaby does his crossword and she feeds him answers."},
+{"start":33,"type":"hides","fine":"covers up","actor":"CLEO","target":null,"mood":"suspense","intensity":3,"summary":"Cleo turns the camera to the wall and begins picking the golden vault door."},
+{"start":45,"type":"arrives","fine":"shows up unannounced","actor":"ENOCH","target":"CLEO","mood":"tense","intensity":3,"summary":"Guard Enoch catches her; Cleo asks him to put the radio down and he steps aside."},
+{"start":68,"type":"discovers","fine":"discovers","actor":"CLEO","target":null,"mood":"playful","intensity":3,"summary":"The vault holds only a card reading gone fishing, answering Barnaby's crossword clue."}
+],
+"s02509": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"LADY VERA","target":null,"mood":"joyful","intensity":2,"summary":"A glittering 1961 masquerade ball of guests, servants and waltzing."},
+{"start":15,"type":"discovers","fine":"notices","actor":"LADY VERA","target":null,"mood":"chaotic","intensity":4,"summary":"The lights fail and Lady Vera's necklace vanishes as everyone panics."},
+{"start":26,"type":"reveals","fine":"unmasks","actor":"COLETTE","target":"LADY VERA","mood":"playful","intensity":3,"summary":"Lights return to show the necklace hanging on Colette's mask; she greets her aunt."}
+],
+"s01305": [
+{"start":1,"type":"works","fine":"repairs something","actor":"TAMSIN","target":"IRENE","mood":"chaotic","intensity":4,"summary":"A bolt snaps in the lunar elevator; Tamsin and Irene report a failed cable with nine minutes left."},
+{"start":22,"type":"bonds","fine":"shares a moment with","actor":"TAMSIN","target":"IRENE","mood":"joyful","intensity":3,"summary":"The car steadies; they laugh with relief and drift apart still holding hands."}
+],
+"s01302": [
+{"start":1,"type":"accuses","fine":"accuses","actor":"DOROTHY","target":"VICTOR","mood":"hostile","intensity":4,"summary":"Dorothy claims her husband was pushed and challenges everyone present."},
+{"start":18,"type":"defends","fine":"denies to","actor":"VICTOR","target":"DOROTHY","mood":"tense","intensity":3,"summary":"Each of the four gives an alibi; Dorothy points out they cannot all be innocent."},
+{"start":26,"type":"reveals","fine":"drops a bombshell on","actor":"TABITHA","target":"DOROTHY","mood":"suspense","intensity":4,"summary":"Tabitha reveals the dead man called at one-forty, saying someone from this room was in the house."}
+],
+"s02384": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"DANI","target":"KOFI","mood":"tender","intensity":2,"summary":"Dani laces up and skates alone in the closed rink while friends watch."},
+{"start":24,"type":"confronts","fine":"challenges","actor":"LAZLO","target":"DANI","mood":"chaotic","intensity":3,"summary":"Mr. Lazlo storms from the booth with a bat, then charges them eight dollars each."}
+],
+"s01556_0": [
+{"start":1,"type":"observes","fine":"waits","actor":"NELL","target":null,"mood":"melancholy","intensity":2,"summary":"Nell stands in her yard and rereads the letter her husband left from Cheyenne."},
+{"start":19,"type":"works","fine":"goes through routine","actor":"NELL","target":null,"mood":"bittersweet","intensity":2,"summary":"She draws water from the well and drinks, watching the empty plain."}
+],
+"s01393": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"NADEZHDA","target":"UNKNOWN MALE","mood":"tense","intensity":3,"summary":"Agents press a young man to talk while their handler orders them to make him."},
+{"start":20,"type":"reveals","fine":"lets slip to","actor":"UNKNOWN MALE","target":"NADEZHDA","mood":"suspense","intensity":3,"summary":"He names Dmitri, the pier and crates marked with a crane, and a silent woman in a red coat."},
+{"start":37,"type":"reveals","fine":"unmasks","actor":"HANDLER","target":"MARGOT","mood":"ominous","intensity":4,"summary":"The handler names the woman in red as Margot Fenwick; Margot smiles and says oh dear."}
+],
+"s02362": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"BRAITHWAITE","target":"QUILL","mood":"tense","intensity":3,"summary":"Inspector Braithwaite forbids anyone to leave the lighthouse as the suspects crowd around a body."},
+{"start":15,"type":"discovers","fine":"finds a clue","actor":"OYEDELE","target":"BRAITHWAITE","mood":"suspense","intensity":3,"summary":"Dr. Oyedele says the victim has no water in his lungs; Cordelia mutters she saw nothing."},
+{"start":21,"type":"accuses","fine":"suspects","actor":"BRAITHWAITE","target":"FINCH","mood":"ominous","intensity":4,"summary":"Coastguard reports no boats until dawn; Braithwaite eyes Finch and asks who was at the lamp."}
+],
+"s01250": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"STRANGER","target":"MAUDE","mood":"tense","intensity":2,"summary":"A stranger enters a secret card game in an undertaker's back room and sits in a coffin."},
+{"start":26,"type":"threatens","fine":"warns","actor":"NOLAN","target":"BRAM","mood":"tense","intensity":3,"summary":"He gives his name as Nolan from Pier nine, which Bram claims as his own."},
+{"start":56,"type":"accuses","fine":"exposes","actor":"NOLAN","target":"BRAM","mood":"hostile","intensity":4,"summary":"Nolan says Bram shorted forty crates and produces a receipt with Bram's signature."},
+{"start":69,"type":"threatens","fine":"holds at gunpoint","actor":"BRAM","target":"NOLAN","mood":"chaotic","intensity":4,"summary":"Bram lunges and aims his pistol at Nolan, but Maude disarms him."},
+{"start":89,"type":"reveals","fine":"unmasks","actor":"MAUDE","target":"BRAM","mood":"playful","intensity":3,"summary":"Maude proves to be the Chief and Nolan shows a full house."}
+]
+}

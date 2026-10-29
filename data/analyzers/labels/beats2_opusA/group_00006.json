@@ -1,0 +1,40 @@
+{"pd_sisters_2": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "KULIGIN", "target": "CHEBUTIKIN", "mood": "playful", "intensity": 2, "summary": "Kuligin teases the drunken Chebutikin, patting him on the shoulder."},
+{"start": 4, "type": "persuades", "fine": "pitches to", "actor": "TUZENBACH", "target": "KULIGIN", "mood": "melancholy", "intensity": 2, "summary": "Tuzenbach proposes Masha play a charity concert; Kuligin hesitates over propriety."},
+{"start": 16, "type": "reveals", "fine": "breaks news to", "actor": "VERSHININ", "target": "TUZENBACH", "mood": "melancholy", "intensity": 3, "summary": "Vershinin reports the brigade may be transferred; Irina vows they will leave too."},
+{"start": 22, "type": "attacks", "fine": "strikes", "actor": "CHEBUTIKIN", "target": "IRINA", "mood": "tense", "intensity": 4, "summary": "Chebutikin drops their mother's clock, smashing it, and shrugs off the guilt nihilistically."},
+{"start": 29, "type": "reveals", "fine": "lets slip to", "actor": "CHEBUTIKIN", "target": "IRINA", "mood": "awkward", "intensity": 3, "summary": "At the door Chebutikin blurts out Natasha's affair with Protopopov, then exits singing."},
+{"start": 34, "type": "confesses", "fine": "opens up to", "actor": "VERSHININ", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Vershinin recounts finding his frightened daughters during the fire and his angry wife."},
+{"start": 41, "type": "bonds", "fine": "confides in", "actor": "VERSHININ", "target": "MASHA", "mood": "bittersweet", "intensity": 2, "summary": "As Masha enters, Vershinin philosophizes about how future centuries will judge their lives."}
+],
+"pd_sisters_3": [
+{"start": 1, "type": "bonds", "fine": "reconnects with", "actor": "ANFISA", "target": "IRINA", "mood": "joyful", "intensity": 2, "summary": "Anfisa joyfully describes her happy old age living in Olga's school apartment."},
+{"start": 3, "type": "searches", "fine": "looks for", "actor": "VERSHININ", "target": "MASHA", "mood": "melancholy", "intensity": 2, "summary": "Vershinin must leave and asks for Masha; Irina and Anfisa go search the garden."},
+{"start": 14, "type": "leaves", "fine": "leaves", "actor": "VERSHININ", "target": "OLGA", "mood": "melancholy", "intensity": 3, "summary": "Vershinin bids Olga farewell; they admit they will probably never meet again."},
+{"start": 25, "type": "confesses", "fine": "opens up to", "actor": "OLGA", "target": "VERSHININ", "mood": "grief", "intensity": 3, "summary": "Olga laments her failed plans and lost Moscow; Vershinin asks forgiveness, she weeps."},
+{"start": 31, "type": "observes", "fine": "waits", "actor": "VERSHININ", "target": null, "mood": "bittersweet", "intensity": 2, "summary": "Waiting for Masha, Vershinin philosophizes about mankind's future while checking his watch."},
+{"start": 40, "type": "leaves", "fine": "leaves", "actor": "VERSHININ", "target": "MASHA", "mood": "grief", "intensity": 4, "summary": "Masha arrives; Olga steps aside as Vershinin and Masha say good-bye."}
+],
+"pd_sisters_4": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "TROFIMOV", "target": "LUBOV ANDREYEVNA", "mood": "awkward", "intensity": 2, "summary": "Trofimov appears impatiently to greet Lubov, who does not recognize him at first."},
+{"start": 8, "type": "discovers", "fine": "recognizes", "actor": "LUBOV ANDREYEVNA", "target": "TROFIMOV", "mood": "grief", "intensity": 4, "summary": "Recognizing her drowned son's tutor, Lubov embraces Trofimov and weeps for Grisha."},
+{"start": 23, "type": "bonds", "fine": "reconnects with", "actor": "LUBOV ANDREYEVNA", "target": "TROFIMOV", "mood": "bittersweet", "intensity": 2, "summary": "Lubov composes herself and gently remarks how old Trofimov has grown, then heads for bed."},
+{"start": 32, "type": "pleads", "fine": "begs", "actor": "PISCHIN", "target": "LUBOV ANDREYEVNA", "mood": "playful", "intensity": 2, "summary": "Pischin begs 240 roubles for his mortgage; Lubov makes Gaev lend it."},
+{"start": 40, "type": "mocks", "fine": "dismisses", "actor": "GAEV", "target": "YASHA", "mood": "awkward", "intensity": 2, "summary": "Left behind, Gaev grumbles about his sister's spending and snubs the grinning Yasha."}
+],
+"pd_sisters_5": [
+{"start": 1, "type": "jokes", "fine": "amuses", "actor": "CHARLOTTA", "target": null, "mood": "playful", "intensity": 3, "summary": "Charlotta performs shawl tricks revealing Anya and Varya, then flings it at Pischin."},
+{"start": 16, "type": "pleads", "fine": "prays", "actor": "LUBOV ANDREYEVNA", "target": null, "mood": "suspense", "intensity": 4, "summary": "Lubov anxiously awaits news of the estate sale; Varya insists Gaev has bought it."},
+{"start": 25, "type": "jokes", "fine": "teases", "actor": "TROFIMOV", "target": "VARYA", "mood": "tense", "intensity": 3, "summary": "Trofimov teases Varya about Lopakhin; she snaps back angrily at him."},
+{"start": 29, "type": "persuades", "fine": "convinces", "actor": "LUBOV ANDREYEVNA", "target": "VARYA", "mood": "melancholy", "intensity": 3, "summary": "Lubov urges Varya to marry Lopakhin; Varya confesses he never proposes and dreams of a convent."},
+{"start": 40, "type": "arrives", "fine": "bursts in", "actor": "YASHA", "target": null, "mood": "playful", "intensity": 2, "summary": "Yasha reports Epikhodov broke a billiard cue; Varya storms off in irritation."},
+{"start": 46, "type": "defends", "fine": "justifies themself to", "actor": "TROFIMOV", "target": "LUBOV ANDREYEVNA", "mood": "tense", "intensity": 2, "summary": "Lubov rebukes Trofimov for teasing; he complains Varya meddles and claims they are above love."}
+],
+"pd_sisters_6": [
+{"start": 1, "type": "attacks", "fine": "lunges at", "actor": "VARYA", "target": "LOPAKHIN", "mood": "awkward", "intensity": 2, "summary": "Varya waves an umbrella, startling Lopakhin, as everyone prepares to leave."},
+{"start": 4, "type": "leaves", "fine": "leaves", "actor": "TROFIMOV", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Trofimov rushes everyone to the train; Varya tearfully hands him old goloshes."},
+{"start": 13, "type": "leaves", "fine": "leaves", "actor": "LOPAKHIN", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Lopakhin locks up; Anya and Trofimov greet new life as everyone files out."},
+{"start": 23, "type": "comforts", "fine": "embraces", "actor": "LUBOV ANDREYEVNA", "target": "GAEV", "mood": "grief", "intensity": 5, "summary": "Alone, Lubov and Gaev sob in each other's arms, bidding the orchard farewell."},
+{"start": 38, "type": "leaves", "fine": "leaves", "actor": "LUBOV ANDREYEVNA", "target": null, "mood": "melancholy", "intensity": 3, "summary": "They go; doors lock, carriages depart, and an axe strikes the trees."},
+{"start": 43, "type": "discovers", "fine": "realizes", "actor": "FIERS", "target": null, "mood": "grief", "intensity": 5, "summary": "Ill Fiers finds himself locked in and forgotten, lies down, and falls still."}
+]}

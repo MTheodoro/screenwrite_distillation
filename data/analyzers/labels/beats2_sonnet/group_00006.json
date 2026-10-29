@@ -1,0 +1,143 @@
+{
+"s00343": [
+{"start":1,"type":"searches","fine":"investigates","actor":"CORINNE","target":"ARTIE","mood":"suspense","intensity":3,"summary":"Corinne and Artie walk the dim mirror maze; she questions him about a figure in the mirror."},
+{"start":11,"type":"discovers","fine":"realizes","actor":"CORINNE","target":null,"mood":"fear","intensity":4,"summary":"Her reflection moves on its own, and she demands a way out."},
+{"start":24,"type":"reveals","fine":"comes clean to","actor":"ARTIE","target":"CORINNE","mood":"ominous","intensity":5,"summary":"Artie admits he is trapped and that she, like him, stayed too long."}
+],
+"s00548": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"BHASKAR","target":"WILLOUGHBY","mood":"tense","intensity":2,"summary":"Bhaskar, silent, finally demands an apology from Willoughby for the dishonest run-out."},
+{"start":31,"type":"arrives","fine":"makes an entrance","actor":"FLORENCE","target":null,"mood":"hostile","intensity":3,"summary":"Florence arrives, calls the match, and backs Bhaskar's accusation against Willoughby."},
+{"start":44,"type":"confesses","fine":"admits guilt to","actor":"WILLOUGHBY","target":"BHASKAR","mood":"awkward","intensity":3,"summary":"Willoughby concedes and apologizes grudgingly to Bhaskar, Florence and the game."},
+{"start":59,"type":"bonds","fine":"shares a moment with","actor":"FLORENCE","target":"WILLOUGHBY","mood":"playful","intensity":2,"summary":"Florence pours tea and the three old foes sit listening to the rain."}
+],
+"s01999": [
+{"start":1,"type":"works","fine":"prepares","actor":"MIRIAM","target":null,"mood":"calm","intensity":2,"summary":"Miriam sets up in the abandoned booth and starts recording on a cassette."},
+{"start":8,"type":"bonds","fine":"reminisces with","actor":"MIRIAM","target":null,"mood":"melancholy","intensity":3,"summary":"Miriam replies to her younger recorded voice, remembering listeners long gone."},
+{"start":21,"type":"decides","fine":"commits","actor":"MIRIAM","target":null,"mood":"bittersweet","intensity":4,"summary":"Miriam announces the station closing and records a goodbye to her listeners."}
+],
+"s00579": [
+{"start":1,"type":"bonds","fine":"flirts with","actor":"JULES","target":"ODETTE","mood":"playful","intensity":2,"summary":"Jules crosses the beam to flirt with seamstress Odette, who fits him a harness."},
+{"start":24,"type":"confronts","fine":"interrogates","actor":"BOUCHARD","target":"JULES","mood":"tense","intensity":4,"summary":"Inspector Bouchard climbs up and questions Jules about where he was Tuesday night."},
+{"start":39,"type":"defends","fine":"covers for","actor":"ODETTE","target":"JULES","mood":"tense","intensity":4,"summary":"Odette lies that Jules was with her, and Bouchard reluctantly leaves."},
+{"start":48,"type":"bonds","fine":"thanks","actor":"JULES","target":"ODETTE","mood":"tender","intensity":2,"summary":"Relieved, Jules acknowledges her cover and Odette quietly resumes sewing."}
+],
+"s01698": [
+{"start":1,"type":"persuades","fine":"negotiates with","actor":"MAELIS","target":"ORVAL","mood":"suspense","intensity":2,"summary":"A traveler asks to cross; the troll demands a true story as toll."},
+{"start":9,"type":"confesses","fine":"owns up to","actor":"MAELIS","target":"ORVAL","mood":"ominous","intensity":4,"summary":"Maelis admits she was a queen who killed her brother for the crown."},
+{"start":20,"type":"works","fine":"goes through routine","actor":"MAELIS","target":null,"mood":"suspense","intensity":3,"summary":"Maelis carefully crosses the swaying bridge, skipping the third plank."},
+{"start":27,"type":"bonds","fine":"shares a moment with","actor":"ORVAL","target":"MAELIS","mood":"bittersweet","intensity":2,"summary":"Orval helps her up and questions her name before she walks into the mist."}
+],
+"s01017": [
+{"start":1,"type":"works","fine":"prepares","actor":"INGRID","target":null,"mood":"tense","intensity":2,"summary":"Ingrid and Baptiste tend the dogs as Race Control orders a rushed departure."},
+{"start":16,"type":"confronts","fine":"challenges","actor":"BAPTISTE","target":"INGRID","mood":"tense","intensity":3,"summary":"Baptiste shows Ash is dehydrated and must be pulled; Ingrid refuses."},
+{"start":29,"type":"decides","fine":"chooses","actor":"INGRID","target":"MARSHAL VOGEL","mood":"hopeful","intensity":4,"summary":"Ingrid scratches from the race to stay with Ash while Baptiste brings water."}
+],
+"s00099": [
+{"start":1,"type":"confronts","fine":"presses","actor":"CLEMENCE","target":"SULEIMAN","mood":"tense","intensity":3,"summary":"Clemence presses Suleiman to explain why he boarded her night train."},
+{"start":32,"type":"confesses","fine":"opens up to","actor":"SULEIMAN","target":"CLEMENCE","mood":"tender","intensity":4,"summary":"Suleiman turns; they admit counting the years and what might have been."},
+{"start":46,"type":"bonds","fine":"reconnects with","actor":"CLEMENCE","target":"SULEIMAN","mood":"tender","intensity":5,"summary":"A lurch throws her into his arms; she slaps him, then weeps against him."}
+],
+"s00869": [
+{"start":1,"type":"works","fine":"prepares","actor":"ALARIC","target":null,"mood":"calm","intensity":1,"summary":"Alaric draws water from the enchanted well and drinks at dawn."},
+{"start":9,"type":"arrives","fine":"shows up unannounced","actor":"PERCIVAL","target":"ALARIC","mood":"tense","intensity":2,"summary":"Percival emerges from the trees, startling Alaric, and soothes him with wry peace."},
+{"start":22,"type":"persuades","fine":"pitches to","actor":"PERCIVAL","target":"ALARIC","mood":"ominous","intensity":3,"summary":"Percival explains the well shows what you have lost and urges Alaric to look."},
+{"start":27,"type":"discovers","fine":"realizes","actor":"ALARIC","target":null,"mood":"grief","intensity":4,"summary":"Alaric sees something pale in the water and is visibly shattered."},
+{"start":33,"type":"leaves","fine":"exits quietly","actor":"ALARIC","target":"PERCIVAL","mood":"bittersweet","intensity":2,"summary":"Alaric asks about the village, refuses company, and walks off with Percival trailing."}
+],
+"s01016": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"WYATT","target":null,"mood":"suspense","intensity":2,"summary":"Four lost friends reach a fork in the corn maze and argue directions."},
+{"start":16,"type":"discovers","fine":"notices","actor":"WYATT","target":null,"mood":"fear","intensity":4,"summary":"Stalks snap nearby and a feed-sack-headed figure rises from the left path."},
+{"start":28,"type":"flees","fine":"runs","actor":"WYATT","target":null,"mood":"chaotic","intensity":5,"summary":"They scream and sprint through the corn, pursued, into a clearing with a scarecrow."},
+{"start":34,"type":"flees","fine":"scrambles away","actor":"WYATT","target":null,"mood":"fear","intensity":5,"summary":"The scarecrow turns its head toward them and they scatter."}
+],
+"s00318": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ZURI","target":null,"mood":"playful","intensity":2,"summary":"Adults in tiny chairs play tea party with four-year-old Zuri."},
+{"start":17,"type":"accuses","fine":"points the finger at","actor":"ZURI","target":null,"mood":"playful","intensity":3,"summary":"Zuri claims a spill and everyone blames somebody else."},
+{"start":26,"type":"decides","fine":"gives an order","actor":"ZURI","target":null,"mood":"joyful","intensity":2,"summary":"Zuri calls nap time; the adults lower their heads and she peeks, smiling."}
+],
+"s00999": [
+{"start":1,"type":"works","fine":"prepares","actor":"IYER","target":"LUDMILLA","mood":"tense","intensity":3,"summary":"Surgeon Iyer readies instruments and counts Ludmilla down despite his shaking hands."},
+{"start":28,"type":"works","fine":"works","actor":"IYER","target":"LUDMILLA","mood":"tense","intensity":4,"summary":"Iyer begins operating on the rattling train while Ludmilla grips the table."},
+{"start":34,"type":"reveals","fine":"comes clean to","actor":"LUDMILLA","target":"IYER","mood":"suspense","intensity":4,"summary":"Ludmilla confesses she is a partisan courier and whispers a name hidden in her coat."},
+{"start":59,"type":"works","fine":"works","actor":"IYER","target":"LUDMILLA","mood":"suspense","intensity":4,"summary":"Lightning flashes as they count down and she loses consciousness; Iyer finishes the sutures."},
+{"start":74,"type":"searches","fine":"examines","actor":"IYER","target":null,"mood":"ominous","intensity":3,"summary":"Iyer checks her coat lining and she reveals she was awake, testing him."}
+],
+"s00543": [
+{"start":1,"type":"confronts","fine":"presses","actor":"LENNY","target":"FRANCINE","mood":"tense","intensity":2,"summary":"Francine wrestles a stuck lug nut and refuses Lenny's help as tension builds."},
+{"start":22,"type":"reveals","fine":"breaks news to","actor":"LENNY","target":"FRANCINE","mood":"tense","intensity":3,"summary":"Lenny says their mother called; the siblings spar over who left."},
+{"start":46,"type":"confesses","fine":"apologizes to","actor":"LENNY","target":"FRANCINE","mood":"bittersweet","intensity":3,"summary":"Lenny admits he should have called or come, and frees the nut."},
+{"start":63,"type":"bonds","fine":"reminisces with","actor":"LENNY","target":"FRANCINE","mood":"melancholy","intensity":3,"summary":"They change the tire together and recall their father and how Lenny protected her."},
+{"start":78,"type":"reveals","fine":"breaks news to","actor":"LENNY","target":"FRANCINE","mood":"grief","intensity":4,"summary":"Lenny reveals their mother is sick; Francine agrees to come Sunday."}
+],
+"s01379": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"ARTIE","target":"RUBY","mood":"suspense","intensity":3,"summary":"At a tied championship ninth frame, the team watches Ruby step up to spare."},
+{"start":17,"type":"attacks","fine":"strikes","actor":"RUBY","target":null,"mood":"suspense","intensity":4,"summary":"Ruby's ball leaves one pin wobbling, and it stands."},
+{"start":25,"type":"defends","fine":"covers for","actor":"DEVON","target":"RUBY","mood":"bittersweet","intensity":3,"summary":"Ruby folds her towel in defeat; Devon hands back her ball and takes the approach."}
+],
+"s01985": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"IZABELA","target":"ARSLAN","mood":"awkward","intensity":2,"summary":"Wet Arslan arrives and trades barbed banter with curator Izabela."},
+{"start":15,"type":"bonds","fine":"reminisces with","actor":"IZABELA","target":"ARSLAN","mood":"bittersweet","intensity":3,"summary":"She pours him chicory; they recall the blowtorch coffee and the smoke alarm."},
+{"start":34,"type":"bonds","fine":"shares a moment with","actor":"ARSLAN","target":"IZABELA","mood":"tender","intensity":3,"summary":"They discuss the orchid that bloomed after eleven years and admire it."},
+{"start":62,"type":"decides","fine":"commits","actor":"ARSLAN","target":"IZABELA","mood":"hopeful","intensity":3,"summary":"She laughs and joins him; Arslan says he can wait for the second bloom."}
+],
+"s00161": [
+{"start":1,"type":"works","fine":"prepares","actor":"IFEOMA","target":null,"mood":"tense","intensity":3,"summary":"The crew races through the freezing seed vault to retrieve the wheat before scrubbers fail."},
+{"start":29,"type":"discovers","fine":"notices","actor":"IFEOMA","target":null,"mood":"suspense","intensity":4,"summary":"The ship shudders, a klaxon sounds, and cooling is lost on Deck Nine."},
+{"start":34,"type":"threatens","fine":"holds at gunpoint","actor":"LARKSPUR","target":"IFEOMA","mood":"tense","intensity":5,"summary":"Commander Larkspur enters armed and forbids anyone to touch the seed."},
+{"start":53,"type":"persuades","fine":"talks down","actor":"IFEOMA","target":"LARKSPUR","mood":"tense","intensity":4,"summary":"Ifeoma appeals to their shared oath and asks him to open the lock."},
+{"start":60,"type":"decides","fine":"changes course","actor":"LARKSPUR","target":null,"mood":"hopeful","intensity":4,"summary":"Larkspur lowers his gun and opens the lock; the crew flees with the seed."}
+],
+"s02293": [
+{"start":1,"type":"confronts","fine":"presses","actor":"DEEDEE","target":"GUS","mood":"awkward","intensity":2,"summary":"A clown named Gus insists he is hired entertainment in the dentist's waiting room."},
+{"start":16,"type":"attacks","fine":"lunges at","actor":"MILO","target":null,"mood":"chaotic","intensity":4,"summary":"Milo shrieks and the adults collide at the lollipop bowl in slapstick chaos."},
+{"start":20,"type":"jokes","fine":"amuses","actor":"GUS","target":"MILO","mood":"playful","intensity":2,"summary":"Milo stops crying and asks Gus to do the dog again; Gus honks."}
+],
+"s00569": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"HUGO","target":null,"mood":"awkward","intensity":2,"summary":"Nervous newcomer Hugo twitches backstage as veterans tease him about his personality-less lamb."},
+{"start":22,"type":"works","fine":"prepares","actor":"MRS. PEMBERTON","target":"HUGO","mood":"chaotic","intensity":3,"summary":"The PA calls contestants; the dummy falls and all three collide in a heap."},
+{"start":42,"type":"comforts","fine":"encourages","actor":"MORTIMER","target":"HUGO","mood":"playful","intensity":2,"summary":"They patch the dummy's jaw and lamb's ear with duct tape, encouraging Hugo."},
+{"start":69,"type":"decides","fine":"commits","actor":"HUGO","target":null,"mood":"triumphant","intensity":4,"summary":"Hugo finds his lamb's voice and marches to the stage with the others."}
+],
+"s00129": [
+{"start":1,"type":"observes","fine":"waits","actor":"ROSALIND","target":null,"mood":"melancholy","intensity":2,"summary":"In the empty converted church, rival bowlers wait for the season's last frame."},
+{"start":19,"type":"confronts","fine":"calls out","actor":"NADINE","target":"GUS","mood":"tense","intensity":3,"summary":"Nadine says twelve years of silence is too long; Deacon asks his mother what he doesn't know."},
+{"start":42,"type":"reveals","fine":"drops a bombshell on","actor":"GUS","target":"DEACON","mood":"tense","intensity":5,"summary":"Gus reveals Deacon's father had two families; Nadine confirms she is his half-sister."},
+{"start":60,"type":"bonds","fine":"reconnects with","actor":"DEACON","target":"NADINE","mood":"bittersweet","intensity":4,"summary":"Deacon bowls a strike, then offers Nadine the ball and asks her to roll."}
+],
+"s02435": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"CALLOWAY","target":null,"mood":"ominous","intensity":2,"summary":"At supper in a remote way station, a late coach and rumors of someone outside unsettle the group."},
+{"start":26,"type":"confronts","fine":"presses","actor":"ABIGAIL","target":"CALLOWAY","mood":"tense","intensity":3,"summary":"Abigail asks why the marshal is at the station; Magdalena says he is waiting on someone."},
+{"start":33,"type":"confesses","fine":"owns up to","actor":"ABIGAIL","target":"CALLOWAY","mood":"suspense","intensity":5,"summary":"Abigail and Reuben both name her as Harlan Boyce's killer; she calmly explains eleven years of waiting."}
+],
+"s01922": [
+{"start":1,"type":"bonds","fine":"flirts with","actor":"TEO","target":"LULA","mood":"awkward","intensity":2,"summary":"Teo threads film while Lula hangs out in the booth he claims is private."},
+{"start":10,"type":"mocks","fine":"provokes","actor":"HAMID","target":"TEO","mood":"hostile","intensity":3,"summary":"Uninvited Hamid exposes Lula's remark and goads Teo, who nearly lunges."},
+{"start":26,"type":"arrives","fine":"makes an entrance","actor":"ESTELLE","target":"TEO","mood":"tense","intensity":3,"summary":"Mrs. Vanterpool appears, asks about the blank screen, and Teo takes the blame."},
+{"start":32,"type":"decides","fine":"gives an order","actor":"ESTELLE","target":"TEO","mood":"awkward","intensity":2,"summary":"She hands back the reel, telling Teo to fix it and the others to buy popcorn."}
+],
+"s00028": [
+{"start":1,"type":"confesses","fine":"begs forgiveness from","actor":"ROMAN","target":"ELOISE","mood":"melancholy","intensity":3,"summary":"Roman arrives three years late and explains why he left, asking only to stand there."},
+{"start":19,"type":"comforts","fine":"consoles","actor":"ELOISE","target":"ROMAN","mood":"tender","intensity":3,"summary":"Eloise turns and softens on hearing his mother died, joking about his scarf."},
+{"start":29,"type":"arrives","fine":"bursts in","actor":"PENHALLOW","target":null,"mood":"joyful","intensity":2,"summary":"Coworkers crowd in; Dr. Penhallow outs Eloise's years of talking about Roman."},
+{"start":40,"type":"bonds","fine":"flirts with","actor":"ELOISE","target":"ROMAN","mood":"playful","intensity":3,"summary":"Posing for a photo, they whisper dinner plans and slip out the back together."}
+],
+"s00807": [
+{"start":1,"type":"works","fine":"prepares","actor":"ANDREJ","target":null,"mood":"suspense","intensity":2,"summary":"Andrej crawls through a duct and rehearses his vault heist plan with a recorder."},
+{"start":14,"type":"discovers","fine":"realizes","actor":"ANDREJ","target":null,"mood":"playful","intensity":2,"summary":"He catches a mistake in the safe combination and corrects it with a nervous joke."},
+{"start":28,"type":"hides","fine":"lies low","actor":"ANDREJ","target":null,"mood":"suspense","intensity":4,"summary":"A red light sweeps across the vent; he freezes, then slides the first bolt loose."}
+],
+"s00030": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"MAREN","target":"FLORIAN","mood":"hostile","intensity":3,"summary":"Maren accuses her father Florian of selling their late mother's hives without asking."},
+{"start":15,"type":"defends","fine":"justifies themself to","actor":"FLORIAN","target":"MAREN","mood":"melancholy","intensity":3,"summary":"Florian explains he can no longer lift the supers and had to sell."},
+{"start":20,"type":"comforts","fine":"reconnects with","actor":"FLORIAN","target":"MAREN","mood":"tender","intensity":4,"summary":"Florian gives Maren a taste of the last honey from the north hives, her mother's."}
+],
+"s01357": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"IMANI","target":"STRANGER","mood":"playful","intensity":2,"summary":"Kitchen staff share a bottle and guess who the silent stranger in gray is."},
+{"start":20,"type":"reveals","fine":"lets slip to","actor":"LEOPOLD","target":"IMANI","mood":"bittersweet","intensity":3,"summary":"The stranger gives his name, Leopold, and says he used to cook there; Imani salts the soup."}
+],
+"s01406": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"BERNADETTE","target":null,"mood":"melancholy","intensity":2,"summary":"Bernadette stands at the sink letting water run as the wall phone rings unanswered."},
+{"start":14,"type":"discovers","fine":"takes it in","actor":"BERNADETTE","target":"NURSE","mood":"grief","intensity":4,"summary":"Bernadette answers and hears from the hospice nurse that her husband has died."},
+{"start":29,"type":"comforts","fine":"tends to","actor":"BERNADETTE","target":null,"mood":"grief","intensity":4,"summary":"She hangs up, pours tea for the empty chair, and holds her own mug close."}
+]
+}

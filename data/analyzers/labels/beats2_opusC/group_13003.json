@@ -1,0 +1,154 @@
+{
+"s01050": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "ODALYS", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Odalys sits in her funeral dress as brushes sweep the car"},
+{"start": 8, "type": "confesses", "fine": "unburdens to", "actor": "ODALYS", "target": null, "mood": "grief", "intensity": 3, "summary": "Odalys recalls her late husband never washing the car and leans on the wheel"},
+{"start": 19, "type": "confesses", "fine": "breaks down to", "actor": "ODALYS", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "As the dryer blasts, Odalys laughs, then stops"},
+{"start": 23, "type": "decides", "fine": "commits", "actor": "ODALYS", "target": null, "mood": "hopeful", "intensity": 2, "summary": "She puts the car in drive and rolls out into the light"}
+],
+"pd_dollhouse_1": [
+{"start": 1, "type": "confesses", "fine": "opens up to", "actor": "NORA", "target": "MRS LINDE", "mood": "bittersweet", "intensity": 2, "summary": "Nora tells Christine how she secretly scrimped and copied to repay the loan"},
+{"start": 10, "type": "jokes", "fine": "amuses", "actor": "NORA", "target": "MRS LINDE", "mood": "playful", "intensity": 2, "summary": "Nora teases Christine with a fantasy of a rich old admirer's will"},
+{"start": 16, "type": "bonds", "fine": "shares a moment with", "actor": "NORA", "target": "MRS LINDE", "mood": "joyful", "intensity": 3, "summary": "Nora rhapsodizes about being free from care and the coming spring"},
+{"start": 18, "type": "arrives", "fine": "shows up unannounced", "actor": "KROGSTAD", "target": "NORA", "mood": "ominous", "intensity": 3, "summary": "The bell rings and Krogstad arrives, unsettling Nora and Mrs Linde"},
+{"start": 34, "type": "searches", "fine": "questions witnesses", "actor": "MRS LINDE", "target": "NORA", "mood": "tense", "intensity": 2, "summary": "Mrs Linde asks about Krogstad and reveals she once knew him"}
+],
+"s01085": [
+{"start": 1, "type": "observes", "fine": "watches", "actor": "IMOGEN", "target": "SULEIMAN", "mood": "calm", "intensity": 1, "summary": "At 2 a.m. Imogen half-reads while Suleiman carefully loads his washer"},
+{"start": 14, "type": "jokes", "fine": "banters with", "actor": "IMOGEN", "target": "SULEIMAN", "mood": "playful", "intensity": 2, "summary": "Imogen remarks on his folding habit; they trade dry quips about Tuesdays"},
+{"start": 32, "type": "bonds", "fine": "shares a moment with", "actor": "SULEIMAN", "target": "IMOGEN", "mood": "tender", "intensity": 2, "summary": "They discover they are both night-shift nurses on adjacent floors"},
+{"start": 43, "type": "bonds", "fine": "flirts with", "actor": "SULEIMAN", "target": "IMOGEN", "mood": "tender", "intensity": 3, "summary": "Suleiman recalls passing her on the stairs with a croissant; she hides a smile"},
+{"start": 56, "type": "discovers", "fine": "stumbles on", "actor": "IMOGEN", "target": "SULEIMAN", "mood": "tender", "intensity": 3, "summary": "Her lone sock matches one in his pocket; they agree on Tuesday"},
+{"start": 70, "type": "leaves", "fine": "exits quietly", "actor": "IMOGEN", "target": "SULEIMAN", "mood": "bittersweet", "intensity": 2, "summary": "She leaves her sock in his palm and walks out into the rain"}
+],
+"s01058": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "COLTER", "target": "MAGDALENA", "mood": "calm", "intensity": 1, "summary": "Colter prepares to shave beardless Magdalena, who quips it'll be quick"},
+{"start": 14, "type": "searches", "fine": "investigates", "actor": "MAGDALENA", "target": "COLTER", "mood": "tense", "intensity": 3, "summary": "Magdalena steers small talk to the sheriff and points out his boots"},
+{"start": 29, "type": "observes", "fine": "studies", "actor": "MAGDALENA", "target": "COLTER", "mood": "suspense", "intensity": 3, "summary": "Colter combs nervously, noting she knows his name; she waits"},
+{"start": 39, "type": "confronts", "fine": "interrogates", "actor": "MAGDALENA", "target": "COLTER", "mood": "tense", "intensity": 4, "summary": "She demands the sheriff's whereabouts, revealing her brother rode out with him"},
+{"start": 53, "type": "accuses", "fine": "implicates", "actor": "MAGDALENA", "target": "COLTER", "mood": "ominous", "intensity": 4, "summary": "Magdalena coldly calls Colter a man with a good alibi; boots appear at the door"},
+{"start": 65, "type": "threatens", "fine": "intimidates", "actor": "MAGDALENA", "target": "COLTER", "mood": "ominous", "intensity": 5, "summary": "She seats the shaking barber and takes up his razor to talk"}
+],
+"pd_sisters_0": [
+{"start": 1, "type": "bonds", "fine": "reminisces with", "actor": "OLGA", "target": "IRINA", "mood": "melancholy", "intensity": 2, "summary": "On Irina's name-day Olga recalls their father's funeral a year ago"},
+{"start": 12, "type": "bonds", "fine": "reminisces with", "actor": "OLGA", "target": "IRINA", "mood": "bittersweet", "intensity": 3, "summary": "Olga longs for Moscow; Irina and Olga dream of selling up and going"},
+{"start": 27, "type": "bonds", "fine": "confides in", "actor": "OLGA", "target": "IRINA", "mood": "bittersweet", "intensity": 2, "summary": "Irina feels joyful; Olga admits weariness and wishes she were married"},
+{"start": 32, "type": "reveals", "fine": "breaks news to", "actor": "TUZENBACH", "target": "IRINA", "mood": "playful", "intensity": 2, "summary": "Tuzenbach announces Vershinin's visit and gossips about his troubled wife"},
+{"start": 44, "type": "jokes", "fine": "riffs with", "actor": "SOLENI", "target": null, "mood": "playful", "intensity": 1, "summary": "Soleni muses on strength while Chebutikin notes a hair remedy"}
+],
+"s01104": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "DUNMORE", "target": "ODESSA", "mood": "calm", "intensity": 2, "summary": "Marshal Dunmore rides up to the water tower where Odessa and Lazarus wait"},
+{"start": 9, "type": "searches", "fine": "questions witnesses", "actor": "DUNMORE", "target": "ODESSA", "mood": "tense", "intensity": 3, "summary": "Odessa explains the Whitaker brothers escaped up the tower, armed"},
+{"start": 17, "type": "comforts", "fine": "reassures", "actor": "DUNMORE", "target": "LAZARUS", "mood": "playful", "intensity": 2, "summary": "Lazarus asks if he'll shoot them; Dunmore answers with dry humor"},
+{"start": 24, "type": "decides", "fine": "commits", "actor": "DUNMORE", "target": "RADIO", "mood": "tense", "intensity": 3, "summary": "Fort Bell promises reinforcements by noon; Dunmore says they'll be too late"},
+{"start": 30, "type": "decides", "fine": "commits", "actor": "DUNMORE", "target": "ODESSA", "mood": "tense", "intensity": 4, "summary": "Dunmore returns Odessa's rifle, shares a silent look, and climbs the ladder"}
+],
+"s01113": [
+{"start": 1, "type": "discovers", "fine": "discovers", "actor": "ODALYS", "target": null, "mood": "suspense", "intensity": 3, "summary": "The crew finds cryo pod 17 cold and empty; Pixie jokes uneasily"},
+{"start": 12, "type": "decides", "fine": "gives an order", "actor": "ODALYS", "target": "SANTIAGO", "mood": "tense", "intensity": 3, "summary": "Odalys insists Santiago open the pod despite his hesitation"},
+{"start": 19, "type": "discovers", "fine": "uncovers", "actor": "ODALYS", "target": null, "mood": "melancholy", "intensity": 4, "summary": "Inside lie a blanket, a child's drawing, and a dead monitor"},
+{"start": 27, "type": "defends", "fine": "protects", "actor": "SANTIAGO", "target": "PIXIE", "mood": "awkward", "intensity": 2, "summary": "Santiago gently stops Pixie from touching the monitor"},
+{"start": 30, "type": "hides", "fine": "masks a feeling", "actor": "ODALYS", "target": null, "mood": "grief", "intensity": 3, "summary": "Odalys has the pod sealed and pockets the drawing as Miriam comforts her"}
+],
+"pd_sisters_6": [
+{"start": 1, "type": "leaves", "fine": "leaves", "actor": "TROFIMOV", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Amid tearful bustle Trofimov hurries everyone toward the waiting train"},
+{"start": 13, "type": "leaves", "fine": "leaves", "actor": "LOPAKHIN", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Lopakhin locks up; Anya bids farewell to the old life and all exit"},
+{"start": 23, "type": "confesses", "fine": "breaks down to", "actor": "LUBOV", "target": "GAEV", "mood": "grief", "intensity": 5, "summary": "Lubov and Gaev sob quietly, saying goodbye to the orchard and their youth"},
+{"start": 38, "type": "leaves", "fine": "abandons", "actor": null, "target": "FIERS", "mood": "melancholy", "intensity": 3, "summary": "The house is locked and carriages leave as the axe sounds"},
+{"start": 43, "type": "discovers", "fine": "realizes", "actor": "FIERS", "target": null, "mood": "grief", "intensity": 5, "summary": "Ailing Fiers finds himself locked in and forgotten, and lies down still"}
+],
+"s01087": [
+{"start": 1, "type": "works", "fine": "works", "actor": "HOSEA", "target": "EZEKIEL", "mood": "calm", "intensity": 2, "summary": "Hosea works the lock as the impatient Captain Arden complains about time"},
+{"start": 13, "type": "jokes", "fine": "needles", "actor": "CLEMENTINE", "target": "EZEKIEL", "mood": "playful", "intensity": 2, "summary": "Clementine corrects Ezekiel's timing; Perpetua hides amusement and urges patience"},
+{"start": 24, "type": "works", "fine": "repairs something", "actor": "CLEMENTINE", "target": null, "mood": "chaotic", "intensity": 4, "summary": "A rope snaps; Clementine and Hosea wrestle the yawing barge straight"},
+{"start": 33, "type": "arrives", "fine": "shows up unannounced", "actor": "OFFICER", "target": "EZEKIEL", "mood": "tense", "intensity": 4, "summary": "Officers on the towpath order the barge to halt in the Crown's name"},
+{"start": 39, "type": "pleads", "fine": "implores", "actor": "EZEKIEL", "target": "HOSEA", "mood": "suspense", "intensity": 4, "summary": "Ezekiel, suddenly humble, urges Hosea to open the upper gate"},
+{"start": 43, "type": "decides", "fine": "chooses", "actor": "HOSEA", "target": "EZEKIEL", "mood": "suspense", "intensity": 5, "summary": "Hosea decides, opens the gate, and the barge escapes into the dark"}
+],
+"s01025": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "BARNABY", "target": "FITCH", "mood": "playful", "intensity": 1, "summary": "Barnaby and Aloysius enter Fitch's lost-and-found to claim a trunk"},
+{"start": 8, "type": "lies", "fine": "covers a story for", "actor": "BARNABY", "target": "FITCH", "mood": "playful", "intensity": 2, "summary": "The pair fumble their story while Aloysius lets slip the Mortimer papers"},
+{"start": 25, "type": "reveals", "fine": "shows", "actor": "FITCH", "target": "BARNABY", "mood": "playful", "intensity": 2, "summary": "Fitch produces the trunk with shirts and a folio; the men fight over the pen"},
+{"start": 43, "type": "arrives", "fine": "bursts in", "actor": "HORTENSE", "target": "FITCH", "mood": "playful", "intensity": 2, "summary": "Hortense bursts in with Nell about a toy that isn't lost"},
+{"start": 51, "type": "mocks", "fine": "needles", "actor": "HORTENSE", "target": "ALOYSIUS", "mood": "playful", "intensity": 3, "summary": "Hortense needles the men; Nell exposes her matchmaking scheme"},
+{"start": 69, "type": "reveals", "fine": "exposes a secret to", "actor": "FITCH", "target": "BARNABY", "mood": "playful", "intensity": 4, "summary": "Fitch reveals the folio is a deed they've been selling the ship with"},
+{"start": 83, "type": "flees", "fine": "bolts", "actor": "BARNABY", "target": null, "mood": "chaotic", "intensity": 3, "summary": "The pair bolt and jam in the doorway; Hortense resolves to buy the ship"}
+],
+"pd_earnest_2": [
+{"start": 1, "type": "deflects", "fine": "dodges", "actor": "CECILY", "target": "MISS PRISM", "mood": "playful", "intensity": 2, "summary": "Cecily resists her German lesson and teases about Uncle Jack's seriousness"},
+{"start": 9, "type": "persuades", "fine": "persuades", "actor": "CECILY", "target": "MISS PRISM", "mood": "playful", "intensity": 2, "summary": "Cecily wishes Jack's wicked brother could visit; Prism disapproves"},
+{"start": 13, "type": "jokes", "fine": "banters with", "actor": "CECILY", "target": "MISS PRISM", "mood": "playful", "intensity": 2, "summary": "They spar over diaries, memory, and Prism's lost three-volume novel"},
+{"start": 23, "type": "arrives", "fine": "arrives", "actor": "CHASUBLE", "target": "MISS PRISM", "mood": "playful", "intensity": 2, "summary": "Dr. Chasuble arrives and Cecily invents a headache for Prism"},
+{"start": 35, "type": "bonds", "fine": "flirts with", "actor": "CHASUBLE", "target": "MISS PRISM", "mood": "playful", "intensity": 2, "summary": "Chasuble's metaphors fluster Prism, who accepts a stroll and leaves with him"}
+],
+"s01022": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "MABEL", "target": null, "mood": "calm", "intensity": 1, "summary": "Mabel works the switchboard alone, connecting calls in the night"},
+{"start": 14, "type": "arrives", "fine": "shows up unannounced", "actor": "STRANGER", "target": "MABEL", "mood": "tense", "intensity": 3, "summary": "A stranger barges in demanding the Harrisburg line; Mabel refuses"},
+{"start": 26, "type": "persuades", "fine": "pitches to", "actor": "CROWE", "target": "MABEL", "mood": "tense", "intensity": 3, "summary": "Crowe shows credentials; Mabel doubts them and he demands the manager"},
+{"start": 36, "type": "persuades", "fine": "convinces", "actor": "CROWE", "target": "ABERNATHY", "mood": "suspense", "intensity": 3, "summary": "Mabel wakes Abernathy; mention of the six-ten freight changes his tone"},
+{"start": 54, "type": "arrives", "fine": "bursts in", "actor": "TOBY", "target": "MABEL", "mood": "tense", "intensity": 4, "summary": "Toby bursts in reporting the wire cut at Calder bridge"},
+{"start": 59, "type": "accuses", "fine": "exposes", "actor": "TOBY", "target": "CROWE", "mood": "tense", "intensity": 4, "summary": "Mabel questions Crowe; Toby spots copper wire in his satchel"},
+{"start": 64, "type": "decides", "fine": "gives an order", "actor": "MABEL", "target": "CROWE", "mood": "suspense", "intensity": 4, "summary": "As the sheriff comes on, Mabel orders Crowe to stay and has the door locked"}
+],
+"s01068": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "EVELYN", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Exhausted Evelyn sways alone in the marathon hall, asking the void for a cigarette"},
+{"start": 12, "type": "arrives", "fine": "drifts in", "actor": "JACK", "target": "EVELYN", "mood": "tender", "intensity": 2, "summary": "Jack emerges from the shadows to share a cigarette and banter"},
+{"start": 25, "type": "bonds", "fine": "flirts with", "actor": "JACK", "target": "EVELYN", "mood": "tender", "intensity": 3, "summary": "Jack offers his hand and they dance, joking about the prize money"},
+{"start": 38, "type": "bonds", "fine": "shares a moment with", "actor": "EVELYN", "target": "JACK", "mood": "bittersweet", "intensity": 3, "summary": "They speak the same promise at once, laugh, and she asks him to hold on"}
+],
+"s01080": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "SALAZAR-KIM", "target": null, "mood": "awkward", "intensity": 1, "summary": "In a cramped arbitration room, Pike clicks his pen and Yusupova fidgets"},
+{"start": 9, "type": "searches", "fine": "questions witnesses", "actor": "SALAZAR-KIM", "target": "MRS. YUSUPOVA", "mood": "calm", "intensity": 2, "summary": "The arbitrator reviews the heat complaint and notification letters"},
+{"start": 17, "type": "bonds", "fine": "shares a moment with", "actor": "MRS. YUSUPOVA", "target": "SALAZAR-KIM", "mood": "playful", "intensity": 2, "summary": "Yusupova describes the landlord's dog-smelling blanket, which the arbitrator records"},
+{"start": 24, "type": "persuades", "fine": "bargains with", "actor": "PIKE", "target": "SALAZAR-KIM", "mood": "playful", "intensity": 2, "summary": "Pike seeks nine thousand dollars; Yusupova keeps the warm blanket"}
+],
+"s01056": [
+{"start": 1, "type": "persuades", "fine": "recruits", "actor": "DUCHESS", "target": null, "mood": "playful", "intensity": 2, "summary": "The Duchess convenes her crew on the abandoned carousel"},
+{"start": 15, "type": "decides", "fine": "makes a plan", "actor": "SLIM", "target": null, "mood": "playful", "intensity": 2, "summary": "Slim lays out the four-million heist in the carousel's still column"},
+{"start": 21, "type": "decides", "fine": "makes a plan", "actor": "DUCHESS", "target": "PEARL", "mood": "playful", "intensity": 2, "summary": "The Duchess explains forged permits and assigns Pearl to drive and pick locks"},
+{"start": 33, "type": "reveals", "fine": "exposes a secret to", "actor": "BONES", "target": "DUCHESS", "mood": "tense", "intensity": 4, "summary": "Bones reveals a sixth share for an unknown partner in Lavalle's ledger"},
+{"start": 38, "type": "confronts", "fine": "calls out", "actor": "DUCHESS", "target": "LAVALLE", "mood": "ominous", "intensity": 4, "summary": "The Duchess confronts Lavalle, who coolly admits he told her what she needed"}
+],
+"s01106": [
+{"start": 1, "type": "confronts", "fine": "calls out", "actor": "HAZEL", "target": "JONAH", "mood": "tense", "intensity": 2, "summary": "Hazel calls out Jonah for missing the ferry again"},
+{"start": 14, "type": "jokes", "fine": "riffs with", "actor": "WENDELL", "target": "HAZEL", "mood": "playful", "intensity": 2, "summary": "Eavesdropping Wendell interjects; Hazel sides with him, defusing the fight"},
+{"start": 26, "type": "confesses", "fine": "apologizes to", "actor": "JONAH", "target": "HAZEL", "mood": "tender", "intensity": 2, "summary": "They laugh, the horn blasts, and Jonah softly apologizes"}
+],
+"s01078": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "JUNE", "target": null, "mood": "calm", "intensity": 1, "summary": "June counts quarters alone at the rink concession in 1989"},
+{"start": 9, "type": "arrives", "fine": "arrives", "actor": "DANNY", "target": "JUNE", "mood": "awkward", "intensity": 1, "summary": "Danny arrives early and waits, the two pretending not to notice"},
+{"start": 21, "type": "bonds", "fine": "shares a moment with", "actor": "JUNE", "target": "DANNY", "mood": "tender", "intensity": 2, "summary": "June shares free popcorn and they eye-roll over Mr. Pruitt"},
+{"start": 38, "type": "reveals", "fine": "shows", "actor": "DANNY", "target": "JUNE", "mood": "tense", "intensity": 3, "summary": "Danny shows a missing-person flyer of his sister Rosalind"},
+{"start": 48, "type": "reveals", "fine": "lets slip to", "actor": "JUNE", "target": "DANNY", "mood": "ominous", "intensity": 4, "summary": "June reveals Pruitt's locked room with Rosalind's jacket on the door"},
+{"start": 62, "type": "deflects", "fine": "stalls", "actor": "JUNE", "target": "DANNY", "mood": "suspense", "intensity": 3, "summary": "Danny demands to see it; Pruitt opening the rink forces June to stall"},
+{"start": 69, "type": "bonds", "fine": "teams up with", "actor": "JUNE", "target": "DANNY", "mood": "suspense", "intensity": 4, "summary": "June slips Danny the keys and he vanishes into the crowd"}
+],
+"s01098": [
+{"start": 1, "type": "mocks", "fine": "belittles", "actor": "ROSEMARY", "target": "BENEDICT", "mood": "awkward", "intensity": 2, "summary": "At the funeral home Rosemary belittles Benedict's competence"},
+{"start": 12, "type": "confronts", "fine": "challenges", "actor": "DELPHINE", "target": "ROSEMARY", "mood": "hostile", "intensity": 4, "summary": "Delphine claims a place in the will; Rosemary admits striking it"},
+{"start": 22, "type": "confronts", "fine": "faces off with", "actor": "ROSEMARY", "target": "DELPHINE", "mood": "hostile", "intensity": 4, "summary": "Rosemary silences Benedict; she and Delphine trade barbs about blood"},
+{"start": 29, "type": "comforts", "fine": "steadies", "actor": "BENEDICT", "target": "ROSEMARY", "mood": "bittersweet", "intensity": 3, "summary": "Rosemary sags; Benedict touches her arm and they recall the deceased"},
+{"start": 37, "type": "bonds", "fine": "shares a moment with", "actor": "ROSEMARY", "target": "DELPHINE", "mood": "bittersweet", "intensity": 3, "summary": "All three break into laughter and tears together"},
+{"start": 42, "type": "bonds", "fine": "reconnects with", "actor": "DELPHINE", "target": "ROSEMARY", "mood": "tender", "intensity": 2, "summary": "Price asks if they're ready; Delphine sits beside Rosemary facing the casket"}
+],
+"pd_dollhouse_5": [
+{"start": 1, "type": "arrives", "fine": "drifts in", "actor": "RANK", "target": "HELMER", "mood": "awkward", "intensity": 2, "summary": "Rank knocks late; Helmer grudgingly lets him in"},
+{"start": 9, "type": "jokes", "fine": "banters with", "actor": "RANK", "target": "HELMER", "mood": "playful", "intensity": 2, "summary": "Rank and Helmer banter about the evening's champagne and merriment"},
+{"start": 23, "type": "reveals", "fine": "lets slip to", "actor": "RANK", "target": "NORA", "mood": "ominous", "intensity": 3, "summary": "Nora probes Rank's investigation; he hints at certainty of his fatal diagnosis"},
+{"start": 36, "type": "deflects", "fine": "changes the subject on", "actor": "NORA", "target": "RANK", "mood": "bittersweet", "intensity": 2, "summary": "Nora changes the subject to costumes; Rank compliments her as a fairy"}
+],
+"s01112": [
+{"start": 1, "type": "decides", "fine": "gives an order", "actor": "NADIA", "target": "NAT", "mood": "tense", "intensity": 2, "summary": "Nadia calls a rest stop at the glacier despite Nat's objection"},
+{"start": 10, "type": "bonds", "fine": "shares a moment with", "actor": "NAT", "target": "DESMOND", "mood": "calm", "intensity": 2, "summary": "They share a thermos and Nadia points out the distant pass"},
+{"start": 17, "type": "defends", "fine": "stands up for", "actor": "DESMOND", "target": "NAT", "mood": "tense", "intensity": 3, "summary": "Injured Desmond insists he can walk; Nat and Nadia refuse to let him crawl"},
+{"start": 21, "type": "decides", "fine": "makes a plan", "actor": "NAT", "target": "DESMOND", "mood": "tender", "intensity": 2, "summary": "Nat tethers Desmond to the sled, calling him the anchor"},
+{"start": 28, "type": "works", "fine": "works", "actor": "NADIA", "target": null, "mood": "hopeful", "intensity": 2, "summary": "Into the wind, they haul the sled toward the pass in silence"}
+],
+"s01092": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "HESTER", "target": "PASCAL", "mood": "melancholy", "intensity": 2, "summary": "Coach and lone rower prepare in silence, talking past each other"},
+{"start": 13, "type": "comforts", "fine": "tends to", "actor": "HESTER", "target": "PASCAL", "mood": "awkward", "intensity": 2, "summary": "Hester pours tea for Pascal, who ignores it"},
+{"start": 21, "type": "jokes", "fine": "teases", "actor": "HESTER", "target": "PASCAL", "mood": "playful", "intensity": 2, "summary": "Hester needles his terse replies until he smiles and takes the mug"},
+{"start": 29, "type": "bonds", "fine": "reminisces with", "actor": "PASCAL", "target": "HESTER", "mood": "bittersweet", "intensity": 3, "summary": "They acknowledge no one's coming and remember the full squad and Camille"},
+{"start": 43, "type": "comforts", "fine": "reassures", "actor": "HESTER", "target": "PASCAL", "mood": "tender", "intensity": 3, "summary": "Pascal fears missing the cut; Hester says they'll row anyway"},
+{"start": 51, "type": "decides", "fine": "commits", "actor": "PASCAL", "target": "HESTER", "mood": "hopeful", "intensity": 2, "summary": "They lift a single shell together and carry it into the mist"}
+]
+}

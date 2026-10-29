@@ -1,0 +1,31 @@
+{
+  "scene_id": "s05094",
+  "cast": {"Detective Sergeant Alana Reyes": "ALANA", "ALANA": "ALANA", "Alana": "ALANA", "Assistant District Attorney Colm Brennan": "COLM", "COLM": "COLM", "waiter": "WAITER"},
+  "beats": [1, 6, 9, 12, 16, 18, 20, 21, 23],
+  "lines": {
+    "1": {"t": "D", "who": ["ALANA"], "emo": {}, "c": 0.95},
+    "2": {"t": "D", "who": ["COLM"], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["ALANA", "COLM"], "emo": {}, "c": 0.8},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "6": {"to": ["COLM"], "emo": ["neutral", 0.2], "c": 0.95},
+    "7": {"to": ["ALANA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "8": {"to": ["COLM"], "emo": ["anger", 0.2], "c": 0.95},
+    "9": {"to": ["ALANA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "10": {"to": ["COLM"], "emo": ["neutral", 0.2], "c": 0.95},
+    "11": {"to": ["ALANA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.85},
+    "13": {"t": "A", "who": ["WAITER"], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["ALANA", "COLM"], "emo": {}, "c": 0.85},
+    "15": {"t": "A", "who": ["ALANA"], "emo": {}, "c": 0.95},
+    "16": {"to": ["COLM"], "emo": ["neutral", 0.2], "c": 0.95},
+    "17": {"to": ["ALANA"], "emo": ["anger", 0.3], "c": 0.95},
+    "18": {"to": ["COLM"], "emo": ["anger", 0.3], "c": 0.95},
+    "19": {"to": ["ALANA"], "emo": ["sadness", 0.3], "c": 0.95},
+    "20": {"to": ["COLM"], "emo": ["anger", 0.4], "c": 0.95},
+    "21": {"to": ["ALANA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "22": {"to": ["COLM"], "emo": ["neutral", 0.2], "c": 0.95},
+    "23": {"t": "A", "who": ["ALANA"], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["COLM"], "emo": {}, "c": 0.95}
+  }
+}

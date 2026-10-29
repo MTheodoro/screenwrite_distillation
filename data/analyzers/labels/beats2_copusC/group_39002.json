@@ -1,0 +1,14 @@
+{
+"s05064_0": [
+{"start": 1, "type": "searches", "fine": "investigates", "actor": "NATE", "target": null, "mood": "suspense", "intensity": 2, "summary": "Nate starts filming at the abandoned vet clinic, narrating its lore"},
+{"start": 13, "type": "hides", "fine": "masks a feeling", "actor": "NATE", "target": null, "mood": "awkward", "intensity": 2, "summary": "Nate's joke about abandoned animals falls flat and he backpedals"},
+{"start": 16, "type": "deflects", "fine": "brushes off", "actor": "NATE", "target": "MO", "mood": "ominous", "intensity": 3, "summary": "Mo texts pleading him home; Nate brushes him off"},
+{"start": 24, "type": "observes", "fine": "takes it in", "actor": null, "target": "NATE", "mood": "ominous", "intensity": 3, "summary": "A pale dog-sized shape passes behind him in the reflection unnoticed"}
+],
+"s05058": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "ANIKA", "target": "ROY", "mood": "calm", "intensity": 1, "summary": "On a quiet dawn trawler, Anika calls it the quietest trip; Roy objects"},
+{"start": 16, "type": "attacks", "fine": "strikes", "actor": null, "target": "TEO", "mood": "chaotic", "intensity": 5, "summary": "A loose net slams into Teo and pins him to the deck"},
+{"start": 21, "type": "works", "fine": "works", "actor": "ANIKA", "target": "TEO", "mood": "tense", "intensity": 4, "summary": "Anika assesses Teo's paralysis and directs Roy to hold his head"},
+{"start": 35, "type": "comforts", "fine": "reassures", "actor": "ANIKA", "target": "TEO", "mood": "tense", "intensity": 4, "summary": "Anika promises Teo he'll be fine; Roy doubts; they roll him onto the board"}
+]
+}

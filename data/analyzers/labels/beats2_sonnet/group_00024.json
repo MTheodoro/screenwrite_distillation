@@ -1,0 +1,174 @@
+{
+"s01439": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"LIORA","target":null,"mood":"calm","intensity":1,"summary":"Bookbindery staff work quietly; Liora asks Mateus for paste and Severine corrects them."},
+{"start":14,"type":"bonds","fine":"shares a moment with","actor":"MATEUS","target":"LIORA","mood":"awkward","intensity":2,"summary":"Mateus passes Liora the paste; their fingers touch and both glance away."},
+{"start":17,"type":"jokes","fine":"banters with","actor":"LIORA","target":"MATEUS","mood":"playful","intensity":2,"summary":"Liora and Mateus bicker over Odell's help while Severine deadpans."},
+{"start":29,"type":"bonds","fine":"flirts with","actor":"MATEUS","target":"LIORA","mood":"tender","intensity":2,"summary":"Mateus quietly asks Liora to dinner; Severine overhears and dryly teases."}
+],
+"s01696": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"CHLOE","target":null,"mood":"playful","intensity":2,"summary":"Chloe carries her pie past rival Horace as the contest tent bustles."},
+{"start":7,"type":"mocks","fine":"needles","actor":"BIRDIE","target":"HORACE","mood":"playful","intensity":3,"summary":"Birdie calls Horace's pie dry, and he turns furious as Dolores urges calm."},
+{"start":17,"type":"attacks","fine":"strikes","actor":"HORACE","target":null,"mood":"playful","intensity":3,"summary":"Horace thrusts his tin forward and his filling splats on the floor; Birdie gloats."}
+],
+"s01533": [
+{"start":1,"type":"observes","fine":"waits","actor":"EMEKA","target":null,"mood":"melancholy","intensity":2,"summary":"Dr. Emeka sits alone on the windy rooftop with coffee until Ilse joins him."},
+{"start":16,"type":"bonds","fine":"shares a moment with","actor":"EMEKA","target":"ILSE","mood":"tender","intensity":2,"summary":"Emeka and Ilse quietly discuss tulips a husband brought to Mrs. Okoro."},
+{"start":26,"type":"deflects","fine":"stalls","actor":"EMEKA","target":"DESHAWN","mood":"tense","intensity":3,"summary":"Deshawn summons Emeka and his pager chirps, but he refuses to move."},
+{"start":39,"type":"confronts","fine":"presses","actor":"ILSE","target":"EMEKA","mood":"suspense","intensity":3,"summary":"Ilse presses Emeka about the scan until he admits it concerns Mrs. Okoro."},
+{"start":54,"type":"confesses","fine":"unburdens to","actor":"EMEKA","target":"ILSE","mood":"grief","intensity":4,"summary":"Emeka admits Mrs. Okoro asked about going home and he said only 'we would see'."},
+{"start":68,"type":"leaves","fine":"exits quietly","actor":"EMEKA","target":"ILSE","mood":"melancholy","intensity":3,"summary":"Emeka holds the door; they walk silently off the rooftop."}
+],
+"s00443": [
+{"start":1,"type":"observes","fine":"studies","actor":"HORTENSE","target":null,"mood":"tense","intensity":2,"summary":"Detective Hortense watches the nervous passengers at a stormy dinner table."},
+{"start":19,"type":"attacks","fine":"strikes","actor":null,"target":"PRUITT","mood":"chaotic","intensity":4,"summary":"Lights flicker in a tunnel, a scream sounds, and Pruitt is found stabbed."},
+{"start":29,"type":"decides","fine":"gives an order","actor":"HORTENSE","target":"TREVELYAN","mood":"tense","intensity":3,"summary":"Hortense orders everyone still, examines the body, and sits Trevelyan down."},
+{"start":37,"type":"discovers","fine":"finds a clue","actor":"HORTENSE","target":"GRETA","mood":"suspense","intensity":4,"summary":"Greta says the knife was hers; Hortense notes the locked train and a liar among them."}
+],
+"s01124": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"WILHELMINA","target":null,"mood":"calm","intensity":1,"summary":"Bingo night in a church basement; regulars and a diocese visitor are introduced."},
+{"start":11,"type":"confronts","fine":"presses","actor":"RUTENDO","target":"DOV","mood":"tense","intensity":3,"summary":"Rutendo demands the ledger from anxious Dov, who stalls until after the game."},
+{"start":31,"type":"confronts","fine":"demands answers from","actor":"WILHELMINA","target":"DOV","mood":"suspense","intensity":4,"summary":"Dov shouts, and Wilhelmina makes him look at her until he cracks."},
+{"start":37,"type":"confesses","fine":"breaks down to","actor":"DOV","target":"WILHELMINA","mood":"grief","intensity":4,"summary":"Dov admits the roof money is gone, eleven thousand spent on his wife's treatments."},
+{"start":53,"type":"accuses","fine":"condemns","actor":"ANSELM","target":"DOV","mood":"hostile","intensity":4,"summary":"Anselm angrily calls Dov a thief while Candace defends the weeping man."},
+{"start":63,"type":"decides","fine":"commits","actor":"WILHELMINA","target":null,"mood":"hopeful","intensity":4,"summary":"Wilhelmina gives the night's pot to Dov's wife; Anselm and Candace add money."},
+{"start":77,"type":"comforts","fine":"forgives","actor":"RUTENDO","target":"DOV","mood":"bittersweet","intensity":3,"summary":"Rutendo promises the ledger will be called in order; the game resumes and Dov sits."}
+],
+"s01535": [
+{"start":1,"type":"deflects","fine":"stalls","actor":"ANDREAS","target":"ANNELIESE","mood":"awkward","intensity":2,"summary":"Andreas stirs porridge and fusses over breakfast while Anneliese waits to leave."},
+{"start":22,"type":"defends","fine":"pushes back on","actor":"ANNELIESE","target":"ANDREAS","mood":"tense","intensity":3,"summary":"Anneliese insists on the bus and clashes with Andreas about the calves and Jonas."},
+{"start":37,"type":"leaves","fine":"leaves","actor":"ANNELIESE","target":"ANDREAS","mood":"tense","intensity":3,"summary":"Anneliese shoulders her bag and heads for the door, whispering to herself."},
+{"start":47,"type":"accuses","fine":"exposes","actor":"ANNELIESE","target":"ANDREAS","mood":"hostile","intensity":4,"summary":"Anneliese reveals she found ash from the mother's letters Andreas burned."},
+{"start":61,"type":"leaves","fine":"storms out","actor":"ANDREAS","target":"ANNELIESE","mood":"grief","intensity":4,"summary":"Andreas sees his wife's cardigan, orders her out, then tells her to go."},
+{"start":69,"type":"leaves","fine":"leaves","actor":"ANNELIESE","target":"ANDREAS","mood":"bittersweet","intensity":3,"summary":"Anneliese tells him to eat the porridge and leaves; he eats from her spoon."}
+],
+"s00896": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"CELESTE","target":null,"mood":"calm","intensity":1,"summary":"Four people pleat dumplings in a steamy kitchen; Nonna critiques the filling."},
+{"start":11,"type":"bonds","fine":"shares a moment with","actor":"RORY","target":"CELESTE","mood":"tender","intensity":2,"summary":"Celeste and Rory pause as their fingers brush the flour."},
+{"start":15,"type":"reveals","fine":"lets slip to","actor":"NONNA LUCIA","target":"RORY","mood":"awkward","intensity":3,"summary":"Nonna Lucia says Rory is the man from Celeste's unsent letters; Celeste drops a dumpling."},
+{"start":24,"type":"leaves","fine":"excuses themself","actor":"CELESTE","target":"RORY","mood":"awkward","intensity":3,"summary":"Celeste leaves through the swinging door; Nonna Lucia tells Rory to sit and pleat."}
+],
+"s00389": [
+{"start":1,"type":"works","fine":"prepares","actor":"ROSALIND","target":null,"mood":"calm","intensity":1,"summary":"Funeral home staff prepare sandwiches and coffee while Agnes sits under the table."},
+{"start":8,"type":"jokes","fine":"banters with","actor":"BART","target":"ROSALIND","mood":"awkward","intensity":2,"summary":"Bart, Rosalind, Ngozi and Hector bicker over triangles and decaf coffee."},
+{"start":28,"type":"comforts","fine":"tends to","actor":"NGOZI","target":"AGNES","mood":"tender","intensity":3,"summary":"Ngozi asks Agnes what she is coloring; Agnes says Grandpa and a hush falls."},
+{"start":44,"type":"bonds","fine":"shares a moment with","actor":"AGNES","target":"ROSALIND","mood":"bittersweet","intensity":3,"summary":"Agnes shows an orange drawing of Grandpa; Rosalind quietly completes forty sandwiches."}
+],
+"s00139": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"JUNE","target":null,"mood":"playful","intensity":2,"summary":"Four teens sit in driving simulators; June grips the wheel nervously."},
+{"start":9,"type":"jokes","fine":"pranks","actor":"MATEO","target":"JUNE","mood":"playful","intensity":2,"summary":"Mateo tips his chair to startle June, who brakes and swats him."},
+{"start":22,"type":"works","fine":"drives","actor":"JUNE","target":null,"mood":"joyful","intensity":3,"summary":"June reboots, drives smoothly, and shares a gummy worm with Greta."},
+{"start":29,"type":"jokes","fine":"plays with","actor":"MATEO","target":null,"mood":"joyful","intensity":3,"summary":"Mateo floors the simulator into a crash and everyone laughs."},
+{"start":39,"type":"arrives","fine":"shows up unannounced","actor":"INSTRUCTOR","target":null,"mood":"awkward","intensity":3,"summary":"The grim instructor enters; the others point at Mateo for killing a school bus."}
+],
+"s01565": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"tense","intensity":2,"summary":"Four people sit at a lone table in a rooftop greenhouse restaurant."},
+{"start":14,"type":"threatens","fine":"warns","actor":"LUCRETIA","target":"ARCHIE","mood":"ominous","intensity":3,"summary":"Lucretia tells Archie to move his knife away as Thad pushes for the papers."},
+{"start":29,"type":"accuses","fine":"condemns","actor":"LUCRETIA","target":"ARCHIE","mood":"hostile","intensity":4,"summary":"Lucretia says Archie's vices cost her husband forty million and silences the table."},
+{"start":42,"type":"threatens","fine":"menaces","actor":"ISADORA","target":"ARCHIE","mood":"ominous","intensity":4,"summary":"Isadora opens the window and takes her father's knife at Lucretia's bidding."},
+{"start":54,"type":"decides","fine":"gives an order","actor":"LUCRETIA","target":"ARCHIE","mood":"tense","intensity":3,"summary":"Lucretia demands the papers and Archie slides over an envelope."}
+],
+"s01911": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"GARRICK","target":null,"mood":"ominous","intensity":2,"summary":"Garrick leads Hedda and Tick onto a creaking bridge of bones."},
+{"start":15,"type":"flees","fine":"scrambles away","actor":"GARRICK","target":null,"mood":"chaotic","intensity":4,"summary":"Something rattles beneath; the bridge lurches and the trio scrambles across."},
+{"start":27,"type":"flees","fine":"escapes","actor":"GARRICK","target":null,"mood":"triumphant","intensity":3,"summary":"They race to solid ground and collapse laughing and gasping."}
+],
+"s02369": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"NOVA","target":"FELIX","mood":"calm","intensity":2,"summary":"Nova wheels a laundry cart into the counting room and counts towels."},
+{"start":12,"type":"interrogates","fine":"interrogates","actor":"FELIX","target":"NOVA","mood":"suspense","intensity":3,"summary":"Felix doubts her story about the lobby fountain and eyes the phone."},
+{"start":27,"type":"threatens","fine":"menaces","actor":"NOVA","target":"FELIX","mood":"fear","intensity":4,"summary":"Nova pulls out a black cylinder and stalks closer as the camera turns red."},
+{"start":37,"type":"leaves","fine":"exits quietly","actor":"NOVA","target":"FELIX","mood":"playful","intensity":3,"summary":"The cylinder is only a flashlight; Nova laughs and wheels out as the vault opens."}
+],
+"s00085": [
+{"start":1,"type":"searches","fine":"rummages","actor":"KALINDA","target":null,"mood":"suspense","intensity":3,"summary":"Kalinda pries open a hidden compartment and finds a velvet satchel."},
+{"start":15,"type":"observes","fine":"keeps watch","actor":"MOSES","target":null,"mood":"tense","intensity":3,"summary":"Headlights sweep the window; the crew freezes until the beam passes."},
+{"start":21,"type":"discovers","fine":"finds a clue","actor":"KALINDA","target":null,"mood":"playful","intensity":3,"summary":"The satchel is light, holding only a key and a note about the third horse."},
+{"start":35,"type":"discovers","fine":"uncovers","actor":"KALINDA","target":null,"mood":"triumphant","intensity":4,"summary":"Kalinda unlocks the third horse and gold coins pour out."},
+{"start":43,"type":"flees","fine":"scrambles away","actor":"KALINDA","target":null,"mood":"chaotic","intensity":4,"summary":"A siren sounds and the thieves scatter and hide as the doors burst open."}
+],
+"s00788": [
+{"start":1,"type":"works","fine":"prepares","actor":"JUNIOR","target":null,"mood":"suspense","intensity":2,"summary":"A crew waits in the cheese vault while Junior cracks the safe."},
+{"start":22,"type":"hides","fine":"covers up","actor":"MARGUERITE","target":null,"mood":"tense","intensity":2,"summary":"Marguerite wipes her fingerprint from a cheese rind and orders gloves."},
+{"start":34,"type":"confronts","fine":"faces off with","actor":"BERTRAND","target":"MARGUERITE","mood":"tense","intensity":4,"summary":"A man in a white apron with a cheese iron challenges the thieves."},
+{"start":52,"type":"pleads","fine":"appeals to","actor":"BERTRAND","target":"MARGUERITE","mood":"melancholy","intensity":3,"summary":"Bertrand reveals he guarded the wheel forty years; it holds his wife's memory."},
+{"start":62,"type":"persuades","fine":"negotiates with","actor":"MARGUERITE","target":"BERTRAND","mood":"playful","intensity":3,"summary":"Marguerite proposes splitting the wheel and he agrees with a handshake."},
+{"start":78,"type":"bonds","fine":"shares a moment with","actor":"DEL","target":"BERTRAND","mood":"joyful","intensity":2,"summary":"The safe opens revealing the dark wheel; they toast the wife with a thermos."}
+],
+"s00031": [
+{"start":1,"type":"works","fine":"works","actor":"JANITOR","target":null,"mood":"suspense","intensity":2,"summary":"A janitor mops near the vault door while a guard scrolls a tablet."},
+{"start":14,"type":"interrogates","fine":"interrogates","actor":"GUARD","target":"DWYER","mood":"tense","intensity":3,"summary":"The guard hears a tap and questions the janitor's name."},
+{"start":28,"type":"attacks","fine":"shoots at","actor":"DWYER","target":"GUARD","mood":"tense","intensity":4,"summary":"Dwyer tasers the guard and takes his keycard."},
+{"start":31,"type":"arrives","fine":"makes an entrance","actor":"STRANGER","target":"DWYER","mood":"suspense","intensity":3,"summary":"Aurelio steps from the shadows, banters with Dwyer, and opens the vault."}
+],
+"s01609": [
+{"start":1,"type":"observes","fine":"waits","actor":"AMOS","target":null,"mood":"calm","intensity":1,"summary":"Five ranch hands sit silently on the porch at dusk."},
+{"start":12,"type":"bonds","fine":"shares a moment with","actor":"HANK","target":"TOBIAS","mood":"tender","intensity":1,"summary":"Hank shares half an apple with Tobias; Cleo sniffs the air for rain."}
+],
+"s00500": [
+{"start":1,"type":"lies","fine":"feigns innocence to","actor":"CORNELIUS","target":"PHILIPPA","mood":"tense","intensity":2,"summary":"Cornelius sells a painting's impeccable provenance over tea; Philippa stays tense."},
+{"start":24,"type":"arrives","fine":"makes an entrance","actor":"ANSELM","target":"CORNELIUS","mood":"suspense","intensity":3,"summary":"As Cornelius starts to sign, Detective Anselm enters and says he's been listening."},
+{"start":32,"type":"reveals","fine":"unmasks","actor":"PHILIPPA","target":"CORNELIUS","mood":"tense","intensity":4,"summary":"Philippa reveals a wire, and Cornelius lunges, is restrained, and the painting is exposed."},
+{"start":39,"type":"discovers","fine":"recognizes","actor":"ANSELM","target":"CORNELIUS","mood":"playful","intensity":3,"summary":"The painting is shown to be a forgery."}
+],
+"s01373": [
+{"start":1,"type":"arrives","fine":"drifts in","actor":"NERISSA","target":null,"mood":"ominous","intensity":2,"summary":"A boat poles through a flooded cathedral carrying a covered birdcage."},
+{"start":7,"type":"jokes","fine":"banters with","actor":"NERISSA","target":"BARNABY","mood":"tense","intensity":2,"summary":"Nerissa and Barnaby bicker as the caged creature stirs and Odalys warns it's awake."},
+{"start":24,"type":"discovers","fine":"notices","actor":"ODALYS","target":null,"mood":"fear","intensity":4,"summary":"The water stirs near the pulpit and something enormous turns beneath the boat."},
+{"start":38,"type":"pleads","fine":"implores","actor":"BARNABY","target":"ODALYS","mood":"fear","intensity":4,"summary":"Barnaby begs Odalys to give up the bird; she refuses as the boat lifts."},
+{"start":49,"type":"defends","fine":"protects","actor":"ODALYS","target":null,"mood":"hopeful","intensity":4,"summary":"Odalys uncovers the cage and the wren's note stills the water."}
+],
+"s01933_1": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"NANA PHILOMENA","target":null,"mood":"playful","intensity":1,"summary":"Six relatives crowd an ice-fishing hut, bickering over a fish and muskrat."},
+{"start":17,"type":"discovers","fine":"notices","actor":"NANA PHILOMENA","target":null,"mood":"suspense","intensity":3,"summary":"A tug on Nana's line stills everyone and they urge her to pull."},
+{"start":25,"type":"works","fine":"repairs something","actor":"NANA PHILOMENA","target":null,"mood":"chaotic","intensity":3,"summary":"Nana hauls up a pike that lands in Beatriz's lap, causing chaos."},
+{"start":35,"type":"bonds","fine":"teams up with","actor":"UNCLE SIONE","target":"ARJUN","mood":"joyful","intensity":3,"summary":"Sione takes over from Arjun, frees the hook, and everyone cheers."}
+],
+"s02159": [
+{"start":1,"type":"decides","fine":"gives an order","actor":"GUNNAR","target":null,"mood":"tense","intensity":2,"summary":"Gunnar sets out rations while Paloma checks Reggie's cold hands."},
+{"start":24,"type":"observes","fine":"listens to","actor":"GUNNAR","target":null,"mood":"ominous","intensity":3,"summary":"Base warns by radio that the storm will last seventy-two hours."},
+{"start":32,"type":"bonds","fine":"teams up with","actor":"REGGIE","target":"GUNNAR","mood":"bittersweet","intensity":2,"summary":"Reggie asks about cards and Gunnar takes off his cap to deal."}
+],
+"s01512": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"OLIVIA","target":null,"mood":"calm","intensity":1,"summary":"Legal aid staff gather in a former dentist's suite with their client."},
+{"start":10,"type":"interrogates","fine":"questions witnesses","actor":"OLIVIA","target":"HAROLD","mood":"playful","intensity":2,"summary":"Olivia questions Harold about rent receipts, which he keeps as carbons in his freezer."},
+{"start":36,"type":"reveals","fine":"breaks news to","actor":"OLIVIA","target":"HAROLD","mood":"triumphant","intensity":3,"summary":"Olivia reveals the eviction notice names the wrong tenant, Harold's dead brother."}
+],
+"s01875": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"BASTIEN","target":"KES","mood":"melancholy","intensity":2,"summary":"Bastien cycles up to Kes lying on a car hood at the abandoned drive-in."},
+{"start":8,"type":"confronts","fine":"calls out","actor":"WILLOW","target":"KES","mood":"awkward","intensity":2,"summary":"Willow and Bastien call Kes out for lateness and a broken driving promise."},
+{"start":22,"type":"hides","fine":"masks a feeling","actor":"KES","target":"WILLOW","mood":"melancholy","intensity":3,"summary":"Willow asks if this is about Dad; Kes deflects, talking about movies on the screen."},
+{"start":30,"type":"bonds","fine":"teams up with","actor":"KES","target":"WILLOW","mood":"hopeful","intensity":2,"summary":"Kes sits up and lets Willow take the wheel."}
+],
+"s02447": [
+{"start":1,"type":"works","fine":"works","actor":"LUZ","target":"BERNARD","mood":"tense","intensity":3,"summary":"Luz slams combinations into Bernard's pads while he silently demands more."},
+{"start":22,"type":"challenges","fine":"challenges","actor":"BERNARD","target":"LUZ","mood":"tense","intensity":3,"summary":"Kofi climbs in, Bernard orders three rounds, and Luz and Kofi begin circling."}
+],
+"s00385": [
+{"start":1,"type":"works","fine":"works","actor":"NASRIN","target":null,"mood":"tense","intensity":3,"summary":"Nasrin holds a valve in the control cage while injured Joseph lies on the floor."},
+{"start":6,"type":"reveals","fine":"breaks news to","actor":"NASRIN","target":"NAKAMURA","mood":"suspense","intensity":3,"summary":"Nasrin reports to Orbital that the drill hit something that rang like a bell."},
+{"start":12,"type":"warns","fine":"warns","actor":"JOSEPH","target":"NASRIN","mood":"suspense","intensity":4,"summary":"Joseph grips her ankle and warns her not to pull the bit as pressure spikes."},
+{"start":21,"type":"discovers","fine":"discovers","actor":"NASRIN","target":null,"mood":"ominous","intensity":4,"summary":"Gauges drop to zero and a pale blue light rises through the grating."}
+],
+"s01507": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ARNOLD","target":null,"mood":"chaotic","intensity":3,"summary":"Four coworkers panic in an escape room as the clock counts down."},
+{"start":15,"type":"bonds","fine":"banters with","actor":"NORMAN","target":"ARNOLD","mood":"playful","intensity":2,"summary":"Coworkers bicker over lateness while Norman suggests the skull is the key."},
+{"start":22,"type":"discovers","fine":"finds a clue","actor":"NORMAN","target":null,"mood":"triumphant","intensity":3,"summary":"Norman finds a key taped inside the skull and opens the chest."},
+{"start":30,"type":"mocks","fine":"patronizes","actor":null,"target":null,"mood":"playful","intensity":2,"summary":"The chest card congratulates them and asks for lanyards back."}
+],
+"s01475_0": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"CAPTAIN","target":null,"mood":"tense","intensity":2,"summary":"Three exhausted soldiers wade through a flooded sugar mill."},
+{"start":13,"type":"comforts","fine":"steadies","actor":"SERGEANT","target":"MEDIC","mood":"tender","intensity":2,"summary":"The Medic stumbles; the Sergeant steadies him while the Captain waits."}
+],
+"s02221": [
+{"start":1,"type":"attacks","fine":"strikes","actor":"DOT","target":null,"mood":"chaotic","intensity":3,"summary":"Dot, Fitz and Gunny's slapstick sends the birthday cake down Lane 6."},
+{"start":7,"type":"deflects","fine":"brushes off","actor":"DOT","target":"FITZ","mood":"playful","intensity":3,"summary":"They panic over the ruined cake and Fitz grumbles about his shark costume."},
+{"start":15,"type":"decides","fine":"makes a plan","actor":"GUNNY","target":null,"mood":"playful","intensity":2,"summary":"Gunny retrieves the cake and vows to fix it despite having no spatula."},
+{"start":18,"type":"reveals","fine":"breaks news to","actor":"PRU","target":"DOT","mood":"joyful","intensity":2,"summary":"Pru announces Kevin is stuck on the phone with his mother, giving them time."}
+],
+"s00372_0": [
+{"start":1,"type":"observes","fine":"waits","actor":"JUNE","target":null,"mood":"melancholy","intensity":2,"summary":"June laces a skate after closing as Mr. Dubois urges everyone to leave."},
+{"start":11,"type":"confronts","fine":"calls out","actor":"RAFA","target":"JUNE","mood":"awkward","intensity":3,"summary":"Rafa, Priya and Calvin pressure June, saying their mother waits in the car."},
+{"start":19,"type":"bonds","fine":"shares a moment with","actor":"JUNE","target":"PRIYA","mood":"bittersweet","intensity":3,"summary":"Priya and Rafa both offer to go with June, who gives a small laugh."},
+{"start":28,"type":"leaves","fine":"leaves","actor":"JUNE","target":null,"mood":"bittersweet","intensity":4,"summary":"June skates one last lap under the disco ball."},
+{"start":35,"type":"leaves","fine":"exits quietly","actor":"JUNE","target":"CALVIN","mood":"tender","intensity":3,"summary":"June returns the skates and leaves with Priya's bag of chips."}
+]
+}

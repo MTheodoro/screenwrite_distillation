@@ -1,0 +1,33 @@
+{
+"s05131": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "ADRIAN", "target": null, "mood": "suspense", "intensity": 2, "summary": "Adrian waits by a pallet in the cold, empty warehouse"},
+{"start": 7, "type": "arrives", "fine": "arrives", "actor": "KESTREL", "target": "ADRIAN", "mood": "tense", "intensity": 3, "summary": "Kestrel arrives late and Adrian scolds them"},
+{"start": 12, "type": "confronts", "fine": "demands answers from", "actor": "KESTREL", "target": "ADRIAN", "mood": "tense", "intensity": 4, "summary": "Adrian asks for the package; Kestrel demands who sold their name"},
+{"start": 16, "type": "defends", "fine": "denies to", "actor": "ADRIAN", "target": "KESTREL", "mood": "tense", "intensity": 3, "summary": "Ignoring his phone, Adrian denies anyone sold them out"},
+{"start": 21, "type": "threatens", "fine": "issues an ultimatum to", "actor": "ADRIAN", "target": "KESTREL", "mood": "suspense", "intensity": 4, "summary": "Adrian steps forward begging for the package; Kestrel demands the name"},
+{"start": 27, "type": "reveals", "fine": "shows", "actor": "ADRIAN", "target": "KESTREL", "mood": "suspense", "intensity": 4, "summary": "Adrian opens his coat and a metal box clicks onto the floor"}
+],
+"s05118_0": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "AIDEN", "target": null, "mood": "suspense", "intensity": 2, "summary": "Aiden, Sasha and Marlon break into the dark vet clinic"},
+{"start": 11, "type": "observes", "fine": "hesitates", "actor": "MARLON", "target": null, "mood": "playful", "intensity": 3, "summary": "A squeaky toy wakes the beagle, which yawns and sleeps again"},
+{"start": 18, "type": "reveals", "fine": "reveals", "actor": "AIDEN", "target": "SASHA", "mood": "playful", "intensity": 2, "summary": "Aiden explains the safe holds Okafor's ring with a faked backstory"},
+{"start": 24, "type": "jokes", "fine": "banters with", "actor": "MARLON", "target": "SASHA", "mood": "playful", "intensity": 2, "summary": "Marlon calls it returning to the universe and Sasha mocks the plan"},
+{"start": 28, "type": "decides", "fine": "gives an order", "actor": "AIDEN", "target": null, "mood": "suspense", "intensity": 2, "summary": "Aiden hushes them and they slip into the office"}
+],
+"s05034": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "LORETTA", "target": null, "mood": "calm", "intensity": 2, "summary": "Four strangers wait out their laundry, trading idle remarks"},
+{"start": 6, "type": "discovers", "fine": "notices", "actor": "PRIYA", "target": "OSWALD", "mood": "suspense", "intensity": 2, "summary": "Priya notices a man lingering by the bins; Oswald shrugs it off"},
+{"start": 8, "type": "arrives", "fine": "makes an entrance", "actor": "THE TALL MAN", "target": null, "mood": "ominous", "intensity": 4, "summary": "A tall man in a slicker brings in a heavy, still bag"},
+{"start": 12, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "ominous", "intensity": 5, "summary": "The bag shifts and every washer stops at once"}
+],
+"s05150_3": [
+{"start": 1, "type": "reveals", "fine": "breaks news to", "actor": "PRIYA", "target": "NELL", "mood": "ominous", "intensity": 3, "summary": "Priya calmly tells Nell she found everything"},
+{"start": 6, "type": "decides", "fine": "refuses", "actor": "PRIYA", "target": "TOBY", "mood": "ominous", "intensity": 3, "summary": "Toby offers to fix the hall light and Priya says leave it"}
+],
+"s05030": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "TEO", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Teo works the sorting belt while a woman watches from the stairs"},
+{"start": 7, "type": "mocks", "fine": "belittles", "actor": "THE WOMAN", "target": "TEO", "mood": "tense", "intensity": 3, "summary": "The woman tells Teo the belt doesn't care, only whether he flinches"},
+{"start": 10, "type": "works", "fine": "works", "actor": "TEO", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Hands shaking, Teo keeps scanning parcels anyway"},
+{"start": 15, "type": "bonds", "fine": "trusts", "actor": "TEO", "target": "THE WOMAN", "mood": "bittersweet", "intensity": 2, "summary": "Teo asks her name; she says Marguerite and orders the next scan"}
+]
+}

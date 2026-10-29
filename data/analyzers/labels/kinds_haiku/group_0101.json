@@ -1,0 +1,17 @@
+{
+  "pt_enemy_10": {"68": "event"},
+  "pt_enemy_13": {"110": "setting", "111": "setting", "112": "setting", "113": "setting", "114": "setting", "115": "setting", "116": "setting", "117": "setting"},
+  "pt_enemy_14": {"23": "event"},
+  "pt_enemy_16": {"12": "event"},
+  "pt_enemy_21": {"92": "setting", "93": "setting", "94": "setting", "95": "setting", "96": "setting", "97": "setting", "98": "setting", "99": "setting", "100": "setting", "101": "extra"},
+  "pt_enemy_22": {"52": "setting"},
+  "pt_enemy_24": {"96": "setting"},
+  "pt_enemy_27": {"1": "setting", "2": "setting", "3": "setting", "4": "setting", "5": "setting", "6": "setting"},
+  "pt_enemy_6": {"72": "setting", "73": "setting", "74": "setting"},
+  "pt_enemy_8": {"98": "event"},
+  "pt_fan_0": {"20": "setting", "21": "setting", "47": "setting"},
+  "pt_fan_12": {"2": "setting", "5": "setting", "9": "event"},
+  "pt_fan_13": {"31": "event"},
+  "pt_fan_14": {"37": "setting", "38": "setting", "39": "setting", "40": "setting", "41": "setting", "42": "setting"},
+  "pt_fan_16": {"34": "event", "41": "setting"}
+}

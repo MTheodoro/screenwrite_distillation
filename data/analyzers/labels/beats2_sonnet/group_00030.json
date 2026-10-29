@@ -1,0 +1,134 @@
+{
+"s00922": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"HOLLIS","target":"MERCY","mood":"suspense","intensity":3,"summary":"Marshal Hollis enters the salt chapel and finds Mercy and a hiding boy."},
+{"start":12,"type":"confronts","fine":"interrogates","actor":"HOLLIS","target":"MERCY","mood":"tense","intensity":3,"summary":"Hollis presses Mercy about the boy, the stolen payroll and the dead father."},
+{"start":27,"type":"reveals","fine":"comes clean to","actor":"ELI","target":"HOLLIS","mood":"tense","intensity":4,"summary":"Eli testifies his father shot first and fell into the well, not pushed."},
+{"start":47,"type":"decides","fine":"changes course","actor":"HOLLIS","target":"MERCY","mood":"hopeful","intensity":3,"summary":"Hollis weighs a trial; Eli volunteers to testify despite Mercy's objection."},
+{"start":60,"type":"decides","fine":"accepts","actor":"MERCY","target":"HOLLIS","mood":"bittersweet","intensity":2,"summary":"Mercy yields the knife and offers her wrists; Hollis leads all three out."}
+],
+"s00408": [
+{"start":1,"type":"works","fine":"works","actor":"DANTE","target":"REMY","mood":"calm","intensity":1,"summary":"Dante scrapes a rooftop pipe while his brother Remy holds the sealant."},
+{"start":7,"type":"persuades","fine":"bargains with","actor":"REMY","target":"DANTE","mood":"playful","intensity":2,"summary":"Remy bickers and bargains to be allowed a turn scraping."},
+{"start":27,"type":"bonds","fine":"shares a moment with","actor":"DANTE","target":"REMY","mood":"joyful","intensity":2,"summary":"Dante hands over the knife and Remy exposes a shining stripe of pipe."},
+{"start":48,"type":"arrives","fine":"shows up unannounced","actor":"MRS. ALVAREZ","target":"DANTE","mood":"suspense","intensity":3,"summary":"Mrs. Alvarez climbs onto the roof; the brothers freeze, then she ignores them."},
+{"start":63,"type":"jokes","fine":"banters with","actor":"REMY","target":"DANTE","mood":"playful","intensity":2,"summary":"Dante drops the knife, they shove, spill sealant, and laugh."}
+],
+"s02210": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"MAEVE","target":null,"mood":"melancholy","intensity":2,"summary":"Five mourners linger in a side room after the funeral, silent."},
+{"start":11,"type":"comforts","fine":"steadies","actor":"AOIFE","target":"BRENDAN","mood":"tender","intensity":2,"summary":"Declan urges Maeve to sit; Aoife offers Brendan a stale biscuit."},
+{"start":24,"type":"confronts","fine":"questions witnesses","actor":"MAEVE","target":"KRANE","mood":"awkward","intensity":3,"summary":"Maeve asks the stranger Krane who he is and why he came."},
+{"start":33,"type":"comforts","fine":"embraces","actor":"MAEVE","target":"KRANE","mood":"tender","intensity":3,"summary":"Maeve insists Krane remove his coat and have tea; the family warms to him."},
+{"start":47,"type":"observes","fine":"waits","actor":"MAEVE","target":null,"mood":"melancholy","intensity":2,"summary":"The organ stops and the funeral ends; they stay in the quiet."}
+],
+"s01892": [
+{"start":1,"type":"works","fine":"prepares","actor":"VERA","target":"PETRA","mood":"tense","intensity":2,"summary":"Vera, Petra and Bolt descend in a freight elevator with a stolen clock."},
+{"start":19,"type":"hides","fine":"lies low","actor":"VERA","target":null,"mood":"suspense","intensity":4,"summary":"The elevator stalls; a guard's flashlight passes while they muffle the ticking clock."},
+{"start":39,"type":"flees","fine":"slips out","actor":"VERA","target":null,"mood":"tense","intensity":2,"summary":"Lights return and the doors open on the loading dock and van."}
+],
+"s02168": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"WOMAN","target":"ABRAHAM","mood":"calm","intensity":2,"summary":"A wary woman enters the pawn shop clutching a velvet pouch."},
+{"start":13,"type":"reveals","fine":"shows","actor":"WOMAN","target":"ABRAHAM","mood":"tense","intensity":2,"summary":"She sets down a gold locket; Joshua and the woman haggle over value."},
+{"start":27,"type":"discovers","fine":"recognizes","actor":"ABRAHAM","target":"JOSHUA","mood":"hopeful","intensity":3,"summary":"Abraham and Joshua recognize the locket and Rosalie explains her mother pawned it."},
+{"start":44,"type":"decides","fine":"commits","actor":"ABRAHAM","target":"JOSHUA","mood":"tender","intensity":3,"summary":"Abraham insists the locket is a promise; Joshua relents and returns it."}
+],
+"s01296": [
+{"start":1,"type":"confronts","fine":"corners","actor":"MORDECAI","target":"ONDINE","mood":"ominous","intensity":4,"summary":"Mordecai enters the beekeeper's shed, grabs Ondine's wrist as the hives hum her name."},
+{"start":12,"type":"threatens","fine":"warns","actor":"MORDECAI","target":"ONDINE","mood":"fear","intensity":4,"summary":"He says they want her back; she says they want what's in her."},
+{"start":15,"type":"hides","fine":"keeps a secret","actor":"ONDINE","target":null,"mood":"ominous","intensity":4,"summary":"He releases her, the humming stops, and a bee crawls from her veil."}
+],
+"s00254": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"ILSE","target":null,"mood":"calm","intensity":1,"summary":"Five crew eat soup in tired silence in the habitat mess hall."},
+{"start":14,"type":"jokes","fine":"banters with","actor":"DEWEY","target":"MBALI","mood":"awkward","intensity":2,"summary":"The crew trade flat small talk about the warming trench and pressure."},
+{"start":22,"type":"discovers","fine":"notices","actor":"MBALI","target":"ILSE","mood":"suspense","intensity":4,"summary":"Mbali sees a large pale shape past the porthole; instruments show a thermal bloom."},
+{"start":42,"type":"decides","fine":"gives an order","actor":"ILSE","target":"NEWCOMER","mood":"tense","intensity":2,"summary":"Ilse studies the newcomer's remark, then orders everyone to eat before shift."},
+{"start":49,"type":"bonds","fine":"is introduced","actor":"ARTHUR","target":"ILSE","mood":"tender","intensity":2,"summary":"The newcomer gives his name Arthur and the crew welcome him, smiling."}
+],
+"s00023": [
+{"start":1,"type":"hides","fine":"lies low","actor":"NADIA","target":null,"mood":"tense","intensity":3,"summary":"Wounded Saul, Nadia and courier Emeka are stuck in a cannery elevator."},
+{"start":13,"type":"observes","fine":"keeps watch","actor":"NADIA","target":"EMEKA","mood":"suspense","intensity":4,"summary":"Boots thump overhead then stop; Nadia silences Emeka."},
+{"start":18,"type":"hides","fine":"pockets evidence","actor":"SAUL","target":"EMEKA","mood":"ominous","intensity":3,"summary":"Saul takes Emeka's backpack as the elevator starts rising."}
+],
+"s00060": [
+{"start":1,"type":"mocks","fine":"needles","actor":"BARNABAS","target":"LEOPOLD","mood":"playful","intensity":2,"summary":"Two men trade barbs over chess on the night train while the conductor looks on."},
+{"start":15,"type":"reveals","fine":"presents evidence to","actor":"ISADORA","target":"LEOPOLD","mood":"suspense","intensity":4,"summary":"Isadora holds up a brass key both men reach for, revealing an empty trunk."}
+],
+"s01749": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"AUGUSTUS","target":null,"mood":"awkward","intensity":2,"summary":"Augustus walks the casket showroom and a salesman appears at his elbow."},
+{"start":8,"type":"jokes","fine":"banters with","actor":"SALESMAN","target":"AUGUSTUS","mood":"playful","intensity":2,"summary":"The salesman pitches a Starter casket while Augustus admits his wife is alive."},
+{"start":37,"type":"discovers","fine":"realizes","actor":"PERCIVAL","target":"AUGUSTUS","mood":"chaotic","intensity":4,"summary":"They realize the wife has waited forty minutes in a running car and sprint out."}
+],
+"s00540": [
+{"start":1,"type":"observes","fine":"waits","actor":"HAAKON","target":null,"mood":"melancholy","intensity":2,"summary":"Four survivors drift in a life raft on a flat dawn sea."},
+{"start":15,"type":"pleads","fine":"appeals to","actor":"LUCIANA","target":"HAAKON","mood":"tender","intensity":3,"summary":"Luciana insists on giving sleeping Pip more water, citing his mother's name."},
+{"start":32,"type":"discovers","fine":"pieces it together","actor":"HAAKON","target":"MBEKI","mood":"ominous","intensity":4,"summary":"Haakon and Mbeki recall a drumlike sound as fog parts on a giant iceberg."},
+{"start":50,"type":"decides","fine":"commits","actor":"HAAKON","target":null,"mood":"hopeful","intensity":3,"summary":"Pip wakes asking about breakfast; Haakon fires the flare into the sky."}
+],
+"s00472": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"SUNNIVA","target":"MERIEM","mood":"ominous","intensity":2,"summary":"Sunniva and Meriem enter the taxidermy hall to inventory the cases."},
+{"start":23,"type":"discovers","fine":"finds a clue","actor":"MERIEM","target":"SUNNIVA","mood":"suspense","intensity":4,"summary":"They find clean bare footprints crossing the dust and argue who made them."},
+{"start":36,"type":"searches","fine":"investigates","actor":"SUNNIVA","target":"MERIEM","mood":"fear","intensity":4,"summary":"They follow the prints to an open service door and a fresh wet footprint."},
+{"start":50,"type":"decides","fine":"makes a plan","actor":"SUNNIVA","target":"MERIEM","mood":"ominous","intensity":3,"summary":"Sunniva notes basement off inventory; Meriem photographs it and the print vanishes."},
+{"start":61,"type":"leaves","fine":"exits quietly","actor":"SUNNIVA","target":"MERIEM","mood":"ominous","intensity":4,"summary":"They shut the door and walk out unhurried as glass eyes turn."}
+],
+"s01300": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"LOMAX","target":null,"mood":"calm","intensity":1,"summary":"A makeshift silo courtroom is set out with judge, counsel, bailiff and foreman."},
+{"start":13,"type":"deflects","fine":"stalls","actor":"FOREMAN","target":"LOMAX","mood":"awkward","intensity":2,"summary":"The foreman hesitates over giving his verdict aloud; Nassar objects and is silenced."},
+{"start":34,"type":"reveals","fine":"breaks news to","actor":"FOREMAN","target":"NASSAR","mood":"tense","intensity":4,"summary":"The foreman finds for the farmers on count one, shocking Nassar."},
+{"start":42,"type":"confronts","fine":"challenges","actor":"NASSAR","target":"HIRAM","mood":"hostile","intensity":3,"summary":"Nassar demands a re-swearing and calls Hiram biased; Hiram says his land is poisoned."},
+{"start":63,"type":"decides","fine":"gives an order","actor":"LOMAX","target":"NASSAR","mood":"triumphant","intensity":3,"summary":"Lomax calms Nassar, takes verdict on count two, and adjourns the court."}
+],
+"s01322": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"IRINA","target":"BOONE","mood":"calm","intensity":2,"summary":"Irina laces up at a garage roller derby track as Coach Boone watches over her."}
+],
+"s02238": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"RUTH","target":null,"mood":"melancholy","intensity":2,"summary":"Four survivors sit silently in a lifeboat on a grey sea."},
+{"start":9,"type":"confronts","fine":"challenges","actor":"GUSTAVO","target":"RUTH","mood":"tense","intensity":3,"summary":"Ruth sets rations and Gustavo and Dwayne challenge her authority."},
+{"start":18,"type":"comforts","fine":"tends to","actor":"RUTH","target":"GUSTAVO","mood":"tender","intensity":2,"summary":"Ruth examines and has Gustavo dress his hand wound."},
+{"start":26,"type":"pleads","fine":"prays","actor":"DWAYNE","target":"RUTH","mood":"melancholy","intensity":3,"summary":"Dwayne doubts rescue is coming; Anneliese insists she dreamed it."},
+{"start":35,"type":"bonds","fine":"shares a moment with","actor":"GUSTAVO","target":"DWAYNE","mood":"bittersweet","intensity":3,"summary":"Ruth hands out crackers, and the four hum a song together."}
+],
+"s00621": [
+{"start":1,"type":"works","fine":"works","actor":"ELIAS","target":null,"mood":"tense","intensity":3,"summary":"Elias sends telegrams as flood water seeps into the lock house office."},
+{"start":11,"type":"decides","fine":"gives an order","actor":"ELIAS","target":"TOBIAS","mood":"tense","intensity":3,"summary":"Marlow gates are gone; Elias orders everyone to move their things up."},
+{"start":21,"type":"decides","fine":"commits","actor":"WINIFRED","target":"TOBIAS","mood":"ominous","intensity":4,"summary":"Winifred stops Tobias and goes herself to shut the sluice wheel."},
+{"start":36,"type":"observes","fine":"waits","actor":"ELIAS","target":null,"mood":"grief","intensity":3,"summary":"Elias keeps tapping steadily while the others wonder if she will return."}
+],
+"s02492": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"MARISKA","target":"EPHRAIM","mood":"playful","intensity":2,"summary":"Pottery students tease each other as Wilfred's vase struggles on the wheel."},
+{"start":17,"type":"jokes","fine":"amuses","actor":"MARISKA","target":"EPHRAIM","mood":"awkward","intensity":2,"summary":"The kiln buzzes; Mariska splatters Ephraim, and Wilfred asks to throw out his vase."}
+],
+"s02047": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"MAGGIE","target":"JOJO","mood":"grief","intensity":3,"summary":"Mourners wait wordlessly at the closed casket in the viewing room."},
+{"start":21,"type":"comforts","fine":"consoles","actor":"MAGGIE","target":"JOJO","mood":"tender","intensity":3,"summary":"Maggie sits and takes Jojo's hand when Jojo joins her."},
+{"start":28,"type":"observes","fine":"watches","actor":"BEATRIX","target":null,"mood":"ominous","intensity":3,"summary":"Beatrix stops knitting; the door swings open on its own and all four turn."}
+],
+"s01308": [
+{"start":1,"type":"observes","fine":"studies","actor":"ASHCROFT","target":"ADELAIDE","mood":"tense","intensity":2,"summary":"Master binder Ashcroft faces his rigid new apprentice Adelaide in the bindery."},
+{"start":12,"type":"confronts","fine":"presses","actor":"ASHCROFT","target":"ADELAIDE","mood":"tense","intensity":3,"summary":"Ashcroft shows her uneven stitching; she admits she hurried from fear."},
+{"start":41,"type":"decides","fine":"gives an order","actor":"ASHCROFT","target":"ADELAIDE","mood":"calm","intensity":3,"summary":"He orders her to unpick and resew the Bishop's Bible slowly."},
+{"start":61,"type":"bonds","fine":"thanks","actor":"ADELAIDE","target":"ASHCROFT","mood":"tender","intensity":2,"summary":"Adelaide glimpses his grim kindness and thanks him; he tells her to thread."}
+],
+"s01555": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"DONNELLY","target":"OSEI-BRANDT","mood":"playful","intensity":2,"summary":"Two lawyers trade dry barbs in the corridor over his early-morning motion."},
+{"start":14,"type":"reveals","fine":"breaks news to","actor":"DONNELLY","target":"OSEI-BRANDT","mood":"awkward","intensity":3,"summary":"Donnelly announces the case moved to a feared new judge, Kowalczyk."},
+{"start":37,"type":"pleads","fine":"appeals to","actor":"OSEI-BRANDT","target":"DONNELLY","mood":"bittersweet","intensity":2,"summary":"Harold says please and Donnelly grants a week's continuance."}
+],
+"s00840": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"GRANT","target":"WANJIRU","mood":"awkward","intensity":2,"summary":"Three coworkers start a mattress-showroom escape room with an hour on the clock."},
+{"start":13,"type":"searches","fine":"rummages","actor":"GRANT","target":null,"mood":"chaotic","intensity":3,"summary":"Grant tears open mattress boxes while Wanjiru and Francine watch."},
+{"start":27,"type":"discovers","fine":"finds a clue","actor":"WANJIRU","target":"GRANT","mood":"tense","intensity":3,"summary":"Wanjiru finds a key under pillow six; Grant lunges for it."},
+{"start":41,"type":"decides","fine":"changes course","actor":"GRANT","target":"FRANCINE","mood":"awkward","intensity":2,"summary":"Grant concedes control; Francine pockets the key and declares lunch."},
+{"start":56,"type":"bonds","fine":"shares a moment with","actor":"GRANT","target":"FRANCINE","mood":"joyful","intensity":3,"summary":"They eat curry and laugh as Grant lets his exhaustion go."}
+],
+"s01414": [
+{"start":1,"type":"observes","fine":"waits","actor":"ABNER","target":"ESPERANZA","mood":"tense","intensity":2,"summary":"Sheriff Abner and deputy Percy wait while a woman sifts ash at a burnt wagon."},
+{"start":16,"type":"reveals","fine":"shows","actor":"ESPERANZA","target":"ABNER","mood":"suspense","intensity":3,"summary":"Esperanza crosses over and hands Abner a deed to the whole valley."},
+{"start":35,"type":"arrives","fine":"shows up unannounced","actor":"SILAS","target":"ESPERANZA","mood":"hostile","intensity":4,"summary":"Silas rides in claiming Esperanza as property; she stands her ground."},
+{"start":51,"type":"leaves","fine":"is sent away","actor":"ABNER","target":"PERCY","mood":"ominous","intensity":3,"summary":"Abner sends Percy home and Silas rides off with a warning."}
+],
+"s01856": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"LANGLEY","target":"PRUDENCE","mood":"tense","intensity":3,"summary":"Langley questions Lady Whitmore about her whereabouts when the body was found."},
+{"start":20,"type":"discovers","fine":"uncovers","actor":"LANGLEY","target":"PRUDENCE","mood":"suspense","intensity":4,"summary":"A phone call reveals the gardener saw her carrying a spade at half past six."},
+{"start":31,"type":"confronts","fine":"calls out","actor":"LANGLEY","target":"PRUDENCE","mood":"ominous","intensity":4,"summary":"Langley weighs the statue and tells her they must begin again."}
+]
+}

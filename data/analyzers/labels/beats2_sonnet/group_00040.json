@@ -1,0 +1,148 @@
+{
+"s01808": [
+{"start":1,"type":"discovers","fine":"notices","actor":"ISOLDE","target":"NADIA","mood":"ominous","intensity":3,"summary":"Every leaf in the hydroponics ring turns toward the aft bulkhead; Isolde demands explanation."},
+{"start":17,"type":"searches","fine":"investigates","actor":"TOMASZ","target":"FEODOR","mood":"tense","intensity":3,"summary":"Sensors show no breach while Feodor's panel glows; officers debate what lies behind the bulkhead."},
+{"start":28,"type":"reveals","fine":"lets slip to","actor":"KAI","target":"ISOLDE","mood":"suspense","intensity":3,"summary":"Kai says the walls have been singing; Nadia shows the plants growing rapidly toward it."},
+{"start":39,"type":"discovers","fine":"uncovers","actor":"NADIA","target":null,"mood":"fear","intensity":4,"summary":"A seam of light spreads through the aft bulkhead and Nadia calls it alive."},
+{"start":48,"type":"comforts","fine":"calms","actor":"ISOLDE","target":"KAI","mood":"tender","intensity":3,"summary":"Kai hears the echo say hello and lonely; a tendril gently touches him."},
+{"start":60,"type":"decides","fine":"gives an order","actor":"ISOLDE","target":"NADIA","mood":"hopeful","intensity":3,"summary":"Isolde orders the corridor sealed and tasks Nadia to learn what it wants."}
+],
+"s01764": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"IDRIS","target":null,"mood":"calm","intensity":1,"summary":"A crew descends a space elevator tether, trading dry banter."},
+{"start":21,"type":"confronts","fine":"challenges","actor":"NOOR","target":"IDRIS","mood":"tense","intensity":3,"summary":"Sven wants to tell the cable story; Idris refuses and Noor sides with Sven."},
+{"start":49,"type":"reveals","fine":"drops a bombshell on","actor":"SVEN","target":"NOOR","mood":"fear","intensity":4,"summary":"Sven reveals the stars are fixed because the descent dial is a looped recording."},
+{"start":64,"type":"confesses","fine":"comes clean to","actor":"IDRIS","target":"FUMIKO","mood":"ominous","intensity":4,"summary":"Idris admits a tether fault and that he hid it to prevent panic."},
+{"start":76,"type":"comforts","fine":"steadies","actor":"SVEN","target":"FUMIKO","mood":"bittersweet","intensity":3,"summary":"As the cable sings, Idris lets Sven tell his story and he offers Fumiko tea."}
+],
+"s02218": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"CORA","target":"LILY","mood":"tense","intensity":2,"summary":"Attorney Cora presses client Lily on her whereabouts and Brenda's contradicting account."},
+{"start":21,"type":"accuses","fine":"blames","actor":"LILY","target":"BRENDA","mood":"tense","intensity":3,"summary":"Lily claims she only moved the four million back after Brenda took it first."},
+{"start":32,"type":"deflects","fine":"stonewalls","actor":"LILY","target":"CORA","mood":"awkward","intensity":2,"summary":"Lily asks if Cora thinks her guilty; Cora calls her merely interesting."},
+{"start":47,"type":"reveals","fine":"lets slip to","actor":"LILY","target":"CORA","mood":"suspense","intensity":3,"summary":"As Cora leaves, Lily says she holds logs proving the time in her head."}
+],
+"s01745": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"ABEL","target":null,"mood":"tense","intensity":3,"summary":"Abel locks himself into the linen basement, recording and checking every corner with his gun."},
+{"start":15,"type":"discovers","fine":"finds a clue","actor":"ABEL","target":null,"mood":"suspense","intensity":3,"summary":"He finds an envelope with a note from the dead night clerk."},
+{"start":30,"type":"discovers","fine":"uncovers","actor":"ABEL","target":null,"mood":"ominous","intensity":3,"summary":"Behind towels he finds a hidden steel door and shoots out the lock."},
+{"start":40,"type":"decides","fine":"commits","actor":"ABEL","target":null,"mood":"ominous","intensity":4,"summary":"Abel descends the dark stairwell to a sub-basement church while an organ plays."}
+],
+"s00297": [
+{"start":1,"type":"hides","fine":"lies low","actor":"DEL","target":"TOBY","mood":"fear","intensity":4,"summary":"Del and Toby barricade the freezer door against thudding from outside."},
+{"start":32,"type":"discovers","fine":"notices","actor":"DEL","target":null,"mood":"ominous","intensity":4,"summary":"The bulb dies and a wet scraping approaches in the dark; a gentle voice calls Del."},
+{"start":43,"type":"threatens","fine":"menaces","actor":"SABINE","target":"DEL","mood":"fear","intensity":5,"summary":"Drowned Sabine floats in, freezing the room; Toby's swing passes through her."},
+{"start":62,"type":"arrives","fine":"bursts in","actor":"TOBY","target":null,"mood":"bittersweet","intensity":3,"summary":"The door bursts open to morning crew; Sabine vanishes and the ice melts."}
+],
+"s02263": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"COLETTE","target":"SHANICE","mood":"awkward","intensity":1,"summary":"Colette calls a team meeting and overhears Shanice grumbling."},
+{"start":13,"type":"reveals","fine":"breaks news to","actor":"COLETTE","target":"SHANICE","mood":"hostile","intensity":3,"summary":"Colette and Barry tell Shanice her position is eliminated today."},
+{"start":24,"type":"confronts","fine":"calls out","actor":"SHANICE","target":"COLETTE","mood":"awkward","intensity":3,"summary":"Shanice announces her firing to the floor and everyone ducks out of sight."}
+],
+"s01440": [
+{"start":1,"type":"comforts","fine":"reassures","actor":"IMOGEN","target":"HARLAN","mood":"calm","intensity":2,"summary":"Dr. Imogen and nurse Felix ease Harlan with banter before his procedure."},
+{"start":21,"type":"works","fine":"works","actor":"IMOGEN","target":null,"mood":"tense","intensity":3,"summary":"Imogen finds a blockage and places a stent as Nadia knits anxiously."},
+{"start":40,"type":"discovers","fine":"notices","actor":"FELIX","target":"IMOGEN","mood":"fear","intensity":4,"summary":"Monitors spike and Harlan's pressure drops; they rush to defibrillate."},
+{"start":54,"type":"comforts","fine":"steadies","actor":"IMOGEN","target":"FELIX","mood":"hopeful","intensity":3,"summary":"His heartbeat returns; Imogen admits she is calm when terrified."},
+{"start":65,"type":"bonds","fine":"shares a moment with","actor":"IMOGEN","target":"NADIA","mood":"tender","intensity":3,"summary":"Imogen nods to Nadia at the window, who resumes knitting; Harlan murmurs Ohio."}
+],
+"s00904": [
+{"start":1,"type":"confronts","fine":"presses","actor":"ESTHER","target":"LODGER","mood":"tense","intensity":2,"summary":"Widow Esther presses her pale lodger for his name; he gives it as Calloway."},
+{"start":26,"type":"leaves","fine":"exits quietly","actor":"ESTHER","target":"CALLOWAY","mood":"ominous","intensity":3,"summary":"Esther closes the wardrobe and leaves; Calloway reopens it."}
+],
+"s02234": [
+{"start":1,"type":"observes","fine":"waits","actor":"TEAGUE","target":null,"mood":"suspense","intensity":3,"summary":"Teague and townsfolk crouch on a saloon roof as a gang rides in."},
+{"start":18,"type":"attacks","fine":"shoots at","actor":"TEAGUE","target":null,"mood":"chaotic","intensity":4,"summary":"Guns crack while Hollis toasts the sky and drinks."}
+],
+"s02151": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"TAMSIN","target":"ODALYS KANE","mood":"ominous","intensity":3,"summary":"Agent Tamsin crosses an abandoned carousel as Odalys guides her by phone."},
+{"start":17,"type":"discovers","fine":"notices","actor":"TAMSIN","target":null,"mood":"fear","intensity":4,"summary":"The carousel spins up and Tamsin sees a bound girl, Mara."},
+{"start":36,"type":"decides","fine":"commits","actor":"TAMSIN","target":"ODALYS KANE","mood":"suspense","intensity":5,"summary":"Tamsin counts fifteen horses, one breathing, and raises her pistol at it."}
+],
+"s00671": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"TIO BETO","target":"KIKI","mood":"joyful","intensity":2,"summary":"Family gathers for Kiki's birthday photo at the roller rink."},
+{"start":13,"type":"confronts","fine":"calls out","actor":"DANTE","target":"PAULO","mood":"tense","intensity":3,"summary":"Kiki asks about Mom; Dante's mutter sparks conflict until Odalys slaps the table."},
+{"start":30,"type":"comforts","fine":"reassures","actor":"DANTE","target":"KIKI","mood":"hopeful","intensity":3,"summary":"Dante says he texted Mom; her reply shows she is parking."},
+{"start":37,"type":"bonds","fine":"teams up with","actor":"ODALYS","target":null,"mood":"joyful","intensity":3,"summary":"Kiki runs to the door and Odalys lights candles for the song."}
+],
+"s00068": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MAGDALENA","target":"DESMOND","mood":"melancholy","intensity":2,"summary":"Four survivors on a raft ration a thimble of rainwater."},
+{"start":15,"type":"attacks","fine":"wrestles","actor":"TIBBY","target":null,"mood":"chaotic","intensity":4,"summary":"Tibby hooks a fish and everyone tangles hauling it into the raft."},
+{"start":24,"type":"bonds","fine":"shares a moment with","actor":"MAGDALENA","target":"TIBBY","mood":"hopeful","intensity":3,"summary":"They whisper dinner and Rosalind smiles for the first time."}
+],
+"s01623": [
+{"start":1,"type":"arrives","fine":"bursts in","actor":"WALTER","target":"GLORIA","mood":"playful","intensity":3,"summary":"Walter bursts in warning of the fire inspector while Gloria keeps hammering."},
+{"start":15,"type":"works","fine":"cleans","actor":"WALTER","target":"GLORIA","mood":"chaotic","intensity":3,"summary":"Walter douses the smoking badger Gloria gave a cigar, ruining her best piece."},
+{"start":26,"type":"jokes","fine":"pranks","actor":"GLORIA","target":"WALTER","mood":"playful","intensity":3,"summary":"Gloria puts the owl on Walter and sends him to face the inspector."},
+{"start":33,"type":"arrives","fine":"shows up unannounced","actor":"WALTER","target":"GLORIA","mood":"suspense","intensity":2,"summary":"The door chimes; they primp and the inspector enters."}
+],
+"s01643": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"CORNELIUS","target":"PHILOMENA","mood":"tense","intensity":2,"summary":"Attorney Philomena begins a deposition with reluctant foreman Cornelius."},
+{"start":18,"type":"confronts","fine":"interrogates","actor":"PHILOMENA","target":"CORNELIUS","mood":"tense","intensity":3,"summary":"Under questioning, Cornelius admits the railing was broken and reported four times."},
+{"start":44,"type":"pleads","fine":"appeals to","actor":"PHILOMENA","target":"CORNELIUS","mood":"tense","intensity":3,"summary":"Cornelius fears losing his pension; Philomena says the widow is next door."},
+{"start":61,"type":"decides","fine":"commits","actor":"CORNELIUS","target":"PHILOMENA","mood":"hopeful","intensity":4,"summary":"After pacing and slamming the table, Cornelius asks to restart the recording and testifies."}
+],
+"s01188": [
+{"start":1,"type":"works","fine":"prepares","actor":"HILDA","target":"JAMAL","mood":"calm","intensity":1,"summary":"At dawn camp Hilda cooks, Solveig reads the map and Jamal reports weather."},
+{"start":9,"type":"discovers","fine":"realizes","actor":"HILDA","target":"JAMAL","mood":"ominous","intensity":3,"summary":"A slip about 'she' and a third rope makes Hilda and Solveig realize something is wrong."},
+{"start":28,"type":"reveals","fine":"breaks news to","actor":"HILDA","target":"JAMAL","mood":"fear","intensity":4,"summary":"Hilda tells Jamal there was no third climber; a woman's voice calls from the ice."}
+],
+"s02420": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"INES","target":"DOV","mood":"tense","intensity":2,"summary":"Coach Ines watches Dov roll short balls on the rooftop bocce court."},
+{"start":23,"type":"comforts","fine":"tends to","actor":"INES","target":"DOV","mood":"tender","intensity":2,"summary":"Ines gently takes Dov's ball and tells him to eat, noticing no one has come for him."},
+{"start":30,"type":"works","fine":"goes through routine","actor":"KALANI","target":"DOV","mood":"playful","intensity":2,"summary":"Kalani rolls a perfect shot; Dov mutters lucky and Ines calls the last end."},
+{"start":40,"type":"reveals","fine":"breaks news to","actor":"INES","target":"DOV","mood":"bittersweet","intensity":3,"summary":"Ines says Dov's father called the club line and she told him they are closed."},
+{"start":48,"type":"bonds","fine":"trusts","actor":"KALANI","target":"DOV","mood":"bittersweet","intensity":3,"summary":"Dov rolls close to the pallino and Kalani quietly hands him the shoelace."}
+],
+"s00930": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"DOLORES","target":"SAMANTHA","mood":"calm","intensity":1,"summary":"Staff hide in the hospital laundry between shifts, trading small talk and tea."},
+{"start":19,"type":"pleads","fine":"asks for help from","actor":"KESTUTIS","target":"SAMANTHA","mood":"melancholy","intensity":3,"summary":"Young orderly Kestutis asks Dr. Voss whether the work gets easier."},
+{"start":30,"type":"comforts","fine":"consoles","actor":"DOLORES","target":"KESTUTIS","mood":"bittersweet","intensity":2,"summary":"They let a home-run broadcast fill the silence after her honest answer."}
+],
+"s00261": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"OSWALD","target":null,"mood":"calm","intensity":2,"summary":"Four travellers converge at a shrine, comparing their black feather summons."},
+{"start":22,"type":"observes","fine":"listens to","actor":"ARTY","target":null,"mood":"suspense","intensity":2,"summary":"A cold wind rises and Arty hears someone approaching."},
+{"start":29,"type":"persuades","fine":"recruits","actor":"GIRL","target":"OSWALD","mood":"ominous","intensity":3,"summary":"A girl says she summoned them and offers a bowl of dark water as a promise."},
+{"start":49,"type":"threatens","fine":"looms over","actor":"GIRL","target":"MALACHAI","mood":"fear","intensity":4,"summary":"Something huge exhales in the mist and the girl says that is what they are for."},
+{"start":57,"type":"decides","fine":"commits","actor":"OSWALD","target":null,"mood":"triumphant","intensity":4,"summary":"The four drink one by one and light blooms from the cairn."},
+{"start":69,"type":"leaves","fine":"exits quietly","actor":"GIRL","target":null,"mood":"ominous","intensity":2,"summary":"The unnamed girl thanks them and walks into the pines as they ready weapons."}
+],
+"s00274": [
+{"start":1,"type":"observes","fine":"waits","actor":"HELGA","target":null,"mood":"tense","intensity":3,"summary":"A family and a drenched stranger silently listen as the Coast Guard radios the lighthouse."},
+{"start":21,"type":"confronts","fine":"stares down","actor":"HELGA","target":"ARNE","mood":"hostile","intensity":3,"summary":"Arne rises to answer; Maren stops him and Helga commands him to sit."},
+{"start":33,"type":"confronts","fine":"challenges","actor":"BASIL","target":"HELGA","mood":"hostile","intensity":4,"summary":"Basil grabs the microphone to answer and Helga blocks him."},
+{"start":59,"type":"accuses","fine":"exposes","actor":"BASIL","target":"ARNE","mood":"grief","intensity":5,"summary":"Basil sees Arne's rope burn, realizes he cut the line, and Arne shouts his reasons."},
+{"start":71,"type":"decides","fine":"decides","actor":"HELGA","target":"BASIL","mood":"grief","intensity":4,"summary":"Helga reports the lighthouse secure; Basil reveals only one survivor."},
+{"start":86,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"melancholy","intensity":3,"summary":"Silent family wounds remain while the lamp keeps turning."}
+],
+"s02503": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"FIGURE","target":"OSKAR","mood":"ominous","intensity":3,"summary":"A pale woman appears in the greenhouse dome, claiming she did not come by ship."},
+{"start":21,"type":"reveals","fine":"exposes a secret to","actor":"FIGURE","target":"OSKAR","mood":"fear","intensity":4,"summary":"She shows knowledge of Oskar's dead wife and the buried letter; he names Nerissa."},
+{"start":44,"type":"attacks","fine":"grabs","actor":"NERISSA","target":"OSKAR","mood":"fear","intensity":4,"summary":"Oskar lunges for the alarm and Nerissa pins him, saying she is the greenhouse."},
+{"start":57,"type":"reveals","fine":"breaks news to","actor":"NERISSA","target":"OSKAR","mood":"ominous","intensity":4,"summary":"Nerissa says the air is breathable, the models were hers, and she is leaving."},
+{"start":69,"type":"leaves","fine":"leaves","actor":"NERISSA","target":"OSKAR","mood":"bittersweet","intensity":4,"summary":"She walks into the red desert as Oskar begs and the seedlings turn after her."}
+],
+"s01762": [
+{"start":1,"type":"searches","fine":"investigates","actor":"VIOLET","target":null,"mood":"suspense","intensity":2,"summary":"Violet explores the abandoned ice cream factory, reading a clipboard and checking an empty vat."},
+{"start":23,"type":"discovers","fine":"finds a clue","actor":"VIOLET","target":null,"mood":"ominous","intensity":3,"summary":"She finds a frozen wristwatch under the ice and a freezer door ajar."},
+{"start":38,"type":"discovers","fine":"realizes","actor":"VIOLET","target":null,"mood":"fear","intensity":4,"summary":"Her recorder plays a sentence she never said, warning she stands before door nine."},
+{"start":50,"type":"flees","fine":"retreats","actor":"VIOLET","target":null,"mood":"ominous","intensity":4,"summary":"Door nine closes; Violet walks steadily out as freezer latches click open behind her."},
+{"start":56,"type":"decides","fine":"resigns","actor":"VIOLET","target":null,"mood":"bittersweet","intensity":3,"summary":"Violet leaves her recorder running in the aisle in case anyone wants to know."}
+],
+"s02493": [
+{"start":1,"type":"observes","fine":"scans the room","actor":"HARLAN","target":"GREER","mood":"suspense","intensity":2,"summary":"Market workers go about the early morning while an undercover cop watches."},
+{"start":10,"type":"discovers","fine":"notices","actor":"HARLAN","target":"GREER","mood":"tense","intensity":3,"summary":"Harlan sees the wire; Kendra spots Greer's badge."},
+{"start":14,"type":"attacks","fine":"shoves","actor":"TOBY","target":"GREER","mood":"chaotic","intensity":4,"summary":"Toby shoves the cart into Greer; roses fly and the bell rings."},
+{"start":19,"type":"threatens","fine":"holds at gunpoint","actor":"GREER","target":"KENDRA","mood":"suspense","intensity":4,"summary":"Greer draws and points at Kendra, freezing everyone."}
+],
+"s01708": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"GINO","target":"ELLIS","mood":"tense","intensity":2,"summary":"Gino and Trevor receive a late stranger who gives his name as Ellis."},
+{"start":19,"type":"threatens","fine":"issues an ultimatum to","actor":"GINO","target":"ELLIS","mood":"tense","intensity":3,"summary":"Gino reminds Ellis he owes and tells him to pay."},
+{"start":24,"type":"reveals","fine":"shows","actor":"ELLIS","target":"GINO","mood":"suspense","intensity":3,"summary":"Ellis reaches into his coat and lays down a thick envelope; Gino counts it."}
+],
+"s01166": [
+{"start":1,"type":"pleads","fine":"begs","actor":"CALEB","target":"WOMAN","mood":"tense","intensity":3,"summary":"Frozen Caleb follows a wary woman across the lake, begging for help."},
+{"start":24,"type":"bonds","fine":"trusts","actor":"WOMAN","target":"CALEB","mood":"tender","intensity":2,"summary":"She tosses him a flask of schnapps and he gives his name."},
+{"start":41,"type":"threatens","fine":"warns","actor":"WOMAN","target":"CALEB","mood":"fear","intensity":4,"summary":"The ice cracks; she orders Caleb flat and he asks her name; she says Ines."},
+{"start":62,"type":"flees","fine":"escapes","actor":"INES","target":"CALEB","mood":"triumphant","intensity":4,"summary":"They crawl to shore as the ice sheet splits and sinks behind them."},
+{"start":72,"type":"bonds","fine":"shares a moment with","actor":"INES","target":"CALEB","mood":"bittersweet","intensity":2,"summary":"They silently pass the flask and listen to the lake fall quiet."}
+]
+}

@@ -1,0 +1,21 @@
+{"scene_id":"s05068_0","cast":{"DEB":"DEB","Deb":"DEB","THE MAN":"THE MAN","A man":"THE MAN","Officer Okafor":"OKAFOR"},"beats":[1,4,6,10,13,14,15,16,17,19],"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":0.95},
+"2":{"t":"S","who":[],"emo":{},"c":0.95},
+"3":{"t":"S","who":[],"emo":{},"c":0.95},
+"4":{"t":"D","who":["DEB"],"emo":{},"c":0.95},
+"5":{"t":"A","who":["DEB"],"emo":{},"c":0.9},
+"6":{"t":"A","who":["THE MAN"],"emo":{},"c":0.95},
+"7":{"t":"D","who":["THE MAN"],"emo":{},"c":0.95},
+"8":{"t":"D","who":["THE MAN"],"emo":{"THE MAN":["fear",0.4]},"c":0.95},
+"9":{"t":"A","who":["THE MAN"],"emo":{},"c":0.95},
+"10":{"to":["THE MAN"],"emo":["neutral",0.1],"c":0.95},
+"11":{"to":["DEB"],"emo":["fear",0.2],"c":0.95},
+"12":{"to":["THE MAN"],"emo":["neutral",0.2],"c":0.95},
+"13":{"t":"A","who":["THE MAN"],"emo":{},"c":0.95},
+"14":{"t":"A","who":["DEB"],"emo":{},"c":0.95},
+"15":{"to":["DEB"],"emo":["fear",0.3],"c":0.95},
+"16":{"to":["THE MAN"],"emo":["neutral",0.2],"c":0.95},
+"17":{"t":"A","who":["THE MAN"],"emo":{},"c":0.95},
+"18":{"t":"A","who":["THE MAN"],"emo":{},"c":0.95},
+"19":{"t":"S","who":[],"emo":{},"c":0.95}
+}}

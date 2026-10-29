@@ -1,0 +1,144 @@
+{
+"s00886": [
+{"start":1,"type":"works","fine":"prepares","actor":"JEDEDIAH","target":"COLTON","mood":"calm","intensity":2,"summary":"Barber Jedediah lathers gunman Colton in a cliffside shop while a widow sews."},
+{"start":27,"type":"threatens","fine":"menaces","actor":"JEDEDIAH","target":"COLTON","mood":"suspense","intensity":4,"summary":"Jedediah draws the razor along Colton's jaw and reveals he knows he killed his son."},
+{"start":41,"type":"threatens","fine":"issues an ultimatum to","actor":"JEDEDIAH","target":"COLTON","mood":"ominous","intensity":4,"summary":"After a long moment he lifts the razor, saying the sheriff is on his way."}
+],
+"s02483": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"ROSALBA","target":"CARMELINA","mood":"awkward","intensity":2,"summary":"Rosalba fits a wedding dress on daughter Carmelina and scolds her."},
+{"start":12,"type":"reveals","fine":"comes clean to","actor":"ISOTTA","target":"ROSALBA","mood":"tense","intensity":3,"summary":"Isotta insists she is not marrying; Rosalba admits she sewed the dress anyway."},
+{"start":27,"type":"observes","fine":"takes it in","actor":"ROSALBA","target":null,"mood":"melancholy","intensity":2,"summary":"Carmelina tears the hem, and Rosalba silently studies it in the window light."}
+],
+"s02313": [
+{"start":1,"type":"observes","fine":"waits","actor":"BRODIE","target":"DUBOIS","mood":"tense","intensity":3,"summary":"Brodie and Dubois play chess in the trench as shells fall."},
+{"start":16,"type":"reveals","fine":"shows","actor":"DUBOIS","target":"BRODIE","mood":"melancholy","intensity":3,"summary":"Brodie takes Dubois's bishop; Dubois sets a photograph of his sister on the board."},
+{"start":22,"type":"comforts","fine":"consoles","actor":"BRODIE","target":"DUBOIS","mood":"bittersweet","intensity":3,"summary":"Brodie tips over his king and lays it beside the photograph."}
+],
+"s00851": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"YOLANDA","target":null,"mood":"tense","intensity":2,"summary":"A pastry chef, planner, bellhop, and grandmother are stuck in an elevator with a wedding cake."},
+{"start":12,"type":"jokes","fine":"amuses","actor":"FIONNUALA","target":"YOLANDA","mood":"playful","intensity":3,"summary":"The elevator shudders; Bart and Yolanda collide while Fionnuala keeps knitting."},
+{"start":22,"type":"searches","fine":"looks for","actor":"CHEN","target":null,"mood":"tense","intensity":3,"summary":"Chen's radio fails and the emergency phone is out of order."},
+{"start":34,"type":"bonds","fine":"teams up with","actor":"BART","target":"CHEN","mood":"chaotic","intensity":4,"summary":"The car drops and the trio dive to save the cake in a heap."}
+],
+"s01464": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"TAMSIN","target":"UDO","mood":"ominous","intensity":3,"summary":"Tamsin and Udo wade through a drowned dragon cathedral toward the Ember."},
+{"start":25,"type":"confronts","fine":"stares down","actor":"WARDEN","target":"TAMSIN","mood":"suspense","intensity":4,"summary":"The Warden's voice asks what they will offer, and Tamsin draws her sword."},
+{"start":36,"type":"persuades","fine":"negotiates with","actor":"TAMSIN","target":"WARDEN","mood":"tense","intensity":4,"summary":"Tamsin offers her true name in trade for the Ember despite Udo's protest."},
+{"start":49,"type":"discovers","fine":"catches","actor":"TAMSIN","target":null,"mood":"triumphant","intensity":4,"summary":"Tamsin whispers her name and the Ember settles unburning in her palm."},
+{"start":57,"type":"flees","fine":"runs","actor":"TAMSIN","target":"UDO","mood":"chaotic","intensity":5,"summary":"The Warden laughs, the water rises, and they run as the nave collapses."},
+{"start":68,"type":"hides","fine":"keeps a secret","actor":"TAMSIN","target":null,"mood":"melancholy","intensity":3,"summary":"The doors slam behind them and Tamsin, in the dark, asks what her name was."}
+],
+"s01523": [
+{"start":1,"type":"confronts","fine":"presses","actor":"LUDDY","target":"CAZ","mood":"tense","intensity":3,"summary":"Luddy arrives at the drained pool and probes sweating Caz about missing Tomas."},
+{"start":26,"type":"accuses","fine":"suspects","actor":"LUDDY","target":"CAZ","mood":"ominous","intensity":4,"summary":"A shadow crosses the skylight and Luddy senses Caz betrayed her."},
+{"start":36,"type":"arrives","fine":"makes an entrance","actor":"TOMAS","target":"CAZ","mood":"fear","intensity":4,"summary":"Tomas arrives upstairs; Luddy shoots out the work light and darkness falls."},
+{"start":46,"type":"reveals","fine":"comes clean to","actor":"CAZ","target":"LUDDY","mood":"suspense","intensity":4,"summary":"Caz admits the briefcase was always empty while Tomas lights a lighter, smiling."}
+],
+"s01754": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"BARRETT","target":"NOELLE","mood":"calm","intensity":2,"summary":"Lookout Noelle answers dispatcher Barrett's radio check, and he reassures her."},
+{"start":19,"type":"bonds","fine":"confides in","actor":"NOELLE","target":"BARRETT","mood":"tender","intensity":2,"summary":"Noelle asks if he was ever scared; Barrett says every summer for twenty-two years."},
+{"start":27,"type":"discovers","fine":"notices","actor":"NOELLE","target":"BARRETT","mood":"suspense","intensity":3,"summary":"She spots a gray column on the west ridge and takes a bearing."},
+{"start":44,"type":"bonds","fine":"shares a moment with","actor":"BARRETT","target":"NOELLE","mood":"tender","intensity":2,"summary":"Barrett praises her first call and keeps her company during the wait."},
+{"start":61,"type":"reveals","fine":"breaks news to","actor":"BARRETT","target":"NOELLE","mood":"joyful","intensity":3,"summary":"The smoke was a cloud; Noelle laughs and cries, embarrassed, as Barrett reassures her."},
+{"start":73,"type":"decides","fine":"decides","actor":"NOELLE","target":"BARRETT","mood":"hopeful","intensity":2,"summary":"Noelle calls the false alarm and offers a spoonful of peanut butter to the room."}
+],
+"s02074": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"NNEKA","target":null,"mood":"melancholy","intensity":2,"summary":"At a family reunion in a roller rink, grandchildren hide and Nneka watches."},
+{"start":16,"type":"comforts","fine":"calms","actor":"NNEKA","target":"JUNIPER","mood":"tender","intensity":2,"summary":"Nneka taps the bench; Juniper joins her and says her father didn't mean it about selling the house."},
+{"start":30,"type":"comforts","fine":"encourages","actor":"NNEKA","target":"BASIL","mood":"tender","intensity":3,"summary":"Nneka coaxes Basil over, examines the wheel, and tells him to keep it."},
+{"start":38,"type":"bonds","fine":"reconnects with","actor":"RAFAEL","target":"NNEKA","mood":"bittersweet","intensity":3,"summary":"Rafael approaches his mother, laughs at her quip, and sits."}
+],
+"s01906_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"ominous","intensity":2,"summary":"A shuttered desert roadhouse sits abandoned as wind moves tumbleweeds and a shutter taps."}
+],
+"s01119_0": [
+{"start":1,"type":"works","fine":"works","actor":"CLEMENTINE","target":null,"mood":"calm","intensity":1,"summary":"Madame Clementine pins fabric by lamplight until the shop bell rings and she answers."}
+],
+"s02059": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"LEOPOLD","target":"TOBY","mood":"tense","intensity":3,"summary":"Inspector Leopold gathers suspects around a body and notes Toby's shoes."},
+{"start":39,"type":"confronts","fine":"presses","actor":"LEOPOLD","target":"TOBY","mood":"suspense","intensity":3,"summary":"Toby says his shoes were wet from the deck; Imogen recalls seeing a one-oared boat."},
+{"start":56,"type":"reveals","fine":"presents evidence to","actor":"CLEMENTINE","target":"BRUNO","mood":"suspense","intensity":4,"summary":"Clementine produces a wet shoe from the deck that Bruno claims is his."},
+{"start":69,"type":"threatens","fine":"menaces","actor":"CATHERINE","target":"LEOPOLD","mood":"ominous","intensity":4,"summary":"Catherine calmly takes up the stove poker and refuses to put it down."}
+],
+"s00097": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"IMANI","target":"PHILOMENA","mood":"playful","intensity":2,"summary":"In a bus-turned-bridal shop, Imani and Philomena argue over a too-big gown."},
+{"start":21,"type":"comforts","fine":"consoles","actor":"GWENDOLYN","target":"PHILOMENA","mood":"tender","intensity":2,"summary":"Aunt Cordelia on the phone sets Philomena crying; Gwendolyn wipes her cheek."},
+{"start":31,"type":"jokes","fine":"teases","actor":"BARTHOLOMEW","target":"LUCIEN","mood":"playful","intensity":2,"summary":"The driver grumbles and Lucien jokes that Philomena looks like a lighthouse."},
+{"start":43,"type":"leaves","fine":"abandons","actor":"BARTHOLOMEW","target":null,"mood":"chaotic","intensity":4,"summary":"The bus lurches into motion and rolls into the street with the wedding party aboard."}
+],
+"s01946": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"MORVAN","target":null,"mood":"ominous","intensity":2,"summary":"Four passengers cross a dark swamp on Morvan's barge, wary and silent."},
+{"start":16,"type":"threatens","fine":"looms over","actor":"THE DROWNED KING","target":"MORVAN","mood":"fear","intensity":4,"summary":"The Drowned King rises from the water and claims the child as payment."},
+{"start":30,"type":"defends","fine":"protects","actor":"HESPER","target":"BRIAR","mood":"fear","intensity":5,"summary":"Briar clings to Hesper as Sable shoots and pale hands grip the barge."}
+],
+"s01008": [
+{"start":1,"type":"discovers","fine":"finds a clue","actor":"GASTON","target":"HELOISE","mood":"suspense","intensity":3,"summary":"Gaston finds a man's watch baked into a cheese rind, and Heloise says the owner is missing."},
+{"start":14,"type":"hides","fine":"conceals something","actor":"IGNATIUS","target":"HELOISE","mood":"tense","intensity":3,"summary":"Ignatius flinches, Josephine laughs nervously, and Heloise orders everyone to stay put."},
+{"start":19,"type":"confronts","fine":"interrogates","actor":"GASTON","target":"IGNATIUS","mood":"ominous","intensity":4,"summary":"Gaston questions Ignatius, and Heloise's light finds a boot in the oldest wheel."}
+],
+"s00667": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"tense","intensity":3,"summary":"Three skaters begin the final jam before a roaring crowd."},
+{"start":15,"type":"attacks","fine":"fights","actor":"BRON","target":"MO","mood":"chaotic","intensity":4,"summary":"Bron charges, Mo and Razor block, and all three crash in a heap."},
+{"start":28,"type":"comforts","fine":"embraces","actor":"MO","target":"BRON","mood":"joyful","intensity":3,"summary":"Mo and Razor help injured Bron up; she laughs and they celebrate."}
+],
+"s00649": [
+{"start":1,"type":"observes","fine":"hesitates","actor":"JOJO","target":null,"mood":"fear","intensity":3,"summary":"Four hikers freeze on a swaying rope bridge as Jojo tells them to keep to the center."},
+{"start":13,"type":"flees","fine":"scrambles away","actor":"JOJO","target":null,"mood":"chaotic","intensity":5,"summary":"A plank breaks; Jojo leaps the gap and Darius loses his camera case."},
+{"start":32,"type":"decides","fine":"commits","actor":"SOLVEIG","target":null,"mood":"fear","intensity":4,"summary":"Solveig orders a quick single-file crossing and they cross the swaying gap."},
+{"start":37,"type":"comforts","fine":"consoles","actor":"EMEKA","target":"DARIUS","mood":"bittersweet","intensity":3,"summary":"Safe on rock, they are silent and Emeka comforts weeping Darius."}
+],
+"s01475_1": [
+{"start":1,"type":"works","fine":"prepares","actor":"CAPTAIN","target":null,"mood":"tense","intensity":2,"summary":"Three exhausted soldiers shelter in a sugar mill and plan the river bridge."},
+{"start":14,"type":"bonds","fine":"bonds with","actor":"SERGEANT","target":"IBRAHIM","mood":"tender","intensity":3,"summary":"The Sergeant hands the Medic a rag and learns his name is Ibrahim."},
+{"start":24,"type":"comforts","fine":"reassures","actor":"CAPTAIN","target":"IBRAHIM","mood":"bittersweet","intensity":3,"summary":"The Captain asks his age and shares her saved tin of peaches."},
+{"start":46,"type":"comforts","fine":"calms","actor":"SERGEANT","target":"IBRAHIM","mood":"melancholy","intensity":3,"summary":"The Sergeant takes first watch and tells sleepy Ibrahim the bridge can wait."}
+],
+"s01867": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"EUGENIA","target":"ARABELLA","mood":"awkward","intensity":2,"summary":"Headmistress Eugenia presides over tea, correcting Arabella's posture and delaying the music."},
+{"start":26,"type":"mocks","fine":"needles","actor":"ARABELLA","target":"CLARA","mood":"tense","intensity":2,"summary":"Arabella and Clara trade whispered insults until Eugenia quells them."},
+{"start":37,"type":"discovers","fine":"notices","actor":"MARTHA","target":"EUGENIA","mood":"suspense","intensity":3,"summary":"The clock strikes four and Martha sees a telegram boy leave a telegram."},
+{"start":49,"type":"reveals","fine":"breaks news to","actor":"EUGENIA","target":"ARABELLA","mood":"grief","intensity":4,"summary":"Eugenia hands Arabella the telegram; she reads that her father is coming."}
+],
+"s00755": [
+{"start":1,"type":"observes","fine":"studies","actor":"CONNIE","target":"ELMER","mood":"calm","intensity":2,"summary":"Connie and Elmer play a quiet bocce match with Viola refereeing."},
+{"start":16,"type":"mocks","fine":"needles","actor":"CONNIE","target":"ELMER","mood":"tense","intensity":2,"summary":"Connie scores four to two while Elmer stalls with ceremony."},
+{"start":22,"type":"hides","fine":"masks a feeling","actor":"ELMER","target":"CONNIE","mood":"melancholy","intensity":3,"summary":"Elmer's cane trembles, he touches a hidden photograph, and deflects Connie's concern."},
+{"start":30,"type":"leaves","fine":"exits quietly","actor":"ELMER","target":"CONNIE","mood":"bittersweet","intensity":2,"summary":"Viola measures and calls the game; Elmer leaves without thanks."}
+],
+"s02371": [
+{"start":1,"type":"observes","fine":"waits","actor":"WREN","target":"TEO","mood":"tense","intensity":2,"summary":"Wren and Teo wait in a nearly empty laundromat as a stranger enters."},
+{"start":20,"type":"discovers","fine":"recognizes","actor":"WREN","target":"BAZ","mood":"suspense","intensity":3,"summary":"The stranger half-opens his duffel and Wren recognizes him as Baz."},
+{"start":26,"type":"searches","fine":"rummages","actor":"BAZ","target":null,"mood":"suspense","intensity":3,"summary":"Baz climbs to machine four and reaches behind the drum while Teo feeds another quarter."}
+],
+"s01225": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"FÁTIMA","target":"GRETCHEN","mood":"playful","intensity":2,"summary":"Gustavo fumbles signals while his mother Fátima interrupts instructor Gretchen."},
+{"start":19,"type":"mocks","fine":"belittles","actor":"GRETCHEN","target":"GUSTAVO","mood":"awkward","intensity":3,"summary":"He clips a cone and Gretchen fails him, snapping her clipboard so he stalls."},
+{"start":29,"type":"jokes","fine":"riffs with","actor":"FÁTIMA","target":"GRETCHEN","mood":"playful","intensity":3,"summary":"Fátima sweetly offers to drive, and both stare at her."}
+],
+"s01636": [
+{"start":1,"type":"works","fine":"prepares","actor":"ASTRID","target":"LINNEA","mood":"suspense","intensity":3,"summary":"Tied six-six in the final end, Astrid calls for a draw to the button."},
+{"start":14,"type":"observes","fine":"watches","actor":"TORVALD","target":null,"mood":"tense","intensity":4,"summary":"Linnea's stone is swept hard but stops a hair short."},
+{"start":35,"type":"observes","fine":"takes it in","actor":"ASTRID","target":null,"mood":"melancholy","intensity":3,"summary":"The rival's last stone hits the button and the official calls for measurement."},
+{"start":43,"type":"decides","fine":"refuses","actor":"ASTRID","target":"ODDMUND","mood":"suspense","intensity":4,"summary":"Oddmund measures and finds Nygaard's stone ahead by a tenth; Astrid demands another measure."},
+{"start":61,"type":"bonds","fine":"shares a moment with","actor":"ASTRID","target":"LINNEA","mood":"triumphant","intensity":4,"summary":"The win is confirmed, the team erupts, and Astrid tells Linnea her shot was enough."}
+],
+"s01327": [
+{"start":1,"type":"observes","fine":"waits","actor":"NADIA","target":"SPOON","mood":"suspense","intensity":3,"summary":"Thieves Nadia and Spoon sit in a funicular car halted mid-slope."},
+{"start":18,"type":"hides","fine":"ducks out of sight","actor":"NADIA","target":"SPOON","mood":"fear","intensity":4,"summary":"A floodlight sweeps the cable and they drop to the floor, then the car lurches."},
+{"start":27,"type":"jokes","fine":"banters with","actor":"SPOON","target":"NADIA","mood":"tense","intensity":3,"summary":"They whisper about cowardly Eddie as a relay counts down two minutes."},
+{"start":43,"type":"bonds","fine":"shares a moment with","actor":"SPOON","target":"NADIA","mood":"joyful","intensity":3,"summary":"The car resumes, tension breaks, and they joke about hearts and the case."},
+{"start":52,"type":"works","fine":"prepares","actor":"NADIA","target":"SPOON","mood":"playful","intensity":3,"summary":"Nadia coaches Spoon into a pompous Doctor Stahl persona and they step out."}
+],
+"s00520": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"OSEI","target":"PRIYA","mood":"calm","intensity":2,"summary":"Osei inspects cheese wheels at night while eager new hire Priya trails him."},
+{"start":24,"type":"deflects","fine":"brushes off","actor":"OSEI","target":"PRIYA","mood":"suspense","intensity":3,"summary":"Faint clicks echo in the cave; Osei says pipes and sends Priya for coffee."},
+{"start":42,"type":"discovers","fine":"uncovers","actor":"OSEI","target":null,"mood":"tense","intensity":4,"summary":"Alone, Osei finds a hidden duffel of cash and learns the new girl was never hired."},
+{"start":63,"type":"confronts","fine":"faces off with","actor":"DMITRI","target":"OSEI","mood":"hostile","intensity":4,"summary":"Dmitri steps out and Priya returns with a pistol demanding the bag."},
+{"start":86,"type":"threatens","fine":"coerces","actor":"DMITRI","target":"OSEI","mood":"ominous","intensity":5,"summary":"Dmitri turns off the radio, mocks Osei's wife, and Priya cocks the pistol."}
+],
+"s02515": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"LORETTA","target":"FAYE","mood":"calm","intensity":2,"summary":"Firefighters wait for chili while Captain Loretta makes probie Faye mop again."},
+{"start":22,"type":"leaves","fine":"storms out","actor":"LORETTA","target":null,"mood":"chaotic","intensity":4,"summary":"The scanner announces a structure fire and the crew rushes out."},
+{"start":37,"type":"comforts","fine":"encourages","actor":"FAYE","target":null,"mood":"tender","intensity":3,"summary":"Faye returns to the empty kitchen, sets down the mop, and whispers a wish."}
+]
+}

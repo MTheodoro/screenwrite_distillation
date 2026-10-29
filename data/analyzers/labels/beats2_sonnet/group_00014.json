@@ -1,0 +1,143 @@
+{
+"s00844": [
+{"start":1,"type":"searches","fine":"examines","actor":"SUNNIVA","target":"IBRAHIM","mood":"tense","intensity":2,"summary":"Sunniva consults a remote doctor about Ibrahim's hand wound while he downplays it."},
+{"start":13,"type":"confronts","fine":"presses","actor":"LAKSHMI","target":"IBRAHIM","mood":"tense","intensity":3,"summary":"Low vitals and inconsistent answers lead Lakshmi to ask directly about painkillers."},
+{"start":25,"type":"confesses","fine":"admits guilt to","actor":"IBRAHIM","target":"SUNNIVA","mood":"grief","intensity":4,"summary":"Ibrahim admits he has taken the entire opioid stock since October and begs secrecy."}
+],
+"s02163": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"ZELDA","target":"ODETTE","mood":"melancholy","intensity":2,"summary":"Nurse Odette and wounded Captain Zelda share a cellar and four morphine ampoules."},
+{"start":10,"type":"deflects","fine":"stonewalls","actor":"ZELDA","target":"ODETTE","mood":"tense","intensity":3,"summary":"Zelda refuses to talk about the dying girl or her own broken leg."},
+{"start":29,"type":"observes","fine":"takes it in","actor":"ZELDA","target":null,"mood":"fear","intensity":3,"summary":"A shell lands close; Zelda notes it was friendly fire."},
+{"start":45,"type":"bonds","fine":"confides in","actor":"ZELDA","target":"ODETTE","mood":"bittersweet","intensity":3,"summary":"They share a bitter laugh and speak of family in Lyon and Leeds."},
+{"start":53,"type":"pleads","fine":"pleads with","actor":"ODETTE","target":"ZELDA","mood":"tense","intensity":3,"summary":"Odette offers her morphine; Zelda refuses, speaking of the girl and herself."},
+{"start":68,"type":"observes","fine":"listens to","actor":"ODETTE","target":"ZELDA","mood":"suspense","intensity":4,"summary":"Boots strike the door above and Zelda reaches for her pistol."},
+{"start":77,"type":"discovers","fine":"recognizes","actor":"ZELDA","target":"ODETTE","mood":"hopeful","intensity":4,"summary":"Zelda recognizes an English voice and shouts that they are down here."},
+{"start":83,"type":"comforts","fine":"consoles","actor":"ODETTE","target":null,"mood":"grief","intensity":3,"summary":"Rescuers approach; Odette puts the ampoule away and cries silently."}
+],
+"s02117": [
+{"start":1,"type":"bonds","fine":"reconnects with","actor":"ROSALINDA","target":"ERNESTINE","mood":"calm","intensity":1,"summary":"Lawyer Rosalinda and client Ernestine exchange dry greetings across the glass."},
+{"start":12,"type":"persuades","fine":"negotiates with","actor":"ROSALINDA","target":"ERNESTINE","mood":"tense","intensity":3,"summary":"Rosalinda relays a five-year plea offer; Ernestine refuses to admit taking money."},
+{"start":30,"type":"confronts","fine":"presses","actor":"ROSALINDA","target":"ERNESTINE","mood":"melancholy","intensity":3,"summary":"Rosalinda lays out what fifteen years means and Ernestine weighs her reputation."},
+{"start":36,"type":"decides","fine":"accepts","actor":"ROSALINDA","target":"ERNESTINE","mood":"hopeful","intensity":3,"summary":"Seeing Ernestine's dignity, Rosalinda agrees to take the case to trial."}
+],
+"s00370": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"HALVARD","target":null,"mood":"calm","intensity":2,"summary":"A family and teacher wait out the ice-bound winter aboard a barge."},
+{"start":20,"type":"arrives","fine":"shows up unannounced","actor":"STRANGER","target":"HALVARD","mood":"suspense","intensity":3,"summary":"Three knocks bring a hatless stranger across the rotten ice, and Halvard lets him in."},
+{"start":33,"type":"searches","fine":"questions witnesses","actor":"OSKAR","target":"HALVARD","mood":"ominous","intensity":3,"summary":"Oskar counts the crew; Toby mentions the dead deckhand Gunnar under the deck."},
+{"start":55,"type":"reveals","fine":"drops a bombshell on","actor":"OSKAR","target":"HALVARD","mood":"ominous","intensity":4,"summary":"Oskar reveals no one is coming for the barge and offers passage for three."},
+{"start":68,"type":"threatens","fine":"issues an ultimatum to","actor":"OSKAR","target":"HALVARD","mood":"fear","intensity":5,"summary":"Halvard blows out the lantern and insists Oskar leave alone; a knife leaves its sheath."}
+],
+"s01926": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"RUBY","target":"DOMI","mood":"playful","intensity":1,"summary":"Ruby and Domi tease each other in the 2 a.m. laundromat."},
+{"start":9,"type":"arrives","fine":"slips in","actor":"KWABENA","target":"DOMI","mood":"playful","intensity":2,"summary":"Cast-wearing Kwabena and prom-dressed Shoshana arrive bickering."},
+{"start":17,"type":"accuses","fine":"calls out","actor":"DOMI","target":"KWABENA","mood":"hostile","intensity":3,"summary":"Domi learns Kwabena abandoned Shoshana at prom for a cast and confronts him."},
+{"start":28,"type":"attacks","fine":"shoves","actor":"DOMI","target":"KWABENA","mood":"chaotic","intensity":4,"summary":"Domi shoves Kwabena and the others scuffle until Ruby shouts them down."},
+{"start":36,"type":"bonds","fine":"apologizes to","actor":"DOMI","target":"SHOSHANA","mood":"tender","intensity":2,"summary":"A red sock rolls out of a dryer and they mumble apologies."}
+],
+"s01355": [
+{"start":1,"type":"observes","fine":"scans the room","actor":"MERCEDES","target":"JED","mood":"tense","intensity":2,"summary":"A saloon crowd drinks in a storm while Mercedes watches Jed."},
+{"start":16,"type":"accuses","fine":"accuses","actor":"MERCEDES","target":"JED","mood":"tense","intensity":4,"summary":"Mercedes names Jed as her brother's killer as he reaches for his gun."},
+{"start":29,"type":"attacks","fine":"shoots at","actor":"MERCEDES","target":"JED","mood":"chaotic","intensity":5,"summary":"Jed draws, Mercedes shoots first, and the bar dives for cover."},
+{"start":37,"type":"threatens","fine":"looms over","actor":"MERCEDES","target":"JED","mood":"tense","intensity":3,"summary":"Mercedes stands over wounded Jed with the rifle at his chest."},
+{"start":41,"type":"leaves","fine":"walks out on","actor":"MERCEDES","target":null,"mood":"calm","intensity":2,"summary":"The Reverend tends Jed; Mercedes lowers the rifle and walks out into the rain."}
+],
+"s02271": [
+{"start":1,"type":"observes","fine":"studies","actor":"HOLLIS","target":"PERPETUA","mood":"ominous","intensity":2,"summary":"Hollis, a former ferryman, watches the far bank as a widow approaches."},
+{"start":16,"type":"threatens","fine":"menaces","actor":"PERPETUA","target":"HOLLIS","mood":"tense","intensity":4,"summary":"Perpetua opens a bag showing a revolver and says she wants a word with her husband's ferryman."},
+{"start":24,"type":"threatens","fine":"warns","actor":"ELIAS","target":"HOLLIS","mood":"suspense","intensity":4,"summary":"Hollis's brother Elias hails him from the far bank and warns him not to let her aboard."},
+{"start":32,"type":"attacks","fine":"shoots at","actor":"PERPETUA","target":"HOLLIS","mood":"chaotic","intensity":5,"summary":"Perpetua boards; they both draw and fire as the ferry breaks loose."}
+],
+"s02333": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"VESNA","target":null,"mood":"suspense","intensity":3,"summary":"Thieves Vesna and Dmitri drop into the cheese vault; Dmitri nearly drops a wheel."},
+{"start":17,"type":"works","fine":"works","actor":"DMITRI","target":"VESNA","mood":"tense","intensity":4,"summary":"They creep to the cabinet, dodging a camera sweep under Kofi's countdown."},
+{"start":35,"type":"discovers","fine":"uncovers","actor":"DMITRI","target":"VESNA","mood":"playful","intensity":3,"summary":"Dmitri cracks the code, footsteps approach, and the cabinet holds a small gold-wrapped cheese."},
+{"start":50,"type":"flees","fine":"bolts","actor":"VESNA","target":"DMITRI","mood":"chaotic","intensity":4,"summary":"Footsteps close in and the pair grab the cheese and bolt for the shaft."}
+],
+"s02258": [
+{"start":1,"type":"comforts","fine":"encourages","actor":"WHITLOCK","target":"ILYA","mood":"tense","intensity":2,"summary":"Coach Whitlock drills his players on a final-quarter comeback and reassures Ilya."},
+{"start":29,"type":"leaves","fine":"leaves","actor":"WHITLOCK","target":null,"mood":"hopeful","intensity":3,"summary":"The buzzer sounds, the team huddles and files out; Whitlock mutters a plea."}
+],
+"s01283": [
+{"start":1,"type":"works","fine":"works","actor":"REUBEN","target":null,"mood":"tense","intensity":3,"summary":"Reuben presses a wound in a pitching sick bay as Felix calls from the bridge."},
+{"start":11,"type":"bonds","fine":"teams up with","actor":"REUBEN","target":"FELIX","mood":"suspense","intensity":4,"summary":"Reuben demands a ventilator, learns port is eleven hours away, and asks Felix to pray."},
+{"start":26,"type":"works","fine":"repairs something","actor":"REUBEN","target":null,"mood":"triumphant","intensity":4,"summary":"He inserts a needle between the ribs and the sailor breathes."},
+{"start":35,"type":"comforts","fine":"steadies","actor":"REUBEN","target":"FELIX","mood":"bittersweet","intensity":2,"summary":"Reuben slumps exhausted, contemplating the eleven hours, and tells Felix to keep her steady."}
+],
+"s02388": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"KEZIAH","target":"GRAN ODALYS","mood":"tense","intensity":2,"summary":"A tense Thanksgiving begins on a houseboat as Keziah suppresses old friction."},
+{"start":19,"type":"bonds","fine":"charms","actor":"GRAN ODALYS","target":"EZRA","mood":"tense","intensity":2,"summary":"Gran calls Ezra to sit beside her and needles Keziah about the turkey."},
+{"start":33,"type":"reveals","fine":"drops a bombshell on","actor":"GRAN ODALYS","target":"KEZIAH","mood":"tense","intensity":4,"summary":"Gran announces she sold the house and is moving onto the boat."}
+],
+"s00029": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"OZZIE","target":"PRU","mood":"calm","intensity":1,"summary":"Controller Ozzie shows his granddaughter Pru a Cessna on the radar in the tower."},
+{"start":21,"type":"works","fine":"works","actor":"OZZIE","target":"PILOT","mood":"suspense","intensity":3,"summary":"A Cessna requests landing in gusty wind with thirty minutes of fuel."},
+{"start":28,"type":"comforts","fine":"encourages","actor":"OZZIE","target":"PRU","mood":"hopeful","intensity":3,"summary":"Ozzie hands Pru the headset and she nervously clears the pilot to land."},
+{"start":40,"type":"observes","fine":"watches","actor":"OZZIE","target":null,"mood":"triumphant","intensity":3,"summary":"They all watch the plane touch down safely."}
+],
+"s00175": [
+{"start":1,"type":"works","fine":"prepares","actor":"ARTHUR","target":"MIRIAM","mood":"suspense","intensity":2,"summary":"Under cover of oiling a clock, thieves plan to drop through the pendulum shaft into a bank vault."},
+{"start":14,"type":"decides","fine":"makes a plan","actor":"MIRIAM","target":"ARTHUR","mood":"tense","intensity":2,"summary":"They fix Thursday after the noon chime and the nervous lookout reassures them."}
+],
+"s01505_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"RAYMOND","target":null,"mood":"suspense","intensity":2,"summary":"Six strangers sit in a snowed-in hotel lobby, introduced one by one."},
+{"start":30,"type":"discovers","fine":"notices","actor":"RAYMOND","target":"ELMER","mood":"fear","intensity":4,"summary":"A scream from upstairs freezes the lobby; Raymond takes the room key from the clerk."},
+{"start":40,"type":"flees","fine":"runs","actor":"RAYMOND","target":null,"mood":"chaotic","intensity":3,"summary":"Raymond bounds up the stairs, followed by Samuel and Callista."}
+],
+"s00433": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"FRANCISCO","target":"NINA","mood":"tense","intensity":2,"summary":"Francisco and Nina meet over a satchel; Roland emerges from behind a pillar."},
+{"start":16,"type":"attacks","fine":"lunges at","actor":"NINA","target":"FRANCISCO","mood":"chaotic","intensity":4,"summary":"Nina lunges for the satchel and they tumble before Roland stops them."},
+{"start":21,"type":"reveals","fine":"shows","actor":"ROLAND","target":"FRANCISCO","mood":"ominous","intensity":3,"summary":"Roland tosses the satchel back and leaves; Francisco finds it empty."}
+],
+"s01156": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"IOLANTHE","target":null,"mood":"ominous","intensity":2,"summary":"Iolanthe stares at a sealed parchment before cracking the seal."},
+{"start":13,"type":"discovers","fine":"uncovers","actor":"IOLANTHE","target":null,"mood":"tense","intensity":3,"summary":"A letter in her young voice warns her not to open the third door."},
+{"start":32,"type":"deflects","fine":"shrugs off","actor":"IOLANTHE","target":null,"mood":"playful","intensity":2,"summary":"She considers the bell and refuses absolutely to ring it."},
+{"start":41,"type":"decides","fine":"commits","actor":"IOLANTHE","target":null,"mood":"suspense","intensity":4,"summary":"The last line asks her to be brave; she rings the bell three times."},
+{"start":51,"type":"observes","fine":"takes it in","actor":"IOLANTHE","target":null,"mood":"ominous","intensity":4,"summary":"The door's nails slide out; she takes a candle and walks toward it."}
+],
+"s01375_0": [
+{"start":1,"type":"deflects","fine":"stalls","actor":"CORNELIUS","target":"TOBIAS","mood":"tense","intensity":2,"summary":"Old lamplighter Cornelius stalls polishing glass while reporter Tobias presses about the Pettigrew matter."},
+{"start":38,"type":"confronts","fine":"presses","actor":"TOBIAS","target":"CORNELIUS","mood":"suspense","intensity":3,"summary":"Tobias raises eleven dark lamps on the night Pettigrew died."},
+{"start":46,"type":"confesses","fine":"owns up to","actor":"CORNELIUS","target":"TOBIAS","mood":"melancholy","intensity":4,"summary":"Cornelius admits a man in a good coat paid him forty sovereigns to put out the lamps."},
+{"start":67,"type":"bonds","fine":"trusts","actor":"TOBIAS","target":"CORNELIUS","mood":"bittersweet","intensity":3,"summary":"Tobias promises to print it and apologizes; Cornelius wants to finish his round."},
+{"start":86,"type":"leaves","fine":"leaves","actor":"CORNELIUS","target":"TOBIAS","mood":"bittersweet","intensity":3,"summary":"Tobias offers to walk with him and they go out into the fog."}
+],
+"s02164": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"KIRA","target":"NOLA","mood":"awkward","intensity":2,"summary":"Five friends crowd a karaoke booth, Kira singing badly while others trade glances."},
+{"start":20,"type":"bonds","fine":"flirts with","actor":"NOLA","target":"ARTHUR","mood":"tender","intensity":2,"summary":"Nola praises Arthur's toast and Kira pushes them to sing the last song."},
+{"start":31,"type":"reveals","fine":"drops a bombshell on","actor":"HUGO","target":"NOLA","mood":"tense","intensity":4,"summary":"Hugo announces Arthur proposed to him seven years ago in this same booth."}
+],
+"s01318": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"PEARL","target":null,"mood":"joyful","intensity":2,"summary":"A chaotic farmhouse family breakfast runs smoothly through habit and scolding."},
+{"start":20,"type":"jokes","fine":"teases","actor":"DANNY","target":"ROSIE","mood":"playful","intensity":2,"summary":"Danny teases Rosie's horse drawing while Walt defends the potato."},
+{"start":27,"type":"jokes","fine":"amuses","actor":"WALT","target":"PEARL","mood":"joyful","intensity":2,"summary":"Walt finally folds his paper and the family laughs at their staring."}
+],
+"s02470": [
+{"start":1,"type":"observes","fine":"waits","actor":"INGRID","target":"KOFI","mood":"suspense","intensity":2,"summary":"Ingrid and Kofi watch a late gondola climb on the monitor."},
+{"start":22,"type":"discovers","fine":"realizes","actor":"HALVORSEN","target":"INGRID","mood":"fear","intensity":4,"summary":"Halvorsen radios that Car 7 is parked in the depot; Ingrid has the lights killed."},
+{"start":45,"type":"arrives","fine":"slips in","actor":"BASHIR","target":"INGRID","mood":"ominous","intensity":4,"summary":"Bashir enters through the stairwell door and the car brings Lenka."},
+{"start":69,"type":"threatens","fine":"coerces","actor":"BASHIR","target":"INGRID","mood":"fear","intensity":5,"summary":"Bashir locks the door and demands the ledger, citing Ingrid's husband."}
+],
+"s00977": [
+{"start":1,"type":"mocks","fine":"needles","actor":"EDMUND","target":"ROSALIND","mood":"playful","intensity":2,"summary":"Relatives mock Rosalind's canned-soup casserole at the lighthouse potluck."},
+{"start":24,"type":"arrives","fine":"makes an entrance","actor":"AUNT FENELLA","target":"ROSALIND","mood":"playful","intensity":3,"summary":"Aunt Fenella sweeps in and claims to have invented the casserole in 1974."}
+],
+"s01152": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"ROSA","target":"TEDDY","mood":"tense","intensity":2,"summary":"At a harvest dinner Rosa needles Teddy as the family and guests squirm."},
+{"start":21,"type":"reveals","fine":"comes clean to","actor":"TEDDY","target":"ROSA","mood":"tense","intensity":4,"summary":"Teddy admits he signed the bridge loan on the land for the combine."},
+{"start":39,"type":"decides","fine":"gives an order","actor":"OLEKSANDR","target":"TEDDY","mood":"tense","intensity":4,"summary":"Teddy shoves his chair back; Oleksandr silences him and orders him to sit."},
+{"start":44,"type":"comforts","fine":"reassures","actor":"OLEKSANDR","target":"TEDDY","mood":"bittersweet","intensity":3,"summary":"Oleksandr says the land was a loan from the weather and fears untruthful tables."},
+{"start":51,"type":"jokes","fine":"lightens the mood for","actor":"KIERAN","target":"OLEKSANDR","mood":"tender","intensity":3,"summary":"Kieran's fireflies glow when scared, breaking tension; the family laughs and eats together."}
+],
+"s00963": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"QUILLON","target":"BRAMBLE","mood":"playful","intensity":2,"summary":"Bramble guides Tilly through a treetop market, waving off Quillon's lucky bones."},
+{"start":16,"type":"discovers","fine":"notices","actor":"TILLY","target":"BRAMBLE","mood":"ominous","intensity":4,"summary":"Tilly points out a faceless hooded figure staring at them from the bridge."},
+{"start":24,"type":"flees","fine":"bolts","actor":"BRAMBLE","target":null,"mood":"chaotic","intensity":5,"summary":"They bolt as the bridge ropes snap behind them and Bramble swings them to safety."},
+{"start":34,"type":"observes","fine":"watches","actor":"TILLY","target":"BRAMBLE","mood":"ominous","intensity":2,"summary":"The figure walks away through the air; Bramble says everything comes back."}
+],
+"s00791": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"CATALINA","target":null,"mood":"melancholy","intensity":2,"summary":"A woman in green enters the ruined ballroom after the wedding."},
+{"start":13,"type":"confesses","fine":"unburdens to","actor":"CATALINA","target":null,"mood":"grief","intensity":3,"summary":"Catalina records a message to the tape and apologizes for wearing green."},
+{"start":35,"type":"leaves","fine":"exits quietly","actor":"CATALINA","target":null,"mood":"bittersweet","intensity":3,"summary":"She ignores a ringing phone, leaves the recorder running, and switches off the chandelier."}
+]
+}

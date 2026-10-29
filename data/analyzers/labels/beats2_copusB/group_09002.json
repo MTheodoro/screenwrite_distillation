@@ -1,0 +1,8 @@
+{
+"s05103": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "THEO", "target": "MARGOT", "mood": "calm", "intensity": 2, "summary": "During a storm blackout, Desmond frets while Theo and Margot banter about faces."},
+{"start": 18, "type": "arrives", "fine": "shows up unannounced", "actor": "THE TWINS", "target": "MARGOT", "mood": "ominous", "intensity": 3, "summary": "The twins appear holding a silver thread and announce their dead grandmother is here."},
+{"start": 29, "type": "threatens", "fine": "warns", "actor": "WARDEN", "target": "DESMOND", "mood": "suspense", "intensity": 4, "summary": "The Warden of the Third Gate calls warning that Odile is not herself."},
+{"start": 36, "type": "threatens", "fine": "menaces", "actor": "ODILE", "target": "MARGOT", "mood": "ominous", "intensity": 5, "summary": "Odile steps in with glowing eyes, tenderly demanding a candle and what Margot owes."}
+]
+}

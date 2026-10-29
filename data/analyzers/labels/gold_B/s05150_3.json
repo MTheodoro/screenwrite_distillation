@@ -1,0 +1,19 @@
+{
+  "scene_id": "s05150_3",
+  "cast": {"The woman": "PRIYA", "PRIYA": "PRIYA", "Priya": "PRIYA", "NELL": "NELL", "Nell": "NELL", "TOBY": "TOBY", "Toby": "TOBY"},
+  "beats": [1, 3, 5, 6, 8, 9],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "A", "who": ["PRIYA"], "emo": {}, "c": 0.85},
+    "3": {"t": "A", "who": ["NELL"], "emo": {}, "c": 0.6},
+    "4": {"t": "A", "who": ["NELL"], "emo": {"NELL": ["anger", 0.3]}, "c": 0.6},
+    "5": {"to": ["NELL"], "emo": ["neutral", 0.2], "c": 0.95},
+    "6": {"t": "A", "who": ["TOBY"], "emo": {}, "c": 0.95},
+    "7": {"to": ["PRIYA"], "emo": ["neutral", 0.1], "c": 0.9},
+    "8": {"to": ["TOBY"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.6}
+  }
+}

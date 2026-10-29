@@ -1,0 +1,31 @@
+{
+"s00016": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"STRANGER","target":"YOUNG WOMAN","mood":"suspense","intensity":2,"summary":"A stranger rides into a dry creek bed while a young woman with a shotgun watches."},
+{"start":11,"type":"searches","fine":"looks for","actor":"STRANGER","target":"YOUNG WOMAN","mood":"tense","intensity":3,"summary":"He asks after Cullen Pike; she denies knowing him and demands his business."},
+{"start":21,"type":"bonds","fine":"trusts","actor":"STRANGER","target":"YOUNG WOMAN","mood":"tense","intensity":2,"summary":"She approaches; he gives his name Jedediah and her guard slips slightly."},
+{"start":35,"type":"reveals","fine":"breaks news to","actor":"ODALYS","target":"JEDEDIAH","mood":"melancholy","intensity":4,"summary":"Odalys says Cullen was her father, buried under the second pier since Tuesday."},
+{"start":43,"type":"threatens","fine":"holds at gunpoint","actor":"ODALYS","target":"JEDEDIAH","mood":"ominous","intensity":5,"summary":"Jedediah asks who killed him; Odalys levels the shotgun and blames the man who sent him."}
+],
+"pd_dollhouse_5": [
+{"start":1,"type":"arrives","fine":"drifts in","actor":"RANK","target":"HELMER","mood":"playful","intensity":2,"summary":"Rank stops by; Helmer lets him in and they chat about the evening's wine."},
+{"start":23,"type":"hides","fine":"keeps a secret","actor":"RANK","target":"NORA","mood":"bittersweet","intensity":3,"summary":"Nora asks about his scientific investigation; Rank hints at certainty about his death."},
+{"start":36,"type":"jokes","fine":"banters with","actor":"NORA","target":"RANK","mood":"playful","intensity":2,"summary":"They joke about fancy-dress costumes while Rank keeps his own costume secret."}
+],
+"s01095": [
+{"start":1,"type":"comforts","fine":"consoles","actor":"AUGUSTINE","target":"ABIGAIL","mood":"grief","intensity":3,"summary":"Sheriff Augustine stands with widow Abigail at the grave; she answers his offers curtly."},
+{"start":26,"type":"hides","fine":"masks a feeling","actor":"ABIGAIL","target":"AUGUSTINE","mood":"melancholy","intensity":3,"summary":"She hangs his hat on the cross and refuses the paper; he buries it instead."},
+{"start":39,"type":"bonds","fine":"shares a moment with","actor":"JEREMIAH","target":"ABIGAIL","mood":"bittersweet","intensity":3,"summary":"Jeremiah takes his mother's hand and they watch the cross until dusk."}
+],
+"s01033": [
+{"start":1,"type":"confronts","fine":"stares down","actor":"AUGUST","target":"SILAS","mood":"tense","intensity":3,"summary":"In a stalled funicular, August calmly cows bruised Silas about the briefcase."},
+{"start":28,"type":"observes","fine":"takes it in","actor":"AUGUST","target":"SILAS","mood":"suspense","intensity":3,"summary":"Scrapes sound on the roof as the car sways."},
+{"start":35,"type":"arrives","fine":"bursts in","actor":"ZOFIA","target":"AUGUST","mood":"chaotic","intensity":4,"summary":"Zofia drops through the roof hatch with an ice axe and demands they open the briefcase."},
+{"start":50,"type":"discovers","fine":"discovers","actor":"ZOFIA","target":"SILAS","mood":"fear","intensity":5,"summary":"The case is empty; a handprint outside the window shows something else is there, and the car drops."}
+],
+"s01060": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"HALCYON","target":"TEODORO","mood":"playful","intensity":2,"summary":"Halcyon, Teodoro and Chioma banter over bland food, yield numbers, and Teodoro's worrying pump."},
+{"start":33,"type":"arrives","fine":"is introduced","actor":"NADEEM","target":"HALCYON","mood":"awkward","intensity":2,"summary":"Nervous intern Nadeem joins them and learns their roles and the beige food."},
+{"start":58,"type":"bonds","fine":"teams up with","actor":"TEODORO","target":"NADEEM","mood":"joyful","intensity":2,"summary":"Teodoro adopts Nadeem as the listener of his pump stories."},
+{"start":71,"type":"jokes","fine":"charms","actor":"BENEDIKT","target":"NADEEM","mood":"calm","intensity":2,"summary":"Commander Stone welcomes Nadeem dryly, and the group eats as Earth turns above."}
+]
+}

@@ -1,0 +1,21 @@
+{
+  "scene_id": "s05034",
+  "cast": {"NARRATOR": "NARRATOR", "LORETTA": "LORETTA", "DEV": "DEV", "PRIYA": "PRIYA", "OSWALD": "OSWALD", "THE TALL MAN": "TALL MAN", "TALL MAN": "TALL MAN", "TALL MAN IN A DRIPPING YELLOW SLICKER": "TALL MAN", "DRIPPING YELLOW SLICKER": "TALL MAN"},
+  "beats": [1, 3, 4, 6, 8, 10, 11, 12, 14],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "D", "who": ["LORETTA", "DEV", "PRIYA", "OSWALD"], "emo": {}, "c": 0.7},
+    "3": {"to": ["NONE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "4": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.4},
+    "5": {"to": ["LORETTA"], "emo": ["neutral", 0.2], "c": 0.4},
+    "6": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.5},
+    "7": {"to": ["PRIYA"], "emo": ["neutral", 0.1], "c": 0.7},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "9": {"t": "A", "who": ["TALL MAN"], "emo": {}, "c": 0.95},
+    "10": {"to": ["NONE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "11": {"to": ["ALL"], "emo": ["joy", 0.3], "c": 0.85},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "13": {"t": "A", "who": ["LORETTA", "DEV", "PRIYA", "OSWALD"], "emo": {"LORETTA": ["fear", 0.6], "DEV": ["fear", 0.6], "PRIYA": ["fear", 0.6], "OSWALD": ["fear", 0.6]}, "c": 0.6},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.9}
+  }
+}

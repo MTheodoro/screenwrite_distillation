@@ -1,0 +1,147 @@
+{
+"s01908": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"JUNE","target":"MIRIAM","mood":"tense","intensity":2,"summary":"June and her grandmother Miriam sit in the dome as the ship companion Solis notes their stress."},
+{"start":21,"type":"confronts","fine":"demands answers from","actor":"JUNE","target":"MIRIAM","mood":"tense","intensity":3,"summary":"June reveals she read sealed logs showing the planet is inhabited and asks Miriam if she knew."},
+{"start":35,"type":"reveals","fine":"comes clean to","actor":"MIRIAM","target":"JUNE","mood":"melancholy","intensity":4,"summary":"Miriam explains the founding charter's buried clause about an earlier second ship and its descendants."},
+{"start":42,"type":"discovers","fine":"realizes","actor":"JUNE","target":"MIRIAM","mood":"bittersweet","intensity":3,"summary":"June paces, realizes they are not the first, and learns why the council says pristine."},
+{"start":50,"type":"bonds","fine":"confides in","actor":"MIRIAM","target":"JUNE","mood":"tender","intensity":3,"summary":"Miriam gives June her mother's photograph, passing on the secret; they have Solis delete the log and watch the planet."}
+],
+"s00895": [
+{"start":1,"type":"reveals","fine":"breaks news to","actor":"YASMIN","target":"CONSTANCE","mood":"melancholy","intensity":3,"summary":"Dr. Yasmin tells Mrs. Abercrombie that the scan shows a four-centimetre mass."},
+{"start":21,"type":"comforts","fine":"consoles","actor":"YASMIN","target":"CONSTANCE","mood":"tender","intensity":3,"summary":"Yasmin takes Connie's hand, promises everything possible, and Connie asks for a plum."}
+],
+"s01850": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"SILAS","target":"CELESTINE","mood":"tense","intensity":2,"summary":"Captain Silas questions why a veiled passenger with a false name requested a midnight meeting."},
+{"start":25,"type":"reveals","fine":"drops a bombshell on","actor":"CELESTINE","target":"SILAS","mood":"hostile","intensity":4,"summary":"She says she is the sister of the man he hanged in Vicksburg; he calls it war."},
+{"start":41,"type":"threatens","fine":"issues an ultimatum to","actor":"MARGUERITE","target":"SILAS","mood":"ominous","intensity":5,"summary":"Marguerite opens her valise with a revolver and a confession, offering him a choice."},
+{"start":56,"type":"decides","fine":"accepts","actor":"SILAS","target":null,"mood":"grief","intensity":3,"summary":"Silas reaches slowly for the pen to sign."}
+],
+"s01645": [
+{"start":1,"type":"confronts","fine":"presses","actor":"ROSARIO","target":"BERNADETTE","mood":"tense","intensity":2,"summary":"Rosario grows suspicious of the clinking bag Bernadette says holds sandwiches."},
+{"start":19,"type":"discovers","fine":"uncovers","actor":"ROSARIO","target":"BERNADETTE","mood":"suspense","intensity":4,"summary":"Rosario yanks the bag open to find cash and a pistol; Bernadette points to a mysterious 'her'."},
+{"start":41,"type":"observes","fine":"takes it in","actor":"ROSARIO","target":null,"mood":"ominous","intensity":2,"summary":"A new reel starts and Rosario mutters that 'Coming Attractions' is a good title."}
+],
+"s00076": [
+{"start":1,"type":"reveals","fine":"breaks news to","actor":"BARNABY","target":"ORLA","mood":"awkward","intensity":2,"summary":"Barnaby announces another pivot to a skeptical coworking team."},
+{"start":16,"type":"pitches","fine":"pitches to","actor":"BARNABY","target":"CEDRIC","mood":"playful","intensity":2,"summary":"Barnaby pitches a platform for platforms while Orla and Jung-Ho deride it."},
+{"start":23,"type":"mocks","fine":"dismisses","actor":"CEDRIC","target":"ADAEZE","mood":"awkward","intensity":2,"summary":"Cedric admires Adaeze's lighthouse sketch as a logo, and she quietly closes the book."},
+{"start":29,"type":"leaves","fine":"excuses themself","actor":"JUNG-HO","target":"BARNABY","mood":"playful","intensity":2,"summary":"Barnaby asks who is excited and Jung-Ho flatly asks to leave."}
+],
+"s01971": [
+{"start":1,"type":"observes","fine":"waits","actor":"ODILE","target":"CRANE","mood":"tense","intensity":3,"summary":"Odile and Inspector Crane sit silently in a stalled funicular and she sets a revolver on her knee."},
+{"start":17,"type":"accuses","fine":"suspects","actor":"CRANE","target":"ODILE","mood":"tense","intensity":4,"summary":"Crane notes her husband's death on this hill and a conductor's recollection of a woman with rings."},
+{"start":36,"type":"challenges","fine":"stares down","actor":"CRANE","target":"ODILE","mood":"suspense","intensity":4,"summary":"He dares her to shoot him before the car moves; she says he alone spoke her husband's name."},
+{"start":46,"type":"threatens","fine":"holds at gunpoint","actor":"ODILE","target":"CRANE","mood":"fear","intensity":5,"summary":"Odile presses the muzzle to his tie and cocks the hammer as the car lurches forward."}
+],
+"s00368": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"STRANGER","target":"ELOWEN","mood":"ominous","intensity":2,"summary":"A snow-dusted stranger enters the tortoise library seeking the book of true names."},
+{"start":13,"type":"discovers","fine":"recognizes","actor":"ELOWEN","target":"STRANGER","mood":"suspense","intensity":3,"summary":"Elowen recognizes his scar as a drowned-towns prince and finds his name in the book."},
+{"start":23,"type":"reveals","fine":"exposes","actor":"ELOWEN","target":"TAMSIN","mood":"fear","intensity":4,"summary":"She reads his name aloud, the tortoise stirs, and something vast moves toward the sound."}
+],
+"s01561_0": [
+{"start":1,"type":"works","fine":"drives","actor":"MAN","target":"PHILOMENA","mood":"tense","intensity":4,"summary":"A nurse calls a doctor to a coding girl and they rush a gurney to room seven."}
+],
+"s00072_0": [
+{"start":1,"type":"observes","fine":"waits","actor":null,"target":null,"mood":"suspense","intensity":2,"summary":"A stalled gondola swings in the wind above a roaring ravine."}
+],
+"s01418": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"LILIANE","target":"ROSALIND","mood":"tense","intensity":2,"summary":"Liliane insists the detective take tea in the greenhouse while Viktor avoids eye contact."},
+{"start":16,"type":"accuses","fine":"implicates","actor":"ROSALIND","target":"VIKTOR","mood":"tense","intensity":4,"summary":"Rosalind says the bank vault was emptied and Viktor was seen; he slips by knowing the guard's name."},
+{"start":40,"type":"leaves","fine":"is sent away","actor":"VIKTOR","target":null,"mood":"ominous","intensity":2,"summary":"Liliane sends Viktor downstairs and he walks out between the vines."},
+{"start":46,"type":"bonds","fine":"negotiates with","actor":"LILIANE","target":"ROSALIND","mood":"bittersweet","intensity":3,"summary":"Liliane defends her foolish nephew as family, and Rosalind finally accepts tea."}
+],
+"s00784": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MARV","target":null,"mood":"playful","intensity":1,"summary":"Marv hosts a late-night mattress livestream, oblivious to a guard in the doorway."},
+{"start":10,"type":"arrives","fine":"drifts in","actor":"SECURITY GUARD","target":"MARV","mood":"playful","intensity":2,"summary":"Security guard Darnell interrupts and charms the chat by waving at the camera."},
+{"start":29,"type":"jokes","fine":"charms","actor":"DARNELL","target":"MARV","mood":"joyful","intensity":2,"summary":"Darnell tries a mattress and Marv extends the marathon."}
+],
+"s00676": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"TEODORA","target":null,"mood":"calm","intensity":1,"summary":"Teodora quietly tends the seed vault drawers and notes the humidity."},
+{"start":8,"type":"arrives","fine":"is introduced","actor":"IMANI","target":"TEODORA","mood":"awkward","intensity":1,"summary":"New archivist Imani wanders in lost and meets Teodora."},
+{"start":15,"type":"bonds","fine":"shares a moment with","actor":"TEODORA","target":"IMANI","mood":"tender","intensity":2,"summary":"They share a tired smile and Teodora asks Imani to read the drawer labels aloud."}
+],
+"s00455": [
+{"start":1,"type":"threatens","fine":"intimidates","actor":"SILAS","target":"NICO","mood":"tense","intensity":3,"summary":"Rival manager Silas leaves an envelope at the ring; Imelda orders him out."},
+{"start":37,"type":"discovers","fine":"finds a clue","actor":"NICO","target":"IMELDA","mood":"hostile","intensity":3,"summary":"Nico opens the envelope and finds money and a note asking him to take a dive."},
+{"start":52,"type":"attacks","fine":"fights","actor":"NICO","target":null,"mood":"hostile","intensity":4,"summary":"Nico furiously shadowboxes and asks why Imelda let Silas in."},
+{"start":67,"type":"decides","fine":"commits","actor":"NICO","target":"IMELDA","mood":"triumphant","intensity":4,"summary":"Imelda says it was a test and Nico, ready, bites down on his mouthguard as the bell rings."}
+],
+"s00596": [
+{"start":1,"type":"interrogates","fine":"interrogates","actor":"LOWE","target":"WARSAME","mood":"tense","intensity":2,"summary":"Defense counsel Lowe shows the witness could not have been at the warehouse."},
+{"start":22,"type":"presents","fine":"presents evidence to","actor":"LOWE","target":"WARSAME","mood":"suspense","intensity":3,"summary":"Hana passes a note, and Lowe presents a ticket stub placing Warsame at the Eastside pier."},
+{"start":35,"type":"leaves","fine":"exits quietly","actor":"WARSAME","target":null,"mood":"calm","intensity":2,"summary":"The Crown declines to cross-examine, Warsame steps down, and Lowe smiles thinly."}
+],
+"s01479": [
+{"start":1,"type":"confronts","fine":"presses","actor":"ARLETTE","target":"PRISS","mood":"tense","intensity":2,"summary":"Coach Arlette learns her team has dwindled to two before a bout in twenty minutes."},
+{"start":24,"type":"arrives","fine":"is introduced","actor":"ODALYS","target":"ARLETTE","mood":"hopeful","intensity":3,"summary":"Former Hellcat Odalys rolls in needing a team and is welcomed by Arlette."},
+{"start":39,"type":"decides","fine":"gives an order","actor":"ARLETTE","target":"PRISS","mood":"bittersweet","intensity":2,"summary":"Arlette sends the three skaters to the track; Odalys hopes someone else shows."}
+],
+"s00603": [
+{"start":1,"type":"works","fine":"works","actor":"LIESEL","target":null,"mood":"tense","intensity":3,"summary":"Dr. Liesel operates in a flooded tent as a satellite phone buzzes."},
+{"start":12,"type":"reveals","fine":"breaks news to","actor":"TOMAS","target":"LIESEL","mood":"fear","intensity":4,"summary":"Tomas tells her the bridge is closed and no helicopter can land."},
+{"start":22,"type":"decides","fine":"makes a plan","actor":"LIESEL","target":"TOMAS","mood":"tense","intensity":4,"summary":"Liesel steadies, refuses to abandon the patient, and asks for sutures, blood and Tomas on the radio."},
+{"start":40,"type":"bonds","fine":"confides in","actor":"LIESEL","target":"TOMAS","mood":"tender","intensity":3,"summary":"She asks Tomas to talk of anything, and he tells her about a goat as she sutures."}
+],
+"s00475": [
+{"start":1,"type":"searches","fine":"investigates","actor":"CASS","target":"FENWICK","mood":"suspense","intensity":3,"summary":"Foreman Cass finds the pale new hire Fenwick, who says bin six is warm and breathing."},
+{"start":17,"type":"discovers","fine":"notices","actor":"CASS","target":null,"mood":"fear","intensity":4,"summary":"They hear a slow rattle and see the grain heave as if something turns beneath it."},
+{"start":21,"type":"warns","fine":"warns","actor":"MARGUERITE","target":"CASS","mood":"ominous","intensity":4,"summary":"Inspector Marguerite appears, orders them to the stairs, and says the thing is listening."}
+],
+"s02283": [
+{"start":1,"type":"works","fine":"packs","actor":"MARGUERITE","target":"ODILE","mood":"melancholy","intensity":2,"summary":"Sisters clear their late father's lake cabin, bickering over their mother's cup and old pickles."},
+{"start":21,"type":"deflects","fine":"brushes off","actor":"ODILE","target":"DESMOND","mood":"awkward","intensity":2,"summary":"Desmond raises listing the house and Odile storms out after a neighbor returns a borrowed rod."},
+{"start":36,"type":"comforts","fine":"comforts","actor":"DESMOND","target":"MARGUERITE","mood":"tender","intensity":3,"summary":"Desmond unclenches Marguerite's hand and gives her their mother's cup filled with tea."},
+{"start":47,"type":"bonds","fine":"reconnects with","actor":"MARGUERITE","target":"ODILE","mood":"bittersweet","intensity":3,"summary":"Marguerite carries the cup to Odile on the dock and they share it in silence."}
+],
+"s00635": [
+{"start":1,"type":"pleads","fine":"asks for help from","actor":"TRISTAN","target":"LENNY","mood":"chaotic","intensity":3,"summary":"A groomer's van is stuck in a car wash while the operator offers only process-state replies."},
+{"start":23,"type":"confronts","fine":"demands answers from","actor":"LENNY","target":"WENDY","mood":"playful","intensity":3,"summary":"The soaked manager barges in demanding who is in charge and whether the poodle is licensed."},
+{"start":35,"type":"flees","fine":"bolts","actor":"WENDY","target":null,"mood":"triumphant","intensity":4,"summary":"Wendy floors the van through the barrier and out into daylight."}
+],
+"s02251": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"YUSRA","target":null,"mood":"tense","intensity":4,"summary":"The bridge crew reports a fuel leak and drifting toward a gas giant's gravity well."},
+{"start":13,"type":"discovers","fine":"notices","actor":"NILS","target":"YUSRA","mood":"suspense","intensity":3,"summary":"Nils detects an alien signal giving coordinates to an abandoned station."},
+{"start":33,"type":"decides","fine":"gives an order","actor":"YUSRA","target":"MATEO","mood":"tense","intensity":4,"summary":"Yusra orders a course to the station at the cost of most of the reserve."},
+{"start":49,"type":"reveals","fine":"shows","actor":"NILS","target":"YUSRA","mood":"ominous","intensity":4,"summary":"The message turns to plain text welcoming Marginalia, saying they've been waiting."}
+],
+"s01732": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"HESTER","target":null,"mood":"ominous","intensity":3,"summary":"Hester, Corwin and sleepwalking Ambrose climb through a rotted grain elevator."},
+{"start":10,"type":"defends","fine":"protects","actor":"HESTER","target":"AMBROSE","mood":"fear","intensity":5,"summary":"They haul the boy back from the chute as the wheat below rises like something waking."},
+{"start":19,"type":"discovers","fine":"realizes","actor":"HESTER","target":"AMBROSE","mood":"fear","intensity":5,"summary":"The boy's eyes open and they are not his."}
+],
+"s01710": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"ELVIRA","target":"LUDMILLA","mood":"hostile","intensity":3,"summary":"Rival divas quarrel over a dressing room and a stolen feather."},
+{"start":12,"type":"attacks","fine":"shoves","actor":"ELVIRA","target":"LUDMILLA","mood":"chaotic","intensity":4,"summary":"They tangle and tug headdresses until word comes that the Prince asks for the leading lady."},
+{"start":19,"type":"hides","fine":"masks a feeling","actor":"MAUD","target":"ELVIRA","mood":"playful","intensity":2,"summary":"Maud reminds them of the Prince, and both smile and sweep out together."}
+],
+"s00338": [
+{"start":1,"type":"searches","fine":"examines","actor":"OTIENO","target":null,"mood":"tense","intensity":2,"summary":"Maren and Otieno, trapped in a flooded silo, find a bricked-up door."},
+{"start":11,"type":"pleads","fine":"calls for","actor":"MAREN","target":null,"mood":"melancholy","intensity":2,"summary":"Maren calls for anyone above and gets only drips; they press their ears to the wall."},
+{"start":21,"type":"discovers","fine":"finds a clue","actor":"MAREN","target":null,"mood":"hopeful","intensity":4,"summary":"Maren strikes a signal on the wall and someone strikes back from beyond."}
+],
+"s02090": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"TREY","target":"IGNATIUS","mood":"tense","intensity":2,"summary":"Trey enters the pawnshop with a pillowcase and freezes at the sight of the detective."},
+{"start":21,"type":"discovers","fine":"catches","actor":"FARHADI","target":"TREY","mood":"suspense","intensity":3,"summary":"A radio reports a burglary suspect in a gray hoodie; the detective invites Trey for a walk."}
+],
+"s01237": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"BEEBE","target":"LOUISE","mood":"playful","intensity":2,"summary":"Two girls squabble about which of them the sour-faced counter boy is looking at."},
+{"start":14,"type":"jokes","fine":"teases","actor":"LOUISE","target":"ORVILLE","mood":"playful","intensity":2,"summary":"Louise coaxes the boy's name from him, Orville, and he offers free napkins."},
+{"start":46,"type":"persuades","fine":"flirts with","actor":"ORVILLE","target":"BEEBE","mood":"joyful","intensity":3,"summary":"Orville nervously asks Beebe out for Saturday and Louise accepts for her as the movie begins."}
+],
+"s00381": [
+{"start":1,"type":"searches","fine":"examines","actor":"ORLA","target":"MOTE","mood":"melancholy","intensity":2,"summary":"Salvage surveyor Orla finds a living weed in a derelict greenhouse with the android Mote."},
+{"start":16,"type":"persuades","fine":"coerces","actor":"ORLA","target":"MOTE","mood":"tense","intensity":3,"summary":"Orla demands Mote open the sealed seed vault, and he refuses under older orders."},
+{"start":26,"type":"attacks","fine":"wrestles","actor":"ORLA","target":"MOTE","mood":"chaotic","intensity":4,"summary":"She lunges for the panel, Mote catches her, and she cracks his faceplate."},
+{"start":30,"type":"discovers","fine":"stumbles on","actor":"ORLA","target":"MOTE","mood":"hopeful","intensity":4,"summary":"The vault unseals on its own, revealing glowing gold drawers, and both step through."}
+],
+"s02249": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"LUCINDA","target":null,"mood":"suspense","intensity":3,"summary":"Lucinda sneaks into the empty newsroom and locks the door behind her."},
+{"start":9,"type":"discovers","fine":"realizes","actor":"LUCINDA","target":null,"mood":"tense","intensity":3,"summary":"Her recorded message warns that they know about the drive and to use the old terminal."},
+{"start":20,"type":"works","fine":"writes","actor":"LUCINDA","target":null,"mood":"suspense","intensity":4,"summary":"She sends the documents from the old terminal as an elevator dings, then leaves."}
+],
+"s00430": [
+{"start":1,"type":"observes","fine":"watches","actor":"MBEKI","target":"BRANDVOLD","mood":"calm","intensity":2,"summary":"Mbeki and Brandvold scan the ridge and spot a farmer working with his buffalo."},
+{"start":14,"type":"deflects","fine":"brushes off","actor":"MBEKI","target":"BRANDVOLD","mood":"melancholy","intensity":3,"summary":"Brandvold says the farmer has nowhere to go, and Mbeki mutters that neither do they."},
+{"start":21,"type":"decides","fine":"chooses","actor":"MBEKI","target":"BRANDVOLD","mood":"bittersweet","intensity":3,"summary":"Mbeki has the radio report the farmer working his field and reports all quiet."}
+]
+}

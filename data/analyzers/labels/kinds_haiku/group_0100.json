@@ -1,0 +1,15 @@
+{
+  "pt_barbara_25": {"16": "setting", "17": "setting", "18": "setting", "19": "setting", "20": "setting", "21": "setting", "22": "setting", "24": "setting", "25": "setting", "26": "setting", "27": "setting"},
+  "pt_barbara_27": {"17": "setting"},
+  "pt_barbara_3": {"43": ["character", "LADY BRITOMART", "LOMAX", "SARAH", "BARBARA", "UNDERSHAFT"]},
+  "pt_barbara_32": {"20": ["character", "LADY BRITOMART"], "22": ["character", "LADY BRITOMART"]},
+  "pt_barbara_6": {"53": "event", "58": "setting", "59": "setting", "60": "setting", "61": "setting", "66": "setting"},
+  "pt_candida_0": {"1": "setting", "2": "abstract", "3": "abstract", "4": "setting", "5": "abstract", "6": "setting", "7": "setting", "8": "setting", "9": "setting", "10": "setting", "11": "setting", "12": "setting", "13": "setting", "16": "setting", "18": "setting", "19": "setting", "20": "setting", "21": "setting", "22": "setting", "23": "setting", "24": "setting", "25": "setting", "26": "setting", "27": "setting"},
+  "pt_candida_5": {"10": "setting", "11": "setting", "12": "setting", "13": "setting"},
+  "pt_candida_6": {"39": ["character", "BURGESS"], "85": "event"},
+  "pt_candida_10": {"36": ["character", "CANDIDA", "LEXY", "BURGESS"], "73": ["character", "BURGESS", "LEXY"]},
+  "pt_candida_11": {"21": "setting", "22": "setting", "23": "setting", "24": "setting", "26": ["character", "MARCHBANKS"], "27": "setting", "34": ["character", "CANDIDA"]},
+  "pt_candida_12": {"47": ["character", "MORELL"]},
+  "pt_candida_13": {"104": "event"},
+  "pt_enemy_0": {"14": "setting", "15": "setting", "16": "setting", "17": "setting", "18": "setting", "19": "setting", "20": "setting", "21": "setting", "24": "setting", "78": "event"}
+}

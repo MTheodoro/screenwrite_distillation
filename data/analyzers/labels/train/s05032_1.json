@@ -1,0 +1,19 @@
+{
+"scene_id": "s05032_1",
+"cast": {"DELPHINE VASS": "DELPHINE", "DELPHINE": "DELPHINE", "HALVORSEN": "HALVORSEN", "NARRATOR": "NARRATOR"},
+"beats": [1, 3, 7, 9, 10, 11],
+"lines": {
+"1": {"t": "A", "who": ["DELPHINE"], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"3": {"to": ["DELPHINE"], "emo": ["neutral", 0.4], "c": 0.9},
+"4": {"to": ["HALVORSEN"], "emo": ["neutral", 0.3], "c": 0.9},
+"5": {"to": ["DELPHINE"], "emo": ["neutral", 0.4], "c": 0.9},
+"6": {"to": ["HALVORSEN"], "emo": ["neutral", 0.3], "c": 0.9},
+"7": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"8": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"9": {"t": "A", "who": ["DELPHINE"], "emo": {}, "c": 0.9},
+"10": {"t": "A", "who": ["HALVORSEN"], "emo": {}, "c": 0.9},
+"11": {"to": ["NONE"], "emo": ["neutral", 0.3], "c": 0.9}
+},
+"tension": [10, 20, 25, 35, 40, 30]
+}

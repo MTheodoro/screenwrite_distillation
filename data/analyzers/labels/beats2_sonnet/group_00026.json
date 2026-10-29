@@ -1,0 +1,158 @@
+{
+"s02219": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MARTHA","target":"KAYLA","mood":"calm","intensity":1,"summary":"Strangers do laundry at dawn; Martha fusses over Kayla's socks and Arturo's broken machine."},
+{"start":23,"type":"arrives","fine":"makes an entrance","actor":"SOLANGE","target":null,"mood":"melancholy","intensity":3,"summary":"Solange enters in a muddy black dress with a bag of clothes and starts a wash."},
+{"start":35,"type":"comforts","fine":"consoles","actor":"MARTHA","target":"SOLANGE","mood":"tender","intensity":3,"summary":"Desiree sympathizes; Martha quietly offers Solange a folded pillowcase, and Solange sits beside her."}
+],
+"s00061": [
+{"start":1,"type":"works","fine":"prepares","actor":"ONWUACHI","target":"PENROSE","mood":"tense","intensity":3,"summary":"In a rain-soaked trench, Penrose and Onwuachi check on men and a trembling private."},
+{"start":14,"type":"attacks","fine":"lunges at","actor":"ONWUACHI","target":null,"mood":"chaotic","intensity":5,"summary":"A whistle blows, the trench erupts over the top, and Onwuachi drags frozen Elias with him."}
+],
+"s00884": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"KAELEN","target":null,"mood":"ominous","intensity":2,"summary":"Kaelen wades into a drowned library, where pale Selune rises and Old Bram whittles."},
+{"start":11,"type":"confronts","fine":"challenges","actor":"KAELEN","target":"SELUNE","mood":"tense","intensity":3,"summary":"Kaelen and Selune clash over the Index, each claiming it, until Bram mocks their certainty."},
+{"start":22,"type":"pleads","fine":"appeals to","actor":"KAELEN","target":"SELUNE","mood":"tender","intensity":3,"summary":"Kaelen asks to read one page, her mother's, and Selune softens."},
+{"start":27,"type":"discovers","fine":"uncovers","actor":"KAELEN","target":"SELUNE","mood":"bittersweet","intensity":4,"summary":"Selune hands her the book; its single line shows her mother waited every night."},
+{"start":36,"type":"jokes","fine":"lightens the mood for","actor":"OLD BRAM","target":null,"mood":"calm","intensity":1,"summary":"Old Bram drops down from his shelf and offers tea."}
+],
+"s01863": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"MAREN","target":"THEO","mood":"tense","intensity":2,"summary":"Agent Maren offers Theo water and coffee; he refuses and corrects her on the hours."},
+{"start":26,"type":"confronts","fine":"presses","actor":"MAREN","target":"THEO","mood":"suspense","intensity":3,"summary":"Maren asks about the drive in his sock; his smile fades and he denies having it."},
+{"start":35,"type":"reveals","fine":"presents evidence to","actor":"MAREN","target":"THEO","mood":"tense","intensity":4,"summary":"She slides a photo, takes his hand, and finds a locker stamp's ink on his palm."},
+{"start":54,"type":"leaves","fine":"leaves","actor":"MAREN","target":"THEO","mood":"tense","intensity":3,"summary":"Maren closes the folder and, at the door, suggests coffee; Theo asks for black."}
+],
+"s01163": [
+{"start":1,"type":"works","fine":"works","actor":"FALK","target":"BELLWEATHER","mood":"chaotic","intensity":4,"summary":"Dr. Falk and her team fight to stabilize a crashing patient, with a shaky resident."},
+{"start":17,"type":"works","fine":"works","actor":"FALK","target":"BELLWEATHER","mood":"tense","intensity":5,"summary":"The monitor flatlines; Falk defibrillates and gets a rhythm before he codes again."},
+{"start":31,"type":"confronts","fine":"challenges","actor":"ASHFORD","target":"FALK","mood":"tense","intensity":4,"summary":"Dr. Ashford takes over from Falk and shocks the patient back."}
+],
+"s01278": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ODETTE","target":null,"mood":"melancholy","intensity":2,"summary":"Odette, the ticket agent, plays an old tape of herself recording memories."},
+{"start":15,"type":"observes","fine":"listens to","actor":"ODETTE","target":null,"mood":"grief","intensity":3,"summary":"The tape says she was happiest in the booth; Odette murmurs 'Happier' and stares at the dark pier."},
+{"start":22,"type":"decides","fine":"changes course","actor":"ODETTE","target":null,"mood":"grief","intensity":4,"summary":"The recording urges her to go to the sea; she cuts it off and throws her cap."},
+{"start":38,"type":"leaves","fine":"leaves","actor":"ODETTE","target":null,"mood":"hopeful","intensity":3,"summary":"She pockets the cassette, switches off the lamp, and steps into the fog."}
+],
+"s00317": [
+{"start":1,"type":"works","fine":"works","actor":"MARISOL","target":"ISAURA","mood":"tense","intensity":2,"summary":"Coach Marisol pushes tired Isaura to swim another length on the early-morning deck."},
+{"start":18,"type":"works","fine":"works","actor":"ISAURA","target":"MARISOL","mood":"tense","intensity":3,"summary":"Isaura launches and Marisol paces the lane, shouting 'Long' until she touches the wall."},
+{"start":29,"type":"bonds","fine":"shares a moment with","actor":"ISAURA","target":"MARISOL","mood":"tender","intensity":2,"summary":"Marisol times a two-tenths improvement; they sit and talk about quitting and getting up."},
+{"start":51,"type":"jokes","fine":"banters with","actor":"MARISOL","target":"ISAURA","mood":"joyful","intensity":2,"summary":"They say 'Again' together, laugh, and rise for another swim."}
+],
+"s00075": [
+{"start":1,"type":"works","fine":"prepares","actor":"MARISOL","target":null,"mood":"suspense","intensity":2,"summary":"A four-person crew breaks into a cheese cave and Sunita picks a cabinet lock."},
+{"start":9,"type":"discovers","fine":"uncovers","actor":"MARISOL","target":null,"mood":"playful","intensity":2,"summary":"The cabinet opens on jars of centuries-old starter cultures and they load the duffel."},
+{"start":21,"type":"threatens","fine":"holds at gunpoint","actor":"MADAME THIBAULT","target":"MARISOL","mood":"tense","intensity":4,"summary":"Madame Thibault enters with a shotgun and orders them to put everything back."},
+{"start":30,"type":"reveals","fine":"comes clean to","actor":"MADAME THIBAULT","target":"SUNITA","mood":"playful","intensity":2,"summary":"They comply; Madame Thibault says she left the cabinet unlocked for mice."}
+],
+"s02511": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"THORVALD","target":"ISADORA","mood":"calm","intensity":1,"summary":"Patrollers and a lost guest relax in the warm hut; Isadora insists the sign was misplaced."},
+{"start":23,"type":"discovers","fine":"realizes","actor":"ELOISE","target":"ISADORA","mood":"suspense","intensity":4,"summary":"Base reports the only Isadora Vance checked out at noon; the guest's smile never changes."},
+{"start":43,"type":"reveals","fine":"unmasks","actor":"ISADORA","target":"THORVALD","mood":"fear","intensity":5,"summary":"Isadora reveals a hospital bracelet and says she did not make it down."},
+{"start":49,"type":"accuses","fine":"turns on","actor":"ISADORA","target":"THORVALD","mood":"ominous","intensity":5,"summary":"As Thorvald grips a probe, she recalls the east chute eleven years ago and the stove dies."}
+],
+"s01570": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"OKAFOR","target":"ELIAS","mood":"tense","intensity":3,"summary":"Inspector Okafor probes taxidermist Elias about Sunday night and a missing woman."},
+{"start":16,"type":"accuses","fine":"exposes","actor":"OKAFOR","target":"ELIAS","mood":"hostile","intensity":4,"summary":"Okafor says Mrs. Delacroix mentioned a second ledger hidden inside a badger."},
+{"start":37,"type":"attacks","fine":"fights","actor":"ELIAS","target":"OKAFOR","mood":"chaotic","intensity":4,"summary":"Elias lunges for the shelf; Okafor tackles him and they struggle over a scalpel."},
+{"start":46,"type":"discovers","fine":"uncovers","actor":"OKAFOR","target":"ELIAS","mood":"suspense","intensity":4,"summary":"The badger falls and splits open, spilling paper across the floor."}
+],
+"s00341": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"MBEKI","target":null,"mood":"tense","intensity":3,"summary":"Three soldiers keep tense silent watch from the bell tower at dawn."},
+{"start":13,"type":"lies","fine":"covers a story for","actor":"MBEKI","target":"MAJOR TULLY","mood":"tense","intensity":3,"summary":"Hosseini tells Command nothing moves while Mbeki whispers the line."},
+{"start":17,"type":"discovers","fine":"notices","actor":"ARNAUD","target":"MBEKI","mood":"ominous","intensity":4,"summary":"A metal clink in the fog, apparently from the church, and a bell suddenly tolls."}
+],
+"s01246": [
+{"start":1,"type":"deflects","fine":"brushes off","actor":"BARNABY","target":"ROSEMARY","mood":"tense","intensity":2,"summary":"In a burnt-pancake morning, Barnaby refuses to go as Rosemary juggles a call with Grandma."},
+{"start":22,"type":"confesses","fine":"opens up to","actor":"BARNABY","target":"GRANDMA","mood":"melancholy","intensity":3,"summary":"On the phone, Barnaby admits he won't run his sports day race because he always loses."},
+{"start":36,"type":"comforts","fine":"encourages","actor":"GRANDMA","target":"BARNABY","mood":"tender","intensity":3,"summary":"Grandma tells how Grandpa lost every race and enjoyed it; Barnaby almost smiles."},
+{"start":45,"type":"bonds","fine":"shares a moment with","actor":"ROSEMARY","target":"GRANDMA","mood":"bittersweet","intensity":3,"summary":"Rosemary laughs through tears at Grandma's burnt pancake advice and says she loves her."},
+{"start":53,"type":"comforts","fine":"tends to","actor":"ROSEMARY","target":"BARNABY","mood":"tender","intensity":2,"summary":"She serves Barnaby the burnt pancake; he eats it and reaches for his shoe."}
+],
+"s00100": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"IVO","target":"PETRA","mood":"tense","intensity":3,"summary":"Five siblings squabble on auction day over who gets the clock."},
+{"start":21,"type":"reveals","fine":"lets slip to","actor":"KIRSTEN","target":"IVO","mood":"tense","intensity":3,"summary":"Kirsten admits taking their mother's blue quilt, which she says Ma promised her."},
+{"start":36,"type":"decides","fine":"gives an order","actor":"IVO","target":"ANSELM","mood":"tender","intensity":3,"summary":"Ivo sits and rules the clock goes to whoever winds it; Anselm says he does."},
+{"start":40,"type":"bonds","fine":"reminisces with","actor":"KIRSTEN","target":"IVO","mood":"bittersweet","intensity":4,"summary":"Kirsten spreads the quilt and the siblings recall the barn and pump house together."}
+],
+"s00466": [
+{"start":1,"type":"confronts","fine":"confronts","actor":"AUGUSTUS","target":"EZEKIEL","mood":"tense","intensity":3,"summary":"Dr. Hellebore visits after hours demanding to know about foxglove dispensed to Mrs. Pennywhistle."},
+{"start":16,"type":"accuses","fine":"blames","actor":"EZEKIEL","target":"AUGUSTUS","mood":"hostile","intensity":3,"summary":"Ezekiel says Augustus prescribed a teaspoon, not a pinch; Augustus denies it."},
+{"start":23,"type":"reveals","fine":"presents evidence to","actor":"NELLIE","target":"AUGUSTUS","mood":"suspense","intensity":4,"summary":"Nellie produces the prescription slip in his own hand and holds her ground."},
+{"start":37,"type":"leaves","fine":"storms out","actor":"AUGUSTUS","target":"EZEKIEL","mood":"hostile","intensity":3,"summary":"Augustus drops his polite mask, threatens Ezekiel, and storms out into the rain."},
+{"start":41,"type":"bonds","fine":"thanks","actor":"EZEKIEL","target":"NELLIE","mood":"tender","intensity":2,"summary":"Ezekiel praises Nellie for keeping the slip, which he taught her."}
+],
+"s02204": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"FIONA","target":"AMARA","mood":"tense","intensity":3,"summary":"An ambulance brings in farmer Marcel, in chest pain and hypotensive, to a rural ER."},
+{"start":22,"type":"works","fine":"works","actor":"AMARA","target":"MARCEL","mood":"chaotic","intensity":5,"summary":"Marcel goes into V-fib; Amara and Ben shock him until a pulse returns."},
+{"start":45,"type":"jokes","fine":"banters with","actor":"AMARA","target":"FIONA","mood":"playful","intensity":2,"summary":"Dispatch asks for another run; Fiona, after thirty-one sleepless hours, accepts as they joke."},
+{"start":63,"type":"comforts","fine":"reassures","actor":"AMARA","target":"MARCEL","mood":"tender","intensity":2,"summary":"Marcel wakes and apologizes for the trouble; Amara and Ben wheel him inside."}
+],
+"s01676": [
+{"start":1,"type":"decides","fine":"gives an order","actor":"ISADORA","target":"BARNABY","mood":"chaotic","intensity":4,"summary":"Crew members shout over a venting greenhouse seal; the captain orders Rack Nine cut loose."},
+{"start":18,"type":"works","fine":"repairs something","actor":"BARNABY","target":null,"mood":"triumphant","intensity":3,"summary":"Barnaby slams the lever, the warning light dies, and everyone exhales."}
+],
+"s01511": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"KEN","target":"BEATRIX","mood":"awkward","intensity":2,"summary":"Ken greets his two bored employees with a laminated SYNERGY sign."},
+{"start":19,"type":"deflects","fine":"dodges","actor":"KEN","target":"BEATRIX","mood":"awkward","intensity":3,"summary":"Ken calls the closure a 'realignment' and a 'hybrid model' as Beatrix and Manny press him."},
+{"start":32,"type":"jokes","fine":"amuses","actor":"MANNY","target":"KEN","mood":"playful","intensity":3,"summary":"Ken drops the sign; all three collide and tumble, quipping about team-building."}
+],
+"s02287": [
+{"start":1,"type":"threatens","fine":"holds at gunpoint","actor":"CELESTE","target":"ISAAC","mood":"fear","intensity":4,"summary":"Armed Celeste silently descends toward Isaac, a mechanic on a ladder in an elevator shaft."},
+{"start":17,"type":"lies","fine":"covers a story for","actor":"ISAAC","target":"RADIO","mood":"suspense","intensity":4,"summary":"Isaac calmly answers his radio under her gun, then drops it down the shaft."},
+{"start":28,"type":"flees","fine":"escapes","actor":"ISAAC","target":"CELESTE","mood":"chaotic","intensity":5,"summary":"She fires; Isaac swings off the ladder and drops onto a rising counterweight."},
+{"start":32,"type":"hides","fine":"lies low","actor":"ISAAC","target":null,"mood":"bittersweet","intensity":2,"summary":"The counterweight sinks away from her; Isaac lies shaking and laughing silently."}
+],
+"s00900": [
+{"start":1,"type":"arrives","fine":"is ushered in","actor":"BLACKWOOD","target":"HENRIETTA","mood":"tense","intensity":2,"summary":"Constable Oakes brings a gentleman without a letter to bookkeeper Henrietta at night."},
+{"start":20,"type":"confronts","fine":"interrogates","actor":"HENRIETTA","target":"BLACKWOOD","mood":"tense","intensity":3,"summary":"Henrietta demands his name and business; Blackwood claims her employer owes him a sum."},
+{"start":30,"type":"discovers","fine":"catches","actor":"HENRIETTA","target":"BLACKWOOD","mood":"suspense","intensity":4,"summary":"She spots the forged paper by a looped T; Blackwood's hand drifts toward his coat."},
+{"start":42,"type":"decides","fine":"gives an order","actor":"HENRIETTA","target":"OAKES","mood":"triumphant","intensity":3,"summary":"Henrietta locks the paper away and has Oakes escort Blackwood out; her pen stays steady."}
+],
+"s02065": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"MARCELLUS","target":"EUSTACE","mood":"awkward","intensity":2,"summary":"Execs bicker over a pilot win and vague roadmap numbers while HR pleads for civility."},
+{"start":33,"type":"arrives","fine":"shows up unannounced","actor":"BARTHOLOMEW","target":null,"mood":"awkward","intensity":3,"summary":"The rumpled CEO Bart wanders in asking for coffee and who is winning."},
+{"start":50,"type":"reveals","fine":"drops a bombshell on","actor":"BARTHOLOMEW","target":"CHRISTABEL","mood":"tense","intensity":4,"summary":"Bart chews a croissant, then brings up the layoffs while everyone watches."}
+],
+"s02197": [
+{"start":1,"type":"observes","fine":"watches","actor":"CALLISTA","target":"ROOK","mood":"suspense","intensity":3,"summary":"Captain Callista and Rook spot the pirate ship Duskmaw turning at dawn."},
+{"start":14,"type":"decides","fine":"makes a plan","actor":"CALLISTA","target":"ROOK","mood":"playful","intensity":3,"summary":"Callista jokes about running and tells Rook to let the Duskmaw close, then drop the ballast."}
+],
+"s01904": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"ASTRID","target":"ISOLDE","mood":"tense","intensity":2,"summary":"Princess Astrid strides into the dragon's library and finds her mother unwelcoming."},
+{"start":12,"type":"confronts","fine":"presses","actor":"ASTRID","target":"ISOLDE","mood":"tense","intensity":3,"summary":"Astrid presses her mother about the dragon; Isolde says he asked her to read ledgers."},
+{"start":28,"type":"reveals","fine":"drops a bombshell on","actor":"ISOLDE","target":"ASTRID","mood":"ominous","intensity":4,"summary":"Isolde says the dragon asks about Astrid's sister; Astrid has none; the fire shrinks."},
+{"start":36,"type":"decides","fine":"gives an order","actor":"ISOLDE","target":"ASTRID","mood":"ominous","intensity":3,"summary":"Isolde tells Astrid to sit and bring the ledger for a long story."}
+],
+"s00077": [
+{"start":1,"type":"observes","fine":"studies","actor":"SOLEDAD","target":"NELL","mood":"tense","intensity":2,"summary":"Nell laces a skate in the empty rink while Soledad circles, silent."},
+{"start":8,"type":"confronts","fine":"calls out","actor":"SOLEDAD","target":"NELL","mood":"hostile","intensity":3,"summary":"Soledad reminds Nell she promised to tell her something, then skates off angrily."},
+{"start":26,"type":"reveals","fine":"breaks news to","actor":"NELL","target":"SOLEDAD","mood":"melancholy","intensity":4,"summary":"Nell says she is leaving and Soledad stops, stunned."},
+{"start":34,"type":"attacks","fine":"shoves","actor":"SOLEDAD","target":"NELL","mood":"grief","intensity":4,"summary":"Soledad throws her skate; Nell brings it back and offers it, but Soledad does not take it."}
+],
+"s02401": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"JOJO","target":"MARISOL","mood":"awkward","intensity":2,"summary":"Four siblings and Dev bicker in a camper van at a drive-in; Ansel hides under a sleeping bag."},
+{"start":21,"type":"lies","fine":"covers a story for","actor":"MARISOL","target":"MOTHER","mood":"tense","intensity":3,"summary":"Their mother calls and the sisters fib about the movie until she asks about Ansel."},
+{"start":39,"type":"bonds","fine":"shares a moment with","actor":"ANSEL","target":"JOJO","mood":"joyful","intensity":3,"summary":"Ansel says hi and is ordered home; they all burst into helpless laughter."}
+],
+"s00119": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MARI","target":"THE STRANGER","mood":"tense","intensity":2,"summary":"A bakery truck crew does a radio check on their handcuffed captive stranger."},
+{"start":30,"type":"persuades","fine":"bargains with","actor":"THE STRANGER","target":"MARI","mood":"tense","intensity":3,"summary":"The stranger offers double pay; Mari and Hector brush him off."},
+{"start":36,"type":"reveals","fine":"unmasks","actor":"HECTOR","target":"MARI","mood":"suspense","intensity":4,"summary":"Hector opens the case and finds the dossier naming the stranger as auditor Julian Ashworth-Mbeki."},
+{"start":55,"type":"jokes","fine":"lightens the mood for","actor":"JULIAN","target":"MARI","mood":"playful","intensity":2,"summary":"They argue over whether they got the right man; croissants spill and Julian suggests eating."}
+],
+"s02399": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"WINNIFRED","target":"JASPER","mood":"calm","intensity":1,"summary":"Grandma Winnifred sews while Jasper and Lotte quietly help in the sunny room."},
+{"start":20,"type":"jokes","fine":"banters with","actor":"JASPER","target":"WINNIFRED","mood":"tender","intensity":1,"summary":"Jasper asks how old the machine is and Gran says she's as old; the needle thuds on."}
+],
+"s01481": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ELIAS","target":null,"mood":"calm","intensity":1,"summary":"Elias sorts soldiers' letters into egg-crate pigeonholes in a requisitioned schoolroom."},
+{"start":10,"type":"hesitates","fine":"hesitates","actor":"ELIAS","target":null,"mood":"grief","intensity":3,"summary":"One letter gives him pause; he hears its news of the pear tree and a promise kept."},
+{"start":26,"type":"decides","fine":"refuses","actor":"ELIAS","target":null,"mood":"melancholy","intensity":3,"summary":"He writes RETURNED on it, erases it, and wipes the blackboard to the nines."},
+{"start":35,"type":"hides","fine":"keeps a secret","actor":"ELIAS","target":null,"mood":"melancholy","intensity":3,"summary":"He puts the letter in the highest pigeonhole and says 'Not today'."}
+],
+"s01572": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"KOFI","target":"PRIYA","mood":"awkward","intensity":2,"summary":"Priya folds towels while Dev says a strange teen claims to be his cousin."},
+{"start":12,"type":"lies","fine":"plays along with","actor":"PRIYA","target":"KOFI","mood":"hopeful","intensity":3,"summary":"Priya accepts him as Aunt Lena's son Kofi, and Mrs. Abernathy calls them a lovely family."},
+{"start":20,"type":"bonds","fine":"teams up with","actor":"KOFI","target":"PRIYA","mood":"tender","intensity":2,"summary":"Kofi says he'll stay a week; Priya agrees and Dev grins."}
+]
+}

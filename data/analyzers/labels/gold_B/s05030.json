@@ -1,0 +1,23 @@
+{
+  "scene_id": "s05030",
+  "cast": {"THE WOMAN": "MARGUERITE", "Marguerite": "MARGUERITE", "TEO": "TEO"},
+  "beats": [1, 5, 7, 8, 10, 12, 15, 16],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["TEO"], "emo": {}, "c": 0.8},
+    "6": {"t": "A", "who": ["MARGUERITE"], "emo": {}, "c": 0.8},
+    "7": {"to": ["TEO"], "emo": ["disgust", 0.3], "c": 0.9},
+    "8": {"to": ["MARGUERITE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "9": {"to": ["TEO"], "emo": ["neutral", 0.3], "c": 0.95},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "12": {"t": "A", "who": ["TEO"], "emo": {}, "c": 0.85},
+    "13": {"t": "D", "who": ["TEO"], "emo": {"TEO": ["fear", 0.5]}, "c": 0.85},
+    "14": {"t": "A", "who": ["TEO"], "emo": {}, "c": 0.85},
+    "15": {"to": ["MARGUERITE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "16": {"to": ["TEO"], "emo": ["neutral", 0.2], "c": 0.95}
+  }
+}

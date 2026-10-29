@@ -1,0 +1,24 @@
+{
+  "scene_id": "s05187_0",
+  "cast": {"WAITER": "WAITER", "TEENAGERS": "TEENAGERS", "DOG": "DOG", "TAVI BROOKS": "TAVI", "TAVI": "TAVI", "RHEA NAKAGAWA": "RHEA", "RHEA": "RHEA", "OSEI": "OSEI"},
+  "beats": [1, 10, 14],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["WAITER"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["TEENAGERS"], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["DOG"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["TAVI"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["RHEA"], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["OSEI"], "emo": {}, "c": 0.95},
+    "10": {"to": ["TAVI"], "emo": ["neutral", 0.3], "c": 0.95},
+    "11": {"to": ["RHEA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"t": "A", "who": ["RHEA"], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "14": {"to": ["RHEA"], "emo": ["sadness", 0.4], "c": 0.9},
+    "15": {"t": "A", "who": ["RHEA", "TAVI"], "emo": {}, "c": 0.95},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.8}
+  },
+  "tension": [5, 30, 40]
+}

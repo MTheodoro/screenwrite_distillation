@@ -1,0 +1,150 @@
+{
+"s02082": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"TANVEER","target":"MBALI","mood":"playful","intensity":2,"summary":"Residents argue in whispers in a zero-gravity laundromat as clothes float in soap."},
+{"start":7,"type":"accuses","fine":"points the finger at","actor":"LIN","target":"OSKAR","mood":"tense","intensity":3,"summary":"Lin demands who washed coolant; everyone looks at Oskar, and Doc Fenwick orders them out."},
+{"start":17,"type":"flees","fine":"scrambles away","actor":"RHEA","target":null,"mood":"chaotic","intensity":4,"summary":"A washer turns red and bursts, engulfing all six in pink foam."}
+],
+"s02275": [
+{"start":1,"type":"searches","fine":"examines","actor":"KESTREL","target":null,"mood":"tense","intensity":2,"summary":"Six people check sleeper pods in a frozen cryo-vault, counting aloud."},
+{"start":17,"type":"discovers","fine":"discovers","actor":"BRIGHT","target":"KESTREL","mood":"fear","intensity":5,"summary":"Bright says count again; every pod is open and empty, and Kestrel asks who counted them."}
+],
+"s01011": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"CLERK","target":"RHONDA","mood":"awkward","intensity":2,"summary":"Strangers do laundry in a motel laundry room, trading banal remarks about stains."},
+{"start":20,"type":"discovers","fine":"notices","actor":"LAMAR","target":"CLERK","mood":"ominous","intensity":3,"summary":"A washer runs pink and Rhonda's baby monitor picks up wet breathing."},
+{"start":33,"type":"reveals","fine":"comes clean to","actor":"DALE","target":"LAMAR","mood":"suspense","intensity":4,"summary":"The clerk gives his name Dale; the breathing comes from a dryer, and Trudy opens it."}
+],
+"s00063": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"THESSALONIKE","target":null,"mood":"hopeful","intensity":2,"summary":"Thessalonike's skiff crashes into the dock of a floating sky-market."},
+{"start":17,"type":"decides","fine":"makes a plan","actor":"THESSALONIKE","target":"CORNELIUS","mood":"playful","intensity":2,"summary":"She assigns errands and they split up to hunt for an unmapped passage."},
+{"start":25,"type":"searches","fine":"looks for","actor":"THESSALONIKE","target":null,"mood":"hopeful","intensity":3,"summary":"Cornelius buys saffron, Morwenna awes a weaver, and Thessalonike finds an iron door."},
+{"start":35,"type":"bonds","fine":"teams up with","actor":"THESSALONIKE","target":"CORNELIUS","mood":"suspense","intensity":3,"summary":"They regroup; the door opens on a stair of falling stars and they enter."}
+],
+"s00441": [
+{"start":1,"type":"arrives","fine":"bursts in","actor":"MILDRED","target":"HARRY","mood":"chaotic","intensity":3,"summary":"Honeymoon morning erupts as Harry, Gwendolyn, Mildred and a bellhop pile into the suite."},
+{"start":7,"type":"attacks","fine":"fights","actor":"HARRY","target":"PARROT","mood":"chaotic","intensity":4,"summary":"Bellhop trips with the cart and a parrot lands on him; slapstick chaos ensues."},
+{"start":23,"type":"reveals","fine":"shows","actor":"LIONEL","target":"HARRY","mood":"playful","intensity":2,"summary":"Pearls found on the breakfast tray; Mildred grimly claims them and exits."}
+],
+"s01994": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"ARVID","target":null,"mood":"ominous","intensity":2,"summary":"Four people gather at a table with a briefcase in a ghost subway station."},
+{"start":9,"type":"persuades","fine":"negotiates with","actor":"ARVID","target":"LORCAN","mood":"tense","intensity":3,"summary":"Arvid refuses to open the briefcase yet, warning it will bind them all."},
+{"start":26,"type":"accuses","fine":"implicates","actor":"ARVID","target":"IRENE","mood":"hostile","intensity":4,"summary":"Arvid probes Lorcan and Irene about the night a man was found dead."},
+{"start":50,"type":"reveals","fine":"exposes a secret to","actor":"TAMSIN","target":"IRENE","mood":"ominous","intensity":4,"summary":"Tamsin reveals the case holds Dominic's record, and Arvid offers three choices."},
+{"start":65,"type":"decides","fine":"commits","actor":"IRENE","target":"ARVID","mood":"suspense","intensity":4,"summary":"Tamsin sits Lorcan down; Irene opens the latch and light spills out."}
+],
+"s02414": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ROSALEEN","target":null,"mood":"calm","intensity":1,"summary":"Veteran night nurse Rosaleen dictates notes and ignores a blinking call light."},
+{"start":20,"type":"works","fine":"cleans","actor":"ROSALEEN","target":null,"mood":"calm","intensity":1,"summary":"She checks bay six, finds a sleeping patient, and straightens his blanket."},
+{"start":26,"type":"discovers","fine":"notices","actor":"ROSALEEN","target":null,"mood":"ominous","intensity":3,"summary":"Her recorder plays back an unremembered voice saying it's cold in here."},
+{"start":44,"type":"hides","fine":"masks a feeling","actor":"ROSALEEN","target":null,"mood":"ominous","intensity":3,"summary":"She mutters long night and walks the ward checking each bay."}
+],
+"s00159": [
+{"start":1,"type":"hides","fine":"lies low","actor":"ASTRID","target":null,"mood":"melancholy","intensity":3,"summary":"Stranded Astrid tries her emergency radio and gets only static."},
+{"start":16,"type":"confesses","fine":"unburdens to","actor":"ASTRID","target":null,"mood":"grief","intensity":3,"summary":"She plays a recording telling her mother she wasn't scared."},
+{"start":22,"type":"observes","fine":"watches","actor":"ASTRID","target":null,"mood":"fear","intensity":3,"summary":"A shape on the ridge turns out to be a caribou, which wanders off."},
+{"start":34,"type":"pleads","fine":"calls for","actor":"ASTRID","target":null,"mood":"hopeful","intensity":4,"summary":"The radio clicks back three times and Astrid announces she is alive."}
+],
+"s01970": [
+{"start":1,"type":"reveals","fine":"breaks news to","actor":"NGOZI","target":"TOMASZ","mood":"tense","intensity":3,"summary":"Foreman Ngozi tells her plow crew the county cut the overnight run."},
+{"start":14,"type":"pleads","fine":"appeals to","actor":"BILLIE","target":"NGOZI","mood":"melancholy","intensity":3,"summary":"Arlo plans a grievance while rookie Billie and Tomasz absorb the loss."},
+{"start":27,"type":"reveals","fine":"comes clean to","actor":"NGOZI","target":"TOMASZ","mood":"grief","intensity":4,"summary":"Ngozi admits she took a deal that cuts Tomasz and Billie."},
+{"start":45,"type":"jokes","fine":"lightens the mood for","actor":"TOMASZ","target":"BILLIE","mood":"bittersweet","intensity":3,"summary":"Tomasz coaxes Billie to say she wants to burn it down; they laugh, then he turns away."},
+{"start":58,"type":"decides","fine":"commits","actor":"NGOZI","target":null,"mood":"hopeful","intensity":3,"summary":"Ngozi signs the grievance first and passes it around to file at nine."}
+],
+"s02494": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"ODILE","target":null,"mood":"suspense","intensity":3,"summary":"Five thieves drop through a skylight into a tide mill museum at night."},
+{"start":11,"type":"works","fine":"prepares","actor":"ODILE","target":null,"mood":"tense","intensity":3,"summary":"They take positions and Fenwick cracks the case on the bronze tide-clock."},
+{"start":38,"type":"lies","fine":"covers a story for","actor":"DELILAH","target":"FRANK","mood":"suspense","intensity":4,"summary":"The drugged guard appears; Delilah steers him back to bed while the crew freezes."},
+{"start":54,"type":"leaves","fine":"exits quietly","actor":"ODILE","target":null,"mood":"calm","intensity":2,"summary":"They pack the clock and climb out; Odile blesses the wheel."}
+],
+"s01266": [
+{"start":1,"type":"confronts","fine":"questions witnesses","actor":"QUIGLEY-ABARA","target":"PRUNELLA","mood":"tense","intensity":2,"summary":"Inspector Quigley-Abara asks housekeeper Prunella about finding the professor's body."},
+{"start":14,"type":"discovers","fine":"finds a clue","actor":"QUIGLEY-ABARA","target":"PRUNELLA","mood":"suspense","intensity":3,"summary":"The Inspector finds chalk and sees Prunella hiding a lipstick-marked sherry glass."},
+{"start":24,"type":"confronts","fine":"corners","actor":"QUIGLEY-ABARA","target":"PRUNELLA","mood":"tense","intensity":4,"summary":"She presses Prunella about sherry and the stool; the saw cut shows it wasn't a fall."},
+{"start":46,"type":"confesses","fine":"admits guilt to","actor":"PRUNELLA","target":"QUIGLEY-ABARA","mood":"melancholy","intensity":4,"summary":"Prunella admits sawing the stool because he would sell the telescope."},
+{"start":55,"type":"decides","fine":"accepts","actor":"PRUNELLA","target":"QUIGLEY-ABARA","mood":"bittersweet","intensity":3,"summary":"Prunella sits resigned as the Inspector bags the glass and promises tea."}
+],
+"s01527": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"CORDELIA","target":"GUS","mood":"calm","intensity":2,"summary":"Detective Cordelia joins Gus in a funeral parlour viewing room at his request."},
+{"start":24,"type":"bonds","fine":"shares a moment with","actor":"GUS","target":"CORDELIA","mood":"awkward","intensity":2,"summary":"Gus pours tea, asks her to sit, and talks of forty years with his wife."},
+{"start":38,"type":"confronts","fine":"presses","actor":"CORDELIA","target":"GUS","mood":"tense","intensity":4,"summary":"Cordelia raises wrist bruising and the staircase, and Gus offers evasions."},
+{"start":54,"type":"accuses","fine":"exposes","actor":"CORDELIA","target":"GUS","mood":"hostile","intensity":4,"summary":"She produces an evidence bag and breaks his lodge alibi with the sign-in book."},
+{"start":63,"type":"confesses","fine":"owns up to","actor":"GUS","target":"CORDELIA","mood":"melancholy","intensity":4,"summary":"Gus drops his mask, says she did not suffer, and offers his wrists."}
+],
+"s00599": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"KOVACS","target":"SPUDS","mood":"tense","intensity":3,"summary":"Boss Kovacs demands the money from jittery Spuds, who is nineteen thousand short."},
+{"start":20,"type":"reveals","fine":"shows","actor":"DEACON","target":"KOVACS","mood":"suspense","intensity":4,"summary":"Kovacs orders Deacon to open his basket, revealing banded cash."},
+{"start":31,"type":"defends","fine":"covers for","actor":"DEACON","target":"SPUDS","mood":"tender","intensity":3,"summary":"Deacon says he was keeping the money safe for Spuds' coming baby."}
+],
+"s01712": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"JOANNA","target":null,"mood":"melancholy","intensity":3,"summary":"Joanna hesitates over a phone beside cold noodles, then calls Daniel."},
+{"start":15,"type":"pleads","fine":"calls for","actor":"JOANNA","target":"DANIEL","mood":"grief","intensity":4,"summary":"She hears Daniel's voicemail greeting, cannot leave a message, and hangs up."},
+{"start":27,"type":"observes","fine":"hesitates","actor":"JOANNA","target":"DANIEL","mood":"tense","intensity":3,"summary":"The phone buzzes with Daniel's name; she lets it ring before answering silently."},
+{"start":36,"type":"confesses","fine":"begs forgiveness from","actor":"DANIEL","target":"JOANNA","mood":"tender","intensity":4,"summary":"Daniel apologizes for not calling sooner; Joanna weeps and smiles."}
+],
+"s00971": [
+{"start":1,"type":"decides","fine":"gives an order","actor":"TAVITA","target":"NELL","mood":"fear","intensity":4,"summary":"Hull pressure drops in the orchard; Tavita tries to keep the crew calm."},
+{"start":10,"type":"decides","fine":"makes a plan","actor":"ISAAK","target":"MEI-LIN","mood":"tense","intensity":5,"summary":"With thirty seconds of air, Isaak assigns drones, patch kit and Osei's retreat."}
+],
+"s01682": [
+{"start":1,"type":"works","fine":"cleans","actor":"WALTER","target":"GRETCHEN","mood":"calm","intensity":1,"summary":"Gretchen counts plates while a cardigan-wearing man scrubs pans in an empty kitchen."},
+{"start":10,"type":"deflects","fine":"plays dumb with","actor":"WALTER","target":"GRETCHEN","mood":"playful","intensity":2,"summary":"Walter says he's with the Thursday group but is on no sign-in sheet; the clock is stuck."}
+],
+"s01949": [
+{"start":1,"type":"works","fine":"works","actor":"MAHOE","target":"TOMASZ","mood":"calm","intensity":2,"summary":"Dr. Mahoe's surgical team works toward closing in ten minutes."},
+{"start":15,"type":"discovers","fine":"notices","actor":"ROSA","target":"MAHOE","mood":"tense","intensity":4,"summary":"The anaesthetist reports saturation dropping to ninety-one; Mahoe orders ventilation."},
+{"start":25,"type":"observes","fine":"takes it in","actor":"TOMASZ","target":null,"mood":"calm","intensity":2,"summary":"Tomasz exhales as the monitor settles."}
+],
+"s00131": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"BASILE","target":null,"mood":"awkward","intensity":2,"summary":"Six people squeeze around a wedding cake in a hotel service elevator."},
+{"start":10,"type":"flees","fine":"scrambles away","actor":"TILDA","target":null,"mood":"chaotic","intensity":3,"summary":"The elevator stalls and the group bickers and panics about heat and the alarm."},
+{"start":28,"type":"defends","fine":"protects","actor":"BASILE","target":null,"mood":"chaotic","intensity":4,"summary":"The cake sways and everyone lunges in a chain to save it."},
+{"start":43,"type":"reveals","fine":"drops a bombshell on","actor":"MOIRA","target":"SHANICE","mood":"tense","intensity":5,"summary":"The bride announces she is leaving the groom; doors open on two hundred guests."}
+],
+"s01333": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"HESS","target":null,"mood":"melancholy","intensity":3,"summary":"Six survivors crowd a lifeboat at dawn with an empty water jug."},
+{"start":11,"type":"comforts","fine":"steadies","actor":"HESS","target":"DMITRI","mood":"grief","intensity":3,"summary":"A cracking oar sets off bickering; Hess forbids seawater and says they are alive."}
+],
+"s01578": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"KAGWE","target":"LUNDQVIST","mood":"tense","intensity":3,"summary":"Kagwe challenges Commander Lundqvist's reassuring oxygen figures and accuses him of lying."},
+{"start":18,"type":"attacks","fine":"shoves","actor":"LUNDQVIST","target":"KAGWE","mood":"chaotic","intensity":4,"summary":"A leak appears; they fight over patching it and shove each other."},
+{"start":37,"type":"discovers","fine":"notices","actor":"KAGWE","target":"LUNDQVIST","mood":"fear","intensity":5,"summary":"Alarms chirp; something large and pale slides past the porthole."}
+],
+"s00822": [
+{"start":1,"type":"works","fine":"works","actor":"VOSS","target":"TOBIAS","mood":"calm","intensity":1,"summary":"Dr. Voss and her relaxed team finish a flawless surgery in a rooftop greenhouse."},
+{"start":16,"type":"arrives","fine":"makes an entrance","actor":"ANSELM","target":"VOSS","mood":"ominous","intensity":3,"summary":"Chief of surgery Anselm enters and summons Voss outside, silencing the room."}
+],
+"s02373": [
+{"start":1,"type":"confronts","fine":"calls out","actor":"DEE","target":"BARNABY","mood":"playful","intensity":2,"summary":"Accountant Dee catches Barnaby's prize-pool math error; the hat cost twenty-eight dollars."},
+{"start":19,"type":"bonds","fine":"shares a moment with","actor":"BARNABY","target":"DEE","mood":"tender","intensity":2,"summary":"A cosy lull as they praise the year and wonder about the lone finalist Smith."},
+{"start":33,"type":"arrives","fine":"shows up unannounced","actor":"VANCE","target":"MARCUS","mood":"tense","intensity":4,"summary":"The stranger reveals his name is Vance, Marcus's estranged father."},
+{"start":47,"type":"confronts","fine":"demands answers from","actor":"MARCUS","target":"VANCE","mood":"bittersweet","intensity":4,"summary":"Marcus recalls nine years of absence; Vance says he watched through the fence."},
+{"start":61,"type":"decides","fine":"commits","actor":"MARCUS","target":"VANCE","mood":"hopeful","intensity":3,"summary":"Marcus proposes eighteen holes, loser asks a question; they take their putters."}
+],
+"s01582": [
+{"start":1,"type":"accuses","fine":"blames","actor":"ANDRES","target":"MARIBEL","mood":"hostile","intensity":3,"summary":"Stranded siblings blame each other over dry radiator, spent water and the wrong turn."},
+{"start":31,"type":"discovers","fine":"notices","actor":"MARIBEL","target":"ANDRES","mood":"hopeful","intensity":3,"summary":"A dust plume appears on the horizon; Maribel warns him not to hope."},
+{"start":42,"type":"pleads","fine":"asks for help from","actor":"MARIBEL","target":"BENEDICTO","mood":"hopeful","intensity":4,"summary":"Old Benedicto arrives in a pickup and gives Maribel water, urging her to drink slowly."}
+],
+"s01522": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"PRIYA","target":"WALLY","mood":"awkward","intensity":2,"summary":"Priya answers email inside a nap pod; VP Wally audits her nap quota."},
+{"start":15,"type":"reveals","fine":"lets slip to","actor":"SUNNIVA","target":"PRIYA","mood":"tense","intensity":3,"summary":"Chief Wellbeing Officer Sunniva lets slip the layoff announcement coming after her nap."},
+{"start":25,"type":"lies","fine":"fakes it with","actor":"PRIYA","target":"WALLY","mood":"playful","intensity":3,"summary":"Priya closes her laptop and fakes snoring while Wally sweats."}
+],
+"s00521": [
+{"start":1,"type":"observes","fine":"watches","actor":"BART","target":"NKEM","mood":"melancholy","intensity":2,"summary":"Bart watches Nkem stare at child's pajamas in a 3 a.m. laundromat."},
+{"start":9,"type":"confesses","fine":"breaks down to","actor":"NKEM","target":"BART","mood":"grief","intensity":4,"summary":"Nkem erupts, hurls the pajamas, then slumps and says her daughter is fine upstairs."},
+{"start":24,"type":"comforts","fine":"steadies","actor":"BART","target":"NKEM","mood":"tender","intensity":2,"summary":"Bart sits on a bucket and tells her to fold the rest."}
+],
+"s02444": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"SAOIRSE","target":null,"mood":"melancholy","intensity":2,"summary":"Exhausted Dr. Saoirse enters an empty shipboard theatre and plays a surgical recording."},
+{"start":18,"type":"confesses","fine":"breaks down to","actor":"SAOIRSE","target":null,"mood":"grief","intensity":4,"summary":"The recording of a patient's death shakes her; she says she did everything right."},
+{"start":36,"type":"works","fine":"writes","actor":"SAOIRSE","target":null,"mood":"grief","intensity":4,"summary":"She dictates the cause of death, voice breaking, and whispers an apology."},
+{"start":46,"type":"comforts","fine":"consoles","actor":"SAOIRSE","target":null,"mood":"melancholy","intensity":3,"summary":"She wraps herself in a blanket and sits alone in the dark."}
+],
+"s01982": [
+{"start":1,"type":"mocks","fine":"belittles","actor":"PEMBERTON-HALE","target":"GWENDOLYN","mood":"hostile","intensity":3,"summary":"Pemberton-Hale berates Gwendolyn over a four percent productivity dip while a gray man watches."},
+{"start":16,"type":"discovers","fine":"realizes","actor":"PEMBERTON-HALE","target":"VOSS","mood":"suspense","intensity":3,"summary":"A call reveals the gray man is efficiency reviewer Voss, to Pemberton-Hale's dismay."},
+{"start":32,"type":"confronts","fine":"presses","actor":"VOSS","target":"PEMBERTON-HALE","mood":"tense","intensity":3,"summary":"Voss shows the department meets target, undercutting the manager's complaint."},
+{"start":38,"type":"leaves","fine":"excuses themself","actor":"GWENDOLYN","target":null,"mood":"triumphant","intensity":2,"summary":"Gwendolyn calmly excuses herself to file claims and closes the door."}
+]
+}

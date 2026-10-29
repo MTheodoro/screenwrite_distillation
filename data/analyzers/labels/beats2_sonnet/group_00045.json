@@ -1,0 +1,136 @@
+{
+"s01768": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"HATTIE","target":null,"mood":"awkward","intensity":1,"summary":"Five jurors sit with feet on rungs in a flooded jury room, tired and bickering."},
+{"start":18,"type":"confronts","fine":"calls out","actor":"HATTIE","target":"ROMAN","mood":"playful","intensity":2,"summary":"Hattie confiscates Roman's flask and calls a show of hands, three to two guilty."},
+{"start":28,"type":"confronts","fine":"challenges","actor":"BEVERLY","target":"ESTELLE","mood":"tense","intensity":3,"summary":"Beverly and Estelle argue over whether an apology equals guilt."},
+{"start":33,"type":"discovers","fine":"notices","actor":"HATTIE","target":null,"mood":"ominous","intensity":4,"summary":"The foreman's chair is pulled out with a wet gown folded on it."},
+{"start":43,"type":"discovers","fine":"realizes","actor":"SUNIL","target":null,"mood":"fear","intensity":4,"summary":"Sunil miscounts five jurors, and his motionless reflection stares back; he changes his vote."}
+],
+"s02091": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"LORETTA","target":"ELIJAH","mood":"playful","intensity":2,"summary":"Bingo players squabble over a moved dauber and imaginary lanes."},
+{"start":23,"type":"accuses","fine":"blames","actor":"LORETTA","target":"ELIJAH","mood":"hostile","intensity":3,"summary":"Loretta reveals she is angry about Tuesday, when Elijah told the priest she spread rumors."},
+{"start":36,"type":"confronts","fine":"presses","actor":"PHILOMENA","target":"LORETTA","mood":"tense","intensity":3,"summary":"Loretta admits telling eleven people the roof fund was short four thousand dollars."},
+{"start":52,"type":"confesses","fine":"owns up to","actor":"ELIJAH","target":"LORETTA","mood":"awkward","intensity":3,"summary":"Elijah admits a clerical error he never corrected, then apologizes repeatedly."},
+{"start":70,"type":"bonds","fine":"reconnects with","actor":"LORETTA","target":"ELIJAH","mood":"bittersweet","intensity":2,"summary":"Loretta forgives him, and they start the game, Loretta winning the first number."}
+],
+"s01530_0": [
+{"start":1,"type":"searches","fine":"looks for","actor":"NADEZHDA","target":null,"mood":"suspense","intensity":3,"summary":"Nadezhda plays a voice memo of herself directing her to check a car trunk."},
+{"start":20,"type":"discovers","fine":"finds a clue","actor":"NADEZHDA","target":null,"mood":"tense","intensity":3,"summary":"Under the felt lining she finds a taped flash drive."},
+{"start":25,"type":"discovers","fine":"notices","actor":"NADEZHDA","target":null,"mood":"fear","intensity":4,"summary":"The recorded voice forbids the elevator, which is climbing to her floor."},
+{"start":38,"type":"flees","fine":"runs","actor":"NADEZHDA","target":null,"mood":"fear","intensity":5,"summary":"Footsteps close in; she smashes the phone and sprints for the stairwell."}
+],
+"s01630": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"BOUCHARD","target":null,"mood":"calm","intensity":1,"summary":"Bouchard logs unchanging barometer readings at an isolated weather station."},
+{"start":9,"type":"deflects","fine":"brushes off","actor":"BOUCHARD","target":"FENWICK","mood":"melancholy","intensity":2,"summary":"On the radio, Bouchard reports nothing at all while Fenwick says hold position."},
+{"start":23,"type":"observes","fine":"takes it in","actor":"BOUCHARD","target":null,"mood":"melancholy","intensity":2,"summary":"Bouchard jokes to the empty room, writes no change, and vows to paint the wall."}
+],
+"s01968": [
+{"start":1,"type":"works","fine":"works","actor":"EZRA","target":"MERCY","mood":"tense","intensity":2,"summary":"Ezra hauls up mud from the well shaft while Mercy holds the rope."},
+{"start":16,"type":"arrives","fine":"makes an entrance","actor":"ANSEL","target":"EZRA","mood":"ominous","intensity":3,"summary":"Land agent Ansel rides in and says the bank now owns the claim."},
+{"start":28,"type":"threatens","fine":"issues an ultimatum to","actor":"ANSEL","target":"EZRA","mood":"hostile","intensity":3,"summary":"Ansel leaves a paper and gives them until sundown."},
+{"start":39,"type":"pleads","fine":"bargains for mercy with","actor":"MERCY","target":"ANSEL","mood":"hopeful","intensity":3,"summary":"Mercy insists there is water and begs an hour; Ansel grants it."},
+{"start":46,"type":"works","fine":"works","actor":"EZRA","target":null,"mood":"hopeful","intensity":2,"summary":"Ansel waits in the wagon's shade as Ezra descends and Mercy hauls."}
+],
+"s00073": [
+{"start":1,"type":"observes","fine":"studies","actor":"JUDGE FENWICK","target":"MAXWELL","mood":"awkward","intensity":2,"summary":"A flood-ruined casino serves as a courtroom, with a roulette bench and nervous prosecutor."},
+{"start":11,"type":"accuses","fine":"charges","actor":"MAXWELL","target":"CLEMENTINE","mood":"tense","intensity":2,"summary":"Maxwell accuses the defendant of opening the sluice gates; Clementine's objection is sustained."},
+{"start":16,"type":"searches","fine":"looks for","actor":"MAXWELL","target":"NORBERT","mood":"playful","intensity":2,"summary":"Maxwell calls the night watchman, but the bailiff finds no one at the door."},
+{"start":24,"type":"confronts","fine":"challenges","actor":"CLEMENTINE","target":"JUDGE FENWICK","mood":"triumphant","intensity":3,"summary":"Clementine dismantles the State's case and moves to dismiss."},
+{"start":30,"type":"decides","fine":"decides","actor":"JUDGE FENWICK","target":"CLEMENTINE","mood":"playful","intensity":2,"summary":"The judge spins the roulette wheel, calls red seventeen, and dismisses the case."}
+],
+"s01254": [
+{"start":1,"type":"observes","fine":"watches","actor":"AUGUSTUS","target":null,"mood":"ominous","intensity":2,"summary":"Outlaws wake at a canyon camp as Augustus spots smoke on the horizon."},
+{"start":28,"type":"reveals","fine":"drops a bombshell on","actor":"AUGUSTUS","target":"ELIJAH","mood":"fear","intensity":4,"summary":"Augustus counts eleven riders against their four, and Elijah lights his match slowly."},
+{"start":42,"type":"decides","fine":"makes a plan","actor":"ELIJAH","target":"PEPPER","mood":"ominous","intensity":3,"summary":"Pepper proposes riding away; Elijah says they would be seen, and she resigns."},
+{"start":49,"type":"comforts","fine":"reassures","actor":"ELIJAH","target":"TOBIAS","mood":"bittersweet","intensity":3,"summary":"Tobias wakes and Elijah hands him the unlit cigarette for after."},
+{"start":75,"type":"defends","fine":"stands up for","actor":"PEPPER","target":"TOBIAS","mood":"tense","intensity":4,"summary":"As hoofbeats rumble, Pepper and Tobias both insist the boy has a right to a gun."},
+{"start":87,"type":"decides","fine":"commits","actor":"ELIJAH","target":null,"mood":"bittersweet","intensity":4,"summary":"Elijah orders coffee on, so if they die they die warm, and the fire catches."}
+],
+"s00409": [
+{"start":1,"type":"observes","fine":"waits","actor":"MILO","target":null,"mood":"tense","intensity":2,"summary":"Sunny and Booker face off at nine to eight in a basement ping-pong final."},
+{"start":16,"type":"jokes","fine":"plays with","actor":"SUNNY","target":"BOOKER","mood":"playful","intensity":3,"summary":"Booker ties it nine all, and Sunny gives him the serve to win clean."},
+{"start":26,"type":"attacks","fine":"fights","actor":"BOOKER","target":"SUNNY","mood":"suspense","intensity":4,"summary":"A fierce rally ends with Sunny's diving return clipping the edge for the win."},
+{"start":36,"type":"jokes","fine":"amuses","actor":"FRANCESCA","target":"SUNNY","mood":"joyful","intensity":3,"summary":"The room erupts; Booker graciously congratulates Sunny, and Francesca teases him."}
+],
+"s01425": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"BERNIE","target":null,"mood":"tense","intensity":3,"summary":"Curlers face the last stone at six all in a converted cathedral."},
+{"start":12,"type":"comforts","fine":"encourages","actor":"BERNIE","target":"MAEVE","mood":"playful","intensity":3,"summary":"Bernie coaxes Maeve to admit fear; the team trades small jokes about the ice."},
+{"start":24,"type":"works","fine":"works","actor":"DESMOND","target":null,"mood":"suspense","intensity":3,"summary":"Desmond throws his stone, and June and Raffi sweep it to rest short of the ring."},
+{"start":41,"type":"observes","fine":"watches","actor":"BERNIE","target":"MAEVE","mood":"suspense","intensity":4,"summary":"Maeve throws her last stone, which drifts under the rose window almost to the pin."},
+{"start":58,"type":"decides","fine":"accepts","actor":"BERNIE","target":"DESMOND","mood":"bittersweet","intensity":3,"summary":"Bernie measures a quarter-inch loss and orders them to prepare for an extra end."}
+],
+"s02182": [
+{"start":1,"type":"threatens","fine":"warns","actor":"JUDGE WHITLOCK","target":"DELANEY","mood":"tense","intensity":2,"summary":"Judge Whitlock warns both counsel against another outburst in a packed courtroom."},
+{"start":18,"type":"reveals","fine":"exposes a secret to","actor":"ROSALIND","target":"STROUD","mood":"tense","intensity":3,"summary":"Rosalind testifies the anaesthesia log was blank for forty minutes and names Dr. Stroud."},
+{"start":29,"type":"confronts","fine":"challenges","actor":"OYELOWO","target":"ROSALIND","mood":"hostile","intensity":3,"summary":"Oyelowo cross-examines Rosalind on responsibility for the log; she stands firm."},
+{"start":40,"type":"confronts","fine":"presses","actor":"OYELOWO","target":"ROSALIND","mood":"ominous","intensity":4,"summary":"Oyelowo asks why she waited eleven months; she says no one asked."}
+],
+"s01268": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"IMANI","target":"FERNANDO","mood":"awkward","intensity":2,"summary":"Exes Imani and Fernando meet awkwardly at a riverboat wedding reception."},
+{"start":9,"type":"bonds","fine":"flirts with","actor":"IMANI","target":"FERNANDO","mood":"awkward","intensity":2,"summary":"Their fingers meet on a champagne flute and they freeze."},
+{"start":16,"type":"jokes","fine":"plays with","actor":"GLORIA","target":"ABEL","mood":"playful","intensity":2,"summary":"Gloria and Abel exchange a glance and ceremoniously cut the cake."}
+],
+"s00298": [
+{"start":1,"type":"confronts","fine":"stares down","actor":"CYPRIAN","target":"ROSAMUND","mood":"hostile","intensity":3,"summary":"Cyprian argues with a furious customer whose toaster exploded."},
+{"start":13,"type":"decides","fine":"gives an order","actor":"AGGIE","target":"MOE","mood":"playful","intensity":2,"summary":"Aggie sees a toast-shaped hole and tells Moe not to say it's covered."},
+{"start":25,"type":"deflects","fine":"stalls","actor":"CYPRIAN","target":"ROSAMUND","mood":"chaotic","intensity":3,"summary":"Cyprian offers a new toaster; Rosamund demands a ceiling."},
+{"start":30,"type":"lies","fine":"cons","actor":"AGGIE","target":"ROSAMUND","mood":"playful","intensity":3,"summary":"Aggie takes the headset and placates Rosamund with a complimentary hat that doesn't exist."}
+],
+"s01144": [
+{"start":1,"type":"works","fine":"works","actor":"ELIZA","target":"JASPER","mood":"ominous","intensity":2,"summary":"Eliza develops a glass plate in the red-lit darkroom with her apprentice."},
+{"start":13,"type":"reveals","fine":"shows","actor":"ELIZA","target":"MRS. WHITLOCK","mood":"ominous","intensity":4,"summary":"The plate shows a pale shape over the widow's shoulder, her husband dead eleven years."},
+{"start":20,"type":"observes","fine":"watches","actor":"MRS. WHITLOCK","target":null,"mood":"melancholy","intensity":3,"summary":"Eliza has the plate fixed; Mrs. Whitlock watches as the shape stays."}
+],
+"s01108_1": [
+{"start":1,"type":"defends","fine":"holds the line against","actor":"LORETTA","target":null,"mood":"chaotic","intensity":5,"summary":"They tumble into the corridor and brace the door against a thudding creature."},
+{"start":14,"type":"decides","fine":"commits","actor":"LORETTA","target":null,"mood":"fear","intensity":4,"summary":"Loretta finds a brass key and locks the bolt, stopping the thudding."},
+{"start":21,"type":"pleads","fine":"begs","actor":"ELEANOR","target":null,"mood":"grief","intensity":3,"summary":"A tiny voice under the door begs them not to leave; none answer."}
+],
+"s00728": [
+{"start":1,"type":"works","fine":"writes","actor":"MILLICENT","target":null,"mood":"suspense","intensity":2,"summary":"Millicent records a dictation cylinder naming the true ledger in the lower drawer."},
+{"start":13,"type":"hides","fine":"conceals something","actor":"MILLICENT","target":null,"mood":"fear","intensity":4,"summary":"A shadow at the door; she hides the cylinder in a locked drawer and pockets the key."},
+{"start":22,"type":"lies","fine":"feigns innocence to","actor":"MILLICENT","target":null,"mood":"suspense","intensity":4,"summary":"Millicent smiles brightly and invites the man in, saying she has just finished."}
+],
+"s00485": [
+{"start":1,"type":"works","fine":"prepares","actor":"ZEKE","target":"ROSIE","mood":"playful","intensity":2,"summary":"Derby players get a game plan from Zeke and joke about holding the line."},
+{"start":19,"type":"confesses","fine":"opens up to","actor":"ZEKE","target":"ROSIE","mood":"bittersweet","intensity":3,"summary":"Zeke privately tells Rosie his knee is done and she gets the whistle next season."},
+{"start":31,"type":"leaves","fine":"leaves","actor":"ROSIE","target":null,"mood":"hopeful","intensity":2,"summary":"Announced by Bix, Rosie and Zeke go in together."}
+],
+"s01466": [
+{"start":1,"type":"observes","fine":"waits","actor":"VICTOR","target":null,"mood":"tense","intensity":2,"summary":"Four strangers ride an elevator that stalls between floors."},
+{"start":15,"type":"confronts","fine":"calls out","actor":"JOCELYN","target":"NADINE","mood":"hostile","intensity":3,"summary":"Jocelyn swats Nadine's phone away when she tries to call security."},
+{"start":34,"type":"threatens","fine":"holds at gunpoint","actor":"JOCELYN","target":"TEODORO","mood":"fear","intensity":5,"summary":"Lights go out, and Jocelyn aims a pistol at Teodoro for missing his floor."},
+{"start":43,"type":"attacks","fine":"wrestles","actor":"TEODORO","target":"JOCELYN","mood":"chaotic","intensity":5,"summary":"The elevator drops; Teodoro grapples Jocelyn's wrist and the gun fires, then doors open on concrete."}
+],
+"s00617": [
+{"start":1,"type":"discovers","fine":"notices","actor":"OKSANA","target":"BRAM","mood":"ominous","intensity":3,"summary":"Oksana notices a tunnel wall rippling as if breathing on the monitors."},
+{"start":21,"type":"deflects","fine":"stalls","actor":"OKSANA","target":"JOSIE","mood":"tense","intensity":3,"summary":"Oksana delays calling it in; she says it's not a fault line and she doesn't know."},
+{"start":29,"type":"discovers","fine":"uncovers","actor":"OKSANA","target":null,"mood":"fear","intensity":4,"summary":"A wet crack runs through the walls and rocks open with pale light on every feed."},
+{"start":35,"type":"decides","fine":"gives an order","actor":"OKSANA","target":"JOSIE","mood":"chaotic","intensity":5,"summary":"Oksana orders crews to Lock Two, gets static, and has Josie pull the alarm."},
+{"start":50,"type":"discovers","fine":"realizes","actor":"BRAM","target":null,"mood":"fear","intensity":5,"summary":"The seam splits to reveal a vast bright cavern before the cameras die."},
+{"start":58,"type":"decides","fine":"commits","actor":"OKSANA","target":"TAVITA","mood":"ominous","intensity":4,"summary":"Oksana orders everyone topside and the shafts flooded despite the risk to her job."}
+],
+"s01903": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"NADIA","target":"FELIX","mood":"calm","intensity":1,"summary":"Nadia walks the cryo-bay reporting temperatures to sleepers who cannot hear."},
+{"start":11,"type":"discovers","fine":"notices","actor":"NADIA","target":"FELIX","mood":"ominous","intensity":3,"summary":"Nadia sees Pod 411's frost thin and its sleeper's eyelid flicker."},
+{"start":24,"type":"discovers","fine":"realizes","actor":"ONBOARD AI","target":"FELIX","mood":"fear","intensity":4,"summary":"The AI logs an anomaly, Felix drops his thermos, and the eyelid opens."}
+],
+"s00525": [
+{"start":1,"type":"observes","fine":"spies on","actor":"HADLEY","target":null,"mood":"tense","intensity":3,"summary":"Soldiers in a snowy bell tower count enemy troops in the orchard."},
+{"start":14,"type":"arrives","fine":"makes an entrance","actor":"MOTHER AGATHE","target":"HADLEY","mood":"suspense","intensity":3,"summary":"A footstep sends four rifles swinging, but it is Mother Agathe with a kettle."},
+{"start":19,"type":"jokes","fine":"lightens the mood for","actor":"MOTHER AGATHE","target":"HADLEY","mood":"playful","intensity":2,"summary":"She offers tea and says it won't poison them before the second cup; Hadley laughs."}
+],
+"s02340": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"MADAME DUBOIS","target":null,"mood":"ominous","intensity":2,"summary":"A funeral-themed speakeasy fills with tense patrons, including a banker and gangsters."},
+{"start":13,"type":"hides","fine":"masks a feeling","actor":"HORATIO","target":"EUGENIA","mood":"tense","intensity":3,"summary":"Horatio tells Eugenia to smile and not look at the door; Dubois orders the cellar locked."},
+{"start":26,"type":"arrives","fine":"makes an entrance","actor":"BLACKWOOD","target":"MADAME DUBOIS","mood":"suspense","intensity":4,"summary":"Inspector Blackwood descends the stairs, and Dubois answers him evenly."},
+{"start":36,"type":"threatens","fine":"menaces","actor":"DOMINIC","target":"BLACKWOOD","mood":"suspense","intensity":4,"summary":"Dominic reaches into his coat; the room tenses until Blackwood lays down his badge."},
+{"start":44,"type":"bonds","fine":"trusts","actor":"BLACKWOOD","target":"MADAME DUBOIS","mood":"bittersweet","intensity":3,"summary":"Blackwood says he's here to pay respects, and Dubois pours him a glass."}
+],
+"s00218": [
+{"start":1,"type":"observes","fine":"waits","actor":"RENATA","target":"TEDDIE","mood":"tense","intensity":2,"summary":"Two agents and an informant wait nervously in a basement safehouse."},
+{"start":17,"type":"discovers","fine":"notices","actor":"RENATA","target":"TEDDIE","mood":"suspense","intensity":3,"summary":"Knocking in the pipes turns out to be Morse, which Teddie brushes off as wind."},
+{"start":29,"type":"searches","fine":"investigates","actor":"BASTIAN","target":null,"mood":"fear","intensity":4,"summary":"Bastian listens at the wall, hears someone behind it, and Renata draws her weapon."},
+{"start":36,"type":"flees","fine":"bolts","actor":"TEDDIE","target":"RENATA","mood":"chaotic","intensity":5,"summary":"A fist punches through the wall, Renata fires, and Teddie bolts upstairs."}
+]
+}

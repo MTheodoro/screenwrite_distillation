@@ -1,0 +1,184 @@
+{
+"s00792": [
+{"start": 1, "type": "pleads", "fine": "begs", "actor": "PHOEBE", "target": "HORACE", "mood": "playful", "intensity": 2, "summary": "At closing, the graduates beg Horace for five more minutes"},
+{"start": 18, "type": "jokes", "fine": "riffs with", "actor": "COSMO", "target": "LOCKY", "mood": "playful", "intensity": 3, "summary": "Cosmo catches Locky's dad's keys in a fry"},
+{"start": 25, "type": "bonds", "fine": "confides in", "actor": "BEATRIX", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Beatrix asks about September plans; Phoebe admits she has none"},
+{"start": 37, "type": "decides", "fine": "commits", "actor": "PHOEBE", "target": null, "mood": "joyful", "intensity": 4, "summary": "Phoebe rolls a perfect last-call strike and they stand grinning"}
+],
+"s01409": [
+{"start": 1, "type": "comforts", "fine": "steadies", "actor": "IGNATIUS", "target": "MANUEL", "mood": "tense", "intensity": 2, "summary": "Ignatius tapes silent Manuel's wrists as a stranger watches"},
+{"start": 16, "type": "arrives", "fine": "is introduced", "actor": "AMBROSE", "target": "MANUEL", "mood": "tense", "intensity": 3, "summary": "Ambrose introduces himself as the promoter's man; Ignatius blocks him"},
+{"start": 29, "type": "threatens", "fine": "coerces", "actor": "AMBROSE", "target": "MANUEL", "mood": "ominous", "intensity": 4, "summary": "Ambrose says Manuel must go down in the third round"},
+{"start": 33, "type": "decides", "fine": "refuses", "actor": "MANUEL", "target": "AMBROSE", "mood": "tense", "intensity": 4, "summary": "Manuel and Ignatius together order him out; he retreats"},
+{"start": 37, "type": "decides", "fine": "commits", "actor": "MANUEL", "target": null, "mood": "hopeful", "intensity": 3, "summary": "Ignatius shuts the door; Manuel lifts his head and clenches his fists"}
+],
+"s00533": [
+{"start": 1, "type": "observes", "fine": "watches", "actor": "DOLLY", "target": "HOLLIS", "mood": "tense", "intensity": 2, "summary": "Estranged Hollis and Maribel sit as rival Tavish bids on the heifer"},
+{"start": 14, "type": "observes", "fine": "hesitates", "actor": "HOLLIS", "target": null, "mood": "tense", "intensity": 3, "summary": "Hollis fidgets and Maribel edges away as the price climbs"},
+{"start": 19, "type": "decides", "fine": "chooses", "actor": "HOLLIS", "target": "TAVISH", "mood": "tense", "intensity": 4, "summary": "Hollis bids six; Tavish nods at him and counters"},
+{"start": 24, "type": "decides", "fine": "resigns", "actor": "HOLLIS", "target": "MARIBEL", "mood": "melancholy", "intensity": 4, "summary": "Maribel mutters eleven years; Hollis lowers his hand and the gavel falls"}
+],
+"s00848": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "PERPETUA", "target": "THE STRANGER", "mood": "calm", "intensity": 2, "summary": "Perpetua offers tea to the silent stranger left on the platform"},
+{"start": 16, "type": "decides", "fine": "commits", "actor": "PERPETUA", "target": "YOSHIRO", "mood": "playful", "intensity": 2, "summary": "Perpetua declares the guest stays and gives up her own bunk"},
+{"start": 23, "type": "reveals", "fine": "comes clean to", "actor": "ADEBOLA", "target": "PERPETUA", "mood": "tense", "intensity": 3, "summary": "The stranger names herself Adebola and says she walked off the boat"},
+{"start": 38, "type": "confesses", "fine": "opens up to", "actor": "ADEBOLA", "target": "PERPETUA", "mood": "tender", "intensity": 3, "summary": "Adebola says she swam to see if anyone lived here; someone made tea"},
+{"start": 46, "type": "bonds", "fine": "shares a moment with", "actor": "PERPETUA", "target": "ADEBOLA", "mood": "tender", "intensity": 3, "summary": "Perpetua laughs, sits, and they offer Adebola burnt toast"}
+],
+"s00639": [
+{"start": 1, "type": "works", "fine": "works", "actor": "BEA", "target": "SORAYA", "mood": "tense", "intensity": 2, "summary": "Bea pins Soraya's wedding hem as Soraya stares at the mirror"},
+{"start": 7, "type": "reveals", "fine": "lets slip to", "actor": "BEA", "target": "SORAYA", "mood": "tense", "intensity": 3, "summary": "Bea says the dress needs four inches and relays her mother's jab"},
+{"start": 14, "type": "pleads", "fine": "asks for help from", "actor": "SORAYA", "target": "BEA", "mood": "tense", "intensity": 4, "summary": "As Bea pins tighter, Soraya asks if she'd stop her fleeing tonight"},
+{"start": 18, "type": "defends", "fine": "covers for", "actor": "BEA", "target": "SORAYA", "mood": "tender", "intensity": 4, "summary": "Bea silently unbuttons the dress and explains the sticking alley door"}
+],
+"s00574": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "BARAKZAI", "target": "NOWAK", "mood": "melancholy", "intensity": 2, "summary": "Barakzai and Nowak burn the last wood in the freezing relay hut"},
+{"start": 16, "type": "reveals", "fine": "breaks news to", "actor": "COMMAND", "target": "BARAKZAI", "mood": "melancholy", "intensity": 3, "summary": "Command postpones the supply drop again; Nowak counts the delays"},
+{"start": 27, "type": "arrives", "fine": "bursts in", "actor": "SAARI", "target": "BARAKZAI", "mood": "tense", "intensity": 3, "summary": "Medic Saari bursts in from the snow and demands tea"},
+{"start": 40, "type": "confronts", "fine": "presses", "actor": "SAARI", "target": "NOWAK", "mood": "tense", "intensity": 3, "summary": "Saari came for Nowak's feet; Barakzai orders his boots off"},
+{"start": 46, "type": "searches", "fine": "examines", "actor": "SAARI", "target": "NOWAK", "mood": "tense", "intensity": 3, "summary": "Saari finds Nowak's toes white but fine for now"},
+{"start": 50, "type": "decides", "fine": "accepts", "actor": "BARAKZAI", "target": null, "mood": "hopeful", "intensity": 2, "summary": "Command announces a weather window; Barakzai quietly resolves on tomorrow"}
+],
+"s00725": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "SUNITA", "target": "DMITRI", "mood": "tense", "intensity": 2, "summary": "Sunita questions Dmitri about the press four lockout valve"},
+{"start": 21, "type": "confronts", "fine": "challenges", "actor": "CONRAD", "target": "SUNITA", "mood": "tense", "intensity": 2, "summary": "Conrad objects to leading; Helena overrules him"},
+{"start": 24, "type": "confronts", "fine": "presses", "actor": "SUNITA", "target": "DMITRI", "mood": "tense", "intensity": 3, "summary": "Sunita presses how press four cycled if the valve was engaged"},
+{"start": 31, "type": "confesses", "fine": "admits guilt to", "actor": "DMITRI", "target": "SUNITA", "mood": "tense", "intensity": 4, "summary": "Dmitri admits disengaging the valve on Calloway's son's orders"},
+{"start": 37, "type": "confesses", "fine": "breaks down to", "actor": "DMITRI", "target": "HELENA", "mood": "grief", "intensity": 5, "summary": "Dmitri reveals his nephew was hurt and he signed for hospital money"},
+{"start": 42, "type": "decides", "fine": "changes course", "actor": "CONRAD", "target": "HELENA", "mood": "bittersweet", "intensity": 3, "summary": "Conrad withdraws his motion to settle; Helena adjourns"}
+],
+"s02132": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "RUTH", "target": "ARJUN", "mood": "awkward", "intensity": 2, "summary": "Ruth opens a deposition in the ferry terminal and questions Arjun"},
+{"start": 16, "type": "confronts", "fine": "presses", "actor": "RUTH", "target": "ARJUN", "mood": "awkward", "intensity": 3, "summary": "Arjun hedges about signing the certificate; Ruth mutters about snacks"},
+{"start": 24, "type": "confronts", "fine": "corners", "actor": "RUTH", "target": "ARJUN", "mood": "tense", "intensity": 3, "summary": "Ruth forces Arjun to admit he inspected the wrong crane"},
+{"start": 34, "type": "accuses", "fine": "implicates", "actor": "ARJUN", "target": "RUTH", "mood": "tense", "intensity": 3, "summary": "Arjun says supervisor Dillard told him to sign; Ruth notes the change"}
+],
+"s00145": [
+{"start": 1, "type": "confronts", "fine": "calls out", "actor": "ELEANOR", "target": "ZEB", "mood": "tense", "intensity": 3, "summary": "Coach Eleanor rebukes her late crew and dismisses the fog excuse"},
+{"start": 13, "type": "confronts", "fine": "stares down", "actor": "ELEANOR", "target": "BASHIR", "mood": "tense", "intensity": 3, "summary": "The rowers squirm until Bashir meets Eleanor's gaze"},
+{"start": 18, "type": "confronts", "fine": "calls out", "actor": "ELEANOR", "target": "BASHIR", "mood": "tense", "intensity": 3, "summary": "Eleanor passes a wrench down the line and makes Bashir fix his rigger"},
+{"start": 24, "type": "decides", "fine": "gives an order", "actor": "ELEANOR", "target": "CASPIAN", "mood": "tense", "intensity": 3, "summary": "Eleanor dismisses headwind worries and orders the boat on shoulders"},
+{"start": 31, "type": "observes", "fine": "listens to", "actor": "ELEANOR", "target": null, "mood": "hopeful", "intensity": 2, "summary": "The crew carries the shell out while Eleanor listens alone"}
+],
+"s00235": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "PHILIPPE", "target": "RADIO", "mood": "calm", "intensity": 2, "summary": "Philippe reports a quiet night to Battalion by radio"},
+{"start": 11, "type": "observes", "fine": "waits", "actor": "PHILIPPE", "target": null, "mood": "ominous", "intensity": 2, "summary": "Alone, Philippe senses something wrong in the too-steady candle"},
+{"start": 16, "type": "arrives", "fine": "slips in", "actor": "STRANGER", "target": "PHILIPPE", "mood": "ominous", "intensity": 4, "summary": "A boy enters with tea compliments of the other side"},
+{"start": 27, "type": "reveals", "fine": "drops a bombshell on", "actor": "STRANGER", "target": "PHILIPPE", "mood": "fear", "intensity": 4, "summary": "The boy says the enemy has listened since Tuesday and retunes the radio"},
+{"start": 32, "type": "decides", "fine": "accepts", "actor": "PHILIPPE", "target": "ALOIS", "mood": "suspense", "intensity": 4, "summary": "The boy names himself Alois; Philippe steadily drinks the tea"}
+],
+"s01554": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "REN", "target": "SOL", "mood": "tense", "intensity": 2, "summary": "Ren slips into Sol's closed pawn shop saying Gabe sent her"},
+{"start": 16, "type": "hides", "fine": "conceals something", "actor": "SOL", "target": "REN", "mood": "tense", "intensity": 3, "summary": "Sol stashes his cash and invites her to sit; she refuses"},
+{"start": 26, "type": "persuades", "fine": "bargains with", "actor": "SOL", "target": "REN", "mood": "tense", "intensity": 3, "summary": "Ren demands the eight thousand Sol owes; he offers six"},
+{"start": 32, "type": "threatens", "fine": "menaces", "actor": "REN", "target": "SOL", "mood": "tense", "intensity": 4, "summary": "Ren steps closer as Sol reaches for the lamp and jokes about his age"},
+{"start": 43, "type": "confronts", "fine": "presses", "actor": "SOL", "target": "REN", "mood": "suspense", "intensity": 4, "summary": "Sol asks what's in her pocket; she says gloves"},
+{"start": 47, "type": "attacks", "fine": "fights", "actor": "REN", "target": "SOL", "mood": "chaotic", "intensity": 5, "summary": "Sol rises, swings the lamp, and they crash in the dark"},
+{"start": 55, "type": "threatens", "fine": "looms over", "actor": "REN", "target": "SOL", "mood": "tense", "intensity": 4, "summary": "Light returns on Ren standing over Sol with a rubber hammer"},
+{"start": 60, "type": "pleads", "fine": "bargains for mercy with", "actor": "SOL", "target": "REN", "mood": "bittersweet", "intensity": 3, "summary": "Sol gives up the six and says call him dead; she leaves"}
+],
+"s01227": [
+{"start": 1, "type": "decides", "fine": "gives an order", "actor": "KOLYA", "target": "PADMA", "mood": "playful", "intensity": 2, "summary": "Kolya instructs Padma to draw to the button in the subway club"},
+{"start": 16, "type": "works", "fine": "works", "actor": "PADMA", "target": null, "mood": "suspense", "intensity": 3, "summary": "Padma throws and the team sweeps the stone onto the button"},
+{"start": 25, "type": "observes", "fine": "waits", "actor": "OKONKWO", "target": null, "mood": "triumphant", "intensity": 4, "summary": "Okonkwo measures and Kolya declares the match won"},
+{"start": 35, "type": "accuses", "fine": "calls out", "actor": "JUNE", "target": "TEDDY", "mood": "tense", "intensity": 4, "summary": "June accuses Teddy of brushing the stone with his sleeve"},
+{"start": 41, "type": "defends", "fine": "denies to", "actor": "TEDDY", "target": "JUNE", "mood": "tense", "intensity": 4, "summary": "Teddy denies it, appeals to Kolya, and blames the draught"},
+{"start": 46, "type": "decides", "fine": "gives an order", "actor": "OKONKWO", "target": null, "mood": "hostile", "intensity": 4, "summary": "Okonkwo rules the stone burned and carries it off amid protests"},
+{"start": 52, "type": "leaves", "fine": "walks out on", "actor": "KOLYA", "target": "TEDDY", "mood": "grief", "intensity": 4, "summary": "Kolya pockets his glasses and walks away as brooms fall"}
+],
+"s00245": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "ISABELLA", "target": "ZORZI", "mood": "tense", "intensity": 2, "summary": "Isabella arrives at Zorzi's closed furnace bearing the Council's regards"},
+{"start": 17, "type": "deflects", "fine": "stonewalls", "actor": "ZORZI", "target": "ISABELLA", "mood": "tense", "intensity": 3, "summary": "Zorzi refuses to give the Council his formula"},
+{"start": 20, "type": "reveals", "fine": "presents evidence to", "actor": "ISABELLA", "target": "ZORZI", "mood": "tense", "intensity": 3, "summary": "Isabella sets down a sample she took from his apprentice"},
+{"start": 32, "type": "threatens", "fine": "intimidates", "actor": "ZORZI", "target": "ISABELLA", "mood": "tense", "intensity": 4, "summary": "Zorzi curses Giacomo, takes up the tongs, and orders the bag opened"},
+{"start": 44, "type": "reveals", "fine": "shows", "actor": "ISABELLA", "target": "ZORZI", "mood": "suspense", "intensity": 4, "summary": "Isabella reveals a glowing glass bird the Council calls witchcraft"},
+{"start": 52, "type": "persuades", "fine": "bargains with", "actor": "ISABELLA", "target": "ZORZI", "mood": "tense", "intensity": 3, "summary": "Isabella offers to report it destroyed; Giacomo has fled to Padua"},
+{"start": 56, "type": "attacks", "fine": "strikes", "actor": "ZORZI", "target": "ISABELLA", "mood": "tense", "intensity": 5, "summary": "Zorzi advances with the tongs and smashes the bird"},
+{"start": 64, "type": "decides", "fine": "gives an order", "actor": "ZORZI", "target": "ISABELLA", "mood": "bittersweet", "intensity": 3, "summary": "Zorzi says tell the Council it's ash; she pockets a shard and goes"}
+],
+"s02426": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "GWEN", "target": "RAFI", "mood": "calm", "intensity": 2, "summary": "Gwen watches Rafi try Euros in the quarter-only lunar dryer"},
+{"start": 20, "type": "jokes", "fine": "riffs with", "actor": "DAVENPORT", "target": "GWEN", "mood": "playful", "intensity": 2, "summary": "Mr. Davenport crowdsources a crossword clue from them"},
+{"start": 28, "type": "bonds", "fine": "shares a moment with", "actor": "GWEN", "target": "RAFI", "mood": "calm", "intensity": 2, "summary": "Gwen and Rafi make small talk and she hands him a sock"},
+{"start": 42, "type": "bonds", "fine": "trusts", "actor": "GWEN", "target": "RAFI", "mood": "tender", "intensity": 2, "summary": "Gwen sits again, leaving one chair between them on purpose"}
+],
+"s01876": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "SABLE", "target": null, "mood": "ominous", "intensity": 3, "summary": "Queen Sable confronts the humming bell, admitting she drowned the city"},
+{"start": 12, "type": "arrives", "fine": "arrives", "actor": "DOBRINA", "target": "SABLE", "mood": "tense", "intensity": 3, "summary": "Sable spins on footsteps; squire Dobrina warns the water is rising"},
+{"start": 20, "type": "defends", "fine": "protects", "actor": "SABLE", "target": "DOBRINA", "mood": "fear", "intensity": 4, "summary": "Sable shields Dobrina as the bell's hum swells with fear"},
+{"start": 27, "type": "decides", "fine": "makes a plan", "actor": "SABLE", "target": "DOBRINA", "mood": "suspense", "intensity": 4, "summary": "The bell cracks; they lay hands on it and Sable warns her"},
+{"start": 32, "type": "observes", "fine": "listens to", "actor": "SABLE", "target": null, "mood": "ominous", "intensity": 5, "summary": "Silence falls, the water stills, and a child's voice counts inside"}
+],
+"s01154": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "THORNE", "target": null, "mood": "calm", "intensity": 2, "summary": "Thorne waits in the ring as Aldyth, Briar and Moss gather"},
+{"start": 16, "type": "reveals", "fine": "shows", "actor": "THORNE", "target": "ALDYTH", "mood": "tense", "intensity": 3, "summary": "Thorne points Aldyth to a green shoot rising from the roots"},
+{"start": 24, "type": "discovers", "fine": "realizes", "actor": "ALDYTH", "target": "MOSS", "mood": "hopeful", "intensity": 3, "summary": "Briar names it a sapling; Aldyth enters the ring in disbelief"},
+{"start": 38, "type": "reveals", "fine": "breaks news to", "actor": "THORNE", "target": "ALDYTH", "mood": "bittersweet", "intensity": 4, "summary": "Thorne reveals she planted it the night before the burning"},
+{"start": 45, "type": "decides", "fine": "refuses", "actor": "ALDYTH", "target": "BRIAR", "mood": "melancholy", "intensity": 4, "summary": "Briar asks if she'll stay; Aldyth declares the oath broken"},
+{"start": 53, "type": "leaves", "fine": "storms out", "actor": "ALDYTH", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Aldyth strides away; Moss drops the acorn and Briar shields the sapling"}
+],
+"s00524": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "OYELARAN", "target": "PELL", "mood": "tense", "intensity": 3, "summary": "Oyelaran challenges Pell's alibi amid two hundred ticking clocks"},
+{"start": 13, "type": "confronts", "fine": "presses", "actor": "OYELARAN", "target": "PELL", "mood": "tense", "intensity": 3, "summary": "The cuckoo startles Pell; Oyelaran springs Hartigan's name and he denies it"},
+{"start": 21, "type": "reveals", "fine": "presents evidence to", "actor": "OYELARAN", "target": "PELL", "mood": "tense", "intensity": 4, "summary": "Oyelaran notes the new mainspring and Hartigan's watch from the canal"},
+{"start": 34, "type": "reveals", "fine": "lets slip to", "actor": "DELPHINE", "target": "PELL", "mood": "suspense", "intensity": 5, "summary": "Pell answers the phone and his daughter confesses dumping the watch"},
+{"start": 51, "type": "confronts", "fine": "corners", "actor": "OYELARAN", "target": "PELL", "mood": "tense", "intensity": 4, "summary": "Oyelaran gently notes his daughter's honesty and adult age"},
+{"start": 56, "type": "confesses", "fine": "breaks down to", "actor": "PELL", "target": "OYELARAN", "mood": "grief", "intensity": 4, "summary": "Pell sinks and explains Hartigan wanted the shop"},
+{"start": 61, "type": "pleads", "fine": "pleads innocence to", "actor": "PELL", "target": "OYELARAN", "mood": "grief", "intensity": 5, "summary": "Pell insists Hartigan fell after mocking his wife's cuckoo"},
+{"start": 64, "type": "comforts", "fine": "calms", "actor": "OYELARAN", "target": "PELL", "mood": "melancholy", "intensity": 3, "summary": "Oyelaran calms Pell; the cuckoo sounds and he recalls his wife"},
+{"start": 76, "type": "decides", "fine": "gives an order", "actor": "OYELARAN", "target": "PELL", "mood": "ominous", "intensity": 3, "summary": "Pell surrenders the cellar key; Oyelaran lets the phone ring"}
+],
+"s00247": [
+{"start": 1, "type": "works", "fine": "cooks", "actor": "ZAINAB", "target": "TIMUR", "mood": "calm", "intensity": 2, "summary": "Zainab directs her family's morning bread-making in the school kitchen"},
+{"start": 22, "type": "bonds", "fine": "teams up with", "actor": "FARIDA", "target": "LAILA", "mood": "tender", "intensity": 2, "summary": "Shy Laila asks to help and Farida gives her dough"},
+{"start": 27, "type": "arrives", "fine": "shows up unannounced", "actor": "ELIAS", "target": "FARIDA", "mood": "tense", "intensity": 2, "summary": "Inspector Elias arrives days early, surprising the family"},
+{"start": 36, "type": "bonds", "fine": "shares a moment with", "actor": "ZAINAB", "target": "ELIAS", "mood": "tender", "intensity": 3, "summary": "Zainab feeds Elias bread first and he relaxes in the warmth"}
+],
+"s02450": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "ELLSWORTH", "target": "MOLOI", "mood": "playful", "intensity": 2, "summary": "Ellsworth grumbles about the long drive to the dialysis truck"},
+{"start": 12, "type": "confronts", "fine": "calls out", "actor": "MOLOI", "target": "ELLSWORTH", "mood": "playful", "intensity": 2, "summary": "Moloi and Krzysztof catch Ellsworth sneaking diner pie"},
+{"start": 25, "type": "comforts", "fine": "reassures", "actor": "MOLOI", "target": "ELLSWORTH", "mood": "playful", "intensity": 2, "summary": "Moloi briefs him on the run and they joke about not dying"},
+{"start": 33, "type": "works", "fine": "works", "actor": "MOLOI", "target": "ELLSWORTH", "mood": "chaotic", "intensity": 4, "summary": "An alarm signals air in the line; Moloi and Krzysztof clamp it"},
+{"start": 43, "type": "comforts", "fine": "calms", "actor": "MOLOI", "target": "ELLSWORTH", "mood": "tense", "intensity": 4, "summary": "Ellsworth grays as they work in tandem to steady him"},
+{"start": 51, "type": "jokes", "fine": "lightens the mood for", "actor": "ELLSWORTH", "target": "KRZYSZTOF", "mood": "bittersweet", "intensity": 2, "summary": "The monitor steadies and Ellsworth's relief lands like a joke"}
+],
+"s00503": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "IMOGEN", "target": "NORBERT", "mood": "awkward", "intensity": 2, "summary": "New hire Imogen introduces herself to dour Norbert"},
+{"start": 13, "type": "bonds", "fine": "shares a moment with", "actor": "IMOGEN", "target": "NORBERT", "mood": "tender", "intensity": 3, "summary": "Norbert accepts a donut and tears up as he bites"},
+{"start": 22, "type": "confesses", "fine": "opens up to", "actor": "NORBERT", "target": "IMOGEN", "mood": "bittersweet", "intensity": 3, "summary": "Norbert admits nobody brought him a donut in fourteen years; she sits"}
+],
+"s00263": [
+{"start": 1, "type": "threatens", "fine": "holds at gunpoint", "actor": "STRANGER", "target": "GEORGIANA", "mood": "tense", "intensity": 3, "summary": "Georgiana climbs into the loft and finds a stranger aiming a pistol"},
+{"start": 13, "type": "confronts", "fine": "interrogates", "actor": "STRANGER", "target": "GEORGIANA", "mood": "tense", "intensity": 3, "summary": "The stranger questions her; they spar over the horse in stall three"},
+{"start": 23, "type": "jokes", "fine": "charms", "actor": "GEORGIANA", "target": "STRANGER", "mood": "playful", "intensity": 3, "summary": "Georgiana's wit lowers his guard; he names himself Matthias, a courier"},
+{"start": 36, "type": "hides", "fine": "ducks out of sight", "actor": "GEORGIANA", "target": "MATTHIAS", "mood": "suspense", "intensity": 5, "summary": "Soldiers search the loft; Georgiana hides them both under her cloak"},
+{"start": 57, "type": "bonds", "fine": "flirts with", "actor": "GEORGIANA", "target": "MATTHIAS", "mood": "playful", "intensity": 3, "summary": "Safe, they trade teasing compliments and laugh helplessly"},
+{"start": 65, "type": "bonds", "fine": "thanks", "actor": "MATTHIAS", "target": "GEORGIANA", "mood": "tender", "intensity": 2, "summary": "Matthias holsters his pistol and says he owes her"}
+],
+"s01525": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "LINDQVIST", "target": "MAN", "mood": "tense", "intensity": 2, "summary": "Lindqvist tells a man sitting in his car to leave the deck"},
+{"start": 18, "type": "searches", "fine": "examines", "actor": "LINDQVIST", "target": "MAN", "mood": "suspense", "intensity": 3, "summary": "Lindqvist notes his soaked coat and catches his seasick lie"},
+{"start": 25, "type": "arrives", "fine": "arrives", "actor": "KOFI", "target": "LINDQVIST", "mood": "tense", "intensity": 3, "summary": "Deckhand Kofi approaches; the man steps out, hands raised"},
+{"start": 40, "type": "discovers", "fine": "notices", "actor": "KOFI", "target": "MAN", "mood": "tense", "intensity": 4, "summary": "Kofi spots blood on his boot and they press him on it"},
+{"start": 49, "type": "confesses", "fine": "admits guilt to", "actor": "MAN", "target": "LINDQVIST", "mood": "grief", "intensity": 5, "summary": "The man reveals his sister Annelie is in the terminal lockers"},
+{"start": 59, "type": "decides", "fine": "gives an order", "actor": "LINDQVIST", "target": "HENRIK", "mood": "tense", "intensity": 4, "summary": "Lindqvist radios to hold the ramp; Henrik sits and gives his name"},
+{"start": 68, "type": "comforts", "fine": "tends to", "actor": "LINDQVIST", "target": "HENRIK", "mood": "melancholy", "intensity": 3, "summary": "Lindqvist sends a reluctant Kofi to fetch Henrik a blanket"},
+{"start": 75, "type": "observes", "fine": "waits", "actor": "LINDQVIST", "target": "HENRIK", "mood": "melancholy", "intensity": 3, "summary": "Henrik muses about his sister as the engines shudder"},
+{"start": 82, "type": "arrives", "fine": "arrives", "actor": null, "target": "HENRIK", "mood": "bittersweet", "intensity": 3, "summary": "Police lights arrive; Kofi wraps Henrik and Lindqvist steps aside"}
+],
+"s01155": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "DELIVERY MAN", "target": "CORRIE", "mood": "calm", "intensity": 2, "summary": "A delivery man brings unordered water into the armored car depot"},
+{"start": 12, "type": "observes", "fine": "keeps watch", "actor": "WINSTON", "target": null, "mood": "suspense", "intensity": 3, "summary": "The delivery man eyes the truck and clock, muttering two minutes"},
+{"start": 22, "type": "attacks", "fine": "ambushes", "actor": "WINSTON", "target": "CORRIE", "mood": "chaotic", "intensity": 5, "summary": "A hidden smoke canister bursts; Winston masks up and orders nobody move"}
+],
+"s01277": [
+{"start": 1, "type": "mocks", "fine": "needles", "actor": "ODALYS", "target": "KAI", "mood": "playful", "intensity": 2, "summary": "Odalys folds towels and needles her exhausted grandson Kai"},
+{"start": 11, "type": "confronts", "fine": "calls out", "actor": "KAI", "target": "ODALYS", "mood": "playful", "intensity": 3, "summary": "Kai points out her midnight dryer-noise call made no sense"},
+{"start": 23, "type": "confronts", "fine": "presses", "actor": "KAI", "target": "ODALYS", "mood": "tense", "intensity": 3, "summary": "Kai presses Odalys about why she couldn't sleep"},
+{"start": 33, "type": "reveals", "fine": "breaks news to", "actor": "ODALYS", "target": "KAI", "mood": "melancholy", "intensity": 3, "summary": "Odalys reveals Kai's mother is moving to Portland and offers a room"},
+{"start": 52, "type": "comforts", "fine": "consoles", "actor": "ODALYS", "target": "KAI", "mood": "bittersweet", "intensity": 3, "summary": "Odalys asks if he'll go and names his fear of being left"},
+{"start": 65, "type": "jokes", "fine": "banters with", "actor": "KAI", "target": "ODALYS", "mood": "playful", "intensity": 3, "summary": "Kai and Odalys spar over her age until he laughs"},
+{"start": 76, "type": "bonds", "fine": "shares a moment with", "actor": "ODALYS", "target": "KAI", "mood": "tender", "intensity": 3, "summary": "Odalys admits she came because the machines are warm"},
+{"start": 82, "type": "bonds", "fine": "reconnects with", "actor": "KAI", "target": "ODALYS", "mood": "tender", "intensity": 4, "summary": "Odalys teaches Kai to fold as a promise; he asks if she's okay"}
+]
+}

@@ -1,0 +1,160 @@
+{
+"s02166": [
+{"start":1,"type":"observes","fine":"waits","actor":"CHIDI","target":null,"mood":"awkward","intensity":2,"summary":"The Okonjo family sits in silent, rigid waiting outside the hospice room."},
+{"start":21,"type":"jokes","fine":"banters with","actor":"CHIDI","target":"NGOZI","mood":"awkward","intensity":2,"summary":"Chidi and Ngozi bicker over minutes while Emeka begs for peace."},
+{"start":33,"type":"bonds","fine":"reminisces with","actor":"MRS. ETIM","target":null,"mood":"melancholy","intensity":3,"summary":"Mrs. Etim recalls Grandmother Ada eating jollof last Sunday; the family quietly agrees."},
+{"start":42,"type":"observes","fine":"takes it in","actor":"CHIDI","target":null,"mood":"suspense","intensity":4,"summary":"A nurse's hand appears and vanishes; the family stands together facing the closed door."}
+],
+"s00752": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"PERPETUA","target":"CALLER","mood":"tense","intensity":3,"summary":"Perpetua, alone in the flooded kitchen, trades barbs with the amused phone caller."},
+{"start":21,"type":"discovers","fine":"notices","actor":"PERPETUA","target":null,"mood":"suspense","intensity":4,"summary":"At the caller's urging, Perpetua sees a coat hanging from the third tree."},
+{"start":31,"type":"confronts","fine":"presses","actor":"PERPETUA","target":"CALLER","mood":"tense","intensity":3,"summary":"Perpetua coaxes the caller into giving his name over whisky."},
+{"start":40,"type":"confesses","fine":"admits guilt to","actor":"ROSCOE","target":"PERPETUA","mood":"ominous","intensity":3,"summary":"Roscoe Hale admits he buried his brother Edmund in the orchard."},
+{"start":50,"type":"arrives","fine":"makes an entrance","actor":"ROSCOE","target":"PERPETUA","mood":"fear","intensity":5,"summary":"A man silhouetted by lightning appears in the kitchen doorway and the candle dies."}
+],
+"s00530": [
+{"start":1,"type":"flees","fine":"scrambles away","actor":"DEKE","target":null,"mood":"chaotic","intensity":4,"summary":"Deke drags Ollie toward the door while Miriam swings a crowbar at the dark above."},
+{"start":4,"type":"discovers","fine":"notices","actor":"DEKE","target":null,"mood":"fear","intensity":4,"summary":"Something shifts overhead, and the family finds the door chained from outside."},
+{"start":13,"type":"observes","fine":"takes it in","actor":"OLLIE","target":null,"mood":"ominous","intensity":5,"summary":"The ladder creaks slowly as Ollie goes silent and stares at the door."}
+],
+"s02266": [
+{"start":1,"type":"comforts","fine":"reassures","actor":"CONSTANCE","target":"RONAN","mood":"tense","intensity":2,"summary":"Anxious Ronan complains about the wait while lawyer Constance dryly calms him before the verdict."},
+{"start":15,"type":"comforts","fine":"steadies","actor":"CONSTANCE","target":"RONAN","mood":"tender","intensity":3,"summary":"Constance fixes his folder and coaches him on how to carry and present himself."},
+{"start":26,"type":"comforts","fine":"encourages","actor":"CONSTANCE","target":"RONAN","mood":"calm","intensity":3,"summary":"She gives him her handkerchief and tells him to look at the jury."},
+{"start":32,"type":"bonds","fine":"confides in","actor":"RONAN","target":"CONSTANCE","mood":"calm","intensity":2,"summary":"Ronan asks about her experience; she answers tersely and finally drinks her coffee."}
+],
+"s01884": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"LORRAINE","target":"DARNELL","mood":"awkward","intensity":2,"summary":"At bingo night, Lorraine needles her son Darnell about his missed visits."},
+{"start":18,"type":"accuses","fine":"exposes","actor":"LORRAINE","target":"DARNELL","mood":"tense","intensity":3,"summary":"Lorraine reveals she called the depot and learned Darnell quit in May."},
+{"start":24,"type":"arrives","fine":"shows up unannounced","actor":"CALVIN","target":"DARNELL","mood":"awkward","intensity":3,"summary":"A county clerk appears at the table seeking Darnell's signature for missed hearings."},
+{"start":33,"type":"confesses","fine":"owns up to","actor":"DARNELL","target":"LORRAINE","mood":"grief","intensity":3,"summary":"Darnell signs and admits he lost his apartment and van."},
+{"start":42,"type":"decides","fine":"gives an order","actor":"LORRAINE","target":"DARNELL","mood":"hostile","intensity":4,"summary":"Lorraine stands and orders Darnell home; he explodes, flinging his cards."},
+{"start":61,"type":"comforts","fine":"forgives","actor":"LORRAINE","target":"DARNELL","mood":"bittersweet","intensity":4,"summary":"Lorraine says he is her son; Mags softly calls bingo."}
+],
+"s01947": [
+{"start":1,"type":"works","fine":"prepares","actor":"RASHID","target":null,"mood":"tense","intensity":3,"summary":"The crew hurriedly loads gold from the looted vault as the clock runs down."},
+{"start":20,"type":"reveals","fine":"breaks news to","actor":"CAMILLE","target":"RASHID","mood":"ominous","intensity":4,"summary":"Camille reveals only eighteen of thirty bars remain, taken by someone with a key."},
+{"start":30,"type":"accuses","fine":"suspects","actor":"RASHID","target":"SVEN","mood":"hostile","intensity":4,"summary":"Rashid presses on who knew the plan and stares down Sven."},
+{"start":37,"type":"decides","fine":"makes a plan","actor":"CAMILLE","target":"RASHID","mood":"ominous","intensity":3,"summary":"Camille proposes keeping eighteen bars and letting the thief keep twelve, then time runs out."}
+],
+"s01622": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"OKONKWO","target":null,"mood":"tense","intensity":3,"summary":"Five soldiers lie on a pagoda roof at dawn, watching the treeline."},
+{"start":8,"type":"works","fine":"goes through routine","actor":"MARCHETTI","target":null,"mood":"chaotic","intensity":3,"summary":"Marchetti spills ammunition boxes down the tiles and into the paddy with a splash."},
+{"start":15,"type":"attacks","fine":"shoots at","actor":null,"target":"LINDQVIST","mood":"fear","intensity":4,"summary":"A distant shot chips a tile by Lindqvist's head and everyone flattens."},
+{"start":23,"type":"confronts","fine":"challenges","actor":"OKONKWO","target":null,"mood":"suspense","intensity":4,"summary":"Okonkwo stands and waves at the mist; a white scarf answers."},
+{"start":35,"type":"jokes","fine":"lightens the mood for","actor":"LINDQVIST","target":null,"mood":"hopeful","intensity":2,"summary":"Relief spreads as the soldiers lower their guard before a second shot."},
+{"start":41,"type":"flees","fine":"scrambles away","actor":"OKONKWO","target":null,"mood":"chaotic","intensity":5,"summary":"Under fire, the squad slides off the roof and into the water."},
+{"start":47,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"ominous","intensity":2,"summary":"Mist closes over the roof and silence returns."}
+],
+"s01992_0": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"HANNELORE","target":"TOBY","mood":"tense","intensity":2,"summary":"Climbers huddle in the ice cave as Hannelore orders them to rope up and Toby complains."},
+{"start":18,"type":"mocks","fine":"provokes","actor":"INGRID","target":"TOBY","mood":"chaotic","intensity":3,"summary":"Ingrid's photo triggers a scuffle that knocks Gideon onto the stove, putting it out."},
+{"start":24,"type":"discovers","fine":"notices","actor":"KWESI","target":null,"mood":"ominous","intensity":4,"summary":"A groan from the ice overhead tells the climbers it is not wind."},
+{"start":30,"type":"flees","fine":"scrambles away","actor":"HANNELORE","target":null,"mood":"chaotic","intensity":5,"summary":"A crack sounds, they scatter, and the ice roof collapses."}
+],
+"s02363": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"DR. FAIRWEATHER","target":null,"mood":"calm","intensity":1,"summary":"A quiet rooftop garden where doctor, patient and daughter sit together."},
+{"start":14,"type":"reveals","fine":"breaks news to","actor":"DR. FAIRWEATHER","target":"PENHALIGON","mood":"grief","intensity":4,"summary":"Dr. Fairweather plainly tells Penhaligon the cancer has spread and he has weeks."},
+{"start":22,"type":"comforts","fine":"encourages","actor":"DR. FAIRWEATHER","target":"PENHALIGON","mood":"bittersweet","intensity":3,"summary":"She turns planning into hope by suggesting he finally see Lisbon."},
+{"start":33,"type":"leaves","fine":"excuses themself","actor":"DR. FAIRWEATHER","target":"PENHALIGON","mood":"tender","intensity":3,"summary":"Called away, the doctor is thanked for sitting and touches his shoulder."}
+],
+"s02217": [
+{"start":1,"type":"works","fine":"prepares","actor":"ISADORA","target":null,"mood":"calm","intensity":2,"summary":"Dr. Kemp and tech Preston prepare to operate on an anaesthetized retriever."},
+{"start":10,"type":"discovers","fine":"finds a clue","actor":"ISADORA","target":null,"mood":"suspense","intensity":2,"summary":"Isadora opens the dog and pulls out a twisted blue cloth."},
+{"start":22,"type":"reveals","fine":"lets slip to","actor":"MR. BELL","target":"ISADORA","mood":"grief","intensity":4,"summary":"Mr. Bell recognizes the sock as his late wife Margaret's."},
+{"start":40,"type":"works","fine":"goes through routine","actor":"ISADORA","target":null,"mood":"bittersweet","intensity":3,"summary":"Isadora closes the incision while Preston wipes his eyes, the dog having eaten the sock in grief."}
+],
+"s00973": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"WYNFRED","target":"LUCAN","mood":"tense","intensity":2,"summary":"Wynfred and Sable question why knight Lucan has come for the queen bee."},
+{"start":18,"type":"confesses","fine":"opens up to","actor":"LUCAN","target":"WYNFRED","mood":"ominous","intensity":3,"summary":"Lucan admits his orders were to take the queen, alive or dead; the king has been silent."},
+{"start":26,"type":"decides","fine":"refuses","actor":"LUCAN","target":null,"mood":"hostile","intensity":4,"summary":"Lucan refuses to kill the queen and vows to warn the king; Sable insists on going too."},
+{"start":36,"type":"persuades","fine":"talks down","actor":"WYNFRED","target":"LUCAN","mood":"hopeful","intensity":3,"summary":"Wynfred stops their quarrel and sends the two off together."}
+],
+"s01807": [
+{"start":1,"type":"hides","fine":"lies low","actor":"WOMAN","target":null,"mood":"tense","intensity":3,"summary":"A wounded woman barricades herself inside the dead radio studio."},
+{"start":11,"type":"searches","fine":"scans the room","actor":"WOMAN","target":null,"mood":"suspense","intensity":3,"summary":"She explores the booth, switches on the ON AIR light, and finds a badge with her name."},
+{"start":32,"type":"discovers","fine":"realizes","actor":"NELL","target":null,"mood":"ominous","intensity":4,"summary":"A recorded voice of Nell's own warns her not to trust what speaks in her voice."},
+{"start":40,"type":"hides","fine":"ducks out of sight","actor":"NELL","target":null,"mood":"fear","intensity":4,"summary":"Nell kills the red light and goes dark as something slides in the corridor."},
+{"start":43,"type":"lies","fine":"deceives","actor":null,"target":"NELL","mood":"fear","intensity":5,"summary":"A calm voice in her own tone begs to be let in; Nell silently refuses."}
+],
+"s01151": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"SCOTT","target":"LEILANI","mood":"playful","intensity":2,"summary":"Office staff trade morning pleasantries and jokes before a mysterious all-hands."},
+{"start":17,"type":"deflects","fine":"dodges","actor":"SCOTT","target":"BARRY","mood":"awkward","intensity":2,"summary":"Scott spins consultant Prakash's visit as an opportunity as staff fear audits and layoffs."},
+{"start":33,"type":"reveals","fine":"drops a bombshell on","actor":"PRAKASH","target":"KENDRA","mood":"tense","intensity":4,"summary":"Prakash shows that Henderson and others are already terminated."},
+{"start":53,"type":"discovers","fine":"realizes","actor":"KENDRA","target":"SCOTT","mood":"awkward","intensity":4,"summary":"Kendra points out Scott's name tops the list; he gulps Barry's tea in shock."}
+],
+"s01435": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"HOLLIS","target":null,"mood":"melancholy","intensity":2,"summary":"Hollis sits alone in the ruined saloon, talking to the empty room and his cracked reflection."},
+{"start":17,"type":"confronts","fine":"demands answers from","actor":"DORA","target":"HOLLIS","mood":"tense","intensity":3,"summary":"Dora calls him out from outside; weary Hollis answers from the doorway."},
+{"start":32,"type":"arrives","fine":"makes an entrance","actor":"DORA","target":"HOLLIS","mood":"ominous","intensity":3,"summary":"Dora pushes through the doors, rifle on her back, and they trade dry barbs."},
+{"start":40,"type":"confronts","fine":"presses","actor":"DORA","target":"HOLLIS","mood":"tense","intensity":3,"summary":"Dora drinks from his cup and demands the horse he owes her."}
+],
+"s00435": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"ROSALIND","target":"DARIO","mood":"playful","intensity":2,"summary":"Rosalind claims a dryer from Dario while her mother and others chip in."},
+{"start":15,"type":"decides","fine":"accepts","actor":"ROSALIND","target":"DARIO","mood":"joyful","intensity":2,"summary":"Rosalind lends quarters and finally gives Dario the machine."}
+],
+"s02264": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"AGNES","target":"FOTHERGILL","mood":"tense","intensity":2,"summary":"Agnes serves soup calmly and refuses to hear Fothergill's news until after eating."},
+{"start":28,"type":"reveals","fine":"breaks news to","actor":"FOTHERGILL","target":"AGNES","mood":"tense","intensity":3,"summary":"Fothergill reveals creditors demand four thousand pounds; Edmund suggests selling land."},
+{"start":41,"type":"persuades","fine":"pitches to","actor":"FOTHERGILL","target":"AGNES","mood":"ominous","intensity":4,"summary":"Fothergill proposes a marriage to a Bath widower to settle the debt."},
+{"start":52,"type":"discovers","fine":"realizes","actor":"EDMUND","target":null,"mood":"fear","intensity":4,"summary":"It dawns that the gentleman wants Edmund; Agnes feigns calm and offers more soup."},
+{"start":59,"type":"leaves","fine":"walks out on","actor":"EDMUND","target":"AGNES","mood":"grief","intensity":3,"summary":"Edmund retreats to the fire and wipes his eyes while Agnes resumes eating."}
+],
+"s00559": [
+{"start":1,"type":"hides","fine":"lies low","actor":"GLENDA","target":null,"mood":"playful","intensity":3,"summary":"Six conspirators crouch awkwardly behind furniture in the dental office awaiting Grandma's surprise party."},
+{"start":6,"type":"observes","fine":"waits","actor":"THADDEUS","target":null,"mood":"awkward","intensity":3,"summary":"The door chimes twice with nobody entering while they whisper and fumble."},
+{"start":24,"type":"arrives","fine":"makes an entrance","actor":"GRANDMA ROSEMARY","target":null,"mood":"playful","intensity":3,"summary":"Grandma Rosemary walks in on the ambush and says she thought it was tomorrow."}
+],
+"s01209": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PIP","target":"KESTREL","mood":"calm","intensity":2,"summary":"A party crosses a crystal forest while Pip asks if the trees sing."},
+{"start":11,"type":"observes","fine":"keeps watch","actor":"IMOGEN","target":null,"mood":"suspense","intensity":3,"summary":"A deep thrum shakes the forest and the party forms a protective triangle around Pip."},
+{"start":19,"type":"attacks","fine":"fights","actor":"KESTREL","target":null,"mood":"chaotic","intensity":5,"summary":"A shard-creature appears and sweeps Barrow, Kestrel and Imogen off their feet."},
+{"start":30,"type":"comforts","fine":"calms","actor":"PIP","target":null,"mood":"tender","intensity":4,"summary":"Pip stops the fight, hums the creature's song, and it kneels, softening to gold."},
+{"start":45,"type":"bonds","fine":"shares a moment with","actor":"PIP","target":null,"mood":"joyful","intensity":4,"summary":"The creature touches Pip's forehead, a rainbow floods the clearing and the forest sings."}
+],
+"s00504": [
+{"start":1,"type":"observes","fine":"studies","actor":"TESTA","target":null,"mood":"tense","intensity":2,"summary":"The final bocce match is tied; Aldo rolls close and the referee measures."},
+{"start":17,"type":"attacks","fine":"shoves","actor":"CORMAC","target":"LUCIA","mood":"chaotic","intensity":4,"summary":"Cormac hurls his ball, scattering the cluster and sparking a brawl that Testa halts."}
+],
+"s01203": [
+{"start":1,"type":"persuades","fine":"bargains with","actor":"ODETTE","target":"MARCELINO","mood":"tense","intensity":2,"summary":"Odette haggles with the pawnbroker over her wedding ring, getting him to fifty dollars."},
+{"start":14,"type":"decides","fine":"changes course","actor":"ODETTE","target":"MARCELINO","mood":"bittersweet","intensity":3,"summary":"She takes the money, then puts the ring back on and returns the cash."}
+],
+"s00701": [
+{"start":1,"type":"jokes","fine":"teases","actor":"MARCUS","target":"SKYE","mood":"awkward","intensity":2,"summary":"Teens at the windmill hole trade glances while Dolores announces closing time."},
+{"start":15,"type":"mocks","fine":"provokes","actor":"MARCUS","target":"SKYE","mood":"awkward","intensity":2,"summary":"Skye's putt fails, Marcus laughs, and Jamal quietly hands her another ball."}
+],
+"s00647": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"MBEKI","target":"WEI-LING","mood":"tense","intensity":3,"summary":"Inspector Mbeki questions fishmonger Wei-Ling about a bag found in her ice."},
+{"start":13,"type":"searches","fine":"scans the room","actor":"MBEKI","target":"KEN","mood":"suspense","intensity":3,"summary":"Mbeki notices Ken hiding behind the tarp and invites anyone to claim the bag."},
+{"start":24,"type":"reveals","fine":"shows","actor":"WEI-LING","target":"MBEKI","mood":"tense","intensity":3,"summary":"Wei-Ling slides the bag over; Mbeki makes her open it."},
+{"start":31,"type":"discovers","fine":"recognizes","actor":"WEI-LING","target":null,"mood":"grief","intensity":4,"summary":"The bag holds keys and a photograph; Wei-Ling identifies her son."}
+],
+"s00915": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"GLORIA","target":"CLAIRE","mood":"tender","intensity":2,"summary":"Gloria and Raymond warmly fuss over Claire in the kitchen before her trip."},
+{"start":40,"type":"reveals","fine":"comes clean to","actor":"CLAIRE","target":"GLORIA","mood":"tense","intensity":3,"summary":"Claire announces she gave up the apartment and quit her job."},
+{"start":67,"type":"confesses","fine":"opens up to","actor":"CLAIRE","target":"GLORIA","mood":"grief","intensity":5,"summary":"Claire tells her stunned parents she is sick."},
+{"start":76,"type":"comforts","fine":"embraces","actor":"GLORIA","target":"CLAIRE","mood":"tender","intensity":4,"summary":"Raymond and Gloria pledge to fight it together; Gloria holds her daughter's face."}
+],
+"s00463": [
+{"start":1,"type":"deflects","fine":"stalls","actor":"BARNABY","target":"ODALYS","mood":"awkward","intensity":2,"summary":"Barnaby fumbles with a marker and announces nobody is getting fired."},
+{"start":14,"type":"reveals","fine":"breaks news to","actor":"BARNABY","target":"ODALYS","mood":"awkward","intensity":3,"summary":"He announces a flat org chart with no managers, himself included."},
+{"start":21,"type":"leaves","fine":"walks out on","actor":"ODALYS","target":"BARNABY","mood":"awkward","intensity":3,"summary":"Odalys removes her headphones and walks out while he keeps smiling."}
+],
+"s01233": [
+{"start":1,"type":"works","fine":"prepares","actor":"NADIRA","target":null,"mood":"calm","intensity":2,"summary":"Nadira rehearses her opening statement alone to the empty jury box."},
+{"start":18,"type":"discovers","fine":"notices","actor":"NADIRA","target":"ELIAS","mood":"awkward","intensity":2,"summary":"A cough reveals retired bailiff Elias watching from the back row."},
+{"start":35,"type":"persuades","fine":"convinces","actor":"ELIAS","target":"NADIRA","mood":"playful","intensity":3,"summary":"Elias critiques her opening word and persuades her to start with the weather."},
+{"start":55,"type":"works","fine":"prepares","actor":"NADIRA","target":"ELIAS","mood":"hopeful","intensity":3,"summary":"Nadira redelivers her opening about the rainy night; Elias approves."},
+{"start":72,"type":"leaves","fine":"exits quietly","actor":"ELIAS","target":null,"mood":"bittersweet","intensity":2,"summary":"She bows her head, and Elias resumes mopping while she mutters about weather."}
+],
+"s00323": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"RAVI","target":"NKECHI","mood":"tense","intensity":3,"summary":"Four people stuck in a stalled gondola squabble over rescue times and Pilar's dwindling battery."}
+],
+"s00813": [
+{"start":1,"type":"works","fine":"works","actor":"ARNOLD","target":"JOSEFINA","mood":"awkward","intensity":2,"summary":"Arnold tunes his late wife's piano while estranged Josefina lingers coldly in the doorway."},
+{"start":32,"type":"bonds","fine":"reconnects with","actor":"JOSEFINA","target":"ARNOLD","mood":"melancholy","intensity":3,"summary":"Josefina enters and speaks of their loneliness and her mother's ear for tuning."},
+{"start":57,"type":"confesses","fine":"opens up to","actor":"ARNOLD","target":"JOSEFINA","mood":"grief","intensity":4,"summary":"Asked how the room sounded when her mother left, Arnold plays the flat note."},
+{"start":62,"type":"bonds","fine":"teams up with","actor":"JOSEFINA","target":"ARNOLD","mood":"tender","intensity":4,"summary":"Josefina tunes the flat A true; he watches her and they accept tea."}
+]
+}

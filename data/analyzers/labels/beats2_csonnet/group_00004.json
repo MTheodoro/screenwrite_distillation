@@ -1,0 +1,130 @@
+{
+"s05133": [
+{"start":1,"type":"works","fine":"drives","actor":"Dev","target":null,"mood":"awkward","intensity":2,"summary":"Dev drives two strangers through the night, making stiff small talk."},
+{"start":8,"type":"threatens","fine":"coerces","actor":"Nadia","target":"Dev","mood":"tense","intensity":3,"summary":"Nadia takes a furious call from Luke; the passenger's hood comes down."},
+{"start":16,"type":"reveals","fine":"shows","actor":"Marcus","target":"Dev","mood":"fear","intensity":4,"summary":"Marcus unzips the bag of cash and Dev brakes hard, realizing it is no ride."}
+],
+"s05134": [
+{"start":1,"type":"bonds","fine":"reconnects with","actor":"Jalen","target":"Maya","mood":"awkward","intensity":2,"summary":"Maya and Jalen, last members of a group chat, meet awkwardly at the skate park."},
+{"start":14,"type":"discovers","fine":"notices","actor":"Maya","target":"Jalen","mood":"fear","intensity":4,"summary":"A stranger's message warns them off going home and the streetlight dies."},
+{"start":24,"type":"hides","fine":"lies low","actor":"Maya","target":"Jalen","mood":"suspense","intensity":4,"summary":"They crouch in the dark, trusting each other as footsteps approach."}
+],
+"s05135": [
+{"start":1,"type":"comforts","fine":"tends to","actor":"The Nurse","target":"Tess","mood":"tense","intensity":3,"summary":"The school nurse gently coaxes pale Tess, who insists she only skipped breakfast."},
+{"start":6,"type":"discovers","fine":"notices","actor":"Kira","target":"Tess","mood":"tense","intensity":4,"summary":"Kira spots tape on Tess's arm and argues with Bea about telling."},
+{"start":13,"type":"confronts","fine":"presses","actor":"The Nurse","target":"Margaret","mood":"grief","intensity":4,"summary":"The nurse asks for Tess's mother; Margaret appears and Tess apologizes."}
+],
+"s05136": [
+{"start":1,"type":"mocks","fine":"patronizes","actor":"David Kessler","target":"Kim","mood":"awkward","intensity":2,"summary":"Producer David tells Kim her take sounds like ordering coffee."},
+{"start":10,"type":"jokes","fine":"riffs with","actor":"Kim","target":"Kip","mood":"playful","intensity":2,"summary":"Kim, Kip and two Davids trade quips about who wrote what."},
+{"start":17,"type":"confronts","fine":"presses","actor":"Kip","target":"Kim","mood":"bittersweet","intensity":3,"summary":"Kip asks if Kim is leaving the song or the band; she says roll tape."}
+],
+"s05138": [
+{"start":1,"type":"works","fine":"drives","actor":"Barry","target":"The Woman","mood":"calm","intensity":2,"summary":"Minicab driver Barry makes chatty small talk with a silent woman and her violin case."},
+{"start":17,"type":"arrives","fine":"makes an entrance","actor":"The Woman","target":"Barry","mood":"ominous","intensity":3,"summary":"At the auction house the Quartet greets her, and Barry notes she knows his name."},
+{"start":22,"type":"leaves","fine":"leaves","actor":"The Woman","target":"Barry","mood":"suspense","intensity":3,"summary":"She shows the empty case, tells Barry to wait, and leaves; he kills the engine."}
+],
+"s05139": [
+{"start":1,"type":"observes","fine":"waits","actor":"Eleanor","target":null,"mood":"tense","intensity":2,"summary":"During a 1974 blackout a family sits tensely in a candlelit kitchen."},
+{"start":11,"type":"reveals","fine":"breaks news to","actor":"Caller","target":"Eleanor","mood":"ominous","intensity":3,"summary":"Frank phones to say the hospital called; Eleanor stalls and the family reacts."},
+{"start":28,"type":"decides","fine":"accepts","actor":"Gerald","target":"Eleanor","mood":"melancholy","intensity":4,"summary":"Gerald folds the catalogue and asks Eleanor to put the kettle on."}
+],
+"s05140": [
+{"start":1,"type":"searches","fine":"investigates","actor":"Priya","target":"Walt","mood":"suspense","intensity":2,"summary":"Documentarian Priya interviews an old man at his storage unit."},
+{"start":13,"type":"discovers","fine":"realizes","actor":"Teo","target":"Priya","mood":"tense","intensity":3,"summary":"Her producer calls with a warning about the name before the call drops."},
+{"start":25,"type":"reveals","fine":"comes clean to","actor":"Walt","target":"Priya","mood":"ominous","intensity":4,"summary":"Walt opens the unit full of crates and admits he lied about his unit."},
+{"start":32,"type":"confesses","fine":"unburdens to","actor":"Walt","target":"Priya","mood":"fear","intensity":5,"summary":"The crates hold four hundred and six names as the lights go out."}
+],
+"s05141": [
+{"start":1,"type":"bonds","fine":"confides in","actor":"Marisol","target":"Quinn","mood":"tender","intensity":2,"summary":"Public defender Marisol confides her shaking hands to Quinn while getting a manicure."},
+{"start":20,"type":"confronts","fine":"confronts","actor":"Dolores","target":"Marisol","mood":"tense","intensity":3,"summary":"A watching woman reveals she is the mother of the man Marisol will cross-examine."},
+{"start":40,"type":"attacks","fine":"lunges at","actor":"Dolores","target":"Marisol","mood":"chaotic","intensity":5,"summary":"The argument escalates and Dolores throws a cup, shattering the polish bottles."}
+],
+"s05142": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"Jamal","target":"Lena","mood":"awkward","intensity":2,"summary":"Online friends meet at a library, joking nervously about height."},
+{"start":6,"type":"discovers","fine":"notices","actor":"Lena","target":null,"mood":"fear","intensity":4,"summary":"A message from no one arrives and the Orbit speaks from all three phones."},
+{"start":16,"type":"reveals","fine":"unmasks","actor":"Okoye","target":"Lena","mood":"ominous","intensity":5,"summary":"Okoye admits she always knew as the lights dim and phones read Home."}
+],
+"s05143": [
+{"start":1,"type":"works","fine":"prepares","actor":"Tessa","target":"Cam","mood":"tense","intensity":2,"summary":"Tessa livestreams a dance with nervous Cam, who guards a tote bag."},
+{"start":15,"type":"observes","fine":"spies on","actor":"Cam","target":"Tessa","mood":"suspense","intensity":3,"summary":"A woman in a raincoat watches them and starts walking over as chat panics."},
+{"start":32,"type":"flees","fine":"bolts","actor":"Tessa","target":null,"mood":"chaotic","intensity":4,"summary":"A flash mob covers their escape and they run, laughing and terrified."},
+{"start":42,"type":"confronts","fine":"corners","actor":"Mara","target":"Tessa","mood":"tense","intensity":4,"summary":"Detective Mara waits at the gate and asks what is in the bag."}
+],
+"s05146": [
+{"start":1,"type":"observes","fine":"watches","actor":"The Woman in Green","target":"The Woman in Black","mood":"suspense","intensity":3,"summary":"Two women on a 1953 night bus watch each other in tense silence."},
+{"start":19,"type":"hides","fine":"keeps a secret","actor":"The Woman in Black","target":null,"mood":"fear","intensity":3,"summary":"Black coat reaches into her bag, finding only a handkerchief."},
+{"start":29,"type":"confronts","fine":"calls out","actor":"The Woman in Green","target":"The Woman in Black","mood":"ominous","intensity":4,"summary":"Green produces a letter bearing Black's name and withholds it."},
+{"start":46,"type":"reveals","fine":"unmasks","actor":"The Woman in Green","target":"The Woman in Black","mood":"ominous","intensity":5,"summary":"Green says she wrote the letter; Eleanor sees a face like her own."}
+],
+"s05147": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"Jess","target":null,"mood":"calm","intensity":1,"summary":"Former detective Jess wipes benches in the early gym, narrating her past."},
+{"start":10,"type":"arrives","fine":"shows up unannounced","actor":"Hoodie Man","target":"Jess","mood":"tense","intensity":3,"summary":"A hooded man shows a photo of his missing sister and asks Jess for help."},
+{"start":31,"type":"discovers","fine":"recognizes","actor":"Jess","target":"Kyle","mood":"ominous","intensity":4,"summary":"He gives his name, Kyle Brandt, a name Jess buried."},
+{"start":46,"type":"accuses","fine":"points the finger at","actor":"Kyle","target":"Big Mo","mood":"hostile","intensity":4,"summary":"Big Mo appears with a bloody towel; Kyle says he last saw her."},
+{"start":63,"type":"confronts","fine":"stares down","actor":"Jess","target":"Big Mo","mood":"suspense","intensity":5,"summary":"Jess steps between them and orders Mo to open the back room."}
+],
+"s05149": [
+{"start":1,"type":"observes","fine":"waits","actor":"Kim","target":null,"mood":"ominous","intensity":3,"summary":"A man waits alone in a parole office where the clock is stuck."},
+{"start":16,"type":"arrives","fine":"makes an entrance","actor":"Margaret","target":"Kim","mood":"ominous","intensity":3,"summary":"A woman arrives, expecting him, and mixes up Kip and Kim."},
+{"start":28,"type":"reveals","fine":"shows","actor":"Margaret","target":"Kim","mood":"fear","intensity":4,"summary":"She shows his file with red handwriting he did not write; footsteps approach."},
+{"start":50,"type":"reveals","fine":"drops a bombshell on","actor":"Margaret","target":"Kim","mood":"fear","intensity":5,"summary":"Margaret introduces the presence behind him as Kip, who is dead."}
+],
+"s05151": [
+{"start":1,"type":"jokes","fine":"amuses","actor":"The Woman","target":null,"mood":"awkward","intensity":2,"summary":"A woman greets an empty AA meeting and jokes about her sobriety."},
+{"start":19,"type":"hides","fine":"conceals something","actor":"The Woman","target":null,"mood":"playful","intensity":3,"summary":"Her purse wiggles, and she reveals her ex-husbands were turned into frogs."},
+{"start":31,"type":"threatens","fine":"looms over","actor":"The Woman","target":null,"mood":"ominous","intensity":4,"summary":"A staff taps down the stairs and stops behind Brenda, a four-hundred-year-old witch."}
+],
+"s05152": [
+{"start":1,"type":"hides","fine":"lies low","actor":"Imani","target":"Jonah","mood":"suspense","intensity":3,"summary":"Imani hides during a lockdown and takes a whispered call from Jonah."},
+{"start":17,"type":"decides","fine":"commits","actor":"Imani","target":null,"mood":"tense","intensity":4,"summary":"She sprints forty feet to kill the east lights, driving the creature away."},
+{"start":31,"type":"reveals","fine":"drops a bombshell on","actor":"Jonah","target":"Imani","mood":"fear","intensity":5,"summary":"The dog barks, the scraping reverses, and bloodied Jonah says it was never in the vents."}
+],
+"s05154": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"Jen","target":"Sam","mood":"chaotic","intensity":2,"summary":"At a climate protest Jen and ex Sam bicker as the polar bear crashes into a bin."},
+{"start":12,"type":"arrives","fine":"makes an entrance","actor":"Oz","target":"Jen","mood":"playful","intensity":3,"summary":"A barefoot stranger announces he is from two hundred years in the future."},
+{"start":26,"type":"comforts","fine":"encourages","actor":"Mrs. K","target":"Oz","mood":"hopeful","intensity":3,"summary":"Pip pops out of the bear; everyone laughs and Mrs. K urges Oz to march."}
+],
+"s05155": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"Anika","target":null,"mood":"melancholy","intensity":2,"summary":"Anika, trembling over her coffee, rides a nearly empty night bus."},
+{"start":13,"type":"bonds","fine":"confides in","actor":"Riley","target":"Anika","mood":"tender","intensity":2,"summary":"Riley guesses Anika is a nurse and talks about their mother."},
+{"start":29,"type":"confronts","fine":"presses","actor":"Riley","target":"Anika","mood":"tense","intensity":3,"summary":"Riley urges her to return the hospital's seven missed calls; she snaps."},
+{"start":41,"type":"confesses","fine":"unburdens to","actor":"Anika","target":"Riley","mood":"grief","intensity":4,"summary":"Anika admits she left for twelve minutes and a boy nearly died."},
+{"start":56,"type":"leaves","fine":"leaves","actor":"Riley","target":"Anika","mood":"ominous","intensity":3,"summary":"Riley exits, having used a name never given; Anika calls the ward."}
+],
+"s05156": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"Katya","target":"Lucia","mood":"awkward","intensity":2,"summary":"Two rival bridesmaids in the same mint dress meet on a night bus."},
+{"start":25,"type":"jokes","fine":"banters with","actor":"Lucia","target":"Katya","mood":"playful","intensity":2,"summary":"They trade gossip about the angry bride and the ruined cake."},
+{"start":29,"type":"bonds","fine":"teams up with","actor":"Winston","target":"Lucia","mood":"joyful","intensity":3,"summary":"Delivery man Winston shares pineapple pizza; both women say the bride threatened them."},
+{"start":41,"type":"decides","fine":"changes course","actor":"Lucia","target":"Katya","mood":"hopeful","intensity":3,"summary":"The bus stops at a silent bright future and Lucia offers to explore."}
+],
+"s05157": [
+{"start":1,"type":"hides","fine":"lies low","actor":"Nadia","target":null,"mood":"fear","intensity":3,"summary":"Nadia hides in a bathroom stall during a siege, texting her mom."},
+{"start":15,"type":"arrives","fine":"bursts in","actor":"Kofi","target":"Nadia","mood":"tense","intensity":3,"summary":"Kofi and injured Lucas burst in and discover Nadia hiding."},
+{"start":40,"type":"threatens","fine":"menaces","actor":"Ms. Brandt","target":"Kofi","mood":"fear","intensity":5,"summary":"Ms. Brandt pleads to be let in; the kids doubt her as juniors creep past."},
+{"start":59,"type":"observes","fine":"hesitates","actor":"Kofi","target":"Nadia","mood":"suspense","intensity":4,"summary":"Kofi's hand stays on the mop as a bang shakes the door."}
+],
+"s05158": [
+{"start":1,"type":"confronts","fine":"presses","actor":"Okonkwo","target":"Grieve","mood":"tense","intensity":3,"summary":"Solicitor Okonkwo presses officer Grieve to pass her client's suspicious papers."},
+{"start":19,"type":"reveals","fine":"breaks news to","actor":"Vane","target":"Grieve","mood":"suspense","intensity":4,"summary":"The Home Office says the order was revoked and the two are not who they claim."},
+{"start":27,"type":"decides","fine":"changes course","actor":"Grieve","target":"Okonkwo","mood":"fear","intensity":4,"summary":"The sleeping girl wakes and calls Okonkwo Mummy; Grieve drops the clipboard."}
+],
+"s05159_0": [
+{"start":1,"type":"observes","fine":"waits","actor":"Beth","target":"Cal","mood":"awkward","intensity":2,"summary":"Nervous Beth and Cal wait at a fertility clinic, joking until called in."}
+],
+"s05159_1": [
+{"start":1,"type":"bonds","fine":"confides in","actor":"Beth","target":"Dr. Okafor","mood":"awkward","intensity":2,"summary":"Beth and Cal admit to Dr. Okafor they are terrified after three years."},
+{"start":22,"type":"reveals","fine":"breaks news to","actor":"Dr. Okafor","target":"Beth","mood":"suspense","intensity":4,"summary":"A lab call interrupts; Okafor hangs up and tells them to breathe."},
+{"start":36,"type":"bonds","fine":"shares a moment with","actor":"Cal","target":"Beth","mood":"joyful","intensity":4,"summary":"It is a yes; Beth cries and Cal celebrates and they embrace."}
+],
+"s05160": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"Osei","target":"Juniper","mood":"hostile","intensity":3,"summary":"On take nineteen, engineer Osei and singer Juniper argue over the rushed bridge."},
+{"start":13,"type":"confronts","fine":"presses","actor":"Marguerite","target":"Juniper","mood":"chaotic","intensity":4,"summary":"Marguerite calls about the label deadline and Juniper hurls their headphones."}
+],
+"s05161": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"Barry","target":"Nadine","mood":"awkward","intensity":2,"summary":"Supervisor Barry cheerfully greets a tired, unimpressed warehouse crew."},
+{"start":22,"type":"discovers","fine":"notices","actor":"Nadine","target":"Barry","mood":"suspense","intensity":3,"summary":"An unscanned box marked private rolls by and Barry panics."},
+{"start":40,"type":"reveals","fine":"exposes a secret to","actor":"Nadine","target":"Barry","mood":"playful","intensity":3,"summary":"Nadine opens the box: shampoos, stolen name tags, and a self-made award."},
+{"start":52,"type":"mocks","fine":"humiliates","actor":"Nadine","target":"Barry","mood":"joyful","intensity":3,"summary":"The warehouse applauds; Robin crowns the mortified Barry with the sign."}
+]
+}

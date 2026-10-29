@@ -1,0 +1,95 @@
+{
+"pd_dollhouse_2": [
+{"start": 1, "type": "hides", "fine": "keeps a secret", "actor": "NORA", "target": "THE CHILDREN", "mood": "tense", "intensity": 3, "summary": "Nora tells the children to keep the stranger secret and sends them away."},
+{"start": 7, "type": "hides", "fine": "masks a feeling", "actor": "NORA", "target": null, "mood": "tense", "intensity": 3, "summary": "Alone and agitated, Nora busies herself with sewing and the tree."},
+{"start": 21, "type": "lies", "fine": "lies to", "actor": "NORA", "target": "HELMER", "mood": "tense", "intensity": 3, "summary": "Helmer returns and Nora denies anyone visited."},
+{"start": 25, "type": "accuses", "fine": "exposes", "actor": "HELMER", "target": "NORA", "mood": "tense", "intensity": 4, "summary": "Helmer saw Krogstad leave and catches Nora in her lie."},
+{"start": 34, "type": "mocks", "fine": "patronizes", "actor": "HELMER", "target": "NORA", "mood": "awkward", "intensity": 2, "summary": "Helmer scolds his songbird indulgently, then settles comfortably by the stove."}
+],
+"pd_dollhouse_3": [
+{"start": 1, "type": "comforts", "fine": "reassures", "actor": "HELMER", "target": "NORA", "mood": "tense", "intensity": 2, "summary": "Helmer reassures Nora her fears are fancy and goes to his office."},
+{"start": 7, "type": "observes", "fine": "hesitates", "actor": "NORA", "target": null, "mood": "fear", "intensity": 4, "summary": "Alone, Nora panics, fearing what Helmer will do, desperate for escape."},
+{"start": 9, "type": "arrives", "fine": "arrives", "actor": "RANK", "target": "NORA", "mood": "ominous", "intensity": 2, "summary": "Rank arrives and hints that something is about to happen soon."},
+{"start": 23, "type": "reveals", "fine": "breaks news to", "actor": "RANK", "target": "NORA", "mood": "grief", "intensity": 4, "summary": "Rank reveals he is dying and will bar Helmer from his sickroom."},
+{"start": 34, "type": "deflects", "fine": "changes the subject on", "actor": "NORA", "target": "RANK", "mood": "bittersweet", "intensity": 2, "summary": "Nora deflects with light talk of his father's rich indulgences."}
+],
+"pd_dollhouse_4": [
+{"start": 1, "type": "decides", "fine": "makes a plan", "actor": "MRS LINDE", "target": "NORA", "mood": "suspense", "intensity": 3, "summary": "Mrs Linde plans to retrieve Krogstad's letter and tells Nora to stall Helmer."},
+{"start": 7, "type": "persuades", "fine": "seduces", "actor": "NORA", "target": "HELMER", "mood": "tense", "intensity": 3, "summary": "Nora begs Helmer to devote the evening to helping her rehearse."},
+{"start": 25, "type": "pleads", "fine": "begs", "actor": "NORA", "target": "HELMER", "mood": "suspense", "intensity": 4, "summary": "Helmer heads for the letterbox; Nora frantically begs him not to."},
+{"start": 33, "type": "deflects", "fine": "stalls", "actor": "NORA", "target": "HELMER", "mood": "suspense", "intensity": 4, "summary": "Nora plays the Tarantella to distract Helmer, and he sits to play."},
+{"start": 46, "type": "hides", "fine": "masks a feeling", "actor": "NORA", "target": "HELMER", "mood": "tense", "intensity": 4, "summary": "Nora dances wildly while Helmer plays and Rank watches."}
+],
+"pd_dollhouse_5": [
+{"start": 1, "type": "arrives", "fine": "drifts in", "actor": "RANK", "target": "HELMER", "mood": "awkward", "intensity": 2, "summary": "Rank knocks late and Helmer reluctantly lets him in."},
+{"start": 11, "type": "jokes", "fine": "banters with", "actor": "RANK", "target": "HELMER", "mood": "playful", "intensity": 2, "summary": "Rank and Helmer banter about champagne and the merry evening."},
+{"start": 23, "type": "reveals", "fine": "lets slip to", "actor": "RANK", "target": "NORA", "mood": "bittersweet", "intensity": 3, "summary": "Nora probes; Rank confirms his examination yielded certainty of death."},
+{"start": 36, "type": "jokes", "fine": "riffs with", "actor": "NORA", "target": "RANK", "mood": "bittersweet", "intensity": 2, "summary": "They discuss costumes for the next ball as Rank hints at his choice."}
+],
+"pd_dollhouse_6": [
+{"start": 1, "type": "pleads", "fine": "pleads with", "actor": "HELMER", "target": "NORA", "mood": "tense", "intensity": 4, "summary": "Helmer begs Nora to stay as she gathers her cloak and bag."},
+{"start": 14, "type": "leaves", "fine": "walks out on", "actor": "NORA", "target": "HELMER", "mood": "grief", "intensity": 5, "summary": "Nora frees Helmer from obligation and they exchange rings."},
+{"start": 23, "type": "decides", "fine": "refuses", "actor": "NORA", "target": "HELMER", "mood": "melancholy", "intensity": 4, "summary": "Nora refuses letters or help; only a miraculous change could reunite them."},
+{"start": 38, "type": "leaves", "fine": "leaves", "actor": "NORA", "target": "HELMER", "mood": "grief", "intensity": 5, "summary": "Nora leaves; Helmer collapses, hopes briefly, and the door slams below."}
+],
+"pd_earnest_0": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "ALGERNON", "target": "LANE", "mood": "playful", "intensity": 2, "summary": "Algernon banters with Lane about piano playing and cucumber sandwiches."},
+{"start": 13, "type": "confronts", "fine": "presses", "actor": "ALGERNON", "target": "LANE", "mood": "playful", "intensity": 2, "summary": "Algernon questions Lane about drunk champagne; Lane wryly defends himself."},
+{"start": 26, "type": "arrives", "fine": "is ushered in", "actor": "JACK", "target": "ALGERNON", "mood": "playful", "intensity": 2, "summary": "Lane announces Ernest Worthing, who arrives teasing Algy about eating."},
+{"start": 34, "type": "searches", "fine": "questions witnesses", "actor": "ALGERNON", "target": "JACK", "mood": "playful", "intensity": 2, "summary": "Algernon probes Jack's country life; Jack fumbles about Shropshire and the tea."}
+],
+"pd_earnest_1": [
+{"start": 1, "type": "bonds", "fine": "flirts with", "actor": "JACK", "target": "GWENDOLEN", "mood": "playful", "intensity": 2, "summary": "Jack and Gwendolen profess love; she adores the name Ernest."},
+{"start": 5, "type": "persuades", "fine": "pitches to", "actor": "JACK", "target": "GWENDOLEN", "mood": "playful", "intensity": 3, "summary": "Jack tries to sell her on the name Jack; Gwendolen scorns it."},
+{"start": 14, "type": "decides", "fine": "commits", "actor": "JACK", "target": "GWENDOLEN", "mood": "joyful", "intensity": 3, "summary": "Jack proposes clumsily on his knees and Gwendolen accepts."},
+{"start": 30, "type": "arrives", "fine": "bursts in", "actor": "LADY BRACKNELL", "target": "JACK", "mood": "awkward", "intensity": 3, "summary": "Lady Bracknell enters, forbids the engagement, and sends Gwendolen to the carriage."}
+],
+"pd_earnest_2": [
+{"start": 1, "type": "deflects", "fine": "dodges", "actor": "CECILY", "target": "MISS PRISM", "mood": "playful", "intensity": 2, "summary": "Cecily avoids German lessons and wonders about Uncle Jack's wicked brother."},
+{"start": 11, "type": "jokes", "fine": "teases", "actor": "CECILY", "target": "MISS PRISM", "mood": "playful", "intensity": 2, "summary": "Cecily and Miss Prism spar over diaries, memory and three-volume novels."},
+{"start": 24, "type": "arrives", "fine": "arrives", "actor": "CHASUBLE", "target": "MISS PRISM", "mood": "playful", "intensity": 2, "summary": "Dr. Chasuble arrives; Cecily slyly suggests Miss Prism walk with him."},
+{"start": 36, "type": "bonds", "fine": "flirts with", "actor": "MISS PRISM", "target": "CHASUBLE", "mood": "playful", "intensity": 2, "summary": "Miss Prism discovers a headache and leaves strolling with Chasuble."}
+],
+"pd_earnest_3": [
+{"start": 1, "type": "leaves", "fine": "leaves", "actor": "CHASUBLE", "target": null, "mood": "playful", "intensity": 1, "summary": "Chasuble, Prism and Cecily leave the brothers to their reconciliation."},
+{"start": 8, "type": "threatens", "fine": "issues an ultimatum to", "actor": "JACK", "target": "ALGERNON", "mood": "playful", "intensity": 3, "summary": "Jack orders Algy to leave; Merriman reveals Algernon's luggage unpacked."},
+{"start": 16, "type": "decides", "fine": "gives an order", "actor": "JACK", "target": "MERRIMAN", "mood": "playful", "intensity": 3, "summary": "Jack orders the dog-cart, and Algernon calls him a liar."},
+{"start": 25, "type": "mocks", "fine": "insults", "actor": "ALGERNON", "target": "JACK", "mood": "playful", "intensity": 3, "summary": "They trade insults about clothes and vanity until Jack storms off."},
+{"start": 36, "type": "bonds", "fine": "flirts with", "actor": "ALGERNON", "target": "CECILY", "mood": "tender", "intensity": 2, "summary": "Algernon, in love, finds Cecily and they lament their parting."}
+],
+"pd_earnest_4": [
+{"start": 1, "type": "confronts", "fine": "faces off with", "actor": "CECILY", "target": "GWENDOLEN", "mood": "hostile", "intensity": 3, "summary": "Cecily and Gwendolen trade barbs over the engagement to Ernest."},
+{"start": 4, "type": "mocks", "fine": "needles", "actor": "GWENDOLEN", "target": "CECILY", "mood": "playful", "intensity": 3, "summary": "With servants present, they exchange icily polite insults about country and town."},
+{"start": 26, "type": "mocks", "fine": "provokes", "actor": "CECILY", "target": "GWENDOLEN", "mood": "playful", "intensity": 3, "summary": "Cecily serves sugar and cake against Gwendolen's explicit wishes."},
+{"start": 43, "type": "threatens", "fine": "warns", "actor": "GWENDOLEN", "target": "CECILY", "mood": "hostile", "intensity": 4, "summary": "Gwendolen warns Cecily she may go too far; open hostility erupts."},
+{"start": 51, "type": "arrives", "fine": "arrives", "actor": "JACK", "target": "GWENDOLEN", "mood": "playful", "intensity": 2, "summary": "Jack enters and Gwendolen greets him rapturously as her Ernest."}
+],
+"pd_earnest_5": [
+{"start": 1, "type": "bonds", "fine": "shares a moment with", "actor": "ALGERNON", "target": "CECILY", "mood": "joyful", "intensity": 3, "summary": "The men vow to be christened; couples fall into each other's arms."},
+{"start": 12, "type": "arrives", "fine": "bursts in", "actor": "LADY BRACKNELL", "target": "GWENDOLEN", "mood": "awkward", "intensity": 3, "summary": "Lady Bracknell arrives and forbids all contact between Gwendolen and Jack."},
+{"start": 25, "type": "lies", "fine": "covers a story for", "actor": "ALGERNON", "target": "LADY BRACKNELL", "mood": "playful", "intensity": 3, "summary": "Algernon flusteredly explains that Bunbury has died, quite exploded."},
+{"start": 37, "type": "reveals", "fine": "breaks news to", "actor": "ALGERNON", "target": "LADY BRACKNELL", "mood": "awkward", "intensity": 3, "summary": "Algernon announces his engagement to Cecily, startling Lady Bracknell."},
+{"start": 43, "type": "confronts", "fine": "interrogates", "actor": "LADY BRACKNELL", "target": "JACK", "mood": "tense", "intensity": 3, "summary": "Lady Bracknell interrogates Cecily's origins; Jack coldly lists her addresses."}
+],
+"pd_earnest_6": [
+{"start": 1, "type": "bonds", "fine": "reconnects with", "actor": "JACK", "target": "ALGERNON", "mood": "joyful", "intensity": 3, "summary": "Jack introduces Algernon as his brother and they shake hands."},
+{"start": 5, "type": "searches", "fine": "questions witnesses", "actor": "JACK", "target": "LADY BRACKNELL", "mood": "suspense", "intensity": 3, "summary": "Gwendolen demands his name; Jack quizzes Lady Bracknell about his christening."},
+{"start": 22, "type": "searches", "fine": "rummages", "actor": "JACK", "target": null, "mood": "suspense", "intensity": 3, "summary": "Jack tears through the Army Lists searching for his father's name."},
+{"start": 25, "type": "discovers", "fine": "discovers", "actor": "JACK", "target": "GWENDOLEN", "mood": "triumphant", "intensity": 4, "summary": "Jack discovers his name truly is Ernest; Gwendolen forgives him."},
+{"start": 32, "type": "bonds", "fine": "embraces", "actor": "JACK", "target": "GWENDOLEN", "mood": "joyful", "intensity": 4, "summary": "Three couples embrace; Jack declares the importance of being earnest."}
+],
+"pd_sisters_0": [
+{"start": 1, "type": "bonds", "fine": "reminisces with", "actor": "OLGA", "target": "IRINA", "mood": "melancholy", "intensity": 2, "summary": "Olga recalls their father's death a year ago on Irina's name-day."},
+{"start": 12, "type": "bonds", "fine": "reminisces with", "actor": "OLGA", "target": "IRINA", "mood": "hopeful", "intensity": 3, "summary": "Olga remembers Moscow in spring; the sisters long to return there."},
+{"start": 26, "type": "bonds", "fine": "confides in", "actor": "IRINA", "target": "OLGA", "mood": "tender", "intensity": 2, "summary": "Irina feels joyful; Olga confides she wishes she were married."},
+{"start": 32, "type": "reveals", "fine": "breaks news to", "actor": "TUZENBACH", "target": "OLGA", "mood": "calm", "intensity": 2, "summary": "Tuzenbach announces Vershinin's visit and gossips about his troubled wife."},
+{"start": 44, "type": "jokes", "fine": "riffs with", "actor": "SOLENI", "target": null, "mood": "playful", "intensity": 1, "summary": "Soleni and Chebutikin wander in muttering absurd remarks."}
+],
+"pd_sisters_1": [
+{"start": 1, "type": "leaves", "fine": "exits quietly", "actor": "ANDREY", "target": null, "mood": "calm", "intensity": 1, "summary": "Andrey dismisses a visitor and retreats to his room."},
+{"start": 7, "type": "bonds", "fine": "confides in", "actor": "MASHA", "target": "VERSHININ", "mood": "melancholy", "intensity": 2, "summary": "Masha confides her disillusioned marriage and disdain for civilians."},
+{"start": 18, "type": "confesses", "fine": "unburdens to", "actor": "VERSHININ", "target": "MASHA", "mood": "melancholy", "intensity": 3, "summary": "Vershinin laments Russian discontent and his miserable marriage to Masha."},
+{"start": 28, "type": "persuades", "fine": "seduces", "actor": "VERSHININ", "target": "MASHA", "mood": "tender", "intensity": 4, "summary": "Vershinin kisses her hand and declares his love; Masha, afraid, yields."},
+{"start": 42, "type": "arrives", "fine": "arrives", "actor": "TUZENBACH", "target": "IRINA", "mood": "tender", "intensity": 2, "summary": "Irina and Tuzenbach enter as he pledges to walk her home forever."}
+]
+}

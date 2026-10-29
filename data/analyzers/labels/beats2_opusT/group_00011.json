@@ -1,0 +1,159 @@
+{
+"s00729": [
+{"start": 1, "type": "comforts", "fine": "calms", "actor": "KWAME", "target": null, "mood": "tense", "intensity": 3, "summary": "Six strangers stuck in a gondola; Kwame insists backup power will come"},
+{"start": 18, "type": "confronts", "fine": "challenges", "actor": "BRONWYN", "target": "ASTRID", "mood": "tense", "intensity": 3, "summary": "Astrid proposes climbing out and Bronwyn flatly refuses"},
+{"start": 24, "type": "jokes", "fine": "banters with", "actor": "TEO", "target": "ASTRID", "mood": "playful", "intensity": 2, "summary": "Teo's useless music phone draws exasperation; Samira shares tea"},
+{"start": 34, "type": "bonds", "fine": "reminisces with", "actor": "HIRO", "target": "TEO", "mood": "tender", "intensity": 3, "summary": "Hiro recalls singing through a cave ordeal and leads a song"},
+{"start": 55, "type": "observes", "fine": "takes it in", "actor": "KWAME", "target": null, "mood": "suspense", "intensity": 3, "summary": "The cable groans and they argue whether it's rescue or worse"},
+{"start": 65, "type": "observes", "fine": "takes it in", "actor": "TEO", "target": null, "mood": "joyful", "intensity": 3, "summary": "Power returns and Samira credits Hiro's song"},
+{"start": 77, "type": "discovers", "fine": "realizes", "actor": "KWAME", "target": null, "mood": "ominous", "intensity": 4, "summary": "Kwame realizes they're heading to a hut with a rifleman"}
+],
+"s02196": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "HALVERSON", "target": "MISS FITCH", "mood": "suspense", "intensity": 3, "summary": "Halverson questions Fitch and Ashworth over a body in the conservatory"},
+{"start": 17, "type": "accuses", "fine": "suspects", "actor": "OKAFOR", "target": "MISS FITCH", "mood": "suspense", "intensity": 3, "summary": "Okafor quietly reveals Fitch lied about being in bed"},
+{"start": 19, "type": "discovers", "fine": "finds a clue", "actor": "HALVERSON", "target": null, "mood": "suspense", "intensity": 3, "summary": "Halverson finds a silver button in the fountain; both deny it"},
+{"start": 27, "type": "discovers", "fine": "pieces it together", "actor": "HALVERSON", "target": "MR. ASHWORTH", "mood": "tense", "intensity": 4, "summary": "The button isn't the victim's and Halverson seals the glasshouse"}
+],
+"s00871": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "HARLAN", "target": "INES", "mood": "tense", "intensity": 2, "summary": "The family argues where to scatter the ashes"},
+{"start": 13, "type": "discovers", "fine": "notices", "actor": "DMITRI", "target": null, "mood": "suspense", "intensity": 3, "summary": "Dmitri notices the urn's taped lid has been opened"},
+{"start": 18, "type": "accuses", "fine": "accuses", "actor": "SEUN", "target": "HARLAN", "mood": "hostile", "intensity": 4, "summary": "Harlan admits he looked inside and Seun erupts"},
+{"start": 23, "type": "reveals", "fine": "drops a bombshell on", "actor": "ZOFIA", "target": null, "mood": "ominous", "intensity": 4, "summary": "Priya shows real ash, but Zofia declares it is not Marta"}
+],
+"s00024": [
+{"start": 1, "type": "comforts", "fine": "tends to", "actor": "MARGUERITE", "target": "TOBIAS", "mood": "fear", "intensity": 4, "summary": "Marguerite splints Tobias's broken leg on the ice ledge despite his pleas"},
+{"start": 15, "type": "reveals", "fine": "breaks news to", "actor": "RANGER", "target": "MARGUERITE", "mood": "hopeful", "intensity": 4, "summary": "Base radios that a helicopter is coming in forty minutes"},
+{"start": 25, "type": "discovers", "fine": "realizes", "actor": "MARGUERITE", "target": "TOBIAS", "mood": "fear", "intensity": 5, "summary": "Marguerite sees his lips greying and begs him to stay"},
+{"start": 31, "type": "pleads", "fine": "calls for", "actor": "MARGUERITE", "target": "RANGER", "mood": "suspense", "intensity": 5, "summary": "The ice groans; she shelters him and tells Base to hurry"}
+],
+"s00590": [
+{"start": 1, "type": "confronts", "fine": "demands answers from", "actor": "RAFAEL", "target": "CORALIE", "mood": "tense", "intensity": 3, "summary": "Rafael confronts Coralie about her letter; Sigrid claims she wrote it"},
+{"start": 21, "type": "accuses", "fine": "blames", "actor": "CORALIE", "target": "RAFAEL", "mood": "tense", "intensity": 4, "summary": "Coralie blames Rafael's year away; he says he was detained"},
+{"start": 30, "type": "leaves", "fine": "excuses themself", "actor": "SIGRID", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Silence falls and Sigrid leaves to see to the tea"},
+{"start": 37, "type": "bonds", "fine": "reconnects with", "actor": "CORALIE", "target": "RAFAEL", "mood": "bittersweet", "intensity": 4, "summary": "Coralie drowns the letter and they step toward each other"}
+],
+"s01573": [
+{"start": 1, "type": "works", "fine": "works", "actor": "NADIA", "target": null, "mood": "suspense", "intensity": 2, "summary": "Nadia hacks a console alone as the progress bar climbs"},
+{"start": 13, "type": "reveals", "fine": "lets slip to", "actor": "NADIA", "target": "DISPATCH", "mood": "tense", "intensity": 3, "summary": "Dispatch relays the manager's pressure; Nadia reveals falsified silo weights"},
+{"start": 25, "type": "hides", "fine": "lies low", "actor": "NADIA", "target": null, "mood": "suspense", "intensity": 4, "summary": "A door booms and Nadia kills her light as footsteps climb"},
+{"start": 32, "type": "confronts", "fine": "corners", "actor": "MARCUS", "target": "NADIA", "mood": "ominous", "intensity": 4, "summary": "Marcus enters, doubts her excuse, and switches off the radio"},
+{"start": 44, "type": "attacks", "fine": "lunges at", "actor": "MARCUS", "target": "NADIA", "mood": "hostile", "intensity": 5, "summary": "Marcus lunges, Nadia swings the wrench, and the upload completes"}
+],
+"s00622": [
+{"start": 1, "type": "arrives", "fine": "shows up unannounced", "actor": "KWAME", "target": "ROZ", "mood": "awkward", "intensity": 2, "summary": "Kwame arrives at Roz's booth expecting her to be mad"},
+{"start": 9, "type": "reveals", "fine": "shows", "actor": "ROZ", "target": "KWAME", "mood": "tender", "intensity": 2, "summary": "Roz shows him the dusk sunlight beam on the screen"},
+{"start": 17, "type": "confesses", "fine": "apologizes to", "actor": "KWAME", "target": "ROZ", "mood": "bittersweet", "intensity": 3, "summary": "Kwame apologizes about Grandad; Roz gruffly forgives him"}
+],
+"s02133": [
+{"start": 1, "type": "bonds", "fine": "shares a moment with", "actor": "ANSELMO", "target": "HOLLOWAY", "mood": "calm", "intensity": 2, "summary": "Brother Anselmo pours wine for soldiers sheltering in his cellar"},
+{"start": 22, "type": "persuades", "fine": "persuades", "actor": "ANSELMO", "target": "HOLLOWAY", "mood": "ominous", "intensity": 2, "summary": "Anselmo insists on fetching bread and slips behind the casks"},
+{"start": 29, "type": "discovers", "fine": "pieces it together", "actor": "FONTAINE", "target": "HOLLOWAY", "mood": "suspense", "intensity": 4, "summary": "Fontaine notes Anselmo's eleven days doesn't match the shelling"},
+{"start": 38, "type": "searches", "fine": "investigates", "actor": "HOLLOWAY", "target": "ANSELMO", "mood": "suspense", "intensity": 4, "summary": "Anselmo stops answering and the soldiers creep through the racks"},
+{"start": 51, "type": "reveals", "fine": "unmasks", "actor": "KRAUSS", "target": "HOLLOWAY", "mood": "tense", "intensity": 5, "summary": "A wounded German officer aims a Luger from behind Anselmo"},
+{"start": 60, "type": "defends", "fine": "shields", "actor": "ANSELMO", "target": "KRAUSS", "mood": "tense", "intensity": 5, "summary": "Anselmo stands between the guns and refuses to step aside"},
+{"start": 70, "type": "discovers", "fine": "realizes", "actor": "TAKADA", "target": "HOLLOWAY", "mood": "suspense", "intensity": 4, "summary": "Takada confirms the eleven days; Holloway lowers his gun an inch"}
+],
+"s01471": [
+{"start": 1, "type": "works", "fine": "cooks", "actor": "PEPPER", "target": null, "mood": "playful", "intensity": 2, "summary": "Pepper wrestles a huge turkey into a tiny oven"},
+{"start": 10, "type": "confronts", "fine": "presses", "actor": "DEZ", "target": "PEPPER", "mood": "playful", "intensity": 2, "summary": "Inspector Dez notes the lamp is off; Pepper brushes him off"},
+{"start": 29, "type": "deflects", "fine": "stalls", "actor": "PEPPER", "target": "DEZ", "mood": "suspense", "intensity": 3, "summary": "The phone rings; Dez answers and learns a ferry is in danger"},
+{"start": 47, "type": "decides", "fine": "commits", "actor": "PEPPER", "target": "BRANNIGAN", "mood": "suspense", "intensity": 3, "summary": "Pepper promises the lamp lit in four minutes"},
+{"start": 53, "type": "reveals", "fine": "shows", "actor": "PEPPER", "target": "DEZ", "mood": "playful", "intensity": 3, "summary": "Pepper pulls a lever revealing the lamp was always automatic"},
+{"start": 70, "type": "arrives", "fine": "bursts in", "actor": "BRANNIGAN", "target": "DEZ", "mood": "chaotic", "intensity": 4, "summary": "Furious Brannigan bursts in and Pepper blames Dez"},
+{"start": 80, "type": "comforts", "fine": "calms", "actor": "PEPPER", "target": "BRANNIGAN", "mood": "joyful", "intensity": 2, "summary": "The roast's smell softens Brannigan and all settle in to eat"}
+],
+"s00071": [
+{"start": 1, "type": "bonds", "fine": "shares a moment with", "actor": "AGNES", "target": "WEI-LING", "mood": "calm", "intensity": 2, "summary": "Agnes pours tea for four strangers in a closed station"},
+{"start": 17, "type": "discovers", "fine": "notices", "actor": "WEI-LING", "target": "DELROY", "mood": "suspense", "intensity": 3, "summary": "Wei-Ling spots the cash box behind the grille"},
+{"start": 26, "type": "attacks", "fine": "wrestles", "actor": "DELROY", "target": "FATHER TOBIAS", "mood": "chaotic", "intensity": 4, "summary": "Delroy lunges and Father Tobias grapples him"},
+{"start": 29, "type": "threatens", "fine": "menaces", "actor": "AGNES", "target": null, "mood": "ominous", "intensity": 5, "summary": "Agnes calmly reveals a revolver; the tea was only for waiting"}
+],
+"s01906_1": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "AMOS", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Amos arrives at the empty roadhouse and doffs his hat"},
+{"start": 16, "type": "discovers", "fine": "finds a clue", "actor": "AMOS", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Amos finds Lottie's letter and begins reading"},
+{"start": 25, "type": "observes", "fine": "takes it in", "actor": "AMOS", "target": null, "mood": "grief", "intensity": 4, "summary": "Her letter leaves him the house and says there is no grave"},
+{"start": 36, "type": "decides", "fine": "accepts", "actor": "AMOS", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Amos pockets the letter, leaves a lantern lit, and goes"}
+],
+"s02224": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "SOO-JIN", "target": "BARTY", "mood": "playful", "intensity": 2, "summary": "Soo-Jin questions beekeeper Barty as the judge overrules Wendell"},
+{"start": 13, "type": "reveals", "fine": "presents evidence to", "actor": "BARTY", "target": "SOO-JIN", "mood": "playful", "intensity": 3, "summary": "Barty describes the van and the bees' early silence"},
+{"start": 28, "type": "accuses", "fine": "implicates", "actor": "BARTY", "target": null, "mood": "playful", "intensity": 3, "summary": "Barty implicates the Pellegrino boy's uncle who owns a gray van"},
+{"start": 40, "type": "confronts", "fine": "challenges", "actor": "WENDELL", "target": "BARTY", "mood": "playful", "intensity": 2, "summary": "Wendell suggests a grudge; Barty quips and the judge wants honey"}
+],
+"s01347": [
+{"start": 1, "type": "works", "fine": "writes", "actor": "HALE", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Hale writes a letter alone in the silent mess tent"},
+{"start": 11, "type": "arrives", "fine": "arrives", "actor": "QUAYLE", "target": "HALE", "mood": "calm", "intensity": 2, "summary": "Quayle delivers a paper and Hale makes him sit"},
+{"start": 38, "type": "reveals", "fine": "breaks news to", "actor": "HALE", "target": "QUAYLE", "mood": "bittersweet", "intensity": 4, "summary": "Hale reads it: armistice at noon, the war is over"},
+{"start": 50, "type": "comforts", "fine": "reassures", "actor": "HALE", "target": "QUAYLE", "mood": "tender", "intensity": 3, "summary": "Hale tells him to keep watch but take his boots off"},
+{"start": 60, "type": "bonds", "fine": "shares a moment with", "actor": "HALE", "target": "QUAYLE", "mood": "bittersweet", "intensity": 3, "summary": "A distant bugle; Hale tells Quayle to eat and write home"}
+],
+"s01194": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "SERAPHINA", "target": null, "mood": "suspense", "intensity": 2, "summary": "Seraphina leads Bram and Tashi onto the whale-rib bridge"},
+{"start": 11, "type": "flees", "fine": "scrambles away", "actor": "SERAPHINA", "target": null, "mood": "fear", "intensity": 4, "summary": "A rib cracks and they crash to their knees as a gap opens"},
+{"start": 14, "type": "confronts", "fine": "stares down", "actor": "GREYMOOR", "target": "SERAPHINA", "mood": "ominous", "intensity": 4, "summary": "Greymoor rebukes Seraphina, heals the bridge, and they lock eyes"}
+],
+"s01301": [
+{"start": 1, "type": "comforts", "fine": "encourages", "actor": "LARS", "target": "MIKA", "mood": "tense", "intensity": 3, "summary": "Lars reassures trembling Mika as the wind gusts"},
+{"start": 15, "type": "observes", "fine": "waits", "actor": "YEVGENY", "target": null, "mood": "suspense", "intensity": 4, "summary": "Yevgeny calls silence on the platform as Lars prays"},
+{"start": 23, "type": "decides", "fine": "commits", "actor": "MIKA", "target": null, "mood": "triumphant", "intensity": 5, "summary": "Mika launches, lands it, and Lars weeps with joy"}
+],
+"s00972": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "HENRIK", "target": "DOLORES", "mood": "tense", "intensity": 2, "summary": "Henrik brings coffee to two estranged sisters in a ferry cafe"},
+{"start": 13, "type": "confronts", "fine": "challenges", "actor": "DOLORES", "target": "PAZ", "mood": "hostile", "intensity": 3, "summary": "Dolores claims their mother as hers alone; Paz pushes back"},
+{"start": 20, "type": "reveals", "fine": "breaks news to", "actor": "HENRIK", "target": "DOLORES", "mood": "tense", "intensity": 4, "summary": "The house goes to the one who stayed; the sisters clash"},
+{"start": 35, "type": "reveals", "fine": "drops a bombshell on", "actor": "HENRIK", "target": "PAZ", "mood": "bittersweet", "intensity": 4, "summary": "Henrik reads the letter: neither of them gets the house"}
+],
+"s01750": [
+{"start": 1, "type": "decides", "fine": "gives an order", "actor": "WHITCOMBE", "target": "TRAN", "mood": "melancholy", "intensity": 2, "summary": "Whitcombe orders Tran to man the silent radio until dawn"},
+{"start": 18, "type": "mocks", "fine": "needles", "actor": "ODETTE", "target": "WHITCOMBE", "mood": "playful", "intensity": 2, "summary": "Odette needles the Major about wanting to hear a voice"},
+{"start": 28, "type": "confesses", "fine": "confides in", "actor": "TRAN", "target": "WHITCOMBE", "mood": "tender", "intensity": 3, "summary": "Tran confides his brother fights for the other side"},
+{"start": 42, "type": "observes", "fine": "listens to", "actor": "TRAN", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "A woman's song drifts through the static and they listen"}
+],
+"s00309": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "DES", "target": null, "mood": "suspense", "intensity": 2, "summary": "Four strangers keep watch in a dark lighthouse lens room"},
+{"start": 21, "type": "confronts", "fine": "challenges", "actor": "DES", "target": "CALLISTA", "mood": "tense", "intensity": 2, "summary": "Des doubts Callista's coordinates and calls it a goose chase"},
+{"start": 24, "type": "discovers", "fine": "notices", "actor": "ZEPHYR", "target": null, "mood": "suspense", "intensity": 3, "summary": "Zephyr spots an unscheduled boat approaching the lighthouse"},
+{"start": 36, "type": "arrives", "fine": "arrives", "actor": "MALACHI", "target": null, "mood": "ominous", "intensity": 4, "summary": "Inspector Malachi climbs in and Zephyr blocks the stair"},
+{"start": 48, "type": "confronts", "fine": "demands answers from", "actor": "MALACHI", "target": null, "mood": "ominous", "intensity": 4, "summary": "Malachi opens a case with a revolver and asks who wrote"}
+],
+"s00720": [
+{"start": 1, "type": "reveals", "fine": "breaks news to", "actor": "GWENDOLYN", "target": null, "mood": "playful", "intensity": 2, "summary": "Gwendolyn announces the city count stands at eleven pigeons"},
+{"start": 12, "type": "mocks", "fine": "needles", "actor": "ANJALI", "target": "GWENDOLYN", "mood": "playful", "intensity": 2, "summary": "Staff quibble; Anjali says the spreadsheet counts one bird"},
+{"start": 17, "type": "observes", "fine": "takes it in", "actor": "GWENDOLYN", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Gwendolyn steps down, suddenly tired after thirty years"},
+{"start": 21, "type": "reveals", "fine": "breaks news to", "actor": "LEONARD", "target": null, "mood": "playful", "intensity": 2, "summary": "Leonard announces the deadline moved because of squirrels"},
+{"start": 28, "type": "decides", "fine": "chooses", "actor": "GWENDOLYN", "target": "MARISOL", "mood": "playful", "intensity": 2, "summary": "Gwendolyn pins the feather and counts it as twelve"}
+],
+"s02335": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "NOOR", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Noor sits silent at her sparse birthday bowling party"},
+{"start": 16, "type": "confronts", "fine": "presses", "actor": "WESLEY", "target": "NOOR", "mood": "awkward", "intensity": 3, "summary": "Wesley urges Noor to bowl; Priscilla lets slip someone isn't coming"},
+{"start": 29, "type": "observes", "fine": "hesitates", "actor": "NOOR", "target": "MRS. HAKIMI", "mood": "melancholy", "intensity": 3, "summary": "Noor takes a ball; her mother half-waves and looks away"},
+{"start": 36, "type": "comforts", "fine": "tends to", "actor": "RUDY", "target": "NOOR", "mood": "grief", "intensity": 3, "summary": "Noor bowls a gutter ball and Rudy quietly raises the bumpers"}
+],
+"s00121": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "WENDELL", "target": "PIA", "mood": "playful", "intensity": 2, "summary": "Wendell teases Pia as she threads the projector"},
+{"start": 13, "type": "bonds", "fine": "teams up with", "actor": "WENDELL", "target": "PIA", "mood": "suspense", "intensity": 3, "summary": "Mrs. Dubois says reel two is late; Wendell offers to count"},
+{"start": 22, "type": "bonds", "fine": "teams up with", "actor": "PIA", "target": "WENDELL", "mood": "tense", "intensity": 3, "summary": "Shoulder to shoulder they thread the reel against the clock"},
+{"start": 33, "type": "works", "fine": "goes through routine", "actor": "PIA", "target": null, "mood": "triumphant", "intensity": 3, "summary": "Pia nails the changeover and the cars cheer"},
+{"start": 41, "type": "bonds", "fine": "flirts with", "actor": "WENDELL", "target": "PIA", "mood": "tender", "intensity": 2, "summary": "They banter about the job and Pia gazes at him"}
+],
+"s00025": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "IMELDA", "target": "TOOTS", "mood": "calm", "intensity": 2, "summary": "Imelda scrubs in as Toots wheels in a Ferris wheel casualty"},
+{"start": 17, "type": "searches", "fine": "examines", "actor": "IMELDA", "target": "WENDELL", "mood": "ominous", "intensity": 3, "summary": "Imelda examines cheerful Wendell, who refused pain meds"},
+{"start": 30, "type": "reveals", "fine": "lets slip to", "actor": "TOOTS", "target": "IMELDA", "mood": "ominous", "intensity": 4, "summary": "Toots privately reveals no injuries and no pulse"},
+{"start": 43, "type": "discovers", "fine": "realizes", "actor": "IMELDA", "target": "WENDELL", "mood": "fear", "intensity": 5, "summary": "Dispatch says the victim died at the scene; Wendell isn't breathing"},
+{"start": 56, "type": "comforts", "fine": "tends to", "actor": "IMELDA", "target": "WENDELL", "mood": "bittersweet", "intensity": 5, "summary": "Wendell fades and Imelda holds his hand as he vanishes"}
+],
+"s02365": [
+{"start": 1, "type": "works", "fine": "repairs something", "actor": "RENATA", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Stranded crew fail to repair the burned transmitter"},
+{"start": 17, "type": "discovers", "fine": "notices", "actor": "LEOPOLD", "target": null, "mood": "suspense", "intensity": 4, "summary": "A rumble builds and Leopold recognizes an engine landing"},
+{"start": 29, "type": "arrives", "fine": "makes an entrance", "actor": "BILLIE", "target": "HATTIE", "mood": "triumphant", "intensity": 5, "summary": "Billie steps through the hatch, keeping her promise to return"},
+{"start": 39, "type": "comforts", "fine": "embraces", "actor": "RENATA", "target": "BILLIE", "mood": "joyful", "intensity": 4, "summary": "Renata embraces Billie, laughing and sobbing"},
+{"start": 43, "type": "decides", "fine": "makes a plan", "actor": "HATTIE", "target": "BILLIE", "mood": "hopeful", "intensity": 3, "summary": "With a storm coming in eleven minutes, they evacuate"}
+],
+"s00911": [
+{"start": 1, "type": "threatens", "fine": "holds at gunpoint", "actor": "RENATA", "target": "KARIM", "mood": "tense", "intensity": 4, "summary": "Agent Voss holds the crane cab at gunpoint"},
+{"start": 21, "type": "confronts", "fine": "demands answers from", "actor": "RENATA", "target": "LEO", "mood": "tense", "intensity": 4, "summary": "Renata demands Leo's satchel; he calls it his pension"},
+{"start": 26, "type": "threatens", "fine": "warns", "actor": "KARIM", "target": "RENATA", "mood": "suspense", "intensity": 5, "summary": "Frozen standoff; Karim muses he could drop the container"},
+{"start": 33, "type": "attacks", "fine": "shoots at", "actor": "OLGA", "target": "RENATA", "mood": "chaotic", "intensity": 5, "summary": "Olga draws, Karim yanks the lever, and the cab swings out"}
+]
+}

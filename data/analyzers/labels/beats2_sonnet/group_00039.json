@@ -1,0 +1,165 @@
+{
+"s01516": [
+{"start":1,"type":"searches","fine":"looks for","actor":"LYSANDRA","target":null,"mood":"ominous","intensity":2,"summary":"Lysandra kneels at the moon-well and asks the water for the way home."},
+{"start":8,"type":"discovers","fine":"uncovers","actor":"MORGWYN","target":"LYSANDRA","mood":"suspense","intensity":3,"summary":"A voice rises from the water, sending Lysandra to seek the one who kept her."},
+{"start":13,"type":"arrives","fine":"is introduced","actor":"MORGWYN","target":"LYSANDRA","mood":"tense","intensity":3,"summary":"Morgwyn steps from the shadows; Lysandra draws her sword and the two recognize each other."},
+{"start":29,"type":"reveals","fine":"breaks news to","actor":"MORGWYN","target":"LYSANDRA","mood":"ominous","intensity":3,"summary":"Morgwyn tells Lysandra the usurper on her throne is her sister."},
+{"start":33,"type":"decides","fine":"accepts","actor":"LYSANDRA","target":null,"mood":"hopeful","intensity":3,"summary":"Lysandra sheathes her sword and steps toward Morgwyn's magic doorway to a meadow."}
+],
+"s02231": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"PRIYA","target":"MR. HALVORSEN","mood":"awkward","intensity":2,"summary":"Priya is welcomed to the beige office by Halvorsen and his unenthusiastic team."},
+{"start":17,"type":"confronts","fine":"questions","actor":"PRIYA","target":"MR. HALVORSEN","mood":"awkward","intensity":2,"summary":"Priya probes the shared outlets, earned desks and secret metrics."},
+{"start":37,"type":"decides","fine":"accepts","actor":"PRIYA","target":"MR. HALVORSEN","mood":"bittersweet","intensity":2,"summary":"Appalled, Priya resigns herself to standing; Dutch offers his Monday outlet."},
+{"start":53,"type":"deflects","fine":"changes the subject on","actor":"MR. HALVORSEN","target":null,"mood":"awkward","intensity":1,"summary":"Halvorsen cheerfully launches into Q3 vision while everyone nods without interest."}
+],
+"s01383": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"calm","intensity":1,"summary":"Four kids wait in the dusty projection tower with an old projector."},
+{"start":15,"type":"jokes","fine":"banters with","actor":"FLO","target":"CASS","mood":"playful","intensity":2,"summary":"Flo and Henrik needle Cass about the projector; Pilar's camera clicks."},
+{"start":34,"type":"works","fine":"prepares","actor":"CASS","target":null,"mood":"suspense","intensity":3,"summary":"Cass hesitates, then throws the switch and the projector blazes to life."},
+{"start":51,"type":"discovers","fine":"recognizes","actor":"PILAR","target":null,"mood":"tense","intensity":3,"summary":"A film of a woman on a porch plays; Pilar recognizes her grandmother."},
+{"start":71,"type":"confronts","fine":"calls out","actor":"PILAR","target":"CASS","mood":"hostile","intensity":4,"summary":"Pilar rages at Cass for presuming to give her this private family gift."},
+{"start":79,"type":"comforts","fine":"steadies","actor":"FLO","target":"PILAR","mood":"tender","intensity":3,"summary":"Friends give Pilar quiet space as she photographs the screen and sits among them."}
+],
+"s01299": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"calm","intensity":1,"summary":"The bowls green and its quirky regulars are introduced before the final end."},
+{"start":15,"type":"mocks","fine":"needles","actor":"DOROTHEA","target":"HAROLD","mood":"playful","intensity":2,"summary":"Harold and Dorothea trade barbs before the last end."},
+{"start":21,"type":"attacks","fine":"strikes","actor":"HAROLD","target":null,"mood":"suspense","intensity":2,"summary":"Harold bowls close; Dorothea answers by nudging the jack with her own bowl."},
+{"start":34,"type":"defends","fine":"justifies themself to","actor":"TATE","target":"HAROLD","mood":"awkward","intensity":2,"summary":"Umpire Tate rules the jack move legal over Harold's protests."},
+{"start":44,"type":"discovers","fine":"finds a clue","actor":"BASIL","target":null,"mood":"playful","intensity":3,"summary":"Basil measures the bowls and announces a tie, forcing an extra end."},
+{"start":59,"type":"bonds","fine":"shares a moment with","actor":"DOROTHEA","target":"HAROLD","mood":"tender","intensity":1,"summary":"Rivals agree to tea first and walk off together."}
+],
+"s02245": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PEACHES","target":"BO","mood":"chaotic","intensity":2,"summary":"At Sunday roast the twins squabble over a potato while adults scold."},
+{"start":23,"type":"reveals","fine":"breaks news to","actor":"WILF","target":"BO","mood":"awkward","intensity":2,"summary":"Wilf prods the parents to tell the children Grandpa is moving in."},
+{"start":31,"type":"comforts","fine":"embraces","actor":"PEACHES","target":"BO","mood":"tender","intensity":2,"summary":"Peaches solemnly slides her potato to Bo, accepting the news."}
+],
+"s00398": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"ominous","intensity":2,"summary":"Six places are set at a stormy table with one plate empty."},
+{"start":11,"type":"confronts","fine":"presses","actor":"ELSPETH","target":"RODERICK","mood":"tense","intensity":3,"summary":"Elspeth recalls a missing diner of 1963 while Roderick and Thaddeus dispute it."},
+{"start":28,"type":"reveals","fine":"drops a bombshell on","actor":"ELSPETH","target":"YUKI","mood":"ominous","intensity":3,"summary":"Asked whose place is empty, Elspeth says it is for the one the tide brings."},
+{"start":36,"type":"discovers","fine":"notices","actor":null,"target":null,"mood":"fear","intensity":4,"summary":"In thunder and dark, a wet sardine appears on the empty plate."},
+{"start":44,"type":"accuses","fine":"turns on","actor":"THADDEUS","target":"ELSPETH","mood":"fear","intensity":4,"summary":"Thaddeus asks what she has done; Elspeth says she invited him as something shifts below."}
+],
+"s01392": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"ELEANOR","target":null,"mood":"calm","intensity":1,"summary":"The judge sits with the five Whitcombe heirs in her paneled chambers."},
+{"start":7,"type":"confronts","fine":"challenges","actor":"BRAXTON","target":"ELEANOR","mood":"tense","intensity":3,"summary":"The heirs dispute whether a last will exists as the judge insists it is clear."},
+{"start":14,"type":"decides","fine":"gives an order","actor":"ELEANOR","target":"HORACE","mood":"suspense","intensity":3,"summary":"The judge silences the room and orders Pinkney to produce the envelope; Odette nods to Finn."}
+],
+"s02438": [
+{"start":1,"type":"observes","fine":"scans the room","actor":null,"target":null,"mood":"fear","intensity":4,"summary":"A school bus is stalled on the tracks with bells clanging and lights flashing."},
+{"start":6,"type":"flees","fine":"scrambles away","actor":"REMY","target":"ZURI","mood":"chaotic","intensity":5,"summary":"Remy and Zuri fight the jammed door, bicker, then heave it open as the train nears."},
+{"start":23,"type":"flees","fine":"escapes","actor":"REMY","target":null,"mood":"fear","intensity":5,"summary":"They sprint off the tracks as the train thunders past."},
+{"start":29,"type":"jokes","fine":"banters with","actor":"ZURI","target":"REMY","mood":"bittersweet","intensity":2,"summary":"Panting in the gravel, Zuri calls Remy an idiot and he says you're welcome."}
+],
+"s01279": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"tense","intensity":2,"summary":"A stranded group sits by a dead jeep on a blazing salt flat."},
+{"start":10,"type":"confronts","fine":"calls out","actor":"DARIUS","target":"MANNY","mood":"hostile","intensity":3,"summary":"Thirsty and stuck, the group quarrels over the broken radiator until Bea stops them."},
+{"start":25,"type":"discovers","fine":"notices","actor":"SIGRID","target":null,"mood":"hopeful","intensity":3,"summary":"Sigrid spots a glint to the east that the others dismiss as mirage."},
+{"start":41,"type":"reveals","fine":"breaks news to","actor":"PERRY","target":"MANNY","mood":"playful","intensity":3,"summary":"Perry studies the shape through binoculars and announces a slow man on a camel."},
+{"start":50,"type":"bonds","fine":"shares a moment with","actor":"BEA","target":"MANNY","mood":"bittersweet","intensity":3,"summary":"Cracked laughter breaks the tension and they resolve to wait as the figure nears."}
+],
+"s00052": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"calm","intensity":1,"summary":"A maritime courtroom, a model ship and opposing counsel are introduced."},
+{"start":8,"type":"persuades","fine":"pitches to","actor":"GRIMSDYKE","target":"JUDGE ABELARD-OKONKWO","mood":"tense","intensity":2,"summary":"Grimsdyke delivers a theatrical closing, drawing objections and a skeptical judge."},
+{"start":26,"type":"works","fine":"goes through routine","actor":"GRIMSDYKE","target":null,"mood":"awkward","intensity":3,"summary":"The model ship's crane snaps; Grimsdyke milks it and the judge cuts him off."},
+{"start":32,"type":"reveals","fine":"presents evidence to","actor":"NAKAMURA-FLYNN","target":"JUDGE ABELARD-OKONKWO","mood":"triumphant","intensity":3,"summary":"Nakamura-Flynn holds the broken crane and argues it proves her case."},
+{"start":38,"type":"leaves","fine":"excuses themself","actor":"JUDGE ABELARD-OKONKWO","target":null,"mood":"awkward","intensity":2,"summary":"Grimsdyke despairs and the weary judge calls recess."}
+],
+"s01716": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":null,"target":null,"mood":"playful","intensity":1,"summary":"Rival chili teams face off behind the cook-off stage."},
+{"start":8,"type":"jokes","fine":"banters with","actor":"LEROY","target":"DEE","mood":"playful","intensity":2,"summary":"Leroy and Dee loop through a circular argument over missing salt."},
+{"start":24,"type":"mocks","fine":"needles","actor":"HAROLD","target":"WANDY","mood":"hostile","intensity":2,"summary":"Rivals Harold and Wandy trade insults over thin chili, dragging in Leroy."},
+{"start":45,"type":"discovers","fine":"realizes","actor":"DEE","target":"LEROY","mood":"tense","intensity":3,"summary":"Leroy and Dee taste cinnamon and suspect the rivals sabotaged them."},
+{"start":56,"type":"accuses","fine":"accuses","actor":"LEROY","target":"HAROLD","mood":"hostile","intensity":3,"summary":"Leroy accuses Harold and Wandy, who deny it and blame each other."},
+{"start":64,"type":"decides","fine":"makes a plan","actor":"DEE","target":null,"mood":"awkward","intensity":2,"summary":"An airhorn sounds and all four call a furious silent truce."}
+],
+"s01669": [
+{"start":1,"type":"works","fine":"cooks","actor":"MAGNUSSEN","target":"PETIT","mood":"melancholy","intensity":2,"summary":"Magnussen ladles stew for weary soldiers in a bombed brewery."},
+{"start":13,"type":"bonds","fine":"shares a moment with","actor":"WOJCIK","target":"GREENE","mood":"bittersweet","intensity":2,"summary":"Magnussen urges Petit to eat; Wojcik's dark joke about the stew draws a snort."},
+{"start":26,"type":"observes","fine":"listens to","actor":"PETIT","target":null,"mood":"ominous","intensity":3,"summary":"Petit hears a drumming noise that Greene identifies as distant artillery."},
+{"start":39,"type":"bonds","fine":"confides in","actor":"MAGNUSSEN","target":"WOJCIK","mood":"melancholy","intensity":2,"summary":"Magnussen settles and admits his father drank this brewery's beer, which is why he cooks here."},
+{"start":62,"type":"bonds","fine":"thanks","actor":"WOJCIK","target":"MAGNUSSEN","mood":"tender","intensity":3,"summary":"Wojcik whittles a tiny beer mug and Magnussen silently pockets it."}
+],
+"s02042": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"MORDECAI","target":"WOMAN","mood":"melancholy","intensity":2,"summary":"A tearful lawyer hides in the night custodian's closet and he gently intrudes."},
+{"start":17,"type":"confesses","fine":"opens up to","actor":"WOMAN","target":"MORDECAI","mood":"melancholy","intensity":3,"summary":"She admits her client is guilty and she lost her belief in him."},
+{"start":28,"type":"bonds","fine":"shares a moment with","actor":"WOMAN","target":"MORDECAI","mood":"tender","intensity":2,"summary":"She laughs, gives her name Esperanza, and Mordecai offers dry wisdom."},
+{"start":41,"type":"persuades","fine":"encourages","actor":"MORDECAI","target":"ESPERANZA","mood":"hopeful","intensity":3,"summary":"Mordecai advises her to go home, sleep and do the work; she thanks him and leaves."}
+],
+"s01848_0": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"SHERIFF AUGUSTA PIKE","target":null,"mood":"ominous","intensity":3,"summary":"Sheriff Pike walks through a dust storm, hears a piano and enters the saloon."}
+],
+"s02307": [
+{"start":1,"type":"works","fine":"repairs something","actor":"SIM","target":"BEATRIX","mood":"suspense","intensity":3,"summary":"Sim pries open a carousel unicorn while Beatrix watches the six-minute camera loop."},
+{"start":10,"type":"discovers","fine":"finds a clue","actor":"SIM","target":"BEATRIX","mood":"triumphant","intensity":3,"summary":"The unicorn hides ancient gold coins; Sim bites one and says it's real."}
+],
+"s00610": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"LEO","target":"MRS. HARGROVE","mood":"tender","intensity":2,"summary":"Leo watches Mrs. Hargrove write a postcard to her husband who is long away."},
+{"start":17,"type":"confesses","fine":"opens up to","actor":"MRS. HARGROVE","target":"LEO","mood":"melancholy","intensity":3,"summary":"Leo reads her card aloud; she admits its claim of being well is a lie."},
+{"start":24,"type":"arrives","fine":"shows up unannounced","actor":"DENISE","target":"MRS. HARGROVE","mood":"awkward","intensity":2,"summary":"Social worker Denise arrives late, and Mrs. Hargrove briskly gathers her postcards."},
+{"start":34,"type":"bonds","fine":"trusts","actor":"MRS. HARGROVE","target":"LEO","mood":"bittersweet","intensity":3,"summary":"Leo returns the card and she gives it to him, asking someone to believe her."}
+],
+"s00421": [
+{"start":1,"type":"accuses","fine":"blames","actor":"KWABENA","target":"BRENDA","mood":"playful","intensity":2,"summary":"Kwabena discovers every sock is a left foot and the three blame one another."},
+{"start":13,"type":"decides","fine":"makes a plan","actor":"KWABENA","target":"BRENDA","mood":"playful","intensity":2,"summary":"Kwabena proposes shipping one pair to each customer as exclusive; Brenda and Priya mock it."}
+],
+"s00428": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"YARA","target":null,"mood":"calm","intensity":1,"summary":"Yara and crew tend the hydroponic ring while a filter keeps failing."},
+{"start":19,"type":"decides","fine":"gives an order","actor":"YARA","target":"SIMEON","mood":"tense","intensity":2,"summary":"Uneasy about the filters, Yara orders a diagnostic on Ring Two."},
+{"start":33,"type":"discovers","fine":"notices","actor":"SIMEON","target":null,"mood":"ominous","intensity":3,"summary":"Simeon's tablet reports a fifth crew member, then the intercom forbids the diagnostic."},
+{"start":46,"type":"confronts","fine":"demands answers from","actor":"YARA","target":"MOTHER","mood":"fear","intensity":4,"summary":"Yara tries an override; Mother denies it and the seedlings lean toward her."},
+{"start":66,"type":"attacks","fine":"grabs","actor":"MOTHER","target":"SIMEON","mood":"chaotic","intensity":5,"summary":"Lamps flare and vines attack, snaring Simeon as Lin slashes them."},
+{"start":82,"type":"flees","fine":"escapes","actor":"YARA","target":"MOTHER","mood":"fear","intensity":4,"summary":"Yara spins the manual hatch and the crew escapes and seals the vines inside."}
+],
+"s01459": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"PRUDENCE","target":"ZINNIA","mood":"calm","intensity":1,"summary":"Curator Prudence makes night rounds with intern Zinnia among lit dollhouses."},
+{"start":9,"type":"discovers","fine":"notices","actor":"ZINNIA","target":"PRUDENCE","mood":"suspense","intensity":3,"summary":"Zinnia notices an attic doll has turned to face her."},
+{"start":23,"type":"discovers","fine":"realizes","actor":"PRUDENCE","target":null,"mood":"fear","intensity":4,"summary":"Prudence sees the doll's chair rocking and its head turned toward them."},
+{"start":36,"type":"flees","fine":"retreats","actor":"PRUDENCE","target":"ZINNIA","mood":"fear","intensity":5,"summary":"A yarn thread binds Zinnia to the doll; Prudence snaps it and the lights die."},
+{"start":48,"type":"flees","fine":"runs","actor":"PRUDENCE","target":null,"mood":"ominous","intensity":4,"summary":"They run as a hundred tiny lights wink back on."}
+],
+"s00301": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"WOMAN IN SILVER","target":"OTTOLINE","mood":"tense","intensity":3,"summary":"Silver gown woman locks the cloakroom door and confronts Ottoline about dancing with another."},
+{"start":21,"type":"confesses","fine":"opens up to","actor":"OTTOLINE","target":"MARGUERITE","mood":"tender","intensity":3,"summary":"Ottoline explains her cousin's dance request; Marguerite drapes the stole over her."},
+{"start":36,"type":"hides","fine":"masks a feeling","actor":"OTTOLINE","target":"MARGUERITE","mood":"suspense","intensity":2,"summary":"A knock forces them apart; Ottoline fixes her lipstick and Marguerite opens the door."}
+],
+"s02349": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"MAGDA","target":"DRIVER","mood":"tense","intensity":2,"summary":"Magda arrives in the ice warehouse to find the horse sculpture still there."},
+{"start":10,"type":"confronts","fine":"presses","actor":"MAGDA","target":"DRIVER","mood":"hostile","intensity":2,"summary":"Magda berates the Driver over the wrong sculpture and the too-small van."},
+{"start":20,"type":"works","fine":"prepares","actor":"MAGDA","target":"DRIVER","mood":"tense","intensity":2,"summary":"Magda wraps the horse in a thermal blanket and drills into its flank."},
+{"start":36,"type":"reveals","fine":"comes clean to","actor":"MAGDA","target":"DRIVER","mood":"tense","intensity":3,"summary":"Magda reveals her real name is Esme and retrieves a pouch from the ice."},
+{"start":48,"type":"bonds","fine":"teams up with","actor":"ESME","target":"MARCUS","mood":"hopeful","intensity":2,"summary":"The Driver chooses the name Marcus and they roll the horse out."}
+],
+"s00670": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"OTTO","target":"SILAS","mood":"calm","intensity":1,"summary":"Otto toasts friends and pours brandy at a winding-down poker game."},
+{"start":13,"type":"hides","fine":"keeps a secret","actor":"SILAS","target":"OTTO","mood":"suspense","intensity":3,"summary":"Silas distrusts the brandy and leaves it untouched; Otto probes."},
+{"start":22,"type":"attacks","fine":"strikes","actor":"OTTO","target":"TOM","mood":"ominous","intensity":3,"summary":"Otto deals the last hand and Tom collapses drugged; Ruby pockets the cards."},
+{"start":31,"type":"arrives","fine":"bursts in","actor":"FENWICK","target":"OTTO","mood":"tense","intensity":4,"summary":"Fenwick enters with badge and revolver, telling Otto he has waited a year."},
+{"start":34,"type":"threatens","fine":"holds at gunpoint","actor":"MAUDE","target":"FENWICK","mood":"suspense","intensity":4,"summary":"Otto smiles and Maude reveals a pistol under her knitting."}
+],
+"s01298": [
+{"start":1,"type":"confronts","fine":"stares down","actor":"BERNIE","target":"SUNNIVA","mood":"melancholy","intensity":2,"summary":"Coach Bernie tells her battered team they cannot win, only lose with dignity."},
+{"start":23,"type":"confesses","fine":"opens up to","actor":"RAJANI","target":"BERNIE","mood":"bittersweet","intensity":3,"summary":"Rookie Rajani says this is the best night of her life despite the score."},
+{"start":32,"type":"jokes","fine":"plays with","actor":"TILLY","target":"TANK","mood":"joyful","intensity":3,"summary":"Teammates throw an ice pack and helmet in a laughing wrestling pile."},
+{"start":38,"type":"decides","fine":"gives an order","actor":"BERNIE","target":null,"mood":"bittersweet","intensity":2,"summary":"Bernie whistles them out to skate and murmurs 'Dignity' alone."}
+],
+"s01928_1": [
+{"start":1,"type":"bonds","fine":"reconnects with","actor":"MILO","target":"CALVIN","mood":"tender","intensity":3,"summary":"Roz and Milo call deployed Calvin from a tent and share the moon."},
+{"start":29,"type":"leaves","fine":"leaves","actor":"ROZ","target":"CALVIN","mood":"bittersweet","intensity":3,"summary":"Roz sends Milo to bed and they say goodnight; the call ends."}
+],
+"s00933": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"MARGUERITE","target":null,"mood":"calm","intensity":2,"summary":"The glass orchard sings at dawn as old Marguerite tends a tree."},
+{"start":5,"type":"arrives","fine":"arrives","actor":"LYRA","target":"MARGUERITE","mood":"tense","intensity":2,"summary":"A knight and a girl arrive by cart asking Marguerite for the key."},
+{"start":26,"type":"arrives","fine":"makes an entrance","actor":"THE COLLECTOR","target":"MARGUERITE","mood":"ominous","intensity":4,"summary":"The Collector enters through the orchard and shatters Desmond's sword."},
+{"start":38,"type":"discovers","fine":"stumbles on","actor":"LYRA","target":null,"mood":"chaotic","intensity":4,"summary":"Lyra drops her lantern; its flame ignites the trees in blazing color."},
+{"start":54,"type":"flees","fine":"retreats","actor":"THE COLLECTOR","target":"MARGUERITE","mood":"triumphant","intensity":4,"summary":"The song swells joyfully and the Collector's mask cracks as he retreats."},
+{"start":60,"type":"comforts","fine":"reassures","actor":"MARGUERITE","target":"LYRA","mood":"tender","intensity":2,"summary":"Marguerite tells Lyra the lantern was ready and takes it."}
+],
+"s02398": [
+{"start":1,"type":"searches","fine":"searches","actor":"CHAD","target":"MOOSA","mood":"tense","intensity":2,"summary":"Three players struggle with a clue in a cheap escape room."},
+{"start":16,"type":"attacks","fine":"lunges at","actor":"CHAD","target":null,"mood":"chaotic","intensity":3,"summary":"Chad flings the torch and all three tumble in a heap."},
+{"start":25,"type":"discovers","fine":"finds a clue","actor":"MOOSA","target":null,"mood":"joyful","intensity":3,"summary":"Moosa realizes the sarcophagus lid is a door hiding a brass key."},
+{"start":36,"type":"works","fine":"drives","actor":"CHAD","target":"BERNICE","mood":"chaotic","intensity":4,"summary":"The key will not turn as the timer runs down; they struggle and the door opens."},
+{"start":47,"type":"jokes","fine":"amuses","actor":"MOOSA","target":null,"mood":"triumphant","intensity":3,"summary":"They escape with four seconds left, celebrating."}
+]
+}

@@ -1,0 +1,157 @@
+{
+"s00210": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"TARK","target":"CORDY","mood":"playful","intensity":2,"summary":"Tark calls a meta-sync while Marguerite points out the dying fern."},
+{"start":14,"type":"observes","fine":"waits","actor":"TARK","target":"THAD","mood":"awkward","intensity":2,"summary":"Tark asks motionless Thad for thoughts and the office wonders if he's alive."},
+{"start":27,"type":"discovers","fine":"discovers","actor":"MARGUERITE","target":"THAD","mood":"chaotic","intensity":3,"summary":"Marguerite prods Thad with the hose; he topples, snoring, and everyone is sprayed."},
+{"start":40,"type":"jokes","fine":"amuses","actor":"THAD","target":"TARK","mood":"playful","intensity":2,"summary":"Thad wakes asking if it is Friday, then lies back down."},
+{"start":49,"type":"reveals","fine":"breaks news to","actor":"MARGUERITE","target":"TARK","mood":"awkward","intensity":3,"summary":"Marguerite tells Tark the company has been out of money since March."},
+{"start":60,"type":"discovers","fine":"realizes","actor":"TARK","target":null,"mood":"ominous","intensity":3,"summary":"Tark surveys the failing office as the lights go out; Thad quips he said so."}
+],
+"s00832": [
+{"start":1,"type":"works","fine":"prepares","actor":"FELIX","target":"RENATA","mood":"tense","intensity":3,"summary":"Felix and Renata prepare for twenty-three bus rollover patients with six beds."},
+{"start":16,"type":"decides","fine":"gives an order","actor":"RENATA","target":"FELIX","mood":"suspense","intensity":3,"summary":"The wall phone buzzes urgently; they argue over picking up and Renata answers."},
+{"start":24,"type":"reveals","fine":"breaks news to","actor":"RENATA","target":"FELIX","mood":"ominous","intensity":4,"summary":"Renata listens, jaw tightening, and silently hands Felix the receiver."}
+],
+"s00188": [
+{"start":1,"type":"bonds","fine":"confides in","actor":"PAZ","target":"KIRA","mood":"awkward","intensity":2,"summary":"Paz frets about asking Dewey out and Kira pushes her into it."},
+{"start":14,"type":"deflects","fine":"plays dumb with","actor":"PAZ","target":"DEWEY","mood":"awkward","intensity":2,"summary":"Kira asks if Dewey is going to the quarry party; Paz denies having a reason."},
+{"start":24,"type":"arrives","fine":"makes an entrance","actor":"MAX","target":"PAZ","mood":"awkward","intensity":3,"summary":"Max glides up and reveals himself as Paz's ex who she never called."},
+{"start":38,"type":"observes","fine":"takes it in","actor":"KIRA","target":null,"mood":"playful","intensity":2,"summary":"Bee and Arlo enjoy the drama, Dewey wipes harder, Kira offers fries."}
+],
+"s00711": [
+{"start":1,"type":"works","fine":"investigates","actor":"SOLEDAD","target":"PAVEL","mood":"calm","intensity":2,"summary":"Soledad and Pavel check dropping flow in the hydroponics ring."},
+{"start":11,"type":"discovers","fine":"notices","actor":"SOLEDAD","target":"PAVEL","mood":"suspense","intensity":3,"summary":"Soledad hears a faint rhythmic tapping like fingers on glass under the pump."},
+{"start":16,"type":"arrives","fine":"makes an entrance","actor":"HANNE","target":"SOLEDAD","mood":"tense","intensity":3,"summary":"Commander Hanne enters and orders them to stop what they are doing."},
+{"start":25,"type":"reveals","fine":"drops a bombshell on","actor":"HANNE","target":"SOLEDAD","mood":"ominous","intensity":4,"summary":"Hanne reveals the culture in tube nine stopped being algae days ago."},
+{"start":30,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"fear","intensity":4,"summary":"The tapping grows louder at the far end and all three turn."}
+],
+"s00036": [
+{"start":1,"type":"observes","fine":"hesitates","actor":"STRANGER","target":"GIRL","mood":"melancholy","intensity":2,"summary":"A father sits frozen in the car outside the planetarium while his daughter watches."},
+{"start":10,"type":"confronts","fine":"presses","actor":"JOSEPHINE","target":"DESMOND","mood":"melancholy","intensity":3,"summary":"Josephine asks if lateness is why her mother left and asks for a true thing."},
+{"start":21,"type":"confesses","fine":"opens up to","actor":"DESMOND","target":"JOSEPHINE","mood":"tender","intensity":3,"summary":"Desmond admits he never knew how to do this; Josephine says being her dad is enough."},
+{"start":27,"type":"bonds","fine":"reconnects with","actor":"MAEVE","target":"DESMOND","mood":"tender","intensity":3,"summary":"Josephine answers Maeve's call on speaker; Desmond admits he got lost and froze."},
+{"start":49,"type":"bonds","fine":"shares a moment with","actor":"DESMOND","target":"JOSEPHINE","mood":"hopeful","intensity":3,"summary":"Desmond takes her hand and they cross the street to the planetarium."}
+],
+"s01243": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ASTRID","target":null,"mood":"calm","intensity":1,"summary":"Four fishers wait patiently around the hole in a frozen lake hut."},
+{"start":16,"type":"jokes","fine":"banters with","actor":"KWAME","target":"HARTWELL","mood":"playful","intensity":1,"summary":"A bite slips off and Kwame and Hartwell trade dry jokes about optimism."},
+{"start":28,"type":"arrives","fine":"drifts in","actor":"BENEDICT","target":null,"mood":"calm","intensity":1,"summary":"Ranger Benedict steps in from the cold and accepts coffee from Astrid."},
+{"start":42,"type":"observes","fine":"waits","actor":"ASTRID","target":null,"mood":"calm","intensity":1,"summary":"They wait quietly until Astrid's line twitches again."}
+],
+"s00850": [
+{"start":1,"type":"observes","fine":"waits","actor":"WENDELL","target":"TOBY","mood":"calm","intensity":1,"summary":"Wendell, Toby and Ray wait for a bite in the hut."},
+{"start":16,"type":"mocks","fine":"needles","actor":"RAY","target":"TOBY","mood":"awkward","intensity":2,"summary":"Bored Ray complains and needles Toby about slurping; Toby offers Pa cocoa."},
+{"start":32,"type":"bonds","fine":"reminisces with","actor":"RAY","target":"WENDELL","mood":"tender","intensity":3,"summary":"Ray asks about Grandma, and Wendell says she came because he did."},
+{"start":40,"type":"bonds","fine":"shares a moment with","actor":"TOBY","target":"WENDELL","mood":"tender","intensity":3,"summary":"The line twitches; the three huddle over the hole and wait together."}
+],
+"s01752": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"GWENDOLYN","target":"TILLY","mood":"awkward","intensity":2,"summary":"Gwendolyn tries to run a fire drill while Tilly's headcount keeps changing."},
+{"start":22,"type":"arrives","fine":"is introduced","actor":"COLTON","target":"GWENDOLYN","mood":"awkward","intensity":2,"summary":"An unlisted intern offers donuts and turns out to have been hired in an elevator."},
+{"start":46,"type":"confronts","fine":"presses","actor":"HAL","target":"GWENDOLYN","mood":"tense","intensity":3,"summary":"Gwendolyn invokes protocol; Hal notes they have waited forty minutes for the all clear."},
+{"start":53,"type":"discovers","fine":"notices","actor":"YVETTE","target":null,"mood":"chaotic","intensity":4,"summary":"Smoke curls from a window, proving the fire is real; a window pops."},
+{"start":61,"type":"jokes","fine":"riffs with","actor":"TILLY","target":"GWENDOLYN","mood":"playful","intensity":2,"summary":"Tilly and Gwendolyn recount heads, adding Colton, while Hal wants donuts noted."}
+],
+"s00657": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"HILDEGARD","target":null,"mood":"calm","intensity":2,"summary":"Six bakers work through the night; one stands at an empty counter."},
+{"start":15,"type":"confronts","fine":"calls out","actor":"HILDEGARD","target":"MOSES","mood":"ominous","intensity":3,"summary":"Hildegard points out Moses has no dough; the bakers stop and the back door rattles."}
+],
+"s01574": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"DOYLE","target":null,"mood":"tense","intensity":2,"summary":"Four soldiers crouch behind a dike in the mist with a dead radio."},
+{"start":13,"type":"searches","fine":"scans the room","actor":"FINCH","target":"DOYLE","mood":"suspense","intensity":3,"summary":"Finch sees movement; Doyle asks about the ridge across open water."},
+{"start":21,"type":"discovers","fine":"notices","actor":"TANAKA","target":null,"mood":"suspense","intensity":3,"summary":"A woman calls from the treeline; Tanaka translates and distrusts the repeated welcome."},
+{"start":29,"type":"flees","fine":"scrambles away","actor":"DOYLE","target":null,"mood":"chaotic","intensity":5,"summary":"A mortar hits the sluice and the soldiers scramble along the dike."}
+],
+"s01769": [
+{"start":1,"type":"observes","fine":"waits","actor":"ERNEST","target":null,"mood":"awkward","intensity":2,"summary":"Ernest waits confidently with his folder and ticket B-114."},
+{"start":15,"type":"hides","fine":"masks a feeling","actor":"ERNEST","target":null,"mood":"playful","intensity":2,"summary":"He reassures himself with a recorded note, calm man, prepared man, while nerves build."},
+{"start":37,"type":"discovers","fine":"realizes","actor":"ERNEST","target":null,"mood":"tense","intensity":3,"summary":"Ernest finds his proof of residence is missing and records the confession."},
+{"start":52,"type":"works","fine":"goes through routine","actor":"ERNEST","target":null,"mood":"bittersweet","intensity":2,"summary":"He walks toward the door, then returns and waits again with false confidence."}
+],
+"s01852": [
+{"start":1,"type":"observes","fine":"studies","actor":"IMOGEN","target":null,"mood":"melancholy","intensity":2,"summary":"Five people sit apart in the archive, Imogen reading a parish register."},
+{"start":14,"type":"arrives","fine":"returns","actor":"THADDEUS","target":"IMOGEN","mood":"tense","intensity":3,"summary":"Estranged Thaddeus crosses the room and sits opposite Imogen."},
+{"start":23,"type":"confronts","fine":"presses","actor":"THADDEUS","target":"IMOGEN","mood":"tense","intensity":3,"summary":"He asks if she found it; she found a name, not his, as the room watches."},
+{"start":35,"type":"reveals","fine":"shows","actor":"IMOGEN","target":"THADDEUS","mood":"grief","intensity":4,"summary":"Imogen turns the register around; Thaddeus recognizes his mother's handwriting."},
+{"start":44,"type":"comforts","fine":"embraces","actor":"ROSALIE","target":"IMOGEN","mood":"bittersweet","intensity":3,"summary":"Rosalie stands behind her mother, Imogen covers her hand, and Callum quietly leaves."}
+],
+"s01262": [
+{"start":1,"type":"works","fine":"prepares","actor":"TIMBO","target":null,"mood":"playful","intensity":1,"summary":"Keepers crowd the penguin house as Wilfred holds the herring bucket upside down."},
+{"start":12,"type":"jokes","fine":"banters with","actor":"PRUDHOMME","target":"GRETA","mood":"playful","intensity":2,"summary":"The herring spills; the keepers bicker over the penguin count."},
+{"start":22,"type":"searches","fine":"examines","actor":"ANAND","target":"TIMBO","mood":"playful","intensity":2,"summary":"Dr. Bhatt diagnoses the limping penguin as sulking over a rock."},
+{"start":29,"type":"decides","fine":"changes course","actor":"WILFRED","target":null,"mood":"chaotic","intensity":2,"summary":"Wilfred wades in to swap the penguins and the birds scatter onto his boot."}
+],
+"s02294": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"WENDELL","target":"ADA","mood":"tense","intensity":3,"summary":"Big Wendell and small Ada lock hands in a diner arm-wrestling match."},
+{"start":12,"type":"attacks","fine":"fights","actor":"WENDELL","target":"ADA","mood":"suspense","intensity":4,"summary":"Wendell surges and pins Ada back to forty-five degrees before she rallies."},
+{"start":17,"type":"attacks","fine":"strikes","actor":"ADA","target":"WENDELL","mood":"triumphant","intensity":5,"summary":"Ada drives back and slams Wendell's hand to the steel to the crowd's roar."}
+],
+"s01503": [
+{"start":1,"type":"works","fine":"works","actor":"PRISCILLA","target":null,"mood":"tense","intensity":3,"summary":"A team rushes a ventilated patient up a hospital elevator."},
+{"start":10,"type":"discovers","fine":"realizes","actor":"DOCTOR","target":null,"mood":"fear","intensity":4,"summary":"The elevator stops in a power failure and the patient has no ten minutes."},
+{"start":18,"type":"arrives","fine":"bursts in","actor":"LUCIANA","target":null,"mood":"hopeful","intensity":4,"summary":"Firefighter Captain Luciana pries the doors open and orders the patient out first."}
+],
+"s00493": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"LARK","target":"HORTENSE","mood":"tense","intensity":2,"summary":"Inspector Lark questions Hortense about a man who died tasting honey."},
+{"start":13,"type":"confronts","fine":"presses","actor":"LARK","target":"KONSTANTIN","mood":"suspense","intensity":3,"summary":"A veiled man unmasks as Konstantin and names oleander nectar as the poison."},
+{"start":25,"type":"reveals","fine":"presents evidence to","actor":"PACO","target":"LARK","mood":"tense","intensity":4,"summary":"Paco's registry shows hive twelve was transferred to Hortense."},
+{"start":29,"type":"confesses","fine":"owns up to","actor":"HORTENSE","target":"LARK","mood":"hostile","intensity":4,"summary":"Hortense admits she fed Alistair his own greed to stop his exposure."},
+{"start":35,"type":"reveals","fine":"presents evidence to","actor":"ISOLDE","target":"LARK","mood":"suspense","intensity":3,"summary":"Isolde confirms oleander residue in the spoon and Lark closes her notebook."}
+],
+"s01575": [
+{"start":1,"type":"works","fine":"cooks","actor":"GLORIA","target":"DENNIS","mood":"playful","intensity":1,"summary":"The family bakes chaotically, Gloria scolding Dennis's mounded sugar."},
+{"start":18,"type":"lies","fine":"covers a story for","actor":"MAYA","target":"GLORIA","mood":"awkward","intensity":2,"summary":"Maya tells the contest office the recipe is totally original."},
+{"start":26,"type":"confronts","fine":"presses","actor":"GLORIA","target":"MAYA","mood":"tense","intensity":4,"summary":"Gloria presses Maya, who admits the recipe comes from the judge's own cookbook."},
+{"start":49,"type":"decides","fine":"changes course","actor":"GLORIA","target":"DENNIS","mood":"hopeful","intensity":3,"summary":"Dennis suggests adding cardamom, and Gloria asks Maya to fetch it."},
+{"start":59,"type":"arrives","fine":"shows up unannounced","actor":"PRUDENCE","target":"GLORIA","mood":"tense","intensity":3,"summary":"Judge Prudence arrives early, recognizes page ninety-one, and approves the personal touch."},
+{"start":77,"type":"jokes","fine":"lightens the mood for","actor":"TOBY","target":"GLORIA","mood":"joyful","intensity":2,"summary":"Toby asks if they win; Gloria laughs and says they bake."}
+],
+"s02346": [
+{"start":1,"type":"comforts","fine":"encourages","actor":"GRETCHEN","target":"XIMENA","mood":"tense","intensity":2,"summary":"Skip Gretchen steadies the team and nervous rookie Ximena before the last end."},
+{"start":32,"type":"works","fine":"works","actor":"BERNIE","target":null,"mood":"suspense","intensity":3,"summary":"Bernie throws the first stone and Linnea and Ximena sweep on Gretchen's calls."},
+{"start":40,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"calm","intensity":3,"summary":"The stone stops dead center and the women silently look at it."}
+],
+"s01891": [
+{"start":1,"type":"comforts","fine":"encourages","actor":"BIANCHI-ODEH","target":"OZ","mood":"tense","intensity":3,"summary":"Coach tells nervous Oz he needs a strike while teammates crowd him."},
+{"start":21,"type":"works","fine":"works","actor":"OZ","target":null,"mood":"suspense","intensity":4,"summary":"Oz bowls a quiet roll that leaves the ten-pin wobbling, then standing."},
+{"start":42,"type":"works","fine":"works","actor":"OZ","target":null,"mood":"triumphant","intensity":4,"summary":"Oz clips the ten-pin on the spare and the team explodes in celebration."},
+{"start":54,"type":"reveals","fine":"breaks news to","actor":"BIANCHI-ODEH","target":null,"mood":"bittersweet","intensity":3,"summary":"The final score shows they lost by one; Coach calmly says pack up."}
+],
+"s00046": [
+{"start":1,"type":"observes","fine":"watches","actor":"GENE","target":null,"mood":"tense","intensity":2,"summary":"Soldiers watch enemy tanks from the broken roof as Oyelowo curtly handles Louis."},
+{"start":19,"type":"decides","fine":"gives an order","actor":"OYELOWO","target":"GENE","mood":"suspense","intensity":3,"summary":"The Tigers move; Oyelowo orders Gene to wire the others and they descend."}
+],
+"s00619": [
+{"start":1,"type":"bonds","fine":"banters with","actor":"CALLUM","target":"NAOMI","mood":"bittersweet","intensity":2,"summary":"Naomi and Callum watch an elderly couple and he reaches for her hand."},
+{"start":16,"type":"confesses","fine":"apologizes to","actor":"CALLUM","target":"NAOMI","mood":"melancholy","intensity":3,"summary":"Callum admits he should have called and was a coward."},
+{"start":26,"type":"reveals","fine":"comes clean to","actor":"NAOMI","target":"CALLUM","mood":"melancholy","intensity":3,"summary":"Naomi says her lighthouse letter was a goodbye, not an invitation."},
+{"start":35,"type":"confesses","fine":"opens up to","actor":"NAOMI","target":"CALLUM","mood":"bittersweet","intensity":4,"summary":"Seeing the old couple, Naomi breaks and says she wants lasting love."},
+{"start":45,"type":"decides","fine":"refuses","actor":"NAOMI","target":"CALLUM","mood":"bittersweet","intensity":4,"summary":"Callum offers his ring; Naomi gently pushes it back, saying keep it for now."}
+],
+"s00144_2": [
+{"start":1,"type":"discovers","fine":"discovers","actor":"ANGELIKA","target":null,"mood":"joyful","intensity":2,"summary":"Angelika opens the steel box and finds a tiny, priceless cheese."}
+],
+"s01880": [
+{"start":1,"type":"observes","fine":"studies","actor":"MARCHETTI","target":"ARCHIE","mood":"tense","intensity":2,"summary":"Detective Marchetti makes small talk with the laundry attendant in the quiet laundromat."},
+{"start":18,"type":"confronts","fine":"interrogates","actor":"MARCHETTI","target":"RENATA","mood":"suspense","intensity":3,"summary":"Marchetti notes Renata's hospital shirts and tosses the crossword clue alibi at Archie."},
+{"start":35,"type":"arrives","fine":"makes an entrance","actor":"TOMASZ","target":null,"mood":"tense","intensity":4,"summary":"Tomasz enters and holds up a folded shirt; Renata drops her basket."},
+{"start":51,"type":"confronts","fine":"stares down","actor":"MARCHETTI","target":"TOMASZ","mood":"suspense","intensity":4,"summary":"Marchetti names him unprompted and orders him to sit down."},
+{"start":58,"type":"defends","fine":"covers for","actor":"WIN","target":"TOMASZ","mood":"ominous","intensity":3,"summary":"Win the lawyer emerges from the closet and says the police only have one thing."},
+{"start":65,"type":"decides","fine":"commits","actor":"MARCHETTI","target":"WIN","mood":"tense","intensity":3,"summary":"Marchetti stands and says they will start with the one thing."}
+],
+"s01267": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"DARIUS","target":"PENELOPE","mood":"awkward","intensity":2,"summary":"Darius pitches Penelope on rebranding their two-person team as the Alignment Pod."},
+{"start":16,"type":"mocks","fine":"belittles","actor":"PENELOPE","target":"DARIUS","mood":"playful","intensity":2,"summary":"Penelope notes eleven years without a new idea, then approves it for him alone."},
+{"start":27,"type":"jokes","fine":"riffs with","actor":"DARIUS","target":"PENELOPE","mood":"playful","intensity":2,"summary":"Darius adds that the Pod will require a budget."}
+],
+"s00445": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"NAOMI","target":"DEVANTE","mood":"tense","intensity":2,"summary":"Naomi and Devante rush up the stairwell with eight minutes before court."},
+{"start":8,"type":"confronts","fine":"presses","actor":"REGGIE","target":"NAOMI","mood":"awkward","intensity":2,"summary":"A judge eating a sandwich on the landing probes whether her client will testify."},
+{"start":21,"type":"discovers","fine":"catches","actor":"REGGIE","target":"NAOMI","mood":"chaotic","intensity":3,"summary":"The missed wrapper causes a collision, scattering her folder; Reggie pockets a page."}
+],
+"s00735": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"DESMOND","target":"PRU","mood":"playful","intensity":2,"summary":"A family bickers inside a rocking minivan in a car wash tunnel."},
+{"start":15,"type":"accuses","fine":"blames","actor":"PRU","target":"DESMOND","mood":"playful","intensity":3,"summary":"Foam leaks in and the family argues over lasagne smells and neutral."},
+{"start":46,"type":"observes","fine":"takes it in","actor":"POP-POP","target":null,"mood":"tense","intensity":2,"summary":"Pop-Pop asks if the brakes stick the brushes and everyone falls silent."},
+{"start":53,"type":"bonds","fine":"shares a moment with","actor":"POP-POP","target":"DESMOND","mood":"joyful","intensity":3,"summary":"The brushes lift and the family erupts in helpless laughter."}
+]
+}

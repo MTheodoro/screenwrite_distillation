@@ -1,0 +1,35 @@
+{
+"s00018": [
+{"start": 1, "type": "jokes", "fine": "amuses", "actor": "EZEKIEL", "target": "PIPPA", "mood": "playful", "intensity": 2, "summary": "Grandpa Ezekiel amuses Pippa with tales of falling off boats while Junior scoffs."},
+{"start": 12, "type": "jokes", "fine": "banters with", "actor": "EZEKIEL", "target": "JUNIOR", "mood": "playful", "intensity": 1, "summary": "Junior wants off the ferry; Ezekiel wryly says they are simply committed."}
+],
+"s00012": [
+{"start": 1, "type": "works", "fine": "goes through routine", "actor": "BIRGITTA", "target": "TOBIAS", "mood": "calm", "intensity": 1, "summary": "Tired Birgitta does laundry late at night while Tobias pesters her for gummies."},
+{"start": 20, "type": "bonds", "fine": "plays with", "actor": "TOBIAS", "target": "GIRL", "mood": "playful", "intensity": 2, "summary": "Tobias offers his dinosaur to the lone girl, who critiques its brain."},
+{"start": 29, "type": "searches", "fine": "questions witnesses", "actor": "BIRGITTA", "target": "NOOR", "mood": "tense", "intensity": 3, "summary": "Birgitta learns the girl has waited an hour and offers to call for help."},
+{"start": 40, "type": "pleads", "fine": "pleads with", "actor": "NOOR", "target": "BIRGITTA", "mood": "tense", "intensity": 3, "summary": "Noor panics and begs Birgitta not to call anyone."},
+{"start": 46, "type": "arrives", "fine": "bursts in", "actor": "MAN", "target": "NOOR", "mood": "tender", "intensity": 4, "summary": "Noor's father bursts in, and she runs into his arms."},
+{"start": 57, "type": "bonds", "fine": "thanks", "actor": "MAN", "target": "BIRGITTA", "mood": "tender", "intensity": 2, "summary": "The father explains and thanks Birgitta; Noor waves goodbye to Tobias."}
+],
+"s01103": [
+{"start": 1, "type": "searches", "fine": "investigates", "actor": "CORDELIA", "target": null, "mood": "ominous", "intensity": 2, "summary": "Cordelia leads frightened Artemus through the flooded asylum cellar."},
+{"start": 10, "type": "discovers", "fine": "notices", "actor": "ARTEMUS", "target": null, "mood": "fear", "intensity": 4, "summary": "Artemus's camera flash reveals a figure standing against the far wall."},
+{"start": 21, "type": "pleads", "fine": "pleads with", "actor": "ARTEMUS", "target": "CORDELIA", "mood": "suspense", "intensity": 3, "summary": "Artemus begs to leave; Cordelia explains they came for patient forty-one."},
+{"start": 30, "type": "hides", "fine": "masks a feeling", "actor": "CORDELIA", "target": "ARTEMUS", "mood": "fear", "intensity": 4, "summary": "A woman's lullaby drifts closer; Cordelia warns not to answer or look."},
+{"start": 46, "type": "attacks", "fine": "grabs", "actor": null, "target": "CORDELIA", "mood": "fear", "intensity": 5, "summary": "A hand seizes Cordelia's ankle, the lantern falls, and the flash reveals the ghost."}
+],
+"s01038": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "KWAN", "target": "ELOISE", "mood": "tense", "intensity": 2, "summary": "Beside the casket, Kwan questions widow Eloise about the will's witness."},
+{"start": 14, "type": "reveals", "fine": "presents evidence to", "actor": "KWAN", "target": "ELOISE", "mood": "tense", "intensity": 4, "summary": "Kwan reveals the nurse denies being present; Brandao finds the statement."},
+{"start": 24, "type": "hides", "fine": "masks a feeling", "actor": "ELOISE", "target": null, "mood": "tense", "intensity": 3, "summary": "Eloise asks for water and steadies her shaking hand."}
+],
+"s01083": [
+{"start": 1, "type": "threatens", "fine": "menaces", "actor": "VOICE", "target": "THESSALY", "mood": "ominous", "intensity": 3, "summary": "A voice from the library walls accuses Thessaly of stealing its book."},
+{"start": 16, "type": "discovers", "fine": "realizes", "actor": "KESTREL", "target": null, "mood": "fear", "intensity": 4, "summary": "Kestrel reads the last page, which wakes the author; the book won't return."},
+{"start": 25, "type": "arrives", "fine": "makes an entrance", "actor": "SCRIBE", "target": "THESSALY", "mood": "ominous", "intensity": 4, "summary": "The raven-headed Scribe materializes and claims the whole kingdom as his writing."},
+{"start": 37, "type": "threatens", "fine": "menaces", "actor": "SCRIBE", "target": "KESTREL", "mood": "fear", "intensity": 5, "summary": "The Scribe's shadow writes Kestrel's name and foretells her death tonight."},
+{"start": 46, "type": "defends", "fine": "shields", "actor": "THESSALY", "target": "KESTREL", "mood": "tense", "intensity": 5, "summary": "Thessaly steps between them and slashes a barrier of ancient light."},
+{"start": 56, "type": "attacks", "fine": "strikes", "actor": "KESTREL", "target": "SCRIBE", "mood": "chaotic", "intensity": 5, "summary": "Kestrel slams the book shut and refuses him; the Scribe dissolves into ink."},
+{"start": 69, "type": "discovers", "fine": "realizes", "actor": "THESSALY", "target": "KESTREL", "mood": "ominous", "intensity": 3, "summary": "In the silence, Thessaly warns it isn't over; the book beats like a heart."}
+]
+}

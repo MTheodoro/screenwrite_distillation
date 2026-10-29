@@ -1,0 +1,186 @@
+{
+"s05026": [
+{"start": 1, "type": "searches", "fine": "rummages", "actor": "POPPY", "target": null, "mood": "playful", "intensity": 2, "summary": "Poppy rummages for matches in the blackout while Ben teases her"},
+{"start": 9, "type": "jokes", "fine": "teases", "actor": "BEN", "target": "POPPY", "mood": "awkward", "intensity": 2, "summary": "Ben mistakes her risotto for soup and scrambles to apologize"},
+{"start": 12, "type": "confronts", "fine": "presses", "actor": "POPPY", "target": "BEN", "mood": "playful", "intensity": 3, "summary": "Poppy presses Ben to repeat his tentative love confession from the car"},
+{"start": 18, "type": "confesses", "fine": "opens up to", "actor": "POPPY", "target": "BEN", "mood": "tender", "intensity": 3, "summary": "Poppy admits she might love Ben too, and he gladly accepts it"},
+{"start": 22, "type": "arrives", "fine": "bursts in", "actor": "THE TWINS", "target": "POPPY", "mood": "chaotic", "intensity": 3, "summary": "The twins burst in with candles, matches and a cake, startling Poppy"},
+{"start": 32, "type": "bonds", "fine": "shares a moment with", "actor": "POPPY", "target": "BEN", "mood": "tender", "intensity": 3, "summary": "Poppy and Ben share a wish over the candles before darkness returns"}
+],
+"s05028": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "MO", "target": null, "mood": "playful", "intensity": 2, "summary": "Mo tours the studio for the documentary while Big Dave jokes about ghosts"},
+{"start": 11, "type": "arrives", "fine": "bursts in", "actor": "THE WOMAN", "target": null, "mood": "ominous", "intensity": 3, "summary": "A dripping stranger slams in and freezes the whole studio"},
+{"start": 17, "type": "threatens", "fine": "intimidates", "actor": "THE WOMAN", "target": "BIG DAVE", "mood": "tense", "intensity": 3, "summary": "The woman demands a 1994 session tape and refuses to be refused"},
+{"start": 24, "type": "reveals", "fine": "unmasks", "actor": "LOU", "target": "BIG DAVE", "mood": "suspense", "intensity": 4, "summary": "She lays down a cassette and Big Dave recognizes her as Lou Calder"},
+{"start": 28, "type": "observes", "fine": "listens to", "actor": "MO", "target": null, "mood": "ominous", "intensity": 4, "summary": "The tape plays an eerie distant voice and the camera drops"}
+],
+"s05029": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "SUNNY", "target": null, "mood": "playful", "intensity": 2, "summary": "Sunny's protest crew sets up while Sunny fumbles a permit explanation"},
+{"start": 17, "type": "accuses", "fine": "suspects", "actor": "TROY", "target": "HOODIE GUY", "mood": "suspense", "intensity": 2, "summary": "The team debates whether the silent hoodie guy is an undercover cop"},
+{"start": 25, "type": "reveals", "fine": "reveals", "actor": "ANSEL", "target": "SUNNY", "mood": "tense", "intensity": 3, "summary": "Ansel approaches and reveals himself as Sunny's water board leak"},
+{"start": 33, "type": "decides", "fine": "gives an order", "actor": "SUNNY", "target": "RHEA", "mood": "hopeful", "intensity": 2, "summary": "Sunny hands out protest duties and leaves to walk with Ansel"}
+],
+"s05031": [
+{"start": 1, "type": "reveals", "fine": "drops a bombshell on", "actor": "ORSOLYA", "target": "BRAM", "mood": "ominous", "intensity": 3, "summary": "At the wake, Orsolya tells Bram his uncle owed her his shadow"},
+{"start": 6, "type": "reveals", "fine": "shows", "actor": "ORSOLYA", "target": "BRAM", "mood": "ominous", "intensity": 3, "summary": "Orsolya points out the unmoving shadow under the coffin; Bram rationalizes it"},
+{"start": 15, "type": "threatens", "fine": "warns", "actor": "ORSOLYA", "target": "BRAM", "mood": "suspense", "intensity": 3, "summary": "As Mrs. Pell calls, Orsolya warns Bram never to answer the voice"},
+{"start": 19, "type": "discovers", "fine": "realizes", "actor": "BRAM", "target": null, "mood": "fear", "intensity": 4, "summary": "Candles bend flat and a voice in Bram's own tones lures him"},
+{"start": 24, "type": "pleads", "fine": "asks for help from", "actor": "BRAM", "target": "ORSOLYA", "mood": "fear", "intensity": 4, "summary": "Bram asks how to stop it; Orsolya says pay what is owed"}
+],
+"s05032_0": [
+{"start": 1, "type": "observes", "fine": "keeps watch", "actor": "NARRATOR", "target": null, "mood": "ominous", "intensity": 2, "summary": "Fog lies over the checkpoint as the narrator explains reading liars"},
+{"start": 7, "type": "arrives", "fine": "arrives", "actor": "HALVORSEN", "target": null, "mood": "suspense", "intensity": 2, "summary": "A grey hatchback rolls up and Halvorsen signals it to stop"}
+],
+"s05032_1": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "HALVORSEN", "target": "DELPHINE", "mood": "tense", "intensity": 2, "summary": "Halvorsen questions Delphine about her trip to her sister in Kalmar"},
+{"start": 7, "type": "hides", "fine": "conceals something", "actor": "DELPHINE", "target": "HALVORSEN", "mood": "suspense", "intensity": 3, "summary": "Delphine turns her buzzing phone face down as Halvorsen watches"}
+],
+"s05032_2": [
+{"start": 1, "type": "decides", "fine": "accepts", "actor": "HALVORSEN", "target": "DELPHINE", "mood": "calm", "intensity": 2, "summary": "Kestrel reports nothing found and Halvorsen waves Delphine through"},
+{"start": 12, "type": "hides", "fine": "conceals something", "actor": "DELPHINE", "target": null, "mood": "suspense", "intensity": 3, "summary": "Relieved, Delphine carelessly texts someone not to call her again"},
+{"start": 18, "type": "discovers", "fine": "pieces it together", "actor": "HALVORSEN", "target": "KESTREL", "mood": "suspense", "intensity": 3, "summary": "Halvorsen notices the buckled empty booster seat and doubts her story"},
+{"start": 26, "type": "decides", "fine": "gives an order", "actor": "HALVORSEN", "target": "KESTREL", "mood": "tense", "intensity": 4, "summary": "Halvorsen orders the barrier closed, trapping the hatchback short of freedom"},
+{"start": 31, "type": "confronts", "fine": "corners", "actor": "HALVORSEN", "target": "DELPHINE", "mood": "tense", "intensity": 4, "summary": "The officers order Delphine out; she refuses, gripping the wheel"},
+{"start": 43, "type": "flees", "fine": "bolts", "actor": "DELPHINE", "target": "HALVORSEN", "mood": "tense", "intensity": 5, "summary": "Delphine shifts into reverse as Kestrel reaches for his belt"},
+{"start": 49, "type": "discovers", "fine": "recognizes", "actor": "DELPHINE", "target": null, "mood": "suspense", "intensity": 4, "summary": "A distant child's cry from a truck stops Delphine cold"},
+{"start": 55, "type": "confronts", "fine": "presses", "actor": "HALVORSEN", "target": "DELPHINE", "mood": "tense", "intensity": 4, "summary": "Halvorsen asks whose child is in the truck; she kills the engine"}
+],
+"s05033": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "NARRATOR", "target": null, "mood": "ominous", "intensity": 2, "summary": "The narrator introduces the night bus and its weary passengers"},
+{"start": 5, "type": "threatens", "fine": "intimidates", "actor": "RUSS", "target": "NINA", "mood": "tense", "intensity": 3, "summary": "Russ quietly demands Nina hand over what belongs to him"},
+{"start": 11, "type": "mocks", "fine": "needles", "actor": "DESMOND", "target": "RUSS", "mood": "tense", "intensity": 3, "summary": "Desmond butts into the conversation; the narrator reveals he is a cop"},
+{"start": 20, "type": "reveals", "fine": "exposes a secret to", "actor": "NINA", "target": "RUSS", "mood": "tense", "intensity": 4, "summary": "Nina keeps the pen drive and points Russ to the undercover cop"},
+{"start": 23, "type": "accuses", "fine": "accuses", "actor": "RUSS", "target": "NINA", "mood": "tense", "intensity": 4, "summary": "Russ accuses Nina of wearing a wire as Desmond shows his badge"},
+{"start": 27, "type": "threatens", "fine": "menaces", "actor": "RUSS", "target": "DESMOND", "mood": "chaotic", "intensity": 5, "summary": "Russ reaches into his bag, the bus lurches, and a gun spills out"},
+{"start": 33, "type": "confronts", "fine": "stares down", "actor": "DESMOND", "target": "RUSS", "mood": "suspense", "intensity": 5, "summary": "Desmond orders Russ to drop it as Russ blames Nina in the dark"}
+],
+"s05035_0": [
+{"start": 1, "type": "decides", "fine": "makes a plan", "actor": "MIRA", "target": "TOBIAS", "mood": "suspense", "intensity": 2, "summary": "Amid the protest, Mira's crew reviews the forty-second vault heist plan"},
+{"start": 10, "type": "reveals", "fine": "breaks news to", "actor": "JUNO", "target": "MIRA", "mood": "tense", "intensity": 3, "summary": "Juno reports an early guard shift change, forcing the crew to move now"},
+{"start": 19, "type": "reveals", "fine": "breaks news to", "actor": "RAFA", "target": "MIRA", "mood": "tense", "intensity": 4, "summary": "Rafa warns that federal agents in the crowd are there for them"},
+{"start": 24, "type": "decides", "fine": "changes course", "actor": "MIRA", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "After the dock's warning, Mira calls off the heist and they disperse"}
+],
+"s05035_1": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "melancholy", "intensity": 2, "summary": "The plaza empties and a broken cardboard sun lies in a puddle"}
+],
+"s05037": [
+{"start": 1, "type": "confronts", "fine": "calls out", "actor": "KIM", "target": "KIP", "mood": "tense", "intensity": 3, "summary": "Kim calls out Kip for having already decided to leave"},
+{"start": 9, "type": "observes", "fine": "waits", "actor": "KIM", "target": "KIP", "mood": "suspense", "intensity": 3, "summary": "The radio phone rings and Kim says the call is for Kip"},
+{"start": 15, "type": "reveals", "fine": "breaks news to", "actor": "A MAN'S VOICE", "target": "KIP", "mood": "ominous", "intensity": 4, "summary": "A caller says Mr. Brandt wants the job done tonight"},
+{"start": 22, "type": "deflects", "fine": "stalls", "actor": "KIP", "target": "A MAN'S VOICE", "mood": "melancholy", "intensity": 3, "summary": "Kim muses about brothers as Kip stalls the caller until tomorrow"},
+{"start": 25, "type": "observes", "fine": "hesitates", "actor": "KIP", "target": "KIM", "mood": "ominous", "intensity": 4, "summary": "Kip sets the bag on the table, opens it, then zips it shut"},
+{"start": 29, "type": "comforts", "fine": "calms", "actor": "KIM", "target": "KIP", "mood": "bittersweet", "intensity": 3, "summary": "Kim calmly asks Kip to put the kettle on first"}
+],
+"s05038": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "DENNIS", "target": "PHILLIPA", "mood": "playful", "intensity": 2, "summary": "Dennis and Phillipa joke their way through a two-person AA meeting"},
+{"start": 13, "type": "confesses", "fine": "opens up to", "actor": "PHILLIPA", "target": "DENNIS", "mood": "melancholy", "intensity": 4, "summary": "Phillipa confesses she nearly drank after operating on a dying drinker"},
+{"start": 18, "type": "comforts", "fine": "reassures", "actor": "DENNIS", "target": "PHILLIPA", "mood": "tender", "intensity": 3, "summary": "Dennis tells her fear is allowed and makes her laugh"},
+{"start": 24, "type": "comforts", "fine": "encourages", "actor": "DENNIS", "target": "PHILLIPA", "mood": "bittersweet", "intensity": 3, "summary": "Called back to hospital, Phillipa leaves wearing Dennis's cardigan"}
+],
+"s05039_0": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "calm", "intensity": 1, "summary": "Big Dave's taco truck sits in the sun with a small line"}
+],
+"s05039_1": [
+{"start": 1, "type": "works", "fine": "cooks", "actor": "JEN", "target": "BIG DAVE", "mood": "calm", "intensity": 2, "summary": "The taco truck crew works orders and banters about the old lady"},
+{"start": 10, "type": "observes", "fine": "keeps watch", "actor": "SAM", "target": null, "mood": "suspense", "intensity": 2, "summary": "Sam notices the same grey car outside and brushes off Jen"},
+{"start": 17, "type": "jokes", "fine": "banters with", "actor": "MRS. K", "target": "BIG DAVE", "mood": "playful", "intensity": 2, "summary": "Mrs. K phones about her delivery and teases Jen about a husband"},
+{"start": 25, "type": "confronts", "fine": "calls out", "actor": "MO", "target": "SAM", "mood": "tense", "intensity": 2, "summary": "Mo calls out Sam for watching the car and urges him to drop it"},
+{"start": 30, "type": "works", "fine": "goes through routine", "actor": "JEN", "target": "TEENAGE GIRL", "mood": "calm", "intensity": 1, "summary": "A teenage girl orders and Big Dave grumbles about pork"},
+{"start": 35, "type": "arrives", "fine": "shows up unannounced", "actor": "THE MAN IN THE BROWN COAT", "target": "SAM", "mood": "suspense", "intensity": 3, "summary": "The man from the grey car crosses over; Sam tells everyone stay calm"},
+{"start": 40, "type": "confronts", "fine": "faces off with", "actor": "THE MAN IN THE BROWN COAT", "target": "SAM", "mood": "tense", "intensity": 4, "summary": "The man greets Sam by name and Sam calls him Inspector"},
+{"start": 47, "type": "leaves", "fine": "is escorted out", "actor": "SAM", "target": "THE MAN IN THE BROWN COAT", "mood": "tense", "intensity": 3, "summary": "The inspector asks to talk and Sam calmly walks off with him"},
+{"start": 55, "type": "works", "fine": "goes through routine", "actor": "JEN", "target": null, "mood": "awkward", "intensity": 2, "summary": "The baffled crew keeps cooking while the phone buzzes unanswered"}
+],
+"s05040_0": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "DESMOND", "target": "PRIYA", "mood": "melancholy", "intensity": 2, "summary": "Desmond enters Priya's cluttered room as she guards a locked folder"},
+{"start": 12, "type": "confronts", "fine": "presses", "actor": "DESMOND", "target": "PRIYA", "mood": "tense", "intensity": 3, "summary": "Desmond asks about her late-night text naming Harrow Lane"},
+{"start": 16, "type": "hides", "fine": "conceals something", "actor": "PRIYA", "target": "DESMOND", "mood": "tense", "intensity": 3, "summary": "Priya flattens the face-down photo before Desmond can see it"},
+{"start": 22, "type": "accuses", "fine": "implicates", "actor": "PRIYA", "target": "DESMOND", "mood": "tense", "intensity": 4, "summary": "Priya confronts Desmond with proof of his Harrow Lane deliveries"},
+{"start": 33, "type": "reveals", "fine": "presents evidence to", "actor": "PRIYA", "target": "DESMOND", "mood": "tense", "intensity": 4, "summary": "Priya shows the missing girl's key and refuses to hand it over"}
+],
+"s05040_1": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "DESMOND", "target": "PRIYA", "mood": "tense", "intensity": 4, "summary": "Desmond lunges, demanding whether Priya thinks he hurt the girl"},
+{"start": 6, "type": "confesses", "fine": "breaks down to", "actor": "DESMOND", "target": "PRIYA", "mood": "grief", "intensity": 5, "summary": "Desmond breaks down: the girl called for a ride and he was late"},
+{"start": 9, "type": "discovers", "fine": "uncovers", "actor": "PRIYA", "target": "DESMOND", "mood": "grief", "intensity": 4, "summary": "Priya turns over the photo and finds the girl's note to Des"},
+{"start": 13, "type": "pleads", "fine": "implores", "actor": "DESMOND", "target": "PRIYA", "mood": "suspense", "intensity": 4, "summary": "Desmond begs Priya to open the folder he never could"},
+{"start": 16, "type": "bonds", "fine": "teams up with", "actor": "PRIYA", "target": "DESMOND", "mood": "suspense", "intensity": 4, "summary": "Together they open the folder and press play on the video"}
+],
+"s05041": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "HALVORSEN", "target": null, "mood": "playful", "intensity": 2, "summary": "Halvorsen hams for the camera about dull humanitarian shipments"},
+{"start": 11, "type": "deflects", "fine": "brushes off", "actor": "MAYA OKONKWO", "target": "MUM", "mood": "awkward", "intensity": 2, "summary": "Maya brushes off her worried mum's messages about the news"},
+{"start": 18, "type": "discovers", "fine": "notices", "actor": "MAYA OKONKWO", "target": null, "mood": "tense", "intensity": 3, "summary": "Mum asks about a strange truck and Maya spots it at the dock"},
+{"start": 20, "type": "arrives", "fine": "arrives", "actor": "KORVAC", "target": "HALVORSEN", "mood": "suspense", "intensity": 3, "summary": "Korvac steps off an unmarked flatbed as Halvorsen nervously stammers"},
+{"start": 27, "type": "threatens", "fine": "intimidates", "actor": "KORVAC", "target": "HALVORSEN", "mood": "tense", "intensity": 4, "summary": "Korvac orders phones binned and the camera off; Mum warns Maya"},
+{"start": 33, "type": "attacks", "fine": "grabs", "actor": "KORVAC", "target": "HALVORSEN", "mood": "ominous", "intensity": 5, "summary": "Korvac knocks the camera down, revealing something sinister in the peaches crate"}
+],
+"s05042": [
+{"start": 1, "type": "works", "fine": "drives", "actor": "MO", "target": "JEN", "mood": "suspense", "intensity": 2, "summary": "Mo drives a courier with a ticking organ cooler toward the hospital"},
+{"start": 10, "type": "reveals", "fine": "breaks news to", "actor": "DR. NAIR", "target": "JEN", "mood": "tense", "intensity": 3, "summary": "Dr. Nair calls urging speed and mentions the original courier crashed"},
+{"start": 16, "type": "works", "fine": "drives", "actor": "MO", "target": null, "mood": "tense", "intensity": 3, "summary": "Mo runs a red light as the cooler timer ticks down"},
+{"start": 23, "type": "flees", "fine": "flees", "actor": "MO", "target": null, "mood": "tense", "intensity": 4, "summary": "Headlights close in; Mo floors it and Jen keeps the line open"}
+],
+"s05043_0": [
+{"start": 1, "type": "confronts", "fine": "challenges", "actor": "KIM HALLORAN", "target": null, "mood": "playful", "intensity": 3, "summary": "Kim rants that the sober cake is a loaf, drawing quips"},
+{"start": 6, "type": "accuses", "fine": "exposes", "actor": "KIM HALLORAN", "target": "KIP HALLORAN", "mood": "playful", "intensity": 3, "summary": "Kim catches Kip texting his ex and he lamely denies it"},
+{"start": 10, "type": "confesses", "fine": "breaks down to", "actor": "BIG TOMASZ", "target": null, "mood": "awkward", "intensity": 2, "summary": "Big Tomasz admits he came for donuts and is now crying"},
+{"start": 12, "type": "comforts", "fine": "calms", "actor": "MR. DELACROIX", "target": null, "mood": "playful", "intensity": 2, "summary": "Delacroix leads deep breaths while Sister Agnes passes donuts around"},
+{"start": 14, "type": "bonds", "fine": "reconnects with", "actor": "KIP HALLORAN", "target": "KIM HALLORAN", "mood": "playful", "intensity": 2, "summary": "Kip offers Kim a donut and they call a truce"}
+],
+"s05043_1": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": null, "target": null, "mood": "melancholy", "intensity": 1, "summary": "Later, the chairs are stacked and the banner finally falls"}
+],
+"s05044": [
+{"start": 1, "type": "works", "fine": "drives", "actor": "TOBIAS", "target": null, "mood": "ominous", "intensity": 2, "summary": "Tobias drives strange passengers down a road where time stands still"},
+{"start": 16, "type": "discovers", "fine": "notices", "actor": "PIP", "target": "TOBIAS", "mood": "suspense", "intensity": 3, "summary": "Ines and Pip notice they are looping; Hollis hints at acceptance"},
+{"start": 22, "type": "confronts", "fine": "presses", "actor": "INES", "target": "THE WOMAN", "mood": "ominous", "intensity": 3, "summary": "The box glows as Ines questions the silent hooded woman"},
+{"start": 30, "type": "discovers", "fine": "realizes", "actor": "TOBIAS", "target": null, "mood": "fear", "intensity": 4, "summary": "The brakes fail, rain falls upward, and Hollis speaks of a debt"},
+{"start": 37, "type": "accuses", "fine": "exposes", "actor": "MARA", "target": "HOLLIS", "mood": "chaotic", "intensity": 5, "summary": "Mara unhoods, accuses Hollis of stealing the key, and opens the blazing box"},
+{"start": 46, "type": "pleads", "fine": "begs forgiveness from", "actor": "HOLLIS", "target": "MARA", "mood": "fear", "intensity": 4, "summary": "Hollis surrenders the crescent key, begging Mara to free the others"},
+{"start": 49, "type": "leaves", "fine": "exits quietly", "actor": "MARA", "target": "TOBIAS", "mood": "bittersweet", "intensity": 3, "summary": "The car stops in a field, Hollis gone, and Mara walks away"}
+],
+"s05045": [
+{"start": 1, "type": "arrives", "fine": "arrives", "actor": "LUIS", "target": "RAY", "mood": "melancholy", "intensity": 2, "summary": "At Coach Frank's reception, Luis spots Ray and crosses to him"},
+{"start": 11, "type": "confronts", "fine": "faces off with", "actor": "LUIS", "target": "RAY", "mood": "tense", "intensity": 3, "summary": "Luis and Ray spar over Ray's right to be at the funeral"},
+{"start": 16, "type": "accuses", "fine": "accuses", "actor": "LUIS", "target": "RAY", "mood": "hostile", "intensity": 4, "summary": "Luis accuses Ray of throwing the championship game"},
+{"start": 19, "type": "confesses", "fine": "apologizes to", "actor": "RAY", "target": "LUIS", "mood": "bittersweet", "intensity": 4, "summary": "The room stops; Ray apologizes and Luis tells him to say it to Frank"},
+{"start": 25, "type": "confesses", "fine": "begs forgiveness from", "actor": "RAY", "target": null, "mood": "grief", "intensity": 4, "summary": "Ray steps into the projector beam beneath Frank's smiling image"}
+],
+"s05046_0": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "PRIYA", "target": null, "mood": "awkward", "intensity": 2, "summary": "A nervous new nurse fumbles at the station on her first night shift"},
+{"start": 7, "type": "works", "fine": "goes through routine", "actor": "CHARGE NURSE", "target": "PRIYA", "mood": "awkward", "intensity": 2, "summary": "The charge nurse sends her flustered to check Mr. Kessler"},
+{"start": 14, "type": "bonds", "fine": "shares a moment with", "actor": "KESSLER", "target": "PRIYA", "mood": "tender", "intensity": 3, "summary": "Kessler mistakes her, then praises her kind hands, moving her"},
+{"start": 20, "type": "comforts", "fine": "encourages", "actor": "KESSLER", "target": "PRIYA", "mood": "playful", "intensity": 2, "summary": "A forgotten-lunch page embarrasses Priya; Kessler says she won't quit"}
+],
+"s05046_1": [
+{"start": 1, "type": "decides", "fine": "commits", "actor": "PRIYA", "target": null, "mood": "hopeful", "intensity": 2, "summary": "Priya sits back down, calmer, no longer checking her phone"}
+],
+"s05047": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "ROSALIND", "target": "TOM", "mood": "melancholy", "intensity": 2, "summary": "In a blackout, Rosalind and Tom tiptoe around Dad's text"},
+{"start": 22, "type": "reveals", "fine": "breaks news to", "actor": "TOM", "target": "ROSALIND", "mood": "bittersweet", "intensity": 3, "summary": "Tom reveals Durham offered him a place; Rosalind's praise rings brittle"},
+{"start": 28, "type": "defends", "fine": "pushes back on", "actor": "TOM", "target": "ROSALIND", "mood": "tense", "intensity": 3, "summary": "Tom insists he hasn't decided; Rosalind says he already has"},
+{"start": 33, "type": "comforts", "fine": "reassures", "actor": "ROSALIND", "target": "TOM", "mood": "bittersweet", "intensity": 4, "summary": "Tom refuses to leave her; Rosalind takes his phone and insists he go"}
+],
+"s05048": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "JUNE", "target": "WESLEY", "mood": "playful", "intensity": 2, "summary": "June sets a no-screaming rule as the three bicker under blankets"},
+{"start": 6, "type": "jokes", "fine": "teases", "actor": "JUNE", "target": "WESLEY", "mood": "playful", "intensity": 2, "summary": "A buzzing phone makes Wesley shriek; they fake sleep for Mom"},
+{"start": 16, "type": "discovers", "fine": "realizes", "actor": "JUNE", "target": "MOM", "mood": "fear", "intensity": 3, "summary": "A door slams and Mom asks who just walked past her door"},
+{"start": 21, "type": "arrives", "fine": "makes an entrance", "actor": "AUNT LIN", "target": "JUNE", "mood": "fear", "intensity": 4, "summary": "A groaning figure in a shower curtain hobbles out of the closet"},
+{"start": 24, "type": "jokes", "fine": "pranks", "actor": "AUNT LIN", "target": "JUNE", "mood": "joyful", "intensity": 3, "summary": "Aunt Lin reveals her Halloween prank and the kids pummel her"}
+],
+"s05050": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "HANNAH", "target": null, "mood": "calm", "intensity": 2, "summary": "Hannah makes the blacked-out kitchen cozy while Desmond watches the street"},
+{"start": 12, "type": "comforts", "fine": "reassures", "actor": "BECK", "target": "HANNAH", "mood": "calm", "intensity": 2, "summary": "Beck blames a transformer while the twins bargain for marshmallows"},
+{"start": 18, "type": "pleads", "fine": "calls for", "actor": "DESMOND", "target": "HANNAH", "mood": "tense", "intensity": 3, "summary": "Desmond urgently summons Hannah to the window"},
+{"start": 21, "type": "discovers", "fine": "notices", "actor": "HANNAH", "target": null, "mood": "ominous", "intensity": 4, "summary": "Hannah sees wrong stars, one moving toward the house; her phone dies"},
+{"start": 32, "type": "discovers", "fine": "realizes", "actor": "BECK", "target": null, "mood": "fear", "intensity": 4, "summary": "Beck admits it's no transformer as the children grow frightened"},
+{"start": 36, "type": "reveals", "fine": "lets slip to", "actor": "ILYA", "target": "HANNAH", "mood": "ominous", "intensity": 5, "summary": "Ilya smiles at the window, revealing he expected the visitors"}
+],
+"s05051": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "NELL", "target": null, "mood": "ominous", "intensity": 2, "summary": "A battered bus rattles through rain as Nell grips a wrapped sword"},
+{"start": 14, "type": "flees", "fine": "flees", "actor": "NELL", "target": "BARROW", "mood": "tense", "intensity": 3, "summary": "The engine coughs and Nell insists they're ahead of their pursuers"},
+{"start": 21, "type": "discovers", "fine": "notices", "actor": "IRIS", "target": null, "mood": "fear", "intensity": 4, "summary": "The lights die and something lands thumping on the roof"},
+{"start": 32, "type": "decides", "fine": "commits", "actor": "BARROW", "target": "NELL", "mood": "tense", "intensity": 4, "summary": "Barrow abandons the wheel to fight as Nell draws her sword"},
+{"start": 35, "type": "attacks", "fine": "strikes", "actor": "HOODIE GUY", "target": null, "mood": "chaotic", "intensity": 5, "summary": "A claw rips the roof; Hoodie Guy rises and kills it with silver light"},
+{"start": 41, "type": "reveals", "fine": "reveals", "actor": "HOODIE GUY", "target": "IRIS", "mood": "suspense", "intensity": 3, "summary": "Hoodie Guy reveals himself as Cass, once their quarry"}
+]
+}

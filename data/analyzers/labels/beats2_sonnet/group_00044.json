@@ -1,0 +1,156 @@
+{
+"s00499": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"BARNABY","target":"GWEN","mood":"playful","intensity":2,"summary":"Barnaby, Diantha and Gwen hurry backstage as he fusses over a painted mantle."},
+{"start":16,"type":"comforts","fine":"reassures","actor":"BARNABY","target":"DIANTHA","mood":"playful","intensity":2,"summary":"Barnaby shrugs off Diantha's forgotten line while Gwen reviews cues."},
+{"start":25,"type":"flees","fine":"bolts","actor":"BARNABY","target":null,"mood":"chaotic","intensity":3,"summary":"The bell tolls and all three bolt through the curtain."}
+],
+"s02317": [
+{"start":1,"type":"works","fine":"prepares","actor":"WENDY","target":"BENNY","mood":"awkward","intensity":2,"summary":"Wendy briefs the reluctant family in the van on behavior at Grandma's."},
+{"start":15,"type":"persuades","fine":"negotiates with","actor":"WENDY","target":"ROBERT","mood":"playful","intensity":2,"summary":"Wendy extracts a no-politics, no-casserole-complaints pledge from Robert."},
+{"start":21,"type":"arrives","fine":"is introduced","actor":"WENDY","target":null,"mood":"awkward","intensity":2,"summary":"Grandma waves from the porch; the family bares smiles in unison."},
+{"start":26,"type":"leaves","fine":"leaves","actor":"MAYA","target":null,"mood":"tender","intensity":2,"summary":"The family files out into the rain, and Maya whispers love you guys."}
+],
+"s00597": [
+{"start":1,"type":"observes","fine":"waits","actor":"RAVENNA","target":"IMBOLC","mood":"ominous","intensity":2,"summary":"Wary guests sit before an untouched feast as the queen summons the seer."},
+{"start":10,"type":"reveals","fine":"breaks news to","actor":"IMBOLC","target":"RAVENNA","mood":"ominous","intensity":4,"summary":"Imbolc prophesies the king will not wake tonight, tension spiking around the table."},
+{"start":20,"type":"accuses","fine":"points the finger at","actor":"IMBOLC","target":"LARK","mood":"fear","intensity":5,"summary":"The seer names the one who pours; every head turns to pale Lark."}
+],
+"s02105": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ILARIA","target":"GASTON","mood":"calm","intensity":1,"summary":"Musicians and crew idle through rehearsal on the empty stage."},
+{"start":13,"type":"discovers","fine":"notices","actor":"GASTON","target":null,"mood":"fear","intensity":4,"summary":"The chandelier chain slips, and everyone scrambles for the wings as it hangs by a thread."},
+{"start":20,"type":"observes","fine":"takes it in","actor":"ADELHEID","target":null,"mood":"bittersweet","intensity":2,"summary":"In the stunned silence, Adelheid begins to laugh."}
+],
+"s02239": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"SORREL","target":null,"mood":"suspense","intensity":3,"summary":"Sorrel creeps along a ledge in the mirror vault, where reflections move late."},
+{"start":16,"type":"arrives","fine":"makes an entrance","actor":"BRIGID","target":"SORREL","mood":"ominous","intensity":4,"summary":"As Sorrel reaches for the crown, Brigid, her older self, steps from a mirror."},
+{"start":31,"type":"attacks","fine":"fights","actor":"BRIGID","target":"SORREL","mood":"chaotic","intensity":5,"summary":"They circle, lunge, and fight over a fallen knife until both freeze."},
+{"start":48,"type":"confesses","fine":"opens up to","actor":"BRIGID","target":"SORREL","mood":"melancholy","intensity":3,"summary":"Brigid explains the vault shows what you will become and warns Sorrel to leave."},
+{"start":63,"type":"decides","fine":"chooses","actor":"SORREL","target":"BRIGID","mood":"bittersweet","intensity":3,"summary":"Sorrel leaves the crown; Brigid thanks her and vanishes into a mirror."}
+],
+"s00306": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"OTIS","target":"LEO","mood":"calm","intensity":1,"summary":"Otis feeds balls to Leo, drilling her footwork at dawn."},
+{"start":18,"type":"bonds","fine":"shares a moment with","actor":"LEO","target":"OTIS","mood":"tender","intensity":2,"summary":"Leo and Coach Otis agree to meet at the same time tomorrow."}
+],
+"s01549": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"PIP","target":"IMOGEN","mood":"tense","intensity":2,"summary":"Detective Pip visits her former professor Imogen for tea in the reading room."},
+{"start":25,"type":"confronts","fine":"presses","actor":"PIP","target":"IMOGEN","mood":"suspense","intensity":3,"summary":"Pip catches Imogen knowing about the folio, which the newspaper never mentioned."},
+{"start":40,"type":"discovers","fine":"notices","actor":"PIP","target":"IMOGEN","mood":"tense","intensity":3,"summary":"Pip notices a gap on the shelf and probes Imogen about borrowed books."},
+{"start":49,"type":"accuses","fine":"implicates","actor":"PIP","target":"IMOGEN","mood":"ominous","intensity":4,"summary":"Pip cites Fenwick's letter about a colleague selling folio pages."},
+{"start":66,"type":"reveals","fine":"presents evidence to","actor":"PIP","target":"IMOGEN","mood":"melancholy","intensity":4,"summary":"Pip produces the torn page found in his hand and Imogen softens."}
+],
+"s00353": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MAGDA","target":null,"mood":"calm","intensity":1,"summary":"A funeral parlor speakeasy hums with bootleggers, bartender and a jazz trio."},
+{"start":8,"type":"arrives","fine":"makes an entrance","actor":"WHITCOMB","target":"FOSTER","mood":"ominous","intensity":3,"summary":"Funeral director Whitcomb arrives and demands his casket stands back."},
+{"start":17,"type":"observes","fine":"takes it in","actor":"LENNY","target":null,"mood":"tense","intensity":3,"summary":"Lenny wakes, Odette stops singing, and the pianist hits a wrong note."}
+],
+"s00547": [
+{"start":1,"type":"searches","fine":"questions witnesses","actor":"STROM","target":"ROUX","mood":"suspense","intensity":2,"summary":"Inspector Strom walks the sleeper corridor and asks Madame Roux about a disturbance."},
+{"start":25,"type":"searches","fine":"investigates","actor":"STROM","target":"PRYCE","mood":"suspense","intensity":3,"summary":"Dr. Pryce says she tended a fainting porter; Strom glimpses him on the berth."},
+{"start":45,"type":"confronts","fine":"challenges","actor":"STROM","target":"PRYCE","mood":"tense","intensity":4,"summary":"Strom notes her ticket was bought in Vienna but she boarded in Prague."},
+{"start":55,"type":"discovers","fine":"realizes","actor":"STROM","target":"PRYCE","mood":"ominous","intensity":5,"summary":"Strom steps in and notes Giles is not breathing; Pryce admits she knows."},
+{"start":67,"type":"hides","fine":"covers up","actor":"PRYCE","target":null,"mood":"ominous","intensity":3,"summary":"Pryce closes the door as Madame Roux's eye watches from the corridor."}
+],
+"s02357": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"WELLS","target":"CALISTA","mood":"melancholy","intensity":2,"summary":"Sheriff Wells, bounty hunter Calista, and prisoner Griggs wait at a dry ferry landing."},
+{"start":24,"type":"reveals","fine":"breaks news to","actor":"DISPATCH","target":"WELLS","mood":"tense","intensity":3,"summary":"Dispatch orders Wells over radio to bring Griggs in alive."},
+{"start":36,"type":"threatens","fine":"menaces","actor":"WELLS","target":"GRIGGS","mood":"hostile","intensity":4,"summary":"Wells draws his revolver on Griggs, and Calista stops his hand."},
+{"start":45,"type":"decides","fine":"makes a plan","actor":"WELLS","target":"CALISTA","mood":"bittersweet","intensity":2,"summary":"Wells decides to wait until dawn; he and Calista sit on the dock."}
+],
+"s00144_0": [
+{"start":1,"type":"searches","fine":"looks for","actor":"ANGELIKA","target":null,"mood":"suspense","intensity":3,"summary":"Three thieves creep through a cheese cave searching for wheel forty."},
+{"start":22,"type":"discovers","fine":"uncovers","actor":"ANGELIKA","target":null,"mood":"playful","intensity":3,"summary":"Angelika finds the hollow wheel, and Didi cracks it to reveal a steel box."},
+{"start":37,"type":"flees","fine":"scrambles away","actor":"DIDI","target":"BERGMANN","mood":"chaotic","intensity":5,"summary":"The watchwoman's flashlight arrives; Didi bolts, toppling cheese wheels in an avalanche."}
+],
+"s01798": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"DEBORAH","target":"TEODORA","mood":"awkward","intensity":2,"summary":"Coworkers gather awkwardly around a cake for Teodora's retirement."},
+{"start":16,"type":"reveals","fine":"lets slip to","actor":"TEODORA","target":"SHANTI","mood":"melancholy","intensity":2,"summary":"Teodora reveals thirty-one years of service unnoticed, sitting by the copier."},
+{"start":26,"type":"jokes","fine":"banters with","actor":"KURT","target":"DEBORAH","mood":"chaotic","intensity":2,"summary":"Everyone scrambles uselessly for a plate until Teodora produces her own."},
+{"start":32,"type":"bonds","fine":"thanks","actor":"SHANTI","target":"TEODORA","mood":"bittersweet","intensity":3,"summary":"They sing raggedly, and Shanti thanks Teodora without knowing why."}
+],
+"s02140": [
+{"start":1,"type":"works","fine":"prepares","actor":"DANI","target":null,"mood":"melancholy","intensity":2,"summary":"Dani laces skates alone in the closed roller rink for a last lap."},
+{"start":15,"type":"arrives","fine":"makes an entrance","actor":"KALLIS","target":"DANI","mood":"tender","intensity":2,"summary":"Mr. Kallis appears and says her mother called, worried she is always here."},
+{"start":30,"type":"pleads","fine":"asks for help from","actor":"DANI","target":"KALLIS","mood":"melancholy","intensity":3,"summary":"Dani asks whether it matters that she's leaving; Kallis says a rink is where you leave from."},
+{"start":49,"type":"confesses","fine":"breaks down to","actor":"DANI","target":"KALLIS","mood":"bittersweet","intensity":4,"summary":"Dani laughs about her father then admits she doesn't want to go."},
+{"start":62,"type":"comforts","fine":"encourages","actor":"KALLIS","target":"DANI","mood":"tender","intensity":4,"summary":"Kallis plays a slow song and dims the lights as Dani skates."},
+{"start":83,"type":"leaves","fine":"leaves","actor":"DANI","target":"KALLIS","mood":"bittersweet","intensity":4,"summary":"Dani circles Kallis, says goodbye, and skates out into the night."}
+],
+"s01542": [
+{"start":1,"type":"searches","fine":"examines","actor":"FLORIAN","target":null,"mood":"ominous","intensity":2,"summary":"Isabella and Florian inspect a dead barge that still holds pressure."},
+{"start":15,"type":"reveals","fine":"lets slip to","actor":"VOICE","target":"ISABELLA","mood":"ominous","intensity":4,"summary":"A voice on the intercom welcomes them, and the floor hatch springs open."},
+{"start":25,"type":"arrives","fine":"makes an entrance","actor":"DOLLY","target":"ISABELLA","mood":"playful","intensity":3,"summary":"Dolly climbs from the hatch and scolds them as squatters and the barge as creepy."},
+{"start":45,"type":"bonds","fine":"teams up with","actor":"DOLLY","target":"ISABELLA","mood":"calm","intensity":2,"summary":"Reassured, they lower their guard and follow Dolly down for tea."}
+],
+"s02338": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"TRACKSUIT MAN","target":"FENELLA","mood":"awkward","intensity":2,"summary":"A sunglassed man in a tracksuit arrives at the pet cemetery shop wanting to bury a hamster."},
+{"start":10,"type":"deflects","fine":"plays dumb with","actor":"FENELLA","target":"TRACKSUIT MAN","mood":"ominous","intensity":3,"summary":"Fenella and Toby probe his business decision and haggle over plot and marker."},
+{"start":26,"type":"hides","fine":"keeps a secret","actor":"FENELLA","target":"PRUITT","mood":"suspense","intensity":3,"summary":"Pruitt calls to say it's the third hamster this week; Fenella whispers to Toby."},
+{"start":49,"type":"reveals","fine":"shows","actor":"TRACKSUIT MAN","target":"FENELLA","mood":"fear","intensity":4,"summary":"He opens the shoebox, revealing no hamster, and Fenella has Toby lock the door."},
+{"start":61,"type":"lies","fine":"covers a story for","actor":"FENELLA","target":"PRUITT","mood":"tense","intensity":3,"summary":"Fenella brightly tells Pruitt all is fine while Toby offers the man a candle."},
+{"start":69,"type":"hides","fine":"conceals something","actor":"FENELLA","target":null,"mood":"ominous","intensity":3,"summary":"Fenella counts the cash with trembling fingers and locks the box in a drawer."}
+],
+"s01721_1": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"HOLLIS","target":null,"mood":"tense","intensity":2,"summary":"Stranded passengers share a thermos in a dead cable car; Hollis glances at the roof."},
+{"start":14,"type":"observes","fine":"studies","actor":"DARA","target":"HOLLIS","mood":"suspense","intensity":2,"summary":"Dara notices Hollis keeps looking up, then the radio crackles."},
+{"start":23,"type":"reveals","fine":"breaks news to","actor":"RUFUS","target":"HOLLIS","mood":"fear","intensity":4,"summary":"Rufus warns over radio not to open the hatch and to count the weight."},
+{"start":29,"type":"discovers","fine":"pieces it together","actor":"HOLLIS","target":null,"mood":"fear","intensity":5,"summary":"The car dips, something taps the hatch politely, then taps again beneath the floor."}
+],
+"s00285": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"MARGUERITE","target":null,"mood":"ominous","intensity":2,"summary":"Six people crowd a projection booth in the rain around a dead projectionist."},
+{"start":14,"type":"confronts","fine":"calls out","actor":"HOLCOMB","target":null,"mood":"chaotic","intensity":3,"summary":"Marguerite declares Paddy dead; panic rises as dragging sounds ascend the stairs."},
+{"start":36,"type":"reveals","fine":"lets slip to","actor":"MRS. ABERNATHY","target":null,"mood":"fear","intensity":4,"summary":"Mrs. Abernathy says it always wants the projector, and the scraping stops at the door."},
+{"start":43,"type":"discovers","fine":"notices","actor":"HOLCOMB","target":null,"mood":"fear","intensity":4,"summary":"Soft knocks, the handle turns, and wet footprints lead to Paddy's body."},
+{"start":58,"type":"reveals","fine":"unmasks","actor":"PADDY","target":"HOLCOMB","mood":"ominous","intensity":5,"summary":"Paddy's eyes open and he says roll it; the projectors start and show a giant Holcomb."}
+],
+"s00928": [
+{"start":1,"type":"works","fine":"works","actor":"SPARROW","target":null,"mood":"calm","intensity":2,"summary":"Sparrow drills into the vault grate inside the clock tower on a strict timer."},
+{"start":11,"type":"arrives","fine":"makes an entrance","actor":"PATSY","target":"SPARROW","mood":"playful","intensity":3,"summary":"Patsy appears unhurried, says the bank was dull, and flatters Sparrow."},
+{"start":23,"type":"discovers","fine":"notices","actor":"SPARROW","target":"PATSY","mood":"chaotic","intensity":4,"summary":"The clock chimes midnight unexpectedly, and a light and boots appear in the vault."},
+{"start":31,"type":"lies","fine":"fakes it with","actor":"SPARROW","target":"PATSY","mood":"playful","intensity":4,"summary":"Sparrow claims it's the watchman; Patsy sees through it, draws her revolver, and they run."}
+],
+"s01325": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"SOLVEIG","target":"KWAME","mood":"tense","intensity":2,"summary":"In a sauna, Solveig weighs Kwame, who is four-tenths over the limit."},
+{"start":13,"type":"bonds","fine":"confides in","actor":"KWAME","target":"SOLVEIG","mood":"awkward","intensity":2,"summary":"They bicker over minutes, bananas and fear while sweating off the weight."},
+{"start":37,"type":"observes","fine":"waits","actor":"KWAME","target":"SOLVEIG","mood":"tense","intensity":2,"summary":"He pulls the towel lower and she sets the scale between them as steam rolls."}
+],
+"s01332": [
+{"start":1,"type":"works","fine":"cooks","actor":"WRÓBEL","target":"PRYCE","mood":"calm","intensity":2,"summary":"Soldiers prepare mess in a ruined opera house while distant guns thud."},
+{"start":18,"type":"jokes","fine":"banters with","actor":"SUNDARAM","target":"DE VRIES","mood":"playful","intensity":2,"summary":"Doc shares tinned peaches with the men while the sergeant pretends not to notice."},
+{"start":26,"type":"bonds","fine":"reminisces with","actor":"BEAUMONT","target":"WRÓBEL","mood":"tender","intensity":2,"summary":"Beaumont asks about the piano and Wróbel jokes about playing badly in Kraków."},
+{"start":35,"type":"observes","fine":"takes it in","actor":"DE VRIES","target":null,"mood":"melancholy","intensity":3,"summary":"A shell lands near and de Vries steadies the men."},
+{"start":39,"type":"works","fine":"goes through routine","actor":"WRÓBEL","target":"PRYCE","mood":"bittersweet","intensity":3,"summary":"The men line up for soup in the sun, and Pryce asks what comes after."}
+],
+"s02488": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"IXARA","target":"BRUM","mood":"calm","intensity":1,"summary":"Ferrywoman Ixara poles Brum across a river of ash."},
+{"start":5,"type":"persuades","fine":"bargains with","actor":"BRUM","target":"IXARA","mood":"ominous","intensity":3,"summary":"Brum offers Ixara's own name as his fare."},
+{"start":15,"type":"threatens","fine":"menaces","actor":"BRUM","target":"IXARA","mood":"fear","intensity":4,"summary":"Brum says he knows her old-tongue name, and insists he will speak it despite her pleas."}
+],
+"s02001": [
+{"start":1,"type":"observes","fine":"waits","actor":"ELSPETH","target":"GUS","mood":"melancholy","intensity":2,"summary":"Three soldiers listen to hours of radio static in a chalk tunnel."},
+{"start":21,"type":"reveals","fine":"breaks news to","actor":"COMMANDER","target":"ELSPETH","mood":"tense","intensity":4,"summary":"Tower radios orders to vacate the ridge by 0400 and blow the tunnel mouth."},
+{"start":43,"type":"decides","fine":"gives an order","actor":"ELSPETH","target":"GUS","mood":"tense","intensity":3,"summary":"Elspeth orders the set packed and codebooks burned."},
+{"start":51,"type":"bonds","fine":"thanks","actor":"BASTIAN","target":"ELSPETH","mood":"bittersweet","intensity":3,"summary":"Bastian gives Elspeth his letter to post, and they exit into the dark."}
+],
+"s00195": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"NEHA","target":"GERALD","mood":"awkward","intensity":2,"summary":"New hire Neha meets gruff mailroom supervisor Gerald and his alive copier."},
+{"start":13,"type":"persuades","fine":"pitches to","actor":"DON","target":"GERALD","mood":"awkward","intensity":3,"summary":"Don announces absurd quarterly efficiency changes, and Gerald objects."},
+{"start":26,"type":"accuses","fine":"blames","actor":"GERALD","target":"DON","mood":"hostile","intensity":3,"summary":"Gerald blames Don for late bonus checks; Don deflects with tasks."},
+{"start":30,"type":"confronts","fine":"calls out","actor":"NEHA","target":"DON","mood":"tense","intensity":3,"summary":"Neha asks why they pretend this makes sense, and Don's smile holds too long."}
+],
+"s01350": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"ASTRID","target":"MATEUSZ","mood":"tense","intensity":3,"summary":"Astrid and Mateusz play a fierce rooftop fives match at eleven all."},
+{"start":16,"type":"attacks","fine":"fights","actor":"ASTRID","target":"MATEUSZ","mood":"suspense","intensity":4,"summary":"A long ferocious rally ends with Astrid winning the set."},
+{"start":27,"type":"comforts","fine":"steadies","actor":"ASTRID","target":"MATEUSZ","mood":"bittersweet","intensity":2,"summary":"Astrid helps the panting Mateusz up as the barge horn sounds."}
+],
+"s02126": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"NELL","target":null,"mood":"suspense","intensity":2,"summary":"Inspector Nell enters the defunct bowling office at night with an evidence bag."},
+{"start":10,"type":"searches","fine":"investigates","actor":"NELL","target":"NELL","mood":"tense","intensity":3,"summary":"Nell plays her earlier tape and answers it, questioning the missing night man."},
+{"start":22,"type":"decides","fine":"commits","actor":"NELL","target":null,"mood":"ominous","intensity":2,"summary":"She rewinds, writes night man on her palm, and leaves."}
+],
+"s00858": [
+{"start":1,"type":"searches","fine":"examines","actor":"PHILIPPA","target":null,"mood":"suspense","intensity":2,"summary":"Detective Philippa examines the unforced lock on the heron's case as suspects watch."},
+{"start":9,"type":"confronts","fine":"interrogates","actor":"PHILIPPA","target":"LUDO","mood":"tense","intensity":3,"summary":"Only three keys exist; Ludo proves his, while others fidget nervously."},
+{"start":19,"type":"reveals","fine":"presents evidence to","actor":"PHILIPPA","target":"MONTAGUE","mood":"suspense","intensity":4,"summary":"Philippa shows an ibis feather, proving the specimen was swapped for something valuable."},
+{"start":24,"type":"discovers","fine":"realizes","actor":"LUDO","target":null,"mood":"ominous","intensity":4,"summary":"Ludo quietly says the case was never empty, and everyone turns to him."}
+]
+}

@@ -1,0 +1,161 @@
+{
+"s00593": [
+{"start": 1, "type": "hides", "fine": "conceals something", "actor": "PORTIA", "target": "ARCHIE", "mood": "playful", "intensity": 3, "summary": "Lupe spots Mrs. Baptiste and the friends bury the stolen trophy in nachos"},
+{"start": 21, "type": "observes", "fine": "waits", "actor": null, "target": null, "mood": "suspense", "intensity": 3, "summary": "The four freeze as an adult passes, then exhale and tease Archie"},
+{"start": 32, "type": "hides", "fine": "conceals something", "actor": "ARCHIE", "target": null, "mood": "suspense", "intensity": 4, "summary": "The shape turns back and Archie frantically stuffs the trophy into his hood"},
+{"start": 38, "type": "bonds", "fine": "shares a moment with", "actor": "PORTIA", "target": null, "mood": "joyful", "intensity": 3, "summary": "With the danger gone, the friends dissolve into helpless laughter"}
+],
+"s01231": [
+{"start": 1, "type": "arrives", "fine": "returns", "actor": "EVELINE", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Eveline enters the shuttered parlour and takes in the sheets and stopped clock"},
+{"start": 16, "type": "discovers", "fine": "discovers", "actor": "EVELINE", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Eveline uncovers a phonograph cylinder addressed to her and winds it up"},
+{"start": 22, "type": "observes", "fine": "listens to", "actor": "EVELINE", "target": null, "mood": "bittersweet", "intensity": 4, "summary": "Her younger self vows never to leave the house; Eveline whispers liar"},
+{"start": 33, "type": "observes", "fine": "takes it in", "actor": "EVELINE", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Eveline silences the recording and sits in the dusty light without weeping"},
+{"start": 38, "type": "decides", "fine": "decides", "actor": "EVELINE", "target": null, "mood": "bittersweet", "intensity": 2, "summary": "She restarts the stopped clock, letting time move again"}
+],
+"s01998": [
+{"start": 1, "type": "confronts", "fine": "faces off with", "actor": "ODALYS", "target": "MALCOLM", "mood": "tense", "intensity": 3, "summary": "Defense and prosecution talk over each other arguing Seraphina's sentence"},
+{"start": 20, "type": "confronts", "fine": "presses", "actor": "ABERNATHY", "target": "SERAPHINA", "mood": "tense", "intensity": 2, "summary": "The judge quiets counsel and gently presses Seraphina to speak"},
+{"start": 28, "type": "confesses", "fine": "opens up to", "actor": "SERAPHINA", "target": "ABERNATHY", "mood": "melancholy", "intensity": 3, "summary": "Seraphina admits she took the money while her mother was ill"},
+{"start": 33, "type": "decides", "fine": "changes course", "actor": "ODALYS", "target": "ABERNATHY", "mood": "bittersweet", "intensity": 3, "summary": "Moved, Odalys withdraws the State's recommendation for the maximum"},
+{"start": 43, "type": "decides", "fine": "decides", "actor": "ABERNATHY", "target": null, "mood": "calm", "intensity": 2, "summary": "The judge takes the matter under advisement and adjourns as Seraphina lingers"}
+],
+"s00352": [
+{"start": 1, "type": "persuades", "fine": "persuades", "actor": "HENRY", "target": "ROSE", "mood": "tense", "intensity": 3, "summary": "Henry pushes the family to accept the offer while Danny resists"},
+{"start": 22, "type": "confronts", "fine": "challenges", "actor": "ROSE", "target": "HENRY", "mood": "hostile", "intensity": 4, "summary": "Rose challenges Henry to repeat to her face that Dad is dead"},
+{"start": 34, "type": "defends", "fine": "pushes back on", "actor": "DANNY", "target": "HENRY", "mood": "chaotic", "intensity": 3, "summary": "Screwdrivers spill everywhere and the brothers snap while Danny gathers them"},
+{"start": 45, "type": "reveals", "fine": "reveals", "actor": "ROSE", "target": "HENRY", "mood": "tender", "intensity": 3, "summary": "Rose reveals Dad's cigar box of forty years of forgiven customer debts"},
+{"start": 53, "type": "discovers", "fine": "realizes", "actor": "HENRY", "target": "FRITZ", "mood": "bittersweet", "intensity": 3, "summary": "Henry sits among the screwdrivers as Fritz admits writing half the cards"},
+{"start": 57, "type": "decides", "fine": "decides", "actor": "DANNY", "target": "HENRY", "mood": "hopeful", "intensity": 4, "summary": "Danny refuses to sell and Henry commits the family to running the store"}
+],
+"s01517": [
+{"start": 1, "type": "confronts", "fine": "interrogates", "actor": "GWENDOLEN", "target": "ABEBE", "mood": "awkward", "intensity": 2, "summary": "Gwendolen grills Abebe about the moldy registers before the inspector's visit"},
+{"start": 19, "type": "confronts", "fine": "interrogates", "actor": "GWENDOLEN", "target": "FATIMA", "mood": "melancholy", "intensity": 3, "summary": "Fatima reports only eleven pupils remain; the rest left for the city"},
+{"start": 30, "type": "arrives", "fine": "shows up unannounced", "actor": "BOY", "target": "GWENDOLEN", "mood": "hopeful", "intensity": 3, "summary": "A small boy knocks asking for school and Gwendolen welcomes the twelfth"}
+],
+"s01832": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": null, "target": null, "mood": "tense", "intensity": 2, "summary": "Six strangers sit to a silent, uneasy meal at Ma Tulliver's way station"},
+{"start": 13, "type": "jokes", "fine": "banters with", "actor": "ORVILLE", "target": "OSCAR", "mood": "awkward", "intensity": 2, "summary": "Orville attempts small talk and Sabina learns she missed the stage"},
+{"start": 23, "type": "confronts", "fine": "presses", "actor": "OSCAR", "target": "JUDE", "mood": "tense", "intensity": 3, "summary": "Sabina and Oscar needle the silent stranger until Oscar shoves his bowl away"},
+{"start": 31, "type": "threatens", "fine": "looms over", "actor": "MA TULLIVER", "target": "JUDE", "mood": "suspense", "intensity": 4, "summary": "Ma Tulliver circles behind Jude's chair as the room braces"},
+{"start": 42, "type": "reveals", "fine": "shows", "actor": "JUDE", "target": "MA TULLIVER", "mood": "suspense", "intensity": 4, "summary": "Jude reaches into his duster and produces a letter from his father"}
+],
+"s01286": [
+{"start": 1, "type": "confronts", "fine": "calls out", "actor": "PRIYANKA", "target": "GERALD", "mood": "playful", "intensity": 2, "summary": "Priyanka scolds the late birthday clown and drags out his real name, Gerald"},
+{"start": 21, "type": "threatens", "fine": "warns", "actor": "DOLORES", "target": "GERALD", "mood": "suspense", "intensity": 2, "summary": "Dolores warns Gerald that the staring goat hates clowns"},
+{"start": 24, "type": "flees", "fine": "bolts", "actor": "GERALD", "target": null, "mood": "chaotic", "intensity": 4, "summary": "The goat charges and Gerald flees across the yard with everyone chasing"},
+{"start": 37, "type": "jokes", "fine": "amuses", "actor": "GERALD", "target": "TEDDY", "mood": "joyful", "intensity": 3, "summary": "Gerald lands in the pen, the goat eats his wig, Teddy cheers"}
+],
+"s02254": [
+{"start": 1, "type": "comforts", "fine": "reassures", "actor": "FELIX", "target": "NOOR", "mood": "calm", "intensity": 2, "summary": "Felix tells hesitant Noor she does not have to dive the platform"},
+{"start": 11, "type": "observes", "fine": "hesitates", "actor": "NOOR", "target": null, "mood": "tense", "intensity": 2, "summary": "Noor falters on the ladder as Felix invokes his father's dive"},
+{"start": 17, "type": "comforts", "fine": "encourages", "actor": "FELIX", "target": "NOOR", "mood": "tender", "intensity": 3, "summary": "Felix kneels at the pool edge and promises to be right there"},
+{"start": 23, "type": "decides", "fine": "commits", "actor": "NOOR", "target": null, "mood": "tense", "intensity": 3, "summary": "Noor climbs to the top and stands trembling at the edge"},
+{"start": 28, "type": "jokes", "fine": "banters with", "actor": "NOOR", "target": "FELIX", "mood": "joyful", "intensity": 3, "summary": "Noor makes Felix cover his eyes, laughs, and finally steps off"}
+],
+"s00554": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "ODILE", "target": null, "mood": "suspense", "intensity": 2, "summary": "Odile chisels the old chute wall while Marcellus times the delivery truck"},
+{"start": 17, "type": "discovers", "fine": "uncovers", "actor": "ODILE", "target": "TOBIAS", "mood": "suspense", "intensity": 3, "summary": "The brick falls and Tobias learns the tunnel leads to a bank vault"},
+{"start": 32, "type": "persuades", "fine": "convinces", "actor": "ODILE", "target": "TOBIAS", "mood": "tense", "intensity": 3, "summary": "Odile hushes Tobias and wins his trust to hold the lantern"},
+{"start": 48, "type": "works", "fine": "works", "actor": "ODILE", "target": null, "mood": "suspense", "intensity": 4, "summary": "Odile crawls into the dark while Marcellus explains she listens to the lock"},
+{"start": 61, "type": "bonds", "fine": "shares a moment with", "actor": "MARCELLUS", "target": "TOBIAS", "mood": "triumphant", "intensity": 4, "summary": "The vault clicks open; Tobias laughs and Marcellus says they bake"}
+],
+"s00660": [
+{"start": 1, "type": "persuades", "fine": "pitches to", "actor": "MAGS", "target": null, "mood": "awkward", "intensity": 2, "summary": "Mags opens her mine-bottom summit to a cold, complaining team"},
+{"start": 27, "type": "confronts", "fine": "interrogates", "actor": "FERDIE", "target": "STRANGER", "mood": "suspense", "intensity": 3, "summary": "The silent stranger speaks up and cryptically says he is observing everything"},
+{"start": 36, "type": "discovers", "fine": "pieces it together", "actor": "TYBALT", "target": "MAGS", "mood": "ominous", "intensity": 3, "summary": "Tybalt reveals the company was bought last Thursday; nobody read the email"},
+{"start": 53, "type": "reveals", "fine": "unmasks", "actor": "RAYMOND", "target": "MAGS", "mood": "tense", "intensity": 4, "summary": "The stranger reveals himself as Raymond from Acquisitions and skewers Mags's chart"},
+{"start": 63, "type": "decides", "fine": "resigns", "actor": "MAGS", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "Mags gives up and sits as colleagues quietly console each other"},
+{"start": 68, "type": "jokes", "fine": "lightens the mood for", "actor": "RAYMOND", "target": null, "mood": "awkward", "intensity": 2, "summary": "Raymond offers sandwiches and only Tybalt raises his hand"}
+],
+"s00853": [
+{"start": 1, "type": "accuses", "fine": "accuses", "actor": "ELSPETH", "target": "ABERNATHY", "mood": "playful", "intensity": 2, "summary": "Elspeth accuses Abernathy of breaking her window with a bowling ball"},
+{"start": 17, "type": "jokes", "fine": "lightens the mood for", "actor": "FAIRCLOTH", "target": null, "mood": "playful", "intensity": 2, "summary": "Faircloth laments the makeshift court and his gavel rolls away"}
+],
+"s00237": [
+{"start": 1, "type": "pleads", "fine": "calls for", "actor": "MAEVE", "target": "COAST GUARD", "mood": "fear", "intensity": 4, "summary": "Maeve sends a mayday from the flooding wheelhouse as Ruth fights the wheel"},
+{"start": 16, "type": "decides", "fine": "gives an order", "actor": "RUTH", "target": "MAEVE", "mood": "tense", "intensity": 4, "summary": "Ruth seizes the mic and announces they will abandon ship"},
+{"start": 27, "type": "searches", "fine": "looks for", "actor": "MAEVE", "target": null, "mood": "chaotic", "intensity": 5, "summary": "The pump dies and Maeve dives into the flooded corner for the flare"},
+{"start": 40, "type": "flees", "fine": "escapes", "actor": "RUTH", "target": null, "mood": "hopeful", "intensity": 4, "summary": "They burst topside, fire the flare, and a searchlight finds them"}
+],
+"s02203": [
+{"start": 1, "type": "accuses", "fine": "suspects", "actor": "ELSPETH", "target": null, "mood": "tense", "intensity": 3, "summary": "Elspeth convenes the cell, warning someone is about to leak"},
+{"start": 22, "type": "searches", "fine": "investigates", "actor": "CECILIA", "target": "ELSPETH", "mood": "awkward", "intensity": 2, "summary": "Cecilia asks why they meet in an open-roofed observatory"},
+{"start": 32, "type": "searches", "fine": "examines", "actor": "ELSPETH", "target": "LACHLAN", "mood": "tense", "intensity": 3, "summary": "Elspeth checks everyone's devices; Cecilia admits she left hers home"},
+{"start": 46, "type": "decides", "fine": "makes a plan", "actor": "ELSPETH", "target": null, "mood": "suspense", "intensity": 3, "summary": "Elspeth explains they will feed false information to flush out the leak"},
+{"start": 60, "type": "decides", "fine": "gives an order", "actor": "ELSPETH", "target": "OKSANA", "mood": "tense", "intensity": 3, "summary": "Elspeth assigns three false stories, with a special one for Hamza"},
+{"start": 76, "type": "decides", "fine": "refuses", "actor": "ELSPETH", "target": "CECILIA", "mood": "awkward", "intensity": 2, "summary": "Elspeth forbids leaving before dawn and sends Cecilia off with Oksana"},
+{"start": 88, "type": "bonds", "fine": "confides in", "actor": "HAMZA", "target": "ELSPETH", "mood": "suspense", "intensity": 3, "summary": "Hamza asks if Oksana suspects; Elspeth trusts her paranoia"}
+],
+"s00171": [
+{"start": 1, "type": "arrives", "fine": "returns", "actor": "NACHO", "target": "BERNADETTE", "mood": "tense", "intensity": 3, "summary": "Nacho arrives soaked after years and sets a ring before silent Bernadette"},
+{"start": 15, "type": "accuses", "fine": "blames", "actor": "BERNADETTE", "target": "NACHO", "mood": "hostile", "intensity": 4, "summary": "Bernadette chides Nacho for his eleven-year absence and their father's death"},
+{"start": 22, "type": "accuses", "fine": "accuses", "actor": "NACHO", "target": "BERNADETTE", "mood": "hostile", "intensity": 4, "summary": "Nacho says Dad asked for him and accuses Bernie of keeping him out"},
+{"start": 27, "type": "attacks", "fine": "attacks", "actor": "BERNADETTE", "target": "NACHO", "mood": "hostile", "intensity": 5, "summary": "Bernadette sweeps the shirts away, Nacho kicks the duffel, the ring vanishes"}
+],
+"s00184_0": [
+{"start": 1, "type": "persuades", "fine": "convinces", "actor": "RUTH", "target": "JUSTICE DIALLO-FERNANDEZ", "mood": "tense", "intensity": 3, "summary": "Ruth closes her argument about the excluded recording to a skeptical Justice"},
+{"start": 18, "type": "reveals", "fine": "breaks news to", "actor": "JUSTICE DIALLO-FERNANDEZ", "target": "RUTH", "mood": "hopeful", "intensity": 4, "summary": "A bailiff's note leads the Justice to announce the conviction will be vacated"},
+{"start": 25, "type": "discovers", "fine": "realizes", "actor": "RUTH", "target": null, "mood": "bittersweet", "intensity": 3, "summary": "A phone call confirms the real priest appeared and Ruth exhales"},
+{"start": 37, "type": "bonds", "fine": "thanks", "actor": "RUTH", "target": "JUSTICE DIALLO-FERNANDEZ", "mood": "triumphant", "intensity": 2, "summary": "Ruth thanks the Justice, trades dry remarks, and walks out unsteadily"}
+],
+"s01191": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "TEODORA", "target": null, "mood": "ominous", "intensity": 2, "summary": "Teodora and Desmond enter the eerie carousel workshop bantering about its character"},
+{"start": 11, "type": "discovers", "fine": "notices", "actor": "TEODORA", "target": "OLD HARLAN", "mood": "suspense", "intensity": 3, "summary": "Teodora greets Old Harlan, who keeps painting as Desmond stumbles"},
+{"start": 23, "type": "reveals", "fine": "unmasks", "actor": "OLD HARLAN", "target": "TEODORA", "mood": "fear", "intensity": 5, "summary": "Harlan turns, revealing a carved hinged face, as the horses begin to turn"}
+],
+"s01986": [
+{"start": 1, "type": "accuses", "fine": "exposes", "actor": "LEONIE", "target": "NATE", "mood": "tense", "intensity": 3, "summary": "Leonie shows the 1982 bottles carry 2014 corks and declares fraud"},
+{"start": 19, "type": "accuses", "fine": "turns on", "actor": "NATE", "target": "MAXIMILIAN", "mood": "hostile", "intensity": 3, "summary": "Nate turns on Maximilian, who insists he sold excellent wine"},
+{"start": 28, "type": "accuses", "fine": "implicates", "actor": "LEONIE", "target": "DOROTHEA", "mood": "tense", "intensity": 4, "summary": "Leonie implicates Dorothea's signature; blame bounces until Dorothea snaps"},
+{"start": 37, "type": "discovers", "fine": "notices", "actor": "LEONIE", "target": null, "mood": "suspense", "intensity": 3, "summary": "A creak upstairs prompts Leonie to search the stairs with her flashlight"},
+{"start": 52, "type": "decides", "fine": "gives an order", "actor": "LEONIE", "target": "MAXIMILIAN", "mood": "suspense", "intensity": 4, "summary": "Leonie demands everyone's phones as noises sound from above"},
+{"start": 65, "type": "arrives", "fine": "drifts in", "actor": null, "target": null, "mood": "fear", "intensity": 5, "summary": "Her flashlight dies and heavy footsteps descend in the dark"}
+],
+"s02260": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "KALINDA", "target": null, "mood": "calm", "intensity": 2, "summary": "Kalinda stretches on the frosty track and plays her day 107 log"},
+{"start": 12, "type": "works", "fine": "goes through routine", "actor": "KALINDA", "target": null, "mood": "bittersweet", "intensity": 2, "summary": "Jogging, she hears older logs of struggle and her mother's teasing"},
+{"start": 22, "type": "decides", "fine": "commits", "actor": "KALINDA", "target": null, "mood": "hopeful", "intensity": 4, "summary": "Her day-one memo urges her to run freely; she strides into dawn"}
+],
+"s01450": [
+{"start": 1, "type": "works", "fine": "works", "actor": "ORSOLYA", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Orsolya tends the glass orchard and laments that no apple falls"},
+{"start": 16, "type": "discovers", "fine": "notices", "actor": "ORSOLYA", "target": null, "mood": "ominous", "intensity": 2, "summary": "A deep chime from the roots makes Orsolya kneel and listen"},
+{"start": 20, "type": "arrives", "fine": "shows up unannounced", "actor": "KAEDMON", "target": "ORSOLYA", "mood": "tense", "intensity": 3, "summary": "Kaedmon appears bearing iron and Orsolya warns him of the orchard"},
+{"start": 31, "type": "reveals", "fine": "shows", "actor": "KAEDMON", "target": "ORSOLYA", "mood": "ominous", "intensity": 4, "summary": "Kaedmon reveals the forbidden black seed and the orchard falls silent"},
+{"start": 39, "type": "attacks", "fine": "fights", "actor": "ORSOLYA", "target": "KAEDMON", "mood": "chaotic", "intensity": 5, "summary": "Kaedmon plants the seed; Orsolya fights him as the orchard bursts into flame"}
+],
+"s00035": [
+{"start": 1, "type": "flees", "fine": "escapes", "actor": "ROZ", "target": null, "mood": "tense", "intensity": 4, "summary": "Roz and Dennis frantically try to force the frozen freezer door"},
+{"start": 13, "type": "confronts", "fine": "interrogates", "actor": "DENNIS", "target": "LAZARUS", "mood": "ominous", "intensity": 3, "summary": "The tuxedoed stranger Lazarus claims he has been trapped for days"},
+{"start": 21, "type": "discovers", "fine": "notices", "actor": "ROZ", "target": "LAZARUS", "mood": "fear", "intensity": 4, "summary": "Roz notices Lazarus's breath doesn't fog; he apologetically hints at death"},
+{"start": 32, "type": "flees", "fine": "bolts", "actor": "ROZ", "target": null, "mood": "fear", "intensity": 5, "summary": "Roz and Dennis smash the door open; Lazarus waves farewell inside"}
+],
+"s02041": [
+{"start": 1, "type": "jokes", "fine": "teases", "actor": "BARNABY", "target": "PENELOPE", "mood": "playful", "intensity": 2, "summary": "Barnaby teases his nervous new assistant Penelope during evening rounds"},
+{"start": 16, "type": "reveals", "fine": "shows", "actor": "BARNABY", "target": "PENELOPE", "mood": "calm", "intensity": 2, "summary": "Barnaby introduces the shy python Gladys and her rules"},
+{"start": 27, "type": "observes", "fine": "studies", "actor": "PENELOPE", "target": null, "mood": "suspense", "intensity": 2, "summary": "Penelope stares at Gladys, who slowly tilts her head back"},
+{"start": 31, "type": "comforts", "fine": "encourages", "actor": "BARNABY", "target": "PENELOPE", "mood": "calm", "intensity": 2, "summary": "Barnaby feeds Gladys and praises Penelope's steady nerve"},
+{"start": 44, "type": "reveals", "fine": "drops a bombshell on", "actor": "BARNABY", "target": "PENELOPE", "mood": "ominous", "intensity": 4, "summary": "Barnaby reveals Gladys is a decoy and the real snake is loose"},
+{"start": 64, "type": "observes", "fine": "hesitates", "actor": "PENELOPE", "target": null, "mood": "fear", "intensity": 5, "summary": "A thump in the vent freezes both as something coils above"}
+],
+"s02089": [
+{"start": 1, "type": "accuses", "fine": "accuses", "actor": "ARCHIE", "target": "DOROTHEA", "mood": "playful", "intensity": 2, "summary": "Archie charges that Dorothea's bees used his clover without paying"},
+{"start": 18, "type": "jokes", "fine": "riffs with", "actor": "TRUMAN", "target": null, "mood": "playful", "intensity": 2, "summary": "Truman enjoys the show and a goat interrupts proceedings"},
+{"start": 22, "type": "decides", "fine": "decides", "actor": "JUDGE HORTENSE", "target": "ARCHIE", "mood": "playful", "intensity": 2, "summary": "The judge settles the case with a jar of honey"}
+],
+"s02108": [
+{"start": 1, "type": "works", "fine": "works", "actor": "ANSELM", "target": null, "mood": "tense", "intensity": 4, "summary": "Doctors fight to resuscitate a crashing patient on the concourse"},
+{"start": 21, "type": "works", "fine": "works", "actor": "ANSELM", "target": "JUDE", "mood": "tense", "intensity": 5, "summary": "Jude arrives with epi, they push it and shock the patient"},
+{"start": 31, "type": "discovers", "fine": "notices", "actor": "BEATRIZ", "target": null, "mood": "hopeful", "intensity": 3, "summary": "A weak heartbeat returns and Anselm routes the patient to intensive care"},
+{"start": 41, "type": "persuades", "fine": "talks down", "actor": "BEATRIZ", "target": "ANSELM", "mood": "tender", "intensity": 2, "summary": "Exhausted doctors argue over resting until Beatriz makes both sit"}
+],
+"s00719": [
+{"start": 1, "type": "works", "fine": "repairs something", "actor": "XIMENA", "target": null, "mood": "tense", "intensity": 4, "summary": "The crew battles a failing core as Ximena and Tuck dispute the countdown"},
+{"start": 11, "type": "arrives", "fine": "bursts in", "actor": "RAVI", "target": "HALLORAN", "mood": "tense", "intensity": 4, "summary": "Ravi bursts in with shield failure news and is ordered to a console"},
+{"start": 17, "type": "works", "fine": "repairs something", "actor": "XIMENA", "target": "TUCK", "mood": "chaotic", "intensity": 4, "summary": "Ximena and Tuck push the lever together and the core shudders"},
+{"start": 23, "type": "bonds", "fine": "teams up with", "actor": "HALLORAN", "target": null, "mood": "triumphant", "intensity": 3, "summary": "Halloran promises a round as the core settles and all grin"}
+],
+"s00062": [
+{"start": 1, "type": "comforts", "fine": "encourages", "actor": "HORTY", "target": "JOSEFINA", "mood": "tense", "intensity": 2, "summary": "Coach Horty prepares nervous rookie Josefina for her first jam"},
+{"start": 16, "type": "bonds", "fine": "teams up with", "actor": "BRUISER", "target": "JOSEFINA", "mood": "triumphant", "intensity": 3, "summary": "Bruiser takes Josefina under her wing and the team walks out to roars"}
+]
+}

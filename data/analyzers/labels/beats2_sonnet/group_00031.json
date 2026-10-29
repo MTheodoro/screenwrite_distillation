@@ -1,0 +1,159 @@
+{
+"s01521": [
+{"start":1,"type":"works","fine":"works","actor":"ISOLDE","target":"DESMOND","mood":"awkward","intensity":2,"summary":"Isolde prunes lemon trees as ex-husband Desmond arrives with pastries and Greta looks on."},
+{"start":13,"type":"deflects","fine":"brushes off","actor":"ISOLDE","target":"DESMOND","mood":"awkward","intensity":3,"summary":"Desmond makes small talk and she brushes off his pastries, closed account and card."},
+{"start":55,"type":"deflects","fine":"evades","actor":"DESMOND","target":"ISOLDE","mood":"tense","intensity":3,"summary":"They spar about coats and weight; Desmond finally raises the flat lease."},
+{"start":73,"type":"confesses","fine":"opens up to","actor":"DESMOND","target":"ISOLDE","mood":"tender","intensity":4,"summary":"Both admit they cannot be in a room with or without the other."},
+{"start":82,"type":"bonds","fine":"reconnects with","actor":"DESMOND","target":"ISOLDE","mood":"hopeful","intensity":3,"summary":"Desmond weighs a lemon, Isolde agrees to wait three weeks, Greta leaves them alone."},
+{"start":100,"type":"bonds","fine":"shares a moment with","actor":"DESMOND","target":"ISOLDE","mood":"bittersweet","intensity":3,"summary":"Desmond offers the almond pastry and Isolde takes half."}
+],
+"s00379": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"SAOIRSE","target":"GREGOR","mood":"tense","intensity":2,"summary":"Exhausted Dr. Saoirse examines dying Helena in a blizzard-bound field hospital."},
+{"start":10,"type":"reveals","fine":"breaks news to","actor":"SAOIRSE","target":"GREGOR","mood":"tense","intensity":3,"summary":"Saoirse explains the lung injury; Gregor demands surgery despite the generator running low."},
+{"start":27,"type":"threatens","fine":"coerces","actor":"GREGOR","target":"SAOIRSE","mood":"hostile","intensity":4,"summary":"Gregor forbids the operation and seizes Saoirse's wrist as she raises the scalpel."},
+{"start":38,"type":"comforts","fine":"calms","actor":"HELENA","target":"GREGOR","mood":"tender","intensity":4,"summary":"Helena wakes and tells Gregor to let go; his grip loosens."}
+],
+"s00484": [
+{"start":1,"type":"works","fine":"prepares","actor":"DEBORAH","target":null,"mood":"awkward","intensity":1,"summary":"Deborah, Raj and intern Chloe gather in a conference room for a synergy sprint."},
+{"start":7,"type":"confronts","fine":"challenges","actor":"RAJ","target":"DEBORAH","mood":"hostile","intensity":3,"summary":"Raj skewers the vague rocket initiative as fictional and a prelude to layoffs."},
+{"start":21,"type":"jokes","fine":"banters with","actor":"CHLOE","target":"DEBORAH","mood":"playful","intensity":2,"summary":"Chloe asks about the stale fruit bowl and Deborah deflects with corporate talk."},
+{"start":26,"type":"decides","fine":"resigns","actor":"RAJ","target":"DEBORAH","mood":"triumphant","intensity":3,"summary":"Raj resigns, takes the fruit and leaves; Chloe follows him out."}
+],
+"s01806": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"QUILLON","target":null,"mood":"ominous","intensity":2,"summary":"Four travelers descend into a hollow of humming standing stones at twilight."},
+{"start":9,"type":"searches","fine":"investigates","actor":"MAEVE","target":"QUILLON","mood":"suspense","intensity":3,"summary":"The stones sing louder; Maeve says they are remembering, and Dobbin finds writing."},
+{"start":26,"type":"observes","fine":"hesitates","actor":"DOBBIN","target":null,"mood":"awkward","intensity":3,"summary":"The inscription demands naming a lost loved one; nobody wants to go first."},
+{"start":37,"type":"confesses","fine":"unburdens to","actor":"SIR GERVASE","target":null,"mood":"grief","intensity":4,"summary":"Sir Gervase speaks Ysolde's name, then Quillon names Tamsyn, opening a door of light."}
+],
+"s01973": [
+{"start":1,"type":"works","fine":"works","actor":"TALL MAN","target":null,"mood":"suspense","intensity":3,"summary":"A tall man picks a lock in a mini-golf clock tower; a woman sneaks in."},
+{"start":12,"type":"jokes","fine":"banters with","actor":"WOMAN","target":"TALL MAN","mood":"tense","intensity":2,"summary":"They whisper-bicker about timing and a cop eating pierogi while he works the lock."},
+{"start":33,"type":"discovers","fine":"uncovers","actor":"TALL MAN","target":"WOMAN","mood":"tense","intensity":3,"summary":"The lock opens to a steel box; he slips and uses her name Dolores."},
+{"start":46,"type":"reveals","fine":"comes clean to","actor":"WALT","target":"DOLORES","mood":"tender","intensity":3,"summary":"He gives his own name, Walt, and she stows the box in her bakery tote."},
+{"start":55,"type":"hides","fine":"lies low","actor":"WALT","target":"DOLORES","mood":"suspense","intensity":4,"summary":"Headlights sweep in; they crouch together and she takes his hand."}
+],
+"s02443": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"CALLUM","target":"NADIA","mood":"awkward","intensity":2,"summary":"Callum sits at a lone woman's table in a near-empty dining car."},
+{"start":17,"type":"bonds","fine":"flirts with","actor":"NADIA","target":"CALLUM","mood":"playful","intensity":2,"summary":"They order dinner, trade names and accountant jokes, and laugh."},
+{"start":42,"type":"jokes","fine":"banters with","actor":"HEDDA","target":"NADIA","mood":"joyful","intensity":2,"summary":"An elderly couple bicker, call them a handsome pair, and join in toasts."},
+{"start":77,"type":"flees","fine":"scrambles away","actor":"CALLUM","target":"NADIA","mood":"chaotic","intensity":4,"summary":"Lights die, brakes scream, glass shatters, and Callum and Nadia grab hands."},
+{"start":89,"type":"bonds","fine":"shares a moment with","actor":"NADIA","target":"CALLUM","mood":"hopeful","intensity":2,"summary":"The train stops; by match flame Nadia asks his surname, Fairbrother."}
+],
+"s02280": [
+{"start":1,"type":"bonds","fine":"reminisces with","actor":"LITTLEFIELD","target":"WREN","mood":"bittersweet","intensity":3,"summary":"Judge Littlefield gets a last haircut as the gallows come down and friends see him off."},
+{"start":21,"type":"decides","fine":"makes a plan","actor":"WREN","target":"LITTLEFIELD","mood":"melancholy","intensity":2,"summary":"Wren has the mare saddled; Littlefield plans to ride south and entrusts the bench."},
+{"start":34,"type":"leaves","fine":"leaves","actor":"LITTLEFIELD","target":"ROSIE","mood":"bittersweet","intensity":2,"summary":"Rosie finishes; Littlefield pays and goes as he is, skipping the shave."}
+],
+"s01424": [
+{"start":1,"type":"works","fine":"investigates","actor":"ODALYS","target":"HANS-PETER","mood":"calm","intensity":2,"summary":"Odalys and Hans-Peter cross a silent frozen reservoir toward a survey stake."},
+{"start":15,"type":"discovers","fine":"notices","actor":"ODALYS","target":"HANS-PETER","mood":"fear","intensity":4,"summary":"As Odalys celebrates, the ice groans and cracks beneath them."},
+{"start":27,"type":"flees","fine":"retreats","actor":"HANS-PETER","target":"ODALYS","mood":"fear","intensity":5,"summary":"The sled tips and the sample case sinks as they lie flat on the ice."},
+{"start":34,"type":"flees","fine":"escapes","actor":"HANS-PETER","target":"ODALYS","mood":"bittersweet","intensity":3,"summary":"They crawl to shore; Hans-Peter pulls Odalys up and they sit panting."}
+],
+"s01360": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"FIONA","target":"GIDEON","mood":"tense","intensity":2,"summary":"Divorcing Fiona, Gideon and family wait stiffly; Jolene offers a coffee Fiona refuses."},
+{"start":19,"type":"confronts","fine":"faces off with","actor":"FIONA","target":"JOLENE","mood":"hostile","intensity":3,"summary":"Fiona snaps at Gideon and at Jolene calling her son sweetheart."},
+{"start":33,"type":"confronts","fine":"faces off with","actor":"HANA","target":"JOLENE","mood":"chaotic","intensity":3,"summary":"Five adults square off, voices rising, until a receptionist opens the door."},
+{"start":40,"type":"decides","fine":"accepts","actor":"FIONA","target":"JOLENE","mood":"awkward","intensity":2,"summary":"Hana apologizes, everyone sits, and Fiona finally accepts the coffee."}
+],
+"s01726": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"EAMON","target":"ROZ","mood":"tense","intensity":2,"summary":"Eamon joins Tavita and Roz on the roof; a flashlight beam forces them down."},
+{"start":24,"type":"jokes","fine":"teases","actor":"EAMON","target":"ROZ","mood":"playful","intensity":2,"summary":"Relieved, they shove and tease each other about being scared."},
+{"start":35,"type":"confesses","fine":"comes clean to","actor":"TAVITA","target":"EAMON","mood":"melancholy","intensity":4,"summary":"Roz prods Tavita to admit he is moving to Ohio in August."},
+{"start":47,"type":"comforts","fine":"reassures","actor":"EAMON","target":"TAVITA","mood":"bittersweet","intensity":3,"summary":"Eamon counts sixty-one nights left and Roz photographs the three of them."}
+],
+"s00998": [
+{"start":1,"type":"arrives","fine":"slips in","actor":"GRETA","target":null,"mood":"fear","intensity":3,"summary":"Terrified Greta staggers into an ice-fishing hut and bolts the door."},
+{"start":12,"type":"hides","fine":"masks a feeling","actor":"GRETA","target":null,"mood":"suspense","intensity":4,"summary":"A recorded cheery voice plays; something scrapes the roof and walls toward the door."},
+{"start":28,"type":"flees","fine":"hides from","actor":"GRETA","target":null,"mood":"fear","intensity":5,"summary":"The door handle turns and the hut is shoved; she kills the lantern."},
+{"start":35,"type":"discovers","fine":"realizes","actor":"GRETA","target":null,"mood":"ominous","intensity":5,"summary":"The recorder warns not to open the door; the bolt slides back on its own."}
+],
+"s01192": [
+{"start":1,"type":"searches","fine":"investigates","actor":"JEDEDIAH","target":"LOCKHART","mood":"tense","intensity":2,"summary":"Sheriff Jedediah finds the pump dry and suspects the well holds something."},
+{"start":15,"type":"accuses","fine":"accuses","actor":"JEDEDIAH","target":"LOCKHART","mood":"hostile","intensity":3,"summary":"Jedediah accuses Lockhart of dropping bodies in the well; Lockhart denies it."},
+{"start":21,"type":"threatens","fine":"holds at gunpoint","actor":"ABBY","target":"LOCKHART","mood":"tense","intensity":3,"summary":"Jedediah descends; Abby half-draws her rifle to stop Lockhart."},
+{"start":27,"type":"discovers","fine":"finds a clue","actor":"JEDEDIAH","target":null,"mood":"ominous","intensity":3,"summary":"Jedediah finds the body of Arliss in the well and asks to be pulled up."},
+{"start":34,"type":"bonds","fine":"teams up with","actor":"ABBY","target":"LOCKHART","mood":"tense","intensity":2,"summary":"Abby and Lockhart reluctantly haul the rope together."}
+],
+"s00173": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"LORETTA","target":"DOROTHY","mood":"tense","intensity":3,"summary":"Stranded by a wrecked jeep, Loretta hides the empty canteen as tempers fray."},
+{"start":12,"type":"persuades","fine":"pitches to","actor":"HARLAN","target":"DOROTHY","mood":"tense","intensity":2,"summary":"Harlan proposes walking four miles to a well; Dorothy and Loretta doubt him."},
+{"start":22,"type":"bonds","fine":"trusts","actor":"LORETTA","target":"DOROTHY","mood":"tender","intensity":2,"summary":"Loretta hands over the empty canteen; sisters share a silent understanding."},
+{"start":30,"type":"decides","fine":"decides","actor":"DOROTHY","target":null,"mood":"hopeful","intensity":3,"summary":"Dorothy straightens Loretta's hat, says four miles, and leads everyone walking."}
+],
+"s01181": [
+{"start":1,"type":"pleads","fine":"calls for","actor":"ALMEIDA","target":"COMMAND","mood":"fear","intensity":3,"summary":"A young soldier alone in a salt mine finally radios for help."},
+{"start":14,"type":"reveals","fine":"breaks news to","actor":"COMMAND","target":"ALMEIDA","mood":"grief","intensity":4,"summary":"Command tells Almeida the extraction was cancelled."},
+{"start":15,"type":"observes","fine":"hesitates","actor":"ALMEIDA","target":"COMMAND","mood":"grief","intensity":4,"summary":"Almeida slides to the floor; Command stays on the line as his lamp dies."}
+],
+"s00268": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"AMINATA","target":"DAV","mood":"calm","intensity":1,"summary":"Aminata and Dav work the lunar relay console and notice odd telemetry drift."},
+{"start":19,"type":"discovers","fine":"realizes","actor":"AMINATA","target":"DAV","mood":"suspense","intensity":4,"summary":"A message greets Kestrel-Four from their own transmitter; they argue it's no loopback."},
+{"start":34,"type":"searches","fine":"investigates","actor":"DAV","target":"AMINATA","mood":"awkward","intensity":2,"summary":"Dav proposes pranks or hallucination; Aminata confirms oxygen is fine."},
+{"start":47,"type":"discovers","fine":"notices","actor":"AMINATA","target":"DAV","mood":"ominous","intensity":5,"summary":"The sender says be not afraid and look up; a ring of lights appears."},
+{"start":65,"type":"bonds","fine":"shares a moment with","actor":"AMINATA","target":"DAV","mood":"bittersweet","intensity":2,"summary":"Frozen, Aminata takes Dav's protein bar and bites it as they watch the sky."}
+],
+"s01992_1": [
+{"start":1,"type":"searches","fine":"looks for","actor":"HANNELORE","target":"HESTER","mood":"fear","intensity":3,"summary":"Four climbers count each other and realize Toby is missing."},
+{"start":7,"type":"confronts","fine":"interrogates","actor":"HESTER","target":"INGRID","mood":"tense","intensity":4,"summary":"Ranger Hester returns a found camera and chips at the ice wall to reach Toby."}
+],
+"s00184_1": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"RUTH","target":"BAILIFF","mood":"bittersweet","intensity":2,"summary":"The Bailiff returns Ruth a dropped exhibit; she says the man will walk free after eleven years."}
+],
+"s00528": [
+{"start":1,"type":"threatens","fine":"intimidates","actor":"LOU","target":"ALTHEA","mood":"tense","intensity":3,"summary":"Lou sips sherry with funeral proprietor Althea, then says her account is seventeen thousand short."},
+{"start":24,"type":"threatens","fine":"menaces","actor":"SPATS","target":"ALTHEA","mood":"ominous","intensity":3,"summary":"Spats presents the ledger; Althea unfazed says numbers never lie, people do."},
+{"start":33,"type":"threatens","fine":"holds at gunpoint","actor":"ALTHEA","target":"LOU","mood":"triumphant","intensity":4,"summary":"Althea rings a bell and coffin lids open to a dozen gun barrels."},
+{"start":44,"type":"defends","fine":"holds the line against","actor":"ALTHEA","target":"LOU","mood":"ominous","intensity":3,"summary":"Lou toasts her husband; Althea clinks glasses while the waltz plays."}
+],
+"s01430": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"PERPETUA","target":"ALISTAIR","mood":"playful","intensity":2,"summary":"Perpetua runs a fire drill for an empty floor with Alistair and Lola."},
+{"start":23,"type":"discovers","fine":"realizes","actor":"PERPETUA","target":"ALISTAIR","mood":"chaotic","intensity":3,"summary":"The alarm stops and Perpetua hears it was a real fire; all three run."},
+{"start":33,"type":"reveals","fine":"comes clean to","actor":"PERPETUA","target":"ALISTAIR","mood":"playful","intensity":2,"summary":"At the stairwell she says it was just a burned casserole."}
+],
+"s00105": [
+{"start":1,"type":"works","fine":"prepares","actor":"MAGDALENA","target":"BARRY","mood":"awkward","intensity":2,"summary":"HR director Magdalena begins an informal meeting with supervisor Barry and union rep Petronella."},
+{"start":16,"type":"confronts","fine":"presses","actor":"MAGDALENA","target":"BARRY","mood":"tense","intensity":3,"summary":"Magdalena shows a photo of a gherkin in the Reuben line; Barry blames systems."},
+{"start":39,"type":"confesses","fine":"owns up to","actor":"BARRY","target":"MAGDALENA","mood":"playful","intensity":3,"summary":"Confronted with camera footage, Barry admits he fed relish to a stray cat."},
+{"start":48,"type":"comforts","fine":"consoles","actor":"PETRONELLA","target":"BARRY","mood":"tender","intensity":2,"summary":"Petronella pours him tea in the thermos cap, and he takes it."}
+],
+"s01962": [
+{"start":1,"type":"works","fine":"prepares","actor":"ANSELMO","target":null,"mood":"playful","intensity":2,"summary":"Anselmo barks orders to his chaotic family in the minivan before the car wash."},
+{"start":14,"type":"hides","fine":"masks a feeling","actor":"ANSELMO","target":"HUI-MIN","mood":"awkward","intensity":2,"summary":"Foam hits the glass and Anselmo mutters it's fine, glancing nervously at Grandma Fumiko."}
+],
+"s00608": [
+{"start":1,"type":"observes","fine":"waits","actor":"PHILOMENA","target":null,"mood":"awkward","intensity":2,"summary":"Philomena, Grady and Tucker sit in tense silence in a closed planetarium cafe."},
+{"start":13,"type":"deflects","fine":"changes the subject on","actor":"TUCKER","target":"GRADY","mood":"awkward","intensity":2,"summary":"Tucker complains the mural's Jupiter is too small; Grady offers Philomena a fresh coffee."},
+{"start":26,"type":"confronts","fine":"stares down","actor":"TUCKER","target":"PHILOMENA","mood":"ominous","intensity":3,"summary":"Tucker eyes a drawer while Grady is away; Philomena stares him down."},
+{"start":33,"type":"comforts","fine":"steadies","actor":"GRADY","target":"PHILOMENA","mood":"melancholy","intensity":3,"summary":"Grady pours coffee and sits between them, close to both, around an unnamed thing."}
+],
+"s01343": [
+{"start":1,"type":"pleads","fine":"asks for help from","actor":"TOBY","target":"IZZY","mood":"fear","intensity":4,"summary":"Marguerite is pinned in a crevasse; Toby and belayer Izzy shout to coordinate."},
+{"start":11,"type":"flees","fine":"scrambles away","actor":"TOBY","target":null,"mood":"chaotic","intensity":4,"summary":"The ice cracks and snow falls; Toby urges cutting the rope while she resists."},
+{"start":19,"type":"works","fine":"repairs something","actor":"TOBY","target":"MARGUERITE","mood":"suspense","intensity":3,"summary":"In the quiet, Toby descends and frees her harness as the ice holds."},
+{"start":31,"type":"bonds","fine":"shares a moment with","actor":"MARGUERITE","target":"IZZY","mood":"joyful","intensity":3,"summary":"They are hauled up and collapse on the glacier, swearing never again."}
+],
+"s02028": [
+{"start":1,"type":"works","fine":"prepares","actor":"GWENDOLYN","target":"NOOR","mood":"suspense","intensity":3,"summary":"A crew in a flower cold room prepares to open a vault with a guessed code."},
+{"start":16,"type":"jokes","fine":"banters with","actor":"TIM","target":"NOOR","mood":"playful","intensity":2,"summary":"Tim worries about eleven minutes in the cold among ranunculus."},
+{"start":22,"type":"searches","fine":"looks for","actor":"GWENDOLYN","target":"OSKAR","mood":"tense","intensity":3,"summary":"Gwendolyn tries two codes and the keypad rejects both."},
+{"start":36,"type":"reveals","fine":"shows","actor":"GWENDOLYN","target":"TIM","mood":"triumphant","intensity":3,"summary":"She opens the flower box to a brass drill, the real plan, and begins drilling."}
+],
+"s01571": [
+{"start":1,"type":"observes","fine":"studies","actor":"HESTER","target":null,"mood":"ominous","intensity":2,"summary":"Five unwilling guests gather in the lighthouse kitchen as storm winds howl."},
+{"start":10,"type":"accuses","fine":"suspects","actor":"HESTER","target":"PAVEL","mood":"tense","intensity":3,"summary":"Hester says someone put out the lamp; suspicion falls on keyholders and Yuki."},
+{"start":21,"type":"accuses","fine":"turns on","actor":"BRIDGET","target":"HESTER","mood":"hostile","intensity":4,"summary":"Hester and Bridget stand and trade accusations about the ledger; Pavel steps between."},
+{"start":29,"type":"arrives","fine":"drifts in","actor":"HESTER","target":null,"mood":"fear","intensity":4,"summary":"Heavy footsteps sound on the dark tower stair above them."}
+],
+"s02342": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"MADAME ROUSSEL","target":null,"mood":"tense","intensity":3,"summary":"Salon guests sip tea in a trembling charade as revolutionary dusk falls."},
+{"start":13,"type":"discovers","fine":"notices","actor":"LOUISE","target":"MADAME ROUSSEL","mood":"fear","intensity":4,"summary":"Louise hears a drum; a fist hammers the door as Madame pours tea."}
+],
+"s01637": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"JUNIPER","target":null,"mood":"fear","intensity":3,"summary":"Juniper is stuck alone in a stalled cable car, calming herself aloud."},
+{"start":11,"type":"pleads","fine":"calls for","actor":"JUNIPER","target":null,"mood":"fear","intensity":4,"summary":"Her radio gets only static; a bolt shears and the car lurches."},
+{"start":24,"type":"works","fine":"prepares","actor":"JUNIPER","target":null,"mood":"suspense","intensity":3,"summary":"She breathes, then forces the ceiling hatch release open."},
+{"start":33,"type":"arrives","fine":"bursts in","actor":"BASHIR","target":"JUNIPER","mood":"hopeful","intensity":4,"summary":"Rescuer Bashir drops in, harnesses Juniper, and jokes her calm."},
+{"start":46,"type":"leaves","fine":"escapes","actor":"BASHIR","target":"JUNIPER","mood":"hopeful","intensity":3,"summary":"He lifts her through the hatch into daylight, then follows."}
+]
+}

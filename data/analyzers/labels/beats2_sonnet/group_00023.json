@@ -1,0 +1,147 @@
+{
+"s01127": [
+{"start":1,"type":"works","fine":"examines","actor":"RAHIMI","target":null,"mood":"tense","intensity":2,"summary":"Chief Rahimi examines a body in the planetarium and seals the dome with suspects present."},
+{"start":12,"type":"discovers","fine":"finds a clue","actor":"OYELARAN","target":"RAHIMI","mood":"suspense","intensity":3,"summary":"Oyelaran says there were no footprints at ten; Rahimi finds fresh muddy prints."},
+{"start":19,"type":"accuses","fine":"suspects","actor":"FINCH","target":"SUNNY","mood":"fear","intensity":4,"summary":"The prints lead to Sunny's seat; she denies they are hers and Rahimi demands everyone's shoes."}
+],
+"s00043": [
+{"start":1,"type":"confronts","fine":"presses","actor":"HADLEY","target":"WINNIE","mood":"tense","intensity":2,"summary":"Skip Hadley presses rookie Winnie to fix her delivery while Archie brags about 1971."},
+{"start":23,"type":"decides","fine":"gives an order","actor":"HADLEY","target":"WINNIE","mood":"hopeful","intensity":3,"summary":"The teams are called, a broadcast hiccup resolves, and Hadley tells Winnie to throw the last stone."},
+{"start":41,"type":"observes","fine":"watches","actor":"ARCHIE","target":null,"mood":"bittersweet","intensity":2,"summary":"Archie watches the team step onto the ice and lifts an untouched glass."}
+],
+"s01885": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ELIAS","target":"CHIARA","mood":"playful","intensity":2,"summary":"Elias visits Chiara's hot studio and they laugh over the heat."},
+{"start":9,"type":"attacks","fine":"strikes","actor":"CHIARA","target":"ELIAS","mood":"chaotic","intensity":3,"summary":"Elias steps close, molten glass drips, and they fall in a heap."},
+{"start":18,"type":"bonds","fine":"flirts with","actor":"CHIARA","target":"ELIAS","mood":"tender","intensity":4,"summary":"Chiara checks a burn on his jaw and the moment turns charged."}
+],
+"s02339": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"FERRYWOMAN","target":null,"mood":"ominous","intensity":2,"summary":"The Ferrywoman counts five shadows on the dock under the lantern's voice."},
+{"start":15,"type":"decides","fine":"gives an order","actor":"FERRYWOMAN","target":"SHADOWS","mood":"ominous","intensity":2,"summary":"She orders them aboard and covers one shadow's unpaid coin."},
+{"start":28,"type":"leaves","fine":"leaves","actor":"FERRYWOMAN","target":"LANTERN VOICE","mood":"melancholy","intensity":3,"summary":"The ferry drifts off as the lantern dims and she softly warns of the cold."}
+],
+"s01722": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"CAL","target":"MARISOL","mood":"tense","intensity":3,"summary":"Ex-boyfriend Cal arrives at the laundromat at 3 a.m., upsetting Marisol and Nkechi."},
+{"start":14,"type":"defends","fine":"protects","actor":"TEDDY","target":"MARISOL","mood":"tense","intensity":3,"summary":"Teddy steps between Cal and Marisol, holding her prom dress."},
+{"start":23,"type":"decides","fine":"gives an order","actor":"CAL","target":"MARISOL","mood":"awkward","intensity":2,"summary":"Cal drops his keys and sits, and Marisol gives him one dryer cycle to speak."}
+],
+"s00602": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ALBERICH","target":"THISTLE","mood":"playful","intensity":2,"summary":"Wizard Alberich and apprentice Thistle bicker over tea while dragon Umbra sighs."},
+{"start":19,"type":"bonds","fine":"shares a moment with","actor":"UMBRA","target":"ALBERICH","mood":"tender","intensity":2,"summary":"Umbra explains the mountain holds as long as it breathes, and they tease each other."},
+{"start":30,"type":"comforts","fine":"tends to","actor":"THISTLE","target":"ALBERICH","mood":"tender","intensity":3,"summary":"Thistle steadies the coughing Alberich with water, then serves tea to all three including Umbra."},
+{"start":43,"type":"observes","fine":"takes it in","actor":"ALBERICH","target":null,"mood":"calm","intensity":1,"summary":"The sun rises over the ice and they sit in silence."}
+],
+"s01172": [
+{"start":1,"type":"observes","fine":"waits","actor":"AKIKO","target":"RUSLAN","mood":"tense","intensity":2,"summary":"A tense table-tennis match on a rocking ferry reaches ten all."},
+{"start":11,"type":"attacks","fine":"fights","actor":"RUSLAN","target":"AKIKO","mood":"suspense","intensity":3,"summary":"Ruslan takes the lead while the onlookers fidget and Akiko stays unblinking."},
+{"start":23,"type":"bonds","fine":"thanks","actor":"NADIA","target":"AKIKO","mood":"tender","intensity":2,"summary":"Akiko loses her paddle, Nadia returns it, and Akiko ties the score."},
+{"start":35,"type":"bonds","fine":"shares a moment with","actor":"RUSLAN","target":"AKIKO","mood":"bittersweet","intensity":3,"summary":"Ruslan offers a handshake and Big Ed urges Akiko to take it."}
+],
+"s00820": [
+{"start":1,"type":"works","fine":"prepares","actor":"INGRID","target":null,"mood":"tense","intensity":3,"summary":"Ingrid readies the last stone in a curling hall deep in a salt mine."},
+{"start":11,"type":"works","fine":"goes through routine","actor":"INGRID","target":"BASH","mood":"suspense","intensity":3,"summary":"Ingrid throws and Bash sweeps frantically."},
+{"start":13,"type":"arrives","fine":"shows up unannounced","actor":"DESTINY","target":"INGRID","mood":"ominous","intensity":3,"summary":"Destiny arrives to say the shift bell rang an hour ago; Ingrid keeps watching the stone."}
+],
+"s00438": [
+{"start":1,"type":"hides","fine":"pockets evidence","actor":"CORDELIA","target":"FERDINAND","mood":"suspense","intensity":3,"summary":"Cordelia pockets a glass vial from a trunk while theater manager Ferdinand watches."},
+{"start":21,"type":"arrives","fine":"bursts in","actor":"GRIMSBY","target":"CORDELIA","mood":"tense","intensity":3,"summary":"Inspector Grimsby arrives and eyes the trunk."},
+{"start":28,"type":"attacks","fine":"fights","actor":"FERDINAND","target":"GRIMSBY","mood":"chaotic","intensity":4,"summary":"A scuffle in the dark breaks the vial and leaves the three in a standoff."}
+],
+"s00358": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"MOLLY","target":null,"mood":"calm","intensity":1,"summary":"The army bakers knead and bake their quota by six."},
+{"start":25,"type":"reveals","fine":"breaks news to","actor":"AIDE","target":"ISAAC","mood":"tense","intensity":3,"summary":"A general's aide reports the convoy turned back and the bridge gone."},
+{"start":34,"type":"decides","fine":"commits","actor":"MOLLY","target":"ISAAC","mood":"bittersweet","intensity":3,"summary":"Molly insists on baking forty loaves as the captain leaves and the humming stops."}
+],
+"s00109_1": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"FELIX","target":"WILHELMINA","mood":"tender","intensity":2,"summary":"Grandson Felix and Wilhelmina fish in an ice hut, and he says he likes it here."},
+{"start":22,"type":"works","fine":"works","actor":"WILHELMINA","target":null,"mood":"suspense","intensity":2,"summary":"A fish bites, then the line goes slack with a bare, polished hook."},
+{"start":38,"type":"discovers","fine":"notices","actor":"FELIX","target":"WILHELMINA","mood":"fear","intensity":4,"summary":"The water ripples and a pale round shape with a face rises under them."},
+{"start":55,"type":"flees","fine":"scrambles away","actor":"WILHELMINA","target":null,"mood":"fear","intensity":5,"summary":"Wilhelmina drags Felix back as a pale creature hauls into the hut and the heater dies."}
+],
+"s02107": [
+{"start":1,"type":"works","fine":"works","actor":"ADWOA","target":"DR. KWAN","mood":"tense","intensity":4,"summary":"Nurse Adwoa tends a failing child by satellite phone with Dr. Kwan's guidance."},
+{"start":14,"type":"comforts","fine":"tends to","actor":"ADWOA","target":null,"mood":"tender","intensity":4,"summary":"She gives the last dose, holds the boy's hand, and his oxygen rises."},
+{"start":27,"type":"hides","fine":"masks a feeling","actor":"ADWOA","target":null,"mood":"hopeful","intensity":2,"summary":"Adwoa rests her forehead against the cot as rain drums on."}
+],
+"s01661": [
+{"start":1,"type":"works","fine":"prepares","actor":"LEHMANN","target":"NIAMH","mood":"suspense","intensity":2,"summary":"Dr. Lehmann starts an MRI on Niamh, who feels the scanner looking back."},
+{"start":23,"type":"hides","fine":"conceals something","actor":"LEHMANN","target":"NIAMH","mood":"ominous","intensity":3,"summary":"He spots a dark shape on the scan and tells her only they are nearly done."},
+{"start":37,"type":"confronts","fine":"presses","actor":"NIAMH","target":"LEHMANN","mood":"tense","intensity":3,"summary":"Niamh asks what he sees; he stays evasive before coming to her side."},
+{"start":51,"type":"decides","fine":"accepts","actor":"NIAMH","target":"LEHMANN","mood":"bittersweet","intensity":3,"summary":"Both say something is there; Niamh asks to be told in the room and Lehmann agrees after one more sequence."}
+],
+"s02177": [
+{"start":1,"type":"works","fine":"cleans","actor":"JUNE","target":"LEO","mood":"calm","intensity":1,"summary":"June and Leo mop a drained pool as Mrs. Abernathy insists they clean the deep end."},
+{"start":18,"type":"discovers","fine":"notices","actor":"LEO","target":"JUNE","mood":"ominous","intensity":3,"summary":"A gurgle from the drain and a child's humming rise as June approaches the grate."},
+{"start":48,"type":"flees","fine":"bolts","actor":"LEO","target":null,"mood":"fear","intensity":5,"summary":"The grate rattles, wet handprints walk toward them, and they flee."},
+{"start":55,"type":"reveals","fine":"comes clean to","actor":"MRS. ABERNATHY","target":"JUNE","mood":"ominous","intensity":4,"summary":"Mrs. Abernathy calmly admits everyone knows, saying the thing is hungry when lonely."},
+{"start":74,"type":"observes","fine":"takes it in","actor":"JUNE","target":null,"mood":"fear","intensity":3,"summary":"The prints fade, the light dies, and laughter echoes from the drain."}
+],
+"s01274": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"HANNELORE","target":null,"mood":"tense","intensity":2,"summary":"Weary expedition members shelter in an ice cave as their weather window closes."},
+{"start":11,"type":"decides","fine":"makes a plan","actor":"HANNELORE","target":"TOMASZ","mood":"tense","intensity":3,"summary":"They debate leaving injured Bjorn and settle on packing up to walk out."},
+{"start":30,"type":"discovers","fine":"notices","actor":"HANNELORE","target":null,"mood":"hopeful","intensity":3,"summary":"A distant rotor thrum makes everyone look up."}
+],
+"s01715": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"ESTELLE","target":"CLARENCE","mood":"awkward","intensity":2,"summary":"Estelle joins her father Clarence at the diner counter."},
+{"start":13,"type":"reveals","fine":"drops a bombshell on","actor":"CLARENCE","target":"ESTELLE","mood":"tense","intensity":4,"summary":"Clarence admits he sold the farm and Estelle storms up before sitting again."},
+{"start":26,"type":"comforts","fine":"consoles","actor":"CLARENCE","target":"ESTELLE","mood":"bittersweet","intensity":2,"summary":"He covers her hand and the waitress silently brings two slices of pie."}
+],
+"s01887": [
+{"start":1,"type":"observes","fine":"waits","actor":"PLUMLEY","target":null,"mood":"awkward","intensity":2,"summary":"Four teens wait on a curb while the driver tends the smoking bus."},
+{"start":22,"type":"bonds","fine":"shares a moment with","actor":"NGOZI","target":"TOBIAS","mood":"playful","intensity":2,"summary":"Tobias fetches the water jug and Ngozi teases him about holding the book upside down."},
+{"start":35,"type":"confronts","fine":"calls out","actor":"MEI-LIN","target":"RAFF","mood":"melancholy","intensity":3,"summary":"Mei-Lin gently suggests Raff's dad isn't coming, and the others quiet."},
+{"start":57,"type":"leaves","fine":"leaves","actor":"RAFF","target":null,"mood":"melancholy","intensity":3,"summary":"Plumley fixes the bus and Raff takes a last look at the empty road before boarding alone."}
+],
+"s00836": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"AGNES","target":"ASTRID","mood":"tense","intensity":3,"summary":"Inspector Agnes questions the staff in the blacked-out planetarium about a dead man."},
+{"start":14,"type":"discovers","fine":"finds a clue","actor":"PUI-LING","target":"AGNES","mood":"suspense","intensity":3,"summary":"A radio report says he died of electrocution, and Balthazar muses on irony."},
+{"start":22,"type":"accuses","fine":"suspects","actor":"AGNES","target":"JAMAL","mood":"suspense","intensity":4,"summary":"Janitor Jamal wanders in with a bucket and a report notes a wet mop at the scene."}
+],
+"s00172": [
+{"start":1,"type":"arrives","fine":"makes an entrance","actor":"STRANGER","target":"QUEEN ELSPETH","mood":"ominous","intensity":3,"summary":"A dripping stranger comes about a debt before the queen and a knight."},
+{"start":15,"type":"reveals","fine":"unmasks","actor":"STRANGER","target":"SIR BRAM","mood":"tense","intensity":4,"summary":"She lowers her hood and Bram recognizes Wrenna, the daughter he left under the roots."},
+{"start":28,"type":"confesses","fine":"opens up to","actor":"WRENNA","target":"QUEEN ELSPETH","mood":"melancholy","intensity":3,"summary":"Her acorn sprouts and wilts; the queen forgives the debt but she only came to see the tree."}
+],
+"s01770": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"ODALYS","target":null,"mood":"tense","intensity":3,"summary":"A curling team in a salt mine awaits Odalys's decisive throw."},
+{"start":12,"type":"works","fine":"goes through routine","actor":"ODALYS","target":null,"mood":"suspense","intensity":4,"summary":"She throws and the sweepers race beside the stone as Wren watches."},
+{"start":18,"type":"observes","fine":"takes it in","actor":"ISHAAN","target":null,"mood":"bittersweet","intensity":3,"summary":"The stone settles, nobody cheers, and Ishaan quietly says again."}
+],
+"s01739": [
+{"start":1,"type":"works","fine":"writes","actor":"HADLEY","target":null,"mood":"melancholy","intensity":2,"summary":"Corporal Hadley struggles to write his mother from a ruined bell tower."},
+{"start":11,"type":"arrives","fine":"drifts in","actor":"NIKOLAI","target":"HADLEY","mood":"tense","intensity":3,"summary":"Medic Nikolai climbs up and Hadley aims his rifle until he lowers it."},
+{"start":21,"type":"bonds","fine":"bonds with","actor":"NIKOLAI","target":"HADLEY","mood":"tender","intensity":3,"summary":"They share biscuits and talk about Hadley's letter saying it's quiet."},
+{"start":46,"type":"bonds","fine":"shares a moment with","actor":"NIKOLAI","target":"HADLEY","mood":"bittersweet","intensity":3,"summary":"Nikolai taps the cracked bell and they wait to see if anyone answers."}
+],
+"s01699": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"GREGORY","target":"LORRAINE","mood":"melancholy","intensity":2,"summary":"Gregory awkwardly tends his dying mother Lorraine in a hospice room."},
+{"start":16,"type":"confesses","fine":"unburdens to","actor":"LORRAINE","target":"GREGORY","mood":"bittersweet","intensity":3,"summary":"Lorraine says she wasn't a good mother and Gregory holds her hand."}
+],
+"s02044": [
+{"start":1,"type":"works","fine":"prepares","actor":"CORDELIA","target":"DEZ","mood":"tense","intensity":2,"summary":"Stranded Cordelia rations water as Tavita watches a silent stranger."},
+{"start":16,"type":"accuses","fine":"suspects","actor":"TAVITA","target":"STRANGER","mood":"suspense","intensity":3,"summary":"Tavita distrusts the stranger who asks for nothing."},
+{"start":28,"type":"reveals","fine":"unmasks","actor":"STRANGER","target":"CORDELIA","mood":"ominous","intensity":3,"summary":"Cordelia offers him water and he reveals he is Matthias, after the same brine lake."},
+{"start":46,"type":"threatens","fine":"warns","actor":"MATTHIAS","target":"CORDELIA","mood":"ominous","intensity":4,"summary":"A truck approaches on the horizon; Matthias claims it is his and says they may walk home."}
+],
+"s01513": [
+{"start":1,"type":"threatens","fine":"faces off with","actor":"MARSHAL","target":"BARNABY","mood":"tense","intensity":3,"summary":"Five people stand in a tense standoff in a laundry yard at noon."},
+{"start":15,"type":"observes","fine":"waits","actor":"HEPZIBAH","target":null,"mood":"suspense","intensity":4,"summary":"A sheet billows between them and a bucket tips as nobody speaks."},
+{"start":19,"type":"defends","fine":"holds the line against","actor":"HEPZIBAH","target":"BARNABY","mood":"tense","intensity":3,"summary":"The sheet drops, Jedediah lowers his gun, and the standoff breaks."}
+],
+"s02364": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"BLANCHE","target":"ODALYS","mood":"tense","intensity":3,"summary":"Roller derby teams line up for the final jam in a packed arena."},
+{"start":14,"type":"attacks","fine":"fights","actor":"BLANCHE","target":"ODALYS","mood":"chaotic","intensity":5,"summary":"The jam erupts as Blanche weaves through the pack and Odalys closes in."},
+{"start":26,"type":"defends","fine":"pushes back on","actor":"PRU","target":"ODALYS","mood":"triumphant","intensity":5,"summary":"Pru slings Blanche across the line to win the championship."},
+{"start":37,"type":"bonds","fine":"shares a moment with","actor":"ODALYS","target":"BLANCHE","mood":"joyful","intensity":4,"summary":"Odalys offers a hand to Blanche and the referee raises Blanche's arm."}
+],
+"s02519": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"GWENDOLYN","target":"VASHTI","mood":"awkward","intensity":2,"summary":"Baker Gwendolyn arrives late to arbitration claiming a duck delayed her."},
+{"start":24,"type":"confronts","fine":"presses","actor":"VASHTI","target":"GWENDOLYN","mood":"tense","intensity":2,"summary":"Vashti questions the rent arrears and Gwendolyn produces a March deposit ledger."},
+{"start":42,"type":"confesses","fine":"opens up to","actor":"GWENDOLYN","target":"VASHTI","mood":"grief","intensity":4,"summary":"Gwendolyn explains her late husband kept the books and she wept over the ledger."},
+{"start":55,"type":"comforts","fine":"consoles","actor":"VASHTI","target":"GWENDOLYN","mood":"hopeful","intensity":3,"summary":"Vashti shares her mother's story and says she will rule in her favour."}
+],
+"s00925": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"NIKOLAI","target":null,"mood":"calm","intensity":2,"summary":"Weary soldiers watch a flooded field from a ruined belfry."},
+{"start":5,"type":"discovers","fine":"notices","actor":"YUSUF","target":"NIKOLAI","mood":"suspense","intensity":3,"summary":"A cloth-wrapped struggling dog drifts across the field and they debate whether it is a trick."},
+{"start":16,"type":"decides","fine":"gives an order","actor":"NIKOLAI","target":"ANNELIESE","mood":"tender","intensity":2,"summary":"Nikolai sends Anneliese and Yusuf to rescue it and remarks that he'd have let it choose."}
+]
+}

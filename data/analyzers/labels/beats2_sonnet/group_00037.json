@@ -1,0 +1,146 @@
+{
+"s00456": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PAISLEY","target":"TIBBY","mood":"playful","intensity":2,"summary":"Five teens pass a flask in an empty pool, teasing Tibby and Del."},
+{"start":17,"type":"reveals","fine":"breaks news to","actor":"TIBBY","target":"DEL","mood":"awkward","intensity":3,"summary":"Tibby announces he got into Michigan; Del reacts flatly and drinks."},
+{"start":30,"type":"confesses","fine":"opens up to","actor":"DEL","target":"TIBBY","mood":"bittersweet","intensity":3,"summary":"Tibby admits he hid the news; Del quietly asks him to save her a spot."},
+{"start":45,"type":"comforts","fine":"embraces","actor":"PAISLEY","target":"TIBBY","mood":"tender","intensity":3,"summary":"Tibby tears up, Paisley holds him, and all five gather in the basin as rain starts."}
+],
+"s02228": [
+{"start":1,"type":"observes","fine":"hesitates","actor":"BARN","target":"DESSA","mood":"suspense","intensity":3,"summary":"Dessa and Barn stand in flooded crypt water; Barn feels something touch his leg."},
+{"start":11,"type":"flees","fine":"bolts","actor":"DESSA","target":"BARN","mood":"fear","intensity":5,"summary":"A pale hand rises and a creature lunges; Dessa hits it and they escape."},
+{"start":22,"type":"reveals","fine":"shows","actor":"BARN","target":"DESSA","mood":"awkward","intensity":3,"summary":"Safe behind the door, Barn notes the creature was the vicar."}
+],
+"s02299": [
+{"start":1,"type":"works","fine":"prepares","actor":"NADIA","target":"DARRELL","mood":"tense","intensity":3,"summary":"Nadia drills Darrell on dates and the knife before he testifies."},
+{"start":19,"type":"hides","fine":"masks a feeling","actor":"NADIA","target":"DARRELL","mood":"tense","intensity":3,"summary":"Asked if she believes him, Nadia says she believes the record and climbs."}
+],
+"s01823": [
+{"start":1,"type":"flees","fine":"scrambles away","actor":"YUSUF","target":null,"mood":"chaotic","intensity":4,"summary":"Yusuf reports seal failure as the outer door creeps open and air shrieks out."},
+{"start":10,"type":"defends","fine":"protects","actor":"ISOLDE","target":"YUSUF","mood":"tense","intensity":4,"summary":"Commander Isolde bursts in and patches the leak, closing the outer door."},
+{"start":14,"type":"jokes","fine":"needles","actor":"ISOLDE","target":"YUSUF","mood":"calm","intensity":2,"summary":"Isolde scolds Yusuf, reports sealed, and hauls him up while he laughs shakily."}
+],
+"s01371_2": [
+{"start":1,"type":"reveals","fine":"breaks news to","actor":"PENNY","target":"FATHER","mood":"hopeful","intensity":2,"summary":"Penny radios her father that Mister Tully came; he says Ezra died in March."},
+{"start":10,"type":"discovers","fine":"realizes","actor":"PENNY","target":null,"mood":"fear","intensity":4,"summary":"Penny turns to see the dripping dead man smiling; her lantern dies."},
+{"start":16,"type":"hides","fine":"keeps a secret","actor":"PENNY","target":null,"mood":"ominous","intensity":3,"summary":"The beam flashes, Ezra vanishes, and Penny clutches the radio and counts."}
+],
+"s00661": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ODELIA","target":"NERI","mood":"playful","intensity":2,"summary":"Five teens break into a planetarium gift shop and joke nervously about the quiet."},
+{"start":17,"type":"discovers","fine":"notices","actor":"COLM","target":"NERI","mood":"suspense","intensity":3,"summary":"A hum from the dome unsettles them; Neri brightly accepts explanations."},
+{"start":25,"type":"arrives","fine":"makes an entrance","actor":"GREGORY","target":"NERI","mood":"ominous","intensity":4,"summary":"Isaiah opens the curtain and Neri's father, thought absent, greets them from the projector."},
+{"start":37,"type":"reveals","fine":"shows","actor":"GREGORY","target":"ISAIAH","mood":"hopeful","intensity":3,"summary":"The projector fills the dome with impossible stars and Gregory tells them to sit."}
+],
+"s00147": [
+{"start":1,"type":"works","fine":"writes","actor":"SOLVEIG","target":null,"mood":"calm","intensity":2,"summary":"Exhausted Solveig logs a repeating signal and plays back her earlier recordings."},
+{"start":17,"type":"discovers","fine":"realizes","actor":"SOLVEIG","target":null,"mood":"ominous","intensity":3,"summary":"The pulse interval shortens, and the pulse continues from her recorder after she stops it."},
+{"start":36,"type":"confronts","fine":"faces off with","actor":"SOLVEIG","target":null,"mood":"fear","intensity":5,"summary":"The recorder answers her hello and calls her to come; she drops it and refuses."},
+{"start":53,"type":"comforts","fine":"calms","actor":"SOLVEIG","target":null,"mood":"calm","intensity":2,"summary":"The pulse fades, the signal turns ordinary, and Solveig finds her tea warm."}
+],
+"s01235": [
+{"start":1,"type":"bonds","fine":"reminisces with","actor":"FRANKIE","target":"MEI-LING","mood":"bittersweet","intensity":2,"summary":"Six regulars hold a wake for Gus, trading small memories and laughing quietly."},
+{"start":26,"type":"bonds","fine":"shares a moment with","actor":"FRANKIE","target":"RUFUS","mood":"melancholy","intensity":2,"summary":"Frankie and Rufus say they will miss Gus together, startled by the echo."}
+],
+"s00239": [
+{"start":1,"type":"decides","fine":"makes a plan","actor":"AELFWYN","target":"GRIM","mood":"tense","intensity":2,"summary":"Four travelers plan to cross a bridge of bones, bickering about fog and risk."},
+{"start":24,"type":"discovers","fine":"notices","actor":"AELFWYN","target":null,"mood":"fear","intensity":4,"summary":"A gust halts them midway; something large exhales in the fog below."},
+{"start":40,"type":"flees","fine":"runs","actor":"AELFWYN","target":null,"mood":"chaotic","intensity":3,"summary":"The wind drops and they sprint across the ringing bones to the far cliff."},
+{"start":48,"type":"bonds","fine":"teams up with","actor":"AELFWYN","target":"GRIM","mood":"hopeful","intensity":2,"summary":"Safe on grass, Aelfwyn hauls Grim up and the four set off down the road."}
+],
+"s01269": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"HORATIO","target":null,"mood":"awkward","intensity":2,"summary":"Five employees wait for a forced huddle in a beige office under bright intercom cheer."},
+{"start":20,"type":"reveals","fine":"breaks news to","actor":"HORATIO","target":"REGGIE","mood":"tense","intensity":3,"summary":"Horatio announces twelve percent efficiencies; Brigitte admits she does not know what they do."},
+{"start":40,"type":"confronts","fine":"challenges","actor":"DEZ","target":"REGGIE","mood":"playful","intensity":2,"summary":"Staff realize they produce no product, as Dez needles Reggie."},
+{"start":50,"type":"arrives","fine":"makes an entrance","actor":"CRANSTON-LEE","target":"HORATIO","mood":"ominous","intensity":3,"summary":"Regional VP Cranston-Lee appears unannounced, interrogates tenure, and says none have produced a claim."},
+{"start":83,"type":"reveals","fine":"drops a bombshell on","actor":"CRANSTON-LEE","target":"HORATIO","mood":"playful","intensity":3,"summary":"He smiles and demands twelve percent more nothing; the staff toast to nothing."}
+],
+"s01330": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"BEANS","target":"GRAN ODALYS","mood":"playful","intensity":2,"summary":"Gran and Beans wait in the stalled ice cream truck, bickering about dials and wrenches."},
+{"start":19,"type":"confesses","fine":"opens up to","actor":"BEANS","target":"GRAN ODALYS","mood":"tender","intensity":3,"summary":"Beans admits he only got to be the tree; Gran says trees hold the stage up."},
+{"start":33,"type":"jokes","fine":"amuses","actor":"BEANS","target":"GRAN ODALYS","mood":"joyful","intensity":2,"summary":"Beans notes her purse dripping, and they laugh about the pistachio ice cream."}
+],
+"s01421": [
+{"start":1,"type":"observes","fine":"waits","actor":"TUCKER","target":"ISAAC","mood":"tense","intensity":2,"summary":"Tucker and Isaac wait in the salt flats; Tucker bluntly demands water."},
+{"start":27,"type":"jokes","fine":"banters with","actor":"BILLIE","target":"TUCKER","mood":"playful","intensity":2,"summary":"Billie brings jerky and trades dry banter while they wait for a late man with a wagon."},
+{"start":62,"type":"observes","fine":"keeps watch","actor":"TUCKER","target":"ISAAC","mood":"suspense","intensity":3,"summary":"A dust smudge appears; they watch it and Tucker says nobody acts until he says."},
+{"start":74,"type":"hides","fine":"lies low","actor":"BILLIE","target":null,"mood":"calm","intensity":1,"summary":"The dust dies away and the three settle back to wait."}
+],
+"s01660": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"INEZ","target":null,"mood":"ominous","intensity":2,"summary":"Detective Inez enters a carousel factory where Carmine, Dorothea, Vlad and Reggie wait tensely."},
+{"start":17,"type":"confronts","fine":"interrogates","actor":"INEZ","target":"CARMINE","mood":"tense","intensity":3,"summary":"Inez presses Carmine about a missing girl and a pony he carved for her."},
+{"start":28,"type":"defends","fine":"covers for","actor":"DOROTHEA","target":"CARMINE","mood":"tense","intensity":3,"summary":"Dorothea defends her gentle carver while Vlad fidgets and Inez notices."},
+{"start":39,"type":"discovers","fine":"finds a clue","actor":"INEZ","target":"CARMINE","mood":"suspense","intensity":4,"summary":"Inez finds a grey pony inscribed For Wren, and silence falls."},
+{"start":50,"type":"flees","fine":"bolts","actor":"REGGIE","target":"INEZ","mood":"chaotic","intensity":4,"summary":"Reggie bolts into the rain with Vlad chasing; Carmine blocks Inez's gun."},
+{"start":60,"type":"confesses","fine":"unburdens to","actor":"CARMINE","target":"INEZ","mood":"ominous","intensity":4,"summary":"Carmine points to the attic trapdoor where the girl waits, and Inez climbs."}
+],
+"s01422": [
+{"start":1,"type":"works","fine":"prepares","actor":"LENORE","target":"RUFUS","mood":"tense","intensity":2,"summary":"Lenore learns by phone that the hearing moved earlier."},
+{"start":11,"type":"comforts","fine":"reassures","actor":"LENORE","target":"RUFUS","mood":"tense","intensity":3,"summary":"Lenore tells nervous Rufus to say nothing and promises she will object."}
+],
+"s01697": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"AMARA","target":"WOJTEK","mood":"calm","intensity":2,"summary":"Dr. Amara and Nurse Wojtek quietly chart and check incubators at three a.m."},
+{"start":21,"type":"works","fine":"works","actor":"AMARA","target":null,"mood":"fear","intensity":5,"summary":"A baby flatlines and they perform compressions and medication until a heartbeat returns."},
+{"start":38,"type":"comforts","fine":"steadies","actor":"WOJTEK","target":"AMARA","mood":"bittersweet","intensity":2,"summary":"Shaken, they trade a look; Wojtek sits and Amara writes the chart."}
+],
+"s01652": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"CHIARA","target":"OLD MAN","mood":"tender","intensity":2,"summary":"Chiara takes the spoon from her father and corrects his sauce."},
+{"start":22,"type":"jokes","fine":"charms","actor":"LUCA","target":"OLD MAN","mood":"playful","intensity":2,"summary":"Luca bursts in with a one-antler reindeer and Nonno calls it brave."},
+{"start":36,"type":"bonds","fine":"shares a moment with","actor":"SABINA","target":"ENZO","mood":"bittersweet","intensity":3,"summary":"Sabina scolds Enzo's supervising, touches his cheek, and he speaks of his illness."},
+{"start":61,"type":"jokes","fine":"lightens the mood for","actor":"SABINA","target":"CHIARA","mood":"joyful","intensity":3,"summary":"Sabina tells weeping Chiara to cry on the pasta; all laugh as singing starts."}
+],
+"s01404": [
+{"start":1,"type":"lies","fine":"fakes it with","actor":"MOE","target":"ZOFIA","mood":"tense","intensity":2,"summary":"Moe deals cards, calling Zofia sweetheart; she bristles at his patronizing tone."},
+{"start":18,"type":"reveals","fine":"presents evidence to","actor":"ZOFIA","target":"MOE","mood":"suspense","intensity":3,"summary":"Zofia plays a recording of Moe pinning the Kessler job on her; he laughs."}
+],
+"s01446": [
+{"start":1,"type":"mocks","fine":"needles","actor":"MISS CROFT","target":"EUNICE","mood":"playful","intensity":2,"summary":"Supervisor Croft corrects Eunice while an impatient caller complains of delay."},
+{"start":20,"type":"works","fine":"works","actor":"EUNICE","target":"MISS CROFT","mood":"calm","intensity":1,"summary":"Eunice connects the call and earns Miss Croft's faint approval."}
+],
+"s01472_1": [
+{"start":1,"type":"decides","fine":"makes a plan","actor":"MOUSE","target":"TOBIAS","mood":"tense","intensity":2,"summary":"The crew creeps through a salt mine, settling that drilling the vault wall is too loud."},
+{"start":12,"type":"flees","fine":"hides from","actor":"RAFF","target":null,"mood":"suspense","intensity":4,"summary":"Raff spots an automated ore train and they hide behind a cart as its beam searches."},
+{"start":30,"type":"flees","fine":"escapes","actor":"RAFF","target":null,"mood":"tense","intensity":3,"summary":"The track switches, the train recedes, and the crew hurries on."}
+],
+"s01734": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"MIRELLE","target":"CASSIAN","mood":"tense","intensity":3,"summary":"Security guard Mirelle questions Cassian about a ticking suitcase he does not remember packing."},
+{"start":19,"type":"reveals","fine":"unmasks","actor":"OBADIAH","target":"MIRELLE","mood":"ominous","intensity":4,"summary":"Janitor Obadiah says he cut the radio line and drops his act."},
+{"start":33,"type":"reveals","fine":"drops a bombshell on","actor":"OBADIAH","target":"CASSIAN","mood":"ominous","intensity":4,"summary":"Mirelle draws her gun; Obadiah says they share a past flight; a red shoe rides the carousel."}
+],
+"s01772": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"SILAS","target":"HOBART","mood":"tense","intensity":3,"summary":"Keeper Silas bristles as inspector Hobart climbs through a gale to check his lamp."},
+{"start":11,"type":"observes","fine":"takes it in","actor":"THADDEUS","target":null,"mood":"awkward","intensity":2,"summary":"Silas offers tea, Hobart refuses to sit, and Thaddeus lights the stove as the beam sweeps."}
+],
+"s02406": [
+{"start":1,"type":"observes","fine":"hesitates","actor":"MRS. HARGREAVE","target":null,"mood":"suspense","intensity":3,"summary":"Mrs. Hargreave hears the dumbwaiter rope creak in the silent kitchen."},
+{"start":10,"type":"discovers","fine":"recognizes","actor":"MRS. HARGREAVE","target":"VOICE","mood":"fear","intensity":4,"summary":"A voice calls her name from the shaft and the hatch opens on its own."},
+{"start":21,"type":"reveals","fine":"comes clean to","actor":"MRS. HARGREAVE","target":"PEMBERTON","mood":"ominous","intensity":4,"summary":"Dr. Pemberton arrives and she says her husband is in the wall; the gas dies."}
+],
+"s02127": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"STRANGER","target":"ANNIKA","mood":"tense","intensity":3,"summary":"A frosted stranger drags a sled to the stranded whaler and asks for warmth."},
+{"start":17,"type":"bonds","fine":"trusts","actor":"ANNIKA","target":"HOLLIS","mood":"tender","intensity":2,"summary":"Annika lowers her rifle and the crew take him in and feed him."},
+{"start":35,"type":"jokes","fine":"lightens the mood for","actor":"HOLLIS","target":"OLEG","mood":"bittersweet","intensity":2,"summary":"Hollis says the coast is two weeks away, dryly joking they have had supper."}
+],
+"s01273": [
+{"start":1,"type":"pleads","fine":"implores","actor":"ABIGAIL","target":"HOLLIS","mood":"tense","intensity":2,"summary":"Widow Abigail insists on seeing her husband's body in the embalming room."},
+{"start":24,"type":"discovers","fine":"notices","actor":"ABIGAIL","target":null,"mood":"ominous","intensity":3,"summary":"She touches the body's cheek and says he is warm."},
+{"start":33,"type":"discovers","fine":"realizes","actor":"HOLLIS","target":"MARGUERITE","mood":"fear","intensity":5,"summary":"The corpse's chest rises, Hollis finds no pulse, and the body whispers Abigail."},
+{"start":55,"type":"leaves","fine":"walks out on","actor":"ABIGAIL","target":"SEUN","mood":"ominous","intensity":4,"summary":"Abigail rises smiling to answer, the lights die, and the body vanishes with her."}
+],
+"s01861": [
+{"start":1,"type":"arrives","fine":"arrives","actor":"JUNE","target":"OSCAR","mood":"calm","intensity":1,"summary":"June climbs a rooftop water tower at dawn and startles when Oscar appears."},
+{"start":17,"type":"jokes","fine":"banters with","actor":"OSCAR","target":"JUNE","mood":"playful","intensity":2,"summary":"Oscar claims he arrived first and offers her iced coffee in November."},
+{"start":33,"type":"leaves","fine":"excuses themself","actor":"OSCAR","target":"JUNE","mood":"hopeful","intensity":2,"summary":"Oscar's sister calls him home; they agree to meet again tomorrow."}
+],
+"s00310": [
+{"start":1,"type":"reveals","fine":"breaks news to","actor":"YUSUF","target":"HELENA","mood":"tense","intensity":3,"summary":"Commander Yusuf reports oxygen for four days against nine days to relief."},
+{"start":17,"type":"comforts","fine":"consoles","actor":"IRIS","target":"YUSUF","mood":"bittersweet","intensity":3,"summary":"Iris admits they are not fine; Helena holds her hand while Tomasz stares."}
+],
+"s01642": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"MORDECAI","target":"GINA","mood":"chaotic","intensity":3,"summary":"Customers, a cop and a doorman argue in the pawnshop closing sale."},
+{"start":18,"type":"confronts","fine":"stares down","actor":"ROSALIND","target":"MORDECAI","mood":"chaotic","intensity":3,"summary":"Rosalind flashes her badge; Trey smashes the case and bolts with the ring."}
+],
+"s02242": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"ORRIN","target":"PAVLINA","mood":"tense","intensity":3,"summary":"Halcyon reveals an unregistered crew member and Orrin demands who she is."},
+{"start":16,"type":"reveals","fine":"comes clean to","actor":"PAVLINA","target":"ORRIN","mood":"ominous","intensity":4,"summary":"Pavlina, a dismissed engineer, says the reactor will blow in four hours."},
+{"start":31,"type":"bonds","fine":"teams up with","actor":"PAVLINA","target":"ORRIN","mood":"hopeful","intensity":3,"summary":"Orrin accepts her help and she opens the bulkhead onto the pulsing reactor core."}
+]
+}

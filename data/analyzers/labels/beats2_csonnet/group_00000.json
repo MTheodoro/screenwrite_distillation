@@ -1,0 +1,152 @@
+{
+"s05000": [
+{"start":1,"type":"observes","fine":"scans the room","actor":"PRIYA","target":"HOODIE GUY","mood":"tense","intensity":2,"summary":"Priya wraps her hands in the near-empty gym while Reeve warns and a hooded stranger sits still."},
+{"start":10,"type":"confronts","fine":"presses","actor":"PRIYA","target":"COACH REEVE","mood":"tense","intensity":2,"summary":"Priya presses Coach Reeve about the stranger and gets a cryptic lecture on waiting."},
+{"start":14,"type":"arrives","fine":"makes an entrance","actor":"HOODIE GUY","target":"PRIYA","mood":"tense","intensity":3,"summary":"The door slams, the hooded man stands and reveals himself as Desmond, back after two years."},
+{"start":24,"type":"accuses","fine":"calls out","actor":"PRIYA","target":"COACH REEVE","mood":"hostile","intensity":3,"summary":"Priya, stung, lashes out at the room and learns Coach Reeve knew Desmond would return."},
+{"start":27,"type":"confesses","fine":"opens up to","actor":"DESMOND","target":"PRIYA","mood":"bittersweet","intensity":4,"summary":"Desmond invites her anger; Priya admits she rehearsed hitting him but only wants to know he ate."},
+{"start":32,"type":"bonds","fine":"reconnects with","actor":"PRIYA","target":"DESMOND","mood":"tender","intensity":3,"summary":"Reeve restarts training and Priya tosses Desmond a roll of tape, which he catches."}
+],
+"s05001": [
+{"start":1,"type":"hides","fine":"conceals something","actor":"JUNO","target":null,"mood":"tense","intensity":2,"summary":"On the last night bus, Juno clutches a gym bag of cash beside sleeping Bernie."},
+{"start":10,"type":"jokes","fine":"teases","actor":"SAM","target":"JUNO","mood":"playful","intensity":2,"summary":"Sam teases nervous Juno about the bag; she whispers for Sam to stop being charming."},
+{"start":20,"type":"discovers","fine":"catches","actor":"JUNO","target":"SAM","mood":"chaotic","intensity":3,"summary":"A pothole spills cash into the aisle; Juno and Sam collide scrambling, and Bernie wryly shrugs it off."},
+{"start":30,"type":"reveals","fine":"shows","actor":"SAM","target":"JUNO","mood":"ominous","intensity":3,"summary":"Sam shows Juno a news alert about the bank robbery; Juno sinks, calls for Plan B."},
+{"start":37,"type":"observes","fine":"takes it in","actor":"SAM","target":null,"mood":"bittersweet","intensity":3,"summary":"Blue lights ahead, Sam jokes about being an accomplice while Bernie asks to be woken at the courthouse."}
+],
+"s05002": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"HARRIET","target":"GILES","mood":"melancholy","intensity":2,"summary":"Harriet and Giles trade dry small talk over tea at their father's funeral reception."},
+{"start":15,"type":"arrives","fine":"drifts in","actor":"THIN WOMAN","target":null,"mood":"awkward","intensity":2,"summary":"A dripping stranger appears at the door and Giles and Harriet wonder who she is."},
+{"start":20,"type":"reveals","fine":"comes clean to","actor":"MARGARET","target":"HARRIET","mood":"tense","intensity":4,"summary":"Margaret introduces herself as the father's partner of nineteen years, shocking the family."},
+{"start":38,"type":"confronts","fine":"faces off with","actor":"NELL","target":"GILES","mood":"tense","intensity":3,"summary":"Giles and Harriet bristle, tea overflowing, as Nell demands they stop and refuses to leave."},
+{"start":43,"type":"reveals","fine":"presents evidence to","actor":"MARGARET","target":"HARRIET","mood":"suspense","intensity":3,"summary":"Margaret hands over the father's posthumous envelope; Harriet takes it and sends Giles for tea."},
+{"start":55,"type":"discovers","fine":"realizes","actor":"HARRIET","target":null,"mood":"hostile","intensity":4,"summary":"Harriet reads the letter and calmly announces he has left Margaret the house."}
+],
+"s05003": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"MAYA","target":"LUCAS","mood":"melancholy","intensity":2,"summary":"On her father's trawler at dawn, Maya films Lucas, who curtly refuses to say hi."},
+{"start":18,"type":"discovers","fine":"realizes","actor":"MAYA","target":"JESS","mood":"fear","intensity":3,"summary":"Messages and a call from Jess reveal Maya's dock video of her father has gone viral."},
+{"start":42,"type":"deflects","fine":"stonewalls","actor":"MAYA","target":"LUCAS","mood":"tense","intensity":3,"summary":"Lucas asks who called; Maya says nobody and ends the call as neighboring crews chant mockingly."},
+{"start":55,"type":"confronts","fine":"demands answers from","actor":"LUCAS","target":"MAYA","mood":"tense","intensity":4,"summary":"Lucas asks how long she knew; Maya confesses she posted it, hoping people would see."},
+{"start":73,"type":"threatens","fine":"looms over","actor":"LUCAS","target":"MAYA","mood":"suspense","intensity":4,"summary":"Lucas demands her phone and holds it over the rail while she begs him not to."},
+{"start":85,"type":"bonds","fine":"teams up with","actor":"LUCAS","target":"MAYA","mood":"hopeful","intensity":4,"summary":"Lucas asks her to help him change the story; they film themselves together."}
+],
+"s05004": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"WINIFRED","target":null,"mood":"calm","intensity":2,"summary":"The Lawson household and neighbour Dolores gather by candlelight during a power cut."},
+{"start":10,"type":"jokes","fine":"riffs with","actor":"ARTHUR","target":"DOLORES","mood":"playful","intensity":2,"summary":"Arthur rants about the neighbourhood's ancient grid while Dolores and Winifred tease him."},
+{"start":21,"type":"discovers","fine":"notices","actor":"RIVER","target":"WINIFRED","mood":"joyful","intensity":3,"summary":"River's phone flickers alive with a text from Mum; Winifred laughs and the lights return."}
+],
+"s05005": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"JONAH","target":"ODALYS","mood":"awkward","intensity":2,"summary":"Jonah waits in the back room; Odalys arrives and they hug awkwardly as online friends."},
+{"start":8,"type":"arrives","fine":"drifts in","actor":"TAMSIN","target":"JONAH","mood":"awkward","intensity":2,"summary":"Nervous Tamsin hovers in the doorway and is welcomed in by Jonah and Odalys."},
+{"start":14,"type":"arrives","fine":"makes an entrance","actor":"RAFE","target":null,"mood":"bittersweet","intensity":3,"summary":"Rafe, changed and on a cane, joins them; everyone laughs too hard and admits nearly not coming."},
+{"start":28,"type":"decides","fine":"commits","actor":"ODALYS","target":"JONAH","mood":"tense","intensity":3,"summary":"Odalys insists they discuss March's incident and Tamsin sits first to begin."}
+],
+"s05006": [
+{"start":1,"type":"observes","fine":"spies on","actor":"KENJI","target":"JAMAL","mood":"suspense","intensity":3,"summary":"Kenji films a commuter on a rush-hour train, narrating his daily routine in whispers."},
+{"start":18,"type":"accuses","fine":"calls out","actor":"KENJI","target":"JAMAL","mood":"tense","intensity":4,"summary":"Kenji tells Jamal his hand is on his sister's bag; Jamal brushes it off."},
+{"start":29,"type":"attacks","fine":"lunges at","actor":"JAMAL","target":"KENJI","mood":"chaotic","intensity":5,"summary":"Kenji demands Jamal repeat it on camera; Jamal lunges and the car erupts into chaos."}
+],
+"s05007": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"PETROV","target":null,"mood":"suspense","intensity":3,"summary":"At the esports finals the match ends on a glitch and officials halt the broadcast."},
+{"start":14,"type":"searches","fine":"investigates","actor":"SOYINKA","target":"HOODIE PLAYER","mood":"tense","intensity":3,"summary":"Officials trace the fault to station four, registered under a handle, as the panel files up."},
+{"start":20,"type":"reveals","fine":"unmasks","actor":"DANTE","target":"PETROV","mood":"suspense","intensity":4,"summary":"The hooded player unmasks as Dante Vasquez; Soyinka finds the patch carries his signature."},
+{"start":29,"type":"confesses","fine":"comes clean to","actor":"DANTE","target":"PETROV","mood":"tense","intensity":3,"summary":"Dante hands Petrov a drive with all evidence; Petrov orders everyone to proceed by the book."}
+],
+"s05009": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"CROWE","target":"ROSALIND","mood":"tense","intensity":3,"summary":"Marshal Crowe demands papers from armed Rosalind at the gate and she coolly refuses."},
+{"start":13,"type":"discovers","fine":"realizes","actor":"CROWE","target":"ROSALIND","mood":"suspense","intensity":3,"summary":"A phone call from the sheriff orders Crowe to hold Rosalind on a triple warrant."},
+{"start":22,"type":"decides","fine":"changes course","actor":"CROWE","target":"ROSALIND","mood":"bittersweet","intensity":3,"summary":"Weary Crowe opens the gate, lets her pass, and tells the sheriff she never came."}
+],
+"s05010": [
+{"start":1,"type":"discovers","fine":"recognizes","actor":"PRIYA","target":"JAYDEN","mood":"awkward","intensity":3,"summary":"Priya waits for her chat group and learns Jayden is her half brother who lied about his age."},
+{"start":6,"type":"arrives","fine":"shows up unannounced","actor":"MOONBEAM","target":"PRIYA","mood":"playful","intensity":3,"summary":"Moonbeam and Devon arrive, all the chat friends turn out to be kids, and Priya shouts."},
+{"start":13,"type":"bonds","fine":"teams up with","actor":"JAYDEN","target":"PRIYA","mood":"joyful","intensity":3,"summary":"The group laughs it off; Jayden pays for garlic knots as a peace offering."}
+],
+"s05011": [
+{"start":1,"type":"pleads","fine":"asks for help from","actor":"THE WOMAN","target":"MO","mood":"tense","intensity":3,"summary":"A desperate woman begs Mo to triage her sick cat, and Sam steps out to help."},
+{"start":10,"type":"jokes","fine":"teases","actor":"SAM","target":"THE WOMAN","mood":"awkward","intensity":2,"summary":"Jen's ex-husband story prompts Sam's 'idiot' quip, exposing Mo and Sam's history."},
+{"start":19,"type":"accuses","fine":"turns on","actor":"MO","target":"SAM","mood":"hostile","intensity":4,"summary":"Sam offers Jen priority; Mo erupts, airing the couple's past failures in front of strangers."},
+{"start":27,"type":"arrives","fine":"makes an entrance","actor":"BIG DAVE","target":null,"mood":"awkward","intensity":2,"summary":"Big Dave and his bandaged golden retriever walk in on the argument."},
+{"start":32,"type":"confesses","fine":"owns up to","actor":"SAM","target":"MO","mood":"tender","intensity":4,"summary":"Sam admits she was scared and still is; Mo cracks and laughs through tears."},
+{"start":47,"type":"decides","fine":"makes a plan","actor":"MO","target":"SAM","mood":"hopeful","intensity":3,"summary":"Mo sends them to treat Biscuit and proposes coffee and honest talk afterward."}
+],
+"s05013": [
+{"start":1,"type":"observes","fine":"keeps watch","actor":"SAM","target":"JULES","mood":"ominous","intensity":3,"summary":"In a blackout kitchen, Sam and Jules realize the cut phone lines mean someone is watching."},
+{"start":8,"type":"decides","fine":"accepts","actor":"SAM","target":"JULES","mood":"suspense","intensity":3,"summary":"Jules kills the flashlight as headlights sweep; Sam says they sit and listen."}
+],
+"s05015": [
+{"start":1,"type":"works","fine":"prepares","actor":"RAY","target":"AVA","mood":"tense","intensity":3,"summary":"Before the finals begin, Ray steadies twelve-year-old Ava as the countdown ticks."},
+{"start":13,"type":"fights","fine":"fights","actor":"AVA","target":"STRANGER","mood":"chaotic","intensity":4,"summary":"The match starts; Ava battles a hooded rival while Grandpa Walt cheers over the phone."},
+{"start":32,"type":"reveals","fine":"unmasks","actor":"STRANGER","target":"RAY","mood":"tense","intensity":3,"summary":"The rival unmasks as Marcus Bell, Ray's old opponent, distracting Ray and angering Ava."},
+{"start":39,"type":"observes","fine":"waits","actor":"AVA","target":null,"mood":"suspense","intensity":4,"summary":"The final seconds count down and the big screen explodes in light."}
+],
+"s05016": [
+{"start":1,"type":"lies","fine":"covers a story for","actor":"KIT","target":"OKOYE","mood":"tense","intensity":3,"summary":"Kit and Leo invent an aunt for Officer Okoye and stumble over her name."},
+{"start":17,"type":"threatens","fine":"menaces","actor":"BRANDT","target":"KIT","mood":"suspense","intensity":4,"summary":"Brandt demands the trunk; Kit and Leo freeze while the dog watches."},
+{"start":28,"type":"reveals","fine":"shows","actor":"LEO","target":"BRANDT","mood":"joyful","intensity":3,"summary":"The trunk holds only a photo of the aunt; Okoye waves them through and they laugh."}
+],
+"s05018": [
+{"start":1,"type":"arrives","fine":"bursts in","actor":"FRANKIE","target":"PRIYA","mood":"playful","intensity":3,"summary":"Frankie bursts in with coffees, trips on a mop bucket, and greets unimpressed Officer Priya."},
+{"start":10,"type":"jokes","fine":"banters with","actor":"FRANKIE","target":"PRIYA","mood":"playful","intensity":3,"summary":"Frankie flirts and flounders; coffees splat, his chair collapses, and Priya notes it for the report."},
+{"start":26,"type":"bonds","fine":"charms","actor":"FRANKIE","target":"PRIYA","mood":"tender","intensity":2,"summary":"Frankie hands over a soggy hot dog receipt and coaxes a smile from Priya."},
+{"start":39,"type":"leaves","fine":"exits quietly","actor":"FRANKIE","target":"PRIYA","mood":"joyful","intensity":3,"summary":"Guards interrupt; Priya sends Frankie off, he clangs into the bucket, and she keeps his receipt."}
+],
+"s05019": [
+{"start":1,"type":"observes","fine":"waits","actor":"TOM","target":"THE STRANGER","mood":"calm","intensity":2,"summary":"Tom and a silent stranger wait out a blackout in a midnight laundromat."},
+{"start":10,"type":"bonds","fine":"shares a moment with","actor":"TOM","target":"DANA","mood":"tender","intensity":2,"summary":"Tom offers his keyring can opener; she introduces herself as Dana and they share beans."},
+{"start":34,"type":"jokes","fine":"lightens the mood for","actor":"DANA","target":"TOM","mood":"hopeful","intensity":2,"summary":"The dryer stops; Dana jokes about warm towels and they laugh as a siren fades."}
+],
+"s05020": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"KIM","target":null,"mood":"suspense","intensity":3,"summary":"Kim watches a suspicious sedan while Kip on the phone tells her not to look."},
+{"start":18,"type":"lies","fine":"fakes it with","actor":"KIM","target":null,"mood":"tense","intensity":4,"summary":"The sedan driver approaches; Kip tells Kim to stall and she opens the window smiling."}
+],
+"s05022": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"DANA","target":"DAN","mood":"calm","intensity":2,"summary":"Officer Dana conducts a routine Zoom check-in with parolee Dan, who reports doing well."},
+{"start":11,"type":"discovers","fine":"catches","actor":"DANA","target":"DAN","mood":"tense","intensity":4,"summary":"Gus's GPS alert reveals Dan is near Fulton Street; a street sign confirms it and Dan stammers."}
+],
+"s05023": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"WEI","target":null,"mood":"tense","intensity":3,"summary":"During the tournament Wei, Jonas and Bianca run a heist and bicker about timing."},
+{"start":11,"type":"observes","fine":"spies on","actor":"BIANCA","target":"JONAS","mood":"suspense","intensity":3,"summary":"Bianca spots a man in a grey suit watching Jonas and not applauding."},
+{"start":19,"type":"decides","fine":"gives an order","actor":"JONAS","target":"WEI","mood":"suspense","intensity":4,"summary":"Jonas confirms the money is moving; Bianca reports the grey suit has vanished as the countdown reaches ten."}
+],
+"s05025": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"TESS","target":null,"mood":"melancholy","intensity":2,"summary":"Angry Tess stares out a rainy bus window, her own phone dead."},
+{"start":9,"type":"deflects","fine":"stonewalls","actor":"TESS","target":"LORNA","mood":"tense","intensity":3,"summary":"Tess hesitates, then answers her mother's phone and curtly admits she is on a bus."},
+{"start":24,"type":"accuses","fine":"blames","actor":"TESS","target":"LORNA","mood":"hostile","intensity":4,"summary":"Tess accuses Lorna of hiding her father's departure, then screams and smashes the phone."}
+],
+"s05026": [
+{"start":1,"type":"searches","fine":"rummages","actor":"POPPY","target":null,"mood":"playful","intensity":2,"summary":"In a blackout Poppy hunts for matches while concussed-looking Ben jokes about her risotto."},
+{"start":12,"type":"bonds","fine":"confides in","actor":"BEN","target":"POPPY","mood":"tender","intensity":3,"summary":"Poppy asks Ben to repeat his 'might be in love' confession, and she admits she feels the same."},
+{"start":22,"type":"arrives","fine":"bursts in","actor":"THE TWINS","target":"POPPY","mood":"joyful","intensity":3,"summary":"Poppy's nieces burst in with a candlelit cake and matches, surprising everyone."},
+{"start":32,"type":"bonds","fine":"shares a moment with","actor":"POPPY","target":"BEN","mood":"tender","intensity":3,"summary":"Poppy and Ben lean over the candles for a wish before the twins blow them out."}
+],
+"s05028": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"MO","target":"BIG DAVE","mood":"playful","intensity":2,"summary":"Mo narrates the studio to a documentary camera while Big Dave teases him about a ghost."},
+{"start":11,"type":"arrives","fine":"bursts in","actor":"THE WOMAN","target":"MO","mood":"tense","intensity":3,"summary":"A dripping stranger slams in demanding a 1994 session tape and they stonewall her."},
+{"start":24,"type":"reveals","fine":"presents evidence to","actor":"LOU","target":"BIG DAVE","mood":"ominous","intensity":4,"summary":"She sets down a cassette marked do not play; Big Dave recognizes Lou Calder and she demands they record."},
+{"start":28,"type":"works","fine":"prepares","actor":"MO","target":null,"mood":"fear","intensity":4,"summary":"Mo starts the machine; an eerie unknown-language voice plays and the camera drops."}
+],
+"s05029": [
+{"start":1,"type":"works","fine":"prepares","actor":"SUNNY","target":"MEL","mood":"playful","intensity":2,"summary":"Sunny rallies the protest team, quibbling over permit times while a hooded man watches."},
+{"start":17,"type":"accuses","fine":"suspects","actor":"RHEA","target":"HOODIE GUY","mood":"playful","intensity":2,"summary":"The team jokingly speculates the hooded stranger is a cop."},
+{"start":25,"type":"reveals","fine":"comes clean to","actor":"ANSEL","target":"SUNNY","mood":"tense","intensity":3,"summary":"The hoodie man is Ansel, the water board leak, with more documents and a need to talk."},
+{"start":33,"type":"decides","fine":"gives an order","actor":"SUNNY","target":"RHEA","mood":"hopeful","intensity":2,"summary":"Sunny delegates tasks and leaves with Ansel for five minutes, as Rhea teases."}
+],
+"s05031": [
+{"start":1,"type":"threatens","fine":"warns","actor":"ORSOLYA","target":"BRAM","mood":"ominous","intensity":3,"summary":"Orsolya tells Bram his dead uncle owed her his shadow and points to the coffin's odd shadow."},
+{"start":15,"type":"discovers","fine":"notices","actor":"BRAM","target":null,"mood":"fear","intensity":4,"summary":"Candles bend and a voice mimics Bram's tone as Orsolya warns him not to answer."},
+{"start":24,"type":"pleads","fine":"asks for help from","actor":"BRAM","target":"ORSOLYA","mood":"suspense","intensity":4,"summary":"Bram asks how to stop it; Orsolya says pay what is owed as the shadow lifts."}
+],
+"s05032_0": [
+{"start":1,"type":"observes","fine":"scans the room","actor":"NARRATOR","target":null,"mood":"ominous","intensity":2,"summary":"At a foggy dawn checkpoint, the narrator describes reading drivers as a grey hatchback approaches."}
+],
+"s05032_1": [
+{"start":1,"type":"lies","fine":"misleads","actor":"DELPHINE","target":"HALVORSEN","mood":"tense","intensity":3,"summary":"Delphine tells Halvorsen she is visiting her sister, ignoring a phone message and an empty booster seat."}
+],
+"s05032_2": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"HALVORSEN","target":"DELPHINE","mood":"calm","intensity":2,"summary":"Halvorsen waves Delphine through the barrier amid ordinary checkpoint bustle."},
+{"start":13,"type":"discovers","fine":"pieces it together","actor":"HALVORSEN","target":"DELPHINE","mood":"suspense","intensity":3,"summary":"Delphine's relieved text and the buckled empty booster seat make Halvorsen close the barrier."},
+{"start":31,"type":"confronts","fine":"corners","actor":"HALVORSEN","target":"DELPHINE","mood":"tense","intensity":4,"summary":"Halvorsen and Kestrel order Delphine out; she grips the wheel and reverses."},
+{"start":47,"type":"discovers","fine":"recognizes","actor":"DELPHINE","target":null,"mood":"fear","intensity":4,"summary":"A distant child's cry from a truck stuns Delphine; Halvorsen asks whose child it is as the engine dies."}
+]
+}

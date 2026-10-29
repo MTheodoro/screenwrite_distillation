@@ -1,0 +1,26 @@
+{
+  "scene_id": "s05150_1",
+  "cast": {"THE WOMAN": "THE WOMAN", "INTERCOM": "ODELL", "ODELL": "ODELL", "Odell": "ODELL"},
+  "beats": [1, 3, 4, 5, 7, 8, 12, 15, 18],
+  "lines": {
+    "1": {"t": "A", "who": ["THE WOMAN"], "emo": {}, "c": 0.8},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "3": {"t": "A", "who": ["THE WOMAN"], "emo": {}, "c": 0.8},
+    "4": {"to": ["THE WOMAN"], "emo": ["neutral", 0.2], "c": 0.95},
+    "5": {"t": "A", "who": ["THE WOMAN"], "emo": {}, "c": 0.95},
+    "6": {"to": ["ODELL"], "emo": ["surprise", 0.3], "c": 0.95},
+    "7": {"to": ["THE WOMAN"], "emo": ["neutral", 0.2], "c": 0.95},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "9": {"t": "A", "who": ["THE WOMAN"], "emo": {}, "c": 0.5},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.7},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "12": {"t": "A", "who": ["THE WOMAN"], "emo": {}, "c": 0.5},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.9}
+  }
+}

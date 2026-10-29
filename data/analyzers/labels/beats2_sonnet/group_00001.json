@@ -1,0 +1,144 @@
+{
+"s01837": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"MAX","target":"DESMOND","mood":"calm","intensity":1,"summary":"Max, grandson Desmond and aide Flo sit in a sleepy rec hall."},
+{"start":9,"type":"jokes","fine":"teases","actor":"MAX","target":"DESMOND","mood":"playful","intensity":2,"summary":"Max nudges Desmond to answer the wall phone, announcing a delivery."},
+{"start":33,"type":"arrives","fine":"makes an entrance","actor":"MOVER","target":"MAX","mood":"suspense","intensity":3,"summary":"Movers wheel in a crate and unveil a vintage motorcycle Max once owned."},
+{"start":47,"type":"confronts","fine":"demands answers from","actor":"FLO","target":"MOVER","mood":"hopeful","intensity":3,"summary":"Flo and Desmond object to riding; the sender is revealed as late Harlan."},
+{"start":70,"type":"decides","fine":"commits","actor":"MAX","target":"FLO","mood":"joyful","intensity":4,"summary":"Max rises, dons the helmet, mounts the bike and unhooks her oxygen."},
+{"start":87,"type":"comforts","fine":"tends to","actor":"FLO","target":"MAX","mood":"bittersweet","intensity":3,"summary":"The bike has no key; Max laughs into a cough and asks to sit a while."}
+],
+"s01384": [
+{"start":1,"type":"accuses","fine":"accuses","actor":"NINA","target":"ROLAND","mood":"hostile","intensity":3,"summary":"Armed Nina accuses Roland of selling her out; he says he did it for a roof."},
+{"start":16,"type":"arrives","fine":"makes an entrance","actor":"DUKE","target":"NINA","mood":"ominous","intensity":4,"summary":"Duke enters behind Nina, hand in coat, and says the bill has come due."}
+],
+"s01672": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"NELL","target":"MARGUERITE","mood":"tense","intensity":2,"summary":"Inspector Nell questions Marguerite and Alfred about a cracked owl base and a missing girl."},
+{"start":20,"type":"discovers","fine":"finds a clue","actor":"NELL","target":null,"mood":"suspense","intensity":3,"summary":"Nell lifts the heron's wing and finds a key in the feathers."}
+],
+"s01310": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"MARSHAL","target":"DUTCH","mood":"tense","intensity":4,"summary":"Marshal Crow and outlaw Dutch Malone face off across the dry riverbed."},
+{"start":17,"type":"pleads","fine":"implores","actor":"LILA","target":"MARSHAL","mood":"suspense","intensity":4,"summary":"Lila, brother to Dutch, begs Jed from offscreen; both men lower their guard slightly."},
+{"start":28,"type":"attacks","fine":"shoots at","actor":"MARSHAL","target":"DUTCH","mood":"chaotic","intensity":5,"summary":"Both men fire at once and both fall wounded."},
+{"start":37,"type":"comforts","fine":"tends to","actor":"LILA","target":"MARSHAL","mood":"grief","intensity":4,"summary":"Lila runs in and kneels between the fallen men, calling them idiots."}
+],
+"s01364": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"GUNNAR","target":null,"mood":"calm","intensity":2,"summary":"NICU staff check babies through the night while a mother keeps watch."},
+{"start":18,"type":"comforts","fine":"reassures","actor":"FATIMA","target":"MARIBEL","mood":"tender","intensity":3,"summary":"Maribel notes her baby moved his foot; staff reassure her it is good."},
+{"start":24,"type":"comforts","fine":"tends to","actor":"GUNNAR","target":"MARIBEL","mood":"tender","intensity":2,"summary":"Gunnar wipes the fog from the glass; Fatima writes a note with quiet concern."}
+],
+"s00894": [
+{"start":1,"type":"observes","fine":"waits","actor":"PRAKASH","target":"AALTO","mood":"calm","intensity":1,"summary":"Commander Prakash soaks her feet in the arboretum as Aalto and Banks join her."},
+{"start":17,"type":"confronts","fine":"presses","actor":"PRAKASH","target":"AALTO","mood":"tense","intensity":3,"summary":"Aalto reveals water reclamation is down nine percent, not four; forty years remain."},
+{"start":46,"type":"defends","fine":"pushes back on","actor":"PRAKASH","target":"MERIDIAN","mood":"melancholy","intensity":3,"summary":"Meridian proposes draining the arboretum; Prakash defends it as the passengers' sky."},
+{"start":56,"type":"persuades","fine":"pitches to","actor":"AALTO","target":"PRAKASH","mood":"ominous","intensity":4,"summary":"Aalto proposes waking some sleepers early to help the dying ship."},
+{"start":72,"type":"decides","fine":"decides","actor":"PRAKASH","target":null,"mood":"bittersweet","intensity":4,"summary":"Prakash picks an apple and orders the sleepers woken."}
+],
+"s00026": [
+{"start":1,"type":"threatens","fine":"intimidates","actor":"STASYS","target":"DONNIE","mood":"ominous","intensity":3,"summary":"Stasys smiles gently on his rooftop pigeon loft while discussing Donnie's debt."},
+{"start":13,"type":"reveals","fine":"shows","actor":"LEO","target":"DONNIE","mood":"fear","intensity":4,"summary":"Leo lifts his bucket, revealing a revolver and an envelope of cash."}
+],
+"s02393": [
+{"start":1,"type":"works","fine":"prepares","actor":"SOLVEIG","target":null,"mood":"tense","intensity":3,"summary":"Dr. Solveig runs a blizzard-bound ferry clinic and learns the plow is hours away."},
+{"start":16,"type":"decides","fine":"gives an order","actor":"SOLVEIG","target":"PRAKASH","mood":"tense","intensity":3,"summary":"Low on saline, Solveig triages patients and reads an unstable man's vitals."},
+{"start":32,"type":"discovers","fine":"notices","actor":"SOLVEIG","target":"PRAKASH","mood":"fear","intensity":3,"summary":"Prakash shows Solveig a young woman with a black-bruised arm who walked four miles."},
+{"start":45,"type":"comforts","fine":"reassures","actor":"SOLVEIG","target":"room","mood":"hopeful","intensity":3,"summary":"The lights flicker; Solveig steadies the room, then calls for the last bag as pressure drops."}
+],
+"s00467": [
+{"start":1,"type":"comforts","fine":"encourages","actor":"AGATHA","target":"BOY","mood":"calm","intensity":2,"summary":"Family breakfast: Agatha and Noelle urge the silent Boy to eat."},
+{"start":19,"type":"reveals","fine":"lets slip to","actor":"BOY","target":"NOELLE","mood":"ominous","intensity":4,"summary":"The Boy says he spoke to a man at the end of the hall; adults freeze."},
+{"start":29,"type":"deflects","fine":"changes the subject on","actor":"AGATHA","target":"table","mood":"ominous","intensity":3,"summary":"Agatha orders everyone to eat and resumes ladling in silence."}
+],
+"s00979": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"CALLOWAY","target":"suspects","mood":"playful","intensity":2,"summary":"Inspector Calloway questions suspects about the Duke's missing wax head."},
+{"start":17,"type":"searches","fine":"examines","actor":"CALLOWAY","target":"ZELENKA","mood":"playful","intensity":3,"summary":"Calloway targets Zelenka's lumpy turban and Marguerite's still veil, finding nothing."},
+{"start":26,"type":"reveals","fine":"comes clean to","actor":"PERCIVAL","target":"CALLOWAY","mood":"playful","intensity":3,"summary":"Percival laughs and admits the head is under the chaise, repair attempt gone wrong."}
+],
+"s01472_2": [
+{"start":1,"type":"works","fine":"works","actor":"MOUSE","target":null,"mood":"tense","intensity":3,"summary":"Tobias finds a buried door and Mouse sets up to crack it while Raff counts time."},
+{"start":15,"type":"discovers","fine":"notices","actor":"RAFF","target":"KITE","mood":"suspense","intensity":4,"summary":"Kite radios that a second cage is descending; Raff cuts Mouse's time."},
+{"start":27,"type":"works","fine":"works","actor":"MOUSE","target":null,"mood":"suspense","intensity":4,"summary":"Mouse cracks the door, they grab velvet cases, and an alarm blares as they run."}
+],
+"s02446": [
+{"start":1,"type":"arrives","fine":"is ushered in","actor":"HARLAN","target":"visitors","mood":"ominous","intensity":2,"summary":"Owner Harlan leads four stranded visitors through his dim wax museum."},
+{"start":14,"type":"discovers","fine":"notices","actor":"YVETTE","target":"HARLAN","mood":"fear","intensity":3,"summary":"Yvette finds the Lincoln figure warm; Harlan dismisses it as the lamp."},
+{"start":26,"type":"reveals","fine":"unmasks","actor":"HARLAN","target":"visitors","mood":"fear","intensity":5,"summary":"The Lincoln figure turns its head, Harlan's smile turns wrong, and the wax figures stir."}
+],
+"s00772": [
+{"start":1,"type":"hides","fine":"ducks out of sight","actor":"MAURA","target":"TIB","mood":"suspense","intensity":3,"summary":"Safecracker Maura hides from night manager Tib, who senses an intruder."},
+{"start":19,"type":"confronts","fine":"faces off with","actor":"TIB","target":"MAURA","mood":"tense","intensity":3,"summary":"Maura steps out; she and Tib circle, trading barbs about her dead brother."},
+{"start":36,"type":"attacks","fine":"fights","actor":"TIB","target":"MAURA","mood":"chaotic","intensity":4,"summary":"Tib lunges and they brawl among falling fish until a truck engine interrupts."},
+{"start":57,"type":"confesses","fine":"comes clean to","actor":"TIB","target":"MAURA","mood":"suspense","intensity":3,"summary":"Tib admits the safe's real owner is outside; they hide as the door handle turns."},
+{"start":78,"type":"decides","fine":"makes a plan","actor":"TIB","target":"MAURA","mood":"suspense","intensity":5,"summary":"Tib and Maura agree to jointly ambush the man at the door."}
+],
+"s01295": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"RENATA","target":null,"mood":"tense","intensity":2,"summary":"Attorney Renata is stuck between floors and calls maintenance, worried about court."},
+{"start":20,"type":"discovers","fine":"realizes","actor":"RENATA","target":"CLERK","mood":"joyful","intensity":3,"summary":"The judge says let her be late; Renata realizes she won and relaxes."}
+],
+"s02284": [
+{"start":1,"type":"works","fine":"works","actor":"MAN","target":null,"mood":"suspense","intensity":3,"summary":"A heist crew opens a panel in a shark tank tunnel on a tight clock."},
+{"start":10,"type":"observes","fine":"keeps watch","actor":"DESHAWN","target":null,"mood":"suspense","intensity":3,"summary":"A torch beam sweeps; they freeze, then cut the seal and take the pearl case."}
+],
+"s00321": [
+{"start":1,"type":"confronts","fine":"demands answers from","actor":"MABEL","target":"FELIX","mood":"tense","intensity":3,"summary":"Inspector Mabel demands Felix open a pickle barrel as Felix stalls with jokes."},
+{"start":19,"type":"persuades","fine":"bargains with","actor":"FELIX","target":"MABEL","mood":"playful","intensity":3,"summary":"Felix blocks the barrel and offers bagels as bribes; Mabel refuses."},
+{"start":30,"type":"discovers","fine":"notices","actor":"MABEL","target":"FELIX","mood":"suspense","intensity":3,"summary":"The lid thumps from inside; Felix presses it down and Mabel writes a note."}
+],
+"s00710": [
+{"start":1,"type":"observes","fine":"listens to","actor":"AGNES","target":null,"mood":"ominous","intensity":2,"summary":"An answering machine plays Agnes's voice in an empty hall before she enters."},
+{"start":12,"type":"discovers","fine":"recognizes","actor":"AGNES","target":null,"mood":"fear","intensity":4,"summary":"Agnes plays messages and recognizes her own young voice calling her mother."},
+{"start":28,"type":"reveals","fine":"lets slip to","actor":"AGNES","target":null,"mood":"ominous","intensity":3,"summary":"Agnes announces to the house that she's home; a door closes upstairs."}
+],
+"s01372": [
+{"start":1,"type":"works","fine":"works","actor":"BRIAR","target":"TAMSIN","mood":"tense","intensity":2,"summary":"Briar prunes glass trees at dusk while Tamsin anxiously holds the ladder."},
+{"start":23,"type":"arrives","fine":"shows up unannounced","actor":"KESTREL","target":"BRIAR","mood":"ominous","intensity":4,"summary":"Kestrel Vane appears; the chimes die and Briar disputes his claim to the orchard."},
+{"start":34,"type":"attacks","fine":"strikes","actor":"TAMSIN","target":"KESTREL","mood":"fear","intensity":4,"summary":"Tamsin's fist cracks the glass pear; it shatters and every tree screams."}
+],
+"s00693": [
+{"start":1,"type":"confronts","fine":"stares down","actor":"OTTILIE","target":"CALDER","mood":"ominous","intensity":2,"summary":"Ottilie challenges a doorman who shows her to an unsettling tower room."},
+{"start":13,"type":"reveals","fine":"breaks news to","actor":"CALDER","target":"OTTILIE","mood":"suspense","intensity":4,"summary":"Calder says the east wing guest has asked for her since Tuesday; a heavy tread approaches."}
+],
+"s00997": [
+{"start":1,"type":"observes","fine":"scans the room","actor":"ASHBY","target":null,"mood":"suspense","intensity":3,"summary":"At a masquerade, Ashby watches as guests seem to await his signal."},
+{"start":11,"type":"threatens","fine":"looms over","actor":"ASHBY","target":"MADAME DUPRE","mood":"tense","intensity":3,"summary":"Ashby taps his cane; guests scatter, Quentin bumps Madame Dupre, and Renwick blocks Siobhan."},
+{"start":29,"type":"confronts","fine":"corners","actor":"ASHBY","target":"PHILIPPA","mood":"tense","intensity":4,"summary":"Ashby reaches Philippa, a glass shatters, and he leads her into a dance."},
+{"start":47,"type":"hides","fine":"pockets evidence","actor":"SIOBHAN","target":null,"mood":"suspense","intensity":3,"summary":"As the music resumes, Siobhan quietly pockets a small gold key among the glass."}
+],
+"s01830": [
+{"start":1,"type":"observes","fine":"waits","actor":"LADY CORDELIA","target":null,"mood":"tense","intensity":3,"summary":"Family and solicitor sit at an untouched 1893 dinner as silence hangs."},
+{"start":26,"type":"observes","fine":"takes it in","actor":"HARGREAVES","target":"CAPTAIN VANE","mood":"suspense","intensity":3,"summary":"A phone call announces the constable at the gate; Captain Vane stands."},
+{"start":44,"type":"reveals","fine":"presents evidence to","actor":"FROST","target":"family","mood":"tense","intensity":4,"summary":"Frost reads the will; Vane insists on the second sheet, which pales everyone."},
+{"start":55,"type":"hides","fine":"covers up","actor":"LADY CORDELIA","target":null,"mood":"ominous","intensity":4,"summary":"Lady Cordelia burns the second sheet, then admits the constable only after tasting soup."}
+],
+"s01395": [
+{"start":1,"type":"works","fine":"prepares","actor":"TOMASZ","target":"DISPATCHER","mood":"suspense","intensity":3,"summary":"Ex-cop Tomasz retrieves a steel case in a clocktower on a dispatcher's orders."},
+{"start":18,"type":"discovers","fine":"notices","actor":"TOMASZ","target":null,"mood":"fear","intensity":4,"summary":"Warned someone knows he's there, Tomasz draws his pistol as a man climbs up."},
+{"start":31,"type":"reveals","fine":"unmasks","actor":"MIRA","target":"TOMASZ","mood":"hostile","intensity":5,"summary":"Mira emerges with a gun; Leonidas betrays Tomasz and the radio goes dead."}
+],
+"s00096": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"NADIRA","target":"crew","mood":"tense","intensity":3,"summary":"Habitat commander Nadira takes status as a seal leaks and sonar detects something big."},
+{"start":22,"type":"observes","fine":"takes it in","actor":"QUILL","target":null,"mood":"suspense","intensity":3,"summary":"The sonar contact vanishes as a deep note rolls through the hull."},
+{"start":35,"type":"discovers","fine":"recognizes","actor":"NADIRA","target":null,"mood":"joyful","intensity":3,"summary":"A vast eye passes the porthole; it is a sperm whale, and Nadira steadies herself."}
+],
+"s02069": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"WOMAN","target":"SCRIVENER","mood":"calm","intensity":2,"summary":"A veiled woman asks a scrivener to write a letter without giving her name."},
+{"start":22,"type":"reveals","fine":"shows","actor":"WOMAN","target":"SCRIVENER","mood":"ominous","intensity":3,"summary":"She lays down a ring that makes him recognize Messer Giuliano."},
+{"start":30,"type":"decides","fine":"commits","actor":"SCRIVENER","target":"WOMAN","mood":"melancholy","intensity":3,"summary":"She unveils and asks for a letter to arrive after her death; he begins writing."}
+],
+"s01413": [
+{"start":1,"type":"confronts","fine":"presses","actor":"LEOCADIA","target":"NORMAN","mood":"awkward","intensity":2,"summary":"Leocadia asks why her father Norman is at the laundromat at two a.m."},
+{"start":17,"type":"deflects","fine":"evades","actor":"NORMAN","target":"LEOCADIA","mood":"awkward","intensity":2,"summary":"Norman evades after being caught watching her apartment; she mentions leaving Friday."},
+{"start":34,"type":"bonds","fine":"shares a moment with","actor":"NORMAN","target":"LEOCADIA","mood":"tender","intensity":3,"summary":"He passes a sock; his tears surface as lint, and she laughs gently."},
+{"start":43,"type":"bonds","fine":"reconnects with","actor":"LEOCADIA","target":"NORMAN","mood":"tender","intensity":3,"summary":"They sit by the dryer and she rests her head on his shoulder."}
+],
+"s02054": [
+{"start":1,"type":"hides","fine":"masks a feeling","actor":"BEATRICE","target":"TEDDY","mood":"melancholy","intensity":2,"summary":"Beatrice serves Sunday dinner for two at a table set for eight."},
+{"start":21,"type":"accuses","fine":"blames","actor":"TEDDY","target":"BEATRICE","mood":"hostile","intensity":3,"summary":"Beatrice mentions his absent sister; Teddy snaps that her empty places are a stage set."},
+{"start":41,"type":"leaves","fine":"storms out","actor":"TEDDY","target":"BEATRICE","mood":"grief","intensity":4,"summary":"Teddy stands, defies her order to sit, and slams out leaving Beatrice alone."}
+],
+"s00541": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"VESPER","target":"RAHMAN","mood":"tense","intensity":3,"summary":"Counsel Vesper questions Rahman about the contract; Rahman notes page twenty does not exist."},
+{"start":23,"type":"accuses","fine":"charges","actor":"RAHMAN","target":"VESPER","mood":"hostile","intensity":4,"summary":"Rahman declares the filed contract a forgery; Vesper loses composure and looms over him."},
+{"start":36,"type":"accuses","fine":"exposes","actor":"MARCHAND","target":"VESPER","mood":"tense","intensity":4,"summary":"Marchand orders Vesper back and cites exhibit twelve's Tuesday metadata."},
+{"start":47,"type":"decides","fine":"gives an order","actor":"MARCHAND","target":"VESPER","mood":"bittersweet","intensity":3,"summary":"Rahman says he only wants honor; Marchand suspends the hearing and refers Vesper to the bar."}
+]
+}

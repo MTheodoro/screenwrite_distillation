@@ -1,0 +1,144 @@
+{
+"s01748": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"NADIA","target":"ELIAS","mood":"tense","intensity":2,"summary":"Attorney Nadia opens a deposition of Elias in a converted bowling alley."},
+{"start":20,"type":"accuses","fine":"charges","actor":"NADIA","target":"ELIAS","mood":"hostile","intensity":3,"summary":"Nadia presses Elias on lending eleven million of pension money to his own company."},
+{"start":36,"type":"reveals","fine":"presents evidence to","actor":"NADIA","target":"ELIAS","mood":"suspense","intensity":4,"summary":"Exhibit Nine shows his signed note to hide the transfer from trustees."},
+{"start":59,"type":"attacks","fine":"strikes","actor":"ELIAS","target":"NADIA","mood":"hostile","intensity":4,"summary":"Elias rises and slams the table; Nadia calmly notes he became agitated."},
+{"start":72,"type":"confesses","fine":"opens up to","actor":"ELIAS","target":"NADIA","mood":"melancholy","intensity":2,"summary":"Elias sits deflated, recalls being happy here, and asks her to repeat the question."}
+],
+"s00743": [
+{"start":1,"type":"observes","fine":"waits","actor":"NKIRU","target":null,"mood":"tense","intensity":2,"summary":"An elevator carrying two lawyers and a bailiff stalls; the judge phones demanding them."},
+{"start":20,"type":"persuades","fine":"negotiates with","actor":"NKIRU","target":"WYATT","mood":"hostile","intensity":2,"summary":"Trapped, Nkiru and Wyatt snipe about who made an offer; the bailiff would take it."},
+{"start":29,"type":"observes","fine":"takes it in","actor":"TOMASZ","target":null,"mood":"chaotic","intensity":2,"summary":"Lights return and the elevator drops with a lurch."}
+],
+"s00194_0": [
+{"start":1,"type":"persuades","fine":"pitches to","actor":"COLTON","target":"MAGGIE","mood":"awkward","intensity":2,"summary":"Drifter Colton asks Maggie for work and gets quizzed, jokes landing awkwardly."},
+{"start":26,"type":"decides","fine":"gives an order","actor":"MAGGIE","target":"ROSALIND","mood":"suspense","intensity":2,"summary":"Maggie hires him but quietly tells Beau to watch him over cut fence wires."}
+],
+"s01451": [
+{"start":1,"type":"confronts","fine":"faces off with","actor":"CONRAD","target":"HELENA","mood":"tense","intensity":2,"summary":"Conrad meets Helena in the dining car and they spar while a porter listens."},
+{"start":37,"type":"accuses","fine":"calls out","actor":"CONRAD","target":"HELENA","mood":"hostile","intensity":3,"summary":"Conrad accuses her of giving the Havilland papers to the Senator and slaps the table."},
+{"start":59,"type":"bonds","fine":"reconnects with","actor":"HELENA","target":"CONRAD","mood":"bittersweet","intensity":2,"summary":"Conrad sits and concedes she is smarter; she tells him to eat his oysters."}
+],
+"s01160": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"VELMA","target":"ELLWOOD","mood":"suspense","intensity":2,"summary":"Professor Ellwood senses someone on the stair; Velma from the Royal Society appears."},
+{"start":28,"type":"confronts","fine":"presses","actor":"VELMA","target":"ELLWOOD","mood":"tense","intensity":3,"summary":"Velma says he failed to report a comet and lays anonymous plates on the table."},
+{"start":40,"type":"confesses","fine":"admits guilt to","actor":"ELLWOOD","target":"VELMA","mood":"bittersweet","intensity":3,"summary":"Ellwood admits the comet moved the wrong way and his instruments were fine."},
+{"start":57,"type":"bonds","fine":"shares a moment with","actor":"ELLWOOD","target":"VELMA","mood":"calm","intensity":2,"summary":"He offers cold traditional tea and Velma laughs and accepts."}
+],
+"s01612": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"CASSIUS","target":null,"mood":"calm","intensity":1,"summary":"Cassius rides an empty school bus at dawn and chats briefly with the driver."},
+{"start":19,"type":"bonds","fine":"teams up with","actor":"WINNIE","target":"CASSIUS","mood":"tender","intensity":2,"summary":"Winnie sits across from Cassius and they admit being scared of the Calc exam."},
+{"start":42,"type":"bonds","fine":"shares a moment with","actor":"WINNIE","target":"CASSIUS","mood":"hopeful","intensity":2,"summary":"They quiz each other, and Cassius reveals he studied more than he said."}
+],
+"s02092": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"QUILL","target":"TOBY","mood":"suspense","intensity":3,"summary":"Constable Quill asks lamplighter Toby about a woman in a green shawl; Toby lies."},
+{"start":16,"type":"flees","fine":"scrambles away","actor":"MRS. FINNEGAN","target":"QUILL","mood":"chaotic","intensity":4,"summary":"Violets spill revealing the shawl; Mrs. Finnegan tells Toby to run and hurls her basket."}
+],
+"s02308": [
+{"start":1,"type":"searches","fine":"scans the room","actor":"MALLORY","target":null,"mood":"ominous","intensity":3,"summary":"Two officers and a teen explorer search an abandoned nursery school as a music box plays."},
+{"start":19,"type":"discovers","fine":"notices","actor":"PELL","target":"MARIGOLD","mood":"fear","intensity":4,"summary":"The pale girl in yellow turns and sweetly announces nap time."}
+],
+"s01648": [
+{"start":1,"type":"searches","fine":"investigates","actor":"ZOFIA","target":null,"mood":"suspense","intensity":3,"summary":"Zofia pries a grate in a cheese cave and plays a recorded message from herself."},
+{"start":18,"type":"discovers","fine":"finds a clue","actor":"ZOFIA","target":null,"mood":"playful","intensity":3,"summary":"Following the tape, she cuts open a Brie and finds a rubber thumb."},
+{"start":28,"type":"hides","fine":"ducks out of sight","actor":"ZOFIA","target":null,"mood":"suspense","intensity":4,"summary":"Footsteps overhead; she kills her headlamp, then uses the thumb to open the vault."}
+],
+"s00885": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"TEDDY","target":"DANNY","mood":"playful","intensity":2,"summary":"The Wheel Club meets in a junkyard bus clubhouse, teasing and listing summer plans."},
+{"start":32,"type":"confronts","fine":"presses","actor":"RUTHIE","target":"DANNY","mood":"tense","intensity":3,"summary":"Ruthie raises the new-locked trunk and Teddy presses Danny about who owns it."},
+{"start":61,"type":"confesses","fine":"owns up to","actor":"DANNY","target":"TEDDY","mood":"tense","intensity":3,"summary":"Danny says his brother told him to keep it safe; Ruthie reveals the key."},
+{"start":81,"type":"reveals","fine":"shows","actor":"RUTHIE","target":"TEDDY","mood":"ominous","intensity":5,"summary":"Ruthie opens the trunk revealing photographs of local children and a Polaroid of the four taken that morning."}
+],
+"s00236": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"HECTOR","target":"GERRY","mood":"playful","intensity":2,"summary":"At a ferret's funeral, Hector's irreverent anecdotes irk Gerry and the director."},
+{"start":20,"type":"jokes","fine":"provokes","actor":"DENNIS","target":"HECTOR","mood":"chaotic","intensity":3,"summary":"Dennis phones in a hamster rumor mid-prayer, derailing the service."},
+{"start":34,"type":"discovers","fine":"realizes","actor":"GERRY","target":null,"mood":"joyful","intensity":4,"summary":"Nibbles sits up alive in the casket and Gerry sobs with joy."},
+{"start":44,"type":"jokes","fine":"amuses","actor":"HECTOR","target":"BEA","mood":"playful","intensity":3,"summary":"Bea offers a refund, then Nibbles bites her, vindicating Hector's count."}
+],
+"s01544_1": [
+{"start":1,"type":"bonds","fine":"thanks","actor":"NESTOR","target":"CASS","mood":"tender","intensity":2,"summary":"Descending the stairwell, Nestor thanks Cass for calling him a doctor."},
+{"start":15,"type":"searches","fine":"finds a clue","actor":"COLETTE","target":null,"mood":"suspense","intensity":3,"summary":"Colette breaks the basement padlock and they find the old radio room."},
+{"start":28,"type":"bonds","fine":"teams up with","actor":"NESTOR","target":"CASS","mood":"hopeful","intensity":4,"summary":"Nestor broadcasts into the mic as friends steady him and a faint voice answers."}
+],
+"s01694": [
+{"start":1,"type":"pleads","fine":"asks for help from","actor":"FINNEGAN","target":"SIBYLLE","mood":"tense","intensity":2,"summary":"Boy Finnegan asks the witch for a cure for his feverish sister."},
+{"start":17,"type":"persuades","fine":"bargains with","actor":"SIBYLLE","target":"FINNEGAN","mood":"ominous","intensity":3,"summary":"Sibylle dismisses silver and he offers his father's bone whistle."},
+{"start":31,"type":"comforts","fine":"reassures","actor":"SIBYLLE","target":"FINNEGAN","mood":"bittersweet","intensity":3,"summary":"She returns the whistle, gives him the cure, and he runs home; she holds its twin."}
+],
+"s02376": [
+{"start":1,"type":"confronts","fine":"challenges","actor":"GREG","target":"SAMIR","mood":"hostile","intensity":3,"summary":"In a car wash, Greg and Samir argue and Adaeze tries to stay calm."},
+{"start":28,"type":"leaves","fine":"storms out","actor":"ADAEZE","target":"GREG","mood":"chaotic","intensity":4,"summary":"Adaeze brakes and orders both out, stepping into the foam."}
+],
+"s01683": [
+{"start":1,"type":"hides","fine":"conceals something","actor":"LUCKY","target":"NATE","mood":"tense","intensity":2,"summary":"Lucky and Nate load a duffel into a car in a flooded garage."},
+{"start":13,"type":"arrives","fine":"bursts in","actor":"MARISOL","target":"NATE","mood":"hostile","intensity":4,"summary":"A van arrives and Detective Marisol demands their hands up at gunpoint."},
+{"start":28,"type":"flees","fine":"bolts","actor":"LUCKY","target":"MARISOL","mood":"chaotic","intensity":4,"summary":"Marisol fires a warning shot; Nate releases Lucky who sprints for the stairwell."}
+],
+"s01500": [
+{"start":1,"type":"persuades","fine":"negotiates with","actor":"ELLIS","target":"NOREEN","mood":"tense","intensity":2,"summary":"Prosecutor Ellis offers a deal and Defender Noreen rejects it in a supply closet."},
+{"start":17,"type":"confronts","fine":"interrogates","actor":"ELLIS","target":"DESMOND","mood":"tense","intensity":3,"summary":"They question juror Desmond about the defendant's sister speaking to him."},
+{"start":36,"type":"leaves","fine":"is sent away","actor":"DESMOND","target":"ELLIS","mood":"awkward","intensity":2,"summary":"Ellis thanks Desmond and dismisses him; the lawyers trade parting jabs."}
+],
+"s01888": [
+{"start":1,"type":"accuses","fine":"calls out","actor":"LAILA","target":"ASHWORTH","mood":"tense","intensity":3,"summary":"Laila reveals only eleven days of rations remain and accuses the Captain of hoarding."},
+{"start":27,"type":"attacks","fine":"grabs","actor":"TAVITA","target":"ASHWORTH","mood":"chaotic","intensity":3,"summary":"The three struggle over the crate and bars scatter across the floor."},
+{"start":31,"type":"confesses","fine":"comes clean to","actor":"ASHWORTH","target":"TAVITA","mood":"tender","intensity":3,"summary":"Ashworth admits the extra bars are for Tavita's child on the Hab."}
+],
+"s00981": [
+{"start":1,"type":"hides","fine":"keeps a secret","actor":"RAFAELA","target":"JUNE","mood":"tense","intensity":2,"summary":"Rafaela flicks a lighter near nitrate film while June protests."},
+{"start":16,"type":"flees","fine":"scrambles away","actor":"JUNE","target":null,"mood":"chaotic","intensity":4,"summary":"A film can ignites and the girls smother the flames, coughing."},
+{"start":24,"type":"arrives","fine":"makes an entrance","actor":"KOWALCZYK","target":"RAFAELA","mood":"playful","intensity":3,"summary":"Mr. Kowalczyk finds the burnt reel, shrugs it off as a bad print, and forgives them."}
+],
+"s00718": [
+{"start":1,"type":"observes","fine":"waits","actor":"KIT","target":null,"mood":"melancholy","intensity":3,"summary":"Seven stranded passengers on a snowbound bus ration water and burn what they have."},
+{"start":21,"type":"discovers","fine":"notices","actor":"LARS","target":null,"mood":"hopeful","intensity":3,"summary":"A garbled radio message promises help by morning, then dies."},
+{"start":37,"type":"arrives","fine":"makes an entrance","actor":"TOBIAS","target":"KIT","mood":"hopeful","intensity":4,"summary":"Ranger Tobias enters to rescue them; Kit insists the girl and mother go first."}
+],
+"s00350": [
+{"start":1,"type":"observes","fine":"waits","actor":"DEZ","target":"ARCHIE","mood":"tense","intensity":3,"summary":"Injured Dez and Archie sit in a tilted mine cage hanging by a frayed cable."},
+{"start":30,"type":"decides","fine":"makes a plan","actor":"DEZ","target":"ARCHIE","mood":"suspense","intensity":3,"summary":"Dez sends the lightest man, Archie, up the cable to the ladder."},
+{"start":48,"type":"flees","fine":"escapes","actor":"ARCHIE","target":"DEZ","mood":"chaotic","intensity":5,"summary":"Archie climbs as the cable strands snap and the cage drops."},
+{"start":69,"type":"leaves","fine":"abandons","actor":"DEZ","target":"ARCHIE","mood":"grief","intensity":5,"summary":"The cable breaks, the cage falls, and Dez's faint voice tells Archie to climb."}
+],
+"s00150": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"SABINE","target":"HORACE","mood":"playful","intensity":2,"summary":"Speakeasy players bicker over the deal while a silent stranger watches."},
+{"start":21,"type":"reveals","fine":"unmasks","actor":"CALLUM","target":"SABINE","mood":"suspense","intensity":3,"summary":"The stranger identifies himself as Callum Redfern, heir to a cellar of four hundred barrels."},
+{"start":41,"type":"persuades","fine":"recruits","actor":"CALLUM","target":"HORACE","mood":"triumphant","intensity":3,"summary":"Callum seeks partners, lays down a straight flush, and Horace toasts the cellar."}
+],
+"s00902": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"SUNNY","target":"JAMAL","mood":"tender","intensity":2,"summary":"Sunny joins Jamal on the school roof and teases him about skipping practice."}
+],
+"s02429": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"JUNE","target":"THEO","mood":"playful","intensity":2,"summary":"At Bea's birthday, her hen Penelope escapes and Theo needles his mother."},
+{"start":18,"type":"arrives","fine":"makes an entrance","actor":"OSWALDO","target":"BEA","mood":"joyful","intensity":3,"summary":"Grandpa Oswalde arrives and gives Bea a hand-carved coop sign."},
+{"start":36,"type":"jokes","fine":"amuses","actor":"PENELOPE","target":"BEA","mood":"joyful","intensity":2,"summary":"Mrs. Petrakis brings pie and the hen pecks the cake, making everyone laugh."}
+],
+"s01954": [
+{"start":1,"type":"works","fine":"goes through routine","actor":"GORDON","target":"SHANICE","mood":"awkward","intensity":2,"summary":"VP Gordon announces a realignment through a megaphone as staff dismiss him."},
+{"start":13,"type":"jokes","fine":"amuses","actor":"FITZ","target":"GORDON","mood":"chaotic","intensity":3,"summary":"Fitz's flash blinds Gordon and a voice summons him to corporate."},
+{"start":23,"type":"leaves","fine":"exits quietly","actor":"GORDON","target":null,"mood":"bittersweet","intensity":2,"summary":"Gordon trudges to the elevator while staff pity him mildly."}
+],
+"s02022": [
+{"start":1,"type":"defends","fine":"holds the line against","actor":"NADIR","target":"SOLENNE","mood":"chaotic","intensity":4,"summary":"Three crew fight to seal the airlock hatch against a banging outside force."},
+{"start":19,"type":"observes","fine":"takes it in","actor":"NADIR","target":null,"mood":"fear","intensity":4,"summary":"The wheel locks and Nadir says the thing knows they are inside."}
+],
+"s01725": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"FELIX","target":"GRETA","mood":"awkward","intensity":2,"summary":"Stranger Felix arrives at the curling club ten minutes early after a scheduling mix-up."},
+{"start":16,"type":"bonds","fine":"teams up with","actor":"GRETA","target":"FELIX","mood":"tender","intensity":2,"summary":"Greta welcomes him, hands over her broom, and Bjorn pours a fourth cup."}
+],
+"s02318": [
+{"start":1,"type":"decides","fine":"commits","actor":"DEZ","target":"RHONDA","mood":"tense","intensity":3,"summary":"Dez and Callum prepare to pry open a scratched iron door despite Rhonda's protest."},
+{"start":19,"type":"discovers","fine":"uncovers","actor":"DEZ","target":null,"mood":"fear","intensity":4,"summary":"The door gives, something hisses, and the bulb dies; Rhonda says something is breathing."},
+{"start":30,"type":"discovers","fine":"realizes","actor":"CALLUM","target":"DEZ","mood":"ominous","intensity":5,"summary":"Light returns and Rhonda is gone; her cheerful voice calls them inside."}
+],
+"s00985": [
+{"start":1,"type":"bonds","fine":"shares a moment with","actor":"NONNA FLORENTINA","target":"EMEKA","mood":"tender","intensity":2,"summary":"Nonna teaches Emeka to hear good pickle jars while Tamsin watches silently."},
+{"start":17,"type":"deflects","fine":"brushes off","actor":"NONNA FLORENTINA","target":"TAMSIN","mood":"awkward","intensity":2,"summary":"Tamsin says she must leave; Nonna answers without turning; Emeka asks to stay."},
+{"start":32,"type":"arrives","fine":"shows up unannounced","actor":"BARTOSZ","target":"NONNA FLORENTINA","mood":"suspense","intensity":3,"summary":"A stranger arrives, saying he is Bartosz, son of Janek the tinsmith."},
+{"start":57,"type":"bonds","fine":"reconnects with","actor":"NONNA FLORENTINA","target":"BARTOSZ","mood":"bittersweet","intensity":3,"summary":"Nonna recalls Janek, gives Bartosz a jar to listen to, and Tamsin sits by her son."}
+],
+"s01786_0": [
+{"start":1,"type":"observes","fine":"takes it in","actor":null,"target":null,"mood":"calm","intensity":1,"summary":"A tin ice-fishing shack sits on a windswept frozen lake, smoke rising."}
+]
+}

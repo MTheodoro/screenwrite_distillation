@@ -1,0 +1,158 @@
+{
+"s00955": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"LORETTA","target":"ARTEMUS","mood":"calm","intensity":2,"summary":"Loretta and Artemus trade crossword answers while Caspian types nervously in the corner."},
+{"start":19,"type":"arrives","fine":"makes an entrance","actor":"JO","target":null,"mood":"tense","intensity":3,"summary":"Soaked Jo enters the diner, scanning every face."},
+{"start":23,"type":"confronts","fine":"confronts","actor":"JO","target":"CASPIAN","mood":"tense","intensity":4,"summary":"Jo crosses to Caspian and presses him about leaving for eight months."},
+{"start":41,"type":"jokes","fine":"lightens the mood for","actor":"LORETTA","target":"JO","mood":"awkward","intensity":2,"summary":"Loretta clumsily interrupts with offers of free pie, amused by the drama."},
+{"start":46,"type":"accuses","fine":"calls out","actor":"JO","target":"CASPIAN","mood":"hostile","intensity":3,"summary":"Jo sits, eats his pie, and says she hates being lied to."},
+{"start":51,"type":"confesses","fine":"comes clean to","actor":"CASPIAN","target":"JO","mood":"tender","intensity":3,"summary":"Caspian shuts the laptop and promises Jo the long truth."}
+],
+"s00124": [
+{"start":1,"type":"works","fine":"prepares","actor":"PRYCE","target":"TESS","mood":"calm","intensity":2,"summary":"Pryce and Tess silently prepare for the dawn round and fetch poles."},
+{"start":24,"type":"observes","fine":"waits","actor":"PRYCE","target":"TESS","mood":"tense","intensity":3,"summary":"Running feet outside freeze them until the constables pass by."},
+{"start":40,"type":"works","fine":"goes through routine","actor":"TESS","target":null,"mood":"hopeful","intensity":2,"summary":"They step into the grey street and light the first lamps."},
+{"start":45,"type":"bonds","fine":"confides in","actor":"TESS","target":"PRYCE","mood":"bittersweet","intensity":2,"summary":"Tess asks what happens when lamps light themselves; Pryce answers wryly, and they walk on."}
+],
+"s01860": [
+{"start":1,"type":"arrives","fine":"is introduced","actor":"PEMBERTON-HYDE","target":null,"mood":"awkward","intensity":2,"summary":"Pemberton-Hyde enters a faded ballroom and surveys its few lonely guests."},
+{"start":21,"type":"jokes","fine":"amuses","actor":"ODETTE","target":"PEMBERTON-HYDE","mood":"playful","intensity":2,"summary":"Odette offers punch that turns out to be gravy, to general amusement."},
+{"start":31,"type":"bonds","fine":"shares a moment with","actor":"PEMBERTON-HYDE","target":"ODETTE","mood":"joyful","intensity":3,"summary":"Odette and Pemberton-Hyde dance to Florence's off-key waltz while Barney applauds."}
+],
+"s00767": [
+{"start":1,"type":"decides","fine":"gives an order","actor":"ARCHER-LYLE","target":"NOLAN","mood":"tense","intensity":2,"summary":"Archer-Lyle orders silent running and Nolan reports battery status."},
+{"start":13,"type":"observes","fine":"listens to","actor":"AUGUSTO","target":"ARCHER-LYLE","mood":"suspense","intensity":3,"summary":"Sonar reports an unidentified, stationary surface contact and Nolan plots it."},
+{"start":31,"type":"discovers","fine":"realizes","actor":"NOLAN","target":"ARCHER-LYLE","mood":"suspense","intensity":3,"summary":"Nolan raises the periscope and finds the contact is a hospital ship."},
+{"start":45,"type":"discovers","fine":"pieces it together","actor":"ARCHER-LYLE","target":"NOLAN","mood":"fear","intensity":4,"summary":"A dark destroyer escort appears, then a torpedo is detected heading for the ship."},
+{"start":57,"type":"decides","fine":"commits","actor":"ARCHER-LYLE","target":"NOLAN","mood":"chaotic","intensity":5,"summary":"Archer-Lyle orders the sub into the torpedo's path despite Nolan's objection."},
+{"start":71,"type":"works","fine":"drives","actor":"NOLAN","target":null,"mood":"triumphant","intensity":4,"summary":"Nolan spins the wheel and the submarine heels across the torpedo's path."}
+],
+"s01540": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"AMOS","target":"JED","mood":"tense","intensity":2,"summary":"Amos hauls the ferry rope while silent, armed Jed sits at the far end."},
+{"start":9,"type":"confronts","fine":"interrogates","actor":"AMOS","target":"JED","mood":"tense","intensity":3,"summary":"Amos needles Jed about foreign coin and a scarred man who shot a sheriff."},
+{"start":29,"type":"threatens","fine":"menaces","actor":"AMOS","target":"JED","mood":"suspense","intensity":4,"summary":"Amos's hand drifts to an axe while Jed's thumb finds the rifle hammer."},
+{"start":36,"type":"deflects","fine":"stalls","actor":"JED","target":"AMOS","mood":"tense","intensity":3,"summary":"Jed and Amos trade wary remarks about the axe until Jed lowers the hammer."},
+{"start":45,"type":"confesses","fine":"admits guilt to","actor":"JED","target":"AMOS","mood":"grief","intensity":3,"summary":"Jed admits he shot the deputy, who had a wife in Muskogee."},
+{"start":58,"type":"threatens","fine":"issues an ultimatum to","actor":"AMOS","target":"JED","mood":"ominous","intensity":4,"summary":"Midstream, Amos says he would be within his rights to drown or disarm Jed."},
+{"start":66,"type":"persuades","fine":"bargains with","actor":"AMOS","target":"JED","mood":"tense","intensity":4,"summary":"Amos offers the axe handle and names the four hundred dollar bounty and his imprisoned son."},
+{"start":77,"type":"decides","fine":"changes course","actor":"AMOS","target":"JED","mood":"bittersweet","intensity":3,"summary":"After silence Amos hangs the axe back and resumes hauling toward the far shore."},
+{"start":86,"type":"bonds","fine":"teams up with","actor":"JED","target":"AMOS","mood":"tender","intensity":2,"summary":"Jed joins Amos hauling the rope and promises to send word about Amos's son."},
+{"start":94,"type":"leaves","fine":"leaves","actor":"JED","target":"AMOS","mood":"bittersweet","intensity":2,"summary":"The ferry lands, Jed walks into the cottonwoods, and Amos hauls home alone."}
+],
+"s01758": [
+{"start":1,"type":"observes","fine":"waits","actor":"DAGNY","target":null,"mood":"ominous","intensity":2,"summary":"Three keepers wait in the damp tower as the horn sounds without an echo."},
+{"start":9,"type":"discovers","fine":"notices","actor":"PEREGRINE","target":"DAGNY","mood":"suspense","intensity":3,"summary":"Peregrine spots moving lights in the fog while Dagny dismisses him."},
+{"start":29,"type":"discovers","fine":"realizes","actor":"DAGNY","target":"PEREGRINE","mood":"fear","intensity":3,"summary":"Dagny takes the telescope, counts ten approaching lights, and goes silent."},
+{"start":35,"type":"reveals","fine":"breaks news to","actor":"SOL","target":"DAGNY","mood":"ominous","intensity":4,"summary":"Deaf Sol feels the horn answered by something out on the water."},
+{"start":41,"type":"confronts","fine":"faces off with","actor":"SOL","target":"DAGNY","mood":"tense","intensity":4,"summary":"Dagny seizes the horn lever and Sol grips her wrist to stop her."},
+{"start":49,"type":"observes","fine":"takes it in","actor":"SOL","target":null,"mood":"fear","intensity":4,"summary":"The sea moans, the horn hums, and wet footsteps climb the stairwell."},
+{"start":55,"type":"lies","fine":"deceives","actor":"PEREGRINE","target":"DAGNY","mood":"fear","intensity":5,"summary":"A polite knock comes and a voice like Peregrine's begs to be let in."}
+],
+"s02101": [
+{"start":1,"type":"confronts","fine":"interrogates","actor":"TREVENNA","target":"DESIREE","mood":"tense","intensity":3,"summary":"Trevenna presses calm Desiree about the sixty thousand pounds she carried."},
+{"start":19,"type":"deflects","fine":"plays dumb with","actor":"DESIREE","target":"TREVENNA","mood":"playful","intensity":2,"summary":"Desiree probes how stranded the police are, with no funicular and one bicycle."},
+{"start":30,"type":"persuades","fine":"pitches to","actor":"VIOLETA","target":"TREVENNA","mood":"playful","intensity":3,"summary":"Solicitor Violeta arrives and demands release, citing a notarized charity receipt."},
+{"start":49,"type":"decides","fine":"accepts","actor":"TREVENNA","target":"DESIREE","mood":"calm","intensity":2,"summary":"Trevenna sighs, unlocks the cuffs, and lets Desiree and Violeta go."}
+],
+"s00889": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"SOLEDAD","target":"ARCHIE","mood":"playful","intensity":2,"summary":"Soledad teases late, lost Archie in her quiet Lisbon bookbinding workshop."},
+{"start":20,"type":"persuades","fine":"flatters","actor":"ARCHIE","target":"SOLEDAD","mood":"tender","intensity":3,"summary":"Archie hands over his grandfather's water-damaged diary and flatters her into taking it."},
+{"start":46,"type":"jokes","fine":"amuses","actor":"AUNT VELMA","target":"ARCHIE","mood":"playful","intensity":2,"summary":"Aunt Velma bursts in with cod and teases Archie about his wilted daisies."},
+{"start":64,"type":"bonds","fine":"flirts with","actor":"ARCHIE","target":"SOLEDAD","mood":"tender","intensity":3,"summary":"Archie asks if Soledad likes him; she answers that it takes longer."}
+],
+"s00555": [
+{"start":1,"type":"discovers","fine":"notices","actor":"KAVEH","target":"SENGUPTA","mood":"suspense","intensity":2,"summary":"Kaveh claims something big and pale moved past the lamp; Sengupta doubts him."},
+{"start":19,"type":"comforts","fine":"tends to","actor":"SENGUPTA","target":"KAVEH","mood":"tender","intensity":2,"summary":"Sengupta offers tea and notes Kaveh has gone thirty-one hours without sleep."},
+{"start":28,"type":"discovers","fine":"recognizes","actor":"KAVEH","target":"SENGUPTA","mood":"suspense","intensity":4,"summary":"A vast pale shape glides along the glass that Sengupta cannot name."},
+{"start":42,"type":"observes","fine":"studies","actor":"SENGUPTA","target":null,"mood":"suspense","intensity":3,"summary":"A giant ancient eye regards them; Sengupta thinks the creature is curious."},
+{"start":50,"type":"observes","fine":"hesitates","actor":"KAVEH","target":"SENGUPTA","mood":"fear","intensity":4,"summary":"The dome creaks under the creature's flipper and Kaveh urges sealing it."},
+{"start":59,"type":"decides","fine":"chooses","actor":"SENGUPTA","target":null,"mood":"hopeful","intensity":4,"summary":"Sengupta presses her palm to the glass and the creature calms and retreats."},
+{"start":63,"type":"bonds","fine":"shares a moment with","actor":"SENGUPTA","target":"KAVEH","mood":"bittersweet","intensity":2,"summary":"Shaken, they share relief and Sengupta jokes about hating being right at depth."}
+],
+"s01774": [
+{"start":1,"type":"arrives","fine":"shows up unannounced","actor":"RAFAELA","target":"CORDELIA","mood":"tense","intensity":3,"summary":"Cordelia waits at the left-luggage counter when Rafaela walks in and both freeze."},
+{"start":13,"type":"bonds","fine":"reminisces with","actor":"RAFAELA","target":"CORDELIA","mood":"melancholy","intensity":3,"summary":"Rafaela sets down a small case and they speak cautiously about throwing it away."},
+{"start":26,"type":"pleads","fine":"appeals to","actor":"RAFAELA","target":"CORDELIA","mood":"tense","intensity":4,"summary":"Both grip Cordelia's suitcase as Rafaela urges her to skip her midnight train."},
+{"start":38,"type":"leaves","fine":"walks out on","actor":"CORDELIA","target":"RAFAELA","mood":"melancholy","intensity":3,"summary":"Rafaela lets go and Cordelia leaves, asking her to keep the case."},
+{"start":43,"type":"decides","fine":"chooses","actor":"RAFAELA","target":null,"mood":"bittersweet","intensity":3,"summary":"Rafaela waits, then leaves the case with the clerk and gets a ticket."}
+],
+"s01702": [
+{"start":1,"type":"decides","fine":"gives an order","actor":"IMELDA","target":"BARTHOLOMEW","mood":"playful","intensity":2,"summary":"Imelda makes Bartholomew sit in the floating library and banters cryptically about roads."},
+{"start":23,"type":"discovers","fine":"uncovers","actor":"BARTHOLOMEW","target":"IMELDA","mood":"suspense","intensity":3,"summary":"Blank pages fill with his dead mother's handwriting, and Imelda says the library keeps the dead alive."},
+{"start":35,"type":"confesses","fine":"opens up to","actor":"BARTHOLOMEW","target":"IMELDA","mood":"tender","intensity":4,"summary":"Bartholomew reads his mother's message aloud, moved, and Imelda lets him stay until he stops."}
+],
+"s00898_1": [
+{"start":1,"type":"threatens","fine":"menaces","actor":"ELIJAH","target":"RUTH","mood":"ominous","intensity":3,"summary":"Elijah greets Ruth with a gentle smile and a shotgun held low."}
+],
+"s00156": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"DOROTHEA","target":null,"mood":"awkward","intensity":2,"summary":"Five employees in grippy socks sit in a circle at a trampoline park offsite."},
+{"start":13,"type":"jokes","fine":"banters with","actor":"DOROTHEA","target":"PAXTON","mood":"awkward","intensity":2,"summary":"They share fears and goals; Paxton claims he has only opportunities."},
+{"start":33,"type":"jokes","fine":"plays with","actor":"HARRY","target":null,"mood":"playful","intensity":3,"summary":"The group starts bouncing, tie flapping, and Paxton cannonballs in shouting about pyramids."},
+{"start":46,"type":"attacks","fine":"wrestles","actor":"PAXTON","target":null,"mood":"chaotic","intensity":4,"summary":"They stack a clumsy human pyramid that topples into the foam pit."},
+{"start":58,"type":"bonds","fine":"shares a moment with","actor":"MARGUERITE","target":"HARRY","mood":"joyful","intensity":3,"summary":"Marguerite calls it the best meeting ever and everyone surfaces laughing."},
+{"start":66,"type":"leaves","fine":"exits quietly","actor":"PAXTON","target":null,"mood":"calm","intensity":2,"summary":"A whistle ends the session, and the group heads toward pizza."}
+],
+"s00909": [
+{"start":1,"type":"observes","fine":"takes it in","actor":"DUBOIS","target":null,"mood":"calm","intensity":2,"summary":"Four soldiers rest in a blossoming orchard trench in a hush of war."},
+{"start":14,"type":"jokes","fine":"banters with","actor":"QUIGLEY","target":"DUBOIS","mood":"calm","intensity":2,"summary":"Quigley and Dubois joke about the terrible tea as Morales fidgets with a harmonica."},
+{"start":23,"type":"bonds","fine":"reminisces with","actor":"DUBOIS","target":"MORALES","mood":"melancholy","intensity":2,"summary":"They discuss the monks who planted the orchard and the records they kept."},
+{"start":32,"type":"observes","fine":"listens to","actor":"MORALES","target":null,"mood":"tender","intensity":3,"summary":"A distant rumble fades; a blackbird sings and Morales plays three notes."},
+{"start":35,"type":"bonds","fine":"shares a moment with","actor":"WHITEFEATHER","target":"QUIGLEY","mood":"bittersweet","intensity":2,"summary":"They note birdsong in war, and Dubois salutes the trees with his mug."}
+],
+"s01351": [
+{"start":1,"type":"observes","fine":"studies","actor":"CASSIAN","target":"LYDIA","mood":"awkward","intensity":2,"summary":"Isolated astronomer Cassian works while Lydia, silent, stands below and his mother dozes."},
+{"start":11,"type":"confronts","fine":"calls out","actor":"LYDIA","target":"CASSIAN","mood":"hostile","intensity":3,"summary":"Lydia accuses Cassian of ignoring her letters; he deflects with comet remarks."},
+{"start":21,"type":"reveals","fine":"breaks news to","actor":"LYDIA","target":"CASSIAN","mood":"tense","intensity":4,"summary":"Lydia announces her engagement and provokes Cassian into insulting Edgar."},
+{"start":34,"type":"bonds","fine":"reconnects with","actor":"LYDIA","target":"CASSIAN","mood":"tender","intensity":4,"summary":"Lydia demands he look at her, and they stand close with wet eyes."},
+{"start":45,"type":"jokes","fine":"lightens the mood for","actor":"MABEL","target":null,"mood":"bittersweet","intensity":2,"summary":"Mabel wakes and wryly says she knew all along."}
+],
+"s00498": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"DARIUS","target":"RIBEIRO","mood":"playful","intensity":2,"summary":"Darius cheerfully tempts fate at a children's party with a goat."},
+{"start":14,"type":"observes","fine":"watches","actor":"GERALD","target":"DARIUS","mood":"suspense","intensity":2,"summary":"The goat Gerald eyes the juice tray, Darius, and the unicorn cake."},
+{"start":21,"type":"attacks","fine":"lunges at","actor":"GERALD","target":null,"mood":"chaotic","intensity":3,"summary":"Gerald charges the cake as everyone shouts and scrambles."},
+{"start":27,"type":"jokes","fine":"amuses","actor":"PAULINE","target":null,"mood":"playful","intensity":3,"summary":"Frosting rains on the family and a pink Pauline calmly calls it fun."}
+],
+"s01736": [
+{"start":1,"type":"persuades","fine":"bargains with","actor":"QUILL","target":"SABRA","mood":"playful","intensity":2,"summary":"Quill haggles over dried fish in a foggy market among giant ribs."},
+{"start":12,"type":"confronts","fine":"stares down","actor":"ZEPHYRINE","target":"QUILL","mood":"ominous","intensity":3,"summary":"A hooded woman, Zephyrine, corrects their talk of fog and asks for their map."},
+{"start":24,"type":"confronts","fine":"demands answers from","actor":"GRIMBOLD","target":"SABRA","mood":"tense","intensity":2,"summary":"Toll-keeper Grimbold demands a toll for the ribs and the crew objects."},
+{"start":32,"type":"threatens","fine":"looms over","actor":"ZEPHYRINE","target":"GRIMBOLD","mood":"ominous","intensity":3,"summary":"Zephyrine rises, her candle gutters, and Grimbold bows and steps aside."},
+{"start":39,"type":"decides","fine":"accepts","actor":"QUILL","target":"ZEPHYRINE","mood":"tense","intensity":2,"summary":"Quill hands over the map and the crew exhales."}
+],
+"s00199": [
+{"start":1,"type":"jokes","fine":"teases","actor":"EDMUND","target":"HENRIETTA","mood":"playful","intensity":2,"summary":"Edmund and Cordelia tease quiet Henrietta, noting her fan has stopped."},
+{"start":20,"type":"reveals","fine":"comes clean to","actor":"HENRIETTA","target":"CORDELIA","mood":"melancholy","intensity":3,"summary":"Henrietta reveals her father accepted an offer from sixty-two-year-old Ravenscroft."},
+{"start":39,"type":"discovers","fine":"realizes","actor":"HENRIETTA","target":null,"mood":"suspense","intensity":3,"summary":"Hobson delivers a sealed letter announcing Ravenscroft died this morning."},
+{"start":50,"type":"comforts","fine":"consoles","actor":"CORDELIA","target":"HENRIETTA","mood":"bittersweet","intensity":3,"summary":"Cordelia takes Henrietta's hand as she laughs, then cries."}
+],
+"s01787": [
+{"start":1,"type":"works","fine":"cooks","actor":"ROSELLA","target":null,"mood":"calm","intensity":2,"summary":"A busy farmhouse family gathers in the kitchen as Rosella cooks pancakes."},
+{"start":10,"type":"jokes","fine":"amuses","actor":"HAROLD","target":null,"mood":"playful","intensity":3,"summary":"A pancake lands on the floor, the beagle and Toby scramble, and Harold approves."}
+],
+"s01408": [
+{"start":1,"type":"confronts","fine":"presses","actor":"OKSANA","target":"DESMOND","mood":"tense","intensity":3,"summary":"Justice Petrenko presses Desmond on whether his client received legal notice."},
+{"start":26,"type":"confronts","fine":"challenges","actor":"DESMOND","target":"OKSANA","mood":"tense","intensity":3,"summary":"Nadine notices a flaw as Desmond argues thousands of cases were never properly closed."},
+{"start":39,"type":"defends","fine":"justifies themself to","actor":"NADINE","target":"OKSANA","mood":"tense","intensity":3,"summary":"Nadine takes the lectern and explains the misfiled forwarding card to the court."},
+{"start":57,"type":"confronts","fine":"calls out","actor":"OKSANA","target":"NADINE","mood":"melancholy","intensity":4,"summary":"Oksana silences them and reminds Nadine that Desmond's client lost his house."},
+{"start":67,"type":"decides","fine":"decides","actor":"OKSANA","target":null,"mood":"bittersweet","intensity":2,"summary":"Oksana takes the case under advisement and both lawyers exchange a look."}
+],
+"s01261": [
+{"start":1,"type":"works","fine":"prepares","actor":"KENDRA","target":"FATHER","mood":"melancholy","intensity":2,"summary":"Kendra phones her father from a laundromat payphone and makes awkward small talk."},
+{"start":19,"type":"deflects","fine":"evades","actor":"FATHER","target":"KENDRA","mood":"tense","intensity":3,"summary":"Kendra asks about her mother and her father stalls with an evasive voice."},
+{"start":31,"type":"reveals","fine":"breaks news to","actor":"FATHER","target":"KENDRA","mood":"grief","intensity":4,"summary":"Her father admits he planned to call about her mother in the morning."},
+{"start":37,"type":"decides","fine":"commits","actor":"KENDRA","target":"FATHER","mood":"grief","intensity":4,"summary":"Kendra presses her forehead to the tile and says she is coming."},
+{"start":45,"type":"works","fine":"cleans","actor":"KENDRA","target":null,"mood":"melancholy","intensity":3,"summary":"She hangs up gently and folds warm towels, numb."}
+],
+"s00033": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"PERPETUA","target":"BART","mood":"playful","intensity":2,"summary":"Perpetua scolds Bart in the laundromat while a stranger fights a vending machine."},
+{"start":11,"type":"jokes","fine":"teases","actor":"BART","target":"IMOGEN","mood":"playful","intensity":3,"summary":"Bart and Perpetua coax Imogen into shaking the machine; the trio speak in unison."},
+{"start":25,"type":"discovers","fine":"notices","actor":"PERPETUA","target":null,"mood":"chaotic","intensity":3,"summary":"The manager announces machine seven is on fire and Perpetua douses it."},
+{"start":37,"type":"bonds","fine":"shares a moment with","actor":"IMOGEN","target":"BART","mood":"joyful","intensity":2,"summary":"Imogen laughs at the Tuesday fires and offers Bart a pretzel."}
+],
+"s00949": [
+{"start":1,"type":"jokes","fine":"banters with","actor":"ASTRID","target":"BENEDICT","mood":"calm","intensity":2,"summary":"Six crew members play cards and bicker in a cramped deep-sea habitat."},
+{"start":12,"type":"jokes","fine":"riffs with","actor":"SOLEDAD","target":"BENEDICT","mood":"playful","intensity":2,"summary":"Crew trade quips over cards and coffee until Astrid calls for quiet."},
+{"start":22,"type":"discovers","fine":"notices","actor":"SOLEDAD","target":"ASTRID","mood":"suspense","intensity":3,"summary":"Kamala watches the porthole, a pressure gauge ticks, and Astrid says like a heartbeat."},
+{"start":38,"type":"observes","fine":"takes it in","actor":"ASTRID","target":null,"mood":"fear","intensity":4,"summary":"A long low note rolls through the hull and nobody moves."},
+{"start":42,"type":"reveals","fine":"shows","actor":"KAMALA","target":"ASTRID","mood":"hopeful","intensity":2,"summary":"Kamala turns, smiling, and explains it is only whales."}
+]
+}

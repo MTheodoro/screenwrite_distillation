@@ -1,0 +1,90 @@
+{
+"s05191": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "DENISE", "target": "GAIL", "mood": "playful", "intensity": 2, "summary": "In a blackout Denise clutches a frozen turkey while Gail mocks her."},
+{"start": 11, "type": "arrives", "fine": "shows up unannounced", "actor": "RAJ", "target": "DENISE", "mood": "playful", "intensity": 2, "summary": "Neighbour Raj walks in with a head torch and casserole uninvited."},
+{"start": 16, "type": "attacks", "fine": "fights", "actor": "RAJ", "target": null, "mood": "chaotic", "intensity": 4, "summary": "A knocked candle sets menus alight; Raj douses it with lasagne."},
+{"start": 24, "type": "jokes", "fine": "banters with", "actor": "RAJ", "target": "DENISE", "mood": "playful", "intensity": 2, "summary": "In the smoke, Denise mourns the lasagne and Raj calls it sacrifice."},
+{"start": 30, "type": "bonds", "fine": "confides in", "actor": "DENISE", "target": "GAIL", "mood": "bittersweet", "intensity": 2, "summary": "The sisters-in-law sit together, worrying about a call about Christmas."},
+{"start": 36, "type": "observes", "fine": "takes it in", "actor": "DENISE", "target": null, "mood": "joyful", "intensity": 2, "summary": "The power returns and the forgotten turkey thuds to the floor."}
+],
+"s05192": [
+{"start": 1, "type": "observes", "fine": "watches", "actor": null, "target": null, "mood": "tense", "intensity": 2, "summary": "Protesters chain the Mining Bureau doors as Sheriff Pike stands guard."},
+{"start": 12, "type": "threatens", "fine": "issues an ultimatum to", "actor": "PIKE", "target": "JUNIPER", "mood": "tense", "intensity": 3, "summary": "Pike gives the crowd ten seconds to break it up."},
+{"start": 13, "type": "defends", "fine": "pushes back on", "actor": "JUNIPER", "target": "PIKE", "mood": "hostile", "intensity": 3, "summary": "Juniper retorts about water; Corbin demands arrests; Sam dares them."},
+{"start": 16, "type": "attacks", "fine": "fights", "actor": "JUNIPER", "target": "CORBIN", "mood": "chaotic", "intensity": 5, "summary": "Shoving erupts into a brawl between Juniper and Corbin."},
+{"start": 19, "type": "threatens", "fine": "intimidates", "actor": "PIKE", "target": null, "mood": "tense", "intensity": 4, "summary": "Pike fires into the air and everyone freezes."},
+{"start": 25, "type": "decides", "fine": "accepts", "actor": "JUNIPER", "target": "PIKE", "mood": "bittersweet", "intensity": 2, "summary": "Sam slackens the chain, Juniper laughs bloodily, and the crowd scatters."},
+{"start": 30, "type": "observes", "fine": "takes it in", "actor": "SAM", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Sam sits in the dirt and notes there's still no rain."}
+],
+"s05193": [
+{"start": 1, "type": "observes", "fine": "waits", "actor": "TERRENCE", "target": null, "mood": "calm", "intensity": 1, "summary": "At a climate sit-in, Terrence waits on a bench with a blank sign."},
+{"start": 11, "type": "arrives", "fine": "arrives", "actor": "GORDON", "target": "TERRENCE", "mood": "suspense", "intensity": 2, "summary": "Gordon sits beside him; they call the protest good cover."},
+{"start": 18, "type": "reveals", "fine": "shows", "actor": "TERRENCE", "target": "GORDON", "mood": "suspense", "intensity": 3, "summary": "Terrence shows a floor plan taped behind his sign."},
+{"start": 23, "type": "accuses", "fine": "implicates", "actor": "TERRENCE", "target": "GORDON", "mood": "tense", "intensity": 3, "summary": "Terrence says Gordon's contractor cousin lied about the sensor."},
+{"start": 32, "type": "bonds", "fine": "shares a moment with", "actor": "GORDON", "target": "TERRENCE", "mood": "calm", "intensity": 2, "summary": "Gordon shares his wife's cardamom tea; they trade dry quips."},
+{"start": 44, "type": "bonds", "fine": "confides in", "actor": "TERRENCE", "target": "GORDON", "mood": "melancholy", "intensity": 2, "summary": "They muse that the protesters believe, while they believe in a safe."},
+{"start": 54, "type": "decides", "fine": "makes a plan", "actor": "GORDON", "target": "TERRENCE", "mood": "suspense", "intensity": 3, "summary": "Feeding the dog, Gordon sets nine o'clock during the mayor's dinner."},
+{"start": 65, "type": "observes", "fine": "hesitates", "actor": "TERRENCE", "target": null, "mood": "melancholy", "intensity": 2, "summary": "Terrence silently regards the protesters and his blank sign."},
+{"start": 69, "type": "decides", "fine": "commits", "actor": "TERRENCE", "target": "GORDON", "mood": "tense", "intensity": 3, "summary": "They assign the stairwell and the loud elevator."},
+{"start": 73, "type": "observes", "fine": "listens to", "actor": "TERRENCE", "target": null, "mood": "melancholy", "intensity": 3, "summary": "Both listen longer than planned as drowned towns are named."},
+{"start": 79, "type": "leaves", "fine": "leaves", "actor": "GORDON", "target": "TERRENCE", "mood": "calm", "intensity": 2, "summary": "Gordon pats his shoulder, warns him not to be late, and leaves."},
+{"start": 89, "type": "hides", "fine": "covers up", "actor": "TERRENCE", "target": null, "mood": "bittersweet", "intensity": 2, "summary": "Terrence raises his blank sign with the crowd."}
+],
+"s05194": [
+{"start": 1, "type": "observes", "fine": "takes it in", "actor": "NELL", "target": null, "mood": "melancholy", "intensity": 2, "summary": "A family idles on their late father's boat with a stranger aboard."},
+{"start": 7, "type": "confronts", "fine": "demands answers from", "actor": "NELL", "target": "TOBY", "mood": "awkward", "intensity": 2, "summary": "Nell asks who the stranger is; he says he's here for nets."},
+{"start": 14, "type": "confronts", "fine": "challenges", "actor": "NELL", "target": "ROSALIND", "mood": "tense", "intensity": 3, "summary": "Nell insists they're not selling; Rosalind says she only said if."},
+{"start": 20, "type": "reveals", "fine": "drops a bombshell on", "actor": "OWEN", "target": "NELL", "mood": "tense", "intensity": 4, "summary": "Owen introduces himself and reveals Dad hid a deed."},
+{"start": 25, "type": "reveals", "fine": "reveals", "actor": "OWEN", "target": "NELL", "mood": "suspense", "intensity": 3, "summary": "In tense silence Nell asks where; Owen names the forward locker."},
+{"start": 32, "type": "decides", "fine": "decides", "actor": "TOBY", "target": "NELL", "mood": "melancholy", "intensity": 2, "summary": "The family exchange looks and agree to check later."}
+],
+"s05195_0": [
+{"start": 1, "type": "arrives", "fine": "slips in", "actor": "MO", "target": null, "mood": "suspense", "intensity": 2, "summary": "Mo slips into the dark gym and unpacks a burglary kit."},
+{"start": 11, "type": "works", "fine": "prepares", "actor": "MO", "target": null, "mood": "playful", "intensity": 2, "summary": "A text gives four minutes; Mo grumbles about Kip and Kim's names."},
+{"start": 18, "type": "hides", "fine": "ducks out of sight", "actor": "MO", "target": null, "mood": "suspense", "intensity": 3, "summary": "Mo hides from the humming janitor, who wanders off on a call."},
+{"start": 28, "type": "searches", "fine": "looks for", "actor": "MO", "target": null, "mood": "suspense", "intensity": 3, "summary": "Mo wrestles the trophy case lock and lifts Big Dave's dumbbell."},
+{"start": 46, "type": "discovers", "fine": "realizes", "actor": "MO", "target": null, "mood": "tense", "intensity": 3, "summary": "A text warns a big bearded man is outside: Big Dave."},
+{"start": 53, "type": "decides", "fine": "makes a plan", "actor": "MO", "target": null, "mood": "suspense", "intensity": 3, "summary": "Mo bags the trophy and picks the only route, past the pool."},
+{"start": 59, "type": "hides", "fine": "ducks out of sight", "actor": "MO", "target": null, "mood": "suspense", "intensity": 4, "summary": "A treadmill roars on; Mo hides as the janitor shuts it off."},
+{"start": 71, "type": "flees", "fine": "slips out", "actor": "MO", "target": null, "mood": "suspense", "intensity": 3, "summary": "Mo creeps past a woman swimming laps in the dark."},
+{"start": 79, "type": "discovers", "fine": "realizes", "actor": "MO", "target": null, "mood": "hopeful", "intensity": 2, "summary": "The fire door opens silently; Kim disabled the alarm."}
+],
+"s05195_1": [
+{"start": 1, "type": "flees", "fine": "escapes", "actor": "MO", "target": null, "mood": "suspense", "intensity": 3, "summary": "Mo jumps into an idling van that pulls away as the sign dies."}
+],
+"s05197": [
+{"start": 1, "type": "jokes", "fine": "banters with", "actor": "LEON", "target": "HANNAH", "mood": "calm", "intensity": 2, "summary": "On a crab boat, Leon teases the woman hunting for signal."},
+{"start": 7, "type": "deflects", "fine": "dodges", "actor": "HANNAH", "target": "MUM", "mood": "playful", "intensity": 2, "summary": "Her mum calls, grilling her about the fisherman; she dodges."},
+{"start": 17, "type": "jokes", "fine": "riffs with", "actor": "LEO", "target": "LEON", "mood": "playful", "intensity": 2, "summary": "Leo pipes up and the Leo-Leon name confusion unfolds."},
+{"start": 27, "type": "bonds", "fine": "flirts with", "actor": "HANNAH", "target": "LEON", "mood": "playful", "intensity": 3, "summary": "Hannah introduces herself and teases Leon for rushing her aboard."},
+{"start": 37, "type": "bonds", "fine": "shares a moment with", "actor": "HANNAH", "target": "LEON", "mood": "tender", "intensity": 3, "summary": "She throws a glove at Leo and keeps her hand on Leon's arm."}
+],
+"s05198_0": [
+{"start": 1, "type": "arrives", "fine": "is introduced", "actor": "BRENDA", "target": null, "mood": "playful", "intensity": 1, "summary": "A beige fertility clinic waiting room with Mara and distracted Brad."},
+{"start": 9, "type": "arrives", "fine": "bursts in", "actor": "BRETT", "target": "MARA", "mood": "playful", "intensity": 3, "summary": "Brett bursts in with a bouquet calling Mara honey."},
+{"start": 16, "type": "mocks", "fine": "needles", "actor": "BRENDA", "target": "BRETT", "mood": "playful", "intensity": 2, "summary": "Brenda deadpans about husbands; Mara explains Brett is Brad's brother."},
+{"start": 20, "type": "arrives", "fine": "is ushered in", "actor": "DR. VANCE", "target": "MARA", "mood": "playful", "intensity": 2, "summary": "Dr. Vance calls Mara and cheerfully invites both men."},
+{"start": 26, "type": "decides", "fine": "decides", "actor": "MARA", "target": "BRAD", "mood": "playful", "intensity": 2, "summary": "Brenda allows one husband; Mara insists on going alone."},
+{"start": 35, "type": "confronts", "fine": "demands answers from", "actor": "BRAD", "target": "BRETT", "mood": "awkward", "intensity": 2, "summary": "Brad demands why Brett came; Brenda agrees he looks fragile."},
+{"start": 42, "type": "hides", "fine": "keeps a secret", "actor": "BRAD", "target": "BRETT", "mood": "suspense", "intensity": 3, "summary": "A text warns about Brett; Brad pales and calls it spam."},
+{"start": 48, "type": "attacks", "fine": "wrestles", "actor": "BRETT", "target": "BRAD", "mood": "chaotic", "intensity": 3, "summary": "The brothers grapple for the phone; the bouquet lands in the tank."}
+],
+"s05198_1": [
+{"start": 1, "type": "discovers", "fine": "notices", "actor": "MARA", "target": "DR. VANCE", "mood": "suspense", "intensity": 2, "summary": "On the exam table, Mara spots a vial labeled Feldman."},
+{"start": 5, "type": "confronts", "fine": "demands answers from", "actor": "MARA", "target": "DR. VANCE", "mood": "ominous", "intensity": 3, "summary": "Mara demands which Feldman; Vance smoothly deflects."},
+{"start": 13, "type": "hides", "fine": "covers up", "actor": "BRENDA", "target": null, "mood": "ominous", "intensity": 3, "summary": "The lights flicker and Brenda quietly locks the front door."},
+{"start": 17, "type": "arrives", "fine": "bursts in", "actor": "BRAD", "target": "MARA", "mood": "chaotic", "intensity": 4, "summary": "Brad and Brett burst in with overlapping, contradictory confessions."},
+{"start": 24, "type": "threatens", "fine": "menaces", "actor": "DR. VANCE", "target": "MARA", "mood": "tense", "intensity": 5, "summary": "Vance slips a hand to a hidden weapon and urges calm."},
+{"start": 27, "type": "reveals", "fine": "breaks news to", "actor": "BRENDA", "target": "DR. VANCE", "mood": "suspense", "intensity": 4, "summary": "Brenda announces the two o'clock is the police."},
+{"start": 30, "type": "jokes", "fine": "lightens the mood for", "actor": "BRETT", "target": null, "mood": "playful", "intensity": 3, "summary": "Vance's smile drops; Brett raises the bouquet and asks to leave."}
+],
+"s05199": [
+{"start": 1, "type": "works", "fine": "prepares", "actor": "KIT", "target": null, "mood": "playful", "intensity": 2, "summary": "In a blackout Kit and Jo bring a dying laptop to the kitchen."},
+{"start": 8, "type": "discovers", "fine": "notices", "actor": "KIT", "target": null, "mood": "awkward", "intensity": 2, "summary": "Slack shows coaches waiting on Kit's lineup."},
+{"start": 15, "type": "confronts", "fine": "calls out", "actor": "JO", "target": "KIT", "mood": "playful", "intensity": 2, "summary": "Jo reminds Kit he promised to print it; he blames the printer."},
+{"start": 18, "type": "works", "fine": "writes", "actor": "JO", "target": "KIT", "mood": "playful", "intensity": 2, "summary": "Jo sketches plays by phone light, debating the left wing."},
+{"start": 23, "type": "jokes", "fine": "banters with", "actor": "KIT", "target": "JO", "mood": "playful", "intensity": 2, "summary": "Kit fails with the marker; Jo bites it into working."},
+{"start": 38, "type": "decides", "fine": "makes a plan", "actor": "KIT", "target": "JO", "mood": "chaotic", "intensity": 3, "summary": "At two percent they both lunge and send a lineup."},
+{"start": 48, "type": "bonds", "fine": "shares a moment with", "actor": "KIT", "target": "JO", "mood": "joyful", "intensity": 3, "summary": "They laugh at the wrong lineup as the power returns: peas for dinner."}
+]
+}
