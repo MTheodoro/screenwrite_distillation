@@ -65,7 +65,8 @@ function decodeSet(cands, probs, tau) {
 // Analysis runs in three stages so the worker can yield between them (each stays well under a frame):
 // 1. beats + tension, 2. who / addressee, 3. emotion. analyzeModel runs all three at once.
 // embedder: required when the bundle was trained with embedding features (meta.emb), see embed.js.
-export function* analyzeModelStages(scene, bundle, embedder = null) {
+// opts.addressee: also score who each dialogue line is addressed to (off by default: not used by the app).
+export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
   const { models, meta } = bundle;
   const ctx = sceneContext(scene);
   if (meta.emb) {
@@ -91,6 +92,8 @@ export function* analyzeModelStages(scene, bundle, embedder = null) {
       const tau = plural && meta.actor.tau_plural != null ? meta.actor.tau_plural : meta.actor.tau;
       const d = decodeSet(cands, feats.map((x) => predictRaw(models.actor, x)), tau);
       result.lines[i] = { who: d.ids, conf: d.conf, margin: d.margin, runnerUp: d.runnerUp };
+    } else if (!opts.addressee) {
+      result.lines[i] = { speaker: ctx.speaker[i] };
     } else {
       const cands = addrCandidates(ctx, i);
       const d = decodeSet(cands, cands.map((c) => predictRaw(models.addr, addrFeatures(ctx, i, c))), meta.addr.tau);
@@ -105,15 +108,34 @@ export function* analyzeModelStages(scene, bundle, embedder = null) {
     for (let k = 1; k < ep.length; k++) if (ep[k] > ep[best]) best = k;
     result.lines[i].emo = [meta.emo.classes[best], Math.max(0, Math.min(1, predictRaw(models.emo_int, x)))];
   }
+  result.beatMood = beatMood(result, ctx.content);
   return result;
+}
+
+// Mood per beat: the non-neutral emotion with the largest summed intensity over the beat's lines,
+// [label, strength 0..1]; ["neutral", 0] when nothing stands out. Derived, no extra model.
+export function beatMood(result, content) {
+  const b = result.beats;
+  return b.map((start, k) => {
+    const end = k + 1 < b.length ? b[k + 1] : Infinity;
+    const units = content.filter((i) => i >= start && i < end);
+    const sum = new Map();
+    for (const i of units) {
+      const e = result.lines[i]?.emo;
+      if (e && e[0] !== "neutral") sum.set(e[0], (sum.get(e[0]) || 0) + e[1]);
+    }
+    let best = ["neutral", 0];
+    for (const [label, v] of sum) if (v > best[1]) best = [label, v];
+    return best[0] === "neutral" ? best : [best[0], Math.min(1, best[1] / Math.max(1, units.length) * 2)];
+  });
 }
 
 export function unitLines(scene) {
   return scene.units.map((u) => u.line - scene.start);
 }
 
-export function analyzeModel(scene, bundle, embedder = null) {
-  const it = analyzeModelStages(scene, bundle, embedder);
+export function analyzeModel(scene, bundle, embedder = null, opts = {}) {
+  const it = analyzeModelStages(scene, bundle, embedder, opts);
   let r = it.next();
   while (!r.done) r = it.next();
   return r.value;

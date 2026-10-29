@@ -8,8 +8,10 @@ These are small, local analyzers for Screenwrite. They run in a **Web Worker**, 
 - **Beats**: where each dramatic beat starts.
 - **Tension**: a score from 0 to 1 per beat, for the Timeline.
 - **Who**: which character performs, or is described by, each action line. The answer can be several characters, or none.
-- **Addressee**: who each line of dialogue is spoken to. The answer can be one or more characters, `ALL`, `SELF`, or no listener.
-- **Emotion**: one of 8 labels plus an intensity, for each line.
+- **Mood**: one of 8 emotions plus a strength, for each line and summarized for each beat (`beatMood`).
+
+(An addressee model, for who a line is spoken to, exists but is off by default. Pass `{ addressee: true }` to
+`analyzeModelStages` to enable it.)
 
 ## 1. What to ship
 
@@ -36,7 +38,7 @@ editor (main thread)                          analyzer worker
   ◄── {scenes, hashes, starts}   {result, index, hash, result, cached}   {model, status}
 ```
 
-- **While typing:** nothing runs per keystroke. After a 300 ms pause, only the edited scene is re-analyzed. That takes about 5 ms, or about 17 ms on a 4× throttled CPU, split into three tasks of about 4–10 ms each. Results update about 0.3 s after the writer pauses. The main thread is never blocked.
+- **While typing:** nothing runs per keystroke. After a 300 ms pause, only the edited scene is re-analyzed. That takes about 3 ms, or about 14.5 ms (p50) on a 4× throttled CPU, split into three tasks of about 4–11 ms each. Results update about 0.3 s after the writer pauses. The main thread is never blocked.
 - **Opening a script:** unchanged scenes come from the IndexedDB cache, so they are instant. On a cold open, every scene gets beats and tension first, so the Timeline fills in before who and emotion.
 - **Stale work is dropped:** a newer `update` cancels anything queued from older text.
 
@@ -78,10 +80,11 @@ The editor line of unit `u` in scene `i` is `starts[i] + results.get(i).unitLine
   cast: [{ id, name, names, gender }],     // gender "m" | "f" | "?"
   beats: [unitIndex, ...],                 // units that start a beat
   tension: [0..1, ...],                    // one per beat
+  beatMood: [[label, strength], ...],      // one per beat: strongest non-neutral emotion, or ["neutral", 0]
   unitLines: [lineOffset, ...],            // per unit, relative to the scene's first line
   lines: {
     [unitIndex]: { who: [charId], conf, margin, runnerUp, emo: [label, intensity] },   // action line
-    [unitIndex]: { speaker, to: [charId | -2 ALL | -3 SELF | -4 nobody], conf, margin, emo },  // dialogue
+    [unitIndex]: { speaker, emo },                                                       // dialogue (speaker = from the cue)
   },
 }
 ```
@@ -92,9 +95,7 @@ A unit is one action **sentence**, one dialogue block, a heading or a transition
 
 ```js
 const SHOW_WHO = 0.4;   // ~94% correct on screenplay-style scenes, ~80% on plays; about half the lines shown
-const SHOW_TO  = 0.3;   // ~88-90% correct; about 85-88% of lines shown
 const who = line.margin >= SHOW_WHO ? line.who : null;   // null -> show "?" and let the writer choose
-const to  = line.margin >= SHOW_TO  ? line.to  : null;
 ```
 
 Below the threshold, show "?" and let the writer pick, or show the guess styled as a suggestion. A confidently shown wrong answer is worse than a gap. Accuracy against the share of lines shown, measured on the gold sets:
@@ -105,10 +106,6 @@ Below the threshold, show "?" and let the writer pick, or show the guess styled 
 | | shown | 100% | 88% | 77% | 68% | 55% | 48% | 42% |
 | Who plays | accuracy | 64% | 69% | 72% | 75% | 80% | 81% | 82% |
 | | shown | 100% | 86% | 74% | 61% | 49% | 32% | 22% |
-| Addressee synthetic | accuracy | 84% | 86% | 88% | 88% | 90% | 93% | 95% |
-| | shown | 100% | 96% | 91% | 88% | 83% | 73% | 62% |
-| Addressee plays | accuracy | 82% | 86% | 88% | 90% | 90% | 94% | 95% |
-| | shown | 100% | 94% | 88% | 85% | 82% | 72% | 66% |
 
 Make the thresholds a setting, so they can be tuned once real screenplays are measured.
 
@@ -123,17 +120,16 @@ Make the thresholds a setting, so they can be tuned once real screenplays are me
 |---|---|---|
 | Beat boundaries, F1 (±1 line) | 0.90 | 0.93 |
 | Who, exact / top-1 | 81% / 85% | ~60% / ~64% |
-| Addressee, exact | 84% | 82% |
-| Emotion, accuracy | 71% | 48% |
+| Mood (line emotion), accuracy | 71% | 48% |
 | Tension, pairs ordered correctly within a scene | 84% | — |
 
 Gold labels are the agreement of 3 independent Claude Opus passes. Plays are a harder, different format, and no real screenplays were available to test on (copyright), so treat **who** and **emotion** as assistive hints. Beats, tension and addressee are solid.
 
 Speed, measured in headless Chromium with a 4× CPU throttle (`node tools/analyzers/perf_browser.mjs 4`):
 
-- **Per worker task:** p50 ~4.5 ms, p95 ~10 ms.
-- **Whole edited scene:** p50 ~17 ms.
-- **Cold, ~135-page script:** ~1.2–1.4 s, with the Timeline ready at ~0.6–0.7 s.
+- **Per worker task:** p50 ~4.3 ms, p95 ~11 ms.
+- **Whole edited scene:** p50 ~14.5 ms, p95 ~33 ms (large scenes).
+- **Cold, ~135-page script:** ~1.3 s in total, with the Timeline (beats + tension) ready at ~0.65 s. Reopening is instant from cache.
 
 ## 7. Tests and tools
 

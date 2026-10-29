@@ -43,7 +43,7 @@ for (const r of reqs) {
   const out = { scene_id: r.scene_id, rule, tRule, ruleTensionGold: gold.map((g) => ruleTension(tensionFeatures(ctx, g))) };
   if (bundle) {
     t = performance.now();
-    out.model = analyzeModel(scene, bundle, embedder);
+    out.model = analyzeModel(scene, bundle, embedder, { addressee: true });
     out.tModel = performance.now() - t;
     if (tiny) {
       const c2 = sceneContext(scene);
