@@ -19,18 +19,19 @@ ap.add_argument("--seed", type=int, default=3)
 a = ap.parse_args()
 gold = DS.gold_scene_labels()
 lab = {k: v for k, v in DS.train_scene_labels().items() if k not in gold}
-syn = sorted(k for k in lab if k.startswith("s"))
+syn = sorted(k for k in lab if k.startswith("s") and not k.startswith("s05"))
+con = sorted(k for k in lab if k.startswith("s05"))
 pt = sorted(k for k in lab if k.startswith("pt_"))
 rng = random.Random(a.seed)
 rng.shuffle(syn)
-ids = syn[: a.n] + pt
+ids = syn[: a.n] + con + pt
 reqs = "".join(json.dumps({"scene_id": s, "source": lab[s]["d"]["source"], "index": DS.scene_index(s, lab[s]["d"]["source"]), "beats": []}) + "\n" for s in ids)
 P = {d["scene_id"]: d for d in map(json.loads, subprocess.run(["node", "predict.mjs", "../../public/models/analyzers.json"], input=reqs, capture_output=True, text=True, check=True).stdout.splitlines())}
-stats = {"syn": [0, 0, 0], "pt": [0, 0, 0]}
+stats = {"syn": [0, 0, 0], "con": [0, 0, 0], "pt": [0, 0, 0]}
 errs = []
 for s in ids:
     d = lab[s]["d"]
-    grp = "pt" if s.startswith("pt_") else "syn"
+    grp = "pt" if s.startswith("pt_") else "con" if s.startswith("s05") else "syn"
     names = {c["id"]: c["name"] for c in d["cast"]}
     for u, v in lab[s]["units"].items():
         if "who" not in v:

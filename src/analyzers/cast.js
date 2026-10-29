@@ -71,6 +71,7 @@ export function capsNames(text, cueNames) {
     if (n.replace(/[^A-Z]/g, "").length < 2) continue;
     const after = text.slice(m.index + m[0].length, m.index + m[0].length + 3);
     const before = text.slice(Math.max(0, m.index - 5), m.index);
+    if (/^(INSERT|ON|SUPER|TITLE|CHYRON|PHONE SCREEN|SCREEN|PHONE|TEXT|CLOSE|ANGLE|BACK|INTERCUT|MONTAGE|SERIES|POV|WIDE|LATER|CONTINUOUS)\b/.test(n)) continue;
     // Signs, labels and on-screen text: "a sign reads STAFF ONLY", "stamped CANCELLED", "SUPER: ..."
     if (/\b(reads?|marked|labell?ed|stamped|printed|super|caption)\s*:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 16), m.index))) continue;
     const isCue = cueNames.some((c) => sameChar(c, n));
@@ -170,13 +171,18 @@ export function buildCast(scene) {
   for (const c of chars) c.name = c.tagName || c.names.reduce((a, b) => (rank(b) > rank(a) ? b : a));
   // Mention regexes: each key token as a word, case-insensitive (Maya / MAYA / Maya's).
   // A word in two characters' names ("COUSIN BEA" / "COUSIN TEDDY", siblings' surname) identifies neither.
-  const tokSets = chars.map((c) => [...new Set(c.names.flatMap(keyTokens))].filter((t) => t.length > 1));
+  // Articles never identify anyone; a descriptive name ("THE NEW GIRL", "HOODIE GUY") only matches as a whole phrase.
+  const nameToks = (n) => {
+    const t = keyTokens(n).filter((x) => !/^(THE|A|AN)$/.test(x));
+    return DESCR.test(n) && t.length > 1 ? [t.join(" ")] : t;
+  };
+  const tokSets = chars.map((c) => [...new Set(c.names.flatMap(nameToks))].filter((t) => t.length > 1));
   const owners = new Map();
   for (const ts of tokSets) for (const t of ts) owners.set(t, (owners.get(t) || 0) + 1);
   const res = chars.map((c, k) => {
     const own = tokSets[k].filter((t) => owners.get(t) === 1);
     const toks = own.length ? own : tokSets[k];
-    return toks.length ? new RegExp(`\\b(?:${toks.map(escapeRe).join("|")})(?:['’]s)?\\b`, "gi") : null;
+    return toks.length ? new RegExp(`\\b(?:${toks.map((t) => escapeRe(t).replace(/ /g, "\\s+")).join("|")})(?:['’]s)?\\b`, "gi") : null;
   });
   // Common-noun characters ("a WOMAN") are later referred to as "the woman"; forward-introduced ones by their noun.
   const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe(keyTokens(c.name)[0].toLowerCase())}\\b`, "gi")

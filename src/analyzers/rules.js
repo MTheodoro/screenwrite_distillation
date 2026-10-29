@@ -406,7 +406,8 @@ export function strongActors(ctx, i) {
     if (lp) return lp;
     return joint ? null : [ms[0].c]; // other joint shapes: leave to the model
   }
-  const pa = pronounAppositive(ctx, i);
+  if (NOBODY.test(u.text) || SCREEN_TEXT.test(u.text)) return [];
+  const pa = pronounAppositive(ctx, i) || introAppositive(ctx, i);
   if (pa) return pa;
   if (EVERYONE.test(u.text)) { const all = everyone(ctx, i); if (all.length) return all; }
   const fwd = ctx.cast.chars.find((c) => c.fwd === i);
@@ -451,7 +452,23 @@ function laterOfGender(ctx, i, g) {
   return -1;
 }
 // "Everyone turns." / "Nobody moves." -> everybody present.
-const EVERYONE = /^(everyone|everybody|nobody|no one|all of them|all eyes|the whole (room|table|group|family))\b/i;
+const EVERYONE = /^(everyone|everybody|all of them|all eyes|the whole (room|table|group|family))\b/i;
+// "Nobody moves." / "No one answers." -> nobody acts.
+const NOBODY = /^(nobody|no one|none of them|neither of them)\b/i;
+// On-screen text and inserts: "ON PHONE: where r u", "INSERT - TEXT MESSAGE", "SUPER: 1999".
+const SCREEN_TEXT = /^(on (phone|screen|the screen|tv|laptop|monitor|her phone|his phone)|insert\b|super\b|title\b|chyron|text( message)?:|caption|subtitle|phone screen)/i;
+// Introduction appositive: "Next to Juniper, Sam, early 20s, ..." / "Her brother, Vic, 60s, ..." -> the introduced one.
+const INTRO_APPOS = /^,\s*(?:\d{1,2}s?|(?:early|mid|late)[- ]\d0s|\d0s|age \d+|[a-z]+ish)\b/i;
+function introAppositive(ctx, i) {
+  const t = ctx.units[i].text, ms = ctx.cast.mentions[i];
+  for (const m of ms) {
+    if (m.at === 0) continue;
+    const end = t.slice(m.at).match(/^[\w.'’-]+(?:\s+[A-Z][\w.'’-]+)*/);
+    if (!end) continue;
+    if (/,\s*$/.test(t.slice(0, m.at)) && INTRO_APPOS.test(t.slice(m.at + end[0].length))) return [m.c];
+  }
+  return null;
+}
 function everyone(ctx, i, window = 99) {
   return [...new Set(ctx.pres[i])].filter((c) => candRecency(ctx, i, c) <= window);
 }
@@ -478,7 +495,8 @@ export function ruleActors(ctx, i) {
   const prons = ctx.cast.pronouns[i];
   const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
   if (ms.length && ms[0].lead) return leadPossessive(ctx, i) || [ms[0].c];
-  const pa = pronounAppositive(ctx, i);
+  if (NOBODY.test(u.text) || SCREEN_TEXT.test(u.text)) return [];
+  const pa = pronounAppositive(ctx, i) || introAppositive(ctx, i);
   if (pa) return pa;
   if (EVERYONE.test(u.text)) { const all = everyone(ctx, i); if (all.length) return all; }
   const fwd = ctx.cast.chars.find((c) => c.fwd === i);
@@ -486,7 +504,7 @@ export function ruleActors(ctx, i) {
   if (subjectless(ctx, i)) {
     // A stage direction next to a speech belongs to that speaker ("Smiles." / "Breaking off.").
     for (const j of [i + 1, i - 1]) if (ctx.units[j]?.kind === "dialogue" && ctx.speaker[j] >= 0) return [ctx.speaker[j]];
-    const pa = prevActorOf(ctx, i); if (pa.ids.length && pa.dist <= 4) return pa.ids;
+    const pa = prevActorOf(ctx, i); if (pa.ids.length && pa.dist <= 1) return pa.ids;
   }
   const initPron = initialPronoun(ctx, i);
   const salient = (filter) => cands.filter(filter).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
