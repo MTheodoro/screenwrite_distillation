@@ -183,7 +183,24 @@ export const ACTOR_FEATURES = ["isNone", "named", "firstPos", "initialName", "po
   "initialPronoun", "pronGenderMatch", "pronGenderMismatch", "genderUnknown", "nPronounsMatch", "sinceNamed", "sinceSpoke",
   "sinceSubj", "isLastSubj", "recencyRank", "prevSpeaker", "nextSpeaker", "introHere", "present", "nPresent",
   "nSameGender", "plural", "unitHasNames", "unitHasPronouns", "sentInPara", "paraSubj", "otherNamedFirst", "words",
-  "lastSpeakerSpoke", "subjectless", "prevActor", "prevActorSamePara", "prevActorDist"];
+  "lastSpeakerSpoke", "subjectless", "prevActor", "prevActorSamePara", "prevActorDist", "isGroup", "pluralSubject",
+  "groupPluralMatch", "fwdIntro", "verbless"];
+
+// Pronoun subject near the start, allowing a leading connective ("Yet he", "But she", "Then they").
+const LEAD = /^(?:\s*(?:yet|but|and|then|now|still|so|as|when|while|though|meanwhile|suddenly|slowly|finally|again)\b,?)+\s*$/i;
+function initialPronoun(ctx, i) {
+  const p = ctx.cast.pronouns[i][0];
+  if (!p) return null;
+  if (p.at <= 1 || LEAD.test(ctx.units[i].text.slice(0, p.at))) return p.g;
+  return null;
+}
+// Plural subject: "They ...", "All attempt", "Many of the people", "Some of them", "Everyone".
+const PLURAL_SUBJ = /^(?:in turns,?\s*)?(they|all|many|some|most|few|a few|several|none|everyone|everybody|both|the (?:crowd|people|others|group))\b/i;
+// No finite verb: "Mid-age, deep benevolent eyes, severe face."
+const AUX = /\b(is|are|was|were|be|been|being|has|have|had|do|does|did|can|could|will|would|shall|should|may|might|must|\w+ed|\w+ing)\b/i;
+// Appearance description fragment about the last-introduced character ("Mid-age, deep benevolent eyes, severe face.").
+const LOOKS = /\b(eyes|face|hair|beard|skin|smile|voice|build|frame|hands|features|jaw|brow|gaze|robe|suit|coat|dress|uniform|habit|boots|scar|tattoo|glasses|mid-age|middle-aged|\d0s|years old|tall|short|thin|stocky|gaunt|handsome|beautiful|pretty|weathered)\b/i;
+function verbless(t) { return !AUX.test(t) && LOOKS.test(t) && !/^(the|a|an|it|its)\b/i.test(t) ? 1 : 0; }
 
 // Sentence with no grammatical subject at the start: "Opens a folder." "Flips." "Slowly." "Warm face."
 const DET = /^(a|an|the|this|that|these|those|his|her|their|its|my|our|your|some|no|every|each|one|two|three|on|in|at|from|behind|outside|inside|across|through|under|over|near|beside|somewhere|nobody|someone|everyone|it|there|then|now|later|silence|nothing)\b/i;
@@ -193,6 +210,7 @@ export function subjectless(ctx, i) {
   const ms = ctx.cast.mentions[i], prons = ctx.cast.pronouns[i];
   if ((ms.length && ms[0].at <= 1) || (prons.length && prons[0].at <= 1)) return 0;
   const t = u.text.trim();
+  if (verbless(t) && !PLURAL_SUBJ.test(t) && words(t) <= 12) return 1; // descriptive fragment
   if (DET.test(t)) return 0;
   return /^[A-Z][a-z]+(s|es|ed|ly|ing)\b/.test(t) || /^[A-Z][a-z]+\.$/.test(t) || words(t) <= 3 ? 1 : 0;
 }
@@ -253,12 +271,14 @@ function actorBase(ctx, i, c) {
   const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
   const nPresent = cands.length;
   const plural = PLURAL.test(u.text) ? 1 : 0;
-  const initPron = prons.length && prons[0].at <= 1 ? prons[0].g : null;
+  const initPron = initialPronoun(ctx, i);
+  const pluralSubj = initPron === "p" || PLURAL_SUBJ.test(u.text) ? 1 : 0;
+  const vless = verbless(u.text);
   if (c === SPECIAL.NONE) {
     const pa = prevActorOf(ctx, i);
     return [1, 0, 1, 0, 0, 0, 0, initPron ? 1 : 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, nPresent, 0, plural,
       ms.length ? 1 : 0, prons.length ? 1 : 0, u.sent ?? 0, 0, 0, log1p(words(u.text)), 0,
-      subjectless(ctx, i), pa.ids.length ? 0 : 1, pa.samePara, log1p(pa.dist)];
+      subjectless(ctx, i), pa.ids.length ? 0 : 1, pa.samePara, log1p(pa.dist), 0, pluralSubj, 0, 0, vless];
   }
   const ch = ctx.cast.chars[c];
   const mine = ms.filter((m) => m.c === c);
@@ -291,7 +311,30 @@ function actorBase(ctx, i, c) {
     lastSp === c && prevContent(ctx, i) >= 0 && ctx.units[prevContent(ctx, i)].kind === "dialogue" ? 1 : 0,
     subjectless(ctx, i), prevActorOf(ctx, i).ids.includes(c) ? 1 : 0,
     prevActorOf(ctx, i).ids.includes(c) ? prevActorOf(ctx, i).samePara : 0, log1p(prevActorOf(ctx, i).dist),
+    ch.group ? 1 : 0, pluralSubj, ch.group && pluralSubj ? 1 : 0, ch.fwd === i ? 1 : 0, vless,
   ];
+}
+
+// High-precision patterns only (used to override the model): name-led sentence, introduced-before-named,
+// plural subject with a group present, appearance fragment after an introduction. null = no strong rule.
+export function strongActors(ctx, i) {
+  const u = ctx.units[i];
+  if (u.kind !== "action") return null;
+  const ms = ctx.cast.mentions[i];
+  const joint = new Set(ms.filter((m) => m.pos < 0.4).map((m) => m.c)).size > 1 || PLURAL.test(u.text);
+  if (ms.length && ms[0].at <= 1) return joint ? null : [ms[0].c]; // "MAYA and JONAH fight": leave to the model
+  const fwd = ctx.cast.chars.find((c) => c.fwd === i);
+  if (fwd) return [fwd.id];
+  const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
+  if (initialPronoun(ctx, i) === "p" || PLURAL_SUBJ.test(u.text)) {
+    const g = cands.filter((c) => ctx.cast.chars[c].group);
+    if (g.length) return [g.sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b))[0]];
+  }
+  if (verbless(u.text) && !ms.length) {
+    const pa = prevActorOf(ctx, i);
+    if (pa.ids.length === 1 && pa.dist <= 2 && pa.samePara) return pa.ids;
+  }
+  return null;
 }
 
 // Rule verdict: array of char ids (empty = NONE).
@@ -301,10 +344,14 @@ export function ruleActors(ctx, i) {
   const prons = ctx.cast.pronouns[i];
   const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
   if (ms.length && ms[0].at <= 1) return [ms[0].c];
+  const fwd = ctx.cast.chars.find((c) => c.fwd === i);
+  if (fwd) return [fwd.id];
   if (subjectless(ctx, i)) { const pa = prevActorOf(ctx, i); if (pa.ids.length && pa.dist <= 4) return pa.ids; }
-  const initPron = prons.length && prons[0].at <= 1 ? prons[0].g : null;
+  const initPron = initialPronoun(ctx, i);
   const salient = (filter) => cands.filter(filter).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
-  if (initPron === "p" || /^(both|together|the two|everyone)\b/i.test(u.text)) {
+  if (initPron === "p" || PLURAL_SUBJ.test(u.text) || /^(together|the two)\b/i.test(u.text)) {
+    const g = salient((c) => ctx.cast.chars[c].group);
+    if (g.length) return [g[0]];
     const s = salient(() => true).slice(0, 2);
     if (s.length) return s;
   }

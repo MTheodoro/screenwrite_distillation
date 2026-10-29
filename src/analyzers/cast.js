@@ -45,6 +45,15 @@ function sameChar(a, b) {
   return s.every((t) => l.includes(t));
 }
 
+// Collective / plural entities: act as one group character ("they", "all of them", "many of the people").
+export const GROUP_NOUNS = new Set(("PROCESSION CROWD MOB ARMY GANG CREW FAMILY CHOIR TROOPS SOLDIERS GUARDS PEOPLE VILLAGERS " +
+  "TOURISTS GUESTS STUDENTS PASSENGERS AUDIENCE CONGREGATION TRIBE BAND TEAM COUPLE TWINS WORKERS MEN WOMEN CHILDREN KIDS " +
+  "POLICE COPS SQUAD PATROL PACK HERD FLOCK PILGRIMS MONKS NUNS SAILORS SETTLERS INDIANS PROTESTERS REPORTERS FANS " +
+  "MOURNERS DANCERS RIDERS HUNTERS BANDITS PIRATES SLAVES PRISONERS NURSES DOCTORS OFFICERS AGENTS THUGS MEN-AT-ARMS").split(" "));
+const FEMALE = /\b(girl|woman|mother|wife|daughter|sister|queen|nun|lady|actress|waitress|priestess|grandmother|grandma|aunt|bride|widow|maid|princess|she|her)\b/gi;
+const MALE = /\b(boy|man|father|husband|son|brother|king|priest|monk|lord|actor|waiter|grandfather|grandpa|uncle|groom|widower|prince|he|his|him)\b/gi;
+const PERSON_NOUN = /\b(?:a|an)\s+(?:[\w-]+\s+){0,4}?(girl|woman|boy|man|child|kid|teenager|teen|stranger|figure|priest|soldier|old man|old woman|lady|nun|monk|guard|nurse|doctor|officer|mother|father)\b/i;
+
 // Caps intros in an action sentence: "MAYA OKAFOR (30s), wiry" -> ["MAYA OKAFOR"].
 export function capsNames(text, cueNames) {
   if (text === text.toUpperCase()) return []; // shouted / SFX-only sentence
@@ -87,8 +96,20 @@ export function buildCast(scene) {
       n = n.replace("\u0000", "");
       const c = add(n, u.i, "intro");
       if (common && keyTokens(n).length === 1) c.common = true;
+      if (keyTokens(n).some((t) => GROUP_NOUNS.has(t))) c.group = true;
     }
   }
+  // Introduced before being named: "A teenage girl ... This is UATAKI." -> the description sentence belongs to UATAKI
+  // and "the girl" becomes an alias.
+  const acts = units.filter((u) => u.kind === "action");
+  acts.forEach((u, k) => {
+    const pm = u.text.match(PERSON_NOUN);
+    if (!pm || capsNames(u.text, cueNames).length) return;
+    for (const v of acts.slice(k + 1, k + 3)) {
+      const named = chars.find((c) => c.first === v.i || c.intro === v.i);
+      if (named && !named.group) { named.fwd = u.i; named.alias = pm[1].toLowerCase(); if (named.first > u.i) named.first = u.i; break; }
+    }
+  });
   // Prefer the longest/full name as display name.
   for (const c of chars) c.name = c.names.reduce((a, b) => (keyTokens(b).length > keyTokens(a).length ? b : a));
   // Mention regexes: each key token as a word, case-insensitive (Maya / MAYA / Maya's).
@@ -96,8 +117,9 @@ export function buildCast(scene) {
     const toks = [...new Set(c.names.flatMap(keyTokens))].filter((t) => t.length > 1);
     return toks.length ? new RegExp(`\\b(?:${toks.map(escapeRe).join("|")})(?:['’]s)?\\b`, "gi") : null;
   });
-  // Common-noun characters ("a WOMAN") are later referred to as "the woman".
-  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe(keyTokens(c.name)[0].toLowerCase())}\\b`, "gi") : null));
+  // Common-noun characters ("a WOMAN") are later referred to as "the woman"; forward-introduced ones by their noun.
+  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe(keyTokens(c.name)[0].toLowerCase())}\\b`, "gi")
+    : c.alias ? new RegExp(`\\bthe ${escapeRe(c.alias)}\\b`, "gi") : null));
   const mentions = units.map(() => []);
   const pronouns = units.map(() => []);
   for (const u of units) {
@@ -125,9 +147,24 @@ export function buildCast(scene) {
     if (ids.length !== 1 || mentions[u.i][0].pos > 0.2) continue;
     for (const p of pronouns[u.i]) if (p.at > mentions[u.i][0].at && p.g !== "p") chars[ids[0]].g[p.g]++;
   }
+  // Pronoun opening the sentence right after one that names exactly one character ("This is UATAKI. She is ...").
+  for (let k = 1; k < acts.length; k++) {
+    const ids = [...new Set(mentions[acts[k - 1].i].map((m) => m.c))];
+    const p0 = pronouns[acts[k].i][0];
+    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length) chars[ids[0]].g[p0.g]++;
+  }
+  // Descriptor nouns in the introduction sentence ("a jesuitic priest", "a teenage girl").
+  for (const c of chars) {
+    for (const ui of [c.intro, c.fwd]) {
+      if (ui === undefined || ui < 0) continue;
+      const t = units[ui].text.replace(/\b(his|her|him|he|she)\b/gi, "");
+      c.g.f += 2 * (t.match(FEMALE) || []).length;
+      c.g.m += 2 * (t.match(MALE) || []).length;
+    }
+  }
   for (const c of chars) {
     const { m, f } = c.g;
-    c.gender = m > f ? "m" : f > m ? "f" : "?";
+    c.gender = c.group ? "p" : m > f ? "m" : f > m ? "f" : "?";
   }
   return { chars, mentions, pronouns };
 }
