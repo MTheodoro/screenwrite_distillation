@@ -2,7 +2,7 @@
 // Pure functions; runs in the Web Worker (and in Node for benchmarks/tests).
 import {
   sceneContext, boundaryFeatures, actorCandidates, actorFeatures, addrCandidates, addrFeatures, emotionFeatures,
-  unitTensionFeatures, attachEmbedder, SPECIAL,
+  unitTensionFeatures, attachEmbedder, SPECIAL, ACTOR_FEATURES,
 } from "./rules.js";
 
 // Trees are packed once into typed arrays (one set per model) for cache-friendly evaluation.
@@ -85,7 +85,10 @@ export function* analyzeModelStages(scene, bundle, embedder = null) {
   for (const i of ctx.content) {
     if (ctx.units[i].kind === "action") {
       const cands = actorCandidates(ctx, i);
-      const d = decodeSet(cands, cands.map((c) => predictRaw(models.actor, actorFeatures(ctx, i, c))), meta.actor.tau);
+      const feats = cands.map((c) => actorFeatures(ctx, i, c));
+      const plural = feats[0][ACTOR_FEATURES.indexOf("plural")] > 0;
+      const tau = plural && meta.actor.tau_plural != null ? meta.actor.tau_plural : meta.actor.tau;
+      const d = decodeSet(cands, feats.map((x) => predictRaw(models.actor, x)), tau);
       result.lines[i] = { who: d.ids, conf: d.conf, margin: d.margin, runnerUp: d.runnerUp };
     } else {
       const cands = addrCandidates(ctx, i);

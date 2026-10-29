@@ -39,19 +39,24 @@ def split_scenes(sids, frac=0.15, seed=0):
     return set(u[: max(1, int(len(u) * frac))])
 
 
-def decode_sets(units, cands, probs, tau):
-    """Per unit: top candidate, plus others with prob > tau. Specials (<0) are exclusive."""
+def decode_sets(units, cands, probs, tau, plural=None, tau_plural=None):
+    """Per unit: top candidate, plus others with prob > tau (tau_plural on lines with plural cues).
+    Specials (<0) are exclusive."""
     by = defaultdict(list)
-    for u, c, p in zip(units, cands, probs):
+    pl = {}
+    for k, (u, c, p) in enumerate(zip(units, cands, probs)):
         by[u].append((p, c))
+        if plural is not None:
+            pl[u] = plural[k]
     out = {}
     for u, lst in by.items():
         lst.sort(reverse=True)
         top = lst[0][1]
+        t = tau_plural if (tau_plural is not None and pl.get(u)) else tau
         if top < 0:
             out[u] = [top]
         else:
-            out[u] = [top] + [c for p, c in lst[1:] if c >= 0 and p > tau]
+            out[u] = [top] + [c for p, c in lst[1:] if c >= 0 and p > t]
     return out
 
 
@@ -123,18 +128,23 @@ def train(use_emb=False, out_path=None):
         T = data[task]; val = split_scenes(T["sid"]); m = np.isin(T["sid"], list(val))
         clf = lgb.LGBMClassifier(**P_SMALL).fit(T["X"][~m], T["y"][~m])
         p = clf.predict_proba(T["X"][m])[:, 1]
-        best = (-1, 0.5)
+        best = (-1, 0.5, None)
         keys = list(zip(T["sid"][m], T["u"][m]))
+        names = DS.feature_names()[task]
+        plural = T["X"][m][:, names.index("plural")] if "plural" in names else None
+        gold_sets = defaultdict(set)
+        for k, c, y in zip(keys, T["c"][m], T["y"][m]):
+            if y:
+                gold_sets[k].add(c)
         for tau in (0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.95):
-            dec = decode_sets(keys, T["c"][m], p, tau)
-            gold_sets = defaultdict(set)
-            for k, c, y in zip(keys, T["c"][m], T["y"][m]):
-                if y:
-                    gold_sets[k].add(c)
-            acc = np.mean([set(dec[k]) == (gold_sets[k] or {-1}) for k in dec])
-            best = max(best, (acc, tau))
+            for tp in ([None] if plural is None else [None, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5]):
+                dec = decode_sets(keys, T["c"][m], p, tau, plural, tp)
+                acc = np.mean([set(dec[k]) == (gold_sets[k] or {-1}) for k in dec])
+                if acc > best[0]:
+                    best = (acc, tau, tp)
         clf = lgb.LGBMClassifier(**P_SMALL).fit(T["X"], T["y"])
-        models[task] = dump(clf, "binary"); meta[task] = {"tau": best[1], "val_set_acc": float(best[0])}
+        models[task] = dump(clf, "binary")
+        meta[task] = {"tau": best[1], "tau_plural": best[2], "val_set_acc": float(best[0])}
 
     # emotion
     E = data["emo"]

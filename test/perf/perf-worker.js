@@ -25,10 +25,14 @@ export async function run({ texts, script }) {
   for (const s of all) analyzeRules(s);
   const coldRules = performance.now() - t;
   t = performance.now();
-  for (const s of all) analyzeModel(s, bundle);
+  const gens = all.map((s) => analyzeModelStages(s, bundle));
+  for (const g of gens) g.next(); // stage 1 everywhere: beats + tension (Timeline)
+  const coldTimeline = performance.now() - t;
+  for (const g of gens) g.next();
+  for (const g of gens) g.next();
   const coldModel = performance.now() - t;
   return ({ tLoad, model: { p50: q(per, 0.5), p95: q(per, 0.95), mean: per.reduce((a, b) => a + b) / per.length },
-    stage: { p50: q(stage, 0.5), p95: q(stage, 0.95), max: Math.max(...stage) }, rules: { p50: q(perRules, 0.5), p95: q(perRules, 0.95) }, scenes: all.length, lines: script.split("\n").length, coldRules, coldModel });
+    stage: { p50: q(stage, 0.5), p95: q(stage, 0.95), max: Math.max(...stage) }, rules: { p50: q(perRules, 0.5), p95: q(perRules, 0.95) }, scenes: all.length, lines: script.split("\n").length, coldRules, coldTimeline, coldModel });
 }
 
 if (typeof WorkerGlobalScope !== "undefined" && self instanceof WorkerGlobalScope) self.onmessage = async ({ data }) => self.postMessage(await run(data));

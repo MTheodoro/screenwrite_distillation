@@ -88,12 +88,23 @@ export class AnalyzerService {
     if (this.running) return;
     this.running = true;
     const step = () => {
-      const it = this.queue.shift();
-      if (!it) { this.running = false; return; }
-      if (it.gen === this.generation) {
+      // Breadth-first over stages: every scene gets beats + tension (stage 1) before any scene gets who/emotion,
+      // so on a cold open the Timeline fills in first. Stale generations are dropped.
+      this.queue = this.queue.filter((x) => x.gen === this.generation);
+      if (!this.queue.length) { this.running = false; return; }
+      let qi = 0;
+      for (let j = 1; j < this.queue.length; j++) if ((this.queue[j].stage || 0) < (this.queue[qi].stage || 0)) qi = j;
+      const it = this.queue[qi];
+      {
         it.stages ??= this.analyzeScene(it.scene);
         const st = it.stages.next();
-        if (!st.done) { this.queue.unshift(it); this.schedule(step); return; } // more stages: yield first
+        it.stage = (it.stage || 0) + 1;
+        if (!st.done) {
+          if (it.stage === 1) it.onResult(it.index, it.hash, st.value, false, false, "partial"); // beats + tension
+          this.schedule(step);
+          return;
+        }
+        this.queue.splice(qi, 1);
         const r = st.value;
         const k = this.key(it.hash);
         if (!this.refiner) {

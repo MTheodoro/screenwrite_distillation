@@ -63,7 +63,8 @@ function firstSpeechUnit(ctx, sp) {
 
 // ---------------- optional static embeddings (Phase 2) ----------------
 // attachEmbedder(ctx, embedder) enables extra features; without it every feature row is unchanged.
-export const EMB = { boundary: 16, actor: 16, addr: 16, emo: 64, tension: 32 };
+// Embeddings only pay off for emotion (Phase 2 benchmark), so the other analyzers ignore them.
+export const EMB = { boundary: 0, actor: 0, addr: 0, emo: 32, tension: 0 };
 
 export function attachEmbedder(ctx, embedder) {
   ctx._embedder = embedder;
@@ -92,7 +93,7 @@ function cosine(a, b) {
 export function featureNames(emb = false) {
   const tail = (k, p) => (emb ? Array.from({ length: k }, (_, d) => `${p}${d}`) : []);
   return {
-    boundary: [...BOUNDARY_FEATURES, ...(emb ? ["embCosPrev"] : []), ...tail(EMB.boundary, "e")],
+    boundary: [...BOUNDARY_FEATURES, ...(emb && EMB.boundary ? ["embCosPrev"] : []), ...tail(EMB.boundary, "e")],
     actor: [...ACTOR_FEATURES, ...tail(EMB.actor, "e")],
     addr: [...ADDR_FEATURES, ...tail(EMB.addr, "e")],
     emo: [...EMO_FEATURES, ...tail(EMB.emo, "e")],
@@ -115,7 +116,7 @@ function unitTensionLex(ctx, i) {
 
 export function boundaryFeatures(ctx, i) {
   const f = boundaryBase(ctx, i);
-  if (!ctx._embedder) return f;
+  if (!ctx._embedder || !EMB.boundary) return f;
   const p = prevContent(ctx, i);
   return f.concat([p >= 0 ? cosine(unitEmb(ctx, i), unitEmb(ctx, p)) : 1], embHead(ctx, i, EMB.boundary));
 }
@@ -242,7 +243,7 @@ export function actorCandidates(ctx, i) {
 
 export function actorFeatures(ctx, i, c) {
   const f = actorBase(ctx, i, c);
-  return ctx._embedder ? f.concat(embHead(ctx, i, EMB.actor)) : f;
+  return ctx._embedder && EMB.actor ? f.concat(embHead(ctx, i, EMB.actor)) : f;
 }
 
 function actorBase(ctx, i, c) {
@@ -348,7 +349,7 @@ export function addrCandidates(ctx, i) {
 
 export function addrFeatures(ctx, i, c) {
   const f = addrBase(ctx, i, c);
-  return ctx._embedder ? f.concat(embHead(ctx, i, EMB.addr)) : f;
+  return ctx._embedder && EMB.addr ? f.concat(embHead(ctx, i, EMB.addr)) : f;
 }
 
 function addrBase(ctx, i, c) {
@@ -482,7 +483,7 @@ function sceneDensity(ctx) {
 // beat = array of unit indices.
 export function tensionFeatures(ctx, beat, sceneThreatDensity = null) {
   const f = tensionBase(ctx, beat, sceneThreatDensity);
-  if (!ctx._embedder) return f;
+  if (!ctx._embedder || !EMB.tension) return f;
   const m = new Float64Array(EMB.tension);
   for (const i of beat) { const e = unitEmb(ctx, i); for (let d = 0; d < m.length; d++) m[d] += e[d]; }
   return f.concat(Array.from(m, (v) => v / Math.max(1, beat.length)));
