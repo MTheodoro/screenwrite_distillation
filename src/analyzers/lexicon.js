@@ -41,11 +41,12 @@ const EXPLICIT = {
   affection: /\b(loves?|loving|adores?|adoring|tender(ly)?|embrac\w*|hugs?|hugging|kiss(es|ing)?|cuddl\w*|darling|sweetheart)\b/i,
 };
 const NEG_BEFORE = /\b(not|no|never|don't|doesn't|didn't|isn't|wasn't|aren't|without|hardly)\s+(\w+\s+)?$/i;
+const EXPLICIT_G = Object.entries(EXPLICIT).map(([k, re]) => [k, new RegExp(re.source, "gi")]);
 export function explicitEmotion(text) {
   let best = null, bestN = 0;
-  for (const [emo, re] of Object.entries(EXPLICIT)) {
+  for (const [emo, re] of EXPLICIT_G) {
     let n = 0;
-    for (const m of text.matchAll(new RegExp(re.source, "gi"))) if (!NEG_BEFORE.test(text.slice(Math.max(0, m.index - 24), m.index))) n++;
+    for (const m of text.matchAll(re)) if (!NEG_BEFORE.test(text.slice(Math.max(0, m.index - 24), m.index))) n++;
     if (n > bestN) { best = emo; bestN = n; }
   }
   return best ? [best, bestN] : null;

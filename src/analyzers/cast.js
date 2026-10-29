@@ -192,6 +192,12 @@ export function buildCast(scene) {
     const t = keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x));
     if (!c.common && !c.alias && !c.tagName && t.length === 1 && !NAME_GENDER[t[0]] && /^[A-Z]{3,}$/.test(t[0])) c.common = true;
   }
+  const HEAD = /\b(MAN|WOMAN|GIRL|BOY|KID|LADY|STRANGER|FIGURE|GUY|TEEN|TEENAGER|DRIVER|NURSE|OFFICER|GUARD|WAITER|WAITRESS|TRAVELER|TRAVELLER|DOCTOR|PRIEST|SOLDIER)\b/;
+  for (const c of chars) {
+    if (c.common || c.alias) continue;
+    const h = c.names.map((n) => (n.match(HEAD) || [])[1]).find(Boolean);
+    if (h && chars.filter((o) => o.names.some((n) => (n.match(HEAD) || [])[1] === h)).length === 1) c.alias = h.toLowerCase();
+  }
   const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe(keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0].toLowerCase())}\\b`, "gi")
     : c.alias ? new RegExp(`\\bthe ${escapeRe(c.alias)}\\b`, "gi") : null));
   const mentions = units.map(() => []);

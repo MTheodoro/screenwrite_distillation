@@ -2,11 +2,11 @@
 // Pure functions; runs in the Web Worker (and in Node for benchmarks/tests).
 import {
   sceneContext, boundaryFeatures, addrCandidates, addrFeatures, emotionFeatures,
-  unitTensionFeatures, attachEmbedder, SPECIAL, ruleActors, lineKind, beat2Features, unitTokens,
+  unitTensionFeatures, attachEmbedder, SPECIAL, ruleActors, ruleWhy, lineKind, beat2Features, unitTokens,
 } from "./rules.js";
 import { explicitEmotion } from "./lexicon.js";
 import { describeScene } from "./describe.js";
-import { scoreTokens } from "./wordtable.js";
+import { scoreTokens, gramIndices, scoreIndices } from "./wordtable.js";
 import { summarizeBeat } from "./summarize.js";
 
 // Trees are packed once into typed arrays (one set per model) for cache-friendly evaluation.
@@ -102,7 +102,7 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
       // Who: rules only (they beat the distilled model on the gold sets). Every action line also gets a kind:
       // character / setting / event / extra / camera / abstract, so no text is left unclassified.
       const who = ruleActors(ctx, i);
-      result.lines[i] = { who, kind: lineKind(ctx, i, who) };
+      result.lines[i] = { who, kind: lineKind(ctx, i, who), why: ruleWhy(ctx, i) };
     } else if (!opts.addressee) {
       result.lines[i] = { speaker: ctx.speaker[i] };
     } else {
@@ -142,17 +142,37 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
 const EXPL = { anger: /\b(angry|furious|rage|hate|yell|shout|scream|slam|fuck|damn)\w*/gi, fear: /\b(afraid|scared|terrif|panic|trembl|fear)\w*/gi,
   sad: /\b(cry|cries|tears|sob|grief|mourn|funeral|sad|miss)\w*/gi, joy: /\b(laugh|grin|smile|cheer|celebrat|happy)\w*/gi,
   tender: /\b(hug|kiss|hold|gentle|soft|love|darling)\w*/gi, threat: /\b(gun|knife|blood|kill|dead|shoot|bomb|threat)\w*/gi };
-export function moodTokens(ctx, units) {
-  const us = units.filter((i) => ctx.units[i].kind === "action" || ctx.units[i].kind === "dialogue");
+function moodSignals(ctx, us) {
   const txt = us.map((i) => ctx.units[i].text).join(" ");
   const q = (txt.match(/\?/g) || []).length, e = (txt.match(/!/g) || []).length;
   const d = us.filter((i) => ctx.units[i].kind === "dialogue").length / Math.max(1, us.length);
   const sig = [q === 0 ? "__q0" : q <= 2 ? "__q1" : "__q3", e === 0 ? "__e0" : e <= 2 ? "__e1" : "__e3", d < 0.2 ? "__dlg0" : d < 0.6 ? "__dlg1" : "__dlg2"];
   for (const [k, r] of Object.entries(EXPL)) { const n = (txt.match(r) || []).length; if (n) sig.push(`__${k}${Math.min(n, 3)}`); }
   sig.push("__len" + (us.length <= 4 ? "s" : us.length <= 12 ? "m" : "l"));
-  const toks = sig;
+  return sig;
+}
+export function moodTokens(ctx, units) {
+  const us = units.filter((i) => ctx.units[i].kind === "action" || ctx.units[i].kind === "dialogue");
+  const toks = moodSignals(ctx, us);
   for (const i of us) for (const t of unitTokens(ctx, i)) toks.push(t);
   return toks;
+}
+// Same scores as scoreTokens(t, moodTokens(ctx, units)), from per-unit cached vocabulary indices.
+export function scoreMood(ctx, t, units, key) {
+  const us = units.filter((i) => ctx.units[i].kind === "action" || ctx.units[i].kind === "dialogue");
+  ctx._gi ??= new Map();
+  if (!ctx._gi.has(key)) ctx._gi.set(key, new Map());
+  const cache = ctx._gi.get(key);
+  const sig = moodSignals(ctx, us);
+  const set = gramIndices(t, us.length ? [...sig, unitTokens(ctx, us[0])[0]].filter((x) => x !== undefined) : sig);
+  for (let k = 0; k < us.length; k++) {
+    const i = us[k];
+    if (!cache.has(i)) cache.set(i, gramIndices(t, unitTokens(ctx, i)));
+    for (const j of cache.get(i)) set.add(j);
+    const toks = unitTokens(ctx, i), next = k + 1 < us.length ? unitTokens(ctx, us[k + 1]) : null;
+    if (toks.length && next && next.length) { const j = t.index.get(toks[toks.length - 1] + " " + next[0]); if (j !== undefined) set.add(j); }
+  }
+  return scoreIndices(t, set);
 }
 // Beat aggregates of the line models for the mood trees: mean / max of the line emotion probabilities, tension of the
 // beat (mean, max, relative to the scene), dialogue share.
@@ -176,19 +196,18 @@ function beatMood2(ctx, result, bundle) {
   const T = bundle.tables.mood, fams = bundle.meta.mood.families, famOf = bundle.meta.mood.family_of;
   const b = result.beats;
   const groups = b.map((s, k) => ctx.content.filter((i) => i >= s && (k + 1 >= b.length || i < b[k + 1])));
-  const ps = scoreTokens(T.scene, moodTokens(ctx, ctx.content));
+  const ps = scoreMood(ctx, T.scene, ctx.content, "scene");
   const famProbs = (p) => fams.map((f) => p[T.scene.classes.indexOf(f)] ?? 0);
   const psF = famProbs(ps);
   const agg = bundle.meta.mood.agg ? moodAggregates(ctx, groups, bundle) : null;
   return groups.map((g, k) => {
-    const toks = moodTokens(ctx, g);
-    const pbRaw = scoreTokens(T.beat, toks);
+    const pbRaw = scoreMood(ctx, T.beat, g, "beat");
     const pb = fams.map((f) => pbRaw[T.beat.classes.indexOf(f)] ?? 0);
     const pf = predictRaw(bundle.models.mood, [...pb, ...psF, k / Math.max(1, groups.length - 1), ...(bundle.meta.mood.agg ? agg[k] : [])]);
     let fam = 0;
     for (let j = 1; j < pf.length; j++) if (pf[j] > pf[fam]) fam = j;
     const family = fams[bundle.meta.mood.classes ? bundle.meta.mood.classes[fam] : fam];
-    const fine = scoreTokens(T.fine, toks);
+    const fine = scoreMood(ctx, T.fine, g, "fine");
     let mood = null, best = -1;
     T.fine.classes.forEach((m, j) => { if (famOf[m] === family && fine[j] > best) { best = fine[j]; mood = m; } });
     const t = result.tension[k] ?? 0.5;

@@ -42,3 +42,28 @@ export function scoreTokens(t, toks) {
   for (let c = 0; c < n; c++) z[c] /= s;
   return z;
 }
+
+// Vocabulary indices hit by a token list (unigrams + adjacent bigrams), deduplicated. Callers cache this per unit and
+// table, then score a beat / scene by merging the units' index sets (plus the bigrams across unit boundaries).
+export function gramIndices(t, toks) {
+  loadTable(t);
+  const out = new Set(), idx = t.index;
+  for (let k = 0; k < toks.length; k++) {
+    let j = idx.get(toks[k]);
+    if (j !== undefined) out.add(j);
+    if (k + 1 < toks.length) { j = idx.get(toks[k] + " " + toks[k + 1]); if (j !== undefined) out.add(j); }
+  }
+  return out;
+}
+
+export function scoreIndices(t, set) {
+  loadTable(t);
+  const n = t.classes.length, z = t.bias.slice(), w = t.weights, sc = t.scale;
+  for (const k of set) { const o = k * n; for (let c = 0; c < n; c++) z[c] += sc * w[o + c]; }
+  let mx = -Infinity;
+  for (const v of z) mx = Math.max(mx, v);
+  let s = 0;
+  for (let c = 0; c < n; c++) { z[c] = Math.exp(z[c] - mx); s += z[c]; }
+  for (let c = 0; c < n; c++) z[c] /= s;
+  return z;
+}
