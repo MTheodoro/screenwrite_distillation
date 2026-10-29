@@ -2,21 +2,41 @@
 // Pure functions; runs in the Web Worker (and in Node for benchmarks/tests).
 import {
   sceneContext, boundaryFeatures, actorCandidates, actorFeatures, addrCandidates, addrFeatures, emotionFeatures,
-  tensionFeatures, SPECIAL,
+  unitTensionFeatures, SPECIAL,
 } from "./rules.js";
 
-function treeValue(t, x) {
-  let n = 0;
-  while (t.f[n] >= 0) n = x[t.f[n]] <= t.t[n] ? t.l[n] : t.r[n];
-  return t.v[n];
+// Trees are packed once into typed arrays (one set per model) for cache-friendly evaluation.
+function pack(m) {
+  if (m.packed) return m.packed;
+  const n = m.trees.reduce((s, t) => s + t.f.length, 0);
+  const f = new Int16Array(n), l = new Int32Array(n), r = new Int32Array(n), v = new Float64Array(n);
+  const roots = new Int32Array(m.trees.length);
+  let o = 0;
+  m.trees.forEach((t, k) => {
+    roots[k] = o;
+    for (let i = 0; i < t.f.length; i++) {
+      f[o + i] = t.f[i]; v[o + i] = t.f[i] < 0 ? t.v[i] : t.t[i];
+      l[o + i] = o + t.l[i]; r[o + i] = o + t.r[i];
+    }
+    o += t.f.length;
+  });
+  m.packed = { f, l, r, v, roots };
+  return m.packed;
+}
+
+function treeValue(p, root, x) {
+  let n = root;
+  while (p.f[n] >= 0) n = x[p.f[n]] <= p.v[n] ? p.l[n] : p.r[n];
+  return p.v[n];
 }
 
 const sigmoid = (z) => 1 / (1 + Math.exp(-z));
 
 export function predictRaw(m, x) {
+  const p = pack(m);
   if (m.kind === "multiclass") {
     const k = m.num_class, out = new Float64Array(k);
-    for (let i = 0; i < m.trees.length; i++) out[i % k] += treeValue(m.trees[i], x);
+    for (let i = 0; i < p.roots.length; i++) out[i % k] += treeValue(p, p.roots[i], x);
     let mx = -Infinity;
     for (const v of out) mx = Math.max(mx, v);
     let s = 0;
@@ -25,7 +45,7 @@ export function predictRaw(m, x) {
     return out;
   }
   let s = 0;
-  for (const t of m.trees) s += treeValue(t, x);
+  for (let i = 0; i < p.roots.length; i++) s += treeValue(p, p.roots[i], x);
   return m.kind === "binary" ? sigmoid(s) : s;
 }
 
@@ -72,14 +92,24 @@ export function analyzeModel(scene, bundle, emb = null) {
   return { cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name, names: c.names })), beats, lines, tension };
 }
 
-export function scoreBeats(ctx, groups, bundle, emb = null) {
-  const { models, meta } = bundle;
-  const raw = groups.map((g) => {
-    let x = tensionFeatures(ctx, g);
-    if (emb) x = x.concat(Array.from(emb(g)));
-    return predictRaw(models.tension, x);
+// Tension is predicted per content unit (windowed features); a beat's score is the mean of its units.
+export function unitTension(ctx, bundle, emb = null) {
+  if (ctx._unitTension) return ctx._unitTension;
+  const feats = unitTensionFeatures(ctx);
+  const m = new Map();
+  ctx.content.forEach((i, k) => {
+    let x = feats[k];
+    if (emb) x = x.concat(Array.from(emb(i)));
+    m.set(i, predictRaw(bundle.models.tension, x));
   });
-  const { lo, hi } = meta.tension;
+  ctx._unitTension = m;
+  return m;
+}
+
+export function scoreBeats(ctx, groups, bundle, emb = null) {
+  const { lo, hi } = bundle.meta.tension;
+  const ut = unitTension(ctx, bundle, emb);
+  const raw = groups.map((g) => g.reduce((s, i) => s + ut.get(i), 0) / Math.max(1, g.length));
   const norm = raw.map((v) => Math.max(0, Math.min(1, (v - lo) / (hi - lo || 1))));
   // light smoothing inside the scene: [0.2, 0.6, 0.2]
   return norm.map((v, k) => {

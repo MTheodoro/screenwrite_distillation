@@ -6,7 +6,7 @@ import { createInterface } from "node:readline";
 import { parse } from "../../src/analyzers/fountain.js";
 import {
   sceneContext, boundaryFeatures, actorCandidates, actorFeatures, addrCandidates, addrFeatures, emotionFeatures,
-  tensionFeatures, analyzeRules, BOUNDARY_FEATURES, ACTOR_FEATURES, ADDR_FEATURES, EMO_FEATURES, TENSION_FEATURES,
+  tensionFeatures, unitTensionFeatures, analyzeRules, BOUNDARY_FEATURES, ACTOR_FEATURES, ADDR_FEATURES, EMO_FEATURES, TENSION_FEATURES,
 } from "../../src/analyzers/rules.js";
 
 if (process.argv[2] === "--names") {
@@ -40,5 +40,6 @@ for await (const line of rl) {
     out.tension[name] = beatGroups(ctx, beats).map((g) => tensionFeatures(ctx, g));
   }
   out.tension.rule = beatGroups(ctx, out.rule.beats).map((g) => tensionFeatures(ctx, g));
+  out.unitTension = unitTensionFeatures(ctx).map((x, k) => [ctx.content[k], x]);
   process.stdout.write(JSON.stringify(out) + "\n");
 }

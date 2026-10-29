@@ -279,7 +279,7 @@ def norm_label(lab, d):
 
 
 def jsonable_set(s):
-    return sorted(sorted(x) if isinstance(x, frozenset) else [x] for x in s)
+    return sorted((sorted(x) if isinstance(x, frozenset) else [x] for x in s), key=str)
 
 
 def cmd_merge_gold(a):
@@ -355,6 +355,64 @@ def cmd_merge_gold(a):
     print(f"  ambiguous rows: {len(amb)}")
 
 
+# ---------- beats-only pass (stronger model, tiny output) ----------
+
+BEAT_TASK = """You segment screenplay scenes into BEATS for a writing tool's timeline.
+
+A beat is the smallest stretch in which ONE dramatic thing happens, after which the situation has changed:
+an action, a reaction, a new tactic or turn in an argument, a reveal, an entrance or exit, a decision.
+- A beat can be dialogue only, action only, or mixed. It can start in the middle of an action paragraph.
+- Do NOT start a beat just because the speaker changes: a question and its answer are usually one beat;
+  a back-and-forth on the same point is one beat.
+- DO start a beat when the subject or goal of the exchange changes, when someone does something that changes the
+  situation, when a new character enters or leaves, or when new information lands.
+- Pure scene-setting at the top (setting, introductions before anything happens) is one beat.
+- Typical beats are 2-8 units; a single unit can be a beat if it is a turning point.
+
+Units: `A` = action sentence (¶ = first sentence of a paragraph), `D` = dialogue block.
+
+Write ONE JSON file to %OUT% with the Write tool: {"<scene_id>": [unit numbers that START a beat, ascending], ...}
+Include every scene below. The first content unit always starts a beat. Valid JSON only. Reply only with "done".
+"""
+
+
+def cmd_beat_tasks(a):
+    ids = parse_ids(a.ids)
+    od = LAB / f"beats_{a.tag}"
+    od.mkdir(parents=True, exist_ok=True)
+    tdir = LAB / "tasks" / f"beats_{a.tag}"
+    tdir.mkdir(parents=True, exist_ok=True)
+    for old in tdir.glob("*.md"):
+        old.unlink()
+    done = set()
+    for f in od.glob("group_*.json"):
+        try:
+            done |= set(json.loads(f.read_text()))
+        except json.JSONDecodeError:
+            pass
+    todo = [s for s in ids if s not in done]
+    n = 0
+    for b in range(0, len(todo), a.batch_size):
+        chunk = todo[b:b + a.batch_size]
+        out = od / f"group_{len(list(od.glob('group_*.json'))) + n:04d}.json"
+        body = [BEAT_TASK.replace("%OUT%", str(out)), "## Scenes", ""]
+        for s in chunk:
+            body += [render_scene(load_units(s)), ""]
+        (tdir / f"task_{n:03d}.md").write_text("\n".join(body))
+        n += 1
+    print(f"{len(todo)} scenes -> {n} beat tasks in {tdir}")
+
+
+def beat_labels(tag):
+    out = {}
+    for f in sorted((LAB / f"beats_{tag}").glob("group_*.json")):
+        try:
+            out.update({k: sorted(set(v)) for k, v in json.loads(f.read_text()).items() if isinstance(v, list)})
+        except json.JSONDecodeError:
+            pass
+    return out
+
+
 # ---------- tension ----------
 
 def beat_texts(d, beats):
@@ -393,13 +451,22 @@ def cmd_tension_tasks(a):
     rng = random.Random(7)
     if a.mode == "gold":
         gold = {g["scene_id"]: g for g in map(json.loads, (DATA / "gold.jsonl").open())}
-        ids = sorted(gold)
+        done = set()
+        for f in (LAB / "tension_A").glob("group_*.pairs.json"):
+            if f.with_name(f.name.replace(".pairs", "")).exists():
+                done |= set(json.loads(f.read_text())["scenes"])
+        ids = sorted(s for s in gold if s not in done)
         passes = "ABC"
         beats_of = lambda s: gold[s]["beats"]
     else:
-        ids = [s for s in parse_ids(a.ids) if valid(LAB / "train" / f"{s}.json", load_units(s), True)[0]]
+        opus = beat_labels("opus")
+        done = set()
+        for f in (LAB / "tension_T").glob("group_*.pairs.json"):
+            if f.with_name(f.name.replace(".pairs", "")).exists():
+                done |= set(json.loads(f.read_text())["scenes"])
+        ids = [s for s in parse_ids(a.ids) if s in opus and s not in done]
         passes = ["T"]
-        beats_of = lambda s: json.loads((LAB / "train" / f"{s}.json").read_text())["beats"]
+        beats_of = lambda s: opus[s]
     rng.shuffle(ids)
     groups = [ids[i:i + a.batch_size] for i in range(0, len(ids), a.batch_size)]
     for p in passes:
@@ -409,7 +476,9 @@ def cmd_tension_tasks(a):
             old.unlink()
         od = LAB / f"tension_{p}"
         od.mkdir(parents=True, exist_ok=True)
+        base = len(list(od.glob("group_*.pairs.json")))  # groups accumulate across runs
         for gi, g in enumerate(groups):
+            gi += base
             out = od / f"group_{gi:03d}.json"
             if out.exists() and not a.force:
                 continue
@@ -430,7 +499,7 @@ def cmd_tension_tasks(a):
             body.append("\n## Comparisons")
             for k, (x, y) in enumerate(pairs):
                 body.append(f"p{k}: a = {x[0]} beat {x[1]} | b = {y[0]} beat {y[1]}")
-            (tdir / f"task_{gi:03d}.md").write_text("\n".join(body))
+            (tdir / f"task_{gi - base:03d}.md").write_text("\n".join(body))
             (od / f"group_{gi:03d}.pairs.json").write_text(json.dumps({"scenes": g, "pairs": pairs}))
         print(f"tension tasks pass {p}: {len(list(tdir.glob('*.md')))}")
 
@@ -443,13 +512,6 @@ def tension_pairs(mode):
     for p in passes:
         od = LAB / f"tension_{p}"
         pairs = {}
-        if mode == "train":  # train within-scene scores come from the structure pass
-            for f in (LAB / "train").glob("*.json"):
-                lab = json.loads(f.read_text())
-                sc = lab.get("tension") or []
-                for i, j in itertools.combinations(range(len(sc)), 2):
-                    if abs(sc[i] - sc[j]) >= 10:
-                        pairs[(lab["scene_id"], i, lab["scene_id"], j)] = int(sc[i] > sc[j])
         for f in sorted(od.glob("group_*.pairs.json")):
             res = f.with_name(f.name.replace(".pairs", ""))
             if not res.exists():
@@ -459,7 +521,7 @@ def tension_pairs(mode):
             except json.JSONDecodeError:
                 continue
             meta = json.loads(f.read_text())
-            if mode == "gold":
+            if True:  # within-scene pairs from per-beat scores (train: Haiku on Opus beats; gold: Opus)
                 for s, sc in (r.get("scores") or {}).items():
                     for i, j in itertools.combinations(range(len(sc)), 2):
                         if abs(sc[i] - sc[j]) >= 10:
@@ -535,6 +597,8 @@ if __name__ == "__main__":
     tt.add_argument("--pairs", type=int, default=30)
     tt.add_argument("--force", action="store_true")
     e = sub.add_parser("export"); e.add_argument("--append", action="store_true")
+    bt = sub.add_parser("beat-tasks"); bt.add_argument("--tag", required=True); bt.add_argument("--ids", default="")
+    bt.add_argument("--batch-size", type=int, default=50)
     a = ap.parse_args()
     {"units": cmd_units, "tasks": cmd_tasks, "check": cmd_check, "merge-gold": cmd_merge_gold,
-     "tension-tasks": cmd_tension_tasks, "export": cmd_export}[a.cmd](a)
+     "tension-tasks": cmd_tension_tasks, "export": cmd_export, "beat-tasks": cmd_beat_tasks}[a.cmd](a)

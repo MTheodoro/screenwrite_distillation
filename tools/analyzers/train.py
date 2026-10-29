@@ -24,6 +24,13 @@ PARAMS = dict(n_estimators=150, learning_rate=0.08, num_leaves=15, max_depth=5, 
               subsample=0.9, subsample_freq=1, colsample_bytree=0.9, reg_lambda=1.0, verbose=-1)
 
 
+# Per-model size: models evaluated once per line can afford more trees than per-candidate scorers
+# (actor/addressee run for every candidate) or the 8-class emotion model (8 trees per round).
+SMALL = dict(n_estimators=70, learning_rate=0.15)
+P_SMALL = {**PARAMS, **SMALL}
+P_EMO = {**PARAMS, "n_estimators": 40, "learning_rate": 0.2}
+
+
 def split_scenes(sids, frac=0.15, seed=0):
     u = sorted(set(sids))
     rng = np.random.default_rng(seed)
@@ -116,7 +123,7 @@ def train(use_emb=False, out_path=None):
     # actor / addressee candidate scorers
     for task in ("actor", "addr"):
         T = data[task]; val = split_scenes(T["sid"]); m = np.isin(T["sid"], list(val))
-        clf = lgb.LGBMClassifier(**PARAMS).fit(T["X"][~m], T["y"][~m])
+        clf = lgb.LGBMClassifier(**P_SMALL).fit(T["X"][~m], T["y"][~m])
         p = clf.predict_proba(T["X"][m])[:, 1]
         best = (-1, 0.5)
         keys = list(zip(T["sid"][m], T["u"][m]))
@@ -128,15 +135,18 @@ def train(use_emb=False, out_path=None):
                     gold_sets[k].add(c)
             acc = np.mean([set(dec[k]) == (gold_sets[k] or {-1}) for k in dec])
             best = max(best, (acc, tau))
-        clf = lgb.LGBMClassifier(**PARAMS).fit(T["X"], T["y"])
+        clf = lgb.LGBMClassifier(**P_SMALL).fit(T["X"], T["y"])
         models[task] = dump(clf, "binary"); meta[task] = {"tau": best[1], "val_set_acc": float(best[0])}
 
     # emotion
     E = data["emo"]
-    clf = lgb.LGBMClassifier(**{**PARAMS, "class_weight": "balanced"}).fit(E["X"], E["y"])
+    # sqrt-inverse-frequency weights: rare emotions matter without collapsing neutral accuracy
+    freq = np.bincount(E["y"], minlength=8).astype(float)
+    w = (freq.sum() / np.maximum(freq, 1)) ** 0.5
+    clf = lgb.LGBMClassifier(**P_EMO).fit(E["X"], E["y"], sample_weight=w[E["y"]])
     models["emo"] = dump(clf, "multiclass")
     meta["emo"] = {"classes": [DS.EMOS[c] for c in clf.classes_]}
-    reg = lgb.LGBMRegressor(**PARAMS).fit(E["X"], E["yi"])
+    reg = lgb.LGBMRegressor(**P_SMALL).fit(E["X"], E["yi"])
     models["emo_int"] = dump(reg, "regression")
 
     # tension: BT over beats, then regressor

@@ -54,7 +54,9 @@ def ids_of(groups):
 
 
 def train_scene_labels():
-    """scene_id -> normalised Haiku labels (units dict, beats, tension)."""
+    """scene_id -> normalised Haiku labels (who/to/emo). Beats come from the Opus beats-only pass where it exists
+    (Haiku under-segments badly); scenes without Opus beats are not used for the boundary or tension models."""
+    opus = L.beat_labels("opus")
     out = {}
     for f in sorted((L.LAB / "train").glob("*.json")):
         d = L.load_units(f.stem)
@@ -62,7 +64,8 @@ def train_scene_labels():
             continue
         lab = json.loads(f.read_text())
         norm, _ = L.norm_label(lab, d)
-        out[f.stem] = {"units": norm, "beats": lab["beats"], "tension": lab["tension"], "d": d}
+        ob = opus.get(f.stem)
+        out[f.stem] = {"units": norm, "beats": ob or lab["beats"], "opus": ob is not None, "d": d}
     return out
 
 
@@ -86,7 +89,7 @@ def gold_scene_labels():
             if "t" in v:
                 e["t"] = v["t"]
             units[int(k)] = e
-        out[g["scene_id"]] = {"units": units, "beats": g["beats"], "d": d}
+        out[g["scene_id"]] = {"units": units, "beats": g["beats"], "opus": True, "d": d}
     return out
 
 
@@ -128,7 +131,7 @@ def build(labels, feats, use_beats="label"):
         beats = set(lab["beats"])
         first = f["boundary"][0][0] if f["boundary"] else None
         for i, x in f["boundary"]:
-            if i == first:
+            if i == first or not lab.get("opus"):
                 continue
             B["X"].append(x); B["y"].append(int(i in beats)); B["sid"].append(sid); B["u"].append(i)
         for i, c, x in f["actor"]:
@@ -147,8 +150,12 @@ def build(labels, feats, use_beats="label"):
                 continue
             emo = v.get("emo") or ("neutral", 0.0)  # an action line that shows no emotion is neutral
             E["X"].append(x); E["y"].append(EMOS.index(emo[0])); E["yi"].append(float(emo[1])); E["sid"].append(sid); E["u"].append(i)
-        for k, x in enumerate(f["tension"].get(use_beats, [])):
-            T["X"].append(x); T["sid"].append(sid); T["k"].append(k)
+        if lab.get("opus"):
+            bs = sorted(lab["beats"])
+            for i, x in f["unitTension"]:
+                k = sum(1 for b in bs if b <= i) - 1
+                if k >= 0:
+                    T["X"].append(x); T["sid"].append(sid); T["k"].append(k)
     for M in (B, A, D, E, T):
         M["X"] = np.array(M["X"], dtype=np.float32)
         for k in M:

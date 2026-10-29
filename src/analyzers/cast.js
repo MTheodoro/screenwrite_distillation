@@ -51,7 +51,8 @@ export function capsNames(text, cueNames) {
     const after = text.slice(m.index + m[0].length, m.index + m[0].length + 3);
     const before = text.slice(Math.max(0, m.index - 5), m.index);
     const isCue = cueNames.some((c) => sameChar(c, n));
-    if (isCue || /^\s*[(,—–-]/.test(after) || /^['’]S/.test(after) || /\b(a|an|the|two|three)\s+$/i.test(before)) out.push(n);
+    const art = /\b(a|an|the|two|three)\s+$/i.test(before);
+    if (isCue || /^\s*[(,—–-]/.test(after) || /^['’]S/.test(after) || art) out.push(art ? n + "\u0000" : n);
   }
   return out;
 }
@@ -74,7 +75,12 @@ export function buildCast(scene) {
   };
   for (const u of units) {
     if (u.kind === "dialogue") add(u.name, u.i, "cue");
-    else if (u.kind === "action") for (const n of capsNames(u.text, cueNames)) add(n, u.i, "intro");
+    else if (u.kind === "action") for (let n of capsNames(u.text, cueNames)) {
+      const common = n.endsWith("\u0000");
+      n = n.replace("\u0000", "");
+      const c = add(n, u.i, "intro");
+      if (common && keyTokens(n).length === 1) c.common = true;
+    }
   }
   // Prefer the longest/full name as display name.
   for (const c of chars) c.name = c.names.reduce((a, b) => (keyTokens(b).length > keyTokens(a).length ? b : a));
@@ -83,6 +89,8 @@ export function buildCast(scene) {
     const toks = [...new Set(c.names.flatMap(keyTokens))].filter((t) => t.length > 1);
     return toks.length ? new RegExp(`\\b(?:${toks.map(escapeRe).join("|")})(?:['’]s)?\\b`, "gi") : null;
   });
+  // Common-noun characters ("a WOMAN") are later referred to as "the woman".
+  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe(keyTokens(c.name)[0].toLowerCase())}\\b`, "gi") : null));
   const mentions = units.map(() => []);
   const pronouns = units.map(() => []);
   for (const u of units) {
@@ -95,6 +103,9 @@ export function buildCast(scene) {
         if (m[0][0] !== m[0][0].toUpperCase()) continue;
         mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: /['’]s$/i.test(m[0]) });
         if (c.first > u.i) c.first = u.i;
+      }
+      if (commonRes[k]) for (const m of text.matchAll(commonRes[k])) {
+        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: false });
       }
     });
     mentions[u.i].sort((a, b) => a.at - b.at);

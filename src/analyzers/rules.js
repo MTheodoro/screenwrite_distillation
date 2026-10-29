@@ -48,6 +48,19 @@ function emoLex(text) {
   return EMOTIONS.slice(1).map((e) => lexCount(text, e));
 }
 
+function unitEmoLex(ctx, i) {
+  ctx._emoLex ??= [];
+  return (ctx._emoLex[i] ??= emoLex(ctx.units[i].text));
+}
+
+function firstSpeechUnit(ctx, sp) {
+  if (!ctx._firstSpeech) {
+    ctx._firstSpeech = new Map();
+    for (const u of ctx.units) if (ctx.speaker[u.i] >= 0 && !ctx._firstSpeech.has(ctx.speaker[u.i])) ctx._firstSpeech.set(ctx.speaker[u.i], u.i);
+  }
+  return ctx._firstSpeech.get(sp);
+}
+
 // ---------------- beats ----------------
 
 export const BOUNDARY_FEATURES = ["prevA", "prevD", "curA", "curD", "paraStart", "speakerChange", "newSpeaker", "entrance",
@@ -56,6 +69,10 @@ export const BOUNDARY_FEATURES = ["prevA", "prevD", "curA", "curD", "paraStart",
   "prevInterrupted", "parenHere"];
 
 function tensionLex(t) { return lexCount(t, "threat") + lexCount(t, "conflict") + lexCount(t, "urgency") - lexCount(t, "calm"); }
+function unitTensionLex(ctx, i) {
+  const st = unitStats(ctx, i);
+  return st.lex[0] + st.lex[1] + st.lex[2] - st.lex[3];
+}
 
 export function boundaryFeatures(ctx, i) {
   const u = ctx.units[i];
@@ -68,9 +85,9 @@ export function boundaryFeatures(ctx, i) {
   const inter = [...sa].filter((x) => sb.has(x)).length, uni = new Set([...sa, ...sb]).size;
   let run = 0;
   for (let j = i - 1; j >= 0 && ctx.units[j].kind === "dialogue"; j--) run++;
-  const firstSpeech = u.kind === "dialogue" && !ctx.units.slice(0, i).some((x) => ctx.speaker[x.i] === ctx.speaker[i]);
+  const firstSpeech = u.kind === "dialogue" && firstSpeechUnit(ctx, ctx.speaker[i]) === i;
   const intro = ctx.cast.chars.some((c) => c.first === i);
-  const e1 = emoLex(u.text), e0 = pu ? emoLex(pu.text) : e1;
+  const e1 = unitEmoLex(ctx, i), e0 = pu ? unitEmoLex(ctx, p) : e1;
   const prevSp = pu && pu.kind === "dialogue" ? ctx.speaker[p] : -1;
   return [
     pu && pu.kind === "action" ? 1 : 0, pu && pu.kind === "dialogue" ? 1 : 0,
@@ -91,7 +108,7 @@ export function boundaryFeatures(ctx, i) {
     ctx.content.indexOf(i) / Math.max(1, ctx.content.length - 1),
     ms.length ? 1 : 0,
     /^(he|she|they|his|her|their)\b/i.test(u.text) ? 1 : 0,
-    tensionLex(u.text) - (pu ? tensionLex(pu.text) : 0),
+    unitTensionLex(ctx, i) - (pu ? unitTensionLex(ctx, p) : 0),
     IMPERATIVE.test(u.text) ? 1 : 0,
     pu && /!/.test(pu.text) ? 1 : 0,
     pu && /(--|—)\s*$/.test(pu.text) ? 1 : 0,
@@ -119,7 +136,36 @@ export const ACTOR_FEATURES = ["isNone", "named", "firstPos", "initialName", "po
   "initialPronoun", "pronGenderMatch", "pronGenderMismatch", "genderUnknown", "nPronounsMatch", "sinceNamed", "sinceSpoke",
   "sinceSubj", "isLastSubj", "recencyRank", "prevSpeaker", "nextSpeaker", "introHere", "present", "nPresent",
   "nSameGender", "plural", "unitHasNames", "unitHasPronouns", "sentInPara", "paraSubj", "otherNamedFirst", "words",
-  "lastSpeakerSpoke"];
+  "lastSpeakerSpoke", "subjectless", "prevActor", "prevActorSamePara", "prevActorDist"];
+
+// Sentence with no grammatical subject at the start: "Opens a folder." "Flips." "Slowly." "Warm face."
+const DET = /^(a|an|the|this|that|these|those|his|her|their|its|my|our|your|some|no|every|each|one|two|three|on|in|at|from|behind|outside|inside|across|through|under|over|near|beside|somewhere|nobody|someone|everyone|it|there|then|now|later|silence|nothing)\b/i;
+export function subjectless(ctx, i) {
+  const u = ctx.units[i];
+  if (u.kind !== "action") return 0;
+  const ms = ctx.cast.mentions[i], prons = ctx.cast.pronouns[i];
+  if ((ms.length && ms[0].at <= 1) || (prons.length && prons[0].at <= 1)) return 0;
+  const t = u.text.trim();
+  if (DET.test(t)) return 0;
+  return /^[A-Z][a-z]+(s|es|ed|ly|ing)\b/.test(t) || /^[A-Z][a-z]+\.$/.test(t) || words(t) <= 3 ? 1 : 0;
+}
+
+// Actor of the nearest previous action unit (rule verdict, memoised), with distance.
+function prevActorOf(ctx, i) {
+  ctx._prevActor ??= new Map();
+  if (ctx._prevActor.has(i)) return ctx._prevActor.get(i);
+  let res = { ids: [], dist: 99, samePara: 0 };
+  for (let j = i - 1, d = 1; j >= 0 && d < 12; j--) {
+    const u = ctx.units[j];
+    if (u.kind === "heading") break;
+    if (u.kind !== "action") { d++; continue; }
+    const ids = ruleActors(ctx, j);
+    if (ids.length) { res = { ids, dist: d, samePara: ctx.units[i].para === u.para ? 1 : 0 }; break; }
+    d++;
+  }
+  ctx._prevActor.set(i, res);
+  return res;
+}
 
 function candRecency(ctx, i, c) {
   const a = ctx.lastNamed[c][i];
@@ -141,8 +187,10 @@ export function actorFeatures(ctx, i, c) {
   const plural = PLURAL.test(u.text) ? 1 : 0;
   const initPron = prons.length && prons[0].at <= 1 ? prons[0].g : null;
   if (c === SPECIAL.NONE) {
+    const pa = prevActorOf(ctx, i);
     return [1, 0, 1, 0, 0, 0, 0, initPron ? 1 : 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, nPresent, 0, plural,
-      ms.length ? 1 : 0, prons.length ? 1 : 0, u.sent ?? 0, 0, 0, log1p(words(u.text)), 0];
+      ms.length ? 1 : 0, prons.length ? 1 : 0, u.sent ?? 0, 0, 0, log1p(words(u.text)), 0,
+      subjectless(ctx, i), pa.ids.length ? 0 : 1, pa.samePara, log1p(pa.dist)];
   }
   const ch = ctx.cast.chars[c];
   const mine = ms.filter((m) => m.c === c);
@@ -173,6 +221,8 @@ export function actorFeatures(ctx, i, c) {
     ms.length ? 1 : 0, prons.length ? 1 : 0, u.sent ?? 0, paraSubj,
     ms.length && ms[0].c !== c ? 1 : 0, log1p(words(u.text)),
     lastSp === c && prevContent(ctx, i) >= 0 && ctx.units[prevContent(ctx, i)].kind === "dialogue" ? 1 : 0,
+    subjectless(ctx, i), prevActorOf(ctx, i).ids.includes(c) ? 1 : 0,
+    prevActorOf(ctx, i).ids.includes(c) ? prevActorOf(ctx, i).samePara : 0, log1p(prevActorOf(ctx, i).dist),
   ];
 }
 
@@ -183,6 +233,7 @@ export function ruleActors(ctx, i) {
   const prons = ctx.cast.pronouns[i];
   const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
   if (ms.length && ms[0].at <= 1) return [ms[0].c];
+  if (subjectless(ctx, i)) { const pa = prevActorOf(ctx, i); if (pa.ids.length && pa.dist <= 4) return pa.ids; }
   const initPron = prons.length && prons[0].at <= 1 ? prons[0].g : null;
   const salient = (filter) => cands.filter(filter).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
   if (initPron === "p" || /^(both|together|the two|everyone)\b/i.test(u.text)) {
@@ -203,6 +254,16 @@ export function ruleActors(ctx, i) {
 export const ADDR_FEATURES = ["special", "isAll", "isSelf", "isNobody", "vocative", "vocativeEdge", "parenTo", "prevSpeaker",
   "nextSpeaker", "spokeRecently", "prevActionNames", "present", "nPresent", "youCount", "groupWords", "voice", "question",
   "sinceSpoke", "sinceNamed", "recencyRank", "speakerAddressedBy", "words", "firstPerson", "turnIndex"];
+
+// Case-insensitive name matcher per character, cached on the context.
+function nameRe(ctx, c) {
+  ctx._nameRe ??= new Map();
+  if (!ctx._nameRe.has(c)) {
+    const toks = ctx.cast.chars[c].names.flatMap((n) => n.split(/\s+/)).filter((t) => t.length > 1 && !/^(MR|MRS|MS|DR|DET)\.?$/.test(t));
+    ctx._nameRe.set(c, toks.length ? new RegExp(`\\b(${toks.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\b`, "i") : null);
+  }
+  return ctx._nameRe.get(c);
+}
 
 export function addrCandidates(ctx, i) {
   const sp = ctx.speaker[i];
@@ -232,9 +293,7 @@ export function addrFeatures(ctx, i, c) {
     return [1, c === SPECIAL.ALL ? 1 : 0, c === SPECIAL.SELF ? 1 : 0, c === SPECIAL.NOBODY ? 1 : 0, 0, 0, 0, 0, 0, 0, 0, 0,
       cands.length, you, group, voice, q, 0, 0, 0, 0, w, fp, turn];
   }
-  const ch = ctx.cast.chars[c];
-  const toks = ch.names.flatMap((n) => n.split(/\s+/)).filter((t) => t.length > 1 && !/^(MR|MRS|MS|DR|DET)\.?$/.test(t));
-  const re = toks.length ? new RegExp(`\\b(${toks.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\b`, "i") : null;
+  const re = nameRe(ctx, c);
   const voc = re ? re.exec(text) : null;
   const vocEdge = voc && (voc.index < 3 || /^[,.!?\s]*$/.test(text.slice(voc.index + voc[0].length)) || /,\s*$/.test(text.slice(0, voc.index))) ? 1 : 0;
   const parenTo = re && /\bto\b/i.test(paren) && re.test(paren) ? 1 : 0;
@@ -246,9 +305,9 @@ export function addrFeatures(ctx, i, c) {
   // Did c's last line come right before and was the speaker named in it (they addressed the speaker)?
   let addressedBy = 0;
   const ps = prevContent(ctx, i);
-  if (ps >= 0 && ctx.speaker[ps] === c) {
-    const spName = ctx.cast.chars[sp]?.names.flatMap((n) => n.split(/\s+/)) || [];
-    if (spName.some((t) => t.length > 1 && new RegExp(`\\b${t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(ctx.units[ps].text))) addressedBy = 1;
+  if (ps >= 0 && ctx.speaker[ps] === c && sp >= 0) {
+    const r = nameRe(ctx, sp);
+    if (r && r.test(ctx.units[ps].text)) addressedBy = 1;
   }
   return [0, 0, 0, 0, voc ? 1 : 0, vocEdge, parenTo, prevSpeaker(ctx, i, sp) === c ? 1 : 0, nextSpeaker(ctx, i, sp) === c ? 1 : 0,
     spokeRecently, prevAct, ctx.pres[i].includes(c) ? 1 : 0, cands.length, you, group, voice, q,
@@ -287,7 +346,7 @@ export function emotionFeatures(ctx, i, prevEmo = null) {
   const t = u.text;
   const par = (u.paren || []).join(" ");
   return [
-    u.kind === "dialogue" ? 1 : 0, ...emoLex(t), ...emoLex(par),
+    u.kind === "dialogue" ? 1 : 0, ...unitEmoLex(ctx, i), ...emoLex(par),
     count(NEGATION, t), count(INTENSIFIER, t), count(/!/g, t), count(/\?/g, t), count(/\.\.\.|…/g, t),
     /(--|—)\s*$/.test(t) ? 1 : 0, count(/\b[A-Z]{3,}\b/g, t), log1p(words(t)), prevEmo,
     lexCount(t, "threat"), lexCount(t, "calm"),
@@ -311,31 +370,65 @@ export const TENSION_FEATURES = ["threat", "conflict", "urgency", "calm", "fear"
   "nChars", "beatLen", "posInScene", "capsWords", "sceneThreat", "relThreat", "secondPerson"];
 
 // beat = array of unit indices.
-export function tensionFeatures(ctx, beat, sceneThreatDensity = null) {
-  const us = beat.map((i) => ctx.units[i]);
-  const text = us.map((u) => u.text + " " + (u.paren || []).join(" ")).join(" ");
-  const n = us.length || 1;
-  const sents = us.map((u) => words(u.text));
-  let switches = 0;
-  for (let k = 1; k < us.length; k++) if (us[k].kind === "dialogue" && us[k - 1].kind === "dialogue" && ctx.speaker[beat[k]] !== ctx.speaker[beat[k - 1]]) switches++;
-  const chars = new Set();
-  for (const i of beat) { ctx.cast.mentions[i].forEach((m) => chars.add(m.c)); if (ctx.speaker[i] >= 0) chars.add(ctx.speaker[i]); }
-  const W = Math.max(1, words(text));
-  const threat = lexCount(text, "threat");
-  if (sceneThreatDensity === null) {
-    const all = ctx.content.map((i) => ctx.units[i].text).join(" ");
-    sceneThreatDensity = lexCount(all, "threat") / Math.max(1, words(all));
+// Per-unit text statistics, computed once per scene and summed over beats / windows.
+const TLEX = ["threat", "conflict", "urgency", "calm", "fear", "anger", "joy", "affection"];
+function unitStats(ctx, i) {
+  ctx._stats ??= [];
+  let st = ctx._stats[i];
+  if (st) return st;
+  const u = ctx.units[i];
+  const text = u.text + " " + (u.paren || []).join(" ");
+  const w = words(u.text);
+  st = {
+    W: words(text), w, lex: TLEX.map((k) => lexCount(text, k)), neg: count(NEGATION, text),
+    imp: IMPERATIVE.test(u.text) ? 1 : 0, q: count(/\?/g, text), ex: count(/!/g, text),
+    intr: /(--|—)\s*$/.test(u.text) ? 1 : 0, short: w <= 4 ? 1 : 0, caps: count(/\b[A-Z]{3,}\b/g, text),
+    you: count(/\byou\b/gi, text), dlg: u.kind === "dialogue" ? 1 : 0,
+  };
+  ctx._stats[i] = st;
+  return st;
+}
+
+function sceneDensity(ctx) {
+  if (ctx._density === undefined) {
+    let t = 0, w = 0;
+    for (const i of ctx.content) { const st = unitStats(ctx, i); t += st.lex[0]; w += st.W; }
+    ctx._density = t / Math.max(1, w);
   }
+  return ctx._density;
+}
+
+// beat = array of unit indices.
+export function tensionFeatures(ctx, beat, sceneThreatDensity = null) {
+  const n = beat.length || 1;
+  const density = sceneThreatDensity ?? sceneDensity(ctx);
+  let W = 0, neg = 0, imp = 0, q = 0, ex = 0, intr = 0, short = 0, wsum = 0, caps = 0, you = 0, dlg = 0, switches = 0;
+  const lex = new Array(TLEX.length).fill(0);
+  const chars = new Set();
+  for (let k = 0; k < beat.length; k++) {
+    const i = beat[k], st = unitStats(ctx, i);
+    W += st.W; neg += st.neg; imp += st.imp; q += st.q; ex += st.ex; intr += st.intr; short += st.short;
+    wsum += st.w; caps += st.caps; you += st.you; dlg += st.dlg;
+    for (let j = 0; j < lex.length; j++) lex[j] += st.lex[j];
+    if (k > 0 && st.dlg && ctx.units[beat[k - 1]].kind === "dialogue" && ctx.speaker[i] !== ctx.speaker[beat[k - 1]]) switches++;
+    for (const m of ctx.cast.mentions[i]) chars.add(m.c);
+    if (ctx.speaker[i] >= 0) chars.add(ctx.speaker[i]);
+  }
+  W = Math.max(1, W);
   return [
-    threat / W * 100, lexCount(text, "conflict") / W * 100, lexCount(text, "urgency") / W * 100, lexCount(text, "calm") / W * 100,
-    lexCount(text, "fear") / W * 100, lexCount(text, "anger") / W * 100, lexCount(text, "joy") / W * 100, lexCount(text, "affection") / W * 100,
-    count(NEGATION, text) / n, us.filter((u) => IMPERATIVE.test(u.text)).length / n, count(/\?/g, text) / n, count(/!/g, text) / n,
-    us.filter((u) => /(--|—)\s*$/.test(u.text)).length / n, sents.filter((w) => w <= 4).length / n,
-    sents.reduce((a, b) => a + b, 0) / n, switches / n, us.filter((u) => u.kind === "dialogue").length / n,
+    lex[0] / W * 100, lex[1] / W * 100, lex[2] / W * 100, lex[3] / W * 100,
+    lex[4] / W * 100, lex[5] / W * 100, lex[6] / W * 100, lex[7] / W * 100,
+    neg / n, imp / n, q / n, ex / n, intr / n, short / n, wsum / n, switches / n, dlg / n,
     chars.size, log1p(n), ctx.content.indexOf(beat[0]) / Math.max(1, ctx.content.length - 1),
-    count(/\b[A-Z]{3,}\b/g, text) / n, sceneThreatDensity * 100, threat / W - sceneThreatDensity,
-    count(/\byou\b/gi, text) / W * 100,
+    caps / n, density * 100, lex[0] / W - density, you / W * 100,
   ];
+}
+
+// Per-unit tension features: each content unit sees a window of +-2 content units, so a beat's tension
+// (mean of its units) barely moves when a beat boundary shifts by one unit.
+export function unitTensionFeatures(ctx, radius = 2) {
+  const c = ctx.content;
+  return c.map((i, k) => tensionFeatures(ctx, c.slice(Math.max(0, k - radius), k + radius + 1)));
 }
 
 export function ruleTension(f) {

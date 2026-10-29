@@ -47,7 +47,8 @@ def usage_of(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dir", required=True)
+    ap.add_argument("--dir", required=True, help="subagent transcripts (*.output or agent-*.jsonl)")
+    ap.add_argument("--main", help="main session transcript; the orchestrating session's own usage counts too")
     a = ap.parse_args()
     runs = {}
     ledger = OUT / "ledger.jsonl"
@@ -57,10 +58,15 @@ def main():
             d = json.loads(l)
             if d.get("agent"):
                 labels[d["agent"]] = d["run"]
-    for p in sorted(Path(a.dir).glob("*.output")):
-        if p.stem not in labels:
+    for p in sorted(Path(a.dir).glob("*")):
+        aid = p.stem.replace("agent-", "")
+        u = usage_of(p)
+        if u["model"] is None:
             continue
-        runs[labels[p.stem]] = usage_of(p)
+        # Unlabeled agents are attributed by model: Sonnet generates, Haiku labels train, Opus labels gold.
+        runs[labels.get(aid) or f"{ {'sonnet': 'gen', 'haiku': 'train'}.get(family(u['model']), 'gold')}:{aid}"] = u
+    if a.main:
+        runs["main:session"] = usage_of(Path(a.main))
     total = sum(r["usd"] for r in runs.values())
     by_phase = {}
     for k, r in runs.items():
