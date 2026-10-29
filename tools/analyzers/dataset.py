@@ -72,10 +72,8 @@ def train_scene_labels():
 
 def gold_scene_labels():
     out = {}
-    p = DATA / "gold.jsonl"
-    if not p.exists():
-        return out
-    for l in p.open():
+    lines = [l for f in ("gold.jsonl", "gold_contemp.jsonl") if (DATA / f).exists() for l in (DATA / f).open()]
+    for l in lines:
         g = json.loads(l)
         d = L.load_units(g["scene_id"])
         units = {}

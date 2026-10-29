@@ -72,6 +72,8 @@ export function capsNames(text, cueNames) {
     const after = text.slice(m.index + m[0].length, m.index + m[0].length + 3);
     const before = text.slice(Math.max(0, m.index - 5), m.index);
     if (/^(INSERT|ON|SUPER|TITLE|CHYRON|PHONE SCREEN|SCREEN|PHONE|TEXT|CLOSE|ANGLE|BACK|INTERCUT|MONTAGE|SERIES|POV|WIDE|LATER|CONTINUOUS)\b/.test(n)) continue;
+    // CAPS sound cues: "The DOOR BANGS open", "a phone BUZZES"
+    if (/\b(BANGS?|SLAMS?|BUZZ(ES)?|RINGS?|BEEPS?|CRASH(ES)?|BOOMS?|THUDS?|CLICKS?|CREAKS?|HISSES|SCREAMS?|SHATTERS?|RATTLES?|WHISTLES?|HONKS?|ROARS?|EXPLODES?|POPS?|SNAPS?|CRACKS?|THUMPS?|CLANGS?|CLATTERS?|BLARES?|WAILS?|SCREECH(ES)?|BURSTS?|DINGS?|CHIMES?|TINKLES?|SQUEALS?|KNOCKS?|BUZZING|RINGING|BEEPING|GASPS?)$/.test(n)) continue;
     // Signs, labels and on-screen text: "a sign reads STAFF ONLY", "stamped CANCELLED", "SUPER: ..."
     if (/\b(reads?|marked|labell?ed|stamped|printed|super|caption)\s*:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 16), m.index))) continue;
     const isCue = cueNames.some((c) => sameChar(c, n));
@@ -185,7 +187,12 @@ export function buildCast(scene) {
     return toks.length ? new RegExp(`\\b(?:${toks.map((t) => escapeRe(t).replace(/ /g, "\\s+")).join("|")})(?:['’]s)?\\b`, "gi") : null;
   });
   // Common-noun characters ("a WOMAN") are later referred to as "the woman"; forward-introduced ones by their noun.
-  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe(keyTokens(c.name)[0].toLowerCase())}\\b`, "gi")
+  // Characters named by a common noun ("NURSE", "THE BAND", "BOUNCER") are also "the nurse" in action lines.
+  for (const c of chars) {
+    const t = keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x));
+    if (!c.common && !c.alias && !c.tagName && t.length === 1 && !NAME_GENDER[t[0]] && /^[A-Z]{3,}$/.test(t[0])) c.common = true;
+  }
+  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe(keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0].toLowerCase())}\\b`, "gi")
     : c.alias ? new RegExp(`\\bthe ${escapeRe(c.alias)}\\b`, "gi") : null));
   const mentions = units.map(() => []);
   const pronouns = units.map(() => []);

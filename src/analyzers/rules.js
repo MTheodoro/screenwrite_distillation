@@ -287,7 +287,9 @@ export function subjectless(ctx, i) {
   if (DET.test(t)) return 0;
   // Verb-first fragment ("Opens a folder.", "Chews.", "Then smiles."); a bare noun or adverb ("Cash.", "Radio hisses.",
   // "Slowly.") has no actor.
-  if (words(t) <= 3 && i > 0 && ctx.units[i - 1].kind === "dialogue" && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t)) return 1; // "exasperated."
+  // "exasperated." / "Rising." / "Smiles." after a speech; not "Rain." / "BEEP." / "Her phone."
+  if (words(t) <= 3 && i > 0 && ctx.units[i - 1].kind === "dialogue" && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t) &&
+      /^(?:[a-z]|[A-Z][a-z]+(?:s|ed|ing|ly)\b)/.test(t) && !/^[A-Z]+\W*$/.test(t)) return 1;
   const w0 = t.replace(/^(then|and|but|now|still|again|just|finally|slowly|quickly|suddenly),?\s+/i, "").split(/\s+/)[0] || "";
   return /^[A-Z]?[a-z]+(?<!s)(s|es|ed|ing)\b/.test(w0) && !/(ness|ss|us|is|ics)$/i.test(w0.replace(/\W+$/, "")) && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t) ? 1 : 0;
 }
@@ -456,7 +458,7 @@ const EVERYONE = /^(everyone|everybody|all of them|all eyes|the whole (room|tabl
 // "Nobody moves." / "No one answers." -> nobody acts.
 const NOBODY = /^(nobody|no one|none of them|neither of them)\b/i;
 // On-screen text and inserts: "ON PHONE: where r u", "INSERT - TEXT MESSAGE", "SUPER: 1999".
-const SCREEN_TEXT = /^(on (phone|screen|the screen|tv|laptop|monitor|her phone|his phone)|insert\b|super\b|title\b|chyron|text( message)?:|caption|subtitle|phone screen)/i;
+const SCREEN_TEXT = /^(on (phone|screen|the screen|tv|laptop|monitor|her phone|his phone)|insert\b|super\b|title\b|chyron|text( message)?:|caption|subtitle|phone screen|["“]|[A-Z][a-z]+:\s)/i;
 // Introduction appositive: "Next to Juniper, Sam, early 20s, ..." / "Her brother, Vic, 60s, ..." -> the introduced one.
 const INTRO_APPOS = /^,\s*(?:\d{1,2}s?|(?:early|mid|late)[- ]\d0s|\d0s|age \d+|[a-z]+ish)\b/i;
 function introAppositive(ctx, i) {
@@ -471,6 +473,23 @@ function introAppositive(ctx, i) {
 }
 function everyone(ctx, i, window = 99) {
   return [...new Set(ctx.pres[i])].filter((c) => candRecency(ctx, i, c) <= window);
+}
+
+// Run-on sentences: "Leon laughs, and Hannah steadies herself." / "Robin leans in, Barry covers his eyes" -> every
+// character starting a clause (names only; needs at least two different ones).
+function clauseSubjects(ctx, i) {
+  const t = ctx.units[i].text, ms = ctx.cast.mentions[i];
+  if (ms.length < 2) return null;
+  const ids = [];
+  for (const m of ms) {
+    if (m.poss) continue;
+    const before = t.slice(0, m.at);
+    if (m.at <= 1 || m.lead || /(?:[,;]\s*(?:and\s+|then\s+|while\s+|as\s+)?|\s(?:and|while|as|but)\s+)$/.test(before)) {
+      const after = t.slice(m.at).replace(/^\S+(?:\s+[A-Z]\S*)*\s*/, "");
+      if (/^(?:[a-z]+(?:s|ed)\b|is\b|has\b|can't\b|doesn't\b|does\b|just\b|already\b|still\b|slowly\b|quickly\b)/.test(after) && !ids.includes(m.c)) ids.push(m.c);
+    }
+  }
+  return ids.length >= 2 ? ids : null;
 }
 
 // "MAYA and JONAH face each other." / "Maya, Jonah and Ruth run." -> all names in the leading subject.
@@ -490,7 +509,7 @@ function namePair(ctx, i) {
 export function ruleActors(ctx, i) {
   const u = ctx.units[i];
   const ms = ctx.cast.mentions[i];
-  const pair = namePair(ctx, i);
+  const pair = namePair(ctx, i) || clauseSubjects(ctx, i);
   if (pair) return pair;
   const prons = ctx.cast.pronouns[i];
   const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
