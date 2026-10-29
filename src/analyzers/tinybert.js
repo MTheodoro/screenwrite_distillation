@@ -60,7 +60,11 @@ export function loadTinyBert(buffer) {
   for (const t of h.tensors) {
     const n = t.shape.reduce((a, b) => a * b, 1);
     if (t.dtype === "int8") {
-      W[t.name] = { q: new Int8Array(bytes.buffer, base + t.offset, n), s: new Float32Array(bytes.buffer, base + t.scale_offset, t.shape[0]), shape: t.shape };
+      // int8 on the wire; dequantised once to float32 so the inner loops stay plain float math.
+      const q = new Int8Array(bytes.buffer, base + t.offset, n), s = new Float32Array(bytes.buffer, base + t.scale_offset, t.shape[0]);
+      const f = new Float32Array(n), cols = t.shape[1];
+      for (let r = 0; r < t.shape[0]; r++) for (let c = 0; c < cols; c++) f[r * cols + c] = q[r * cols + c] * s[r];
+      W[t.name] = f;
     } else {
       W[t.name] = new Float32Array(bytes.buffer.slice(base + t.offset, base + t.offset + 4 * n));
     }
@@ -72,15 +76,20 @@ export function loadTinyBert(buffer) {
   // y[T x out] = x[T x in] * W^T + b, with W int8 rows (out x in) and per-row scales.
   function linear(x, T, name) {
     const w = W[name + ".weight"], b = W[name + ".bias"];
-    const q = w.q || w, inn = w.q ? w.shape[1] : x.length / T, out = b.length;
+    const out = b.length, inn = w.length / out;
     const y = new Float32Array(T * out);
     for (let t = 0; t < T; t++) {
       const xo = t * inn;
       for (let o = 0; o < out; o++) {
-        let s = 0;
+        let s0 = 0, s1 = 0, s2 = 0, s3 = 0;
         const wo = o * inn;
-        for (let i = 0; i < inn; i++) s += x[xo + i] * q[wo + i];
-        y[t * out + o] = (w.q ? s * w.s[o] : s) + b[o];
+        let i = 0;
+        for (; i + 3 < inn; i += 4) {
+          s0 += x[xo + i] * w[wo + i]; s1 += x[xo + i + 1] * w[wo + i + 1];
+          s2 += x[xo + i + 2] * w[wo + i + 2]; s3 += x[xo + i + 3] * w[wo + i + 3];
+        }
+        for (; i < inn; i++) s0 += x[xo + i] * w[wo + i];
+        y[t * out + o] = s0 + s1 + s2 + s3 + b[o];
       }
     }
     return y;
@@ -104,9 +113,8 @@ export function loadTinyBert(buffer) {
     return s * (1 - ((((1.061405429 * t - 1.453152027) * t + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x));
   }
   function embedRow(name, id, out, o) {
-    const w = W[name];
-    if (w.q) { const sc = w.s[id], base = id * H; for (let i = 0; i < H; i++) out[o + i] += w.q[base + i] * sc; }
-    else { const base = id * H; for (let i = 0; i < H; i++) out[o + i] += w[base + i]; }
+    const w = W[name], base = id * H;
+    for (let i = 0; i < H; i++) out[o + i] += w[base + i];
   }
 
   // Score one (text, candidate) pair: logit, higher = candidate is the actor.

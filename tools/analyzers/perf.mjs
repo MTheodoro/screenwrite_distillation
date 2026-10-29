@@ -9,7 +9,7 @@ import { loadEmbedder } from "../../src/analyzers/embed.js";
 
 const root = new URL("../../", import.meta.url).pathname;
 const bundle = JSON.parse(readFileSync(process.argv[2] || root + "public/models/analyzers.json", "utf8"));
-const embedder = bundle.meta.emb ? loadEmbedder(readFileSync(root + "public/models/embed.bin")) : null;
+const embedder = bundle.meta.emb ? loadEmbedder(readFileSync(root + "models-archive/embed.bin")) : null;
 const dir = process.argv[3] || root + "data/analyzers/gen/scenes/";
 const texts = readdirSync(dir).filter((f) => f.endsWith(".fountain")).slice(0, 300).map((f) => readFileSync(dir + f, "utf8"));
 const scenes = texts.map((t) => parse(t).scenes[0]).filter(Boolean);

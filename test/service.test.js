@@ -96,6 +96,7 @@ test("optional refiner sends a second, refined result and caches it", async () =
   const s = new AnalyzerService({ storage, schedule: syncSchedule, loadBundle: async () => bundle,
     loadRefiner: async () => ({ refine: async (scene, r) => ({ ...r, refinedMark: true }) }) });
   await s.ensureModel();
+  s.setFocus([0, 1]);
   const events = [];
   await new Promise((resolve) => {
     s.update(SCRIPT, (i, h, r, cached, refined) => { events.push([i, !!refined, !!r.refinedMark]); if (events.filter((e) => e[1]).length === 2) resolve(); });

@@ -21,6 +21,7 @@ from transformers import AutoTokenizer, BertConfig, BertForSequenceClassificatio
 import label as L
 
 OUT = L.ROOT / "public" / "models" / "who-tiny.bin"
+MAXLEN = 128
 SPECIAL = ["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]", "[TARGET]"]
 
 
@@ -28,9 +29,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ckpt", required=True)
     ap.add_argument("--base", required=True)
-    ap.add_argument("--min-count", type=int, default=2)
+    ap.add_argument("--min-count", type=int, default=20)
     a = ap.parse_args()
     tok = AutoTokenizer.from_pretrained(a.base)
+    tok.pad_token, tok.cls_token, tok.sep_token, tok.unk_token, tok.mask_token = "[PAD]", "[CLS]", "[SEP]", "[UNK]", "[MASK]"
     tok.add_special_tokens({"additional_special_tokens": ["[TARGET]"]})
     cfg = BertConfig.from_pretrained(a.base, num_labels=1)
     model = BertForSequenceClassification(cfg)
@@ -46,12 +48,13 @@ def main():
             counts.update(tok.tokenize(r["text"]) + tok.tokenize(r["cand"]))
     full = tok.get_vocab()
     keep = [t for t in SPECIAL] + sorted({t for t, c in counts.items() if c >= a.min_count and t not in SPECIAL})
-    keep += sorted(t for t in full if len(t.replace("##", "")) == 1 and t not in keep)  # single chars: no hard UNKs
+    keep += sorted(t for t in full if len(t.replace("##", "")) == 1 and t.replace("##", "").isascii() and t not in keep)  # ASCII chars: no hard UNKs
     old_ids = [full[t] for t in keep]
     print(f"vocab {len(full)} -> {len(keep)}")
 
     sd = {k: v.detach().numpy().astype(np.float32) for k, v in model.state_dict().items()}
     sd["bert.embeddings.word_embeddings.weight"] = sd["bert.embeddings.word_embeddings.weight"][old_ids]
+    sd["bert.embeddings.position_embeddings.weight"] = sd["bert.embeddings.position_embeddings.weight"][:MAXLEN]
     tensors, blobs, off = [], [], 0
     for name, w in sd.items():
         if name.endswith("position_ids") or name.endswith("token_type_ids"):

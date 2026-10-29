@@ -2,7 +2,7 @@
 // The worker glue (worker.js) supplies storage (IndexedDB) and the weight loader (fetch + Cache API).
 import { parse } from "./fountain.js";
 import { analyzeRules } from "./rules.js";
-import { analyzeModelStages } from "./model.js";
+import { analyzeModelStages, unitLines } from "./model.js";
 import { sceneContext, actorCandidates } from "./rules.js";
 
 export const ANALYZER_VERSION = "1";
@@ -28,6 +28,7 @@ export class AnalyzerService {
   constructor({ storage = null, loadBundle = null, schedule = (fn) => setTimeout(fn, 0), embedder = null, loadRefiner = null } = {}) {
     this.loadRefiner = loadRefiner;    // async () => { refine(scene, result) } (Phase 3 cross-encoder), optional
     this.refiner = null;
+    this.focus = null;                 // Set of scene indices to refine (visible / edited); null = none
     this.storage = storage;            // { get(key), set(key, value) } async, may be null
     this.loadBundle = loadBundle;      // async () => bundle JSON
     this.schedule = schedule;
@@ -54,11 +55,15 @@ export class AnalyzerService {
     return this.bundlePromise || Promise.resolve(null);
   }
 
-  key(hash) { return `${ANALYZER_VERSION}:${this.bundle ? (this.refiner ? "x" : "m") : "r"}:${hash}`; }
+  key(hash) { return `${ANALYZER_VERSION}:${this.bundle ? "m" : "r"}:${hash}`; }
+
+  // The Phase 3 refiner is expensive (~1 s CPU per scene in plain JS): run it only for scenes the user is looking
+  // at. Refined results replace the cached Phase 1 result for that scene hash.
+  setFocus(indices) { this.focus = new Set(indices); }
 
   // Generator: one stage per scheduled task, so no single task blocks the worker for long.
   *analyzeScene(scene) {
-    if (!this.bundle) return analyzeRules(scene);
+    if (!this.bundle) return { ...analyzeRules(scene), unitLines: unitLines(scene) };
     return yield* analyzeModelStages(scene, this.bundle);
   }
 
@@ -76,11 +81,14 @@ export class AnalyzerService {
         r = await this.storage.get(k);
         if (r) this.mem.set(k, r);
       }
+      // A focused scene whose cached result was never refined goes back through the pipeline.
+      if (r && this.refiner && this.focus && this.focus.has(it.index) && !r.refinedPass) r = null;
       if (r) onResult(it.index, it.hash, r, true);
       else pending.push(it);
     }
     this.queue = pending.map((it) => ({ ...it, gen, onResult }));
     this.pump();
+    this.lastStarts = scenes.map((s) => s.start);
     return items.map((it) => it.hash);
   }
 
@@ -107,15 +115,17 @@ export class AnalyzerService {
         this.queue.splice(qi, 1);
         const r = st.value;
         const k = this.key(it.hash);
-        if (!this.refiner) {
+        const refine = this.refiner && this.focus && this.focus.has(it.index);
+        if (!refine) {
           this.mem.set(k, r);
           if (this.storage) this.storage.set(k, r);
         }
         it.onResult(it.index, it.hash, r, false);
-        if (this.refiner) {
+        if (refine) {
           // Second pass: the transformer re-scores only low-margin who decisions, then the result is cached.
           const ctx = sceneContext(it.scene);
           this.refiner.refine(it.scene, r, ctx.cast.chars, (u) => actorCandidates(ctx, u)).then((rr) => {
+            rr.refinedPass = true;
             this.mem.set(k, rr);
             if (this.storage) this.storage.set(k, rr);
             if (it.gen === this.generation) it.onResult(it.index, it.hash, rr, false, true);

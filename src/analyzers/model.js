@@ -80,6 +80,7 @@ export function* analyzeModelStages(scene, bundle, embedder = null) {
   const result = {
     cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name, names: c.names, gender: c.gender })),
     beats, lines: {}, tension: scoreBeats(ctx, groups, bundle),
+    unitLines: unitLines(scene), // unit index -> line offset from the scene's first line (cache-safe)
   };
   yield result;
   for (const i of ctx.content) {
@@ -105,6 +106,10 @@ export function* analyzeModelStages(scene, bundle, embedder = null) {
     result.lines[i].emo = [meta.emo.classes[best], Math.max(0, Math.min(1, predictRaw(models.emo_int, x)))];
   }
   return result;
+}
+
+export function unitLines(scene) {
+  return scene.units.map((u) => u.line - scene.start);
 }
 
 export function analyzeModel(scene, bundle, embedder = null) {

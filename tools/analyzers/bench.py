@@ -71,12 +71,12 @@ def macro_f1(y, p, k=8):
     return float(np.mean(fs)) if fs else 0.0
 
 
-def run(bundle, xenc=False, prefix=None):
+def run(bundle, xenc=False, prefix=None, tiny=False):
     gold = DS.gold_scene_labels()
     if prefix is not None:  # "pd_" = public-domain plays only, "s" = synthetic only
         gold = {k: v for k, v in gold.items() if k.startswith(prefix)}
     reqs = [{"scene_id": s, "source": g["d"]["source"], "index": DS.scene_index(s, g["d"]["source"]), "beats": g["beats"]} for s, g in gold.items()]
-    cmd = ["node", str(L.ROOT / "tools/analyzers/predict.mjs")] + ([str(bundle)] if bundle else []) + (["--xenc"] if xenc else [])
+    cmd = ["node", str(L.ROOT / "tools/analyzers/predict.mjs")] + ([str(bundle)] if bundle else []) + (["--xenc"] if xenc else []) + (["--tiny"] if tiny else [])
     res = subprocess.run(cmd, input="".join(json.dumps(r) + "\n" for r in reqs), capture_output=True, text=True, check=True)
     preds = {d["scene_id"]: d for d in map(json.loads, res.stdout.splitlines())}
     pairs = [json.loads(l) for l in (L.DATA / "gold_pairs.jsonl").open()] if (L.DATA / "gold_pairs.jsonl").exists() else []
@@ -141,7 +141,7 @@ def run(bundle, xenc=False, prefix=None):
              ("Tension pairs, across scenes", lambda s: pct(M[s], "tx_ok", "tx_n")),
              ("Latency ms/scene (mean)", lambda s: f"{np.mean(lat[s]):.2f}"),
              ("Latency ms/scene (p95)", lambda s: f"{np.percentile(lat[s], 95):.2f}")]
-    if xenc:
+    if xenc or tiny:
         tx = [P.get("tXenc", 0) for P in preds.values()]
         nr = sum(P.get("nRefined", 0) for P in preds.values())
         table.append(("+ xenc ms/scene (mean / p95)", lambda s: f"{np.mean(tx):.1f} / {np.percentile(tx, 95):.1f}" if s == "model" else "-"))
@@ -160,7 +160,8 @@ if __name__ == "__main__":
     ap.add_argument("--out", default=str(L.DATA / "bench.md"))
     ap.add_argument("--xenc", action="store_true")
     ap.add_argument("--prefix", default=None)
+    ap.add_argument("--tiny", action="store_true", help="plain-JS tiny BERT refiner (who-tiny.bin)")
     a = ap.parse_args()
-    md = run(Path(a.bundle) if a.bundle else None, a.xenc, a.prefix)
+    md = run(Path(a.bundle) if a.bundle else None, a.xenc, a.prefix, a.tiny)
     Path(a.out).write_text(md + "\n")
     print(md)

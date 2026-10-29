@@ -13,9 +13,13 @@ import { loadXenc, refineWho } from "../../src/analyzers/xenc.js";
 const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const bundle = args[0] ? JSON.parse(readFileSync(args[0], "utf8")) : null;
 const xenc = process.argv.includes("--xenc")
-  ? await loadXenc({ localPath: new URL("../../public/models/", import.meta.url).pathname, margin: Number(process.env.XENC_MARGIN || 0.5) })
+  ? await loadXenc({ localPath: new URL("../../models-archive/", import.meta.url).pathname, margin: Number(process.env.XENC_MARGIN || 0.5) })
   : null;
-const embedder = bundle?.meta.emb ? loadEmbedder(readFileSync(new URL("../../public/models/embed.bin", import.meta.url))) : null;
+import { makeRefiner } from "../../src/analyzers/refine.js";
+const tiny = process.argv.includes("--tiny")
+  ? makeRefiner(readFileSync(new URL("../../public/models/who-tiny.bin", import.meta.url)), { margin: Number(process.env.XENC_MARGIN || 0.3) })
+  : null;
+const embedder = bundle?.meta.emb ? loadEmbedder(readFileSync(new URL("../../models-archive/embed.bin", import.meta.url))) : null;
 const cache = new Map();
 const sceneOf = (src, k) => {
   if (!cache.has(src)) cache.set(src, parse(readFileSync(src, "utf8")).scenes);
@@ -41,6 +45,13 @@ for (const r of reqs) {
     t = performance.now();
     out.model = analyzeModel(scene, bundle, embedder);
     out.tModel = performance.now() - t;
+    if (tiny) {
+      const c2 = sceneContext(scene);
+      t = performance.now();
+      tiny.refine(scene, out.model, c2.cast.chars, (u) => actorCandidates(c2, u));
+      out.tXenc = performance.now() - t;
+      out.nRefined = Object.values(out.model.lines).filter((l) => l.refined).length;
+    }
     if (xenc) {
       const c2 = sceneContext(scene);
       t = performance.now();

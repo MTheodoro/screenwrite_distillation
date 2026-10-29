@@ -17,7 +17,7 @@ if (process.argv.includes("--names")) {
   console.log(JSON.stringify(featureNames(useEmb)));
   process.exit(0);
 }
-const embedder = useEmb ? loadEmbedder(readFileSync(new URL("../../public/models/embed.bin", import.meta.url))) : null;
+const embedder = useEmb ? loadEmbedder(readFileSync(new URL("../../models-archive/embed.bin", import.meta.url))) : null;
 
 const cache = new Map();
 function sceneOf(source, index) {
