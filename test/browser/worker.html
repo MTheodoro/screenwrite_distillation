@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><title>worker check</title>
+<script type="module">
+const w = new Worker("../../src/analyzers/worker.js", { type: "module" });
+const got = [];
+w.onmessage = (e) => { got.push(e.data); if (e.data.type === "model") w.postMessage({ type: "update", text }); };
+const text = "INT. KITCHEN - NIGHT\n\nMAYA (30s) slams the fridge.\n\nMAYA\nWhere were you?\n\nJONAH (30s) drops his keys. He freezes.\n\nJONAH\nOut.\n";
+w.postMessage({ type: "update", text });
+w.postMessage({ type: "need-model" });
+setTimeout(() => { window.__got = got; }, 1500);
+</script>

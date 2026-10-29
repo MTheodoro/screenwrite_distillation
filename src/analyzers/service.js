@@ -1,5 +1,5 @@
 // Analyzer service: incremental, hash-cached scene analysis. Environment-agnostic (Worker or Node).
-// The worker glue (worker.js) supplies storage (IndexedDB) and the weight loader (fetch + Cache API).
+// The worker glue (worker.js) supplies storage (IndexedDB) and the weight loader (bundled weights.js module).
 import { parse } from "./fountain.js";
 import { analyzeRules } from "./rules.js";
 import { analyzeModelStages, unitLines } from "./model.js";
@@ -41,7 +41,7 @@ export class AnalyzerService {
     this.running = false;
   }
 
-  // Lazy: weights are fetched only when a view that needs them asks.
+  // Lazy: the weights module is imported only when analysis is first shown.
   ensureModel() {
     if (!this.bundlePromise && this.loadBundle) {
       this.bundlePromise = this.loadBundle().then(async (b) => {

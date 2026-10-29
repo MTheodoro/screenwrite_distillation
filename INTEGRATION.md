@@ -18,11 +18,11 @@ These are small, local analyzers for Screenwrite. They run in a **Web Worker**, 
 | File | Size (gzipped) | Loaded |
 |---|---|---|
 | `src/analyzers/{fountain,cast,lexicon,rules,model,service,worker}.js` | ~16 KB | with the worker |
-| `public/models/analyzers.json` (distilled decision trees) | ~80 KB | the first time any UI showing analyzer output opens (or at idle after startup) |
+| `src/analyzers/weights.js` (distilled decision trees, generated) | ~80 KB | lazily, via `import()`, the first time analysis is shown |
 
-The total is about **100 KB**. There is no WASM, no ONNX Runtime and no dependency. Copy `src/analyzers/` into the app and serve `public/models/analyzers.json` as a static file. If its path differs, change `MODEL_URL` at the top of `worker.js`.
+The total is about **100 KB**, and **no network calls at all**. The weights are an ordinary ES module in the app's own bundle, so they work offline, under `file://`, in Electron and the like. There is no server, no `fetch`, no WASM and no dependency. Copy `src/analyzers/` into the app source, and make sure the bundler keeps `worker.js` as a module worker. Most bundlers handle `new Worker(new URL("./analyzers/worker.js", import.meta.url), { type: "module" })` out of the box. The worker's `import("./weights.js")` becomes a lazily loaded chunk of the app.
 
-Do **not** ship `src/analyzers/{refine,tinybert,xenc,embed}.js` or anything in `models-archive/`. Those are experimental extras that cost 1.7–12 MB for a 2–6 point gain.
+Do **not** ship `src/analyzers/{refine,tinybert,xenc,embed}.js`, `public/models/` or anything in `models-archive/`. Those are experiments and benchmark inputs.
 
 ## 2. How it runs
 
@@ -34,7 +34,7 @@ editor (main thread)                          analyzer worker
                                                            1. beats + tension    → partial result
                                                            2. who + addressee
                                                            3. emotion            → final result
-  first UI that shows analyzer output ─► {need-model}   (fetch weights; rule-based results until then)
+  first UI that shows analyzer output ─► {need-model}   (import bundled weights; rule-based results until then)
   ◄── {scenes, hashes, starts}   {result, index, hash, result, cached}   {model, status}
 ```
 
@@ -63,7 +63,7 @@ editor.onChange(() => {
   timer = setTimeout(() => worker.postMessage({ type: "update", text: editor.getText() }), 300);
 });
 
-// Lazy weights (80 KB): send once, the first time any UI that displays beats / tension / who / emotion opens.
+// Lazy weights (80 KB, bundled; no network): send once, the first time any UI that displays beats / tension / who / mood opens.
 // Alternatively send it at idle after startup (requestIdleCallback); it is cheap either way.
 function ensureAnalyzerModel() {
   if (!ensureAnalyzerModel.sent) worker.postMessage({ type: "need-model" });
@@ -111,8 +111,8 @@ Make the thresholds a setting, so they can be tuned once real screenplays are me
 
 ## 5. Offline and updates
 
-- Weights are fetched cache-first into the Cache API (`screenwrite-analyzer-models-v1`). If the app has a service worker, also precache `analyzers.json`.
-- When you ship new weights, bump `ANALYZER_VERSION` in `service.js`, which keys the IndexedDB results, and `CACHE_NAME` in `worker.js`.
+- **Everything is local.** Code and weights are part of the app bundle. Analysis results are cached in IndexedDB by scene hash, so reopening a script is instant.
+- **When you ship new weights:** regenerate `weights.js` with `tools/analyzers/train.py`, and bump `ANALYZER_VERSION` in `service.js` so cached results from old weights aren't reused.
 
 ## 6. Accuracy and speed (measured)
 

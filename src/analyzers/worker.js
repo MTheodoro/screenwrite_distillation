@@ -2,15 +2,13 @@
 //
 // Messages in:
 //   { type: "update", text }            full script text, debounced by the caller (e.g. 300 ms after typing stops)
-//   { type: "need-model" }              first open of Timeline / character views: load distilled weights
+//   { type: "need-model" }              first time analysis is shown: load the bundled weights module
 // Messages out:
 //   { type: "scenes", hashes, starts }  scene hashes and first-line numbers, in script order
 //   { type: "result", index, hash, result, cached }
 //   { type: "model", status: "ready" | "error", error? }
 import { AnalyzerService } from "./service.js";
 
-const MODEL_URL = new URL("../../public/models/analyzers.json", import.meta.url).href;
-const CACHE_NAME = "screenwrite-analyzer-models-v1";
 const DB_NAME = "screenwrite-analyzers";
 
 function openDB() {
@@ -40,20 +38,10 @@ function idbStorage() {
   };
 }
 
-// Cache-first so weights stay available offline after the first load.
-async function cachedFetch(url) {
-  const cache = await caches.open(CACHE_NAME);
-  let res = await cache.match(url);
-  if (!res) {
-    res = await fetch(url);
-    if (!res.ok) throw new Error(`model fetch ${res.status}: ${url}`);
-    await cache.put(url, res.clone());
-  }
-  return res;
-}
-
+// Weights are a JS module bundled with the app (src/analyzers/weights.js, ~80 KB gzipped). The dynamic import
+// keeps them out of the worker's startup; it never touches the network.
 async function loadBundle() {
-  return (await cachedFetch(MODEL_URL)).json();
+  return (await import("./weights.js")).default;
 }
 
 // Yield to the event loop between scenes; prefer a macrotask so new "update" messages are handled first.
@@ -66,8 +54,8 @@ self.onmessage = async (e) => {
   const msg = e.data;
   if (msg.type === "update") {
     lastText = msg.text;
-    const hashes = await service.update(msg.text, (index, hash, result, cached, refined = false) =>
-      self.postMessage({ type: "result", index, hash, result, cached, refined }));
+    const hashes = await service.update(msg.text, (index, hash, result, cached) =>
+      self.postMessage({ type: "result", index, hash, result, cached }));
     self.postMessage({ type: "scenes", hashes, starts: service.lastStarts });
   } else if (msg.type === "need-model") {
     try {
