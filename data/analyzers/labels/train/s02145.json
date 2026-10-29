@@ -1,0 +1,33 @@
+{
+  "scene_id": "s02145",
+  "cast": {"INSPECTOR ODILE FARR": "ODILE FARR", "ODILE": "ODILE FARR", "FARR": "ODILE FARR", "BARTHOLOMEW \"BART\" GRIGG": "BART GRIGG", "BART": "BART GRIGG", "GRIGG": "BART GRIGG", "SISTER AGATHA": "SISTER AGATHA", "AGATHA": "SISTER AGATHA", "PIPPIN": "PIPPIN", "COMMISSIONER": "COMMISSIONER"},
+  "beats": [1, 5, 9, 12, 14, 15, 17, 18, 20, 21, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ODILE FARR"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["BART GRIGG"], "emo": {"BART GRIGG": ["fear", 0.3]}, "c": 0.95},
+    "7": {"t": "A", "who": ["SISTER AGATHA"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["PIPPIN"], "emo": {}, "c": 0.95},
+    "9": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["ODILE FARR"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["ODILE FARR"], "emo": ["neutral", 0.2], "c": 0.9},
+    "12": {"to": ["ODILE FARR"], "emo": ["neutral", 0.2], "c": 0.85},
+    "13": {"t": "A", "who": ["ODILE FARR", "BART GRIGG", "SISTER AGATHA"], "emo": {}, "c": 0.8},
+    "14": {"t": "A", "who": ["PIPPIN"], "emo": {"PIPPIN": ["surprise", 0.4]}, "c": 0.9},
+    "15": {"to": ["PIPPIN"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"to": ["ODILE FARR"], "emo": ["neutral", 0.2], "c": 0.9},
+    "17": {"to": ["PIPPIN"], "emo": ["neutral", 0.3], "c": 0.9},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["ODILE FARR", "BART GRIGG", "SISTER AGATHA", "PIPPIN"], "emo": {}, "c": 0.9},
+    "20": {"t": "A", "who": ["ODILE FARR"], "emo": {}, "c": 0.95},
+    "21": {"to": ["COMMISSIONER"], "emo": ["neutral", 0.3], "c": 0.9},
+    "22": {"to": ["ODILE FARR"], "emo": ["neutral", 0.3], "c": 0.9},
+    "23": {"to": ["ALL"], "emo": ["fear", 0.5], "c": 0.9},
+    "24": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "25": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 15, 25, 35, 35, 40, 45, 55, 60, 75, 85]
+}

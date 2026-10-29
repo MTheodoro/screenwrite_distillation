@@ -1,0 +1,39 @@
+{
+  "scene_id": "s01713",
+  "cast": {
+    "LADY ROSAMUND ASHFORD": "ROSAMUND ASHFORD",
+    "ROSAMUND": "ROSAMUND ASHFORD"
+  },
+  "beats": [1, 5, 8, 9, 12, 14, 16, 18, 21, 24, 26, 28],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {"ROSAMUND ASHFORD": ["fear", 0.4]}, "c": 0.95},
+    "9": {"to": ["NONE"], "emo": ["sadness", 0.4], "c": 0.7},
+    "10": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "14": {"to": ["SELF"], "emo": ["fear", 0.4], "c": 0.9},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "16": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {"ROSAMUND ASHFORD": ["neutral", 0.2]}, "c": 0.95},
+    "17": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {"ROSAMUND ASHFORD": ["fear", 0.3]}, "c": 0.95},
+    "18": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {"ROSAMUND ASHFORD": ["fear", 0.5]}, "c": 0.95},
+    "21": {"to": ["NONE"], "emo": ["fear", 0.5], "c": 0.7},
+    "22": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "23": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {}, "c": 0.95},
+    "25": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {"ROSAMUND ASHFORD": ["sadness", 0.3]}, "c": 0.9},
+    "26": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "27": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "28": {"t": "A", "who": ["ROSAMUND ASHFORD"], "emo": {"ROSAMUND ASHFORD": ["sadness", 0.4]}, "c": 0.95}
+  },
+  "tension": [5, 10, 25, 20, 35, 45, 35, 40, 55, 30, 20, 15]
+}

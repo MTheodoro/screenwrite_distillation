@@ -1,0 +1,31 @@
+{
+"scene_id": "s00091",
+"cast": {"ZELDA": "ZELDA", "MURALI": "MURALI"},
+"beats": [1, 6, 12, 18],
+"lines": {
+"1": {"to": ["MURALI"], "emo": ["joy", 0.2], "c": 0.95},
+"2": {"to": ["ZELDA"], "emo": ["neutral", 0.2], "c": 0.95},
+"3": {"to": ["MURALI"], "emo": ["joy", 0.2], "c": 0.95},
+"4": {"to": ["ZELDA"], "emo": ["neutral", 0.2], "c": 0.95},
+"5": {"to": ["MURALI"], "emo": ["neutral", 0.2], "c": 0.9},
+"6": {"to": ["ZELDA"], "emo": ["sadness", 0.4], "c": 0.9},
+"7": {"to": ["MURALI"], "emo": ["neutral", 0.2], "c": 0.9},
+"8": {"to": ["ZELDA"], "emo": ["anger", 0.2], "c": 0.9},
+"9": {"to": ["MURALI"], "emo": ["joy", 0.2], "c": 0.9},
+"10": {"to": ["ZELDA"], "emo": ["joy", 0.2], "c": 0.9},
+"11": {"to": ["MURALI"], "emo": ["joy", 0.3], "c": 0.9},
+"12": {"to": ["ZELDA"], "emo": ["neutral", 0.2], "c": 0.9},
+"13": {"to": ["MURALI"], "emo": ["neutral", 0.1], "c": 0.9},
+"14": {"to": ["ZELDA"], "emo": ["neutral", 0.3], "c": 0.85},
+"15": {"to": ["MURALI"], "emo": ["neutral", 0.2], "c": 0.9},
+"16": {"to": ["ZELDA"], "emo": ["sadness", 0.3], "c": 0.85},
+"17": {"to": ["MURALI"], "emo": ["neutral", 0.3], "c": 0.9},
+"18": {"to": ["ZELDA"], "emo": ["neutral", 0.2], "c": 0.9},
+"19": {"to": ["MURALI"], "emo": ["neutral", 0.2], "c": 0.9},
+"20": {"to": ["ZELDA"], "emo": ["neutral", 0.3], "c": 0.9},
+"21": {"to": ["MURALI"], "emo": ["neutral", 0.3], "c": 0.9},
+"22": {"to": ["ZELDA"], "emo": ["neutral", 0.2], "c": 0.9},
+"23": {"to": ["MURALI"], "emo": ["joy", 0.2], "c": 0.9}
+},
+"tension": [20, 25, 25, 45]
+}

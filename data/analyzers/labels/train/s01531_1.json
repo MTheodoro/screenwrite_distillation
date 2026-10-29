@@ -1,0 +1,21 @@
+{
+  "scene_id": "s01531_1",
+  "cast": {"JUNE": "JUNE", "June": "JUNE", "ZEKE": "ZEKE ADEBAYO", "Zeke": "ZEKE ADEBAYO", "ZEKE ADEBAYO": "ZEKE ADEBAYO", "MILO": "MILO FERRANTI-SATO", "Milo": "MILO FERRANTI-SATO", "MILO FERRANTI-SATO": "MILO FERRANTI-SATO"},
+  "beats": [1, 2, 4, 6, 9, 13],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "A", "who": ["JUNE"], "emo": {}, "c": 0.9},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["ZEKE ADEBAYO"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["MILO FERRANTI-SATO"], "emo": {}, "c": 0.95},
+    "6": {"to": ["MILO FERRANTI-SATO"], "emo": ["affection", 0.5], "c": 0.5},
+    "7": {"to": ["ZEKE ADEBAYO"], "emo": ["joy", 0.7], "c": 0.95},
+    "8": {"to": ["JUNE"], "emo": ["affection", 0.6], "c": 0.9},
+    "9": {"t": "A", "who": ["JUNE"], "emo": {"JUNE": ["joy", 0.6]}, "c": 0.9},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "12": {"to": ["ZEKE ADEBAYO"], "emo": ["joy", 0.5], "c": 0.9},
+    "13": {"t": "A", "who": ["ZEKE ADEBAYO"], "emo": {"ZEKE ADEBAYO": ["joy", 0.6]}, "c": 0.95}
+  },
+  "tension": [15, 60, 35, 20, 30, 35]
+}

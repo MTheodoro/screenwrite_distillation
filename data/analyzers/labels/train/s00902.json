@@ -1,0 +1,29 @@
+{
+  "scene_id": "s00902",
+  "cast": {"JAMAL OKONKWO": "JAMAL OKONKWO", "JAMAL": "JAMAL OKONKWO", "SUNNY PARK": "SUNNY PARK", "SUNNY": "SUNNY PARK"},
+  "beats": [1, 3, 4, 6, 8, 12, 15, 20, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "A", "who": ["JAMAL OKONKWO"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["SUNNY PARK", "JAMAL OKONKWO"], "emo": {}, "c": 0.9},
+    "5": {"to": ["OTHER"], "emo": ["joy", 0.3], "c": 0.6},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["JAMAL OKONKWO"], "emo": {"JAMAL OKONKWO": ["joy", 0.5]}, "c": 0.95},
+    "8": {"to": ["JAMAL OKONKWO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["SELF"], "emo": ["neutral", 0.2], "c": 0.8},
+    "10": {"to": ["JAMAL OKONKWO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["SUNNY PARK"], "emo": ["sadness", 0.3], "c": 0.9},
+    "12": {"t": "A", "who": ["SUNNY PARK"], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["SUNNY PARK"], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["JAMAL OKONKWO"], "emo": {"JAMAL OKONKWO": ["affection", 0.4]}, "c": 0.9},
+    "15": {"to": ["JAMAL OKONKWO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"to": ["SUNNY PARK"], "emo": ["neutral", 0.2], "c": 0.9},
+    "17": {"to": ["JAMAL OKONKWO"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"to": ["SUNNY PARK"], "emo": ["joy", 0.3], "c": 0.9},
+    "19": {"to": ["JAMAL OKONKWO"], "emo": ["joy", 0.3], "c": 0.9},
+    "20": {"t": "A", "who": ["JAMAL OKONKWO"], "emo": {"JAMAL OKONKWO": ["joy", 0.5]}, "c": 0.95},
+    "21": {"t": "A", "who": ["SUNNY PARK"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 15, 10, 20, 25, 30, 20, 15]
+}

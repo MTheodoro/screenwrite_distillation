@@ -1,0 +1,29 @@
+{
+"scene_id":"s01672",
+"cast":{"NELL":"NELL BARROWMAN","INSPECTOR NELL BARROWMAN":"NELL BARROWMAN","JUNO":"JUNO ADEYEMI","CONSTABLE JUNO ADEYEMI":"JUNO ADEYEMI","MARGUERITE":"MARGUERITE HOLLIS","MARGUERITE HOLLIS":"MARGUERITE HOLLIS","ALFRED":"ALFRED PETTIGREW","ALFRED PETTIGREW":"ALFRED PETTIGREW"},
+"beats":[1,4,6,7,9,10,12,14,16,17,19,20],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":1},
+"2":{"t":"S","who":[],"emo":{},"c":1},
+"3":{"t":"S","who":[],"emo":{},"c":1},
+"4":{"t":"A","who":["NELL BARROWMAN"],"emo":{},"c":0.95},
+"5":{"t":"A","who":["JUNO ADEYEMI"],"emo":{},"c":0.95},
+"6":{"t":"A","who":["MARGUERITE HOLLIS"],"emo":{},"c":0.95},
+"7":{"t":"A","who":["ALFRED PETTIGREW"],"emo":{},"c":0.95},
+"8":{"t":"D","who":["ALFRED PETTIGREW"],"emo":{},"c":0.8},
+"9":{"to":["NELL BARROWMAN"],"emo":["anger",0.3],"c":0.9},
+"10":{"to":["MARGUERITE HOLLIS"],"emo":["anger",0.3],"c":0.9},
+"11":{"to":["NELL BARROWMAN"],"emo":["neutral",0.3],"c":0.9},
+"12":{"to":["ALFRED PETTIGREW"],"emo":["neutral",0.3],"c":0.5},
+"13":{"to":["JUNO ADEYEMI"],"emo":["anger",0.4],"c":0.9},
+"14":{"to":["ALFRED PETTIGREW"],"emo":["anger",0.3],"c":0.9},
+"15":{"to":["MARGUERITE HOLLIS"],"emo":["neutral",0.3],"c":0.9},
+"16":{"to":["ALL"],"emo":["neutral",0.4],"c":0.85},
+"17":{"to":["NELL BARROWMAN"],"emo":["neutral",0.4],"c":0.85},
+"18":{"to":["MARGUERITE HOLLIS"],"emo":["anger",0.4],"c":0.9},
+"19":{"to":["NELL BARROWMAN"],"emo":["neutral",0.4],"c":0.9},
+"20":{"t":"A","who":["NELL BARROWMAN"],"emo":{},"c":0.95},
+"21":{"t":"S","who":[],"emo":{},"c":1}
+},
+"tension":[10,20,20,20,25,25,30,35,40,45,50,55]
+}

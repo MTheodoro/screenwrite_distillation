@@ -1,0 +1,30 @@
+{
+  "scene_id": "s02022",
+  "cast": {"NADIR SOLOMON": "NADIR SOLOMON", "NADIR": "NADIR SOLOMON", "SOLENNE ARQUETTE": "SOLENNE ARQUETTE", "SOLENNE": "SOLENNE ARQUETTE", "BAXTER \"BAX\" ULLMAN": "BAXTER ULLMAN", "BAX": "BAXTER ULLMAN", "ULLMAN": "BAXTER ULLMAN"},
+  "beats": [1, 4, 7, 13, 19, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["NADIR SOLOMON"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["SOLENNE ARQUETTE"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["BAXTER ULLMAN"], "emo": {}, "c": 0.95},
+    "7": {"to": ["ALL"], "emo": ["fear", 0.5], "c": 0.8},
+    "8": {"to": ["NADIR SOLOMON"], "emo": ["neutral", 0.4], "c": 0.8},
+    "9": {"to": ["ALL"], "emo": ["anger", 0.5], "c": 0.9},
+    "10": {"to": ["NADIR SOLOMON"], "emo": ["fear", 0.4], "c": 0.9},
+    "11": {"to": ["SOLENNE ARQUETTE"], "emo": ["fear", 0.5], "c": 0.9},
+    "12": {"to": ["SOLENNE ARQUETTE"], "emo": ["anger", 0.4], "c": 0.9},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["NADIR SOLOMON", "SOLENNE ARQUETTE", "BAXTER ULLMAN"], "emo": {}, "c": 0.95},
+    "15": {"to": ["ALL"], "emo": ["fear", 0.5], "c": 0.9},
+    "16": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.9},
+    "17": {"to": ["ALL"], "emo": ["anger", 0.4], "c": 0.9},
+    "18": {"to": ["ALL"], "emo": ["fear", 0.5], "c": 0.9},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["NADIR SOLOMON", "SOLENNE ARQUETTE", "BAXTER ULLMAN"], "emo": {}, "c": 0.9},
+    "22": {"to": ["ALL"], "emo": ["fear", 0.5], "c": 0.8}
+  },
+  "tension": [30, 40, 65, 80, 45, 30]
+}

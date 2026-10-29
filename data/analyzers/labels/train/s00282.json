@@ -1,0 +1,36 @@
+{
+  "scene_id": "s00282",
+  "cast": {
+    "JUNO ABARA-WESTLUND": "JUNO ABARA-WESTLUND",
+    "JUNO": "JUNO ABARA-WESTLUND",
+    "COMMANDER ISADORA FENN-KATSURAGI": "ISADORA FENN-KATSURAGI",
+    "ISADORA FENN-KATSURAGI": "ISADORA FENN-KATSURAGI",
+    "ISADORA": "ISADORA FENN-KATSURAGI"
+  },
+  "beats": [1, 2, 4, 7, 11, 14, 16, 20, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "A", "who": ["JUNO ABARA-WESTLUND"], "emo": {}, "c": 0.9},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.85},
+    "4": {"t": "A", "who": ["ISADORA FENN-KATSURAGI"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ISADORA FENN-KATSURAGI"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["ISADORA FENN-KATSURAGI"], "emo": {}, "c": 0.95},
+    "7": {"to": ["JUNO ABARA-WESTLUND"], "emo": ["neutral", 0.4], "c": 0.9},
+    "8": {"to": ["ISADORA FENN-KATSURAGI"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["JUNO ABARA-WESTLUND"], "emo": ["anger", 0.4], "c": 0.9},
+    "10": {"to": ["ISADORA FENN-KATSURAGI"], "emo": ["anger", 0.4], "c": 0.9},
+    "11": {"t": "A", "who": ["JUNO ABARA-WESTLUND"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["JUNO ABARA-WESTLUND"], "emo": {"JUNO ABARA-WESTLUND": ["anger", 0.6]}, "c": 0.9},
+    "13": {"t": "A", "who": ["JUNO ABARA-WESTLUND"], "emo": {"JUNO ABARA-WESTLUND": ["anger", 0.6]}, "c": 0.85},
+    "14": {"t": "A", "who": ["ISADORA FENN-KATSURAGI"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["ISADORA FENN-KATSURAGI"], "emo": {}, "c": 0.95},
+    "16": {"to": ["JUNO ABARA-WESTLUND"], "emo": ["anger", 0.7], "c": 0.9},
+    "17": {"to": ["ISADORA FENN-KATSURAGI"], "emo": ["neutral", 0.4], "c": 0.9},
+    "18": {"to": ["JUNO ABARA-WESTLUND"], "emo": ["anger", 0.6], "c": 0.9},
+    "19": {"to": ["ISADORA FENN-KATSURAGI"], "emo": ["anger", 0.6], "c": 0.9},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "22": {"t": "A", "who": ["JUNO ABARA-WESTLUND", "ISADORA FENN-KATSURAGI"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 15, 25, 35, 50, 55, 65, 60, 55]
+}

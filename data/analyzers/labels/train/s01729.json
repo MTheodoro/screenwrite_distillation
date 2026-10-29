@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01729",
+  "cast": {"TESSALY MORROW": "TESSALY MORROW", "TESSALY": "TESSALY MORROW", "RU ABARA": "RU ABARA", "RU": "RU ABARA", "OKONJO VASQUEZ": "OKONJO VASQUEZ", "OKONJO": "OKONJO VASQUEZ", "VASK": "VASK"},
+  "beats": [1, 4, 6, 7, 8, 11, 16, 20, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["TESSALY MORROW"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["RU ABARA"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["OKONJO VASQUEZ", "VASK"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["OKONJO VASQUEZ", "RU ABARA", "TESSALY MORROW"], "emo": {}, "c": 0.9},
+    "8": {"to": ["ALL"], "emo": ["fear", 0.7], "c": 0.9},
+    "9": {"to": ["TESSALY MORROW"], "emo": ["neutral", 0.4], "c": 0.9},
+    "10": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.85},
+    "11": {"to": ["RU ABARA"], "emo": ["anger", 0.4], "c": 0.9},
+    "12": {"to": ["TESSALY MORROW"], "emo": ["anger", 0.4], "c": 0.9},
+    "13": {"to": ["TESSALY MORROW", "RU ABARA"], "emo": ["anger", 0.5], "c": 0.9},
+    "14": {"to": ["OKONJO VASQUEZ"], "emo": ["fear", 0.5], "c": 0.9},
+    "15": {"to": ["OKONJO VASQUEZ"], "emo": ["anger", 0.5], "c": 0.9},
+    "16": {"t": "A", "who": ["OKONJO VASQUEZ"], "emo": {}, "c": 0.95},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "20": {"to": ["ALL"], "emo": ["fear", 0.6], "c": 0.8},
+    "21": {"to": ["VASK"], "emo": ["surprise", 0.6], "c": 0.9},
+    "22": {"to": ["OKONJO VASQUEZ"], "emo": ["fear", 0.7], "c": 0.85}
+  },
+  "tension": [5, 10, 20, 25, 50, 45, 55, 70, 75]
+}

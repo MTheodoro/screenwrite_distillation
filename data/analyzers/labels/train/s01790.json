@@ -1,0 +1,29 @@
+{
+  "scene_id": "s01790",
+  "cast": {"IMOGEN HARTLEY-SOTO": "IMOGEN HARTLEY-SOTO", "IMOGEN": "IMOGEN HARTLEY-SOTO", "FERDINAND \"FERN\" ABARA": "FERN ABARA", "FERN": "FERN ABARA", "ABARA": "FERN ABARA", "MARGUERITE KELLERMAN": "MARGUERITE KELLERMAN", "MARGUERITE": "MARGUERITE KELLERMAN", "ALOYSIUS KELLERMAN": "ALOYSIUS KELLERMAN", "ALOYSIUS": "ALOYSIUS KELLERMAN"},
+  "beats": [1, 4, 8, 9, 13, 14, 17, 19, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["IMOGEN HARTLEY-SOTO"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["FERN ABARA"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["MARGUERITE KELLERMAN", "ALOYSIUS KELLERMAN"], "emo": {}, "c": 0.9},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["IMOGEN HARTLEY-SOTO", "FERN ABARA", "MARGUERITE KELLERMAN", "ALOYSIUS KELLERMAN"], "emo": {"IMOGEN HARTLEY-SOTO": ["fear", 0.5]}, "c": 0.9},
+    "9": {"to": ["FERN ABARA"], "emo": ["anger", 0.4], "c": 0.9},
+    "10": {"to": ["IMOGEN HARTLEY-SOTO"], "emo": ["joy", 0.2], "c": 0.85},
+    "11": {"to": ["FERN ABARA"], "emo": ["fear", 0.4], "c": 0.9},
+    "12": {"to": ["IMOGEN HARTLEY-SOTO"], "emo": ["joy", 0.2], "c": 0.85},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["MARGUERITE KELLERMAN", "ALOYSIUS KELLERMAN"], "emo": {"ALOYSIUS KELLERMAN": ["affection", 0.5]}, "c": 0.9},
+    "15": {"t": "A", "who": ["FERN ABARA"], "emo": {"FERN ABARA": ["joy", 0.5]}, "c": 0.95},
+    "16": {"t": "A", "who": ["IMOGEN HARTLEY-SOTO"], "emo": {"IMOGEN HARTLEY-SOTO": ["joy", 0.5]}, "c": 0.9},
+    "17": {"to": ["FERN ABARA"], "emo": ["joy", 0.3], "c": 0.85},
+    "18": {"to": ["IMOGEN HARTLEY-SOTO"], "emo": ["affection", 0.5], "c": 0.8},
+    "19": {"t": "A", "who": ["IMOGEN HARTLEY-SOTO"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["FERN ABARA"], "emo": {"FERN ABARA": ["affection", 0.3]}, "c": 0.8},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 20, 50, 35, 30, 25, 40, 30, 20]
+}

@@ -1,0 +1,27 @@
+{
+"scene_id": "s02243",
+"cast": {"DETECTIVE RAVI SANDHU": "RAVI SANDHU", "SANDHU": "RAVI SANDHU", "LORNA FITCH": "LORNA FITCH", "LORNA": "LORNA FITCH", "MR. ASHWORTH": "ASHWORTH", "ASHWORTH": "ASHWORTH", "BETTINA": "BETTINA"},
+"beats": [1, 5, 9, 15, 17, 18, 19],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"5": {"t": "A", "who": ["RAVI SANDHU"], "emo": {}, "c": 1.0},
+"6": {"t": "D", "who": ["LORNA FITCH"], "emo": {}, "c": 1.0},
+"7": {"t": "A", "who": ["ASHWORTH"], "emo": {"ASHWORTH": ["fear", 0.3]}, "c": 0.9},
+"8": {"t": "D", "who": ["BETTINA"], "emo": {}, "c": 1.0},
+"9": {"to": ["BETTINA"], "emo": ["neutral", 0.3], "c": 0.9},
+"10": {"to": ["RAVI SANDHU"], "emo": ["fear", 0.3], "c": 0.9},
+"11": {"to": ["LORNA FITCH"], "emo": ["neutral", 0.3], "c": 0.9},
+"12": {"to": ["RAVI SANDHU"], "emo": ["neutral", 0.2], "c": 0.9},
+"13": {"to": ["RAVI SANDHU"], "emo": ["fear", 0.3], "c": 0.9},
+"14": {"to": ["ASHWORTH"], "emo": ["anger", 0.3], "c": 0.9},
+"15": {"t": "A", "who": ["RAVI SANDHU"], "emo": {}, "c": 1.0},
+"16": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"17": {"t": "A", "who": ["RAVI SANDHU"], "emo": {"RAVI SANDHU": ["surprise", 0.6]}, "c": 1.0},
+"18": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.8},
+"19": {"t": "A", "who": ["BETTINA", "ASHWORTH", "LORNA FITCH"], "emo": {"ASHWORTH": ["fear", 0.5]}, "c": 0.9}
+},
+"tension": [20, 25, 30, 40, 45, 45, 40]
+}

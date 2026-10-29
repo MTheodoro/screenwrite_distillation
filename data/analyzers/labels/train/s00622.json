@@ -1,0 +1,30 @@
+{
+  "scene_id": "s00622",
+  "cast": {"ROSALIND ROZ BEAUMONT": "ROZ BEAUMONT", "ROZ": "ROZ BEAUMONT", "KWAME ASANTE-BEAUMONT": "KWAME ASANTE-BEAUMONT", "KWAME": "KWAME ASANTE-BEAUMONT"},
+  "beats": [1, 3, 5, 7, 10, 14, 16, 17, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "A", "who": ["ROZ BEAUMONT"], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["KWAME ASANTE-BEAUMONT"], "emo": {}, "c": 1.0},
+    "5": {"to": ["ROZ BEAUMONT"], "emo": ["fear", 0.3], "c": 1.0},
+    "6": {"to": ["KWAME ASANTE-BEAUMONT"], "emo": ["neutral", 0.3], "c": 1.0},
+    "7": {"t": "A", "who": ["KWAME ASANTE-BEAUMONT"], "emo": {}, "c": 1.0},
+    "8": {"t": "A", "who": ["ROZ BEAUMONT"], "emo": {}, "c": 1.0},
+    "9": {"to": ["KWAME ASANTE-BEAUMONT"], "emo": ["neutral", 0.3], "c": 1.0},
+    "10": {"t": "A", "who": ["ROZ BEAUMONT"], "emo": {}, "c": 1.0},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "12": {"t": "A", "who": ["ROZ BEAUMONT"], "emo": {}, "c": 1.0},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "14": {"to": ["ROZ BEAUMONT"], "emo": ["surprise", 0.4], "c": 1.0},
+    "15": {"to": ["KWAME ASANTE-BEAUMONT"], "emo": ["neutral", 0.3], "c": 1.0},
+    "16": {"t": "A", "who": ["ROZ BEAUMONT", "KWAME ASANTE-BEAUMONT"], "emo": {}, "c": 0.9},
+    "17": {"to": ["ROZ BEAUMONT"], "emo": ["sadness", 0.5], "c": 1.0},
+    "18": {"to": ["KWAME ASANTE-BEAUMONT"], "emo": ["sadness", 0.3], "c": 1.0},
+    "19": {"to": ["ROZ BEAUMONT"], "emo": ["sadness", 0.6], "c": 1.0},
+    "20": {"to": ["KWAME ASANTE-BEAUMONT"], "emo": ["affection", 0.3], "c": 1.0},
+    "21": {"t": "A", "who": ["KWAME ASANTE-BEAUMONT"], "emo": {}, "c": 1.0},
+    "22": {"t": "A", "who": ["ROZ BEAUMONT"], "emo": {"ROZ BEAUMONT": ["affection", 0.6]}, "c": 1.0}
+  },
+  "tension": [10, 10, 20, 25, 15, 15, 10, 20, 5]
+}

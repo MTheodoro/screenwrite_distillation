@@ -1,0 +1,26 @@
+{
+  "scene_id": "s00625",
+  "cast": {"SILAS THE ACCOUNTANT BRANNIGAN": "SILAS BRANNIGAN", "SILAS": "SILAS BRANNIGAN", "BRANNIGAN": "SILAS BRANNIGAN", "LORETTA LOLLY DUCHAMP": "LOLLY DUCHAMP", "LOLLY": "LOLLY DUCHAMP", "MARCUS JEROME FALK": "MARCUS JEROME FALK", "MARCUS": "MARCUS JEROME FALK", "NELL PETRAKIS": "NELL PETRAKIS", "NELL": "NELL PETRAKIS"},
+  "beats": [1, 4, 9, 12, 13, 16, 17],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "D", "who": ["SILAS BRANNIGAN"], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["SILAS BRANNIGAN"], "emo": {}, "c": 1.0},
+    "6": {"t": "D", "who": ["LOLLY DUCHAMP"], "emo": {}, "c": 1.0},
+    "7": {"t": "D", "who": ["MARCUS JEROME FALK"], "emo": {}, "c": 1.0},
+    "8": {"t": "D", "who": ["NELL PETRAKIS"], "emo": {}, "c": 1.0},
+    "9": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 1.0},
+    "10": {"to": ["SILAS BRANNIGAN"], "emo": ["neutral", 0.3], "c": 1.0},
+    "11": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 1.0},
+    "12": {"to": ["ALL"], "emo": ["anger", 0.4], "c": 1.0},
+    "13": {"t": "A", "who": ["NELL PETRAKIS"], "emo": {}, "c": 1.0},
+    "14": {"t": "A", "who": ["SILAS BRANNIGAN"], "emo": {}, "c": 1.0},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "16": {"to": ["ALL"], "emo": ["fear", 0.6], "c": 1.0},
+    "17": {"t": "A", "who": ["SILAS BRANNIGAN"], "emo": {}, "c": 1.0},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 1.0}
+  },
+  "tension": [15, 25, 40, 45, 50, 55, 70]
+}

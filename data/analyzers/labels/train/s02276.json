@@ -1,0 +1,19 @@
+{
+"scene_id": "s02276",
+"cast": {"DEBORAH PLUMMER": "DEBORAH PLUMMER", "DEBORAH": "DEBORAH PLUMMER", "KHALID RASHAD": "KHALID RASHAD", "KHALID": "KHALID RASHAD", "BRAD WEXLER": "BRAD WEXLER", "BRAD": "BRAD WEXLER"},
+"beats": [1, 3, 4, 5, 9, 11],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"3": {"t": "D", "who": ["DEBORAH PLUMMER"], "emo": {}, "c": 1.0},
+"4": {"t": "A", "who": ["KHALID RASHAD", "BRAD WEXLER"], "emo": {}, "c": 0.9},
+"5": {"to": ["ALL"], "emo": ["joy", 0.5], "c": 0.9},
+"6": {"to": ["DEBORAH PLUMMER"], "emo": ["anger", 0.3], "c": 0.9},
+"7": {"to": ["KHALID RASHAD"], "emo": ["neutral", 0.3], "c": 0.9},
+"8": {"to": ["DEBORAH PLUMMER"], "emo": ["anger", 0.3], "c": 0.9},
+"9": {"t": "A", "who": ["BRAD WEXLER"], "emo": {}, "c": 1.0},
+"10": {"t": "A", "who": ["BRAD WEXLER"], "emo": {}, "c": 0.9},
+"11": {"to": ["ALL"], "emo": ["sadness", 0.2], "c": 0.9}
+},
+"tension": [10, 15, 20, 25, 20, 15]
+}

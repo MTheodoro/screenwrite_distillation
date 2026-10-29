@@ -1,0 +1,27 @@
+{
+  "scene_id": "s00058",
+  "cast": {"GLORIA BANKOLE-VANCE": "GLORIA BANKOLE-VANCE", "GLORIA": "GLORIA BANKOLE-VANCE", "COLIN DRUMMOND-PARK": "COLIN DRUMMOND-PARK", "COLIN": "COLIN DRUMMOND-PARK", "SHANTELLE OKONJO-REID": "SHANTELLE OKONJO-REID", "SHANTELLE": "SHANTELLE OKONJO-REID"},
+  "beats": [1, 6, 9, 13, 15, 16, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["GLORIA BANKOLE-VANCE"], "emo": {}, "c": 0.95},
+    "7": {"t": "D", "who": ["COLIN DRUMMOND-PARK"], "emo": {}, "c": 0.95},
+    "8": {"t": "D", "who": ["SHANTELLE OKONJO-REID"], "emo": {}, "c": 0.95},
+    "9": {"to": ["COLIN DRUMMOND-PARK"], "emo": ["affection", 0.3], "c": 0.85},
+    "10": {"to": ["GLORIA BANKOLE-VANCE"], "emo": ["neutral", 0.3], "c": 0.85},
+    "11": {"to": ["COLIN DRUMMOND-PARK"], "emo": ["neutral", 0.3], "c": 0.85},
+    "12": {"to": ["GLORIA BANKOLE-VANCE"], "emo": ["neutral", 0.3], "c": 0.85},
+    "13": {"to": ["COLIN DRUMMOND-PARK"], "emo": ["joy", 0.3], "c": 0.85},
+    "14": {"to": ["GLORIA BANKOLE-VANCE"], "emo": ["neutral", 0.3], "c": 0.85},
+    "15": {"to": ["ALL"], "emo": ["joy", 0.2], "c": 0.85},
+    "16": {"to": ["SHANTELLE OKONJO-REID"], "emo": ["neutral", 0.3], "c": 0.85},
+    "17": {"to": ["GLORIA BANKOLE-VANCE"], "emo": ["neutral", 0.3], "c": 0.85},
+    "18": {"t": "A", "who": ["GLORIA BANKOLE-VANCE"], "emo": {"GLORIA BANKOLE-VANCE": ["joy", 0.5]}, "c": 0.9},
+    "19": {"t": "A", "who": ["COLIN DRUMMOND-PARK"], "emo": {}, "c": 0.9}
+  },
+  "tension": [10, 15, 20, 25, 30, 30, 20]
+}

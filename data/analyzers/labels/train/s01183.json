@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01183",
+  "cast": {"LT. NAOMI FINCH": "NAOMI FINCH", "NAOMI FINCH": "NAOMI FINCH", "FINCH": "NAOMI FINCH", "DWAYNE SPUD CARTWRIGHT": "DWAYNE CARTWRIGHT", "SPUD": "DWAYNE CARTWRIGHT", "CARTWRIGHT": "DWAYNE CARTWRIGHT", "OSKAR VLASIC": "OSKAR VLASIC", "OSKAR": "OSKAR VLASIC", "BETH": "BETH"},
+  "beats": [1, 7, 10, 13, 19],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "D", "who": ["NAOMI FINCH"], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["DWAYNE CARTWRIGHT"], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["OSKAR VLASIC"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["BETH"], "emo": {}, "c": 0.95},
+    "6": {"to": ["ALL"], "emo": ["joy", 0.4], "c": 0.8},
+    "7": {"t": "A", "who": ["NAOMI FINCH"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["OSKAR VLASIC"], "emo": {}, "c": 0.9},
+    "9": {"t": "A", "who": ["OSKAR VLASIC"], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["DWAYNE CARTWRIGHT", "NAOMI FINCH", "OSKAR VLASIC", "BETH"], "emo": {}, "c": 0.9},
+    "11": {"to": ["OSKAR VLASIC"], "emo": ["anger", 0.7], "c": 0.95},
+    "12": {"to": ["NAOMI FINCH"], "emo": ["anger", 0.6], "c": 0.9},
+    "13": {"t": "A", "who": ["OSKAR VLASIC"], "emo": {"OSKAR VLASIC": ["anger", 0.5]}, "c": 0.95},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["OSKAR VLASIC"], "emo": {}, "c": 0.9},
+    "18": {"t": "A", "who": ["NAOMI FINCH"], "emo": {}, "c": 0.9},
+    "19": {"to": ["OSKAR VLASIC"], "emo": ["neutral", 0.3], "c": 0.9},
+    "20": {"to": ["NAOMI FINCH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "21": {"to": ["ALL"], "emo": ["joy", 0.7], "c": 0.9},
+    "22": {"to": ["NAOMI FINCH", "OSKAR VLASIC"], "emo": ["anger", 0.3], "c": 0.9}
+  },
+  "tension": [15, 35, 70, 55, 30]
+}

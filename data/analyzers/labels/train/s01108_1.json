@@ -1,0 +1,32 @@
+{
+  "scene_id": "s01108_1",
+  "cast": {"LORETTA": "LORETTA ACHEBE-VANCE", "LORETTA ACHEBE-VANCE": "LORETTA ACHEBE-VANCE", "THADDEUS": "THADDEUS NWOKE-BRIGGS", "THADDEUS NWOKE-BRIGGS": "THADDEUS NWOKE-BRIGGS", "MRS. PRUDENCE": "PRUDENCE OYELOWO", "PRUDENCE OYELOWO": "PRUDENCE OYELOWO", "ELEANOR": "ELEANOR"},
+  "beats": [1, 4, 5, 9, 13, 17, 21, 23, 24],
+  "lines": {
+    "1": {"t": "A", "who": ["LORETTA ACHEBE-VANCE", "THADDEUS NWOKE-BRIGGS", "PRUDENCE OYELOWO"], "emo": {}, "c": 1},
+    "2": {"t": "A", "who": ["LORETTA ACHEBE-VANCE"], "emo": {}, "c": 1},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "4": {"to": ["ALL"], "emo": ["fear", 0.8], "c": 1},
+    "5": {"t": "A", "who": ["THADDEUS NWOKE-BRIGGS"], "emo": {}, "c": 1},
+    "6": {"t": "A", "who": ["PRUDENCE OYELOWO"], "emo": {}, "c": 1},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "9": {"t": "A", "who": ["ELEANOR"], "emo": {}, "c": 1},
+    "10": {"to": ["ALL"], "emo": ["fear", 0.7], "c": 1},
+    "11": {"to": ["ALL"], "emo": ["fear", 0.7], "c": 1},
+    "12": {"to": ["ALL"], "emo": ["fear", 0.8], "c": 1},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "14": {"t": "A", "who": ["LORETTA ACHEBE-VANCE"], "emo": {}, "c": 1},
+    "15": {"to": ["ALL"], "emo": ["fear", 0.6], "c": 1},
+    "16": {"to": ["LORETTA ACHEBE-VANCE"], "emo": ["fear", 0.7], "c": 1},
+    "17": {"t": "A", "who": ["LORETTA ACHEBE-VANCE"], "emo": {}, "c": 1},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "20": {"t": "A", "who": ["LORETTA ACHEBE-VANCE", "THADDEUS NWOKE-BRIGGS", "PRUDENCE OYELOWO"], "emo": {}, "c": 1},
+    "21": {"t": "A", "who": ["ELEANOR"], "emo": {}, "c": 1},
+    "22": {"t": "A", "who": ["ELEANOR"], "emo": {}, "c": 1},
+    "23": {"to": ["ALL"], "emo": ["sadness", 0.6], "c": 1},
+    "24": {"t": "A", "who": ["LORETTA ACHEBE-VANCE", "THADDEUS NWOKE-BRIGGS", "PRUDENCE OYELOWO"], "emo": {}, "c": 1}
+  },
+  "tension": [40, 60, 70, 65, 75, 55, 50, 45, 35]
+}

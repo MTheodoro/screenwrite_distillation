@@ -1,0 +1,27 @@
+{
+  "scene_id": "s01787",
+  "cast": {"GRANDMA ROSELLA PIPER": "ROSELLA PIPER", "ROSELLA": "ROSELLA PIPER", "HAROLD PIPER": "HAROLD PIPER", "HAROLD": "HAROLD PIPER", "JUNIPER": "JUNIPER PIPER", "MABEL": "MABEL PIPER", "BISCUIT": "BISCUIT", "TOBY": "TOBY PIPER"},
+  "beats": [1, 5, 10, 12, 13, 16, 17, 19],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["ROSELLA PIPER"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["HAROLD PIPER"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["JUNIPER PIPER"], "emo": {}, "c": 0.95},
+    "8": {"t": "D", "who": ["MABEL PIPER"], "emo": {}, "c": 0.95},
+    "9": {"t": "D", "who": ["BISCUIT", "TOBY PIPER"], "emo": {}, "c": 0.9},
+    "10": {"t": "A", "who": ["ROSELLA PIPER"], "emo": {}, "c": 0.95},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["BISCUIT", "TOBY PIPER", "MABEL PIPER"], "emo": {"MABEL PIPER": ["surprise", 0.5]}, "c": 0.9},
+    "13": {"to": ["ALL"], "emo": ["surprise", 0.6], "c": 0.9},
+    "14": {"to": ["TOBY PIPER"], "emo": ["anger", 0.3], "c": 0.8},
+    "15": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.8},
+    "16": {"to": ["HAROLD PIPER"], "emo": ["anger", 0.4], "c": 0.9},
+    "17": {"t": "A", "who": ["ROSELLA PIPER"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["JUNIPER PIPER"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["HAROLD PIPER"], "emo": {"HAROLD PIPER": ["joy", 0.5]}, "c": 0.9}
+  },
+  "tension": [5, 8, 12, 35, 40, 45, 50, 10]
+}

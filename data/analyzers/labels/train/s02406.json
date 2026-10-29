@@ -1,0 +1,43 @@
+{
+  "scene_id": "s02406",
+  "cast": {
+    "CONSTANCE HARGREAVE": "CONSTANCE HARGREAVE",
+    "MRS. CONSTANCE HARGREAVE": "CONSTANCE HARGREAVE",
+    "MRS. HARGREAVE": "CONSTANCE HARGREAVE",
+    "CONSTANCE": "CONSTANCE HARGREAVE",
+    "VOICE": "VOICE",
+    "ELIOT PEMBERTON": "ELIOT PEMBERTON",
+    "DR. ELIOT PEMBERTON": "ELIOT PEMBERTON",
+    "PEMBERTON": "ELIOT PEMBERTON"
+  },
+  "beats": [1, 4, 7, 8, 12, 14, 18, 22, 24, 25, 26],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["CONSTANCE HARGREAVE"], "emo": {}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["CONSTANCE HARGREAVE"], "emo": {"CONSTANCE HARGREAVE": ["fear", 0.5]}, "c": 0.9},
+    "9": {"to": ["SELF"], "emo": ["fear", 0.5], "c": 0.6},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["VOICE"], "emo": {}, "c": 0.6},
+    "13": {"to": ["CONSTANCE HARGREAVE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "14": {"t": "A", "who": ["CONSTANCE HARGREAVE"], "emo": {"CONSTANCE HARGREAVE": ["fear", 0.6]}, "c": 0.9},
+    "15": {"to": ["VOICE"], "emo": ["fear", 0.6], "c": 0.6},
+    "16": {"to": ["CONSTANCE HARGREAVE"], "emo": ["sadness", 0.3], "c": 0.95},
+    "17": {"to": ["VOICE"], "emo": ["anger", 0.5], "c": 0.9},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "22": {"t": "A", "who": ["ELIOT PEMBERTON"], "emo": {}, "c": 0.9},
+    "23": {"to": ["CONSTANCE HARGREAVE"], "emo": ["surprise", 0.6], "c": 0.9},
+    "24": {"t": "A", "who": ["CONSTANCE HARGREAVE"], "emo": {}, "c": 0.9},
+    "25": {"to": ["ELIOT PEMBERTON"], "emo": ["fear", 0.5], "c": 0.95},
+    "26": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 20, 30, 40, 55, 60, 70, 50, 70, 80, 60]
+}

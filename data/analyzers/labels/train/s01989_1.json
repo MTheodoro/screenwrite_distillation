@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01989_1",
+  "cast": {"SERGEANT": "SERGEANT", "VAUGHN": "VAUGHN DELACROIX-AMARI", "ZEKE": "ZEKE TANAKA-OLUWOLE", "BOY": "BOY"},
+  "beats": [1, 3, 6, 9, 12, 14, 19, 21],
+  "lines": {
+    "1": {"t": "A", "who": ["BOY"], "emo": {}, "c": 0.9},
+    "2": {"t": "D", "who": ["BOY"], "emo": {}, "c": 0.9},
+    "3": {"t": "A", "who": ["VAUGHN DELACROIX-AMARI", "ZEKE TANAKA-OLUWOLE", "SERGEANT"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["VAUGHN DELACROIX-AMARI"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["SERGEANT"], "emo": {}, "c": 0.95},
+    "6": {"to": ["VAUGHN DELACROIX-AMARI"], "emo": ["fear", 0.4], "c": 0.9},
+    "7": {"to": ["SERGEANT"], "emo": ["fear", 0.4], "c": 0.9},
+    "8": {"to": ["VAUGHN DELACROIX-AMARI"], "emo": ["neutral", 0.4], "c": 0.9},
+    "9": {"t": "A", "who": ["BOY"], "emo": {"BOY": ["fear", 0.7]}, "c": 0.95},
+    "10": {"t": "A", "who": ["BOY"], "emo": {"BOY": ["sadness", 0.5]}, "c": 0.95},
+    "11": {"t": "A", "who": ["BOY"], "emo": {}, "c": 0.9},
+    "12": {"t": "A", "who": ["ZEKE TANAKA-OLUWOLE"], "emo": {}, "c": 0.95},
+    "13": {"to": ["BOY"], "emo": ["affection", 0.4], "c": 0.9},
+    "14": {"t": "A", "who": ["BOY"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["BOY"], "emo": {}, "c": 0.95},
+    "16": {"t": "A", "who": ["BOY"], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["BOY"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["BOY"], "emo": {}, "c": 0.95},
+    "19": {"to": ["SERGEANT"], "emo": ["neutral", 0.4], "c": 0.8},
+    "20": {"to": ["VAUGHN DELACROIX-AMARI"], "emo": ["neutral", 0.3], "c": 0.9},
+    "21": {"t": "A", "who": ["VAUGHN DELACROIX-AMARI", "ZEKE TANAKA-OLUWOLE", "SERGEANT"], "emo": {}, "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [40, 55, 60, 65, 45, 35, 25, 20]
+}

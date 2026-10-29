@@ -1,0 +1,37 @@
+{
+  "scene_id": "s02394",
+  "cast": {
+    "ATTORNEY JULIAN ASHWORTH-BELLAMY": "JULIAN ASHWORTH-BELLAMY",
+    "JULIAN": "JULIAN ASHWORTH-BELLAMY",
+    "JUDGE PRENTISS": "PRENTISS",
+    "PRENTISS": "PRENTISS"
+  },
+  "beats": [1, 4, 6, 8, 10, 13, 17, 19, 21, 22, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["JULIAN ASHWORTH-BELLAMY"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["JULIAN ASHWORTH-BELLAMY"], "emo": {}, "c": 0.95},
+    "6": {"to": ["PRENTISS"], "emo": ["anger", 0.3], "c": 0.9},
+    "7": {"to": ["JULIAN ASHWORTH-BELLAMY"], "emo": ["neutral", 0.2], "c": 0.9},
+    "8": {"to": ["PRENTISS"], "emo": ["anger", 0.4], "c": 0.9},
+    "9": {"to": ["JULIAN ASHWORTH-BELLAMY"], "emo": ["neutral", 0.4], "c": 0.9},
+    "10": {"t": "A", "who": ["JULIAN ASHWORTH-BELLAMY"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["JULIAN ASHWORTH-BELLAMY"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["JULIAN ASHWORTH-BELLAMY"], "emo": {}, "c": 0.9},
+    "13": {"to": ["PRENTISS"], "emo": ["fear", 0.4], "c": 0.9},
+    "14": {"to": ["JULIAN ASHWORTH-BELLAMY"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["PRENTISS"], "emo": ["anger", 0.3], "c": 0.9},
+    "16": {"to": ["JULIAN ASHWORTH-BELLAMY"], "emo": ["neutral", 0.3], "c": 0.9},
+    "17": {"to": ["PRENTISS"], "emo": ["anger", 0.8], "c": 0.9},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["JULIAN ASHWORTH-BELLAMY"], "emo": {"JULIAN ASHWORTH-BELLAMY": ["anger", 0.7]}, "c": 0.9},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "21": {"to": ["JULIAN ASHWORTH-BELLAMY"], "emo": ["neutral", 0.4], "c": 0.9},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["JULIAN ASHWORTH-BELLAMY"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 15, 30, 40, 35, 55, 70, 75, 60, 55, 45]
+}

@@ -1,0 +1,27 @@
+{
+"scene_id": "s01296",
+"cast": {"ONDINE HAWTHORNE": "ONDINE", "ONDINE": "ONDINE", "MORDECAI": "MORDECAI"},
+"beats": [1, 5, 7, 8, 9, 11, 12, 13, 14, 15, 16, 18, 19],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"5": {"t": "D", "who": ["ONDINE"], "emo": {}, "c": 0.95},
+"6": {"t": "D", "who": ["MORDECAI"], "emo": {}, "c": 0.95},
+"7": {"t": "A", "who": ["ONDINE", "MORDECAI"], "emo": {}, "c": 0.9},
+"8": {"t": "A", "who": ["MORDECAI", "ONDINE"], "emo": {}, "c": 0.9},
+"9": {"t": "A", "who": ["MORDECAI", "ONDINE"], "emo": {}, "c": 0.9},
+"10": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"11": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+"12": {"to": ["MORDECAI"], "emo": ["fear", 0.6], "c": 0.9},
+"13": {"to": ["ONDINE"], "emo": ["neutral", 0.4], "c": 0.9},
+"14": {"to": ["MORDECAI"], "emo": ["fear", 0.6], "c": 0.9},
+"15": {"t": "A", "who": ["MORDECAI"], "emo": {}, "c": 0.95},
+"16": {"t": "A", "who": ["ONDINE"], "emo": {"ONDINE": ["fear", 0.6]}, "c": 0.9},
+"17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"19": {"t": "S", "who": [], "emo": {}, "c": 0.9}
+},
+"tension": [10, 10, 25, 40, 55, 65, 65, 70, 75, 60, 60, 40, 55]
+}

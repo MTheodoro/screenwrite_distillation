@@ -1,0 +1,42 @@
+{
+  "scene_id": "s02395",
+  "cast": {
+    "INSPECTOR WILHELMINA CROSS": "WILHELMINA CROSS",
+    "CROSS": "WILHELMINA CROSS",
+    "YOUNG MAN": "TOBIAS",
+    "TOBIAS": "TOBIAS"
+  },
+  "beats": [1, 4, 5, 8, 12, 14, 16, 20, 24, 25, 26, 29],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["WILHELMINA CROSS"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["TOBIAS"], "emo": {}, "c": 0.95},
+    "6": {"to": ["TOBIAS"], "emo": ["neutral", 0.4], "c": 0.95},
+    "7": {"to": ["WILHELMINA CROSS"], "emo": ["neutral", 0.3], "c": 0.95},
+    "8": {"to": ["TOBIAS"], "emo": ["neutral", 0.4], "c": 0.95},
+    "9": {"to": ["WILHELMINA CROSS"], "emo": ["neutral", 0.3], "c": 0.95},
+    "10": {"to": ["TOBIAS"], "emo": ["neutral", 0.4], "c": 0.95},
+    "11": {"to": ["WILHELMINA CROSS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["TOBIAS"], "emo": ["anger", 0.3], "c": 0.9},
+    "13": {"to": ["WILHELMINA CROSS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "14": {"to": ["TOBIAS"], "emo": ["anger", 0.4], "c": 0.9},
+    "15": {"to": ["WILHELMINA CROSS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"to": ["TOBIAS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "17": {"to": ["WILHELMINA CROSS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "18": {"to": ["TOBIAS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "19": {"to": ["WILHELMINA CROSS"], "emo": ["neutral", 0.2], "c": 0.9},
+    "20": {"to": ["TOBIAS"], "emo": ["neutral", 0.4], "c": 0.9},
+    "21": {"to": ["WILHELMINA CROSS"], "emo": ["fear", 0.2], "c": 0.9},
+    "22": {"to": ["TOBIAS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "23": {"to": ["WILHELMINA CROSS"], "emo": ["sadness", 0.3], "c": 0.9},
+    "24": {"to": ["TOBIAS"], "emo": ["neutral", 0.4], "c": 0.9},
+    "25": {"to": ["WILHELMINA CROSS"], "emo": ["sadness", 0.5], "c": 0.9},
+    "26": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "27": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "28": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "29": {"to": ["TOBIAS"], "emo": ["neutral", 0.5], "c": 0.9}
+  },
+  "tension": [5, 10, 15, 25, 35, 45, 40, 50, 60, 65, 60, 70]
+}

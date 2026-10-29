@@ -1,0 +1,43 @@
+{
+  "scene_id": "s01718",
+  "cast": {
+    "CAPTAIN HILDEGARD VOSBERG": "HILDEGARD VOSBERG",
+    "HILDEGARD": "HILDEGARD VOSBERG",
+    "BAXTER NNAMDI": "BAXTER NNAMDI",
+    "BAXTER": "BAXTER NNAMDI",
+    "ISOLDE FAIRWEATHER": "ISOLDE FAIRWEATHER",
+    "ISOLDE": "ISOLDE FAIRWEATHER",
+    "JASPER LOCKWOOD": "JASPER LOCKWOOD",
+    "JASPER": "JASPER LOCKWOOD",
+    "PILOT MARCEL DUVALIER": "MARCEL DUVALIER",
+    "PILOT": "MARCEL DUVALIER"
+  },
+  "beats": [1, 4, 6, 12, 17, 18, 19, 21, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["HILDEGARD VOSBERG", "BAXTER NNAMDI", "ISOLDE FAIRWEATHER", "JASPER LOCKWOOD"], "emo": {}, "c": 0.9},
+    "5": {"t": "A", "who": ["HILDEGARD VOSBERG", "BAXTER NNAMDI", "ISOLDE FAIRWEATHER", "JASPER LOCKWOOD"], "emo": {}, "c": 0.9},
+    "6": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "7": {"to": ["HILDEGARD VOSBERG"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["BAXTER NNAMDI"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["ALL"], "emo": ["fear", 0.2], "c": 0.9},
+    "10": {"to": ["JASPER LOCKWOOD"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.9},
+    "12": {"t": "A", "who": ["HILDEGARD VOSBERG", "BAXTER NNAMDI", "ISOLDE FAIRWEATHER", "JASPER LOCKWOOD"], "emo": {}, "c": 0.9},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["MARCEL DUVALIER"], "emo": {}, "c": 0.95},
+    "19": {"to": ["ALL"], "emo": ["joy", 0.6], "c": 0.9},
+    "20": {"to": ["ALL"], "emo": ["joy", 0.7], "c": 0.9},
+    "21": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "22": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "23": {"t": "A", "who": ["HILDEGARD VOSBERG", "BAXTER NNAMDI", "ISOLDE FAIRWEATHER", "JASPER LOCKWOOD"], "emo": {}, "c": 0.8},
+    "24": {"t": "A", "who": ["BAXTER NNAMDI"], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 15, 20, 30, 40, 45, 55, 60, 65, 70]
+}

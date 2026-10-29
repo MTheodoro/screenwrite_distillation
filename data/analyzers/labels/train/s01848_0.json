@@ -1,0 +1,21 @@
+{
+"scene_id": "s01848_0",
+"cast": {"SHERIFF AUGUSTA PIKE": "AUGUSTA PIKE", "AUGUSTA PIKE": "AUGUSTA PIKE"},
+"beats": [1, 5, 9, 11, 13],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["AUGUSTA PIKE"], "emo": {}, "c": 0.9},
+"6": {"t": "D", "who": ["AUGUSTA PIKE"], "emo": {}, "c": 0.9},
+"7": {"t": "D", "who": ["AUGUSTA PIKE"], "emo": {"AUGUSTA PIKE": ["fear", 0.2]}, "c": 0.8},
+"8": {"t": "D", "who": ["AUGUSTA PIKE"], "emo": {}, "c": 0.95},
+"9": {"t": "A", "who": ["AUGUSTA PIKE"], "emo": {}, "c": 0.95},
+"10": {"t": "A", "who": ["AUGUSTA PIKE"], "emo": {"AUGUSTA PIKE": ["fear", 0.2]}, "c": 0.8},
+"11": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"12": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"13": {"t": "A", "who": ["AUGUSTA PIKE"], "emo": {}, "c": 0.95}
+},
+"tension": [10, 25, 40, 50, 60]
+}

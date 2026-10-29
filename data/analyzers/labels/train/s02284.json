@@ -1,0 +1,25 @@
+{
+  "scene_id": "s02284",
+  "cast": {"MAN IN OVERALLS": "TEODORO", "TEODORO": "TEODORO", "WOMAN": "TAMSIN VOLK", "DIVE SUIT": "TAMSIN VOLK", "TAMSIN VOLK": "TAMSIN VOLK", "TAMSIN": "TAMSIN VOLK", "LOOKOUT": "DESHAWN", "DESHAWN": "DESHAWN"},
+  "beats": [1, 4, 7, 10, 13, 14, 16],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["TEODORO"], "emo": {}, "c": 0.7},
+    "5": {"t": "A", "who": ["TAMSIN VOLK"], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["DESHAWN"], "emo": {}, "c": 0.9},
+    "7": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.7},
+    "8": {"to": ["TEODORO"], "emo": ["fear", 0.3], "c": 0.85},
+    "9": {"to": ["ALL"], "emo": ["fear", 0.5], "c": 0.85},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "11": {"t": "A", "who": ["TEODORO", "TAMSIN VOLK", "DESHAWN"], "emo": {"TEODORO": ["fear", 0.4], "DESHAWN": ["fear", 0.4]}, "c": 0.8},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "13": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.7},
+    "14": {"to": ["TEODORO"], "emo": ["fear", 0.5], "c": 0.85},
+    "15": {"to": ["TAMSIN VOLK"], "emo": ["neutral", 0.3], "c": 0.6},
+    "16": {"to": ["TEODORO"], "emo": ["fear", 0.5], "c": 0.85},
+    "17": {"to": ["DESHAWN"], "emo": ["neutral", 0.3], "c": 0.85}
+  },
+  "tension": [10, 15, 35, 60, 45, 55, 70]
+}

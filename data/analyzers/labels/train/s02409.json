@@ -1,0 +1,39 @@
+{
+  "scene_id": "s02409",
+  "cast": {
+    "ATTORNEY SABINE LEFEBVRE-OTIENO": "ATTORNEY SABINE LEFEBVRE-OTIENO",
+    "SABINE": "ATTORNEY SABINE LEFEBVRE-OTIENO",
+    "DOUG NAKAGAWA-FITCH": "DOUG NAKAGAWA-FITCH",
+    "DOUG": "DOUG NAKAGAWA-FITCH",
+    "DOUGLAS \"DOUG\" NAKAGAWA-FITCH": "DOUG NAKAGAWA-FITCH",
+    "COURT REPORTER MARIAH THRUSH": "MARIAH THRUSH",
+    "MARIAH THRUSH": "MARIAH THRUSH",
+    "MARIAH": "MARIAH THRUSH",
+    "OPPOSING COUNSEL": "OPPOSING COUNSEL",
+    "JUDGE": "JUDGE"
+  },
+  "beats": [1, 5, 8, 11, 15, 17, 18, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ATTORNEY SABINE LEFEBVRE-OTIENO"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["DOUG NAKAGAWA-FITCH"], "emo": {"DOUG NAKAGAWA-FITCH": ["sadness", 0.3]}, "c": 0.95},
+    "7": {"t": "A", "who": ["MARIAH THRUSH"], "emo": {}, "c": 0.9},
+    "8": {"t": "A", "who": ["ATTORNEY SABINE LEFEBVRE-OTIENO"], "emo": {}, "c": 0.7},
+    "9": {"t": "A", "who": ["DOUG NAKAGAWA-FITCH"], "emo": {}, "c": 0.9},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "11": {"to": ["DOUG NAKAGAWA-FITCH"], "emo": ["neutral", 0.3], "c": 0.95},
+    "12": {"to": ["OPPOSING COUNSEL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "13": {"to": ["DOUG NAKAGAWA-FITCH"], "emo": ["neutral", 0.2], "c": 0.9},
+    "14": {"to": ["OPPOSING COUNSEL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "16": {"t": "A", "who": ["JUDGE"], "emo": {}, "c": 0.8},
+    "17": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.5},
+    "18": {"t": "A", "who": ["ATTORNEY SABINE LEFEBVRE-OTIENO"], "emo": {"ATTORNEY SABINE LEFEBVRE-OTIENO": ["sadness", 0.3]}, "c": 0.9},
+    "19": {"t": "A", "who": ["MARIAH THRUSH"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["DOUG NAKAGAWA-FITCH"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 12, 25, 35, 30, 30, 20, 15]
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "s00824",
+  "cast": {"ODALYS PRIETO": "ODALYS PRIETO", "ODALYS": "ODALYS PRIETO"},
+  "beats": [1, 5, 9, 12, 15, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "A", "who": ["ODALYS PRIETO"], "emo": {}, "c": 0.98},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["ODALYS PRIETO"], "emo": {}, "c": 0.98},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "8": {"to": ["NONE"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"t": "A", "who": ["ODALYS PRIETO"], "emo": {}, "c": 0.98},
+    "10": {"t": "A", "who": ["ODALYS PRIETO"], "emo": {}, "c": 0.98},
+    "11": {"to": ["NONE"], "emo": ["neutral", 0.2], "c": 0.9},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "14": {"to": ["NONE"], "emo": ["sadness", 0.4], "c": 0.9},
+    "15": {"t": "A", "who": ["ODALYS PRIETO"], "emo": {"ODALYS PRIETO": ["sadness", 0.4]}, "c": 0.95},
+    "16": {"t": "A", "who": ["ODALYS PRIETO"], "emo": {}, "c": 0.98},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "18": {"to": ["SELF"], "emo": ["sadness", 0.4], "c": 0.9},
+    "19": {"t": "A", "who": ["ODALYS PRIETO"], "emo": {}, "c": 0.98}
+  },
+  "tension": [15, 25, 25, 30, 35, 20]
+}

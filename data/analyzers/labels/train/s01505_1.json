@@ -1,0 +1,11 @@
+{
+  "scene_id": "s01505_1",
+  "cast": {"RAYMOND": "RAYMOND"},
+  "beats": [1, 2],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "A", "who": ["RAYMOND"], "emo": {}, "c": 0.9},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0}
+  },
+  "tension": [15, 60]
+}

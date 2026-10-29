@@ -1,0 +1,31 @@
+{
+  "scene_id": "s00701",
+  "cast": {"JAMAL": "JAMAL", "SKYE": "SKYE", "MARCUS": "MARCUS", "^MARCUS": "MARCUS", "DOLORES": "DOLORES", "PIM": "PIM"},
+  "beats": [1, 8, 9, 12, 15, 16, 18, 19, 20, 21, 22, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "D", "who": ["JAMAL"], "emo": {}, "c": 1.0},
+    "4": {"t": "D", "who": ["SKYE"], "emo": {}, "c": 1.0},
+    "5": {"t": "D", "who": ["MARCUS"], "emo": {}, "c": 1.0},
+    "6": {"t": "D", "who": ["DOLORES"], "emo": {}, "c": 1.0},
+    "7": {"t": "D", "who": ["PIM"], "emo": {}, "c": 1.0},
+    "8": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.95},
+    "9": {"to": ["SKYE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["MARCUS"], "emo": ["neutral", 0.3], "c": 0.85},
+    "11": {"to": ["SKYE"], "emo": ["neutral", 0.3], "c": 0.85},
+    "12": {"t": "A", "who": ["SKYE", "MARCUS"], "emo": {}, "c": 0.9},
+    "13": {"t": "A", "who": ["MARCUS"], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["SKYE"], "emo": {}, "c": 0.95},
+    "15": {"to": ["SKYE"], "emo": ["fear", 0.4], "c": 0.9},
+    "16": {"to": ["PIM"], "emo": ["anger", 0.5], "c": 0.95},
+    "17": {"t": "A", "who": ["PIM"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["SKYE"], "emo": {}, "c": 0.95},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "20": {"t": "A", "who": ["MARCUS"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["SKYE"], "emo": {"SKYE": ["anger", 0.6]}, "c": 0.95},
+    "22": {"t": "A", "who": ["JAMAL"], "emo": {}, "c": 0.95},
+    "23": {"to": ["NONE"], "emo": ["neutral", 0.2], "c": 0.9}
+  },
+  "tension": [5, 10, 15, 35, 30, 40, 35, 25, 30, 40, 45, 20]
+}

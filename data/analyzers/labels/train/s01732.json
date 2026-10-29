@@ -1,0 +1,28 @@
+{
+  "scene_id": "s01732",
+  "cast": {"HESTER VOSS": "HESTER VOSS", "HESTER": "HESTER VOSS", "HESS": "HESTER VOSS", "CORWIN": "CORWIN", "AMBROSE": "AMBROSE"},
+  "beats": [1, 3, 7, 10, 13, 16, 18, 19],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["HESTER VOSS"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["HESTER VOSS"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["CORWIN"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["AMBROSE"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["HESTER VOSS"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["AMBROSE"], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["AMBROSE"], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["HESTER VOSS"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["CORWIN"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["HESTER VOSS", "CORWIN"], "emo": {}, "c": 0.9},
+    "13": {"to": ["AMBROSE"], "emo": ["fear", 0.5], "c": 0.9},
+    "14": {"to": ["HESTER VOSS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["CORWIN"], "emo": ["fear", 0.5], "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["HESTER VOSS"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["HESTER VOSS", "CORWIN", "AMBROSE"], "emo": {}, "c": 0.9},
+    "19": {"t": "A", "who": ["AMBROSE"], "emo": {}, "c": 0.9},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.7}
+  },
+  "tension": [20, 30, 45, 60, 55, 65, 70, 80]
+}

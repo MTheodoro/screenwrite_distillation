@@ -1,0 +1,26 @@
+{
+  "scene_id": "s01044",
+  "cast": {"ORRIN": "ORRIN", "SABLE": "SABLE", "TAMSIN": "TAMSIN", "VESPER": "VESPER"},
+  "beats": [1, 3, 5, 7, 9, 11, 14, 15, 19],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["ORRIN"], "emo": {"ORRIN": ["fear", 0.2]}, "c": 0.9},
+    "4": {"t": "D", "who": ["SABLE"], "emo": {}, "c": 0.9},
+    "5": {"to": ["SABLE"], "emo": ["fear", 0.3], "c": 0.85},
+    "6": {"to": ["ORRIN"], "emo": ["neutral", 0.2], "c": 0.95},
+    "7": {"t": "D", "who": ["TAMSIN"], "emo": {}, "c": 0.9},
+    "8": {"t": "A", "who": ["ORRIN", "SABLE", "TAMSIN"], "emo": {"ORRIN": ["surprise", 0.5], "SABLE": ["surprise", 0.5], "TAMSIN": ["surprise", 0.5]}, "c": 0.9},
+    "9": {"to": ["ORRIN", "SABLE"], "emo": ["fear", 0.3], "c": 0.85},
+    "10": {"to": ["TAMSIN"], "emo": ["neutral", 0.2], "c": 0.85},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "12": {"t": "A", "who": ["ORRIN"], "emo": {"ORRIN": ["fear", 0.4]}, "c": 0.95},
+    "13": {"t": "A", "who": ["ORRIN", "SABLE", "TAMSIN"], "emo": {"TAMSIN": ["fear", 0.6]}, "c": 0.9},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "15": {"t": "D", "who": ["VESPER"], "emo": {}, "c": 0.95},
+    "16": {"t": "D", "who": ["VESPER"], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["VESPER"], "emo": {}, "c": 0.95},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.85},
+    "19": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.65}
+  }
+}

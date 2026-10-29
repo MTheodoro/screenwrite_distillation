@@ -1,0 +1,43 @@
+{
+  "scene_id": "s02403",
+  "cast": {
+    "BRENNA TALLCHIEF": "BRENNA TALLCHIEF",
+    "BRENNA": "BRENNA TALLCHIEF",
+    "SOL TALLCHIEF": "SOL TALLCHIEF",
+    "SOL": "SOL TALLCHIEF",
+    "RANGER": "RANGER"
+  },
+  "beats": [1, 5, 7, 9, 10, 15, 17, 22, 24, 27, 29],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["BRENNA TALLCHIEF"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["BRENNA TALLCHIEF"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["BRENNA TALLCHIEF"], "emo": {"BRENNA TALLCHIEF": ["fear", 0.4]}, "c": 0.6},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "9": {"to": ["BRENNA TALLCHIEF"], "emo": ["neutral", 0.2], "c": 0.9},
+    "10": {"t": "A", "who": ["BRENNA TALLCHIEF"], "emo": {}, "c": 0.95},
+    "11": {"to": ["RANGER"], "emo": ["fear", 0.5], "c": 0.95},
+    "12": {"to": ["BRENNA TALLCHIEF"], "emo": ["neutral", 0.3], "c": 0.9},
+    "13": {"to": ["RANGER"], "emo": ["fear", 0.8], "c": 0.9},
+    "14": {"to": ["BRENNA TALLCHIEF"], "emo": ["neutral", 0.2], "c": 0.9},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["SOL TALLCHIEF"], "emo": {}, "c": 0.95},
+    "18": {"to": ["SOL TALLCHIEF"], "emo": ["joy", 0.4], "c": 0.8},
+    "19": {"t": "A", "who": ["BRENNA TALLCHIEF"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["SOL TALLCHIEF"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["SOL TALLCHIEF"], "emo": {}, "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "23": {"to": ["BRENNA TALLCHIEF"], "emo": ["fear", 0.7], "c": 0.8},
+    "24": {"t": "A", "who": ["BRENNA TALLCHIEF"], "emo": {}, "c": 0.95},
+    "25": {"t": "A", "who": ["SOL TALLCHIEF"], "emo": {}, "c": 0.95},
+    "26": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "27": {"to": ["RANGER"], "emo": ["fear", 0.5], "c": 0.9},
+    "28": {"to": ["BRENNA TALLCHIEF"], "emo": ["neutral", 0.2], "c": 0.9},
+    "29": {"t": "A", "who": ["BRENNA TALLCHIEF", "SOL TALLCHIEF"], "emo": {}, "c": 0.9}
+  },
+  "tension": [20, 25, 30, 45, 50, 60, 55, 85, 75, 70, 60]
+}

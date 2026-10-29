@@ -1,0 +1,36 @@
+{
+  "scene_id": "s02379",
+  "cast": {
+    "PRIYANKA \"PRI\" SUNDARAM": "PRI SUNDARAM",
+    "PRI": "PRI SUNDARAM",
+    "SUNDARAM": "PRI SUNDARAM",
+    "CLIVE HARTWELL-BANKS": "CLIVE HARTWELL-BANKS",
+    "CLIVE": "CLIVE HARTWELL-BANKS"
+  },
+  "beats": [1, 4, 6, 9, 11, 14, 18, 19, 21, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["PRI SUNDARAM"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["CLIVE HARTWELL-BANKS"], "emo": {}, "c": 0.95},
+    "6": {"to": ["PRI SUNDARAM"], "emo": ["neutral", 0.3], "c": 0.9},
+    "7": {"to": ["CLIVE HARTWELL-BANKS"], "emo": ["anger", 0.3], "c": 0.9},
+    "8": {"to": ["PRI SUNDARAM"], "emo": ["joy", 0.2], "c": 0.9},
+    "9": {"to": ["CLIVE HARTWELL-BANKS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["PRI SUNDARAM"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["CLIVE HARTWELL-BANKS"], "emo": ["anger", 0.5], "c": 0.9},
+    "12": {"to": ["PRI SUNDARAM"], "emo": ["neutral", 0.2], "c": 0.85},
+    "13": {"to": ["CLIVE HARTWELL-BANKS"], "emo": ["anger", 0.3], "c": 0.9},
+    "14": {"to": ["PRI SUNDARAM"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["CLIVE HARTWELL-BANKS"], "emo": ["anger", 0.3], "c": 0.9},
+    "16": {"to": ["PRI SUNDARAM"], "emo": ["neutral", 0.2], "c": 0.9},
+    "17": {"to": ["CLIVE HARTWELL-BANKS"], "emo": ["anger", 0.3], "c": 0.9},
+    "18": {"to": ["PRI SUNDARAM"], "emo": ["neutral", 0.3], "c": 0.9},
+    "19": {"to": ["CLIVE HARTWELL-BANKS"], "emo": ["anger", 0.6], "c": 0.9},
+    "20": {"to": ["PRI SUNDARAM"], "emo": ["joy", 0.2], "c": 0.85},
+    "21": {"to": ["CLIVE HARTWELL-BANKS"], "emo": ["anger", 0.4], "c": 0.9},
+    "22": {"to": ["PRI SUNDARAM"], "emo": ["joy", 0.2], "c": 0.85}
+  },
+  "tension": [5, 15, 20, 25, 40, 30, 35, 55, 40, 20]
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "s00353",
+  "cast": {"MAGDA": "MAGDA", "FOSTER": "FOSTER", "LENNY": "LENNY", "ODETTE": "ODETTE", "PIANIST": "PIANIST", "THE PIANIST": "PIANIST", "MAN": "MR. WHITCOMB", "DIRECTOR": "MR. WHITCOMB", "WHITCOMB": "MR. WHITCOMB", "MR. WHITCOMB": "MR. WHITCOMB"},
+  "beats": [1, 3, 8, 9, 13, 14, 17, 19, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "3": {"t": "A", "who": ["MAGDA"], "emo": {}, "c": 1},
+    "4": {"t": "A", "who": ["FOSTER"], "emo": {}, "c": 1},
+    "5": {"t": "A", "who": ["LENNY"], "emo": {}, "c": 1},
+    "6": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 1},
+    "7": {"t": "A", "who": ["PIANIST"], "emo": {}, "c": 1},
+    "8": {"t": "A", "who": ["MR. WHITCOMB"], "emo": {}, "c": 1},
+    "9": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.7},
+    "10": {"t": "A", "who": ["MAGDA"], "emo": {}, "c": 1},
+    "11": {"t": "A", "who": ["MR. WHITCOMB"], "emo": {}, "c": 1},
+    "12": {"t": "A", "who": ["FOSTER"], "emo": {}, "c": 1},
+    "13": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.85},
+    "14": {"to": ["MR. WHITCOMB"], "emo": ["anger", 0.4], "c": 0.9},
+    "15": {"to": ["FOSTER"], "emo": ["neutral", 0.4], "c": 0.9},
+    "16": {"to": ["FOSTER"], "emo": ["anger", 0.4], "c": 0.9},
+    "17": {"t": "A", "who": ["LENNY"], "emo": {}, "c": 1},
+    "18": {"t": "A", "who": ["LENNY"], "emo": {}, "c": 1},
+    "19": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 1},
+    "20": {"t": "A", "who": ["PIANIST"], "emo": {}, "c": 1}
+  },
+  "tension": [12, 15, 40, 38, 35, 42, 46, 50, 55]
+}

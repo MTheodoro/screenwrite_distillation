@@ -1,0 +1,32 @@
+{
+  "scene_id": "s02297",
+  "cast": {"TOBIAS GRAYSON": "TOBIAS GRAYSON", "TOBIAS": "TOBIAS GRAYSON", "LENORE BASQUIAT": "LENORE BASQUIAT", "LENORE": "LENORE BASQUIAT", "JUDE": "JUDE SLATER", "JUDE SLATER": "JUDE SLATER", "ABEL": "ABEL SLATER", "ABEL SLATER": "ABEL SLATER"},
+  "beats": [1, 5, 8, 11, 15, 16, 17, 20, 21, 22, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "D", "who": ["TOBIAS GRAYSON"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["LENORE BASQUIAT"], "emo": {}, "c": 0.95},
+    "7": {"t": "D", "who": ["JUDE SLATER", "ABEL SLATER"], "emo": {}, "c": 0.95},
+    "8": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["JUDE SLATER"], "emo": ["fear", 0.3], "c": 0.85},
+    "10": {"to": ["LENORE BASQUIAT"], "emo": ["anger", 0.4], "c": 0.9},
+    "11": {"to": ["JUDE SLATER"], "emo": ["anger", 0.4], "c": 0.9},
+    "12": {"to": ["TOBIAS GRAYSON"], "emo": ["anger", 0.4], "c": 0.9},
+    "13": {"to": ["JUDE SLATER"], "emo": ["neutral", 0.4], "c": 0.9},
+    "14": {"to": ["LENORE BASQUIAT"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["ABEL SLATER"], "emo": ["anger", 0.4], "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "17": {"t": "A", "who": ["JUDE SLATER"], "emo": {"JUDE SLATER": ["anger", 0.5]}, "c": 0.95},
+    "18": {"t": "A", "who": ["ABEL SLATER"], "emo": {}, "c": 0.95},
+    "19": {"to": ["JUDE SLATER"], "emo": ["neutral", 0.3], "c": 0.9},
+    "20": {"to": ["LENORE BASQUIAT"], "emo": ["fear", 0.4], "c": 0.9},
+    "21": {"to": ["JUDE SLATER", "ABEL SLATER"], "emo": ["neutral", 0.5], "c": 0.85},
+    "22": {"t": "A", "who": ["JUDE SLATER", "ABEL SLATER"], "emo": {}, "c": 0.95},
+    "23": {"t": "A", "who": ["TOBIAS GRAYSON"], "emo": {"TOBIAS GRAYSON": ["fear", 0.4]}, "c": 0.9},
+    "24": {"t": "S", "who": [], "emo": {}, "c": 1.0}
+  },
+  "tension": [5, 10, 20, 40, 35, 50, 55, 50, 65, 70, 85, 55]
+}

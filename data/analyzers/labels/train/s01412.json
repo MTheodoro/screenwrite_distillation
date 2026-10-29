@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01412",
+  "cast": {"COMMANDER YUSUF AL-RASHID": "YUSUF", "YUSUF": "YUSUF", "Yusuf": "YUSUF", "ENGINEER PRISCA DELACROIX-NWOKO": "PRISCA", "PRISCA": "PRISCA", "Prisca": "PRISCA"},
+  "beats": [1, 4, 7, 10, 12, 16, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["YUSUF"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["PRISCA"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["PRISCA"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["YUSUF", "PRISCA"], "emo": {}, "c": 0.9},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "9": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "10": {"to": ["PRISCA"], "emo": ["fear", 0.6], "c": 0.95},
+    "11": {"to": ["YUSUF"], "emo": ["anger", 0.4], "c": 0.9},
+    "12": {"t": "A", "who": ["YUSUF", "PRISCA"], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["YUSUF"], "emo": {"YUSUF": ["anger", 0.5]}, "c": 0.9},
+    "15": {"t": "A", "who": ["PRISCA"], "emo": {"PRISCA": ["fear", 0.5]}, "c": 0.9},
+    "16": {"t": "A", "who": ["YUSUF", "PRISCA"], "emo": {"PRISCA": ["fear", 0.6]}, "c": 0.9},
+    "17": {"to": ["YUSUF"], "emo": ["fear", 0.6], "c": 0.9},
+    "18": {"t": "A", "who": ["YUSUF"], "emo": {}, "c": 0.95},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["YUSUF", "PRISCA"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["YUSUF", "PRISCA"], "emo": {}, "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [40, 45, 55, 65, 70, 80, 85]
+}

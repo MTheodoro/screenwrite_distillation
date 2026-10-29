@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01029",
+  "cast": {"DARRYL PENHALLOW": "DARRYL", "DARRYL": "DARRYL"},
+  "beats": [1, 4, 7, 8, 12, 13, 14, 17, 18, 20, 21, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["DARRYL"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["DARRYL"], "emo": {"DARRYL": ["fear", 0.4]}, "c": 0.9},
+    "6": {"t": "D", "who": ["DARRYL"], "emo": {"DARRYL": ["joy", 0.3]}, "c": 0.9},
+    "7": {"to": ["NONE"], "emo": ["sadness", 0.4], "c": 0.9},
+    "8": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.9},
+    "10": {"t": "A", "who": ["DARRYL"], "emo": {"DARRYL": ["fear", 0.5]}, "c": 0.9},
+    "11": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.9},
+    "12": {"to": ["NONE"], "emo": ["anger", 0.4], "c": 0.9},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["DARRYL"], "emo": {"DARRYL": ["fear", 0.5]}, "c": 0.95},
+    "16": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.9},
+    "17": {"to": ["NONE"], "emo": ["disgust", 0.4], "c": 0.9},
+    "18": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.95},
+    "20": {"to": ["ALL"], "emo": ["joy", 0.5], "c": 0.9},
+    "21": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.7},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "23": {"to": ["SELF"], "emo": ["sadness", 0.4], "c": 0.9},
+    "24": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.95},
+    "25": {"t": "A", "who": ["DARRYL"], "emo": {}, "c": 0.95},
+    "26": {"t": "A", "who": ["DARRYL"], "emo": {"DARRYL": ["sadness", 0.3]}, "c": 0.9}
+  }
+}

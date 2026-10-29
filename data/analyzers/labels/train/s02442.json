@@ -1,0 +1,31 @@
+{
+  "scene_id": "s02442",
+  "cast": {"RUTHERFORD PLUM": "RUTHERFORD PLUM", "RUTHERFORD": "RUTHERFORD PLUM", "BLANCHE KOWALCZYK": "BLANCHE KOWALCZYK", "BLANCHE": "BLANCHE KOWALCZYK", "INSPECTOR OKONJO": "INSPECTOR OKONJO", "OKONJO": "INSPECTOR OKONJO"},
+  "beats": [1, 4, 6, 8, 10, 12, 13, 17, 20, 21, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["RUTHERFORD PLUM"], "emo": {}, "c": 0.9},
+    "5": {"t": "D", "who": ["BLANCHE KOWALCZYK"], "emo": {}, "c": 0.9},
+    "6": {"to": ["RUTHERFORD PLUM"], "emo": ["anger", 0.5], "c": 0.9},
+    "7": {"to": ["BLANCHE KOWALCZYK"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["RUTHERFORD PLUM"], "emo": ["fear", 0.5], "c": 0.9},
+    "9": {"to": ["BLANCHE KOWALCZYK"], "emo": ["joy", 0.3], "c": 0.8},
+    "10": {"to": ["RUTHERFORD PLUM"], "emo": ["anger", 0.6], "c": 0.9},
+    "11": {"to": ["BLANCHE KOWALCZYK"], "emo": ["joy", 0.3], "c": 0.8},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "13": {"t": "A", "who": ["INSPECTOR OKONJO"], "emo": {}, "c": 0.95},
+    "14": {"t": "D", "who": ["INSPECTOR OKONJO"], "emo": {}, "c": 0.9},
+    "15": {"t": "D", "who": ["INSPECTOR OKONJO"], "emo": {}, "c": 0.9},
+    "16": {"t": "D", "who": ["INSPECTOR OKONJO"], "emo": {}, "c": 0.9},
+    "17": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "18": {"to": ["INSPECTOR OKONJO"], "emo": ["neutral", 0.3], "c": 0.8},
+    "19": {"to": ["INSPECTOR OKONJO"], "emo": ["anger", 0.5], "c": 0.8},
+    "20": {"to": ["ALL"], "emo": ["neutral", 0.5], "c": 0.9},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "23": {"t": "A", "who": ["RUTHERFORD PLUM", "BLANCHE KOWALCZYK", "INSPECTOR OKONJO"], "emo": {"BLANCHE KOWALCZYK": ["fear", 0.5], "RUTHERFORD PLUM": ["fear", 0.4], "INSPECTOR OKONJO": ["fear", 0.4]}, "c": 0.9}
+  },
+  "tension": [20, 20, 35, 40, 50, 30, 40, 35, 55, 70, 65]
+}

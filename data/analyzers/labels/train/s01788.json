@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01788",
+  "cast": {"BRADLEY ONYEKACHI": "BRADLEY ONYEKACHI", "BRADLEY": "BRADLEY ONYEKACHI", "PRISCILLA FAIRWEATHER": "PRISCILLA FAIRWEATHER", "PRISCILLA": "PRISCILLA FAIRWEATHER", "DONOVAN \"DOC\" ELLISWORTH": "DOC ELLISWORTH", "DOC": "DOC ELLISWORTH", "SPEAKERPHONE": "GREG", "GREG": "GREG"},
+  "beats": [1, 6, 11, 13, 15, 18, 19, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "D", "who": ["BRADLEY ONYEKACHI"], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["PRISCILLA FAIRWEATHER"], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["DOC ELLISWORTH"], "emo": {}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "6": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "7": {"to": ["BRADLEY ONYEKACHI"], "emo": ["neutral", 0.2], "c": 0.9},
+    "8": {"to": ["BRADLEY ONYEKACHI"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"to": ["DOC ELLISWORTH"], "emo": ["neutral", 0.2], "c": 0.8},
+    "10": {"to": ["BRADLEY ONYEKACHI"], "emo": ["neutral", 0.3], "c": 0.8},
+    "11": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["GREG"], "emo": ["neutral", 0.2], "c": 0.9},
+    "13": {"to": ["GREG"], "emo": ["joy", 0.5], "c": 0.9},
+    "14": {"to": ["GREG"], "emo": ["anger", 0.3], "c": 0.9},
+    "15": {"to": ["ALL"], "emo": ["fear", 0.2], "c": 0.8},
+    "16": {"to": ["GREG"], "emo": ["neutral", 0.2], "c": 0.9},
+    "17": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.8},
+    "18": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "19": {"t": "A", "who": ["BRADLEY ONYEKACHI"], "emo": {"BRADLEY ONYEKACHI": ["sadness", 0.3]}, "c": 0.95},
+    "20": {"t": "A", "who": ["PRISCILLA FAIRWEATHER"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["DOC ELLISWORTH"], "emo": {}, "c": 0.95},
+    "22": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.85}
+  },
+  "tension": [5, 10, 15, 15, 20, 20, 15, 10]
+}

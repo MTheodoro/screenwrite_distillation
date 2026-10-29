@@ -1,0 +1,26 @@
+{
+  "scene_id": "s01956",
+  "cast": {"MARISOL QUINONES": "MARISOL QUINONES", "MARISOL": "MARISOL QUINONES", "ELI ABRAMOWITZ": "ELI ABRAMOWITZ", "ELI": "ELI ABRAMOWITZ"},
+  "beats": [1, 4, 5, 7, 10, 14, 16],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["MARISOL QUINONES"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["ELI ABRAMOWITZ"], "emo": {}, "c": 0.95},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "7": {"to": ["MARISOL QUINONES"], "emo": ["affection", 0.3], "c": 0.9},
+    "8": {"to": ["ELI ABRAMOWITZ"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["MARISOL QUINONES"], "emo": ["joy", 0.2], "c": 0.9},
+    "10": {"t": "A", "who": ["ELI ABRAMOWITZ"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["ELI ABRAMOWITZ"], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "13": {"t": "A", "who": ["MARISOL QUINONES", "ELI ABRAMOWITZ"], "emo": {}, "c": 0.9},
+    "14": {"to": ["ELI ABRAMOWITZ"], "emo": ["fear", 0.4], "c": 0.9},
+    "15": {"to": ["MARISOL QUINONES"], "emo": ["neutral", 0.2], "c": 0.9},
+    "16": {"t": "A", "who": ["MARISOL QUINONES"], "emo": {}, "c": 0.95},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "18": {"t": "A", "who": ["MARISOL QUINONES"], "emo": {"MARISOL QUINONES": ["affection", 0.5]}, "c": 0.95}
+  },
+  "tension": [10, 15, 20, 25, 45, 40, 15]
+}

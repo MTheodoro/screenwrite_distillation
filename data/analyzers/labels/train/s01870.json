@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01870",
+  "cast": {"SGT. IMANI OKAFOR": "IMANI OKAFOR", "OKAFOR": "IMANI OKAFOR", "TEDDY BRANCA": "TEDDY BRANCA", "TEDDY": "TEDDY BRANCA", "LUIS VARGA": "LUIS VARGA", "LUIS": "LUIS VARGA", "OLD PIM": "OLD PIM", "PIM": "OLD PIM", "WEN ZHAO": "WEN ZHAO", "WEN": "WEN ZHAO", "DAG LINDQVIST": "DAG LINDQVIST", "DAG": "DAG LINDQVIST", "CONST.": "DAG LINDQVIST"},
+  "beats": [1, 3, 6, 10, 11, 14, 16, 19, 20, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["IMANI OKAFOR"], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["TEDDY BRANCA"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["LUIS VARGA"], "emo": {"LUIS VARGA": ["fear", 0.3]}, "c": 0.95},
+    "6": {"to": ["ALL"], "emo": ["anger", 0.4], "c": 0.9},
+    "7": {"to": ["IMANI OKAFOR"], "emo": ["anger", 0.3], "c": 0.9},
+    "8": {"to": ["IMANI OKAFOR"], "emo": ["fear", 0.3], "c": 0.9},
+    "9": {"to": ["ALL"], "emo": ["anger", 0.3], "c": 0.85},
+    "10": {"t": "A", "who": ["TEDDY BRANCA", "LUIS VARGA"], "emo": {}, "c": 0.9},
+    "11": {"t": "A", "who": ["OLD PIM"], "emo": {}, "c": 0.95},
+    "12": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.85},
+    "13": {"t": "A", "who": ["WEN ZHAO"], "emo": {}, "c": 0.95},
+    "14": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.9},
+    "15": {"t": "A", "who": ["DAG LINDQVIST"], "emo": {}, "c": 0.5},
+    "16": {"t": "A", "who": ["DAG LINDQVIST"], "emo": {}, "c": 0.95},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"to": ["IMANI OKAFOR"], "emo": ["neutral", 0.4], "c": 0.9},
+    "20": {"t": "A", "who": ["IMANI OKAFOR"], "emo": {"IMANI OKAFOR": ["neutral", 0.3]}, "c": 0.95},
+    "21": {"t": "A", "who": ["IMANI OKAFOR"], "emo": {}, "c": 0.95},
+    "22": {"to": ["ALL"], "emo": ["anger", 0.2], "c": 0.85}
+  },
+  "tension": [5, 10, 30, 30, 35, 40, 45, 50, 35, 20]
+}

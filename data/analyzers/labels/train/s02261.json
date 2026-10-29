@@ -1,0 +1,32 @@
+{
+"scene_id": "s02261",
+"cast": {"GRANDMA ODILE": "ODILE", "ODILE": "ODILE", "DAD MWANGI": "MWANGI", "MWANGI": "MWANGI", "BOY": "THEO", "THEO": "THEO"},
+"beats": [1, 4, 6, 7, 9, 11, 15, 18, 20, 23],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"4": {"t": "D", "who": ["ODILE"], "emo": {}, "c": 1.0},
+"5": {"t": "A", "who": ["MWANGI"], "emo": {}, "c": 1.0},
+"6": {"t": "A", "who": ["THEO"], "emo": {}, "c": 1.0},
+"7": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.7},
+"8": {"to": ["THEO"], "emo": ["affection", 0.3], "c": 0.9},
+"9": {"t": "A", "who": ["THEO"], "emo": {}, "c": 1.0},
+"10": {"t": "A", "who": ["THEO"], "emo": {}, "c": 1.0},
+"11": {"to": ["ODILE"], "emo": ["neutral", 0.3], "c": 0.9},
+"12": {"to": ["THEO"], "emo": ["neutral", 0.3], "c": 0.9},
+"13": {"to": ["ODILE"], "emo": ["neutral", 0.3], "c": 0.9},
+"14": {"to": ["THEO"], "emo": ["affection", 0.3], "c": 0.9},
+"15": {"to": ["THEO"], "emo": ["anger", 0.2], "c": 0.9},
+"16": {"to": ["MWANGI"], "emo": ["neutral", 0.3], "c": 0.9},
+"17": {"to": ["MWANGI"], "emo": ["affection", 0.2], "c": 0.9},
+"18": {"t": "A", "who": ["MWANGI"], "emo": {}, "c": 1.0},
+"19": {"t": "A", "who": ["MWANGI"], "emo": {}, "c": 1.0},
+"20": {"to": ["ODILE"], "emo": ["neutral", 0.3], "c": 0.9},
+"21": {"to": ["THEO"], "emo": ["joy", 0.3], "c": 0.9},
+"22": {"to": ["ODILE"], "emo": ["joy", 0.4], "c": 0.9},
+"23": {"t": "A", "who": ["ODILE"], "emo": {}, "c": 1.0},
+"24": {"t": "A", "who": ["MWANGI"], "emo": {"MWANGI": ["joy", 0.4]}, "c": 1.0}
+},
+"tension": [5, 10, 15, 15, 10, 15, 20, 10, 15, 10]
+}

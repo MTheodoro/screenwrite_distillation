@@ -1,0 +1,36 @@
+{
+  "scene_id": "s00275",
+  "cast": {
+    "GRETCHEN POLLARD": "GRETCHEN POLLARD",
+    "GRETCHEN": "GRETCHEN POLLARD",
+    "WALDO POLLARD": "WALDO POLLARD",
+    "WALDO": "WALDO POLLARD",
+    "TEENAGE ATTENDANT RUSS OYELARAN": "RUSS OYELARAN",
+    "RUSS": "RUSS OYELARAN",
+    "LITTLE MIRABEL": "MIRABEL",
+    "MIRABEL": "MIRABEL"
+  },
+  "beats": [1, 4, 8, 9, 11, 13, 14, 16, 17, 19],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["GRETCHEN POLLARD"], "emo": {}, "c": 0.9},
+    "5": {"t": "A", "who": ["WALDO POLLARD"], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["RUSS OYELARAN"], "emo": {}, "c": 0.9},
+    "7": {"t": "D", "who": ["MIRABEL"], "emo": {}, "c": 0.9},
+    "8": {"to": ["GRETCHEN POLLARD"], "emo": ["neutral", 0.4], "c": 0.9},
+    "9": {"to": ["ALL"], "emo": ["anger", 0.3], "c": 0.9},
+    "10": {"to": ["RUSS OYELARAN"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["WALDO POLLARD"], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["GRETCHEN POLLARD", "WALDO POLLARD", "RUSS OYELARAN"], "emo": {}, "c": 0.9},
+    "15": {"t": "A", "who": ["GRETCHEN POLLARD", "WALDO POLLARD", "RUSS OYELARAN"], "emo": {}, "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "18": {"to": ["MIRABEL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "19": {"t": "A", "who": ["GRETCHEN POLLARD"], "emo": {"GRETCHEN POLLARD": ["joy", 0.5]}, "c": 0.9}
+  },
+  "tension": [5, 10, 25, 30, 35, 40, 45, 30, 10, 5]
+}

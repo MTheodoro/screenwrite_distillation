@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01203",
+  "cast": {"ODETTE BRIDGEWATER-LANE": "ODETTE", "ODETTE": "ODETTE", "MRS. BRIDGEWATER-LANE": "ODETTE", "MARCELINO FARRELL": "MARCELINO", "MARCELINO": "MARCELINO"},
+  "beats": [1, 3, 5, 9, 11, 14, 16, 18, 21, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["MARCELINO"], "emo": {}, "c": 0.9},
+    "5": {"to": ["ODETTE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "6": {"to": ["MARCELINO"], "emo": ["anger", 0.3], "c": 0.9},
+    "7": {"to": ["ODETTE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["MARCELINO"], "emo": ["sadness", 0.4], "c": 0.9},
+    "9": {"t": "A", "who": ["MARCELINO"], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 0.9},
+    "11": {"t": "A", "who": ["MARCELINO"], "emo": {}, "c": 0.9},
+    "12": {"to": ["ODETTE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "13": {"to": ["ALL"], "emo": ["anger", 0.3], "c": 0.8},
+    "14": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 0.95},
+    "16": {"t": "A", "who": ["ODETTE"], "emo": {"ODETTE": ["sadness", 0.3]}, "c": 0.85},
+    "17": {"to": ["ODETTE"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"to": ["MARCELINO"], "emo": ["sadness", 0.3], "c": 0.9},
+    "19": {"to": ["ODETTE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "20": {"to": ["MARCELINO"], "emo": ["anger", 0.2], "c": 0.9},
+    "21": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 15, 25, 30, 40, 35, 45, 40, 30, 20]
+}

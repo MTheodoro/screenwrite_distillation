@@ -1,0 +1,34 @@
+{
+  "scene_id": "s00286",
+  "cast": {
+    "WOMAN": "BEATRIX OYELOWO-MARSH",
+    "BEATRIX": "BEATRIX OYELOWO-MARSH",
+    "BEATRIX OYELOWO-MARSH": "BEATRIX OYELOWO-MARSH",
+    "RESCUER": "INES CALDERON",
+    "INES CALDERON": "INES CALDERON"
+  },
+  "beats": [1, 4, 6, 9, 10, 15, 16, 18, 19, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["BEATRIX OYELOWO-MARSH"], "emo": {}, "c": 0.9},
+    "5": {"t": "D", "who": ["BEATRIX OYELOWO-MARSH"], "emo": {}, "c": 0.9},
+    "6": {"to": ["SELF"], "emo": ["neutral", 0.3], "c": 0.9},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "9": {"to": ["BEATRIX OYELOWO-MARSH"], "emo": ["neutral", 0.4], "c": 0.6},
+    "10": {"t": "A", "who": ["BEATRIX OYELOWO-MARSH"], "emo": {}, "c": 0.95},
+    "11": {"to": ["INES CALDERON"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["BEATRIX OYELOWO-MARSH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "13": {"to": ["INES CALDERON"], "emo": ["neutral", 0.3], "c": 0.9},
+    "14": {"to": ["BEATRIX OYELOWO-MARSH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["INES CALDERON"], "emo": ["fear", 0.2], "c": 0.9},
+    "16": {"to": ["BEATRIX OYELOWO-MARSH"], "emo": ["affection", 0.2], "c": 0.9},
+    "17": {"to": ["INES CALDERON"], "emo": ["neutral", 0.3], "c": 0.9},
+    "18": {"t": "A", "who": ["BEATRIX OYELOWO-MARSH"], "emo": {"BEATRIX OYELOWO-MARSH": ["joy", 0.2]}, "c": 0.9},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["BEATRIX OYELOWO-MARSH"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 20, 30, 35, 40, 30, 20, 15, 10]
+}

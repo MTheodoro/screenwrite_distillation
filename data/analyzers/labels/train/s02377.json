@@ -1,0 +1,41 @@
+{
+  "scene_id": "s02377",
+  "cast": {
+    "LADY PHILIPPA ASHGROVE": "PHILIPPA ASHGROVE",
+    "PHILIPPA": "PHILIPPA ASHGROVE",
+    "AMBROSE TILLERY": "AMBROSE TILLERY",
+    "AMBROSE": "AMBROSE TILLERY",
+    "MR. CORNELIUS BLY": "CORNELIUS BLY",
+    "CORNELIUS": "CORNELIUS BLY",
+    "BLY": "CORNELIUS BLY",
+    "MADAME ZORKA DRAGOMIR": "ZORKA DRAGOMIR",
+    "ZORKA": "ZORKA DRAGOMIR",
+    "INSPECTOR HALVARD STROM": "HALVARD STROM",
+    "STROM": "HALVARD STROM"
+  },
+  "beats": [1, 4, 8, 10, 13, 15, 16, 18, 20, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["PHILIPPA ASHGROVE"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["AMBROSE TILLERY"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["CORNELIUS BLY"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["ZORKA DRAGOMIR"], "emo": {}, "c": 0.95},
+    "8": {"to": ["PHILIPPA ASHGROVE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["AMBROSE TILLERY", "CORNELIUS BLY"], "emo": ["neutral", 0.3], "c": 0.85},
+    "10": {"to": ["PHILIPPA ASHGROVE"], "emo": ["anger", 0.2], "c": 0.85},
+    "11": {"to": ["CORNELIUS BLY"], "emo": ["anger", 0.3], "c": 0.85},
+    "12": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.7},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["HALVARD STROM"], "emo": {}, "c": 0.95},
+    "15": {"to": ["CORNELIUS BLY"], "emo": ["neutral", 0.5], "c": 0.9},
+    "16": {"t": "A", "who": ["CORNELIUS BLY"], "emo": {"CORNELIUS BLY": ["fear", 0.5]}, "c": 0.9},
+    "17": {"t": "A", "who": ["PHILIPPA ASHGROVE"], "emo": {}, "c": 0.9},
+    "18": {"t": "A", "who": ["ZORKA DRAGOMIR"], "emo": {}, "c": 0.95},
+    "19": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.6},
+    "20": {"to": ["PHILIPPA ASHGROVE"], "emo": ["anger", 0.3], "c": 0.9},
+    "21": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.8}
+  },
+  "tension": [5, 10, 10, 15, 25, 50, 60, 70, 70, 60]
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01872",
+  "cast": {"COMMANDER IFEOMA VANCE": "IFEOMA VANCE", "VANCE": "IFEOMA VANCE", "BOTANIST RUSLAN TOKAYEV": "RUSLAN TOKAYEV", "TOKAYEV": "RUSLAN TOKAYEV", "MEDIC PRIYA NAIR": "PRIYA NAIR", "NAIR": "PRIYA NAIR", "TECH JUNO BELL": "JUNO BELL", "BELL": "JUNO BELL", "CADET MARCO DELACROIX": "MARCO DELACROIX", "DELACROIX": "MARCO DELACROIX", "MARCO": "MARCO DELACROIX", "PILOT SEUN-AH KIM": "SEUN-AH KIM", "KIM": "SEUN-AH KIM"},
+  "beats": [1, 5, 7, 11, 14, 15, 17, 21, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["IFEOMA VANCE", "RUSLAN TOKAYEV", "PRIYA NAIR", "JUNO BELL", "MARCO DELACROIX"], "emo": {}, "c": 0.9},
+    "6": {"t": "D", "who": ["SEUN-AH KIM"], "emo": {}, "c": 0.95},
+    "7": {"to": ["ALL"], "emo": ["fear", 0.6], "c": 0.9},
+    "8": {"to": ["ALL"], "emo": ["fear", 0.6], "c": 0.9},
+    "9": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "10": {"to": ["ALL"], "emo": ["fear", 0.6], "c": 0.9},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "15": {"t": "A", "who": ["MARCO DELACROIX"], "emo": {"MARCO DELACROIX": ["joy", 0.4]}, "c": 0.95},
+    "16": {"t": "A", "who": ["IFEOMA VANCE"], "emo": {}, "c": 0.95},
+    "17": {"to": ["MARCO DELACROIX"], "emo": ["anger", 0.4], "c": 0.9},
+    "18": {"to": ["IFEOMA VANCE"], "emo": ["fear", 0.3], "c": 0.9},
+    "19": {"t": "A", "who": ["MARCO DELACROIX"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["MARCO DELACROIX"], "emo": {}, "c": 0.9},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "22": {"to": ["NONE"], "emo": ["neutral", 0.4], "c": 0.6}
+  },
+  "tension": [5, 80, 85, 50, 40, 20, 25, 15, 10]
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "s02234",
+  "cast": {"SHERIFF AMOS TEAGUE": "AMOS TEAGUE", "TEAGUE": "AMOS TEAGUE", "EZEKIEL": "EZEKIEL", "TWO-FINGER MAGGIE": "MAGGIE", "MAGGIE": "MAGGIE", "CHEN WEI": "CHEN WEI", "RAFAEL": "RAFAEL", "HOLLIS": "HOLLIS"},
+  "beats": [1, 4, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["AMOS TEAGUE"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["EZEKIEL"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["MAGGIE"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["CHEN WEI"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["RAFAEL"], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["HOLLIS"], "emo": {}, "c": 0.95},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.8},
+    "12": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "13": {"to": ["AMOS TEAGUE"], "emo": ["fear", 0.5], "c": 0.9},
+    "14": {"to": ["EZEKIEL"], "emo": ["anger", 0.5], "c": 0.9},
+    "15": {"to": ["AMOS TEAGUE"], "emo": ["fear", 0.6], "c": 0.9},
+    "16": {"to": ["MAGGIE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "17": {"to": ["CHEN WEI"], "emo": ["fear", 0.4], "c": 0.9},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["HOLLIS"], "emo": {"HOLLIS": ["joy", 0.2]}, "c": 0.95}
+  },
+  "tension": [5, 20, 30, 50, 55, 60, 50, 70, 40, 55, 75, 20]
+}

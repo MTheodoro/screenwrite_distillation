@@ -1,0 +1,32 @@
+{
+"scene_id": "s00777",
+"cast": {"NELL":"NELL AUGUSTINE","NELL AUGUSTINE":"NELL AUGUSTINE","SULLY":"SULLY","DOT":"DOROTHEA FEENEY","DOROTHEA \"DOT\" FEENEY":"DOROTHEA FEENEY","DOROTHEA FEENEY":"DOROTHEA FEENEY","FEENEY":"DOROTHEA FEENEY","KWABENA":"KWABENA ASARE","KWABENA ASARE":"KWABENA ASARE","MR. KWABENA ASARE":"KWABENA ASARE","BRYCE":"BRYCE"},
+"beats": [1,5,9,12,16,21,24],
+"lines": {
+"1": {"t":"S","who":[],"emo":{},"c":0.95},
+"2": {"t":"S","who":[],"emo":{},"c":0.95},
+"3": {"t":"S","who":[],"emo":{},"c":0.95},
+"4": {"t":"S","who":[],"emo":{},"c":0.95},
+"5": {"t":"D","who":["NELL AUGUSTINE"],"emo":{},"c":0.95},
+"6": {"t":"D","who":["SULLY"],"emo":{},"c":0.95},
+"7": {"t":"D","who":["DOROTHEA FEENEY"],"emo":{},"c":0.95},
+"8": {"t":"A","who":["KWABENA ASARE"],"emo":{},"c":0.95},
+"9": {"t":"A","who":["BRYCE"],"emo":{"BRYCE":["fear",0.8]},"c":0.9},
+"10": {"to":["DOROTHEA FEENEY"],"emo":["fear",0.8],"c":0.9},
+"11": {"to":["BRYCE"],"emo":["fear",0.7],"c":0.9},
+"12": {"t":"A","who":["SULLY"],"emo":{},"c":0.95},
+"13": {"t":"S","who":[],"emo":{},"c":0.95},
+"14": {"to":["NELL AUGUSTINE"],"emo":["fear",0.7],"c":0.9},
+"15": {"to":["SULLY"],"emo":["fear",0.7],"c":0.9},
+"16": {"t":"A","who":["KWABENA ASARE"],"emo":{},"c":0.95},
+"17": {"t":"S","who":[],"emo":{},"c":0.95},
+"18": {"t":"A","who":["NELL AUGUSTINE"],"emo":{},"c":0.95},
+"19": {"t":"S","who":[],"emo":{},"c":0.95},
+"20": {"t":"S","who":[],"emo":{},"c":0.95},
+"21": {"t":"S","who":[],"emo":{},"c":0.95},
+"22": {"t":"S","who":[],"emo":{},"c":0.95},
+"23": {"to":["ALL"],"emo":["fear",0.5],"c":0.9},
+"24": {"t":"S","who":[],"emo":{},"c":0.9}
+},
+"tension": [10,20,80,75,70,50,70]
+}

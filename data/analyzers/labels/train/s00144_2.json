@@ -1,0 +1,15 @@
+{
+  "scene_id": "s00144_2",
+  "cast": {"DIDI": "DIDI", "ANGELIKA": "ANGELIKA", "PETRA": "PETRA"},
+  "beats": [1, 4, 6],
+  "tension": [10, 10, 5],
+  "lines": {
+    "1": {"t": "A", "who": ["ANGELIKA"], "emo": {}, "c": 0.99},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.99},
+    "3": {"t": "A", "who": ["ANGELIKA"], "emo": {"ANGELIKA": ["surprise", 0.4]}, "c": 0.99},
+    "4": {"to": ["ANGELIKA"], "emo": ["sadness", 0.3], "c": 0.95},
+    "5": {"to": ["ALL"], "emo": ["joy", 0.6], "c": 0.9},
+    "6": {"to": ["ANGELIKA"], "emo": ["disgust", 0.5], "c": 0.9},
+    "7": {"to": ["DIDI"], "emo": ["joy", 0.5], "c": 0.9}
+  }
+}

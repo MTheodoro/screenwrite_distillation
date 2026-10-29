@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01080",
+  "cast": {"ARBITRATOR SALAZAR-KIM": "SALAZAR-KIM", "SALAZAR-KIM": "SALAZAR-KIM", "Salazar-Kim": "SALAZAR-KIM", "LAWYER DEWITT PIKE": "PIKE", "PIKE": "PIKE", "Pike": "PIKE", "Mr. Pike": "PIKE", "CLIENT MRS. YUSUPOVA": "YUSUPOVA", "MRS. YUSUPOVA": "YUSUPOVA", "Mrs. Yusupova": "YUSUPOVA", "YUSUPOVA": "YUSUPOVA"},
+  "beats": [1, 4, 6, 9, 13, 17, 20, 22, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["SALAZAR-KIM"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["PIKE", "YUSUPOVA"], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["PIKE"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["YUSUPOVA"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["SALAZAR-KIM", "PIKE", "YUSUPOVA"], "emo": {"YUSUPOVA": ["fear", 0.3]}, "c": 0.7},
+    "9": {"to": ["PIKE"], "emo": ["neutral", 0.1], "c": 0.95},
+    "10": {"to": ["SALAZAR-KIM"], "emo": ["neutral", 0.1], "c": 0.95},
+    "11": {"to": ["YUSUPOVA"], "emo": ["neutral", 0.1], "c": 0.95},
+    "12": {"to": ["SALAZAR-KIM"], "emo": ["sadness", 0.4], "c": 0.95},
+    "13": {"to": ["PIKE"], "emo": ["neutral", 0.1], "c": 0.8},
+    "14": {"to": ["SALAZAR-KIM"], "emo": ["neutral", 0.2], "c": 0.95},
+    "15": {"to": ["PIKE"], "emo": ["neutral", 0.1], "c": 0.95},
+    "16": {"to": ["SALAZAR-KIM"], "emo": ["neutral", 0.1], "c": 0.95},
+    "17": {"to": ["SALAZAR-KIM"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"to": ["YUSUPOVA"], "emo": ["neutral", 0.1], "c": 0.95},
+    "19": {"to": ["SALAZAR-KIM"], "emo": ["neutral", 0.2], "c": 0.95},
+    "20": {"to": ["SALAZAR-KIM"], "emo": ["anger", 0.2], "c": 0.95},
+    "21": {"to": ["PIKE"], "emo": ["anger", 0.2], "c": 0.95},
+    "22": {"to": ["SALAZAR-KIM"], "emo": ["disgust", 0.2], "c": 0.95},
+    "23": {"to": ["SELF"], "emo": ["neutral", 0.1], "c": 0.6},
+    "24": {"to": ["SALAZAR-KIM"], "emo": ["neutral", 0.1], "c": 0.95},
+    "25": {"to": ["YUSUPOVA"], "emo": ["neutral", 0.2], "c": 0.7},
+    "26": {"to": ["SALAZAR-KIM"], "emo": ["affection", 0.3], "c": 0.9}
+  }
+}

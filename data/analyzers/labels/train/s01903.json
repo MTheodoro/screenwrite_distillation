@@ -1,0 +1,40 @@
+{
+  "scene_id": "s01903",
+  "cast": {
+    "ARCHIVIST NADIA ABERNATHY-OSEI": "NADIA",
+    "NADIA": "NADIA",
+    "DR. FELIX OYAMA-BRENNAN": "FELIX",
+    "FELIX": "FELIX",
+    "ONBOARD AI": "AI"
+  },
+  "beats": [1, 4, 6, 11, 14, 16, 18, 19, 24, 25, 26],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["NADIA"], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["FELIX"], "emo": {}, "c": 1.0},
+    "6": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.8},
+    "7": {"to": ["NADIA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["FELIX"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"to": ["NADIA"], "emo": ["neutral", 0.2], "c": 0.9},
+    "10": {"to": ["FELIX"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"t": "A", "who": ["NADIA"], "emo": {}, "c": 1.0},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "13": {"to": ["NONE"], "emo": ["affection", 0.4], "c": 0.6},
+    "14": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.7},
+    "15": {"to": ["NADIA"], "emo": ["neutral", 0.2], "c": 0.8},
+    "16": {"t": "A", "who": ["FELIX"], "emo": {}, "c": 1.0},
+    "17": {"t": "A", "who": ["NADIA"], "emo": {}, "c": 1.0},
+    "18": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.9},
+    "19": {"to": ["FELIX"], "emo": ["fear", 0.3], "c": 0.9},
+    "20": {"to": ["NADIA"], "emo": ["neutral", 0.2], "c": 0.9},
+    "21": {"to": ["FELIX"], "emo": ["fear", 0.4], "c": 0.9},
+    "22": {"to": ["NADIA"], "emo": ["neutral", 0.2], "c": 0.9},
+    "23": {"to": ["FELIX"], "emo": ["neutral", 0.3], "c": 0.9},
+    "24": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.8},
+    "25": {"t": "A", "who": ["FELIX"], "emo": {"FELIX": ["fear", 0.5]}, "c": 1.0},
+    "26": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.9}
+  },
+  "tension": [3, 8, 10, 20, 30, 25, 45, 50, 65, 70, 85]
+}

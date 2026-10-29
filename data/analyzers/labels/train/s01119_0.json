@@ -1,0 +1,16 @@
+{
+"scene_id": "s01119_0",
+"cast": {"MADAME CLEMENTINE ROUSSEAU-ADEYEMI": "CLEMENTINE ROUSSEAU-ADEYEMI"},
+"beats": [1, 6, 7],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"5": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["CLEMENTINE ROUSSEAU-ADEYEMI"], "emo": {}, "c": 0.95},
+"7": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"8": {"t": "A", "who": ["CLEMENTINE ROUSSEAU-ADEYEMI"], "emo": {"CLEMENTINE ROUSSEAU-ADEYEMI": ["neutral", 0.2]}, "c": 0.9}
+},
+"tension": [5, 10, 25]
+}

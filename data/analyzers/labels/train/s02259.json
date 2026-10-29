@@ -1,0 +1,17 @@
+{
+"scene_id": "s02259",
+"cast": {"EDIE": "EDIE", "WINNIFRED": "WINNIFRED"},
+"beats": [1, 5, 6, 8, 9],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"5": {"t": "A", "who": ["EDIE", "WINNIFRED"], "emo": {"EDIE": ["fear", 0.6]}, "c": 0.9},
+"6": {"to": ["WINNIFRED"], "emo": ["fear", 0.5], "c": 0.9},
+"7": {"to": ["EDIE"], "emo": ["neutral", 0.3], "c": 0.9},
+"8": {"to": ["WINNIFRED"], "emo": ["fear", 0.6], "c": 0.9},
+"9": {"to": ["EDIE"], "emo": ["neutral", 0.4], "c": 0.9}
+},
+"tension": [10, 45, 40, 60, 45]
+}

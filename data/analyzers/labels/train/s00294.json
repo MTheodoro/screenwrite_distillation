@@ -1,0 +1,42 @@
+{
+  "scene_id": "s00294",
+  "cast": {
+    "LADY CORDELIA WHITTINGTON-BANDELE": "CORDELIA",
+    "CORDELIA": "CORDELIA",
+    "WHITTINGTON-BANDELE": "CORDELIA",
+    "MR. RUPERT ABERNETHY-ODUYA": "RUPERT",
+    "RUPERT": "RUPERT",
+    "ABERNETHY-ODUYA": "RUPERT",
+    "MISS PHILIPPA LOVELACE": "PHILIPPA",
+    "PHILIPPA": "PHILIPPA",
+    "LOVELACE": "PHILIPPA"
+  },
+  "beats": [1, 7, 11, 14, 17, 19, 21, 22, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["CORDELIA"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["RUPERT"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["PHILIPPA"], "emo": {}, "c": 0.95},
+    "7": {"to": ["CORDELIA"], "emo": ["neutral", 0.4], "c": 0.9},
+    "8": {"to": ["RUPERT"], "emo": ["anger", 0.3], "c": 0.8},
+    "9": {"to": ["CORDELIA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["RUPERT"], "emo": ["anger", 0.6], "c": 0.9},
+    "11": {"t": "A", "who": ["RUPERT"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["CORDELIA"], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["PHILIPPA"], "emo": {"PHILIPPA": ["fear", 0.4]}, "c": 0.9},
+    "14": {"t": "A", "who": ["RUPERT", "CORDELIA"], "emo": {"CORDELIA": ["fear", 0.4]}, "c": 0.8},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "16": {"t": "A", "who": ["RUPERT", "CORDELIA", "PHILIPPA"], "emo": {}, "c": 0.9},
+    "17": {"to": ["PHILIPPA"], "emo": ["anger", 0.3], "c": 0.9},
+    "18": {"to": ["RUPERT"], "emo": ["fear", 0.3], "c": 0.8},
+    "19": {"to": ["PHILIPPA"], "emo": ["affection", 0.4], "c": 0.9},
+    "20": {"to": ["CORDELIA"], "emo": ["anger", 0.4], "c": 0.8},
+    "21": {"to": ["RUPERT"], "emo": ["anger", 0.6], "c": 0.9},
+    "22": {"t": "A", "who": ["PHILIPPA"], "emo": {"PHILIPPA": ["anger", 0.4]}, "c": 0.8},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "24": {"t": "A", "who": ["RUPERT"], "emo": {}, "c": 0.9}
+  },
+  "tension": [10, 30, 45, 55, 50, 45, 65, 60, 40]
+}

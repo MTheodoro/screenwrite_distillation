@@ -1,0 +1,29 @@
+{
+  "scene_id": "s01181",
+  "cast": {"YOUNG SOLDIER": "ALMEIDA", "ALMEIDA": "ALMEIDA", "COMMAND": "COMMAND"},
+  "beats": [1, 6, 9, 13, 15, 19],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["ALMEIDA"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["ALMEIDA"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ALMEIDA"], "emo": {}, "c": 0.95},
+    "6": {"to": ["COMMAND"], "emo": ["fear", 0.4], "c": 0.6},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "9": {"to": ["ALMEIDA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "10": {"to": ["COMMAND"], "emo": ["fear", 0.5], "c": 0.95},
+    "11": {"to": ["ALMEIDA"], "emo": ["neutral", 0.3], "c": 0.95},
+    "12": {"to": ["COMMAND"], "emo": ["sadness", 0.4], "c": 0.9},
+    "13": {"t": "A", "who": ["ALMEIDA"], "emo": {"ALMEIDA": ["fear", 0.6]}, "c": 0.95},
+    "14": {"to": ["ALMEIDA"], "emo": ["sadness", 0.4], "c": 0.95},
+    "15": {"t": "A", "who": ["ALMEIDA"], "emo": {"ALMEIDA": ["sadness", 0.5]}, "c": 0.95},
+    "16": {"t": "A", "who": ["ALMEIDA"], "emo": {}, "c": 0.95},
+    "17": {"to": ["COMMAND"], "emo": ["sadness", 0.6], "c": 0.9},
+    "18": {"to": ["ALMEIDA"], "emo": ["affection", 0.3], "c": 0.9},
+    "19": {"t": "A", "who": ["ALMEIDA"], "emo": {}, "c": 0.95},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 45, 35, 55, 75, 55]
+}

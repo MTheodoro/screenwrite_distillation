@@ -1,0 +1,33 @@
+{
+  "scene_id": "s00503",
+  "cast": {"NORBERT PLUM": "NORBERT PLUM", "NORBERT": "NORBERT PLUM", "IMOGEN TRAVIS-OKORO": "IMOGEN TRAVIS-OKORO", "IMOGEN": "IMOGEN TRAVIS-OKORO"},
+  "beats": [1, 5, 7, 9, 13, 17, 19, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["NORBERT PLUM"], "emo": {}, "c": 1.0},
+    "6": {"t": "D", "who": ["NORBERT PLUM"], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["IMOGEN TRAVIS-OKORO"], "emo": {}, "c": 1.0},
+    "8": {"to": ["NORBERT PLUM"], "emo": ["joy", 0.5], "c": 1.0},
+    "9": {"t": "A", "who": ["NORBERT PLUM"], "emo": {}, "c": 1.0},
+    "10": {"to": ["IMOGEN TRAVIS-OKORO"], "emo": ["neutral", 0.3], "c": 1.0},
+    "11": {"to": ["NORBERT PLUM"], "emo": ["joy", 0.3], "c": 1.0},
+    "12": {"to": ["IMOGEN TRAVIS-OKORO"], "emo": ["neutral", 0.2], "c": 1.0},
+    "13": {"t": "A", "who": ["IMOGEN TRAVIS-OKORO"], "emo": {}, "c": 1.0},
+    "14": {"t": "A", "who": ["NORBERT PLUM"], "emo": {}, "c": 1.0},
+    "15": {"t": "A", "who": ["NORBERT PLUM"], "emo": {}, "c": 1.0},
+    "16": {"t": "A", "who": ["NORBERT PLUM"], "emo": {}, "c": 1.0},
+    "17": {"to": ["IMOGEN TRAVIS-OKORO"], "emo": ["affection", 0.5], "c": 1.0},
+    "18": {"to": ["NORBERT PLUM"], "emo": ["joy", 0.5], "c": 1.0},
+    "19": {"t": "A", "who": ["NORBERT PLUM"], "emo": {}, "c": 1.0},
+    "20": {"t": "A", "who": ["NORBERT PLUM"], "emo": {"NORBERT PLUM": ["joy", 0.5]}, "c": 1.0},
+    "21": {"t": "A", "who": ["NORBERT PLUM"], "emo": {"NORBERT PLUM": ["sadness", 0.6]}, "c": 1.0},
+    "22": {"to": ["NORBERT PLUM"], "emo": ["affection", 0.5], "c": 1.0},
+    "23": {"to": ["IMOGEN TRAVIS-OKORO"], "emo": ["sadness", 0.6], "c": 1.0},
+    "24": {"t": "A", "who": ["NORBERT PLUM"], "emo": {}, "c": 1.0},
+    "25": {"t": "A", "who": ["IMOGEN TRAVIS-OKORO"], "emo": {}, "c": 1.0}
+  },
+  "tension": [5, 5, 15, 10, 12, 10, 25, 15]
+}

@@ -1,0 +1,29 @@
+{
+"scene_id":"s01670",
+"cast":{"ELOISE":"ELOISE VANTERPOOL","ELOISE VANTERPOOL":"ELOISE VANTERPOOL","DEZ":"DESMOND OKAFOR","DESMOND \"DEZ\" OKAFOR":"DESMOND OKAFOR","DESMOND OKAFOR":"DESMOND OKAFOR","OKAFOR":"DESMOND OKAFOR","PRUDENCE LAWSON":"PRUDENCE LAWSON","PRUDENCE":"PRUDENCE LAWSON","MRS. LAWSON":"PRUDENCE LAWSON","THADDEUS BRIGHT":"THADDEUS BRIGHT","THADDEUS":"THADDEUS BRIGHT"},
+"beats":[1,3,5,7,9,12,14,17,18,20,21],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":1},
+"2":{"t":"S","who":[],"emo":{},"c":1},
+"3":{"t":"A","who":["ELOISE VANTERPOOL"],"emo":{},"c":0.95},
+"4":{"t":"A","who":["DESMOND OKAFOR"],"emo":{},"c":0.95},
+"5":{"to":["ELOISE VANTERPOOL"],"emo":["neutral",0.4],"c":0.95},
+"6":{"to":["DESMOND OKAFOR"],"emo":["neutral",0.3],"c":0.95},
+"7":{"t":"A","who":["DESMOND OKAFOR"],"emo":{},"c":0.95},
+"8":{"t":"A","who":["ELOISE VANTERPOOL"],"emo":{"ELOISE VANTERPOOL":["joy",0.5]},"c":0.95},
+"9":{"to":["ELOISE VANTERPOOL"],"emo":["affection",0.5],"c":0.95},
+"10":{"to":["DESMOND OKAFOR"],"emo":["affection",0.5],"c":0.95},
+"11":{"to":["ELOISE VANTERPOOL"],"emo":["affection",0.5],"c":0.95},
+"12":{"t":"S","who":[],"emo":{},"c":1},
+"13":{"t":"A","who":["PRUDENCE LAWSON"],"emo":{},"c":0.95},
+"14":{"to":["ALL"],"emo":["neutral",0.3],"c":0.95},
+"15":{"to":["PRUDENCE LAWSON"],"emo":["neutral",0.2],"c":0.95},
+"16":{"to":["PRUDENCE LAWSON"],"emo":["neutral",0.2],"c":0.95},
+"17":{"to":["ALL"],"emo":["joy",0.3],"c":0.9},
+"18":{"t":"A","who":["THADDEUS BRIGHT"],"emo":{},"c":0.95},
+"19":{"to":["PRUDENCE LAWSON"],"emo":["neutral",0.4],"c":0.9},
+"20":{"t":"A","who":["PRUDENCE LAWSON"],"emo":{},"c":0.95},
+"21":{"t":"A","who":["ELOISE VANTERPOOL","DESMOND OKAFOR"],"emo":{},"c":0.95}
+},
+"tension":[10,15,20,25,25,30,30,35,40,40,30]
+}

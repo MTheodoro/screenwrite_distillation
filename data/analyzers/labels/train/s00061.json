@@ -1,0 +1,29 @@
+{
+"scene_id": "s00061",
+"cast": {"LIEUTENANT ARCHIBALD \"ARCHIE\" PENROSE": "PENROSE", "PENROSE": "PENROSE", "Penrose": "PENROSE", "SERGEANT BAPTISTE ONWUACHI": "ONWUACHI", "ONWUACHI": "ONWUACHI", "Onwuachi": "ONWUACHI", "PRIVATE ELIAS FJELDSTAD-MORENO": "ELIAS", "FJELDSTAD-MORENO": "ELIAS", "Elias": "ELIAS"},
+"beats": [1, 7, 13, 16, 19],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "A", "who": ["PENROSE"], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["ONWUACHI"], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["ELIAS"], "emo": {"ELIAS": ["fear", 0.6]}, "c": 0.9},
+"7": {"to": ["ONWUACHI"], "emo": ["neutral", 0.2], "c": 0.95},
+"8": {"to": ["PENROSE"], "emo": ["neutral", 0.3], "c": 0.9},
+"9": {"to": ["ONWUACHI"], "emo": ["anger", 0.2], "c": 0.9},
+"10": {"to": ["ELIAS"], "emo": ["neutral", 0.2], "c": 0.9},
+"11": {"to": ["ELIAS"], "emo": ["neutral", 0.3], "c": 0.95},
+"12": {"to": ["PENROSE"], "emo": ["fear", 0.3], "c": 0.95},
+"13": {"to": ["ALL"], "emo": ["anger", 0.4], "c": 0.9},
+"14": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"15": {"t": "A", "who": ["PENROSE", "ONWUACHI"], "emo": {}, "c": 0.95},
+"16": {"t": "A", "who": ["ELIAS"], "emo": {"ELIAS": ["fear", 0.5]}, "c": 0.9},
+"17": {"to": ["SELF"], "emo": ["fear", 0.5], "c": 0.9},
+"18": {"to": ["ALL"], "emo": ["anger", 0.3], "c": 0.9},
+"19": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.9},
+"20": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.9},
+"21": {"t": "A", "who": ["ELIAS", "ONWUACHI"], "emo": {"ELIAS": ["fear", 0.7]}, "c": 0.9}
+},
+"tension": [25, 35, 65, 70, 75]
+}

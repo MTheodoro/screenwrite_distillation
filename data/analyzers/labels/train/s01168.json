@@ -1,0 +1,19 @@
+{
+  "scene_id": "s01168",
+  "cast": {"FRANCO": "FRANCO", "DOT": "DOT", "BIFF": "BIFF", "LUPE": "LUPE", "ROMY": "ROMY"},
+  "beats": [1, 3, 7, 9],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "D", "who": ["FRANCO", "DOT", "BIFF", "LUPE", "ROMY"], "emo": {}, "c": 0.9},
+    "3": {"to": ["ALL"], "emo": ["anger", 0.5], "c": 0.9},
+    "4": {"to": ["FRANCO"], "emo": ["neutral", 0.2], "c": 0.9},
+    "5": {"to": ["ALL"], "emo": ["anger", 0.5], "c": 0.8},
+    "6": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.8},
+    "7": {"to": ["BIFF"], "emo": ["neutral", 0.2], "c": 0.9},
+    "8": {"to": ["LUPE"], "emo": ["anger", 0.3], "c": 0.9},
+    "9": {"to": ["NONE"], "emo": ["sadness", 0.4], "c": 0.6},
+    "10": {"to": ["ROMY"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["DOT"], "emo": ["neutral", 0.3], "c": 0.8}
+  },
+  "tension": [10, 25, 15, 10]
+}

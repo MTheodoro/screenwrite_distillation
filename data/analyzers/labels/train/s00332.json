@@ -1,0 +1,28 @@
+{
+  "scene_id": "s00332",
+  "cast": {
+    "JUNE KOWALCZYK": "JUNE",
+    "JUNE": "JUNE",
+    "KOWALCZYK": "JUNE",
+    "REGGIE FAIRWEATHER": "REGGIE",
+    "REGGIE": "REGGIE",
+    "FAIRWEATHER": "REGGIE"
+  },
+  "beats": [1, 3, 4, 7, 9, 11, 13],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["JUNE", "REGGIE"], "emo": {}, "c": 0.7},
+    "4": {"to": ["REGGIE"], "emo": ["anger", 0.5], "c": 0.9},
+    "5": {"to": ["JUNE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "6": {"to": ["REGGIE"], "emo": ["anger", 0.5], "c": 0.9},
+    "7": {"t": "A", "who": ["REGGIE"], "emo": {"REGGIE": ["fear", 0.5]}, "c": 0.9},
+    "8": {"t": "A", "who": ["JUNE"], "emo": {}, "c": 0.95},
+    "9": {"to": ["JUNE"], "emo": ["fear", 0.5], "c": 0.9},
+    "10": {"to": ["REGGIE"], "emo": ["anger", 0.5], "c": 0.9},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["JUNE", "REGGIE"], "emo": {}, "c": 0.9}
+  },
+  "tension": [5, 15, 35, 50, 60, 70, 75]
+}

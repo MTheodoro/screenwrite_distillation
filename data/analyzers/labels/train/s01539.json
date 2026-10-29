@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01539",
+  "cast": {"KING ALDERMERE GREEN": "ALDERMERE THE GREEN", "KING ALDERMERE THE GREEN": "ALDERMERE THE GREEN", "ALDERMERE": "ALDERMERE THE GREEN", "ALDERMERE THE GREEN": "ALDERMERE THE GREEN", "SIORA": "SIORA", "BRONWYN": "BRONWYN", "TANSY": "TANSY", "BRAMBLE": "BRAMBLE", "IVO": "IVO"},
+  "beats": [1, 5, 7, 8, 12, 13, 15, 16, 19, 20, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "D", "who": ["ALDERMERE THE GREEN"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["SIORA", "BRONWYN", "TANSY", "BRAMBLE", "IVO"], "emo": {}, "c": 0.95},
+    "7": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["ALDERMERE THE GREEN"], "emo": ["sadness", 0.4], "c": 0.9},
+    "9": {"to": ["ALDERMERE THE GREEN"], "emo": ["sadness", 0.3], "c": 0.9},
+    "10": {"to": ["BRAMBLE"], "emo": ["anger", 0.3], "c": 0.9},
+    "11": {"to": ["TANSY"], "emo": ["anger", 0.3], "c": 0.9},
+    "12": {"t": "A", "who": ["TANSY", "BRAMBLE"], "emo": {"TANSY": ["anger", 0.3], "BRAMBLE": ["anger", 0.3]}, "c": 0.9},
+    "13": {"to": ["ALDERMERE THE GREEN"], "emo": ["neutral", 0.3], "c": 0.9},
+    "14": {"to": ["IVO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["ALDERMERE THE GREEN"], "emo": ["fear", 0.5], "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "19": {"to": ["IVO"], "emo": ["neutral", 0.4], "c": 0.9},
+    "20": {"t": "A", "who": ["IVO"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["IVO"], "emo": {"IVO": ["fear", 0.5]}, "c": 0.9},
+    "22": {"t": "A", "who": ["ALDERMERE THE GREEN"], "emo": {"ALDERMERE THE GREEN": ["surprise", 0.5]}, "c": 0.9}
+  },
+  "tension": [5, 10, 15, 25, 30, 40, 55, 60, 65, 80, 70]
+}

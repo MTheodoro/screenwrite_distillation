@@ -1,0 +1,39 @@
+{
+  "scene_id": "s02361",
+  "cast": {
+    "BRUNHILDE GRUMBLEDOWN": "BRUNHILDE GRUMBLEDOWN",
+    "BRUNHILDE": "BRUNHILDE GRUMBLEDOWN",
+    "ULFRIC": "ULFRIC",
+    "ERLANDEL": "ERLANDEL",
+    "SPRIGGET": "SPRIGGET"
+  },
+  "beats": [1, 5, 8, 9, 10, 14, 16, 17, 19, 21, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["BRUNHILDE GRUMBLEDOWN"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["BRUNHILDE GRUMBLEDOWN"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["ULFRIC"], "emo": {}, "c": 0.9},
+    "8": {"t": "A", "who": ["ERLANDEL"], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["SPRIGGET"], "emo": {}, "c": 0.95},
+    "10": {"to": ["BRUNHILDE GRUMBLEDOWN"], "emo": ["neutral", 0.2], "c": 0.95},
+    "11": {"to": ["ERLANDEL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["BRUNHILDE GRUMBLEDOWN"], "emo": ["neutral", 0.2], "c": 0.9},
+    "13": {"to": ["ERLANDEL"], "emo": ["sadness", 0.3], "c": 0.85},
+    "14": {"t": "A", "who": ["ULFRIC"], "emo": {}, "c": 0.9},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "16": {"t": "A", "who": ["SPRIGGET"], "emo": {}, "c": 0.9},
+    "17": {"to": ["ERLANDEL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"to": ["NONE"], "emo": ["anger", 0.3], "c": 0.5},
+    "19": {"to": ["ULFRIC"], "emo": ["neutral", 0.3], "c": 0.9},
+    "20": {"to": ["BRUNHILDE GRUMBLEDOWN"], "emo": ["anger", 0.3], "c": 0.8},
+    "21": {"t": "A", "who": ["BRUNHILDE GRUMBLEDOWN"], "emo": {}, "c": 0.9},
+    "22": {"t": "A", "who": ["ULFRIC"], "emo": {}, "c": 0.9},
+    "23": {"t": "A", "who": ["ERLANDEL"], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["SPRIGGET"], "emo": {}, "c": 0.9},
+    "25": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 15, 15, 10, 20, 25, 30, 45, 40, 35, 30]
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "s02475_0",
+  "cast": {"DR. NASRIN FAROUQ": "NASRIN FAROUQ", "NASRIN FAROUQ": "NASRIN FAROUQ", "NASRIN": "NASRIN FAROUQ", "BEA OYELARAN": "BEA OYELARAN", "BEA": "BEA OYELARAN", "TOMMASO RINALDI": "TOMMASO RINALDI", "TOMMASO": "TOMMASO RINALDI", "YOUNG MAN": "DESMOND ACHEBE", "DESMOND": "DESMOND ACHEBE"},
+  "beats": [1, 4, 6, 8, 9, 12, 13, 15, 18, 19, 20, 21, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["NASRIN FAROUQ"], "emo": {}, "c": 0.9},
+    "5": {"t": "A", "who": ["BEA OYELARAN"], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["NASRIN FAROUQ", "BEA OYELARAN"], "emo": {}, "c": 0.9},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["TOMMASO RINALDI"], "emo": {}, "c": 0.9},
+    "9": {"to": ["NASRIN FAROUQ"], "emo": ["fear", 0.3], "c": 0.9},
+    "10": {"to": ["TOMMASO RINALDI"], "emo": ["neutral", 0.4], "c": 0.9},
+    "11": {"to": ["NASRIN FAROUQ"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"t": "A", "who": ["NASRIN FAROUQ", "BEA OYELARAN", "TOMMASO RINALDI"], "emo": {}, "c": 0.9},
+    "13": {"t": "D", "who": ["DESMOND ACHEBE"], "emo": {}, "c": 0.9},
+    "14": {"t": "A", "who": ["BEA OYELARAN"], "emo": {}, "c": 0.95},
+    "15": {"to": ["DESMOND ACHEBE"], "emo": ["fear", 0.2], "c": 0.9},
+    "16": {"t": "A", "who": ["DESMOND ACHEBE"], "emo": {}, "c": 0.9},
+    "17": {"t": "A", "who": ["BEA OYELARAN"], "emo": {}, "c": 0.95},
+    "18": {"to": ["BEA OYELARAN"], "emo": ["sadness", 0.7], "c": 0.9},
+    "19": {"to": ["DESMOND ACHEBE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "20": {"to": ["BEA OYELARAN"], "emo": ["fear", 0.5], "c": 0.9},
+    "21": {"to": ["DESMOND ACHEBE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "22": {"to": ["NASRIN FAROUQ"], "emo": ["neutral", 0.3], "c": 0.9}
+  },
+  "tension": [20, 25, 30, 40, 50, 45, 40, 45, 60, 50, 55, 45, 35]
+}

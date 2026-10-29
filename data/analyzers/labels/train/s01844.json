@@ -1,0 +1,28 @@
+{
+"scene_id": "s01844",
+"cast": {"KEIKO TANAKA": "KEIKO TANAKA", "KEIKO": "KEIKO TANAKA", "Keiko": "KEIKO TANAKA"},
+"beats": [1, 8, 13, 17],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "D", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.95},
+"5": {"t": "D", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.9},
+"6": {"t": "A", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.9},
+"7": {"to": ["SELF"], "emo": ["neutral", 0.4], "c": 0.9},
+"8": {"t": "A", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.95},
+"9": {"t": "A", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.95},
+"10": {"t": "A", "who": ["KEIKO TANAKA"], "emo": {"KEIKO TANAKA": ["fear", 0.3]}, "c": 0.9},
+"11": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"12": {"t": "A", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.95},
+"13": {"to": ["SELF"], "emo": ["neutral", 0.4], "c": 0.9},
+"14": {"t": "A", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.95},
+"15": {"t": "A", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.95},
+"16": {"to": ["SELF"], "emo": ["neutral", 0.3], "c": 0.9},
+"17": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"18": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"19": {"t": "A", "who": ["KEIKO TANAKA"], "emo": {}, "c": 0.95},
+"20": {"t": "S", "who": [], "emo": {}, "c": 0.8}
+},
+"tension": [20, 35, 40, 60]
+}

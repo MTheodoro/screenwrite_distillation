@@ -1,0 +1,29 @@
+{
+  "scene_id": "s02302",
+  "cast": {"ZEPHYR OKONJO": "ZEPHYR OKONJO", "ZEPHYR": "ZEPHYR OKONJO", "MORGANA TREVINO": "MORGANA TREVINO", "MORGANA": "MORGANA TREVINO", "DUNCAN": "DUNCAN", "ANNOUNCER": "ANNOUNCER"},
+  "beats": [1, 3, 6, 10, 12, 14, 18, 20, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "D", "who": ["ZEPHYR OKONJO"], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["MORGANA TREVINO"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["DUNCAN"], "emo": {}, "c": 0.95},
+    "6": {"to": ["ALL"], "emo": ["neutral", 0.5], "c": 0.9},
+    "7": {"to": ["MORGANA TREVINO"], "emo": ["anger", 0.4], "c": 0.9},
+    "8": {"to": ["MORGANA TREVINO"], "emo": ["fear", 0.5], "c": 0.9},
+    "9": {"to": ["DUNCAN"], "emo": ["anger", 0.3], "c": 0.9},
+    "10": {"t": "A", "who": ["ZEPHYR OKONJO"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["DUNCAN"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["ZEPHYR OKONJO", "DUNCAN", "MORGANA TREVINO"], "emo": {}, "c": 0.9},
+    "13": {"t": "A", "who": ["ZEPHYR OKONJO", "DUNCAN", "MORGANA TREVINO"], "emo": {}, "c": 0.9},
+    "14": {"to": ["DUNCAN"], "emo": ["anger", 0.5], "c": 0.9},
+    "15": {"to": ["ZEPHYR OKONJO"], "emo": ["anger", 0.4], "c": 0.9},
+    "16": {"to": ["ZEPHYR OKONJO", "DUNCAN"], "emo": ["anger", 0.6], "c": 0.9},
+    "17": {"t": "A", "who": ["ZEPHYR OKONJO", "DUNCAN"], "emo": {}, "c": 0.9},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "19": {"to": ["ALL"], "emo": ["joy", 0.5], "c": 0.85},
+    "20": {"t": "A", "who": ["ZEPHYR OKONJO", "DUNCAN", "MORGANA TREVINO"], "emo": {}, "c": 0.9},
+    "21": {"t": "A", "who": ["ZEPHYR OKONJO"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 25, 30, 35, 30, 40, 25, 20]
+}

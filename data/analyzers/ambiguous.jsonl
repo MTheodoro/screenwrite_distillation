@@ -1,0 +1,981 @@
+{"scene_id": "s00000", "u": 21, "field": "emo", "text": "Counsel, your client is late.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s00000", "u": 22, "field": "emo", "text": "My client is in a hospital.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s00000", "u": 25, "field": "emo", "text": "I said, convenient.", "votes": ["disgust", "anger", "disgust"]}
+{"scene_id": "s00000", "u": 28, "field": "to", "text": "He had a seizure on the stairs.", "votes": [[[1]], [[2]], [[2]]]}
+{"scene_id": "s00000", "u": 29, "field": "emo", "text": "Which stairs?", "votes": ["disgust", "disgust", "neutral"]}
+{"scene_id": "s00000", "u": 40, "field": "emo", "text": "My inbox says otherwise.", "votes": ["disgust", "disgust", "neutral"]}
+{"scene_id": "s00000", "u": 56, "field": "emo", "text": "Page four of the waiver.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00000", "u": 57, "field": "emo", "text": "Adaeze freezes.", "votes": ["surprise", "fear", "fear"]}
+{"scene_id": "s00000", "u": 58, "field": "emo", "text": "Hands go to her own stack.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s00000", "u": 59, "field": "emo", "text": "Flips.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00000", "u": 60, "field": "emo", "text": "Flips.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00000", "u": 62, "field": "to", "text": "Page four.", "votes": [[[2]], [["SELF"]], [[2]]]}
+{"scene_id": "s00000", "u": 62, "field": "emo", "text": "Page four.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00000", "u": 71, "field": "to", "text": "He signs with a loop. This has no loop.", "votes": [[[2]], [[1]], [[1]]]}
+{"scene_id": "s00000", "u": 72, "field": "emo", "text": "People change.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "s00000", "u": 103, "field": "emo", "text": "Monday, you said.", "votes": ["anger", "joy", "anger"]}
+{"scene_id": "s00000", "u": 111, "field": "emo", "text": "Closes it.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00000", "u": 115, "field": "to", "text": "I'm sorry. He said it was routine.", "votes": [[["ALL"]], [[2]], [[2]]]}
+{"scene_id": "s00000", "u": 115, "field": "emo", "text": "I'm sorry. He said it was routine.", "votes": ["sadness", "fear", "sadness"]}
+{"scene_id": "s00000", "u": 118, "field": "emo", "text": "Lev sits.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s00000", "u": 124, "field": "who", "text": "One tap.", "votes": [[[2]], [[2]], []]}
+{"scene_id": "s00000", "u": 128, "field": "emo", "text": "Rubs her eyes.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s00001", "u": 18, "field": "emo", "text": "Warm face.", "votes": ["neutral", "joy", "affection"]}
+{"scene_id": "s00001", "u": 24, "field": "emo", "text": "Does she take sugar, your guard?", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00001", "u": 28, "field": "emo", "text": "Ingrid. Put the needle down.", "votes": ["fear", "fear", "anger"]}
+{"scene_id": "s00002", "u": 6, "field": "emo", "text": "This one hums.", "votes": ["surprise", "surprise", "joy"]}
+{"scene_id": "s00002", "u": 8, "field": "emo", "text": "Pip says the roof is thinking again.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s00002", "u": 16, "field": "emo", "text": "The keeper is always in. He's just slow.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00003", "u": 4, "field": "who", "text": "The Deepwater Miners are down two ends in the final.", "votes": [[[0, 1], [2], [3]], [[0, 1], [2], [3]], []]}
+{"scene_id": "s00003", "u": 6, "field": "emo", "text": "COACH DESMOND \"DEZ\" PRATT (50s, windbreaker, stopwatch on a lanyard) paces behind the hogline.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s00003", "u": 8, "field": "who", "text": "At the hack, lead ABEBE TESFAYE (20s, rangy, headband) slides out of his delivery, the stone rumbling off, while Dez mouths numbers and Inez sweeps nothing, waiting.", "votes": [[[3]], [[3]], [[0, 1], [2], [3]]]}
+{"scene_id": "s00003", "u": 10, "field": "emo", "text": "Nobody speaks.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s00003", "u": 12, "field": "to", "text": "That's the game.", "votes": [[["ALL"]], [[2], [3]], [["ALL"]]]}
+{"scene_id": "s00003", "u": 15, "field": "to", "text": "I pulled it. My fault.", "votes": [[["ALL"]], [[0, 1], [2]], [["ALL"]]]}
+{"scene_id": "s00003", "u": 17, "field": "who", "text": "Boots on the stairs.", "votes": [[[4]], [], [[4]]]}
+{"scene_id": "s00003", "u": 21, "field": "emo", "text": "Abebe stands the broom against the wall and wipes his palms on his knees.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s00003", "u": 23, "field": "emo", "text": "Gus, we're mid-final.", "votes": ["sadness", "anger", "anger"]}
+{"scene_id": "s00003", "u": 30, "field": "emo", "text": "Don't. Just throw it.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s00003", "u": 35, "field": "emo", "text": "I know.", "votes": ["neutral", "anger", "fear"]}
+{"scene_id": "s00003", "u": 38, "field": "who", "text": "It's a clean release.", "votes": [[], [[3]], [[3]]]}
+{"scene_id": "s00004", "u": 9, "field": "emo", "text": "Genial.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s00004", "u": 16, "field": "to", "text": "Mr. Abbott will answer to his name.", "votes": [[[0], [1, 2]], [[0]], [[0]]]}
+{"scene_id": "s00004", "u": 19, "field": "emo", "text": "I hope so.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00004", "u": 24, "field": "emo", "text": "Eleven years. Since my father passed.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s00004", "u": 28, "field": "emo", "text": "Let him ask. I've nothing to hide.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00004", "u": 38, "field": "emo", "text": "Mr. Abbott, you needn't elaborate.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s00004", "u": 40, "field": "to", "text": "Only about the boat.", "votes": [[[1, 2]], [[1, 2], [3]], [[3]]]}
+{"scene_id": "s00004", "u": 46, "field": "emo", "text": "Neely's glass stops halfway to his lips.", "votes": ["surprise", "fear", "fear"]}
+{"scene_id": "s00004", "u": 68, "field": "emo", "text": "He's lying.", "votes": ["anger", "fear", "anger"]}
+{"scene_id": "s00004", "u": 70, "field": "emo", "text": "Neely sets down the glass.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00004", "u": 71, "field": "who", "text": "It trembles against the saucer.", "votes": [[[1, 2]], [[1, 2]], []]}
+{"scene_id": "s00004", "u": 71, "field": "emo", "text": "It trembles against the saucer.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s00004", "u": 74, "field": "emo", "text": "We are on a river, Mr. Kowalczyk. Where would you recess to?", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00004", "u": 82, "field": "to", "text": "The insurance man said the engine room would be empty at night.", "votes": [[["ALL"]], [["ALL"]], [[0]]]}
+{"scene_id": "s00004", "u": 83, "field": "emo", "text": "And the eleven?", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00005", "u": 7, "field": "to", "text": "Fourteen minutes. The vault door cycles at the quarter hour. Teo takes the case through the service lift, I take the lobby, and our friend in gray makes the cameras blink.", "votes": [[[1, 2], [3, 5]], [[1, 2], [3, 5]], [["ALL"]]]}
+{"scene_id": "s00005", "u": 9, "field": "emo", "text": "It is simple. It's only terrifying.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s00005", "u": 13, "field": "to", "text": "Then Teo recites the wine list until he cries.", "votes": [[["ALL"]], [[1, 2]], [[1, 2]]]}
+{"scene_id": "s00005", "u": 20, "field": "to", "text": "One minute.", "votes": [[["SELF"]], [["SELF"]], [["ALL"]]]}
+{"scene_id": "s00006", "u": 1, "field": "who", "text": "A colossal tortoise, patient as a hill, plods across a salt flat.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s00006", "u": 10, "field": "who", "text": "The tortoise slows.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s00006", "u": 14, "field": "emo", "text": "She's listening. Quiet now.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00006", "u": 25, "field": "who", "text": "The tortoise rises on its legs, lifting the whole market toward the sky.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s00007", "u": 11, "field": "emo", "text": "Every one gets its own page.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s00007", "u": 28, "field": "to", "text": "He bowled a 290 once.", "votes": [[[1], [2]], [[1], [2]], [["ALL"]]]}
+{"scene_id": "s00007", "u": 28, "field": "emo", "text": "He bowled a 290 once.", "votes": ["affection", "sadness", "affection"]}
+{"scene_id": "s00007", "u": 30, "field": "emo", "text": "Nineteen eighty-eight.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s00007", "u": 32, "field": "emo", "text": "He told me 290.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s00007", "u": 33, "field": "emo", "text": "He rounded up.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s00007", "u": 41, "field": "emo", "text": "They're junk.", "votes": ["anger", "disgust", "anger"]}
+{"scene_id": "s00007", "u": 46, "field": "emo", "text": "He stares at it.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s00007", "u": 59, "field": "emo", "text": "Don't scuff the boards.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00007", "u": 61, "field": "emo", "text": "Still.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s00007", "u": 73, "field": "emo", "text": "You know what I mean.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s00007", "u": 83, "field": "emo", "text": "I've hurt it before.", "votes": ["anger", "sadness", "sadness"]}
+{"scene_id": "s00007", "u": 94, "field": "emo", "text": "She holds it out.", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s00007", "u": 96, "field": "emo", "text": "Where'd you get that?", "votes": ["surprise", "sadness", "surprise"]}
+{"scene_id": "s00007", "u": 105, "field": "emo", "text": "He doesn't say anything.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s00007", "u": 125, "field": "emo", "text": "Huh.", "votes": ["sadness", "sadness", "surprise"]}
+{"scene_id": "s00007", "u": 127, "field": "emo", "text": "Leaves it there a moment.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "s00008", "u": 13, "field": "emo", "text": "Who're you talking to?", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "s00008", "u": 23, "field": "emo", "text": "My wife loved Orion.", "votes": ["affection", "sadness", "sadness"]}
+{"scene_id": "s00008", "u": 46, "field": "emo", "text": "Offers her the cup.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s00009", "u": 4, "field": "who", "text": "The Harvest Hellcats are down nine in the final jam.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s00009", "u": 13, "field": "emo", "text": "I wasn't going to.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s00009", "u": 14, "field": "emo", "text": "You were.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s00009", "u": 44, "field": "emo", "text": "You're moving your lips.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s00009", "u": 46, "field": "emo", "text": "She counts like her mother.", "votes": ["neutral", "affection", "affection"]}
+{"scene_id": "s00010", "u": 5, "field": "emo", "text": "A wrench in her fist.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 9, "field": "who", "text": "Not pointed.", "votes": [[], [[1, 2]], [[1, 2]]]}
+{"scene_id": "s00010", "u": 10, "field": "who", "text": "Not far from pointed.", "votes": [[], [[1, 2]], [[1, 2]]]}
+{"scene_id": "s00010", "u": 13, "field": "emo", "text": "I'm looking at the gauge.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s00010", "u": 15, "field": "emo", "text": "She lets the wrench drop to her side.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00010", "u": 21, "field": "emo", "text": "Dez raises the pistol an inch.", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s00010", "u": 22, "field": "emo", "text": "Oksana looks at it.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 27, "field": "emo", "text": "Base, Hut. Everything's fine.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00010", "u": 29, "field": "emo", "text": "Wind shear. Routine.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00010", "u": 33, "field": "emo", "text": "The pistol is level now.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00010", "u": 41, "field": "emo", "text": "Dez exhales through his nose.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 54, "field": "emo", "text": "She looks up.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 56, "field": "emo", "text": "It's somebody's problem.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s00010", "u": 57, "field": "who", "text": "A BOOT scrapes outside.", "votes": [[[5]], [[5]], []]}
+{"scene_id": "s00010", "u": 59, "field": "who", "text": "The door swings in.", "votes": [[[5]], [[5]], []]}
+{"scene_id": "s00010", "u": 62, "field": "to", "text": "Nobody told me the lift was down. I walked up the service road --", "votes": [[[0], [1, 2]], [[0], [1, 2]], [["ALL"]]]}
+{"scene_id": "s00010", "u": 62, "field": "emo", "text": "Nobody told me the lift was down. I walked up the service road --", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s00010", "u": 63, "field": "emo", "text": "He sees the pistol.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 68, "field": "emo", "text": "Stays against it.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 70, "field": "emo", "text": "Tariq sits.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s00010", "u": 71, "field": "emo", "text": "Careful, slow.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 76, "field": "emo", "text": "Rips it free.", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s00010", "u": 83, "field": "emo", "text": "Aims at the handset.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00010", "u": 89, "field": "emo", "text": "Dez's jaw works.", "votes": ["fear", "anger", "fear"]}
+{"scene_id": "s00010", "u": 93, "field": "emo", "text": "Tell her the truth. Tell her I want the car moving.", "votes": ["anger", "fear", "fear"]}
+{"scene_id": "s00010", "u": 97, "field": "emo", "text": "Tariq stares at Oksana.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00010", "u": 102, "field": "emo", "text": "Dez's eyes go to the window.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 108, "field": "emo", "text": "With what?", "votes": ["anger", "sadness", "anger"]}
+{"scene_id": "s00010", "u": 110, "field": "emo", "text": "Hard.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00010", "u": 114, "field": "emo", "text": "Tariq doesn't move.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00010", "u": 116, "field": "emo", "text": "Dez cocks the pistol.", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s00011", "u": 5, "field": "to", "text": "The Synergy Taskforce has decided, after consultation, that the synergy is insufficient.", "votes": [[["ALL"]], [[1], [2]], [["ALL"]]]}
+{"scene_id": "s00011", "u": 18, "field": "emo", "text": "They both withdraw, Barnaby smoothing his tie, Delphine tucking a strand of hair behind her ear, each looking determinedly at a different corner of the ceiling.", "votes": ["affection", "affection", "surprise"]}
+{"scene_id": "s00011", "u": 19, "field": "who", "text": "Somewhere above them, a pigeon walks across a rafter and drops something.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s00011", "u": 23, "field": "to", "text": "We'll take that offline.", "votes": [[["ALL"]], [[1], [2]], [["ALL"]]]}
+{"scene_id": "s00011", "u": 34, "field": "emo", "text": "It is in a state of readiness.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00011", "u": 38, "field": "who", "text": "He angles the lid down a few degrees, and the three of them stand there in the green light of the hopper doors, pretending not to see it.", "votes": [[[1]], [[1]], [[0], [1], [2]]]}
+{"scene_id": "s00011", "u": 38, "field": "emo", "text": "He angles the lid down a few degrees, and the three of them stand there in the green light of the hopper doors, pretending not to see it.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00012", "u": 5, "field": "emo", "text": "Her son TOBIAS (8, pajamas, rain boots on the wrong feet) sits on a folding table swinging his legs and holding a plastic dinosaur.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00012", "u": 14, "field": "emo", "text": "Can I get the gummy ones?", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s00012", "u": 16, "field": "emo", "text": "It's eleven. The clock says.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s00012", "u": 18, "field": "who", "text": "He's right.", "votes": [[[1]], [[1]], []]}
+{"scene_id": "s00012", "u": 19, "field": "emo", "text": "She sighs and digs in her pocket for coins.", "votes": ["sadness", "neutral", "affection"]}
+{"scene_id": "s00012", "u": 20, "field": "emo", "text": "Tobias carries his dinosaur over to the Girl and holds it out, nose-first, a ceremonial offering.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s00012", "u": 26, "field": "emo", "text": "Gary's smart.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s00012", "u": 30, "field": "emo", "text": "Hey. Where are your parents?", "votes": ["fear", "neutral", "affection"]}
+{"scene_id": "s00012", "u": 32, "field": "emo", "text": "My dad's coming. He's parking.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s00012", "u": 33, "field": "emo", "text": "It's been an hour.", "votes": ["fear", "neutral", "sadness"]}
+{"scene_id": "s00012", "u": 34, "field": "emo", "text": "It's a hard lot to park in.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s00012", "u": 38, "field": "emo", "text": "Noor.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s00012", "u": 44, "field": "emo", "text": "I don't need to know where you live.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s00012", "u": 49, "field": "emo", "text": "Everything in his posture collapses at once.", "votes": ["joy", "joy", "sadness"]}
+{"scene_id": "s00012", "u": 52, "field": "emo", "text": "Noor.", "votes": ["joy", "joy", "affection"]}
+{"scene_id": "s00012", "u": 58, "field": "emo", "text": "The truck wouldn't start. I ran all the way from the bridge. Thank you. Thank you for --", "votes": ["joy", "fear", "affection"]}
+{"scene_id": "s00012", "u": 60, "field": "emo", "text": "Noor. Yes.", "votes": ["neutral", "affection", "affection"]}
+{"scene_id": "s00012", "u": 62, "field": "emo", "text": "Lifts her.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s00013", "u": 4, "field": "emo", "text": "SILAS WHITTAKER (50s, gray beard, duster bleached by sun) kneels beside a dead horse.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s00013", "u": 6, "field": "who", "text": "Behind him, a shadow lengthens.", "votes": [[], [], [[1, 2]]]}
+{"scene_id": "s00013", "u": 24, "field": "emo", "text": "He almost doesn't.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "s00013", "u": 35, "field": "emo", "text": "You first.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s00013", "u": 38, "field": "emo", "text": "You work for Dutch Halloran?", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00013", "u": 40, "field": "emo", "text": "That's a lie, and you tell it badly.", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s00013", "u": 51, "field": "emo", "text": "Same reason as you.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s00013", "u": 60, "field": "emo", "text": "They speak at once, the words overlapping, neither stopping for the other.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s00013", "u": 63, "field": "emo", "text": "They look at each other, really look, for the first time.", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s00013", "u": 74, "field": "who", "text": "The road.", "votes": [[[0]], [], [[0]]]}
+{"scene_id": "s00013", "u": 75, "field": "who", "text": "The ridge.", "votes": [[[0]], [], [[0]]]}
+{"scene_id": "s00013", "u": 76, "field": "who", "text": "The long, long distance.", "votes": [[[0]], [], [[0]]]}
+{"scene_id": "s00013", "u": 77, "field": "emo", "text": "That's a lot of ifs.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00013", "u": 78, "field": "emo", "text": "You got a better one?", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s00014", "u": 23, "field": "emo", "text": "She carries a sealed evidence bag in both hands, and she walks the aisle with the careful posture of someone carrying something that might go off.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00014", "u": 32, "field": "emo", "text": "Then whose signature is this at the foot of the engineer's log?", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s00014", "u": 41, "field": "emo", "text": "The Judge raises his gavel and brings it down once.", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "s00015", "u": 10, "field": "emo", "text": "Who last saw Doctor Marrow?", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s00015", "u": 12, "field": "to", "text": "I locked the north door. I did not lock the dome.", "votes": [[[0, 1]], [[0, 1], [2]], [[0, 1], [2]]]}
+{"scene_id": "s00015", "u": 12, "field": "emo", "text": "I locked the north door. I did not lock the dome.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s00015", "u": 13, "field": "emo", "text": "Soledad, my dear, a dome has no door. It is a lid.", "votes": ["disgust", "neutral", "joy"]}
+{"scene_id": "s00015", "u": 16, "field": "emo", "text": "He asked. I said no.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00015", "u": 17, "field": "emo", "text": "You told me you gave them to him.", "votes": ["anger", "surprise", "anger"]}
+{"scene_id": "s00015", "u": 21, "field": "emo", "text": "For five hours? That's not cataloguing, it's meditation.", "votes": ["disgust", "disgust", "joy"]}
+{"scene_id": "s00015", "u": 23, "field": "emo", "text": "I know how many there were. I counted them in 1989.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00015", "u": 24, "field": "emo", "text": "Mr. Pratt, you told me earlier you hadn't been to the observatory in years.", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s00015", "u": 28, "field": "emo", "text": "Wilfred. You have a key.", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s00015", "u": 29, "field": "emo", "text": "Everyone has a key, Hetty. That's the tragedy of the institution.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s00015", "u": 33, "field": "emo", "text": "And Pratt, apparently.", "votes": ["disgust", "disgust", "anger"]}
+{"scene_id": "s00015", "u": 36, "field": "emo", "text": "Don't touch the coat, Miss Tan.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00015", "u": 38, "field": "emo", "text": "You were. You've been inching toward it for five minutes.", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s00015", "u": 40, "field": "emo", "text": "Inching is how the best of us died, my girl.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s00015", "u": 46, "field": "emo", "text": "It rained.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00015", "u": 47, "field": "emo", "text": "It hasn't rained since Tuesday.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00015", "u": 49, "field": "emo", "text": "Hetty.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00016", "u": 16, "field": "emo", "text": "The Young Woman shifts the shotgun a little.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00016", "u": 18, "field": "emo", "text": "What do you want with him?", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s00016", "u": 19, "field": "emo", "text": "He's got something of mine.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s00016", "u": 23, "field": "who", "text": "She crosses the clay with the shotgun in the crook of her arm, stopping ten paces from him, and he, in answer, takes his hand away from the horse's flank and lets it hang loose and open beside his coat.", "votes": [[[0, 2], [1, 3]], [[1, 3]], [[0, 2], [1, 3]]]}
+{"scene_id": "s00016", "u": 31, "field": "emo", "text": "She laughs, one short breath, and it startles her more than it does him.", "votes": ["surprise", "joy", "joy"]}
+{"scene_id": "s00016", "u": 32, "field": "who", "text": "The shotgun dips an inch.", "votes": [[[1, 3]], [[1, 3]], []]}
+{"scene_id": "s00016", "u": 35, "field": "emo", "text": "I'm Odalys. Cullen was my father.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s00016", "u": 41, "field": "emo", "text": "Holds it against his chest.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s00016", "u": 43, "field": "emo", "text": "Who put him there?", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s00016", "u": 44, "field": "emo", "text": "I did.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s00016", "u": 47, "field": "emo", "text": "Her hands do not shake.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s00017", "u": 6, "field": "emo", "text": "Gloria cups her hands and bellows over the side.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s00017", "u": 9, "field": "who", "text": "A cow looks up.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s00017", "u": 10, "field": "emo", "text": "Why are we shouting?", "votes": ["surprise", "surprise", "fear"]}
+{"scene_id": "s00017", "u": 11, "field": "emo", "text": "Tradition.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s00017", "u": 16, "field": "emo", "text": "Gloria taps her clipboard, squints at a dial, and mutters.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00018", "u": 4, "field": "emo", "text": "Grandpa, did you ever fall off a boat?", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s00018", "u": 6, "field": "emo", "text": "Did it hurt?", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s00018", "u": 11, "field": "emo", "text": "Not on this boat.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s00018", "u": 12, "field": "emo", "text": "Can we get off at the next stop?", "votes": ["disgust", "disgust", "sadness"]}
+{"scene_id": "s00018", "u": 14, "field": "to", "text": "Then we're stuck.", "votes": [[[0]], [["ALL"]], [[0]]]}
+{"scene_id": "s00018", "u": 14, "field": "emo", "text": "Then we're stuck.", "votes": ["surprise", "sadness", "surprise"]}
+{"scene_id": "s00018", "u": 15, "field": "to", "text": "Stuck is a strong word. We're simply committed.", "votes": [[[1], [2]], [[1]], [[1]]]}
+{"scene_id": "s00019", "u": 7, "field": "emo", "text": "Behind him, ZUZANNA \"ZUZU\" KOWALCZYK (20s, seasonal picker, hairnet, boots too big) clutches a bucket.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00019", "u": 12, "field": "emo", "text": "Stay close. Don't touch the shelves.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00019", "u": 16, "field": "emo", "text": "He doesn't watch her do it.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00019", "u": 18, "field": "emo", "text": "Her light has found a shelf where the caps are wrong.", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s00019", "u": 23, "field": "emo", "text": "Keep walking.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s00019", "u": 37, "field": "emo", "text": "I'll fix it.", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "s00019", "u": 44, "field": "emo", "text": "Zuzu hurries to catch up, nearly stumbling.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00019", "u": 45, "field": "who", "text": "Her flashlight beam wobbles over a patch of floor.", "votes": [[[1, 2]], [[1, 2]], []]}
+{"scene_id": "s00019", "u": 49, "field": "emo", "text": "She stops.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s00019", "u": 60, "field": "emo", "text": "Quit without his boot?", "votes": ["anger", "anger", "disgust"]}
+{"scene_id": "s00019", "u": 63, "field": "who", "text": "His duffel scrapes a shelf.", "votes": [[[4]], [[4]], []]}
+{"scene_id": "s00019", "u": 75, "field": "to", "text": "He knows.", "votes": [[[1, 2], [3]], [[1, 2], [3]], [["ALL"]]]}
+{"scene_id": "s00019", "u": 75, "field": "emo", "text": "He knows.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s00019", "u": 95, "field": "emo", "text": "Zuzu exhales.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01020", "u": 20, "field": "emo", "text": "The city has my keys. The city has everything.", "votes": ["anger", "sadness", "sadness"]}
+{"scene_id": "s01020", "u": 21, "field": "emo", "text": "Ain't that the truth.", "votes": ["disgust", "sadness", "sadness"]}
+{"scene_id": "s01020", "u": 30, "field": "to", "text": "I'm the night man. I was in the office.", "votes": [[[0]], [[0]], [["ALL"]]]}
+{"scene_id": "s01020", "u": 48, "field": "emo", "text": "Light's good here, if anyone wants to take their time.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01021", "u": 7, "field": "emo", "text": "He hums.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01021", "u": 11, "field": "emo", "text": "He freezes.", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "s01021", "u": 13, "field": "who", "text": "Boots on iron stairs.", "votes": [[], [[1]], []]}
+{"scene_id": "s01021", "u": 14, "field": "who", "text": "Coming up.", "votes": [[], [[1]], []]}
+{"scene_id": "s01021", "u": 17, "field": "who", "text": "A suitcase thumps onto the floor.", "votes": [[[1]], [[1]], []]}
+{"scene_id": "s01021", "u": 36, "field": "emo", "text": "I wrote a lot of things.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01021", "u": 39, "field": "emo", "text": "He turns away.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s01021", "u": 56, "field": "emo", "text": "I know.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01021", "u": 61, "field": "emo", "text": "Say it, then.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s01021", "u": 64, "field": "who", "text": "A beat.", "votes": [[], [[0]], []]}
+{"scene_id": "s01021", "u": 78, "field": "emo", "text": "Wet.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01021", "u": 88, "field": "emo", "text": "There's a kettle.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01021", "u": 102, "field": "emo", "text": "He takes it from her before she can protest.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s01022", "u": 21, "field": "emo", "text": "It's urgent.", "votes": ["neutral", "anger", "fear"]}
+{"scene_id": "s01022", "u": 33, "field": "emo", "text": "It's a telegram form. Anyone can fill one out.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01022", "u": 34, "field": "emo", "text": "Then call the manager.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01022", "u": 35, "field": "emo", "text": "She hesitates.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01022", "u": 54, "field": "who", "text": "The door opens again.", "votes": [[[4]], [[4]], []]}
+{"scene_id": "s01022", "u": 59, "field": "emo", "text": "Mr. Crowe. How did you know about the freight?", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01022", "u": 61, "field": "emo", "text": "Then why's your satchel got a coil of copper in it?", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01022", "u": 62, "field": "who", "text": "Everyone looks.", "votes": [[[0], [1, 2], [4]], [[0], [1, 2], [4]], [[0], [4]]]}
+{"scene_id": "s01022", "u": 70, "field": "emo", "text": "Crowe looks at the door.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01022", "u": 71, "field": "emo", "text": "Stay where you are, Mr. Crowe. Toby, lock that door.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01022", "u": 73, "field": "who", "text": "The bolt slides home.", "votes": [[], [[4]], [[4]]]}
+{"scene_id": "s01023", "u": 12, "field": "emo", "text": "It's always cranky.", "votes": ["disgust", "neutral", "neutral"]}
+{"scene_id": "s01023", "u": 47, "field": "emo", "text": "He stares at the tank.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01023", "u": 65, "field": "who", "text": "Pressed against the inside of the glass is a HAND.", "votes": [[[3]], [[3]], [["OTHER"]]]}
+{"scene_id": "s01023", "u": 66, "field": "who", "text": "A human hand.", "votes": [[[3]], [[3]], [["OTHER"]]]}
+{"scene_id": "s01023", "u": 67, "field": "who", "text": "Pale, wrinkled, fingers splayed.", "votes": [[[3]], [[3]], [["OTHER"]]]}
+{"scene_id": "s01023", "u": 70, "field": "who", "text": "Under the surface, a face drifts up.", "votes": [[[3]], [[3]], [["OTHER"]]]}
+{"scene_id": "s01023", "u": 71, "field": "who", "text": "Eyes open.", "votes": [[[3]], [[3]], [["OTHER"]]]}
+{"scene_id": "s01023", "u": 72, "field": "who", "text": "Wearing a hairnet.", "votes": [[[3]], [[3]], [["OTHER"]]]}
+{"scene_id": "s01023", "u": 73, "field": "who", "text": "It's Gus's face.", "votes": [[[3]], [[3]], [[2]]]}
+{"scene_id": "s01023", "u": 74, "field": "emo", "text": "Paulina turns.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01023", "u": 77, "field": "emo", "text": "Smiles.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01023", "u": 79, "field": "emo", "text": "Ten minutes, you said.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01024", "u": 14, "field": "emo", "text": "Oyelaran waves the paper.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01025", "u": 22, "field": "to", "text": "Shirts.", "votes": [[[0]], [[2]], [[2]]]}
+{"scene_id": "s01025", "u": 23, "field": "emo", "text": "Papers, you said?", "votes": ["neutral", "surprise", "surprise"]}
+{"scene_id": "s01025", "u": 52, "field": "emo", "text": "Two? I see one and a half.", "votes": ["joy", "disgust", "joy"]}
+{"scene_id": "s01025", "u": 54, "field": "to", "text": "Is the other one a ghost?", "votes": [[[0]], [[1]], [[0]]]}
+{"scene_id": "s01025", "u": 54, "field": "emo", "text": "Is the other one a ghost?", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01025", "u": 56, "field": "emo", "text": "So was my late husband. Look where it got him.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01025", "u": 64, "field": "emo", "text": "Madam, we are not available for introductions.", "votes": ["anger", "fear", "anger"]}
+{"scene_id": "s01025", "u": 68, "field": "emo", "text": "How very modern.", "votes": ["surprise", "neutral", "joy"]}
+{"scene_id": "s01025", "u": 71, "field": "emo", "text": "Please.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01025", "u": 74, "field": "emo", "text": "Which is?", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01025", "u": 81, "field": "to", "text": "Can you sell a boat while you're on it?", "votes": [[[3]], [["ALL"]], [[3]]]}
+{"scene_id": "s01026", "u": 7, "field": "emo", "text": "Captain. The night cycle is half over. You should rest.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01026", "u": 13, "field": "emo", "text": "Captain, I'm getting a drift on the aft coolant. Point two percent.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01026", "u": 17, "field": "emo", "text": "I have. Three times.", "votes": ["fear", "anger", "anger"]}
+{"scene_id": "s01026", "u": 25, "field": "emo", "text": "Terrapin, which compartment is seven?", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01026", "u": 37, "field": "to", "text": "Cold lock occupancy: zero.", "votes": [[[4]], [["ALL"]], [[4]]]}
+{"scene_id": "s01026", "u": 38, "field": "to", "text": "Then why's it hitting back?", "votes": [[["ALL"]], [["ALL"]], [[3]]]}
+{"scene_id": "s01026", "u": 39, "field": "emo", "text": "The room goes still.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01026", "u": 41, "field": "who", "text": "Then, faintly, from the far end of the hold: knock.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s01026", "u": 42, "field": "who", "text": "Knock.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s01026", "u": 43, "field": "who", "text": "Knock.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s01026", "u": 45, "field": "who", "text": "Knock.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s01026", "u": 47, "field": "emo", "text": "What code?", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01026", "u": 52, "field": "emo", "text": "I gave no such order.", "votes": ["surprise", "anger", "anger"]}
+{"scene_id": "s01026", "u": 54, "field": "emo", "text": "Voss and Koji turn to look at each other.", "votes": ["surprise", "fear", "surprise"]}
+{"scene_id": "s01026", "u": 57, "field": "emo", "text": "Cancel the seal!", "votes": ["fear", "anger", "anger"]}
+{"scene_id": "s01026", "u": 58, "field": "emo", "text": "Cancel the seal now!", "votes": ["fear", "anger", "fear"]}
+{"scene_id": "s01026", "u": 59, "field": "to", "text": "I'm gonna throw up.", "votes": [[["NONE"]], [["SELF"]], [["SELF"]]]}
+{"scene_id": "s01026", "u": 61, "field": "who", "text": "The knocking quickens.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s01026", "u": 61, "field": "emo", "text": "The knocking quickens.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01026", "u": 64, "field": "emo", "text": "Voss grabs a wrench off Koji's belt.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01027", "u": 16, "field": "emo", "text": "A kindness, of a kind.", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s01027", "u": 22, "field": "emo", "text": "She looks at him sharply.", "votes": ["surprise", "surprise", "anger"]}
+{"scene_id": "s01027", "u": 23, "field": "emo", "text": "He shrugs, almost apologetic.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01027", "u": 24, "field": "emo", "text": "My name's Junior, by the way. Since you're not going to ask.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01027", "u": 25, "field": "emo", "text": "Everyone calls me Junior. My dad's Junior too. Nobody knows who the first one was.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s01027", "u": 35, "field": "emo", "text": "For a moment, she isn't sure if she's going to scream or laugh.", "votes": ["anger", "sadness", "neutral"]}
+{"scene_id": "s01027", "u": 42, "field": "emo", "text": "Me too.", "votes": ["affection", "anger", "anger"]}
+{"scene_id": "s01027", "u": 53, "field": "emo", "text": "We don't open for four hours.", "votes": ["anger", "surprise", "surprise"]}
+{"scene_id": "s01027", "u": 59, "field": "emo", "text": "Good. Skates off. Both of you. There's a pot of coffee in the back and a patched-up phone. Call your mother.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s01027", "u": 62, "field": "emo", "text": "Almost a smile.", "votes": ["affection", "joy", "joy"]}
+{"scene_id": "s01028", "u": 23, "field": "emo", "text": "What?", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01028", "u": 31, "field": "emo", "text": "Hands him a screwdriver instead.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01028", "u": 40, "field": "emo", "text": "That was far.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01028", "u": 69, "field": "emo", "text": "She seals the hatch.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01029", "u": 7, "field": "emo", "text": "This is my third reorg this quarter. I've been promoted twice. I still do the same job.", "votes": ["sadness", "sadness", "disgust"]}
+{"scene_id": "s01029", "u": 11, "field": "emo", "text": "Smiling.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01029", "u": 12, "field": "emo", "text": "Synergy is not a word. It's a hostage note.", "votes": ["anger", "anger", "disgust"]}
+{"scene_id": "s01029", "u": 16, "field": "emo", "text": "Smiling.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01029", "u": 23, "field": "emo", "text": "We are so aligned.", "votes": ["disgust", "sadness", "disgust"]}
+{"scene_id": "s01029", "u": 26, "field": "emo", "text": "Smiles.", "votes": ["joy", "sadness", "joy"]}
+{"scene_id": "s01030", "u": 15, "field": "emo", "text": "Entry two. Someone has been drawing the stars back in.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01031", "u": 14, "field": "emo", "text": "DORIS PELLEGRINO, 75, Lou's partner, sun visor, mutters.", "votes": ["anger", "disgust", "anger"]}
+{"scene_id": "s01031", "u": 23, "field": "to", "text": "Legal. Lou leads.", "votes": [[["ALL"]], [[0, 1]], [["ALL"]]]}
+{"scene_id": "s01031", "u": 25, "field": "emo", "text": "Bertie, you owe me three dollars if you lose.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01031", "u": 26, "field": "emo", "text": "Skip, I never lose.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01032", "u": 15, "field": "to", "text": "Skip the speech.", "votes": [[[0]], [[0]], [[2]]]}
+{"scene_id": "s01032", "u": 24, "field": "emo", "text": "You sweat a lot.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01032", "u": 26, "field": "emo", "text": "Your wife make that apron?", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01032", "u": 31, "field": "who", "text": "Sweat drips from Jethro's nose onto the plank.", "votes": [[], [[0]], [[0]]]}
+{"scene_id": "s01032", "u": 40, "field": "emo", "text": "The crowd roars.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01032", "u": 41, "field": "to", "text": "Not yet.", "votes": [[[0]], [["SELF"]], [["SELF"]]]}
+{"scene_id": "s01032", "u": 41, "field": "emo", "text": "Not yet.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01032", "u": 48, "field": "emo", "text": "You're good.", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "s01032", "u": 49, "field": "emo", "text": "My father taught me. At a mill like this.", "votes": ["neutral", "affection", "neutral"]}
+{"scene_id": "s01032", "u": 52, "field": "emo", "text": "I had a cousin in Matanzas.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01032", "u": 55, "field": "who", "text": "The effort cracks it.", "votes": [[], [], [[0], [1]]]}
+{"scene_id": "s01032", "u": 58, "field": "emo", "text": "Henrik leaps clear.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01032", "u": 60, "field": "emo", "text": "The crowd scatters back as the barrels shift.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01032", "u": 62, "field": "who", "text": "It stops an inch from the wood.", "votes": [[[0]], [], [[0]]]}
+{"scene_id": "s01032", "u": 70, "field": "who", "text": "No one hears.", "votes": [[["OTHER"]], [], [["OTHER"]]]}
+{"scene_id": "s01032", "u": 71, "field": "emo", "text": "Pad's behind you!", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01032", "u": 80, "field": "emo", "text": "Dawn's fine.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01032", "u": 83, "field": "emo", "text": "Draw! The match is a draw!", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01032", "u": 84, "field": "emo", "text": "A cheer, ragged.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01032", "u": 87, "field": "emo", "text": "Tomorrow.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01032", "u": 88, "field": "emo", "text": "Bring your father.", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "s01033", "u": 10, "field": "emo", "text": "Then who did?", "votes": ["fear", "anger", "anger"]}
+{"scene_id": "s01033", "u": 12, "field": "emo", "text": "Silas shifts.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01033", "u": 15, "field": "emo", "text": "Don't.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01033", "u": 18, "field": "emo", "text": "Who?", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "s01033", "u": 30, "field": "emo", "text": "Both men look up.", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "s01033", "u": 32, "field": "emo", "text": "On a funicular?", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "s01033", "u": 40, "field": "to", "text": "Nobody move.", "votes": [[["ALL"]], [["ALL"]], [[0], [1]]]}
+{"scene_id": "s01033", "u": 56, "field": "emo", "text": "He knows.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01034", "u": 6, "field": "emo", "text": "The fox, Mr. Fenwick. Look at the fox.", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "s01034", "u": 10, "field": "to", "text": "It says \"the eye is in the owl.\"", "votes": [[[0]], [[0]], [["ALL"]]]}
+{"scene_id": "s01034", "u": 11, "field": "emo", "text": "They all turn.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "s01035", "u": 15, "field": "emo", "text": "Two weeks on a boat, and the one thing they sell me is snow globes.", "votes": ["disgust", "sadness", "joy"]}
+{"scene_id": "s01035", "u": 26, "field": "emo", "text": "She slides her hand slowly toward the radio.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01035", "u": 30, "field": "emo", "text": "He's not necessarily--", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01036", "u": 9, "field": "emo", "text": "How kind.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s01036", "u": 25, "field": "emo", "text": "She'll not need to.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01036", "u": 42, "field": "emo", "text": "A pulse passes between them.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01036", "u": 46, "field": "emo", "text": "I said I'll take in the seam tonight.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01036", "u": 50, "field": "to", "text": "Saturday. Ten sharp.", "votes": [[[0], [1]], [[0], [1]], [["ALL"]]]}
+{"scene_id": "s01036", "u": 55, "field": "emo", "text": "Then Delphine steps down off the stool, slow, as if it were a scaffold.", "votes": ["neutral", "sadness", "fear"]}
+{"scene_id": "s01037", "u": 7, "field": "emo", "text": "Sorry I'm late. The elevator stopped at every floor.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01037", "u": 12, "field": "emo", "text": "Who is she?", "votes": ["surprise", "fear", "fear"]}
+{"scene_id": "s01037", "u": 19, "field": "emo", "text": "Twenty. Don't lie for me.", "votes": ["neutral", "joy", "anger"]}
+{"scene_id": "s01037", "u": 24, "field": "emo", "text": "You can pour wine badly. That's all anyone expects.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01037", "u": 27, "field": "emo", "text": "Eleven's good. What's my cut?", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01037", "u": 42, "field": "to", "text": "They go down by tube. At the kitchen, Marguerite takes them in a casserole dish.", "votes": [[[1]], [[1]], [["ALL"]]]}
+{"scene_id": "s01037", "u": 43, "field": "emo", "text": "Who's Marguerite?", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01037", "u": 58, "field": "emo", "text": "Pay attention. Revolution starts at eleven forty. We're in position by eleven thirty. Questions?", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01037", "u": 62, "field": "emo", "text": "Everyone drinks, sweetheart.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01037", "u": 66, "field": "emo", "text": "Then you'll earn your three.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01037", "u": 73, "field": "emo", "text": "Can it be both?", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01038", "u": 8, "field": "emo", "text": "Tuesday.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01038", "u": 11, "field": "emo", "text": "What about it?", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s01038", "u": 13, "field": "emo", "text": "Objection. Who's \"she\"?", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01038", "u": 22, "field": "emo", "text": "Stops.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "s01038", "u": 23, "field": "emo", "text": "Her thumb presses a corner of paper until it whitens.", "votes": ["anger", "anger", "fear"]}
+{"scene_id": "s01038", "u": 24, "field": "emo", "text": "I'd like some water.", "votes": ["fear", "sadness", "fear"]}
+{"scene_id": "s01039", "u": 18, "field": "emo", "text": "They said it'd stop by nine.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s01039", "u": 19, "field": "emo", "text": "They say a lot of things.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "s01039", "u": 20, "field": "to", "text": "It's ten thirty.", "votes": [[["ALL"]], [[1]], [["ALL"]]]}
+{"scene_id": "s01039", "u": 25, "field": "emo", "text": "WALTER DIBBLE, 80s, in pajama bottoms and a trench coat, shuffles in dragging a laundry bag like a body.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01039", "u": 29, "field": "emo", "text": "It's out of order.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s01039", "u": 30, "field": "emo", "text": "It's been out of order for a year.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "s01039", "u": 35, "field": "emo", "text": "He holds them like a collection plate.", "votes": ["affection", "joy", "affection"]}
+{"scene_id": "s01039", "u": 43, "field": "emo", "text": "Is your wife--", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01039", "u": 48, "field": "emo", "text": "They look at each other.", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01040", "u": 6, "field": "emo", "text": "She hums as she works, one hand cupping a green fruit like a held breath.", "votes": ["joy", "joy", "affection"]}
+{"scene_id": "s01040", "u": 17, "field": "emo", "text": "I know.", "votes": ["sadness", "fear", "neutral"]}
+{"scene_id": "s01040", "u": 22, "field": "emo", "text": "He is out of breath, face slick, goggles pushed up on his forehead.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01040", "u": 26, "field": "emo", "text": "Because of the heat?", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01040", "u": 27, "field": "to", "text": "Because of a bolt. Someone put a bolt in the gear.", "votes": [[[1]], [[1]], [[0], [1]]]}
+{"scene_id": "s01040", "u": 27, "field": "emo", "text": "Because of a bolt. Someone put a bolt in the gear.", "votes": ["fear", "anger", "fear"]}
+{"scene_id": "s01040", "u": 31, "field": "emo", "text": "Greenhouse, this is Medical. We have a patient with heat stroke in the corridor. Is anyone free to--", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01040", "u": 34, "field": "to", "text": "I can't, I'm needed here!", "votes": [[[1]], [[1], [3]], [[1]]]}
+{"scene_id": "s01040", "u": 34, "field": "emo", "text": "I can't, I'm needed here!", "votes": ["fear", "anger", "fear"]}
+{"scene_id": "s01040", "u": 35, "field": "emo", "text": "Please. She's asking for you, Ilsa.", "votes": ["sadness", "sadness", "fear"]}
+{"scene_id": "s01040", "u": 40, "field": "emo", "text": "Your daughter.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01040", "u": 44, "field": "emo", "text": "Bram. Take the tomatoes. All of them. Into the cold room.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01040", "u": 46, "field": "emo", "text": "All. Quillon, fix the array. I don't care if you have to swing from it.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01040", "u": 49, "field": "emo", "text": "She is already running.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01040", "u": 50, "field": "who", "text": "Her scarf comes loose and trails behind her like a flag.", "votes": [[[0]], [[0]], []]}
+{"scene_id": "s01040", "u": 57, "field": "emo", "text": "Bram scrambles after, arms full of fruit, tomatoes bouncing and rolling across the floor.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01041", "u": 15, "field": "who", "text": "Teddy's line goes taut.", "votes": [[], [[2]], []]}
+{"scene_id": "s01041", "u": 16, "field": "emo", "text": "He heaves.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "s01041", "u": 17, "field": "emo", "text": "Easy, kiddo!", "votes": ["joy", "fear", "fear"]}
+{"scene_id": "s01041", "u": 32, "field": "who", "text": "For a minute, no one speaks.", "votes": [[[0], [1], [2], [3]], [[0], [1], [2], [3]], [[0], [1], [2], [3], [4]]]}
+{"scene_id": "s01041", "u": 35, "field": "emo", "text": "Does the lake ever talk?", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01041", "u": 44, "field": "emo", "text": "Teddy.", "votes": ["anger", "anger", "fear"]}
+{"scene_id": "s01041", "u": 46, "field": "emo", "text": "Don't be silly.", "votes": ["fear", "anger", "fear"]}
+{"scene_id": "s01041", "u": 47, "field": "emo", "text": "Don't be silly.", "votes": ["fear", "anger", "fear"]}
+{"scene_id": "s01041", "u": 56, "field": "to", "text": "Don't. Please.", "votes": [[[2]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "s01042", "u": 3, "field": "emo", "text": "COACH RUTHANNE PIKE, 50s, whistle around her neck, paces the length of the room.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01042", "u": 6, "field": "emo", "text": "MEI-LING, 20s, goalie, rocks on her toes.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01042", "u": 21, "field": "emo", "text": "Mei-Ling punches her pads, twice.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01043", "u": 5, "field": "who", "text": "The door bangs.", "votes": [[], [], [[1]]]}
+{"scene_id": "s01043", "u": 23, "field": "emo", "text": "Dry Creek has been dry for a year.", "votes": ["surprise", "surprise", "neutral"]}
+{"scene_id": "s01043", "u": 51, "field": "emo", "text": "Ah.", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "s01043", "u": 60, "field": "emo", "text": "Also standard.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01043", "u": 61, "field": "emo", "text": "But you never looked at the weight.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01043", "u": 64, "field": "emo", "text": "That scale tilts two grains left. I've been watching it for three weeks.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01043", "u": 66, "field": "emo", "text": "It's not.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01043", "u": 72, "field": "emo", "text": "Open the strongbox.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01043", "u": 73, "field": "emo", "text": "This is robbery.", "votes": ["fear", "fear", "anger"]}
+{"scene_id": "s01043", "u": 74, "field": "emo", "text": "It's restitution.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01043", "u": 75, "field": "emo", "text": "He doesn't move.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01043", "u": 83, "field": "emo", "text": "I used to keep books in Sacramento.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01043", "u": 91, "field": "emo", "text": "He doesn't.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01044", "u": 3, "field": "emo", "text": "ORRIN, a young knight in dented mail, steps through the arch, sword half-drawn.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01044", "u": 6, "field": "emo", "text": "They're moths, Orrin. They don't sleep.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01044", "u": 12, "field": "emo", "text": "Orrin's sword rings free.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01044", "u": 19, "field": "to", "text": "The Archivist welcomes you. Now put down the lantern.", "votes": [[[0], [1], [2]], [["ALL"]], [[0], [1], [2]]]}
+{"scene_id": "s01045", "u": 3, "field": "who", "text": "Six goats wander the floor, bored, chewing yoga straps.", "votes": [[["OTHER"]], [["OTHER"]], []]}
+{"scene_id": "s01045", "u": 18, "field": "emo", "text": "Claudette! Are you on the goat farm again?", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01045", "u": 21, "field": "emo", "text": "That's the one.", "votes": ["disgust", "anger", "anger"]}
+{"scene_id": "s01045", "u": 23, "field": "emo", "text": "It's a client, Mama.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01045", "u": 26, "field": "emo", "text": "Claudette, I need you to come home. The faucet is leaking again.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01045", "u": 31, "field": "emo", "text": "On cue, Beyonce bleats, triumphant.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "s01045", "u": 33, "field": "emo", "text": "I'll be sure to thank her.", "votes": ["disgust", "disgust", "anger"]}
+{"scene_id": "s01045", "u": 39, "field": "emo", "text": "Paying for this.", "votes": ["disgust", "disgust", "anger"]}
+{"scene_id": "s01046", "u": 22, "field": "emo", "text": "Rough Thursday.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01046", "u": 27, "field": "emo", "text": "You doubt me?", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01046", "u": 35, "field": "emo", "text": "Efficiency.", "votes": ["disgust", "disgust", "anger"]}
+{"scene_id": "s01046", "u": 37, "field": "emo", "text": "Prudence folds her coat over her arm.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01046", "u": 38, "field": "emo", "text": "Folds it a second time.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01046", "u": 41, "field": "emo", "text": "You were just leaving.", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01047", "u": 13, "field": "who", "text": "The speck becomes a rider.", "votes": [[["OTHER"]], [], [["OTHER"]]]}
+{"scene_id": "s01047", "u": 14, "field": "to", "text": "That's a lone horse.", "votes": [[["ALL"]], [["ALL"]], [[0], [2]]]}
+{"scene_id": "s01047", "u": 16, "field": "to", "text": "Could be a mirage.", "votes": [[["ALL"]], [["ALL"]], [[0], [1]]]}
+{"scene_id": "s01048", "u": 6, "field": "emo", "text": "That was Patsy Cline, and you're listening to Night Owls on KRVX. Four a.m. in Calloway County. Roads are clear and the corn is quiet.", "votes": ["joy", "affection", "neutral"]}
+{"scene_id": "s01048", "u": 26, "field": "who", "text": "Her mic opens to the caller, softly.", "votes": [[], [[0]], [[0]]]}
+{"scene_id": "s01048", "u": 35, "field": "emo", "text": "Cal looks at the window.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01048", "u": 41, "field": "emo", "text": "Cal steps to the glass.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01048", "u": 47, "field": "who", "text": "In the field, the flashlight goes out.", "votes": [[[3]], [], []]}
+{"scene_id": "s01049", "u": 7, "field": "emo", "text": "MIN-JUN HAN, 40s, nurse, kneads her temples.", "votes": ["neutral", "sadness", "fear"]}
+{"scene_id": "s01049", "u": 15, "field": "emo", "text": "I said I leaned.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01049", "u": 16, "field": "emo", "text": "I never leaned.", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s01049", "u": 19, "field": "emo", "text": "For what?", "votes": ["anger", "neutral", "anger"]}
+{"scene_id": "s01049", "u": 34, "field": "emo", "text": "Min-Jun rises, steps between them, hands out.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01049", "u": 43, "field": "to", "text": "Enough! We have to be unanimous!", "votes": [[[0], [1, 2]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "s01051", "u": 12, "field": "emo", "text": "Or stay.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01051", "u": 27, "field": "emo", "text": "Pipes.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01051", "u": 28, "field": "emo", "text": "There are no pipes in the press room.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01051", "u": 29, "field": "emo", "text": "Is there a basement?", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01051", "u": 33, "field": "emo", "text": "Why not?", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01051", "u": 34, "field": "emo", "text": "The ground doesn't like it.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01051", "u": 43, "field": "emo", "text": "Put your harmonica down, love.", "votes": ["neutral", "affection", "affection"]}
+{"scene_id": "s01051", "u": 44, "field": "emo", "text": "I wasn't--", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01051", "u": 45, "field": "emo", "text": "Now.", "votes": ["anger", "fear", "fear"]}
+{"scene_id": "s01051", "u": 49, "field": "emo", "text": "Beata stops peeling.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01051", "u": 53, "field": "emo", "text": "What is?", "votes": ["fear", "fear", "surprise"]}
+{"scene_id": "s01051", "u": 60, "field": "to", "text": "Out. Quiet. Don't run.", "votes": [[["ALL"]], [[1], [2], [3], [4]], [["ALL"]]]}
+{"scene_id": "s01051", "u": 60, "field": "emo", "text": "Out. Quiet. Don't run.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01051", "u": 63, "field": "emo", "text": "Colm last, looking back.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01052", "u": 7, "field": "emo", "text": "She hasn't slept.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "s01052", "u": 34, "field": "emo", "text": "Day four hundred and fourteen.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s01052", "u": 35, "field": "emo", "text": "A long pause.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s01053", "u": 8, "field": "emo", "text": "Edmund glances at the ceiling.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01053", "u": 29, "field": "emo", "text": "Nobody said you didn't.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01053", "u": 44, "field": "emo", "text": "Vera. Take the register. Alf, you're with me.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01053", "u": 46, "field": "to", "text": "We're going up.", "votes": [[["ALL"]], [[2]], [["ALL"]]]}
+{"scene_id": "s01053", "u": 46, "field": "emo", "text": "We're going up.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01054", "u": 6, "field": "emo", "text": "A WOMAN, 30s, wet raincoat, dark circles under her eyes, locks the door.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01054", "u": 18, "field": "to", "text": "Test. Test.", "votes": [[["NONE"]], [["SELF"]], [["SELF"]]]}
+{"scene_id": "s01054", "u": 25, "field": "to", "text": "Day one. Motel off Route 9. Nobody followed me. I think.", "votes": [[["NONE"]], [["NONE"]], [["SELF"]]]}
+{"scene_id": "s01054", "u": 34, "field": "emo", "text": "Day one. Motel off Route 9. Nobody followed me. I think.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01054", "u": 53, "field": "emo", "text": "She says it as if reminding herself.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01054", "u": 72, "field": "emo", "text": "Throws it across the room.", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "s01054", "u": 97, "field": "emo", "text": "Nobody followed me.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01054", "u": 98, "field": "to", "text": "I know.", "votes": [[["SELF"]], [[0, 1]], [["SELF"]]]}
+{"scene_id": "s01055", "u": 9, "field": "emo", "text": "You never come on Sundays anymore.", "votes": ["sadness", "anger", "sadness"]}
+{"scene_id": "s01055", "u": 29, "field": "emo", "text": "Soledad's here because she wanted to see you.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01055", "u": 30, "field": "emo", "text": "I did.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01055", "u": 31, "field": "emo", "text": "You came to hold my hand while Arturo tells me something he has been practicing in the car.", "votes": ["anger", "sadness", "anger"]}
+{"scene_id": "s01055", "u": 33, "field": "emo", "text": "Tell me.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01055", "u": 36, "field": "who", "text": "Looks at his daughter, who looks at her phone, pretending not to hear.", "votes": [[[1]], [[1]], [[1], [2]]]}
+{"scene_id": "s01055", "u": 40, "field": "emo", "text": "The house is not sick.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01055", "u": 55, "field": "emo", "text": "You didn't want to tell me, or you didn't want to put me in a place?", "votes": ["anger", "sadness", "anger"]}
+{"scene_id": "s01055", "u": 79, "field": "emo", "text": "She keeps eating.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01056", "u": 12, "field": "emo", "text": "And now we are in session.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01056", "u": 18, "field": "emo", "text": "They all turn.", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01056", "u": 20, "field": "to", "text": "Thank God somebody watched something.", "votes": [[[3]], [[3]], [["ALL"]]]}
+{"scene_id": "s01056", "u": 21, "field": "to", "text": "How do we get in?", "votes": [[[0]], [[0]], [["ALL"]]]}
+{"scene_id": "s01056", "u": 22, "field": "emo", "text": "The same way everyone gets in anywhere. We pretend we belong.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01056", "u": 23, "field": "emo", "text": "In a closed amusement park.", "votes": ["surprise", "disgust", "surprise"]}
+{"scene_id": "s01056", "u": 24, "field": "emo", "text": "In a closed amusement park, at night, with permits.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01056", "u": 27, "field": "to", "text": "Who's driving?", "votes": [[[0]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "s01056", "u": 34, "field": "to", "text": "Equal shares. Five ways.", "votes": [[[1]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "s01056", "u": 35, "field": "to", "text": "Six.", "votes": [[[3]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "s01056", "u": 37, "field": "emo", "text": "There's a sixth share in Mr. Lavalle's ledger. Somebody we've never met.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01057", "u": 11, "field": "to", "text": "Bed nine?", "votes": [[["ALL"]], [[1], [3]], [[3]]]}
+{"scene_id": "s01057", "u": 14, "field": "emo", "text": "I was going to.", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "s01057", "u": 15, "field": "to", "text": "Do we have more mop heads?", "votes": [[["ALL"]], [[1]], [["ALL"]]]}
+{"scene_id": "s01057", "u": 29, "field": "emo", "text": "Are you in pain?", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s01057", "u": 32, "field": "emo", "text": "What have you got?", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01057", "u": 54, "field": "emo", "text": "Bronwen adjusts the blanket across her knees.", "votes": ["neutral", "affection", "neutral"]}
+{"scene_id": "s01057", "u": 55, "field": "emo", "text": "Tucks it neat.", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s01058", "u": 8, "field": "emo", "text": "You've got no beard, ma'am.", "votes": ["joy", "surprise", "surprise"]}
+{"scene_id": "s01058", "u": 16, "field": "emo", "text": "Quiet's good for business.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "s01058", "u": 19, "field": "emo", "text": "Like Sheriff Haynes.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01058", "u": 21, "field": "emo", "text": "You know the sheriff?", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "s01058", "u": 22, "field": "emo", "text": "I know his boots. They're on your wall. Left side, behind the broom.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01058", "u": 23, "field": "emo", "text": "Colter's eyes flick to the corner.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01058", "u": 25, "field": "emo", "text": "Left them here weeks ago. Said he'd be back.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01058", "u": 26, "field": "emo", "text": "He won't.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01058", "u": 41, "field": "emo", "text": "All right.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01058", "u": 42, "field": "emo", "text": "Where's the sheriff?", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "s01058", "u": 43, "field": "emo", "text": "Out of town.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01058", "u": 48, "field": "who", "text": "The comb freezes.", "votes": [[], [[0]], []]}
+{"scene_id": "s01058", "u": 48, "field": "emo", "text": "The comb freezes.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01058", "u": 49, "field": "emo", "text": "Your brother?", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "s01058", "u": 55, "field": "emo", "text": "Calm.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01058", "u": 64, "field": "who", "text": "The sheriff's, or the same cut.", "votes": [[["OTHER"]], [["OTHER"]], []]}
+{"scene_id": "s01058", "u": 65, "field": "emo", "text": "Close the door, Colter. Sit down.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01058", "u": 70, "field": "emo", "text": "Now. Let's have that talk.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01059", "u": 11, "field": "to", "text": "Objection. Foundation.", "votes": [[[0]], [["ALL"]], [[0]]]}
+{"scene_id": "s01059", "u": 14, "field": "to", "text": "I know a tree when I see one.", "votes": [[[1]], [[1]], [[0]]]}
+{"scene_id": "s01059", "u": 17, "field": "emo", "text": "And the stump said?", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01059", "u": 18, "field": "to", "text": "Objection!", "votes": [[[0]], [["ALL"]], [[0]]]}
+{"scene_id": "s01059", "u": 20, "field": "emo", "text": "A CLERK, 20s, snow on his hat, hurries in with a folder, ducking as though the rafters were low.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01059", "u": 22, "field": "emo", "text": "Everyone looks.", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01059", "u": 27, "field": "emo", "text": "Yours, I think. Or hers.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01059", "u": 30, "field": "to", "text": "Give me that.", "votes": [[[1]], [[1]], [[3, 4]]]}
+{"scene_id": "s01059", "u": 31, "field": "to", "text": "Give me that.", "votes": [[[0]], [[0]], [[3, 4]]]}
+{"scene_id": "s01059", "u": 32, "field": "emo", "text": "They stop.", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01060", "u": 6, "field": "emo", "text": "Across from her, TEODORO FALCONE, 40s, mechanic, grease under his nails, eats a protein bar with no pleasure.", "votes": ["neutral", "disgust", "disgust"]}
+{"scene_id": "s01060", "u": 10, "field": "emo", "text": "It's kale. Mostly.", "votes": ["neutral", "joy", "disgust"]}
+{"scene_id": "s01060", "u": 11, "field": "emo", "text": "It's mostly lunch.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "s01060", "u": 16, "field": "emo", "text": "Four percent is a number.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01060", "u": 19, "field": "emo", "text": "Teodoro, you've been quiet this week.", "votes": ["neutral", "affection", "affection"]}
+{"scene_id": "s01060", "u": 21, "field": "emo", "text": "Quiet-quiet or worried-quiet?", "votes": ["neutral", "affection", "affection"]}
+{"scene_id": "s01060", "u": 36, "field": "emo", "text": "Is this seat taken?", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01060", "u": 42, "field": "emo", "text": "Opens his mouth.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01060", "u": 43, "field": "emo", "text": "Closes it.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01060", "u": 44, "field": "emo", "text": "Opens it again.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01060", "u": 46, "field": "emo", "text": "You'll get used to the food.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01060", "u": 47, "field": "to", "text": "Is it always this beige?", "votes": [[[1]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "s01060", "u": 47, "field": "emo", "text": "Is it always this beige?", "votes": ["neutral", "disgust", "disgust"]}
+{"scene_id": "s01060", "u": 49, "field": "to", "text": "What do you do here?", "votes": [[[2]], [[2]], [["ALL"]]]}
+{"scene_id": "s01060", "u": 50, "field": "emo", "text": "I keep the plants alive. Teodoro keeps the plants' water alive. Halcyon keeps all of us alive.", "votes": ["neutral", "affection", "joy"]}
+{"scene_id": "s01060", "u": 56, "field": "emo", "text": "It's more beautiful in a textbook.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01060", "u": 58, "field": "emo", "text": "Pump seven.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01060", "u": 63, "field": "emo", "text": "It's a pump with a personality.", "votes": ["joy", "joy", "affection"]}
+{"scene_id": "s01060", "u": 66, "field": "emo", "text": "He's already hired.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01060", "u": 68, "field": "emo", "text": "To what?", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01060", "u": 73, "field": "emo", "text": "Yes, sir.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01060", "u": 74, "field": "emo", "text": "Welcome to the Moon. Try not to break it.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01060", "u": 76, "field": "emo", "text": "Nadeem laughs, uncertain.", "votes": ["joy", "joy", "fear"]}
+{"scene_id": "s01060", "u": 79, "field": "to", "text": "That's really kale.", "votes": [[["ALL"]], [["ALL"]], [[0]]]}
+{"scene_id": "s01060", "u": 79, "field": "emo", "text": "That's really kale.", "votes": ["disgust", "surprise", "disgust"]}
+{"scene_id": "s01061", "u": 3, "field": "who", "text": "Six employees in matching fleece vests stand in a ring around a locked chest.", "votes": [[[0], [1], [2], [3, 4], [5], [6]], [[0], [1], [2], [3], [5], [6]], [[0], [1], [2], [3], [5], [6]]]}
+{"scene_id": "s01061", "u": 4, "field": "who", "text": "Lanyards.", "votes": [[[0], [1], [2], [3, 4], [5], [6]], [], []]}
+{"scene_id": "s01061", "u": 5, "field": "who", "text": "Name tags.", "votes": [[[0], [1], [2], [3, 4], [5], [6]], [], []]}
+{"scene_id": "s01061", "u": 6, "field": "who", "text": "Forced smiles.", "votes": [[[0], [1], [2], [3, 4], [5], [6]], [[0], [1], [2], [3], [5], [6]], [[0], [1], [2], [3], [5], [6]]]}
+{"scene_id": "s01061", "u": 7, "field": "emo", "text": "DIRECTOR GREGOR HALVORSEN, 50s, bald, a vest zipped to the chin, claps once.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01061", "u": 11, "field": "emo", "text": "Alignment is a journey.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01061", "u": 15, "field": "who", "text": "BEATRICE KOWALSKI, 60s, HR, lifts a laminated card with a trembling hand.", "votes": [[[3, 4]], [[3]], [[3]]]}
+{"scene_id": "s01061", "u": 16, "field": "emo", "text": "\"The date of our greatest quarter.\"", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01061", "u": 17, "field": "emo", "text": "That's every quarter.", "votes": ["anger", "disgust", "disgust"]}
+{"scene_id": "s01061", "u": 20, "field": "emo", "text": "MARCUS ELLIOT, 20s, junior analyst, stares at the clock.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01061", "u": 29, "field": "emo", "text": "It's on the whiteboard behind you.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "s01061", "u": 30, "field": "who", "text": "They all turn.", "votes": [[[0], [1], [2], [3, 4], [5]], [[0], [1], [2], [3], [5], [6]], [[0], [1], [2], [3], [5]]]}
+{"scene_id": "s01061", "u": 32, "field": "emo", "text": "Gregor's smile fixes in place.", "votes": ["surprise", "anger", "anger"]}
+{"scene_id": "s01061", "u": 33, "field": "emo", "text": "Great catch, Delilah.", "votes": ["joy", "neutral", "anger"]}
+{"scene_id": "s01061", "u": 39, "field": "who", "text": "Nobody speaks.", "votes": [[[0], [1], [2], [3, 4], [5], [6]], [[0], [1], [2], [3], [5], [6]], [[0], [1], [2], [3], [5], [6]]]}
+{"scene_id": "s01061", "u": 41, "field": "emo", "text": "There's a QR code.", "votes": ["neutral", "neutral", "disgust"]}
+{"scene_id": "s01061", "u": 42, "field": "to", "text": "Of course there is.", "votes": [[["ALL"]], [[2]], [[2]]]}
+{"scene_id": "s01061", "u": 43, "field": "who", "text": "They stand there, six fleece vests in a basement, while the clock beeps.", "votes": [[[0], [1], [2], [3, 4], [5], [6]], [[0], [1], [2], [3], [5], [6]], [[0], [1], [2], [3], [5], [6]]]}
+{"scene_id": "s01062", "u": 6, "field": "emo", "text": "Across the aisle, EMERY LUND, 20s, headphones, hoodie, bounces one knee.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01062", "u": 8, "field": "to", "text": "Hello? Anyone else on here?", "votes": [[["NONE"]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "s01062", "u": 19, "field": "emo", "text": "Doesn't read it.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01062", "u": 26, "field": "emo", "text": "It's the cold.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01062", "u": 37, "field": "emo", "text": "Someone left a bag.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01062", "u": 44, "field": "to", "text": "Whoever's there, we know you're in there.", "votes": [[["OTHER"]], [["ALL"]], [["OTHER"]]]}
+{"scene_id": "s01062", "u": 45, "field": "to", "text": "Whoever's there, we know you're in there.", "votes": [[["OTHER"]], [["ALL"]], [["OTHER"]]]}
+{"scene_id": "s01062", "u": 47, "field": "emo", "text": "They look at each other.", "votes": ["surprise", "surprise", "neutral"]}
+{"scene_id": "s01062", "u": 67, "field": "who", "text": "Something pale slides out of the bag.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s01062", "u": 68, "field": "who", "text": "Fingers, knuckled and long.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s01062", "u": 69, "field": "who", "text": "They curl around the edge of the rack.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s01062", "u": 74, "field": "who", "text": "The fingers withdraw.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s01062", "u": 83, "field": "emo", "text": "They crawl away from the road.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01062", "u": 84, "field": "emo", "text": "Neither looks.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01063", "u": 15, "field": "to", "text": "Panel's open.", "votes": [[[0]], [[0]], [[0], [2]]]}
+{"scene_id": "s01063", "u": 25, "field": "emo", "text": "Meaning it listens.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01063", "u": 30, "field": "emo", "text": "It's counting. Three seconds to a click.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01063", "u": 31, "field": "emo", "text": "Can you match it?", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01063", "u": 41, "field": "to", "text": "Go.", "votes": [[["ALL"]], [[3]], [[2], [3]]]}
+{"scene_id": "s01063", "u": 51, "field": "to", "text": "Thirty seconds!", "votes": [[[0]], [["ALL"]], [[0]]]}
+{"scene_id": "s01063", "u": 53, "field": "who", "text": "They snap the dome back down.", "votes": [[[0], [1], [2], [3]], [[0], [1], [2], [3]], [[2], [3]]]}
+{"scene_id": "s01063", "u": 60, "field": "who", "text": "The guard's footsteps, if any, are drowned entirely.", "votes": [[], [], [["OTHER"]]]}
+{"scene_id": "s01063", "u": 65, "field": "to", "text": "He's gone to the west wing. You're clear.", "votes": [[[0]], [["ALL"]], [[0]]]}
+{"scene_id": "s01063", "u": 65, "field": "emo", "text": "He's gone to the west wing. You're clear.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01063", "u": 66, "field": "emo", "text": "Bartholomew exhales.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01064", "u": 9, "field": "emo", "text": "There is no brother.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01064", "u": 10, "field": "emo", "text": "There is no brother.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01064", "u": 13, "field": "emo", "text": "Lower your staff, Balthazar. He speaks true.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01066", "u": 7, "field": "emo", "text": "Rescue One, this is the Meridian. Do you copy?", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01066", "u": 17, "field": "to", "text": "Two hours. We can make two hours.", "votes": [[["ALL"]], [[0], [2]], [[0], [2]]]}
+{"scene_id": "s01066", "u": 21, "field": "emo", "text": "All three tumble into the raft as the ice shelf shifts and a second crack opens right where the stove had been.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01066", "u": 22, "field": "to", "text": "Cut the line!", "votes": [[["ALL"]], [[2]], [[2]]]}
+{"scene_id": "s01066", "u": 23, "field": "to", "text": "Cut the line!", "votes": [[["ALL"]], [[2]], [[2]]]}
+{"scene_id": "s01066", "u": 28, "field": "to", "text": "Meridian, we have you. Stay put.", "votes": [[["ALL"]], [[0], [1], [2]], [[0], [1], [2]]]}
+{"scene_id": "s01067", "u": 13, "field": "to", "text": "Forgive me. I'm looking for the master of the house.", "votes": [[["ALL"]], [["ALL"]], [[0], [1]]]}
+{"scene_id": "s01067", "u": 20, "field": "emo", "text": "Never seen him.", "votes": ["fear", "anger", "neutral"]}
+{"scene_id": "s01067", "u": 29, "field": "emo", "text": "That's a long way to come for an empty house.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "s01067", "u": 33, "field": "emo", "text": "Nothing's here but ice, sir.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01067", "u": 37, "field": "to", "text": "My name is Rupert Ashworth. I was supposed to have inherited.", "votes": [[["ALL"]], [["ALL"]], [[0], [1]]]}
+{"scene_id": "s01067", "u": 40, "field": "emo", "text": "Mr. Rupert died in the Punjab. We had the letter.", "votes": ["surprise", "surprise", "fear"]}
+{"scene_id": "s01067", "u": 41, "field": "emo", "text": "Reports of my death were premature.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01067", "u": 45, "field": "to", "text": "I only want the tin.", "votes": [[["ALL"]], [["ALL"]], [[0], [1]]]}
+{"scene_id": "s01067", "u": 48, "field": "emo", "text": "He smiles.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01068", "u": 6, "field": "emo", "text": "EVELYN PRATT, 20s, in a tattered satin dress, shoes in her hand, sways alone in the middle of the boards.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01068", "u": 8, "field": "emo", "text": "Anybody got a cigarette?", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01068", "u": 12, "field": "who", "text": "A cot creaks in the shadows.", "votes": [[[1]], [], []]}
+{"scene_id": "s01068", "u": 13, "field": "who", "text": "A match flares.", "votes": [[[1]], [], [[1]]]}
+{"scene_id": "s01068", "u": 24, "field": "emo", "text": "It wakes him a little.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01068", "u": 34, "field": "emo", "text": "That's all?", "votes": ["joy", "surprise", "surprise"]}
+{"scene_id": "s01069", "u": 15, "field": "emo", "text": "Who's going to hear?", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01069", "u": 22, "field": "who", "text": "The office door opens.", "votes": [[[2, 4]], [], [[2, 4]]]}
+{"scene_id": "s01069", "u": 26, "field": "to", "text": "Papers?", "votes": [[[0], [1, 3]], [[0]], [[0]]]}
+{"scene_id": "s01069", "u": 28, "field": "to", "text": "No papers, no crusher. That's Terrence's rule.", "votes": [[[0], [1, 3]], [[0], [1, 3]], [[1, 3]]]}
+{"scene_id": "s01069", "u": 29, "field": "emo", "text": "Terrence is a friend.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01069", "u": 34, "field": "emo", "text": "Kid. What's your name?", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "s01069", "u": 39, "field": "emo", "text": "Then you should've been on time.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01069", "u": 43, "field": "emo", "text": "Nina grabs the gym bag and swings it into the man's back.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01069", "u": 49, "field": "to", "text": "You said no papers!", "votes": [[[1, 3]], [[1, 3]], [[0], [1, 3]]]}
+{"scene_id": "s01070", "u": 5, "field": "emo", "text": "PRIVATE LIN, 19, thin, shivers beside a radio set.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01070", "u": 7, "field": "emo", "text": "Hands up.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01070", "u": 22, "field": "emo", "text": "Halvorsen cocks the rifle.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01071", "u": 18, "field": "emo", "text": "Studies the smear.", "votes": ["disgust", "neutral", "neutral"]}
+{"scene_id": "s01071", "u": 21, "field": "emo", "text": "Picks them up again.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01071", "u": 25, "field": "who", "text": "A boy's voice, muffled through the wall.", "votes": [[], [[2]], [[2]]]}
+{"scene_id": "s01071", "u": 26, "field": "emo", "text": "Lamps, Mr. Wren! Gas is on at Fenchurch!", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01071", "u": 32, "field": "emo", "text": "Tobias's jaw works.", "votes": ["sadness", "anger", "anger"]}
+{"scene_id": "s01071", "u": 37, "field": "emo", "text": "Tea?", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s01071", "u": 49, "field": "emo", "text": "Pushes it back.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01071", "u": 56, "field": "to", "text": "Lamps!", "votes": [[[1]], [[1]], [["ALL"]]]}
+{"scene_id": "s01071", "u": 58, "field": "emo", "text": "Smooths her skirt twice.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01071", "u": 62, "field": "emo", "text": "It's lit.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s01071", "u": 63, "field": "emo", "text": "Then light it again.", "votes": ["sadness", "sadness", "affection"]}
+{"scene_id": "s01071", "u": 67, "field": "emo", "text": "Wipes the smear with his sleeve.", "votes": ["neutral", "affection", "neutral"]}
+{"scene_id": "s01071", "u": 68, "field": "emo", "text": "Carefully.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s01072", "u": 17, "field": "emo", "text": "She stops chewing.", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "s01072", "u": 19, "field": "emo", "text": "Renata sets down the sandwich.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01073", "u": 7, "field": "who", "text": "Opposing counsel.", "votes": [[[0], [1]], [[1]], [[1]]]}
+{"scene_id": "s01073", "u": 11, "field": "emo", "text": "She never loses keys.", "votes": ["anger", "anger", "neutral"]}
+{"scene_id": "s01073", "u": 16, "field": "emo", "text": "That's not on the inventory.", "votes": ["surprise", "surprise", "fear"]}
+{"scene_id": "s01073", "u": 20, "field": "emo", "text": "Nadia and Eli straighten.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01073", "u": 25, "field": "emo", "text": "Eli lunges for the ledger.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01073", "u": 36, "field": "emo", "text": "Exhales.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01073", "u": 42, "field": "who", "text": "The elevator doors close on the Judge.", "votes": [[], [[2]], [[2]]]}
+{"scene_id": "s01074", "u": 13, "field": "to", "text": "Cake?", "votes": [[[1, 2]], [[1, 2]], [["ALL"]]]}
+{"scene_id": "s01074", "u": 15, "field": "emo", "text": "I'll take his. If he's not.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01074", "u": 16, "field": "emo", "text": "Take two.", "votes": ["affection", "neutral", "joy"]}
+{"scene_id": "s01074", "u": 25, "field": "emo", "text": "It's Tuesday.", "votes": ["neutral", "disgust", "disgust"]}
+{"scene_id": "s01074", "u": 31, "field": "emo", "text": "Same floor as Compliance.", "votes": ["neutral", "disgust", "disgust"]}
+{"scene_id": "s01074", "u": 36, "field": "emo", "text": "Gloria is not laughing.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01074", "u": 40, "field": "emo", "text": "Fine. A small one.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01074", "u": 47, "field": "emo", "text": "This closet?", "votes": ["fear", "surprise", "fear"]}
+{"scene_id": "s01074", "u": 60, "field": "emo", "text": "Note the frosting. It's lemon.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01074", "u": 62, "field": "emo", "text": "Lemon's her mother's recipe.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01074", "u": 66, "field": "who", "text": "A cart of toner cartridges rolls in, pushed by nobody visible.", "votes": [[[6]], [], []]}
+{"scene_id": "s01074", "u": 67, "field": "emo", "text": "Everyone steps back.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "s01074", "u": 93, "field": "emo", "text": "It's everyone's closet.", "votes": ["affection", "neutral", "joy"]}
+{"scene_id": "s01074", "u": 94, "field": "to", "text": "Cool. Also there's cake?", "votes": [[[0]], [["ALL"]], [[0]]]}
+{"scene_id": "s01074", "u": 96, "field": "emo", "text": "Cut another.", "votes": ["affection", "neutral", "joy"]}
+{"scene_id": "s01075", "u": 8, "field": "emo", "text": "The valley has no claim on you, and yet you bleed for it.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01075", "u": 15, "field": "who", "text": "Smoke rolls along the silver strands.", "votes": [[], [], [[1]]]}
+{"scene_id": "s01075", "u": 21, "field": "emo", "text": "You cannot be in two places, little queen.", "votes": ["anger", "joy", "disgust"]}
+{"scene_id": "s01076", "u": 11, "field": "emo", "text": "I'd rather stand.", "votes": ["anger", "fear", "fear"]}
+{"scene_id": "s01076", "u": 12, "field": "emo", "text": "That's what people say before they're fired.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01076", "u": 15, "field": "emo", "text": "Okay.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "s01076", "u": 21, "field": "emo", "text": "That's a joke.", "votes": ["disgust", "disgust", "anger"]}
+{"scene_id": "s01076", "u": 31, "field": "emo", "text": "They sent me an invite. For my own mentor's funeral. Titled \"Farewell Sync.\"", "votes": ["anger", "sadness", "anger"]}
+{"scene_id": "s01076", "u": 33, "field": "emo", "text": "It had a Zoom link.", "votes": ["disgust", "anger", "anger"]}
+{"scene_id": "s01076", "u": 37, "field": "emo", "text": "I trained four hundred people today. About \"psychological safety.\" Four hundred. I held their hands.", "votes": ["anger", "sadness", "anger"]}
+{"scene_id": "s01076", "u": 39, "field": "emo", "text": "They're also being laid off.", "votes": ["sadness", "sadness", "anger"]}
+{"scene_id": "s01076", "u": 49, "field": "emo", "text": "She stares at it a long moment.", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01077", "u": 32, "field": "emo", "text": "He stares at the rails.", "votes": ["fear", "sadness", "neutral"]}
+{"scene_id": "s01077", "u": 49, "field": "emo", "text": "Gently.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01078", "u": 19, "field": "emo", "text": "Pretends not to look at her.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s01078", "u": 22, "field": "emo", "text": "Saturdays. And school nights. And whenever Mr. Pruitt forgets to pay somebody else.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01078", "u": 23, "field": "emo", "text": "That sounds rough.", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s01078", "u": 25, "field": "emo", "text": "She slides a small bag across the counter.", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s01078", "u": 27, "field": "emo", "text": "Thanks.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01078", "u": 29, "field": "emo", "text": "Wouldn't.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01078", "u": 30, "field": "emo", "text": "They sit in friendly quiet.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01078", "u": 49, "field": "emo", "text": "Rosalind.", "votes": ["sadness", "surprise", "surprise"]}
+{"scene_id": "s01078", "u": 52, "field": "emo", "text": "She didn't leave. She --", "votes": ["sadness", "sadness", "fear"]}
+{"scene_id": "s01078", "u": 53, "field": "emo", "text": "He cuts himself off.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "s01078", "u": 54, "field": "emo", "text": "June closes the cash drawer.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01078", "u": 55, "field": "emo", "text": "Very slowly.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01078", "u": 59, "field": "emo", "text": "Danny stares at her.", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01078", "u": 68, "field": "emo", "text": "That's why.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01080", "u": 13, "field": "to", "text": "And the landlord, Mr. Brandt, says he was never notified.", "votes": [[[1]], [[1]], [[1], [2]]]}
+{"scene_id": "s01080", "u": 17, "field": "emo", "text": "Also I knock his door. Many times.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01080", "u": 25, "field": "emo", "text": "And the blanket?", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01080", "u": 26, "field": "emo", "text": "Keep. Is warm.", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "s01081", "u": 11, "field": "emo", "text": "Counting, Sal.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01081", "u": 15, "field": "emo", "text": "I said it's fine.", "votes": ["fear", "anger", "fear"]}
+{"scene_id": "s01081", "u": 18, "field": "emo", "text": "It's a taxidermy shop in November.", "votes": ["disgust", "disgust", "anger"]}
+{"scene_id": "s01081", "u": 26, "field": "to", "text": "There's a second floor?", "votes": [[["ALL"]], [[0, 1]], [[0, 1]]]}
+{"scene_id": "s01081", "u": 26, "field": "emo", "text": "There's a second floor?", "votes": ["neutral", "surprise", "fear"]}
+{"scene_id": "s01081", "u": 28, "field": "to", "text": "Check it.", "votes": [[[3]], [["ALL"]], [[3]]]}
+{"scene_id": "s01081", "u": 28, "field": "emo", "text": "Check it.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01081", "u": 29, "field": "to", "text": "I'll check it.", "votes": [[[2]], [[2]], [["ALL"]]]}
+{"scene_id": "s01081", "u": 30, "field": "emo", "text": "Sit down, Lena.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01081", "u": 33, "field": "emo", "text": "Dead?", "votes": ["surprise", "surprise", "neutral"]}
+{"scene_id": "s01081", "u": 34, "field": "emo", "text": "Obviously dead.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "s01081", "u": 36, "field": "emo", "text": "All four look up.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01081", "u": 45, "field": "emo", "text": "Why not?", "votes": ["fear", "anger", "anger"]}
+{"scene_id": "s01081", "u": 49, "field": "emo", "text": "Sal's hand drifts toward his jacket.", "votes": ["fear", "anger", "fear"]}
+{"scene_id": "s01081", "u": 52, "field": "to", "text": "I didn't have a choice. They said bring it or --", "votes": [[["ALL"]], [[3]], [["ALL"]]]}
+{"scene_id": "s01081", "u": 61, "field": "emo", "text": "I'm calm.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01081", "u": 62, "field": "to", "text": "I'm not calm.", "votes": [[[0, 1]], [[0, 1]], [["ALL"]]]}
+{"scene_id": "s01082", "u": 8, "field": "to", "text": "Ahoy, ye mighty putters! Today we face the Kraken's Revenge, hole eighteen, par three...", "votes": [[["SELF"]], [["NONE"]], [["NONE"]]]}
+{"scene_id": "s01082", "u": 10, "field": "emo", "text": "Practice makes plunder.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "s01082", "u": 19, "field": "emo", "text": "She bows.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01082", "u": 20, "field": "to", "text": "Ladies and gentlemen --", "votes": [[["SELF"]], [[1]], [["ALL"]]]}
+{"scene_id": "s01082", "u": 22, "field": "emo", "text": "Ladies and gentleman.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01082", "u": 23, "field": "emo", "text": "Gentleperson.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "s01082", "u": 31, "field": "emo", "text": "She's got a golf stick!", "votes": ["joy", "surprise", "joy"]}
+{"scene_id": "s01082", "u": 36, "field": "emo", "text": "^Eighteen holes of boredom.", "votes": ["neutral", "disgust", "neutral"]}
+{"scene_id": "s01082", "u": 44, "field": "emo", "text": "Don't get used to it. You'll want it back.", "votes": ["joy", "joy", "affection"]}
+{"scene_id": "s01082", "u": 49, "field": "emo", "text": "And a mutiny.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01083", "u": 8, "field": "emo", "text": "Found you.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01083", "u": 19, "field": "to", "text": "\"Whoever opens this book wakes the one who wrote it.\"", "votes": [[["ALL"]], [["ALL"]], [[0]]]}
+{"scene_id": "s01083", "u": 24, "field": "to", "text": "Do not trouble yourself. I am already awake.", "votes": [[[1]], [[0], [1]], [[0], [1]]]}
+{"scene_id": "s01083", "u": 24, "field": "emo", "text": "Do not trouble yourself. I am already awake.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01083", "u": 30, "field": "to", "text": "Good evening. I am the Scribe.", "votes": [[["ALL"]], [[0], [1]], [[0], [1]]]}
+{"scene_id": "s01083", "u": 31, "field": "emo", "text": "I know who you are.", "votes": ["neutral", "anger", "anger"]}
+{"scene_id": "s01083", "u": 38, "field": "who", "text": "It is.", "votes": [[], [[2, 3, 4]], []]}
+{"scene_id": "s01083", "u": 45, "field": "emo", "text": "Kestrel Donovan-Abiola. Born in the ninth year of the drought. Died in the eleventh page of tonight.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01083", "u": 47, "field": "emo", "text": "I would, if you could stop me.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01083", "u": 59, "field": "emo", "text": "The Scribe shrieks.", "votes": ["fear", "anger", "anger"]}
+{"scene_id": "s01083", "u": 65, "field": "emo", "text": "Then I will wait. Stories do.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01083", "u": 71, "field": "emo", "text": "Kestrel lets out a breath.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01084", "u": 12, "field": "emo", "text": "Then how did she end up down here?", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01084", "u": 27, "field": "who", "text": "Footsteps on the stairs.", "votes": [[[3]], [], []]}
+{"scene_id": "s01084", "u": 33, "field": "to", "text": "I saw a man. By the diving board. Very tall. Very quiet.", "votes": [[[0]], [[0], [1]], [[0]]]}
+{"scene_id": "s01084", "u": 35, "field": "emo", "text": "Gray. A long coat. Like a priest.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01084", "u": 41, "field": "emo", "text": "You touched it?", "votes": ["surprise", "surprise", "anger"]}
+{"scene_id": "s01084", "u": 51, "field": "emo", "text": "Osei drops the camera.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01084", "u": 53, "field": "who", "text": "They collide at the lip of the deep end in a tangle of arms, mop handle and raincoat.", "votes": [[["OTHER"], [0], [1], [3]], [["OTHER"], [0], [3]], [["OTHER"], [0], [1], [3]]]}
+{"scene_id": "s01084", "u": 58, "field": "to", "text": "He's gone!", "votes": [[[0]], [[0], [3]], [[0]]]}
+{"scene_id": "s01085", "u": 8, "field": "who", "text": "A paperback open and unread.", "votes": [[[0]], [[0]], []]}
+{"scene_id": "s01085", "u": 19, "field": "emo", "text": "Strange habit.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01085", "u": 26, "field": "emo", "text": "You come here often?", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01085", "u": 28, "field": "emo", "text": "It's Thursday.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01085", "u": 48, "field": "emo", "text": "We passed on the stairs. Once.", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s01085", "u": 50, "field": "emo", "text": "You had a croissant.", "votes": ["affection", "joy", "affection"]}
+{"scene_id": "s01085", "u": 52, "field": "emo", "text": "Hides it with the book.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01085", "u": 62, "field": "emo", "text": "Don't suppose you've lost one.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01086", "u": 5, "field": "emo", "text": "A crowd packs the seats behind the rail, sweating, silent.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01086", "u": 11, "field": "emo", "text": "Ten pins. That's all she needs.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01086", "u": 12, "field": "emo", "text": "She's got ice in her veins.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01086", "u": 30, "field": "emo", "text": "The crowd groans.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s01086", "u": 36, "field": "emo", "text": "He holds.", "votes": ["neutral", "anger", "neutral"]}
+{"scene_id": "s01086", "u": 37, "field": "emo", "text": "Annika walks back, staring at the single pin.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01086", "u": 42, "field": "emo", "text": "It's been waiting for me.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01086", "u": 62, "field": "emo", "text": "Then the whole alley erupts.", "votes": ["neutral", "joy", "joy"]}
+{"scene_id": "s01086", "u": 66, "field": "emo", "text": "Hank sits with his arms still folded.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "s01086", "u": 68, "field": "to", "text": "That's a Tuesday!", "votes": [[[1]], [["ALL"]], [["ALL"]]]}
+{"scene_id": "s01087", "u": 10, "field": "to", "text": "Steady now. She'll rise.", "votes": [[[2]], [[2], [3]], [[2], [3]]]}
+{"scene_id": "s01087", "u": 15, "field": "emo", "text": "Accurate child.", "votes": ["joy", "anger", "anger"]}
+{"scene_id": "s01087", "u": 30, "field": "emo", "text": "Ezekiel stumbles, cane clattering.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01087", "u": 37, "field": "who", "text": "Four men in coats at the far lamp.", "votes": [[["OTHER"]], [["OTHER"]], [[4]]]}
+{"scene_id": "s01087", "u": 46, "field": "emo", "text": "He sets his jaw.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01088", "u": 10, "field": "emo", "text": "You're limping.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01088", "u": 27, "field": "emo", "text": "That's our water.", "votes": ["anger", "surprise", "fear"]}
+{"scene_id": "s01088", "u": 41, "field": "emo", "text": "Not a chance.", "votes": ["affection", "anger", "anger"]}
+{"scene_id": "s01088", "u": 46, "field": "emo", "text": "Bee. If I --", "votes": ["sadness", "fear", "sadness"]}
+{"scene_id": "s01088", "u": 49, "field": "emo", "text": "Don't.", "votes": ["sadness", "fear", "fear"]}
+{"scene_id": "s01088", "u": 53, "field": "to", "text": "Boys. Girls. Hold your horses.", "votes": [[[0, 1], [2]], [["ALL"]], [[0, 1], [2]]]}
+{"scene_id": "s01088", "u": 54, "field": "emo", "text": "Cap!", "votes": ["joy", "surprise", "joy"]}
+{"scene_id": "s01088", "u": 55, "field": "to", "text": "I can walk.", "votes": [[[0, 1], [2]], [["ALL"]], [[0, 1], [2]]]}
+{"scene_id": "s01088", "u": 56, "field": "emo", "text": "You can't.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01088", "u": 57, "field": "to", "text": "I can crawl. Let me.", "votes": [[[0, 1], [2]], [[2]], [[0, 1], [2]]]}
+{"scene_id": "s01088", "u": 57, "field": "emo", "text": "I can crawl. Let me.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01089", "u": 16, "field": "to", "text": "...say again, Dagger Six, this is Hammer. Enemy withdrawing along the river road. All units hold.", "votes": [[["ALL"]], [["NONE"]], [["ALL"]]]}
+{"scene_id": "s01089", "u": 17, "field": "emo", "text": "Siobhan looks up.", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "s01089", "u": 19, "field": "emo", "text": "Rosalind stills with the IV bag in her hand.", "votes": ["surprise", "surprise", "neutral"]}
+{"scene_id": "s01089", "u": 22, "field": "to", "text": "Then it's over?", "votes": [[[0]], [["ALL"]], [[0]]]}
+{"scene_id": "s01089", "u": 29, "field": "emo", "text": "Draws the blanket up.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01089", "u": 36, "field": "emo", "text": "How is it?", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01089", "u": 42, "field": "who", "text": "The laugh dies.", "votes": [[[1], [2]], [], [[1], [2]]]}
+{"scene_id": "s01089", "u": 45, "field": "to", "text": "Dagger Six, copy that. Ceasefire at oh-six-hundred. Repeat, ceasefire at oh-six-hundred.", "votes": [[["ALL"]], [["NONE"]], [["ALL"]]]}
+{"scene_id": "s01089", "u": 47, "field": "emo", "text": "Thank you, Corporal.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01089", "u": 50, "field": "emo", "text": "Rosalind sits on the end of Mikhail's cot, suddenly unable to stand.", "votes": ["joy", "sadness", "sadness"]}
+{"scene_id": "s01090", "u": 20, "field": "emo", "text": "Is there a side?", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01090", "u": 25, "field": "emo", "text": "They said a lot.", "votes": ["sadness", "anger", "anger"]}
+{"scene_id": "s01090", "u": 27, "field": "emo", "text": "She offers him a pear without looking up.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01090", "u": 46, "field": "who", "text": "A woman's voice calls a name that is not hers.", "votes": [[["OTHER"]], [[2]], [["OTHER"]]]}
+{"scene_id": "s01090", "u": 53, "field": "emo", "text": "Offers his hand.", "votes": ["neutral", "affection", "affection"]}
+{"scene_id": "s01090", "u": 55, "field": "emo", "text": "Then takes it.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01090", "u": 59, "field": "emo", "text": "She stops when she sees them both.", "votes": ["surprise", "surprise", "neutral"]}
+{"scene_id": "s01090", "u": 63, "field": "emo", "text": "Nell straightens.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01090", "u": 64, "field": "emo", "text": "Theo steps half a pace in front of her.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01090", "u": 67, "field": "emo", "text": "Leaves the door open behind her.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01091", "u": 10, "field": "emo", "text": "Northeast pillar. He's moving.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01091", "u": 15, "field": "emo", "text": "We can talk about this.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01091", "u": 22, "field": "emo", "text": "The Courier whips his head toward it.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "s01091", "u": 44, "field": "to", "text": "He said they were coming for me.", "votes": [[[0], [1]], [[1]], [[0], [1]]]}
+{"scene_id": "s01091", "u": 45, "field": "emo", "text": "Who?", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01091", "u": 46, "field": "to", "text": "The Directorate. He wasn't one of them. He was warning me.", "votes": [[[1]], [[1]], [[0], [1]]]}
+{"scene_id": "s01091", "u": 49, "field": "emo", "text": "Is that true?", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01091", "u": 56, "field": "who", "text": "Somewhere above, tires screech down a ramp.", "votes": [[], [], [["OTHER"]]]}
+{"scene_id": "s01092", "u": 17, "field": "emo", "text": "Hester sighs and rises, pulls the kettle off the hotplate, pours two mugs.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01092", "u": 18, "field": "emo", "text": "She sets one on the bench beside him.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01092", "u": 22, "field": "emo", "text": "Fine.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01092", "u": 24, "field": "emo", "text": "Okay, then.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01092", "u": 25, "field": "emo", "text": "Okay is worse.", "votes": ["anger", "joy", "anger"]}
+{"scene_id": "s01092", "u": 30, "field": "to", "text": "Anyone else coming?", "votes": [[[1]], [["ALL"]], [[1]]]}
+{"scene_id": "s01092", "u": 35, "field": "emo", "text": "His eyes trace the hull of an eight, then of a single.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01092", "u": 39, "field": "emo", "text": "Camille. Yes.", "votes": ["affection", "sadness", "affection"]}
+{"scene_id": "s01092", "u": 43, "field": "emo", "text": "Coach.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01092", "u": 59, "field": "to", "text": "Easy.", "votes": [[[0]], [["SELF"]], [["SELF"]]]}
+{"scene_id": "s01093", "u": 10, "field": "emo", "text": "It wasn't my fault, sir. The reel was upside down.", "votes": ["fear", "anger", "anger"]}
+{"scene_id": "s01093", "u": 19, "field": "emo", "text": "Good.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01093", "u": 31, "field": "emo", "text": "They called the house. About the scholarship.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01093", "u": 37, "field": "who", "text": "Down in the lot, the cars dim their lights.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s01093", "u": 43, "field": "emo", "text": "He read it first. Then he put it back.", "votes": ["neutral", "affection", "sadness"]}
+{"scene_id": "s01094", "u": 14, "field": "emo", "text": "\"If you are reading this, I have already gone to see what the telescope shows after midnight.\"", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01094", "u": 21, "field": "emo", "text": "Helena, where are you?", "votes": ["fear", "fear", "anger"]}
+{"scene_id": "s01094", "u": 32, "field": "emo", "text": "Stay on the line.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01094", "u": 45, "field": "emo", "text": "You're Warrick's partner.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01095", "u": 6, "field": "emo", "text": "SHERIFF AUGUSTINE TREVINO, 60s, tin star pinned crooked, stands over a shallow grave.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01095", "u": 7, "field": "emo", "text": "Hat in his hands.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01095", "u": 8, "field": "emo", "text": "ABIGAIL FROST-MWANGI, 30s, widow's black, holds a rusted shovel.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "s01095", "u": 13, "field": "emo", "text": "Abigail doesn't turn.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01095", "u": 23, "field": "emo", "text": "I'll see to the horse.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01095", "u": 24, "field": "emo", "text": "Don't trouble yourself.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01095", "u": 25, "field": "emo", "text": "No trouble.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s01095", "u": 31, "field": "emo", "text": "Closes it.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01095", "u": 37, "field": "emo", "text": "Doesn't read.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01095", "u": 38, "field": "emo", "text": "He folds the paper smaller, crouches, and tucks it into the dirt beside the cross.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01095", "u": 41, "field": "emo", "text": "Takes her hand.", "votes": ["affection", "neutral", "neutral"]}
+{"scene_id": "s01095", "u": 42, "field": "emo", "text": "Together they look at the cross until the light turns orange.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "s01096", "u": 2, "field": "who", "text": "Below, a full orchestra tunes.", "votes": [[], [["OTHER"]], [["OTHER"]]]}
+{"scene_id": "s01096", "u": 7, "field": "emo", "text": "Everybody quiet.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01096", "u": 12, "field": "emo", "text": "Barnabas draws his sidearm and holds it at his chest.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01096", "u": 18, "field": "who", "text": "A hush falls over the orchestra pit below.", "votes": [[], [["OTHER"]], []]}
+{"scene_id": "s01096", "u": 19, "field": "emo", "text": "I wouldn't come closer.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01096", "u": 21, "field": "emo", "text": "It's not a case. It's a promise.", "votes": ["neutral", "sadness", "anger"]}
+{"scene_id": "s01096", "u": 31, "field": "emo", "text": "You don't have to do this.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01096", "u": 33, "field": "emo", "text": "Because it's true.", "votes": ["neutral", "affection", "neutral"]}
+{"scene_id": "s01096", "u": 40, "field": "emo", "text": "I know.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01096", "u": 42, "field": "emo", "text": "No.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01096", "u": 45, "field": "emo", "text": "Barnabas lifts his gun.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01096", "u": 47, "field": "emo", "text": "Lower it.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01096", "u": 55, "field": "emo", "text": "Hold the curtain. Hold it. Give me a spot on the catwalk.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01096", "u": 57, "field": "emo", "text": "She blinks.", "votes": ["neutral", "neutral", "surprise"]}
+{"scene_id": "s01096", "u": 69, "field": "emo", "text": "Violetta takes a breath, lifts her chin, and sings one clear note into the dark.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01096", "u": 75, "field": "emo", "text": "Inez closes her eyes.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s01097", "u": 26, "field": "emo", "text": "Rags unclenches her fist.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01097", "u": 29, "field": "emo", "text": "We did great, Rags.", "votes": ["affection", "affection", "joy"]}
+{"scene_id": "s01097", "u": 34, "field": "emo", "text": "To the ninth end.", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "s01097", "u": 35, "field": "emo", "text": "To the ninth end.", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "s01098", "u": 7, "field": "emo", "text": "Her son BENEDICT PEMBERTON, 40s, rumpled suit, fidgets beside her.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01098", "u": 9, "field": "emo", "text": "Mother, I can handle it.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01098", "u": 10, "field": "emo", "text": "You can't handle a toaster.", "votes": ["disgust", "disgust", "anger"]}
+{"scene_id": "s01098", "u": 12, "field": "emo", "text": "It was three times, Ben.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01098", "u": 18, "field": "emo", "text": "Page four. Paragraph two.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01098", "u": 34, "field": "to", "text": "He would have hated this.", "votes": [[[1]], [[1]], [["ALL"]]]}
+{"scene_id": "s01098", "u": 40, "field": "emo", "text": "Delphine, last, a sob that turns into a snort.", "votes": ["joy", "sadness", "sadness"]}
+{"scene_id": "s01098", "u": 41, "field": "emo", "text": "They sit in the gentle ruin.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "s01098", "u": 42, "field": "who", "text": "The door opens.", "votes": [[[3]], [], [[3]]]}
+{"scene_id": "s01098", "u": 48, "field": "emo", "text": "Delphine crosses the room and sits on Rosemary's other side.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01100", "u": 13, "field": "emo", "text": "She hums low, tuneless.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01100", "u": 20, "field": "emo", "text": "He lowers his voice.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01100", "u": 24, "field": "emo", "text": "She's the commander. She thinks in hours.", "votes": ["affection", "joy", "joy"]}
+{"scene_id": "s01100", "u": 31, "field": "emo", "text": "The extension?", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "s01100", "u": 32, "field": "emo", "text": "Six more months.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s01100", "u": 34, "field": "emo", "text": "Yasmin sets down the tablet.", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "s01100", "u": 37, "field": "emo", "text": "Is delayed. Yes.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01100", "u": 38, "field": "emo", "text": "And the supply drop?", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01100", "u": 49, "field": "emo", "text": "Iris pauses.", "votes": ["neutral", "surprise", "surprise"]}
+{"scene_id": "s01100", "u": 53, "field": "emo", "text": "She walks away toward the corridor, one hand trailing along the rack.", "votes": ["neutral", "sadness", "sadness"]}
+{"scene_id": "s01100", "u": 55, "field": "emo", "text": "Who was the fourth?", "votes": ["surprise", "surprise", "neutral"]}
+{"scene_id": "s01101", "u": 13, "field": "emo", "text": "I'm trying.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01101", "u": 20, "field": "emo", "text": "Pavel's rifle lifts.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01101", "u": 26, "field": "to", "text": "It's a countdown.", "votes": [[[5]], [[5]], [["ALL"]]]}
+{"scene_id": "s01101", "u": 30, "field": "emo", "text": "Captain? Thank god. We're locked in the sub bay. The door sealed itself.", "votes": ["fear", "fear", "joy"]}
+{"scene_id": "s01101", "u": 32, "field": "emo", "text": "Station Operations. We've been tapping on the hull for an hour.", "votes": ["fear", "fear", "neutral"]}
+{"scene_id": "s01101", "u": 39, "field": "emo", "text": "Luciana stares at the handset.", "votes": ["surprise", "surprise", "fear"]}
+{"scene_id": "s01101", "u": 41, "field": "emo", "text": "At the ceiling, where something taps once, twice, thrice.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01101", "u": 47, "field": "emo", "text": "In the dark, a soft voice laughs, thin and delighted, from the vent above.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01102", "u": 13, "field": "emo", "text": "Marisol, come down.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01102", "u": 16, "field": "emo", "text": "Not unless it floats!", "votes": ["joy", "joy", "anger"]}
+{"scene_id": "s01102", "u": 28, "field": "emo", "text": "She jumps down into his arms.", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "s01103", "u": 13, "field": "who", "text": "The flash burns the room white for an instant: iron frames, wet bricks, and a figure standing against the far wall.", "votes": [[[2]], [[2]], []]}
+{"scene_id": "s01103", "u": 15, "field": "emo", "text": "Artemus lowers the camera.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01103", "u": 52, "field": "emo", "text": "In the white blink: Cordelia on her knees, and a woman in a rotting nightgown holding her ankle, mouth open in a soundless song.", "votes": ["fear", "neutral", "fear"]}
+{"scene_id": "s01104", "u": 6, "field": "emo", "text": "Beside her, a boy, LAZARUS, 14, holds a canteen and keeps his eyes on his boots.", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01105", "u": 8, "field": "emo", "text": "Further back, behind a toppled projector, huddles a civilian in a grease-stained coat: MR. JAMSHID TAVAKOLI, 60s, a projectionist, spectacles cracked.", "votes": ["neutral", "fear", "neutral"]}
+{"scene_id": "s01105", "u": 13, "field": "emo", "text": "Ours?", "votes": ["neutral", "neutral", "fear"]}
+{"scene_id": "s01105", "u": 27, "field": "emo", "text": "I show films here thirty years. I know every board in this roof.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01105", "u": 40, "field": "emo", "text": "I stay.", "votes": ["neutral", "neutral", "sadness"]}
+{"scene_id": "s01105", "u": 44, "field": "emo", "text": "They duck.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01106", "u": 9, "field": "emo", "text": "I missed it.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01106", "u": 14, "field": "to", "text": "That's usually what it is.", "votes": [[[0], [1]], [["ALL"]], [[0], [1]]]}
+{"scene_id": "s01106", "u": 22, "field": "emo", "text": "You're on his side now?", "votes": ["surprise", "anger", "surprise"]}
+{"scene_id": "s01106", "u": 23, "field": "to", "text": "I'm not on anyone's side. I'm reading about a cricket match.", "votes": [[[1]], [["ALL"]], [[1]]]}
+{"scene_id": "s01106", "u": 25, "field": "emo", "text": "Nobody. It rained.", "votes": ["neutral", "joy", "neutral"]}
+{"scene_id": "s01106", "u": 33, "field": "to", "text": "And that's that.", "votes": [[[0], [1]], [["SELF"]], [[0], [1]]]}
+{"scene_id": "s01107", "u": 10, "field": "emo", "text": "Shifts a few inches to make room.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01107", "u": 17, "field": "emo", "text": "He offers her a cracker from his pocket.", "votes": ["neutral", "affection", "affection"]}
+{"scene_id": "s01107", "u": 20, "field": "emo", "text": "She shoves him gently.", "votes": ["joy", "affection", "joy"]}
+{"scene_id": "s01107", "u": 21, "field": "emo", "text": "He shoves back.", "votes": ["joy", "neutral", "joy"]}
+{"scene_id": "s01107", "u": 27, "field": "emo", "text": "Holds out her hand.", "votes": ["neutral", "affection", "affection"]}
+{"scene_id": "s01107", "u": 28, "field": "emo", "text": "He takes it.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01107", "u": 29, "field": "emo", "text": "They climb down together, the song swelling behind them.", "votes": ["affection", "neutral", "joy"]}
+{"scene_id": "s01109", "u": 8, "field": "to", "text": "Check, check.", "votes": [[["SELF"]], [["NONE"]], [["SELF"]]]}
+{"scene_id": "s01109", "u": 11, "field": "emo", "text": "She winces, turns the volume down a notch.", "votes": ["surprise", "surprise", "disgust"]}
+{"scene_id": "s01109", "u": 28, "field": "who", "text": "Then 06.", "votes": [[[0, 1]], [[0, 1]], []]}
+{"scene_id": "s01109", "u": 29, "field": "who", "text": "Then 08.", "votes": [[[0, 1]], [[0, 1]], []]}
+{"scene_id": "s01110", "u": 5, "field": "emo", "text": "CORNELIUS AJAYI-WHITLOCK, 60s, tie loosened, grips the steering wheel with both hands.", "votes": ["fear", "sadness", "fear"]}
+{"scene_id": "s01110", "u": 14, "field": "emo", "text": "A long breath.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01110", "u": 17, "field": "emo", "text": "He lets it.", "votes": ["sadness", "sadness", "neutral"]}
+{"scene_id": "s01110", "u": 22, "field": "emo", "text": "I'm not asking you to come. I'm only telling you where we are. Fourth floor. Bed six. Visiting hours until nine. After that, tell the desk you're family. They'll let you in.", "votes": ["sadness", "sadness", "affection"]}
+{"scene_id": "s01110", "u": 26, "field": "who", "text": "A pause.", "votes": [[[0]], [[0]], []]}
+{"scene_id": "s01110", "u": 27, "field": "emo", "text": "Sing something, Mara. If you want. Anything.", "votes": ["sadness", "affection", "affection"]}
+{"scene_id": "s01110", "u": 28, "field": "emo", "text": "He waits.", "votes": ["neutral", "sadness", "neutral"]}
+{"scene_id": "s01111", "u": 13, "field": "emo", "text": "She's got the wrong keys.", "votes": ["neutral", "neutral", "joy"]}
+{"scene_id": "s01111", "u": 16, "field": "emo", "text": "All five freeze.", "votes": ["fear", "neutral", "neutral"]}
+{"scene_id": "s01111", "u": 26, "field": "emo", "text": "Everyone leaps up.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01111", "u": 28, "field": "emo", "text": "Roz pitches the cake into the air.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "s01111", "u": 31, "field": "who", "text": "He yelps, the pizza flies, the cake lands on Tibby as he tumbles out of the closet.", "votes": [[[8]], [[6, 7], [8]], [[8]]]}
+{"scene_id": "s01111", "u": 36, "field": "emo", "text": "Wrong apartment?", "votes": ["sadness", "sadness", "fear"]}
+{"scene_id": "s01111", "u": 39, "field": "to", "text": "Well. I'll take the pizza.", "votes": [[[8]], [["ALL"]], [[8]]]}
+{"scene_id": "s01112", "u": 8, "field": "emo", "text": "We don't have ten.", "votes": ["fear", "fear", "anger"]}
+{"scene_id": "s01112", "u": 19, "field": "emo", "text": "I can crawl.", "votes": ["anger", "sadness", "anger"]}
+{"scene_id": "s01112", "u": 20, "field": "to", "text": "Nobody's crawling.", "votes": [[[4]], [["ALL"]], [[4]]]}
+{"scene_id": "s01112", "u": 20, "field": "emo", "text": "Nobody's crawling.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01112", "u": 23, "field": "emo", "text": "Desmond opens his mouth to protest.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01112", "u": 25, "field": "emo", "text": "You're the anchor. Don't argue.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01112", "u": 26, "field": "emo", "text": "That's backwards.", "votes": ["neutral", "neutral", "anger"]}
+{"scene_id": "s01113", "u": 7, "field": "emo", "text": "Over by the airlock, DOCTOR MIRIAM BELLAMY, 50s, lifts a medical scanner, and next to her a scruffy teenage stowaway, PIXIE, 15, shivers in a borrowed coat.", "votes": ["neutral", "fear", "fear"]}
+{"scene_id": "s01113", "u": 10, "field": "emo", "text": "Then where is the occupant?", "votes": ["surprise", "fear", "fear"]}
+{"scene_id": "s01113", "u": 28, "field": "emo", "text": "Santiago catches her wrist, gently.", "votes": ["neutral", "neutral", "affection"]}
+{"scene_id": "s01114", "u": 10, "field": "emo", "text": "It's always urgent.", "votes": ["anger", "anger", "sadness"]}
+{"scene_id": "s01114", "u": 12, "field": "who", "text": "The voice continues in muffled bursts.", "votes": [[], [[1]], [[1]]]}
+{"scene_id": "s01114", "u": 15, "field": "emo", "text": "He laughs, quietly.", "votes": ["sadness", "sadness", "joy"]}
+{"scene_id": "s01115", "u": 9, "field": "emo", "text": "Deal me in.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01115", "u": 11, "field": "emo", "text": "I know enough.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01115", "u": 12, "field": "to", "text": "She cheats.", "votes": [[[2]], [[2]], [["ALL"]]]}
+{"scene_id": "s01115", "u": 14, "field": "to", "text": "^She cheats.", "votes": [[[2]], [[2]], [["ALL"]]]}
+{"scene_id": "s01115", "u": 21, "field": "emo", "text": "Both.", "votes": ["joy", "neutral", "neutral"]}
+{"scene_id": "s01115", "u": 30, "field": "emo", "text": "Where's that?", "votes": ["surprise", "neutral", "surprise"]}
+{"scene_id": "s01115", "u": 31, "field": "emo", "text": "Far.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01115", "u": 34, "field": "emo", "text": "Augustine's chords slow into something sweeter.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01115", "u": 37, "field": "emo", "text": "The four of them sit in the green quiet.", "votes": ["joy", "joy", "neutral"]}
+{"scene_id": "s01116", "u": 13, "field": "emo", "text": "It's better than good.", "votes": ["anger", "neutral", "joy"]}
+{"scene_id": "s01116", "u": 18, "field": "emo", "text": "Teddy touches his nose.", "votes": ["surprise", "neutral", "neutral"]}
+{"scene_id": "s01116", "u": 26, "field": "emo", "text": "I gathered.", "votes": ["anger", "neutral", "neutral"]}
+{"scene_id": "s01117", "u": 11, "field": "emo", "text": "Babcia's spoon stops.", "votes": ["surprise", "sadness", "sadness"]}
+{"scene_id": "s01117", "u": 13, "field": "emo", "text": "She doesn't turn.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01117", "u": 27, "field": "emo", "text": "From this.", "votes": ["sadness", "neutral", "sadness"]}
+{"scene_id": "s01117", "u": 30, "field": "emo", "text": "He picks up the spoon and stirs the porridge without eating.", "votes": ["sadness", "neutral", "neutral"]}
+{"scene_id": "s01117", "u": 32, "field": "emo", "text": "Not to me.", "votes": ["affection", "neutral", "affection"]}
+{"scene_id": "s01117", "u": 34, "field": "emo", "text": "No, Felix. It is not bad.", "votes": ["affection", "affection", "sadness"]}
+{"scene_id": "s01117", "u": 37, "field": "emo", "text": "She watches.", "votes": ["affection", "affection", "neutral"]}
+{"scene_id": "s01117", "u": 50, "field": "emo", "text": "He smiles back, small.", "votes": ["affection", "affection", "joy"]}
+{"scene_id": "s01118", "u": 11, "field": "emo", "text": "She stops.", "votes": ["neutral", "surprise", "neutral"]}
+{"scene_id": "s01118", "u": 17, "field": "emo", "text": "Three entries, same handwriting. Same ink. Same hour. But the first two were written by a man who is alive, and the third by a man who isn't.", "votes": ["surprise", "surprise", "fear"]}
+{"scene_id": "s01118", "u": 20, "field": "emo", "text": "\"He did not fall.\"", "votes": ["surprise", "fear", "fear"]}
+{"scene_id": "s01118", "u": 29, "field": "emo", "text": "You tell me, Inspector. You're the one in the tower.", "votes": ["neutral", "anger", "fear"]}
+{"scene_id": "s01118", "u": 33, "field": "emo", "text": "She looks at the ceiling, at the spiral stair, and then at the pen in her hand.", "votes": ["neutral", "fear", "fear"]}

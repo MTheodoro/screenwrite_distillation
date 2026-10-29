@@ -1,0 +1,29 @@
+{
+"scene_id": "s02273",
+"cast": {"TONINO FERRARI": "TONINO", "TONINO": "TONINO", "MARCELLO DELUCA": "MARCELLO", "MARCELLO": "MARCELLO", "SIGNORA PAOLA": "PAOLA", "PAOLA": "PAOLA", "LUCA": "LUCA"},
+"beats": [1, 8, 10, 14, 17, 19, 20, 21],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"4": {"t": "D", "who": ["TONINO"], "emo": {}, "c": 1.0},
+"5": {"t": "D", "who": ["MARCELLO"], "emo": {}, "c": 1.0},
+"6": {"t": "D", "who": ["PAOLA"], "emo": {}, "c": 1.0},
+"7": {"t": "D", "who": ["LUCA"], "emo": {}, "c": 1.0},
+"8": {"to": ["MARCELLO"], "emo": ["anger", 0.5], "c": 0.9},
+"9": {"to": ["TONINO"], "emo": ["neutral", 0.2], "c": 0.9},
+"10": {"t": "A", "who": ["TONINO"], "emo": {}, "c": 1.0},
+"11": {"t": "A", "who": ["TONINO"], "emo": {}, "c": 1.0},
+"12": {"t": "A", "who": ["TONINO"], "emo": {}, "c": 1.0},
+"13": {"t": "A", "who": ["TONINO"], "emo": {}, "c": 1.0},
+"14": {"to": ["LUCA"], "emo": ["neutral", 0.3], "c": 0.9},
+"15": {"t": "A", "who": ["LUCA"], "emo": {}, "c": 1.0},
+"16": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"17": {"t": "A", "who": ["TONINO"], "emo": {"TONINO": ["anger", 0.6]}, "c": 1.0},
+"18": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"19": {"t": "A", "who": ["TONINO"], "emo": {"TONINO": ["anger", 0.6]}, "c": 1.0},
+"20": {"t": "A", "who": ["TONINO"], "emo": {}, "c": 1.0},
+"21": {"t": "A", "who": ["MARCELLO"], "emo": {"MARCELLO": ["surprise", 0.5]}, "c": 1.0}
+},
+"tension": [10, 35, 30, 25, 70, 75, 60, 55]
+}

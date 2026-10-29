@@ -1,0 +1,31 @@
+{
+  "scene_id": "s00666",
+  "cast": {"DARNELL WITHERSPOON": "DARNELL WITHERSPOON", "DARNELL": "DARNELL WITHERSPOON", "ODESSA WITHERSPOON-LU": "ODESSA WITHERSPOON-LU", "ODESSA": "ODESSA WITHERSPOON-LU", "LITTLE MILO WITHERSPOON": "LITTLE MILO WITHERSPOON", "MILO": "LITTLE MILO WITHERSPOON"},
+  "beats": [1, 5, 8, 11, 14, 17, 21, 22, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["DARNELL WITHERSPOON", "ODESSA WITHERSPOON-LU"], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["LITTLE MILO WITHERSPOON"], "emo": {}, "c": 0.9},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["DARNELL WITHERSPOON"], "emo": {"DARNELL WITHERSPOON": ["fear", 0.5]}, "c": 0.9},
+    "9": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["ODESSA WITHERSPOON-LU"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["LITTLE MILO WITHERSPOON"], "emo": {}, "c": 0.9},
+    "12": {"t": "A", "who": ["DARNELL WITHERSPOON"], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"to": ["LITTLE MILO WITHERSPOON"], "emo": ["fear", 0.4], "c": 0.9},
+    "15": {"to": ["DARNELL WITHERSPOON"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"to": ["LITTLE MILO WITHERSPOON"], "emo": ["fear", 0.4], "c": 0.9},
+    "17": {"t": "A", "who": ["LITTLE MILO WITHERSPOON"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["LITTLE MILO WITHERSPOON"], "emo": {}, "c": 0.9},
+    "19": {"t": "A", "who": ["LITTLE MILO WITHERSPOON"], "emo": {}, "c": 0.9},
+    "20": {"t": "A", "who": ["LITTLE MILO WITHERSPOON"], "emo": {"LITTLE MILO WITHERSPOON": ["fear", 0.6]}, "c": 0.9},
+    "21": {"to": ["DARNELL WITHERSPOON"], "emo": ["fear", 0.7], "c": 0.9},
+    "22": {"t": "A", "who": ["ODESSA WITHERSPOON-LU"], "emo": {"ODESSA WITHERSPOON-LU": ["fear", 0.6]}, "c": 0.9},
+    "23": {"t": "A", "who": ["DARNELL WITHERSPOON"], "emo": {}, "c": 0.95}
+  },
+  "tension": [15, 20, 40, 45, 50, 60, 75, 65, 70]
+}

@@ -1,0 +1,31 @@
+{
+  "scene_id": "s02282",
+  "cast": {"EZEKIEL FARTHING": "EZEKIEL FARTHING", "EZEKIEL": "EZEKIEL FARTHING", "PRUDENCE ASHWORTH": "PRUDENCE ASHWORTH", "PRUDENCE": "PRUDENCE ASHWORTH"},
+  "beats": [1, 4, 8, 9, 16, 19, 21, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "D", "who": ["EZEKIEL FARTHING"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["EZEKIEL FARTHING"], "emo": {}, "c": 0.9},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "8": {"t": "D", "who": ["PRUDENCE ASHWORTH"], "emo": {}, "c": 0.95},
+    "9": {"to": ["EZEKIEL FARTHING"], "emo": ["neutral", 0.4], "c": 0.9},
+    "10": {"to": ["PRUDENCE ASHWORTH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["EZEKIEL FARTHING"], "emo": ["neutral", 0.5], "c": 0.9},
+    "12": {"to": ["PRUDENCE ASHWORTH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "13": {"to": ["EZEKIEL FARTHING"], "emo": ["neutral", 0.5], "c": 0.9},
+    "14": {"to": ["PRUDENCE ASHWORTH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["EZEKIEL FARTHING"], "emo": ["anger", 0.4], "c": 0.85},
+    "16": {"t": "A", "who": ["EZEKIEL FARTHING"], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["EZEKIEL FARTHING"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["EZEKIEL FARTHING"], "emo": {}, "c": 0.9},
+    "19": {"to": ["PRUDENCE ASHWORTH"], "emo": ["joy", 0.3], "c": 0.9},
+    "20": {"to": ["EZEKIEL FARTHING"], "emo": ["neutral", 0.4], "c": 0.9},
+    "21": {"to": ["PRUDENCE ASHWORTH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "22": {"to": ["EZEKIEL FARTHING"], "emo": ["fear", 0.4], "c": 0.9},
+    "23": {"to": ["PRUDENCE ASHWORTH"], "emo": ["neutral", 0.4], "c": 0.9}
+  },
+  "tension": [5, 8, 20, 25, 30, 20, 35, 50]
+}

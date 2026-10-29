@@ -1,0 +1,29 @@
+{
+"scene_id": "s02105",
+"cast": {"ILARIA BONACCORSI": "ILARIA BONACCORSI", "ILARIA": "ILARIA BONACCORSI", "GASTON FEUERSTEIN": "GASTON FEUERSTEIN", "GASTON": "GASTON FEUERSTEIN", "NKEM OKONJO-DREW": "NKEM OKONJO-DREW", "NKEM": "NKEM OKONJO-DREW", "BRYNMOR LLOYD-PRICE": "BRYNMOR LLOYD-PRICE", "BRYNMOR": "BRYNMOR LLOYD-PRICE", "ADELHEID MARQUARDT": "ADELHEID MARQUARDT", "ADELHEID": "ADELHEID MARQUARDT"},
+"beats": [1, 5, 9, 11, 13, 17, 20],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"5": {"t": "A", "who": ["ILARIA BONACCORSI"], "emo": {}, "c": 1.0},
+"6": {"t": "A", "who": ["GASTON FEUERSTEIN"], "emo": {}, "c": 1.0},
+"7": {"t": "A", "who": ["NKEM OKONJO-DREW"], "emo": {}, "c": 1.0},
+"8": {"t": "A", "who": ["BRYNMOR LLOYD-PRICE", "ADELHEID MARQUARDT"], "emo": {}, "c": 1.0},
+"9": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"10": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"11": {"t": "A", "who": ["GASTON FEUERSTEIN", "ILARIA BONACCORSI"], "emo": {}, "c": 1.0},
+"12": {"t": "A", "who": ["BRYNMOR LLOYD-PRICE", "NKEM OKONJO-DREW"], "emo": {}, "c": 1.0},
+"13": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"14": {"t": "A", "who": ["ILARIA BONACCORSI", "GASTON FEUERSTEIN", "NKEM OKONJO-DREW", "BRYNMOR LLOYD-PRICE", "ADELHEID MARQUARDT"], "emo": {}, "c": 1.0},
+"15": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"16": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"17": {"t": "A", "who": ["ADELHEID MARQUARDT"], "emo": {}, "c": 1.0},
+"18": {"t": "A", "who": ["NKEM OKONJO-DREW"], "emo": {}, "c": 1.0},
+"19": {"t": "A", "who": ["ILARIA BONACCORSI", "GASTON FEUERSTEIN", "NKEM OKONJO-DREW", "BRYNMOR LLOYD-PRICE", "ADELHEID MARQUARDT"], "emo": {}, "c": 1.0},
+"20": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"21": {"t": "A", "who": ["ADELHEID MARQUARDT"], "emo": {"ADELHEID MARQUARDT": ["joy", 0.4]}, "c": 1.0}
+},
+"tension": [5, 10, 15, 20, 50, 75, 35]
+}

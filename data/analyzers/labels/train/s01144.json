@@ -1,0 +1,31 @@
+{
+"scene_id": "s01144",
+"cast": {"ELIZA PRYCE": "ELIZA PRYCE", "ELIZA": "ELIZA PRYCE", "MISS PRYCE": "ELIZA PRYCE", "JASPER": "JASPER", "MRS. WHITLOCK": "MRS. WHITLOCK"},
+"beats": [1, 5, 8, 13, 16, 18, 20, 22],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["ELIZA PRYCE"], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["JASPER"], "emo": {}, "c": 0.95},
+"7": {"t": "A", "who": ["MRS. WHITLOCK"], "emo": {}, "c": 0.95},
+"8": {"to": ["JASPER"], "emo": ["neutral", 0.3], "c": 0.9},
+"9": {"to": ["ELIZA PRYCE"], "emo": ["neutral", 0.2], "c": 0.9},
+"10": {"to": ["MRS. WHITLOCK"], "emo": ["neutral", 0.3], "c": 0.9},
+"11": {"to": ["ELIZA PRYCE"], "emo": ["fear", 0.3], "c": 0.9},
+"12": {"to": ["MRS. WHITLOCK"], "emo": ["neutral", 0.2], "c": 0.9},
+"13": {"t": "A", "who": ["MRS. WHITLOCK"], "emo": {}, "c": 0.95},
+"14": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"15": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"16": {"to": ["ELIZA PRYCE"], "emo": ["fear", 0.6], "c": 0.9},
+"17": {"to": ["MRS. WHITLOCK"], "emo": ["neutral", 0.3], "c": 0.9},
+"18": {"to": ["ELIZA PRYCE"], "emo": ["fear", 0.6], "c": 0.9},
+"19": {"to": ["MRS. WHITLOCK"], "emo": ["neutral", 0.3], "c": 0.9},
+"20": {"to": ["ELIZA PRYCE"], "emo": ["neutral", 0.2], "c": 0.9},
+"21": {"to": ["JASPER"], "emo": ["neutral", 0.3], "c": 0.9},
+"22": {"t": "A", "who": ["MRS. WHITLOCK"], "emo": {}, "c": 0.95},
+"23": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+},
+"tension": [5, 10, 15, 30, 55, 60, 40, 35]
+}

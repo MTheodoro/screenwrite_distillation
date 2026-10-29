@@ -1,0 +1,23 @@
+{
+  "scene_id": "s00018",
+  "cast": {"GRANDPA EZEKIEL": "EZEKIEL", "EZEKIEL": "EZEKIEL", "PIPPA": "PIPPA", "JUNIOR": "JUNIOR"},
+  "beats": [1,4,8,12,14],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["EZEKIEL", "PIPPA", "JUNIOR"], "emo": {}, "c": 0.9},
+    "4": {"to": ["EZEKIEL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "5": {"to": ["PIPPA"], "emo": ["neutral", 0.2], "c": 0.9},
+    "6": {"to": ["EZEKIEL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "7": {"to": ["PIPPA"], "emo": ["neutral", 0.2], "c": 0.9},
+    "8": {"to": ["EZEKIEL"], "emo": ["anger", 0.2], "c": 0.9},
+    "9": {"to": ["JUNIOR"], "emo": ["neutral", 0.2], "c": 0.9},
+    "10": {"to": ["EZEKIEL"], "emo": ["joy", 0.2], "c": 0.9},
+    "11": {"to": ["PIPPA"], "emo": ["neutral", 0.2], "c": 0.9},
+    "12": {"to": ["EZEKIEL"], "emo": ["anger", 0.2], "c": 0.9},
+    "13": {"to": ["JUNIOR"], "emo": ["neutral", 0.2], "c": 0.9},
+    "14": {"to": ["EZEKIEL"], "emo": ["fear", 0.3], "c": 0.9},
+    "15": {"to": ["PIPPA"], "emo": ["neutral", 0.2], "c": 0.9}
+  },
+  "tension": [3,5,5,8,10]
+}

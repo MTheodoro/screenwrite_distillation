@@ -1,0 +1,28 @@
+{
+  "scene_id": "s00820",
+  "cast": {"INGRID HALVORSEN": "INGRID HALVORSEN", "INGRID": "INGRID HALVORSEN", "TEODOR BRANICKI": "TEODOR BRANICKI", "TEODOR": "TEODOR BRANICKI", "BASH (BASHIR) QADIR": "BASHIR QADIR", "BASH": "BASHIR QADIR", "BASHIR": "BASHIR QADIR", "QADIR": "BASHIR QADIR", "DESTINY OKAFOR-REYES": "DESTINY OKAFOR-REYES", "DESTINY": "DESTINY OKAFOR-REYES"},
+  "beats": [1, 6, 9, 11, 13, 15, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "A", "who": ["INGRID HALVORSEN"], "emo": {}, "c": 0.9},
+    "3": {"t": "A", "who": ["TEODOR BRANICKI"], "emo": {}, "c": 0.98},
+    "4": {"t": "A", "who": ["BASHIR QADIR"], "emo": {}, "c": 0.98},
+    "5": {"t": "A", "who": ["BASHIR QADIR"], "emo": {"BASHIR QADIR": ["fear", 0.4]}, "c": 0.9},
+    "6": {"to": ["INGRID HALVORSEN"], "emo": ["neutral", 0.3], "c": 0.95},
+    "7": {"t": "A", "who": ["INGRID HALVORSEN"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["INGRID HALVORSEN"], "emo": {}, "c": 0.98},
+    "9": {"to": ["INGRID HALVORSEN"], "emo": ["neutral", 0.3], "c": 0.95},
+    "10": {"to": ["BASHIR QADIR"], "emo": ["anger", 0.2], "c": 0.9},
+    "11": {"t": "A", "who": ["INGRID HALVORSEN"], "emo": {}, "c": 0.98},
+    "12": {"t": "A", "who": ["INGRID HALVORSEN", "BASHIR QADIR"], "emo": {}, "c": 0.7},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "15": {"t": "A", "who": ["DESTINY OKAFOR-REYES"], "emo": {}, "c": 0.98},
+    "16": {"t": "A", "who": ["DESTINY OKAFOR-REYES"], "emo": {}, "c": 0.98},
+    "17": {"to": ["ALL"], "emo": ["anger", 0.3], "c": 0.8},
+    "18": {"t": "A", "who": ["TEODOR BRANICKI"], "emo": {}, "c": 0.98},
+    "19": {"t": "A", "who": ["INGRID HALVORSEN"], "emo": {}, "c": 0.98},
+    "20": {"to": ["DESTINY OKAFOR-REYES"], "emo": ["neutral", 0.3], "c": 0.7}
+  },
+  "tension": [15, 30, 35, 60, 20, 30, 25]
+}

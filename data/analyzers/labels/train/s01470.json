@@ -1,0 +1,26 @@
+{
+  "scene_id": "s01470",
+  "cast": {"SERGEANT OKAFOR": "OKAFOR", "^OKAFOR": "OKAFOR", "OKAFOR": "OKAFOR", "CORPORAL LINDQVIST": "LINDQVIST", "LINDQVIST": "LINDQVIST", "PRIVATE BRANDT": "BRANDT", "BRANDT": "BRANDT", "FRATE ANSELMO": "ANSELMO", "ANSELMO": "ANSELMO", "PRIVATE TAKAHASHI": "TAKAHASHI", "TAKAHASHI": "TAKAHASHI"},
+  "beats": [1, 4, 6, 8, 10, 12, 14, 16, 17],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "D", "who": ["OKAFOR"], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["LINDQVIST"], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["BRANDT", "ANSELMO"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["TAKAHASHI"], "emo": {}, "c": 0.95},
+    "6": {"to": ["ALL"], "emo": ["joy", 0.5], "c": 0.9},
+    "7": {"to": ["OKAFOR"], "emo": ["joy", 0.3], "c": 0.9},
+    "8": {"to": ["ANSELMO"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"to": ["BRANDT"], "emo": ["neutral", 0.2], "c": 0.85},
+    "10": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.95},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "12": {"t": "A", "who": ["OKAFOR", "LINDQVIST", "BRANDT", "TAKAHASHI"], "emo": {"TAKAHASHI": ["fear", 0.6]}, "c": 0.9},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "14": {"to": ["ALL"], "emo": ["fear", 0.8], "c": 0.9},
+    "15": {"to": ["ALL"], "emo": ["fear", 0.7], "c": 0.9},
+    "16": {"to": ["ALL"], "emo": ["fear", 0.9], "c": 0.9},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["OKAFOR", "BRANDT", "LINDQVIST", "ANSELMO", "TAKAHASHI"], "emo": {}, "c": 0.9}
+  },
+  "tension": [5, 10, 15, 20, 30, 45, 65, 85, 90]
+}

@@ -1,0 +1,38 @@
+{
+  "scene_id": "s02432",
+  "cast": {
+    "LYRA THISTLEWOOD": "LYRA THISTLEWOOD",
+    "LYRA": "LYRA THISTLEWOOD",
+    "ORRIN ASHGROVE": "ORRIN ASHGROVE",
+    "ORRIN": "ORRIN ASHGROVE"
+  },
+  "beats": [1, 5, 7, 8, 11, 15, 18, 21, 22, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["LYRA THISTLEWOOD"], "emo": {}, "c": 0.95},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["ORRIN ASHGROVE"], "emo": {}, "c": 0.95},
+    "8": {"to": ["LYRA THISTLEWOOD"], "emo": ["anger", 0.3], "c": 0.95},
+    "9": {"to": ["ORRIN ASHGROVE"], "emo": ["anger", 0.2], "c": 0.9},
+    "10": {"to": ["LYRA THISTLEWOOD"], "emo": ["anger", 0.3], "c": 0.9},
+    "11": {"t": "A", "who": ["LYRA THISTLEWOOD"], "emo": {}, "c": 0.95},
+    "12": {"to": ["ORRIN ASHGROVE"], "emo": ["sadness", 0.3], "c": 0.9},
+    "13": {"to": ["LYRA THISTLEWOOD"], "emo": ["anger", 0.4], "c": 0.9},
+    "14": {"to": ["ORRIN ASHGROVE"], "emo": ["anger", 0.5], "c": 0.9},
+    "15": {"t": "A", "who": ["LYRA THISTLEWOOD", "ORRIN ASHGROVE"], "emo": {}, "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["ORRIN ASHGROVE"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["ORRIN ASHGROVE"], "emo": {}, "c": 0.95},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "21": {"to": ["LYRA THISTLEWOOD"], "emo": ["neutral", 0.3], "c": 0.95},
+    "22": {"t": "A", "who": ["LYRA THISTLEWOOD"], "emo": {}, "c": 0.95},
+    "23": {"t": "A", "who": ["LYRA THISTLEWOOD"], "emo": {"LYRA THISTLEWOOD": ["joy", 0.3]}, "c": 0.95},
+    "24": {"to": ["ORRIN ASHGROVE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "25": {"to": ["LYRA THISTLEWOOD"], "emo": ["joy", 0.2], "c": 0.9}
+  },
+  "tension": [5, 15, 25, 30, 35, 50, 45, 30, 20, 15]
+}

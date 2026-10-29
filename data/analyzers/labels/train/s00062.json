@@ -1,0 +1,32 @@
+{
+"scene_id": "s00062",
+"cast": {"BRYNHILDE \"BRUISER\" OKONKWO-LARSSON": "BRUISER", "BRUISER": "BRUISER", "JOSEFINA ABERNATHY-SILVA": "JOSEFINA", "JOSEFINA": "JOSEFINA", "HORTENSIA \"HORTY\" BELLAMY-OKORO": "HORTY", "HORTY": "HORTY"},
+"beats": [1, 8, 16, 18, 21],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["BRUISER"], "emo": {"BRUISER": ["anger", 0.3]}, "c": 0.9},
+"6": {"t": "A", "who": ["JOSEFINA"], "emo": {}, "c": 0.9},
+"7": {"t": "A", "who": ["HORTY"], "emo": {}, "c": 0.9},
+"8": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+"9": {"to": ["HORTY"], "emo": ["neutral", 0.2], "c": 0.9},
+"10": {"to": ["JOSEFINA"], "emo": ["neutral", 0.2], "c": 0.95},
+"11": {"to": ["HORTY"], "emo": ["fear", 0.2], "c": 0.9},
+"12": {"to": ["JOSEFINA"], "emo": ["neutral", 0.2], "c": 0.95},
+"13": {"to": ["HORTY"], "emo": ["fear", 0.4], "c": 0.9},
+"14": {"to": ["HORTY"], "emo": ["neutral", 0.2], "c": 0.9},
+"15": {"to": ["JOSEFINA"], "emo": ["neutral", 0.3], "c": 0.9},
+"16": {"t": "A", "who": ["HORTY"], "emo": {"HORTY": ["affection", 0.4]}, "c": 0.8},
+"17": {"t": "A", "who": ["BRUISER"], "emo": {}, "c": 0.9},
+"18": {"to": ["JOSEFINA"], "emo": ["affection", 0.4], "c": 0.9},
+"19": {"to": ["BRUISER"], "emo": ["neutral", 0.3], "c": 0.9},
+"20": {"to": ["JOSEFINA"], "emo": ["affection", 0.3], "c": 0.9},
+"21": {"t": "A", "who": ["BRUISER", "JOSEFINA"], "emo": {"BRUISER": ["affection", 0.4], "JOSEFINA": ["affection", 0.4]}, "c": 0.85},
+"22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"23": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"24": {"t": "A", "who": ["BRUISER", "JOSEFINA", "HORTY"], "emo": {}, "c": 0.9}
+},
+"tension": [10, 30, 35, 25, 45]
+}

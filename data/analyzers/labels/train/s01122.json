@@ -1,0 +1,33 @@
+{
+"scene_id": "s01122",
+"cast": {"DEZ OKAFOR": "DEZ OKAFOR", "DEZ": "DEZ OKAFOR", "LIN HUA": "LIN HUA", "LIN": "LIN HUA", "GRANDPA TSUBASA": "TSUBASA", "TSUBASA": "TSUBASA", "REFEREE BARNABY": "BARNABY", "BARNABY": "BARNABY"},
+"beats": [1, 4, 8, 10, 12, 15, 17, 20, 23, 25],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "A", "who": ["DEZ OKAFOR"], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["LIN HUA"], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["TSUBASA"], "emo": {}, "c": 0.95},
+"7": {"t": "A", "who": ["BARNABY"], "emo": {}, "c": 0.95},
+"8": {"to": ["LIN HUA"], "emo": ["neutral", 0.4], "c": 0.9},
+"9": {"to": ["LIN HUA"], "emo": ["joy", 0.2], "c": 0.85},
+"10": {"to": ["DEZ OKAFOR"], "emo": ["anger", 0.5], "c": 0.9},
+"11": {"to": ["LIN HUA"], "emo": ["neutral", 0.3], "c": 0.85},
+"12": {"t": "A", "who": ["DEZ OKAFOR"], "emo": {}, "c": 0.95},
+"13": {"t": "A", "who": ["LIN HUA"], "emo": {}, "c": 0.95},
+"14": {"t": "A", "who": ["DEZ OKAFOR", "LIN HUA"], "emo": {}, "c": 0.9},
+"15": {"to": ["LIN HUA"], "emo": ["affection", 0.4], "c": 0.85},
+"16": {"to": ["LIN HUA"], "emo": ["neutral", 0.2], "c": 0.8},
+"17": {"to": ["DEZ OKAFOR"], "emo": ["anger", 0.6], "c": 0.9},
+"18": {"to": ["LIN HUA"], "emo": ["neutral", 0.3], "c": 0.85},
+"19": {"to": ["DEZ OKAFOR"], "emo": ["anger", 0.6], "c": 0.9},
+"20": {"t": "A", "who": ["DEZ OKAFOR"], "emo": {}, "c": 0.95},
+"21": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"23": {"t": "A", "who": ["BARNABY"], "emo": {}, "c": 0.95},
+"24": {"t": "A", "who": ["TSUBASA"], "emo": {"TSUBASA": ["fear", 0.2]}, "c": 0.9},
+"25": {"to": ["BARNABY"], "emo": ["fear", 0.3], "c": 0.85}
+},
+"tension": [10, 15, 25, 30, 25, 20, 35, 55, 60, 65]
+}

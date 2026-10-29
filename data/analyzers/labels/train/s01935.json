@@ -1,0 +1,41 @@
+{
+  "scene_id": "s01935",
+  "cast": {
+    "WYNDRA": "WYNDRA",
+    "SIR OSRIC": "OSRIC",
+    "OSRIC": "OSRIC",
+    "THISBE": "THISBE",
+    "GRIMBOLD": "GRIMBOLD",
+    "MARROW": "MARROW"
+  },
+  "beats": [1, 4, 6, 9, 11, 14, 17, 19, 21, 24, 26],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["WYNDRA"], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["OSRIC"], "emo": {}, "c": 1.0},
+    "6": {"t": "A", "who": ["THISBE"], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["GRIMBOLD"], "emo": {}, "c": 1.0},
+    "8": {"t": "A", "who": ["MARROW"], "emo": {}, "c": 1.0},
+    "9": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.8},
+    "10": {"t": "A", "who": ["WYNDRA"], "emo": {}, "c": 1.0},
+    "11": {"t": "A", "who": ["OSRIC"], "emo": {"OSRIC": ["anger", 0.3]}, "c": 0.8},
+    "12": {"t": "A", "who": ["WYNDRA"], "emo": {}, "c": 1.0},
+    "13": {"t": "A", "who": ["GRIMBOLD"], "emo": {}, "c": 0.9},
+    "14": {"t": "A", "who": ["MARROW"], "emo": {}, "c": 1.0},
+    "15": {"t": "A", "who": ["THISBE"], "emo": {}, "c": 1.0},
+    "16": {"t": "A", "who": ["MARROW"], "emo": {}, "c": 1.0},
+    "17": {"t": "A", "who": ["GRIMBOLD", "OSRIC"], "emo": {}, "c": 0.9},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "19": {"to": ["ALL"], "emo": ["anger", 0.5], "c": 0.9},
+    "20": {"to": ["ALL"], "emo": ["neutral", 0.5], "c": 0.9},
+    "21": {"t": "A", "who": ["WYNDRA"], "emo": {}, "c": 1.0},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "24": {"t": "A", "who": ["MARROW"], "emo": {}, "c": 1.0},
+    "25": {"t": "A", "who": ["GRIMBOLD"], "emo": {}, "c": 1.0},
+    "26": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.8}
+  },
+  "tension": [2, 10, 15, 20, 35, 45, 50, 55, 40, 30, 20]
+}

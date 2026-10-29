@@ -1,0 +1,19 @@
+{
+  "scene_id": "s00679",
+  "cast": {"HALVARD EIDE": "HALVARD EIDE", "HALVARD": "HALVARD EIDE", "SUNNIVA ROE": "SUNNIVA ROE", "SUNNIVA": "SUNNIVA ROE", "BROCK DILLARD": "BROCK DILLARD", "BROCK": "BROCK DILLARD", "INES CALLOWAY": "INES CALLOWAY", "INES": "INES CALLOWAY", "TEAGUE": "TEAGUE"},
+  "beats": [1, 7, 8, 9, 10, 11],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["HALVARD EIDE"], "emo": {}, "c": 0.9},
+    "4": {"t": "D", "who": ["SUNNIVA ROE"], "emo": {}, "c": 0.9},
+    "5": {"t": "D", "who": ["BROCK DILLARD", "INES CALLOWAY", "TEAGUE"], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["HALVARD EIDE", "SUNNIVA ROE", "BROCK DILLARD", "INES CALLOWAY"], "emo": {}, "c": 0.9},
+    "7": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["HALVARD EIDE"], "emo": ["fear", 0.3], "c": 0.9},
+    "9": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.9},
+    "10": {"t": "A", "who": ["TEAGUE"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["BROCK DILLARD"], "emo": {}, "c": 0.8}
+  },
+  "tension": [10, 25, 30, 50, 55, 70]
+}

@@ -1,0 +1,38 @@
+{
+  "scene_id": "s00306",
+  "cast": {
+    "OTIS BRAITHWAITE-NKOSI": "OTIS",
+    "OTIS": "OTIS",
+    "BRAITHWAITE-NKOSI": "OTIS",
+    "LEONTYNE \"LEO\" AMAECHI-DAHL": "LEO",
+    "LEO": "LEO",
+    "AMAECHI-DAHL": "LEO"
+  },
+  "beats": [1, 4, 6, 9, 11, 12, 15, 16, 18, 20, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["OTIS"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["LEO"], "emo": {}, "c": 0.95},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "9": {"to": ["LEO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["OTIS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"t": "A", "who": ["OTIS", "LEO"], "emo": {}, "c": 0.9},
+    "12": {"to": ["LEO"], "emo": ["neutral", 0.4], "c": 0.9},
+    "13": {"to": ["OTIS"], "emo": ["anger", 0.3], "c": 0.9},
+    "14": {"to": ["LEO"], "emo": ["neutral", 0.4], "c": 0.9},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "16": {"t": "A", "who": ["LEO"], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["OTIS"], "emo": {}, "c": 0.9},
+    "18": {"to": ["OTIS"], "emo": ["neutral", 0.2], "c": 0.9},
+    "19": {"to": ["LEO"], "emo": ["affection", 0.3], "c": 0.9},
+    "20": {"to": ["OTIS"], "emo": ["affection", 0.3], "c": 0.9},
+    "21": {"to": ["LEO"], "emo": ["affection", 0.4], "c": 0.9},
+    "22": {"t": "A", "who": ["LEO"], "emo": {"LEO": ["joy", 0.4]}, "c": 0.9},
+    "23": {"t": "A", "who": ["OTIS"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 5, 5, 10, 15, 20, 20, 25, 15, 10, 5]
+}

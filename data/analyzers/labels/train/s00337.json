@@ -1,0 +1,31 @@
+{
+  "scene_id": "s00337",
+  "cast": {"CELESTE ARMITAGE": "CELESTE ARMITAGE", "CELESTE": "CELESTE ARMITAGE", "DOMINIC VARGA": "DOMINIC VARGA", "DOMINIC": "DOMINIC VARGA", "CAPTAIN OYELARAN": "CAPTAIN OYELARAN", "DECKHAND SUNNY": "DECKHAND SUNNY", "HARBORMASTER": "HARBORMASTER"},
+  "beats": [1, 2, 6, 8, 11, 15, 18, 21, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "2": {"t": "A", "who": ["CELESTE ARMITAGE"], "emo": {}, "c": 1},
+    "3": {"t": "A", "who": ["DOMINIC VARGA"], "emo": {}, "c": 1},
+    "4": {"t": "A", "who": ["CAPTAIN OYELARAN"], "emo": {}, "c": 1},
+    "5": {"t": "A", "who": ["DECKHAND SUNNY"], "emo": {"DECKHAND SUNNY": ["joy", 0.4]}, "c": 0.9},
+    "6": {"to": ["CAPTAIN OYELARAN"], "emo": ["neutral", 0.1], "c": 0.9},
+    "7": {"to": ["HARBORMASTER"], "emo": ["neutral", 0.1], "c": 0.9},
+    "8": {"t": "A", "who": ["DOMINIC VARGA"], "emo": {}, "c": 1},
+    "9": {"t": "A", "who": ["CELESTE ARMITAGE"], "emo": {}, "c": 1},
+    "10": {"t": "A", "who": ["DOMINIC VARGA"], "emo": {"DOMINIC VARGA": ["affection", 0.5]}, "c": 0.9},
+    "11": {"to": ["DOMINIC VARGA"], "emo": ["anger", 0.5], "c": 0.95},
+    "12": {"to": ["CELESTE ARMITAGE"], "emo": ["sadness", 0.4], "c": 0.9},
+    "13": {"to": ["CAPTAIN OYELARAN"], "emo": ["neutral", 0.1], "c": 0.9},
+    "14": {"to": ["HARBORMASTER"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"t": "A", "who": ["CELESTE ARMITAGE"], "emo": {"CELESTE ARMITAGE": ["joy", 0.6]}, "c": 1},
+    "16": {"t": "A", "who": ["DOMINIC VARGA"], "emo": {"DOMINIC VARGA": ["joy", 0.5]}, "c": 1},
+    "17": {"t": "A", "who": ["DECKHAND SUNNY"], "emo": {"DECKHAND SUNNY": ["surprise", 0.4]}, "c": 1},
+    "18": {"to": ["CELESTE ARMITAGE"], "emo": ["affection", 0.5], "c": 0.95},
+    "19": {"to": ["DOMINIC VARGA"], "emo": ["neutral", 0.3], "c": 0.95},
+    "20": {"to": ["CELESTE ARMITAGE"], "emo": ["affection", 0.3], "c": 0.9},
+    "21": {"to": ["DOMINIC VARGA"], "emo": ["sadness", 0.5], "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "23": {"t": "A", "who": ["DOMINIC VARGA", "CELESTE ARMITAGE", "CAPTAIN OYELARAN", "DECKHAND SUNNY"], "emo": {"DOMINIC VARGA": ["affection", 0.6], "CELESTE ARMITAGE": ["affection", 0.5]}, "c": 0.9}
+  },
+  "tension": [5, 8, 15, 30, 40, 20, 30, 45, 35]
+}

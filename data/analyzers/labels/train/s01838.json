@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01838",
+  "cast": {"THEODORA \"TEDDY\" LUND": "TEDDY LUND", "TEDDY": "TEDDY LUND", "ARMAND BELLWETHER": "ARMAND BELLWETHER", "ARMAND": "ARMAND BELLWETHER", "CORINNE": "CORINNE", "OLD MR. BELLWETHER": "OLD MR. BELLWETHER"},
+  "beats": [1, 4, 7, 15, 18, 19, 21, 23, 25],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["TEDDY LUND"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["ARMAND BELLWETHER"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["CORINNE", "OLD MR. BELLWETHER"], "emo": {}, "c": 0.9},
+    "7": {"to": ["ARMAND BELLWETHER"], "emo": ["fear", 0.3], "c": 0.95},
+    "8": {"to": ["TEDDY LUND"], "emo": ["anger", 0.2], "c": 0.95},
+    "9": {"to": ["ARMAND BELLWETHER"], "emo": ["joy", 0.3], "c": 0.95},
+    "10": {"to": ["TEDDY LUND"], "emo": ["joy", 0.3], "c": 0.95},
+    "11": {"to": ["TEDDY LUND"], "emo": ["anger", 0.3], "c": 0.95},
+    "12": {"to": ["CORINNE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "13": {"to": ["TEDDY LUND"], "emo": ["anger", 0.3], "c": 0.95},
+    "14": {"to": ["CORINNE"], "emo": ["joy", 0.2], "c": 0.95},
+    "15": {"t": "A", "who": ["ARMAND BELLWETHER"], "emo": {}, "c": 0.95},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["TEDDY LUND", "ARMAND BELLWETHER"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["OLD MR. BELLWETHER"], "emo": {}, "c": 0.95},
+    "19": {"to": ["OLD MR. BELLWETHER"], "emo": ["neutral", 0.3], "c": 0.95},
+    "20": {"to": ["ARMAND BELLWETHER"], "emo": ["anger", 0.3], "c": 0.9},
+    "21": {"to": ["TEDDY LUND"], "emo": ["affection", 0.4], "c": 0.9},
+    "22": {"to": ["ARMAND BELLWETHER"], "emo": ["joy", 0.5], "c": 0.9},
+    "23": {"t": "A", "who": ["ARMAND BELLWETHER"], "emo": {}, "c": 0.95},
+    "24": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "25": {"t": "A", "who": ["CORINNE"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 20, 20, 25, 30, 40, 35, 45]
+}

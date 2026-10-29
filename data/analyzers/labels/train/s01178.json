@@ -1,0 +1,28 @@
+{
+  "scene_id": "s01178",
+  "cast": {"COACH BRONWEN MAYHEW": "BRONWEN", "BRONWEN": "BRONWEN", "TEODORO LACROIX": "TEDDY", "TEDDY": "TEDDY", "LACROIX": "TEDDY", "RACE CONTROL": "RACE CONTROL"},
+  "beats": [1, 7, 12, 17],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["BRONWEN"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["TEDDY"], "emo": {}, "c": 0.95},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "7": {"to": ["BRONWEN", "TEDDY"], "emo": ["neutral", 0.3], "c": 0.7},
+    "8": {"to": ["RACE CONTROL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"to": ["BRONWEN"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["TEDDY"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["BRONWEN"], "emo": ["fear", 0.3], "c": 0.9},
+    "12": {"to": ["BRONWEN"], "emo": ["anger", 0.3], "c": 0.8},
+    "13": {"to": ["NONE"], "emo": ["anger", 0.5], "c": 0.7},
+    "14": {"to": ["BRONWEN"], "emo": ["fear", 0.4], "c": 0.9},
+    "15": {"to": ["TEDDY"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"to": ["BRONWEN", "TEDDY"], "emo": ["neutral", 0.2], "c": 0.8},
+    "17": {"t": "A", "who": ["BRONWEN"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["TEDDY"], "emo": {"TEDDY": ["fear", 0.5]}, "c": 0.9},
+    "19": {"to": ["BRONWEN"], "emo": ["fear", 0.4], "c": 0.9},
+    "20": {"to": ["TEDDY"], "emo": ["neutral", 0.3], "c": 0.9}
+  },
+  "tension": [10, 25, 35, 50]
+}

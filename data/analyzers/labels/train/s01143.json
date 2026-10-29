@@ -1,0 +1,29 @@
+{
+"scene_id": "s01143",
+"cast": {"CLERK PHINEAS": "PHINEAS", "PHINEAS": "PHINEAS", "DR. SOLANGE": "SOLANGE", "SOLANGE": "SOLANGE", "YUSUF": "YUSUF"},
+"beats": [1, 3, 4, 9, 12, 17, 19, 21],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "A", "who": ["PHINEAS", "SOLANGE", "YUSUF"], "emo": {}, "c": 0.7},
+"4": {"to": ["SOLANGE"], "emo": ["neutral", 0.3], "c": 0.9},
+"5": {"to": ["PHINEAS"], "emo": ["neutral", 0.3], "c": 0.9},
+"6": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+"7": {"to": ["YUSUF"], "emo": ["neutral", 0.3], "c": 0.9},
+"8": {"to": ["PHINEAS"], "emo": ["joy", 0.2], "c": 0.9},
+"9": {"to": ["SOLANGE"], "emo": ["anger", 0.3], "c": 0.9},
+"10": {"to": ["ALL"], "emo": ["joy", 0.3], "c": 0.9},
+"11": {"to": ["YUSUF"], "emo": ["neutral", 0.3], "c": 0.9},
+"12": {"to": ["SOLANGE"], "emo": ["anger", 0.2], "c": 0.9},
+"13": {"to": ["PHINEAS"], "emo": ["neutral", 0.3], "c": 0.9},
+"14": {"to": ["SOLANGE"], "emo": ["joy", 0.3], "c": 0.9},
+"15": {"to": ["YUSUF"], "emo": ["anger", 0.2], "c": 0.9},
+"16": {"to": ["SOLANGE"], "emo": ["joy", 0.2], "c": 0.9},
+"17": {"t": "A", "who": ["PHINEAS"], "emo": {}, "c": 0.95},
+"18": {"t": "A", "who": ["YUSUF"], "emo": {"YUSUF": ["joy", 0.4]}, "c": 0.95},
+"19": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+"20": {"to": ["YUSUF"], "emo": ["neutral", 0.3], "c": 0.9},
+"21": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9}
+},
+"tension": [5, 5, 10, 15, 10, 10, 15, 5]
+}

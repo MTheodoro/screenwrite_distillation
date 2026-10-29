@@ -1,0 +1,32 @@
+{
+  "scene_id": "s01725",
+  "cast": {"GRETA HOLMQUIST": "GRETA HOLMQUIST", "GRETA": "GRETA HOLMQUIST", "BJORN LUND": "BJORN LUND", "BJORN": "BJORN LUND", "ILSE NAKAMURA": "ILSE NAKAMURA", "ILSE": "ILSE NAKAMURA", "FELIX": "FELIX", "STRANGER": "FELIX"},
+  "beats": [1, 4, 7, 13, 16, 21, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["GRETA HOLMQUIST"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["BJORN LUND"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["ILSE NAKAMURA"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["FELIX"], "emo": {}, "c": 0.95},
+    "8": {"to": ["FELIX"], "emo": ["neutral", 0.4], "c": 0.9},
+    "9": {"to": ["GRETA HOLMQUIST"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["FELIX"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["FELIX"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["ILSE NAKAMURA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "13": {"t": "A", "who": ["BJORN LUND"], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["GRETA HOLMQUIST"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["GRETA HOLMQUIST"], "emo": {}, "c": 0.95},
+    "16": {"to": ["FELIX"], "emo": ["neutral", 0.3], "c": 0.9},
+    "17": {"to": ["GRETA HOLMQUIST"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"to": ["FELIX"], "emo": ["neutral", 0.3], "c": 0.9},
+    "19": {"to": ["GRETA HOLMQUIST"], "emo": ["neutral", 0.2], "c": 0.9},
+    "20": {"to": ["FELIX"], "emo": ["affection", 0.5], "c": 0.9},
+    "21": {"t": "A", "who": ["GRETA HOLMQUIST"], "emo": {}, "c": 0.95},
+    "22": {"t": "A", "who": ["FELIX"], "emo": {}, "c": 0.95},
+    "23": {"t": "A", "who": ["ILSE NAKAMURA"], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["BJORN LUND"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 15, 30, 15, 12, 20, 10]
+}

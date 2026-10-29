@@ -1,0 +1,33 @@
+{
+  "scene_id": "s00521",
+  "cast": {"NKEM OKPARA": "NKEM OKPARA", "NKEM": "NKEM OKPARA", "BARTHOLOMEW BART LENNOX": "BART LENNOX", "BART": "BART LENNOX", "LENNOX": "BART LENNOX"},
+  "beats": [1, 3, 5, 7, 10, 14, 20, 23, 25],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "A", "who": ["NKEM OKPARA"], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["BART LENNOX"], "emo": {}, "c": 1.0},
+    "5": {"to": ["NKEM OKPARA"], "emo": ["neutral", 0.4], "c": 1.0},
+    "6": {"to": ["BART LENNOX"], "emo": ["sadness", 0.3], "c": 1.0},
+    "7": {"t": "A", "who": ["NKEM OKPARA"], "emo": {}, "c": 1.0},
+    "8": {"t": "A", "who": ["BART LENNOX"], "emo": {}, "c": 1.0},
+    "9": {"to": ["NKEM OKPARA"], "emo": ["affection", 0.3], "c": 1.0},
+    "10": {"to": ["BART LENNOX"], "emo": ["anger", 0.8], "c": 1.0},
+    "11": {"t": "A", "who": ["NKEM OKPARA"], "emo": {}, "c": 1.0},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "13": {"t": "A", "who": ["BART LENNOX"], "emo": {}, "c": 1.0},
+    "14": {"to": ["NKEM OKPARA"], "emo": ["affection", 0.4], "c": 1.0},
+    "15": {"to": ["BART LENNOX"], "emo": ["anger", 0.6], "c": 1.0},
+    "16": {"to": ["NKEM OKPARA"], "emo": ["affection", 0.3], "c": 1.0},
+    "17": {"to": ["BART LENNOX"], "emo": ["anger", 0.8], "c": 1.0},
+    "18": {"to": ["NKEM OKPARA"], "emo": ["neutral", 0.2], "c": 1.0},
+    "19": {"to": ["BART LENNOX"], "emo": ["anger", 0.7], "c": 1.0},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "22": {"t": "A", "who": ["NKEM OKPARA"], "emo": {"NKEM OKPARA": ["sadness", 0.6]}, "c": 1.0},
+    "23": {"to": ["NKEM OKPARA"], "emo": ["sadness", 0.7], "c": 0.6},
+    "24": {"t": "A", "who": ["BART LENNOX"], "emo": {}, "c": 1.0},
+    "25": {"to": ["NKEM OKPARA"], "emo": ["neutral", 0.3], "c": 1.0}
+  },
+  "tension": [10, 15, 25, 30, 60, 50, 35, 45, 20]
+}

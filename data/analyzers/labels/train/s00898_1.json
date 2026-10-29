@@ -1,0 +1,12 @@
+{
+  "scene_id": "s00898_1",
+  "cast": {"ELIJAH FARROW": "ELIJAH FARROW", "ELIJAH": "ELIJAH FARROW", "RUTH": "RUTH"},
+  "beats": [1, 2, 4],
+  "lines": {
+    "1": {"t": "A", "who": ["RUTH"], "emo": {}, "c": 0.7},
+    "2": {"t": "A", "who": ["ELIJAH FARROW"], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["ELIJAH FARROW"], "emo": {"ELIJAH FARROW": ["affection", 0.6]}, "c": 0.95},
+    "4": {"to": ["RUTH"], "emo": ["affection", 0.6], "c": 0.9}
+  },
+  "tension": [40, 45, 20]
+}

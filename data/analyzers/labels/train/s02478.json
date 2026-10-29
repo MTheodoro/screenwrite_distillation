@@ -1,0 +1,32 @@
+{
+"scene_id": "s02478",
+"cast": {"ILSE": "INSPECTOR ILSE MORROW", "INSPECTOR ILSE MORROW": "INSPECTOR ILSE MORROW", "TANVEER": "TANVEER KHATRI", "TANVEER KHATRI": "TANVEER KHATRI", "BEATA": "BEATA LOWENSTEIN", "BEATA LOWENSTEIN": "BEATA LOWENSTEIN", "COSIMO": "COSIMO FERRANTE", "COSIMO FERRANTE": "COSIMO FERRANTE", "WREN": "WREN", "DOYLE": "DOYLE"},
+"beats": [1,3,5,10,12,16,20,21,23],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "D", "who": ["OTHER"], "emo": {}, "c": 0.8},
+"3": {"t": "A", "who": ["INSPECTOR ILSE MORROW"], "emo": {}, "c": 0.95},
+"4": {"to": ["ALL"], "emo": ["anger", 0.4], "c": 0.9},
+"5": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"6": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"9": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"10": {"t": "A", "who": ["TANVEER KHATRI"], "emo": {}, "c": 0.95},
+"11": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.85},
+"12": {"t": "A", "who": ["BEATA LOWENSTEIN", "COSIMO FERRANTE"], "emo": {"BEATA LOWENSTEIN": ["anger", 0.6], "COSIMO FERRANTE": ["anger", 0.6]}, "c": 0.9},
+"13": {"to": ["ALL"], "emo": ["anger", 0.8], "c": 0.85},
+"14": {"to": ["COSIMO FERRANTE"], "emo": ["anger", 0.6], "c": 0.9},
+"15": {"to": ["BEATA LOWENSTEIN"], "emo": ["anger", 0.6], "c": 0.9},
+"16": {"t": "A", "who": ["WREN"], "emo": {"WREN": ["fear", 0.6]}, "c": 0.95},
+"17": {"t": "A", "who": ["DOYLE"], "emo": {}, "c": 0.95},
+"18": {"t": "A", "who": ["WREN", "DOYLE"], "emo": {}, "c": 0.95},
+"19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"20": {"to": ["ALL"], "emo": ["anger", 0.7], "c": 0.9},
+"21": {"t": "A", "who": ["TANVEER KHATRI"], "emo": {}, "c": 0.95},
+"22": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+"23": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.85},
+"24": {"t": "A", "who": ["INSPECTOR ILSE MORROW"], "emo": {"INSPECTOR ILSE MORROW": ["joy", 0.3]}, "c": 0.9}
+},
+"tension": [10, 35, 85, 75, 65, 50, 40, 25, 15]
+}

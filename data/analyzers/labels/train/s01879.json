@@ -1,0 +1,31 @@
+{
+  "scene_id": "s01879",
+  "cast": {"DR. ANAND PILLAI": "ANAND PILLAI", "ANAND PILLAI": "ANAND PILLAI", "PILLAI": "ANAND PILLAI", "NURSE BRIDGET MOONEY": "BRIDGET MOONEY", "BRIDGET MOONEY": "BRIDGET MOONEY", "BRIDGET": "BRIDGET MOONEY", "CASIMIR WOJTYLA": "CASIMIR WOJTYLA", "CASIMIR": "CASIMIR WOJTYLA"},
+  "beats": [1, 6, 13, 16, 19, 21, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["ANAND PILLAI"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["BRIDGET MOONEY"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["CASIMIR WOJTYLA"], "emo": {}, "c": 0.95},
+    "6": {"to": ["ANAND PILLAI"], "emo": ["fear", 0.5], "c": 0.8},
+    "7": {"to": ["CASIMIR WOJTYLA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "8": {"to": ["CASIMIR WOJTYLA"], "emo": ["affection", 0.3], "c": 0.9},
+    "9": {"to": ["ANAND PILLAI"], "emo": ["anger", 0.3], "c": 0.7},
+    "10": {"to": ["CASIMIR WOJTYLA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "11": {"to": ["BRIDGET MOONEY"], "emo": ["joy", 0.4], "c": 0.8},
+    "12": {"to": ["CASIMIR WOJTYLA"], "emo": ["neutral", 0.1], "c": 0.9},
+    "13": {"to": ["CASIMIR WOJTYLA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "14": {"to": ["ANAND PILLAI"], "emo": ["fear", 0.4], "c": 0.9},
+    "15": {"to": ["CASIMIR WOJTYLA"], "emo": ["sadness", 0.3], "c": 0.95},
+    "16": {"to": ["ANAND PILLAI"], "emo": ["fear", 0.3], "c": 0.8},
+    "17": {"to": ["CASIMIR WOJTYLA"], "emo": ["fear", 0.3], "c": 0.9},
+    "18": {"to": ["CASIMIR WOJTYLA"], "emo": ["sadness", 0.4], "c": 0.9},
+    "19": {"to": ["ANAND PILLAI"], "emo": ["sadness", 0.5], "c": 0.8},
+    "20": {"to": ["CASIMIR WOJTYLA"], "emo": ["sadness", 0.3], "c": 0.9},
+    "21": {"to": ["ANAND PILLAI"], "emo": ["fear", 0.6], "c": 0.9},
+    "22": {"to": ["CASIMIR WOJTYLA"], "emo": ["sadness", 0.4], "c": 0.9},
+    "23": {"to": ["ANAND PILLAI", "BRIDGET MOONEY"], "emo": ["sadness", 0.4], "c": 0.6}
+  },
+  "tension": [10, 30, 55, 40, 50, 65, 35]
+}

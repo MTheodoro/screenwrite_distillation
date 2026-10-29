@@ -1,0 +1,24 @@
+{
+"scene_id":"s00185",
+"cast":{"CAPTAIN IMELDA DRAGOMIR":"IMELDA","IMELDA":"IMELDA","DRAGOMIR":"IMELDA","DEACON PRICE":"DEACON","DEACON":"DEACON","OLU ABIODUN":"OLU","OLU":"OLU","SANTIAGO SANTI VEGA":"SANTI","SANTI":"SANTI","VEGA":"SANTI","LIN HUANG":"LIN","LIN":"LIN"},
+"beats":[1,4,9,13,14,16],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":1},
+"2":{"t":"S","who":[],"emo":{},"c":1},
+"3":{"t":"S","who":[],"emo":{},"c":1},
+"4":{"t":"A","who":["IMELDA"],"emo":{},"c":1},
+"5":{"t":"A","who":["DEACON"],"emo":{},"c":1},
+"6":{"t":"D","who":["OLU"],"emo":{},"c":1},
+"7":{"t":"A","who":["SANTI"],"emo":{},"c":1},
+"8":{"t":"D","who":["LIN"],"emo":{},"c":1},
+"9":{"to":["ALL"],"emo":["neutral",0.3],"c":1},
+"10":{"to":["IMELDA"],"emo":["anger",0.3],"c":0.9},
+"11":{"to":["ALL"],"emo":["fear",0.3],"c":0.9},
+"12":{"to":["ALL"],"emo":["neutral",0.2],"c":0.9},
+"13":{"t":"A","who":["LIN"],"emo":{},"c":1},
+"14":{"t":"A","who":["IMELDA","DEACON","OLU","SANTI","LIN"],"emo":{},"c":0.7},
+"15":{"t":"A","who":["IMELDA"],"emo":{},"c":1},
+"16":{"to":["LIN"],"emo":["affection",0.4],"c":1}
+},
+"tension":[20,40,45,35,30,20]
+}

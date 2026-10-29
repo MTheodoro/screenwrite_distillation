@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01770",
+  "cast": {"ODALYS FERREIRA": "ODALYS FERREIRA", "ODALYS": "ODALYS FERREIRA", "BRUNO KATZ": "BRUNO KATZ", "BRUNO": "BRUNO KATZ", "TAMSIN OYELARAN": "TAMSIN OYELARAN", "TAMSIN": "TAMSIN OYELARAN", "KOFI": "KOFI", "WREN": "WREN", "ISHAAN": "ISHAAN"},
+  "beats": [1, 4, 7, 10, 12, 16, 18, 21, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["ODALYS FERREIRA"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ODALYS FERREIRA"], "emo": {}, "c": 0.95},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "7": {"t": "A", "who": ["BRUNO KATZ"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["BRUNO KATZ"], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["BRUNO KATZ"], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["TAMSIN OYELARAN", "KOFI"], "emo": {}, "c": 0.95},
+    "11": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "12": {"t": "A", "who": ["ODALYS FERREIRA"], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "14": {"t": "A", "who": ["TAMSIN OYELARAN", "KOFI"], "emo": {"TAMSIN OYELARAN": ["fear", 0.4]}, "c": 0.9},
+    "15": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.85},
+    "16": {"t": "A", "who": ["WREN"], "emo": {"WREN": ["fear", 0.4]}, "c": 0.9},
+    "17": {"t": "A", "who": ["ISHAAN"], "emo": {}, "c": 0.95},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "19": {"t": "A", "who": ["TAMSIN OYELARAN", "KOFI"], "emo": {"TAMSIN OYELARAN": ["fear", 0.5]}, "c": 0.9},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "22": {"t": "A", "who": ["BRUNO KATZ"], "emo": {}, "c": 0.95},
+    "23": {"t": "A", "who": ["ODALYS FERREIRA"], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["WREN"], "emo": {}, "c": 0.9},
+    "25": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.85}
+  },
+  "tension": [10, 20, 30, 35, 50, 55, 70, 55, 35]
+}

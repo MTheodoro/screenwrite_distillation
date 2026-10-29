@@ -1,0 +1,29 @@
+{
+  "scene_id": "s02143",
+  "cast": {"HORTENSE PLUMB": "HORTENSE PLUMB", "HORTENSE": "HORTENSE PLUMB", "CLEMENT": "CLEMENT", "OTHER": "OTHER"},
+  "beats": [1, 4, 6, 10, 14, 16, 19, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["HORTENSE PLUMB"], "emo": {}, "c": 0.9},
+    "5": {"t": "D", "who": ["HORTENSE PLUMB"], "emo": {}, "c": 0.95},
+    "6": {"to": ["HORTENSE PLUMB"], "emo": ["neutral", 0.4], "c": 0.9},
+    "7": {"to": ["CLEMENT"], "emo": ["neutral", 0.2], "c": 0.9},
+    "8": {"to": ["HORTENSE PLUMB"], "emo": ["fear", 0.3], "c": 0.9},
+    "9": {"to": ["CLEMENT"], "emo": ["neutral", 0.1], "c": 0.9},
+    "10": {"to": ["HORTENSE PLUMB"], "emo": ["anger", 0.4], "c": 0.9},
+    "11": {"to": ["CLEMENT"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["HORTENSE PLUMB"], "emo": ["fear", 0.4], "c": 0.9},
+    "13": {"to": ["CLEMENT"], "emo": ["neutral", 0.2], "c": 0.9},
+    "14": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.85},
+    "15": {"t": "A", "who": ["HORTENSE PLUMB"], "emo": {}, "c": 0.95},
+    "16": {"to": ["HORTENSE PLUMB"], "emo": ["anger", 0.3], "c": 0.9},
+    "17": {"to": ["CLEMENT"], "emo": ["neutral", 0.3], "c": 0.9},
+    "18": {"to": ["HORTENSE PLUMB"], "emo": ["neutral", 0.3], "c": 0.9},
+    "19": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.9},
+    "20": {"t": "A", "who": ["HORTENSE PLUMB"], "emo": {}, "c": 0.8},
+    "21": {"to": ["CLEMENT"], "emo": ["neutral", 0.3], "c": 0.9}
+  },
+  "tension": [5, 10, 15, 15, 15, 25, 15, 10]
+}

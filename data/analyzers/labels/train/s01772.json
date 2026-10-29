@@ -1,0 +1,26 @@
+{
+  "scene_id": "s01772",
+  "cast": {"SILAS PENHALLOW": "SILAS PENHALLOW", "SILAS": "SILAS PENHALLOW", "THADDEUS MARROW": "THADDEUS MARROW", "THADDEUS": "THADDEUS MARROW", "MR. MARROW": "THADDEUS MARROW", "HOBART VANE": "HOBART VANE", "HOBART": "HOBART VANE", "MR. VANE": "HOBART VANE"},
+  "beats": [1, 3, 6, 11, 13, 15, 17, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["SILAS PENHALLOW"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["THADDEUS MARROW"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["HOBART VANE"], "emo": {}, "c": 0.95},
+    "6": {"to": ["HOBART VANE"], "emo": ["anger", 0.4], "c": 0.9},
+    "7": {"to": ["SILAS PENHALLOW"], "emo": ["neutral", 0.4], "c": 0.9},
+    "8": {"to": ["HOBART VANE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["THADDEUS MARROW"], "emo": ["affection", 0.4], "c": 0.9},
+    "10": {"to": ["THADDEUS MARROW"], "emo": ["affection", 0.3], "c": 0.9},
+    "11": {"t": "A", "who": ["THADDEUS MARROW"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["SILAS PENHALLOW"], "emo": {}, "c": 0.95},
+    "13": {"to": ["HOBART VANE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "14": {"to": ["SILAS PENHALLOW"], "emo": ["anger", 0.3], "c": 0.9},
+    "15": {"t": "A", "who": ["SILAS PENHALLOW", "HOBART VANE"], "emo": {}, "c": 0.95},
+    "16": {"t": "A", "who": ["SILAS PENHALLOW", "HOBART VANE"], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["THADDEUS MARROW"], "emo": {}, "c": 0.95},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.9}
+  },
+  "tension": [10, 20, 30, 30, 35, 40, 35, 25]
+}

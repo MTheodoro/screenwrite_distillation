@@ -1,0 +1,24 @@
+{
+"scene_id": "s00087",
+"cast": {"DR. NAOMI ESCOBEDO": "NAOMI", "NAOMI": "NAOMI", "PAUL ZIELINSKI": "PAUL", "PAUL": "PAUL", "TECH ARDEN FLETCHER": "ARDEN", "CHARGE NURSE BIRGITTA": "BIRGITTA", "BIRGITTA": "BIRGITTA"},
+"beats": [1, 5, 7, 15],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "A", "who": ["NAOMI", "PAUL", "ARDEN"], "emo": {}, "c": 0.9},
+"5": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+"6": {"to": ["BIRGITTA"], "emo": ["neutral", 0.2], "c": 0.9},
+"7": {"to": ["NAOMI"], "emo": ["fear", 0.4], "c": 0.9},
+"8": {"to": ["PAUL"], "emo": ["neutral", 0.4], "c": 0.9},
+"9": {"to": ["NAOMI"], "emo": ["neutral", 0.3], "c": 0.9},
+"10": {"to": ["PAUL"], "emo": ["anger", 0.3], "c": 0.9},
+"11": {"to": ["NAOMI"], "emo": ["fear", 0.3], "c": 0.9},
+"12": {"to": ["PAUL"], "emo": ["neutral", 0.3], "c": 0.9},
+"13": {"to": ["NAOMI"], "emo": ["fear", 0.3], "c": 0.9},
+"14": {"to": ["PAUL"], "emo": ["neutral", 0.2], "c": 0.9},
+"15": {"to": ["NAOMI"], "emo": ["neutral", 0.3], "c": 0.9},
+"16": {"to": ["BIRGITTA"], "emo": ["neutral", 0.1], "c": 0.9}
+},
+"tension": [30, 25, 35, 40]
+}

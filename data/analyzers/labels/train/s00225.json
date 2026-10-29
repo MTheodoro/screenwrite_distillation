@@ -1,0 +1,32 @@
+{
+  "scene_id": "s00225",
+  "cast": {"OLD ANSELMO CRUZ-BELLAMY": "ANSELMO", "ANSELMO": "ANSELMO", "NIMA": "NIMA"},
+  "beats": [1, 3, 5, 9, 11, 14, 20, 22, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["NIMA"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["NIMA"], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["NIMA"], "emo": {}, "c": 0.9},
+    "7": {"to": ["ANSELMO"], "emo": ["fear", 0.3], "c": 0.9},
+    "8": {"to": ["NIMA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["ANSELMO"], "emo": {"ANSELMO": ["fear", 0.3]}, "c": 0.9},
+    "11": {"t": "A", "who": ["NIMA"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["NIMA"], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "14": {"to": ["ANSELMO"], "emo": ["sadness", 0.4], "c": 0.9},
+    "15": {"to": ["NIMA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"to": ["ANSELMO"], "emo": ["sadness", 0.4], "c": 0.9},
+    "17": {"to": ["NIMA"], "emo": ["sadness", 0.4], "c": 0.9},
+    "18": {"t": "A", "who": ["NIMA"], "emo": {}, "c": 0.9},
+    "19": {"t": "A", "who": ["NIMA"], "emo": {}, "c": 0.8},
+    "20": {"t": "A", "who": ["NIMA"], "emo": {}, "c": 0.95},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "22": {"t": "A", "who": ["NIMA"], "emo": {"NIMA": ["sadness", 0.4]}, "c": 0.95},
+    "23": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["NIMA", "ANSELMO"], "emo": {"NIMA": ["affection", 0.5], "ANSELMO": ["sadness", 0.4]}, "c": 0.95}
+  },
+  "tension": [5, 15, 20, 30, 40, 45, 50, 30, 20]
+}

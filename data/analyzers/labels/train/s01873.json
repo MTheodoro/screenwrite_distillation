@@ -1,0 +1,31 @@
+{
+  "scene_id": "s01873",
+  "cast": {"ELOWEN PASCOE": "ELOWEN PASCOE", "ELOWEN": "ELOWEN PASCOE", "CALLUM PASCOE": "CALLUM PASCOE", "CALLUM": "CALLUM PASCOE", "FINN ARDEN": "FINN ARDEN", "FINN": "FINN ARDEN", "MAIRI PASCOE": "MAIRI PASCOE", "MAIRI": "MAIRI PASCOE"},
+  "beats": [1, 3, 4, 12, 14, 15, 16, 17, 21, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["ELOWEN PASCOE"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["CALLUM PASCOE"], "emo": {"CALLUM PASCOE": ["affection", 0.4]}, "c": 0.95},
+    "5": {"to": ["ELOWEN PASCOE"], "emo": ["affection", 0.4], "c": 0.95},
+    "6": {"to": ["CALLUM PASCOE"], "emo": ["affection", 0.5], "c": 0.95},
+    "7": {"t": "A", "who": ["ELOWEN PASCOE"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["ELOWEN PASCOE"], "emo": {"ELOWEN PASCOE": ["affection", 0.5]}, "c": 0.95},
+    "9": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "12": {"t": "A", "who": ["FINN ARDEN"], "emo": {}, "c": 0.95},
+    "13": {"t": "D", "who": ["MAIRI PASCOE"], "emo": {}, "c": 0.95},
+    "14": {"to": ["ELOWEN PASCOE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "15": {"t": "A", "who": ["ELOWEN PASCOE"], "emo": {"ELOWEN PASCOE": ["fear", 0.5]}, "c": 0.95},
+    "16": {"t": "A", "who": ["CALLUM PASCOE", "FINN ARDEN", "ELOWEN PASCOE"], "emo": {}, "c": 0.8},
+    "17": {"to": ["ELOWEN PASCOE"], "emo": ["fear", 0.5], "c": 0.9},
+    "18": {"t": "A", "who": ["CALLUM PASCOE"], "emo": {}, "c": 0.95},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "21": {"to": ["FINN ARDEN", "MAIRI PASCOE"], "emo": ["anger", 0.3], "c": 0.9},
+    "22": {"t": "A", "who": ["FINN ARDEN", "MAIRI PASCOE"], "emo": {}, "c": 0.5},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 15, 25, 30, 40, 50, 55, 45, 50]
+}

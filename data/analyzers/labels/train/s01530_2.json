@@ -1,0 +1,17 @@
+{
+  "scene_id": "s01530_2",
+  "cast": {"NADEZHDA": "NADEZHDA VOLKOVA-REYNOLDS", "NADEZHDA VOLKOVA-REYNOLDS": "NADEZHDA VOLKOVA-REYNOLDS"},
+  "beats": [1, 4, 5, 7],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["NADEZHDA VOLKOVA-REYNOLDS"], "emo": {}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "6": {"t": "A", "who": ["NADEZHDA VOLKOVA-REYNOLDS"], "emo": {}, "c": 0.9},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "9": {"t": "A", "who": ["NADEZHDA VOLKOVA-REYNOLDS"], "emo": {}, "c": 0.9}
+  },
+  "tension": [10, 30, 50, 40]
+}

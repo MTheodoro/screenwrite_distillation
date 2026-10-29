@@ -1,0 +1,33 @@
+{
+  "scene_id": "s02206",
+  "cast": {"WILLA PRZYBYLSKI": "WILLA PRZYBYLSKI", "WILLA": "WILLA PRZYBYLSKI", "MATEO ARROYO-BELL": "MATEO ARROYO-BELL", "MATEO": "MATEO ARROYO-BELL"},
+  "beats": [1, 5, 7, 12, 19, 23, 25],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["WILLA PRZYBYLSKI"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["MATEO ARROYO-BELL"], "emo": {}, "c": 0.95},
+    "7": {"to": ["MATEO ARROYO-BELL"], "emo": ["sadness", 0.4], "c": 0.9},
+    "8": {"to": ["WILLA PRZYBYLSKI"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"to": ["MATEO ARROYO-BELL"], "emo": ["sadness", 0.5], "c": 0.9},
+    "10": {"to": ["WILLA PRZYBYLSKI"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["MATEO ARROYO-BELL"], "emo": ["anger", 0.3], "c": 0.9},
+    "12": {"t": "A", "who": ["MATEO ARROYO-BELL"], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["MATEO ARROYO-BELL"], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["MATEO ARROYO-BELL"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["WILLA PRZYBYLSKI"], "emo": {"WILLA PRZYBYLSKI": ["sadness", 0.4]}, "c": 0.9},
+    "16": {"to": ["WILLA PRZYBYLSKI"], "emo": ["affection", 0.3], "c": 0.9},
+    "17": {"to": ["MATEO ARROYO-BELL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"to": ["WILLA PRZYBYLSKI"], "emo": ["neutral", 0.2], "c": 0.9},
+    "19": {"t": "A", "who": ["WILLA PRZYBYLSKI"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["WILLA PRZYBYLSKI"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["WILLA PRZYBYLSKI"], "emo": {}, "c": 0.95},
+    "22": {"t": "A", "who": ["WILLA PRZYBYLSKI", "MATEO ARROYO-BELL"], "emo": {}, "c": 0.95},
+    "23": {"to": ["MATEO ARROYO-BELL"], "emo": ["sadness", 0.6], "c": 0.9},
+    "24": {"to": ["WILLA PRZYBYLSKI"], "emo": ["sadness", 0.6], "c": 0.9},
+    "25": {"t": "A", "who": ["WILLA PRZYBYLSKI", "MATEO ARROYO-BELL"], "emo": {}, "c": 0.9}
+  },
+  "tension": [10, 20, 35, 25, 25, 55, 35]
+}

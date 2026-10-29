@@ -1,0 +1,25 @@
+{
+  "scene_id": "s00847",
+  "cast": {"MERCER": "MERCER", "LINN": "LINN", "OTTO": "OTTO", "SABA": "SABA"},
+  "beats": [1, 4, 8, 9, 13, 16],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["MERCER"], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["LINN"], "emo": {}, "c": 1.0},
+    "6": {"t": "A", "who": ["OTTO"], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["SABA"], "emo": {}, "c": 1.0},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "9": {"to": ["ALL"], "emo": ["surprise", 0.7], "c": 0.9},
+    "10": {"to": ["LINN"], "emo": ["fear", 0.4], "c": 0.9},
+    "11": {"to": ["MERCER"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "13": {"to": ["SABA"], "emo": ["anger", 0.5], "c": 0.95},
+    "14": {"to": ["MERCER"], "emo": ["anger", 0.3], "c": 0.9},
+    "15": {"to": ["MERCER"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"t": "A", "who": ["MERCER"], "emo": {}, "c": 1.0},
+    "17": {"t": "A", "who": ["LINN"], "emo": {}, "c": 1.0}
+  },
+  "tension": [5, 15, 25, 35, 50, 45]
+}

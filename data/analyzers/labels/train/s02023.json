@@ -1,0 +1,27 @@
+{
+  "scene_id": "s02023",
+  "cast": {"INSPECTOR LOUELLA PRICE": "LOUELLA PRICE", "LOUELLA PRICE": "LOUELLA PRICE", "LOUELLA": "LOUELLA PRICE", "DR. MIRIAM ASHBY": "MIRIAM ASHBY", "MIRIAM ASHBY": "MIRIAM ASHBY", "MIRIAM": "MIRIAM ASHBY", "CONSTABLE FIONA GREAVES": "FIONA GREAVES", "FIONA GREAVES": "FIONA GREAVES", "FIONA": "FIONA GREAVES"},
+  "beats": [1, 4, 7, 8, 9, 12, 15, 17, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["LOUELLA PRICE"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["MIRIAM ASHBY"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["FIONA GREAVES"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["LOUELLA PRICE"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["MIRIAM ASHBY", "FIONA GREAVES"], "emo": {}, "c": 0.95},
+    "9": {"to": ["ALL"], "emo": ["neutral", 0.5], "c": 0.9},
+    "10": {"to": ["LOUELLA PRICE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "11": {"to": ["LOUELLA PRICE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.9},
+    "13": {"to": ["LOUELLA PRICE"], "emo": ["fear", 0.3], "c": 0.9},
+    "14": {"to": ["MIRIAM ASHBY"], "emo": ["neutral", 0.4], "c": 0.8},
+    "15": {"t": "A", "who": ["FIONA GREAVES", "MIRIAM ASHBY"], "emo": {}, "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["LOUELLA PRICE"], "emo": {}, "c": 0.95},
+    "18": {"to": ["LOUELLA PRICE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "19": {"to": ["FIONA GREAVES"], "emo": ["neutral", 0.4], "c": 0.9}
+  },
+  "tension": [5, 10, 30, 35, 35, 50, 55, 50, 40]
+}

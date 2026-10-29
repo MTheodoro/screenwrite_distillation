@@ -1,0 +1,32 @@
+{
+"scene_id": "s00763",
+"cast": {"ADELAIDE":"ADELAIDE VOSSBERG","ADELAIDE VOSSBERG":"ADELAIDE VOSSBERG","GERTRUDE":"GERTRUDE","WOMAN":"TILLIE MARCHETTI","TILLIE":"TILLIE MARCHETTI","TILLIE MARCHETTI":"TILLIE MARCHETTI"},
+"beats": [1,7,13,17,23],
+"lines": {
+"1": {"t":"S","who":[],"emo":{},"c":0.95},
+"2": {"t":"S","who":[],"emo":{},"c":0.95},
+"3": {"t":"A","who":["ADELAIDE VOSSBERG"],"emo":{},"c":0.9},
+"4": {"t":"A","who":["GERTRUDE"],"emo":{},"c":0.95},
+"5": {"to":["ADELAIDE VOSSBERG"],"emo":["anger",0.2],"c":0.9},
+"6": {"to":["GERTRUDE"],"emo":["anger",0.2],"c":0.9},
+"7": {"t":"A","who":["TILLIE MARCHETTI"],"emo":{},"c":0.95},
+"8": {"t":"D","who":["TILLIE MARCHETTI"],"emo":{},"c":0.95},
+"9": {"t":"D","who":["ADELAIDE VOSSBERG","GERTRUDE"],"emo":{},"c":0.8},
+"10": {"to":["GERTRUDE"],"emo":["neutral",0.2],"c":0.9},
+"11": {"to":["TILLIE MARCHETTI"],"emo":["neutral",0.3],"c":0.9},
+"12": {"to":["GERTRUDE"],"emo":["neutral",0.3],"c":0.9},
+"13": {"t":"A","who":["GERTRUDE"],"emo":{"GERTRUDE":["surprise",0.6]},"c":0.95},
+"14": {"t":"A","who":["ADELAIDE VOSSBERG"],"emo":{},"c":0.95},
+"15": {"to":["GERTRUDE"],"emo":["surprise",0.5],"c":0.9},
+"16": {"to":["TILLIE MARCHETTI"],"emo":["neutral",0.4],"c":0.9},
+"17": {"t":"A","who":["TILLIE MARCHETTI"],"emo":{},"c":0.95},
+"18": {"t":"A","who":["TILLIE MARCHETTI"],"emo":{},"c":0.95},
+"19": {"to":["ALL"],"emo":["neutral",0.2],"c":0.9},
+"20": {"to":["TILLIE MARCHETTI"],"emo":["anger",0.5],"c":0.9},
+"21": {"to":["GERTRUDE"],"emo":["neutral",0.4],"c":0.9},
+"22": {"to":["ADELAIDE VOSSBERG"],"emo":["affection",0.3],"c":0.9},
+"23": {"t":"A","who":["ADELAIDE VOSSBERG"],"emo":{},"c":0.9},
+"24": {"to":["ALL"],"emo":["anger",0.3],"c":0.9}
+},
+"tension": [5,30,45,55,50]
+}

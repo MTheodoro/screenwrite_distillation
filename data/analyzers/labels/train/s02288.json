@@ -1,0 +1,23 @@
+{
+  "scene_id": "s02288",
+  "cast": {"MISS EDITH WHITLOCK": "EDITH WHITLOCK", "EDITH WHITLOCK": "EDITH WHITLOCK", "EDITH": "EDITH WHITLOCK"},
+  "beats": [1, 4, 5, 6, 9, 10, 13, 15],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "D", "who": ["EDITH WHITLOCK"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["EDITH WHITLOCK"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["EDITH WHITLOCK"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["EDITH WHITLOCK"], "emo": {}, "c": 0.95},
+    "9": {"to": ["NONE"], "emo": ["sadness", 0.6], "c": 0.7},
+    "10": {"t": "A", "who": ["EDITH WHITLOCK"], "emo": {}, "c": 0.95},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "12": {"to": ["NONE"], "emo": ["sadness", 0.5], "c": 0.7},
+    "13": {"t": "A", "who": ["EDITH WHITLOCK"], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["EDITH WHITLOCK"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["EDITH WHITLOCK"], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 12, 20, 20, 45, 35, 40, 55]
+}

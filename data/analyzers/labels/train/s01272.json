@@ -1,0 +1,29 @@
+{
+"scene_id": "s01272",
+"cast": {"PRAKASH \"PAKS\" NAIR": "PAKS", "PAKS": "PAKS", "NAIR": "PAKS", "WYATT BOONE": "WYATT", "WYATT": "WYATT", "LUCIA ORTEGA": "LUCIA", "LUCIA": "LUCIA"},
+"beats": [1, 4, 5, 7, 8, 9, 10, 12, 14, 15, 17, 18, 21],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "D", "who": ["PAKS"], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["WYATT"], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["WYATT"], "emo": {"WYATT": ["joy", 0.4]}, "c": 0.8},
+"7": {"t": "D", "who": ["LUCIA"], "emo": {}, "c": 0.95},
+"8": {"to": ["PAKS"], "emo": ["anger", 0.3], "c": 0.8},
+"9": {"to": ["WYATT"], "emo": ["neutral", 0.2], "c": 0.8},
+"10": {"t": "A", "who": ["WYATT"], "emo": {}, "c": 0.95},
+"11": {"t": "A", "who": ["PAKS"], "emo": {}, "c": 0.95},
+"12": {"t": "A", "who": ["PAKS", "WYATT"], "emo": {}, "c": 0.95},
+"13": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"14": {"t": "A", "who": ["PAKS", "WYATT"], "emo": {"PAKS": ["fear", 0.5], "WYATT": ["fear", 0.5]}, "c": 0.9},
+"15": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"16": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"17": {"to": ["ALL"], "emo": ["fear", 0.7], "c": 0.9},
+"18": {"t": "A", "who": ["WYATT", "PAKS"], "emo": {"WYATT": ["fear", 0.6], "PAKS": ["fear", 0.6]}, "c": 0.9},
+"19": {"t": "A", "who": ["LUCIA"], "emo": {}, "c": 0.95},
+"20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"21": {"t": "A", "who": ["WYATT", "PAKS", "LUCIA"], "emo": {"WYATT": ["joy", 0.7], "PAKS": ["joy", 0.7], "LUCIA": ["joy", 0.7]}, "c": 0.9}
+},
+"tension": [5, 10, 10, 15, 25, 25, 40, 45, 55, 50, 70, 65, 10]
+}

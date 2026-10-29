@@ -1,0 +1,31 @@
+{
+"scene_id": "s02516",
+"cast": {"SIGRID": "SIGRID LAARSEN", "SIGRID LAARSEN": "SIGRID LAARSEN", "ANTTI": "ANTTI MAKELA", "ANTTI MAKELA": "ANTTI MAKELA", "VESA": "COACH VESA", "COACH VESA": "COACH VESA"},
+"beats": [1,4,8,14,17,20],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "A", "who": ["SIGRID LAARSEN"], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["ANTTI MAKELA"], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["COACH VESA"], "emo": {}, "c": 0.95},
+"7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"8": {"t": "A", "who": ["SIGRID LAARSEN"], "emo": {"SIGRID LAARSEN": ["sadness", 0.4]}, "c": 0.9},
+"9": {"to": ["SIGRID LAARSEN"], "emo": ["neutral", 0.3], "c": 0.9},
+"10": {"to": ["COACH VESA"], "emo": ["sadness", 0.4], "c": 0.9},
+"11": {"to": ["SIGRID LAARSEN"], "emo": ["affection", 0.3], "c": 0.9},
+"12": {"to": ["COACH VESA"], "emo": ["sadness", 0.5], "c": 0.9},
+"13": {"to": ["SIGRID LAARSEN"], "emo": ["neutral", 0.3], "c": 0.9},
+"14": {"t": "A", "who": ["ANTTI MAKELA"], "emo": {}, "c": 0.95},
+"15": {"t": "A", "who": ["SIGRID LAARSEN"], "emo": {}, "c": 0.95},
+"16": {"t": "A", "who": ["ANTTI MAKELA"], "emo": {}, "c": 0.95},
+"17": {"to": ["COACH VESA"], "emo": ["sadness", 0.6], "c": 0.9},
+"18": {"to": ["SIGRID LAARSEN"], "emo": ["neutral", 0.3], "c": 0.9},
+"19": {"to": ["COACH VESA"], "emo": ["anger", 0.4], "c": 0.9},
+"20": {"t": "A", "who": ["COACH VESA"], "emo": {}, "c": 0.95},
+"21": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"22": {"t": "A", "who": ["SIGRID LAARSEN", "ANTTI MAKELA", "COACH VESA"], "emo": {}, "c": 0.9},
+"23": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+},
+"tension": [5, 10, 30, 35, 45, 25]
+}

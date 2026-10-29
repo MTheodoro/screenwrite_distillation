@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01743",
+  "cast": {"KIKI TANAKA": "KIKI TANAKA", "KIKI": "KIKI TANAKA", "OSVALDO PINTO": "OSVALDO PINTO", "OSVALDO": "OSVALDO PINTO", "PRISHA NAIR": "PRISHA NAIR", "PRISHA": "PRISHA NAIR"},
+  "beats": [1, 4, 7, 17, 19, 21, 22, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.9},
+    "4": {"t": "D", "who": ["KIKI TANAKA"], "emo": {}, "c": 0.5},
+    "5": {"t": "D", "who": ["OSVALDO PINTO"], "emo": {}, "c": 0.5},
+    "6": {"t": "D", "who": ["PRISHA NAIR"], "emo": {}, "c": 0.5},
+    "7": {"t": "A", "who": ["KIKI TANAKA"], "emo": {}, "c": 0.95},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "9": {"to": ["KIKI TANAKA"], "emo": ["joy", 0.4], "c": 0.9},
+    "10": {"to": ["OSVALDO PINTO"], "emo": ["neutral", 0.4], "c": 0.9},
+    "11": {"to": ["OSVALDO PINTO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["PRISHA NAIR"], "emo": ["joy", 0.4], "c": 0.9},
+    "13": {"to": ["OSVALDO PINTO"], "emo": ["neutral", 0.4], "c": 0.9},
+    "14": {"to": ["KIKI TANAKA"], "emo": ["affection", 0.5], "c": 0.9},
+    "15": {"to": ["PRISHA NAIR"], "emo": ["neutral", 0.4], "c": 0.9},
+    "16": {"to": ["KIKI TANAKA", "PRISHA NAIR"], "emo": ["neutral", 0.3], "c": 0.9},
+    "17": {"t": "A", "who": ["KIKI TANAKA"], "emo": {}, "c": 0.95},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"to": ["PRISHA NAIR"], "emo": ["affection", 0.7], "c": 0.85},
+    "20": {"to": ["ALL"], "emo": ["joy", 0.6], "c": 0.85},
+    "21": {"to": ["ALL"], "emo": ["surprise", 0.6], "c": 0.9},
+    "22": {"t": "A", "who": ["KIKI TANAKA"], "emo": {}, "c": 0.95},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.9},
+    "25": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 20, 25, 30, 40, 55, 60]
+}

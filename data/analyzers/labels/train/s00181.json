@@ -1,0 +1,26 @@
+{
+"scene_id":"s00181",
+"cast":{"JUNIPER LOPEZ":"JUNIPER","JUNIPER":"JUNIPER","WESLEY WES CHUKWU":"WES","WES":"WES","CHUKWU":"WES","DELPHINE ABERNATHY":"DELPHINE","DELPHINE":"DELPHINE","TOMAS KOWALCZYK":"TOMAS","TOMAS":"TOMAS"},
+"beats":[1,4,8,11,12,14,16,18],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":1},
+"2":{"t":"D","who":["JUNIPER","WES","DELPHINE","TOMAS"],"emo":{},"c":0.9},
+"3":{"t":"S","who":[],"emo":{},"c":1},
+"4":{"t":"A","who":["JUNIPER"],"emo":{},"c":1},
+"5":{"t":"A","who":["WES"],"emo":{},"c":1},
+"6":{"t":"A","who":["DELPHINE"],"emo":{},"c":1},
+"7":{"t":"D","who":["TOMAS"],"emo":{},"c":1},
+"8":{"to":["ALL"],"emo":["sadness",0.4],"c":0.9},
+"9":{"to":["DELPHINE"],"emo":["neutral",0.4],"c":0.9},
+"10":{"to":["JUNIPER"],"emo":["neutral",0.2],"c":0.9},
+"11":{"to":["SELF"],"emo":["sadness",0.2],"c":0.9},
+"12":{"t":"A","who":["JUNIPER"],"emo":{},"c":1},
+"13":{"t":"S","who":[],"emo":{},"c":1},
+"14":{"to":["ALL"],"emo":["neutral",0.2],"c":0.9},
+"15":{"to":["ALL"],"emo":["fear",0.3],"c":0.8},
+"16":{"t":"A","who":["JUNIPER","WES","DELPHINE","TOMAS"],"emo":{},"c":0.9},
+"17":{"t":"S","who":[],"emo":{},"c":1},
+"18":{"t":"A","who":["JUNIPER","WES","DELPHINE","TOMAS"],"emo":{},"c":0.8}
+},
+"tension":[10,15,20,20,25,25,50,60]
+}

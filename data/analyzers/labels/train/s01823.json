@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01823",
+  "cast": {"TECHNICIAN YUSUF BELLAMY": "YUSUF BELLAMY", "YUSUF": "YUSUF BELLAMY", "CONTROL": "CONTROL", "COMMANDER ISOLDE RAINES": "ISOLDE RAINES", "ISOLDE": "ISOLDE RAINES"},
+  "beats": [1, 3, 4, 9, 11, 14, 16, 18, 20, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["YUSUF BELLAMY"], "emo": {}, "c": 0.95},
+    "4": {"to": ["CONTROL"], "emo": ["fear", 0.4], "c": 0.95},
+    "5": {"to": ["YUSUF BELLAMY"], "emo": ["neutral", 0.3], "c": 0.95},
+    "6": {"to": ["CONTROL"], "emo": ["fear", 0.4], "c": 0.9},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["YUSUF BELLAMY"], "emo": {}, "c": 0.95},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["ISOLDE RAINES"], "emo": {"ISOLDE RAINES": ["anger", 0.5]}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "15": {"t": "A", "who": ["YUSUF BELLAMY", "ISOLDE RAINES"], "emo": {}, "c": 0.8},
+    "16": {"to": ["YUSUF BELLAMY"], "emo": ["anger", 0.4], "c": 0.95},
+    "17": {"to": ["ISOLDE RAINES"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"to": ["ISOLDE RAINES"], "emo": ["neutral", 0.4], "c": 0.9},
+    "19": {"to": ["CONTROL"], "emo": ["anger", 0.3], "c": 0.95},
+    "20": {"t": "A", "who": ["ISOLDE RAINES"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["YUSUF BELLAMY"], "emo": {"YUSUF BELLAMY": ["joy", 0.2]}, "c": 0.9},
+    "22": {"t": "A", "who": ["ISOLDE RAINES"], "emo": {"ISOLDE RAINES": ["neutral", 0.2]}, "c": 0.9}
+  },
+  "tension": [10, 20, 45, 50, 75, 60, 45, 50, 35, 25]
+}

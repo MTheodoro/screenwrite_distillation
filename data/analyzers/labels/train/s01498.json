@@ -1,0 +1,31 @@
+{
+  "scene_id": "s01498",
+  "cast": {"GRACELAND": "GWENDA", "GWENDA FITZALAN-OKORO": "GWENDA", "GWENDA": "GWENDA", "PIERS LANGLEY-ASANTE": "PIERS", "PIERS": "PIERS", "TABITHA NWOSU-REYES": "TABITHA", "TABITHA": "TABITHA", "DJ": "DJ", "LUCIO MARCHETTI-DAS": "LUCIO", "LUCIO": "LUCIO", "STRANGER": "DANIEL", "DANIEL": "DANIEL"},
+  "beats": [1, 5, 6, 8, 11, 13, 15, 16, 19, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["GWENDA", "PIERS", "TABITHA", "DJ", "LUCIO", "DANIEL"], "emo": {}, "c": 0.9},
+    "6": {"t": "D", "who": ["DANIEL"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["DANIEL"], "emo": {}, "c": 1.0},
+    "8": {"to": ["PIERS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["GWENDA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "10": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.95},
+    "11": {"t": "A", "who": ["DANIEL"], "emo": {}, "c": 1.0},
+    "12": {"t": "A", "who": ["DANIEL"], "emo": {}, "c": 1.0},
+    "13": {"to": ["GWENDA"], "emo": ["sadness", 0.3], "c": 0.95},
+    "14": {"to": ["DANIEL"], "emo": ["neutral", 0.3], "c": 0.95},
+    "15": {"to": ["GWENDA"], "emo": ["sadness", 0.5], "c": 0.95},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "17": {"t": "A", "who": ["DJ"], "emo": {}, "c": 1.0},
+    "18": {"t": "A", "who": ["LUCIO"], "emo": {}, "c": 1.0},
+    "19": {"to": ["DANIEL"], "emo": ["surprise", 0.7], "c": 0.95},
+    "20": {"to": ["GWENDA"], "emo": ["sadness", 0.3], "c": 0.95},
+    "21": {"t": "A", "who": ["GWENDA"], "emo": {"GWENDA": ["surprise", 0.7]}, "c": 1.0},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 1.0}
+  },
+  "tension": [5, 10, 25, 35, 40, 50, 55, 60, 70, 45]
+}

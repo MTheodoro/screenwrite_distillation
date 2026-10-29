@@ -1,0 +1,38 @@
+{
+  "scene_id": "s01751",
+  "cast": {
+    "HELOISE DUVAL": "HELOISE DUVAL",
+    "HELOISE": "HELOISE DUVAL",
+    "MATILDA ROSS": "MATILDA ROSS",
+    "MATILDA": "MATILDA ROSS",
+    "ARCHIBALD PENNYWHISTLE": "ARCHIBALD PENNYWHISTLE",
+    "ARCHIBALD": "ARCHIBALD PENNYWHISTLE"
+  },
+  "beats": [1, 4, 6, 8, 11, 13, 16, 19, 21, 22, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["HELOISE DUVAL"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["MATILDA ROSS"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["MATILDA ROSS"], "emo": {}, "c": 0.95},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["MATILDA ROSS"], "emo": {"MATILDA ROSS": ["sadness", 0.3]}, "c": 0.95},
+    "9": {"t": "A", "who": ["MATILDA ROSS"], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["MATILDA ROSS"], "emo": {}, "c": 0.95},
+    "11": {"to": ["MATILDA ROSS"], "emo": ["sadness", 0.4], "c": 0.9},
+    "12": {"to": ["HELOISE DUVAL"], "emo": ["sadness", 0.4], "c": 0.9},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["ARCHIBALD PENNYWHISTLE"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["ARCHIBALD PENNYWHISTLE"], "emo": {}, "c": 0.95},
+    "16": {"to": ["ALL"], "emo": ["sadness", 0.3], "c": 0.9},
+    "17": {"to": ["ARCHIBALD PENNYWHISTLE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "18": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "19": {"to": ["ARCHIBALD PENNYWHISTLE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "20": {"to": ["MATILDA ROSS"], "emo": ["joy", 0.2], "c": 0.9},
+    "21": {"t": "A", "who": ["HELOISE DUVAL"], "emo": {"HELOISE DUVAL": ["sadness", 0.3]}, "c": 0.95},
+    "22": {"t": "A", "who": ["MATILDA ROSS"], "emo": {}, "c": 0.95},
+    "23": {"t": "A", "who": ["ARCHIBALD PENNYWHISTLE"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 15, 20, 30, 40, 20, 25, 20, 15, 15, 15]
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "s01901",
+  "cast": {
+    "RAVINDRA \"RAVI\" SANDHU-OKORO": "RAVI",
+    "RAVI": "RAVI",
+    "SANDHU-OKORO": "RAVI",
+    "KIKO TANAKA-MBEKI": "KIKO",
+    "KIKO": "KIKO",
+    "MOTHER": "MOTHER",
+    "MRS. SANDHU": "MOTHER"
+  },
+  "beats": [1, 4, 6, 7, 9, 11, 12, 15, 16, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["RAVI"], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["KIKO"], "emo": {}, "c": 1.0},
+    "6": {"to": ["RAVI"], "emo": ["fear", 0.3], "c": 0.9},
+    "7": {"to": ["MOTHER"], "emo": ["neutral", 0.2], "c": 0.9},
+    "8": {"to": ["MOTHER"], "emo": ["joy", 0.3], "c": 0.8},
+    "9": {"to": ["RAVI"], "emo": ["neutral", 0.2], "c": 0.8},
+    "10": {"to": ["MOTHER"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["RAVI"], "emo": ["anger", 0.4], "c": 0.9},
+    "12": {"t": "A", "who": ["RAVI"], "emo": {}, "c": 1.0},
+    "13": {"t": "A", "who": ["RAVI"], "emo": {}, "c": 1.0},
+    "14": {"t": "A", "who": ["KIKO"], "emo": {}, "c": 1.0},
+    "15": {"to": ["MOTHER"], "emo": ["sadness", 0.3], "c": 0.9},
+    "16": {"t": "A", "who": ["RAVI"], "emo": {}, "c": 1.0},
+    "17": {"t": "A", "who": ["RAVI"], "emo": {}, "c": 1.0},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 1.0}
+  },
+  "tension": [3, 5, 20, 25, 30, 40, 35, 30, 15, 10]
+}

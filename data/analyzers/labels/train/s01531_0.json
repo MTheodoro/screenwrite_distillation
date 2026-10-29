@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01531_0",
+  "cast": {"ZEKE": "ZEKE ADEBAYO", "Zeke": "ZEKE ADEBAYO", "ZEKE ADEBAYO": "ZEKE ADEBAYO", "MILO": "MILO FERRANTI-SATO", "Milo": "MILO FERRANTI-SATO", "MILO FERRANTI-SATO": "MILO FERRANTI-SATO", "JUNE": "JUNE", "June": "JUNE"},
+  "beats": [1, 4, 7, 11, 18, 20, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "D", "who": ["ZEKE ADEBAYO"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["MILO FERRANTI-SATO"], "emo": {}, "c": 0.95},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "7": {"to": ["ZEKE ADEBAYO"], "emo": ["joy", 0.4], "c": 0.95},
+    "8": {"to": ["MILO FERRANTI-SATO"], "emo": ["neutral", 0.3], "c": 0.95},
+    "9": {"to": ["ZEKE ADEBAYO"], "emo": ["joy", 0.5], "c": 0.95},
+    "10": {"to": ["MILO FERRANTI-SATO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["ZEKE ADEBAYO"], "emo": ["joy", 0.5], "c": 0.95},
+    "12": {"to": ["MILO FERRANTI-SATO"], "emo": ["neutral", 0.3], "c": 0.95},
+    "13": {"to": ["ZEKE ADEBAYO"], "emo": ["joy", 0.4], "c": 0.95},
+    "14": {"to": ["MILO FERRANTI-SATO"], "emo": ["neutral", 0.3], "c": 0.95},
+    "15": {"to": ["ZEKE ADEBAYO"], "emo": ["joy", 0.4], "c": 0.95},
+    "16": {"to": ["MILO FERRANTI-SATO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "17": {"to": ["ZEKE ADEBAYO"], "emo": ["affection", 0.4], "c": 0.9},
+    "18": {"to": ["ALL"], "emo": ["fear", 0.7], "c": 0.9},
+    "19": {"t": "A", "who": ["ZEKE ADEBAYO", "MILO FERRANTI-SATO"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["ZEKE ADEBAYO"], "emo": {}, "c": 0.95},
+    "21": {"to": ["MILO FERRANTI-SATO"], "emo": ["fear", 0.4], "c": 0.9},
+    "22": {"to": ["ZEKE ADEBAYO"], "emo": ["fear", 0.5], "c": 0.9},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "24": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "25": {"t": "A", "who": ["ZEKE ADEBAYO", "MILO FERRANTI-SATO"], "emo": {"ZEKE ADEBAYO": ["fear", 0.4]}, "c": 0.95}
+  },
+  "tension": [5, 10, 25, 35, 75, 60, 70]
+}

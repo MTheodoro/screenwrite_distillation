@@ -1,0 +1,31 @@
+{
+  "scene_id": "s00855",
+  "cast": {"FENN": "FENN", "CALLIOPE": "CALLIOPE"},
+  "beats": [1, 4, 6, 8, 11, 13, 16, 19, 21, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["FENN"], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["CALLIOPE"], "emo": {}, "c": 1.0},
+    "6": {"t": "A", "who": ["FENN"], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["CALLIOPE"], "emo": {}, "c": 1.0},
+    "8": {"to": ["CALLIOPE"], "emo": ["neutral", 0.3], "c": 0.95},
+    "9": {"to": ["FENN"], "emo": ["neutral", 0.3], "c": 0.95},
+    "10": {"to": ["CALLIOPE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "11": {"t": "A", "who": ["CALLIOPE"], "emo": {}, "c": 1.0},
+    "12": {"t": "A", "who": ["FENN"], "emo": {}, "c": 1.0},
+    "13": {"to": ["FENN"], "emo": ["anger", 0.3], "c": 0.9},
+    "14": {"to": ["CALLIOPE"], "emo": ["neutral", 0.4], "c": 0.9},
+    "15": {"to": ["FENN"], "emo": ["neutral", 0.4], "c": 0.9},
+    "16": {"t": "A", "who": ["FENN"], "emo": {}, "c": 1.0},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "18": {"t": "A", "who": ["FENN"], "emo": {}, "c": 1.0},
+    "19": {"to": ["CALLIOPE"], "emo": ["neutral", 0.5], "c": 0.9},
+    "20": {"to": ["FENN"], "emo": ["neutral", 0.5], "c": 0.85},
+    "21": {"t": "A", "who": ["FENN", "CALLIOPE"], "emo": {}, "c": 0.9},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "23": {"t": "A", "who": ["FENN", "CALLIOPE"], "emo": {}, "c": 0.9}
+  },
+  "tension": [5, 15, 20, 25, 25, 35, 40, 50, 55, 60]
+}

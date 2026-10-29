@@ -1,0 +1,26 @@
+{
+  "scene_id": "s00703",
+  "cast": {"CAPTAIN OSTRANDER": "OSTRANDER", "OSTRANDER": "OSTRANDER", "LT. PRUITT": "PRUITT", "PRUITT": "PRUITT"},
+  "beats": [1, 4, 6, 8, 10, 11, 12, 14, 16, 17, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "D", "who": ["OSTRANDER"], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["OSTRANDER"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["OSTRANDER"], "emo": {}, "c": 0.95},
+    "6": {"to": ["PRUITT"], "emo": ["fear", 0.3], "c": 0.7},
+    "7": {"to": ["OSTRANDER"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"t": "A", "who": ["OSTRANDER"], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["OSTRANDER"], "emo": {}, "c": 0.95},
+    "10": {"to": ["PRUITT"], "emo": ["fear", 0.4], "c": 0.9},
+    "11": {"to": ["OSTRANDER"], "emo": ["neutral", 0.4], "c": 0.9},
+    "12": {"t": "A", "who": ["OSTRANDER"], "emo": {"OSTRANDER": ["sadness", 0.3]}, "c": 0.95},
+    "13": {"t": "A", "who": ["OSTRANDER"], "emo": {}, "c": 0.95},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "16": {"to": ["PRUITT"], "emo": ["anger", 0.5], "c": 0.85},
+    "17": {"to": ["OSTRANDER"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"t": "A", "who": ["OSTRANDER"], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 20, 30, 35, 55, 50, 40, 65, 55, 45, 60]
+}

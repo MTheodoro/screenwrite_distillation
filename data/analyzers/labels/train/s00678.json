@@ -1,0 +1,23 @@
+{
+  "scene_id": "s00678",
+  "cast": {"KAZIMIERZ NOWAK": "KAZIMIERZ NOWAK", "SPUD": "KAZIMIERZ NOWAK", "NOWAK": "KAZIMIERZ NOWAK", "LORETTA VANCE": "LORETTA VANCE", "LORETTA": "LORETTA VANCE", "DUTCH AMARI": "DUTCH AMARI", "DUTCH": "DUTCH AMARI", "PEARL": "PEARL", "GIDEON": "GIDEON", "MINNOW": "MINNOW"},
+  "beats": [1, 9, 11, 13, 14, 15],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "A", "who": ["KAZIMIERZ NOWAK", "LORETTA VANCE", "DUTCH AMARI", "PEARL", "GIDEON", "MINNOW"], "emo": {}, "c": 0.9},
+    "3": {"t": "D", "who": ["KAZIMIERZ NOWAK"], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["LORETTA VANCE"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["DUTCH AMARI"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["PEARL"], "emo": {}, "c": 0.95},
+    "7": {"t": "D", "who": ["GIDEON"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["MINNOW"], "emo": {}, "c": 0.95},
+    "9": {"to": ["LORETTA VANCE"], "emo": ["anger", 0.6], "c": 0.9},
+    "10": {"to": ["KAZIMIERZ NOWAK"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["PEARL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["DUTCH AMARI"], "emo": ["neutral", 0.3], "c": 0.9},
+    "13": {"t": "A", "who": ["GIDEON"], "emo": {"GIDEON": ["fear", 0.6]}, "c": 0.95},
+    "14": {"t": "A", "who": ["KAZIMIERZ NOWAK", "GIDEON"], "emo": {"GIDEON": ["fear", 0.6]}, "c": 0.9},
+    "15": {"to": ["ALL"], "emo": ["joy", 0.4], "c": 0.9}
+  },
+  "tension": [15, 55, 30, 40, 60, 20]
+}

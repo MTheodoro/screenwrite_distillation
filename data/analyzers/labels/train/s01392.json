@@ -1,0 +1,28 @@
+{
+  "scene_id": "s01392",
+  "cast": {"JUDGE ELEANOR VANDERHOOF": "ELEANOR", "ELEANOR": "ELEANOR", "BRAXTON WHITCOMBE": "BRAXTON", "BRAXTON": "BRAXTON", "CLEMENTINE WHITCOMBE-ADAMS": "CLEMENTINE", "CLEMENTINE": "CLEMENTINE", "HORACE PINKNEY": "HORACE", "HORACE": "HORACE", "Mr. Pinkney": "HORACE", "ODETTE LAURENT": "ODETTE", "ODETTE": "ODETTE", "FINN HARGROVE": "FINN", "FINN": "FINN", "Finn": "FINN"},
+  "beats": [1, 5, 7, 11, 14, 16, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ELEANOR"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["BRAXTON", "CLEMENTINE", "HORACE", "ODETTE", "FINN"], "emo": {}, "c": 0.8},
+    "7": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "8": {"to": ["ELEANOR"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["BRAXTON"], "emo": ["neutral", 0.4], "c": 0.9},
+    "10": {"to": ["ELEANOR"], "emo": ["anger", 0.4], "c": 0.9},
+    "11": {"to": ["CLEMENTINE"], "emo": ["neutral", 0.4], "c": 0.8},
+    "12": {"to": ["HORACE"], "emo": ["anger", 0.7], "c": 0.9},
+    "13": {"to": ["HORACE"], "emo": ["anger", 0.5], "c": 0.9},
+    "14": {"t": "A", "who": ["ELEANOR"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["BRAXTON", "CLEMENTINE", "HORACE", "ODETTE", "FINN"], "emo": {}, "c": 0.6},
+    "16": {"to": ["HORACE"], "emo": ["neutral", 0.5], "c": 0.9},
+    "17": {"t": "A", "who": ["HORACE"], "emo": {"HORACE": ["fear", 0.4]}, "c": 0.9},
+    "18": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 0.9},
+    "19": {"t": "A", "who": ["ODETTE", "FINN"], "emo": {}, "c": 0.9},
+    "20": {"t": "A", "who": ["ODETTE"], "emo": {}, "c": 0.7}
+  },
+  "tension": [5, 15, 35, 60, 45, 65, 55]
+}

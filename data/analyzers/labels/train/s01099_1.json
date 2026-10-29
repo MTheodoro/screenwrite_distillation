@@ -1,0 +1,15 @@
+{
+  "scene_id": "s01099_1",
+  "cast": {"JUDGE ARCHIBALD-NWOSU": "PHILOMENA ARCHIBALD-NWOSU", "PHILOMENA": "PHILOMENA ARCHIBALD-NWOSU", "GIDEON": "GIDEON OKAFOR-LINDGREN", "GIDEON OKAFOR-LINDGREN": "GIDEON OKAFOR-LINDGREN"},
+  "beats": [1, 4, 5, 6, 7],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "2": {"t": "D", "who": ["OTHER"], "emo": {}, "c": 0.6},
+    "3": {"t": "D", "who": ["GIDEON OKAFOR-LINDGREN"], "emo": {"GIDEON OKAFOR-LINDGREN": ["fear", 0.6]}, "c": 1},
+    "4": {"to": ["GIDEON OKAFOR-LINDGREN"], "emo": ["neutral", 0.3], "c": 1},
+    "5": {"t": "A", "who": ["GIDEON OKAFOR-LINDGREN"], "emo": {"GIDEON OKAFOR-LINDGREN": ["fear", 0.5]}, "c": 1},
+    "6": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 1},
+    "7": {"to": ["GIDEON OKAFOR-LINDGREN"], "emo": ["neutral", 0.4], "c": 1}
+  },
+  "tension": [15, 30, 45, 40, 35]
+}

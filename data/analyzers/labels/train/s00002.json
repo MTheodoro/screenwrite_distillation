@@ -1,0 +1,26 @@
+{
+  "scene_id": "s00002",
+  "cast": {"TAMSIN HALE": "TAMSIN HALE", "TAMSIN": "TAMSIN HALE", "BRAM": "BRAM", "PIP": "PIP", "POLLY": "POLLY", "SERAPH VANE": "SERAPH VANE", "SERAPH": "SERAPH VANE"},
+  "beats": [1, 3, 6, 10, 12, 15, 17],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["TAMSIN HALE"], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["BRAM"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["PIP", "POLLY"], "emo": {}, "c": 0.9},
+    "6": {"to": ["BRAM"], "emo": ["neutral", 0.2], "c": 0.7},
+    "7": {"to": ["TAMSIN HALE"], "emo": ["neutral", 0.3], "c": 0.8},
+    "8": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.8},
+    "9": {"to": ["POLLY"], "emo": ["neutral", 0.3], "c": 0.8},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "D", "who": ["SERAPH VANE"], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["SERAPH VANE"], "emo": {"SERAPH VANE": ["surprise", 0.3]}, "c": 0.8},
+    "14": {"t": "A", "who": ["SERAPH VANE"], "emo": {"SERAPH VANE": ["joy", 0.2]}, "c": 0.8},
+    "15": {"to": ["BRAM"], "emo": ["neutral", 0.3], "c": 0.85},
+    "16": {"to": ["SERAPH VANE"], "emo": ["neutral", 0.3], "c": 0.85},
+    "17": {"t": "A", "who": ["TAMSIN HALE"], "emo": {}, "c": 0.9},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.9}
+  },
+  "tension": [8, 12, 15, 20, 30, 40, 50]
+}

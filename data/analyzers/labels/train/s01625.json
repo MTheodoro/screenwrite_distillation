@@ -1,0 +1,25 @@
+{
+"scene_id":"s01625",
+"cast":{"JEB":"JEB TALLMAN","JEB TALLMAN":"JEB TALLMAN","CORA LEE":"CORA LEE PRUETT","CORA LEE PRUETT":"CORA LEE PRUETT","MISS CORA LEE":"CORA LEE PRUETT","PIKE":"PIKE","DOC":"DOC AMBROSE","DOC AMBROSE":"DOC AMBROSE"},
+"beats":[1,4,5,10,14,16,17],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":1},
+"2":{"t":"S","who":[],"emo":{},"c":1},
+"3":{"t":"D","who":["JEB TALLMAN","CORA LEE PRUETT","PIKE","DOC AMBROSE"],"emo":{},"c":0.9},
+"4":{"t":"A","who":["JEB TALLMAN","CORA LEE PRUETT","PIKE","DOC AMBROSE"],"emo":{},"c":0.9},
+"5":{"to":["PIKE"],"emo":["neutral",0.3],"c":0.95},
+"6":{"to":["JEB TALLMAN"],"emo":["fear",0.4],"c":0.95},
+"7":{"to":["ALL"],"emo":["neutral",0.3],"c":0.9},
+"8":{"to":["CORA LEE PRUETT"],"emo":["neutral",0.3],"c":0.9},
+"9":{"to":["ALL"],"emo":["anger",0.3],"c":0.9},
+"10":{"to":["DOC AMBROSE"],"emo":["fear",0.4],"c":0.9},
+"11":{"to":["PIKE"],"emo":["neutral",0.2],"c":0.9},
+"12":{"to":["ALL"],"emo":["neutral",0.2],"c":0.85},
+"13":{"to":["JEB TALLMAN"],"emo":["affection",0.4],"c":0.9},
+"14":{"t":"A","who":["JEB TALLMAN"],"emo":{"JEB TALLMAN":["joy",0.4]},"c":0.95},
+"15":{"t":"A","who":["JEB TALLMAN"],"emo":{},"c":0.95},
+"16":{"t":"A","who":["PIKE"],"emo":{},"c":0.95},
+"17":{"to":["ALL"],"emo":["surprise",0.3],"c":0.9}
+},
+"tension":[5,25,20,30,15,30,40]
+}

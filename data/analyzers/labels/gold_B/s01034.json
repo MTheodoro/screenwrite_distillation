@@ -1,0 +1,16 @@
+{"scene_id":"s01034","cast":{"BEATRIX CALLOWAY":"BEATRIX","BEATRIX":"BEATRIX","Beatrix":"BEATRIX","NICO ABARA":"NICO","NICO":"NICO","FENWICK":"FENWICK","Mr. Fenwick":"FENWICK"},
+"beats":[1,3,4,7,8,10,11],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":0.95},
+"2":{"t":"S","who":[],"emo":{},"c":0.95},
+"3":{"t":"D","who":["BEATRIX","NICO","FENWICK"],"emo":{"FENWICK":["fear",0.5]},"c":0.8},
+"4":{"to":["FENWICK"],"emo":["anger",0.3],"c":0.95},
+"5":{"to":["BEATRIX"],"emo":["fear",0.3],"c":0.95},
+"6":{"to":["FENWICK"],"emo":["surprise",0.3],"c":0.95},
+"7":{"t":"A","who":["BEATRIX","NICO","FENWICK"],"emo":{"NICO":["fear",0.5],"FENWICK":["fear",0.5]},"c":0.6},
+"8":{"to":["FENWICK"],"emo":["anger",0.4],"c":0.95},
+"9":{"to":["BEATRIX"],"emo":["fear",0.5],"c":0.95},
+"10":{"to":["BEATRIX"],"emo":["surprise",0.4],"c":0.5},
+"11":{"t":"A","who":["BEATRIX","NICO","FENWICK"],"emo":{},"c":0.9},
+"12":{"t":"S","who":[],"emo":{},"c":0.85}
+}}

@@ -1,0 +1,29 @@
+{
+  "scene_id": "s00656",
+  "cast": {"ARCHIBALD PENNYWORTH": "ARCHIBALD PENNYWORTH", "ARCHIE": "ARCHIBALD PENNYWORTH", "CORDELIA PENNYWORTH": "CORDELIA PENNYWORTH", "CORDELIA": "CORDELIA PENNYWORTH"},
+  "beats": [1, 9, 15, 19, 20, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["ARCHIBALD PENNYWORTH"], "emo": {}, "c": 0.9},
+    "7": {"t": "D", "who": ["ARCHIBALD PENNYWORTH"], "emo": {}, "c": 0.9},
+    "8": {"t": "D", "who": ["CORDELIA PENNYWORTH"], "emo": {}, "c": 0.9},
+    "9": {"to": ["ARCHIBALD PENNYWORTH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["CORDELIA PENNYWORTH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["ARCHIBALD PENNYWORTH"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["CORDELIA PENNYWORTH"], "emo": ["sadness", 0.3], "c": 0.9},
+    "13": {"t": "A", "who": ["ARCHIBALD PENNYWORTH"], "emo": {"ARCHIBALD PENNYWORTH": ["sadness", 0.3]}, "c": 0.9},
+    "14": {"t": "A", "who": ["CORDELIA PENNYWORTH"], "emo": {"CORDELIA PENNYWORTH": ["affection", 0.5]}, "c": 0.9},
+    "15": {"to": ["ARCHIBALD PENNYWORTH"], "emo": ["affection", 0.5], "c": 0.9},
+    "16": {"to": ["CORDELIA PENNYWORTH"], "emo": ["sadness", 0.4], "c": 0.9},
+    "17": {"to": ["ARCHIBALD PENNYWORTH"], "emo": ["affection", 0.4], "c": 0.9},
+    "18": {"to": ["CORDELIA PENNYWORTH"], "emo": ["affection", 0.4], "c": 0.9},
+    "19": {"t": "A", "who": ["CORDELIA PENNYWORTH"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["ARCHIBALD PENNYWORTH"], "emo": {"ARCHIBALD PENNYWORTH": ["sadness", 0.4]}, "c": 0.9},
+    "21": {"to": ["CORDELIA PENNYWORTH"], "emo": ["sadness", 0.3], "c": 0.9}
+  },
+  "tension": [10, 20, 25, 25, 15, 15]
+}

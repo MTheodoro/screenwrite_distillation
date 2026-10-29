@@ -1,0 +1,29 @@
+{
+  "scene_id": "s02201",
+  "cast": {"BROTHER AUGUSTINE": "BROTHER AUGUSTINE", "AUGUSTINE": "BROTHER AUGUSTINE", "SISTER HILDEGARD": "SISTER HILDEGARD", "HILDEGARD": "SISTER HILDEGARD", "BROTHER BERNARD": "BROTHER BERNARD", "BERNARD": "BROTHER BERNARD", "ELIAS": "ELIAS"},
+  "beats": [1, 4, 8, 15, 18, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["BROTHER AUGUSTINE"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["SISTER HILDEGARD"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["BROTHER BERNARD"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["ELIAS"], "emo": {}, "c": 0.95},
+    "8": {"to": ["ALL"], "emo": ["sadness", 0.3], "c": 0.9},
+    "9": {"to": ["BROTHER AUGUSTINE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["ALL"], "emo": ["sadness", 0.4], "c": 0.9},
+    "11": {"to": ["BROTHER BERNARD"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["BROTHER AUGUSTINE"], "emo": ["neutral", 0.2], "c": 0.9},
+    "13": {"to": ["BROTHER BERNARD"], "emo": ["neutral", 0.3], "c": 0.9},
+    "14": {"to": ["SISTER HILDEGARD"], "emo": ["neutral", 0.2], "c": 0.9},
+    "15": {"t": "A", "who": ["ELIAS"], "emo": {}, "c": 0.95},
+    "16": {"t": "A", "who": ["ELIAS"], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["SISTER HILDEGARD"], "emo": {"SISTER HILDEGARD": ["affection", 0.3]}, "c": 0.9},
+    "18": {"to": ["SISTER HILDEGARD"], "emo": ["affection", 0.4], "c": 0.95},
+    "19": {"to": ["ELIAS"], "emo": ["affection", 0.4], "c": 0.9},
+    "20": {"t": "A", "who": ["BROTHER AUGUSTINE"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["BROTHER BERNARD"], "emo": {"BROTHER BERNARD": ["affection", 0.3]}, "c": 0.9}
+  },
+  "tension": [5, 10, 20, 15, 20, 10]
+}

@@ -1,0 +1,39 @@
+{
+  "scene_id": "s02416",
+  "cast": {
+    "THADDEUS GRIMALDI-HOLT": "THADDEUS GRIMALDI-HOLT",
+    "THADDEUS": "THADDEUS GRIMALDI-HOLT",
+    "PHOEBE": "PHOEBE",
+    "REGGIE": "REGGIE",
+    "SUNITA": "SUNITA",
+    "STRANGER": "DWIGHT",
+    "DWIGHT": "DWIGHT"
+  },
+  "beats": [1, 4, 6, 7, 9, 11, 12, 14, 17, 19, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["THADDEUS GRIMALDI-HOLT"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["PHOEBE"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["REGGIE", "SUNITA", "DWIGHT"], "emo": {}, "c": 0.8},
+    "7": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.8},
+    "8": {"to": ["THADDEUS GRIMALDI-HOLT"], "emo": ["sadness", 0.3], "c": 0.9},
+    "9": {"t": "A", "who": ["PHOEBE"], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["PHOEBE"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["PHOEBE", "REGGIE", "SUNITA", "THADDEUS GRIMALDI-HOLT"], "emo": {"THADDEUS GRIMALDI-HOLT": ["joy", 0.4], "PHOEBE": ["sadness", 0.3]}, "c": 0.6},
+    "12": {"to": ["THADDEUS GRIMALDI-HOLT", "PHOEBE"], "emo": ["neutral", 0.2], "c": 0.8},
+    "13": {"to": ["DWIGHT"], "emo": ["neutral", 0.2], "c": 0.9},
+    "14": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.8},
+    "15": {"to": ["DWIGHT"], "emo": ["sadness", 0.3], "c": 0.9},
+    "16": {"to": ["PHOEBE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "17": {"to": ["DWIGHT"], "emo": ["sadness", 0.4], "c": 0.9},
+    "18": {"to": ["PHOEBE"], "emo": ["neutral", 0.2], "c": 0.9},
+    "19": {"t": "A", "who": ["PHOEBE"], "emo": {"PHOEBE": ["sadness", 0.5]}, "c": 0.95},
+    "20": {"t": "A", "who": ["PHOEBE"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["PHOEBE"], "emo": {}, "c": 0.95},
+    "22": {"t": "A", "who": ["PHOEBE"], "emo": {}, "c": 0.9},
+    "23": {"to": ["DWIGHT"], "emo": ["sadness", 0.5], "c": 0.9}
+  },
+  "tension": [10, 15, 20, 25, 25, 35, 45, 50, 55, 60, 50]
+}

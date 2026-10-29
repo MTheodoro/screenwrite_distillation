@@ -1,0 +1,33 @@
+{
+"scene_id":"s01633",
+"cast":{"HATTIE":"HATTIE MORROW","HATTIE MORROW":"HATTIE MORROW","BRODIE":"BRODIE","LAZARO":"LAZARO","SNOW":"SNOW"},
+"beats":[1,5,9,12,14,16,17,18,19,21,23,25],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":1},
+"2":{"t":"S","who":[],"emo":{},"c":1},
+"3":{"t":"S","who":[],"emo":{},"c":1},
+"4":{"t":"S","who":[],"emo":{},"c":1},
+"5":{"t":"A","who":["HATTIE MORROW"],"emo":{},"c":0.95},
+"6":{"t":"A","who":["BRODIE"],"emo":{},"c":0.95},
+"7":{"t":"A","who":["LAZARO"],"emo":{},"c":0.95},
+"8":{"t":"A","who":["SNOW"],"emo":{},"c":0.95},
+"9":{"to":["BRODIE"],"emo":["anger",0.5],"c":0.95},
+"10":{"to":["HATTIE MORROW"],"emo":["anger",0.5],"c":0.95},
+"11":{"to":["BRODIE"],"emo":["anger",0.6],"c":0.95},
+"12":{"t":"S","who":[],"emo":{},"c":1},
+"13":{"t":"S","who":[],"emo":{},"c":1},
+"14":{"to":["ALL"],"emo":["fear",0.6],"c":0.95},
+"15":{"to":["SELF"],"emo":["sadness",0.3],"c":0.9},
+"16":{"to":["SNOW"],"emo":["anger",0.7],"c":0.95},
+"17":{"t":"A","who":["BRODIE"],"emo":{},"c":0.95},
+"18":{"t":"A","who":["HATTIE MORROW"],"emo":{},"c":0.95},
+"19":{"t":"A","who":["HATTIE MORROW"],"emo":{},"c":0.7},
+"20":{"t":"A","who":["BRODIE"],"emo":{},"c":0.95},
+"21":{"t":"S","who":[],"emo":{},"c":1},
+"22":{"t":"S","who":[],"emo":{},"c":1},
+"23":{"to":["LAZARO"],"emo":["neutral",0.4],"c":0.95},
+"24":{"to":["HATTIE MORROW"],"emo":["neutral",0.2],"c":0.95},
+"25":{"to":["BRODIE"],"emo":["neutral",0.3],"c":0.95}
+},
+"tension":[15,25,35,40,45,50,60,70,85,75,60,55]
+}

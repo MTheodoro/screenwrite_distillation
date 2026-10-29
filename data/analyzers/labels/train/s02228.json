@@ -1,0 +1,33 @@
+{
+  "scene_id": "s02228",
+  "cast": {"DESSA OYELARAN": "DESSA OYELARAN", "DESSA": "DESSA OYELARAN", "BARNABY \"BARN\" HOLLIS": "BARN HOLLIS", "BARN": "BARN HOLLIS", "HOLLIS": "BARN HOLLIS", "THE VICAR": "VICAR", "VICAR": "VICAR"},
+  "beats": [1, 4, 6, 8, 11, 13, 15, 18, 22, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["DESSA OYELARAN"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["BARN HOLLIS"], "emo": {"BARN HOLLIS": ["fear", 0.5]}, "c": 0.95},
+    "6": {"to": ["DESSA OYELARAN"], "emo": ["fear", 0.6], "c": 0.9},
+    "7": {"to": ["BARN HOLLIS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["DESSA OYELARAN"], "emo": ["fear", 0.7], "c": 0.9},
+    "9": {"to": ["BARN HOLLIS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["DESSA OYELARAN"], "emo": ["fear", 0.6], "c": 0.9},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["DESSA OYELARAN", "BARN HOLLIS"], "emo": {}, "c": 0.9},
+    "13": {"t": "A", "who": ["VICAR"], "emo": {}, "c": 0.6},
+    "14": {"to": ["BARN HOLLIS"], "emo": ["fear", 0.6], "c": 0.9},
+    "15": {"t": "A", "who": ["DESSA OYELARAN", "BARN HOLLIS"], "emo": {}, "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["VICAR"], "emo": {}, "c": 0.6},
+    "19": {"t": "A", "who": ["DESSA OYELARAN"], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["BARN HOLLIS"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["DESSA OYELARAN", "BARN HOLLIS"], "emo": {}, "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "24": {"to": ["DESSA OYELARAN"], "emo": ["fear", 0.5], "c": 0.9},
+    "25": {"to": ["BARN HOLLIS"], "emo": ["neutral", 0.3], "c": 0.9}
+  },
+  "tension": [10, 20, 40, 50, 45, 65, 75, 80, 30, 25]
+}

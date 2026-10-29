@@ -1,0 +1,27 @@
+{
+  "scene_id": "s01925",
+  "cast": {"NORBERT FENWICK": "NORBERT FENWICK", "NORBERT": "NORBERT FENWICK", "INTERCOM VOICE": "INTERCOM VOICE", "INTERCOM": "INTERCOM VOICE", "CASSIUS OYELARAN": "CASSIUS OYELARAN", "CASSIUS": "CASSIUS OYELARAN"},
+  "beats": [1, 5, 11, 13, 17, 19],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["NORBERT FENWICK"], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "5": {"to": ["NORBERT FENWICK"], "emo": ["neutral", 0.3], "c": 0.9},
+    "6": {"to": ["INTERCOM VOICE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "7": {"to": ["NORBERT FENWICK"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["INTERCOM VOICE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["NORBERT FENWICK"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["INTERCOM VOICE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["CASSIUS OYELARAN"], "emo": {}, "c": 0.95},
+    "13": {"to": ["NORBERT FENWICK"], "emo": ["neutral", 0.3], "c": 0.8},
+    "14": {"t": "A", "who": ["NORBERT FENWICK"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["NORBERT FENWICK"], "emo": {"NORBERT FENWICK": ["surprise", 0.4]}, "c": 0.9},
+    "16": {"t": "A", "who": ["NORBERT FENWICK"], "emo": {"NORBERT FENWICK": ["surprise", 0.4]}, "c": 0.9},
+    "17": {"to": ["ALL"], "emo": ["surprise", 0.4], "c": 0.8},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"to": ["NORBERT FENWICK"], "emo": ["neutral", 0.4], "c": 0.9}
+  },
+  "tension": [5, 10, 30, 35, 25, 20]
+}

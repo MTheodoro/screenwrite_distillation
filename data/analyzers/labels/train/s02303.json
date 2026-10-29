@@ -1,0 +1,28 @@
+{
+  "scene_id": "s02303",
+  "cast": {"ATTORNEY RENATA OKAFOR-LINDGREN": "RENATA OKAFOR-LINDGREN", "RENATA OKAFOR-LINDGREN": "RENATA OKAFOR-LINDGREN", "RENATA": "RENATA OKAFOR-LINDGREN", "CAPTAIN GWENDOLYN HARTIGAN": "GWENDOLYN HARTIGAN", "GWENDOLYN HARTIGAN": "GWENDOLYN HARTIGAN", "GWEN": "GWENDOLYN HARTIGAN", "HARTIGAN": "GWENDOLYN HARTIGAN"},
+  "beats": [1, 5, 7, 11, 13, 15, 17, 19, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "D", "who": ["RENATA OKAFOR-LINDGREN"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["GWENDOLYN HARTIGAN"], "emo": {}, "c": 0.95},
+    "7": {"to": ["GWENDOLYN HARTIGAN"], "emo": ["neutral", 0.4], "c": 0.9},
+    "8": {"to": ["RENATA OKAFOR-LINDGREN"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"to": ["GWENDOLYN HARTIGAN"], "emo": ["neutral", 0.4], "c": 0.9},
+    "10": {"to": ["RENATA OKAFOR-LINDGREN"], "emo": ["anger", 0.3], "c": 0.9},
+    "11": {"t": "A", "who": ["RENATA OKAFOR-LINDGREN"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["GWENDOLYN HARTIGAN"], "emo": {}, "c": 0.95},
+    "13": {"to": ["GWENDOLYN HARTIGAN"], "emo": ["anger", 0.3], "c": 0.9},
+    "14": {"to": ["RENATA OKAFOR-LINDGREN"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["GWENDOLYN HARTIGAN"], "emo": ["neutral", 0.4], "c": 0.9},
+    "16": {"to": ["RENATA OKAFOR-LINDGREN"], "emo": ["sadness", 0.3], "c": 0.9},
+    "17": {"t": "A", "who": ["RENATA OKAFOR-LINDGREN"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["GWENDOLYN HARTIGAN"], "emo": {"GWENDOLYN HARTIGAN": ["anger", 0.4]}, "c": 0.9},
+    "19": {"to": ["GWENDOLYN HARTIGAN"], "emo": ["anger", 0.3], "c": 0.85},
+    "20": {"to": ["RENATA OKAFOR-LINDGREN"], "emo": ["sadness", 0.6], "c": 0.9}
+  },
+  "tension": [5, 10, 15, 20, 35, 40, 45, 55, 75]
+}

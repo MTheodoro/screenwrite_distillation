@@ -1,0 +1,27 @@
+{
+  "scene_id": "s00020",
+  "cast": {"IGNATIUS BRAND": "IGNATIUS BRAND", "IGNATIUS": "IGNATIUS BRAND", "TAMSIN OKORO": "TAMSIN OKORO", "TAMSIN": "TAMSIN OKORO"},
+  "beats": [1, 3, 10, 15, 17],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["IGNATIUS BRAND"], "emo": {}, "c": 0.9},
+    "4": {"to": ["IGNATIUS BRAND"], "emo": ["neutral", 0.1], "c": 0.8},
+    "5": {"to": ["TAMSIN OKORO"], "emo": ["neutral", 0.2], "c": 0.8},
+    "6": {"t": "A", "who": ["IGNATIUS BRAND", "TAMSIN OKORO"], "emo": {}, "c": 0.95},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["TAMSIN OKORO"], "emo": {"TAMSIN OKORO": ["joy", 0.4]}, "c": 0.95},
+    "9": {"to": ["IGNATIUS BRAND"], "emo": ["neutral", 0.2], "c": 0.8},
+    "10": {"t": "A", "who": ["IGNATIUS BRAND"], "emo": {}, "c": 0.9},
+    "11": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "13": {"to": ["TAMSIN OKORO"], "emo": ["fear", 0.6], "c": 0.9},
+    "14": {"to": ["IGNATIUS BRAND"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.8},
+    "16": {"t": "A", "who": ["IGNATIUS BRAND", "TAMSIN OKORO"], "emo": {"TAMSIN OKORO": ["fear", 0.7], "IGNATIUS BRAND": ["fear", 0.7]}, "c": 0.95},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["IGNATIUS BRAND", "TAMSIN OKORO"], "emo": {"TAMSIN OKORO": ["fear", 0.6], "IGNATIUS BRAND": ["fear", 0.6]}, "c": 0.9},
+    "19": {"to": ["TAMSIN OKORO"], "emo": ["fear", 0.7], "c": 0.8}
+  },
+  "tension": [5, 10, 30, 70, 80]
+}

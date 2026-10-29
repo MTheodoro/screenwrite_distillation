@@ -1,0 +1,33 @@
+{
+  "scene_id": "s02299",
+  "cast": {"ATTORNEY NADIA FAROUQ": "NADIA FAROUQ", "NADIA FAROUQ": "NADIA FAROUQ", "NADIA": "NADIA FAROUQ", "DARRELL OKAFOR": "DARRELL OKAFOR", "DARRELL": "DARRELL OKAFOR"},
+  "beats": [1, 4, 6, 10, 14, 16, 19, 21, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "D", "who": ["NADIA FAROUQ"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["DARRELL OKAFOR"], "emo": {}, "c": 0.95},
+    "6": {"to": ["DARRELL OKAFOR"], "emo": ["neutral", 0.4], "c": 0.9},
+    "7": {"to": ["NADIA FAROUQ"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"to": ["DARRELL OKAFOR"], "emo": ["neutral", 0.3], "c": 0.9},
+    "9": {"to": ["NADIA FAROUQ"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"t": "A", "who": ["NADIA FAROUQ"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["NADIA FAROUQ"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["DARRELL OKAFOR"], "emo": {}, "c": 0.95},
+    "13": {"t": "A", "who": ["DARRELL OKAFOR"], "emo": {}, "c": 0.8},
+    "14": {"t": "A", "who": ["NADIA FAROUQ"], "emo": {"NADIA FAROUQ": ["fear", 0.5]}, "c": 0.9},
+    "15": {"t": "A", "who": ["NADIA FAROUQ"], "emo": {}, "c": 0.95},
+    "16": {"to": ["DARRELL OKAFOR"], "emo": ["fear", 0.4], "c": 0.9},
+    "17": {"to": ["NADIA FAROUQ"], "emo": ["neutral", 0.4], "c": 0.9},
+    "18": {"to": ["DARRELL OKAFOR"], "emo": ["neutral", 0.3], "c": 0.9},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "20": {"t": "A", "who": ["NADIA FAROUQ"], "emo": {}, "c": 0.95},
+    "21": {"t": "A", "who": ["DARRELL OKAFOR"], "emo": {}, "c": 0.95},
+    "22": {"to": ["NADIA FAROUQ"], "emo": ["fear", 0.4], "c": 0.9},
+    "23": {"to": ["DARRELL OKAFOR"], "emo": ["neutral", 0.4], "c": 0.9},
+    "24": {"t": "A", "who": ["NADIA FAROUQ"], "emo": {}, "c": 0.95},
+    "25": {"t": "A", "who": ["DARRELL OKAFOR"], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 10, 20, 25, 35, 50, 45, 55, 40, 35]
+}

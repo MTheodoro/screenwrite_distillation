@@ -1,0 +1,42 @@
+{
+  "scene_id": "s01934",
+  "cast": {
+    "SERGEANT ILARIO COSTA": "COSTA",
+    "COSTA": "COSTA",
+    "WOUNDED SOLDIER": "TADEUSZ",
+    "TADEUSZ": "TADEUSZ",
+    "TADEUSZ WOLAK": "TADEUSZ"
+  },
+  "beats": [1, 5, 9, 11, 13, 17, 19, 21, 25, 26, 28],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["COSTA"], "emo": {}, "c": 1.0},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "7": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "8": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "9": {"t": "A", "who": ["COSTA"], "emo": {}, "c": 1.0},
+    "10": {"t": "A", "who": ["COSTA"], "emo": {}, "c": 1.0},
+    "11": {"t": "A", "who": ["TADEUSZ"], "emo": {}, "c": 1.0},
+    "12": {"t": "A", "who": ["TADEUSZ"], "emo": {}, "c": 1.0},
+    "13": {"to": ["COSTA"], "emo": ["fear", 0.5], "c": 0.9},
+    "14": {"to": ["TADEUSZ"], "emo": ["neutral", 0.4], "c": 0.9},
+    "15": {"to": ["COSTA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"to": ["TADEUSZ"], "emo": ["neutral", 0.4], "c": 0.9},
+    "17": {"t": "A", "who": ["COSTA"], "emo": {}, "c": 1.0},
+    "18": {"t": "A", "who": ["TADEUSZ"], "emo": {}, "c": 1.0},
+    "19": {"t": "A", "who": ["COSTA"], "emo": {}, "c": 1.0},
+    "20": {"t": "A", "who": ["TADEUSZ"], "emo": {}, "c": 1.0},
+    "21": {"to": ["TADEUSZ"], "emo": ["neutral", 0.4], "c": 0.9},
+    "22": {"to": ["COSTA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "23": {"to": ["TADEUSZ"], "emo": ["neutral", 0.4], "c": 0.9},
+    "24": {"to": ["COSTA"], "emo": ["fear", 0.3], "c": 0.9},
+    "25": {"t": "A", "who": ["COSTA"], "emo": {"COSTA": ["fear", 0.4]}, "c": 1.0},
+    "26": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "27": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "28": {"to": ["COSTA"], "emo": ["sadness", 0.4], "c": 0.9}
+  },
+  "tension": [2, 5, 20, 30, 55, 40, 30, 35, 70, 85, 65]
+}

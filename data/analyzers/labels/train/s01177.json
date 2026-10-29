@@ -1,0 +1,27 @@
+{
+  "scene_id": "s01177",
+  "cast": {"JACINTA ROURKE": "JACINTA", "JACINTA": "JACINTA", "NILS": "NILS"},
+  "beats": [1, 8, 15],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "D", "who": ["JACINTA"], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"to": ["JACINTA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "6": {"to": ["NILS"], "emo": ["neutral", 0.2], "c": 0.9},
+    "7": {"to": ["JACINTA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "8": {"t": "A", "who": ["JACINTA"], "emo": {}, "c": 0.95},
+    "9": {"t": "A", "who": ["JACINTA"], "emo": {}, "c": 0.95},
+    "10": {"t": "A", "who": ["JACINTA"], "emo": {}, "c": 0.95},
+    "11": {"to": ["NILS"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["JACINTA"], "emo": ["fear", 0.3], "c": 0.9},
+    "13": {"to": ["NILS"], "emo": ["anger", 0.4], "c": 0.9},
+    "14": {"to": ["JACINTA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"t": "A", "who": ["JACINTA"], "emo": {}, "c": 0.95},
+    "16": {"t": "A", "who": ["NILS"], "emo": {}, "c": 0.9},
+    "17": {"t": "A", "who": ["JACINTA"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["NILS"], "emo": {"NILS": ["fear", 0.4]}, "c": 0.9},
+    "19": {"to": ["JACINTA"], "emo": ["fear", 0.3], "c": 0.9}
+  },
+  "tension": [20, 40, 55]
+}

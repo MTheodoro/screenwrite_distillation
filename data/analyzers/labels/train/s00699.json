@@ -1,0 +1,33 @@
+{
+  "scene_id": "s00699",
+  "cast": {"SGT. BRANDT": "BRANDT", "BRANDT": "BRANDT", "LT. ACHTERBERG": "ACHTERBERG", "ACHTERBERG": "ACHTERBERG", "YOUNG SOLDIER": "KOWALSKI", "KOWALSKI": "KOWALSKI"},
+  "beats": [1, 8, 9, 10, 11, 13, 16, 19, 20, 22, 23, 24, 25],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "D", "who": ["BRANDT"], "emo": {}, "c": 1.0},
+    "6": {"t": "D", "who": ["ACHTERBERG"], "emo": {}, "c": 1.0},
+    "7": {"t": "D", "who": ["KOWALSKI"], "emo": {}, "c": 1.0},
+    "8": {"to": ["ALL"], "emo": ["anger", 0.3], "c": 0.95},
+    "9": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "10": {"t": "A", "who": ["KOWALSKI"], "emo": {"KOWALSKI": ["fear", 0.6]}, "c": 0.95},
+    "11": {"to": ["ALL"], "emo": ["anger", 0.6], "c": 0.9},
+    "12": {"t": "A", "who": ["ACHTERBERG"], "emo": {}, "c": 0.95},
+    "13": {"to": ["BRANDT"], "emo": ["fear", 0.6], "c": 0.9},
+    "14": {"to": ["ACHTERBERG"], "emo": ["fear", 0.5], "c": 0.9},
+    "15": {"to": ["BRANDT"], "emo": ["fear", 0.4], "c": 0.9},
+    "16": {"to": ["SELF"], "emo": ["fear", 0.8], "c": 0.95},
+    "17": {"to": ["KOWALSKI"], "emo": ["neutral", 0.3], "c": 0.95},
+    "18": {"to": ["BRANDT"], "emo": ["fear", 0.4], "c": 0.95},
+    "19": {"to": ["KOWALSKI"], "emo": ["anger", 0.4], "c": 0.95},
+    "20": {"to": ["BRANDT"], "emo": ["fear", 0.6], "c": 0.95},
+    "21": {"to": ["KOWALSKI"], "emo": ["anger", 0.4], "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "23": {"t": "A", "who": ["BRANDT", "ACHTERBERG", "KOWALSKI"], "emo": {}, "c": 0.95},
+    "24": {"to": ["BRANDT"], "emo": ["fear", 0.5], "c": 0.9},
+    "25": {"to": ["ACHTERBERG"], "emo": ["anger", 0.7], "c": 0.95}
+  },
+  "tension": [5, 30, 40, 55, 70, 60, 75, 65, 70, 85, 80, 85, 90]
+}

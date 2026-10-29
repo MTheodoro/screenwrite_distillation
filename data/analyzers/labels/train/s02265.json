@@ -1,0 +1,26 @@
+{
+"scene_id": "s02265",
+"cast": {"TARIQ": "TARIQ", "DEV": "DEV", "COACH EDDIE": "EDDIE", "EDDIE": "EDDIE", "HAL": "HAL"},
+"beats": [1, 4, 8, 11, 12, 15, 16, 18],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+"4": {"t": "D", "who": ["TARIQ"], "emo": {}, "c": 1.0},
+"5": {"t": "D", "who": ["DEV"], "emo": {}, "c": 1.0},
+"6": {"t": "D", "who": ["EDDIE"], "emo": {}, "c": 1.0},
+"7": {"t": "D", "who": ["HAL"], "emo": {}, "c": 1.0},
+"8": {"to": ["TARIQ"], "emo": ["neutral", 0.4], "c": 0.9},
+"9": {"to": ["EDDIE"], "emo": ["fear", 0.3], "c": 0.9},
+"10": {"to": ["TARIQ"], "emo": ["neutral", 0.3], "c": 0.9},
+"11": {"t": "A", "who": ["DEV"], "emo": {}, "c": 1.0},
+"12": {"to": ["TARIQ"], "emo": ["neutral", 0.3], "c": 0.9},
+"13": {"to": ["DEV"], "emo": ["neutral", 0.3], "c": 0.9},
+"14": {"to": ["TARIQ"], "emo": ["neutral", 0.3], "c": 0.9},
+"15": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+"16": {"t": "A", "who": ["TARIQ"], "emo": {}, "c": 1.0},
+"17": {"t": "A", "who": ["DEV"], "emo": {}, "c": 1.0},
+"18": {"t": "A", "who": ["EDDIE"], "emo": {}, "c": 1.0}
+},
+"tension": [15, 25, 30, 30, 35, 25, 35, 45]
+}

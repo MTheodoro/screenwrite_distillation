@@ -1,0 +1,32 @@
+{
+  "scene_id": "s00899",
+  "cast": {"THESSALY GREYMANTLE": "THESSALY GREYMANTLE", "THESSALY": "THESSALY GREYMANTLE", "MORVAN": "MORVAN", "PIP": "PIP"},
+  "beats": [1, 4, 7, 8, 13, 15, 19, 20, 21, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["THESSALY GREYMANTLE"], "emo": {"THESSALY GREYMANTLE": ["joy", 0.3]}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["MORVAN"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["PIP"], "emo": {}, "c": 0.95},
+    "9": {"to": ["THESSALY GREYMANTLE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "10": {"to": ["PIP"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["THESSALY GREYMANTLE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.6},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "14": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.8},
+    "15": {"t": "A", "who": ["MORVAN"], "emo": {}, "c": 0.95},
+    "16": {"to": ["PIP"], "emo": ["fear", 0.4], "c": 0.9},
+    "17": {"to": ["MORVAN"], "emo": ["neutral", 0.2], "c": 0.9},
+    "18": {"to": ["PIP"], "emo": ["fear", 0.5], "c": 0.9},
+    "19": {"t": "A", "who": ["THESSALY GREYMANTLE"], "emo": {"THESSALY GREYMANTLE": ["anger", 0.3]}, "c": 0.9},
+    "20": {"t": "A", "who": ["OTHER", "MORVAN", "PIP", "THESSALY GREYMANTLE"], "emo": {"MORVAN": ["fear", 0.5]}, "c": 0.85},
+    "21": {"to": ["MORVAN"], "emo": ["fear", 0.6], "c": 0.9},
+    "22": {"to": ["SELF"], "emo": ["neutral", 0.3], "c": 0.9},
+    "23": {"t": "A", "who": ["THESSALY GREYMANTLE"], "emo": {"THESSALY GREYMANTLE": ["anger", 0.6]}, "c": 0.9},
+    "24": {"t": "S", "who": [], "emo": {}, "c": 1.0}
+  },
+  "tension": [10, 15, 15, 25, 30, 35, 50, 70, 75, 85]
+}

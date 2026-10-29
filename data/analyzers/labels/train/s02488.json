@@ -1,0 +1,31 @@
+{
+"scene_id": "s02488",
+"cast": {"IXARA": "IXARA", "BRUM": "BRUM"},
+"beats": [1,5,13,17,19,21,22],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "A", "who": ["IXARA"], "emo": {}, "c": 0.95},
+"4": {"t": "A", "who": ["BRUM"], "emo": {}, "c": 0.95},
+"5": {"to": ["BRUM"], "emo": ["neutral", 0.2], "c": 0.9},
+"6": {"to": ["IXARA"], "emo": ["neutral", 0.2], "c": 0.9},
+"7": {"to": ["BRUM"], "emo": ["neutral", 0.3], "c": 0.9},
+"8": {"to": ["IXARA"], "emo": ["neutral", 0.2], "c": 0.9},
+"9": {"to": ["BRUM"], "emo": ["neutral", 0.3], "c": 0.9},
+"10": {"to": ["IXARA"], "emo": ["neutral", 0.3], "c": 0.9},
+"11": {"to": ["BRUM"], "emo": ["neutral", 0.3], "c": 0.9},
+"12": {"to": ["IXARA"], "emo": ["neutral", 0.4], "c": 0.9},
+"13": {"to": ["BRUM"], "emo": ["fear", 0.3], "c": 0.9},
+"14": {"to": ["IXARA"], "emo": ["neutral", 0.4], "c": 0.9},
+"15": {"to": ["BRUM"], "emo": ["fear", 0.4], "c": 0.9},
+"16": {"to": ["IXARA"], "emo": ["neutral", 0.4], "c": 0.9},
+"17": {"to": ["BRUM"], "emo": ["fear", 0.4], "c": 0.9},
+"18": {"to": ["IXARA"], "emo": ["neutral", 0.4], "c": 0.9},
+"19": {"to": ["BRUM"], "emo": ["fear", 0.6], "c": 0.9},
+"20": {"to": ["BRUM"], "emo": ["fear", 0.6], "c": 0.85},
+"21": {"to": ["IXARA"], "emo": ["neutral", 0.4], "c": 0.9},
+"22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"23": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+},
+"tension": [10, 20, 40, 55, 75, 80, 65]
+}

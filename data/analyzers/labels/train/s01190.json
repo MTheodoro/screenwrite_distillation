@@ -1,0 +1,29 @@
+{
+  "scene_id": "s01190",
+  "cast": {"CORDELIA ASHWORTH-BELL": "CORDELIA", "CORDELIA": "CORDELIA", "MRS. FENWICK": "FENWICK", "FENWICK": "FENWICK", "CAPTAIN WARRINGTON": "WARRINGTON", "WARRINGTON": "WARRINGTON"},
+  "beats": [1, 6, 11, 13, 17, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["CORDELIA"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["FENWICK"], "emo": {}, "c": 0.95},
+    "6": {"to": ["WARRINGTON"], "emo": ["neutral", 0.3], "c": 0.7},
+    "7": {"to": ["CORDELIA"], "emo": ["anger", 0.4], "c": 0.9},
+    "8": {"to": ["WARRINGTON"], "emo": ["neutral", 0.2], "c": 0.9},
+    "9": {"to": ["CORDELIA"], "emo": ["anger", 0.4], "c": 0.9},
+    "10": {"to": ["FENWICK"], "emo": ["anger", 0.3], "c": 0.9},
+    "11": {"t": "A", "who": ["CORDELIA"], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "13": {"to": ["CORDELIA"], "emo": ["fear", 0.3], "c": 0.9},
+    "14": {"to": ["WARRINGTON"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["CORDELIA"], "emo": ["anger", 0.5], "c": 0.9},
+    "16": {"to": ["FENWICK"], "emo": ["fear", 0.4], "c": 0.9},
+    "17": {"to": ["CORDELIA"], "emo": ["fear", 0.8], "c": 0.9},
+    "18": {"t": "A", "who": ["CORDELIA"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["FENWICK"], "emo": {}, "c": 0.95},
+    "20": {"to": ["CORDELIA"], "emo": ["neutral", 0.4], "c": 0.9},
+    "21": {"t": "A", "who": ["CORDELIA"], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 35, 40, 50, 70, 80]
+}

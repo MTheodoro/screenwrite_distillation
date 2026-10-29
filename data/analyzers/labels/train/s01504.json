@@ -1,0 +1,32 @@
+{
+  "scene_id": "s01504",
+  "cast": {"MAN": "PREACHER", "TALL MAN": "PREACHER", "PREACHER": "PREACHER", "WOMAN": "WOMAN", "RANCHER": "RANCHER", "BOY": "BOY"},
+  "beats": [1, 5, 6, 9, 13, 16, 19, 20, 23],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["PREACHER", "WOMAN", "RANCHER", "BOY"], "emo": {}, "c": 1.0},
+    "6": {"t": "A", "who": ["PREACHER"], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["WOMAN"], "emo": {}, "c": 1.0},
+    "8": {"t": "A", "who": ["RANCHER"], "emo": {}, "c": 1.0},
+    "9": {"t": "A", "who": ["BOY"], "emo": {}, "c": 1.0},
+    "10": {"t": "A", "who": ["PREACHER"], "emo": {}, "c": 1.0},
+    "11": {"t": "A", "who": ["WOMAN"], "emo": {"WOMAN": ["sadness", 0.4]}, "c": 1.0},
+    "12": {"t": "A", "who": ["PREACHER"], "emo": {}, "c": 1.0},
+    "13": {"t": "A", "who": ["RANCHER", "BOY"], "emo": {}, "c": 1.0},
+    "14": {"t": "A", "who": ["WOMAN"], "emo": {}, "c": 1.0},
+    "15": {"t": "A", "who": ["BOY"], "emo": {"BOY": ["sadness", 0.5]}, "c": 1.0},
+    "16": {"t": "A", "who": ["PREACHER"], "emo": {}, "c": 1.0},
+    "17": {"t": "A", "who": ["RANCHER"], "emo": {"RANCHER": ["anger", 0.4]}, "c": 1.0},
+    "18": {"t": "A", "who": ["PREACHER", "RANCHER"], "emo": {}, "c": 0.7},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "20": {"t": "A", "who": ["WOMAN"], "emo": {}, "c": 1.0},
+    "21": {"t": "D", "who": ["WOMAN"], "emo": {}, "c": 0.9},
+    "22": {"t": "A", "who": ["WOMAN"], "emo": {}, "c": 1.0},
+    "23": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.9},
+    "24": {"t": "A", "who": ["PREACHER", "RANCHER", "BOY"], "emo": {}, "c": 1.0}
+  },
+  "tension": [5, 10, 15, 20, 30, 50, 55, 45, 60]
+}

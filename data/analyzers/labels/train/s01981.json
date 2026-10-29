@@ -1,0 +1,32 @@
+{
+  "scene_id": "s01981",
+  "cast": {"ABUELO RAÚL FONSECA": "RAUL FONSECA", "RAÚL": "RAUL FONSECA", "RAUL": "RAUL FONSECA", "FONSECA": "RAUL FONSECA"},
+  "beats": [1, 4, 6, 8, 9, 15, 16, 17, 19, 21, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "8": {"to": ["ALL"], "emo": ["affection", 0.6], "c": 0.8},
+    "9": {"t": "A", "who": ["RAUL FONSECA"], "emo": {"RAUL FONSECA": ["affection", 0.5]}, "c": 0.9},
+    "10": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "11": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "16": {"to": ["ALL"], "emo": ["affection", 0.5], "c": 0.8},
+    "17": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["RAUL FONSECA"], "emo": {"RAUL FONSECA": ["sadness", 0.4]}, "c": 0.95},
+    "20": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95},
+    "21": {"to": ["ALL"], "emo": ["sadness", 0.3], "c": 0.8},
+    "22": {"to": ["SELF"], "emo": ["sadness", 0.5], "c": 0.6},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["RAUL FONSECA"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 15, 25, 25, 20, 30, 30, 35, 35, 30, 25]
+}

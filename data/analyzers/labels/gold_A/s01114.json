@@ -1,0 +1,32 @@
+{
+  "scene_id": "s01114",
+  "cast": {"DR. ANSELMO KWAKU-REYNOLDS": "ANSELMO", "ANSELMO KWAKU-REYNOLDS": "ANSELMO", "ANSELMO": "ANSELMO", "KWAKU-REYNOLDS": "ANSELMO", "OPERATOR": "OPERATOR"},
+  "beats": [1, 5, 7, 11, 14, 15, 17, 18, 20, 21, 23, 25],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["ANSELMO"], "emo": {"ANSELMO": ["sadness", 0.4]}, "c": 0.95},
+    "6": {"t": "S", "who": [], "emo": {}, "c": 0.7},
+    "7": {"to": ["ANSELMO"], "emo": ["neutral", 0.2], "c": 0.9},
+    "8": {"to": ["OPERATOR"], "emo": ["sadness", 0.2], "c": 0.9},
+    "9": {"to": ["ANSELMO"], "emo": ["neutral", 0.2], "c": 0.9},
+    "10": {"to": ["OPERATOR"], "emo": ["anger", 0.3], "c": 0.9},
+    "11": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.95},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.7},
+    "13": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.9},
+    "14": {"to": ["SELF"], "emo": ["sadness", 0.4], "c": 0.95},
+    "15": {"t": "A", "who": ["ANSELMO"], "emo": {"ANSELMO": ["sadness", 0.3]}, "c": 0.95},
+    "16": {"t": "A", "who": ["ANSELMO"], "emo": {"ANSELMO": ["sadness", 0.3]}, "c": 0.9},
+    "17": {"to": ["SELF"], "emo": ["sadness", 0.3], "c": 0.85},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.8},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "20": {"to": ["SELF"], "emo": ["sadness", 0.5], "c": 0.85},
+    "21": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.95},
+    "22": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.95},
+    "23": {"to": ["OPERATOR"], "emo": ["neutral", 0.2], "c": 0.9},
+    "24": {"to": ["ANSELMO"], "emo": ["neutral", 0.1], "c": 0.9},
+    "25": {"t": "A", "who": ["ANSELMO"], "emo": {}, "c": 0.95}
+  }
+}

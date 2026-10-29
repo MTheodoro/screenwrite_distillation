@@ -1,0 +1,29 @@
+{
+  "scene_id": "s02235",
+  "cast": {"YELENA": "YELENA", "COACH THANDIWE": "THANDIWE", "THANDIWE": "THANDIWE", "KIONA": "KIONA", "SVEN": "SVEN"},
+  "beats": [1, 5, 9, 12, 14, 16, 17, 20, 21],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["YELENA"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["THANDIWE"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["KIONA"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["SVEN"], "emo": {}, "c": 0.95},
+    "9": {"to": ["YELENA"], "emo": ["neutral", 0.4], "c": 0.9},
+    "10": {"to": ["THANDIWE"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["YELENA"], "emo": ["neutral", 0.4], "c": 0.9},
+    "12": {"to": ["THANDIWE"], "emo": ["sadness", 0.3], "c": 0.9},
+    "13": {"to": ["YELENA"], "emo": ["neutral", 0.4], "c": 0.9},
+    "14": {"t": "A", "who": ["YELENA"], "emo": {}, "c": 0.95},
+    "15": {"t": "A", "who": ["THANDIWE"], "emo": {}, "c": 0.95},
+    "16": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "17": {"t": "A", "who": ["THANDIWE"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["YELENA"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["KIONA"], "emo": {}, "c": 0.95},
+    "20": {"to": ["YELENA"], "emo": ["neutral", 0.4], "c": 0.9},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+  },
+  "tension": [10, 30, 40, 35, 40, 55, 50, 60, 65]
+}

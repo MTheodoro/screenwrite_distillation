@@ -1,0 +1,31 @@
+{
+"scene_id": "s02493",
+"cast": {"HARLAN": "HARLAN", "KENDRA": "KENDRA", "TOBY": "TOBY", "SOLOMON": "SOLOMON", "BIANCA": "BIANCA", "GREER": "GREER"},
+"beats": [1,4,10,14,19,23],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "A", "who": ["HARLAN"], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["KENDRA"], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["TOBY"], "emo": {}, "c": 0.95},
+"7": {"t": "A", "who": ["SOLOMON"], "emo": {}, "c": 0.95},
+"8": {"t": "A", "who": ["BIANCA"], "emo": {"BIANCA": ["anger", 0.3]}, "c": 0.9},
+"9": {"t": "A", "who": ["GREER"], "emo": {}, "c": 0.95},
+"10": {"t": "A", "who": ["HARLAN"], "emo": {"HARLAN": ["fear", 0.5]}, "c": 0.9},
+"11": {"t": "A", "who": ["HARLAN"], "emo": {}, "c": 0.95},
+"12": {"t": "A", "who": ["KENDRA"], "emo": {}, "c": 0.95},
+"13": {"t": "A", "who": ["KENDRA"], "emo": {"KENDRA": ["fear", 0.5]}, "c": 0.9},
+"14": {"t": "A", "who": ["TOBY"], "emo": {"TOBY": ["anger", 0.5]}, "c": 0.9},
+"15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"17": {"t": "A", "who": ["BIANCA"], "emo": {"BIANCA": ["fear", 0.7]}, "c": 0.95},
+"18": {"t": "A", "who": ["SOLOMON"], "emo": {}, "c": 0.95},
+"19": {"t": "A", "who": ["GREER"], "emo": {"GREER": ["fear", 0.4]}, "c": 0.85},
+"20": {"t": "A", "who": ["HARLAN"], "emo": {"HARLAN": ["fear", 0.4]}, "c": 0.9},
+"21": {"t": "A", "who": ["KENDRA"], "emo": {"KENDRA": ["fear", 0.6]}, "c": 0.9},
+"22": {"t": "A", "who": ["GREER"], "emo": {}, "c": 0.95},
+"23": {"t": "A", "who": ["HARLAN", "KENDRA", "TOBY", "SOLOMON", "BIANCA", "GREER"], "emo": {}, "c": 0.9}
+},
+"tension": [10, 20, 55, 75, 85, 80]
+}

@@ -1,0 +1,22 @@
+{"scene_id":"s01064","cast":{"QUEEN IDRISSA":"IDRISSA","IDRISSA":"IDRISSA","SIR BALTHAZAR":"BALTHAZAR","BALTHAZAR":"BALTHAZAR","WANDERER":"FINNEGAN","FINNEGAN":"FINNEGAN","MORGANA":"MORGANA"},
+"beats":[1,2,5,9,11,14,16],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":0.95},
+"2":{"t":"D","who":["IDRISSA"],"emo":{},"c":0.95},
+"3":{"t":"D","who":["BALTHAZAR"],"emo":{},"c":0.95},
+"4":{"t":"D","who":["FINNEGAN"],"emo":{},"c":0.95},
+"5":{"to":["FINNEGAN"],"emo":["anger",0.3],"c":0.95},
+"6":{"to":["IDRISSA"],"emo":["neutral",0.2],"c":0.9},
+"7":{"to":["FINNEGAN"],"emo":["anger",0.2],"c":0.95},
+"8":{"to":["BALTHAZAR"],"emo":["neutral",0.2],"c":0.85},
+"9":{"to":["FINNEGAN"],"emo":["anger",0.3],"c":0.9},
+"10":{"to":["FINNEGAN"],"emo":["anger",0.3],"c":0.85},
+"11":{"t":"A","who":["MORGANA"],"emo":{},"c":0.95},
+"12":{"t":"A","who":["MORGANA"],"emo":{},"c":0.95},
+"13":{"to":["BALTHAZAR"],"emo":["neutral",0.2],"c":0.95},
+"14":{"to":["MORGANA"],"emo":["anger",0.3],"c":0.95},
+"15":{"to":["BALTHAZAR"],"emo":["neutral",0.2],"c":0.7},
+"16":{"t":"A","who":["FINNEGAN"],"emo":{"FINNEGAN":["surprise",0.7]},"c":0.95},
+"17":{"t":"S","who":[],"emo":{},"c":0.9},
+"18":{"t":"S","who":[],"emo":{},"c":0.95}
+}}

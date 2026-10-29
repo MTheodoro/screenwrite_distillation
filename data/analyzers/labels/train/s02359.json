@@ -1,0 +1,40 @@
+{
+  "scene_id": "s02359",
+  "cast": {
+    "CORPORAL ELIAS VOSS": "ELIAS VOSS",
+    "VOSS": "ELIAS VOSS",
+    "SERGEANT MARISKA DOBOS": "MARISKA DOBOS",
+    "DOBOS": "MARISKA DOBOS",
+    "CHILD": "CHILD"
+  },
+  "beats": [1, 4, 7, 9, 12, 14, 15, 17, 19, 21, 22, 23, 26],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "D", "who": ["ELIAS VOSS"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ELIAS VOSS"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["ELIAS VOSS"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["MARISKA DOBOS"], "emo": {}, "c": 0.95},
+    "8": {"t": "A", "who": ["MARISKA DOBOS"], "emo": {}, "c": 0.95},
+    "9": {"to": ["ELIAS VOSS"], "emo": ["neutral", 0.2], "c": 0.95},
+    "10": {"to": ["MARISKA DOBOS"], "emo": ["neutral", 0.2], "c": 0.95},
+    "11": {"to": ["ELIAS VOSS"], "emo": ["neutral", 0.2], "c": 0.95},
+    "12": {"t": "A", "who": ["ELIAS VOSS"], "emo": {"ELIAS VOSS": ["fear", 0.3]}, "c": 0.9},
+    "13": {"t": "A", "who": ["ELIAS VOSS"], "emo": {"ELIAS VOSS": ["fear", 0.4]}, "c": 0.9},
+    "14": {"t": "A", "who": ["MARISKA DOBOS"], "emo": {"MARISKA DOBOS": ["affection", 0.5]}, "c": 0.95},
+    "15": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "16": {"t": "A", "who": ["ELIAS VOSS", "MARISKA DOBOS"], "emo": {}, "c": 0.95},
+    "17": {"t": "A", "who": ["CHILD"], "emo": {}, "c": 0.95},
+    "18": {"t": "D", "who": ["CHILD"], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["CHILD"], "emo": {"CHILD": ["fear", 0.4]}, "c": 0.9},
+    "20": {"t": "A", "who": ["CHILD"], "emo": {}, "c": 0.8},
+    "21": {"t": "A", "who": ["CHILD"], "emo": {"CHILD": ["affection", 0.2]}, "c": 0.9},
+    "22": {"t": "A", "who": ["ELIAS VOSS"], "emo": {}, "c": 0.95},
+    "23": {"t": "A", "who": ["MARISKA DOBOS"], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["MARISKA DOBOS"], "emo": {}, "c": 0.95},
+    "25": {"t": "A", "who": ["MARISKA DOBOS"], "emo": {}, "c": 0.9},
+    "26": {"t": "A", "who": ["CHILD"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 15, 25, 30, 35, 30, 60, 75, 65, 50, 40, 25, 15]
+}

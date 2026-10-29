@@ -1,0 +1,26 @@
+{
+  "scene_id": "s00702",
+  "cast": {"KING OSRIC": "OSRIC", "OSRIC": "OSRIC", "LADY VANETH": "VANETH", "^LADY VANETH": "VANETH", "VANETH": "VANETH", "PIBBLE": "PIBBLE"},
+  "beats": [1, 6, 10, 13, 15, 16, 17, 18],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "D", "who": ["OSRIC"], "emo": {}, "c": 1.0},
+    "4": {"t": "D", "who": ["VANETH"], "emo": {}, "c": 1.0},
+    "5": {"t": "D", "who": ["PIBBLE"], "emo": {}, "c": 1.0},
+    "6": {"to": ["VANETH"], "emo": ["neutral", 0.3], "c": 0.95},
+    "7": {"to": ["OSRIC"], "emo": ["sadness", 0.3], "c": 0.95},
+    "8": {"to": ["OSRIC"], "emo": ["neutral", 0.2], "c": 0.85},
+    "9": {"to": ["OSRIC"], "emo": ["sadness", 0.3], "c": 0.9},
+    "10": {"t": "A", "who": ["PIBBLE", "VANETH"], "emo": {}, "c": 0.9},
+    "11": {"t": "A", "who": ["PIBBLE"], "emo": {}, "c": 0.95},
+    "12": {"t": "A", "who": ["VANETH"], "emo": {}, "c": 0.95},
+    "13": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "14": {"to": ["OSRIC"], "emo": ["neutral", 0.2], "c": 0.9},
+    "15": {"to": ["OSRIC"], "emo": ["anger", 0.4], "c": 0.9},
+    "16": {"to": ["PIBBLE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "17": {"t": "A", "who": ["PIBBLE"], "emo": {}, "c": 0.95},
+    "18": {"t": "A", "who": ["OSRIC"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 20, 35, 30, 40, 20, 15, 10]
+}

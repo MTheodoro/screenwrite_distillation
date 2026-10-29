@@ -1,0 +1,21 @@
+{
+"scene_id": "s00089_2",
+"cast": {"LUCIA": "LUCIA", "Lucia": "LUCIA", "DESHAWN": "DESHAWN", "Deshawn": "DESHAWN"},
+"beats": [1, 5, 7, 10],
+"lines": {
+"1": {"t": "A", "who": ["DESHAWN"], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"5": {"to": ["DESHAWN"], "emo": ["neutral", 0.3], "c": 0.9},
+"6": {"to": ["LUCIA"], "emo": ["neutral", 0.2], "c": 0.9},
+"7": {"t": "A", "who": ["LUCIA"], "emo": {}, "c": 0.95},
+"8": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"9": {"t": "A", "who": ["DESHAWN"], "emo": {}, "c": 0.95},
+"10": {"to": ["DESHAWN"], "emo": ["joy", 0.2], "c": 0.9},
+"11": {"to": ["LUCIA"], "emo": ["joy", 0.2], "c": 0.9},
+"12": {"t": "A", "who": ["LUCIA", "DESHAWN"], "emo": {}, "c": 0.95},
+"13": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+},
+"tension": [35, 20, 25, 15]
+}

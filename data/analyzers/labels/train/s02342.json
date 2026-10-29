@@ -1,0 +1,32 @@
+{
+  "scene_id": "s02342",
+  "cast": {"MADAME ROUSSEL": "MADAME ROUSSEL", "MONSIEUR ROUSSEL": "MONSIEUR ROUSSEL", "LOUISE": "LOUISE", "ANTOINE": "ANTOINE", "ABBÉ FOURNIER": "FOURNIER", "FOURNIER": "FOURNIER", "CAPTAIN DUVALIER": "DUVALIER", "DUVALIER": "DUVALIER"},
+  "beats": [1, 5, 11, 13, 16, 19, 20, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "5": {"t": "D", "who": ["MADAME ROUSSEL"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["MONSIEUR ROUSSEL"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["LOUISE"], "emo": {}, "c": 0.9},
+    "8": {"t": "A", "who": ["ANTOINE"], "emo": {}, "c": 0.9},
+    "9": {"t": "A", "who": ["FOURNIER"], "emo": {}, "c": 0.9},
+    "10": {"t": "A", "who": ["DUVALIER"], "emo": {}, "c": 0.9},
+    "11": {"to": ["FOURNIER"], "emo": ["neutral", 0.2], "c": 0.9},
+    "12": {"to": ["MADAME ROUSSEL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "13": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.9},
+    "14": {"to": ["LOUISE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "15": {"to": ["ANTOINE"], "emo": ["neutral", 0.3], "c": 0.9},
+    "16": {"to": ["ALL"], "emo": ["neutral", 0.4], "c": 0.9},
+    "17": {"to": ["DUVALIER"], "emo": ["anger", 0.3], "c": 0.9},
+    "18": {"to": ["LOUISE"], "emo": ["neutral", 0.2], "c": 0.9},
+    "19": {"to": ["FOURNIER"], "emo": ["fear", 0.5], "c": 0.9},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "23": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "24": {"t": "A", "who": ["MADAME ROUSSEL"], "emo": {}, "c": 0.95}
+  },
+  "tension": [5, 10, 15, 25, 40, 50, 55, 70, 40]
+}

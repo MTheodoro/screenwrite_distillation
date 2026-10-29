@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01508",
+  "cast": {"TAMARA OKONKWO-HESS": "TAMARA OKONKWO-HESS", "TAMARA": "TAMARA OKONKWO-HESS", "PILOT": "TAMARA OKONKWO-HESS"},
+  "beats": [1,4,7,10,13,15,16,18,20,21,22,23,24],
+  "lines": {
+    "1": {"t":"S","who":[],"emo":{},"c":0.95},
+    "2": {"t":"S","who":[],"emo":{},"c":0.95},
+    "3": {"t":"S","who":[],"emo":{},"c":0.95},
+    "4": {"t":"D","who":["TAMARA OKONKWO-HESS"],"emo":{},"c":0.95},
+    "5": {"t":"D","who":["TAMARA OKONKWO-HESS"],"emo":{},"c":0.95},
+    "6": {"t":"A","who":["TAMARA OKONKWO-HESS"],"emo":{},"c":0.95},
+    "7": {"t":"S","who":[],"emo":{},"c":0.95},
+    "8": {"t":"S","who":[],"emo":{},"c":0.95},
+    "9": {"t":"A","who":["TAMARA OKONKWO-HESS"],"emo":{},"c":0.95},
+    "10": {"to":["SELF"],"emo":["neutral",0.2],"c":0.7},
+    "11": {"t":"A","who":["TAMARA OKONKWO-HESS"],"emo":{},"c":0.95},
+    "12": {"t":"S","who":[],"emo":{},"c":0.95},
+    "13": {"t":"S","who":[],"emo":{},"c":0.95},
+    "14": {"t":"S","who":[],"emo":{},"c":0.9},
+    "15": {"to":["TAMARA OKONKWO-HESS"],"emo":["neutral",0.2],"c":0.9},
+    "16": {"t":"A","who":["TAMARA OKONKWO-HESS"],"emo":{"TAMARA OKONKWO-HESS":["anger",0.3]},"c":0.9},
+    "17": {"to":["SELF"],"emo":["sadness",0.4],"c":0.8},
+    "18": {"t":"S","who":[],"emo":{},"c":0.95},
+    "19": {"t":"S","who":[],"emo":{},"c":0.95},
+    "20": {"t":"A","who":["TAMARA OKONKWO-HESS"],"emo":{"TAMARA OKONKWO-HESS":["fear",0.4]},"c":0.95},
+    "21": {"to":["TAMARA OKONKWO-HESS"],"emo":["neutral",0.2],"c":0.9},
+    "22": {"to":["NONE"],"emo":["sadness",0.5],"c":0.8},
+    "23": {"t":"A","who":["TAMARA OKONKWO-HESS"],"emo":{},"c":0.95},
+    "24": {"t":"S","who":[],"emo":{},"c":0.95},
+    "25": {"t":"S","who":[],"emo":{},"c":0.95}
+  },
+  "tension": [5,10,20,15,25,30,25,40,60,55,50,25,15]
+}

@@ -1,0 +1,23 @@
+{
+  "scene_id": "s00026",
+  "cast": {"STASYS BIRKAVS": "STASYS BIRKAVS", "STASYS": "STASYS BIRKAVS", "DONNIE FUSCO": "DONNIE FUSCO", "DONNIE": "DONNIE FUSCO", "FAT LEO ARMBRUSTER": "FAT LEO ARMBRUSTER", "LEO": "FAT LEO ARMBRUSTER"},
+  "beats": [1, 4, 6, 9, 11, 13],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "4": {"t": "A", "who": ["STASYS BIRKAVS"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["DONNIE FUSCO", "FAT LEO ARMBRUSTER"], "emo": {}, "c": 0.95},
+    "6": {"to": ["DONNIE FUSCO"], "emo": ["neutral", 0.3], "c": 0.8},
+    "7": {"to": ["STASYS BIRKAVS"], "emo": ["neutral", 0.2], "c": 0.8},
+    "8": {"to": ["DONNIE FUSCO"], "emo": ["neutral", 0.3], "c": 0.8},
+    "9": {"to": ["SELF"], "emo": ["neutral", 0.3], "c": 0.85},
+    "10": {"to": ["FAT LEO ARMBRUSTER"], "emo": ["neutral", 0.3], "c": 0.8},
+    "11": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.8},
+    "12": {"to": ["FAT LEO ARMBRUSTER"], "emo": ["neutral", 0.3], "c": 0.85},
+    "13": {"t": "A", "who": ["FAT LEO ARMBRUSTER"], "emo": {}, "c": 0.95},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "15": {"t": "A", "who": ["DONNIE FUSCO"], "emo": {"DONNIE FUSCO": ["fear", 0.6]}, "c": 0.95}
+  },
+  "tension": [5, 10, 35, 25, 40, 80]
+}
