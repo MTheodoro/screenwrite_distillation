@@ -5,9 +5,10 @@
 //   { type: "need-model" }              first open of Timeline / character views: load distilled weights
 // Messages out:
 //   { type: "scenes", hashes }          scene hashes in script order
-//   { type: "result", index, hash, result, cached }
+//   { type: "result", index, hash, result, cached, refined }   (refined: second message after the Phase 3 pass)
 //   { type: "model", status: "ready" | "error", error? }
 import { AnalyzerService } from "./service.js";
+import { loadXenc, refineWho } from "./xenc.js";
 
 const MODEL_URL = new URL("../../public/models/analyzers.json", import.meta.url).href;
 const CACHE_NAME = "screenwrite-analyzer-models-v1";
@@ -55,15 +56,22 @@ async function loadBundle() {
 // Yield to the event loop between scenes; prefer a macrotask so new "update" messages are handled first.
 const schedule = (fn) => setTimeout(fn, 0);
 
-const service = new AnalyzerService({ storage: idbStorage(), loadBundle, schedule });
+// Phase 3 cross-encoder (12 MB int8 ONNX, WASM). Loaded with the other weights; Transformers.js caches the files
+// in the browser Cache API so they stay available offline.
+async function loadRefiner() {
+  const xenc = await loadXenc({ localPath: new URL("../../public/models/", import.meta.url).href });
+  return { refine: (scene, result, cast, candidatesOf) => refineWho(xenc, scene, result, cast, candidatesOf) };
+}
+
+const service = new AnalyzerService({ storage: idbStorage(), loadBundle, loadRefiner, schedule });
 let lastText = "";
 
 self.onmessage = async (e) => {
   const msg = e.data;
   if (msg.type === "update") {
     lastText = msg.text;
-    const hashes = await service.update(msg.text, (index, hash, result, cached) =>
-      self.postMessage({ type: "result", index, hash, result, cached }));
+    const hashes = await service.update(msg.text, (index, hash, result, cached, refined = false) =>
+      self.postMessage({ type: "result", index, hash, result, cached, refined }));
     self.postMessage({ type: "scenes", hashes });
   } else if (msg.type === "need-model") {
     try {

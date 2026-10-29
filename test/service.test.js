@@ -89,3 +89,17 @@ test("a newer update pre-empts stale queued work", async () => {
   while (queue.length) queue.shift()();
   assert.ok(!seen.some(([g]) => g === "old"), "stale generation must not deliver results");
 });
+
+test("optional refiner sends a second, refined result and caches it", async () => {
+  const bundle = JSON.parse(readFileSync(bundlePath, "utf8"));
+  const storage = memoryStorage();
+  const s = new AnalyzerService({ storage, schedule: syncSchedule, loadBundle: async () => bundle,
+    loadRefiner: async () => ({ refine: async (scene, r) => ({ ...r, refinedMark: true }) }) });
+  await s.ensureModel();
+  const events = [];
+  await new Promise((resolve) => {
+    s.update(SCRIPT, (i, h, r, cached, refined) => { events.push([i, !!refined, !!r.refinedMark]); if (events.filter((e) => e[1]).length === 2) resolve(); });
+  });
+  assert.deepEqual(events.filter((e) => e[1]).map((e) => e[2]), [true, true]);
+  assert.ok([...storage.m.values()].every((v) => v.refinedMark));
+});

@@ -71,10 +71,10 @@ def macro_f1(y, p, k=8):
     return float(np.mean(fs)) if fs else 0.0
 
 
-def run(bundle):
+def run(bundle, xenc=False):
     gold = DS.gold_scene_labels()
     reqs = [{"scene_id": s, "source": g["d"]["source"], "index": DS.scene_index(s), "beats": g["beats"]} for s, g in gold.items()]
-    cmd = ["node", str(L.ROOT / "tools/analyzers/predict.mjs")] + ([str(bundle)] if bundle else [])
+    cmd = ["node", str(L.ROOT / "tools/analyzers/predict.mjs")] + ([str(bundle)] if bundle else []) + (["--xenc"] if xenc else [])
     res = subprocess.run(cmd, input="".join(json.dumps(r) + "\n" for r in reqs), capture_output=True, text=True, check=True)
     preds = {d["scene_id"]: d for d in map(json.loads, res.stdout.splitlines())}
     pairs = [json.loads(l) for l in (L.DATA / "gold_pairs.jsonl").open()] if (L.DATA / "gold_pairs.jsonl").exists() else []
@@ -139,6 +139,11 @@ def run(bundle):
              ("Tension pairs, across scenes", lambda s: pct(M[s], "tx_ok", "tx_n")),
              ("Latency ms/scene (mean)", lambda s: f"{np.mean(lat[s]):.2f}"),
              ("Latency ms/scene (p95)", lambda s: f"{np.percentile(lat[s], 95):.2f}")]
+    if xenc:
+        tx = [P.get("tXenc", 0) for P in preds.values()]
+        nr = sum(P.get("nRefined", 0) for P in preds.values())
+        table.append(("+ xenc ms/scene (mean / p95)", lambda s: f"{np.mean(tx):.1f} / {np.percentile(tx, 95):.1f}" if s == "model" else "-"))
+        table.append(("Lines re-scored by xenc", lambda s: str(nr) if s == "model" else "-"))
     hdr = "| Metric | " + " | ".join(systems) + " |\n|---|" + "---|" * len(systems)
     lines = [hdr] + [f"| {name} | " + " | ".join(fn(s) for s in systems) + " |" for name, fn in table]
     n = M["rule"]
@@ -151,7 +156,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--bundle", default=None)
     ap.add_argument("--out", default=str(L.DATA / "bench.md"))
+    ap.add_argument("--xenc", action="store_true")
     a = ap.parse_args()
-    md = run(Path(a.bundle) if a.bundle else None)
+    md = run(Path(a.bundle) if a.bundle else None, a.xenc)
     Path(a.out).write_text(md + "\n")
     print(md)

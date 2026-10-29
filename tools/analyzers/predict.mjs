@@ -8,7 +8,13 @@ import { analyzeModel, scoreBeats } from "../../src/analyzers/model.js";
 
 import { loadEmbedder } from "../../src/analyzers/embed.js";
 import { attachEmbedder } from "../../src/analyzers/rules.js";
-const bundle = process.argv[2] ? JSON.parse(readFileSync(process.argv[2], "utf8")) : null;
+import { actorCandidates } from "../../src/analyzers/rules.js";
+import { loadXenc, refineWho } from "../../src/analyzers/xenc.js";
+const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
+const bundle = args[0] ? JSON.parse(readFileSync(args[0], "utf8")) : null;
+const xenc = process.argv.includes("--xenc")
+  ? await loadXenc({ localPath: new URL("../../public/models/", import.meta.url).pathname, margin: Number(process.env.XENC_MARGIN || 0.5) })
+  : null;
 const embedder = bundle?.meta.emb ? loadEmbedder(readFileSync(new URL("../../public/models/embed.bin", import.meta.url))) : null;
 const cache = new Map();
 const sceneOf = (src, k) => {
@@ -35,6 +41,13 @@ for (const r of reqs) {
     t = performance.now();
     out.model = analyzeModel(scene, bundle, embedder);
     out.tModel = performance.now() - t;
+    if (xenc) {
+      const c2 = sceneContext(scene);
+      t = performance.now();
+      await refineWho(xenc, scene, out.model, c2.cast.chars, (u) => actorCandidates(c2, u));
+      out.tXenc = performance.now() - t;
+      out.nRefined = Object.values(out.model.lines).filter((l) => l.refined).length;
+    }
     if (embedder) attachEmbedder(ctx, embedder);
     out.modelTensionGold = scoreBeats(ctx, gold, bundle);
   }

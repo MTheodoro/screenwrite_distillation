@@ -3,6 +3,7 @@
 import { parse } from "./fountain.js";
 import { analyzeRules } from "./rules.js";
 import { analyzeModel } from "./model.js";
+import { sceneContext, actorCandidates } from "./rules.js";
 
 export const ANALYZER_VERSION = "1";
 
@@ -24,7 +25,9 @@ export function splitScenes(text) {
 }
 
 export class AnalyzerService {
-  constructor({ storage = null, loadBundle = null, schedule = (fn) => setTimeout(fn, 0), embedder = null } = {}) {
+  constructor({ storage = null, loadBundle = null, schedule = (fn) => setTimeout(fn, 0), embedder = null, loadRefiner = null } = {}) {
+    this.loadRefiner = loadRefiner;    // async () => { refine(scene, result) } (Phase 3 cross-encoder), optional
+    this.refiner = null;
     this.storage = storage;            // { get(key), set(key, value) } async, may be null
     this.loadBundle = loadBundle;      // async () => bundle JSON
     this.schedule = schedule;
@@ -40,13 +43,18 @@ export class AnalyzerService {
   // Lazy: weights are fetched only when a view that needs them asks.
   ensureModel() {
     if (!this.bundlePromise && this.loadBundle) {
-      this.bundlePromise = this.loadBundle().then((b) => { this.bundle = b; this.mem.clear(); return b; })
+      this.bundlePromise = this.loadBundle().then(async (b) => {
+        this.bundle = b;
+        if (this.loadRefiner) this.refiner = await this.loadRefiner().catch(() => null); // optional: degrade to Phase 1
+        this.mem.clear();
+        return b;
+      })
         .catch((e) => { this.bundlePromise = null; throw e; });
     }
     return this.bundlePromise || Promise.resolve(null);
   }
 
-  key(hash) { return `${ANALYZER_VERSION}:${this.bundle ? "m" : "r"}:${hash}`; }
+  key(hash) { return `${ANALYZER_VERSION}:${this.bundle ? (this.refiner ? "x" : "m") : "r"}:${hash}`; }
 
   analyzeScene(scene) {
     return this.bundle ? analyzeModel(scene, this.bundle) : analyzeRules(scene);
@@ -83,9 +91,21 @@ export class AnalyzerService {
       if (it.gen === this.generation) {
         const r = this.analyzeScene(it.scene);
         const k = this.key(it.hash);
-        this.mem.set(k, r);
-        if (this.storage) this.storage.set(k, r);
+        if (!this.refiner) {
+          this.mem.set(k, r);
+          if (this.storage) this.storage.set(k, r);
+        }
         it.onResult(it.index, it.hash, r, false);
+        if (this.refiner) {
+          // Second pass: the transformer re-scores only low-margin who decisions, then the result is cached.
+          const ctx = sceneContext(it.scene);
+          this.refiner.refine(it.scene, r, ctx.cast.chars, (u) => actorCandidates(ctx, u)).then((rr) => {
+            this.mem.set(k, rr);
+            if (this.storage) this.storage.set(k, rr);
+            if (it.gen === this.generation) it.onResult(it.index, it.hash, rr, false, true);
+          }).catch(() => {}).finally(() => this.schedule(step));
+          return;
+        }
       }
       this.schedule(step); // yield between scenes so newer edits pre-empt stale work
     };

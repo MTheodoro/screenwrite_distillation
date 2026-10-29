@@ -93,7 +93,7 @@ export function analyzeModel(scene, bundle, embedder = null) {
   }
   const groups = beats.map((b, k) => ctx.content.filter((i) => i >= b && (k + 1 >= beats.length || i < beats[k + 1])));
   const tension = scoreBeats(ctx, groups, bundle);
-  return { cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name, names: c.names })), beats, lines, tension };
+  return { cast: ctx.cast.chars.map((c) => ({ id: c.id, name: c.name, names: c.names, gender: c.gender })), beats, lines, tension };
 }
 
 // Tension is predicted per content unit (windowed features); a beat's score is the mean of its units.
