@@ -264,7 +264,10 @@ const LEAD = /^(?:\s*(?:yet|but|and|then|now|still|so|as|when|while|though|meanw
 function initialPronoun(ctx, i) {
   const p = ctx.cast.pronouns[i][0];
   if (!p) return null;
-  if (p.at <= 1 || LEAD.test(ctx.units[i].text.slice(0, p.at))) return p.g;
+  const before = ctx.units[i].text.slice(0, p.at);
+  // "For the first time, she smiles." / "One by one, they listen." / "Perhaps she does."
+  if (p.at <= 1 || LEAD.test(before) || (/^[^.;:!?"“]{0,60},\s*$/.test(before) && !ctx.cast.mentions[i].some((m) => m.at < p.at && !m.poss)) ||
+      /^(?:perhaps|maybe|finally|together|instead|meanwhile|again|only then|for a moment|at last|somehow)\s+$/i.test(before)) return p.g;
   return null;
 }
 // Plural subject: "They ...", "All attempt", "Many of the people", "Some of them", "Everyone".

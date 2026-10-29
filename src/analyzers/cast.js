@@ -179,7 +179,8 @@ export function buildCast(scene) {
   // A word in two characters' names ("COUSIN BEA" / "COUSIN TEDDY", siblings' surname) identifies neither.
   // Articles never identify anyone; a descriptive name ("THE NEW GIRL", "HOODIE GUY") only matches as a whole phrase.
   const nameToks = (n) => {
-    const t = keyTokens(n).filter((x) => !/^(THE|A|AN)$/.test(x));
+    let t = keyTokens(n).filter((x) => !/^(THE|A|AN)$/.test(x));
+    if (!t.length) t = n.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => x && !/^(THE|A|AN)$/.test(x)); // "DOC", "THE JUDGE"
     return DESCR.test(n) && t.length > 1 ? [t.join(" ")] : t;
   };
   const tokSets = chars.map((c) => [...new Set(c.names.flatMap(nameToks))].filter((t) => t.length > 1));
@@ -193,7 +194,8 @@ export function buildCast(scene) {
   // Common-noun characters ("a WOMAN") are later referred to as "the woman"; forward-introduced ones by their noun.
   // Characters named by a common noun ("NURSE", "THE BAND", "BOUNCER") are also "the nurse" in action lines.
   for (const c of chars) {
-    const t = keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x));
+    let t = keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x));
+    if (!t.length) t = c.name.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => x && !/^(THE|A|AN)$/.test(x));
     if (!c.common && !c.alias && !c.tagName && t.length === 1 && !NAME_GENDER[t[0]] && /^[A-Z]{3,}$/.test(t[0])) c.common = true;
   }
   const HEAD = /\b(MAN|WOMAN|GIRL|BOY|KID|LADY|STRANGER|FIGURE|GUY|TEEN|TEENAGER|DRIVER|NURSE|OFFICER|GUARD|WAITER|WAITRESS|TRAVELER|TRAVELLER|DOCTOR|PRIEST|SOLDIER)\b/;
@@ -202,7 +204,7 @@ export function buildCast(scene) {
     const h = c.names.map((n) => (n.match(HEAD) || [])[1]).find(Boolean);
     if (h && chars.filter((o) => o.names.some((n) => (n.match(HEAD) || [])[1] === h)).length === 1) c.alias = h.toLowerCase();
   }
-  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe(keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0].toLowerCase())}\\b`, "gi")
+  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe((keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0] || c.name.toUpperCase().replace(/^(THE|A|AN)\s+/, "").split(/\s+/)[0]).toLowerCase())}\\b`, "gi")
     : c.alias ? new RegExp(`\\bthe ${escapeRe(c.alias)}\\b`, "gi") : null));
   const mentions = units.map(() => []);
   const pronouns = units.map(() => []);
