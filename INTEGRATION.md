@@ -1,5 +1,8 @@
 # Integrating the Screenwrite analyzers
 
+(Built without access to the Screenwrite codebase or UI. Where this says "Timeline" or "UI that shows analysis", map it
+to whatever views the app actually has.)
+
 These are small, local analyzers for Screenwrite. They run in a **Web Worker**, work offline, never write into the screenplay, and the editor never imports them. Per scene they produce:
 
 - **Beats**: where each dramatic beat starts.
@@ -13,7 +16,7 @@ These are small, local analyzers for Screenwrite. They run in a **Web Worker**, 
 | File | Size (gzipped) | Loaded |
 |---|---|---|
 | `src/analyzers/{fountain,cast,lexicon,rules,model,service,worker}.js` | ~16 KB | with the worker |
-| `public/models/analyzers.json` (distilled decision trees) | ~80 KB | the first time the Timeline or a character view opens |
+| `public/models/analyzers.json` (distilled decision trees) | ~80 KB | the first time any UI showing analyzer output opens (or at idle after startup) |
 
 The total is about **100 KB**. There is no WASM, no ONNX Runtime and no dependency. Copy `src/analyzers/` into the app and serve `public/models/analyzers.json` as a static file. If its path differs, change `MODEL_URL` at the top of `worker.js`.
 
@@ -29,7 +32,7 @@ editor (main thread)                          analyzer worker
                                                            1. beats + tension    → partial result
                                                            2. who + addressee
                                                            3. emotion            → final result
-  Timeline / character view first opened ─► {need-model}   (fetch weights; rule-based results until then)
+  first UI that shows analyzer output ─► {need-model}   (fetch weights; rule-based results until then)
   ◄── {scenes, hashes, starts}   {result, index, hash, result, cached}   {model, status}
 ```
 
@@ -48,7 +51,7 @@ worker.onmessage = ({ data: m }) => {
   if (m.type === "scenes") starts = m.starts;
   if (m.type === "result") {   // may arrive twice per scene: partial (beats + tension), then final
     results.set(m.index, m.result);
-    scheduleRender(m.index);   // update Timeline / character panels only, never the document
+    scheduleRender(m.index);   // update whatever UI shows analysis, never the document
   }
 };
 
@@ -58,9 +61,12 @@ editor.onChange(() => {
   timer = setTimeout(() => worker.postMessage({ type: "update", text: editor.getText() }), 300);
 });
 
-// Lazy weights: the first time a view that needs them opens.
-timelineView.onFirstOpen(() => worker.postMessage({ type: "need-model" }));
-characterView.onFirstOpen(() => worker.postMessage({ type: "need-model" }));
+// Lazy weights (80 KB): send once, the first time any UI that displays beats / tension / who / emotion opens.
+// Alternatively send it at idle after startup (requestIdleCallback); it is cheap either way.
+function ensureAnalyzerModel() {
+  if (!ensureAnalyzerModel.sent) worker.postMessage({ type: "need-model" });
+  ensureAnalyzerModel.sent = true;
+}
 ```
 
 The editor line of unit `u` in scene `i` is `starts[i] + results.get(i).unitLines[u]`, 0-based, in the text you posted. Results are cached by scene hash, so these offsets stay valid when text above the scene moves.
