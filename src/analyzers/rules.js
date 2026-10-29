@@ -291,13 +291,18 @@ export function subjectless(ctx, i) {
   // "Slowly.") has no actor.
   // Continuations of the previous action line: "He looks at her. At the cart." / "Sees her. Doesn't say anything."
   const prev = i > 0 ? ctx.units[i - 1] : null;
-  if (prev && prev.kind === "action" && prev.para === u.para && words(t) <= 6 &&
+  if (prev && prev.kind === "action" && (prev.para === u.para || /\b(looks?|points?|glances?|stares?|nods?|gestures?|turns?)\b/i.test(prev.text)) && words(t) <= 6 &&
       (/^(?:then\s+)?(?:at|to|toward|towards|into|back to|over|down at|up at)\b/i.test(t) && !AUX.test(t) ||
        /^(?:then\s+)?(?:doesn't|don't|can't|won't|isn't|hasn't|didn't|never|barely|almost|not)\b/i.test(t))) return 1;
   // "exasperated." / "Rising." / "Smiles." after a speech; not "Rain." / "BEEP." / "Her phone."
   if (words(t) <= 3 && i > 0 && ctx.units[i - 1].kind === "dialogue" && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t) &&
       /^(?:[a-z]|[A-Z][a-z]+(?:s|ed|ing|ly)\b)/.test(t) && !/^[A-Z]+\W*$/.test(t)) return 1;
-  const w0 = t.replace(/^(then|and|but|now|still|again|just|finally|slowly|quickly|suddenly),?\s+/i, "").split(/\s+/)[0] || "";
+  if (/^(something|nothing|everything|someone|somebody|anything|anyone)\b/i.test(t)) return 0;
+  const ws = t.replace(/^(then|and|but|now|still|again|just|finally|slowly|quickly|suddenly),?\s+/i, "").split(/\s+/);
+  const w0 = ws[0] || "";
+  // "Forks clink." / "Blankets rustle." / "Headlights sweep across ..." = noun subject + verb, not a verb-first fragment
+  if (/^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[a-z]+$/.test(ws[1]) && !/^(to|the|a|an|his|her|their|its|at|up|down|back|away|out|in|on|off|over|into|from|with|it|him|them|me|us|toward|towards|across|through|slowly|quickly|again|for|around|behind|past|by|open|shut)$/.test(ws[1])) return 0;
+  if (/^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[A-Z]{2,}/.test(ws[1])) return 0; // "Something RATTLES"
   return /^[A-Z]?[a-z]+(?<!s)(s|es|ed|ing)\b/.test(w0) && !/(ness|ss|us|is|ics)$/i.test(w0.replace(/\W+$/, "")) && !/^[A-Z][a-z]+ [a-z]+s\b/.test(t) ? 1 : 0;
 }
 
@@ -492,6 +497,7 @@ function offscreen(ctx, c) {
 function everyone(ctx, i, window = 99) {
   return [...new Set(ctx.pres[i])].filter((c) => candRecency(ctx, i, c) <= window && !offscreen(ctx, c) && !ctx.cast.chars[c].group);
 }
+const FRAG_SPEAKER_LOOSE = false;
 const NUMBER = { two: 2, both: 2, three: 3, four: 4, five: 5, six: 6 };
 
 // Run-on sentences: "Leon laughs, and Hannah steadies herself." / "Robin leans in, Barry covers his eyes" -> every
@@ -556,8 +562,13 @@ export function ruleActors(ctx, i) {
   if (fwd) return W("introducedBefore", [fwd.id]);
   if (subjectless(ctx, i)) {
     // A stage direction next to a speech belongs to that speaker ("Smiles." / "Breaking off.").
-    for (const j of [i + 1, i - 1]) if (ctx.units[j]?.kind === "dialogue" && ctx.speaker[j] >= 0) return W("fragmentSpeaker", [ctx.speaker[j]]);
-    const pa = prevActorOf(ctx, i); if (pa.ids.length && pa.dist <= 1) return W("fragmentPrev", pa.ids);
+    const pa = prevActorOf(ctx, i);
+    if (pa.ids.length && pa.dist <= 1 && ctx.units[i - 1]?.kind === "action") return W("fragmentPrev", pa.ids);
+    const nxt = ctx.units[i + 1], prv = ctx.units[i - 1];
+    if (prv?.kind === "dialogue" && ctx.speaker[i - 1] >= 0 && nxt?.kind === "dialogue" && ctx.speaker[i + 1] >= 0) return W("fragmentSpeaker", [ctx.speaker[i + 1]]);
+    if (FRAG_SPEAKER_LOOSE && prv?.kind === "dialogue" && ctx.speaker[i - 1] >= 0) return W("fragmentSpeaker", [ctx.speaker[i - 1]]);
+    if (FRAG_SPEAKER_LOOSE && nxt?.kind === "dialogue" && ctx.speaker[i + 1] >= 0) return W("fragmentSpeaker", [ctx.speaker[i + 1]]);
+    if (pa.ids.length && pa.dist <= 1) return W("fragmentPrev", pa.ids);
   }
   const initPron = initialPronoun(ctx, i);
   const salient = (filter) => cands.filter(filter).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
@@ -601,7 +612,9 @@ export function ruleActors(ctx, i) {
     const ahead = laterOfGender(ctx, i, initPron);
     if (ahead >= 0) return W("pronounAhead", [ahead]);
   }
-  if (ms.length) return W("firstMention", [ms[0].c]);
+  const subj = ms.find((m) => !m.poss && !/\b(at|to|toward|towards|in|on|with|behind|beyond|beside|near|from|for|of|by|past|around|into|onto|under|over|between|among|than|like)\s+$/i.test(u.text.slice(0, m.at)));
+  if (subj) return W("firstMention", [subj.c]);
+  if (ms.length) return W("objectOnly", []);
   if (/^(she|he|they|her|his)\b/i.test(u.text) && cands.length) return W("pronounFallback", [salient(() => true)[0]]);
   return W("none", []);
 }
