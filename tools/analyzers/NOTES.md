@@ -112,3 +112,17 @@ Latency, headless Chromium, 4x CPU throttle (`tools/analyzers/perf_browser.mjs`)
 p95 10 ms / max ~22 ms; whole edited scene p50 ~17 ms; cold ~135-page script: rules 0.52 s, model 1.2 s.
 Cross-encoder pass: ~31 ms/scene mean (unthrottled, Node), run after the fast result is delivered.
 Note: CDP throttling does not apply to dedicated workers, so throttled numbers are measured on the main thread.
+
+## Update: real-text check and play training data
+
+Gold also includes 21 excerpts from public-domain plays (Ibsen, Wilde, Chekhov; `pd_*`, 3 Opus passes).
+Training adds 183 Haiku-labeled excerpts from six *other* plays (`pt_*`, weighted x4), so gold plays never leak.
+
+| Who (exact / top-1) | Rules | Final (Phase 1 + cross-encoder) |
+|---|---|---|
+| Synthetic gold (116 scenes) | 80.5% / 82.7% | 86.3% / 91.1% |
+| Play gold (21 excerpts) | 37.0% / 43.4% | 62.2% / 67.2% (was 49% / 53% before play data) |
+
+Plays are a harder format (stage directions inside speeches, implied subjects), so they are a stress test,
+not a screenplay estimate. Cross-encoders: `who-xenc` (bert-mini, 12 MB, default) and `who-xenc-lite`
+(bert-tiny, 5 MB, ~3x faster, ~5 points lower on ambiguous lines; trained before the play data).
