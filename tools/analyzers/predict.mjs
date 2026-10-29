@@ -12,6 +12,11 @@ import { actorCandidates } from "../../src/analyzers/rules.js";
 import { loadXenc, refineWho } from "../../src/analyzers/xenc.js";
 const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const bundle = args[0] ? JSON.parse(readFileSync(args[0], "utf8")) : null;
+if (process.env.PRON_MODEL && bundle?.models.actor) {
+  const { DISCOURSE } = await import("../../src/analyzers/rules.js");
+  const { predictRaw } = await import("../../src/analyzers/model.js");
+  DISCOURSE.model = bundle.models.actor; DISCOURSE.predict = predictRaw;
+}
 const xenc = process.argv.includes("--xenc")
   ? await loadXenc({ localPath: new URL("../../models-archive/", import.meta.url).pathname, margin: Number(process.env.XENC_MARGIN || 0.5) })
   : null;

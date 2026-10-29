@@ -268,7 +268,7 @@ function initialPronoun(ctx, i) {
   return null;
 }
 // Plural subject: "They ...", "All attempt", "Many of the people", "Some of them", "Everyone".
-const PLURAL_SUBJ = /^(?:in turns,?\s*)?(they|all|many|some|most|few|a few|several|none|everyone|everybody|both|neither|the (?:crowd|people|others|group))\b/i;
+const PLURAL_SUBJ = /^(?:in turns,?\s*)?(they|all|several|none|everyone|everybody|both|neither|the group)\b/i;
 // "Five people stand around the casket." / "Four jurors remain." / "The crew freezes." -> the characters present.
 const COUNT_GROUP = /^(?:(?:two|three|four|five|six|seven|eight|nine|ten|several|a few|a handful of)\s+(?:[a-z-]+\s+){0,2}(?:people|men|women|friends|teenagers|teens|kids|jurors|students|officers|cops|soldiers|workers|strangers|players|members|figures|guests|passengers|sisters|brothers|siblings|investigators|agents|nurses|doctors)|the (?:crew|team|band|family|group|jury|panel|squad|gang|class|four|three|five|six|others))\b/i;
 // No finite verb: "Mid-age, deep benevolent eyes, severe face."
@@ -478,9 +478,21 @@ function introAppositive(ctx, i) {
   }
   return null;
 }
-function everyone(ctx, i, window = 99) {
-  return [...new Set(ctx.pres[i])].filter((c) => candRecency(ctx, i, c) <= window);
+// Off-screen voices (every cue is V.O. / O.S. / phone / radio, never in an action line) are not "in the room".
+function offscreen(ctx, c) {
+  ctx._off ??= new Map();
+  if (!ctx._off.has(c)) {
+    const cues = ctx.units.filter((u) => u.kind === "dialogue" && ctx.speaker[u.i] === c);
+    const inAction = ctx.units.some((u) => u.kind === "action" && ctx.cast.mentions[u.i].some((m) => m.c === c));
+    ctx._off.set(c, /^(RADIO|DISPATCH|INTERCOM|PA|ANNOUNCER|NARRATOR|VOICE|PHONE|TV|SPEAKER)\b/.test(ctx.cast.chars[c].name) ||
+      (!inAction && cues.length > 0 && cues.every((u) => (u.ext || []).some((e) => /^(V\.?O|O\.?S|O\.?C|PHONE|RADIO|FILTERED|ON PHONE|INTERCOM)/i.test(e)))));
+  }
+  return ctx._off.get(c);
 }
+function everyone(ctx, i, window = 99) {
+  return [...new Set(ctx.pres[i])].filter((c) => candRecency(ctx, i, c) <= window && !offscreen(ctx, c) && !ctx.cast.chars[c].group);
+}
+const NUMBER = { two: 2, both: 2, three: 3, four: 4, five: 5, six: 6 };
 
 // Run-on sentences: "Leon laughs, and Hannah steadies herself." / "Robin leans in, Barry covers his eyes" -> every
 // character starting a clause (names only; needs at least two different ones).
@@ -549,6 +561,25 @@ export function ruleActors(ctx, i) {
   }
   const initPron = initialPronoun(ctx, i);
   const salient = (filter) => cands.filter(filter).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
+  // "The crowd turns." / "Many." / "The others scatter." -> extras, unless the crowd is a character (a group).
+  if (/^(the (crowd|others|people|audience|room)|many|some|most|a few)\b/i.test(u.text)) {
+    const g = salient((c) => ctx.cast.chars[c].group);
+    return g.length ? W("pluralGroup", [g[0]]) : W("extras", []);
+  }
+  // "All three freeze." / "The four of them..." -> that many of the most recently active characters.
+  const num = u.text.match(/^(?:all|the)\s+(two|three|four|five|six)\b|^(two|three|four|five|six)\s+of\s+them\b/i);
+  if (num) {
+    const k = NUMBER[(num[1] || num[2]).toLowerCase()];
+    const s = salient((c) => !offscreen(ctx, c) && !ctx.cast.chars[c].group);
+    const pres = everyone(ctx, i).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
+    const pick = (pres.length >= k ? pres : s).slice(0, k);
+    if (pick.length) return W("pluralCount", pick);
+  }
+  // "Their hands collide." / "Their eyes meet." -> the two most recent.
+  if (/^their\s+(hands|fingers|eyes|lips|foreheads|knees|shoulders|gazes|mouths|faces|arms|feet)\b/i.test(u.text)) {
+    const s2 = salient((c) => !offscreen(ctx, c) && !ctx.cast.chars[c].group).slice(0, 2);
+    if (s2.length === 2) return W("pluralTwo", s2);
+  }
   if (initPron === "p" || PLURAL_SUBJ.test(u.text) || /^(together|the two)\b/i.test(u.text)) {
     const g = salient((c) => ctx.cast.chars[c].group);
     if (g.length) return W("pluralGroup", [g[0]]);
@@ -560,7 +591,11 @@ export function ruleActors(ctx, i) {
   if (initPron) {
     const s1 = salient((c) => ctx.cast.chars[c].gender === initPron);
     const present = new Set(ctx.pres[i]);
-    if (s1.length) return W(s1.filter((c) => present.has(c)).length === 1 && salient((c) => ctx.cast.chars[c].gender === "?").length === 0 ? "pronounUnique" : "pronounSalient", [s1[0]]);
+    if (s1.length) {
+      const unique = s1.filter((c) => present.has(c)).length === 1 && salient((c) => ctx.cast.chars[c].gender === "?").length === 0;
+      if (unique || s1.length === 1) return W(unique ? "pronounUnique" : "pronounSalient", [s1[0]]);
+      return W("pronounSalient", [discourseSubject(ctx, i, initPron, s1)]);
+    }
     const q = salient((c) => ctx.cast.chars[c].gender === "?");
     if (q.length) return W("pronounUnknownGender", [q[0]]);
     const ahead = laterOfGender(ctx, i, initPron);
@@ -570,6 +605,39 @@ export function ruleActors(ctx, i) {
   if (/^(she|he|they|her|his)\b/i.test(u.text) && cands.length) return W("pronounFallback", [salient(() => true)[0]]);
   return W("none", []);
 }
+
+// Several same-gender candidates for a subject pronoun: right after a line of dialogue, the listener reacts (unless
+// the pronoun sentence names the speaker's object, e.g. "She looks at him"); otherwise the most recent subject of that
+// gender (actor of an earlier action line or a speaker), falling back to the most recently named.
+const DISCOURSE = { mode: "recency", model: null, predict: null };
+function discourseSubject(ctx, i, g, cands) {
+  if (DISCOURSE.model) {
+    // learned tie-break among the same-gender candidates (the actor model's scores)
+    let best = cands[0], bp = -Infinity;
+    for (const c of cands) { const p = DISCOURSE.predict(DISCOURSE.model, actorFeatures(ctx, i, c)); if (p > bp) { bp = p; best = c; } }
+    return best;
+  }
+  const prev = ctx.units[i - 1];
+  if (DISCOURSE.mode !== "recency" && prev && prev.kind === "dialogue") {
+    const sp = ctx.speaker[i - 1];
+    if (sp >= 0 && ctx.cast.chars[sp]?.gender === g) {
+      // the listener: the other same-gender candidate who spoke or acted most recently
+      const other = cands.filter((c) => c !== sp);
+      if (other.length && DISCOURSE.mode !== "subject") return other[0];
+    }
+  }
+  if (DISCOURSE.mode !== "listener") {
+    for (let j = i - 1, d = 0; j >= 0 && d < 10; j--, d++) {
+      const u = ctx.units[j];
+      if (u.kind === "heading") break;
+      const subj = u.kind === "dialogue" ? [ctx.speaker[j]] : (ctx._why?.has(j) ? ruleActors(ctx, j) : []);
+      const hit = subj.find((c) => cands.includes(c));
+      if (hit !== undefined) return hit;
+    }
+  }
+  return cands[0];
+}
+export { DISCOURSE };
 
 export function ruleWhy(ctx, i) {
   if (!ctx._why?.has(i)) ruleActors(ctx, i);
