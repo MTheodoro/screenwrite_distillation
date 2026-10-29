@@ -65,6 +65,8 @@ def main():
     ap.add_argument("--lr", type=float, default=1e-4)
     ap.add_argument("--bs", type=int, default=64)
     ap.add_argument("--export-only", action="store_true", help="export the saved checkpoint without training")
+    ap.add_argument("--ckpt", default=str(DATA / "xenc.pt"))
+    ap.add_argument("--no-onnx", action="store_true", help="skip the ONNX export (plain-JS runtime uses export_xenc_js.py)")
     a = ap.parse_args()
     torch.manual_seed(0); random.seed(0)
     torch.set_num_threads(4)
@@ -74,7 +76,7 @@ def main():
     model = BertForSequenceClassification.from_pretrained(a.base, num_labels=1)
     model.resize_token_embeddings(len(tok))
     train, val, gold = load("train"), load("val"), load("gold")
-    ckpt = DATA / "xenc.pt"
+    ckpt = Path(a.ckpt)
     if a.export_only:
         model.load_state_dict(torch.load(ckpt))
         export(model, tok, gold)
@@ -92,11 +94,15 @@ def main():
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             opt.step(); sched.step(); opt.zero_grad()
             tot += loss.item()
+        torch.save(model.state_dict(), Path(a.ckpt).with_suffix(f".ep{ep}.pt"))  # survive container restarts
         acc, base, orc, n = line_accuracy(val, score(model, tok, val))
         print(f"epoch {ep}: loss {tot / (k + 1):.3f} | val lines {n}: xenc {acc:.3f} vs phase1 {base:.3f} (oracle {orc:.3f})")
     acc, base, orc, n = line_accuracy(gold, score(model, tok, gold))
     print(f"GOLD ambiguous lines {n}: xenc {acc:.3f} vs phase1 {base:.3f} (oracle top-k {orc:.3f})")
     torch.save(model.state_dict(), ckpt)
+    if a.no_onnx:
+        print("exported (checkpoint only)", ckpt)
+        return
     export(model, tok, gold)
 
 
