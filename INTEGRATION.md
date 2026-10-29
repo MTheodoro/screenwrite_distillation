@@ -82,7 +82,29 @@ The editor line of unit `u` in scene `i` is `starts[i] + results.get(i).unitLine
 
 A unit is one action **sentence**, one dialogue block, a heading or a transition, as `fountain.js` defines them. `who: []` means setting, or nobody.
 
-**Show confidence.** `margin` is the gap between the best and the second-best answer. Show an attribution as fact only when the margin is high. For example, show "?" when `margin < 0.2` and let the writer pick. Wrong attributions shown confidently are worse than gaps.
+**Show only confident answers.** `margin` is the gap between the best and the second-best answer. Use these thresholds:
+
+```js
+const SHOW_WHO = 0.4;   // ~94% correct on screenplay-style scenes, ~80% on plays; about half the lines shown
+const SHOW_TO  = 0.3;   // ~88-90% correct; about 85-88% of lines shown
+const who = line.margin >= SHOW_WHO ? line.who : null;   // null -> show "?" and let the writer choose
+const to  = line.margin >= SHOW_TO  ? line.to  : null;
+```
+
+Below the threshold, show "?" and let the writer pick, or show the guess styled as a suggestion. A confidently shown wrong answer is worse than a gap. Accuracy against the share of lines shown, measured on the gold sets:
+
+| Task / set | margin ≥ | 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 |
+|---|---|---|---|---|---|---|---|---|
+| Who synthetic | accuracy | 78% | 84% | 88% | 91% | 94% | 96% | 98% |
+| | shown | 100% | 88% | 77% | 68% | 55% | 48% | 42% |
+| Who plays | accuracy | 64% | 69% | 72% | 75% | 80% | 81% | 82% |
+| | shown | 100% | 86% | 74% | 61% | 49% | 32% | 22% |
+| Addressee synthetic | accuracy | 84% | 86% | 88% | 88% | 90% | 93% | 95% |
+| | shown | 100% | 96% | 91% | 88% | 83% | 73% | 62% |
+| Addressee plays | accuracy | 82% | 86% | 88% | 90% | 90% | 94% | 95% |
+| | shown | 100% | 94% | 88% | 85% | 82% | 72% | 66% |
+
+Make the thresholds a setting, so they can be tuned once real screenplays are measured.
 
 ## 5. Offline and updates
 
