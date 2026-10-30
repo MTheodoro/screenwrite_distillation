@@ -303,6 +303,8 @@ const MANNER = new Set(("quick quicker slow slower fast faster hard harder soft 
   "closer nearer lower louder quieter quiet still steady sharp sharper tight tighter deep deeper long longer short shorter wide " +
   "wider high higher low flat calm cold colder warm warmer pale white red tense rigid frozen motionless breathless silent stiff " +
   "numb blank alert awake asleep upright prone limp loose taut late early first last alone together not never always").split(" "));
+// Words that cannot be the verb after a plural-looking first word ("Eases onto", "Forks clink" vs "Pulls a sandwich").
+const NOT_VERB = /^(?:to|the|a|an|his|her|their|its|my|our|your|at|up|down|back|away|out|in|on|off|over|into|onto|from|with|without|it|him|them|me|us|toward|towards|across|through|against|beneath|beside|below|above|under|along|around|past|between|behind|before|after|inside|outside|like|as|then|there|here|hard|slowly|quickly|carefully|gently|again|once|twice|aside|forward|closer|together|apart|still|just|only|even|not|never|very|too|so|for|of|by|about|this|that|these|those|one|another|something|nothing|everything|each|every|all|both|half|some|any|no|more|most|less|open|shut|closed|wide|loose|tight|free|flat|high|low|left|right|ahead|straight|beyond|first|last|next|long|short|deep|close|near|far|loud|quiet|silent|empty|full|dead|alive|awake|asleep|alone|blank|white|black|red|dark|light)$/;
 export function subjectless(ctx, i) {
   const u = ctx.units[i];
   if (u.kind !== "action") return 0;
@@ -314,6 +316,7 @@ export function subjectless(ctx, i) {
   const prev = i > 0 ? ctx.units[i - 1] : null;
   const pa = prev && prev.kind === "action" ? prevActorOf(ctx, i) : null;
   const cont = !!(pa && pa.ids.length && pa.dist === 1 && (prev.para === u.para || /\b(looks?|points?|glances?|stares?|nods?|gestures?|turns?|watches|studies)\b/i.test(prev.text)));
+  if (/^(something|nothing|everything|someone|somebody|anything|anyone|silence|static|darkness|quiet)\b/i.test(t)) return 0;
   if (verbless(t) && !PLURAL_SUBJ.test(t) && words(t) <= 12) return 1; // descriptive fragment
   // Right after a character's introduction, a short verbless fragment keeps describing them ("SAL, 60, skipper, stands
   // at the wheel. Weather in every wrinkle." / "A city coat, no oilskin.")
@@ -327,13 +330,14 @@ export function subjectless(ctx, i) {
     return false;
   };
   if (cont && pa.ids.length === 1 && introChain(pa.ids[0]) &&
-      words(t) <= 8 && !AUX.test(t) && !/\b[a-z]+s\b/.test(t.split(/\s+/).slice(1).join(" ").replace(/\b(eyes|hands|boots|glasses|clothes|jeans|pants|shoes|sleeves|lips|cheeks|knees|arms|legs|feet|fingers|nails|lashes|braids|curls|freckles|wrinkles)\b/g, "")) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
+      words(t) <= 8 && !/\b(is|are|was|were|has|have|had|does|did|do|can|could|will|would|shall|should|may|might|must)\b/i.test(t) &&
+      !t.split(/\s+/).slice(1).some((x) => /^[a-z]+s[.,]?$/.test(x) && !BODY.test(x) && !/^(clothes|jeans|pants|sleeves|nails|braids|curls|freckles|wrinkles|keys|coins|papers|notes|tears|years|hours|minutes|seconds|words|things|times)$/.test(x.replace(/[.,]$/, ""))) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
   if (cont && words(t) <= 6) {
-    if (/^(?:then,?\s+)?(?:at|to|toward|towards|into|back to|over|down at|up at|across)\b/i.test(t) && !AUX.test(t)) return 1;   // "At the butler."
+    if (/^(?:then,?\s+)?(?:at|to|toward|towards|into|back|over|down|up|across|away|closer|forward|aside|out|in|through|past|behind|under|around|along)\b/i.test(t) && !AUX.test(t) && !SETTING_NOUN.test(t)) return 1;   // "At the butler." / "Back down."
     if (/^(?:then,?\s+)?(?:doesn't|don't|can't|won't|isn't|hasn't|didn't|never|barely|almost|not|does not|do not|did not|cannot|will not|has not|is not|could not|would not|couldn't|wouldn't|haven't|still)\b/i.test(t)) return 1;          // "Doesn't say anything."
     if (/^then\b/i.test(t) && !/^then\s+(the|a|an|it|there|silence|nothing)\b/i.test(t)) return 1;                                  // "Then stops." / "Then another."
     // short description of the character just shown: "Violent." "Red-rimmed." "Grey hood." "Phone in hand."
-    const w = t.replace(/[.!?…]+$/, "").replace(/^(?:Not|Still|Very|Too|So|Almost|Suddenly|Quite|Rather)\s+/i, "").replace(/\s+(?:either|too|now|again|anymore)$/i, "").split(/\s+/);
+    const w = t.replace(/[.!?…]+$/, "").replace(/^(?:Not|Still|Very|Too|So|Almost|Suddenly|Quite|Rather)\s+/i, "").replace(/\s+(?:either|too|now|again|anymore)$/i, "").split(/[\s,;]+/).filter(Boolean);
     const adj = w.length <= 2 && w.every((x) => /^(?:[A-Z]?[a-z]+-)?[A-Za-z]+(?:ed|en|ful|less|ous|ive|y|al|ic|ish|er|ly|ing|ant|ent|ble)$/.test(x) || MANNER.has(x.toLowerCase())) && !SETTING_NOUN.test(t);
     const looks = w.length <= 5 && (LOOKS.test(t) || /\bin (hand|his hand|her hand|hands)\b/i.test(t)) && !SETTING_NOUN.test(t.replace(LOOKS, ""));
     if ((adj || looks) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
@@ -346,9 +350,9 @@ export function subjectless(ctx, i) {
   const w0 = ws[0] || "";
   // "Forks clink." / "Pens scratch." / "Headlights sweep across ..." = plural noun + base-form verb (a subject), unlike
   // "Counts coins." (verb + plural object).
-  if (/^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[a-z]+$/.test(ws[1]) && !/s$/.test(ws[1]) && !/^(to|the|a|an|his|her|their|its|at|up|down|back|away|out|in|on|off|over|into|from|with|it|him|them|me|us|toward|towards|across|through|slowly|quickly|again|for|around|behind|past|by|open|shut|half|one|another|something|nothing)$/.test(ws[1])) return 0;
+  if (/^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[a-z]+$/.test(ws[1]) && !/s$/.test(ws[1]) && !NOT_VERB.test(ws[1])) return 0;
   if (/^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[A-Z]{2,}/.test(ws[1])) return 0; // "Something RATTLES"
-  if (!cont && /^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[a-z]+$/.test(ws[1]) && !/^(to|the|a|an|his|her|their|its|at|up|down|back|away|out|in|on|off|over|into|from|with|it|him|them|me|us|toward|towards|across|through|slowly|quickly|again|for|around|behind|past|by|open|shut)$/.test(ws[1])) return 0;
+  if (!cont && /^[A-Z][a-z]+s$/.test(w0) && ws[1] && /^[a-z]+$/.test(ws[1]) && !NOT_VERB.test(ws[1])) return 0;
   // Verb-first fragment ("Opens a folder.", "Chews.", "Closes his eyes."); a bare noun or adverb has no actor.
   return /^[A-Z]?[a-z]+(?<!s)(s|es|ed|ing)\b/.test(w0) && !/(ness|ss|us|is|ics)$/i.test(w0.replace(/\W+$/, "")) ? 1 : 0;
 }
@@ -665,6 +669,22 @@ export function ruleActors(ctx, i) {
     if (nar < 0) for (let j = i - 1; j >= 0 && nar < 0; j--) if (ctx.units[j].kind === "dialogue" && ctx.speaker[j] >= 0) nar = ctx.speaker[j];
     if (nar >= 0) return W("firstPerson", [nar]);
   }
+  // Instruments: "The Judge raises his gavel. ... The gavel cracks." -> whoever last handled the gavel
+  if (ON.has("instr") && !ms.length && !ctx.cast.pronouns[i].length && words(u.text) <= 7) { // 6% right on dev: opt-in
+    const im = u.text.match(/^(?:the|his|her|their)\s+([a-z-]+)\s+(?:[a-z]+s|is|comes|goes|cracks|snaps|falls|lands|swings|lifts|rises|drops|hurls|flies|stops|moves|keeps)\b/i);
+    if (im && !SETTING_NOUN.test(im[1]) && !/^(door|phone|light|lamp|screen|engine|car|train|bus|radio|tv|clock|bell|alarm|machine|kettle|siren|wind|rain|room|house|elevator|window|camera|music|song|tape|line|signal|hatch)$/i.test(im[1])) {
+      const noun = im[1].toLowerCase();
+      for (let j = i - 1, d = 0; j >= 0 && d < 8; j--, d++) {
+        const pu = ctx.units[j];
+        if (pu.kind !== "action") continue;
+        if (new RegExp(`\\b(?:his|her|their|the|a|an)\\s+(?:[a-z-]+\\s+)?${noun}\\b`, "i").test(pu.text)) {
+          const pa = ruleActors(ctx, j);
+          if (pa.length === 1) return W("instrument", pa);
+          break;
+        }
+      }
+    }
+  }
   if (NOBODY.test(u.text)) { // "Nobody speaks." is everyone not speaking; "Nobody touched it." / "Nobody has emptied it in years." is nobody
     const past = /^(?:nobody|no one)\s+(?:has|had|ever|touched|came|saw|noticed|moved|answered|wanted|knew|asked|told|said|heard|thought|cared|left|took|did|was|were|would|could|will|can|seems?|seemed|remembers|remembered)\b/i.test(u.text) || /\b(?:in (?:a long time|years|months|weeks|ages)|anymore|any more|since|yet|before)\b/i.test(u.text);
     const all = OFF.has("nobody") || past ? [] : excludeMentioned(ctx, i, everyone(ctx, i));
@@ -733,12 +753,23 @@ export function ruleActors(ctx, i) {
     }
     const g = salient((c) => ctx.cast.chars[c].group);
     if (g.length) return W("pluralGroup", [g[0]]);
+    // "Barnaby and Delphine rise together. / They arrive at it." -> the previous line's actors
+    if (!OFF.has("theyprev") && i > 0 && ctx.units[i - 1].kind === "action") {
+      const pa = ruleActors(ctx, i - 1);
+      if (pa.length >= 2) return W("pluralPrev", pa);
+    }
     if (/\b(each other|one another)\b/i.test(u.text) || /^(?:they\s+)?both\b/i.test(stripped)) {
       const two = excludeMentioned(ctx, i, salient((c) => !offscreen(ctx, c))).slice(0, 2);
       if (two.length === 2) return W("pluralTwo", two);
     }
     // "Both" / "the two" / "neither" -> the two most recent; "They" / "All" -> everyone present.
-    if (!/^(both|the two|neither|together)\b/i.test(stripped)) { const all = excludeMentioned(ctx, i, everyone(ctx, i, 8)); if (all.length > 1) return W("pluralAll", all); }
+    if (!/^(both|the two|neither|together)\b/i.test(stripped)) {
+      let all = excludeMentioned(ctx, i, everyone(ctx, i, 8));
+      // "VANCE: Sit. Down. / They sit." -> everyone but the one giving the order
+      if (!OFF.has("imper") && i > 0 && ctx.units[i - 1].kind === "dialogue" && ctx.speaker[i - 1] >= 0 && all.length > 2 &&
+          (IMPERATIVE.test(ctx.units[i - 1].text) || words(ctx.units[i - 1].text) <= 4)) all = all.filter((c) => c !== ctx.speaker[i - 1]);
+      if (all.length > 1) return W("pluralAll", all);
+    }
     const s2 = salient(() => true).slice(0, 2);
     if (s2.length) return W("pluralTwo", s2);
   }
@@ -779,15 +810,16 @@ export function ruleActors(ctx, i) {
 // Several same-gender candidates for a subject pronoun: right after a line of dialogue, the listener reacts (unless
 // the pronoun sentence names the speaker's object, e.g. "She looks at him"); otherwise the most recent subject of that
 // gender (actor of an earlier action line or a speaker), falling back to the most recently named.
-const DISCOURSE = { mode: "recency", model: null, predict: null };
+const DISCOURSE = { mode: globalThis.process?.env?.WHO_DISC || "recency", model: null, predict: null };
 function discourseSubject(ctx, i, g, cands) {
-  if (ON.has("voc")) {
-    // "DESMOND: Hey, Wally, right? / He rips off the headset." -> the one addressed by name in the previous speech
+  if (ON.has("voc") || ON.has("voc2")) { // neutral on gold so far: opt-in
+    // "COACH: Zeke, look at me. / He lifts his head." -> the one told to do something in the previous speech
     const pj = i - 1;
     if (pj >= 0 && ctx.units[pj].kind === "dialogue") {
-      const sp = ctx.speaker[pj];
+      const sp = ctx.speaker[pj], pt = ctx.units[pj].text;
       const named = [...new Set(ctx.cast.mentions[pj].map((m) => m.c))].filter((c) => c !== sp && cands.includes(c));
-      if (named.length === 1) return named[0];
+      const directed = ON.has("voc") || (IMPERATIVE.test(pt.replace(/^[A-Z][a-z]+[,.!?]\s*/, "")) || /\?\s*$/.test(pt) || /^[A-Z][a-z]+[,.!]\s+[A-Z][a-z]+\b/.test(pt)) && !/\b(he|she|his|her|him)\b/i.test(pt);
+      if (named.length === 1 && directed) return named[0];
     }
   }
   if (DISCOURSE.model) {

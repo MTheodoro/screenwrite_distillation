@@ -92,6 +92,7 @@ const CAM_PREFIX = /^(?:we see|we hear|we watch|we follow|we find|we're on|we ar
 // "Perched on the shelf above the fryer sits SAM" / "In it sit PAT, ..." / "Behind them comes SASHA" -> the name leads
 const INVERTED = /^(?:[A-Z][\w'’-]*(?:\s+[\w'’,-]+){0,9}?)\s+(?:sits?|stands?|leans?|waits?|sleeps?|lies|crouch(?:es)?|kneels?|hovers?|lurks?|comes?|enters?|appears?|steps?|walks?|hangs?|perch(?:es)?|rests?|lounges?|slumps?|squats?|sprawls?|stalks?|strides?|shuffles?|emerges?|stumbles?)\s+(?:a |an |the )?$/;
 const DASH = /^[-–—*•]+\s*$/;
+const FWD_CUE = !(globalThis.process?.env?.WHO_OFF || "").includes("fwdcue");
 const LEAD_TITLE = /^(?:(?:then|now|and|but|meanwhile|suddenly|finally|cousin|aunt|auntie|uncle|grandma|grandpa|granny|nana|old|young|little|big|baby|father|mother|brother|sister|mr|mrs|ms|miss|dr|doctor|officer|detective|det|captain|capt|sergeant|sgt|private|pvt|corporal|cpl|lieutenant|lt|agent|nurse|judge|lady|lord|sir|madam|professor|prof|chef|coach|pastor|reverend|rev|saint|st|king|queen|prince|princess)\.?,?\s+){1,2}$/i;
 
 // Build cast + per-unit annotations. Mutates nothing; returns { chars, mentions, pronouns, firstSeen }.
@@ -186,9 +187,21 @@ export function buildCast(scene) {
   acts.forEach((u, k) => {
     const pm = u.text.match(PERSON_NOUN);
     if (!pm || capsNames(u.text, cueNames).length) return;
+    let done = false;
     for (const v of acts.slice(k + 1, k + 3)) {
       const named = chars.find((c) => c.first === v.i || c.intro === v.i);
-      if (named && !named.group) { named.fwd = u.i; named.alias = pm[1].toLowerCase(); if (named.first > u.i) named.first = u.i; break; }
+      if (named && !named.group) { named.fwd = u.i; named.alias = pm[1].toLowerCase(); if (named.first > u.i) named.first = u.i; done = true; break; }
+    }
+    // "A figure in a pale dress stands there. / DJ: Hello." -> the first brand-new speaker within a few units
+    if (!done && FWD_CUE) {
+      for (let j = u.i + 1; j <= Math.min(units.length - 1, u.i + 4); j++) {
+        const w = units[j];
+        if (w.kind === "action" && capsNames(w.text, cueNames).length) break;
+        if (w.kind !== "dialogue") continue;
+        const sp = chars.find((c) => c.names.some((n) => sameChar(n, w.name)));
+        if (sp && !sp.group && sp.first === j && !sp.alias && sp.intro < 0) { sp.fwd = u.i; sp.alias = pm[1].toLowerCase(); sp.first = u.i; }
+        break;
+      }
     }
   });
   // Prefer the longest/full name as display name.
@@ -232,6 +245,13 @@ export function buildCast(scene) {
     if (OFF_ALIAS || c.alias || c.common || c.tagName) continue;
     const d = c.names.find((n) => DESCR.test(n) && keyTokens(n).filter((x) => !/^(THE|A|AN)$/.test(x)).length >= 2);
     if (d) c.alias = keyTokens(d).filter((x) => !/^(THE|A|AN)$/.test(x)).join(" ").toLowerCase();
+  }
+  // titled names ("JUDGE AUGUSTINE FAIRWEATHER", "COACH REEVE") are also "the judge" / "the coach" when unique
+  const ROLE = /^(JUDGE|COACH|WARDEN|MAYOR|NURSE|DOCTOR|DOC|DETECTIVE|OFFICER|SERGEANT|CAPTAIN|LIEUTENANT|PROFESSOR|REVEREND|FATHER|SISTER|BROTHER|DEACON|PASTOR|CHIEF|SHERIFF|MARSHAL|GENERAL|COLONEL|MAJOR|PRIVATE|CORPORAL|INSPECTOR|CONSTABLE|AGENT|SENATOR|GOVERNOR|PRESIDENT|KING|QUEEN|PRINCE|PRINCESS|LORD|LADY|DUKE|DUCHESS|BARON|COUNT|COUNTESS|BISHOP|CARDINAL|RABBI|IMAM|MONK|ABBOT|CLERK|BAILIFF|FOREMAN|FOREWOMAN|ARCHIVIST|SCRIBE|TEACHER|HEADMASTER|PRINCIPAL|DEAN|MANAGER|BOSS|CHEF|BARTENDER|WAITER|WAITRESS|DRIVER|PILOT|SKIPPER|STRANGER|GIRL|BOY|WOMAN|MAN)$/;
+  for (const c of chars) {
+    if (c.alias || c.common || c.tagName) continue;
+    const first = c.names.map((n) => n.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => !/^(THE|A|AN)$/.test(x))[0]).find((x) => x && ROLE.test(x));
+    if (first && chars.filter((o) => o.names.some((n) => n.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => !/^(THE|A|AN)$/.test(x))[0] === first)).length === 1) c.alias = first.toLowerCase();
   }
   // title-only names ("JUDGE", "NURSE", "DOC") are common nouns too
   for (const c of chars) {
@@ -292,9 +312,9 @@ export function buildCast(scene) {
   for (const c of chars) {
     for (const ui of [c.intro, c.fwd]) {
       if (ui === undefined || ui < 0) continue;
-      const t = units[ui].text.replace(/\b(his|her|him|he|she)\b/gi, "");
-      c.g.f += 2 * (t.match(FEMALE) || []).length;
-      c.g.m += 2 * (t.match(MALE) || []).length;
+      const t = units[ui].text.replace(/\b(his|her|him|he|she)\b/gi, "").replace(/\b(?:man|woman|boy|girl|lady|gentleman|king|queen|father|mother)['’]s\b/gi, "");
+      c.g.f += (t.match(FEMALE) || []).length;
+      c.g.m += (t.match(MALE) || []).length;
     }
   }
   // Titles in the name itself (MRS. HALL, SIR TOBY, FATHER BROWN).
@@ -309,9 +329,10 @@ export function buildCast(scene) {
   for (const c of chars) {
     c.evidence = { m: c.g.m, f: c.g.f };
     const p = prior[charKey(c.name)] || { m: 0, f: 0 };
-    const m = c.g.m + p.m, f = c.g.f + p.f;
+    const listed = c.group ? null : NAME_GENDER[keyTokens(c.name)[0]];
+    // the first-name list is one vote next to the script's own evidence (pronouns, descriptors)
+    const m = c.g.m + p.m + (listed === "m" ? 1 : 0), f = c.g.f + p.f + (listed === "f" ? 1 : 0);
     let g = m > f ? "m" : f > m ? "f" : "?";
-    if (g === "?" && !c.group) g = NAME_GENDER[keyTokens(c.name)[0]] || "?";
     if (g === "?" && !c.group) {
       const d = c.names.join(" ").match(/\b(WOMAN|GIRL|LADY|MOTHER|MOM|MUM|SISTER|AUNT|GRANDMA|WIFE|DAUGHTER|QUEEN|NUN|WAITRESS|ACTRESS|MAN|GUY|BOY|FATHER|DAD|BROTHER|UNCLE|GRANDPA|HUSBAND|SON|KING|PRIEST|MONK|WAITER)\b/);
       if (d) g = /^(WOMAN|GIRL|LADY|MOTHER|MOM|MUM|SISTER|AUNT|GRANDMA|WIFE|DAUGHTER|QUEEN|NUN|WAITRESS|ACTRESS)$/.test(d[1]) ? "f" : "m";
