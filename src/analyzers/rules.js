@@ -280,6 +280,8 @@ function initialPronoun(ctx, i) {
   const before = ctx.units[i].text.slice(0, p.at);
   // "For the first time, she smiles." / "One by one, they listen." / "Perhaps she does."
   if (p.at <= 1 || LEAD.test(before) || (/^[^.;:!?"“]{0,60},\s*$/.test(before) && !ctx.cast.mentions[i].some((m) => m.at < p.at && !m.poss)) ||
+      (!OFF.has("opener") && /^(he|she|they)$/.test(p.w) && /^(?:for|after|in|at|by|with|without|through|over|under|behind|beyond|beside|across|on|from|then|now|and|but)\s+(?:[a-z'-]+\s+){0,4}$/i.test(before) &&
+        !/\b(him|her|them|his|their|hers)\b/i.test(before) && !ctx.cast.mentions[i].some((m) => m.at < p.at)) ||
       /^(?:perhaps|maybe|finally|together|instead|meanwhile|again|only then|for a moment|at last|somehow)\s+$/i.test(before)) return p.g;
   return null;
 }
@@ -295,6 +297,12 @@ function verbless(t) { return !AUX.test(t) && LOOKS.test(t) && !/^(the|a|an|it|i
 
 // Sentence with no grammatical subject at the start: "Opens a folder." "Flips." "Slowly." "Warm face."
 const DET = /^(a|an|the|this|that|these|those|his|her|their|its|my|our|your|some|no|every|each|one|two|three|on|in|at|from|behind|outside|inside|across|through|under|over|near|beside|somewhere|nobody|someone|everyone|it|there|then|now|later|silence|nothing)\b/i;
+// One-word manner / state fragments that continue a character's action ("She looks. Quick." / "Almost." / "Twice.").
+const MANNER = new Set(("quick quicker slow slower fast faster hard harder soft softer gentle careful almost again twice once thrice barely " +
+  "closer nearer lower louder quieter quiet still steady sharp sharper tight tighter deep deeper long longer short shorter wide " +
+  "wider high higher low flat calm cold colder warm warmer pale white red tense rigid frozen motionless breathless silent stiff " +
+  "numb blank alert awake asleep upright prone limp loose taut late early first last alone together nothing more less enough " +
+  "no yes not never always").split(" "));
 export function subjectless(ctx, i) {
   const u = ctx.units[i];
   if (u.kind !== "action") return 0;
@@ -317,7 +325,7 @@ export function subjectless(ctx, i) {
     if (/^then\b/i.test(t) && !/^then\s+(the|a|an|it|there|silence|nothing)\b/i.test(t)) return 1;                                  // "Then stops." / "Then another."
     // short description of the character just shown: "Violent." "Red-rimmed." "Grey hood." "Phone in hand."
     const w = t.replace(/[.!?…]+$/, "").split(/\s+/);
-    const adj = w.length <= 2 && w.every((x) => /^(?:[A-Z]?[a-z]+-)?[A-Za-z]+(?:ed|en|ful|less|ous|ive|y|al|ic|ish|er|ly|ing|ant|ent|ble)$/.test(x)) && !SETTING_NOUN.test(t);
+    const adj = w.length <= 2 && w.every((x) => /^(?:[A-Z]?[a-z]+-)?[A-Za-z]+(?:ed|en|ful|less|ous|ive|y|al|ic|ish|er|ly|ing|ant|ent|ble)$/.test(x) || MANNER.has(x.toLowerCase())) && !SETTING_NOUN.test(t);
     const looks = w.length <= 5 && (LOOKS.test(t) || /\bin (hand|his hand|her hand|hands)\b/i.test(t)) && !SETTING_NOUN.test(t.replace(LOOKS, ""));
     if ((adj || looks) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
   }
@@ -477,7 +485,20 @@ function leadPossessive(ctx, i) {
   if (!ms[0].poss) return null;
   const nxt = ms.find((m) => m.at > ms[0].at && m.c !== ms[0].c);
   if (nxt && /^[\w\s.-]{0,30},\s*$/.test(t.slice(ms[0].at, nxt.at).replace(/^\S+['’]s\s+/, ""))) return [nxt.c];
-  return [ms[0].c]; // "Maya's hands shake", "Maya's phone is dead": hers
+  const after = t.slice(ms[0].at).replace(/^\S+['’]s\s+/, "");
+  // "Maya's hands shake" -> Maya; "Maya's phone rings" -> an event, nobody acts (unless she then does: "Maya's phone rings and she grabs it")
+  if (OFF.has("poss") || BODY.test(after) || /\b(she|he|they)\b/i.test(after)) return [ms[0].c];
+  return [];
+}
+// "Her phone buzzes." / "His chair scrapes." -> nobody; "Her jaw works." / "His face drains." -> the owner (handled by the
+// pronoun path); returns [] only for the object case.
+function pronounObject(ctx, i) {
+  const t = ctx.units[i].text;
+  const m = t.match(/^(?:(?:yet|but|and|then|now|still|so|suddenly|slowly|finally),?\s+)?(his|her|their)\s+(\S+)(?:\s+(\S+))?/i);
+  if (!m) return null;
+  if (BODY.test(m[2]) || BODY.test(m[3] || "") || /^(?:own|late|former)$/i.test(m[2]) && BODY.test(m[3] || "")) return null;
+  if (/\b(she|he|they)\b/i.test(t.slice(m[0].length))) return null; // "Her phone buzzes and she grabs it"
+  return [];
 }
 // "Her partner, DET. REYNALD KOWALSKI, 50s, eats ..." -> the appositive name.
 function pronounAppositive(ctx, i) {
@@ -564,6 +585,8 @@ function namePair(ctx, i) {
 }
 
 // Rule verdict: array of char ids (empty = NONE). ctx._why[i] records which rule decided (see WHY_RELIABLE).
+// Ablation switches for rule development (Node only): WHO_OFF="poss,nobody,opener,itc,..." disables rule paths.
+const OFF = new Set((globalThis.process?.env?.WHO_OFF || "").split(",").filter(Boolean));
 export function ruleActors(ctx, i) {
   ctx._why ??= new Map();
   const W = (why, ids) => { ctx._why.set(i, why); return ids; };
@@ -579,7 +602,9 @@ export function ruleActors(ctx, i) {
     if (lp) return W("possessive", lp);
     return W(ms[0].at <= 1 ? "nameLead" : "titleLead", [ms[0].c]);
   }
-  if (NOBODY.test(u.text)) return W("nobody", []);
+  if (NOBODY.test(u.text)) { const all = OFF.has("nobody") ? [] : everyone(ctx, i); return W("nobody", all); } // "Nobody speaks." is everyone not speaking
+  const po = OFF.has("pobj") ? null : pronounObject(ctx, i);
+  if (po) return W("pronounObject", po);
   if (SCREEN_TEXT.test(u.text)) return W("screenText", []);
   const pa = pronounAppositive(ctx, i) || introAppositive(ctx, i);
   if (pa) return W("appositive", pa);
@@ -593,6 +618,14 @@ export function ruleActors(ctx, i) {
   }
   const fwd = ctx.cast.chars.find((c) => c.fwd === i);
   if (fwd) return W("introducedBefore", [fwd.id]);
+  // "Mo smiles. It is not a happy smile." / "He laughs. It becomes a cough." -> a comment on the character's own action
+  if (!OFF.has("itc") && /^it\s+(?:is|isn't|is not|was|does|doesn't|does not|looks|becomes|takes|lands|reaches|comes|goes|has|hasn't|sounds|feels|means|works|fails|holds|lasts)\b/i.test(u.text) && !ctx.cast.mentions[i].length) {
+    const prev = ctx.units[i - 1];
+    if (prev && prev.kind === "action" && prev.para === u.para) {
+      const pa = prevActorOf(ctx, i);
+      if (pa.ids.length === 1 && pa.dist === 1 && !/\b(phone|door|light|lamp|engine|radio|tv|screen|car|train|bus|rain|wind|room|house|clock|bell|alarm|machine)\b/i.test(prev.text)) return W("itComment", pa.ids);
+    }
+  }
   if (subjectless(ctx, i)) {
     // A stage direction next to a speech belongs to that speaker ("Smiles." / "Breaking off.").
     const pa = prevActorOf(ctx, i);
@@ -624,11 +657,12 @@ export function ruleActors(ctx, i) {
     const s2 = salient((c) => !offscreen(ctx, c) && !ctx.cast.chars[c].group).slice(0, 2);
     if (s2.length === 2) return W("pluralTwo", s2);
   }
-  if (initPron === "p" || PLURAL_SUBJ.test(u.text) || /^(together|the two)\b/i.test(u.text)) {
+  const stripped = u.text.replace(/^(?:(?:yet|but|and|then|now|still|so|suddenly|slowly|finally|again|for a (?:moment|second|beat|heartbeat)),?\s+)+/i, "");
+  if (initPron === "p" || PLURAL_SUBJ.test(stripped) || /^(together|the two)\b/i.test(stripped)) {
     const g = salient((c) => ctx.cast.chars[c].group);
     if (g.length) return W("pluralGroup", [g[0]]);
     // "Both" / "the two" / "neither" -> the two most recent; "They" / "All" -> everyone present.
-    if (!/^(both|the two|neither|together)\b/i.test(u.text)) { const all = everyone(ctx, i, 8); if (all.length > 1) return W("pluralAll", all); }
+    if (!/^(both|the two|neither|together)\b/i.test(stripped)) { const all = everyone(ctx, i, 8); if (all.length > 1) return W("pluralAll", all); }
     const s2 = salient(() => true).slice(0, 2);
     if (s2.length) return W("pluralTwo", s2);
   }
@@ -673,6 +707,15 @@ function discourseSubject(ctx, i, g, cands) {
     }
   }
   if (DISCOURSE.mode !== "listener") {
+    // "Priya tosses Desmond a roll of tape. He catches it." -> the previous line's object, when its actor is not a candidate
+    const pj = i - 1;
+    if (pj >= 0 && ctx.units[pj].kind === "action") {
+      const actors = ctx._why?.has(pj) ? ruleActors(ctx, pj) : [];
+      if (!actors.some((c) => cands.includes(c))) {
+        const objs = [...new Set(ctx.cast.mentions[pj].filter((m) => !m.poss && cands.includes(m.c)).map((m) => m.c))];
+        if (objs.length === 1) return objs[0];
+      }
+    }
     for (let j = i - 1, d = 0; j >= 0 && d < 10; j--, d++) {
       const u = ctx.units[j];
       if (u.kind === "heading") break;

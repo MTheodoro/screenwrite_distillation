@@ -208,8 +208,21 @@ export function buildCast(scene) {
     const h = c.names.map((n) => (n.match(HEAD) || [])[1]).find(Boolean);
     if (h && chars.filter((o) => o.names.some((n) => (n.match(HEAD) || [])[1] === h)).length === 1) c.alias = h.toLowerCase();
   }
+  // Described characters are also referred to by their full description in lowercase ("the woman in black",
+  // "the young woman"); the full phrase is unambiguous even when two share a head noun.
+  const OFF_ALIAS = (globalThis.process?.env?.WHO_OFF || "").includes("alias");
+  for (const c of chars) {
+    if (OFF_ALIAS || c.alias || c.common || c.tagName) continue;
+    const d = c.names.find((n) => DESCR.test(n) && keyTokens(n).filter((x) => !/^(THE|A|AN)$/.test(x)).length >= 2);
+    if (d) c.alias = keyTokens(d).filter((x) => !/^(THE|A|AN)$/.test(x)).join(" ").toLowerCase();
+  }
+  // title-only names ("JUDGE", "NURSE", "DOC") are common nouns too
+  for (const c of chars) {
+    const t = c.name.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => x && !/^(THE|A|AN)$/.test(x));
+    if (!c.common && !c.alias && !c.tagName && t.length === 1 && TITLES.has(t[0])) c.common = true;
+  }
   const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe((keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0] || c.name.toUpperCase().replace(/^(THE|A|AN)\s+/, "").split(/\s+/)[0]).toLowerCase())}\\b`, "gi")
-    : c.alias ? new RegExp(`\\bthe ${escapeRe(c.alias)}\\b`, "gi") : null));
+    : c.alias ? new RegExp(`\\b(?:the|this|that)\\s+${escapeRe(c.alias).replace(/ /g, "\\s+")}\\b`, "gi") : null));
   const mentions = units.map(() => []);
   const pronouns = units.map(() => []);
   for (const u of units) {
