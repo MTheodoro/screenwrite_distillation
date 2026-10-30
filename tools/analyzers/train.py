@@ -34,10 +34,17 @@ P_TENSION = {**PARAMS, "n_estimators": 100, "learning_rate": 0.11}
 
 # Real-text excerpts (public-domain plays, "pt_" ids) are rare next to synthetic scenes: upweight their rows.
 REAL_WEIGHT = 4.0
+OPUS_WEIGHT = 3.0
+_op = L.LAB / "opus_label_ids.txt"
+OPUS_IDS = set(_op.read_text().split()) if _op.exists() else set()
 
 
 def row_weights(sids):
-    return np.where(np.char.startswith(sids.astype(str), "pt_"), REAL_WEIGHT, 1.0)
+    w = np.where(np.char.startswith(sids.astype(str), "pt_"), REAL_WEIGHT, 1.0)
+    # scenes whose training labels come from Opus (labels/opus_label_ids.txt) count more than Haiku-labeled ones
+    if OPUS_IDS:
+        w = np.where(np.isin(sids.astype(str), list(OPUS_IDS)), w * OPUS_WEIGHT, w)
+    return w
 
 
 def split_scenes(sids, frac=0.15, seed=0):

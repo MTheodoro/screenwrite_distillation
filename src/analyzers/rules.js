@@ -159,8 +159,11 @@ export function unitEmoTable(ctx, i) {
 export function beat2Features(ctx, i, sinceLast = 0, sinceLastParas = 0) {
   const k = ctx.content.indexOf(i), W = 4;
   const before = ctx.content.slice(Math.max(0, k - W), k), after = ctx.content.slice(k, k + W);
-  const union = (idx, f) => { const s = new Set(); for (const j of idx) for (const x of f(ctx, j)) s.add(x); return s; };
-  const mean = (idx) => { const m = new Array(8).fill(0); for (const j of idx) unitEmoTable(ctx, j).forEach((v, c) => { m[c] += v / idx.length; }); return m; };
+  // window aggregates are memoised per (window, kind): each window is "after" for one unit and "before" for another
+  ctx._win ??= new Map();
+  const memo = (key, idx, fn) => { const kk = key + (idx.length ? idx[0] + ":" + idx[idx.length - 1] : "-"); if (!ctx._win.has(kk)) ctx._win.set(kk, fn(idx)); return ctx._win.get(kk); };
+  const union = (idx, f) => memo(f === contentWords ? "w" : "c", idx, (ix) => { const s = new Set(); for (const j of ix) for (const x of f(ctx, j)) s.add(x); return s; });
+  const mean = (idx) => memo("e", idx, (ix) => { const m = new Array(8).fill(0); for (const j of ix) unitEmoTable(ctx, j).forEach((v, c) => { m[c] += v / ix.length; }); return m; });
   const eb = before.length ? mean(before) : null, ea = mean(after);
   const tl = (idx) => idx.reduce((s, j) => s + unitTensionLex(ctx, j), 0) / Math.max(1, idx.length);
   const dl = (idx) => idx.filter((j) => ctx.units[j].kind === "dialogue").length / Math.max(1, idx.length);
