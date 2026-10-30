@@ -307,6 +307,10 @@ export function subjectless(ctx, i) {
   const pa = prev && prev.kind === "action" ? prevActorOf(ctx, i) : null;
   const cont = !!(pa && pa.ids.length && pa.dist === 1 && (prev.para === u.para || /\b(looks?|points?|glances?|stares?|nods?|gestures?|turns?|watches|studies)\b/i.test(prev.text)));
   if (verbless(t) && !PLURAL_SUBJ.test(t) && words(t) <= 12) return 1; // descriptive fragment
+  // Right after a character's introduction, a short verbless fragment keeps describing them ("SAL, 60, skipper, stands
+  // at the wheel. Weather in every wrinkle." / "A city coat, no oilskin.")
+  if (cont && pa.ids.length === 1 && ctx.cast.chars[pa.ids[0]] && (ctx.cast.chars[pa.ids[0]].intro === i - 1 || ctx.cast.chars[pa.ids[0]].fwd === i - 1) &&
+      words(t) <= 8 && !AUX.test(t) && !/\b[a-z]+s\b/.test(t.split(/\s+/).slice(1).join(" ").replace(/\b(eyes|hands|boots|glasses|clothes|jeans|pants|shoes|sleeves|lips|cheeks|knees|arms|legs|feet|fingers|nails|lashes|braids|curls|freckles|wrinkles)\b/g, "")) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
   if (cont && words(t) <= 6) {
     if (/^(?:then,?\s+)?(?:at|to|toward|towards|into|back to|over|down at|up at|across)\b/i.test(t) && !AUX.test(t)) return 1;   // "At the butler."
     if (/^(?:then,?\s+)?(?:doesn't|don't|can't|won't|isn't|hasn't|didn't|never|barely|almost|not)\b/i.test(t)) return 1;          // "Doesn't say anything."

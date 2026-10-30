@@ -46,19 +46,7 @@ export function sameChar(a, b) {
 }
 
 import NAME_GENDER from "./names.js";
-import EMO_TABLE from "./emotable.js";
-import KIND_TABLE from "./kindtable.js";
-// Common English words (the learned tables' vocabularies): a lone CAPS common word ("INSIDE", "METAPHOR", "TICKS")
-// is emphasis or a sound, not a character, unless it is a cue or a known first name.
-let COMMON = null;
-function commonWord(w) {
-  if (!COMMON) {
-    COMMON = new Set();
-    for (const t of [EMO_TABLE, KIND_TABLE]) for (const v of t.vocab) if (/^[a-z]{3,}$/.test(v)) COMMON.add(v);
-    for (const w of "inside outside upstairs downstairs meanwhile suddenly later earlier now then here there today tonight tomorrow yesterday everyone nobody somebody everything nothing something metaphor".split(" ")) COMMON.add(w);
-  }
-  return COMMON.has(w.toLowerCase());
-}
+
 
 // Script-level key for a character (same person across scenes): name tokens without titles.
 export function charKey(name) { return keyTokens(name).join(" "); }
@@ -90,7 +78,7 @@ export function capsNames(text, cueNames) {
     // Signs, labels and on-screen text: "a sign reads STAFF ONLY", "stamped CANCELLED", "SUPER: ..."
     if (/\b(reads?|marked|labell?ed|stamped|printed|super|caption)\s*:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 16), m.index))) continue;
     const isCue = cueNames.some((c) => sameChar(c, n));
-    if (!isCue && !/\s/.test(n) && commonWord(n) && !NAME_GENDER[n] && !/^[(]/.test(after)) continue;
+    if (!isCue && !/\s/.test(n) && /^(INSIDE|OUTSIDE|UPSTAIRS|DOWNSTAIRS|MEANWHILE|SUDDENLY|LATER|EARLIER|NOW|THEN|HERE|THERE|TODAY|TONIGHT|TOMORROW|YESTERDAY|EVERYONE|NOBODY|SOMEBODY|EVERYTHING|NOTHING|SOMETHING|METAPHOR|SILENCE|DARKNESS|NIGHT|MORNING)$/.test(n)) continue;
     if (!isCue && /\b(TICKS?|TOCKS?|HUMS?|WHIRS?|DRIPS?|SPLASH(ES)?|FLASH(ES)?|FLICKERS?|LURCH(ES)?|JOLTS?|SHUDDERS?|THUNDERS?)$/.test(n)) continue;
     if (!isCue && /['’]S\b/.test(n) && n.split(/\s+/).length > 2) continue; // "WORLD'S OKAYEST GRANDMA" (printed text)
     const art = /\b(a|an|the|two|three)\s+$/i.test(before);

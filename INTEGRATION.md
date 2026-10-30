@@ -136,7 +136,7 @@ other; no system can be meaningfully scored above it.
 
 | | Synthetic + contemporary (176 scenes) | Contemporary only, 20 writer styles (60 scenes) | Ceiling |
 |---|---|---|---|
-| Who, exact set | 87.0% | 85.4% | 98% |
+| Who, exact set | 87.5% | 86.4% | 98% |
 | Line kind (non-character lines) | 84% | – | 95% |
 | Line emotion | 75.4% | 74.7% | 92% |
 | Dramatic beats, boundary F1 (±1 unit) | 0.55 | – | 0.76 (pass vs pass) |
@@ -144,9 +144,9 @@ other; no system can be meaningfully scored above it.
 | Tension, pairs ordered within scene | 84% | – | – |
 | Beat summary, overlap with Opus summary (ROUGE-1) | 0.26 (first-line baseline 0.16) | – | 0.39 (best single line) |
 
-Speed (headless Chromium, 4× CPU throttle, `node tools/analyzers/perf_browser.mjs 4`): per worker task p50 ~11 ms,
-p95 ~28 ms; whole edited scene p50 ~32 ms. All off the main thread; typing never waits. A cold ~135-page script
-takes ~2.6 s in total, with the Timeline (beats + tension) at ~1.3 s; reopening is instant from cache.
+Speed (headless Chromium, 4× CPU throttle, `node tools/analyzers/perf_browser.mjs 4`): per worker task p50 ~7 ms,
+p95 ~16 ms; whole edited scene p50 ~22 ms, all off the main thread (typing never waits). A cold ~135-page script takes
+~2 s in total, with the Timeline (beats + tension) at ~0.9 s; reopening is instant from cache.
 
 ## 7. Updates, tests, tools
 
