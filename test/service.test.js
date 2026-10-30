@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { AnalyzerService, hashText } from "../src/analyzers/service.js";
 
 const bundlePath = new URL("../public/models/analyzers.json", import.meta.url);
@@ -67,7 +67,7 @@ test("results persist through storage across service instances", async () => {
   assert.ok([...again.values()].every((r) => r.cached));
 });
 
-test("model weights load lazily and change the cache key", async () => {
+test("model weights load lazily and change the cache key", { skip: !existsSync(bundlePath) && "training bundle (public/models) not shipped" }, async () => {
   let loads = 0;
   const bundle = JSON.parse(readFileSync(bundlePath, "utf8"));
   const s = new AnalyzerService({ schedule: syncSchedule, loadBundle: async () => { loads++; return bundle; } });
@@ -90,7 +90,7 @@ test("a newer update pre-empts stale queued work", async () => {
   assert.ok(!seen.some(([g]) => g === "old"), "stale generation must not deliver results");
 });
 
-test("optional refiner sends a second, refined result and caches it", async () => {
+test("optional refiner sends a second, refined result and caches it", { skip: !existsSync(bundlePath) && "training bundle (public/models) not shipped" }, async () => {
   const bundle = JSON.parse(readFileSync(bundlePath, "utf8"));
   const storage = memoryStorage();
   const s = new AnalyzerService({ storage, schedule: syncSchedule, loadBundle: async () => bundle,
