@@ -136,7 +136,7 @@ other; no system can be meaningfully scored above it.
 
 | | Synthetic + contemporary (176 scenes) | Contemporary only, 20 writer styles (60 scenes) | Ceiling |
 |---|---|---|---|
-| Who, exact set (top-1) | 94.0% (95.3%) | 92.2% (93.9%) | 98% |
+| Who, exact set | 94.1% | 92.5% | 98% |
 | Line kind (non-character lines) | 84% | – | 95% |
 | Line emotion | 75.4% | 74.7% | 92% |
 | Dramatic beats, boundary F1 (±1 unit) | 0.55 | – | 0.76 (pass vs pass) |

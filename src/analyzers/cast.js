@@ -46,6 +46,7 @@ export function sameChar(a, b) {
 }
 
 import NAME_GENDER from "./names.js";
+import { VERBS3 } from "./verbs.js";
 
 
 // Script-level key for a character (same person across scenes): name tokens without titles.
@@ -85,7 +86,9 @@ export function capsNames(text, cueNames) {
     if (!isCue && /['’]S\b/.test(n) && n.split(/\s+/).length > 2) continue; // "WORLD'S OKAYEST GRANDMA" (printed text)
     const art = /\b(a|an|the|two|three)\s+$/i.test(before);
     if (!OFF_NOTPERSON && art && !isCue && /^(BOOT|BOOTS|FOOTSTEPS?|KNOCK|SOUND|NOISE|CRASH|BANG|THUD|THUNK|CLICK|CREAK|SIREN|HORN|BELL|PHONE|DOOR|LIGHT|LIGHTS|SHADOW|SPARK|FLASH|SCREAM|SHOT|GUNSHOT|BLAST|EXPLOSION|RUMBLE|ROAR|WHISTLE|BUZZ|BUZZER|ALARM|ENGINE|CAR|TRUCK|VAN|TRAIN|BUS|HELICOPTER|PLANE|DRONE|CAMERA|SCREEN|TV|RADIO|SPEAKER|TAPE|RECORD|CLOCK|WIND|WAVE|GUST|RAIN|THUNDER|LIGHTNING|SILENCE|PAUSE|BEAT|MOMENT|HAND|HANDS|FINGER|FINGERS|ARM|LEG|FOOT|HEAD|FACE|EYE|EYES|TAIL|PAW|WING|SIGN|BANNER|NOTE|LETTER|MESSAGE|TEXT|MAP|BOOK|BOX|BAG|KEY|KEYS|GUN|PISTOL|KNIFE|BLADE|ROPE|CHAIN|BOTTLE|GLASS|CUP|PLATE|FLAG|CURTAIN|TABLE|CHAIR|BED|WALL|FLOOR|WINDOW|GATE|FENCE|BRIDGE|BOAT|SHIP)$/.test(n)) continue;
-    if (isCue || /^\s*[(,—–-]/.test(after) || /^['’]S/.test(after) || art) out.push(art ? n + "\u0000" : n);
+    const nextWord = text.slice(m.index + m[0].length).match(/^\s+([a-z]+)\b/);
+    const verbAfter = !OFF_CAPSVERB && m.index === 0 && nextWord && VERBS3.has(nextWord[1]) && !NOT_NAMES.has(n) && !/\s/.test(n) && n.length >= 3;
+    if (isCue || /^\s*[(,—–-]/.test(after) || /^['’]S/.test(after) || art || verbAfter) out.push(art ? n + "\u0000" : n);
   }
   return out;
 }
@@ -106,6 +109,10 @@ const RELATION = /^(?:apprentice|assistant|wife|husband|partner|boyfriend|girlfr
 const GDEBUG = !!globalThis.process?.env?.GDEBUG;
 const OFF_ALIASADJ = (globalThis.process?.env?.WHO_OFF || "").includes("aliasadj");
 const OFF_FWDNOUN = (globalThis.process?.env?.WHO_OFF || "").includes("fwdnoun");
+const OFF_CPOSS = (globalThis.process?.env?.WHO_OFF || "").includes("cposs");
+const OFF_GALIAS = (globalThis.process?.env?.WHO_OFF || "").includes("galias");
+const OFF_MERGEINTRO = !(globalThis.process?.env?.WHO_ON || "").includes("mergeintro"); // measured neutral/negative: opt-in
+const OFF_CAPSVERB = !(globalThis.process?.env?.WHO_ON || "").includes("capsverb"); // measured neutral/negative: opt-in
 const OFF_PRINT = (globalThis.process?.env?.WHO_OFF || "").includes("print");
 const OFF_FWDG = (globalThis.process?.env?.WHO_OFF || "").includes("fwdg");
 const OFF_GTIER = (globalThis.process?.env?.WHO_OFF || "").includes("gtier"); // gender evidence tiers + consistency pass
@@ -177,7 +184,8 @@ export function buildCast(scene) {
     // ... or the description introduces themself in dialogue ("I'm Hannah by the way." / "Call me Rook.")
     const said = units.filter((x) => x.kind === "dialogue" && d.names.some((n) => sameChar(n, x.name)))
       .map((x) => (x.text.match(/\b(?:I'?m|I am|my name'?s|my name is|call me|name's)\s+([A-Z][a-z]+)/i) || [])[1]).find(Boolean);
-    const named = chars.find((c) => c && c !== d && !DESCR.test(c.names[0]) && c.first > d.first && c.intro < 0 &&
+    const plainIntro = (c) => c.intro >= 0 && !OFF_MERGEINTRO && !new RegExp(`\\b${escapeRe(keyTokens(c.names[0])[0] || c.names[0])}\\b[^.]{0,40}?(?:\\(|,\\s*(?:\\d|early|mid|late|a |an |the |teen))`, "i").test(units[c.intro].text);
+    const named = chars.find((c) => c && c !== d && !DESCR.test(c.names[0]) && c.first > d.first && (c.intro < 0 || plainIntro(c)) &&
       seen(c)[0] >= dLast && seen(c)[0] - dLast <= 3) ||
       (said && chars.find((c) => c && c !== d && !DESCR.test(c.names[0]) && keyTokens(c.name).includes(said.toUpperCase())));
     if (!named) continue;
@@ -200,6 +208,13 @@ export function buildCast(scene) {
     const key = keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x));
     if (!c.group && key.length === 1 && /S$/.test(key[0]) && !/SS$/.test(key[0]) && !NAME_GENDER[key[0]] &&
         new RegExp(`\\b(?:two|three|four|five|six|several|a few|a group of|a dozen|some|\\d+)\\s+(?:[a-z-]+\\s+){0,2}${escapeRe(key[0])}\\b`, "i").test(u.text)) c.group = true;
+  }
+  if (!OFF_GALIAS) for (const c of chars) {
+    if (!c.group || c.intro < 0) continue;
+    const own = new Set(keyTokens(c.name).map((x) => x.toLowerCase()));
+    const gm = [...units[c.intro].text.matchAll(/\b(?:two|three|four|five|twin|the|a pair of|a couple of)\s+(?:[a-z-]+\s+)?(boys|girls|men|women|kids|children|brothers|sisters|teenagers|teens|guards|soldiers|cops|officers|nurses|twins|students)\b/gi)]
+      .map((m) => m[1].toLowerCase()).find((n) => !own.has(n));
+    if (gm && chars.every((o) => o === c || (o.alias !== gm && o.alias2 !== gm))) c.alias2 = gm;
   }
   // Introduced before being named: "A teenage girl ... This is UATAKI." -> the description sentence belongs to UATAKI
   // and "the girl" becomes an alias.
@@ -320,7 +335,7 @@ export function buildCast(scene) {
     if (!c.common && !c.alias && !c.tagName && t.length === 1 && TITLES.has(t[0])) c.common = true;
   }
   const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe((keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0] || c.name.toUpperCase().replace(/^(THE|A|AN)\s+/, "").split(/\s+/)[0]).toLowerCase())}\\b`, "gi")
-    : c.alias ? new RegExp(`\\b(?:the|this|that)\\s+${OFF_ALIASADJ ? "" : "(?!(?:other|another|second|first|new|next|different|same|two|three|four)\\b)(?:[a-z-]+\\s+){0,2}"}${escapeRe(c.alias).replace(/ /g, "\\s+")}\\b`, "gi") : null));
+    : c.alias || c.alias2 ? new RegExp(`\\b(?:the|this|that)\\s+${OFF_ALIASADJ ? "" : "(?!(?:other|another|second|first|new|next|different|same|two|three|four)\\b)(?:[a-z-]+\\s+){0,2}"}(?:${[c.alias, c.alias2].filter(Boolean).map((a) => escapeRe(a).replace(/ /g, "\\s+")).join("|")})\\b`, "gi") : null));
   const actsAll = units.filter((x) => x.kind === "action" && /^[A-Za-z]/.test(x.text));
   const lowerScript = !(globalThis.process?.env?.WHO_OFF || "").includes("lower") && actsAll.length >= 4 && actsAll.filter((x) => /^[a-z]/.test(x.text)).length > actsAll.length / 2;
   const mentions = units.map(() => []);
@@ -342,7 +357,7 @@ export function buildCast(scene) {
         if (c.first > u.i) c.first = u.i;
       }
       if (commonRes[k]) for (const m of text.matchAll(commonRes[k])) {
-        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: false, lead: m.index <= 1 });
+        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: !OFF_CPOSS && /^['’]s\b/.test(text.slice(m.index + m[0].length)), lead: m.index <= 1 });
       }
     });
     mentions[u.i].sort((a, b) => a.at - b.at);
@@ -367,7 +382,8 @@ export function buildCast(scene) {
           !(!GT("contact") && CONTACT_V.test(before)) ||
         /^(he|she)$/.test(p.w) && /(,|;|\band|\bthen|\bbut|\bas|\bwhile|\bbefore|\bafter|\buntil|\bwhen)\s*$/i.test(before) ||
         // "TAVI, 20s, tool belt too big for him, follows" -> an object pronoun inside the introduction's descriptors
-        (!GT("him") && chars[ids[0]].intro === u.i && /^(him|her)$/.test(p.w) && /\b(?:for|on|to|around|behind|beside|under|over|at|about|against)\s+$/i.test(before) && /^[,.)]/.test(after));
+        (!GT("him") && chars[ids[0]].intro === u.i && /^(him|her)$/.test(p.w) && /\b(?:for|on|to|around|behind|beside|under|over|at|about|against)\s+$/i.test(before) && /^[,.)]/.test(after) &&
+          !(!GT("himverb") && u.text.slice(mentions[u.i][0].at, p.at).split(/\s+/).some((w) => VERBS3.has(w.replace(/\W+$/, "").toLowerCase()))));
       if (refBack) { chars[ids[0]].g[p.g]++; if (GDEBUG) console.error(`G ${chars[ids[0]].name} +${p.g} refBack(${p.w}): ${u.text.slice(0, 90)}`); }
     }
   }
@@ -381,6 +397,15 @@ export function buildCast(scene) {
     const pt = acts[k - 1].text;
     const objBefore = p0 && !GT("seqobj") && (p0.g === "m" ? /\b(?:him|himself)\b/i.test(pt) : /\b(?:herself)\b|\bher(?=[.,;!?]|\s+(?:to|at|by|and|but|away|back|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight|a|an|the)\b)/i.test(pt) || (CONTACT_V.test(pt.slice(0, pt.search(/\bher\b/) < 0 ? 0 : pt.search(/\bher\b/))) && /\bher\s+[a-z]/.test(pt)));
     if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w) && !objBefore) { (GT("tier") ? chars[ids[0]].g : chars[ids[0]].gs)[p0.g]++; if (GDEBUG) console.error(`G ${chars[ids[0]].name} +${p0.g} sequence: ${acts[k - 1].text.slice(0, 60)} / ${acts[k].text.slice(0, 50)}`); }
+  }
+  if ((globalThis.process?.env?.WHO_ON || "").includes("gt_dlgseq")) {
+    for (let i = 1; i < units.length; i++) {
+      const u = units[i], d = units[i - 1];
+      if (u.kind !== "action" || d.kind !== "dialogue" || mentions[i].length) continue;
+      const p0 = pronouns[i][0];
+      const sp = chars.find((c) => c.names.some((n) => sameChar(n, d.name)));
+      if (sp && p0 && p0.at <= 1 && /^(he|she)$/.test(p0.w)) sp.g[p0.g]++;
+    }
   }
   // Descriptor nouns in the introduction sentence ("a jesuitic priest", "a teenage girl").
   for (const c of chars) {
