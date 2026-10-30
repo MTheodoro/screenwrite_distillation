@@ -476,8 +476,11 @@ function leadPossessive(ctx, i) {
 function pronounAppositive(ctx, i) {
   const ms = ctx.cast.mentions[i], t = ctx.units[i].text;
   const m = t.match(/^(?:his|her|their)\s+[\w-]+(?:\s+[\w-]+)?,\s*/i);
-  if (!m || !ms.length || ms[0].at !== m[0].length) return null;
-  return [ms[0].c];
+  if (m && ms.length && ms[0].at === m[0].length) return [ms[0].c];
+  // "Her brother-in-law CLETUS, 50s, leans ..." / "His wife ILSE, forties, navigates ..."
+  const r = t.match(/^(?:his|her|their)\s+(?:[a-z'-]+\s+){1,3}(?=[A-Z][A-Z'’-]+\b)/);
+  if (r && ms.length && ms[0].at === r[0].length) return [ms[0].c];
+  return null;
 }
 // A pronoun before anyone is on stage ("She mounts the mule." as the scene's first line): the next character of that gender.
 function laterOfGender(ctx, i, g) {

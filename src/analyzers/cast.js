@@ -46,6 +46,19 @@ export function sameChar(a, b) {
 }
 
 import NAME_GENDER from "./names.js";
+import EMO_TABLE from "./emotable.js";
+import KIND_TABLE from "./kindtable.js";
+// Common English words (the learned tables' vocabularies): a lone CAPS common word ("INSIDE", "METAPHOR", "TICKS")
+// is emphasis or a sound, not a character, unless it is a cue or a known first name.
+let COMMON = null;
+function commonWord(w) {
+  if (!COMMON) {
+    COMMON = new Set();
+    for (const t of [EMO_TABLE, KIND_TABLE]) for (const v of t.vocab) if (/^[a-z]{3,}$/.test(v)) COMMON.add(v);
+    for (const w of "inside outside upstairs downstairs meanwhile suddenly later earlier now then here there today tonight tomorrow yesterday everyone nobody somebody everything nothing something metaphor".split(" ")) COMMON.add(w);
+  }
+  return COMMON.has(w.toLowerCase());
+}
 
 // Script-level key for a character (same person across scenes): name tokens without titles.
 export function charKey(name) { return keyTokens(name).join(" "); }
@@ -77,6 +90,9 @@ export function capsNames(text, cueNames) {
     // Signs, labels and on-screen text: "a sign reads STAFF ONLY", "stamped CANCELLED", "SUPER: ..."
     if (/\b(reads?|marked|labell?ed|stamped|printed|super|caption)\s*:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 16), m.index))) continue;
     const isCue = cueNames.some((c) => sameChar(c, n));
+    if (!isCue && !/\s/.test(n) && commonWord(n) && !NAME_GENDER[n] && !/^[(]/.test(after)) continue;
+    if (!isCue && /\b(TICKS?|TOCKS?|HUMS?|WHIRS?|DRIPS?|SPLASH(ES)?|FLASH(ES)?|FLICKERS?|LURCH(ES)?|JOLTS?|SHUDDERS?|THUNDERS?)$/.test(n)) continue;
+    if (!isCue && /['’]S\b/.test(n) && n.split(/\s+/).length > 2) continue; // "WORLD'S OKAYEST GRANDMA" (printed text)
     const art = /\b(a|an|the|two|three)\s+$/i.test(before);
     if (isCue || /^\s*[(,—–-]/.test(after) || /^['’]S/.test(after) || art) out.push(art ? n + "\u0000" : n);
   }
@@ -274,6 +290,10 @@ export function buildCast(scene) {
     const m = c.g.m + p.m, f = c.g.f + p.f;
     let g = m > f ? "m" : f > m ? "f" : "?";
     if (g === "?" && !c.group) g = NAME_GENDER[keyTokens(c.name)[0]] || "?";
+    if (g === "?" && !c.group) {
+      const d = c.names.join(" ").match(/\b(WOMAN|GIRL|LADY|MOTHER|MOM|MUM|SISTER|AUNT|GRANDMA|WIFE|DAUGHTER|QUEEN|NUN|WAITRESS|ACTRESS|MAN|GUY|BOY|FATHER|DAD|BROTHER|UNCLE|GRANDPA|HUSBAND|SON|KING|PRIEST|MONK|WAITER)\b/);
+      if (d) g = /^(WOMAN|GIRL|LADY|MOTHER|MOM|MUM|SISTER|AUNT|GRANDMA|WIFE|DAUGHTER|QUEEN|NUN|WAITRESS|ACTRESS)$/.test(d[1]) ? "f" : "m";
+    }
     c.gender = c.group ? "p" : g;
   }
   return { chars, mentions, pronouns };

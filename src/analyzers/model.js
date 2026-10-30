@@ -250,6 +250,12 @@ export function decodeBeats2(ctx, m, threshold = 0.5, minLen = 2) {
 
 // Alternative decoding: score every candidate once (sinceLast taken as the distance from the previous candidate
 // paragraph start), then keep the top round(n / unitsPerBeat) with at least minLen units between boundaries.
+// Boundary probability for every content unit (index 0 = scene start, always 1), as scored by the TopK decoder.
+export function beat2Probs(ctx, m, unitsPerBeat = 7) {
+  unitTension(ctx, beat2Probs.bundle || { models: {}, meta: {} });
+  return ctx.content.map((i, j) => (j === 0 ? 1 : predictRaw(m, beat2Features(ctx, i, Math.min(j, unitsPerBeat), 1))));
+}
+
 export function decodeBeats2TopK(ctx, m, unitsPerBeat = 7, minLen = 2, floor = 0.05) {
   const n = ctx.content.length;
   const k = Math.max(0, Math.round(n / unitsPerBeat) - 1);
