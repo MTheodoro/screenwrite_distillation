@@ -533,6 +533,8 @@ function leadPossessive(ctx, i) {
   const nxt = ms.find((m) => m.at > ms[0].at && m.c !== ms[0].c);
   if (nxt && /^[\w\s.-]{0,30},\s*$/.test(t.slice(ms[0].at, nxt.at).replace(/^\S+['’]s\s+/, ""))) return [nxt.c];
   const after = t.slice(ms[0].at).replace(/^\S+(?:\s+\S+){0,3}?['’]s\s+/, "").replace(ADJ_PRE, "");
+  if (!OFF.has("possshot") && (/^voice\s+(?:is cut off|cuts out|crackles|comes (?:through|over|from)|is (?:tinny|distant|muffled|gone)|drops out|breaks up)\b/i.test(after) ||
+      /^(?:close on|insert|angle on|on)\s/i.test(t.slice(0, ms[0].at)))) return []; // a voice on the line / a shot of a thing
   // "Maya's hands shake" -> Maya; "Maya's phone rings" -> an event, nobody acts (unless she then does: "Maya's phone rings and she grabs it")
   if (OFF.has("poss") || BODY.test(after) || /\b(she|he|they)\b/i.test(after)) return [ms[0].c];
   // "Abiola's pen scratches." / "Zuzu's bucket tips." / "Artemus's camera flashes." -> what the owner is doing with it;
@@ -615,7 +617,7 @@ function offscreen(ctx, c) {
   ctx._off ??= new Map();
   if (!ctx._off.has(c)) {
     const cues = ctx.units.filter((u) => u.kind === "dialogue" && ctx.speaker[u.i] === c);
-    const inAction = ctx.units.some((u) => u.kind === "action" && ctx.cast.mentions[u.i].some((m) => m.c === c && (OFF.has("offalias") || !m.alias)));
+    const inAction = ctx.units.some((u) => u.kind === "action" && ctx.cast.mentions[u.i].some((m) => m.c === c && (OFF.has("offalias") || !m.alias) && (OFF.has("offlead") || m.lead)));
     ctx._off.set(c, /^(RADIO|DISPATCH|INTERCOM|PA|ANNOUNCER|NARRATOR|VOICE|PHONE|TV|SPEAKER)\b/.test(ctx.cast.chars[c].name) ||
       (!inAction && cues.length > 0 && cues.every((u) => (u.ext || []).some((e) => /^(V\.?O|O\.?S|O\.?C|PHONE|RADIO|FILTERED|ON PHONE|INTERCOM)/i.test(e)))));
   }
@@ -885,6 +887,8 @@ export function ruleActors(ctx, i) {
     if (FRAG_SPEAKER_LOOSE && prv?.kind === "dialogue" && ctx.speaker[i - 1] >= 0) return W("fragmentSpeaker", [ctx.speaker[i - 1]]);
     if (FRAG_SPEAKER_LOOSE && nxt?.kind === "dialogue" && ctx.speaker[i + 1] >= 0) return W("fragmentSpeaker", [ctx.speaker[i + 1]]);
     if (pa.ids.length && pa.dist <= 1) return W("fragmentPrev", pa.ids);
+    // "Swipes. / Red light. / Swipes again." -> the fragment continues across a short event line
+    if (ON.has("frag2") && pa.ids.length && pa.dist === 2 && ctx.units[i - 1]?.kind === "action" && words(ctx.units[i - 1].text) <= 3 && ruleActors(ctx, i - 1).length === 0) return W("fragmentPrev", pa.ids);
   }
   const initPron = initialPronoun(ctx, i);
   const salient = (filter) => cands.filter((c) => (OFF.has("offs") || !offscreen(ctx, c)) && filter(c)).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
@@ -1017,12 +1021,12 @@ export function ruleActors(ctx, i) {
     // the most recent subject before it who could be her
     if (!OFF.has("objchain") && initPron !== "p" && i > 1 && ctx.units[i - 1].kind === "action") {
       const a1 = ruleActors(ctx, i - 1), pt = ctx.units[i - 1].text;
-      const objRe = initPron === "m" ? /\b(?:him|himself)\b/i : /\b(?:herself)\b|\bher(?=[.,;!?]|\s+(?:to|at|by|and|but|away|back|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight|a|an|the)\b)|\b(?:grabs?|grips?|takes?|touch(?:es)?|holds?|catch(?:es)?|kiss(?:es)?|slaps?|strokes?|squeez(?:es)?|pulls?|shakes?|brushes|pats?|lifts?|cups?|seiz(?:es)?|clutch(?:es)?|wipes?|pins?|releases?|steadies|guides?|drags?|yanks?|tugs?|taps?|covers?)\s+her\s+[a-z]/i;
+      const objRe = initPron === "m" ? (OFF.has("objchain2") ? /\b(?:him|himself)\b/i : /\b(?:him|himself)\b|\b(?:at|on|to|around|against|under|over|from|off)\s+his\s+[a-z]/i) : /\b(?:herself)\b|\bher(?=[.,;!?]|\s+(?:to|at|by|and|but|away|back|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight|a|an|the)\b)|\b(?:grabs?|grips?|takes?|touch(?:es)?|holds?|catch(?:es)?|kiss(?:es)?|slaps?|strokes?|squeez(?:es)?|pulls?|shakes?|brushes|pats?|lifts?|cups?|seiz(?:es)?|clutch(?:es)?|wipes?|pins?|releases?|steadies|guides?|drags?|yanks?|tugs?|taps?|covers?)\s+her\s+[a-z]/i;
       if (a1.length === 1 && ctx.cast.chars[a1[0]].gender !== initPron && objRe.test(pt) && !ctx.cast.mentions[i - 1].some((m) => m.c !== a1[0])) {
         for (let j = i - 2, d = 0; j >= 0 && d < 6; j--, d++) {
           const pu = ctx.units[j];
           if (pu.kind === "heading") break;
-          const subj = pu.kind === "dialogue" ? [ctx.speaker[j]] : pu.kind === "action" ? ruleActors(ctx, j) : [];
+          const subj = pu.kind === "dialogue" ? [ctx.speaker[j]] : pu.kind === "action" ? ruleActors(ctx, j).concat(OFF.has("objchain2") ? [] : ctx.cast.mentions[j].map((m) => m.c)) : [];
           const hit = subj.find((c) => c >= 0 && c !== a1[0] && c !== excl && !ctx.cast.chars[c].group && (ctx.cast.chars[c].gender === initPron || ctx.cast.chars[c].gender === "?"));
           if (hit !== undefined) return W("pronounObjectChain", [hit]);
         }

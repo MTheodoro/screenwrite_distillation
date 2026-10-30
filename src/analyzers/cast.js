@@ -351,7 +351,7 @@ export function buildCast(scene) {
     const t = c.name.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => x && !/^(THE|A|AN)$/.test(x));
     if (!c.common && !c.alias && !c.tagName && t.length === 1 && TITLES.has(t[0])) c.common = true;
   }
-  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe((keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0] || c.name.toUpperCase().replace(/^(THE|A|AN)\s+/, "").split(/\s+/)[0]).toLowerCase())}\\b`, "gi")
+  const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe (?:${escapeRe((keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0] || c.name.toUpperCase().replace(/^(THE|A|AN)\s+/, "").split(/\s+/)[0]).toLowerCase())}${c.alias2 ? "|" + escapeRe(c.alias2) : ""})\\b`, "gi")
     : c.alias || c.alias2 ? new RegExp(`\\b(?:the|this|that)\\s+${OFF_ALIASADJ ? "" : "(?!(?:other|another|second|first|new|next|different|same|two|three|four)\\b)(?:[a-z-]+\\s+){0,2}"}(?:${[c.alias, c.alias2].filter(Boolean).map((a) => escapeRe(a).replace(/ /g, "\\s+")).join("|")})\\b`, "gi") : null));
   const actsAll = units.filter((x) => x.kind === "action" && /^[A-Za-z]/.test(x.text));
   const lowerScript = !(globalThis.process?.env?.WHO_OFF || "").includes("lower") && actsAll.length >= 4 && actsAll.filter((x) => /^[a-z]/.test(x.text)).length > actsAll.length / 2;
