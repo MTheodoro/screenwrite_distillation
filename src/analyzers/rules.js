@@ -1480,6 +1480,9 @@ export function lineKind(ctx, i, who, stack = null) {
   // High-precision patterns first; the learned word table decides the rest (setting vs event vs extra).
   if (CAMERA.test(t) || (/^[A-Z0-9 .,:'’!?-]+$/.test(t) && /[A-Z]{3,}/.test(t) && words(t) <= 6)) return "camera";
   if (ABSTRACT.test(t)) return "abstract";
+  // one-word lines Opus labels the same way every time: a state of the room vs a sound
+  if (!OFF.has("kone") && /^(?:a\s+)?(?:silence|quiet|stillness|dark|darkness|black|dust|cold|heat|fog|rain|snow|wind|night|morning|dawn|dusk)[.!…]*$/i.test(t)) return "setting";
+  if (!OFF.has("kone") && /^(?:a\s+|another\s+|then\s+(?:a\s+)?)?(?:click|tap|knock|plink|drip|thud|bang|crash|beep|ring|clang|snap|crack|pop|creak|rattle|hiss|boom|thump|splash|buzz|ping|tick|tock|whoosh|clatter|clunk|clink|whir|screech|squeak|slam|crunch|scrape|scratch|rustle|gurgle|splat|zap|whack|smack|thwack|crackle|sizzle|fizz|toot|honk|chirp|caw|bark|howl|growl|hum|drone|whine|wail|shriek|scream|shout|gasp|sigh|cough|sneeze|laugh|giggle|chuckle)(?:s|es|ing)?[.!…]*$/i.test(t)) return "event";
   const p = scoreTable(KIND_TABLE, kindSignals(ctx, i));
   if (stack) {
     // table probabilities in fixed KINDS order + context -> trees (models.kind)

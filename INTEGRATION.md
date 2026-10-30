@@ -29,10 +29,10 @@ Copy these from `src/analyzers/` (all plain ES modules, no dependencies, no netw
 | Files | Size (gz) | Loaded |
 |---|---|---|
 | `fountain cast names lexicon rules model service worker wordtable summarize describe taxonomy verbs` `.js` | ~70 KB | with the worker |
-| `emotable kindtable beatcue` `.js` (learned word tables) | ~64 KB | with the worker |
+| `emotable kindtable beatcue` `.js` (learned word tables) | ~92 KB | with the worker |
 | `weights.js` (trees + mood tables, generated) | ~175 KB | lazily via `import()` on `need-model` |
 
-About **310 KB gzipped** in total (`verbs.js` is a corpus-derived verb/noun lexicon used by the who rules). Everything is in the app bundle: no `fetch`, no server, no WASM, works under
+About **340 KB gzipped** in total (`verbs.js` is a corpus-derived verb/noun lexicon used by the who rules). Everything is in the app bundle: no `fetch`, no server, no WASM, works under
 `file://` and in Electron. Keep `worker.js` a module worker:
 `new Worker(new URL("./analyzers/worker.js", import.meta.url), { type: "module" })`.
 
@@ -137,7 +137,7 @@ other; no system can be meaningfully scored above it.
 | | Synthetic + contemporary (176 scenes) | Contemporary only, 20 writer styles (60 scenes) | Ceiling |
 |---|---|---|---|
 | Who, exact set | 94.8% | 93.1% | 98% |
-| Line kind (non-character lines) | 84% | – | 95% |
+| Line kind (non-character lines) | 87.7% (5-fold CV; the gold labels also train the word table) | – | 95% |
 | Line emotion | 75.4% | 74.7% | 92% |
 | Dramatic beats, boundary F1 (±1 unit) | 0.55 | – | 0.76 (pass vs pass) |
 | Beat mood family (6) / mood (16) | 62% / 36% | – | 83% / 67% |
