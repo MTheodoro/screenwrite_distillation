@@ -333,16 +333,23 @@ export function subjectless(ctx, i) {
       words(t) <= 8 && !/\b(is|are|was|were|has|have|had|does|did|do|can|could|will|would|shall|should|may|might|must)\b/i.test(t) &&
       !t.split(/\s+/).slice(1).some((x) => /^[a-z]+s[.,]?$/.test(x) && !BODY.test(x) && !/^(clothes|jeans|pants|sleeves|nails|braids|curls|freckles|wrinkles|keys|coins|papers|notes|tears|years|hours|minutes|seconds|words|things|times)$/.test(x.replace(/[.,]$/, ""))) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
   if (cont && words(t) <= 6) {
-    if (/^(?:then,?\s+)?(?:at|to|toward|towards|into|back|over|down|up|across|away|closer|forward|aside|out|in|through|past|behind|under|around|along)\b/i.test(t) && !AUX.test(t) && !SETTING_NOUN.test(t)) return 1;   // "At the butler." / "Back down."
+    if (!ms.length && /^(?:then,?\s+)?(?:at|to|toward|towards|into|back|over|down|up|across|away|closer|forward|aside|out|in|through|past|behind|under|around|along)\b/i.test(t) && !AUX.test(t) && !SETTING_NOUN.test(t)) return 1;   // "At the butler." / "Back down."
     if (/^(?:then,?\s+)?(?:doesn't|don't|can't|won't|isn't|hasn't|didn't|never|barely|almost|not|does not|do not|did not|cannot|will not|has not|is not|could not|would not|couldn't|wouldn't|haven't|still)\b/i.test(t)) return 1;          // "Doesn't say anything."
     if (/^then\b/i.test(t) && !/^then\s+(the|a|an|it|there|silence|nothing)\b/i.test(t)) return 1;                                  // "Then stops." / "Then another."
     // short description of the character just shown: "Violent." "Red-rimmed." "Grey hood." "Phone in hand."
     const w = t.replace(/[.!?…]+$/, "").replace(/^(?:Not|Still|Very|Too|So|Almost|Suddenly|Quite|Rather)\s+/i, "").replace(/\s+(?:either|too|now|again|anymore)$/i, "").split(/[\s,;]+/).filter(Boolean);
     const adj = w.length <= 2 && w.every((x) => /^(?:[A-Z]?[a-z]+-)?[A-Za-z]+(?:ed|en|ful|less|ous|ive|y|al|ic|ish|er|ly|ing|ant|ent|ble)$/.test(x) || MANNER.has(x.toLowerCase())) && !SETTING_NOUN.test(t);
     const looks = w.length <= 5 && (LOOKS.test(t) || /\bin (hand|his hand|her hand|hands)\b/i.test(t)) && !SETTING_NOUN.test(t.replace(LOOKS, ""));
+    const objLine = /\b(looks? (?:at|down at|up at|into|over|through|inside)|opens?|checks?|examines?|reads?|studies|inspects?|pulls? (?:it )?out|lifts? (?:it|the|a)|turns? (?:it )?over|holds? (?:it )?up|unfolds?|flips?|peers? (?:at|into)|glances? (?:at|down at)|unwraps?|unrolls?|tastes?|sniffs?|picks? up|tests?|tries|plays? it)\b/i.test(prev.text);
+    if (!OFF.has("objadj") && adj && objLine && !looks) return 0; // "He opens it. Empty." describes the thing, not him
     if ((adj || looks) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
   }
   if (DET.test(t)) return 0;
+  {
+    const ws0 = t.replace(/^(then|and|but|now|still|again|just|finally|slowly|quickly|suddenly),?\s+/i, "").split(/\s+/);
+    // "Chairs topple." / "Feathers scatter." = plural noun + verb, never a fragment of the character's action
+    if (/^[A-Z][a-z]+s$/.test(ws0[0] || "") && ws0[1] && /^[a-z]+[.!]?$/.test(ws0[1]) && !/s[.!]?$/.test(ws0[1]) && !NOT_VERB.test(ws0[1].replace(/[.!]$/, ""))) return 0;
+  }
   // "exasperated." / "Rising." / "Smiles." after a speech; not "Rain." / "BEEP." / "Her phone."
   if (words(t) <= 3 && prev && prev.kind === "dialogue" && /^(?:[a-z]|[A-Z][a-z]+(?:s|ed|ing|ly)\b)/.test(t) && !/^[A-Z]+\W*$/.test(t)) return 1;
   if (/^(something|nothing|everything|someone|somebody|anything|anyone)\b/i.test(t)) return 0;
@@ -492,7 +499,7 @@ export function strongActors(ctx, i) {
 // Body parts act for their owner ("Maya's hands shake", "His jaw tightens"); other possessed things don't
 // ("Hattie's board blinks", "His chair scrapes" -> nobody).
 const ADJ_PRE = /^(?:(?:[a-z]+(?:ed|en|y|ful|less|ous|ive|al|ic|ish|ing)|own|left|right|good|bad|big|small|tiny|long|short|thin|thick|wide|narrow|whole|entire|half|bare|dark|pale|wet|dry|cold|warm|hot|red|white|black|grey|gray|blue|green|brown|blonde?|silver|gold|old|new|free|other|first|second|last)\s+){0,2}/i;
-const BODY = /^(eyes?|face|hands?|fingers?|fingertips|knuckles|fists?|voice|breath|breathing|jaw|lips?|mouth|head|shoulders?|heart|knees?|legs?|feet|foot|arms?|gaze|smile|grin|hair|brow|forehead|chest|stomach|throat|body|back|expression|look|grip|pulse|tears|cheeks?|nose|neck|skin|teeth|tongue|wrists?|palms?|thumbs?|whole|own|eyelids|lashes|nostrils|posture|frame|silhouette|footsteps|steps|hand-|attention|boots?|shoes?|sneakers?|heels?|socks?|shirt|blouse|coat|jacket|parka|hoodie|sweater|cardigan|dress|skirt|jeans|trousers|pants|suit|tie|scarf|gloves?|hat|cap|helmet|badge|glasses|sunglasses|watch|ring|necklace|earrings?|uniform|apron|scrubs|robe|cloak|cape|collar|sleeves?|cuffs?|lapels?|pockets?|belt|holster|backpack|purse|shadow|reflection|silhouette|outline|sweat|blood|bruise|wound|laugh|laughter|cough|sigh|gasp|stare|glare|frown|grimace|smirk|nod|shrug|wave|stride|gait|posture|stance|eyebrows?|eyelids|lashes|nostrils|lips?|mouth|chin|cheeks?|nose|neck|throat|chest|shoulders?|arms?|elbows?|wrists?|palms?|thumbs?|knuckles|knees?|legs?|ankles?|feet|foot|toes?|heel|hips?|waist|spine|back|skin|hair|beard|moustache|mustache|brow|forehead|temples?|jaw|teeth|tongue|voice)\b/i;
+const BODY = /^(eyes?|face|hands?|fingers?|fingertips|knuckles|fists?|voice|breath|breathing|jaw|lips?|mouth|head|shoulders?|heart|knees?|legs?|feet|foot|arms?|gaze|smile|grin|hair|brow|forehead|chest|stomach|throat|body|back|expression|look|grip|pulse|tears|cheeks?|nose|neck|skin|teeth|tongue|wrists?|palms?|thumbs?|whole|own|eyelids|lashes|nostrils|posture|frame|silhouette|footsteps|steps|hand-|attention|boots?|shoes?|sneakers?|heels?|socks?|shirt|blouse|coat|jacket|parka|hoodie|sweater|cardigan|dress|skirt|jeans|trousers|pants|suit|tie|scarf|gloves?|hat|cap|helmet|badge|glasses|sunglasses|watch|ring|necklace|earrings?|uniform|apron|scrubs|robe|cloak|cape|collar|sleeves?|cuffs?|lapels?|pockets?|belt|holster|backpack|purse|shadow|reflection|silhouette|outline|sweat|blood|bruise|wound|laugh|laughter|cough|sigh|gasp|stare|glare|frown|grimace|smirk|nod|shrug|wave|stride|gait|posture|stance|eyebrows?|eyelids|lashes|nostrils|lips?|mouth|chin|cheeks?|nose|neck|throat|chest|shoulders?|arms?|elbows?|wrists?|palms?|thumbs?|knuckles|knees?|legs?|ankles?|feet|foot|toes?|heel|hips?|waist|spine|back|skin|hair|beard|moustache|mustache|brow|forehead|temples?|jaw|teeth|tongue|voice|braids?|bun|ponytail|curls|fringe|bangs|freckles|wrinkles|complexion|figure|pen|pencil|blade|knife|sword|dagger|brush|spoon|fork|cup|glass|mug|bottle|flask|cigarette|lighter|gun|pistol|rifle|bow|staff|cane|umbrella|racket|bat|stick|club|paddle|oar|rope|reins|whip|torch|flashlight|lantern|candle|needle|thread|scissors|hammer|wrench|shovel|axe|pick|chisel|chalk|marker|crayon|clipboard|notebook|ledger|book|map|newspaper|paper|letter|envelope|card|cards|dice|chips|cigar|pipe|drink|coffee|tea|beer|wine|whisky|whiskey|sandwich|apple|bread|cane)\b/i;
 // "MARISOL's husband, DESMOND, ..." -> DESMOND; "Maya's hands shake" -> Maya; "Maya's phone buzzes" -> nobody.
 function leadPossessive(ctx, i) {
   const ms = ctx.cast.mentions[i], t = ctx.units[i].text;
@@ -520,8 +527,11 @@ function pronounAppositive(ctx, i) {
   const m = t.match(/^(?:his|her|their)\s+[\w-]+(?:\s+[\w-]+)?,\s*/i);
   if (m && ms.length && ms[0].at === m[0].length) return [ms[0].c];
   // "Her brother-in-law CLETUS, 50s, leans ..." / "His wife ILSE, forties, navigates ..."
-  const r = t.match(/^(?:his|her|their)\s+(?:[a-z'-]+\s+){1,3}(?=[A-Z][A-Z'’-]+\b)/);
+  const r = t.match(/^(?:[Hh]is|[Hh]er|[Tt]heir)\s+(?:[a-z'-]+,?\s+){1,3}(?=[A-Z][A-Z'’-]+\b)/);
   if (r && ms.length && ms[0].at === r[0].length) return [ms[0].c];
+  // "At the end of the table, her sister CAMILA ROMANO, 30s, ..." / "Beside him, her coach HALE, 50s, ..."
+  const r2 = t.match(/^[^,.;:]{0,50},\s+(?:his|her|their)\s+(?:[a-z'-]+,?\s+){1,3}(?=[A-Z][A-Z'’-]+\b)/);
+  if (r2 && ms.some((m) => m.at === r2[0].length)) return [ms.find((m) => m.at === r2[0].length).c];
   return null;
 }
 // A pronoun before anyone is on stage ("She mounts the mule." as the scene's first line): the next character of that gender.
@@ -724,7 +734,7 @@ export function ruleActors(ctx, i) {
     if (pa.ids.length && pa.dist <= 1) return W("fragmentPrev", pa.ids);
   }
   const initPron = initialPronoun(ctx, i);
-  const salient = (filter) => cands.filter(filter).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
+  const salient = (filter) => cands.filter((c) => (OFF.has("offs") || !offscreen(ctx, c)) && filter(c)).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
   // "The crowd turns." / "Many." / "The others scatter." -> extras, unless the crowd is a character (a group).
   if (/^(the (crowd|others|people|audience|room)|many|some|most|a few)\b/i.test(u.text)) {
     const g = salient((c) => ctx.cast.chars[c].group);
@@ -767,7 +777,7 @@ export function ruleActors(ctx, i) {
       let all = excludeMentioned(ctx, i, everyone(ctx, i, 8));
       // "VANCE: Sit. Down. / They sit." -> everyone but the one giving the order
       if (!OFF.has("imper") && i > 0 && ctx.units[i - 1].kind === "dialogue" && ctx.speaker[i - 1] >= 0 && all.length > 2 &&
-          (IMPERATIVE.test(ctx.units[i - 1].text) || words(ctx.units[i - 1].text) <= 4)) all = all.filter((c) => c !== ctx.speaker[i - 1]);
+          IMPERATIVE.test(ctx.units[i - 1].text)) all = all.filter((c) => c !== ctx.speaker[i - 1]);
       if (all.length > 1) return W("pluralAll", all);
     }
     const s2 = salient(() => true).slice(0, 2);

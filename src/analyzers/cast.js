@@ -82,6 +82,7 @@ export function capsNames(text, cueNames) {
     if (!isCue && /\b(TICKS?|TOCKS?|HUMS?|WHIRS?|DRIPS?|SPLASH(ES)?|FLASH(ES)?|FLICKERS?|LURCH(ES)?|JOLTS?|SHUDDERS?|THUNDERS?)$/.test(n)) continue;
     if (!isCue && /['’]S\b/.test(n) && n.split(/\s+/).length > 2) continue; // "WORLD'S OKAYEST GRANDMA" (printed text)
     const art = /\b(a|an|the|two|three)\s+$/i.test(before);
+    if (!OFF_NOTPERSON && art && !isCue && /^(BOOT|BOOTS|FOOTSTEPS?|KNOCK|SOUND|NOISE|CRASH|BANG|THUD|THUNK|CLICK|CREAK|SIREN|HORN|BELL|PHONE|DOOR|LIGHT|LIGHTS|SHADOW|SPARK|FLASH|SCREAM|SHOT|GUNSHOT|BLAST|EXPLOSION|RUMBLE|ROAR|WHISTLE|BUZZ|BUZZER|ALARM|ENGINE|CAR|TRUCK|VAN|TRAIN|BUS|HELICOPTER|PLANE|DRONE|CAMERA|SCREEN|TV|RADIO|SPEAKER|TAPE|RECORD|CLOCK|WIND|WAVE|GUST|RAIN|THUNDER|LIGHTNING|SILENCE|PAUSE|BEAT|MOMENT|HAND|HANDS|FINGER|FINGERS|ARM|LEG|FOOT|HEAD|FACE|EYE|EYES|TAIL|PAW|WING|SIGN|BANNER|NOTE|LETTER|MESSAGE|TEXT|MAP|BOOK|BOX|BAG|KEY|KEYS|GUN|PISTOL|KNIFE|BLADE|ROPE|CHAIN|BOTTLE|GLASS|CUP|PLATE|FLAG|CURTAIN|TABLE|CHAIR|BED|WALL|FLOOR|WINDOW|GATE|FENCE|BRIDGE|BOAT|SHIP)$/.test(n)) continue;
     if (isCue || /^\s*[(,—–-]/.test(after) || /^['’]S/.test(after) || art) out.push(art ? n + "\u0000" : n);
   }
   return out;
@@ -93,6 +94,8 @@ const CAM_PREFIX = /^(?:we see|we hear|we watch|we follow|we find|we're on|we ar
 const INVERTED = /^(?:[A-Z][\w'’-]*(?:\s+[\w'’,-]+){0,9}?)\s+(?:sits?|stands?|leans?|waits?|sleeps?|lies|crouch(?:es)?|kneels?|hovers?|lurks?|comes?|enters?|appears?|steps?|walks?|hangs?|perch(?:es)?|rests?|lounges?|slumps?|squats?|sprawls?|stalks?|strides?|shuffles?|emerges?|stumbles?)\s+(?:a |an |the )?$/;
 const DASH = /^[-–—*•]+\s*$/;
 const FWD_CUE = !(globalThis.process?.env?.WHO_OFF || "").includes("fwdcue");
+const OFF_ROLE = (globalThis.process?.env?.WHO_OFF || "").includes("role");
+const OFF_NOTPERSON = (globalThis.process?.env?.WHO_OFF || "").includes("notperson");
 const LEAD_TITLE = /^(?:(?:then|now|and|but|meanwhile|suddenly|finally|cousin|aunt|auntie|uncle|grandma|grandpa|granny|nana|old|young|little|big|baby|father|mother|brother|sister|mr|mrs|ms|miss|dr|doctor|officer|detective|det|captain|capt|sergeant|sgt|private|pvt|corporal|cpl|lieutenant|lt|agent|nurse|judge|lady|lord|sir|madam|professor|prof|chef|coach|pastor|reverend|rev|saint|st|king|queen|prince|princess)\.?,?\s+){1,2}$/i;
 
 // Build cast + per-unit annotations. Mutates nothing; returns { chars, mentions, pronouns, firstSeen }.
@@ -204,6 +207,7 @@ export function buildCast(scene) {
       }
     }
   });
+  for (const c of chars) if (/^(ALL|EVERYONE|EVERYBODY|BOTH|TOGETHER|CROWD|CHORUS|VOICES)$/.test(c.name.toUpperCase())) { c.group = true; c.pseudo = true; }
   // Prefer the longest/full name as display name.
   // Display name: the app's tag, else the longest real name (a later-revealed name beats the description).
   const rank = (n) => (DESCR.test(n) ? 0 : 10) + keyTokens(n).length;
@@ -220,10 +224,12 @@ export function buildCast(scene) {
   const owners = new Map();
   for (const ts of tokSets) for (const t of ts) owners.set(t, (owners.get(t) || 0) + 1);
   const res = chars.map((c, k) => {
+    if (c.pseudo) return null;
     const own = tokSets[k].filter((t) => owners.get(t) === 1);
     const toks = own.length ? own : tokSets[k];
     return toks.length ? new RegExp(`\\b(?:${toks.map((t) => escapeRe(t).replace(/ /g, "\\s+")).join("|")})(?:['’]s)?\\b`, "gi") : null;
   });
+  const resNG = res.map((r) => (r ? new RegExp(r.source, "i") : null)); // stateless copies for one-off tests
   // Common-noun characters ("a WOMAN") are later referred to as "the woman"; forward-introduced ones by their noun.
   // Characters named by a common noun ("NURSE", "THE BAND", "BOUNCER") are also "the nurse" in action lines.
   for (const c of chars) {
@@ -245,6 +251,24 @@ export function buildCast(scene) {
     if (OFF_ALIAS || c.alias || c.common || c.tagName) continue;
     const d = c.names.find((n) => DESCR.test(n) && keyTokens(n).filter((x) => !/^(THE|A|AN)$/.test(x)).length >= 2);
     if (d) c.alias = keyTokens(d).filter((x) => !/^(THE|A|AN)$/.test(x)).join(" ").toLowerCase();
+  }
+  // roles given at the introduction ("PRIYANKA, 30s, housekeeper, polishes..." / "VIC (40s, tailor)") -> "the housekeeper"
+  const ROLE_NOUN = /\b(housekeeper|nurse|doctor|surgeon|medic|paramedic|orderly|intern|resident|cook|chef|waiter|waitress|bartender|barista|barman|server|busboy|dishwasher|clerk|cashier|receptionist|secretary|assistant|manager|owner|landlord|landlady|tenant|neighbou?r|driver|cabbie|trucker|pilot|captain|skipper|sailor|deckhand|fisherman|mechanic|engineer|technician|tech|electrician|plumber|janitor|cleaner|guard|bouncer|doorman|usher|cop|officer|detective|sergeant|inspector|constable|sheriff|deputy|marshal|warden|soldier|sergeant|private|corporal|lieutenant|colonel|general|lawyer|attorney|counsel|prosecutor|judge|bailiff|juror|foreman|forewoman|teacher|professor|principal|coach|trainer|referee|umpire|student|pupil|priest|pastor|reverend|minister|rabbi|imam|monk|nun|deacon|vicar|chaplain|mayor|senator|governor|councilman|councilwoman|aide|agent|spy|courier|messenger|dealer|hustler|thief|burglar|smuggler|hitman|bodyguard|chauffeur|valet|butler|maid|nanny|babysitter|tutor|librarian|archivist|curator|scientist|researcher|analyst|programmer|developer|designer|architect|artist|painter|sculptor|photographer|filmmaker|director|producer|actor|actress|singer|musician|drummer|guitarist|bassist|pianist|violinist|dancer|dj|comedian|writer|novelist|poet|journalist|reporter|editor|anchor|host|interviewer|blogger|influencer|streamer|gamer|farmer|rancher|miner|logger|hunter|trapper|tracker|guide|ranger|lifeguard|firefighter|fireman|dispatcher|operator|translator|interpreter|accountant|banker|broker|trader|realtor|salesman|saleswoman|vendor|merchant|shopkeeper|grocer|butcher|baker|florist|tailor|seamstress|barber|hairdresser|stylist|manicurist|beautician|masseur|masseuse|therapist|counselor|psychiatrist|psychologist|dentist|vet|veterinarian|pharmacist|midwife|undertaker|mortician|gravedigger|priestess|witch|wizard|knight|squire|king|queen|prince|princess|lord|lady|duke|duchess|baron|count|countess|emperor|empress|chieftain|elder|shaman|oracle|scribe|herald|jester|bard|minstrel|pirate|outlaw|bandit|gunslinger|cowboy|cowgirl|widow|widower|bride|groom|fiancée|fiance|boyfriend|girlfriend|husband|wife|mother|father|son|daughter|brother|sister|grandmother|grandfather|aunt|uncle|cousin|niece|nephew|stepmother|stepfather|roommate|flatmate|classmate|colleague|partner|boss|foreman|supervisor|ceo|founder|investor|client|customer|patient|passenger|tourist|visitor|guest|stranger|newcomer|regular|local|veteran|rookie|recruit|cadet|prisoner|inmate|convict|suspect|witness|victim|survivor|hostage|refugee|immigrant|activist|protester|organizer|volunteer|monitor|caretaker|caregiver|patron|benefactor|heir|heiress|socialite|celebrity|star|champion|contender|boxer|fighter|wrestler|player|striker|goalie|pitcher|catcher|quarterback|jockey|rider|racer|climber|surfer|skater|diver|swimmer|runner|cyclist|hiker|camper|scout)\b/i;
+  for (const c of chars) {
+    if (OFF_ROLE || c.alias || c.common || c.tagName || c.intro < 0) continue;
+    const text = units[c.intro].text;
+    const toks = keyTokens(c.name).filter((x) => x.length > 1);
+    const m = toks.length ? new RegExp(`\\b(?:${toks.map(escapeRe).join("|")})\\b`).exec(text) : null;
+    if (!m) continue;
+    const tail = text.slice(m.index).replace(/^[^,(]{0,40}/, "").slice(0, 110);
+    const chunks = tail.replace(/^\s*\(/, ", ").replace(/\)/g, ",").split(",").map((x) => x.trim()).filter(Boolean).slice(0, 4);
+    for (const ch of chunks) {
+      const rm = ch.match(/^(?:(?:a|an|the|her|his|their)\s+)?(?:[a-z-]+\s+){0,2}([a-z-]+)\.?$/i);
+      if (rm && ROLE_NOUN.test(rm[1]) && !/\d/.test(ch)) {
+        const noun = rm[1].toLowerCase();
+        if (chars.every((o) => o === c || !(o.alias === noun))) { c.alias = noun; break; }
+      }
+    }
   }
   // titled names ("JUDGE AUGUSTINE FAIRWEATHER", "COACH REEVE") are also "the judge" / "the coach" when unique
   const ROLE = /^(JUDGE|COACH|WARDEN|MAYOR|NURSE|DOCTOR|DOC|DETECTIVE|OFFICER|SERGEANT|CAPTAIN|LIEUTENANT|PROFESSOR|REVEREND|FATHER|SISTER|BROTHER|DEACON|PASTOR|CHIEF|SHERIFF|MARSHAL|GENERAL|COLONEL|MAJOR|PRIVATE|CORPORAL|INSPECTOR|CONSTABLE|AGENT|SENATOR|GOVERNOR|PRESIDENT|KING|QUEEN|PRINCE|PRINCESS|LORD|LADY|DUKE|DUCHESS|BARON|COUNT|COUNTESS|BISHOP|CARDINAL|RABBI|IMAM|MONK|ABBOT|CLERK|BAILIFF|FOREMAN|FOREWOMAN|ARCHIVIST|SCRIBE|TEACHER|HEADMASTER|PRINCIPAL|DEAN|MANAGER|BOSS|CHEF|BARTENDER|WAITER|WAITRESS|DRIVER|PILOT|SKIPPER|STRANGER|GIRL|BOY|WOMAN|MAN)$/;
@@ -275,6 +299,8 @@ export function buildCast(scene) {
         if (!lowerScript && m[0][0] !== m[0][0].toUpperCase()) continue;
         mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: /['’]s$/i.test(m[0]),
           lead: m.index <= 1 || LEAD_TITLE.test(text.slice(0, m.index)) || DASH.test(text.slice(0, m.index)) || INVERTED.test(text.slice(0, m.index)) ||
+            (/^[A-Z][^,:;.]{0,45}[,:]\s*$/.test(text.slice(0, m.index)) && !/\b(he|she|they|i|we)\b/i.test(text.slice(0, m.index)) && !chars.some((o, oi) => oi !== k && resNG[oi] && resNG[oi].test(text.slice(0, m.index)))) ||
+            /\b(?:called|named|known as)\s+$/i.test(text.slice(0, m.index)) ||
             (!OFF_CAM && CAM_PREFIX.test(text.slice(0, m.index)) && CAM_PREFIX.exec(text.slice(0, m.index))[0].length === m.index) });
         if (c.first > u.i) c.first = u.i;
       }
@@ -306,7 +332,9 @@ export function buildCast(scene) {
     const ids = [...new Set(mentions[acts[k - 1].i].map((m) => m.c))];
     const p0 = pronouns[acts[k].i][0];
     if (acts[k].i !== acts[k - 1].i + 1) continue; // only directly consecutive action, no dialogue in between
-    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length) chars[ids[0]].g[p0.g]++;
+    // Measured: restricting this to introductions / descriptions loses ~0.5 points on both gold sets, so any action
+    // line counts ("Colter steps away. / She opens her eyes." is the exception, not the rule).
+    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w)) chars[ids[0]].g[p0.g]++;
   }
   // Descriptor nouns in the introduction sentence ("a jesuitic priest", "a teenage girl").
   for (const c of chars) {
@@ -318,10 +346,12 @@ export function buildCast(scene) {
     }
   }
   // Titles in the name itself (MRS. HALL, SIR TOBY, FATHER BROWN).
+  const GENDERED_TITLE = { MR: "m", SIR: "m", LORD: "m", FATHER: "m", BROTHER: "m", UNCLE: "m", KING: "m", PRINCE: "m", DUKE: "m", MONSIEUR: "m", SENOR: "m", HERR: "m", GRANDPA: "m", GRANDFATHER: "m", DAD: "m", PAPA: "m",
+    MRS: "f", MS: "f", MISS: "f", LADY: "f", MADAM: "f", MADAME: "f", DAME: "f", MOTHER: "f", SISTER: "f", AUNT: "f", AUNTIE: "f", QUEEN: "f", PRINCESS: "f", DUCHESS: "f", MADEMOISELLE: "f", SENORA: "f", FRAU: "f", GRANDMA: "f", GRANDMOTHER: "f", MOM: "f", MUM: "f", MAMA: "f", NUN: "f", WAITRESS: "f", ACTRESS: "f" };
   for (const c of chars) for (const n of c.names) {
     const t = n.toUpperCase().replace(/[.,]/g, "").split(/\s+/)[0];
-    const g = NAME_GENDER[t];
-    if (g && t !== keyTokens(n)[0]) c.g[g] += 3;
+    const g = GENDERED_TITLE[t];
+    if (g) c.g[g] += 3;
   }
   // Decide: this scene's evidence + evidence from the rest of the script (scene.priorGender, filled by the service),
   // and only if there is none at all, the first-name list.
