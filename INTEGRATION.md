@@ -145,8 +145,9 @@ other; no system can be meaningfully scored above it.
 | Beat summary, overlap with Opus summary (ROUGE-1) | 0.26 (first-line baseline 0.16) | – | 0.39 (best single line) |
 
 Speed (headless Chromium, 4× CPU throttle, `node tools/analyzers/perf_browser.mjs 4`): per worker task p50 ~7 ms,
-p95 ~16 ms; whole edited scene p50 ~22 ms, all off the main thread (typing never waits). A cold ~135-page script takes
-~2 s in total, with the Timeline (beats + tension) at ~0.9 s; reopening is instant from cache.
+p95 ~18 ms; whole edited scene p50 ~26 ms, p95 ~53 ms, all off the main thread (typing never waits). A cold ~135-page
+script takes ~2.1 s in total, with the Timeline (beats + tension) at ~1.1 s; reopening is instant from cache. The who
+rules are memoised per line (v4 and earlier could go exponential on very long scenes).
 
 ## 7. Updates, tests, tools
 
