@@ -100,10 +100,17 @@ const OFF_ROLE = (globalThis.process?.env?.WHO_OFF || "").includes("role");
 const OFF_NOTPERSON = (globalThis.process?.env?.WHO_OFF || "").includes("notperson");
 const GENDERED_TITLE = { MR: "m", SIR: "m", LORD: "m", FATHER: "m", BROTHER: "m", UNCLE: "m", KING: "m", PRINCE: "m", DUKE: "m", MONSIEUR: "m", SENOR: "m", HERR: "m", GRANDPA: "m", GRANDFATHER: "m", DAD: "m", PAPA: "m",
   MRS: "f", MS: "f", MISS: "f", LADY: "f", MADAM: "f", MADAME: "f", DAME: "f", MOTHER: "f", SISTER: "f", AUNT: "f", AUNTIE: "f", QUEEN: "f", PRINCESS: "f", DUCHESS: "f", MADEMOISELLE: "f", SENORA: "f", FRAU: "f", GRANDMA: "f", GRANDMOTHER: "f", MOM: "f", MUM: "f", MAMA: "f", NUN: "f", WAITRESS: "f", ACTRESS: "f" };
+// "catches her wrist" / "grabs his arm": the body part is someone else's
+const CONTACT_V = /\b(?:grabs?|grips?|takes?|touch(?:es)?|holds?|catch(?:es)?|kiss(?:es)?|slaps?|strokes?|squeez(?:es)?|pulls?|shakes?|brushes|pats?|lifts?|cups?|seiz(?:es)?|clutch(?:es)?|wipes?|pins?|releases?|steadies|guides?|drags?|yanks?|tugs?|checks?|feels?|presses|taps?|punches|kicks?|bites?|licks?|strikes?|hits?|covers?|shields?|binds?|ties|bandages?|cleans?|washes|dries|kisses|caresses|cradles?|lowers?|raises?|examines?|inspects?|studies|reads?|watch(?:es)?|follows?|ignores?|eyes|searches|frisks?|dresses|undresses|wraps?)\s+(?:[a-z]+\s+)?$/i;
+const RELATION = /^(?:apprentice|assistant|wife|husband|partner|boyfriend|girlfriend|fiancé|fiancée|fiance|brother|sister|son|daughter|mother|father|boss|client|lawyer|attorney|nurse|doctor|driver|bodyguard|secretary|aide|deputy|second|protégé|protege|student|teacher|mentor|coach|agent|manager|publicist|roommate|neighbou?r|friend|colleague|rival|ex|ex-wife|ex-husband|grandmother|grandfather|aunt|uncle|cousin|niece|nephew|guest|date|companion|counterpart|opposite number|older brother|younger brother|older sister|younger sister|little brother|little sister|big brother|big sister|best friend|old friend|new partner|new assistant|new boss|dealer|handler|contact|source|informant|patient|passenger|fare|charge|ward|shadow|understudy|successor|predecessor|co-pilot|copilot|first mate|navigator|gunner|translator|interpreter|guide|escort|chaperone|tutor|pupil|master|servant|maid|valet|butler|cook|gardener|chauffeur|nanny|governess|employer|employee|intern|trainee|recruit|sergeant|lieutenant|captain|commander|superior|subordinate|opponent|challenger|teammate|co-star|costar|producer|director|editor|publisher|accountant|banker|broker|landlord|landlady|tenant|lodger|host|hostess|accomplice|lookout|getaway driver|wheelman|fence|lawyer)\b/i;
+const GDEBUG = !!globalThis.process?.env?.GDEBUG;
+const OFF_ALIASADJ = (globalThis.process?.env?.WHO_OFF || "").includes("aliasadj");
+const OFF_FWDNOUN = (globalThis.process?.env?.WHO_OFF || "").includes("fwdnoun");
 const OFF_PRINT = (globalThis.process?.env?.WHO_OFF || "").includes("print");
 const OFF_FWDG = (globalThis.process?.env?.WHO_OFF || "").includes("fwdg");
 const OFF_GTIER = (globalThis.process?.env?.WHO_OFF || "").includes("gtier"); // gender evidence tiers + consistency pass
 const GT = (k) => OFF_GTIER || (globalThis.process?.env?.WHO_OFF || "").includes("gt_" + k) ||
+  (k === "contact" && !(globalThis.process?.env?.WHO_ON || "").includes("gt_contact")) || // contact verbs: neutral gold, -0.1 dev, opt-in
   (k === "tier" && !(globalThis.process?.env?.WHO_ON || "").includes("gt_tier")) || // tiered weighting: measured -0.7 on both golds, opt-in
   (k === "cons" && !(globalThis.process?.env?.WHO_ON || "").includes("gt_cons")); // consistency pass: +0.1 gold, -0.2 dev, opt-in
 const LEAD_TITLE = /^(?:(?:then|now|and|but|meanwhile|suddenly|finally|cousin|aunt|auntie|uncle|grandma|grandpa|granny|nana|old|young|little|big|baby|father|mother|brother|sister|mr|mrs|ms|miss|dr|doctor|officer|detective|det|captain|capt|sergeant|sgt|private|pvt|corporal|cpl|lieutenant|lt|agent|nurse|judge|lady|lord|sir|madam|professor|prof|chef|coach|pastor|reverend|rev|saint|st|king|queen|prince|princess)\.?,?\s+){1,2}$/i;
@@ -215,11 +222,28 @@ export function buildCast(scene) {
         if (w.kind === "action" && capsNames(w.text, cueNames).length) break;
         if (w.kind !== "dialogue") continue;
         const sp = chars.find((c) => c.names.some((n) => sameChar(n, w.name)));
-        if (sp && !sp.group && sp.first === j && !sp.alias && sp.intro < 0 && fits(sp)) { sp.fwd = u.i; sp.alias = pm[1].toLowerCase(); sp.first = u.i; }
+        if (GDEBUG) console.error(`FWD? ${u.text.slice(0, 50)} -> ${w.name}: sp=${!!sp} first=${sp && sp.first}/${j} alias=${sp && sp.alias} intro=${sp && sp.intro} fits=${sp && fits(sp)}`);
+        if (sp && !fits(sp)) continue; // "A woman stands in the doorway. / HOLLIS: ..." -> keep looking for the woman
+        if (sp && !sp.group && sp.first === j && !sp.alias && sp.intro < 0) { sp.fwd = u.i; sp.alias = pm[1].toLowerCase(); sp.first = u.i; }
         break;
       }
     }
   });
+  if (!OFF_FWDNOUN) for (const c of chars) {
+    if (c.intro >= 0 || c.fwd !== undefined || c.group || !c.spoke) continue;
+    const toks = c.names[0].toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => !/^(THE|A|AN)$/.test(x));
+    if (!toks.length || toks.length > 2 || !toks.every((x) => !NAME_GENDER[x]) || !/^(?:MAN|WOMAN|GIRL|BOY|KID|LADY|STRANGER|FIGURE|GUY|TEEN|TEENAGER|DRIVER|NURSE|OFFICER|GUARD|WAITER|WAITRESS|DOCTOR|PRIEST|SOLDIER|CLERK|COP|CALLER|OPERATOR|PATIENT|CUSTOMER|PASSENGER|VISITOR|NEWCOMER|TEENAGE BOY|TEENAGE GIRL|OLD MAN|OLD WOMAN|YOUNG MAN|YOUNG WOMAN|TALL MAN|SHORT MAN|LITTLE GIRL|LITTLE BOY)$/.test(toks.join(" "))) continue;
+    const noun = toks.join(" ").toLowerCase();
+    const re = new RegExp(`\\b(?:a|an)\\s+(?:[a-z-]+\\s+){0,3}?${escapeRe(noun)}\\b`, "i");
+    const firstCue = units.findIndex((u) => u.kind === "dialogue" && c.names.some((n) => sameChar(n, u.name)));
+    for (let j = Math.max(0, firstCue - 12); j < firstCue; j++) {
+      const u = units[j];
+      if (u.kind !== "action" || !re.test(u.text) || capsNames(u.text, cueNames).length || chars.some((o) => o.fwd === j)) continue;
+      if (/^(?:he|she|they)\b/i.test(u.text)) continue;
+      c.fwd = j; c.alias = c.alias || noun; if (c.first > j) c.first = j;
+      break;
+    }
+  }
   for (const c of chars) if (/^(ALL|EVERYONE|EVERYBODY|BOTH|TOGETHER|CROWD|CHORUS|VOICES)$/.test(c.name.toUpperCase())) { c.group = true; c.pseudo = true; }
   // Prefer the longest/full name as display name.
   // Display name: the app's tag, else the longest real name (a later-revealed name beats the description).
@@ -296,7 +320,7 @@ export function buildCast(scene) {
     if (!c.common && !c.alias && !c.tagName && t.length === 1 && TITLES.has(t[0])) c.common = true;
   }
   const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe((keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0] || c.name.toUpperCase().replace(/^(THE|A|AN)\s+/, "").split(/\s+/)[0]).toLowerCase())}\\b`, "gi")
-    : c.alias ? new RegExp(`\\b(?:the|this|that)\\s+${escapeRe(c.alias).replace(/ /g, "\\s+")}\\b`, "gi") : null));
+    : c.alias ? new RegExp(`\\b(?:the|this|that)\\s+${OFF_ALIASADJ ? "" : "(?!(?:other|another|second|first|new|next|different|same|two|three|four)\\b)(?:[a-z-]+\\s+){0,2}"}${escapeRe(c.alias).replace(/ /g, "\\s+")}\\b`, "gi") : null));
   const actsAll = units.filter((x) => x.kind === "action" && /^[A-Za-z]/.test(x.text));
   const lowerScript = !(globalThis.process?.env?.WHO_OFF || "").includes("lower") && actsAll.length >= 4 && actsAll.filter((x) => /^[a-z]/.test(x.text)).length > actsAll.length / 2;
   const mentions = units.map(() => []);
@@ -335,13 +359,16 @@ export function buildCast(scene) {
       if (p.at <= mentions[u.i][0].at || p.g === "p") continue;
       // "Colter's hand stops on her scalp." -> "her" is the other person, not Colter
       if (!GT("poss") && mentions[u.i][0].poss && /^(his|her)$/.test(p.w)) continue;
+      if (!GT("rel") && /^(his|her)$/.test(p.w) && /,\s*$/.test(u.text.slice(0, p.at)) && RELATION.test(u.text.slice(p.at + p.w.length).trimStart())) continue;
+      if (!GT("contact") && p.w === "his" && CONTACT_V.test(u.text.slice(0, p.at))) continue;
       const after = u.text.slice(p.at + p.w.length).trimStart(), before = u.text.slice(0, p.at);
       const refBack = /^(himself|herself)$/.test(p.w) || p.w === "his" && /^[a-z]/.test(after) ||
-        p.w === "her" && /^[a-z]/.test(after) && !/^(a|an|the|to|and|or|but|that|this|back|away|up|down|out|off|in|on|at|for|with|from|into|again|now|then|so|as|if|is|was)\b/.test(after) ||
+        p.w === "her" && /^[a-z]/.test(after) && !/^(a|an|the|to|and|or|but|that|this|back|away|up|down|out|off|in|on|at|for|with|from|into|again|now|then|so|as|if|is|was)\b/.test(after) &&
+          !(!GT("contact") && CONTACT_V.test(before)) ||
         /^(he|she)$/.test(p.w) && /(,|;|\band|\bthen|\bbut|\bas|\bwhile|\bbefore|\bafter|\buntil|\bwhen)\s*$/i.test(before) ||
         // "TAVI, 20s, tool belt too big for him, follows" -> an object pronoun inside the introduction's descriptors
         (!GT("him") && chars[ids[0]].intro === u.i && /^(him|her)$/.test(p.w) && /\b(?:for|on|to|around|behind|beside|under|over|at|about|against)\s+$/i.test(before) && /^[,.)]/.test(after));
-      if (refBack) chars[ids[0]].g[p.g]++;
+      if (refBack) { chars[ids[0]].g[p.g]++; if (GDEBUG) console.error(`G ${chars[ids[0]].name} +${p.g} refBack(${p.w}): ${u.text.slice(0, 90)}`); }
     }
   }
   // Pronoun opening the sentence right after one that names exactly one character ("This is UATAKI. She is ...").
@@ -351,15 +378,42 @@ export function buildCast(scene) {
     if (acts[k].i !== acts[k - 1].i + 1) continue; // only directly consecutive action, no dialogue in between
     // Measured: restricting this to introductions / descriptions loses ~0.5 points on both gold sets, so any action
     // line counts ("Colter steps away. / She opens her eyes." is the exception, not the rule).
-    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w)) (GT("tier") ? chars[ids[0]].g : chars[ids[0]].gs)[p0.g]++;
+    const pt = acts[k - 1].text;
+    const objBefore = p0 && !GT("seqobj") && (p0.g === "m" ? /\b(?:him|himself)\b/i.test(pt) : /\b(?:herself)\b|\bher(?=[.,;!?]|\s+(?:to|at|by|and|but|away|back|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight|a|an|the)\b)/i.test(pt) || (CONTACT_V.test(pt.slice(0, pt.search(/\bher\b/) < 0 ? 0 : pt.search(/\bher\b/))) && /\bher\s+[a-z]/.test(pt)));
+    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w) && !objBefore) { (GT("tier") ? chars[ids[0]].g : chars[ids[0]].gs)[p0.g]++; if (GDEBUG) console.error(`G ${chars[ids[0]].name} +${p0.g} sequence: ${acts[k - 1].text.slice(0, 60)} / ${acts[k].text.slice(0, 50)}`); }
   }
   // Descriptor nouns in the introduction sentence ("a jesuitic priest", "a teenage girl").
   for (const c of chars) {
     for (const ui of [c.intro, c.fwd]) {
       if (ui === undefined || ui < 0) continue;
-      const t = units[ui].text.replace(/\b(his|her|him|he|she)\b/gi, "").replace(/\b(?:man|woman|boy|girl|lady|gentleman|king|queen|father|mother)['’]s\b/gi, "");
+      let t = units[ui].text;
+      if (!GT("win") && ui === c.intro) { // "ODILE ... watches her late husband's brother HARLAN pour" -> "husband", "brother" are Harlan's descriptors only
+        const toks = keyTokens(c.name).filter((x) => x.length > 1);
+        const m = toks.length ? new RegExp(`\\b(?:${toks.map(escapeRe).join("|")})\\b`).exec(t) : null;
+        if (m) {
+          const others = [...t.matchAll(CAPS_SEQ)].map((x) => x.index).filter((x) => x !== m.index && !(x > m.index && x < m.index + c.name.length + 2));
+          const start = Math.max(0, ...others.filter((x) => x < m.index).map((x) => x), m.index - 45);
+          const endC = Math.min(t.length, ...others.filter((x) => x > m.index), m.index + 120);
+          t = t.slice(start, endC);
+        }
+      }
+      t = t.replace(/\b(his|her|him|he|she)\b/gi, "").replace(/\b(?:man|woman|boy|girl|lady|gentleman|king|queen|father|mother)['’]s\b/gi, "");
       c.g.f += (t.match(FEMALE) || []).length;
       c.g.m += (t.match(MALE) || []).length;
+      if (GDEBUG && ((t.match(FEMALE) || []).length || (t.match(MALE) || []).length)) console.error(`G ${c.name} descriptors ${JSON.stringify([...(t.match(FEMALE) || []), ...(t.match(MALE) || [])])}: ${t.slice(0, 90)}`);
+    }
+  }
+  // Titles used about a character anywhere ("Mr. Lavalle?", "Ma'am" is too vague): strong evidence
+  if (!GT("vtitle")) {
+    const TV = { MR: "m", MISTER: "m", SIR: "m", LORD: "m", MASTER: "m", MONSIEUR: "m", HERR: "m", SENOR: "m", SEÑOR: "m", MRS: "f", MS: "f", MISS: "f", MADAM: "f", MADAME: "f", LADY: "f", MISTRESS: "f", MADEMOISELLE: "f", FRAU: "f", SENORA: "f", SEÑORA: "f" };
+    for (const u of units) {
+      if (u.kind !== "dialogue" && u.kind !== "action") continue;
+      for (const m of u.text.matchAll(/\b(Mr|Mister|Mrs|Ms|Miss|Sir|Madam|Madame|Lord|Lady|Master|Mistress|Monsieur|Mademoiselle|Herr|Frau|Senor|Señor|Senora|Señora)\.?\s+([A-Z][A-Za-z'’-]+)/g)) {
+        const g = TV[m[1].toUpperCase()], tok = m[2].toUpperCase();
+        if (!g) continue;
+        const cs = chars.filter((c) => !c.group && c.names.some((n) => keyTokens(n).includes(tok)));
+        if (cs.length === 1) cs[0].g[g] += 2;
+      }
     }
   }
   // Titles in the name itself (MRS. HALL, SIR TOBY, FATHER BROWN).

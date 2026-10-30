@@ -20,7 +20,7 @@ LEAD = re.compile(r"(?:^|[.!?]\s+)(?:(?:[A-Z][A-Za-z'â€™.-]+(?:\s+[A-Z][A-Za-z'â
 # capitalised words that are not names (the subject is then a common noun phrase, "The chairs scrape")
 NOT_LEAD = set("The A An His Her Their Its My Your Our Some Two Three Four Five Six Several Every Each This That These Those No Another One Then Now But And Or In On At By For From With Without Behind Beyond Beside Across Through Under Over Outside Inside Somewhere Nobody Someone Everyone Nothing Something Everything Suddenly Slowly Finally Meanwhile Still Yet So As When While After Before Until If Only Even Just Not Later Here There Where What Who How Why".split())
 PLURAL_LEAD = re.compile(r"(?:^|[.!?]\s+)(?:They|Both|Several|[A-Z][a-z]+ and [A-Z][a-z]+)\s+([a-z]+)\b")
-DET = re.compile(r"\b(?:the|a|an|his|her|their|its|my|your|our|some|two|three|four|five|every|each|this|that|these|those|no|another|one)\s+([a-z]+)\b")
+DET = re.compile(r"\b(?:the|a|an|his|her|their|its|my|your|our|two|three|four|five|these|those|this|that)\s+([a-z]+)\b")
 ADV = re.compile(r"ly$")
 
 
