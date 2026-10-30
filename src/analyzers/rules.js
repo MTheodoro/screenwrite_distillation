@@ -278,6 +278,7 @@ function initialPronoun(ctx, i) {
   const p = ctx.cast.pronouns[i][0];
   if (!p) return null;
   const before = ctx.units[i].text.slice(0, p.at);
+  if (/^(?:we see|we hear|we watch|we follow|we find|close on|closer on|angle on|on camera:?)\s+(?:that\s+)?$/i.test(before) && /^(he|she|they)$/.test(p.w)) return p.g;
   // "For the first time, she smiles." / "One by one, they listen." / "Perhaps she does."
   if (p.at <= 1 || LEAD.test(before) || (/^[^.;:!?"“]{0,60},\s*$/.test(before) && !ctx.cast.mentions[i].some((m) => m.at < p.at && !m.poss)) ||
       (!OFF.has("opener") && /^(he|she|they)$/.test(p.w) && /^(?:for|after|in|at|by|with|without|through|over|under|behind|beyond|beside|across|on|from|then|now|and|but)\s+(?:[a-z'-]+\s+){0,4}$/i.test(before) &&
@@ -292,7 +293,7 @@ const COUNT_GROUP = /^(?:(?:two|three|four|five|six|seven|eight|nine|ten|several
 // No finite verb: "Mid-age, deep benevolent eyes, severe face."
 const AUX = /\b(is|are|was|were|be|been|being|has|have|had|do|does|did|can|could|will|would|shall|should|may|might|must|\w+ed|\w+ing)\b/i;
 // Appearance description fragment about the last-introduced character ("Mid-age, deep benevolent eyes, severe face.").
-const LOOKS = /\b(eyes|face|hair|beard|skin|smile|voice|build|frame|hands|features|jaw|brow|gaze|robe|suit|coat|dress|uniform|habit|boots|scar|tattoo|glasses|mid-age|middle-aged|\d0s|years old|tall|short|thin|stocky|gaunt|handsome|beautiful|pretty|weathered)\b/i;
+const LOOKS = /\b(eyes|face|hair|beard|skin|smile|voice|build|frame|hands|features|jaw|brow|gaze|robe|suit|coat|dress|uniform|habit|boots|scar|tattoo|glasses|mid-age|middle-aged|\d0s|years old|tall|short|thin|stocky|gaunt|handsome|beautiful|pretty|weathered|mouth|lips|chin|cheeks|nose|neck|throat|shoulders|arms|legs|knees|feet|chest|teeth|tongue|eyebrows|forehead|mid-twenties|mid-thirties|mid-forties|mid-fifties|mid-sixties|twenties|thirties|forties|fifties|sixties|seventies|eighties|teens|teenage|elderly|ancient|wiry|lean|heavy|heavyset|broad|slight|bald|balding|grey-haired|gray-haired|freckled|tanned|sunburnt|scarred|bearded|clean-shaven|unshaven|dishevelled|disheveled|immaculate|rumpled|soaked|drenched|barefoot|shirtless|hatless|hooded)\b/i;
 function verbless(t) { return !AUX.test(t) && LOOKS.test(t) && !/^(the|a|an|it|its)\b/i.test(t) ? 1 : 0; }
 
 // Sentence with no grammatical subject at the start: "Opens a folder." "Flips." "Slowly." "Warm face."
@@ -301,8 +302,7 @@ const DET = /^(a|an|the|this|that|these|those|his|her|their|its|my|our|your|some
 const MANNER = new Set(("quick quicker slow slower fast faster hard harder soft softer gentle careful almost again twice once thrice barely " +
   "closer nearer lower louder quieter quiet still steady sharp sharper tight tighter deep deeper long longer short shorter wide " +
   "wider high higher low flat calm cold colder warm warmer pale white red tense rigid frozen motionless breathless silent stiff " +
-  "numb blank alert awake asleep upright prone limp loose taut late early first last alone together nothing more less enough " +
-  "no yes not never always").split(" "));
+  "numb blank alert awake asleep upright prone limp loose taut late early first last alone together not never always").split(" "));
 export function subjectless(ctx, i) {
   const u = ctx.units[i];
   if (u.kind !== "action") return 0;
@@ -330,10 +330,10 @@ export function subjectless(ctx, i) {
       words(t) <= 8 && !AUX.test(t) && !/\b[a-z]+s\b/.test(t.split(/\s+/).slice(1).join(" ").replace(/\b(eyes|hands|boots|glasses|clothes|jeans|pants|shoes|sleeves|lips|cheeks|knees|arms|legs|feet|fingers|nails|lashes|braids|curls|freckles|wrinkles)\b/g, "")) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
   if (cont && words(t) <= 6) {
     if (/^(?:then,?\s+)?(?:at|to|toward|towards|into|back to|over|down at|up at|across)\b/i.test(t) && !AUX.test(t)) return 1;   // "At the butler."
-    if (/^(?:then,?\s+)?(?:doesn't|don't|can't|won't|isn't|hasn't|didn't|never|barely|almost|not)\b/i.test(t)) return 1;          // "Doesn't say anything."
+    if (/^(?:then,?\s+)?(?:doesn't|don't|can't|won't|isn't|hasn't|didn't|never|barely|almost|not|does not|do not|did not|cannot|will not|has not|is not|could not|would not|couldn't|wouldn't|haven't|still)\b/i.test(t)) return 1;          // "Doesn't say anything."
     if (/^then\b/i.test(t) && !/^then\s+(the|a|an|it|there|silence|nothing)\b/i.test(t)) return 1;                                  // "Then stops." / "Then another."
     // short description of the character just shown: "Violent." "Red-rimmed." "Grey hood." "Phone in hand."
-    const w = t.replace(/[.!?…]+$/, "").split(/\s+/);
+    const w = t.replace(/[.!?…]+$/, "").replace(/^(?:Not|Still|Very|Too|So|Almost|Suddenly|Quite|Rather)\s+/i, "").replace(/\s+(?:either|too|now|again|anymore)$/i, "").split(/\s+/);
     const adj = w.length <= 2 && w.every((x) => /^(?:[A-Z]?[a-z]+-)?[A-Za-z]+(?:ed|en|ful|less|ous|ive|y|al|ic|ish|er|ly|ing|ant|ent|ble)$/.test(x) || MANNER.has(x.toLowerCase())) && !SETTING_NOUN.test(t);
     const looks = w.length <= 5 && (LOOKS.test(t) || /\bin (hand|his hand|her hand|hands)\b/i.test(t)) && !SETTING_NOUN.test(t.replace(LOOKS, ""));
     if ((adj || looks) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
@@ -487,14 +487,15 @@ export function strongActors(ctx, i) {
 
 // Body parts act for their owner ("Maya's hands shake", "His jaw tightens"); other possessed things don't
 // ("Hattie's board blinks", "His chair scrapes" -> nobody).
-const BODY = /^(eyes?|face|hands?|fingers?|fingertips|knuckles|fists?|voice|breath|breathing|jaw|lips?|mouth|head|shoulders?|heart|knees?|legs?|feet|foot|arms?|gaze|smile|grin|hair|brow|forehead|chest|stomach|throat|body|back|expression|look|grip|pulse|tears|cheeks?|nose|neck|skin|teeth|tongue|wrists?|palms?|thumbs?|whole|own|eyelids|lashes|nostrils|posture|frame|silhouette|footsteps|steps|hand-|attention)\b/i;
+const ADJ_PRE = /^(?:(?:[a-z]+(?:ed|en|y|ful|less|ous|ive|al|ic|ish|ing)|own|left|right|good|bad|big|small|tiny|long|short|thin|thick|wide|narrow|whole|entire|half|bare|dark|pale|wet|dry|cold|warm|hot|red|white|black|grey|gray|blue|green|brown|blonde?|silver|gold|old|new|free|other|first|second|last)\s+){0,2}/i;
+const BODY = /^(eyes?|face|hands?|fingers?|fingertips|knuckles|fists?|voice|breath|breathing|jaw|lips?|mouth|head|shoulders?|heart|knees?|legs?|feet|foot|arms?|gaze|smile|grin|hair|brow|forehead|chest|stomach|throat|body|back|expression|look|grip|pulse|tears|cheeks?|nose|neck|skin|teeth|tongue|wrists?|palms?|thumbs?|whole|own|eyelids|lashes|nostrils|posture|frame|silhouette|footsteps|steps|hand-|attention|boots?|shoes?|sneakers?|heels?|socks?|shirt|blouse|coat|jacket|parka|hoodie|sweater|cardigan|dress|skirt|jeans|trousers|pants|suit|tie|scarf|gloves?|hat|cap|helmet|badge|glasses|sunglasses|watch|ring|necklace|earrings?|uniform|apron|scrubs|robe|cloak|cape|collar|sleeves?|cuffs?|lapels?|pockets?|belt|holster|backpack|purse|shadow|reflection|silhouette|outline|sweat|blood|bruise|wound|laugh|laughter|cough|sigh|gasp|stare|glare|frown|grimace|smirk|nod|shrug|wave|stride|gait|posture|stance|eyebrows?|eyelids|lashes|nostrils|lips?|mouth|chin|cheeks?|nose|neck|throat|chest|shoulders?|arms?|elbows?|wrists?|palms?|thumbs?|knuckles|knees?|legs?|ankles?|feet|foot|toes?|heel|hips?|waist|spine|back|skin|hair|beard|moustache|mustache|brow|forehead|temples?|jaw|teeth|tongue|voice)\b/i;
 // "MARISOL's husband, DESMOND, ..." -> DESMOND; "Maya's hands shake" -> Maya; "Maya's phone buzzes" -> nobody.
 function leadPossessive(ctx, i) {
   const ms = ctx.cast.mentions[i], t = ctx.units[i].text;
   if (!ms[0].poss) return null;
   const nxt = ms.find((m) => m.at > ms[0].at && m.c !== ms[0].c);
   if (nxt && /^[\w\s.-]{0,30},\s*$/.test(t.slice(ms[0].at, nxt.at).replace(/^\S+['’]s\s+/, ""))) return [nxt.c];
-  const after = t.slice(ms[0].at).replace(/^\S+['’]s\s+/, "");
+  const after = t.slice(ms[0].at).replace(/^\S+['’]s\s+/, "").replace(ADJ_PRE, "");
   // "Maya's hands shake" -> Maya; "Maya's phone rings" -> an event, nobody acts (unless she then does: "Maya's phone rings and she grabs it")
   if (OFF.has("poss") || BODY.test(after) || /\b(she|he|they)\b/i.test(after)) return [ms[0].c];
   return [];
@@ -503,9 +504,9 @@ function leadPossessive(ctx, i) {
 // pronoun path); returns [] only for the object case.
 function pronounObject(ctx, i) {
   const t = ctx.units[i].text;
-  const m = t.match(/^(?:(?:yet|but|and|then|now|still|so|suddenly|slowly|finally),?\s+)?(his|her|their)\s+(\S+)(?:\s+(\S+))?/i);
+  const m = t.match(/^(?:(?:yet|but|and|then|now|still|so|suddenly|slowly|finally),?\s+)?(his|her|their)\s+(.*)$/i);
   if (!m) return null;
-  if (BODY.test(m[2]) || BODY.test(m[3] || "") || /^(?:own|late|former)$/i.test(m[2]) && BODY.test(m[3] || "")) return null;
+  if (BODY.test(m[2].replace(ADJ_PRE, ""))) return null;
   if (/\b(she|he|they)\b/i.test(t.slice(m[0].length))) return null; // "Her phone buzzes and she grabs it"
   return [];
 }
@@ -559,6 +560,23 @@ function offscreen(ctx, c) {
       (!inAction && cues.length > 0 && cues.every((u) => (u.ext || []).some((e) => /^(V\.?O|O\.?S|O\.?C|PHONE|RADIO|FILTERED|ON PHONE|INTERCOM)/i.test(e)))));
   }
   return ctx._off.get(c);
+}
+// Everyone / they minus the people the line is about ("Everyone ignores him", "They follow Dr. Fontaine").
+function excludeMentioned(ctx, i, ids) {
+  const t = ctx.units[i].text;
+  const named = new Set(ctx.cast.mentions[i].map((m) => m.c));
+  const objG = /\bhim\b/i.test(t) ? "m" : /\b(?:at|to|for|with|toward|towards|past|behind|around|after|from|beside|above|over|under|ignores?|watch(?:es)?|follows?|stares? at|looks? at)\s+her\b/i.test(t) ? "f" : null;
+  let objRef = -1;
+  if (objG) { // the most recent character of that gender who spoke or acted just before
+    for (let j = i - 1; j >= 0 && objRef < 0 && j > i - 4; j--) {
+      const u = ctx.units[j];
+      const cs = u.kind === "dialogue" ? [ctx.speaker[j]] : ctx._why?.has(j) ? ruleActors(ctx, j) : ctx.cast.mentions[j].map((m) => m.c);
+      const hit = cs.find((c) => c >= 0 && ctx.cast.chars[c].gender === objG);
+      if (hit !== undefined) objRef = hit;
+    }
+  }
+  const out = ids.filter((c) => !named.has(c) && c !== objRef);
+  return out.length ? out : ids;
 }
 function everyone(ctx, i, window = 99) {
   return [...new Set(ctx.pres[i])].filter((c) => candRecency(ctx, i, c) <= window && !offscreen(ctx, c) && !ctx.cast.chars[c].group);
@@ -624,6 +642,7 @@ function namePair(ctx, i) {
 // Rule verdict: array of char ids (empty = NONE). ctx._why[i] records which rule decided (see WHY_RELIABLE).
 // Ablation switches for rule development (Node only): WHO_OFF="poss,nobody,opener,itc,..." disables rule paths.
 const OFF = new Set((globalThis.process?.env?.WHO_OFF || "").split(",").filter(Boolean));
+const ON = new Set((globalThis.process?.env?.WHO_ON || "").split(",").filter(Boolean)); // experimental paths
 export function ruleActors(ctx, i) {
   ctx._why ??= new Map();
   const W = (why, ids) => { ctx._why.set(i, why); return ids; };
@@ -646,14 +665,18 @@ export function ruleActors(ctx, i) {
     if (nar < 0) for (let j = i - 1; j >= 0 && nar < 0; j--) if (ctx.units[j].kind === "dialogue" && ctx.speaker[j] >= 0) nar = ctx.speaker[j];
     if (nar >= 0) return W("firstPerson", [nar]);
   }
-  if (NOBODY.test(u.text)) { const all = OFF.has("nobody") ? [] : everyone(ctx, i); return W("nobody", all); } // "Nobody speaks." is everyone not speaking
-  const po = OFF.has("pobj") ? null : pronounObject(ctx, i);
-  if (po) return W("pronounObject", po);
+  if (NOBODY.test(u.text)) { // "Nobody speaks." is everyone not speaking; "Nobody touched it." / "Nobody has emptied it in years." is nobody
+    const past = /^(?:nobody|no one)\s+(?:has|had|ever|touched|came|saw|noticed|moved|answered|wanted|knew|asked|told|said|heard|thought|cared|left|took|did|was|were|would|could|will|can|seems?|seemed|remembers|remembered)\b/i.test(u.text) || /\b(?:in (?:a long time|years|months|weeks|ages)|anymore|any more|since|yet|before)\b/i.test(u.text);
+    const all = OFF.has("nobody") || past ? [] : excludeMentioned(ctx, i, everyone(ctx, i));
+    return W("nobody", all);
+  }
   if (SCREEN_TEXT.test(u.text)) return W("screenText", []);
   const pa = pronounAppositive(ctx, i) || introAppositive(ctx, i);
   if (pa) return W("appositive", pa);
-  if (EVERYONE.test(u.text)) { const all = everyone(ctx, i); if (all.length) return W("everyone", all); }
-  if (false && COUNT_GROUP.test(u.text)) {
+  const po = OFF.has("pobj") ? null : pronounObject(ctx, i);
+  if (po) return W("pronounObject", po);
+  if (EVERYONE.test(u.text)) { const all = excludeMentioned(ctx, i, everyone(ctx, i)); if (all.length) return W("everyone", all); }
+  if (ON.has("count") && COUNT_GROUP.test(u.text)) {
     const g = ctx.cast.chars.filter((c) => c.group && ctx.pres[i].includes(c.id));
     if (g.length) return W("countGroup", [g[0].id]);
     let all = everyone(ctx, i);
@@ -703,10 +726,19 @@ export function ruleActors(ctx, i) {
   }
   const stripped = u.text.replace(/^(?:(?:yet|but|and|then|now|still|so|suddenly|slowly|finally|again|for a (?:moment|second|beat|heartbeat)),?\s+)+/i, "");
   if (initPron === "p" || PLURAL_SUBJ.test(stripped) || /^(together|the two)\b/i.test(stripped)) {
+    // a character who goes by they/them, when they are the most recent subject and the line is not about several people
+    if (initPron === "p" && !/\b(both|each other|one another|all|together|the two)\b/i.test(u.text)) {
+      const th = salient((c) => ctx.cast.chars[c].they);
+      if (th.length && (candRecency(ctx, i, th[0]) <= 2 || salient(() => true)[0] === th[0])) return W("theyThem", [th[0]]);
+    }
     const g = salient((c) => ctx.cast.chars[c].group);
     if (g.length) return W("pluralGroup", [g[0]]);
+    if (/\b(each other|one another)\b/i.test(u.text) || /^(?:they\s+)?both\b/i.test(stripped)) {
+      const two = excludeMentioned(ctx, i, salient((c) => !offscreen(ctx, c))).slice(0, 2);
+      if (two.length === 2) return W("pluralTwo", two);
+    }
     // "Both" / "the two" / "neither" -> the two most recent; "They" / "All" -> everyone present.
-    if (!/^(both|the two|neither|together)\b/i.test(stripped)) { const all = everyone(ctx, i, 8); if (all.length > 1) return W("pluralAll", all); }
+    if (!/^(both|the two|neither|together)\b/i.test(stripped)) { const all = excludeMentioned(ctx, i, everyone(ctx, i, 8)); if (all.length > 1) return W("pluralAll", all); }
     const s2 = salient(() => true).slice(0, 2);
     if (s2.length) return W("pluralTwo", s2);
   }
@@ -749,7 +781,7 @@ export function ruleActors(ctx, i) {
 // gender (actor of an earlier action line or a speaker), falling back to the most recently named.
 const DISCOURSE = { mode: "recency", model: null, predict: null };
 function discourseSubject(ctx, i, g, cands) {
-  if (!OFF.has("voc")) {
+  if (ON.has("voc")) {
     // "DESMOND: Hey, Wally, right? / He rips off the headset." -> the one addressed by name in the previous speech
     const pj = i - 1;
     if (pj >= 0 && ctx.units[pj].kind === "dialogue") {

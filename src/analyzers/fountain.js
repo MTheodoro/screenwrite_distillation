@@ -5,7 +5,7 @@ const HEADING_RE = /^(?:\.(?!\.)|(?:INT|EXT|EST|INT\.?\/EXT|I\/E)[.\s])/i;
 const TRANSITION_RE = /^(?:>(?!.*<\s*$)|[A-Z0-9 '’.\-]+TO:$|FADE (?:IN|OUT)[.:]?$|CUT TO BLACK[.:]?$)/;
 const CUE_RE = /^@?[^a-z]*[A-Z][^a-z]*$/;
 const EXT_RE = /\(([^)]*)\)/g;
-const ABBREV = /\b(?:Mr|Mrs|Ms|Dr|St|Det|Lt|Sgt|Capt|Col|Gen|Jr|Sr|Prof|Rev|Mt|vs|etc|No|Sr|Ave|Officer|Insp)\.$/i;
+const ABBREV = /\b(?:Mr|Mrs|Ms|Dr|St|Det|Lt|Sgt|Capt|Col|Gen|Jr|Sr|Prof|Rev|Mt|vs|etc|No|Sr|Ave|Officer|Insp|Pvt|Cpl|Pfc|Maj|Adm|Cmdr|Supt|Fr|Hon|Gov|Sen|Rep|Pres|Brig|Cdr|Sr|Mme|Mlle|Messrs)\.$/i;
 
 export function stripMarkup(text) {
   return text
@@ -14,12 +14,17 @@ export function stripMarkup(text) {
     .replace(/\[\[[\s\S]*?\]\]/g, "");
 }
 
+const SPLIT_LOWER = (globalThis.process?.env?.PARSE_ON || "").includes("lower");
 export function splitSentences(para) {
   const s = para.replace(/\s+/g, " ").trim();
   if (!s) return [];
   const out = [];
   let start = 0;
-  const re = /([.!?…]+["'’”)]*)\s+(?=["'“(]?[A-Z0-9])/g;
+  // Lowercase-styled paragraphs ("she stops. looks at the door.") could split on lowercase sentence starts too, but
+  // the labeled data was built on unsplit units, so this stays opt-in (SPLIT_LOWER) until it can be measured.
+  const letters = SPLIT_LOWER ? s.match(/(?:^|[.!?]\s+)([A-Za-z])/g) || [] : [];
+  const lower = letters.length >= 3 && letters.filter((x) => /[a-z]$/.test(x)).length > letters.length / 2;
+  const re = lower ? /([.!?…]+["'’”)]*)\s+(?=["'“(]?[A-Za-z0-9])/g : /([.!?…]+["'’”)]*)\s+(?=["'“(]?[A-Z0-9])/g;
   let m;
   while ((m = re.exec(s))) {
     const end = m.index + m[1].length;

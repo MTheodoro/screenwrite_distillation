@@ -89,6 +89,9 @@ export function capsNames(text, cueNames) {
 
 // Words that can stand before a name that still leads the sentence ("Cousin LEANDRO carries", "Old TOMASZ").
 const CAM_PREFIX = /^(?:we see|we hear|we watch|we follow|we find|we're on|we are on|close on|closer on|angle on|insert[:\s-]+|reveal:?|cut to:?|back to:?|on)\s+(?:that\s+)?/i;
+// "Perched on the shelf above the fryer sits SAM" / "In it sit PAT, ..." / "Behind them comes SASHA" -> the name leads
+const INVERTED = /^(?:[A-Z][\w'’-]*(?:\s+[\w'’,-]+){0,9}?)\s+(?:sits?|stands?|leans?|waits?|sleeps?|lies|crouch(?:es)?|kneels?|hovers?|lurks?|comes?|enters?|appears?|steps?|walks?|hangs?|perch(?:es)?|rests?|lounges?|slumps?|squats?|sprawls?|stalks?|strides?|shuffles?|emerges?|stumbles?)\s+(?:a |an |the )?$/;
+const DASH = /^[-–—*•]+\s*$/;
 const LEAD_TITLE = /^(?:(?:then|now|and|but|meanwhile|suddenly|finally|cousin|aunt|auntie|uncle|grandma|grandpa|granny|nana|old|young|little|big|baby|father|mother|brother|sister|mr|mrs|ms|miss|dr|doctor|officer|detective|det|captain|capt|sergeant|sgt|private|pvt|corporal|cpl|lieutenant|lt|agent|nurse|judge|lady|lord|sir|madam|professor|prof|chef|coach|pastor|reverend|rev|saint|st|king|queen|prince|princess)\.?,?\s+){1,2}$/i;
 
 // Build cast + per-unit annotations. Mutates nothing; returns { chars, mentions, pronouns, firstSeen }.
@@ -165,6 +168,18 @@ export function buildCast(scene) {
   }
   for (let k = chars.length - 1; k >= 0; k--) if (!chars[k]) chars.splice(k, 1);
   chars.forEach((c, k) => { c.id = k; });
+  // "SAGE, 20s, they/them, buzz cut" -> a character who goes by they; "Two TEENAGERS in school jackets" -> a group.
+  for (const c of chars) {
+    const at = c.intro >= 0 ? c.intro : c.first;
+    const u = units[at];
+    if (!u || u.kind !== "action") continue;
+    const re = new RegExp(`\\b${escapeRe(keyTokens(c.name)[0] || c.name)}\\b[^.]{0,60}?\\bthey\\s*/\\s*them\\b`, "i");
+    if (units.some((x) => x.kind === "action" && re.test(x.text))) c.they = true;
+    if (re.test(u.text)) c.they = true;
+    const key = keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x));
+    if (!c.group && key.length === 1 && /S$/.test(key[0]) && !/SS$/.test(key[0]) && !NAME_GENDER[key[0]] &&
+        new RegExp(`\\b(?:two|three|four|five|six|several|a few|a group of|a dozen|some|\\d+)\\s+(?:[a-z-]+\\s+){0,2}${escapeRe(key[0])}\\b`, "i").test(u.text)) c.group = true;
+  }
   // Introduced before being named: "A teenage girl ... This is UATAKI." -> the description sentence belongs to UATAKI
   // and "the girl" becomes an alias.
   const acts = units.filter((u) => u.kind === "action");
@@ -239,7 +254,8 @@ export function buildCast(scene) {
         // except in all-lowercase scripts (where names are lowercase too).
         if (!lowerScript && m[0][0] !== m[0][0].toUpperCase()) continue;
         mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: /['’]s$/i.test(m[0]),
-          lead: m.index <= 1 || LEAD_TITLE.test(text.slice(0, m.index)) || (!OFF_CAM && CAM_PREFIX.test(text.slice(0, m.index)) && CAM_PREFIX.exec(text.slice(0, m.index))[0].length === m.index) });
+          lead: m.index <= 1 || LEAD_TITLE.test(text.slice(0, m.index)) || DASH.test(text.slice(0, m.index)) || INVERTED.test(text.slice(0, m.index)) ||
+            (!OFF_CAM && CAM_PREFIX.test(text.slice(0, m.index)) && CAM_PREFIX.exec(text.slice(0, m.index))[0].length === m.index) });
         if (c.first > u.i) c.first = u.i;
       }
       if (commonRes[k]) for (const m of text.matchAll(commonRes[k])) {
