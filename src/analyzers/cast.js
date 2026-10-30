@@ -21,7 +21,7 @@ const M = ["he", "him", "his", "himself"];
 const F = ["she", "her", "hers", "herself"];
 const P = ["they", "them", "their", "theirs", "themselves"];
 const PRON_RE = /\b(he|him|his|himself|she|her|hers|herself|they|them|their|theirs|themselves)\b/gi;
-const CAPS_SEQ = /\b([A-Z][A-Z0-9'’\-.]*[A-Z0-9]|[A-Z]{2,})(?:\s+(?:[A-Z][A-Z0-9'’\-.]*[A-Z0-9]|[A-Z]{2,}))*\b/g;
+const CAPS_SEQ = /(?<![A-Za-zÀ-ÿ])([A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’\-.]*[A-ZÀ-ÖØ-Þ0-9]|[A-ZÀ-ÖØ-Þ]{2,})(?:\s+(?:[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’\-.]*[A-ZÀ-ÖØ-Þ0-9]|[A-ZÀ-ÖØ-Þ]{2,}))*(?![A-Za-zÀ-ÿ])/g;
 
 export function pronounClass(w) {
   w = w.toLowerCase();
@@ -102,7 +102,7 @@ export function capsNames(text, cueNames) {
     if (!isCue && /\b(TICKS?|TOCKS?|HUMS?|WHIRS?|DRIPS?|SPLASH(ES)?|FLASH(ES)?|FLICKERS?|LURCH(ES)?|JOLTS?|SHUDDERS?|THUNDERS?)$/.test(n)) continue;
     if (!isCue && /['’]S\b/.test(n) && n.split(/\s+/).length > 2) continue; // "WORLD'S OKAYEST GRANDMA" (printed text)
     const art = /\b(a|an|the|two|three)\s+$/i.test(before);
-    if (!OFF_NOTPERSON && art && !isCue && /^(BOOT|BOOTS|FOOTSTEPS?|KNOCK|SOUND|NOISE|CRASH|BANG|THUD|THUNK|CLICK|CREAK|SIREN|HORN|BELL|PHONE|DOOR|LIGHT|LIGHTS|SHADOW|SPARK|FLASH|SCREAM|SHOT|GUNSHOT|BLAST|EXPLOSION|RUMBLE|ROAR|WHISTLE|BUZZ|BUZZER|ALARM|ENGINE|CAR|TRUCK|VAN|TRAIN|BUS|HELICOPTER|PLANE|DRONE|CAMERA|SCREEN|TV|RADIO|SPEAKER|TAPE|RECORD|CLOCK|WIND|WAVE|GUST|RAIN|THUNDER|LIGHTNING|SILENCE|PAUSE|BEAT|MOMENT|HAND|HANDS|FINGER|FINGERS|ARM|LEG|FOOT|HEAD|FACE|EYE|EYES|TAIL|PAW|WING|SIGN|BANNER|NOTE|LETTER|MESSAGE|TEXT|MAP|BOOK|BOX|BAG|KEY|KEYS|GUN|PISTOL|KNIFE|BLADE|ROPE|CHAIN|BOTTLE|GLASS|CUP|PLATE|FLAG|CURTAIN|TABLE|CHAIR|BED|WALL|FLOOR|WINDOW|GATE|FENCE|BRIDGE|BOAT|SHIP)$/.test(n)) continue;
+    if (!OFF_NOTPERSON && art && !isCue && /^(BOOT|BOOTS|FOOTSTEPS?|KNOCK|SOUND|NOISE|CRASH|BANG|THUD|THUNK|CLICK|CREAK|SIREN|HORN|BELL|PHONE|DOOR|LIGHT|LIGHTS|SHADOW|SPARK|FLASH|SCREAM|SHOT|GUNSHOT|BLAST|EXPLOSION|RUMBLE|ROAR|WHISTLE|BUZZ|BUZZER|ALARM|ENGINE|CAR|TRUCK|VAN|TRAIN|BUS|HELICOPTER|PLANE|DRONE|CAMERA|SCREEN|TV|RADIO|SPEAKER|TAPE|RECORD|CLOCK|WIND|WAVE|GUST|RAIN|THUNDER|LIGHTNING|SILENCE|PAUSE|BEAT|MOMENT|HAND|HANDS|FINGER|FINGERS|ARM|LEG|FOOT|HEAD|FACE|EYE|EYES|TAIL|PAW|WING|SIGN|BANNER|NOTE|LETTER|MESSAGE|TEXT|MAP|BOOK|BOX|BAG|KEY|KEYS|GUN|PISTOL|KNIFE|BLADE|ROPE|CHAIN|BOTTLE|GLASS|CUP|PLATE|FLAG|CURTAIN|TABLE|CHAIR|BED|WALL|FLOOR|WINDOW|GATE|FENCE|BRIDGE|BOAT|SHIP|BAR|TIN|CAN|JAR|PACK|KIT|STRIP|TRAY|POT|PAN|BOWL|BIN|BUCKET|CRATE|SACK|CASE|TUBE|BULB|LAMP|FLAME|SPARKS|PUDDLE|POOL|PILE|HEAP|STACK|ROW|LINE|WALL|DOOR|STEP|STEPS|LEDGE|ROOF|FLOOR)$/.test(n)) continue;
     const nextWord = text.slice(m.index + m[0].length).match(/^\s+([a-z]+)\b/);
     const verbAfter = !OFF_CAPSVERB && m.index === 0 && nextWord && VERBS3.has(nextWord[1]) && !NOT_NAMES.has(n) && !/\s/.test(n) && n.length >= 3;
     if (isCue || /^\s*[(,—–-]/.test(after) || /^['’]S/.test(after) || art || verbAfter) out.push(art ? n + "\u0000" : n);

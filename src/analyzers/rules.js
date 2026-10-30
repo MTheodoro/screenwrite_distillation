@@ -276,8 +276,13 @@ export const ACTOR_FEATURES = ["isNone", "named", "firstPos", "initialName", "po
 // Pronoun subject near the start, allowing a leading connective ("Yet he", "But she", "Then they").
 const LEAD = /^(?:\s*(?:yet|but|and|then|now|still|so|as|when|while|though|meanwhile|suddenly|slowly|finally|again)\b,?)+\s*$/i;
 function initialPronoun(ctx, i) {
-  const p = ctx.cast.pronouns[i][0];
+  let p = ctx.cast.pronouns[i][0];
   if (!p) return null;
+  if (!OFF.has("clausepron") && !/^(he|she|they)$/.test(p.w)) {
+    // "When it burns down to his fingers, he lets it fall." -> "he", the subject after the opening clause
+    const sp = ctx.cast.pronouns[i].find((q) => /^(he|she|they)$/.test(q.w) && /^(?:When|As|While|After|Before|If|Once|Until|Because|Though|Although|Even as|Just as|The moment|By the time|Every time|Each time)\b[^.;:!?]{0,80},\s*$/.test(ctx.units[i].text.slice(0, q.at)));
+    if (sp && !ctx.cast.mentions[i].some((m) => m.at < sp.at && !m.poss)) return sp.g;
+  }
   const before = ctx.units[i].text.slice(0, p.at);
   if (/^(?:we see|we hear|we watch|we follow|we find|close on|closer on|angle on|on camera:?)\s+(?:that\s+)?$/i.test(before) && /^(he|she|they)$/.test(p.w)) return p.g;
   // "For the first time, she smiles." / "One by one, they listen." / "Perhaps she does."
@@ -326,6 +331,7 @@ export function subjectless(ctx, i) {
   if (!OFF.has("capsfrag") && t === t.toUpperCase() && /[A-Z]{3}/.test(t) && !(words(t) === 1 && VERBS3.has(t.replace(/\W+$/, "").toLowerCase()))) return 0; // "BACK TO SCENE." / "BEEP." (but "LAUGHS.")
   if (!OFF.has("pluralnoun") && words(t) === 1 && /^[A-Z][a-z]+(?:s|es)[.!…]*$/.test(t) && !VERBS3.has(t.replace(/\W+$/, "").toLowerCase()) && (NOUNS.has(t.replace(/\W+$/, "").toLowerCase().replace(/es$/, "")) || NOUNS.has(t.replace(/\W+$/, "").toLowerCase().replace(/s$/, "")))) return 0; // "Bandages." / "Syringes."
   if (!OFF.has("wefrag") && /^(?:we|i|you)\b/i.test(t)) return 0;
+  if (!OFF.has("numfrag") && /^(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|hundred|\d+)[.!…]*$/i.test(t)) return 0;
   // "Big Dave sits. / Slowly, like a man lowering something heavy." -> how he sits
   if (!OFF.has("mannerc") && pa && pa.ids.length && pa.dist === 1 && /^(?:[A-Z][a-z]+ly|Slow|Quick|Hard|Soft|Gentle|Fast|Careful|Quiet|Calm),\s/.test(t)) return 1;
   // "He looks at the tank. / At her. / At the dark ceiling." -> a chain of looks keeps the looker, whatever is looked at
@@ -347,7 +353,9 @@ export function subjectless(ctx, i) {
       words(t) <= 8 && !/\b(is|are|was|were|has|have|had|does|did|do|can|could|will|would|shall|should|may|might|must)\b/i.test(t) &&
       !t.split(/\s+/).slice(1).some((x) => /^[a-z]+s[.,]?$/.test(x) && !BODY.test(x) && !/^(clothes|jeans|pants|sleeves|nails|braids|curls|freckles|wrinkles|keys|coins|papers|notes|tears|years|hours|minutes|seconds|words|things|times)$/.test(x.replace(/[.,]$/, ""))) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
   if (cont && words(t) <= 6) {
-    if (!ms.length && /^(?:then,?\s+)?(?:at|to|toward|towards|into|back|over|down|up|across|away|closer|forward|aside|out|in|through|past|behind|under|around|along)\b/i.test(t) && !AUX.test(t) && !SETTING_NOUN.test(t)) return 1;   // "At the butler." / "Back down."
+    const lookPrev = /\b(looks?|points?|glances?|stares?|nods?|gestures?|turns?|watches|studies|eyes|scans|peers?)\b/i.test(prev.text);
+    if (!ms.length && /^(?:then,?\s+)?(?:at|to|toward|towards|into|back|over|down|up|across|away|closer|forward|aside|out|in|through|past|behind|under|around|along)\b/i.test(t) && !AUX.test(t) &&
+        (!SETTING_NOUN.test(t) || (!OFF.has("looksky") && lookPrev)) && !(!OFF.has("dirverb") && t.split(/\s+/).slice(1).some((w) => VERBS3.has(w.replace(/\W+$/, "").toLowerCase())))) return 1;   // "At the butler." / "Back down." / "At the sky." (but not "Behind her, the furnace roars.")
     if (/^(?:then,?\s+)?(?:doesn'?t|don'?t|can'?t|won'?t|isn'?t|hasn'?t|didn'?t|never|barely|almost|not|does not|do not|did not|cannot|will not|has not|is not|could not|would not|couldn'?t|wouldn'?t|haven'?t|still)\b/i.test(t)) return 1;          // "Doesn't say anything." / "Doesnt reply."
     if (/^then\b/i.test(t) && !/^then\s+(the|a|an|it|there|silence|nothing)\b/i.test(t)) return 1;                                  // "Then stops." / "Then another."
     // short description of the character just shown: "Violent." "Red-rimmed." "Grey hood." "Phone in hand."
@@ -412,7 +420,10 @@ function prevActorOf(ctx, i) {
 
 function candRecency(ctx, i, c) {
   const a = ctx.lastNamed[c][i];
-  return a < 0 ? 99 : i - a;
+  if (a < 0) return 99;
+  if (OFF.has("tiepos")) return i - a;
+  const ms = ctx.cast.mentions[a], k = ms.findIndex((m) => m.c === c);
+  return i - a - (k > 0 ? k / 100 : 0);
 }
 
 // At most MAX_CANDS characters per line: everyone named in the line, then the most recently seen. Keeps the
@@ -635,7 +646,7 @@ function excludeMentioned(ctx, i, ids) {
   if (objG) { // the most recent character of that gender who spoke or acted just before
     for (let j = i - 1; j >= 0 && objRef < 0 && j > i - 4; j--) {
       const u = ctx.units[j];
-      const cs = u.kind === "dialogue" ? [ctx.speaker[j]] : ctx._why?.has(j) ? ruleActors(ctx, j) : ctx.cast.mentions[j].map((m) => m.c);
+      const cs = u.kind === "dialogue" ? [ctx.speaker[j]] : (OFF.has("disc2") && !ctx._why?.has(j)) ? ctx.cast.mentions[j].map((m) => m.c) : ruleActors(ctx, j);
       const hit = cs.find((c) => c >= 0 && ctx.cast.chars[c].gender === objG);
       if (hit !== undefined) objRef = hit;
     }
@@ -747,6 +758,13 @@ function ruleActorsUncached(ctx, i) {
   const W = (why, ids) => { ctx._why.set(i, why); return ids; };
   const u = ctx.units[i];
   const ms = ctx.cast.mentions[i];
+  if (!OFF.has("introall")) {
+    const intro = [...new Set(ms.filter((m) => !m.poss && ctx.cast.chars[m.c].intro === i && !ctx.cast.chars[m.c].group).map((m) => m.c))];
+    if (intro.length >= 2) {
+      const lead = ms.find((m) => m.lead && !m.poss);
+      return W("introAll", lead && !intro.includes(lead.c) ? [lead.c, ...intro] : intro);
+    }
+  }
   const np = namePair(ctx, i);
   const cs = clauseSubjects(ctx, i);
   if (np && cs && !OFF.has("npunion")) return W("namePair", [...new Set([...np, ...cs])]);
@@ -761,6 +779,11 @@ function ruleActorsUncached(ctx, i) {
   }
   const tailM = !OFF.has("tail") && u.text.match(/(?:,|;|\band)\s+((?:everyone|everybody|nobody|no one|all (?:two|three|four|five|six)|they both|both of them|the (?:two|three|four|five) of them|the (?:two|three|four|five)(?= (?:tumble|freeze|turn|stop|run|scatter|duck|look|stare|fall|rise|stand|sit|laugh|go|move|wait|watch)s?\b))\b.*)$/i);
   const core = tailM && !ms.some((m) => m.lead) ? tailM[1][0].toUpperCase() + tailM[1].slice(1) : u.text;
+  if (!OFF.has("leadpair") && ms.length && ms[0].lead && !ms[0].poss && /\b(?:both of them|and they|and the two of them|and together they)\b/i.test(u.text)) {
+    const others = [...new Set(ms.filter((m) => m.c !== ms[0].c).map((m) => m.c))];
+    if (!others.length) { const op = u.text.match(/\b(him|her)\b/i); if (op) { const s = cands.filter((c) => c !== ms[0].c && !offscreen(ctx, c) && ctx.cast.chars[c].gender === (op[1].toLowerCase() === "him" ? "m" : "f")).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b)); if (s.length) others.push(s[0]); } }
+    if (others.length) return W("leadPair", [ms[0].c, ...others]);
+  }
   if (!OFF.has("leadall") && tailM && ms.length && ms[0].lead && /^(?:the (?:two|three|four|five)(?: of them)?|everyone|everybody|they all|all (?:two|three|four|five))\b/i.test(tailM[1])) {
     const all = everyone(ctx, i);
     if (!all.includes(ms[0].c)) all.push(ms[0].c);
@@ -779,6 +802,8 @@ function ruleActorsUncached(ctx, i) {
     const all = everyone(ctx, i).filter((c) => !(pa.dist <= 2 && pa.ids.includes(c)));
     if (all.length) return W("neither", all);
   }
+  if (!OFF.has("voaction") && ms.length && ms[0].lead && /^\S+(?:\s+\S+){0,3}?\s+\((?:V\.?O\.?|O\.?S\.?|O\.?C\.?|ON (?:PHONE|RADIO|SPEAKER))\)/i.test(u.text)) return W("none", []); // "CONTROL (V.O.) comes through" is a voice, not a presence
+  if (!OFF.has("voaction") && ms.length && ms[0].lead && /\b(?:is|are) not seen\b|\bis heard but not seen\b|\bonly (?:his|her|their) voice\b/i.test(u.text)) return W("none", []);
   if (!OFF.has("screenfirst") && (SCREEN_TEXT.test(u.text) || /\b(?:reads?|label|sign|banner|plaque|screen|contact|caption|subject|from|to|re)\s*:/i.test(u.text) ||
       /^[A-Z][A-Z .'’-]{1,30}\.$/.test(u.text) && ms.length === 1 && ms[0].at <= 1 && ctx.cast.chars[ms[0].c].names.some((n) => u.text.replace(/\.$/, "") === n))) {
     // "ON PHONE (TEXT FROM NELL): hello??" / "Lena: "dont look but greg is at the elevator"" -> the sender's action
@@ -858,7 +883,7 @@ function ruleActorsUncached(ctx, i) {
   // "Five figures sit on the platform's edge." / "Four people wait out their cycles." as the scene opens -> the cast of
   // the scene (when the count fits), nobody present yet
   if (!OFF.has("count2") && !ms.length) {
-    const cm = (u.text.match(/^(two|three|four|five|six|seven|eight|nine|ten|a dozen)\b/i) ? u.text : u.text.replace(/^[A-Z][^,.;:]{0,40},\s+/, "")).match(/^(two|three|four|five|six|seven|eight|nine|ten|a dozen)\s+(?:[a-z-]+\s+){0,2}(?:people|men|women|figures|adults|friends|teenagers|teens|kids|children|jurors|students|officers|cops|soldiers|workers|strangers|players|members|guests|passengers|sisters|brothers|siblings|investigators|agents|nurses|doctors|merchants|climbers|miners|neighbou?rs|colleagues|detectives|recruits|campers|hikers|travell?ers|bodies|shapes|silhouettes|heads|faces|voices|beams|flashlight beams|flashlights|headlamps)\b/i)
+    const cm = (u.text.match(/^(two|three|four|five|six|seven|eight|nine|ten|a dozen)\b/i) ? u.text : u.text.replace(/^[A-Z][^,.;:]{0,40},\s+/, "")).match(/^(two|three|four|five|six|seven|eight|nine|ten|a dozen)\s+(?:[a-z-]+\s+){0,2}(?:people|men|women|figures|adults|friends|teenagers|teens|kids|children|jurors|students|officers|cops|soldiers|workers|strangers|players|members|guests|passengers|sisters|brothers|siblings|investigators|agents|nurses|doctors|merchants|climbers|miners|neighbou?rs|colleagues|detectives|recruits|campers|hikers|travell?ers|bodies|shapes|silhouettes|heads|faces|voices|beams|flashlight beams|flashlights|headlamps|survivors|refugees|prisoners|hostages|sailors|crew members|crewmen|volunteers|mourners|witnesses|suspects|candidates|contestants|dancers|musicians|actors|engineers|scientists|astronauts|pilots|divers|firefighters|paramedics|cadets|monks|nuns|sisters|strangers|travelers|riders|cyclists|runners|swimmers|skaters|boxers|fighters|wrestlers|lawyers|attorneys|clerks|judges|bankers|executives|managers|interns|employees|staff|servants|maids|cooks|waiters|bartenders|patrons|regulars|customers|shoppers|commuters|tourists|visitors|pilgrims|believers|congregants|parishioners|villagers|townspeople|neighbours|roommates|housemates|classmates|teammates|bandmates|cousins|grandparents|parents|orphans|runaways|outlaws|bandits|pirates|thieves|smugglers|gunmen|guards|sentries|scouts|hunters|trappers|farmers|ranchers|cowboys|settlers|colonists)\b/i)
       || (/^One (?:man|woman|boy|girl), one (?:man|woman|boy|girl)\b/i.test(u.text) ? [0, "two"] : null);
     if (!cm && !OFF.has("crewcast") && /^The (?:crew|team|band|family|group|squad|class|jury|panel|gang|trio|quartet|pair|couple|boys|girls|kids|children|men|women|others)\b/i.test(u.text) &&
         !ctx.pres[i].some((c) => !offscreen(ctx, c) && !ctx.cast.chars[c].group)) {
@@ -909,6 +934,7 @@ function ruleActorsUncached(ctx, i) {
     // "Swipes. / Red light. / Swipes again." -> the fragment continues across a short event line
     if (ON.has("frag2") && pa.ids.length && pa.dist === 2 && ctx.units[i - 1]?.kind === "action" && words(ctx.units[i - 1].text) <= 3 && ruleActors(ctx, i - 1).length === 0) return W("fragmentPrev", pa.ids);
   }
+  if (!OFF.has("hesright") && /^(?:He|She|They)(?:'s|’s| is| are) (?:right|wrong|not wrong|correct|lying|not lying)\b/.test(u.text)) return W("none", []);
   const initPron = initialPronoun(ctx, i);
   const salient = (filter) => cands.filter((c) => (OFF.has("offs") || !offscreen(ctx, c)) && filter(c)).sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b));
   // "He doesn't say anything. / Neither does Rosalind." / "Neither does she." -> that one person
@@ -1069,6 +1095,13 @@ function ruleActorsUncached(ctx, i) {
       if (OFF.has("pronclause")) return ids;
       const out = ids.concat(ms.filter((m) => !m.poss && !ids.includes(m.c) && /(?:,\s*)?\b(?:while|as|and)\s+$/i.test(u.text.slice(0, m.at)) &&
         /^\S+(?:\s+[A-Z]\S*)*\s+[a-z]+(?:s|es)\b/.test(u.text.slice(m.at))).map((m) => m.c));
+      if (ON.has("jointv")) { // -0.1 on s0: opt-in
+        // "She sits beside Ferdie, who has slumped in his chair." / "He hums with her, and neither corrects the other." / "She kisses him, hard."
+        for (const m of ms) if (!m.poss && !out.includes(m.c) && /^\S+(?:\s+[A-Z]\S*)*,\s*who\s+(?:has|is|was|[a-z]+s)\b/.test(u.text.slice(m.at))) out.push(m.c);
+        const jm = u.text.match(/\b(?:kisses|hugs|embraces|holds|high-fives|dances with|wrestles|shakes hands with|clinks (?:glasses|mugs|cups) with|bumps fists with|links arms with)\s+(him|her)\b/i) ||
+          (/\b(?:with|beside|alongside|against|to|at)\s+(?:him|her)\b[^.]*\b(?:neither|each other|both|the other|one another|together)\b/i.test(u.text) ? u.text.match(/\b(him|her)\b/i) : null);
+        if (jm) { const g2 = jm[1].toLowerCase() === "him" ? "m" : "f"; const o = salient((c) => !out.includes(c) && ctx.cast.chars[c].gender === g2); if (o.length) out.push(o[0]); }
+      }
       // "She nearly slides off the ledge; he grabs her sleeve." -> the other one too
       const oc = ON.has("pronclause2") && u.text.slice(ctx.cast.pronouns[i][0].at + 2).match(/(?:;|,|\band|\bwhile|\bas|\bthen)\s+(he|she)\s+(?:[a-z]+\s+)?[a-z]+(?:s|es|ed)\b/i);
       if (oc) {
@@ -1103,6 +1136,10 @@ function ruleActorsUncached(ctx, i) {
     const all = everyone(ctx, i);
     const two = /\b(?:either of them|both of them|the two of them|they will be two)\b/i.test(u.text);
     if (all.length > 1) return W("narration", two ? all.sort((a, b) => candRecency(ctx, i, a) - candRecency(ctx, i, b)).slice(0, 2) : all);
+  }
+  if (!OFF.has("escapes") && !ms.length) {
+    const em = u.text.match(/^(?:A|An|The|Another)\s+(?:[a-z-]+\s+)?(?:giggle|laugh|smile|sob|sigh|gasp|shudder|shiver|groan|whimper|yelp|cry|scream|breath|word|sound|hiccup|snort|chuckle|tear|flush|blush) (?:escapes|leaves|slips (?:from|out of)|breaks from|bursts from|comes out of|rises in|catches in|dies in) (him|her)\b/i);
+    if (em) { const s = salient((c) => ctx.cast.chars[c].gender === (em[1].toLowerCase() === "him" ? "m" : "f")); if (s.length) return W("bodyOwner", [s[0]]); }
   }
   if (!OFF.has("owner") && !ms.length) {
     const om = u.text.match(BODY_OWNER);
@@ -1158,7 +1195,7 @@ function discourseSubject(ctx, i, g, cands) {
     // "Priya tosses Desmond a roll of tape. He catches it." -> the previous line's object, when its actor is not a candidate
     const pj = i - 1;
     if (pj >= 0 && ctx.units[pj].kind === "action") {
-      const actors = ctx._why?.has(pj) ? ruleActors(ctx, pj) : [];
+      const actors = (OFF.has("disc2") && !ctx._why?.has(pj)) ? [] : ruleActors(ctx, pj);
       if (!actors.some((c) => cands.includes(c))) {
         const pt = ctx.units[pj].text;
         const objs = [...new Set(ctx.cast.mentions[pj].filter((m) => cands.includes(m.c) && (!m.poss || (!OFF.has("objposs") && BODY.test(pt.slice(m.at).replace(/^\S+(?:\s+\S+){0,3}?['’]s\s+/, "").replace(ADJ_PRE, ""))))).map((m) => m.c))];
@@ -1168,7 +1205,7 @@ function discourseSubject(ctx, i, g, cands) {
     for (let j = i - 1, d = 0; j >= 0 && d < 10; j--, d++) {
       const u = ctx.units[j];
       if (u.kind === "heading") break;
-      const subj = u.kind === "dialogue" ? [ctx.speaker[j]] : (ctx._why?.has(j) ? ruleActors(ctx, j) : []);
+      const subj = u.kind === "dialogue" ? [ctx.speaker[j]] : ((OFF.has("disc2") && !ctx._why?.has(j)) ? [] : ruleActors(ctx, j));
       const hit = subj.find((c) => cands.includes(c));
       if (hit !== undefined) return hit;
     }
