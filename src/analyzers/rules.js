@@ -765,7 +765,17 @@ export function ruleAddressee(ctx, i) {
 
 export const EMO_FEATURES = ["isDialogue", ...EMOTIONS.slice(1).map((e) => "lex_" + e), ...EMOTIONS.slice(1).map((e) => "par_" + e),
   "negation", "intensifier", "exclaim", "question", "ellipsis", "interrupt", "capsWords", "words", "prevSameSpeakerEmo",
-  "threat", "calm"];
+  "threat", "calm", ...EMOTIONS.map((e) => "tab_" + e), ...EMOTIONS.map((e) => "prevTab_" + e),
+  ...EMOTIONS.map((e) => "nextTab_" + e), ...EMOTIONS.map((e) => "sceneTab_" + e)];
+// Mean emotion-table probabilities over the scene (cached).
+function sceneEmoTable(ctx) {
+  if (!ctx._sceneEt) {
+    const m = new Array(8).fill(0), n = Math.max(1, ctx.content.length);
+    for (const j of ctx.content) unitEmoTable(ctx, j).forEach((v, c) => { m[c] += v / n; });
+    ctx._sceneEt = m;
+  }
+  return ctx._sceneEt;
+}
 
 export function emotionFeatures(ctx, i, prevEmo = null) {
   const f = emotionBase(ctx, i, prevEmo);
@@ -786,6 +796,9 @@ function emotionBase(ctx, i, prevEmo) {
     /(--|—)\s*$/.test(t) ? 1 : 0, count(/\b[A-Z]{3,}\b/g, t), log1p(words(t)), prevEmo,
     lexCount(t, "threat"), lexCount(t, "calm"),
     ...unitEmoTable(ctx, i),
+    // context: the neighbouring lines and the scene as a whole
+    ...(() => { const k = ctx.content.indexOf(i), p = ctx.content[k - 1], q = ctx.content[k + 1];
+      return [...(p !== undefined ? unitEmoTable(ctx, p) : new Array(8).fill(0)), ...(q !== undefined ? unitEmoTable(ctx, q) : new Array(8).fill(0)), ...sceneEmoTable(ctx)]; })(),
   ];
 }
 
