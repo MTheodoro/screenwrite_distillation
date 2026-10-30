@@ -68,10 +68,17 @@ const MALE = /\b(boy|man|father|husband|son|brother|king|priest|monk|lord|actor|
 const PERSON_NOUN = /\b(?:a|an)\s+(?:[\w-]+\s+){0,4}?(girl|woman|boy|man|child|kid|teenager|teen|stranger|figure|priest|soldier|old man|old woman|lady|nun|monk|guard|nurse|doctor|officer|mother|father)\b/i;
 
 // Caps intros in an action sentence: "MAYA OKAFOR (30s), wiry" -> ["MAYA OKAFOR"].
+const NICK = /\b([A-Z][A-Z'’.-]*[A-Z])\s+["“]([A-Z][A-Z'’.-]*[A-Z])["”]\s+((?:[A-Z][A-Z'’.-]*[A-Z])(?:\s+[A-Z][A-Z'’.-]*[A-Z])*)/g;
 export function capsNames(text, cueNames) {
   if (text === text.toUpperCase()) return []; // shouted / SFX-only sentence
   const out = [];
+  const skip = [];
+  if (!OFF_NICK) for (const m of text.matchAll(NICK)) { // BIANCA "BEE" CALLOWAY -> one name with the nickname inside
+    out.push(`${m[1]} ${m[2]} ${m[3]}`);
+    skip.push([m.index, m.index + m[0].length]);
+  }
   for (const m of text.matchAll(CAPS_SEQ)) {
+    if (skip.some(([a, b]) => m.index >= a && m.index < b)) continue;
     let n = m[0].replace(/['’]S$/, "").trim();
     const toks = n.split(/\s+/).filter((t) => !NOT_NAMES.has(t.replace(/[.,]$/, "")));
     if (!toks.length) continue;
@@ -119,6 +126,7 @@ const OFF_CPOSS = (globalThis.process?.env?.WHO_OFF || "").includes("cposs");
 const OFF_GALIAS = (globalThis.process?.env?.WHO_OFF || "").includes("galias");
 const OFF_MERGEINTRO = !(globalThis.process?.env?.WHO_ON || "").includes("mergeintro"); // measured neutral/negative: opt-in
 const OFF_CAPSVERB = !(globalThis.process?.env?.WHO_ON || "").includes("capsverb"); // measured neutral/negative: opt-in
+const OFF_NICK = (globalThis.process?.env?.WHO_ON || "").includes("nonick");
 const OFF_PRINT = (globalThis.process?.env?.WHO_OFF || "").includes("print");
 const OFF_FWDG = (globalThis.process?.env?.WHO_OFF || "").includes("fwdg");
 const OFF_GTIER = (globalThis.process?.env?.WHO_OFF || "").includes("gtier"); // gender evidence tiers + consistency pass
@@ -402,7 +410,8 @@ export function buildCast(scene) {
     // line counts ("Colter steps away. / She opens her eyes." is the exception, not the rule).
     const pt = acts[k - 1].text;
     const objBefore = p0 && !GT("seqobj") && (p0.g === "m" ? /\b(?:him|himself)\b/i.test(pt) : /\b(?:herself)\b|\bher(?=[.,;!?]|\s+(?:to|at|by|and|but|away|back|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight|a|an|the)\b)/i.test(pt) || (CONTACT_V.test(pt.slice(0, pt.search(/\bher\b/) < 0 ? 0 : pt.search(/\bher\b/))) && /\bher\s+[a-z]/.test(pt)));
-    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w) && !objBefore) { (GT("tier") ? chars[ids[0]].g : chars[ids[0]].gs)[p0.g]++; if (GDEBUG) console.error(`G ${chars[ids[0]].name} +${p0.g} sequence: ${acts[k - 1].text.slice(0, 60)} / ${acts[k].text.slice(0, 50)}`); }
+    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w) && !objBefore) {
+      if (!GT("seqintro") && chars[ids[0]].intro === acts[k - 1].i && acts[k].para === acts[k - 1].para && /^(he|she)$/.test(p0.w)) chars[ids[0]].g[p0.g]++; (GT("tier") ? chars[ids[0]].g : chars[ids[0]].gs)[p0.g]++; if (GDEBUG) console.error(`G ${chars[ids[0]].name} +${p0.g} sequence: ${acts[k - 1].text.slice(0, 60)} / ${acts[k].text.slice(0, 50)}`); }
   }
   if ((globalThis.process?.env?.WHO_ON || "").includes("gt_dlgseq2")) {
     const votes = new Map();

@@ -320,7 +320,7 @@ export function subjectless(ctx, i) {
   // action even in its own paragraph
   const oneWord = !OFF.has("adjpara") && /^[A-Z][a-z-]+[.!…]*$/.test(t) && !SOUND.test(t) && !SETTING_NOUN.test(t);
   const cont = !!(pa && pa.ids.length && pa.dist === 1 && (prev.para === u.para || oneWord || /\b(looks?|points?|glances?|stares?|nods?|gestures?|turns?|watches|studies)\b/i.test(prev.text)));
-  if (/^(something|nothing|everything|someone|somebody|anything|anyone|silence|static|darkness|quiet)\b/i.test(t)) return 0;
+  if (/^(something|nothing|everything|someone|somebody|anything|anyone|silence|static|darkness|quiet|only|just|more|another|no)\b/i.test(t)) return 0;
   // "Big Dave sits. / Slowly, like a man lowering something heavy." -> how he sits
   if (!OFF.has("mannerc") && pa && pa.ids.length && pa.dist === 1 && /^(?:[A-Z][a-z]+ly|Slow|Quick|Hard|Soft|Gentle|Fast|Careful|Quiet|Calm),\s/.test(t)) return 1;
   // "He looks at the tank. / At her. / At the dark ceiling." -> a chain of looks keeps the looker, whatever is looked at
@@ -996,6 +996,17 @@ export function ruleActors(ctx, i) {
     }
     const salientX = (f) => salient((c) => c !== excl && f(c));
     const s1 = salientX((c) => ctx.cast.chars[c].gender === initPron);
+    // "Desmond's phone rings on the counter. / Everyone looks at it. / He answers on speaker." -> the phone's owner
+    if (!OFF.has("pownr") && initPron !== "p") {
+      for (let j = i - 1, d = 0; j >= 0 && d < 3; j--, d++) {
+        const pu = ctx.units[j];
+        if (pu.kind !== "action") continue;
+        const pm = ctx.cast.mentions[j];
+        if (pm.length && pm[0].poss && pm[0].lead && ruleActors(ctx, j).length === 0 && ctx.cast.chars[pm[0].c].gender === initPron && pm[0].c !== excl &&
+            !ctx.cast.mentions[j].some((m) => m.c !== pm[0].c)) return W("pronounOwner", [pm[0].c]);
+        if (ruleActors(ctx, j).length) break; // someone acted in between: ordinary discourse
+      }
+    }
     // "Pixie reaches for the monitor. / Santiago catches her wrist. / She pulls away." -> the "her" of the previous line:
     // the most recent subject before it who could be her
     if (!OFF.has("objchain") && initPron !== "p" && i > 1 && ctx.units[i - 1].kind === "action") {
