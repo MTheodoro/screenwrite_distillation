@@ -88,6 +88,7 @@ export function capsNames(text, cueNames) {
 }
 
 // Words that can stand before a name that still leads the sentence ("Cousin LEANDRO carries", "Old TOMASZ").
+const CAM_PREFIX = /^(?:we see|we hear|we watch|we follow|we find|we're on|we are on|close on|closer on|angle on|insert[:\s-]+|reveal:?|cut to:?|back to:?|on)\s+(?:that\s+)?/i;
 const LEAD_TITLE = /^(?:(?:then|now|and|but|meanwhile|suddenly|finally|cousin|aunt|auntie|uncle|grandma|grandpa|granny|nana|old|young|little|big|baby|father|mother|brother|sister|mr|mrs|ms|miss|dr|doctor|officer|detective|det|captain|capt|sergeant|sgt|private|pvt|corporal|cpl|lieutenant|lt|agent|nurse|judge|lady|lord|sir|madam|professor|prof|chef|coach|pastor|reverend|rev|saint|st|king|queen|prince|princess)\.?,?\s+){1,2}$/i;
 
 // Build cast + per-unit annotations. Mutates nothing; returns { chars, mentions, pronouns, firstSeen }.
@@ -211,6 +212,7 @@ export function buildCast(scene) {
   // Described characters are also referred to by their full description in lowercase ("the woman in black",
   // "the young woman"); the full phrase is unambiguous even when two share a head noun.
   const OFF_ALIAS = (globalThis.process?.env?.WHO_OFF || "").includes("alias");
+  const OFF_CAM = (globalThis.process?.env?.WHO_OFF || "").includes("cam");
   for (const c of chars) {
     if (OFF_ALIAS || c.alias || c.common || c.tagName) continue;
     const d = c.names.find((n) => DESCR.test(n) && keyTokens(n).filter((x) => !/^(THE|A|AN)$/.test(x)).length >= 2);
@@ -223,6 +225,8 @@ export function buildCast(scene) {
   }
   const commonRes = chars.map((c) => (c.common ? new RegExp(`\\bthe ${escapeRe((keyTokens(c.name).filter((x) => !/^(THE|A|AN)$/.test(x))[0] || c.name.toUpperCase().replace(/^(THE|A|AN)\s+/, "").split(/\s+/)[0]).toLowerCase())}\\b`, "gi")
     : c.alias ? new RegExp(`\\b(?:the|this|that)\\s+${escapeRe(c.alias).replace(/ /g, "\\s+")}\\b`, "gi") : null));
+  const actsAll = units.filter((x) => x.kind === "action" && /^[A-Za-z]/.test(x.text));
+  const lowerScript = !(globalThis.process?.env?.WHO_OFF || "").includes("lower") && actsAll.length >= 4 && actsAll.filter((x) => /^[a-z]/.test(x.text)).length > actsAll.length / 2;
   const mentions = units.map(() => []);
   const pronouns = units.map(() => []);
   for (const u of units) {
@@ -231,10 +235,11 @@ export function buildCast(scene) {
     chars.forEach((c, k) => {
       if (!res[k]) return;
       for (const m of text.matchAll(res[k])) {
-        // Case-sensitive guard: lowercase common words that collide with names ("will", "grace") don't count.
-        if (m[0][0] !== m[0][0].toUpperCase()) continue;
+        // Case-sensitive guard: lowercase common words that collide with names ("will", "grace") don't count,
+        // except in all-lowercase scripts (where names are lowercase too).
+        if (!lowerScript && m[0][0] !== m[0][0].toUpperCase()) continue;
         mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: /['’]s$/i.test(m[0]),
-          lead: m.index <= 1 || LEAD_TITLE.test(text.slice(0, m.index)) });
+          lead: m.index <= 1 || LEAD_TITLE.test(text.slice(0, m.index)) || (!OFF_CAM && CAM_PREFIX.test(text.slice(0, m.index)) && CAM_PREFIX.exec(text.slice(0, m.index))[0].length === m.index) });
         if (c.first > u.i) c.first = u.i;
       }
       if (commonRes[k]) for (const m of text.matchAll(commonRes[k])) {
