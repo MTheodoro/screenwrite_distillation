@@ -1,0 +1,29 @@
+{
+  "scene_id": "s00853",
+  "cast": {"JUDGE FAIRCLOTH": "FAIRCLOTH", "FAIRCLOTH": "FAIRCLOTH", "ELSPETH MORROW": "ELSPETH", "ELSPETH": "ELSPETH", "MR. ABERNATHY": "ABERNATHY", "ABERNATHY": "ABERNATHY"},
+  "beats": [1, 6, 9, 11, 14, 17, 19, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "6": {"t": "A", "who": ["FAIRCLOTH"], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["ELSPETH"], "emo": {}, "c": 1.0},
+    "8": {"t": "A", "who": ["ABERNATHY"], "emo": {}, "c": 1.0},
+    "9": {"to": ["ELSPETH"], "emo": ["neutral", 0.4], "c": 0.95},
+    "10": {"to": ["FAIRCLOTH"], "emo": ["neutral", 0.4], "c": 0.95},
+    "11": {"to": ["FAIRCLOTH"], "emo": ["anger", 0.3], "c": 0.95},
+    "12": {"to": ["ABERNATHY"], "emo": ["neutral", 0.3], "c": 0.95},
+    "13": {"to": ["SELF"], "emo": ["anger", 0.2], "c": 0.9},
+    "14": {"to": ["FAIRCLOTH"], "emo": ["anger", 0.3], "c": 0.95},
+    "15": {"to": ["ELSPETH"], "emo": ["neutral", 0.3], "c": 0.95},
+    "16": {"to": ["FAIRCLOTH"], "emo": ["anger", 0.3], "c": 0.95},
+    "17": {"t": "A", "who": ["ABERNATHY"], "emo": {"ABERNATHY": ["anger", 0.3]}, "c": 1.0},
+    "18": {"t": "A", "who": ["FAIRCLOTH"], "emo": {}, "c": 1.0},
+    "19": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "20": {"t": "A", "who": ["FAIRCLOTH"], "emo": {}, "c": 1.0},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 1.0}
+  },
+  "tension": [5, 15, 20, 35, 40, 45, 30, 40]
+}

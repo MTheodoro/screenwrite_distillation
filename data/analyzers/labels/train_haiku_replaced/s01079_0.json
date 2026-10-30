@@ -1,0 +1,30 @@
+{
+  "scene_id": "s01079_0",
+  "cast": {"TAMSIN HOLLOWAY": "TAMSIN HOLLOWAY", "TAMSIN": "TAMSIN HOLLOWAY", "RADIO": "RADIO"},
+  "beats": [1, 11, 14, 19, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "5": {"t": "D", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "6": {"t": "D", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "7": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "8": {"to": ["SELF"], "emo": ["affection", 0.3], "c": 0.9},
+    "9": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "10": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "11": {"to": ["TAMSIN HOLLOWAY"], "emo": ["fear", 0.4], "c": 1},
+    "12": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "13": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {"TAMSIN HOLLOWAY": ["fear", 0.3]}, "c": 1},
+    "14": {"to": ["SELF"], "emo": ["fear", 0.5], "c": 1},
+    "15": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "17": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "18": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "19": {"to": ["SELF"], "emo": ["neutral", 0.3], "c": 1},
+    "20": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {}, "c": 1},
+    "21": {"t": "S", "who": [], "emo": {}, "c": 1},
+    "22": {"t": "A", "who": ["TAMSIN HOLLOWAY"], "emo": {"TAMSIN HOLLOWAY": ["anger", 0.4]}, "c": 1}
+  },
+  "tension": [10, 35, 40, 45, 55]
+}

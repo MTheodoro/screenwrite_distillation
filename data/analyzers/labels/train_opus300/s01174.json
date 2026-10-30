@@ -1,0 +1,32 @@
+{
+  "scene_id": "s01174",
+  "cast": {"SGT. TAMSIN BRIGG": "BRIGG", "TAMSIN BRIGG": "BRIGG", "BRIGG": "BRIGG", "CPL. IVO PETROV": "PETROV", "IVO PETROV": "PETROV", "PETROV": "PETROV", "PVT. LUKA \"MOTH\" DEMIR": "MOTH", "LUKA \"MOTH\" DEMIR": "MOTH", "MOTH": "MOTH", "DEMIR": "MOTH", "MEDIC ABENA NKRUMAH": "ABENA", "ABENA": "ABENA"},
+  "beats": [1, 4, 9, 10, 13, 14, 16, 17, 19, 21, 22, 23, 24],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["BRIGG"], "emo": {}, "c": 0.95},
+    "5": {"t": "D", "who": ["PETROV"], "emo": {}, "c": 0.7},
+    "6": {"t": "A", "who": ["PETROV"], "emo": {}, "c": 0.95},
+    "7": {"t": "D", "who": ["MOTH"], "emo": {}, "c": 0.7},
+    "8": {"t": "A", "who": ["MOTH"], "emo": {"MOTH": ["fear", 0.7]}, "c": 0.95},
+    "9": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.95},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "11": {"t": "A", "who": ["BRIGG", "PETROV", "MOTH"], "emo": {"BRIGG": ["fear", 0.5], "PETROV": ["fear", 0.5], "MOTH": ["fear", 0.6]}, "c": 0.85},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "13": {"t": "A", "who": ["BRIGG", "PETROV"], "emo": {}, "c": 0.95},
+    "14": {"to": ["BRIGG"], "emo": ["fear", 0.3], "c": 0.98},
+    "15": {"to": ["PETROV"], "emo": ["neutral", 0.2], "c": 0.9},
+    "16": {"to": ["SELF"], "emo": ["fear", 0.8], "c": 0.98},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "18": {"t": "A", "who": ["BRIGG", "PETROV", "MOTH"], "emo": {"BRIGG": ["fear", 0.6], "PETROV": ["fear", 0.6], "MOTH": ["fear", 0.7]}, "c": 0.9},
+    "19": {"t": "A", "who": ["ABENA"], "emo": {}, "c": 0.8},
+    "20": {"t": "A", "who": ["ABENA"], "emo": {}, "c": 0.95},
+    "21": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "22": {"t": "A", "who": ["BRIGG", "PETROV", "MOTH"], "emo": {}, "c": 0.7},
+    "23": {"t": "A", "who": ["MOTH"], "emo": {"MOTH": ["fear", 0.7]}, "c": 0.95},
+    "24": {"to": ["MOTH"], "emo": ["affection", 0.4], "c": 0.98}
+  },
+  "tension": [65, 60, 60, 75, 55, 55, 65, 85, 75, 65, 65, 80, 80]
+}

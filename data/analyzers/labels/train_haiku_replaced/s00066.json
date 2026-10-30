@@ -1,0 +1,30 @@
+{
+"scene_id": "s00066",
+"cast": {"DR. NATHANIEL OYELOWO-STRAND": "NATHANIEL", "NATHANIEL": "NATHANIEL", "NURSE PHILOMENA BRANDT-ADEYEMI": "PHILOMENA", "PHILOMENA": "PHILOMENA", "GASPAR LINDQVIST-MBEKI": "GASPAR", "GASPAR": "GASPAR", "DISPATCH": "DISPATCH"},
+"beats": [1, 7, 12, 17, 21],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "A", "who": ["NATHANIEL"], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["PHILOMENA"], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["GASPAR"], "emo": {}, "c": 0.95},
+"7": {"to": ["ALL"], "emo": ["neutral", 0.3], "c": 0.9},
+"8": {"to": ["NATHANIEL"], "emo": ["neutral", 0.3], "c": 0.9},
+"9": {"to": ["PHILOMENA"], "emo": ["neutral", 0.3], "c": 0.9},
+"10": {"to": ["NATHANIEL"], "emo": ["neutral", 0.3], "c": 0.9},
+"11": {"to": ["NATHANIEL", "PHILOMENA"], "emo": ["neutral", 0.3], "c": 0.8},
+"12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"13": {"to": ["PHILOMENA"], "emo": ["fear", 0.4], "c": 0.85},
+"14": {"t": "A", "who": ["NATHANIEL"], "emo": {}, "c": 0.95},
+"15": {"t": "A", "who": ["PHILOMENA"], "emo": {}, "c": 0.95},
+"16": {"to": ["DISPATCH"], "emo": ["neutral", 0.2], "c": 0.9},
+"17": {"t": "A", "who": ["PHILOMENA", "NATHANIEL", "GASPAR"], "emo": {}, "c": 0.9},
+"18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"19": {"to": ["GASPAR"], "emo": ["neutral", 0.3], "c": 0.9},
+"20": {"to": ["NATHANIEL"], "emo": ["neutral", 0.2], "c": 0.9},
+"21": {"t": "A", "who": ["GASPAR"], "emo": {}, "c": 0.95},
+"22": {"t": "S", "who": [], "emo": {}, "c": 0.95}
+},
+"tension": [15, 30, 55, 60, 70]
+}

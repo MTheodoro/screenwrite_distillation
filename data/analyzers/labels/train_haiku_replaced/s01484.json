@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01484",
+  "cast": {"DETECTIVE VERONICA OSEI-LAMBERT": "VERONICA", "VERONICA": "VERONICA", "DETECTIVE MARGUERITE ILLYICH": "MARGUERITE", "MARGUERITE": "MARGUERITE", "LEONARD ASHBY": "LEONARD", "LEONARD": "LEONARD"},
+  "beats": [1, 4, 7, 10, 11, 14, 17, 19, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "A", "who": ["VERONICA"], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["MARGUERITE"], "emo": {}, "c": 1.0},
+    "6": {"t": "A", "who": ["VERONICA", "MARGUERITE"], "emo": {}, "c": 1.0},
+    "7": {"t": "A", "who": ["LEONARD"], "emo": {}, "c": 1.0},
+    "8": {"t": "D", "who": ["LEONARD"], "emo": {}, "c": 0.9},
+    "9": {"t": "A", "who": ["LEONARD"], "emo": {}, "c": 0.9},
+    "10": {"t": "A", "who": ["VERONICA"], "emo": {}, "c": 1.0},
+    "11": {"to": ["MARGUERITE"], "emo": ["fear", 0.3], "c": 0.9},
+    "12": {"to": ["VERONICA"], "emo": ["neutral", 0.2], "c": 0.95},
+    "13": {"to": ["MARGUERITE"], "emo": ["neutral", 0.2], "c": 0.9},
+    "14": {"t": "A", "who": ["MARGUERITE"], "emo": {}, "c": 1.0},
+    "15": {"t": "A", "who": ["VERONICA"], "emo": {}, "c": 1.0},
+    "16": {"t": "A", "who": ["VERONICA"], "emo": {}, "c": 1.0},
+    "17": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "19": {"to": ["VERONICA"], "emo": ["fear", 0.5], "c": 0.7},
+    "20": {"t": "A", "who": ["VERONICA"], "emo": {}, "c": 1.0},
+    "21": {"t": "A", "who": ["MARGUERITE"], "emo": {}, "c": 1.0},
+    "22": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "23": {"to": ["VERONICA"], "emo": ["fear", 0.6], "c": 0.9},
+    "24": {"to": ["MARGUERITE"], "emo": ["fear", 0.4], "c": 0.9},
+    "25": {"to": ["VERONICA"], "emo": ["fear", 0.5], "c": 0.9}
+  },
+  "tension": [10, 20, 35, 40, 40, 50, 55, 70, 85]
+}

@@ -1,0 +1,31 @@
+{
+  "scene_id": "s01777",
+  "cast": {"HECTOR PRZYBYLSKI": "HECTOR", "HECTOR": "HECTOR", "Mr. Przybylski": "HECTOR", "MILDRED OKAFOR": "MILDRED", "MILDRED": "MILDRED", "TRAVIS BELLWETHER": "TRAVIS", "TRAVIS": "TRAVIS"},
+  "beats": [1, 4, 6, 9, 11, 14, 17, 20, 22],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "D", "who": ["HECTOR"], "emo": {}, "c": 1.0},
+    "5": {"t": "D", "who": ["MILDRED"], "emo": {"MILDRED": ["fear", 0.5]}, "c": 1.0},
+    "6": {"to": ["MILDRED"], "emo": ["neutral", 0.2], "c": 1.0},
+    "7": {"to": ["HECTOR"], "emo": ["anger", 0.2], "c": 1.0},
+    "8": {"to": ["MILDRED"], "emo": ["fear", 0.3], "c": 1.0},
+    "9": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "10": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "11": {"to": ["MILDRED"], "emo": ["disgust", 0.2], "c": 1.0},
+    "12": {"to": ["HECTOR"], "emo": ["neutral", 0.2], "c": 1.0},
+    "13": {"to": ["MILDRED"], "emo": ["disgust", 0.2], "c": 1.0},
+    "14": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "15": {"t": "A", "who": ["TRAVIS"], "emo": {}, "c": 1.0},
+    "16": {"t": "D", "who": ["TRAVIS"], "emo": {"TRAVIS": ["fear", 0.4]}, "c": 1.0},
+    "17": {"to": ["HECTOR"], "emo": ["fear", 0.2], "c": 1.0},
+    "18": {"to": ["TRAVIS"], "emo": ["surprise", 0.3], "c": 0.8},
+    "19": {"to": ["TRAVIS"], "emo": ["surprise", 0.3], "c": 0.7},
+    "20": {"t": "A", "who": ["HECTOR", "MILDRED"], "emo": {}, "c": 1.0},
+    "21": {"t": "A", "who": ["TRAVIS"], "emo": {}, "c": 1.0},
+    "22": {"to": ["HECTOR"], "emo": ["surprise", 0.2], "c": 0.9},
+    "23": {"to": ["TRAVIS"], "emo": ["neutral", 0.2], "c": 1.0}
+  },
+  "tension": [5, 5, 20, 25, 20, 25, 30, 30, 25]
+}

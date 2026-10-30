@@ -1,0 +1,23 @@
+{"scene_id":"s00366","cast":{"DUANE PETTIGREW":"DUANE","DUANE":"DUANE","Duane":"DUANE","LUCINDA FROST":"LUCINDA","LUCINDA":"LUCINDA","Lucinda":"LUCINDA","THEO FROST":"THEO","THEO":"THEO","Theo":"THEO"},
+"beats":[1,4,7,9,10,11,14,15,17,18],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":0.95},
+"2":{"t":"S","who":[],"emo":{},"c":0.95},
+"3":{"t":"S","who":[],"emo":{},"c":0.95},
+"4":{"t":"A","who":["DUANE"],"emo":{},"c":0.95},
+"5":{"t":"A","who":["LUCINDA"],"emo":{},"c":0.95},
+"6":{"t":"A","who":["THEO"],"emo":{},"c":0.95},
+"7":{"to":["LUCINDA","THEO"],"emo":["joy",0.3],"c":0.85},
+"8":{"to":["DUANE"],"emo":["neutral",0.2],"c":0.9},
+"9":{"t":"A","who":["DUANE"],"emo":{},"c":0.95},
+"10":{"t":"A","who":["THEO","LUCINDA","DUANE"],"emo":{"DUANE":["fear",0.3]},"c":0.7},
+"11":{"to":["LUCINDA"],"emo":["neutral",0.2],"c":0.8},
+"12":{"to":["THEO"],"emo":["anger",0.2],"c":0.9},
+"13":{"to":["LUCINDA"],"emo":["fear",0.2],"c":0.85},
+"14":{"to":["THEO","LUCINDA"],"emo":["joy",0.4],"c":0.8},
+"15":{"t":"A","who":["DUANE"],"emo":{},"c":0.95},
+"16":{"t":"A","who":["THEO"],"emo":{},"c":0.95},
+"17":{"t":"A","who":["LUCINDA"],"emo":{},"c":0.95},
+"18":{"t":"A","who":["DUANE","LUCINDA","THEO"],"emo":{},"c":0.9}
+},
+"tension":[5,10,15,15,25,20,20,25,25,30]}

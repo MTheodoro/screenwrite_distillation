@@ -46,445 +46,529 @@ Write each scene's JSON (valid JSON, no comments, no trailing commas) to the giv
 
 ## Scenes
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05106.json
-### SCENE s05106 | INT. CORNERSTONE FITNESS - MORNING
-Detected names (may be incomplete or contain aliases): CAL, BOZ, PAT, INES
-1 A ¶ cal is on the leg press doing about half the weight he thinks he's doing, and boz, the trainer, is next to him counting reps in a voice that says he's counted a lot of reps, and across the floor a woman in a faded blue hoodie sits on the mat doing nothing at all and pat at the front desk is eating a banana and pretending to read the sign-in sheet.
-2 D CAL: it's been like three weeks for me
-3 D BOZ: it's been like three weeks for you for like six years
-4 D CAL: that's fair
-5 A ¶ THE WOMAN looks over from the mat.
-6 A She takes her time, then goes back to staring at her shoes.
-7 D BOZ (low): that's the one who comes at 6 and just sits
-8 D CAL: what's her deal
-9 D BOZ: didn't ask
-10 D CAL: you ask everybody
-11 D BOZ: not her
-12 A ¶ pat leans over the desk.
-13 D PAT: hey, she's got a bag. like a doctor bag. she carries it everywhere
-14 D CAL: maybe she is a doctor
-15 D PAT: doctors go to nicer gyms
-16 A ¶ They all go quiet.
-17 A The woman gets up, opens her bag, takes out a small plastic case and a folded paper, and sets them both very carefully on the bench next to cal, then sits again.
-18 D CAL: uh hi?
-19 D THE WOMAN: you left your pills in the locker room. i found them. i'm ines. i'm a nurse. you took a double dose today didn't you. your hands are doing that thing
-20 A ¶ cal looks at his hands. boz looks at cal's hands. pat puts down the banana.
-21 D CAL: i'm fine
-22 D INES: okay
-23 A ¶ She picks up her bag and walks out.
-24 A The door sighs shut behind her.
-25 A The leg press clanks, once, and stays at the bottom.
-26 D BOZ (after a while): cal. sit down
-27 D CAL: i am sitting
-28 D BOZ: okay
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00524.json
+### SCENE s00524 | INT. PELL & SONS CLOCKMAKERS - NIGHT
+Detected names (may be incomplete or contain aliases): INSPECTOR FOLASADE OYELARAN, CEDRIC PELL, TELEPHONE, DELPHINE
+1 A ¶ A narrow shop that has outlived its century.
+2 A Two hundred clocks line the walls, each a different hour, each ticking out of step, so that the room breathes like a sleeping animal.
+3 A Brass, walnut, bone.
+4 A A single green-shaded lamp burns on the workbench.
+5 A ¶ INSPECTOR FOLASADE OYELARAN, 50s, a grey raincoat dripping onto the floorboards, stands in the middle of this noise with the stillness of someone used to being the only quiet thing in a room.
+6 A ¶ CEDRIC PELL, 60s, watchmaker's loupe pushed up into thinning hair, sits at the bench, a half-assembled movement before him.
+7 A His hands are steady.
+8 A His eyes are not.
+9 D OYELARAN: Mr. Pell, you told the constable you were home all evening.
+10 D PELL: I was home. Upstairs. I live above the shop, Inspector.
+11 D OYELARAN: Yet your lamp was lit down here at nine.
+12 D PELL: Clocks do not repair themselves.
+13 A ¶ A cuckoo bursts from a wall case.
+14 A Nine-thirty on some forgotten schedule.
+15 A Pell flinches.
+16 A Oyelaran does not.
+17 D OYELARAN: You flinch at that one.
+18 D PELL: It was my wife's. She wound it every morning for thirty years.
+19 D OYELARAN: And Mr. Hartigan? Did he wind anything?
+20 D PELL (too quickly): I don't know a Hartigan.
+21 A ¶ The cuckoo retreats.
+22 A A grandfather clock tolls once, deep and wet, as though underwater.
+23 A ¶ Oyelaran crosses to the bench.
+24 A Lifts the movement between two fingers.
+25 A Turns it to the light.
+26 D OYELARAN: Interesting. The mainspring is brand new. The rest is a hundred years old.
+27 D PELL: Restorations are mixed.
+28 D OYELARAN: Mr. Hartigan's watch was found in the canal this afternoon. Stopped at 8:52.
+29 A ¶ Pell goes very still.
+30 D PELL: Water does that.
+31 D OYELARAN: Water doesn't wind a mainspring backward, Mr. Pell.
+32 A ¶ Silence.
+33 A Two hundred clocks and not one of them says the same time.
+34 A ¶ A TELEPHONE rings on the wall.
+35 A Old rotary.
+36 A Black.
+37 A It rings and rings.
+38 D PELL: Let it.
+39 D OYELARAN: No. I think you should answer.
+40 A ¶ Pell rises.
+41 A Crosses.
+42 A Lifts the receiver.
+43 A Listens.
+44 A His face loses its color.
+45 D DELPHINE [V.O.] (over phone, thin): Cedric? Papa? Are they there yet?
+46 D PELL (into phone, hoarse): Delphine, not now.
+47 D DELPHINE [V.O.] (over phone): I did what you said. I put the watch in the canal. But Papa, it was still ticking when I --
+48 A ¶ Pell slams the receiver down.
+49 A Too late.
+50 A The line was open long enough.
+51 A ¶ Oyelaran has not moved.
+52 A Her voice is gentle, almost tender.
+53 D OYELARAN: Your daughter is very honest.
+54 D PELL: She is a child.
+55 D OYELARAN: She is twenty-six.
+56 A ¶ Pell sinks onto the stool.
+57 A The loupe falls from his hair and rolls across the bench, stopping against a screwdriver.
+58 D PELL: He came for the shop. He wanted the building. Hartigan, he said it was only a matter of time before the street --
+59 D OYELARAN: So you wound his watch backward and put him in the canal.
+60 D PELL: No!
+61 A ¶ He stands again, trembling.
+62 A The anger rises up out of him like steam.
+63 D PELL [CONT'D]: No. I did not touch the man. He fell. I swear to you, he fell, he was on the stairs, he laughed at me, Inspector, he laughed at my wife's cuckoo --
+64 D OYELARAN: Mr. Pell.
+65 D PELL: -- and I only wanted him quiet --
+66 D OYELARAN: Cedric.
+67 A ¶ He stops.
+68 A Breathing hard.
+69 D OYELARAN [CONT'D]: Sit down.
+70 A ¶ He sits.
+71 A The cuckoo bursts again, absurd, bright.
+72 A Both of them watch it.
+73 D PELL (small): She never could stand that bird.
+74 A ¶ Oyelaran almost smiles.
+75 A Almost.
+76 D OYELARAN: I will need the key to the cellar.
+77 A ¶ Pell's hand moves to his waistcoat.
+78 A The chain.
+79 A A small brass key.
+80 A He holds it out across the bench.
+81 A ¶ She takes it.
+82 A The lamp flickers.
+83 A ¶ The telephone begins to ring again.
+84 D OYELARAN [CONT'D] (gently): Let it ring.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05107.json
-### SCENE s05107 | INT. MOVING VAN - DAY
-Detected names (may be incomplete or contain aliases): SAM, JEN, BIG DAVE, MO, MRS. K, LOU
-1 A ¶ CLOSE ON the back of a rattling box truck, packed to the roof with old furniture wrapped in grey blankets.
-2 A We see a walnut dresser from the 1920s, a mirror in a gilded frame, and a tall grandfather clock lashed with orange straps.
-3 A ¶ Rain hammers on the metal roof.
-4 A The road outside is wet and grey.
-5 A It is a very dull morning.
-6 A ¶ SAM, 30s, sits on a crate near the back door, looking worried.
-7 A He checks the straps again.
-8 A Next to him JEN, 20s, is writing on a clipboard.
-9 A In the front, through a little window, we see BIG DAVE driving and MO in the passenger seat eating chips.
-10 D SAM: Jen, are you sure the clock is secure? It's worth like ten thousand dollars.
-11 D JEN: He has checked it three times, Sam. He is very sure.
-12 D SAM: I'm just saying, if it falls, we all lose our jobs.
-13 A ¶ The van hits a pothole.
-14 A The clock RATTLES.
-15 A The mirror TINKLES.
-16 A She grabs the clipboard.
-17 A He grabs the clock.
-18 D BIG DAVE [O.S.]: Sorry about that, folks!
-19 D MO [O.S.] (through the window): Dave, watch the road!
-20 A ¶ Lightning FLASHES through the cracks in the door and, for a second, we see everyone's faces lit up in white.
-21 A ¶ In the back, behind the dresser, a hand moves.
-22 A It is an old woman's hand, wrinkled and thin, and she pushes a blanket aside.
-23 A This is MRS. K, 80s, the owner of all this furniture, who has been hiding in the van the whole time.
-24 D SAM (shocked): Mrs. K?
-25 D MRS. K: I wasn't going to let you take Henry's clock without me.
-26 D JEN: Ma'am, you can't be back here. It's not safe.
-27 D MRS. K: I have been safe for eighty years. I would like to be something else.
-28 A ¶ The phone in Jen's pocket BUZZES.
-29 A She looks at it, he looks at her, and she answers.
-30 D JEN (into phone): Hello? Yes, we have her. No, she's fine.
-31 D LOU [V.O.] (over phone): Jen, it's Lou at dispatch. The client's daughter just called. Her mother is missing. Please tell me she's in the van.
-32 D JEN: She is in the van.
-33 D LOU [V.O.]: Oh thank God.
-34 A ¶ The van HONKS and SCREECHES to a halt.
-35 A Everyone slides forward.
-36 A The clock tips.
-37 A Sam catches it, barely.
-38 A They all breathe.
-39 A ¶ A pause.
-40 A The rain softens.
-41 A Out the back window a rainbow, small and surprised, appears over a wet parking lot.
-42 D MRS. K (smiling): Henry always loved a rainbow.
-43 A ¶ Sam looks at her.
-44 A She looks at him.
-45 A They both understand something they cannot say.
-46 D BIG DAVE [O.S.]: We're here! Everybody out!
-47 A ¶ The back door RATTLES OPEN.
-48 A Light pours in.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00252.json
+### SCENE s00252 | EXT. WINDMILL RANCH, DRY PLAINS - DAY
+Detected names (may be incomplete or contain aliases): ABEL MONTGOMERY-OSEI, RADIO
+1 A ¶ A tall steel windmill creaks against a bleached sky.
+2 A A sagging fence runs off into dust.
+3 A Beneath the tower, a water trough, half-empty.
+4 A ¶ ABEL MONTGOMERY-OSEI (50s, long coat, sun-cracked hat, a face like riverbed) rides in, dismounts, and loosens the cinch.
+5 A His horse drinks.
+6 A He doesn't.
+7 A ¶ He walks to the windmill.
+8 A Reaches into the shadow of the tower and pulls out a tin box.
+9 A Opens it.
+10 A Inside: a folded letter, a photograph, a wedding ring.
+11 A ¶ He reads the letter.
+12 A Folds it.
+13 A Pockets the ring.
+14 A Holds the photograph a long time.
+15 A ¶ Then he sits against the windmill leg and stares across the plain.
+16 A ¶ A faint crackle from his saddlebag.
+17 A A small battered radio, strapped there for emergencies.
+18 D ABEL (to the radio): Not now.
+19 A ¶ The crackle repeats.
+20 A A voice, thin and far:
+21 D RADIO [V.O.]: Abel. You there?
+22 D ABEL (sighing): I'm here.
+23 D RADIO [V.O.]: They found the bodies at Cutter's Rise.
+24 D ABEL: I know.
+25 D RADIO [V.O.]: It was the Calloway gang.
+26 D ABEL: I know who it was.
+27 D RADIO [V.O.]: What are you going to do?
+28 A ¶ Abel looks at the windmill blades turning.
+29 A Looks at the dust.
+30 D ABEL: I'm going to stay here a while.
+31 D RADIO [V.O.]: Abel--
+32 D ABEL: A while.
+33 A ¶ He clicks the radio off.
+34 A Puts it back in the bag.
+35 A The wind picks up.
+36 A The windmill groans.
+37 A ¶ Far on the horizon, three riders appear as dark specks.
+38 A Abel doesn't turn.
+39 D ABEL [CONT'D] (to himself): Took you long enough.
+40 A ¶ He stands.
+41 A Draws his revolver.
+42 A Checks it.
+43 A Holsters it.
+44 A Then, deliberately, he sits down again and takes off his hat, resting it on his knee.
+45 A ¶ The riders grow.
+46 A Abel waits.
+47 A ¶ At two hundred yards, one of them raises a rifle.
+48 A Abel doesn't flinch.
+49 D ABEL [CONT'D] (softly, to the photograph): Not yet.
+50 A ¶ The shot cracks.
+51 A The photograph leaps from his hand, a hole through the corner.
+52 A He stares at it.
+53 A Then he is on his feet, gun up, firing three times at the riders.
+54 A One falls.
+55 A The others scatter into the dust.
+56 A ¶ Silence returns.
+57 A The windmill creaks.
+58 A Abel crosses to the photograph, bends, and picks it up with great care.
+59 A A hole where a shoulder used to be.
+60 A ¶ He lowers himself to the ground.
+61 A Breathes.
+62 D ABEL [CONT'D] (to the sky): There. Now we're done.
+63 A ¶ The wind carries the smoke away.
+64 A The blades keep turning.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05108.json
-### SCENE s05108 | INT. COUNTY PAROLE OFFICE - AFTERNOON
-Detected names (may be incomplete or contain aliases): WENDELL PRUITT, OFFICER TANYA BELL, GLORIA
-1 A ¶ The building has the smell of old carpet and burnt coffee.
-2 A A radiator knocks somewhere behind the drywall.
-3 A Outside, the rain has been falling since morning without conviction.
-4 A Under the buzzing tube light, a waiting room of orange plastic chairs, and in them, a cardiac surgeon who used to hold hearts in his hands now holds a clipboard.
-5 A ¶ WENDELL PRUITT, 58, silver-haired, hands still gentle in the way of men who've been told for decades to be careful, sits across from the desk of OFFICER TANYA BELL, 40s, who has the tired patience of someone who has read every excuse ever invented.
-6 A Behind him his wife GLORIA, 50s, grips her purse.
-7 A At the counter, the clerk ODELL stamps forms, and the receptionist JUNO eats her lunch from a tupperware lid.
-8 D BELL: Dr Pruitt you understand the terms. No practising, no prescribing, no supervised access to patients. Not even a flu shot at the church.
-9 D WENDELL: I understand the terms Officer Bell. I'm not asking to practice. I'm asking to sit with one man. His name is Alvin Reese. He has eleven days. His family called me because no one else in this county would touch his valve.
-10 D GLORIA: Wendell
-11 D WENDELL: No Gloria. Let me say it. Eleven years I've kept every rule they gave me. I didn't cut when the board told me not to cut. I didn't speak when the lawyers told me not to speak. A man is dying forty minutes from here and I know exactly how to stop it and I am sitting in a chair that's too small for me asking permission.
-12 D BELL: That's not my decision.
-13 D WENDELL: Whose is it then.
-14 A ¶ The radiator knocks.
-15 A Odell stops stamping.
-16 A Juno stops chewing.
-17 A Bell closes the file very softly, the way you close a door on a sleeping child.
-18 D BELL: Mine, apparently. Doctor, I'm going to step out for ten minutes to take a phone call that I will not be able to remember in the morning. Odell. Juno. You didnt see him leave either.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00366.json
+### SCENE s00366 | INT. MATTRESS SHOWROOM - DAY
+Detected names (may be incomplete or contain aliases): DUANE PETTIGREW, LUCINDA FROST, THEO FROST
+1 A ¶ A cavernous warehouse of beds.
+2 A Banners scream "BLOWOUT."
+3 A A fake sunrise glows over a king-size.
+4 A ¶ DUANE PETTIGREW, forties, a salesman in a shiny tie, hovers over a couple.
+5 A LUCINDA FROST, thirties, bounces gently on a firm model.
+6 A Her husband THEO FROST, thirties, lies flat on a plush one with his shoes on.
+7 D DUANE: This one has four layers of memory foam.
+8 D LUCINDA: I'll take your word.
+9 A ¶ Duane clasps his hands.
+10 A Theo rolls over and sinks into the foam with a long sigh while Lucinda stands and moves to a third bed, which Duane hurriedly pats, and while Theo's shoes drag a smear of mud across the quilted top, Duane gasps and lunges with a wipe, and Lucinda kneels to inspect the springs.
+11 D THEO: I can't get up.
+12 D LUCINDA: It's only a mattress.
+13 D THEO: It has me.
+14 D DUANE: That's the contouring technology!
+15 A ¶ Duane takes Theo's arm and heaves.
+16 A Theo comes up an inch and falls back.
+17 A Lucinda grabs his other arm.
+18 A They pull in unison and the three tumble off the edge of the bed in a heap, the sign "BLOWOUT" swaying overhead.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05110.json
-### SCENE s05110 | INT. GLAMOUR NAILS - DAY
-Detected names (may be incomplete or contain aliases): JEN, MO, BIG DAVE, LILY, TASHA, MRS. K, ^MO
-1 A ¶ SERIES OF SHOTS:
-2 A ¶ - Neon sign flickers on.
-3 A OPEN.
-4 A Pink light on cracked linoleum.
-5 A ¶ - Rows of polish bottles, a hundred shades of nothing-to-say.
-6 A Acetone haze hangs over the room like weather.
-7 A ¶ MRS. K, 60, owner, tiny, reading glasses on a beaded chain, runs the front desk like an air traffic tower.
-8 A Her niece JEN, 20s, ponytail and a tattoo of a swallow on her wrist, files a customer's thumbnail while MO, 30s, soft-spoken and the only one who ever sits down, paints stripes on a toddler's birthday set and BIG DAVE, 50s, a mountain of a man in a tiny salon chair, is getting his first pedicure of his life for his daughter's wedding and hating every second, and in the corner LILY, 70s, silver bob, oxygen-thin voice, flips a magazine she isn't reading, while TASHA, 30s, in scrubs, still wearing her hospital badge, waits her turn with her phone face down.
-9 A ¶ MONTAGE - THE AFTERNOON
-10 A ¶ - 1:15 PM.
-11 A Big Dave winces.
-12 A Jen laughs.
-13 A ¶ - 2:40 PM.
-14 A Lily's magazine slips.
-15 A Tasha glances over.
-16 A Looks away.
-17 A ¶ - 3:30 PM.
-18 A Lily's hand shakes on the armrest.
-19 A Sweat on her lip.
-20 A Nobody else sees.
-21 D TASHA (quietly): Ma'am? You okay?
-22 D LILY: Just warm.
-23 D MRS. K: Jen, the fan!
-24 A ¶ Jen turns the fan.
-25 A The air moves.
-26 A Lily's eyes don't.
-27 D TASHA: Lily, right? When did you last eat?
-28 D LILY: Breakfast. I think. I don't--
-29 D BIG DAVE: She's grey. Why is she grey?
-30 D MRS. K: Nobody panic in my shop!
-31 D ^MO: Call 911. Somebody call 911!
-32 A ¶ Tasha is already on her knees, two fingers at Lily's neck, and Jen grabs the phone, and Mrs. K knocks over a tray of bottles that SHATTER across the floor, red polish spreading like blood while Big Dave lifts the whole chair with Lily in it and Mo screams for room.
-33 D TASHA: Get her flat! Flat! Now!
-34 D MRS. K: Don't tell me what to do in my shop!
-35 D TASHA: Then watch her die in it!
-36 A ¶ Silence.
-37 A Then Lily's chest rises.
-38 A Falls.
-39 A Rises.
-40 A ¶ Sirens, far off, growing.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01476.json
+### SCENE s01476 | INT. ORBITAL GREENHOUSE RING - "SOLARIUM 3" - NIGHT CYCLE
+Detected names (may be incomplete or contain aliases): IMOGEN FAIRWEATHER-OKORO
+1 A ¶ A curved corridor of glass and ribbed steel, wrapped around a slow-turning station.
+2 A Rows of tomato vines climb silver trellises under violet grow-lamps.
+3 A Beyond the glass, Saturn's rings burn thin and gold against black.
+4 A ¶ DR. IMOGEN FAIRWEATHER-OKORO (50s, close-cropped gray hair, a patched blue jumpsuit, hands stained green to the wrist) walks the rows with a tablet.
+5 A She is humming.
+6 A She stops at a vine and presses a ripe tomato between thumb and finger.
+7 D IMOGEN: Good girl.
+8 A ¶ She plucks it, bites in, closes her eyes.
+9 A The station is quiet.
+10 A The lamps hum on a calm note.
+11 A Everything is exactly as it should be.
+12 A ¶ She taps the tablet and speaks into it.
+13 D IMOGEN [CONT'D]: Greenhouse log, day four hundred and twelve. Yield nominal. Humidity nominal. Crew morale...
+14 A ¶ She smiles at the empty corridor.
+15 D IMOGEN [CONT'D]: Nominal. Seeing as I'm the crew.
+16 A ¶ A soft chime.
+17 A The tablet screen flickers.
+18 A A recorded voice, her own, younger, bright, comes through the speaker.
+19 D IMOGEN [V.O.] (recording): Log, day one. If you're hearing this, Imogen, then the relief ship is overdue and I've been right about the schedule all along.
+20 A ¶ Imogen's smile fades.
+21 A She lifts the tablet and scrolls.
+22 A A file she does not remember is open.
+23 D IMOGEN [V.O., CONT'D] (recording): Don't go to the east vines. The ones in the corner. Don't water them. Don't touch them. They aren't ours.
+24 A ¶ Imogen turns her head slowly.
+25 A At the end of the ring, past the last trellis, a single vine she has never planted is climbing the glass, pulsing, in time with her breath.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05112.json
-### SCENE s05112 | INT. VELVET TIPS NAIL LOUNGE - BACK ROOM - NIGHT
-Detected names (may be incomplete or contain aliases): DONNA
-1 A ¶ SUPER: "CORPORATE OFFSITE - DAY 3"
-2 A ¶ INSERT - A LAPTOP SCREEN.
-3 A Video call software.
-4 A A red dot blinks: RECORDING.
-5 D DONNA [O.S.] (sitting straight, clearing her throat, adjusting a headset that does not need adjusting): Hi. Okay. Is it recording? It says recording. Great. This is my statement for the Q3 culture review, and I want to begin by saying I love this company.
-6 D DONNA (smiling very hard): I love the open floor plan, which is a nail salon. I love that our break room is also the supply closet, and that our wellness program is the free acetone.
-7 D DONNA (laughing, not laughing): Which is a joke. That is a joke. Please mark it as humor.
-8 D DONNA (picks up a bottle of polish, reads the label, puts it down): There are two people in this story. Marcy in Accounts and Marty in Facilities. Marcy sends the emails. Marty receives the emails. Except it's reversed, because the system autocorrects them, and for eleven months I have been invoicing Marty's boiler repairs to Marcy's bonus.
-9 D DONNA (leans toward the camera): And Marcy knows. And Marty knows. And I know that they know. And nobody says anything, because this is a culture of respect.
-10 D DONNA (whispering): This is the last time they will speak to me as a colleague.
-11 D DONNA (sits back, normal voice, bright): So here are my concerns. One. The mandatory fun. We have a fun committee. It meets at six a.m. It is not fun. Two. The feedback system, in which you may give anonymous feedback, provided you sign it.
-12 D DONNA (counting on fingers): Three. The word "synergy" was used forty-one times at Tuesday's all-hands, and I counted because I was told to be present.
-13 D DONNA (a long breath, shoulders dropping, eyes wet and furious): And four. I have given this place nine years. I have painted forty thousand nails. Nobody has ever once asked me what colour I would choose.
-14 D DONNA (reaches for a bottle at the edge of frame, a deep, ugly green; holds it up): This one. It is called "Quarterly Growth." I picked it. I would like it on the record that I picked it.
-15 D DONNA (screws the cap off, looks at the camera): Marcy. Marty. If you are watching this, and I know you are, because the call is on the big screen in the lobby--
-16 D DONNA (freezes; slowly turns her head toward the door; turns back, composed): Hi. We'll finish this in the all-hands.
-17 D DONNA (reaches for the laptop, hand shaking, cheerful): Thank you for your time. Please rate this statement out of five.
-18 A ¶ SUPER: "THIS CALL HAS BEEN RECORDED FOR TRAINING PURPOSES"
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00128.json
+### SCENE s00128 | INT. CURLING CLUB - DAWN
+Detected names (may be incomplete or contain aliases): COACH GREER WALLENBERG, STRANGER, MARGIT
+1 A ¶ Empty ice, grey-blue under the rafters.
+2 A A frost-fogged scoreboard.
+3 A COACH GREER WALLENBERG, 50s, thermos in hand, walks the sheet checking pebble, shoulders tight, a man with a final tomorrow.
+4 A ¶ A STRANGER stands at the rail, an elderly woman in a green scarf, hands tucked in her sleeves.
+5 A She has slipped in out of the cold.
+6 A ¶ He sees her.
+7 A He stops.
+8 D GREER: Rink's closed, ma'am.
+9 D STRANGER: So is the door you came through.
+10 A ¶ He glances back.
+11 A It is.
+12 A He turns again, wary, and she steps onto the ice in soft shoes, steady as if she has done it all her life.
+13 D GREER: Who let you in?
+14 D STRANGER: Nobody. I'm just early.
+15 A ¶ She stops beside a stone and nudges it with her toe.
+16 A He bristles.
+17 D GREER: That's the championship stone.
+18 D STRANGER: It pulls left. You know it does.
+19 A ¶ He says nothing.
+20 A She smiles.
+21 D STRANGER [CONT'D]: Margit Lindqvist. I won this club's first trophy in 1961.
+22 D GREER: Greer. I coach the rink that wants the next one.
+23 D MARGIT: Then listen, Greer. You grind that stone on the left side, and your girls will thank you tomorrow.
+24 A ¶ He stares at her, then at the stone.
+25 A He crouches, runs a thumb along the running band.
+26 A A burr.
+27 A Small.
+28 A Real.
+29 D GREER: How did you know?
+30 D MARGIT: It pulled left in 1961, too.
+31 A ¶ He looks up.
+32 A She has already turned for the door, scarf trailing, leaving a line of small wet prints on the ice.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05113.json
-### SCENE s05113 | INT. ST. VINCENT'S - FOURTH FLOOR CORRIDOR - NIGHT
-Detected names (may be incomplete or contain aliases): MARGUERITE, KIM, OZZIE, KIP, DR. HALE
-1 A ¶ Fluorescent hum.
-2 A A gurney wheel squeaks somewhere unseen.
-3 A ¶ Kim, 40s, charge nurse, stands at the station with a chart.
-4 A Kip, 20s, orderly, mops in slow circles nearby.
-5 A A visitor sleeps in a chair, mouth open.
-6 A ¶ Marguerite Voss, 50s, attorney in a wet trench coat, strides in with a leather folio.
-7 D MARGUERITE: I need the patient in 412. Now.
-8 D KIM: Visiting hours ended at nine.
-9 D MARGUERITE: He signed a statement tonight. I need it witnessed before--
-10 A ¶ Ozzie, 30s, night nurse, they/them, appears from a doorway, pale, pen still in hand.
-11 D OZZIE: Nobody's in 412. They went down at ten.
-12 D KIP: Went down where?
-13 D KIM: Ozzie, what do you mean, went down?
-14 D MARGUERITE: Then who signed this?
-15 A ¶ She lifts the page.
-16 A Wet ink.
-17 A Fresh.
-18 A ¶ A call light CHIMES.
-19 A 412.
-20 A ¶ All four look down the hall.
-21 A The door is open.
-22 A ¶ Dr. Hale, 60, in a rumpled white coat, steps out of 412.
-23 A He wipes his hands on a towel.
-24 A He does not look at them.
-25 D DR. HALE (soft): He's resting.
-26 A ¶ The lights flicker.
-27 A Out.
-28 A On.
-29 A ¶ The sleeping visitor is gone.
-30 A The chair still rocks.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00393.json
+### SCENE s00393 | INT. NIGHT FERRY "ADELAIDE" - GALLEY - NIGHT
+Detected names (may be incomplete or contain aliases): ARASH, CLEMENTINE, ABEL
+1 A ¶ A tiny steel kitchen.
+2 A A porthole shows black water.
+3 A Pans hang on a rail and sway with the swell.
+4 A ¶ ARASH, 60, cook, in a white apron, rolls dough on a floured board.
+5 A CLEMENTINE, 30s, in a navy coat, sits on a stool by the oven.
+6 A ABEL, 30s, in shirtsleeves, leans in the doorway with a paper cup of tea.
+7 D ARASH: You two can talk. I'm deaf in the oven ear.
+8 D CLEMENTINE: You don't have an oven ear.
+9 D ARASH: I have a lot of ears.
+10 D ABEL: Clem.
+11 D CLEMENTINE: Abel.
+12 D ABEL: Thirty-one days.
+13 D CLEMENTINE: Thirty-two. It's after midnight.
+14 D ABEL: Thirty-two, then.
+15 D CLEMENTINE: I wrote you.
+16 D ABEL: You wrote me once.
+17 D CLEMENTINE: I wrote you a very good one.
+18 D ABEL: It was good. It said you'd be somewhere else. It didn't say where.
+19 D CLEMENTINE: I didn't know where.
+20 D ABEL: You're on a ferry.
+21 D CLEMENTINE: It was where the ferry was going.
+22 A ¶ Arash turns the dough, folds it, turns it again.
+23 A The ferry rolls.
+24 A The pans clang softly.
+25 D ABEL: You could have called.
+26 D CLEMENTINE: So could you.
+27 D ABEL: I did. Four times.
+28 D CLEMENTINE: I know.
+29 D ABEL: You knew.
+30 D CLEMENTINE: I listened to every one.
+31 D ABEL: And?
+32 D CLEMENTINE: And I didn't pick up.
+33 D ABEL: Why not?
+34 D CLEMENTINE: Because you'd have asked me to come back, and I'd have said yes.
+35 A ¶ A silence.
+36 A The oven ticks.
+37 A Arash's hands slow on the dough.
+38 D ABEL: And that's bad.
+39 D CLEMENTINE: It was then.
+40 D ABEL: And now?
+41 D CLEMENTINE: Now I'd ask you to get on the ferry.
+42 D ABEL: I am on the ferry.
+43 D CLEMENTINE: I know. I saw you at the dock.
+44 D ABEL: You saw me.
+45 D CLEMENTINE: Thirty-two days. I know your walk from a quarter mile.
+46 A ¶ Abel sets down the tea.
+47 A Arash, without turning, sets down the rolling pin.
+48 A He wipes his hands, takes his coat from the hook, and goes out.
+49 A The door swings shut behind him.
+50 D ABEL: Is it too late for the thing I wrote?
+51 D CLEMENTINE: Which thing?
+52 D ABEL: The reply.
+53 D CLEMENTINE: You never sent a reply.
+54 D ABEL: I wrote one every night.
+55 A ¶ He pulls a bundle of letters from his jacket, tied with kitchen twine.
+56 A She stares at it, then takes it.
+57 A Her thumb passes across the top envelope.
+58 D CLEMENTINE (quiet): Read me the first.
+59 D ABEL: It just says your name.
+60 A ¶ She nods.
+61 A He begins to say it.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05114.json
-### SCENE s05114 | INT. PRETTY PINK NAILS - LATE AFTERNOON
-Detected names (may be incomplete or contain aliases): PAM, LOU, GUS
-1 A ¶ Rain taps the front window.
-2 A The sign buzzes.
-3 A A string of dusty Christmas lights, still up in March, blinks out of sync.
-4 A ¶ PAM, 40s, nail tech, bends over a client's hand with a drill file.
-5 A LOU, 50s, the client, scrolls her phone with her free hand.
-6 A ¶ The smell of acetone.
-7 A Of something sweeter under it.
-8 D PAM: Your cuticles are in rough shape Lou.
-9 D LOU: It's the dishwasher. Always the dishwasher.
-10 D PAM: You need a oil. I'll put some on after.
-11 A ¶ The drill WHIRS.
-12 A Stops.
-13 A Whirs.
-14 A ¶ Outside a bus hisses past.
-15 A Wet tires on wet road.
-16 D LOU: Is it me or is it cold in here?
-17 D PAM: Heater's been broke since Tuesday. Mrs K says shes getting a guy.
-18 D LOU: A guy.
-19 D PAM: A guy.
-20 A ¶ Pause.
-21 A The lights hum.
-22 A Somewhere in the back a faucet drips.
-23 A Drip.
-24 A Drip.
-25 D LOU: Did you hear that?
-26 D PAM: The faucet?
-27 D LOU: No. Under it.
-28 A ¶ They listen.
-29 A The faucet.
-30 A The rain.
-31 A The sign.
-32 A ¶ Then a slow scraping, like a chair being dragged across tile in the back room.
-33 D PAM (too brightly): Old building. Pipes.
-34 A ¶ The bell on the front door JINGLES.
-35 A ¶ GUS, 60s, a tall man in a soaked grey raincoat with no umbrella, steps in.
-36 A Water runs off his sleeves onto the mat.
-37 A He smiles with too many teeth.
-38 D GUS: Afternoon, ladies. Is the owner in?
-39 D PAM: Mrs K's out. Can I help you?
-40 D GUS: I'll wait.
-41 A ¶ He sits in the pedicure chair by the window.
-42 A The water jets turn on by themselves.
-43 A Nobody touches them.
-44 D LOU (whispering): Pam.
-45 D PAM: I see it.
-46 A ¶ The scraping in the back stops.
-47 A ¶ Rain.
-48 A Rain.
-49 A Rain.
-50 D GUS: Nice weather for it.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00210.json
+### SCENE s00210 | INT. OPEN-PLAN OFFICE - "SYNERGY HUB" - MORNING
+Detected names (may be incomplete or contain aliases): TARK, BOLLINGER, CORDY, ADESANYA, MARGUERITE LESAGE-OKORO, THAD, QUILLFEATHER
+1 A ¶ Standing desks, bean bags, a kombucha tap, motivational posters.
+2 A A banner: "WE ARE FAMILY."
+3 A A beanbag chair shaped like a unicorn.
+4 A Fluorescent morning light.
+5 A ¶ TARQUIN "TARK" BOLLINGER, 30s, in a vest and sneakers, balances on a wobble board.
+6 A Beside him, CORDELIA "CORDY" ADESANYA, 40s, hair in a tight bun, taps at a laptop.
+7 A MARGUERITE LESAGE-OKORO, 50s, the office manager, hoses a droopy fern.
+8 A THADDEUS "THAD" QUILLFEATHER, 60s, a quiet man in a gray suit, sits at the corner desk, unmoving.
+9 D TARK: Team! Quick sync!
+10 D CORDY: We just did a sync.
+11 D TARK: This is a meta-sync.
+12 D MARGUERITE (over the hose): Tark, the fern is dying.
+13 D TARK: Everything is dying. That's the culture of change.
+14 A ¶ Cordy rolls her eyes.
+15 A Thad stays still.
+16 A He has not moved in some time.
+17 D TARK [CONT'D]: Thad. Buddy. Thoughts?
+18 A ¶ No answer.
+19 D CORDY: Thad?
+20 D MARGUERITE: Thad doesn't talk before ten.
+21 D TARK: It's ten-fifteen.
+22 D CORDY: Is he, uh...
+23 D MARGUERITE: He's fine.
+24 D TARK: He's on mute.
+25 D CORDY: We're in person.
+26 D TARK: Mute is a state of mind.
+27 A ¶ They approach the desk.
+28 A Marguerite prods Thad's shoulder with the hose.
+29 A He topples out of the chair.
+30 A Cordy shrieks.
+31 A Tark falls off the wobble board.
+32 A Marguerite drops the hose, which sprays everyone.
+33 A They scramble backward.
+34 A Thad lies on the floor, eyes closed, and snores.
+35 D CORDY: He's asleep!
+36 D MARGUERITE: He's been asleep since Tuesday.
+37 D TARK: Since Tuesday?
+38 D MARGUERITE: That's when he stopped answering emails.
+39 D TARK: We thought that was mindfulness.
+40 A ¶ Thad opens one eye.
+41 A Sits up, slowly, dripping.
+42 D THAD: Is it Friday?
+43 D CORDY: It's Thursday.
+44 D THAD: Damn.
+45 A ¶ He lies back down.
+46 A Tark stares at the others.
+47 A Cordy stares at Marguerite.
+48 A Marguerite shuts off the water.
+49 D TARK: Okay. New initiative. Naps.
+50 D CORDY: We already have naps.
+51 D TARK: Mandatory naps.
+52 D THAD (from the floor, dreamy): I'd back that.
+53 D MARGUERITE: Tark, who signed off on the quarterly?
+54 D TARK: Which quarterly?
+55 D MARGUERITE: The one that says we're out of money.
+56 D TARK: We're out of money?
+57 D CORDY: We've been out of money since March.
+58 D TARK: But the kombucha tap works.
+59 D MARGUERITE: That's a donation.
+60 A ¶ Tark takes a long, wobbly step.
+61 A He looks at the banner.
+62 A At the unicorn beanbag.
+63 A At the dying fern.
+64 A Behind him, the overhead lights flicker out one by one.
+65 D THAD (softly): Told you.
+66 D TARK: Told me what?
+67 D THAD: That it was Friday.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05115.json
-### SCENE s05115 | INT. THE GRAND MERIDIAN HOTEL - SEVENTH FLOOR CORRIDOR - NIGHT
-Detected names (may be incomplete or contain aliases): DETECTIVE HAROLD WEEMS, CLAIRE BOSWORTH, RICKY
-1 A ¶ We see a long hotel corridor with red carpet and gold wallpaper.
-2 A The lights are dim and it is very quiet.
-3 A Room numbers go from 701 down to 720 and we can tell this is an expensive hotel.
-4 A ¶ CLOSE ON the door of room 714.
-5 A It is slightly open.
-6 A ¶ DETECTIVE HAROLD WEEMS, 50s, wearing a rumpled brown suit and carrying a notepad, walks down the corridor.
-7 A He looks tired because he has been working all night.
-8 A ¶ He stops outside 714 and pushes the door gently with his finger.
-9 D WEEMS: Hello? Police.
-10 A ¶ No answer.
-11 A He steps inside and out of view.
-12 A ¶ A moment later a door SLAMS somewhere down the hall and CLAIRE BOSWORTH, 30s, in a red evening gown, bursts out of the stairwell, out of breath.
-13 A She is holding her shoes in one hand.
-14 A ¶ Weems steps back out into the corridor and sees her.
-15 D WEEMS: Miss Bosworth. I told you to stay in the lobby.
-16 D CLAIRE: I couldn't. Not after what Ricky told me.
-17 D WEEMS: Ricky?
-18 D CLAIRE: The bellhop. He saw someone go into 714 at eleven o'clock, and it wasn't the man who checked in. It was a woman. A tall woman with a scar on her cheek, and she was carrying a case.
-19 D WEEMS: A case. What kind of case?
-20 D CLAIRE: A violin case. Or at least that's what Ricky thought, but he said it was too heavy for a violin, because she had to use both hands, and her whole arm was shaking, and then she looked straight at him and said, "I was never here," and gave him a hundred dollars.
-21 D WEEMS: And he took it.
-22 D CLAIRE: Of course he took it. He's twenty-two and he makes eleven dollars an hour.
-23 D WEEMS: Where is Ricky now?
-24 D CLAIRE: I don't know. He went to take the service elevator down to get his coat, and that was twenty minutes ago, and he hasn't answered his phone.
-25 A ¶ Claire's phone BUZZES in her hand.
-26 A She looks down at it.
-27 A ¶ CLOSE ON the phone screen.
-28 A ¶ ON PHONE: dont trust the cop
-29 A ¶ ON PHONE: hes been in the room before
-30 A ¶ She looks up slowly at Weems.
-31 D WEEMS: What is it?
-32 D CLAIRE: Nothing. It's nothing. Just my sister.
-33 D WEEMS: May I see?
-34 D CLAIRE: No.
-35 A ¶ He reaches for the phone and she pulls it back.
-36 A They both freeze.
-37 A ¶ At the far end of the corridor, the service elevator DINGS.
-38 A ¶ The doors slide open.
-39 A RICKY, 22, in a bellhop uniform, stands there pale and shaking.
-40 A He holds up one hand.
-41 A There is blood on it.
-42 D RICKY: Detective. You need to come with me. Please. Right now.
-43 D WEEMS: What happened to your hand?
-44 D RICKY: It's not my blood.
-45 A ¶ Claire backs away.
-46 A Weems takes a step toward Ricky.
-47 A Claire turns and runs for the stairwell.
-48 D WEEMS: Miss Bosworth! Stop!
-49 A ¶ The stairwell door SLAMS behind her.
-50 A ¶ Weems and Ricky look at each other.
-51 A Neither moves.
-52 D RICKY: She's not who she says she is.
-53 D WEEMS: I know.
-54 D RICKY: You knew?
-55 D WEEMS: I've known since the lobby. But I needed to see where she'd run.
-56 D RICKY: And now?
-57 D WEEMS: Now we go after her, and you tell me everything on the way.
-58 A ¶ They both run toward the stairwell.
-59 A The corridor lights flicker and go out.
-60 A ¶ In the dark, one door CLICKS open.
-61 A Room 714.
-62 A ¶ A tall shadow stands in the doorway.
-63 A She is holding a violin case.
-64 A ¶ She does not move.
-65 A ¶ Her phone BUZZES.
-66 A ¶ ON PHONE: found you
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01230.json
+### SCENE s01230 | INT. NATURAL HISTORY MUSEUM - TAXIDERMY COLD STORE - NIGHT
+Detected names (may be incomplete or contain aliases): YEVGENY BRODSKY, BASIL ACHTERBERG
+1 A ¶ A walk-in freezer the size of a school gym.
+2 A Steel racks of stuffed animals wrapped in clear plastic: a bear, a pair of okapi, a flock of sealed albatrosses.
+3 A The hum of the compressors is constant.
+4 A ¶ YEVGENY BRODSKY (40s, quilted jacket, frost on his eyebrows) kneels at a floor safe.
+5 A A stethoscope hangs around his neck.
+6 A He turns the dial a quarter click at a time.
+7 A ¶ BASIL ACHTERBERG (60s, museum night guard's uniform, crisp, keys at his belt) stands over him with a thermos.
+8 A He pours tea into the cap and offers it down.
+9 D YEVGENY: I'm good.
+10 D BASIL: It's minus eighteen. You're shivering.
+11 D YEVGENY: I'm concentrating.
+12 A ¶ Yevgeny doesn't look up.
+13 A Basil sips the tea himself.
+14 A Looks at a polar bear in its plastic shroud, nods to it like an old neighbour.
+15 D BASIL: You like the quiet?
+16 D YEVGENY: I like it when nobody talks.
+17 D BASIL: He used to say that. Your father.
+18 A ¶ Yevgeny's hand stops.
+19 A Just for a heartbeat.
+20 A The dial doesn't move.
+21 D YEVGENY: You said you didn't know him.
+22 D BASIL: I said I didn't know him well.
+23 A ¶ He screws the cap back on the thermos.
+24 A His expression is mild, neighbourly.
+25 A Yevgeny resumes the dial.
+26 A Click.
+27 A Click.
+28 A Click.
+29 A ¶ The safe clunks open.
+30 A Inside, a velvet bag.
+31 A Yevgeny lifts it, weighs it, loosens the drawstring.
+32 A A heavy stone slides into his glove: a rough diamond the size of a plum.
+33 D YEVGENY [CONT'D] (low): There you are.
+34 D BASIL: It's smaller than I thought.
+35 D YEVGENY: It's always smaller.
+36 D BASIL: Put it back.
+37 A ¶ Yevgeny looks up.
+38 A The thermos is still in Basil's right hand.
+39 A In his left, steady as a stone, is a small black pistol.
+40 D YEVGENY: Basil.
+41 D BASIL: Put it back in the bag. Pull the string. Slide the bag back on the shelf. Close the door.
+42 D YEVGENY: We said sixty-forty.
+43 D BASIL: We did.
+44 D YEVGENY: You said you were retiring.
+45 D BASIL: I am. Tonight.
+46 A ¶ Yevgeny draws the string slowly.
+47 A Laying the bag in the safe, his hand lingers.
+48 A Frost creeps up his sleeve.
+49 D YEVGENY: How long have you known?
+50 D BASIL: He told me what you'd come for. Before he died. He asked me to stand here.
+51 A ¶ Yevgeny closes the safe door.
+52 A The sound is small and final.
+53 A He sits back on his heels, hands visible on his knees.
+54 D YEVGENY: He said that?
+55 D BASIL: He said, my boy will want to be a thief. Be there when he does.
+56 A ¶ A long silence.
+57 A The compressors hum.
+58 A ¶ Basil lowers the pistol.
+59 A Sets it on the nearest rack, next to the polar bear.
+60 A Unscrews the thermos.
+61 A Pours another cap of tea.
+62 A ¶ He holds it out.
+63 A This time Yevgeny takes it.
+64 T FADE OUT.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05116.json
-### SCENE s05116 | INT. MERCY GENERAL - NURSES' STATION - NIGHT
-Detected names (may be incomplete or contain aliases): INES, WALLY
-1 A ¶ 3 a.m.
-2 A The hospital hums.
-3 A Vending machine glows.
-4 A A mop bucket sits abandoned.
-5 A Rain on the windows.
-6 A ¶ Its heritage week, so the whole floor is in costume.
-7 A A banner reads "MERCY GENERAL: 100 YEARS OF CARING."
-8 A ¶ INES, 50s, night nurse, wears a starched 1920s nurse's cap and a cardigan.
-9 A She counts pills.
-10 A Dry as toast.
-11 A ¶ WALLY, 30s, resident, bursts through the doors in a full Victorian surgeon's apron and top hat.
-12 A ¶ (Applause beat.)
-13 D WALLY: Good evening Ines. Did you miss me?
-14 D INES (not looking up): Seven hours isn't long enough.
-15 A ¶ ANGLE ON Wally, who tips the hat.
-16 A It falls off.
-17 D WALLY: It was a very sturdy hat this morning.
-18 D INES: They gave you the one with the moth.
-19 A ¶ He picks it up.
-20 A Looks inside.
-21 A A moth flutters out.
-22 D WALLY: Well. It's alive. That's more than I can say for my evening.
-23 A ¶ She slides a chart across the counter without a word.
-24 A ¶ INSERT - THE CHART.
-25 A Room 9.
-26 A Patient: M. Alder.
-27 A Allergies: none.
-28 A Next of kin: blank.
-29 A ¶ BACK TO SCENE
-30 D WALLY: Whos Mr. Alder?
-31 D INES: Brought in at midnight. No visitors. No calls.
-32 D WALLY: Maybe he's shy.
-33 D INES: Maybe.
-34 A ¶ She sorts the pills again.
-35 A Same pills.
-36 A Same order.
-37 D WALLY: You've counted those three times.
-38 D INES: Four.
-39 A ¶ He looks at her.
-40 A She doesn't look back.
-41 A The vending machine HUMS.
-42 D WALLY: Ines. Is something
-43 D INES: Pass me the pen.
-44 A ¶ He passes the pen.
-45 A She writes "Alder" and then crosses it out and writes it again, slower.
-46 A ¶ WE SEE through the glass of Room 9, a man's hand resting on the blanket, a wedding ring catching the light.
-47 D WALLY (softly): You know him.
-48 D INES: I know a lot of people.
-49 D WALLY: Ines.
-50 D INES: He was a medic. In the old days. We worked a flood together in '09. He carried me out of a basement.
-51 A ¶ She puts the pen down very carefully, like it might break.
-52 D WALLY: Shall I
-53 D INES: No. I'll go.
-54 A ¶ She straightens her cap.
-55 A Walks to Room 9.
-56 A At the door she pauses, one hand on the frame, and for a second the whole floor is silent.
-57 A Even the rain.
-58 A ¶ CLOSE ON Wally, who takes off his ridiculous hat and holds it against his chest.
-59 A ¶ She goes in.
-60 A The door closes.
-61 A ¶ The monitor beeps once.
-62 A Then again, faster.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01206.json
+### SCENE s01206 | EXT. FERRIS WHEEL - TOP CABIN - NIGHT
+Detected names (may be incomplete or contain aliases): FENELLA, RAUL, ABIOLA, NOLAN
+1 A ¶ The wheel has stopped at its peak.
+2 A The city glitters below.
+3 A Wind rocks the cabin.
+4 A A duffel bag lies open on the bench.
+5 A ¶ FENELLA (30s, black turtleneck) is hunched over a thermal drill.
+6 A RAUL (40s, sunglasses even now) peers out of the window, scanning the ground.
+7 A ABIOLA (20s, headset) mutters coordinates into a radio.
+8 A NOLAN (50s, ex-operator's jacket) sits slumped with his feet on the duffel.
+9 A ¶ She jabs the drill at the floor.
+10 A He jerks the curtain.
+11 A She curses.
+12 A He snaps his fingers.
+13 D FENELLA: Hold it still.
+14 D RAUL: I'm holding.
+15 D ABIOLA: Wind's rising. Four knots.
+16 D NOLAN: We said sixty seconds.
+17 D FENELLA: We said sixty seconds yesterday.
+18 D RAUL: We said sixty seconds before you spilled the thermite.
+19 D ABIOLA: Everyone, quiet. Security's on the midway.
+20 A ¶ They freeze.
+21 A Beneath them the wheel creaks.
+22 A She taps her earpiece.
+23 A He holds his breath.
+24 A They all lean toward the window as a flashlight beam sweeps the base of the wheel.
+25 D NOLAN (whisper): Don't breathe.
+26 D FENELLA (whisper): Then who's talking?
+27 D RAUL (whisper): You are.
+28 A ¶ The beam passes.
+29 A The wheel jolts.
+30 A The cabin begins, very slowly, to descend.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05117.json
-### SCENE s05117 | INT. NEW DAWN FERTILITY CLINIC - RECEPTION - NIGHT
-Detected names (may be incomplete or contain aliases): JO, RAY, FREEZER DOOR SLAMS, BEA, RADIO, VIC
-1 A ¶ Empty waiting room.
-2 A Soft jazz on a dead speaker.
-3 A Rain streaks the windows.
-4 A ¶ Orchids.
-5 A Glossy brochures.
-6 A A wall of baby photos.
-7 A ¶ JO, 30s, receptionist, locks the front drawer.
-8 A Hurries.
-9 A ¶ Her phone BUZZES.
-10 A ¶ She snatches it.
-11 A Reads.
-12 A Pales.
-13 A ¶ RAY, 40s, night security, strolls in with a flashlight and a donut.
-14 D RAY: Working late, Jo?
-15 D JO: Just leaving.
-16 D RAY: Door's alarmed. Nobody leaves till eleven.
-17 A ¶ She backs toward the hall.
-18 D JO: Ray. Please.
-19 A ¶ BEEP-BEEP-BEEP.
-20 A The alarm panel blinks red.
-21 A ¶ Ray's smile dies.
-22 A He drops the donut.
-23 D RAY: What did you take?
-24 A ¶ Down the hall, a FREEZER DOOR SLAMS.
-25 A ¶ Both turn.
-26 A ¶ BEA, 30s, lab tech, sprints out of the lab with a steel canister in her arms.
-27 A Frost pours off it.
-28 A Her scrubs are soaked.
-29 D BEA: Go! Go! Go!
-30 D RAY: Put it down!
-31 D BEA: Those are eleven families, Ray!
-32 D JO: She's right. Look at the logs. Somebody's been selling them.
-33 A ¶ Ray hesitates.
-34 A His radio CRACKLES.
-35 D RADIO [V.O.]: Unit four, status?
-36 A ¶ A shadow fills the glass front doors.
-37 A ¶ VIC, 50s, in a black coat, a clinic director's badge swinging from his neck, raises a keycard.
-38 A The lock CLICKS.
-39 D VIC: Nobody move.
-40 A ¶ Jo grabs the canister.
-41 A Bea shoves Ray.
-42 A The alarm SCREAMS.
-43 A ¶ They bolt for the fire exit.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00909.json
+### SCENE s00909 | EXT. MONASTERY ORCHARD - TRENCH LINE - EVENING
+Detected names (may be incomplete or contain aliases): HENRI DUBOIS, ALBERT QUIGLEY, SANTIAGO MORALES, JOSEPH WHITEFEATHER
+1 A ¶ A line of earth cut through rows of apple trees, their blossoms falling like a slow snow into the mud.
+2 A Beyond the wall, the white stones of a ruined abbey.
+3 A The sky is the colour of old pewter.
+4 A Everything is hushed, as though the war has paused to breathe.
+5 A ¶ LT. HENRI DUBOIS, 30s, sits on an upturned crate at the lip of the trench, a bandage around his left hand, scribbling in a notebook.
+6 A Thin as a rake, with a poet's brow and a smoker's cough.
+7 A ¶ SGT. ALBERT QUIGLEY, 50s, a barrel-chested veteran with a drooping moustache, squats beside a battered kettle over a spirit stove.
+8 A He fusses with the tea, humming under his breath.
+9 A ¶ PVT.
+10 A SANTIAGO MORALES, 20, round-faced, sits on the firing step with a harmonica he does not play.
+11 A He turns it over and over in his hands.
+12 A ¶ CPL.
+13 A JOSEPH WHITEFEATHER, 30s, tall, quiet, leans against the trench wall cleaning a rifle with a rag, eyes half-closed, a long braid down his back.
+14 D QUIGLEY: Tea's nearly ready.
+15 D DUBOIS: Lovely.
+16 D QUIGLEY: It's terrible tea.
+17 D DUBOIS: Then it's British.
+18 D QUIGLEY (chuckling): I'm from Leeds, sir. It's worse than British.
+19 A ¶ Morales lifts the harmonica to his lips, hesitates, lowers it.
+20 A Whitefeather glances over without comment, then returns to the rifle.
+21 A A petal drifts into the kettle.
+22 A Quigley fishes it out with a finger.
+23 D MORALES: Sergeant, is it true what they say about the orchard?
+24 D QUIGLEY: What do they say?
+25 D MORALES: That the monks planted these trees four hundred years ago.
+26 D QUIGLEY: Five hundred.
+27 D DUBOIS: Closer to six, I believe. The brothers kept records.
+28 D MORALES: Records of what?
+29 D DUBOIS: Of every harvest. Every frost. Every war that passed through.
+30 D WHITEFEATHER (quietly): Did they write about us?
+31 D DUBOIS: Not yet.
+32 A ¶ A rumble far off, then silence again.
+33 A The four men listen.
+34 A A single blackbird begins to sing from the abbey wall, and Morales finally plays three soft notes on the harmonica before dropping his hand, embarrassed, while Quigley pours the tea into dented tin mugs, hands one to Dubois, one to Whitefeather, one to Morales, and settles back on his heels with the last mug warming his palms, all of them listening to the bird as the light goes slowly copper over the blossoming wall.
+35 D QUIGLEY: Funny thing.
+36 D DUBOIS: Mm?
+37 D QUIGLEY: I've never heard a bird sing in a war before.
+38 D WHITEFEATHER: They only sing when it's over.
+39 D QUIGLEY: It's not over.
+40 D WHITEFEATHER: No.
+41 A ¶ The blackbird sings on.
+42 A Dubois closes his notebook and lifts his mug in a small salute to the trees.

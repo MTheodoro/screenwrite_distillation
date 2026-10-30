@@ -46,380 +46,394 @@ Write each scene's JSON (valid JSON, no comments, no trailing commas) to the giv
 
 ## Scenes
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05044.json
-### SCENE s05044 | INT. RIDESHARE - NIGHT
-Detected names (may be incomplete or contain aliases): THE WOMAN, TOBIAS, INES, PIP, HOLLIS, MARA
-1 A ¶ SUPER: "2:07 AM.
-2 A ROUTE 9.
-3 A NO STREETLIGHTS."
-4 A ¶ A battered hatchback, air freshener swinging, dashboard mounted phone glowing with a map that shows a road that does not exist on any other map.
-5 A Rain of a strange silver colour hangs in the headlights without falling.
-6 A ¶ Tobias Wren, 50s, driver, tired kind eyes, a thermos wedged between the seats, drives with one hand.
-7 A In the back seat sits the hooded passenger, THE WOMAN, face hidden, a long coat soaked at the hem, hands folded very still on a wooden box in her lap.
-8 A ¶ Next to her slumps Pip, 19, student, earbuds in, a backpack clutched like a pillow.
-9 A In the far seat is Hollis Grey, 60s, in a pressed suit, not touching the upholstery, and beside Tobias in the front sits Ines, 30s, a nurse in scrubs, scrolling her phone with a frown.
-10 A ¶ CLOSE ON the dashboard clock.
-11 A 2:07.
-12 A It does not change.
-13 D TOBIAS (glancing in the mirror): Everyone good back there? I can turn the heat up.
-14 A ¶ Nobody answers.
-15 A THE WOMAN tilts her head, listening to something far away.
-16 D INES: Your app says four minutes to Birchmont. We've been four minutes for twenty.
-17 D TOBIAS: Road's long tonight.
-18 A ¶ ANGLE ON Pip pulling out an earbud, blinking at the window.
-19 D PIP: There's a tree out there. Same tree. Left side, three times now.
-20 D HOLLIS (smoothing his tie): A man learns to stop counting trees.
-21 D TOBIAS (a short laugh that doesn't land): Okay, that's not a thing people say.
-22 A ¶ WE SEE the wooden box in THE WOMAN's lap.
-23 A A faint light seams its edges.
-24 A Her fingers tighten.
-25 D INES (turning in her seat): Ma'am? You okay? You haven't said anything since you got in.
-26 D THE WOMAN (a low, even voice): I have been saying it. You have not been listening.
-27 A ¶ INSERT - THE BOX
-28 A ¶ Carved into the lid: a small door, and a keyhole shaped like a crescent.
-29 A ¶ BACK TO SCENE
-30 A ¶ Tobias taps the brakes.
-31 A The car does not slow.
-32 A The silver rain begins to fall upward.
-33 D PIP (hands flat on the seat in front of him): Tobias. Dude. The brakes.
-34 D TOBIAS (knuckles whitening): I'm pressing them.
-35 D HOLLIS (quietly, to nobody): She's come for the debt. It was always going to be tonight.
-36 D INES: What debt? Whose debt?
-37 A ¶ THE WOMAN lifts her hood.
-38 A Her face is a girl's face, maybe sixteen, silver-eyed, tired, very old.
-39 D THE WOMAN: Hollis took the key from my mother. He promised to bring it back before the moon turned.
-40 D HOLLIS (rising from the seat, bumping the roof): Mara. Please. I was young.
-41 D MARA (opening the box, a pale blaze filling the car): You were forty-one.
-42 A ¶ The light swallows the dashboard, the map, the unmoving clock.
-43 A Tobias shouts.
-44 A Pip's earbud falls to the floor.
-45 A Ines grabs for the door handle and finds it gone.
-46 A ¶ CLOSE ON Hollis's hand, a crescent-shaped key trembling in his palm.
-47 D HOLLIS (extending it, voice breaking): Take it. Take it and let them out.
-48 D MARA (taking the key, setting it in the lid): They were never held. Only you.
-49 A ¶ The car stops.
-50 A All at once.
-51 A The rain falls down again.
-52 A ¶ Silence.
-53 A The hatchback sits in an empty field under a normal moon.
-54 A The seat beside Mara is empty, a pressed suit folded neatly on the cushion.
-55 D TOBIAS (barely breathing): Where did he go?
-56 D MARA (closing the box, stepping out into the grass): Home.
-57 A ¶ She walks away into the dark.
-58 A The dashboard clock finally clicks to 2:08.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s02032.json
+### SCENE s02032 | INT. LIGHTHOUSE KEEPER'S QUARTERS - NIGHT
+Detected names (may be incomplete or contain aliases): OLIVER FENWICK, ESTHER FENWICK, TIMOTHY, KNOCK, MARGUERITE HOLLOWAY
+1 A ¶ A round room papered in sea charts.
+2 A A coal stove, a kettle, a narrow bed.
+3 A The window shakes with wind.
+4 A Every few seconds the lighthouse beam sweeps across the walls, white, then gone.
+5 A ¶ OLIVER FENWICK (50s, keeper, cardigan, pipe) pours tea.
+6 A ESTHER FENWICK (50s, his wife, knitting) sits by the stove.
+7 A Between them, their grown son TIMOTHY (20s, home from the mainland, restless) paces to the window and back.
+8 D OLIVER: Tea, Tim?
+9 D TIMOTHY: No, Dad.
+10 D ESTHER: He's nervous.
+11 D TIMOTHY: I'm not nervous.
+12 D ESTHER: You're wearing a groove in the floor.
+13 D OLIVER: Sit.
+14 D TIMOTHY: There's someone on the rocks.
+15 D OLIVER: There's no one on the rocks.
+16 D ESTHER: There's no one on the rocks.
+17 D TIMOTHY: I saw a light.
+18 D OLIVER: Our light.
+19 D TIMOTHY: No. Lower.
+20 A ¶ The beam sweeps.
+21 A Passes.
+22 A Then, from the dark below, a KNOCK.
+23 A Three slow raps on the door.
+24 A ¶ Esther's needles stop.
+25 A Oliver's pipe stops halfway to his mouth.
+26 D ESTHER: Who would be out in this?
+27 A ¶ Timothy opens the door.
+28 A Wind whips in.
+29 A On the step stands MARGUERITE HOLLOWAY (30s, drenched oilskin, hair plastered, lantern in hand, eyes calm).
+30 D MARGUERITE: Forgive the hour. My boat has run aground.
+31 D OLIVER: Come in, come in! Esther, a towel!
+32 D ESTHER: There's no boat on that shoal, Oliver. There hasn't been one since--
+33 D OLIVER: Esther.
+34 A ¶ Marguerite steps inside, drips onto the mat, offers a small smile.
+35 D MARGUERITE: A cup of tea would be kind.
+36 D TIMOTHY: Where did you moor?
+37 D MARGUERITE: Where the water let me.
+38 D ESTHER: That's not an answer.
+39 D OLIVER: She's half frozen!
+40 D TIMOTHY: Dad--
+41 D OLIVER: Tim!
+42 D ESTHER: Child, you are shaking.
+43 D MARGUERITE: Am I?
+44 A ¶ She looks at her hand, holding the lantern.
+45 A Perfectly steady.
+46 A The flame inside does not flicker, though the wind is howling through the open door.
+47 A ¶ The beam sweeps across the room again.
+48 A The three Fenwicks glance at one another.
+49 A Oliver closes the door.
+50 A Esther pours a fourth cup, and they all pretend, with great courtesy, that nothing at all is wrong.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05045.json
-### SCENE s05045 | INT. FUNERAL RECEPTION - COMMUNITY HALL - DAY
-Detected names (may be incomplete or contain aliases): LUIS, RAY
-1 A ¶ Trays of sandwiches, a slideshow looping on a projector.
-2 A Coach Frank Dunleavy's face, forty years of whistles and clipboards, fills the wall.
-3 A ¶ Two teenagers in oversized suits fight over the last deviled egg while a waiter weaves past them with a tray of lukewarm coffee and a little brown dog sneaks under the buffet table.
-4 A ¶ Ray Pruitt, 50s, former star pitcher, stands by the window with a paper cup.
-5 A Across the room Luis Navarro, 50s, his old catcher, enters, spots him, and stops dead.
-6 A ¶ INSERT - THE SLIDESHOW
-7 A ¶ A photo of both men, young, arms around each other, a championship trophy between them.
-8 A ¶ BACK TO SCENE
-9 A ¶ Luis crosses the room slowly.
-10 A Ray doesn't turn.
-11 D LUIS: You came.
-12 D RAY: He was my coach too.
-13 D LUIS: He was his coach more than he was yours. After what you did to him he barley spoke your name.
-14 D RAY (finally turning): What I did to him. Okay.
-15 A ¶ CLOSE ON Ray's hand tightening around the cup, coffee spilling over his knuckles.
-16 D LUIS: You threw that game. Everybody knew. Frank knew. he took it to his grave and so did I untill today.
-17 D RAY: You want to do this at his funeral.
-18 D LUIS: You wanted to do it at his funeral. You wore the ring.
-19 A ¶ A teenager drops a plate.
-20 A The waiter freezes.
-21 A The dog yips.
-22 A The whole room turns, and the slideshow flips to the next photo, Frank holding a trophy over his head.
-23 D RAY (very quietly): I'm sorry.
-24 D LUIS (blinking, his anger leaving all at once): Say it to him.
-25 A ¶ Ray sets the cup on the sill, walks to the projector, and stands in its beam so Frank's smile falls across his chest.
-
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05046_0.json
-### SCENE s05046_0 | INT. MERCY GENERAL HOSPITAL - NURSES' STATION - NIGHT
-Detected names (may be incomplete or contain aliases): CHARGE NURSE, KESSLER, PRIYA
-1 A ¶ We see a long hallway with flickering fluorescent lights, which is a metaphor for how the main character feels inside.
-2 A It is 3 AM.
-3 A CLOSE ON a clock on the wall.
-4 A ¶ THE NEW GIRL, 19, sits at the station in oversized scrubs, her badge flipped backwards.
-5 A She is clearly nervous and has never worked a night shift before, which we can tell because she keeps looking at her phone.
-6 D THE NEW GIRL (straightening a stack of charts that are already straight, then knocking them over): Okay. Okay. Breathe.
-7 A ¶ A voice crackles from the intercom.
-8 D CHARGE NURSE [V.O.]: Station, it's Bea. Are you there?
-9 D THE NEW GIRL (grabbing the handset too hard, nearly dropping it): Yes! Here! Station! Hi!
-10 D CHARGE NURSE [V.O.]: Room 12's call light is on. Can you check on Mr. Kessler?
-11 D THE NEW GIRL (standing, tripping on her own lanyard): Totally. Absolutely. Going now.
-12 A ¶ We see her walk down the hallway to Room 12, past a vending machine that hums.
-13 A She stops outside the door.
-14 D KESSLER [O.S.]: Who's that? Is that Kim?
-15 D THE NEW GIRL (sighing, opening the door a crack): It's not Kim, Mr. Kessler. It's... it's me. The new one.
-16 D KESSLER [O.S.]: Oh. Kip said you'd be shorter.
-17 D THE NEW GIRL (laughing, wiping her eyes with the back of her hand): Kip is the other night nurse. He says a lot of things.
-18 D KESSLER [O.S.] (softly): You've got kind hands. I can hear it in your steps.
-19 D THE NEW GIRL (pausing in the doorway, pressing a hand to her chest): Thank you. I think that's the nicest thing anyone has said all week.
-20 A ¶ The intercom crackles again.
-21 D CHARGE NURSE [V.O.]: Priya, you still there? Your mom's on line two. She says you left your lunch in the car.
-22 D PRIYA (burying her face in her hands, shoulders shaking with laughter): I'm going to quit. I'm going to quit tonight.
-23 D KESSLER [O.S.] (warmly): You won't.
-24 T CUT TO:
-
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05046_1.json
-### SCENE s05046_1 | INT. NURSES' STATION - LATER
-Detected names (may be incomplete or contain aliases): 
-1 A ¶ Priya sits back down.
-2 A For the first time all night she doesn't check her phone.
-
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05047.json
-### SCENE s05047 | INT. THE HARGREAVES KITCHEN - NIGHT
-Detected names (may be incomplete or contain aliases): ROSALIND HARGREAVES, TOM
-1 A ¶ Rain against the window, steady and unremarkable.
-2 A The fridge hum has died.
-3 A Somewhere down the road a transformer has given up, and the whole street has gone the colour of weak tea.
-4 A ¶ A single candle on the table.
-5 A A cold pot of something on the hob.
-6 A A mug, a second mug, a phone face-up between them.
-7 A ¶ ROSALIND HARGREAVES, 50s, cardigan, reading glasses on a string, stands at the sink with her back to the room.
-8 A Her son, TOM, 17, sits at the table in a school blazer he has not taken off.
-9 A ¶ The clock on the wall has stopped at ten past nine.
-10 D ROSALIND (rinsing a cup that is already clean): You're back early.
-11 D TOM (turning the phone over, then back): Not really.
-12 A ¶ Outside, a dog barks twice and thinks better of it.
-13 A ¶ ON PHONE: "DAD: Spoke to your mum.
-14 A We'll sort it.
-15 A Don't be daft."
-16 D ROSALIND (without turning): He texted you as well, did he?
-17 D TOM (a very small nod): Said not to be daft.
-18 D ROSALIND (drying her hands slowly on a tea towel): That does sound like him.
-19 A ¶ The candle gutters.
-20 A A gust finds the back door and goes away again.
-21 A Neither of them moves to fix it.
-22 D TOM (picking at the edge of the table): I got the letter from Durham.
-23 D ROSALIND (her shoulders very slightly tightening): Did you.
-24 D TOM (a breath out through his nose): They've offered me a place.
-25 D ROSALIND (finally turning, the towel in both hands): Well. That's marvellous.
-26 D TOM (not looking up): You don't sound it.
-27 D ROSALIND (a small, brittle laugh): I'm told it's the done thing, to sound it.
-28 A ¶ The rain eases for a moment.
-29 A In the quiet, the house ticks as it cools.
-30 A ¶ This is the last evening the three of them will pretend to be a family under this roof.
-31 D TOM (standing, the chair scraping the tiles): I've not even said I'll go yet.
-32 D ROSALIND (folding the towel, setting it down, squaring its corners): You've said it. You said it when you came in with your coat still on.
-33 A ¶ ON PHONE: "DAD: pick up. please."
-34 D TOM (snatching the phone, thumb over the screen, a crack in his voice): Mum, I'm not leaving you here on your own.
-35 D ROSALIND (crossing the kitchen, taking the phone from his hand, setting it face-down on the table): Thomas. You will go. And I shall be perfectly all right. It's only a power cut.
-36 A ¶ The candle burns on.
-37 A Somewhere across the road, a generator coughs and catches, and one lit window blinks into being.
-
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05048.json
-### SCENE s05048 | INT. JUNE'S BEDROOM - NIGHT
-Detected names (may be incomplete or contain aliases): JUNE PARK, WESLEY, BEN, MOM, AUNT LIN
-1 A ¶ Posters, fairy lights, a pile of laundry that is definitely not just laundry.
-2 A JUNE PARK, 16, sits on the bed in pajamas with her best friend WESLEY, 17, and her little brother BEN, 9, who is holding a flashlight he was told not to touch.
-3 D JUNE (whispering, tugging a blanket over all three of them): Okay so the rule is nobody screams. If somebody screams we all die.
-4 D WESLEY (also whispering, much louder): That is not how that works.
-5 D BEN (clicking the flashlight on and off): It is exactly how that works.
-6 A ¶ The phone BUZZES on the nightstand.
-7 A June jumps.
-8 A Wesley shrieks and ducks under a pillow.
-9 D JUNE (snatching it, glaring at him): You screamed!
-10 D WESLEY (muffled): I did not scream I sneezed in a very high register.
-11 A ¶ ON PHONE: "MOM: Honey are you asleep?
-12 A Door's locked right?"
-13 D JUNE (texting back with her thumbs flying): Mom is checking on me. Act asleep.
-14 D BEN (flopping dramatically onto the pillow): Zzzz. Zzzz. Why am I the one doing the snoring?
-15 D WESLEY (jabbing a finger at him): Because you're the most convincing.
-16 A ¶ A door SLAMS somewhere in the house.
-17 A All three freeze.
-18 D MOM [V.O.] (through the phone, tinny, on speaker now): June? Is that you in the hall?
-19 D JUNE (going pale, the phone trembling in her hand): Mom, I'm in my room.
-20 D MOM [V.O.] (slowly): Then who just walked past my door?
-21 A ¶ The closet door CREAKS open.
-22 A From the shadows, a tall figure in a shower curtain hobbles out, dragging one foot, groaning.
-23 A ¶ AUNT LIN, 40s, June's aunt, ghoul makeup smeared, grinning.
-24 D AUNT LIN (throwing off the curtain): Surprise! Happy Halloween eve!
-25 D WESLEY (throwing the pillow, shrieking): I hate this family!
-26 D JUNE (laughing, hitting her with the blanket): Aunt Lin! You almost killed us!
-27 D BEN (shining the flashlight in her face): You look dead. It's great.
-28 D AUNT LIN (accepting a pillow to the face): I've been rehearsing since Tuesday.
-29 D MOM [V.O.] (sighing): I told her not to. Goodnight, everyone.
-
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05050.json
-### SCENE s05050 | INT. HOLLOWAY KITCHEN - NIGHT
-Detected names (may be incomplete or contain aliases): HANNAH, BECK, THE TWINS, ROSALIND, ILYA, DESMOND
-1 A ¶ The power has been out for eleven minutes, and in that time Hannah Voss has built a small, ordinary world out of candles and tea lights, the way she once built forts out of couch cushions, certain that if the room looks cozy enough then nothing outside it can be wrong.
-2 A ¶ Dark.
-3 A Candle flames.
-4 A The fridge, silent.
-5 A ¶ Desmond, her husband, 40s, stands at the window with his phone held up like a lantern, and he is not looking at the sky.
-6 A He is looking at the street.
-7 A Every house on it is dark in exactly the same way.
-8 A ¶ Rosalind, 16, sits on the counter swinging her heels.
-9 A Beside the stove, Ilya, Hannah's father, 70s, hums something tuneless and kind.
-10 A Nothing wrong.
-11 A ¶ Beck, the neighbour, 50s, leans in the back doorway with a flashlight pointed politely at the floor.
-12 D HANNAH: Grid's down to the coast, Beck says. Probably a transformer.
-13 D BECK: Probably. Probably a transformer.
-14 D THE TWINS (together, from under the table): Can we have the marshmallows now?
-15 D ROSALIND: You had marshmallows.
-16 D THE TWINS: That was before.
-17 D ILYA: Before what? Before what?
-18 D DESMOND (not turning): Hannah. Come here.
-19 D HANNAH: In a second, Des, the girls are...
-20 D DESMOND: Now.
-21 A ¶ She crosses the kitchen.
-22 A Wax.
-23 A Tea.
-24 A The smell of home.
-25 A ¶ Outside, above the roofline, the stars are wrong.
-26 A Too many.
-27 A Too still.
-28 A And one of them is moving toward the house.
-29 A ¶ Silence.
-30 A ¶ Her phone.
-31 A Dead.
-32 D BECK: That is not a transformer.
-33 D ROSALIND: Mom?
-34 D THE TWINS: Is it the visitors?
-35 A ¶ Nobody breathes.
-36 A Hannah turns, slowly, and sees that Ilya has stopped humming, and that her father is smiling at the window like a man whose train has finally come in.
-37 D ILYA (softly): They said it would be in the evening.
-
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05051.json
-### SCENE s05051 | INT. NIGHT BUS - MOVING - NIGHT
-Detected names (may be incomplete or contain aliases): NELL, HOODIE GUY, BARROW, IRIS, SHRIEK
-1 A ¶ Rain on glass.
-2 A Neon smears past.
-3 A ¶ A battered double-decker, half empty, rattling through a city that does not appear on any map.
-4 A Flickering strip lights.
-5 A Vinyl seats slashed and taped.
-6 A A bell that rings by itself.
-7 A ¶ Two teenagers share earbuds in the back row.
-8 A A scruffy terrier sleeps under a seat.
-9 A ¶ Up front, NELL (20s, soot on her cheek, a sword wrapped in a rain poncho) grips the pole.
-10 A ¶ HOODIE GUY sits across the aisle.
-11 A Grey hood.
-12 A No face.
-13 A Just a slow, steady grin in the dark.
-14 A ¶ The engine COUGHS.
-15 D NELL (to the whole bus): Nobody panic. We're ahead of them.
-16 D BARROW (a hulking man in a bus-driver's cap, hauling the wheel): Define ahead.
-17 A ¶ BELL.
-18 A DING.
-19 A DING.
-20 D NELL (muttered): Come on, come on.
-21 A ¶ The lights DIE.
-22 A Back on.
-23 A Silence.
-24 A ¶ Rain.
-25 A Nothing.
-26 D IRIS (clutching a lantern, eyes on the roof): Something just landed up there.
-27 A ¶ THUMP.
-28 A THUMP.
-29 A THUMP.
-30 A ¶ The teenagers pull out their earbuds.
-31 A The dog lifts its head.
-32 D BARROW (hands off the wheel, cracking his knuckles): Hold this thing steady.
-33 D NELL (drawing the sword, glaring at the ceiling): You're not steering?
-34 D BARROW (grinning): Not anymore.
-35 A ¶ CRUNCH.
-36 A A claw punches through the roof.
-37 D HOODIE GUY (rising, pushing back his hood, calm): Let me.
-38 A ¶ A flash of silver light.
-39 A A SHRIEK from above.
-40 A Then a heavy body slides off the roof and is gone.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01286.json
+### SCENE s01286 | EXT. SUNNYBROOK PETTING ZOO - DAY
+Detected names (may be incomplete or contain aliases): BIRTHDAY CLOWN, TEDDY, PRIYANKA DESHMUKH, DOLORES SWAN, GERALD
+1 A ¶ Hay bales.
+2 A A painted red barn.
+3 A A banner reads HAPPY 7TH BIRTHDAY, TEDDY!
+4 A Beneath it, a crowd of parents with phones.
+5 A ¶ A BIRTHDAY CLOWN, 40s, in an orange wig and enormous shoes, wrestles a bundle of balloon animals.
+6 A A goat watches him with great interest.
+7 A ¶ MRS. PRIYANKA DESHMUKH, 40s, blazer, lanyard, a party planner with a tight smile, marches over with a clipboard.
+8 A ¶ TEDDY, 7, birthday boy, paper crown crooked, stands at the pen.
+9 A He holds a carrot out to the goat.
+10 A He is very serious.
+11 A ¶ DOLORES SWAN, 50s, the zookeeper, in rubber boots and a faded cap, leans on a rake and stares at the clown with wary eyes.
+12 D PRIYANKA: You're ten minutes late.
+13 D CLOWN: Traffic. Also the goat ate my map.
+14 D PRIYANKA: You're a clown. You don't need a map.
+15 D CLOWN: I'm a fully qualified clown, ma'am. I have a certificate.
+16 D DOLORES: He's got a certificate.
+17 D PRIYANKA: Do you have a name, certificate?
+18 D CLOWN: Giggles.
+19 D PRIYANKA: Your real name.
+20 D CLOWN (lowering his voice): Gerald.
+21 D DOLORES: Gerald, that goat has been staring at you for five minutes. He doesn't like clowns.
+22 D GERALD: Why not?
+23 D DOLORES: Last clown was a bad time.
+24 A ¶ The goat lowers its head.
+25 A Gerald backs away.
+26 A The goat steps forward.
+27 A Gerald trips over his shoe, grabs a balloon sword from his belt, thrusts it like a rapier.
+28 A The sword POPS.
+29 A The goat CHARGES.
+30 A ¶ Gerald bolts across the yard, wig flying, shoes flapping.
+31 A Priyanka drops the clipboard.
+32 A Dolores drops the rake and sprints after the goat, shouting.
+33 A Teddy bursts into laughter and runs after all of them, crown bouncing.
+34 A The parents' phones come up like a field of tiny cameras.
+35 D GERALD [CONT'D] (over his shoulder): Is that a good goat?!
+36 D DOLORES: That's a goat!
+37 A ¶ Gerald vaults a hay bale and lands face-first in the pen.
+38 A The goat skids to a stop.
+39 A Sniffs his wig.
+40 A Eats it.
 41 A ¶ Silence.
-42 A Rain.
-43 D IRIS (whispering): Who are you?
-44 D HOODIE GUY (sitting back down): Cass. Once upon a time, I was the one they sent you to find.
-45 D NELL (lowering the sword, to herself): Of course you were.
-46 A ¶ The bus hums on into the dark.
-47 A The dog goes back to sleep.
+42 A Then applause.
+43 D TEDDY: Best birthday ever!
+44 A ¶ Gerald lies in the straw, hairless, beaming.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05052.json
-### SCENE s05052 | EXT. DUSTY HITCHING POST OUTSIDE THE GENERAL STORE - DAY
-Detected names (may be incomplete or contain aliases): JO, KIP, KIM
-1 A ¶ Heat.
-2 A A tumbleweed rolls by like it has somewhere to be.
-3 A ¶ Kip, 17, leans on the rail with his hat pulled low.
-4 A He is staring at his phone like it owes him money.
-5 A Two steps away, Kim, 17, doing the exact same thing, is not looking at him.
-6 A ¶ CLOSE ON Kip's screen.
-7 A INSERT - the group chat.
-8 A ¶ ON PHONE: @Kip_Rides: so ur the one thats always online ON PHONE: @KimInTheSaddle: ur the one who left me on read for 3 weeks
-9 A ¶ Neither of them move.
-10 A ¶ ANGLE ON the road.
-11 A A third rider trots up, Jo, 18, in a duster two sizes too big.
-12 A He ties the horse and takes a long time doing it.
-13 D JO: So. That's the whole group then.
-14 D KIP: Guess so.
-15 D KIM: Guess so.
-16 A ¶ Silence.
-17 A A fly buzzes.
-18 D JO: We could get a soda. Theres a place.
-19 D KIP: Its closed.
-20 D JO: Its a saloon, it's always closed in the day.
-21 A ¶ She laughs, short and cracked, and looks at her boots.
-22 A He kicks the dirt.
-23 A Neither one says what they are thinking.
-24 A She types something, deletes it, types something else.
-25 A ¶ WE SEE Kip's phone light up.
-26 A ¶ INSERT - ON PHONE: @KimInTheSaddle: ok this is weird
-27 A ¶ Kip glances up.
-28 A Kim glances up.
-29 A They both look away at the same time.
-30 D KIP (low): Yeah.
-31 D JO: You two want me to leave or
-32 D KIM: No.
-33 D KIP: No, stay.
-34 A ¶ He shifts his weight.
-35 A She pulls her sleeve over her hand.
-36 A It stays quiet for a while, the way a long road does.
-37 A ¶ BACK TO SCENE
-38 D JO: Okay, soda, I'll buy. Come on.
-39 A ¶ He walks first.
-40 A They follow, a few steps apart, phones dark in their hands.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s02291.json
+### SCENE s02291 | INT. CONSERVATORY, FINCH-HATTON HOUSE - EARLY MORNING
+Detected names (may be incomplete or contain aliases): INSPECTOR OSWIN PELLEGRINI, LADY CORDELIA FINCH-HATTON, AMOS TREVELYAN, BERNADETTE QUILL, JASPER
+1 A ¶ Glass walls beaded with dew.
+2 A Orchids hang from iron hooks.
+3 A Rain taps the roof like fingernails on a table.
+4 A A white sheet covers something long on the tiled floor.
+5 A ¶ INSPECTOR OSWIN PELLEGRINI, fifties, rumpled tweed, a pipe he does not light, stands over the sheet.
+6 A Around him wait the household: LADY CORDELIA FINCH-HATTON, seventy, upright in a wheelchair; AMOS TREVELYAN, the butler, pale as candle wax; MRS. BERNADETTE QUILL, the cook, wringing a dishcloth; and JASPER, the nephew, twenty-two, slouched against a palm.
+7 D PELLEGRINI: Nobody leaves.
+8 D JASPER: We were having breakfast.
+9 D PELLEGRINI: Then you may have it later.
+10 A ¶ He crouches.
+11 A He lifts the corner of the sheet and lets it fall.
+12 A Lady Cordelia grips the arms of her chair.
+13 A The cook turns her face to the glass.
+14 D PELLEGRINI [CONT'D] (to himself): No sign of a struggle.
+15 D AMOS: Inspector, if I might say.
+16 D PELLEGRINI: You might.
+17 D AMOS: The doors were locked at eleven.
+18 D MRS. QUILL: They were. I locked the kitchen.
+19 D JASPER: I locked nothing, I never lock anything.
+20 D CORDELIA: Be quiet, Jasper.
+21 D PELLEGRINI: Lady Finch-Hatton, who was the last to see him?
+22 D CORDELIA: I was. At half past ten.
+23 D PELLEGRINI: And?
+24 D CORDELIA: He was watering the orchids.
+25 A ¶ Pellegrini rises, slowly, and goes to the nearest hanging basket.
+26 A He touches the soil with two fingers.
+27 D PELLEGRINI (a murmur): Dry.
+28 A ¶ Jasper and Amos exchange a look.
+29 A Mrs. Quill drops the dishcloth.
+30 A Cordelia's wheels creak as she rolls backward half a foot, and then stops.
+31 D PELLEGRINI [CONT'D] (to the room): Whoever killed him watered the plants after.
+32 A ¶ Silence.
+33 A Rain.
+34 A Then, softly, Lady Cordelia begins to laugh.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05053.json
-### SCENE s05053 | INT. WESTFIELD HIGH SCHOOL - BOYS' BATHROOM - DAY
-Detected names (may be incomplete or contain aliases): SAM, MO, BIG DAVE, JEN, MRS. K
-1 A ¶ ON CAMERA: handheld, shaky, filming through a gap between two stalls.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01588.json
+### SCENE s01588 | INT. OPERA HOUSE - BALCONY BOX - EVENING
+Detected names (may be incomplete or contain aliases): CLAIRE, JACK, MADAME DUBOIS, GENERAL HARTLEY
+1 A ¶ Velvet.
+2 A Gilt.
+3 A Below, an orchestra tunes.
+4 A ¶ CLAIRE (30s, emerald gown) sits rigid.
+5 A Beside her, JACK (30s, tux, a man who bought tickets in a hurry).
+6 A Two seats behind: her mother, MADAME DUBOIS (60s, pearls, lorgnette), and his father, GENERAL HARTLEY (60s, medals, mustache).
+7 A ¶ She does not look at him.
+8 A He does not look at her.
+9 A ¶ Her fingers drum the armrest.
+10 A His gaze stays on the stage.
+11 A ¶ The lights dim.
+12 A The overture begins.
+13 A His hand drifts toward hers, hesitates, withdraws.
+14 A She notices.
+15 A ¶ Madame Dubois lowers her lorgnette.
+16 A The General coughs.
+17 D CLAIRE (whispering): You came.
+18 D JACK (whispering): You asked.
+19 D CLAIRE: I asked in March.
+20 D JACK: I got the letter in June.
+21 A ¶ The music swells.
+22 A She turns at last.
+23 A He meets her eyes.
+24 A The General leans forward to hear.
+25 A Madame Dubois leans too.
+26 D CLAIRE (whispering): Stay for the second act?
+27 D JACK (whispering): Forever.
+
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01484.json
+### SCENE s01484 | INT. ABANDONED LANGUAGE LABORATORY - NIGHT
+Detected names (may be incomplete or contain aliases): DETECTIVE VERONICA OSEI-LAMBERT, DETECTIVE MARGUERITE ILLYICH, LEONARD ASHBY
+1 A ¶ Forty carrels in rows, each with a dead headset hung on its hook like a tiny hanged man.
+2 A Cassette decks, dusty.
+3 A A reel-to-reel machine at the front of the room, its tape spooled out across the floor and into the dark.
+4 A ¶ DETECTIVE VERONICA OSEI-LAMBERT (40s, trench coat, a flashlight clamped in her teeth) steps between the carrels.
+5 A Behind her, DETECTIVE MARGUERITE ILLYICH (40s, long coat, notebook out) keeps one hand on the grip of her sidearm.
+6 A Neither speaks.
+7 A ¶ At the rear wall, a man sits slumped in a carrel, headset clamped on.
+8 A LEONARD ASHBY (50s, a gray cardigan), dead or sleeping.
+9 A His chest does not rise.
+10 A ¶ Veronica takes the flashlight from her mouth.
+11 D VERONICA: She said to look at the tape.
+12 D MARGUERITE: Who said?
+13 D VERONICA: She did.
+14 A ¶ Marguerite follows the loose tape with her eyes, from the reel-to-reel along the floor to Leonard's carrel, where it is fed through the deck beneath his hands.
+15 A Veronica leans over him.
+16 A She lifts the headset, holds it to her own ear.
+17 A ¶ A hiss.
+18 A A voice, thin and warm, from the earpiece.
+19 D LEONARD [V.O.] (recorded): If you are hearing this, then she has already left the building. She is on the third floor. She has the key. She is not alone.
+20 A ¶ Veronica pulls the headset off.
+21 A Marguerite has already turned to the door.
+22 A On the landing outside, slow footsteps climb, and a keyring chimes at every step.
+23 D MARGUERITE (whispering): She's early.
+24 D VERONICA: Who is?
+25 D MARGUERITE: Both of us, I think.
+
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01680.json
+### SCENE s01680 | INT. ICE-MINING RIG CONTROL CAB - NIGHT
+Detected names (may be incomplete or contain aliases): ANSELM DRAKE, CONTROL
+1 A ¶ A cramped cab bolted to the side of a comet fragment.
+2 A Frost on the windows.
+3 A Red warning lights pulse.
+4 A ¶ ANSELM DRAKE (40s, miner, worn flight suit) straps into the operator seat.
+5 A A radio crackles on the dash.
+6 D CONTROL [V.O.]: Rig Nine, this is Control. Report.
+7 D ANSELM: Rig Nine. Drill's jammed at four hundred meters.
+8 D CONTROL [V.O.]: Copy. Is the cable still tensioned?
+9 D ANSELM: Tensioned and shaking.
+10 D CONTROL [V.O.]: Anselm, you need to cut it loose.
+11 D ANSELM: If I cut it, I lose the whole string.
+12 D CONTROL [V.O.]: If you don't, you lose the rig.
+13 A ¶ Anselm checks a gauge.
+14 A The needle is buried in the red.
+15 D ANSELM: How long have I got?
+16 D CONTROL [V.O.]: Eight minutes, maybe less.
+17 D ANSELM: Maybe less. Great.
+18 D CONTROL [V.O.]: Anselm. Listen to me.
+19 D ANSELM: I'm listening.
+20 D CONTROL [V.O.]: The fragment is rotating faster than predicted. The tether will snap.
+21 D ANSELM: Then tell me what to do.
+22 D CONTROL [V.O.]: Release the clamp.
+23 D ANSELM: That's what I'm trying to --
+24 A ¶ The cab lurches.
+25 A A cup slides off the dash and shatters.
+26 D ANSELM [CONT'D]: It's not releasing!
+27 D CONTROL [V.O.]: Use the manual override.
+28 A ¶ He flips a cover.
+29 A Pulls a lever.
+30 A Nothing.
+31 D ANSELM: Manual's dead.
+32 D CONTROL [V.O.]: Then go outside.
+33 D ANSELM: Outside?
+34 D CONTROL [V.O.]: Hammer it free.
+35 D ANSELM: You want me to hit it with a hammer.
+36 D CONTROL [V.O.]: I want you to live.
+37 A ¶ Anselm grabs a helmet.
+38 A Seals it.
+39 D ANSELM: Tell my sister I said --
+40 D CONTROL [V.O.]: Tell her yourself when you're back.
+41 D ANSELM: Tell her I said it was a good rig.
+42 A ¶ He slaps the airlock.
+43 A It cycles open on black.
+
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00390.json
+### SCENE s00390 | INT. TOLL BOOTH UNDER THE TROLL BRIDGE - DAWN
+Detected names (may be incomplete or contain aliases): PAY PASS, BRAMBLE, ISKANDAR
+1 A ¶ A stone hut slung beneath a humped bridge.
+2 A Moss.
+3 A A river chuckles below.
+4 A A hand-lettered sign: PAY OR PASS (DON'T PASS).
+5 A ¶ BRAMBLE, 100, a troll in a postman's cap, sits behind a counter sorting copper coins.
+6 A Her skin is the color of a wet slate, her fingers like roots.
+7 A A herd of goats shuffles at her feet.
+8 D BRAMBLE (to goats): Morning, you lot. Don't touch the ledger.
+9 A ¶ A shadow falls across the booth window.
+10 A ISKANDAR, 30s, a merchant in a long green coat, stands with a donkey cart.
+11 A He bows.
+12 D ISKANDAR: Good morning, tollkeeper.
+13 D BRAMBLE: Toll's two coppers.
+14 D ISKANDAR: That's very reasonable.
+15 D BRAMBLE: It's the rate.
+16 D ISKANDAR: Here is four, to be generous.
+17 A ¶ Bramble takes the coins.
+18 A She bites one.
+19 A She looks at him with narrowed, amber eyes.
+20 D BRAMBLE (muttering): Nobody pays four.
+21 D ISKANDAR: What was that?
+22 D BRAMBLE: Nothing. Weather. Cross.
+23 A ¶ He nods, relieved, and starts the cart.
+24 A She lets him get three steps before she raises her voice.
+25 D BRAMBLE [CONT'D] (to the goats, loud): Everyone, we have a customer who pays double!
+26 A ¶ The goats lift their heads as one.
+27 D ISKANDAR (stopping): Is something the matter?
+28 D BRAMBLE: No, no. Only that the last man who paid double was a king in disguise.
+29 D ISKANDAR: I'm not a king.
+30 D BRAMBLE: Of course not. Kings never are.
+31 A ¶ She comes out from behind the counter.
+32 A She is much taller than the booth suggested.
+33 A The goats back away from her.
+34 D ISKANDAR: I think I'll pay for the road in kind.
+35 D BRAMBLE (to him, soft): You'll pay the first thing you meet on the far side.
+36 D ISKANDAR: That's an old story.
+37 D BRAMBLE: It's an old toll.
+38 A ¶ From the far end of the bridge, a bell rings.
+39 A A small figure in a red coat is running toward the cart, arms wide, calling.
+40 D ISKANDAR (a whisper): Leila.
+41 A ¶ Bramble watches him.
+42 A Her face does not change.
+43 D BRAMBLE (to herself): Always the child.
+
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s02480.json
+### SCENE s02480 | INT. ICE ARENA - ZAMBONI BAY - NIGHT
+Detected names (may be incomplete or contain aliases): LUCIANA FERRARI-OYELE, DEACON BRUNO, BARTOSZ
+1 A ¶ Concrete.
 2 A Fluorescent hum.
-3 A A dripping tap.
-4 A ¶ Sam, 17, leans on the sink, phone in hand, in a hoodie.
-5 A Next to him, Mo, 17, washes his hands for far too long.
-6 A ¶ The documentary crew is not supposed to be here.
-7 A They are here anyway.
-8 D SAM (to camera, quiet): You said you wouldn't film this part.
-9 D MO: Turn it off. Seriously.
-10 A ¶ The tap runs.
-11 A Nobody turns anything off.
-12 A ¶ This is the last time they will all be in the same room before the hearing.
-13 A ¶ A stall door SLAMS.
-14 A Big Dave, 18, steps out, shoulders filling the frame.
-15 D BIG DAVE: Who's talking? Who's talking about me?
-16 D SAM: Nobody.
-17 D MO: We're not.
-18 D JEN (from the doorway, a girl in a blazer, clipboard clutched): You're all still here? The hearing's in ten minutes.
-19 D BIG DAVE: You think I don't know that?
-20 D SAM: Jen, you shouldn't be in here.
-21 D JEN: Mrs. K said to find you.
-22 D MO: She said what?
-23 D BIG DAVE: She said it's fine, they said it's fine, it's all fine.
-24 D JEN: Nobody said it's fine, Dave.
-25 D SAM: Can we just
-26 D MO: Let her finish.
-27 D JEN: The statement has to match. Word for word. If one of you changes one thing.
-28 D BIG DAVE: I'm not changing anything.
-29 D MO: You already did. You said it was a door.
-30 D BIG DAVE: It WAS a door.
-31 D SAM: It wasn't a door, man.
-32 D JEN: Stop. Everyone stop.
-33 A ¶ The phone BUZZES in Sam's hand.
-34 A He stares at it.
-35 D MRS. K [O.S.] (through the door): Samuel? Time.
-36 A ¶ Nobody moves.
-37 A The tap drips.
-38 A Sam sets the phone on the sink, face down.
-39 D SAM (barely a whisper): I'm telling them.
+3 A A resurfacer idles, steam rising off its blade.
+4 A Puddles on the floor.
+5 A ¶ LUCIANA FERRARI-OYELE, 20s, goalie, pads strapped on, sits on an upturned bucket.
+6 A Helmet on her knee.
+7 A ¶ DEACON BRUNO, 60s, driver, climbs down from the machine with a coffee.
+8 A Slow knees.
+9 D LUCIANA: You're late, Deacon.
+10 D DEACON: You're early, Lu.
+11 A ¶ He sits on a second bucket.
+12 A Offers the coffee.
+13 A She shakes her head.
+14 A ¶ Silence.
+15 A Compressor thrum.
+16 D LUCIANA: Three hundred shots.
+17 D DEACON: That a goal?
+18 D LUCIANA: That's tonight. Before they flood the ice.
+19 D DEACON: You'll wear a hole in the crease.
+20 D LUCIANA: Good.
+21 A ¶ A wall speaker CRACKLES.
+22 D BARTOSZ [V.O.] (over PA, tinny): Deacon, you in the bay?
+23 D DEACON (not moving): Where else.
+24 D BARTOSZ [V.O.]: Hold the flood. Coach wants Luciana out there another hour.
+25 A ¶ Deacon looks at Luciana.
+26 A She looks at the floor.
+27 D DEACON: She's already here, Bart.
+28 D BARTOSZ [V.O.]: Then she's early. Tell her thanks.
+29 A ¶ Click.
+30 A Silence.
+31 D LUCIANA: He doesn't know I'm out of the lineup.
+32 D DEACON: Tell him.
+33 D LUCIANA: Tomorrow.
+34 D DEACON: Tomorrow, Lu, I'll be flooding ice you're not on.
+35 A ¶ She pulls her helmet down.
+36 A Stands.
+37 A Bangs her stick twice on the concrete.
+38 D LUCIANA: Open the door, Deacon.
+39 A ¶ He climbs back on the machine.
+40 A Lifts the gate.
+41 A Cold light pours across the ice.
+
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01121.json
+### SCENE s01121 | INT. LIGHTHOUSE LAMP ROOM - NIGHT
+Detected names (may be incomplete or contain aliases): HARLAN VOSS, NELL STRAND, DOYLE
+1 A ¶ A glass cage at the top of a hundred iron steps.
+2 A The great lens turns, throwing slow white blades across a storm-black sea.
+3 A Rain hammers the panes.
+4 A ¶ HARLAN VOSS (50s, rumpled trench coat, a gambler's patient eyes) lowers himself through the floor hatch, breathing hard.
+5 A Across the lens stands NELL STRAND (30s, sharp, soaked, a revolver steady in both hands).
+6 D NELL: That's far enough, Mr. Voss.
+7 D VOSS: You've been a long climb, Miss Strand.
+8 A ¶ The beam sweeps over them.
+9 A In the flash, a third figure: DOYLE (40s, keeper's oilskins, face cut and bloody) crouched behind the lamp mechanism, a flare gun in his fist.
+10 D DOYLE: Both of you, drop it. I swear I'll burn this tower down.
+11 A ¶ Nell swings her gun toward Doyle.
+12 A Voss lunges for Nell.
+13 A The three of them freeze as the beam passes, then the light goes out.
+14 A ¶ DARKNESS.
+15 A A scuffle, a gunshot, glass shattering.
+16 A ¶ The lamp grinds back to life.
+17 A Nell has Doyle's arm twisted behind him.
+18 A Voss holds the revolver, aimed at neither of them.
+19 D VOSS: Now. Who wants to tell me where the ledger is?
+20 A ¶ Doyle laughs, breathless, and nods at the sea.
+21 D DOYLE: Eighty feet down. Good luck.
+
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01461.json
+### SCENE s01461 | INT. FARMHOUSE KITCHEN - EARLY MORNING
+Detected names (may be incomplete or contain aliases): NANA PHILOMENA, TEODOR
+1 A ¶ A low-beamed room that smells of woodsmoke and yeast.
+2 A A cast-iron stove ticks.
+3 A Copper pans hang from a rack above a scrubbed pine table.
+4 A Through the window, frost coats a vegetable garden and a rooster stands on the fence post like a weathervane.
+5 A ¶ NANA PHILOMENA (80s, shawl over a flannel nightgown, hands knotted as old rope) kneads dough at the table, her movements slow and exact.
+6 A Across from her, her grandson TEODOR (7, pajamas with rocket ships, hair in a cowlick) kneels on a chair, a ball of dough in each fist.
+7 D TEODOR: Mine's a rabbit.
+8 D NANA PHILOMENA: It looks like a potato.
+9 D TEODOR: It's a rabbit potato.
+10 A ¶ She smiles, dusts flour from her thumb, and takes his dough.
+11 A Pinches two ears from the top.
+12 A Hands it back.
+13 D NANA PHILOMENA: Now it's a rabbit.
+14 A ¶ He sets it on the tray beside the others.
+15 A A row of small misshapen animals.
+16 A Outside, the rooster crows once, late.
+17 D TEODOR: Nana?
+18 D NANA PHILOMENA: Mm.
+19 D TEODOR: Will you teach me the bread song?
+20 D NANA PHILOMENA: There's no song.
+21 D TEODOR: Mum says there is.
+22 D NANA PHILOMENA: Your mother talks too much.
+23 A ¶ She begins to hum, a low, wavering tune, kneading in time.
+24 A He hums with her, a half-step off, and neither corrects the other.

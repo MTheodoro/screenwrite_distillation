@@ -1,0 +1,33 @@
+{
+  "scene_id": "s01838",
+  "cast": {"THEODORA \"TEDDY\" LUND": "TEDDY", "TEDDY": "TEDDY", "LUND": "TEDDY", "Cor": "CORINNE", "ARMAND BELLWETHER": "ARMAND", "ARMAND": "ARMAND", "CORINNE": "CORINNE", "OLD MR. BELLWETHER": "OLD MR. BELLWETHER"},
+  "beats": [1, 4, 7, 11, 15, 18, 19, 21, 23, 25],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["TEDDY"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["ARMAND"], "emo": {}, "c": 0.95},
+    "6": {"t": "D", "who": ["CORINNE", "OLD MR. BELLWETHER"], "emo": {"CORINNE": ["anger", 0.2]}, "c": 0.9},
+    "7": {"to": ["ARMAND"], "emo": ["joy", 0.2], "c": 0.95},
+    "8": {"to": ["TEDDY"], "emo": ["neutral", 0.2], "c": 0.95},
+    "9": {"to": ["ARMAND"], "emo": ["joy", 0.3], "c": 0.95},
+    "10": {"to": ["TEDDY"], "emo": ["joy", 0.3], "c": 0.95},
+    "11": {"to": ["TEDDY"], "emo": ["anger", 0.2], "c": 0.95},
+    "12": {"to": ["CORINNE"], "emo": ["neutral", 0.2], "c": 0.95},
+    "13": {"to": ["TEDDY"], "emo": ["anger", 0.3], "c": 0.95},
+    "14": {"to": ["CORINNE"], "emo": ["joy", 0.3], "c": 0.95},
+    "15": {"t": "A", "who": ["ARMAND"], "emo": {}, "c": 0.9},
+    "16": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "17": {"t": "A", "who": ["TEDDY", "ARMAND"], "emo": {"TEDDY": ["affection", 0.3], "ARMAND": ["affection", 0.3]}, "c": 0.85},
+    "18": {"t": "A", "who": ["OLD MR. BELLWETHER"], "emo": {"OLD MR. BELLWETHER": ["disgust", 0.2]}, "c": 0.95},
+    "19": {"to": ["OLD MR. BELLWETHER"], "emo": ["neutral", 0.2], "c": 0.95},
+    "20": {"to": ["ARMAND"], "emo": ["anger", 0.3], "c": 0.85},
+    "21": {"to": ["OLD MR. BELLWETHER"], "emo": ["affection", 0.4], "c": 0.85},
+    "22": {"to": ["ARMAND"], "emo": ["joy", 0.5], "c": 0.95},
+    "23": {"t": "A", "who": ["ARMAND"], "emo": {}, "c": 0.95},
+    "24": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "25": {"t": "A", "who": ["CORINNE"], "emo": {"CORINNE": ["surprise", 0.3]}, "c": 0.9}
+  },
+  "tension": [5, 10, 12, 20, 15, 25, 25, 40, 45, 45]
+}

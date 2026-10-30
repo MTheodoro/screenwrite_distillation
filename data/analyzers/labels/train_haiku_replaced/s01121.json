@@ -1,0 +1,29 @@
+{
+"scene_id": "s01121",
+"cast": {"HARLAN VOSS": "HARLAN VOSS", "MR. VOSS": "HARLAN VOSS", "VOSS": "HARLAN VOSS", "NELL STRAND": "NELL STRAND", "MISS STRAND": "NELL STRAND", "NELL": "NELL STRAND", "DOYLE": "DOYLE"},
+"beats": [1, 4, 6, 9, 11, 13, 14, 17, 19, 20],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "A", "who": ["HARLAN VOSS"], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["NELL STRAND"], "emo": {}, "c": 0.95},
+"6": {"to": ["HARLAN VOSS"], "emo": ["anger", 0.6], "c": 0.9},
+"7": {"to": ["NELL STRAND"], "emo": ["neutral", 0.3], "c": 0.9},
+"8": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"9": {"t": "A", "who": ["DOYLE"], "emo": {}, "c": 0.9},
+"10": {"to": ["ALL"], "emo": ["anger", 0.8], "c": 0.9},
+"11": {"t": "A", "who": ["NELL STRAND"], "emo": {}, "c": 0.95},
+"12": {"t": "A", "who": ["HARLAN VOSS"], "emo": {}, "c": 0.95},
+"13": {"t": "A", "who": ["NELL STRAND", "HARLAN VOSS", "DOYLE"], "emo": {}, "c": 0.9},
+"14": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"15": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"17": {"t": "A", "who": ["NELL STRAND", "DOYLE"], "emo": {}, "c": 0.9},
+"18": {"t": "A", "who": ["HARLAN VOSS"], "emo": {}, "c": 0.95},
+"19": {"to": ["ALL"], "emo": ["anger", 0.5], "c": 0.9},
+"20": {"t": "A", "who": ["DOYLE"], "emo": {"DOYLE": ["joy", 0.3]}, "c": 0.9},
+"21": {"to": ["HARLAN VOSS"], "emo": ["anger", 0.4], "c": 0.9}
+},
+"tension": [15, 40, 55, 65, 75, 80, 85, 50, 55, 45]
+}

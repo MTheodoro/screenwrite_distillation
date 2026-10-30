@@ -1,0 +1,21 @@
+{"scene_id":"s02474","cast":{"MARSHAL AUGUSTINE PELL":"PELL","PELL":"PELL","LOLA TREVINO":"LOLA","LOLA":"LOLA","BARNABY":"BARNABY","DUNCAN":"DUNCAN","ROOK STALLWORTH":"ROOK","ROOK":"ROOK"},
+"beats":[1,3,5,6,7,10,11,12,14,16],
+"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":1.0},
+"2":{"t":"S","who":[],"emo":{},"c":1.0},
+"3":{"t":"D","who":["PELL"],"emo":{},"c":1.0},
+"4":{"t":"D","who":["LOLA"],"emo":{},"c":1.0},
+"5":{"t":"A","who":["BARNABY"],"emo":{},"c":1.0},
+"6":{"t":"D","who":["DUNCAN","ROOK"],"emo":{},"c":0.9},
+"7":{"to":["BARNABY"],"emo":["neutral",0.2],"c":1.0},
+"8":{"to":["PELL"],"emo":["neutral",0.2],"c":1.0},
+"9":{"to":["BARNABY"],"emo":["neutral",0.2],"c":0.9},
+"10":{"to":["PELL"],"emo":["sadness",0.3],"c":0.7},
+"11":{"t":"A","who":["PELL"],"emo":{},"c":1.0},
+"12":{"t":"A","who":["DUNCAN"],"emo":{},"c":1.0},
+"13":{"t":"A","who":["ROOK"],"emo":{},"c":1.0},
+"14":{"t":"S","who":[],"emo":{},"c":1.0},
+"15":{"t":"A","who":["BARNABY"],"emo":{},"c":0.8},
+"16":{"t":"A","who":["DUNCAN","ROOK"],"emo":{},"c":1.0}
+},
+"tension":[15,30,25,45,45,40,50,55,50,65]}

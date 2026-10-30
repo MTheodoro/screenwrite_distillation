@@ -1,0 +1,28 @@
+{
+  "scene_id": "s00323",
+  "cast": {"RAVI": "RAVI", "NKECHI": "NKECHI", "OLEG": "OLEG", "PILAR": "PILAR"},
+  "beats": [1, 5, 9, 12, 15, 17, 19],
+  "lines": {
+    "1": {"t": "D", "who": ["RAVI"], "emo": {}, "c": 0.95},
+    "2": {"t": "A", "who": ["NKECHI"], "emo": {"NKECHI": ["fear", 0.4]}, "c": 0.95},
+    "3": {"t": "A", "who": ["OLEG"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["PILAR"], "emo": {}, "c": 0.95},
+    "5": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "6": {"t": "A", "who": ["RAVI"], "emo": {"RAVI": ["fear", 0.3]}, "c": 0.4},
+    "7": {"t": "A", "who": ["PILAR"], "emo": {}, "c": 0.75},
+    "8": {"t": "A", "who": ["RAVI", "NKECHI", "OLEG", "PILAR"], "emo": {"RAVI": ["fear", 0.4], "NKECHI": ["fear", 0.4], "OLEG": ["fear", 0.4], "PILAR": ["fear", 0.4]}, "c": 0.9},
+    "9": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.8},
+    "10": {"to": ["RAVI"], "emo": ["anger", 0.3], "c": 0.85},
+    "11": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.75},
+    "12": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.6},
+    "13": {"to": ["PILAR"], "emo": ["anger", 0.3], "c": 0.9},
+    "14": {"to": ["RAVI"], "emo": ["fear", 0.5], "c": 0.8},
+    "15": {"to": ["PILAR"], "emo": ["fear", 0.5], "c": 0.8},
+    "16": {"to": ["NKECHI"], "emo": ["fear", 0.5], "c": 0.8},
+    "17": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.85},
+    "18": {"to": ["RAVI"], "emo": ["fear", 0.6], "c": 0.8},
+    "19": {"to": ["ALL"], "emo": ["fear", 0.3], "c": 0.85},
+    "20": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.8}
+  },
+  "tension": [30, 40, 35, 40, 55, 45, 30]
+}

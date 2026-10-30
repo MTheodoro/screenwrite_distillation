@@ -1,0 +1,28 @@
+{
+  "scene_id": "s00653",
+  "cast": {"FLORENTINA": "FLORENTINA", "ABUELA FLORENTINA": "FLORENTINA", "ARTURO": "ARTURO", "KATHLEEN": "KATHLEEN", "IMANI": "IMANI", "DAHLIA": "DAHLIA", "BASIL": "BASIL"},
+  "beats": [1, 10, 12, 15, 17, 19, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "A", "who": ["OTHER"], "emo": {}, "c": 0.8},
+    "3": {"t": "D", "who": ["FLORENTINA", "ARTURO", "KATHLEEN", "IMANI", "DAHLIA", "BASIL"], "emo": {}, "c": 0.8},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+    "5": {"t": "A", "who": ["FLORENTINA"], "emo": {}, "c": 0.95},
+    "6": {"t": "A", "who": ["ARTURO"], "emo": {}, "c": 0.95},
+    "7": {"t": "A", "who": ["KATHLEEN"], "emo": {"KATHLEEN": ["sadness", 0.4]}, "c": 0.9},
+    "8": {"t": "A", "who": ["IMANI", "DAHLIA"], "emo": {}, "c": 0.9},
+    "9": {"t": "A", "who": ["BASIL"], "emo": {}, "c": 0.95},
+    "10": {"to": ["ARTURO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["FLORENTINA"], "emo": ["neutral", 0.3], "c": 0.9},
+    "12": {"to": ["ALL"], "emo": ["anger", 0.4], "c": 0.9},
+    "13": {"to": ["IMANI"], "emo": ["neutral", 0.3], "c": 0.9},
+    "14": {"to": ["DAHLIA"], "emo": ["anger", 0.5], "c": 0.9},
+    "15": {"to": ["ALL"], "emo": ["sadness", 0.4], "c": 0.9},
+    "16": {"to": ["ALL"], "emo": ["sadness", 0.4], "c": 0.9},
+    "17": {"to": ["BASIL"], "emo": ["neutral", 0.3], "c": 0.9},
+    "18": {"to": ["FLORENTINA"], "emo": ["joy", 0.3], "c": 0.9},
+    "19": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "20": {"t": "A", "who": ["FLORENTINA", "ARTURO", "KATHLEEN", "IMANI", "DAHLIA", "BASIL"], "emo": {}, "c": 0.9}
+  },
+  "tension": [10, 25, 25, 30, 25, 15, 10]
+}

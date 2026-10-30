@@ -46,444 +46,453 @@ Write each scene's JSON (valid JSON, no comments, no trailing commas) to the giv
 
 ## Scenes
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05158.json
-### SCENE s05158 | EXT. BORDER CHECKPOINT - DAWN
-Detected names (may be incomplete or contain aliases): OKONKWO, GRIEVE, HOBBS, VANE, LENA
-1 A ¶ Mist on a concrete lane.
-2 A A barrier arm, striped red and white.
-3 A A kiosk with one lit window.
-4 A ¶ Grieve, 50s, border officer, tired, holds a clipboard against the cold.
-5 A Opposite him stands Okonkwo, 40s, a solicitor in a sodden trenchcoat, a briefcase at her feet.
-6 A Behind her in the car, Tomasz, 30s, and a small girl, Lena, 6, asleep on his shoulder.
-7 A ¶ INSERT - THE PASSPORT.
-8 A The photograph does not match the face in the car.
-9 A ¶ Silence.
-10 A ¶ Hobbs, 30s, a sergeant, appears in the kiosk window with a phone to his ear.
-11 D OKONKWO: I've been very patient, Officer Grieve. I've been patient since four this morning. I would like to remind you that my client has a hearing at ten in Rotterdam, that the girl has a right to be with her father, and that the paperwork you are holding is, quite frankly, immaculate.
-12 D GRIEVE: It is immaculate. That's what bothers me.
-13 D OKONKWO: Is that a legal objection?
-14 D GRIEVE: It's an observation.
-15 D OKONKWO: Then you'll understand if I write it down.
-16 D GRIEVE: Please do. Spell it with a "k."
-17 D OKONKWO (beat): That's not funny.
-18 D GRIEVE: It wasn't meant to be.
-19 D HOBBS (on the phone, from the kiosk): Sir, I've got the Home Office on the line. They say the order's been revoked.
-20 A ¶ Grieve doesn't turn.
-21 D GRIEVE: Revoked when?
-22 D VANE [V.O.] (on the phone, tinny, crisp): Eleven fifty-two last night, Mr Grieve. Mr Vane, Asylum Casework. Your man isn't who he says he is, and neither, I'm afraid, is she.
-23 A ¶ CLOSE ON Okonkwo.
-24 A Her face doesn't move.
-25 A Her hand goes to the briefcase.
-26 D OKONKWO (very quietly): I think we should all take a breath.
-27 A ¶ The girl wakes.
-28 A Looks at the officers.
-29 A Looks at Okonkwo.
-30 D LENA: Mummy?
-31 A ¶ Grieve looks at Okonkwo.
-32 A Then he looks at the barrier arm, and he drops the clipboard.
-33 A ¶ BACK TO SCENE.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01884.json
+### SCENE s01884 | INT. COMMUNITY CENTER BASEMENT, BINGO NIGHT - NIGHT
+Detected names (may be incomplete or contain aliases): MAGS, DELACOURT-PIKE, DARNELL FONTAINE, LORRAINE FONTAINE, STRANGER, CALVIN
+1 A ¶ Folding tables, fluorescent flicker, a coffee urn the size of a toddler.
+2 A Forty chairs, eleven players.
+3 A A cage of numbered balls spins slowly.
+4 A ¶ Behind the microphone, MARGUERITE "MAGS" DELACOURT-PIKE (60s, cardigan, rhinestone glasses) holds a ball.
+5 A At table three, DARNELL FONTAINE (30s, delivery uniform) hunches over four cards.
+6 A Beside him, his mother LORRAINE FONTAINE (60s, church hat) marks each number with a stub of crayon.
+7 D MAGS: B-nine.
+8 D LORRAINE: That's yours.
+9 D DARNELL: I know it's mine.
+10 D MAGS: I-twenty-two.
+11 D DARNELL: Mama, I told you I'd come on Thursday.
+12 D LORRAINE: You said Thursday, and then you said Friday, and then you said next week.
+13 D MAGS: N-forty-one.
+14 D DARNELL: I've been working doubles.
+15 D LORRAINE: Doing what?
+16 D DARNELL: Deliveries. The same as last time you asked.
+17 D MAGS: G-fifty-six.
+18 D LORRAINE (marking): Funny. I called the depot. They said you quit in May.
+19 A ¶ Darnell's crayon stops.
+20 A He puts it down.
+21 D DARNELL: You called my work.
+22 D LORRAINE: I called a number on your jacket.
+23 D MAGS: O-seventy-one.
+24 A ¶ A STRANGER (40s, windbreaker, clipboard) sits at the edge of table three.
+25 A Nobody saw him arrive.
+26 D STRANGER: Mr. Fontaine. I'm sorry to interrupt.
+27 D DARNELL: Who are you?
+28 D STRANGER: Calvin Ortega, county clerk's office. You missed three hearings.
+29 D LORRAINE: What hearings?
+30 D DARNELL: Mama, don't.
+31 D CALVIN: I only need a signature, sir. Right here.
+32 D MAGS: Table three, keep it down, please. B-four.
+33 A ¶ Darnell takes the pen.
+34 A Signs.
+35 A His hand shakes.
+36 A Lorraine reads the form over his shoulder, then looks at the cards, then at him.
+37 D LORRAINE: You lost the apartment.
+38 D DARNELL: In June.
+39 D LORRAINE: Where have you been sleeping?
+40 D DARNELL: In the van. Until they took the van.
+41 D MAGS: B-nine. Again. Somebody's got a B-nine.
+42 A ¶ Lorraine stands.
+43 A The chair scrapes.
+44 A Heads turn.
+45 A She takes off her church hat and puts it down on the table, very gently, like laying a flag.
+46 D LORRAINE: You come home. Tonight.
+47 D DARNELL: Mama--
+48 D LORRAINE: I am not asking.
+49 D DARNELL (rising, voice cracking): Why are you doing this here? In front of everyone?
+50 D LORRAINE: Because everywhere else you stop picking up the phone.
+51 A ¶ He flings the cards.
+52 A They scatter.
+53 A Marked or not, they rain across the floor.
+54 D DARNELL: I didn't want you to see me like this!
+55 D MAGS: Table three!
+56 D DARNELL: Like what? Like a man who failed?
+57 A ¶ Calvin retreats three steps, clipboard raised like a shield.
+58 A Mags has gone silent, one ball in her fist.
+59 A Eleven players watch.
+60 A The cage creaks once more and stops.
+61 D LORRAINE: Like my son.
+62 A ¶ He stands there.
+63 A She does not move.
+64 A Mags, very softly, into the microphone.
+65 D MAGS: Bingo, I think. If anyone's asking.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05159_0.json
-### SCENE s05159_0 | INT. HOPE VALLEY FERTILITY CLINIC - WAITING ROOM - MORNING
-Detected names (may be incomplete or contain aliases): BETH, CAL, INTERCOM
-1 A ¶ We see a bright, quiet waiting room.
-2 A Pale green walls.
-3 A A fish tank bubbling in the corner.
-4 A A rack of old magazines no one has touched.
-5 A Sunlight comes through the blinds in thin stripes.
-6 A ¶ CLOSE ON a wall clock.
-7 A It reads 9:02.
-8 A ¶ BETH, 30s, nervous, in a yellow cardigan, sits on the edge of a chair, twisting a tissue.
-9 A Next to her is CAL, 30s, tall, dressed too neatly, holding a folder of forms.
-10 D CAL (smiling too hard, patting her knee): It's going to be great.
-11 D BETH (whispering): You said that about the camping trip.
-12 D CAL (a beat): Okay, that was a different kind of great.
-13 A ¶ The fish tank bubbles.
-14 A A little orange fish swims in a circle.
-15 A Beth watches it as if it knows something.
-16 D INTERCOM [V.O.]: Beth and Cal Whitaker, Dr. Okafor will see you now. Room three, please.
-17 D BETH (standing, dropping the tissue): Oh gosh. That's us. That's definitely us.
-18 D CAL (picking it up, handing it back): It's us. Breathe.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00743.json
+### SCENE s00743 | INT. COURTHOUSE ELEVATOR - DAY
+Detected names (may be incomplete or contain aliases): NKIRU EZEIGBO, WYATT MERRIWEATHER, TOMASZ KOWAL, JUDGE REYNOSO
+1 A ¶ Stainless steel.
+2 A Mirrored door.
+3 A Four floors of descent.
+4 A ¶ NKIRU EZEIGBO, thirties, defence attorney, bangs her briefcase against her knee.
+5 A WYATT MERRIWEATHER, forties, prosecutor, studies the floor numbers.
+6 A TOMASZ KOWAL, fifties, bailiff, keeps both hands on his belt.
+7 A ¶ The car shudders.
+8 A Lights flicker.
+9 A The elevator stops between floors.
+10 D NKIRU: Of course.
+11 D WYATT: It does this.
+12 D TOMASZ: Fourth time this month.
+13 A ¶ Nkiru's cell phone buzzes.
+14 A She answers on speaker.
+15 D JUDGE REYNOSO [V.O.] (over phone): Counsel. Where are you?
+16 D NKIRU: Stuck, Your Honour.
+17 D JUDGE REYNOSO [V.O.]: Both of you?
+18 D WYATT: Mr. Kowal is with us.
+19 D JUDGE REYNOSO [V.O.]: I'm calling the jury. You have ten minutes.
+20 D NKIRU: Wyatt, we need to settle.
+21 D WYATT: I know.
+22 D NKIRU: Then why did you reject my offer?
+23 D WYATT: Because you didn't make one.
+24 D NKIRU: I'm making one now.
+25 D WYATT: I'm making one now.
+26 A ¶ Silence.
+27 A They glare at each other in the mirror.
+28 D TOMASZ: For what it's worth, I'd take it.
+29 A ¶ Lights return.
+30 A The elevator drops with a lurch.
+31 A All three grab the rail.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05159_1.json
-### SCENE s05159_1 | INT. DR. OKAFOR'S OFFICE - CONTINUOUS
-Detected names (may be incomplete or contain aliases): OKAFOR, BETH, CAL, ^CAL, TINA
-1 A ¶ A warm room.
-2 A Diplomas on the wall.
-3 A A box of tissues, strategically placed.
-4 A A model of a uterus on the desk that Cal keeps looking at, then looking away from.
-5 A ¶ DR. OKAFOR, 50s, kind eyes, silver glasses, stands to greet them.
-6 D DR. OKAFOR (shaking Beth's hand, then Cal's): Please, sit. I'm Dr. Okafor. I've read your file. How are you feeling?
-7 D BETH (sitting, folding her hands): Fine! Good. Super.
-8 D CAL (sitting, crossing his legs, then uncrossing): Fantastic. Never better.
-9 D DR. OKAFOR (gently, with a small smile): You're both very brave to be here.
-10 D BETH (laughing, nervous): We are not. We are very afraid.
-11 D CAL (nodding hard): We're terrified.
-12 A ¶ Both speak at once.
-13 D BETH: It's been three years.
-14 D ^CAL: It's been three years.
-15 A ¶ They look at each other.
-16 A The room goes quiet for a second.
-17 D DR. OKAFOR (taking off her glasses): That is a long time to hope.
-18 A ¶ Beth's face crumples a little.
-19 A Cal takes her hand, and she lets him.
-20 D BETH (wiping her eye): Sorry. I told myself I wouldn't do this.
-21 D DR. OKAFOR (sliding the tissue box across): Everyone does. It's one of the reasons I keep a big box.
-22 A ¶ The door opens a crack.
-23 A TINA, 20s, a nurse in cartoon scrubs, leans in.
-24 D TINA (whispering, apologetic): Doctor, I'm so sorry. The lab is on the phone.
-25 D DR. OKAFOR (to the couple): Excuse me one moment.
-26 A ¶ She picks up the desk phone.
-27 A We hear a faint voice through it.
-28 D TINA [V.O.] (through the phone, tinny): It's about the samples from last week, Doctor. They've come back.
-29 D DR. OKAFOR (listening, her face changing; beat): Thank you, Tina. I'll tell them myself.
-30 A ¶ She puts the phone down very slowly.
-31 A Beth grips Cal's hand so hard his fingers go white.
-32 D BETH (very small): Is it bad?
-33 D DR. OKAFOR (smiling, for the first time all morning): Beth. Cal. I think you should both take a deep breath.
-34 A ¶ Outside, the fish swims once around the tank and stops.
-35 A The light in the blinds turns gold.
-36 D CAL (breathless): Is that a yes?
-37 D DR. OKAFOR (nodding): It's a yes.
-38 A ¶ Beth bursts into tears.
-39 A Cal laughs, jumps up, knocks over the model on the desk, and catches it in the air.
-40 D CAL [CONT'D] (holding it up like a trophy): Sorry! I got it! I got it!
-41 D BETH (laughing through tears): Cal, sit DOWN.
-42 A ¶ He sits.
-43 A They hold each other.
-44 A Dr. Okafor looks away to give them privacy and quietly dabs her own eyes.
-45 A ¶ Sunlight.
-46 A Quiet.
-47 A Somewhere, a baby cries in another room and everyone smiles.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s02229.json
+### SCENE s02229 | INT. GLASSHOUSE CAFE - ORCHID CONSERVATORY - LATE AFTERNOON
+Detected names (may be incomplete or contain aliases): WREN ACHTERBERG, ANSELM DUPREE, OKAFOR, BAO, ROSALIND
+1 A ¶ Mist pools under the glass roof.
+2 A Hanging orchids drip.
+3 A A small iron table sits between a fig tree and a fogged window, laid for tea that has long gone cold.
+4 A ¶ WREN ACHTERBERG, thirties, a botanist with ink on her fingers, sits with her coat still buttoned, as though she means to leave.
+5 A Across from her, ANSELM DUPREE, late thirties, his tie loosened, turns a teaspoon over and over, as if it might yield an answer.
+6 A ¶ Behind them, the staff: MRS. OKAFOR, sixties, upright, in a green apron, polishes the same cup she has been polishing for a minute.
+7 A BAO, twenty, a waiter with an unsure grip on a tray, hovers near the fig tree and pretends to adjust a label.
+8 D ANSELM: I brought the seeds back.
+9 D WREN: I know. You said in your letter.
+10 D ANSELM: Four hundred of them. From the Andes.
+11 D WREN: That's a lot of seeds.
+12 D ANSELM: It's a lot of months.
+13 A ¶ She looks at the spoon in his fingers.
+14 A He sets it down.
+15 D ANSELM [CONT'D]: I should have written more.
+16 D WREN: You wrote enough.
+17 D ANSELM: Wren.
+18 D WREN: I'm tired, Anselm. I've spent two years learning to be fine.
+19 A ¶ Mrs. Okafor sets down the cup.
+20 A Bao shifts the tray from one hand to the other.
+21 D MRS. OKAFOR (softly, to Bao): More hot water.
+22 D BAO: They haven't touched the first.
+23 D MRS. OKAFOR: Then more hot water, Bao.
+24 A ¶ Bao nods and flees toward the kitchen.
+25 A A door swings open on the far side of the conservatory.
+26 A ¶ A girl of nine steps in, ROSALIND, her coat buttoned wrong, a muddy satchel against her hip.
+27 A She stands under the dripping orchids and looks only at Anselm.
+28 D ROSALIND: Papa?
+29 A ¶ Wren's hand goes still on the table.
+30 A Anselm rises, the chair scraping the tile.
+31 D ANSELM: Rosalind. You were meant to wait with Aunt Hester.
+32 D ROSALIND: She fell asleep. I came by myself. I know the way.
+33 A ¶ Wren looks at the child.
+34 A At the buttons.
+35 A At Anselm.
+36 A Something in her face eases and breaks at once.
+37 D WREN (quietly): You didn't say you had a daughter.
+38 D ANSELM: I was afraid to.
+39 A ¶ Rosalind crosses to the table and studies Wren with grave attention.
+40 D ROSALIND: Are you the lady with the plants?
+41 D WREN: I suppose I am.
+42 D ROSALIND: Papa said you know all their names.
+43 A ¶ Wren reaches out and, slowly, fixes the girl's top button.
+44 A Her fingers are not quite steady.
+45 D WREN: Not all. But I could teach you some.
+46 A ¶ Mrs. Okafor, from across the room, sets the cup down at last and folds her cloth.
+47 A Bao returns with a copper pot, sees the table, and stops where he is, and does not speak.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05160.json
-### SCENE s05160 | INT. NORTHSIDE SOUND - LIVE ROOM - NIGHT
-Detected names (may be incomplete or contain aliases): JUNIPER, OSEI, MARGUERITE
-1 A ¶ ON CAMERA: handheld, shaky, a red REC dot in the corner.
-2 A The mic stand fills the frame, then swings toward JUNIPER, 19, headphones around their neck, staring at a lyric sheet.
-3 D JUNIPER (to camera): This is take nineteen. They said twelve was fine. I said twelve was fine.
-4 D OSEI [O.S.]: Twelve was not fine.
-5 A ¶ The camera whips left.
-6 A OSEI, 20s, engineer, hunched at the glass of the control room.
-7 A A studio dog sleeps under his chair.
-8 A A pizza guy hovers at the door with two boxes, unsure whether to knock.
-9 D OSEI [CONT'D]: You rushed the bridge.
-10 D JUNIPER: I didn't rush -- they're the one who
-11 D OSEI: -- you came in early on "stay" --
-12 D JUNIPER: -- because the click track is wrong, Osei, it's wrong, I told you --
-13 A ¶ A phone BUZZES on the console.
-14 A Osei thumbs it.
-15 A Speaker.
-16 D MARGUERITE [V.O.] (tinny, over the phone): Hi, babe, is it done? The label guy is asking.
-17 D JUNIPER: He's asking?
-18 D OSEI: Marguerite, not now --
-19 D MARGUERITE [V.O.]: -- he wants the single Friday, Juniper, they have a slot, and you promised --
-20 D JUNIPER: I never promised! You promised! You said I'd get to say when it's done!
-21 A ¶ Juniper rips the headphones off and hurls them.
-22 A They CRACK against the glass.
-23 A The dog bolts.
-24 A The pizza guy backs out.
-25 A The camera drops, tilts, catches the ceiling tiles, and cuts to black.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00669.json
+### SCENE s00669 | INT. VETERINARY CLINIC WAITING ROOM - MEDIATION - DAY
+Detected names (may be incomplete or contain aliases): SEBASTIAN OYELARAN-PRICE, ANTONIA REYES-HOLLOWAY
+1 A ¶ Plastic chairs.
+2 A A scale for large dogs.
+3 A A poster: ARE YOUR PET'S TEETH TELLING YOU SOMETHING?
+4 A A rack of leashes.
+5 A A mediator's empty chair sits between two others, its owner stepped out to find a pen.
+6 A ¶ SEBASTIAN OYELARAN-PRICE, forties, in a camel coat, sits rigidly with a folder on his knees.
+7 A ANTONIA REYES-HOLLOWAY, forties, in a tracksuit, clutches a cat carrier on her lap.
+8 D SEBASTIAN: Biscuit is a Maine Coon.
+9 D ANTONIA: Biscuit is a cat.
+10 D SEBASTIAN: I paid for the vaccinations.
+11 D ANTONIA: I clean the box.
+12 A ¶ The carrier shifts.
+13 A A paw pokes through the grille.
+14 A Antonia looks down, and her face softens.
+15 D ANTONIA [CONT'D]: Hello, my love.
+16 D SEBASTIAN: Don't baby him. He's eleven.
+17 D ANTONIA: He's a baby.
+18 D SEBASTIAN: Six months each. Alternating. That's what she's going to propose.
+19 D ANTONIA: He gets carsick because you drive like a lunatic.
+20 D SEBASTIAN: I drive like a person!
+21 D ANTONIA: You drive like a person who's late for his own cat.
+22 A ¶ The carrier jolts.
+23 A Both lunge for it.
+24 A Antonia pulls it to her chest, Sebastian grabs the handle, and for a moment the two of them are bent over it like surgeons, each with a hand on it.
+25 A The latch pops.
+26 A Biscuit, enormous and orange, steps out.
+27 A ¶ Both freeze.
+28 A The cat looks at one, then the other.
+29 A It walks to the scale, hops on, and settles.
+30 A The readout flickers: 19.4.
+31 D SEBASTIAN: Nineteen pounds.
+32 D ANTONIA: Because you feed him cheese.
+33 D SEBASTIAN: Because you feed him tuna.
+34 A ¶ Neither moves toward the cat.
+35 A Then, slowly, Sebastian crouches and holds out a finger.
+36 A Antonia kneels beside him.
+37 A Biscuit sniffs, and begins to purr.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05161.json
-### SCENE s05161 | INT. SWIFTLINE DELIVERY WAREHOUSE - MORNING
-Detected names (may be incomplete or contain aliases): BARRY, NADINE, ROBIN, DO NOT
-1 A ¶ We see a huge warehouse with many shelves and conveyor belts.
-2 A Its early morning and the lights are still turning on one by one.
-3 A BARRY, 40s, a shift supervisor who thinks he is very important, walks in carrying a coffee and a clipboard.
-4 A ¶ CLOSE ON Barry's name tag, which says "BARRY - SUPERVISOR" in big letters.
-5 D BARRY: Good morning team! Big day today!
-6 A ¶ Nobody answers.
-7 A We see NADINE, 30s, tired, sitting on a pallet jack eating a granola bar, and ROBIN, 20s, who uses they/them pronouns, scrolling on their phone near the sorting belt.
-8 D NADINE: Its 6 AM Barry.
-9 D BARRY: And whats that mean? It means the early bird gets the worm!
-10 D ROBIN (muttering to self): I dont even like worms.
-11 D BARRY: What was that Robin?
-12 D ROBIN: Nothing. Good morning.
-13 A ¶ Barry nods happily and puts his coffee down on a stack of boxes marked FRAGILE, then walks to the control panel and presses a green button and the belt starts to move slowly, and Nadine stands up and stretches while Robin puts their phone in their pocket and walks to the end of the belt and picks up the first package, and Barry checks his clipboard and looks very pleased with himself while a forklift beeps somewhere far away.
-14 D BARRY (to everyone): Okay everybody listen up. Today is a normal day. Nothing special. Just normal packages, normal routes, normal everything.
-15 D NADINE: You said normal three times.
-16 D BARRY: Because its normal!
-17 A ¶ Nadine looks at Robin.
-18 A Robin looks at Nadine.
-19 A They both look at Barry.
-20 D ROBIN (quietly, to Nadine): He's lying about something.
-21 D NADINE (quietly): Obviously.
-22 A ¶ We see the belt carry a small brown box down the line.
-23 A It is the only box that is not scanned by the machine.
-24 A CLOSE ON the box.
-25 A It has a red sticker that says "DO NOT OPEN - PRIVATE".
-26 D NADINE [CONT'D] (reading the label): Barry what is this?
-27 D BARRY (too fast): Its nothing. Just a regular box. Put it back.
-28 D ROBIN: It doesnt have a barcode.
-29 D BARRY: Some boxes dont have barcodes Robin that is a known thing.
-30 A ¶ Robin lifts the box off the belt.
-31 A It is light.
-32 A Something inside RATTLES softly.
-33 A Barry's face goes white and he drops his clipboard, which CLATTERS on the concrete floor.
-34 D NADINE (to herself): Oh no. He's sweating.
-35 D BARRY: Please put it down. Please. Both of you.
-36 D ROBIN (to the room): Is it a bomb?
-37 D BARRY: Its not a bomb!
-38 D NADINE: Then open it.
-39 D BARRY: I cant let you open it!
-40 A ¶ Nadine takes the box from Robin and in one move she tears the red sticker and rips the tape.
-41 A Robin leans in, Barry covers his eyes with both hands, and a forklift driver in the distance honks twice for no reason.
-42 A ¶ CLOSE ON the open box.
-43 A Inside are forty-two tiny bottles of hotel shampoo, six stolen name tags from other supervisors, and a laminated sign that says "WORLDS BEST BOSS".
-44 A ¶ Silence.
-45 D NADINE: These are the name tags from Dayton.
-46 D ROBIN: Barry. Did you make yourself an award?
-47 D BARRY (small voice): It was going to be a surprise.
-48 D NADINE: For who?
-49 D BARRY: For me. At the Friday meeting. I was going to have you all give it to me.
-50 D ROBIN (to Nadine): I want to be mad but I'm mostly impressed.
-51 D NADINE (to the group of the whole warehouse, shouting): Hey everybody! Barry made himself an award!
-52 A ¶ From far away in the building we hear a slow, growing round of applause, and a lone forklift honks.
-53 A Barry sits down on the pallet jack and puts his face in his hands.
-54 D BARRY (muffled): Can I at least keep the shampoo.
-55 A ¶ Nadine tosses him one small bottle.
-56 A Robin sets the laminated sign on top of Barry's head like a crown.
-57 D ROBIN: Congratulations boss.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00333.json
+### SCENE s00333 | INT. CAROUSEL WORKSHOP - NIGHT
+Detected names (may be incomplete or contain aliases): MINA, TEDDY, OSRIC, LOLA
+1 A ¶ A cavernous barn of splintered painted horses, hanging by chains from the rafters, their glass eyes catching a single lantern.
+2 A Sawdust drifts like snow.
+3 A ¶ MINA, twenties, a documentary photographer, raises a camera.
+4 A TEDDY, thirties, her guide, grips a crowbar.
+5 A OSRIC, sixties, the caretaker, stands rigid in the doorway with a ring of keys.
+6 A LOLA, ten, Osric's granddaughter, clutches a plush rabbit.
+7 D MINA: Teddy, did you hear that?
+8 D TEDDY: It's the wind.
+9 D OSRIC: No wind in here.
+10 D LOLA: Grandpa, the horses are looking at me.
+11 D TEDDY: Lola, honey, they're wood.
+12 D MINA: Teddy, look up.
+13 D OSRIC: Lola, come here.
+14 A ¶ A chain clinks.
+15 A One painted horse swings, slow.
+16 A Another turns its head.
+17 D TEDDY: Mina, back up.
+18 D MINA: I'm trying.
+19 D LOLA: Grandpa!
+20 A ¶ The lantern gutters.
+21 A All the horses begin to descend at once on their chains, slamming into the floor, shrieking, wheels turning, the whole carousel lurching into motion in the dark.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05162.json
-### SCENE s05162 | EXT. SKYLINE ROOFTOP BAR - NIGHT
-Detected names (may be incomplete or contain aliases): HALE, BRANDT
-1 A ¶ Detective Annika Brandt, 40s, sits at the far end of the bar with a club soda and a view of the elevator.
-2 A She keeps her jacket on.
-3 A Under it, a wire taped below the ribs.
-4 A Her phone sits face up beside the glass.
-5 A ¶ The phone BUZZES.
-6 A She lets it ring twice, then answers and puts it to her ear.
-7 D HALE [V.O.]: Tell me you're up there.
-8 D BRANDT: Corner. By the heater. Where are you?
-9 D HALE [V.O.]: Parking structure. Level three. I'm giving it five minutes.
-10 D BRANDT: Five minutes is fine.
-11 D HALE [V.O.]: You come alone?
-12 D BRANDT: You asked me to.
-13 A ¶ The line goes quiet.
-14 A Wind snaps a string of lights overhead.
-15 A She watches the elevator numbers climb on the display, 2, 3, 4, and her thumb goes still on the glass.
-16 D BRANDT [CONT'D]: Hale. Level three. You said that already?
-17 D HALE [V.O.]: Yeah. Why?
-18 D BRANDT: No reason. Come on up.
-19 A ¶ She ends the call.
-20 A The phone lights.
-21 A ¶ ON PHONE: unknown number -- "ur not alone up there"
-22 A ¶ She reads it once.
-23 A She does not look around.
-24 A She sets the phone face down and slides a hand into her jacket, thumbs the transmitter.
-25 D BRANDT [CONT'D] (low, to the wire): Unit two, confirm the garage camera. Level three. Is anyone there?
-26 A ¶ A beat.
-27 A Nothing in the earpiece.
-28 A Static, then a CLICK.
-29 A ¶ The elevator DINGS.
-30 A Tomasz Hale, 50s, rumpled suit, steps out and scans the roof.
-31 A He sees her, hesitates, then crosses to the stool beside hers.
-32 A He sits too carefully, as though the cushion might be wired.
-33 D HALE: You look like a cop.
-34 D BRANDT: You look like a man who's late.
-35 D HALE: I wasn't in the garage.
-36 A ¶ She turns her head.
-37 D BRANDT: Say that again.
-38 D HALE: I took the stairs. I was on the stairs the whole time. The call, it wasn't me calling.
-39 A ¶ Her phone BUZZES against the bar.
-40 A She doesn't touch it.
-41 A He nods at it.
-42 D HALE [CONT'D]: That's him. He's got my phone. He's got my kid's school schedule too, Detective, that was the part I couldn't, I had to come.
-43 D BRANDT: Who has your phone?
-44 D HALE: The man at the table behind you. Blue shirt. Don't turn around.
-45 A ¶ The ice in her glass shifts.
-46 A Somewhere behind her a chair scrapes.
-47 A ¶ ON PHONE: unknown number -- "good. now both of u stand up"
-48 D BRANDT (barely moving): How long has he been sitting there?
-49 D HALE: Since before I got here. He walked me up.
-50 D BRANDT: And the garage?
-51 D HALE: There's no one in the garage. There's never been anyone. He wanted you to say it out loud.
-52 A ¶ She exhales.
-53 A Her hand comes out of the jacket empty.
-54 A Behind her, a glass is set down, softly, and a shadow lengthens across the bar top.
-55 D BRANDT: Then he's already heard everything.
-56 D HALE: Every word.
-57 A ¶ The phone BUZZES a third time.
-58 A Neither of them looks at it.
-59 A She slides off the stool, standing straight, still not turning around.
-60 A He stays seated, staring into his lap.
-61 D BRANDT (quietly): Stay seated, Tomasz. Whatever happens next, you stay in that chair.
-62 D HALE: What are you going to do?
-63 A ¶ She lifts the wire's transmitter out from under her shirt in plain view and lays it on the bar.
-64 D BRANDT: Say hello.
-65 A ¶ She turns around.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00283.json
+### SCENE s00283 | INT. FAMILY MINIVAN - DRIVE-THROUGH BREAKFAST LANE - MORNING
+Detected names (may be incomplete or contain aliases): ROLAND ESPINOZA-HART, NEELAM ESPINOZA-HART, TAMSIN, FELIX
+1 A ¶ Rain on the windshield.
+2 A Four people.
+3 A One bag of hash browns that has already been opened.
+4 A ¶ He is at the wheel, shouting into the speaker box while checking the mirror, the clock, and his phone all at once.
+5 A His name is ROLAND ESPINOZA-HART (40s, tie half-knotted).
+6 A ¶ She is in the passenger seat, shouting over him to the speaker box, with a coffee in one hand and a sleeping bag stuffed under her arm.
+7 A This is NEELAM ESPINOZA-HART (40s, hospital scrubs).
+8 A ¶ In the back, a girl of twelve, TAMSIN, kicks the seat.
+9 A A boy of seven, FELIX, is standing on the seat, pressing his nose to the glass.
+10 A A sibling war has broken out over the hash browns.
+11 A They each have one hand in the bag and one hand on the other's face.
+12 A Roland reaches back without looking and swats at both.
+13 A Neelam reaches back, too, and her coffee spills down Roland's sleeve.
+14 A He yelps.
+15 A Tamsin shrieks.
+16 A Felix falls off the seat onto the floor, still holding the bag.
+17 D ROLAND: Two number threes!
+18 D NEELAM: Three!
+19 D TAMSIN: He's eating mine!
+20 D FELIX: It's MY bag!
+21 D ROLAND: Everybody stop!
+22 A ¶ Nobody stops.
+23 A The speaker box crackles.
+24 A The car behind them honks.
+25 D NEELAM: Roland, move up.
+26 D ROLAND: I'm moving!
+27 A ¶ He is not moving.
+28 A He is reaching for a napkin.
+29 A Felix's foot is on the horn.
+30 A The honk goes long.
+31 A Neelam lunges for the foot.
+32 A Tamsin grabs the napkin.
+33 A Roland swerves a half inch and hits the speaker post.
+34 A ¶ The speaker box goes silent.
+35 A All four freeze, mid-motion, a family in tableau.
+36 A Then everyone starts again.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05164.json
-### SCENE s05164 | INT. NIGHT BUS 41 - MOVING - NIGHT
-Detected names (may be incomplete or contain aliases): MIRA CALLING, HOODIE GUY, TEODOR
-1 A ¶ SERIES OF SHOTS:
-2 A ¶ -- Rain on the window.
-3 A City lights smear into gold stripes.
-4 A ¶ -- CLOSE ON a bus card tapping the reader.
-5 A BEEP.
-6 A ¶ -- ANGLE ON the back rows.
-7 A Nearly empty.
-8 A A bag of fries going cold.
-9 A ¶ MIRA, 16, backpack in her lap, sits near the middle.
-10 A Across the aisle, HOODIE GUY, 40s, hood up, face turned to the window.
-11 A He has been there since the depot.
-12 A ¶ She digs out her phone.
-13 A Dials.
-14 D MIRA (into phone, whispering): Dad? It's me. I'm on the 41. I know it's late. (glances around) Yeah, I'm okay. I just. I needed to go somewhere.
-15 D TEODOR [V.O.]: Where are you going, Mira?
-16 D MIRA (pressing her forehead to the glass): Aunt Lena's. She said I could come anytime. (a breath) You weren't going to let me leave, so I didn't tell you.
-17 D TEODOR [V.O.]: I'm not mad.
-18 D MIRA (laughs, bitter): You are. You're doing the voice.
-19 A ¶ -- WE SEE the Hoodie Guy's shoulders tighten.
-20 A He does not turn.
-21 A ¶ -- INSERT: a cracked phone screen on his knee.
-22 A It lights up: "MIRA CALLING?" no, "DAD HOME".
-23 A It is silent.
-24 A He sets it face down.
-25 D TEODOR [V.O.]: Tell me which stop. I'll pick you up. We don't have to talk.
-26 D MIRA (her voice breaks): You'd just stand there with the car running, Dad. You'd say nothing for forty minutes.
-27 D TEODOR [V.O.]: That's, that's not --
-28 D MIRA (cutting in, louder): It is! It's what you do! Mom left and you said nothing, I got in your car and you said nothing, I said I hated you and you said NOTHING!
-29 A ¶ Heads on the bus lift.
-30 A The Hoodie Guy pushes his hood back.
-31 A Gray stubble, red eyes.
-32 A Her phone is still at her ear.
-33 A His mouth moves on the same words as the voice in the speaker.
-34 D TEODOR [V.O.] (and across the aisle, aloud, the same sentence): I'm sorry, Mira.
-35 A ¶ BACK TO SCENE: Mira slowly lowers the phone.
-36 A The call timer ticks.
-37 A The bus HISSES to a stop.
-38 D MIRA (staring at him, barely audible): Dad?
-39 D TEODOR (standing in the aisle, hands open, voice thick): Say it again. Say it all again, to my face, while I'm standing here.
-40 A ¶ The doors fold open on the rain.
-41 A Neither of them moves.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00585.json
+### SCENE s00585 | INT. AGING CELLAR - CHEESE CAVE - NIGHT
+Detected names (may be incomplete or contain aliases): GRETA SOLBERG, PASCAL ANTOINE
+1 A ¶ A limestone tunnel hung with wheels of cheese on pine shelves, rows of pale moons receding into the dark.
+2 A Cold, wet air.
+3 A The smell of ammonia and old milk.
+4 A A red headlamp sweeps the walls.
+5 A ¶ She works alone.
+6 A GRETA SOLBERG, 40s, compact, grey braid tucked into her collar, a stethoscope looped around her neck and a canvas roll of tools at her hip.
+7 A She runs her palm along the wall, ear tilted to a hidden hum.
+8 A ¶ She stops at a barrel marked in chalk.
+9 A Taps it three times.
+10 A Taps again, lower.
+11 A ¶ Behind the barrel: a steel door.
+12 A Wall-sunk.
+13 A Painted the same grey as the limestone, but no stone ever gleamed like that.
+14 A ¶ She sets the stethoscope against the lock.
+15 A Closes her eyes.
+16 A Turns the dial a hair.
+17 A Another.
+18 A Her mouth moves, counting.
+19 A ¶ The headlamp flickers.
+20 A She freezes.
+21 A ¶ Footsteps.
+22 A Slow.
+23 A From the entrance of the cave.
+24 A ¶ She kills the lamp.
+25 A Dark.
+26 A She presses herself behind the barrel, a hand sliding to the pry bar at her belt.
+27 A ¶ A flashlight beam wanders down the tunnel.
+28 A Along the shelves.
+29 A The beam bounces off the cheese rinds, ghost-white.
+30 A ¶ PASCAL ANTOINE, 30s, climbs into frame.
+31 A Long coat.
+32 A Soft hat.
+33 A A paper bag in one hand, a thermos in the other.
+34 A He hums, off-key.
+35 A He's not here for her.
+36 A He's here for the night shift.
+37 A ¶ He stops.
+38 A Sniffs the air.
+39 D PASCAL (muttering): Smells like feet again.
+40 A ¶ He sets his thermos on a shelf.
+41 A Eats something from the bag.
+42 A The hum resumes.
+43 A ¶ She waits, perfectly still.
+44 A He turns his back and starts to inspect a wheel, tilting it to the light.
+45 A ¶ She slides out from behind the barrel.
+46 A One step.
+47 A Two.
+48 A Her boots make no sound on the damp stone.
+49 A ¶ He stops humming.
+50 A Doesn't turn.
+51 D PASCAL [CONT'D] (softly): You're good.
+52 D GRETA: You're early.
+53 D PASCAL: You're late.
+54 A ¶ He turns, smiling.
+55 A She lowers the bar.
+56 A They regard each other for a long moment across the cheese.
+57 D PASCAL [CONT'D]: Did you get it open?
+58 D GRETA: Two numbers left.
+59 D PASCAL: Then let me hold the light.
+60 A ¶ He flicks on his flashlight, angles it just so.
+61 A She kneels at the dial.
+62 A Her hands steady.
+63 A The lock turns, a soft double click.
+64 A ¶ The door swings open on darkness and a faint chill of something better than cheese.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05166.json
-### SCENE s05166 | INT. SUDS & DUDS LAUNDROMAT - NIGHT
-Detected names (may be incomplete or contain aliases): COLT, MO, PRISCILLA, TESSA, BLARES
-1 A ¶ Tessa, 17, sits on a dryer typing fast while Jaylen, 17, watches the door and Mo, 16, hugs a duffel that clearly is not full of laundry.
-2 A Priscilla, 18, the attendant, mops near the machines pretending she doesn't hear anything.
-3 A Colt, 19, in a letterman jacket, leans on the soda machine, eyes locked on the duffel.
-4 A ¶ ON PHONE: Tessa to Group: "he's HERE. do NOT look at him"
-5 A ¶ Everyone looks at him.
-6 D COLT: Yo. Mo. You got my stuff or what.
-7 D MO: It's not your stuff. It's Wren's.
-8 A ¶ Wren, 17, hoodie up, emerges from the bathroom drying her hands, sees Colt, stops dead.
-9 A Jaylen steps between them, Tessa slips off the dryer and edges toward the exit, Priscilla's mop bumps the duffel, and a dozen glossy flash drives spill out across the wet floor like silver fish.
-10 D PRISCILLA: Nope. I didn't see that. I'm on break.
-11 A ¶ ON PHONE: Wren to Tessa: "RUN"
-12 D TESSA (under her breath): I literally told you.
-13 A ¶ Colt grins and grabs a drive.
-14 A Wren lunges.
-15 A The lights flicker, a dryer buzzer BLARES, and everybody freezes as blue and red light sweeps across the front window.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00413.json
+### SCENE s00413 | EXT. GLACIER CAVE MOUTH - DAWN
+Detected names (may be incomplete or contain aliases): MORWENNA, IVAR
+1 A ¶ A cathedral of blue ice.
+2 A Cold fire glints along its roof.
+3 A Wind keens through a crack as tall as a house.
+4 A Snow whips past the entrance.
+5 A ¶ MORWENNA, 30s, a ranger in a hooded sealskin cloak with a spear, plants her feet at the cave mouth.
+6 A IVAR, 70s, her mentor, white-bearded, leaning on a staff of driftwood, wheezes beside her.
+7 D MORWENNA: It's in there.
+8 D IVAR: It's always been in there.
+9 A ¶ She steps forward.
+10 A The ice floor groans.
+11 A A low note thrums from deep inside the cave, a note too big for a throat.
+12 A They both freeze.
+13 A The crack in the ceiling widens by a finger's width, and a skein of powder sifts down on their shoulders.
+14 D IVAR [CONT'D]: It knows you.
+15 D MORWENNA: It doesn't.
+16 A ¶ Out of the dark, an eye opens, pale as a moon, vertically slit.
+17 A It regards them.
+18 A Morwenna lifts her spear.
+19 A Ivar grabs her wrist.
+20 A They struggle, once, hard, until the spear clatters on the ice.
+21 D IVAR [CONT'D]: No weapons. Never weapons.
+22 A ¶ The eye blinks.
+23 A The wind falls away.
+24 A Morwenna looks at the old man, then at the eye, and slowly, she kneels.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05167.json
-### SCENE s05167 | INT. GREENFIELD VETERINARY CLINIC - AFTER HOURS
-Detected names (may be incomplete or contain aliases): LUCAS, ALMA PRUITT, ABERNATHY, DEPUTY HARLOW
-1 A ¶ Rain.
-2 A ¶ The waiting room.
-3 A Empty chairs.
-4 A A fish tank bubbling.
-5 A A wall clock reads 11:48.
-6 A ¶ LUCAS, 20s, a vet tech in scrubs, kneels beside the reception desk, a flashlight in his teeth, looking at the floor.
-7 A DR. ALMA PRUITT, 50s, stands over him holding a clipboard.
-8 A MRS. ABERNATHY, 70s, in a raincoat, sits in a plastic chair with an empty cat carrier on her lap.
-9 A ¶ Silence.
-10 D DR. PRUITT: Lucas. Tell me again.
-11 D LUCAS (taking the flashlight out): She was in the carrier at nine. I checked her. I swear I checked her.
-12 D MRS. ABERNATHY: Biscuit doesn't just disappear.
-13 A ¶ Nothing.
-14 A ¶ Lucas stands.
-15 A He crosses to the supply cabinet and opens it.
-16 A Bandages.
-17 A Syringes.
-18 A A bag of kibble torn open, the floor under it dusted with crumbs.
-19 A He crouches.
-20 A Small paw prints in the powder of spilled flea treatment, leading toward the back hall.
-21 D LUCAS: Look.
-22 A ¶ Dr. Pruitt looks.
-23 A Mrs. Abernathy rises, the carrier trembling in her hands.
-24 A The prints stop at a closed door marked STAFF ONLY.
-25 D DR. PRUITT: That door's always locked.
-26 D LUCAS: Not tonight.
-27 A ¶ The knob.
-28 A It turns by itself.
-29 A A soft CLICK.
-30 A ¶ Mrs. Abernathy gasps.
-31 A Dr. Pruitt steps in front of her.
-32 A Lucas lifts the flashlight like a weapon.
-33 A ¶ The door swings open.
-34 A Dark.
-35 A Cold.
-36 A The smell of antiseptic.
-37 A ¶ A small shape.
-38 A Two green eyes.
-39 A ¶ And then, behind them, the front bell JANGLES.
-40 A The glass door BANGS against the wall.
-41 A Wind and rain flood in.
-42 A ¶ DEPUTY HARLOW, 40s, hat dripping, steps inside and shuts the door behind him.
-43 A He looks at the three of them.
-44 A At the open staff door.
-45 A At the cat carrier.
-46 D DEPUTY HARLOW: Evening. Somebody called in a break-in at this address.
-47 D DR. PRUITT (too fast): No. No break-in.
-48 D LUCAS: Nobody called.
-49 A ¶ Silence.
-50 D DEPUTY HARLOW: Funny. The call came from inside.
-51 A ¶ The three of them turn, slowly, to the staff door.
-52 A The small shape in the dark steps forward into the light.
-53 A A gray cat.
-54 A Biscuit.
-55 A A tiny brass key hangs from her collar.
-56 A ¶ Nothing else moves.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00626.json
+### SCENE s00626 | EXT. SALT FLAT - DEAD VEHICLE - DAY
+Detected names (may be incomplete or contain aliases): IMOGEN STRAND, CALLUM REID
+1 A ¶ A white plain, blinding, cracked in hexagons to the horizon.
+2 A The heat has a sound.
+3 A A pickup truck sits dead on its rims with the hood propped open, and in its thin stripe of shade two figures sit side by side on the dirt.
+4 A ¶ IMOGEN STRAND, forties, sun-darkened, cracked lips, a scarf tied over her head, shreds a map into narrow strips and braids them.
+5 A Across from her, CALLUM REID, twenties, her nephew, with a gaze fixed so steady it has stopped meaning anything, turns a plastic bottle slowly, holding it up to the light.
+6 A ¶ Half a finger of water.
+7 A Maybe less.
+8 D IMOGEN (to the empty horizon): Eleven miles to the highway. Maybe nine.
+9 D CALLUM: Maybe.
+10 A ¶ She finishes the braid and ties it around his wrist without asking.
+11 A He lets her.
+12 D IMOGEN (muttering): Should've turned at the cattle guard.
+13 A ¶ He sets the bottle down between them, label facing her, a quiet gesture of an offer.
+14 A She pushes it back with one finger.
+15 A He pushes it again.
+16 A For a long moment neither of them speaks.
+17 A ¶ Then Imogen's eyes go past him, to the truck's rear bumper, and stay there.
+18 A A pale smear of damp in the dirt.
+19 A A slow, steady drip from under the truck.
+20 A ¶ Callum turns to look.
+21 A His face doesn't change.
+22 A His hand closes over hers.
+23 D CALLUM: It's the radiator.
+24 D IMOGEN: It's the water tank, Cal. The tank was full.
+25 A ¶ He gets up very slowly.
+26 A In the shade of the chassis, the second spare jug lies on its side, its cap cracked, empty.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05168.json
-### SCENE s05168 | INT. SUBWAY CAR - RUSH HOUR - STALLED
-Detected names (may be incomplete or contain aliases): FRANCESCA, DEVIN, GUS, BERNADETTE, TARIQ
-1 A ¶ A packed car.
-2 A The lights flicker, then the train JERKS to a stop between stations.
-3 A The announcement crackles and dies.
-4 A Nobody can move more than two inches.
-5 A ¶ FRANCESCA, 30, in a bridesmaid dress with a garment bag over one arm, is pinned against the door.
-6 A She holds her phone above her head, searching for a signal.
-7 A DEVIN, 32, in a rumpled suit, is wedged against her back, holding a cake box very carefully above his head.
-8 D DEVIN: Sorry. Sorry. Is that your elbow?
-9 D FRANCESCA: That is your cake.
-10 D DEVIN: It's a wedding cake. For a wedding.
-11 D FRANCESCA: Which wedding?
-12 D DEVIN: Mine. Well. My sister's. I'm best man.
-13 A ¶ She cranes around.
-14 A He blinks at her.
-15 A She has a streak of mascara under one eye, and a tiara crooked in her hair.
-16 D FRANCESCA: I'm the maid of honor. At the Whitfield wedding.
-17 D DEVIN: That's my sister.
-18 D FRANCESCA: Then you're the brother who never RSVPs.
-19 A ¶ He opens his mouth, closes it.
-20 A GUS, 60s, a retired conductor squeezed in beside them with a trombone case, chuckles.
-21 A BERNADETTE, 20s, in tights and a tutu, is crouched on the floor eating a bagel.
-22 A TARIQ, 18, headphones on, is asleep standing up, drooling against a pole.
-23 D GUS: You two should just get married.
-24 A ¶ FRANCESCA and DEVIN (together) No.
-25 A ¶ The train shudders.
-26 A Lights out.
-27 A Total darkness.
-28 A A collective groan.
-29 A Then the screen of her phone glows.
-30 A ¶ ON PHONE: Mom: "WHERE ARE YOU.
-31 A CEREMONY IN 20"
-32 A ¶ ON PHONE: Bride: "if the cake's not here by 3 I'm eloping"
-33 D DEVIN: Uh oh.
-34 D FRANCESCA: Oh no.
-35 A ¶ She turns to look at him in the blue glow.
-36 A The tiara has slipped almost over one eye.
-37 A He lowers the cake box an inch and, in the dark, breathes out.
-38 A ¶ This is the last time they will be strangers.
-39 A ¶ The emergency lights come on.
-40 A A dull thunk, and the train lurches forward.
-41 A Everybody tilts the same direction.
-42 A The cake box slides out of Devin's hands, Francesca catches it, Gus catches her, and Bernadette catches the bagel.
-43 D TARIQ (waking up, loudly): Did we make it?
-44 D BERNADETTE: No.
-45 D TARIQ: Cool.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00367.json
+### SCENE s00367 | INT. WAX MUSEUM - AFTER HOURS - NIGHT
+Detected names (may be incomplete or contain aliases): INSPECTOR HOLLIS DRAKE, WILHELMINA VOSS, CONSTABLE REUBEN OKAFOR-LEE, MADAME ODILE FERRIER, LORD ASHTON PEMBERTON, NURSE JOSEPHINE BELL, PHONE
+1 A ¶ A wax museum at midnight.
+2 A Rows of lifelike figures in period costume, glass eyes catching the exit light.
+3 A A velvet rope sags.
+4 A A faint scent of melting paraffin hangs in the dark.
+5 A ¶ INSPECTOR HOLLIS DRAKE, fifties, trench-coated, a pocket flashlight in his teeth, crouches by a figure of Napoleon.
+6 A DR. WILHELMINA VOSS, forties, the museum curator, stands over him with a clipboard.
+7 A CONSTABLE REUBEN OKAFOR-LEE, twenties, shifts his weight at the door, hand on his truncheon.
+8 A MADAME ODILE FERRIER, seventies, the sculptor, sits on a folding stool gripping a cane.
+9 A LORD ASHTON PEMBERTON, sixties, the patron, leans against a plinth, his cravat undone.
+10 A NURSE JOSEPHINE BELL, thirties, hovers at his shoulder with a medical bag.
+11 D DRAKE (to Wilhelmina): When was this figure last moved?
+12 D WILHELMINA: Never. It's been bolted since 1962.
+13 D DRAKE: Then who changed his hat?
+14 D WILHELMINA: I'm sorry?
+15 A ¶ He stands.
+16 A He lifts the bicorne from Napoleon's head.
+17 A Beneath it, the wax has been scored with a fine hairline crack, and in the crack, something glints.
+18 D DRAKE: Constable, gloves.
+19 D REUBEN: Here, sir.
+20 A ¶ He hands them over.
+21 A Drake slides a gloved finger into the crack, hooks the glint, and draws it out: a small brass key.
+22 D PEMBERTON: Well, there you are. A key. How delightful.
+23 D ODILE (sharply): Ashton.
+24 D PEMBERTON: What, Odile?
+25 D ODILE: You promised.
+26 A ¶ Pemberton straightens.
+27 A Josephine's hand drifts to his sleeve.
+28 A He shakes it off.
+29 D DRAKE: Lord Pemberton, you've seen this key before.
+30 D PEMBERTON: I haven't.
+31 D DRAKE: You have a matching one in your waistcoat.
+32 A ¶ Pemberton's hand goes to his chest.
+33 A Odile bows her head.
+34 A Wilhelmina lowers her clipboard.
+35 D WILHELMINA: Inspector, what does the key open?
+36 D DRAKE: Dr. Voss, I believe you can tell me.
+37 D WILHELMINA (a long pause): The cellar. Under the Chamber of Horrors.
+38 D DRAKE: And what's in the cellar?
+39 D WILHELMINA: The first sculpture. The one Madame Ferrier never exhibited.
+40 A ¶ All eyes turn to Odile.
+41 A She sets down her cane.
+42 A She lifts her chin.
+43 D ODILE: I made her so well, Inspector. So very well. Nobody could tell she wasn't alive.
+44 D DRAKE: Who was she?
+45 D ODILE: My sister.
+46 D REUBEN: Ma'am?
+47 D ODILE: She sat for me on the last night of her life. I could not bear to let her go.
+48 D JOSEPHINE (whispering to Pemberton): You knew?
+49 D PEMBERTON (low): I paid to keep it quiet.
+50 D DRAKE: Constable, escort Madame Ferrier and Lord Pemberton to the carriage. Nurse Bell, you will assist Dr. Voss with the cellar.
+51 D REUBEN: Yes, sir.
+52 D PHONE [V.O.] (from the hallway): Inspector, this is the Commissioner. Have you concluded?
+53 D DRAKE (calling toward the hall): Nearly, sir.
+54 A ¶ Drake pockets the key.
+55 A Odile rises with surprising grace and takes Reuben's arm.
+56 A At the door she stops, turns, and looks at the figures one last time.
+57 D ODILE: They keep better than we do, you know.
+58 A ¶ She exits.
+59 A The wax faces stare after her.
+60 A Drake switches off his flashlight and the museum goes dim.

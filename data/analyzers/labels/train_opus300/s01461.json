@@ -1,0 +1,32 @@
+{
+"scene_id": "s01461",
+"cast": {"NANA PHILOMENA": "NANA PHILOMENA", "Nana": "NANA PHILOMENA", "TEODOR": "TEODOR"},
+"beats": [1, 5, 7, 10, 14, 17, 19, 23],
+"lines": {
+"1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"3": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"4": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"5": {"t": "A", "who": ["NANA PHILOMENA"], "emo": {}, "c": 0.95},
+"6": {"t": "A", "who": ["TEODOR"], "emo": {}, "c": 0.95},
+"7": {"to": ["NANA PHILOMENA"], "emo": ["joy", 0.4], "c": 0.95},
+"8": {"to": ["TEODOR"], "emo": ["joy", 0.3], "c": 0.95},
+"9": {"to": ["NANA PHILOMENA"], "emo": ["joy", 0.4], "c": 0.95},
+"10": {"t": "A", "who": ["NANA PHILOMENA"], "emo": {"NANA PHILOMENA": ["joy", 0.4]}, "c": 0.95},
+"11": {"t": "A", "who": ["NANA PHILOMENA"], "emo": {}, "c": 0.95},
+"12": {"t": "A", "who": ["NANA PHILOMENA"], "emo": {}, "c": 0.95},
+"13": {"to": ["TEODOR"], "emo": ["affection", 0.4], "c": 0.95},
+"14": {"t": "A", "who": ["TEODOR"], "emo": {}, "c": 0.95},
+"15": {"t": "S", "who": [], "emo": {}, "c": 0.9},
+"16": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+"17": {"to": ["NANA PHILOMENA"], "emo": ["neutral", 0.2], "c": 0.95},
+"18": {"to": ["TEODOR"], "emo": ["neutral", 0.1], "c": 0.95},
+"19": {"to": ["NANA PHILOMENA"], "emo": ["joy", 0.3], "c": 0.95},
+"20": {"to": ["TEODOR"], "emo": ["neutral", 0.2], "c": 0.95},
+"21": {"to": ["NANA PHILOMENA"], "emo": ["neutral", 0.2], "c": 0.95},
+"22": {"to": ["TEODOR"], "emo": ["anger", 0.2], "c": 0.95},
+"23": {"t": "A", "who": ["NANA PHILOMENA"], "emo": {"NANA PHILOMENA": ["affection", 0.4]}, "c": 0.95},
+"24": {"t": "A", "who": ["TEODOR", "NANA PHILOMENA"], "emo": {"TEODOR": ["affection", 0.5], "NANA PHILOMENA": ["affection", 0.5]}, "c": 0.8}
+},
+"tension": [5, 5, 5, 5, 5, 8, 12, 5]
+}

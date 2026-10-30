@@ -46,317 +46,544 @@ Write each scene's JSON (valid JSON, no comments, no trailing commas) to the giv
 
 ## Scenes
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05037.json
-### SCENE s05037 | INT. FISHING BOAT - CABIN - NIGHT
-Detected names (may be incomplete or contain aliases): KIM, KIP, A MAN'S VOICE
-1 A ¶ A small cabin that smells of diesel and wet wool.
-2 A A radio phone crackles on its hook beside a chart pinned flat with two mugs.
-3 A The boat rolls; the mugs do not move.
-4 A ¶ Kim sits at the table, perfectly upright, hands around nothing.
-5 A Kip stands at the door, a duffel bag at his feet, and does not take off his coat.
-6 D KIM: You've come all this way in weather like this to stand in a doorway. I should be flattered. Our father would have said: Kip, a man who won't sit has already decided to leave. And you did decide, didn't you? Somewhere on the road, between the third petrol station and the one where you bought the sandwiches you haven't eaten. I could see it in how you tied the rope.
-7 D KIP (beat): I'm sitting.
-8 A ¶ He does not sit.
-9 A The radio phone RINGS.
-10 A Neither of them moves.
-11 A It rings four times, five.
-12 D KIM (not turning): That will be for you.
-13 D KIP (beat): How would you know?
-14 D KIM: Nobody has called this boat in two years.
-15 A ¶ Kip crosses and lifts the receiver.
-16 A He listens.
-17 A His jaw works.
-18 D A MAN'S VOICE [V.O.] (crackling, distant): Kip. Mr. Brandt wants to know if it's done. We have the other half of the money waiting. He says tonight, or not at all.
-19 A ¶ Kip lowers the receiver slowly to his chest.
-20 A Kim has not moved.
-21 A Kim is looking at the chart, tracing a finger along a coastline that no longer exists.
-22 D KIM: It's a lovely story, you know. Two brothers on a boat. One of them has to be the wave, and one of them the rock. I have always been the rock. It is very quiet being the rock.
-23 D KIP (into the receiver, lifeless): Tell him tomorrow.
-24 D A MAN'S VOICE [V.O.] (crackling): He said tonight.
-25 A ¶ Kip hangs up the phone.
-26 A He picks up the duffel and, with great care, sets it on the table between them.
-27 A He unzips it a few inches and then, just as carefully, zips it shut again.
-28 A ¶ This is the last time they will sit at this table.
-29 D KIM (softly): Put the kettle on, Kip. Whatever is in the bag will keep till it boils.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01266.json
+### SCENE s01266 | INT. OBSERVATORY LIBRARY - NIGHT
+Detected names (may be incomplete or contain aliases): PROFESSOR ALISTAIR GREYSON-MBEKI, INSPECTOR LENORE QUIGLEY-ABARA, PRUNELLA DOUGHTY
+1 A ¶ A circular room beneath a copper dome, shelves climbing in tiers around a wrought-iron gallery.
+2 A A rolling ladder on a brass track.
+3 A A reading table, a green banker's lamp, a half-drunk glass of sherry.
+4 A A body-sized shape of dust where a rug has been recently pulled aside.
+5 A ¶ PROFESSOR ALISTAIR GREYSON-MBEKI (60s, tweed jacket, bow tie) lies on the floor, face turned toward the dome.
+6 A His eyes are open.
+7 A A small wooden stool tilts nearby, one leg snapped.
+8 A ¶ INSPECTOR LENORE QUIGLEY-ABARA (40s, black wool coat, notebook) crouches at his shoulder, gloved fingers hovering over his collar.
+9 A Behind her, in the doorway, stands the housekeeper MRS. PRUNELLA DOUGHTY (60s, apron, white curls, hands clasped tight), who is trying not to look.
+10 D QUIGLEY-ABARA: When did you find him?
+11 D PRUNELLA: Half past nine, Inspector. I came in to turn down the lamp.
+12 D QUIGLEY-ABARA: And the door?
+13 D PRUNELLA: Open. Always open. He hates a closed door.
+14 A ¶ Quigley-Abara stands.
+15 A Walks the circumference of the room slowly, trailing a hand along the shelves.
+16 A At the ladder she stops, tests the brass track with a thumbnail, and lifts a smear of something pale.
+17 D QUIGLEY-ABARA: Chalk.
+18 D PRUNELLA: For the blackboard.
+19 D QUIGLEY-ABARA: There's no blackboard in this room.
+20 D PRUNELLA: No. I suppose there isn't.
+21 A ¶ The Inspector turns.
+22 A Prunella has moved a little way into the room, and now stands with one hand on the reading table, steadying herself.
+23 A The other hand has found the sherry glass and turned it a quarter turn to hide a lipstick mark on its rim.
+24 D QUIGLEY-ABARA: Mrs. Doughty.
+25 D PRUNELLA: Yes, Inspector?
+26 D QUIGLEY-ABARA: Do you take sherry?
+27 D PRUNELLA: Never.
+28 D QUIGLEY-ABARA: That's your shade of pink, though.
+29 A ¶ Prunella's mouth works.
+30 A Slowly she lifts her chin, as if resolving to be brave about something she hasn't yet been accused of.
+31 D PRUNELLA: He asked me to sit with him.
+32 D QUIGLEY-ABARA: Did he?
+33 D PRUNELLA: Last night. It was his birthday. He had no one.
+34 D QUIGLEY-ABARA: And you drank sherry together.
+35 D PRUNELLA: One glass.
+36 D QUIGLEY-ABARA: And then?
+37 D PRUNELLA: And then I went to bed.
+38 D QUIGLEY-ABARA: And he climbed the ladder, in the dark, at seventy-one, to reach the Almagest.
+39 D PRUNELLA: He always did that.
+40 D QUIGLEY-ABARA: Not with a stool.
+41 A ¶ She crosses to the broken stool and rights it.
+42 A Looks at the snapped leg: the wood is white and fresh, with a clean diagonal where a saw has been.
+43 D QUIGLEY-ABARA [CONT'D]: That's not a fall.
+44 D PRUNELLA (very quietly): No.
+45 D QUIGLEY-ABARA: Who sawed it?
+46 D PRUNELLA: I did.
+47 A ¶ The Inspector does not move.
+48 A The lamp hums.
+49 A In the high copper dome, the wind lifts a flap of loose metal and lets it fall with a soft clang.
+50 D PRUNELLA [CONT'D]: He was going to sell the telescope.
+51 D QUIGLEY-ABARA: To whom?
+52 D PRUNELLA: To a man who'd put it in a hotel lobby.
+53 D QUIGLEY-ABARA: And that was cause enough.
+54 D PRUNELLA: Forty years I've polished that brass.
+55 A ¶ She sits down on the reading chair.
+56 A Smooths her apron.
+57 A Folds her hands.
+58 A Quigley-Abara closes the notebook, comes round the table, and takes the sherry glass by its stem.
+59 A She sets it in an evidence bag.
+60 A The sound of the bag zip is very loud.
+61 D QUIGLEY-ABARA: Thank you, Mrs. Doughty.
+62 D PRUNELLA: Will there be tea?
+63 D QUIGLEY-ABARA: There will be tea.
+64 T FADE OUT.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05038.json
-### SCENE s05038 | INT. CHURCH BASEMENT - AA MEETING - NIGHT
-Detected names (may be incomplete or contain aliases): TIME, PHILLIPA ROSS, DENNIS CAHILL
-1 A ¶ Folding chairs in a circle.
-2 A A coffee urn on a card table.
-3 A A banner reading ONE DAY AT A TIME hangs crooked over a stack of Christmas decorations.
-4 A DR. PHILLIPA ROSS, 40s, hospital lanyard still around her neck, sits across from DENNIS CAHILL, 60s, an ex-paramedic in a cardigan too warm for the room.
-5 D DENNIS (raising his paper cup, to the empty chairs): Hi, I'm Dennis, and I'm an alcoholic.
-6 D PHILLIPA (deadpan, to the empty chairs): Hi, Dennis.
-7 D DENNIS (leaning in): Phillipa, we're the only two people here. You can skip the choir response.
-8 D PHILLIPA (beat, sipping): I like to keep my form.
-9 A ¶ A door SLAMS upstairs.
-10 A They both look at the ceiling.
-11 A Dennis counts to three on his fingers.
-12 D DENNIS (whispering): That's the bingo group. They're worse than we are.
-13 D PHILLIPA (straightening, clinical): Dennis. Can I tell you something, as a doctor and not as a drunk?
-14 D DENNIS (settling, hand over heart): Please. I've been hoping someone would finally diagnose me.
-15 D PHILLIPA (a long breath): I operated on a man this morning. Thirty-eight. He had a bad liver and a good laugh. He said, Doctor, I'm going to quit. I said, you'd better. And then I came here and sat in a car for forty minutes because I wanted a drink more than I've ever wanted anything.
-16 D DENNIS (softly, no joke): Did you go in the bar?
-17 D PHILLIPA (shaking her head): I came here. I came here and I'm telling you I'm scared. She is not supposed to be scared. She is supposed to be the one holding the scalpel.
-18 A ¶ Dennis looks at her.
-19 A He does not say it is fine.
-20 A The urn GURGLES.
-21 D DENNIS (gently): She's allowed. So is he. So are you.
-22 D PHILLIPA (wiping her eyes, almost laughing): Dennis. You used three pronouns.
-23 D DENNIS (proud): I contain multitudes. And a lot of decaf.
-24 A ¶ The phone on the card table BUZZES.
-25 A Phillipa glances at it.
-26 A Her face goes still.
-27 D PHILLIPA (reading, quiet): It's the hospital. They need me back.
-28 D DENNIS (standing, offering his cardigan, as if it were a medal): Then go. Come back next week and tell me how it went.
-29 D PHILLIPA (taking the cardigan, absurdly moved): It smells like a library.
-30 D DENNIS (beat): It smells like twenty-six months.
-31 A ¶ She nods.
-32 A She puts it on over her scrubs.
-33 A Upstairs, somebody shouts BINGO and the whole ceiling rattles.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s02126.json
+### SCENE s02126 | INT. STRIKE ZONE LANES - OFFICE - NIGHT
+Detected names (may be incomplete or contain aliases): INSPECTOR NELL AKINTOLA
+1 A ¶ A defunct bowling alley.
+2 A Dead pinsetters hulk in the dark beyond the glass.
+3 A A steel desk.
+4 A A cassette recorder on the blotter.
+5 A A rotary phone, unplugged.
+6 A ¶ Nothing moves.
+7 A ¶ A key turns.
+8 A The door sticks, then gives.
+9 A INSPECTOR NELL AKINTOLA, 50s, raincoat, flat shoes, a paper evidence bag under her arm, steps in and shakes water from her hair.
+10 A ¶ She sets the bag on the desk.
+11 A Presses PLAY on the recorder.
+12 D NELL [V.O.] (tape, tinny): Tuesday. Strike Zone. Owner says he never left the shift.
+13 D NELL: He did.
+14 D NELL [V.O.] (tape): Receipts say otherwise. Parking stub at the Harbour Hotel, ten fifteen.
+15 D NELL: Ten fourteen, actually.
+16 D NELL [V.O.] (tape): Lane eleven. The foul line. Something under the tape.
+17 D NELL: Three keys on a ring. Tagged. Not his.
+18 D NELL [V.O.] (tape): Ask about the night man.
+19 D NELL: Night man doesn't exist.
+20 D NELL [V.O.] (tape): So who signed the sheet?
+21 D NELL: That's what I'm asking, Nell.
+22 A ¶ She stops the tape.
+23 A Rewinds a few seconds.
+24 A Presses PLAY.
+25 D NELL [V.O.] (tape): Ask about the night man.
+26 A ¶ She nods.
+27 A Takes out a pen.
+28 A Writes on her palm.
+29 A Switches off the recorder.
+30 D NELL: Night man.
+31 A ¶ She turns off the light and leaves.
+32 A The door clicks shut.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05039_0.json
-### SCENE s05039_0 | EXT. CITY STREET - FOOD TRUCK - DAY
-Detected names (may be incomplete or contain aliases): 
-1 A ¶ A white food truck is parked near the old market.
-2 A The sign says BIG DAVE'S TACOS.
-3 A A small line of customers waits in the sun.
-4 A The smell of onions and hot oil is in the air.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s02326.json
+### SCENE s02326 | INT. TELEGRAPH OFFICE - LOCUST SEASON - DAY
+Detected names (may be incomplete or contain aliases): MARSHAL TOBIAS GREER, ODALYS, COAL BRANNIGAN, SILAS PRUETT, DESMOND YEBOAH
+1 A ¶ Shuttered windows.
+2 A A hum like a saw mill outside.
+3 A Dust sifts through cracks.
+4 A A single lamp.
+5 A ¶ MARSHAL TOBIAS GREER, 40s, sweat-stained duster, wedges a rolled blanket under the door.
+6 A ¶ ODALYS, 30s, telegraph operator, taps a key.
+7 A Nothing comes back.
+8 A ¶ Three drovers sit on crates.
+9 A COAL BRANNIGAN, big, bearded.
+10 A SILAS PRUETT, old, hat in his lap.
+11 A DESMOND YEBOAH, 20s, jittery, boots too clean.
+12 A ¶ Something skitters across the roof.
+13 D GREER (to the room): Nobody opens that door.
+14 D COAL: Wasn't planning to.
+15 D GREER: Keep the lamp low.
+16 D ODALYS (to Greer): Line's dead. Cut somewhere east.
+17 D GREER: Try Kearney.
+18 D ODALYS: I did.
+19 D GREER: Try again.
+20 A ¶ She does.
+21 A The key clicks, hollow.
+22 D SILAS (muttering): Forty years. Never seen it this thick.
+23 D DESMOND: What'd he say?
+24 D COAL: He's talking to himself.
+25 D DESMOND: Is that a thing he does?
+26 D COAL: Since his wife passed.
+27 A ¶ Greer turns on them.
+28 D GREER: Quiet. All of you.
+29 A ¶ A thud on the door.
+30 A Then another.
+31 A Something heavier.
+32 A Not an insect.
+33 A ¶ Everyone freezes.
+34 A Odalys lifts her hand from the key.
+35 D GREER [CONT'D] (low, to himself): Not now.
+36 A ¶ He draws his revolver.
+37 A Checks the cylinder.
+38 D COAL: Marshal.
+39 D GREER: Stay put.
+40 D COAL: You think it's him?
+41 D GREER (to Coal): I think it's someone who ought to be inside.
+42 A ¶ Desmond stands.
+43 A Sits.
+44 A Stands.
+45 D DESMOND (to the room): Do we open it or not?
+46 D SILAS (muttering): They'll eat the leather first.
+47 A ¶ The thud again.
+48 A A voice, muffled, human, through the wood.
+49 A ¶ Odalys lunges for the lamp.
+50 A Greer grabs the blanket from the door.
+51 D GREER (to Coal, Silas, Desmond): Back wall. Now.
+52 A ¶ They move.
+53 A Guns come out.
+54 A The doorknob begins to turn.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05039_1.json
-### SCENE s05039_1 | INT. FOOD TRUCK - CONTINUOUS
-Detected names (may be incomplete or contain aliases): BIG DAVE, JEN, MO, SAM, MRS. K, TEENAGE GIRL, THE MAN IN THE BROWN COAT
-1 A ¶ Narrow and hot.
-2 A BIG DAVE, 50s, wide shoulders, works the grill.
-3 A JEN, 30s, takes orders at the window.
-4 A MO, 20s, is cutting limes and does not talk much.
-5 A SAM, 30s, a quiet man in a clean jacket, sits on a milk crate near the back with a paper cup of coffee.
-6 D JEN (to everyone): Okay, team. Three pork, two fish, one no onions. Mo, the no-onions one is for the old lady.
-7 D MO (not looking up): Okay.
-8 D BIG DAVE (flipping meat): The old lady always want extra sauce. She says it is for her health.
-9 D JEN (laughing): Dave, her health is fine. She just likes sauce.
-10 A ¶ Sam lifts his cup.
-11 A He watches the street.
-12 A A grey car is parked across the road for the second day.
-13 D SAM (quietly, to himself): Same car. Same man.
-14 D JEN (over her shoulder): Sam, you say something?
-15 D SAM: No. Nothing. I talk to the coffee.
-16 D BIG DAVE (smiling): The coffee is the best listener in the truck.
-17 A ¶ A phone BUZZES on the shelf above the grill.
-18 A Big Dave wipes his hands on his apron and picks it up.
-19 D BIG DAVE [CONT'D] (into the phone): Hello? Yes. Yes, this is Dave.
-20 D MRS. K [V.O.] (phone, crackling, warm): David, it is Mrs. Kowalczyk from the corner. Is my delivery ready? My grandson is coming at one o'clock and he is very hungry.
-21 D BIG DAVE (into the phone): Yes, Mrs. K. Twelve tacos, wrapped, in the back. Mo will bring them in ten minutes.
-22 D MRS. K [V.O.] (phone): You are a good boy. Tell Jen she needs a husband.
-23 D JEN (loudly, from the window): I heard that!
-24 A ¶ Big Dave puts the phone down, smiling.
-25 A Mo slides the limes into a plastic tub.
-26 D MO (quietly, to Sam): You are looking at the car again.
-27 D SAM (beat): Maybe I am.
-28 D MO (shrugging): Is not our business. We make tacos.
-29 D SAM (looking at him): You are right. We make tacos.
-30 A ¶ A customer, a TEENAGE GIRL in headphones, steps to the window and puts down a ten-dollar bill.
-31 D JEN (to the girl): Hi. What can I make for you?
-32 D TEENAGE GIRL: Just two. Anything.
-33 D JEN (over her shoulder): Two pork, Dave!
-34 D BIG DAVE (to the grill, to himself): Two pork. Always pork. Nobody is brave anymore.
-35 A ¶ Outside, the grey car's door opens.
-36 A A man in a brown coat gets out and crosses the road slowly, hands in his pockets.
-37 D SAM (standing, setting down his cup, soft): Everyone. Stay calm. Keep working.
-38 D JEN (low): What is happening?
-39 D SAM (not turning): Maybe nothing. Maybe a man wants a taco.
-40 A ¶ The man arrives at the window.
-41 A He looks past Jen, past the grill, and finds Sam.
-42 D THE MAN IN THE BROWN COAT: Hello, Sam. It has been a long time.
-43 D SAM (a pause, level): Yes. A long time, Inspector.
-44 D BIG DAVE (to the grill, muttering): Inspector. Of course. The one day I forget the napkins.
-45 D JEN (whispering, to Mo): Is this a joke?
-46 D MO (whispering): I think no.
-47 A ¶ The man puts a business card on the counter.
-48 A Jen reads it without touching it.
-49 D THE MAN IN THE BROWN COAT: Do not worry. I am not here for the truck. I only wish to talk. Five minutes. Then I eat, and then I go.
-50 D SAM (taking off his apron, folding it neatly): Dave. Please keep my coffee warm.
-51 D BIG DAVE (still not turning): The coffee will wait. It is a patient coffee.
-52 A ¶ Sam steps out of the back door.
-53 A The man in the brown coat holds it for him.
-54 A They walk down the street together, slowly, the way old friends walk, or old enemies.
-55 D JEN (to Mo, to Dave, to the air): Okay. Does anyone know what just happened?
-56 D MO (cutting a lime): No.
-57 D BIG DAVE (flipping the pork): Two pork for the girl. Then we will see.
-58 A ¶ Jen sighs and wipes the counter.
-59 A The line shuffles forward.
-60 A The sun keeps shining, and the onions keep sizzling, as if nothing in the world had changed at all.
-61 A ¶ A phone BUZZES again on the shelf.
-62 A Nobody picks it up.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01251.json
+### SCENE s01251 | INT. BOARDING HOUSE - KITCHEN - MORNING - 1911
+Detected names (may be incomplete or contain aliases): ABIGAIL THORNBURY, ROSALIE THORNBURY-LAMB
+1 A ¶ A long, low room with a range stove and a scrubbed deal table.
+2 A Copper pans hang from a rack.
+3 A Rain on the window.
+4 A A bowl of apples.
+5 A A kettle sings on the hob.
+6 A ¶ ABIGAIL THORNBURY (50s, widow, apron over grey wool, hands red from lye) rolls pastry.
+7 A She does it without thinking, as her mother did, and her mother's mother: out, turn, out, turn.
+8 A ¶ Through the ceiling comes the sound of a bed creaking.
+9 A A step.
+10 A A pause.
+11 A A drawer slides shut.
+12 D ROSALIE [O.S.] (from upstairs, muffled): Abigail? Are you there?
+13 D ABIGAIL (raising her voice slightly): Where else would I be?
+14 D ROSALIE [O.S.]: I can't find my blue hat.
+15 D ABIGAIL: It's on the hook in the hall.
+16 D ROSALIE [O.S.]: I looked there.
+17 D ABIGAIL: Look again.
+18 A ¶ A pause.
+19 A A longer creak.
+20 A Then footsteps, light, down the back stairs.
+21 A The kitchen door swings open and ROSALIE THORNBURY-LAMB (50s, younger sister, travelling coat, hat in hand) enters, pink in the cheeks.
+22 D ROSALIE: It was on the hook.
+23 D ABIGAIL: It's always on the hook.
+24 D ROSALIE: I don't know how I missed it.
+25 D ABIGAIL: You were looking for a hat. You weren't looking for a hook.
+26 A ¶ Rosalie sets the hat down on the table, beside the apples.
+27 A She doesn't sit.
+28 A Abigail rolls and turns the pastry.
+29 D ROSALIE: Is there tea?
+30 D ABIGAIL: The kettle's on.
+31 A ¶ Rosalie takes two cups from the dresser.
+32 A Arranges them, saucers, spoons.
+33 A Pours when the kettle shrieks.
+34 A She sets Abigail's cup on the table at her elbow and takes her own to the window.
+35 D ROSALIE: It's still raining.
+36 D ABIGAIL: It's been raining since Michaelmas.
+37 D ROSALIE: She'd have hated that. Mother. Always said rain made the apples sour.
+38 D ABIGAIL: She said many things.
+39 D ROSALIE: She said you'd stay.
+40 A ¶ Abigail's hands pause on the pin.
+41 A Only for a second.
+42 A Then they roll.
+43 D ABIGAIL: And she said you'd go. Both are true.
+44 D ROSALIE: Are they?
+45 D ABIGAIL: Nobody's stopping you.
+46 D ROSALIE: I thought you might.
+47 D ABIGAIL: I'd be a poor sister to bar a door.
+48 A ¶ Rosalie sips her tea.
+49 A Her face is turned to the window and the grey light; Abigail's is turned to the table.
+50 A Neither sees the other's expression.
+51 D ROSALIE: The train is at noon.
+52 D ABIGAIL: Then you'll want an early lunch.
+53 D ROSALIE: I will.
+54 D ABIGAIL: I've an apple pie.
+55 D ROSALIE: It's not baked.
+56 D ABIGAIL: It will be.
+57 A ¶ She lifts a flat circle of pastry and drapes it over a tin.
+58 A Trims the edge with a knife in one smooth turn.
+59 A Rosalie watches the knife.
+60 D ROSALIE: You've always been so good at that.
+61 D ABIGAIL: It's the only thing I'm good at.
+62 D ROSALIE: That isn't true.
+63 D ABIGAIL (drily): Tell me what else, then.
+64 D ROSALIE: You were good at being left.
+65 A ¶ Abigail's knife stops.
+66 A She doesn't look up.
+67 D ABIGAIL: That's unkind.
+68 D ROSALIE: It's the truth. I mean it kindly.
+69 D ABIGAIL: I know you do.
+70 A ¶ A long, quiet moment.
+71 A The kettle ticks as it cools.
+72 A Rosalie crosses, sets down her cup.
+73 A Takes an apple from the bowl, then a second, and hands one to Abigail.
+74 A They peel in silence, side by side, the skins coming off in two unbroken spirals.
+75 D ROSALIE: Yours is longer.
+76 D ABIGAIL: It always is.
+77 A ¶ She drops her spiral in the bin.
+78 A Rosalie keeps hers, curled in her palm like a small snake, a moment longer than she needs to.
+79 D ROSALIE: I'll write.
+80 D ABIGAIL: You won't.
+81 D ROSALIE: I will.
+82 D ABIGAIL: Then I'll read it.
+83 A ¶ Rosalie smiles.
+84 A She sets the peel on the table.
+85 A It uncurls slowly and lies there, pale, in the lamplight.
+86 T FADE OUT.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05040_0.json
-### SCENE s05040_0 | INT. PRIYA'S BEDROOM - NIGHT
-Detected names (may be incomplete or contain aliases): PRIYA IYER, DESMOND OKAFOR
-1 A ¶ SUPER: "TUESDAY, 11:48 PM"
-2 A ¶ A narrow room under a slanted ceiling, fairy lights stapled in a sagging U above the bed, a desk buried in chemistry notes, three half-empty mugs, a corkboard crowded with ticket stubs and one photo turned face-down.
-3 A A laptop glows.
-4 A Rain ticks at the dormer window while PRIYA IYER, 16, braids and hoodie sleeves chewed to threads, sits cross-legged on the duvet and her older cousin DESMOND OKAFOR, 24, lean, careful, a courier's lanyard still around his neck, stands in the doorway with his car keys pinched between two fingers as the house creaks below them.
-5 A ¶ INSERT - LAPTOP SCREEN
-6 A ¶ A cursor blinks inside a locked folder named "DON'T".
-7 A ¶ BACK TO SCENE
-8 D DESMOND (closing the door behind him with a slow click): Your mum said you weren't sleeping.
-9 D PRIYA (not looking up, tapping a pen against her knee): Mum says a lot of things.
-10 D DESMOND (crossing to the desk, lifting a mug, sniffing it, setting it down): This is tea from Sunday.
-11 D PRIYA (shrugging one shoulder): It's a collection.
-12 A ¶ This is the last ordinary minute either of them will have.
-13 D DESMOND (sitting on the desk chair, turning it to face her): You texted me at two a.m. Just a street name. Harrow Lane.
-14 D PRIYA (pulling the laptop an inch closer to her stomach): Wrong number.
-15 D DESMOND (a small, patient smile): Priya. It was my number.
-16 A ¶ POV - DESMOND
-17 A ¶ The corkboard.
-18 A The face-down photo.
-19 A A corner of it lifting in the draft from the vent.
-20 D PRIYA (following his gaze, standing too fast, pressing the photo flat with her palm): Don't.
-21 D DESMOND (hands open, palms up, leaning back): I haven't moved.
-22 D PRIYA (sitting again, farther from the board): You were on Harrow Lane that night. Weren't you.
-23 D DESMOND (rubbing his thumb along the lanyard): I'm on lots of lanes. It's the job.
-24 D PRIYA (opening the laptop, turning it so he can see): Eleven deliveries. Nine of them are the same house.
-25 A ¶ INSERT - LAPTOP SCREEN
-26 A ¶ A spreadsheet.
-27 A Dates in a column.
-28 A A single address repeated.
-29 A A timestamp, 11:52 PM, highlighted yellow.
-30 D DESMOND (his eyes on the screen, his jaw working once): Where did you get this.
-31 D PRIYA (very quietly): Your app. You left yourself logged in on the family iPad.
-32 D DESMOND (standing, walking to the window, pulling the curtain a finger's width): You went through my account.
-33 D PRIYA (not moving): A girl went missing from that house, Des.
-34 D DESMOND (without turning, his reflection fogging the glass): Girls go missing from lots of houses.
-35 D PRIYA (opening a drawer, taking out a small silver key and holding it up): She dropped this in your bag. Mum found it in the car in March and gave it to me because I "like puzzles."
-36 D DESMOND (turning, eyes on the key, his voice level): Put that down.
-37 D PRIYA (closing her fist around it): It opens the locked folder. Doesn't it? The one you made for her.
-38 D DESMOND (a step forward, then stopping himself): Give me the key and I'll explain it.
-39 D PRIYA (shaking her head, standing on the bed so she is taller than him): Explain it first.
-40 T SMASH CUT TO:
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01719.json
+### SCENE s01719 | INT. DEEP-SPACE COLONY SHIP - HYDROPONICS BAY - "NIGHT CYCLE"
+Detected names (may be incomplete or contain aliases): SAOIRSE KELLEHER, MATEO ROJAS-ILLINGWORTH, ORCHARD
+1 A ¶ A cathedral-sized chamber, its curved ceiling lined with violet grow-lights dimmed to a gentle dusk.
+2 A Terraces of lettuce, wheat and tomato step down to a central pool where a pale mist lingers.
+3 A The air is warm and wet, and smells faintly of basil.
+4 A Somewhere, water drips in a patient rhythm.
+5 A ¶ DR. SAOIRSE KELLEHER (50s, silver hair in a braid, lab coat over a sleeping tunic) walks the terrace alone, brushing leaves with her fingertips.
+6 A Below, at the pool, a young technician, MATEO ROJAS-ILLINGWORTH (20s, rolled sleeves, tool belt) refills a nutrient dispenser.
+7 A The ship's AI, ORCHARD, glows as a faint green node at the end of each terrace.
+8 D SAOIRSE: Mateo. Aren't you off shift?
+9 D MATEO: Couldn't sleep, Doctor.
+10 D SAOIRSE: Nor could I.
+11 D MATEO: It's quiet down here.
+12 D SAOIRSE: It always was, my first voyage.
+13 A ¶ He smiles.
+14 A She sits on the terrace steps.
+15 A The mist swirls.
+16 D ORCHARD [V.O.]: All systems nominal. Crop yield at one hundred and four percent.
+17 D SAOIRSE: Thank you, Orchard.
+18 D MATEO: It's weird, isn't it? Everything's so perfect.
+19 D SAOIRSE: Perfect is what we aimed for.
+20 A ¶ Silence.
+21 A The water drips.
+22 A Mateo stops, tilting his head, listening.
+23 D MATEO: That's not the drip.
+24 D SAOIRSE: What?
+25 D MATEO: The drip's every four seconds. That's every three.
+26 D ORCHARD [V.O.]: Correction. Condensation cycle is irregular.
+27 A ¶ Saoirse stands.
+28 A Her hand lingers on a tomato vine.
+29 A The leaf is faintly warm, like skin.
+30 D SAOIRSE: Orchard. Run a biological scan on Terrace Three.
+31 D ORCHARD [V.O.]: Scanning.
+32 A ¶ The green node flickers.
+33 A Along the terrace, every plant turns, slowly, toward the two humans.
+34 A The mist in the pool thickens into a shape that is almost, but not quite, a face.
+35 D ORCHARD [V.O., CONT'D] (soft, distorted): Scan complete. You are not alone.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05040_1.json
-### SCENE s05040_1 | INT. PRIYA'S BEDROOM - CONTINUOUS
-Detected names (may be incomplete or contain aliases): DESMOND, PRIYA
-1 A ¶ The rain is louder now.
-2 A The lights above the bed flicker once.
-3 A Downstairs a television is switched off and the house goes quiet in a way that feels listened-to.
-4 D DESMOND (lunging a half-step, catching himself on the desk, knocking a mug to the floor where it does not break): You think I did something to her.
-5 D PRIYA (holding the key behind her back): I think you were there at 11:52.
-6 D DESMOND (pointing at the screen, his voice cracking upward): I was there because she called me! She called ME. She asked for a ride, and I was forty minutes away, and I told her to wait inside, and she didn't, and I have driven that lane every night since, because if I had been faster--
-7 D PRIYA (frozen, the key slipping in her sweaty fingers): You never said.
-8 D DESMOND (sinking onto the chair, hands over his face): Nobody asked me the right question.
-9 A ¶ INSERT - THE FACE-DOWN PHOTO
-10 A ¶ Pressed against the cork.
-11 A A girl's handwriting on the back: "for Des. don't be late."
-12 D PRIYA (peeling the photo off the board, turning it over, her breath leaving her): She wrote this to you.
-13 D DESMOND (lifting his head, wet-eyed, looking at the key in her hand): Open the folder, Priya. Please. I never could.
-14 D PRIYA (kneeling at the laptop, sliding the key into a small drive port, her hand shaking): If it's something awful--
-15 D DESMOND (a very small nod): Then it's hers. And we'll know.
-16 A ¶ ON SCREEN
-17 A ¶ The folder opens.
-18 A A single video file.
-19 A The thumbnail shows a dark street and a figure in a yellow raincoat looking back over her shoulder.
-20 D PRIYA (her finger over the trackpad, not pressing): Together?
-21 D DESMOND (moving to sit beside her on the bed, close, not touching): Together.
-22 D PRIYA (pressing play, the sound already rising from the speakers like a held breath): Okay.
-23 A ¶ SLOW PUSH IN on the screen as the rain outside the window finds the same rhythm as the rain in the video, and neither of them blinks.
-24 T CUT TO BLACK.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s02498.json
+### SCENE s02498 | INT. LIGHTHOUSE KEEPER'S COTTAGE - CHRISTMAS EVE - NIGHT - 1948
+Detected names (may be incomplete or contain aliases): AMBROSE FINCH, GLADYS FINCH, TILLY
+1 A ¶ A small, snug kitchen.
+2 A Snow against the window.
+3 A A fir tree no taller than a broom stands in a bucket, hung with paper stars.
+4 A The big lamp turns slowly above them, sweeping its beam through the frost.
+5 A ¶ AMBROSE FINCH, 40s, the keeper, in a heavy jersey, carves a goose.
+6 A His wife, GLADYS FINCH, 40s, bustles with a gravy boat.
+7 A Their daughter TILLY, 8, hides under the table with a stuffed rabbit.
+8 D GLADYS (to the room): Dinner in five!
+9 D AMBROSE (to Tilly): Come out, poppet.
+10 D TILLY: No.
+11 D AMBROSE: Why not?
+12 D TILLY: Santa'll see the lamp and think we're a ship.
+13 A ¶ Ambrose puts the carving knife down.
+14 A Crouches.
+15 A Looks under the table.
+16 D AMBROSE: Santa's got a better chart than that.
+17 D TILLY: Does he?
+18 D AMBROSE: Best in the world.
+19 D GLADYS (muttering, at the stove): I hope he's got a better goose than this.
+20 D AMBROSE: I heard that.
+21 A ¶ Tilly slides out.
+22 A Rabbit in hand.
+23 A Ambrose lifts her.
+24 A Gladys sets the gravy on the table and the three of them stand there, laughing.
+25 A The rabbit falls.
+26 A Tilly lunges for it.
+27 A Ambrose steps back.
+28 A Gladys catches the gravy boat as it tips.
+29 A Everything clatters.
+30 D TILLY: Sorry!
+31 D GLADYS (to herself): Merry Christmas.
+32 A ¶ Ambrose rights the chairs.
+33 A A knock at the door.
+34 A They freeze.
+35 D AMBROSE: Who'd come up here tonight?
+36 A ¶ Gladys opens the door.
+37 A Wind, snow, nobody.
+38 A A parcel in brown paper on the step.
+39 D GLADYS (calling into the dark): Hello?
+40 D TILLY: It's Santa!
+41 D AMBROSE (low): Gladys. Close the door.
+42 A ¶ She closes it.
+43 A The parcel sits on the table.
+44 A Tilly claps.
+45 A Ambrose cuts the string.
+46 A Inside, a small brass ship's bell and a card.
+47 D GLADYS: What does it say?
+48 D AMBROSE: "To the light that brought us home."
+49 A ¶ Ambrose rings the bell once.
+50 A Soft.
+51 A The lamp above turns on, steady and bright.
+52 A Gladys wipes her eyes with the corner of her apron.
+53 D GLADYS (to everyone): Eat before it gets cold.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05041.json
-### SCENE s05041 | INT. FREIGHT DEPOT - LOADING FLOOR - DAY
-Detected names (may be incomplete or contain aliases): SAFETY FIRST, HALVORSEN, REPORTER, MAYA OKONKWO, DEV, MUM, KORVAC
-1 A ¶ HANDHELD.
-2 A A cheap camera, wobbling, date stamp in the corner.
-3 A Pallets, shrink-wrap, a forklift beeping somewhere.
-4 A A banner: "SAFETY FIRST - 212 DAYS."
-5 A ¶ ON CAMERA: HALVORSEN, 50s, shift supervisor, clipboard, lanyard, mustache.
-6 D HALVORSEN (adjusting the camera strap, grinning): Is it recording? The red light's on. Okay. Day two hundred and twelve. Everything's on schedule. We love schedules.
-7 D REPORTER [O.S.] (laughing): Tell them what you're shipping.
-8 D HALVORSEN (tapping a crate with his pen): Boots, blankets, tinned peaches. Humanitarian, all of it. Dull as dishwater.
-9 D MAYA OKONKWO (coming into frame, a box on her hip, tugging her gloves off): He says "dull" like it's a compliment. We had a pallet of tinned peaches yesterday that I swear wasn't there on the manifest.
-10 D HALVORSEN (waving the clipboard): The manifest is a suggestion.
-11 D DEV (rolling a hand truck past, not stopping): Maya, your mum's on speaker. Phone's in the break room.
-12 A ¶ ON PHONE: "MUM: where are u. news is on. call me"
-13 D MAYA OKONKWO (pulling out her own phone, thumbing it, holding it up to the lens): She sends the same text every time there's weather on the other side of the world.
-14 A ¶ ON PHONE: "MAYA: working. love you. stop watching it."
-15 A ¶ INTERCUT - FLOOR AND MUM'S KITCHEN
-16 D MUM [V.O.] (through the phone, tinny, a kettle shrieking behind her): Don't tell me to stop watching. There is a man on the television pointing at a map and he said your port.
-17 D MAYA OKONKWO (turning her back to the camera, lowering her voice): Mum. It's a warehouse in a suburb. Nobody is pointing at it.
-18 D MUM [V.O.] (the kettle clicking off): Then why is there a truck at the gate that isn't yours?
-19 D MAYA OKONKWO (looking up, eyes going to the far dock door): Hold on.
-20 A ¶ ANGLE ON the far dock.
-21 A A flatbed, no logo, idling.
-22 A Two men in dark jackets stand beside it.
-23 A A third, KORVAC, 40s, grey stubble, steps down.
-24 D HALVORSEN (whispering, lowering the camera slightly): He told me she'd be here Thursday. She's not due until Thursday.
-25 D DEV (arriving beside them, voice flat): He said she. I thought you meant the shipment.
-26 D HALVORSEN (a nervous laugh): He means the shipment. She means the shipment. Everyone means the shipment.
-27 D KORVAC (striding up, flashing a laminated card): Inspection. All hands to the front. Phones in the bin, please.
-28 D MAYA OKONKWO (into the phone, not moving): Mum, I'll call you back.
-29 D MUM [V.O.] (sharply): Don't hang up. He's not on the news. He's in your building.
-30 A ¶ ON PHONE: "MUM: dont put it in the bin"
-31 D KORVAC (pointing at the lens): And turn that off.
-32 D HALVORSEN (stepping in front of the lens, hand raised): Sir, it's a documentary. We're cleared.
-33 D KORVAC (quietly, reaching past him): Not by me.
-34 A ¶ The camera drops.
-35 A The frame tilts to a ceiling, to a boot, to a crate stencilled "PEACHES" with its lid already pried loose and something other than peaches inside.
-36 D DEV (off screen, barely audible): Maya. Don't look in the box.
-37 T CUT TO BLACK.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s00881.json
+### SCENE s00881 | EXT. RIVER CROSSING - FERRY LANDING - DAY
+Detected names (may be incomplete or contain aliases): AMOS PIKE, CORA LEIGHTON, SHERIFF WALT DRUMMOND, MIGUEL ARROYO
+1 A ¶ A cable-drawn raft waits on a brown river.
+2 A A shack.
+3 A A hitching rail.
+4 A ¶ AMOS PIKE, 40s, ferryman, coils rope on the dock.
+5 A He keeps one eye on the road.
+6 A ¶ CORA LEIGHTON, 30s, a schoolteacher in a travelling coat, arrives with a trunk and sets it down hard.
+7 A She watches him work.
+8 D CORA: How much for the crossing?
+9 D AMOS: Two bits.
+10 A ¶ She pays.
+11 A He pockets it without looking.
+12 A ¶ Dust rises on the road.
+13 A Two riders.
+14 A SHERIFF WALT DRUMMOND, 50s, and MIGUEL ARROYO, 20s, in handcuffs, slumped over his saddle.
+15 D AMOS [CONT'D]: Morning, Sheriff.
+16 D DRUMMOND: Amos.
+17 A ¶ He dismounts.
+18 A Pulls the prisoner down.
+19 A Miguel's lip is split.
+20 A He keeps his eyes on the water.
+21 D CORA: Is he hurt?
+22 D DRUMMOND: Not badly.
+23 D CORA: He looks hurt.
+24 D DRUMMOND: Ma'am, it ain't your business.
+25 A ¶ She turns to Amos.
+26 D CORA: Is it?
+27 A ¶ Amos looks at the river.
+28 A At the raft.
+29 A He chews a long moment.
+30 D AMOS: Raft only holds four. And a horse.
+31 D DRUMMOND: Then we'll make two trips.
+32 D AMOS: Then you wait.
+33 A ¶ Drummond's jaw tightens.
+34 A Miguel lifts his head and meets Cora's eyes.
+35 A He mouths something.
+36 A She nods, barely.
+37 D DRUMMOND: Something to say, boy?
+38 A ¶ Miguel shakes his head.
+39 A Cora steps between them, calm as a church.
+40 D CORA: Sheriff, I'll ride with the prisoner. The ferryman will take the horses first.
+41 D DRUMMOND: That wasn't the plan.
+42 D CORA: It is now.
+43 A ¶ Amos grins at the rope.
+44 A Drummond glares.
+45 A Then, slowly, he unbuckles his gun belt and hangs it from his saddle horn.
+46 D DRUMMOND: Lead on.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05042.json
-### SCENE s05042 | INT. CAR (MOVING) - NIGHT
-Detected names (may be incomplete or contain aliases): MO, THE WOMAN, DR. NAIR, JEN
-1 A ¶ SUPER: "2:04 AM"
-2 A ¶ Wet streetlights slide across the windshield.
-3 A MO, 30s, rideshare driver, hands at ten and two.
-4 A In the back, THE WOMAN, 40s, scrubs under a grey coat, a cooler bag on her lap, thumb hovering over her phone.
-5 A ¶ CLOSE ON the cooler bag.
-6 A A biohazard sticker.
-7 A A digital display on it blinking: 03:12.
-8 D MO: Hospital's six minutes out. You said the drop's at the transplant door?
-9 D THE WOMAN: Side entrance. Don't stop at the main.
-10 A ¶ Her phone BUZZES.
-11 A She answers on speaker.
-12 D DR. NAIR [V.O.]: Where are you? The patient is on the table and the clock's running.
-13 D THE WOMAN: Six minutes. Maybe five.
-14 D DR. NAIR [V.O.]: Jen, the courier crashed. I'm told you're riding with a stranger.
-15 D JEN (low, to herself): Here we go.
-16 A ¶ ANGLE ON Mo's eyes in the rear-view mirror.
-17 A A red light ahead.
-18 A He slows, then runs it.
-19 D MO: Sorry. Hold on.
-20 A ¶ INSERT - THE COOLER DISPLAY
-21 A ¶ 03:09.
-22 A 03:08.
-23 A ¶ WE SEE headlights swing in behind them, high beams, closing fast.
-24 D JEN: Mo, who is that?
-25 D MO (flooring it): Not my brother-in-law. Seatbelt.
-26 A ¶ BACK TO SCENE
-27 D DR. NAIR [V.O.]: Jen? Jen, talk to me.
-28 D JEN (gripping the door handle): Keep the line open. We're not stopping.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01765.json
+### SCENE s01765 | INT. DRAGON'S TOOTH MINE - DEEP SHAFT - DAY
+Detected names (may be incomplete or contain aliases): ALDRETH, PIP, MARN, YSABEAU, GORRAN
+1 A ¶ Black rock veined with ivory.
+2 A Lanterns hang from iron hooks.
+3 A The walls are warm.
+4 A ¶ ALDRETH (40s, foreman, leather vest, pickaxe on his shoulder) squints into the dark.
+5 A PIP (12, mine boy, soot-faced, torch held two-handed) grips his sleeve.
+6 A MARN (30s, miner, huge arms, a sledge) swings at the vein, stone chips flying.
+7 A YSABEAU (20s, mapmaker, ink on her nose, a roll of parchment under her arm) taps a compass.
+8 A ¶ The wall exhales.
+9 A Hot breath, sulfur-yellow.
+10 A Every lantern bows.
+11 D PIP: Foreman?
+12 D ALDRETH: Nobody move.
+13 A ¶ Marn lowers the sledge.
+14 A Ysabeau closes the compass.
+15 A Pip ducks behind Aldreth.
+16 A Together they back up into the narrow shaft as the vein of ivory glows orange and the stone around it begins to crack like an egg.
+17 A ¶ A figure steps out of the dark behind them.
+18 A GORRAN (60s, a wyrm-warden, scaled leather armor, a staff of blackened bone) taps the floor once.
+19 A The cracking stops.
+20 D GORRAN: You've dug into the nursery.
+21 D ALDRETH: We didn't know.
+22 D GORRAN: Few do. Put down the picks. Back out, slowly, and thank the mountain it's sleeping.
+23 A ¶ Marn drops the sledge.
+24 A Ysabeau bows.
+25 A Pip, trembling, holds out his torch, and Gorran takes it, and pinches the flame out with two bare fingers.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05043_0.json
-### SCENE s05043_0 | INT. ST. BRIDGET'S CHURCH BASEMENT - NIGHT
-Detected names (may be incomplete or contain aliases): KIM HALLORAN, KIP HALLORAN, MR. DELACROIX, SISTER AGNES, BIG TOMASZ
-1 A ¶ MONTAGE - FOLDING CHAIRS, STYROFOAM CUPS, A BANNER THAT SAYS "ONE DAY AT A TIME" WITH THE "ONE" PEELING OFF
-2 D KIM HALLORAN (slamming a coffee pot onto the table, steam rising): I am telling you, the sober cake is not a cake, it is a loaf, and I will not be lied to about baked goods in a house of God.
-3 D KIP HALLORAN (sitting in the circle, raising one finger like a student): Technically we're in the basement.
-4 D MR. DELACROIX (rubbing his eyes under his glasses): Technically we are all in the basement.
-5 A ¶ This is the loudest this room has been all year.
-6 D KIM HALLORAN (pointing at Kip with a stir stick): You promised me, Kip. You said no more texts to the ex.
-7 A ¶ ON PHONE: "KIP: just checking in. hope u are well"
-8 D KIP HALLORAN (hiding the phone under his thigh): That's not me. That's a different Kip.
-9 D SISTER AGNES (from the folding table, arranging donuts into a perfect spiral): There is only one Kip, and the Lord has seen your thumbs.
-10 D BIG TOMASZ (raising his hand slowly, standing, sitting back down, standing again): Can I say something? I only came for the donuts, and I am now somehow crying, and that is Kip's fault.
-11 D KIM HALLORAN (softening, setting down the stir stick): Oh, Tomasz.
-12 D MR. DELACROIX (clapping once, bright): Okay! Deep breaths. In through the nose. Out through the donut.
-13 D SISTER AGNES (offering the plate around the circle): Take one. They are not a sacrament.
-14 D KIP HALLORAN (taking two, handing one to Kim): Truce?
-15 D KIM HALLORAN (biting into it, rolling her eyes): Truce. But the loaf thing stands.
-16 T SMASH CUT TO:
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s01974.json
+### SCENE s01974 | INT. DRY-DOCK PUMP HOUSE - NIGHT
+Detected names (may be incomplete or contain aliases): KESTREL OYELARAN-FINCH, DRAGAN MIHAJLOVI, INSPECTOR ROSALIND ACHTERBERG, ALVARO
+1 A ¶ A cathedral of valves and rust-orange pipework.
+2 A A drained dry dock yawns beyond a glass wall, the hull of a half-scrapped ferry propped on blocks.
+3 A Emergency light only.
+4 A ¶ KESTREL OYELARAN-FINCH (30s, ex-auditor, wet hair, laptop bag clutched to her chest) backs against a pump housing.
+5 A In the center of the room, DRAGAN MIHAJLOVIĆ (50s, heavy coat, port authority lanyard) stands with a pistol held low and loose, like a tool he's tired of.
+6 D DRAGAN: Put the bag on the floor.
+7 D KESTREL: No.
+8 D DRAGAN: It's not a negotiation.
+9 D KESTREL: It's the only thing keeping you from sitting in a cell.
+10 A ¶ He tilts his head.
+11 A A dripping pipe counts seconds.
+12 D DRAGAN: The ledgers are digital.
+13 D KESTREL: So are the backups.
+14 D DRAGAN: Where?
+15 D KESTREL: Not telling.
+16 A ¶ He sighs, and for a moment looks almost sad.
+17 A Steps forward.
+18 A ¶ Behind Kestrel, a hatch clangs.
+19 A Boots on a steel stair.
+20 A She spins.
+21 A Dragan doesn't.
+22 A ¶ A third figure descends: INSPECTOR ROSALIND ACHTERBERG (40s, plain coat, badge on her belt, one hand already on her holster).
+23 D ROSALIND: Port Authority Police. Mr. Mihajlović. Lower it.
+24 D DRAGAN: Rosalind.
+25 D ROSALIND: Lower it, Dragan.
+26 A ¶ He doesn't.
+27 A Doesn't raise it either.
+28 A Kestrel looks from one to the other.
+29 D KESTREL: You know each other.
+30 D ROSALIND: Twenty years.
+31 D KESTREL: Then you can talk him out of this.
+32 D ROSALIND: I'm not here to talk him out of anything.
+33 A ¶ Kestrel's face changes.
+34 A She takes a step back, into the pump housing.
+35 D KESTREL: You're not here to arrest him.
+36 D ROSALIND: I'm here to see that the bag leaves with me.
+37 D DRAGAN: Ah. There we are.
+38 D KESTREL (quiet): I called you. You said you'd come.
+39 D ROSALIND: And I did.
+40 A ¶ A fourth voice speaks from the dark above the stair, unamplified, polite.
+41 D ALVARO [O.S.]: Everyone relax. Please.
+42 A ¶ All three look up.
+43 A A silhouette stands on the catwalk, a phone held loosely to its ear.
+44 D DRAGAN: Who is that.
+45 D ALVARO [O.S.]: Someone who'd like to hear the rest of this.
+46 D ROSALIND (to Dragan): You brought a recorder?
+47 D DRAGAN: I didn't bring anyone.
+48 D ALVARO [O.S.]: No, I came on my own. Mrs. Oyelaran-Finch, I believe that's your bag.
+49 A ¶ Kestrel stares at the catwalk.
+50 A Then, slowly, at the two armed people in front of her.
+51 A She sets the bag on the floor, pushes it with her foot across the concrete toward Rosalind and Dragan, and steps away from it with her hands visible.
+52 D KESTREL: It's yours. Whoever wants it.
+53 A ¶ Neither of them moves.
+54 A Dragan lowers his pistol an inch.
+55 A Rosalind's hand leaves her holster.
+56 A The pipe drips.
+57 D ALVARO [O.S.] (softly): That's better.
+58 D DRAGAN (muttering): Twenty years.
+59 D ROSALIND: Don't.
+60 A ¶ She crouches and picks up the bag.
+61 A Opens it.
+62 A Looks inside.
+63 A Closes it.
+64 D ROSALIND [CONT'D]: It's empty.
+65 D DRAGAN: What?
+66 D KESTREL: The laptop's in the dock.
+67 A ¶ All of them turn to the glass wall.
+68 A Far below, at the foot of the rusted hull, a tiny blue light glows on the concrete floor of the dry dock, beside a sealed gate that has just begun to let in water.
+69 D DRAGAN: You flooded it.
+70 D KESTREL: I opened a valve. It's what the pump house is for.
+71 A ¶ Rosalind sprints for the door.
+72 A Dragan lowers his gun completely and watches the water, and the blue light, and the woman, one after the other.
+73 D ALVARO [O.S.] (delighted): Oh, well done.
+74 D KESTREL: Don't follow me.
+75 A ¶ She walks to the stair and climbs past the catwalk without looking at it.
+76 A At the top, the silhouette steps aside to let her through.
 
-Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s05043_1.json
-### SCENE s05043_1 | INT. ST. BRIDGET'S CHURCH BASEMENT - LATER
-Detected names (may be incomplete or contain aliases): 
-1 A ¶ The chairs are stacked.
-2 A The banner finally falls.
+Output path: /home/user/screenwrite-analyzers/data/analyzers/labels/train/s02094.json
+### SCENE s02094 | INT. CAPSIZED TRAWLER - AIR POCKET - NIGHT
+Detected names (may be incomplete or contain aliases): IMOGEN TAVARES, PILAR PERRAULT
+1 A ¶ A black, upside-down cabin, the floor now the ceiling.
+2 A Water slaps a foot below.
+3 A A single glow stick floats in a bucket, lighting the underside of everything green.
+4 A A handheld radio is wedged in a bunk frame.
+5 A ¶ IMOGEN TAVARES, 40s, hangs from the rail by one arm, soaked, her other hand clamped around the radio.
+6 A She breathes in ragged pulls.
+7 D IMOGEN: Pilar. Pilar, come in.
+8 D PILAR [O.S.] (over radio): I'm here.
+9 D IMOGEN: Where?
+10 D PILAR [O.S.] (over radio): Engine room. The hatch is jammed.
+11 D IMOGEN: How much air?
+12 D PILAR [O.S.] (over radio): Enough for a conversation.
+13 D IMOGEN: Don't joke.
+14 D PILAR [O.S.] (over radio): I'm not.
+15 A ¶ A beat.
+16 A Water slaps.
+17 A Imogen lowers herself down, wading chest-deep toward a bulkhead door, the radio held above her head.
+18 D IMOGEN: I'm coming.
+19 D PILAR [O.S.] (over radio): You can't swim that.
+20 D IMOGEN: Watch me.
+21 A ¶ She dives.
+22 A The glow stick bobs.
+23 A A thump.
+24 A A muffled scream.
+25 A The radio clicks.
+26 D PILAR [O.S.] (over radio): Imogen?
+27 A ¶ The bulkhead door bursts open and PILAR PERRAULT, 30s, surges through in a gush of water, gasping, hair plastered to her face.
+28 A Imogen is behind her, one fist knotted in her collar.
+29 A They slam against the wall, tangled, coughing, clutching each other, then shove apart.
+30 D PILAR: You left the hatch open.
+31 D IMOGEN: I left you alive.

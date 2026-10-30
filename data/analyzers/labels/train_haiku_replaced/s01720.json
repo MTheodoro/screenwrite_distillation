@@ -1,0 +1,28 @@
+{
+  "scene_id": "s01720",
+  "cast": {"ODALYS VANTERPOOL": "ODALYS VANTERPOOL", "ODALYS": "ODALYS VANTERPOOL", "BRAM OKONKWO": "BRAM OKONKWO", "BRAM": "BRAM OKONKWO", "PRUDENCE HALE": "PRUDENCE HALE", "PRUDENCE": "PRUDENCE HALE", "WENDELL DUCROIX": "WENDELL DUCROIX", "WENDELL": "WENDELL DUCROIX"},
+  "beats": [1, 6, 12, 14, 18, 20],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "3": {"t": "A", "who": ["ODALYS VANTERPOOL"], "emo": {}, "c": 0.95},
+    "4": {"t": "A", "who": ["BRAM OKONKWO"], "emo": {}, "c": 0.95},
+    "5": {"t": "A", "who": ["PRUDENCE HALE", "WENDELL DUCROIX"], "emo": {}, "c": 0.95},
+    "6": {"to": ["ALL"], "emo": ["sadness", 0.4], "c": 0.9},
+    "7": {"to": ["ODALYS VANTERPOOL"], "emo": ["anger", 0.5], "c": 0.9},
+    "8": {"to": ["ALL"], "emo": ["fear", 0.4], "c": 0.85},
+    "9": {"to": ["ALL"], "emo": ["fear", 0.6], "c": 0.9},
+    "10": {"to": ["BRAM OKONKWO"], "emo": ["neutral", 0.3], "c": 0.9},
+    "11": {"to": ["ALL"], "emo": ["fear", 0.5], "c": 0.9},
+    "12": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "13": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "14": {"t": "A", "who": ["ODALYS VANTERPOOL", "BRAM OKONKWO", "WENDELL DUCROIX", "PRUDENCE HALE"], "emo": {"ODALYS VANTERPOOL": ["fear", 0.6], "BRAM OKONKWO": ["fear", 0.7]}, "c": 0.9},
+    "15": {"to": ["PRUDENCE HALE"], "emo": ["anger", 0.6], "c": 0.9},
+    "16": {"to": ["ALL"], "emo": ["fear", 0.8], "c": 0.9},
+    "17": {"to": ["ALL"], "emo": ["fear", 0.6], "c": 0.9},
+    "18": {"t": "S", "who": [], "emo": {}, "c": 0.95},
+    "19": {"t": "A", "who": ["ODALYS VANTERPOOL", "BRAM OKONKWO", "PRUDENCE HALE", "WENDELL DUCROIX"], "emo": {}, "c": 0.95},
+    "20": {"t": "S", "who": [], "emo": {}, "c": 0.9}
+  },
+  "tension": [15, 35, 55, 70, 60, 85]
+}

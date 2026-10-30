@@ -1,0 +1,22 @@
+{
+  "scene_id": "s01475_0",
+  "cast": {"CAPTAIN RUTH OYELOWO-KAUFMANN": "RUTH", "CAPTAIN": "RUTH", "SERGEANT BASHIR AL-HAMDANI": "BASHIR", "SERGEANT": "BASHIR", "MEDIC": "MEDIC"},
+  "beats": [1, 5, 10, 13],
+  "lines": {
+    "1": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "2": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "3": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "4": {"t": "S", "who": [], "emo": {}, "c": 1.0},
+    "5": {"t": "A", "who": ["RUTH", "BASHIR", "MEDIC"], "emo": {}, "c": 1.0},
+    "6": {"t": "A", "who": ["RUTH", "BASHIR", "MEDIC"], "emo": {}, "c": 0.9},
+    "7": {"t": "A", "who": ["RUTH"], "emo": {}, "c": 1.0},
+    "8": {"t": "A", "who": ["BASHIR"], "emo": {}, "c": 1.0},
+    "9": {"t": "A", "who": ["MEDIC"], "emo": {}, "c": 1.0},
+    "10": {"to": ["ALL"], "emo": ["neutral", 0.2], "c": 0.9},
+    "11": {"to": ["RUTH"], "emo": ["anger", 0.3], "c": 0.8},
+    "12": {"to": ["BASHIR"], "emo": ["neutral", 0.3], "c": 0.8},
+    "13": {"t": "A", "who": ["MEDIC"], "emo": {}, "c": 1.0},
+    "14": {"t": "A", "who": ["BASHIR", "RUTH", "MEDIC"], "emo": {"RUTH": ["affection", 0.4]}, "c": 0.9}
+  },
+  "tension": [5, 25, 20, 35]
+}
