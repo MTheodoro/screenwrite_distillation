@@ -1002,7 +1002,7 @@ export function ruleActors(ctx, i) {
   const subj = ms.find((m) => !m.poss && !/\b(at|to|toward|towards|in|on|with|behind|beyond|beside|near|from|for|of|by|past|around|into|onto|under|over|between|among|than|like)\s+$/i.test(u.text.slice(0, m.at)));
   if (subj) return W("firstMention", [subj.c]);
   // "A vein rises on Jethro's neck." / "Frosting drips from Tibby's nose." / "A root catches Bram's foot; he falls." -> the owner
-  if (!OFF.has("namebody") && !ms.some((m) => !m.poss)) {
+  if (ON.has("namebody") && !ms.some((m) => !m.poss)) {
     const pm = ms.find((m) => m.poss && BODY.test(u.text.slice(m.at).replace(/^\S+(?:\s+\S+){0,3}?['’]s\s+/, "").replace(ADJ_PRE, "")));
     if (pm) return W("nameBody", [pm.c]);
   }

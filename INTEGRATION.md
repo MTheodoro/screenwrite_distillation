@@ -28,11 +28,11 @@ Copy these from `src/analyzers/` (all plain ES modules, no dependencies, no netw
 
 | Files | Size (gz) | Loaded |
 |---|---|---|
-| `fountain cast names lexicon rules model service worker wordtable summarize describe taxonomy` `.js` | ~57 KB | with the worker |
+| `fountain cast names lexicon rules model service worker wordtable summarize describe taxonomy verbs` `.js` | ~70 KB | with the worker |
 | `emotable kindtable beatcue` `.js` (learned word tables) | ~64 KB | with the worker |
 | `weights.js` (trees + mood tables, generated) | ~175 KB | lazily via `import()` on `need-model` |
 
-About **300 KB gzipped** in total. Everything is in the app bundle: no `fetch`, no server, no WASM, works under
+About **310 KB gzipped** in total (`verbs.js` is a corpus-derived verb/noun lexicon used by the who rules). Everything is in the app bundle: no `fetch`, no server, no WASM, works under
 `file://` and in Electron. Keep `worker.js` a module worker:
 `new Worker(new URL("./analyzers/worker.js", import.meta.url), { type: "module" })`.
 
@@ -119,12 +119,12 @@ rest as suggestions the writer can confirm:
 
 | `why` | share of action lines | accuracy (dev) | show as |
 |---|---|---|---|
-| `nameLead`, `titleLead`, `namePair`, `appositive`, `screenText` | ~25% | 95–99% | fact |
-| `pronounUnique` (only one present character fits the pronoun) | ~8% | 92% | fact |
-| `none` (no character: setting / event / camera …) | ~38% | 91% | fact (with `kind`) |
-| `firstMention`, `fragmentPrev`, `possessive` | ~15% | 82–85% | suggestion |
-| `pronounSalient` (several candidates of that gender) | ~9% | 83% | suggestion |
-| `plural*`, `everyone`, `nobody`, `extras`, `pronounFallback`, `objectOnly` | ~4% | 30–75% | suggestion |
+| `nameLead`, `titleLead`, `introLine`, `appositive`, `screenText`, `dirFragment` | ~29% | 92–100% | fact |
+| `pronounUnique` (only one present character fits the pronoun) | ~8.5% | 95% | fact |
+| `none` (no character: setting / event / camera …) | ~37% | 94% | fact (with `kind`) |
+| `pronounSalient`, `pronounUnknownGender`, `pronounObjectChain`, `fragmentPrev`, `possessive` | ~16% | 86–89% | suggestion (strong) |
+| `namePair`, `pluralTwo`, `pluralCount`, `pluralPair`, `firstMention`, `extras`, `objectOnly`, `pronounAhead` | ~4% | 68–81% | suggestion |
+| `pluralAll`, `everyone`, `nobody`, `countCast`, `clauses`, `itComment`, `pronounFallback`, `narration` | ~3% | 15–60% | suggestion (weak) |
 
 Measured on held-out labels (synthetic + contemporary scenes). Passing the app's character tags (§3) raises all of
 these. Make the "fact" set a setting.
@@ -136,7 +136,7 @@ other; no system can be meaningfully scored above it.
 
 | | Synthetic + contemporary (176 scenes) | Contemporary only, 20 writer styles (60 scenes) | Ceiling |
 |---|---|---|---|
-| Who, exact set | 87.5% | 86.4% | 98% |
+| Who, exact set (top-1) | 94.0% (95.3%) | 92.2% (93.9%) | 98% |
 | Line kind (non-character lines) | 84% | – | 95% |
 | Line emotion | 75.4% | 74.7% | 92% |
 | Dramatic beats, boundary F1 (±1 unit) | 0.55 | – | 0.76 (pass vs pass) |
