@@ -117,10 +117,13 @@ const OFF_NOTPERSON = (globalThis.process?.env?.WHO_OFF || "").includes("notpers
 const GENDERED_TITLE = { MR: "m", SIR: "m", LORD: "m", FATHER: "m", BROTHER: "m", UNCLE: "m", KING: "m", PRINCE: "m", DUKE: "m", MONSIEUR: "m", SENOR: "m", HERR: "m", GRANDPA: "m", GRANDFATHER: "m", DAD: "m", PAPA: "m",
   MRS: "f", MS: "f", MISS: "f", LADY: "f", MADAM: "f", MADAME: "f", DAME: "f", MOTHER: "f", SISTER: "f", AUNT: "f", AUNTIE: "f", QUEEN: "f", PRINCESS: "f", DUCHESS: "f", MADEMOISELLE: "f", SENORA: "f", FRAU: "f", GRANDMA: "f", GRANDMOTHER: "f", MOM: "f", MUM: "f", MAMA: "f", NUN: "f", WAITRESS: "f", ACTRESS: "f" };
 // "catches her wrist" / "grabs his arm": the body part is someone else's
+// "sits with her back against a trunk": "back" is a body part here, not an adverb
+const BODY_LITE = /^(?:back|hands?|face|eyes?|hair|arms?|legs?|shoulders?|knees?|feet|head|lap|chest|neck|cheeks?|lips|mouth|fingers?|jaw|brow|hips?|waist|skin|nose|throat|teeth|wrists?|palms?|elbows?|ankles?|heels?|thumbs?|forehead|temples?|chin|spine|ribs)\b/;
 const CONTACT_V = /\b(?:grabs?|grips?|takes?|touch(?:es)?|holds?|catch(?:es)?|kiss(?:es)?|slaps?|strokes?|squeez(?:es)?|pulls?|shakes?|brushes|pats?|lifts?|cups?|seiz(?:es)?|clutch(?:es)?|wipes?|pins?|releases?|steadies|guides?|drags?|yanks?|tugs?|checks?|feels?|presses|taps?|punches|kicks?|bites?|licks?|strikes?|hits?|covers?|shields?|binds?|ties|bandages?|cleans?|washes|dries|kisses|caresses|cradles?|lowers?|raises?|examines?|inspects?|studies|reads?|watch(?:es)?|follows?|ignores?|eyes|searches|frisks?|dresses|undresses|wraps?)\s+(?:[a-z]+\s+)?$/i;
 const RELATION = /^(?:apprentice|assistant|wife|husband|partner|boyfriend|girlfriend|fiancé|fiancée|fiance|brother|sister|son|daughter|mother|father|boss|client|lawyer|attorney|nurse|doctor|driver|bodyguard|secretary|aide|deputy|second|protégé|protege|student|teacher|mentor|coach|agent|manager|publicist|roommate|neighbou?r|friend|colleague|rival|ex|ex-wife|ex-husband|grandmother|grandfather|aunt|uncle|cousin|niece|nephew|guest|date|companion|counterpart|opposite number|older brother|younger brother|older sister|younger sister|little brother|little sister|big brother|big sister|best friend|old friend|new partner|new assistant|new boss|dealer|handler|contact|source|informant|patient|passenger|fare|charge|ward|shadow|understudy|successor|predecessor|co-pilot|copilot|first mate|navigator|gunner|translator|interpreter|guide|escort|chaperone|tutor|pupil|master|servant|maid|valet|butler|cook|gardener|chauffeur|nanny|governess|employer|employee|intern|trainee|recruit|sergeant|lieutenant|captain|commander|superior|subordinate|opponent|challenger|teammate|co-star|costar|producer|director|editor|publisher|accountant|banker|broker|landlord|landlady|tenant|lodger|host|hostess|accomplice|lookout|getaway driver|wheelman|fence|lawyer)\b/i;
 const GDEBUG = !!globalThis.process?.env?.GDEBUG;
 const OFF_ALIASADJ = (globalThis.process?.env?.WHO_OFF || "").includes("aliasadj");
+const OFF_FWDNOUN25 = (globalThis.process?.env?.WHO_OFF || "").includes("fwd25");
 const OFF_FWDNOUN = (globalThis.process?.env?.WHO_OFF || "").includes("fwdnoun");
 const OFF_CPOSS = (globalThis.process?.env?.WHO_OFF || "").includes("cposs");
 const OFF_GALIAS = (globalThis.process?.env?.WHO_OFF || "").includes("galias");
@@ -265,7 +268,7 @@ export function buildCast(scene) {
     const noun = toks.join(" ").toLowerCase();
     const re = new RegExp(`\\b(?:a|an)\\s+(?:[a-z-]+\\s+){0,3}?${escapeRe(noun)}\\b`, "i");
     const firstCue = units.findIndex((u) => u.kind === "dialogue" && c.names.some((n) => sameChar(n, u.name)));
-    for (let j = Math.max(0, firstCue - 12); j < firstCue; j++) {
+    for (let j = Math.max(0, firstCue - (OFF_FWDNOUN25 ? 12 : 25)); j < firstCue; j++) {
       const u = units[j];
       if (u.kind !== "action" || !re.test(u.text) || capsNames(u.text, cueNames).length || chars.some((o) => o.fwd === j)) continue;
       if (/^(?:he|she|they)\b/i.test(u.text)) continue;
@@ -371,7 +374,7 @@ export function buildCast(scene) {
         if (c.first > u.i) c.first = u.i;
       }
       if (commonRes[k]) for (const m of text.matchAll(commonRes[k])) {
-        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: !OFF_CPOSS && /^['’]s\b/.test(text.slice(m.index + m[0].length)), lead: m.index <= 1 });
+        mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: !OFF_CPOSS && /^['’]s\b/.test(text.slice(m.index + m[0].length)), lead: m.index <= 1, alias: true });
       }
     });
     mentions[u.i].sort((a, b) => a.at - b.at);
@@ -390,9 +393,11 @@ export function buildCast(scene) {
       if (!GT("poss") && mentions[u.i][0].poss && /^(his|her)$/.test(p.w)) continue;
       if (!GT("rel") && /^(his|her)$/.test(p.w) && /,\s*$/.test(u.text.slice(0, p.at)) && RELATION.test(u.text.slice(p.at + p.w.length).trimStart())) continue;
       if (!GT("contact") && p.w === "his" && CONTACT_V.test(u.text.slice(0, p.at))) continue;
+      if (!GT("objpron") && p.w === "his" && /\bhim\b/i.test(u.text)) continue;
+      if (!GT("objpron") && p.w === "her" && /\bher(?=[.,;!?]|\s+(?:to|at|by|and|but|away|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight|a|an|the)\b)/i.test(u.text)) continue;
       const after = u.text.slice(p.at + p.w.length).trimStart(), before = u.text.slice(0, p.at);
       const refBack = /^(himself|herself)$/.test(p.w) || p.w === "his" && /^[a-z]/.test(after) ||
-        p.w === "her" && /^[a-z]/.test(after) && !/^(a|an|the|to|and|or|but|that|this|back|away|up|down|out|off|in|on|at|for|with|from|into|again|now|then|so|as|if|is|was)\b/.test(after) &&
+        p.w === "her" && /^[a-z]/.test(after) && (BODY_LITE.test(after) || !/^(a|an|the|to|and|or|but|that|this|back|away|up|down|out|off|in|on|at|for|with|from|into|again|now|then|so|as|if|is|was)\b/.test(after)) &&
           !(!GT("contact") && CONTACT_V.test(before)) ||
         /^(he|she)$/.test(p.w) && /(,|;|\band|\bthen|\bbut|\bas|\bwhile|\bbefore|\bafter|\buntil|\bwhen)\s*$/i.test(before) ||
         // "TAVI, 20s, tool belt too big for him, follows" -> an object pronoun inside the introduction's descriptors
@@ -515,7 +520,7 @@ export function buildCast(scene) {
 }
 
 // "hair full of leaves" is not an exit: "leaves" only as a verb
-const EXIT_RE = /\b((?<!\bof )leaves(?=\s+(?:the|through|without|quickly|quietly|slowly|at once|him|her|them|it|for|by|with|in|on|at|and)\b|[.,;!]|$)|exits|walks out|storms out|is gone|hangs up|disappears|slams the door behind|departs|runs off|heads out)\b/i;
+const EXIT_RE = /\b(walks? (?:out|off|away|past (?:them|him|her) into)|goes (?:out|inside|back inside|into the)|steps? (?:out|outside|inside|into the (?:lift|elevator|car|cab|taxi|house|suite|office|hall|corridor|night|rain|street|dark))|heads (?:inside|out|off|back in)|(?:door|doors) (?:closes?|shuts?|sighs? shut|slams?|swings? shut|clicks? shut) behind|(?<!\bof )leaves(?=\s+(?:the|through|without|quickly|quietly|slowly|at once|him|her|them|it|for|by|with|in|on|at|and)\b|[.,;!]|$)|exits|walks out|storms out|is gone|hangs up|disappears|slams the door behind|departs|runs off|heads out)\b/i;
 
 // Presence tracking (single pass): for each unit, ids of characters seen so far and not marked as exited.
 // Also records per character the last unit they were named / spoke, used for recency features.

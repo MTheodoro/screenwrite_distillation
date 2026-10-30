@@ -284,6 +284,8 @@ function initialPronoun(ctx, i) {
   if (p.at <= 1 || LEAD.test(before) || (/^[^.;:!?"“]{0,60},\s*$/.test(before) && !ctx.cast.mentions[i].some((m) => m.at < p.at && !m.poss)) ||
       (!OFF.has("opener") && /^(he|she|they)$/.test(p.w) && /^(?:for|after|in|at|by|with|without|through|over|under|behind|beyond|beside|across|on|from|then|now|and|but)\s+(?:[a-z'-]+\s+){0,4}$/i.test(before) &&
         !/\b(him|her|them|his|their|hers)\b/i.test(before) && !ctx.cast.mentions[i].some((m) => m.at < p.at)) ||
+      (!OFF.has("opener2") && /^(his|her)$/.test(p.w) && /^(?:for the first time|for a moment|for a second|for once|at last|again|then|now|suddenly|slowly|finally|somewhere|inside|outside|behind the [a-z]+|in the [a-z]+|under it|under the [a-z]+)\s+$/i.test(before) &&
+        BODY.test(ctx.units[i].text.slice(p.at + p.w.length).trimStart().replace(ADJ_PRE, "")) && !ctx.cast.mentions[i].some((m) => m.at < p.at)) ||
       /^(?:perhaps|maybe|finally|together|instead|meanwhile|again|only then|for a moment|at last|somehow)\s+$/i.test(before)) return p.g;
   return null;
 }
@@ -613,7 +615,7 @@ function offscreen(ctx, c) {
   ctx._off ??= new Map();
   if (!ctx._off.has(c)) {
     const cues = ctx.units.filter((u) => u.kind === "dialogue" && ctx.speaker[u.i] === c);
-    const inAction = ctx.units.some((u) => u.kind === "action" && ctx.cast.mentions[u.i].some((m) => m.c === c));
+    const inAction = ctx.units.some((u) => u.kind === "action" && ctx.cast.mentions[u.i].some((m) => m.c === c && (OFF.has("offalias") || !m.alias)));
     ctx._off.set(c, /^(RADIO|DISPATCH|INTERCOM|PA|ANNOUNCER|NARRATOR|VOICE|PHONE|TV|SPEAKER)\b/.test(ctx.cast.chars[c].name) ||
       (!inAction && cues.length > 0 && cues.every((u) => (u.ext || []).some((e) => /^(V\.?O|O\.?S|O\.?C|PHONE|RADIO|FILTERED|ON PHONE|INTERCOM)/i.test(e)))));
   }
@@ -920,6 +922,10 @@ export function ruleActors(ctx, i) {
   const stripped = u.text.replace(/^(?:(?:yet|but|and|then|now|still|so|suddenly|slowly|finally|again|for a (?:moment|second|beat|heartbeat)),?\s+)+/i, "");
   if ((initPron === "p" || PLURAL_SUBJ.test(stripped) || /^(together|the two)\b/i.test(stripped)) && !(!OFF.has("allthe") && /^all (?:the|at once|of the|around|that|this|day|night|morning|evening|afternoon|week|year|along|over|right|good|clear|quiet|still|but|his|her|their|its)\b/i.test(stripped))) {
     // a character who goes by they/them, when they are the most recent subject and the line is not about several people
+    if (!OFF.has("theysing") && initPron === "p" && i > 0 && ctx.units[i - 1].kind === "action" && /^They\s+(?:[a-z]+\s+)?(?:a|an|one|their own)\s+[a-z]/.test(u.text) && !/\b(both|each other|one another|all|together|the two)\b/i.test(u.text)) {
+      const a1 = ruleActors(ctx, i - 1);
+      if (a1.length === 1 && ctx.cast.chars[a1[0]].gender === "?" && !ctx.cast.chars[a1[0]].group && ctx.cast.chars[a1[0]].first >= i - 2) return W("theyThem", a1);
+    }
     if (initPron === "p" && !/\b(both|each other|one another|all|together|the two)\b/i.test(u.text)) {
       const th = salient((c) => ctx.cast.chars[c].they);
       if (th.length && (candRecency(ctx, i, th[0]) <= 2 || salient(() => true)[0] === th[0])) return W("theyThem", [th[0]]);
