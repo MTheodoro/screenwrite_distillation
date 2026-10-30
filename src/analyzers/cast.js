@@ -90,7 +90,11 @@ export function capsNames(text, cueNames) {
     // CAPS sound cues: "The DOOR BANGS open", "a phone BUZZES"
     if (/\b(BANGS?|SLAMS?|BUZZ(ES)?|RINGS?|BEEPS?|CRASH(ES)?|BOOMS?|THUDS?|CLICKS?|CREAKS?|HISSES|SCREAMS?|SHATTERS?|RATTLES?|WHISTLES?|HONKS?|ROARS?|EXPLODES?|POPS?|SNAPS?|CRACKS?|THUMPS?|CLANGS?|CLATTERS?|BLARES?|WAILS?|SCREECH(ES)?|BURSTS?|DINGS?|CHIMES?|TINKLES?|SQUEALS?|KNOCKS?|BUZZING|RINGING|BEEPING|GASPS?)$/.test(n)) continue;
     // Signs, labels and on-screen text: "a sign reads STAFF ONLY", "stamped CANCELLED", "SUPER: ..."
-    if (/\b(reads?|marked|labell?ed|stamped|printed|super|caption|letters|lettering|banner|sign|plaque|tag|label|engraved|scrawled|painted|spray-painted|embroidered)\b[^:]{0,24}:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 40), m.index))) continue;
+    const printed = /\b(reads?|reading|marked|labell?ed|stamped|printed|super|caption|letters|lettering|banner|sign|plaque|tag|label|engraved|scrawled|painted|spray-painted|embroidered|says|saying|titled|headline|chyron)\b[^.]{0,30}:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 44), m.index));
+    const badge = /\b(?:badge|name ?tag|lanyard|nameplate|name plate)\b[^.]{0,20}$/i.test(text.slice(Math.max(0, m.index - 40), m.index)); // "name badge reading PRIYANKA" is her
+    if (printed && !badge) continue;
+    if (!OFF_VEHICLE && /\b(?:trawler|boat|ship|yacht|ferry|tug|barge|car|truck|van|bus|train|plane|jet|helicopter|chopper|bar|cafe|café|diner|pub|hotel|motel|shop|store|restaurant|club|theatre|theater|cinema|school|hospital|clinic|firm|company|band|album|song|show|film|movie|book|novel|play|game|team|the)\s*,?\s+(?:the|a|an)\s+$/i.test(text.slice(Math.max(0, m.index - 30), m.index))) continue;
+    if (!/\s/.test(n) && /ING$/.test(n) && !cueNames.some((c) => sameChar(c, n)) && VERBS3.has(n.toLowerCase().replace(/ing$/, "s"))) continue; // "a lid CREAKING" (not DUNNING)
     const isCue = cueNames.some((c) => sameChar(c, n));
     // printed text: "banner: DRY CREEK LANES", a truck painted "BEANS & BRISKET" (an introduction after a colon keeps its paren)
     if (!OFF_PRINT && !isCue && (/["“]\s*$/.test(before) || (/:\s*$/.test(before) && !/^\s*[(,]/.test(after)))) continue;
@@ -121,6 +125,9 @@ const GENDERED_TITLE = { MR: "m", SIR: "m", LORD: "m", FATHER: "m", BROTHER: "m"
 const BODY_LITE = /^(?:back|hands?|face|eyes?|hair|arms?|legs?|shoulders?|knees?|feet|head|lap|chest|neck|cheeks?|lips|mouth|fingers?|jaw|brow|hips?|waist|skin|nose|throat|teeth|wrists?|palms?|elbows?|ankles?|heels?|thumbs?|forehead|temples?|chin|spine|ribs)\b/;
 const CONTACT_V = /\b(?:grabs?|grips?|takes?|touch(?:es)?|holds?|catch(?:es)?|kiss(?:es)?|slaps?|strokes?|squeez(?:es)?|pulls?|shakes?|brushes|pats?|lifts?|cups?|seiz(?:es)?|clutch(?:es)?|wipes?|pins?|releases?|steadies|guides?|drags?|yanks?|tugs?|checks?|feels?|presses|taps?|punches|kicks?|bites?|licks?|strikes?|hits?|covers?|shields?|binds?|ties|bandages?|cleans?|washes|dries|kisses|caresses|cradles?|lowers?|raises?|examines?|inspects?|studies|reads?|watch(?:es)?|follows?|ignores?|eyes|searches|frisks?|dresses|undresses|wraps?)\s+(?:[a-z]+\s+)?$/i;
 const RELATION = /^(?:apprentice|assistant|wife|husband|partner|boyfriend|girlfriend|fiancé|fiancée|fiance|brother|sister|son|daughter|mother|father|boss|client|lawyer|attorney|nurse|doctor|driver|bodyguard|secretary|aide|deputy|second|protégé|protege|student|teacher|mentor|coach|agent|manager|publicist|roommate|neighbou?r|friend|colleague|rival|ex|ex-wife|ex-husband|grandmother|grandfather|aunt|uncle|cousin|niece|nephew|guest|date|companion|counterpart|opposite number|older brother|younger brother|older sister|younger sister|little brother|little sister|big brother|big sister|best friend|old friend|new partner|new assistant|new boss|dealer|handler|contact|source|informant|patient|passenger|fare|charge|ward|shadow|understudy|successor|predecessor|co-pilot|copilot|first mate|navigator|gunner|translator|interpreter|guide|escort|chaperone|tutor|pupil|master|servant|maid|valet|butler|cook|gardener|chauffeur|nanny|governess|employer|employee|intern|trainee|recruit|sergeant|lieutenant|captain|commander|superior|subordinate|opponent|challenger|teammate|co-star|costar|producer|director|editor|publisher|accountant|banker|broker|landlord|landlady|tenant|lodger|host|hostess|accomplice|lookout|getaway driver|wheelman|fence|lawyer)\b/i;
+const CUE_DIRECTION = /^(?:INSERT|ON SCREEN|ON PHONE|ON TV|ON (?:THE )?MONITOR|ON CAMERA|CAMERA|SUPER|TITLE|CUT TO|BACK TO|ANGLE ON|CLOSE ON|MONTAGE|INTERCUT|BLACK|SCREEN|PHONE SCREEN|TEXT|CHYRON|CAPTION|SUBTITLE|THE SCREEN|TV|RADIO BROADCAST|P\.?O\.?V)\b/;
+const OFF_VEHICLE = (globalThis.process?.env?.WHO_OFF || "").includes("vehicle");
+const OFF_PSEUDOCUE = (globalThis.process?.env?.WHO_OFF || "").includes("pseudocue");
 const GDEBUG = !!globalThis.process?.env?.GDEBUG;
 const OFF_ALIASADJ = (globalThis.process?.env?.WHO_OFF || "").includes("aliasadj");
 const OFF_FWDNOUN25 = (globalThis.process?.env?.WHO_OFF || "").includes("fwd25");
@@ -174,7 +181,7 @@ export function buildCast(scene) {
     });
   }
   for (const u of units) {
-    if (u.kind === "dialogue") add(u.name, u.i, "cue");
+    if (u.kind === "dialogue") { const c = add(u.name, u.i, "cue"); if (!OFF_PSEUDOCUE && CUE_DIRECTION.test(u.name)) c.pseudo = true; }
     else if (u.kind === "action") for (let n of capsNames(u.text, cueNames)) {
       const common = n.endsWith("\u0000");
       n = n.replace("\u0000", "");
@@ -263,10 +270,13 @@ export function buildCast(scene) {
   });
   if (!OFF_FWDNOUN) for (const c of chars) {
     if (c.intro >= 0 || c.fwd !== undefined || c.group || !c.spoke) continue;
-    const toks = c.names[0].toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => !/^(THE|A|AN)$/.test(x));
-    if (!toks.length || toks.length > 2 || !toks.every((x) => !NAME_GENDER[x]) || !/^(?:MAN|WOMAN|GIRL|BOY|KID|LADY|STRANGER|FIGURE|GUY|TEEN|TEENAGER|DRIVER|NURSE|OFFICER|GUARD|WAITER|WAITRESS|DOCTOR|PRIEST|SOLDIER|CLERK|COP|CALLER|OPERATOR|PATIENT|CUSTOMER|PASSENGER|VISITOR|NEWCOMER|TEENAGE BOY|TEENAGE GIRL|OLD MAN|OLD WOMAN|YOUNG MAN|YOUNG WOMAN|TALL MAN|SHORT MAN|LITTLE GIRL|LITTLE BOY)$/.test(toks.join(" "))) continue;
-    const noun = toks.join(" ").toLowerCase();
-    const re = new RegExp(`\\b(?:a|an)\\s+(?:[a-z-]+\\s+){0,3}?${escapeRe(noun)}\\b`, "i");
+    const HEADN = /^(?:MAN|WOMAN|GIRL|BOY|KID|LADY|STRANGER|FIGURE|GUY|TEEN|TEENAGER|DRIVER|NURSE|OFFICER|GUARD|WAITER|WAITRESS|DOCTOR|PRIEST|SOLDIER|CLERK|COP|CALLER|OPERATOR|PATIENT|CUSTOMER|PASSENGER|VISITOR|NEWCOMER|JOGGER|RUNNER|CYCLIST|COURIER|TRAVELLER|TRAVELER|HIKER)$/;
+    const descr = c.names.map((n) => n.toUpperCase().replace(/[.,]/g, "").split(/\s+/).filter((x) => !/^(THE|A|AN)$/.test(x))).find((t) => t.length && t.every((x) => !NAME_GENDER[x]) && HEADN.test(t[t.length - 1]));
+    if (!descr) continue;
+    const head = descr[descr.length - 1].toLowerCase();
+    const extra = descr.slice(0, -1).filter((x) => !/^(IN|ON|WITH|OF|AND|OLD|YOUNG|TALL|SHORT|LITTLE|BIG|TEENAGE)$/.test(x)).map((x) => x.toLowerCase());
+    const noun = descr.join(" ").toLowerCase();
+    const re = new RegExp(`\\b(?:a|an)\\s+(?:[a-z-]+\\s+){0,3}?(?:${escapeRe(noun)}|${escapeRe(head)}${extra.length ? `\\b(?=[^.]*\\b(?:${extra.map(escapeRe).join("|")})\\b)` : ""}|figure\\b(?=[^.]*\\b(?:${[...extra, head].map(escapeRe).join("|")})\\b))`, "i");
     const firstCue = units.findIndex((u) => u.kind === "dialogue" && c.names.some((n) => sameChar(n, u.name)));
     for (let j = Math.max(0, firstCue - (OFF_FWDNOUN25 ? 12 : 25)); j < firstCue; j++) {
       const u = units[j];
@@ -544,5 +554,5 @@ export function presence(cast, scene) {
 export function speakerId(cast, u) {
   if (u.kind !== "dialogue") return -1;
   const c = cast.chars.find((c) => c.names.some((n) => sameChar(n, u.name)));
-  return c ? c.id : -1;
+  return c && !(c.pseudo && CUE_DIRECTION.test(c.name)) ? c.id : -1;
 }
