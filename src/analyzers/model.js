@@ -80,6 +80,7 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
   }
   let beats = [];
   if (models.beat2 && ctx.content.length) {
+    unitTension(ctx, bundle); // tension features for the boundary model
     // Dramatic beats (a turn in the scene), see decodeBeats2TopK; meta.beat2.threshold "kN" = N content units per beat.
     const b2 = meta.beat2 || {};
     const thr = String(b2.threshold ?? "k7");

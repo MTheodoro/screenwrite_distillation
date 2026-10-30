@@ -134,13 +134,13 @@ these. Make the "fact" set a setting.
 Gold = the agreement of three independent Claude Opus passes. Ceiling = how often two Opus passes agree with each
 other; no system can be meaningfully scored above it.
 
-| | Synthetic (116 scenes) | Contemporary, 20 writer styles (60 scenes) | Ceiling |
+| | Synthetic + contemporary (176 scenes) | Contemporary only, 20 writer styles (60 scenes) | Ceiling |
 |---|---|---|---|
-| Who, exact set | 87% | 85% | 98% |
-| Line kind (non-character lines) | 84% | – | – |
-| Line emotion | 71% | 74% | 92% |
+| Who, exact set | 87.0% | 85.4% | 98% |
+| Line kind (non-character lines) | 84% | – | 95% |
+| Line emotion | 75.4% | 74.7% | 92% |
 | Dramatic beats, boundary F1 (±1 unit) | 0.55 | – | 0.76 (pass vs pass) |
-| Beat mood family (6) / mood (16) | 58% / 34% | – | 83% / 67% |
+| Beat mood family (6) / mood (16) | 62% / 36% | – | 83% / 67% |
 | Tension, pairs ordered within scene | 84% | – | – |
 | Beat summary, overlap with Opus summary (ROUGE-1) | 0.26 (first-line baseline 0.16) | – | 0.39 (best single line) |
 

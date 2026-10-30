@@ -4,6 +4,8 @@ import { readFileSync } from "node:fs";
 import { createInterface } from "node:readline";
 import { parse } from "../../src/analyzers/fountain.js";
 import { sceneContext, beat2Features } from "../../src/analyzers/rules.js";
+import { unitTension } from "../../src/analyzers/model.js";
+const bundle = (await import("../../src/analyzers/weights.js")).default;
 
 const cache = new Map();
 for await (const line of createInterface({ input: process.stdin })) {
@@ -13,6 +15,7 @@ for await (const line of createInterface({ input: process.stdin })) {
   const sc = cache.get(r.source)[r.index ?? 0];
   if (!sc) continue;
   const ctx = sceneContext(sc);
+  unitTension(ctx, bundle);
   const starts = new Set(r.starts || []);
   const X = [], y = [], units = [];
   let last = ctx.content[0], paras = 0;

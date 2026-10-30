@@ -115,7 +115,7 @@ export const BOUNDARY_FEATURES = ["prevA", "prevD", "curA", "curD", "paraStart",
 // Dramatic beats (beat2): the unit features plus window comparisons (W content units before vs from here) and the
 // distance from the previous boundary (filled in during sequential decoding).
 export const BEAT2_FEATURES = [...BOUNDARY_FEATURES, "topicJacc", "castJacc", "emoDist", "tensionShift", "dlgShareShift",
-  "prevQuestions", "newCastAhead", "sinceLast", "sinceLastParas", "kindShift", "beatCue", "beatCuePrev", "beatCueNext"];
+  "prevQuestions", "newCastAhead", "sinceLast", "sinceLastParas", "kindShift", "beatCue", "beatCuePrev", "beatCueNext", "tensHere", "tensBefore", "tensAfter", "tensShift", "emoModelShift"];
 // Learned beat-start cue (beat_cue_table.py): this unit's words, the end of the previous unit, both kinds.
 function beatCue(ctx, k) {
   ctx._cue ??= new Map();
@@ -178,6 +178,16 @@ export function beat2Features(ctx, i, sinceLast = 0, sinceLastParas = 0) {
     sinceLast, sinceLastParas,
     before.length ? Math.abs(before.map(kindOf).reduce((a, b) => a + b, 0) / before.length - after.map(kindOf).reduce((a, b) => a + b, 0) / after.length) : 0,
     beatCue(ctx, k), beatCue(ctx, k - 1), beatCue(ctx, k + 1),
+    // model tension around the boundary (ctx._unitTension, filled by model.js / beats2_features before decoding)
+    ...(() => {
+      const ut = ctx._unitTension;
+      if (!ut) return [0, 0, 0, 0, 0];
+      const m = (idx) => idx.reduce((a, j) => a + ut.get(j), 0) / Math.max(1, idx.length);
+      const tb = before.length ? m(before) : m(after), ta = m(after);
+      const ep = ctx._emoP, em = (idx) => { const v = new Array(8).fill(0); if (ep) for (const j of idx) (ep.get(j) || []).forEach((x, c) => { v[c] += x / idx.length; }); return v; };
+      const eb = em(before), ea = em(after);
+      return [ut.get(i), tb, ta, ta - tb, eb.reduce((a, x, c) => a + Math.abs(x - ea[c]), 0)];
+    })(),
   ];
 }
 
