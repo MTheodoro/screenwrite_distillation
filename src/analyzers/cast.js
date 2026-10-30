@@ -76,8 +76,10 @@ export function capsNames(text, cueNames) {
     // CAPS sound cues: "The DOOR BANGS open", "a phone BUZZES"
     if (/\b(BANGS?|SLAMS?|BUZZ(ES)?|RINGS?|BEEPS?|CRASH(ES)?|BOOMS?|THUDS?|CLICKS?|CREAKS?|HISSES|SCREAMS?|SHATTERS?|RATTLES?|WHISTLES?|HONKS?|ROARS?|EXPLODES?|POPS?|SNAPS?|CRACKS?|THUMPS?|CLANGS?|CLATTERS?|BLARES?|WAILS?|SCREECH(ES)?|BURSTS?|DINGS?|CHIMES?|TINKLES?|SQUEALS?|KNOCKS?|BUZZING|RINGING|BEEPING|GASPS?)$/.test(n)) continue;
     // Signs, labels and on-screen text: "a sign reads STAFF ONLY", "stamped CANCELLED", "SUPER: ..."
-    if (/\b(reads?|marked|labell?ed|stamped|printed|super|caption)\s*:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 16), m.index))) continue;
+    if (/\b(reads?|marked|labell?ed|stamped|printed|super|caption|letters|lettering|banner|sign|plaque|tag|label|engraved|scrawled|painted|spray-painted|embroidered)\b[^:]{0,24}:?\s*["“']?$/i.test(text.slice(Math.max(0, m.index - 40), m.index))) continue;
     const isCue = cueNames.some((c) => sameChar(c, n));
+    // printed text: "banner: DRY CREEK LANES", a truck painted "BEANS & BRISKET" (an introduction after a colon keeps its paren)
+    if (!OFF_PRINT && !isCue && (/["“]\s*$/.test(before) || (/:\s*$/.test(before) && !/^\s*[(,]/.test(after)))) continue;
     if (!isCue && !/\s/.test(n) && /^(INSIDE|OUTSIDE|UPSTAIRS|DOWNSTAIRS|MEANWHILE|SUDDENLY|LATER|EARLIER|NOW|THEN|HERE|THERE|TODAY|TONIGHT|TOMORROW|YESTERDAY|EVERYONE|NOBODY|SOMEBODY|EVERYTHING|NOTHING|SOMETHING|METAPHOR|SILENCE|DARKNESS|NIGHT|MORNING)$/.test(n)) continue;
     if (!isCue && /\b(TICKS?|TOCKS?|HUMS?|WHIRS?|DRIPS?|SPLASH(ES)?|FLASH(ES)?|FLICKERS?|LURCH(ES)?|JOLTS?|SHUDDERS?|THUNDERS?)$/.test(n)) continue;
     if (!isCue && /['’]S\b/.test(n) && n.split(/\s+/).length > 2) continue; // "WORLD'S OKAYEST GRANDMA" (printed text)
@@ -96,6 +98,14 @@ const DASH = /^[-–—*•]+\s*$/;
 const FWD_CUE = !(globalThis.process?.env?.WHO_OFF || "").includes("fwdcue");
 const OFF_ROLE = (globalThis.process?.env?.WHO_OFF || "").includes("role");
 const OFF_NOTPERSON = (globalThis.process?.env?.WHO_OFF || "").includes("notperson");
+const GENDERED_TITLE = { MR: "m", SIR: "m", LORD: "m", FATHER: "m", BROTHER: "m", UNCLE: "m", KING: "m", PRINCE: "m", DUKE: "m", MONSIEUR: "m", SENOR: "m", HERR: "m", GRANDPA: "m", GRANDFATHER: "m", DAD: "m", PAPA: "m",
+  MRS: "f", MS: "f", MISS: "f", LADY: "f", MADAM: "f", MADAME: "f", DAME: "f", MOTHER: "f", SISTER: "f", AUNT: "f", AUNTIE: "f", QUEEN: "f", PRINCESS: "f", DUCHESS: "f", MADEMOISELLE: "f", SENORA: "f", FRAU: "f", GRANDMA: "f", GRANDMOTHER: "f", MOM: "f", MUM: "f", MAMA: "f", NUN: "f", WAITRESS: "f", ACTRESS: "f" };
+const OFF_PRINT = (globalThis.process?.env?.WHO_OFF || "").includes("print");
+const OFF_FWDG = (globalThis.process?.env?.WHO_OFF || "").includes("fwdg");
+const OFF_GTIER = (globalThis.process?.env?.WHO_OFF || "").includes("gtier"); // gender evidence tiers + consistency pass
+const GT = (k) => OFF_GTIER || (globalThis.process?.env?.WHO_OFF || "").includes("gt_" + k) ||
+  (k === "tier" && !(globalThis.process?.env?.WHO_ON || "").includes("gt_tier")) || // tiered weighting: measured -0.7 on both golds, opt-in
+  (k === "cons" && !(globalThis.process?.env?.WHO_ON || "").includes("gt_cons")); // consistency pass: +0.1 gold, -0.2 dev, opt-in
 const LEAD_TITLE = /^(?:(?:then|now|and|but|meanwhile|suddenly|finally|cousin|aunt|auntie|uncle|grandma|grandpa|granny|nana|old|young|little|big|baby|father|mother|brother|sister|mr|mrs|ms|miss|dr|doctor|officer|detective|det|captain|capt|sergeant|sgt|private|pvt|corporal|cpl|lieutenant|lt|agent|nurse|judge|lady|lord|sir|madam|professor|prof|chef|coach|pastor|reverend|rev|saint|st|king|queen|prince|princess)\.?,?\s+){1,2}$/i;
 
 // Build cast + per-unit annotations. Mutates nothing; returns { chars, mentions, pronouns, firstSeen }.
@@ -107,7 +117,7 @@ export function buildCast(scene) {
   const add = (name, ui, how) => {
     let c = find(name);
     if (!c) {
-      c = { id: chars.length, name, names: [name], first: ui, intro: how === "intro" ? ui : -1, spoke: 0, g: { m: 0, f: 0, p: 0 } };
+      c = { id: chars.length, name, names: [name], first: ui, intro: how === "intro" ? ui : -1, spoke: 0, g: { m: 0, f: 0, p: 0 }, gs: { m: 0, f: 0 } };
       chars.push(c);
     } else if (!c.names.includes(name)) c.names.push(name);
     if (how === "intro" && c.intro < 0) c.intro = ui;
@@ -190,10 +200,13 @@ export function buildCast(scene) {
   acts.forEach((u, k) => {
     const pm = u.text.match(PERSON_NOUN);
     if (!pm || capsNames(u.text, cueNames).length) return;
+    if (!OFF_FWDG && /^(?:he|she|they)\b/i.test(u.text)) return; // "He answers and the voice is a man's" describes what he hears
+    const ng = /^(?:girl|woman|old woman|lady|nun|mother)$/i.test(pm[1]) ? "f" : /^(?:boy|man|old man|priest|monk|father)$/i.test(pm[1]) ? "m" : null;
+    const fits = (c) => OFF_FWDG || !ng || !c.names.some((nm) => { const t = nm.toUpperCase().replace(/[.,]/g, "").split(/\s+/)[0]; const g = GENDERED_TITLE[t] || (NAME_GENDER[t] === "m" || NAME_GENDER[t] === "f" ? NAME_GENDER[t] : null); return g && g !== ng; });
     let done = false;
     for (const v of acts.slice(k + 1, k + 3)) {
       const named = chars.find((c) => c.first === v.i || c.intro === v.i);
-      if (named && !named.group) { named.fwd = u.i; named.alias = pm[1].toLowerCase(); if (named.first > u.i) named.first = u.i; done = true; break; }
+      if (named && !named.group && fits(named)) { named.fwd = u.i; named.alias = pm[1].toLowerCase(); if (named.first > u.i) named.first = u.i; done = true; break; }
     }
     // "A figure in a pale dress stands there. / DJ: Hello." -> the first brand-new speaker within a few units
     if (!done && FWD_CUE) {
@@ -202,7 +215,7 @@ export function buildCast(scene) {
         if (w.kind === "action" && capsNames(w.text, cueNames).length) break;
         if (w.kind !== "dialogue") continue;
         const sp = chars.find((c) => c.names.some((n) => sameChar(n, w.name)));
-        if (sp && !sp.group && sp.first === j && !sp.alias && sp.intro < 0) { sp.fwd = u.i; sp.alias = pm[1].toLowerCase(); sp.first = u.i; }
+        if (sp && !sp.group && sp.first === j && !sp.alias && sp.intro < 0 && fits(sp)) { sp.fwd = u.i; sp.alias = pm[1].toLowerCase(); sp.first = u.i; }
         break;
       }
     }
@@ -320,10 +333,14 @@ export function buildCast(scene) {
     // new clause. Object pronouns ("hands her a bottle", "looks at him") are someone else.
     for (const p of pronouns[u.i]) {
       if (p.at <= mentions[u.i][0].at || p.g === "p") continue;
+      // "Colter's hand stops on her scalp." -> "her" is the other person, not Colter
+      if (!GT("poss") && mentions[u.i][0].poss && /^(his|her)$/.test(p.w)) continue;
       const after = u.text.slice(p.at + p.w.length).trimStart(), before = u.text.slice(0, p.at);
       const refBack = /^(himself|herself)$/.test(p.w) || p.w === "his" && /^[a-z]/.test(after) ||
         p.w === "her" && /^[a-z]/.test(after) && !/^(a|an|the|to|and|or|but|that|this|back|away|up|down|out|off|in|on|at|for|with|from|into|again|now|then|so|as|if|is|was)\b/.test(after) ||
-        /^(he|she)$/.test(p.w) && /(,|;|\band|\bthen|\bbut|\bas|\bwhile|\bbefore|\bafter|\buntil|\bwhen)\s*$/i.test(before);
+        /^(he|she)$/.test(p.w) && /(,|;|\band|\bthen|\bbut|\bas|\bwhile|\bbefore|\bafter|\buntil|\bwhen)\s*$/i.test(before) ||
+        // "TAVI, 20s, tool belt too big for him, follows" -> an object pronoun inside the introduction's descriptors
+        (!GT("him") && chars[ids[0]].intro === u.i && /^(him|her)$/.test(p.w) && /\b(?:for|on|to|around|behind|beside|under|over|at|about|against)\s+$/i.test(before) && /^[,.)]/.test(after));
       if (refBack) chars[ids[0]].g[p.g]++;
     }
   }
@@ -334,7 +351,7 @@ export function buildCast(scene) {
     if (acts[k].i !== acts[k - 1].i + 1) continue; // only directly consecutive action, no dialogue in between
     // Measured: restricting this to introductions / descriptions loses ~0.5 points on both gold sets, so any action
     // line counts ("Colter steps away. / She opens her eyes." is the exception, not the rule).
-    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w)) chars[ids[0]].g[p0.g]++;
+    if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w)) (GT("tier") ? chars[ids[0]].g : chars[ids[0]].gs)[p0.g]++;
   }
   // Descriptor nouns in the introduction sentence ("a jesuitic priest", "a teenage girl").
   for (const c of chars) {
@@ -346,8 +363,6 @@ export function buildCast(scene) {
     }
   }
   // Titles in the name itself (MRS. HALL, SIR TOBY, FATHER BROWN).
-  const GENDERED_TITLE = { MR: "m", SIR: "m", LORD: "m", FATHER: "m", BROTHER: "m", UNCLE: "m", KING: "m", PRINCE: "m", DUKE: "m", MONSIEUR: "m", SENOR: "m", HERR: "m", GRANDPA: "m", GRANDFATHER: "m", DAD: "m", PAPA: "m",
-    MRS: "f", MS: "f", MISS: "f", LADY: "f", MADAM: "f", MADAME: "f", DAME: "f", MOTHER: "f", SISTER: "f", AUNT: "f", AUNTIE: "f", QUEEN: "f", PRINCESS: "f", DUCHESS: "f", MADEMOISELLE: "f", SENORA: "f", FRAU: "f", GRANDMA: "f", GRANDMOTHER: "f", MOM: "f", MUM: "f", MAMA: "f", NUN: "f", WAITRESS: "f", ACTRESS: "f" };
   for (const c of chars) for (const n of c.names) {
     const t = n.toUpperCase().replace(/[.,]/g, "").split(/\s+/)[0];
     const g = GENDERED_TITLE[t];
@@ -360,14 +375,36 @@ export function buildCast(scene) {
     c.evidence = { m: c.g.m, f: c.g.f };
     const p = prior[charKey(c.name)] || { m: 0, f: 0 };
     const listed = c.group ? null : NAME_GENDER[keyTokens(c.name)[0]];
-    // the first-name list is one vote next to the script's own evidence (pronouns, descriptors)
-    const m = c.g.m + p.m + (listed === "m" ? 1 : 0), f = c.g.f + p.f + (listed === "f" ? 1 : 0);
+    // Tiers: the script's own evidence about this character (pronouns referring back to them, descriptors, titles,
+    // other scenes); then the weaker "a pronoun opened the next sentence" guess; the first-name list breaks ties.
+    const lv = GT("tier") ? 1 : 0.4;
+    const m = c.g.m + p.m + (GT("tier") ? 0 : 0.5 * c.gs.m) + (listed === "m" ? lv : 0), f = c.g.f + p.f + (GT("tier") ? 0 : 0.5 * c.gs.f) + (listed === "f" ? lv : 0);
     let g = m > f ? "m" : f > m ? "f" : "?";
+    c.weak = !(c.g.m + p.m !== c.g.f + p.f); // decided by the sequence guess / the name list only
     if (g === "?" && !c.group) {
       const d = c.names.join(" ").match(/\b(WOMAN|GIRL|LADY|MOTHER|MOM|MUM|SISTER|AUNT|GRANDMA|WIFE|DAUGHTER|QUEEN|NUN|WAITRESS|ACTRESS|MAN|GUY|BOY|FATHER|DAD|BROTHER|UNCLE|GRANDPA|HUSBAND|SON|KING|PRIEST|MONK|WAITER)\b/);
       if (d) g = /^(WOMAN|GIRL|LADY|MOTHER|MOM|MUM|SISTER|AUNT|GRANDMA|WIFE|DAUGHTER|QUEEN|NUN|WAITRESS|ACTRESS)$/.test(d[1]) ? "f" : "m";
     }
     c.gender = c.group ? "p" : g;
+  }
+  // Consistency: "He combs." in a scene with no male character -> the character whose gender rests on the weak guess
+  // alone, and who was the subject most recently before that line, is the "he".
+  if (!GT("cons")) {
+    for (const g of ["m", "f"]) {
+      const re = g === "m" ? /^(?:he|his)\b/i : /^(?:she|her)\b/i;
+      const line = units.find((u) => u.kind === "action" && re.test(u.text) && !mentions[u.i].length);
+      if (!line || chars.some((c) => c.gender === g)) continue;
+      const weak = chars.filter((c) => !c.group && c.weak);
+      if (!weak.length) continue;
+      let pick = null;
+      for (let j = line.i - 1; j >= 0 && !pick; j--) {
+        const u = units[j];
+        const subj = u.kind === "dialogue" ? chars.find((c) => c.names.some((n) => sameChar(n, u.name)))
+          : u.kind === "action" && mentions[j].length && mentions[j][0].lead ? chars[mentions[j][0].c] : null;
+        if (subj && weak.includes(subj)) pick = subj;
+      }
+      if (pick) pick.gender = g;
+    }
   }
   return { chars, mentions, pronouns };
 }
