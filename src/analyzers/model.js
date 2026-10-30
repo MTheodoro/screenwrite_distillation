@@ -102,7 +102,8 @@ export function* analyzeModelStages(scene, bundle, embedder = null, opts = {}) {
       // Who: rules only (they beat the distilled model on the gold sets). Every action line also gets a kind:
       // character / setting / event / extra / camera / abstract, so no text is left unclassified.
       const who = ruleActors(ctx, i);
-      result.lines[i] = { who, kind: lineKind(ctx, i, who), why: ruleWhy(ctx, i) };
+      const stack = models.kind ? { model: models.kind, meta: meta.kind, predict: predictRaw } : null;
+      result.lines[i] = { who, kind: lineKind(ctx, i, who, stack), why: ruleWhy(ctx, i) };
     } else if (!opts.addressee) {
       result.lines[i] = { speaker: ctx.speaker[i] };
     } else {

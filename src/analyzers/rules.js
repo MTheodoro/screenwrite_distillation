@@ -935,7 +935,19 @@ export function kindSignals(ctx, i) {
   return sig.join(" ") + " " + t.toLowerCase();
 }
 
-export function lineKind(ctx, i, who) {
+// Context of a line for the kind stack: position in the scene, paragraph, neighbours.
+export const KIND_CONTEXT = ["pos", "k", "firstPara", "sentInPara", "prevDialogue", "nextDialogue", "prevChar", "nextChar", "paraLen"];
+export function kindContext(ctx, i) {
+  const k = ctx.content.indexOf(i), n = ctx.content.length, u = ctx.units[i];
+  const p = ctx.content[k - 1], q = ctx.content[k + 1];
+  const isChar = (j) => j !== undefined && ctx.units[j].kind === "action" && ruleActors(ctx, j).length > 0 ? 1 : 0;
+  const firstPara = ctx.content.slice(0, k + 1).every((j) => ctx.units[j].kind === "action" && ctx.units[j].para === ctx.units[ctx.content[0]].para) ? 1 : 0;
+  const paraLen = ctx.units.filter((x) => x.kind === "action" && x.para === u.para).length;
+  return [n > 1 ? k / (n - 1) : 0, Math.min(k, 20), firstPara, u.sent ?? 0, p !== undefined && ctx.units[p].kind === "dialogue" ? 1 : 0,
+    q !== undefined && ctx.units[q].kind === "dialogue" ? 1 : 0, isChar(p), isChar(q), paraLen];
+}
+
+export function lineKind(ctx, i, who, stack = null) {
   const u = ctx.units[i];
   if (u.kind !== "action") return null;
   if (who && who.length) return "character";
@@ -944,6 +956,15 @@ export function lineKind(ctx, i, who) {
   if (CAMERA.test(t) || (/^[A-Z0-9 .,:'’!?-]+$/.test(t) && /[A-Z]{3,}/.test(t) && words(t) <= 6)) return "camera";
   if (ABSTRACT.test(t)) return "abstract";
   const p = scoreTable(KIND_TABLE, kindSignals(ctx, i));
+  if (stack) {
+    // table probabilities in fixed KINDS order + context -> trees (models.kind)
+    const order = stack.meta.table_order;
+    const x = [...order.map((k) => p[KIND_TABLE.classes.indexOf(k)] ?? 0), ...kindContext(ctx, i)];
+    const q = stack.predict(stack.model, x);
+    let b = 0;
+    for (let k = 1; k < q.length; k++) if (q[k] > q[b]) b = k;
+    return stack.meta.classes[b];
+  }
   let best = 0;
   for (let k = 1; k < p.length; k++) if (p[k] > p[best]) best = k;
   return KIND_TABLE.classes[best];
