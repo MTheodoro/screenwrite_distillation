@@ -127,6 +127,7 @@ const CONTACT_V = /\b(?:grabs?|grips?|takes?|touch(?:es)?|holds?|catch(?:es)?|ki
 const RELATION = /^(?:apprentice|assistant|wife|husband|partner|boyfriend|girlfriend|fiancé|fiancée|fiance|brother|sister|son|daughter|mother|father|boss|client|lawyer|attorney|nurse|doctor|driver|bodyguard|secretary|aide|deputy|second|protégé|protege|student|teacher|mentor|coach|agent|manager|publicist|roommate|neighbou?r|friend|colleague|rival|ex|ex-wife|ex-husband|grandmother|grandfather|aunt|uncle|cousin|niece|nephew|guest|date|companion|counterpart|opposite number|older brother|younger brother|older sister|younger sister|little brother|little sister|big brother|big sister|best friend|old friend|new partner|new assistant|new boss|dealer|handler|contact|source|informant|patient|passenger|fare|charge|ward|shadow|understudy|successor|predecessor|co-pilot|copilot|first mate|navigator|gunner|translator|interpreter|guide|escort|chaperone|tutor|pupil|master|servant|maid|valet|butler|cook|gardener|chauffeur|nanny|governess|employer|employee|intern|trainee|recruit|sergeant|lieutenant|captain|commander|superior|subordinate|opponent|challenger|teammate|co-star|costar|producer|director|editor|publisher|accountant|banker|broker|landlord|landlady|tenant|lodger|host|hostess|accomplice|lookout|getaway driver|wheelman|fence|lawyer)\b/i;
 const CUE_DIRECTION = /^(?:INSERT|ON SCREEN|ON PHONE|ON TV|ON (?:THE )?MONITOR|ON CAMERA|CAMERA|SUPER|TITLE|CUT TO|BACK TO|ANGLE ON|CLOSE ON|MONTAGE|INTERCUT|BLACK|SCREEN|PHONE SCREEN|TEXT|CHYRON|CAPTION|SUBTITLE|THE SCREEN|TV|RADIO BROADCAST|P\.?O\.?V)\b/;
 const OFF_VEHICLE = (globalThis.process?.env?.WHO_OFF || "").includes("vehicle");
+const OFF_LEAD2 = (globalThis.process?.env?.WHO_OFF || "").includes("lead2");
 const OFF_PSEUDOCUE = (globalThis.process?.env?.WHO_OFF || "").includes("pseudocue");
 const GDEBUG = !!globalThis.process?.env?.GDEBUG;
 const OFF_ALIASADJ = (globalThis.process?.env?.WHO_OFF || "").includes("aliasadj");
@@ -378,7 +379,7 @@ export function buildCast(scene) {
         if (!lowerScript && m[0][0] !== m[0][0].toUpperCase()) continue;
         mentions[u.i].push({ c: c.id, pos: m.index / Math.max(1, text.length), at: m.index, poss: /['’]s$/i.test(m[0]),
           lead: m.index <= 1 || LEAD_TITLE.test(text.slice(0, m.index)) || DASH.test(text.slice(0, m.index)) || INVERTED.test(text.slice(0, m.index)) ||
-            (/^[A-Z][^,:;.]{0,45}[,:]\s*$/.test(text.slice(0, m.index)) && !/\b(he|she|they|i|we)\b/i.test(text.slice(0, m.index)) && !chars.some((o, oi) => oi !== k && resNG[oi] && resNG[oi].test(text.slice(0, m.index)))) ||
+            ((/^[A-Z][^,:;.]{0,45}[,:]\s*$/.test(text.slice(0, m.index)) || (!OFF_LEAD2 && /^(?:[A-Z][^,:;.]{0,45},\s*){2}$/.test(text.slice(0, m.index))) || (!OFF_LEAD2 && /^[A-Z][^.;]{0,70}:\s*(?:the\s+)?$/.test(text.slice(0, m.index)) && c.intro === u.i)) && !/\b(he|she|they|i|we)\b/i.test(text.slice(0, m.index)) && !chars.some((o, oi) => oi !== k && resNG[oi] && resNG[oi].test(text.slice(0, m.index)))) ||
             /\b(?:called|named|known as)\s+$/i.test(text.slice(0, m.index)) ||
             (!OFF_CAM && CAM_PREFIX.test(text.slice(0, m.index)) && CAM_PREFIX.exec(text.slice(0, m.index))[0].length === m.index) });
         if (c.first > u.i) c.first = u.i;

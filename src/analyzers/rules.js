@@ -331,7 +331,7 @@ export function subjectless(ctx, i) {
   if (!OFF.has("capsfrag") && t === t.toUpperCase() && /[A-Z]{3}/.test(t) && !(words(t) === 1 && VERBS3.has(t.replace(/\W+$/, "").toLowerCase()))) return 0; // "BACK TO SCENE." / "BEEP." (but "LAUGHS.")
   if (!OFF.has("pluralnoun") && words(t) === 1 && /^[A-Z][a-z]+(?:s|es)[.!…]*$/.test(t) && !VERBS3.has(t.replace(/\W+$/, "").toLowerCase()) && (NOUNS.has(t.replace(/\W+$/, "").toLowerCase().replace(/es$/, "")) || NOUNS.has(t.replace(/\W+$/, "").toLowerCase().replace(/s$/, "")))) return 0; // "Bandages." / "Syringes."
   if (!OFF.has("wefrag") && /^(?:we|i|you)\b/i.test(t)) return 0;
-  if (!OFF.has("numfrag") && /^(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|hundred|\d+)[.!…]*$/i.test(t)) return 0;
+  if (!OFF.has("numfrag") && /^(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|hundred|\d+)(?:\s+(?:feet|foot|meters?|metres?|yards?|miles?|seconds?|minutes?|hours?|days?|years?|more|left|down|to go|percent|degrees))?[.!…]*$/i.test(t)) return 0;
   // "Big Dave sits. / Slowly, like a man lowering something heavy." -> how he sits
   if (!OFF.has("mannerc") && pa && pa.ids.length && pa.dist === 1 && /^(?:[A-Z][a-z]+ly|Slow|Quick|Hard|Soft|Gentle|Fast|Careful|Quiet|Calm),\s/.test(t)) return 1;
   // "He looks at the tank. / At her. / At the dark ceiling." -> a chain of looks keeps the looker, whatever is looked at
@@ -350,6 +350,7 @@ export function subjectless(ctx, i) {
     return false;
   };
   if (cont && pa.ids.length === 1 && introChain(pa.ids[0]) && !PLURAL_SUBJ.test(t) && !SOUND.test(t) &&
+      !(ON.has("chainverb") && t.split(/\s+/).slice(1).some((w) => { const x = w.replace(/\W+$/, "").toLowerCase(); return VERBS3.has(x) || VERBS.has(x); })) &&
       words(t) <= 8 && !/\b(is|are|was|were|has|have|had|does|did|do|can|could|will|would|shall|should|may|might|must)\b/i.test(t) &&
       !t.split(/\s+/).slice(1).some((x) => /^[a-z]+s[.,]?$/.test(x) && !BODY.test(x) && !/^(clothes|jeans|pants|sleeves|nails|braids|curls|freckles|wrinkles|keys|coins|papers|notes|tears|years|hours|minutes|seconds|words|things|times)$/.test(x.replace(/[.,]$/, ""))) && !/\b[A-Z]{3,}\b/.test(t)) return 1;
   if (cont && words(t) <= 6) {
@@ -971,6 +972,10 @@ function ruleActorsUncached(ctx, i) {
   }
   const stripped = u.text.replace(/^(?:(?:yet|but|and|then|now|still|so|suddenly|slowly|finally|again|for a (?:moment|second|beat|heartbeat)),?\s+)+/i, "");
   if ((initPron === "p" || PLURAL_SUBJ.test(stripped) || /^(together|the two)\b/i.test(stripped)) && !(!OFF.has("allthe") && /^all (?:the|at once|of the|around|that|this|day|night|morning|evening|afternoon|week|year|along|over|right|good|clear|quiet|still|but|his|her|their|its)\b/i.test(stripped))) {
+    if (!OFF.has("theyobj") && initPron === "p" && i > 0 && ctx.units[i - 1].kind === "action" && /^They\s+[a-z]+[.!…]*$/.test(u.text)) {
+      const pt = ctx.units[i - 1].text, a1 = ruleActors(ctx, i - 1);
+      if (a1.length === 1 && /\b(?:the|a|an|his|her|their|some|two|three|several)\s+(?:[a-z-]+\s+)?[a-z]+s[.!…]*$/.test(pt) && !/\b(?:him|her|them|each other)\b/i.test(pt)) return W("none", []);
+    }
     // a character who goes by they/them, when they are the most recent subject and the line is not about several people
     if (!OFF.has("theysing") && initPron === "p" && i > 0 && ctx.units[i - 1].kind === "action" && /^They\s+(?:[a-z]+\s+)?(?:a|an|one|their own)\s+[a-z]/.test(u.text) && !/\b(both|each other|one another|all|together|the two)\b/i.test(u.text)) {
       const a1 = ruleActors(ctx, i - 1);
