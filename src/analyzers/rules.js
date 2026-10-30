@@ -733,6 +733,13 @@ const OFF = new Set((globalThis.process?.env?.WHO_OFF || "").split(",").filter(B
 const ON = new Set((globalThis.process?.env?.WHO_ON || "").split(",").filter(Boolean)); // experimental paths
 export function ruleActors(ctx, i) {
   ctx._why ??= new Map();
+  ctx._actors ??= new Map();
+  if (ctx._actors.has(i)) return ctx._actors.get(i); // rules look back at earlier lines: memoised, or long scenes go exponential
+  const ids = ruleActorsUncached(ctx, i);
+  ctx._actors.set(i, ids);
+  return ids;
+}
+function ruleActorsUncached(ctx, i) {
   const W = (why, ids) => { ctx._why.set(i, why); return ids; };
   const u = ctx.units[i];
   const ms = ctx.cast.mentions[i];
@@ -1410,18 +1417,31 @@ export function analyzeRules(scene) {
 // object, sound or machine acts), extra (people or creatures that are not characters), camera (shot / edit / on-screen
 // text directions) or abstract (narration, reflection, time passing, beats).
 export const LINE_KINDS = ["character", "setting", "event", "extra", "camera", "abstract"];
-const CAMERA = /^(close on|close up|closeup|extreme|angle on|angle|insert|pov|p\.o\.v|we see|we hear|we follow|we move|we pan|back to|intercut|super:?|title:?|subtitle|caption|fade|cut to|smash cut|match cut|dissolve|black\.?$|tableau|montage|end montage|series of shots|end series|on screen|on the screen:|wide|wider|push in|pull back|pan|tilt|track|tracking|aerial|overhead|reverse|two shot|split screen|freeze frame|slow motion|time cut|jump cut|flashback|end flashback|back in|resume|later\.?$|moments later\.?$)\b/i;
+const CAMERA = /^(close on|close up|closeup|extreme|angle on|angle|insert|pov|p\.o\.v|we see|we hear|we follow|we move|we pan|back to|intercut|super:?|title:?|subtitle|caption|fade|cut to|smash cut|match cut|dissolve|black\.?$|white\.?$|tableau|montage|end montage|series of shots|end series|on screen|on the screen:|wide (?:shot|on|angle)|wide[.:]|wider\b|push in|pull back|pan\b|tilt\b|track\b|tracking shot|aerial|reverse angle|two shot|split screen|freeze frame|slow motion|time cut|jump cut|flashback|end flashback|back in|resume|later\.?$|moments later\.?$)(?:\b|$)/i;
 const ABSTRACT = /^(a (long |brief |short )?(beat|pause|moment|second|breath)\b|beat\.?$|pause\.?$|a long time|time passes|days pass|weeks pass|months pass|years pass|hours pass|for a (while|moment|second)|no one (hears|sees|notices|knows|comes|answers)|nobody (hears|sees|notices|knows|comes|answers)|nothing (happens|changes|moves)|it is (the|a) (last|first|only)|this is (the|a|how|what|where|when)|some (things|wounds|people|doors)|that is all|that's all|which is (to say|why)|in another life|perhaps|maybe|somewhere,? (someone|a))/i;
-const PERSON = /\b(man|men|woman|women|boy|boys|girl|girls|kid|kids|child|children|baby|toddler|teen|teenager|guard|guards|waiter|waitress|nurse|soldier|soldiers|cop|cops|officer|officers|stranger|strangers|figure|figures|passer-?by|passers-?by|crowd|people|tourists?|customers?|patrons?|students?|workers?|villagers?|diners?|commuters?|neighbou?rs?|someone|somebody|dog|dogs|cat|cats|horse|horses|bird|birds|gulls?|crows?|rats?|mice|mouse|cow|cows|sheep|goat|goats|wolf|wolves|deer|fox|owl|creature|creatures|monster|thing|beast|ghost|hand|hands|face|faces|eyes|voice|voices|footsteps|silhouette|shadow figure)\b/i;
+const PERSON = /\b(man|men|woman|women|boy|boys|girl|girls|kid|kids|child|children|baby|toddler|teen|teenager|guard|guards|waiter|waitress|nurse|soldier|soldiers|cop|cops|officer|officers|stranger|strangers|figure|figures|passer-?by|passers-?by|crowd|people|tourists?|customers?|patrons?|students?|workers?|villagers?|diners?|commuters?|neighbou?rs?|someone|somebody|dog|dogs|cat|cats|horse|horses|bird|birds|gulls?|crows?|rats?|mice|mouse|cow|cows|sheep|goat|goats|wolf|wolves|deer|fox|owl|creature|creatures|monster|thing|beast|ghost|hand|hands|face|faces|eyes|voice|voices|footsteps|silhouette|shadow figure|bees?|moths?|fly|flies|tortoise|turtle|hooves|riders?|animals?|insects?|spiders?|snakes?|parrot|hamster|rabbit|kitten|puppy|pigeons?|seagulls?|hens?|chickens?|rooster|pigs?|bull|lamb|calf|goose|geese|ducks?|swans?|fish|shark|whale|bats?|squirrel|raccoon|bear|lion|tiger|elephant|monkey|hawk|eagle|raven|sparrow|robin|wasps?|hornets?|ants?|beetles?|worms?|frog|toad|lizard|crabs?|hound|mutt|pony|mule|donkey|camel|herd|flock|swarm)\b/i;
 const EXTRA_SUBJ = new RegExp("^(?:a|an|the|two|three|four|several|some|many|few|a few|other|another|one|an old|a young|a little)\\s+(?:[\\w-]+\\s+){0,3}?" + PERSON.source.replace(/^\\b|\\b$/g, ""), "i");
 const SETTING_NOUN = /\b(rain|snow|sleet|hail|fog|mist|wind|breeze|storm|thunder|lightning|sun|sunlight|sunrise|sunset|dawn|dusk|twilight|moon|moonlight|stars|sky|clouds?|night|morning|afternoon|evening|light|lights|shadows?|darkness|dark|silence|quiet|heat|cold|dust|smoke|haze|room|hall|kitchen|office|street|road|field|forest|woods|river|lake|sea|ocean|beach|shore|harbou?r|mountains?|hills?|desert|city|town|village|house|building|walls?|floor|ceiling|windows?|corridor|hallway|stairs|garden|yard|park|church|bar|restaurant|cafe|shop|store|station|platform|parking lot|alley|bridge|dock|pier|landscape|horizon|view|space|interior|exterior)\b/i;
 const STATIC_VERB = /\b(is|are|was|were|stands?|sits?|lies|lie|hangs?|looms?|stretch(es)?|glows?|gleams?|shines?|glitters?|shimmers?|twinkles?|flickers?|blankets?|covers?|fills?|lines?|dots?|surrounds?|overlooks?|rises?|towers?|sprawls?|extends?|leads?|smells?|reeks?|stinks?|seems?|remains?|waits?|sleeps?|rests?|settles?|hums?|falls?|drifts?|pours?|beats? down|bakes?)\b/i;
 const EVENT_VERB = /\b(rings?|buzz(es)?|beeps?|clicks?|chimes?|slams?|bangs?|crash(es)?|smash(es)?|shatters?|breaks?|explodes?|bursts?|opens?|closes?|swings?|creaks?|squeaks?|thuds?|drops?|rolls?|spins?|tips?|topples?|tumbles?|skids?|screech(es)?|honks?|roars?|blares?|hisses?|whirs?|clatters?|rattles?|knocks?|cracks?|snaps?|pops?|blinks?|flashes?|goes (dark|off|out|black|dead|silent)|cuts? out|dies|stops?|starts?|lands?|hits?|strikes?|arrives?|pulls (up|in|away|out)|speeds?|races?|passes?|appears?|vanishes|disappears?|moves?|shifts?|turns?|changes?|ticks?|vibrates?|lights up|comes on|kicks in|boils?|burns?|spills?|leaks?|drips?)\b/i;
 
+// Ambient: a machine or fixture keeps doing what it does ("The vending machine hums.", "Ropes creak."); a discrete
+// sound or a force acting on things is an event ("Sirens, very far away.", "Wind rocks the car.", "Candles fall.").
+const AMBIENT = /^(?:the\s+)?(?:[a-z-]+\s+){0,2}(?:machine|dryers?|washers?|fluorescents?|tubes?|lamps?|lanterns?|engine|generator|fans?|fridge|freezer|heater|radiator|vending machine|organ|pendulums?|ropes?|bees|water|stove|foghorn|drone|chimes|clock|clocks|pipes?|vents?|lights?|bulbs?|neon|sign|screen|monitors?|speakers?|radio|jukebox|ceiling fan|compressor|boiler|kettle|refrigerator|ice machine|projector|turbines?|rotors?|rain|surf|waves|wind|crickets|cicadas|frogs|traffic)\b[^.]*\b(?:hums?|buzz(?:es)?|ticks?|creaks?|swings?|drifts?|turns?|thrums?|drones?|whirs?|sways?|rattles?|clicks?|flickers?|glows?|drips?|hisses|purrs?|idles?|cycles?|churns?|rumbles?|murmurs?|sighs?|breathes?|sags?|hangs?|dangles?|ticking|humming|buzzing|turning|dripping|swinging)\b/i;
+const SOUND_LINE = /^(?:(?:a |the |another |then a |then the |somewhere,? |somewhere (?:above|below|behind|outside|inside|off),? |from [^,]{0,20},? |beyond [^,]{0,20},? )?(?:[a-z-]+ ){0,2}(?:sirens?|tires|tyres|footsteps|steps|plink|knock|knocks|whistle|screech|thud|thump|clang|clank|hiss|bang|crash|rumble|roar|click|beep|ring|chime|buzz|buzzer|horn|bell|gunshot|shot|shots|scream|shout|cry|crack|snap|pop|splash|rustle|rustling|scratching|scraping|tapping|knocking|ticking|hum|drone|whine|squeal|squeak|groan|creak|crunch|clatter|rattle|slam|boom|blast|explosion|alarm|siren)s?\b(?:[,.]|\s+(?:very |far |close |from |on |in |somewhere|again|then|outside|below|above|behind|overhead|down |up |are heard|is heard|echo|echoes|fade|fades|die|dies|stop|stops|answer|answers))|[A-Z]{3,}[.!]*$)/i;
+const FORCE_EVENT = /^(?:the\s+)?(?:wind|light|sunlight|frost|rain|snow|dust|smoke|water|fire|flames?|candles?|a (?:gust|wave|beam|plume|flash|glint|spray|burst) of [a-z]+|lightning|thunder|the (?:wind|light|rain|snow|dust|smoke|water|fire|flames?|sun|tide|current|sea|river))\b[^.]*\b(?:rocks?|pulls?|floods?|slices?|rises?|pools?|sweeps?|cuts?|falls?|pours?|hits?|slams?|rattles?|tears?|rips?|whips?|lifts?|scatters?|catches|crawls?|races?|spills?|bursts?|cracks?|strikes?|snaps?|knocks?|pushes|shoves?|drives?|blows?|comes?|goes|dies|erupts?|explodes?|ticks?|pings?)\b/i;
 // Text + rule signals as tokens, the input of the learned kind table (kindtable.js).
 export function kindSignals(ctx, i) {
   const t = ctx.units[i].text.trim();
   const sig = [];
+  if (!OFF.has("ksig")) {
+    if (AMBIENT.test(t)) sig.push("__ambient");
+    if (SOUND_LINE.test(t)) sig.push("__sound");
+    if (FORCE_EVENT.test(t)) sig.push("__force");
+    if (/^(?:[a-z-]+\s+){0,3}(?:[A-Z][a-z]+(?:'s|’s))\b/.test(t) || /^(?:his|her|their)\s+(?:[a-z-]+\s+){0,2}[a-z]+\.?$/i.test(t)) sig.push("__possfrag"); // "Her nameplate." / "Rhee's."
+    if (/^(?:inside|underneath|beneath|behind it|on the (?:table|desk|floor|wall|screen|board))[:,]/i.test(t)) sig.push("__insert");
+    if (/^[A-Z][a-z]+(?:,\s*[a-z]+)*[.!…]*$/.test(t) && words(t) <= 2) sig.push("__oneword");
+  }
   if (CAMERA.test(t)) sig.push("__cam");
   if (ABSTRACT.test(t)) sig.push("__abs");
   if (EXTRA_SUBJ.test(t)) sig.push("__ext");
