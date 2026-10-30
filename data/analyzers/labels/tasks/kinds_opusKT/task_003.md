@@ -1,0 +1,1429 @@
+You classify screenplay action lines that have NO character as their agent, for a writing tool.
+Every line in the script must belong somewhere, so each marked line (`*`) gets exactly one kind:
+
+- `setting`  : the place, scenery, light, weather, time of day, what a space looks/sounds like as a whole
+               ("A cramped kitchen.", "Rain hammers the windows.", "Dawn over the harbor.", "Silence.")
+- `event`    : something happens or an object/sound/vehicle/machine acts, with no character doing it
+               ("The phone rings.", "A car backfires outside.", "Cash.", "The door swings shut.", "A light blinks.")
+- `extra`    : done by people or creatures who are NOT characters of the scene (unnamed passers-by, a crowd that
+               is not in the names list, an animal, a monster) ("A waiter passes.", "Two women lean on its bumper.")
+- `camera`   : shot, edit or on-screen-text directions ("CLOSE ON the letter.", "We see...", "INSERT - phone",
+               "SUPER: 1999", "Back to scene.", "INTERCUT", "Time cut.")
+- `abstract` : narration, reflection, commentary, theme, time passing, things that are not visible action
+               ("Some wounds never close.", "Years pass.", "This is the last time they will speak.")
+- `character`: actually done by / describing a character in the names list (the marking was wrong). Then also give
+               the name(s).
+
+Units: `A` = action sentence (¶ = first sentence of a paragraph), `D` = dialogue block. Only `*` lines need a label;
+the rest is context.
+
+Write ONE JSON file to /home/user/screenwrite-analyzers/data/analyzers/labels/kinds_opusKT/group_0003.json with the Write tool:
+{"<scene_id>": {"<unit number>": "<kind>" | ["character", "<NAME>", ...], ...}, ...}
+Include every marked line of every scene below. Valid JSON only. Reply only with "done".
+
+## Scenes
+
+### SCENE pt_ghosts_15 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): MANDERS, MRS. ALVING, ENGSTRAND
+1 D MANDERS: Ah, you are thinking of the possibility that--Alas! yes, family life is certainly not always so pure as it ought to be. But in such a case as you point to, one can never know--at least with any certainty. Here, on the other hand--that you, a mother, can think of letting your son--
+2 D MRS. ALVING: But I cannot--I wouldn't for anything in the world; that is precisely what I am saying.
+3 D MANDERS: No, because you are a "coward," as you put it. But if you were not a "coward," then--? Good God! a connection so shocking!
+4 D MRS. ALVING: So far as that goes, they say we are all sprung from connections of that sort. And who is it that arranged the world so, Pastor Manders?
+5 D MANDERS: Questions of that kind I must decline to discuss with you, Mrs. Alving; you are far from being in the right frame of mind for them. But that you dare to call your scruples "cowardly"--!
+6 D MRS. ALVING: Let me tell you what I mean. I am timid and faint-hearted because of the ghosts that hang about me, and that I can never quite shake off.
+7 D MANDERS: What do you say hangs about you?
+8 D MRS. ALVING: Ghosts! When I heard Regina and Oswald in there, it was as though ghosts rose up before me. But I almost think we are all of us ghosts, Pastor Manders. It is not only what we have inherited from our father and mother that "walks" in us. It is all sorts of dead ideas, and lifeless old beliefs, and so forth. They have no vitality, but they cling to us all the same, and we cannot shake them off. Whenever I take up a newspaper, I seem to see ghosts gliding between the lines. There must be ghosts all the country over, as thick as the sands of the sea. And then we are, one and all, so pitifully afraid of the light.
+9 D MANDERS: Aha--here we have the fruits of your reading. And pretty fruits they are, upon my word! Oh, those horrible, revolutionary, free-thinking books!
+10 D MRS. ALVING: You are mistaken, my dear Pastor. It was you yourself who set me thinking; and I thank you for it with all my heart.
+11 D MANDERS: I!
+12 D MRS. ALVING: Yes--when you forced me under the yoke of what you called duty and obligation; when you lauded as right and proper what my whole soul rebelled against as something loathsome. It was then that I began to look into the seams of your doctrines. I wanted only to pick at a single knot; but when I had got that undone, the whole thing ravelled out. And then I understood that it was all machine-sewn.
+13 A ¶ Softly, with emotion.
+14 D MANDERS: And was that the upshot of my life's hardest battle?
+15 D MRS. ALVING: Call it rather your most pitiful defeat.
+16 D MANDERS: It was my greatest victory, Helen--the victory over myself.
+17 D MRS. ALVING: It was a crime against us both.
+18 D MANDERS: When you went astray, and came to me crying, "Here I am; take me!" I commanded you, saying, "Woman, go home to your lawful husband." Was that a crime?
+19 D MRS. ALVING: Yes, I think so.
+20 D MANDERS: We two do not understand each other.
+21 D MRS. ALVING: Not now, at any rate.
+22 D MANDERS: Never--never in my most secret thoughts have I regarded you otherwise than as another's wife.
+23 D MRS. ALVING: Oh--indeed?
+24 D MANDERS: Helen--!
+25 D MRS. ALVING: People so easily forget their past selves.
+26 D MANDERS: I do not. I am what I always was.
+27 A ¶ Changing the subject.
+28 D MRS. ALVING: Well well well; don't let us talk of old times any longer. You are now over head and ears in Boards and Committees, and I am fighting my battle with ghosts, both within me and without.
+29 D MANDERS: Those without I shall help you to lay. After all the terrible things I have heard from you today, I cannot in conscience permit an unprotected girl to remain in your house.
+30 D MRS. ALVING: Don't you think the best plan would be to get her provided for?--I mean, by a good marriage.
+31 D MANDERS: No doubt. I think it would be desirable for her in every respect. Regina is now at the age when--Of course I don't know much about these things, but--
+32 D MRS. ALVING: Regina matured very early.
+33 D MANDERS: Yes, I thought so. I have an impression that she was remarkably well developed, physically, when I prepared her for confirmation. But in the meantime, she ought to be at home, under her father's eye--Ah! but Engstrand is not--That he--that he--could so hide the truth from me!
+* 34 A ¶ A knock at the door into the hall.
+35 D MRS. ALVING: Who can this be? Come in!
+36 A ¶ In his Sunday clothes, in the doorway.
+37 D ENGSTRAND: I humbly beg your pardon, but--
+38 D MANDERS: Aha! H'm--
+39 D MRS. ALVING: Is that you, Engstrand?
+40 D ENGSTRAND: --there was none of the servants about, so I took the great liberty of just knocking.
+41 D MRS. ALVING: Oh, very well. Come in. Do you want to speak to me?
+42 A ¶ Comes in.
+43 D ENGSTRAND: No, I'm obliged to you, ma'am; it was with his Reverence I wanted to have a word or two.
+44 A ¶ Walking up and down the room.
+45 D MANDERS: Ah--indeed! You want to speak to me, do you?
+
+### SCENE pt_ghosts_18 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): MANDERS, MRS. ALVING, OSWALD
+1 D MANDERS: Well, what do you say of that man now, Mrs. Alving? That was a very different account of matters, was it not?
+2 D MRS. ALVING: Yes, it certainly was.
+3 D MANDERS: It only shows how excessively careful one ought to be in judging one's fellow creatures. But what a heartfelt joy it is to ascertain that one has been mistaken! Don't you think so?
+4 D MRS. ALVING: I think you are, and will always be, a great baby, Manders.
+5 D MANDERS: I?
+6 A ¶ Laying her two hands upon his shoulders.
+7 D MRS. ALVING: And I say that I have half a mind to put my arms round your neck, and kiss you.
+8 A ¶ Stepping hastily back.
+9 D MANDERS: No, no! God bless me! What an idea!
+10 A ¶ With a smile.
+11 D MRS. ALVING: Oh, you needn't be afraid of me.
+12 A ¶ By the table.
+13 D MANDERS: You have sometimes such an exaggerated way of expressing yourself. Now, let me just collect all the documents, and put them in my bag.
+14 A ¶ He does so.
+15 D MANDERS: There, that's all right. And now, good-bye for the present. Keep your eyes open when Oswald comes back. I shall look in again later.
+16 A ¶ He takes his hat and goes out through the hall door.
+17 A ¶ Sighs, looks for a moment out of the window, sets the room in order a little, and is about to go into the dining-room, but stops at the door with a half-suppressed cry.
+18 D MRS. ALVING: Oswald, are you still at table?
+* 19 A ¶ In the dining room.
+20 D OSWALD: I'm only finishing my cigar.
+21 D MRS. ALVING: I thought you had gone for a little walk.
+22 D OSWALD: In such weather as this?
+* 23 A ¶ A glass clinks.
+24 A MRS. ALVING leaves the door open, and sits down with her knitting on the sofa by the window.
+25 D OSWALD: Wasn't that Pastor Manders that went out just now?
+26 D MRS. ALVING: Yes; he went down to the Orphanage.
+27 D OSWALD: H'm.
+* 28 A ¶ The glass and decanter clink again.
+29 A ¶ With a troubled glance.
+30 D MRS. ALVING: Dear Oswald, you should take care of that liqueur. It is strong.
+31 D OSWALD: It keeps out the damp.
+32 D MRS. ALVING: Wouldn't you rather come in here, to me?
+33 D OSWALD: I mayn't smoke in there.
+34 D MRS. ALVING: You know quite well you may smoke cigars.
+35 D OSWALD: Oh, all right then; I'll come in. Just a tiny drop more first. There!
+36 A ¶ He comes into the room with his cigar, and shuts the door after him.
+* 37 A A short silence.
+38 D OSWALD: Where has the pastor gone to?
+39 D MRS. ALVING: I have just told you; he went down to the Orphanage.
+40 D OSWALD: Oh, yes; so you did.
+41 D MRS. ALVING: You shouldn't sit so long at table, Oswald.
+42 A ¶ Holding his cigar behind him.
+43 D OSWALD: But I find it so pleasant, mother.
+44 A ¶ Strokes and caresses her.
+45 D OSWALD: Just think what it is for me to come home and sit at mother's own table, in mother's room, and eat mother's delicious dishes.
+46 D MRS. ALVING: My dear, dear boy!
+47 A ¶ Somewhat impatiently, walks about and smokes.
+
+### SCENE pt_ghosts_19 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): OSWALD, MRS. ALVING
+1 D OSWALD: And what else can I do with myself here? I can't set to work at anything.
+2 D MRS. ALVING: Why can't you?
+3 D OSWALD: In such weather as this? Without a single ray of sunshine the whole day?
+4 A ¶ Walks up the room.
+5 D OSWALD: Oh, not to be able to work--!
+6 D MRS. ALVING: Perhaps it was not quite wise of you to come home?
+7 D OSWALD: Oh, yes, mother; I had to.
+8 D MRS. ALVING: You know I would ten times rather forgo the joy of having you here, than let you--
+9 A ¶ Stops beside the table.
+10 D OSWALD: Now just tell me, mother: does it really make you so very happy to have me home again?
+11 D MRS. ALVING: Does it make me happy!
+12 A ¶ Crumpling up a newspaper.
+13 D OSWALD: I should have thought it must be pretty much the same to you whether I was in existence or not.
+14 D MRS. ALVING: Have you the heart to say that to your mother, Oswald?
+15 D OSWALD: But you've got on very well without me all this time.
+16 D MRS. ALVING: Yes; I have got on without you. That is true.
+* 17 A ¶ A silence.
+* 18 A Twilight slowly begins to fall.
+19 A OSWALD paces to and fro across the room.
+20 A He has laid his cigar down.
+21 A ¶ Stops beside MRS. ALVING.
+22 D OSWALD: Mother, may I sit on the sofa beside you?
+23 A ¶ Makes room for him.
+24 D MRS. ALVING: Yes, do, my dear boy.
+25 A ¶ Sits down.
+26 D OSWALD: There is something I must tell you, mother.
+27 A ¶ Anxiously.
+28 D MRS. ALVING: Well?
+29 A ¶ Looks fixedly before him.
+30 D OSWALD: For I can't go on hiding it any longer.
+31 D MRS. ALVING: Hiding what? What is it?
+32 A ¶ As before.
+33 D OSWALD: I could never bring myself to write to you about it; and since I've come home--
+34 A ¶ Seizes him by the arm.
+35 D MRS. ALVING: Oswald, what is the matter?
+36 D OSWALD: Both yesterday and to-day I have tried to put the thoughts away from me--to cast them off; but it's no use.
+37 A ¶ Rising.
+38 D MRS. ALVING: Now you must tell me everything, Oswald!
+39 A ¶ Draws her down to the sofa again.
+40 D OSWALD: Sit still; and then I will try to tell you.--I complained of fatigue after my journey--
+41 D MRS. ALVING: Well? What then?
+42 D OSWALD: But it isn't that that is the matter with me; not any ordinary fatigue--
+43 A ¶ Tries to jump up.
+44 D MRS. ALVING: You are not ill, Oswald?
+45 A ¶ Draws her down again.
+46 D OSWALD: Sit still, mother. Do take it quietly. I'm not downright ill, either; not what is commonly called "ill."
+47 A ¶ Clasps his hands above his head.
+48 D OSWALD: Mother, my mind is broken down--ruined--I shall never be able to work again!
+
+### SCENE pt_ghosts_2 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): ENGSTRAND, REGINA, PASTOR MANDERS
+1 A ¶ Nearer.
+2 D ENGSTRAND: Now don't be a fool and stand in your own light, Regina. What's to become of you out here? Your mistress has given you a lot of learning; but what good is that to you? You're to look after the children at the new Orphanage, I hear. Is that the sort of thing for you, eh? Are you so dead set on wearing your life out for a pack of dirty brats?
+3 D REGINA: No; if things go as I want them to--Well there's no saying--there's no saying.
+4 D ENGSTRAND: What do you mean by "there's no saying"?
+5 D REGINA: Never you mind.--How much money have you saved?
+6 D ENGSTRAND: What with one thing and another, a matter of seven or eight hundred crowns.
+* 7 A ¶ A "krone" is equal to one shilling and three-halfpence.
+8 D REGINA: That's not so bad.
+9 D ENGSTRAND: It's enough to make a start with, my girl.
+10 D REGINA: Aren't you thinking of giving me any?
+11 D ENGSTRAND: No, I'm blest if I am!
+12 D REGINA: Not even of sending me a scrap of stuff for a new dress?
+13 D ENGSTRAND: Come to town with me, my lass, and you'll soon get dresses enough.
+14 D REGINA: Pooh! I can do that on my own account, if I want to.
+15 D ENGSTRAND: No, a father's guiding hand is what you want, Regina. Now, I've got my eye on a capital house in Little Harbour Street. They don't want much ready-money; and it could be a sort of a Sailors' Home, you know.
+16 D REGINA: But I will not live with you! I have nothing whatever to do with you. Be off!
+17 D ENGSTRAND: You wouldn't stop long with me, my girl. No such luck! If you knew how to play your cards, such a fine figure of a girl as you've grown in the last year or two--
+18 D REGINA: Well?
+19 D ENGSTRAND: You'd soon get hold of some mate--or maybe even a captain--
+20 D REGINA: I won't marry any one of that sort. Sailors have no savoir vivre .
+21 D ENGSTRAND: What's that they haven't got?
+22 D REGINA: I know what sailors are, I tell you. They're not the sort of people to marry.
+23 D ENGSTRAND: Then never mind about marrying them. You can make it pay all the same.
+24 A ¶ More confidentially.
+25 D ENGSTRAND: He--the Englishman--the man with the yacht--he came down with three hundred dollars, he did; and she wasn't a bit handsomer than you.
+26 A ¶ Making for him.
+27 D REGINA: Out you go!
+28 A ¶ Falling back.
+29 D ENGSTRAND: Come, come! You're not going to hit me, I hope.
+30 D REGINA: Yes, if you begin talking about mother I shall hit you. Get away with you, I say!
+31 A ¶ Drives him back towards the garden door.
+32 D REGINA: And don't slam the doors. Young Mr. Alving--
+33 D ENGSTRAND: He's asleep; I know. You're mightily taken up about young Mr. Alving--
+34 A ¶ More softly.
+35 D ENGSTRAND: Oho! you don't mean to say it's him as--?
+36 D REGINA: Be off this minute! You're crazy, I tell you! No, not that way. There comes Pastor Manders. Down the kitchen stairs with you.
+37 A ¶ Towards the right.
+38 D ENGSTRAND: Yes, yes, I'm going. But just you talk to him as is coming there. He's the man to tell you what a child owes its father. For I am your father all the same, you know. I can prove it from the church register.
+39 A ¶ He goes out through the second door to the right, which REGINA has opened, and closes again after him.
+40 A REGINA glances hastily at herself in the mirror, dusts herself with her pocket handkerchief; and settles her necktie; then she busies herself with the flowers.
+41 A ¶ PASTOR MANDERS, wearing an overcoat, carrying an umbrella, and with a small travelling-bag on a strap over his shoulder, comes through the garden door into the conservatory.
+42 D MANDERS: Good-morning, Miss Engstrand.
+43 A ¶ Turning round, surprised and pleased.
+44 D REGINA: No, really! Good morning, Pastor Manders. Is the steamer in already?
+45 D MANDERS: It is just in.
+46 A ¶ Enters the sitting-room.
+
+### SCENE pt_ghosts_21 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): OSWALD, MRS. ALVING, REGINA
+1 A ¶ After a while, looks up and remains resting upon his elbow.
+2 D OSWALD: If it had only been something inherited--something one wasn't responsible for! But this! To have thrown away so shamefully, thoughtlessly, recklessly, one's own happiness, one's own health, everything in the world--one's future, one's very life--!
+3 D MRS. ALVING: No, no, my dear, darling boy; this is impossible!
+4 A ¶ Bends over him.
+5 D MRS. ALVING: Things are not so desperate as you think.
+6 D OSWALD: Oh, you don't know--
+7 A ¶ Springs up.
+8 D OSWALD: And then, mother, to cause you all this sorrow! Many a time I have almost wished and hoped that at bottom you didn't care so very much about me.
+9 D MRS. ALVING: I, Oswald? My only boy! You are all I have in the world! The only thing I care about!
+10 A ¶ Seizes both her hands and kisses them.
+11 D OSWALD: Yes, yes, I see it. When I'm at home, I see it, of course; and that's almost the hardest part for me.--But now you know the whole story and now we won't talk any more about it to-day. I daren't think of it for long together.
+12 A ¶ Goes up the room.
+13 D OSWALD: Get me something to drink, mother.
+14 D MRS. ALVING: To drink? What do you want to drink now?
+15 D OSWALD: Oh, anything you like. You have some cold punch in the house.
+16 D MRS. ALVING: Yes, but my dear Oswald--
+17 D OSWALD: Don't refuse me, mother. Do be kind, now! I must have something to wash down all these gnawing thoughts.
+18 A ¶ Goes into the conservatory.
+19 D OSWALD: And then--it's so dark here!
+20 A ¶ MRS. ALVING pulls a bell-rope on the right.
+21 D OSWALD: And this ceaseless rain! It may go on week after week, for months together. Never to get a glimpse of the sun! I can't recollect ever having seen the sun shine all the times I've been at home.
+22 D MRS. ALVING: Oswald--you are thinking of going away from me.
+23 D OSWALD: H'm--
+24 A ¶ Drawing a heavy breath.
+25 D OSWALD: --I'm not thinking of anything. I cannot think of anything!
+26 A ¶ In a low voice.
+27 D OSWALD: I let thinking alone.
+* 28 A ¶ From the dining-room.
+29 D REGINA: Did you ring, ma'am?
+30 D MRS. ALVING: Yes; let us have the lamp in.
+31 D REGINA: Yes, ma'am. It's ready lighted.
+32 A ¶ Goes out.
+33 A ¶ Goes across to OSWALD.
+34 D MRS. ALVING: Oswald, be frank with me.
+35 D OSWALD: Well, so I am, mother.
+36 A ¶ Goes to the table.
+37 D OSWALD: I think I have told you enough.
+38 A ¶ REGINA brings the lamp and sets it upon the table.
+39 D MRS. ALVING: Regina, you may bring us a small bottle of champagne.
+40 D REGINA: Very well, ma'am.
+41 A ¶ Goes out.
+42 A ¶ Puts his arm round MRS. ALVING's neck.
+43 D OSWALD: That's just what I wanted. I knew mother wouldn't let her boy go thirsty.
+44 D MRS. ALVING: My own, poor, darling Oswald; how could I deny you anything now?
+45 A ¶ Eagerly.
+
+### SCENE pt_ghosts_22 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): OSWALD, MRS. ALVING, REGINA
+1 D OSWALD: Is that true, mother? Do you mean it?
+2 D MRS. ALVING: How? What?
+3 D OSWALD: That you couldn't deny me anything.
+4 D MRS. ALVING: My dear Oswald--
+5 D OSWALD: Hush!
+6 A ¶ Brings a tray with a half-bottle of champagne and two glasses, which she sets on the table.
+7 D REGINA: Shall I open it?
+8 D OSWALD: No, thanks. I will do it myself.
+9 A ¶ REGINA goes out again.
+10 A ¶ Sits down by the table.
+11 D MRS. ALVING: What was it you meant--that I mustn't deny you?
+12 A ¶ Busy opening the bottle.
+13 D OSWALD: First let us have a glass--or two.
+14 A ¶ The cork pops; he pours wine into one glass, and is about to pour it into the other.
+15 A ¶ Holding her hand over it.
+16 D MRS. ALVING: Thanks; not for me.
+17 D OSWALD: Oh! won't you? Then I will!
+18 A ¶ He empties the glass, fills, and empties it again; then he sits down by the table.
+19 A ¶ In expectancy.
+20 D MRS. ALVING: Well?
+21 A ¶ Without looking at her.
+22 D OSWALD: Tell me--I thought you and Pastor Manders seemed so odd--so quiet--at dinner to-day.
+23 D MRS. ALVING: Did you notice it?
+24 D OSWALD: Yes. H'm--
+* 25 A ¶ After a short silence.
+26 D OSWALD: Tell me: what do you think of Regina?
+27 D MRS. ALVING: What do I think?
+28 D OSWALD: Yes; isn't she splendid?
+29 D MRS. ALVING: My dear Oswald, you don't know her as I do--
+30 D OSWALD: Well?
+31 D MRS. ALVING: Regina, unfortunately, was allowed to stay at home too long. I ought to have taken her earlier into my house.
+32 D OSWALD: Yes, but isn't she splendid to look at, mother?
+33 A ¶ He fills his glass.
+34 D MRS. ALVING: Regina has many serious faults--
+35 D OSWALD: Oh, what does that matter?
+36 A ¶ He drinks again.
+37 D MRS. ALVING: But I am fond of her, nevertheless, and I am responsible for her. I wouldn't for all the world have any harm happen to her.
+38 A ¶ Springs up.
+39 D OSWALD: Mother, Regina is my only salvation!
+40 A ¶ Rising.
+41 D MRS. ALVING: What do you mean by that?
+42 D OSWALD: I cannot go on bearing all this anguish of soul alone.
+43 D MRS. ALVING: Have you not your mother to share it with you?
+44 D OSWALD: Yes; that's what I thought; and so I came home to you. But that will not do. I see it won't do. I cannot endure my life here.
+45 D MRS. ALVING: Oswald!
+
+### SCENE pt_ghosts_25 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): MANDERS, REGINA, OSWALD, MRS. ALVING
+1 D MANDERS: We must stand by Engstrand and his Sailors' Home. Regina must go to him and help him--
+2 D REGINA: No thank you, sir.
+3 A ¶ Noticing her for the first time.
+4 D MANDERS: What--? You here? And with a glass in your hand!
+5 A ¶ Hastily putting the glass down.
+6 D REGINA: Pardon!
+7 D OSWALD: Regina is going with me, Mr. Manders.
+8 D MANDERS: Going! With you!
+9 D OSWALD: Yes; as my wife--if she wishes it.
+10 D MANDERS: But, merciful God--!
+11 D REGINA: I can't help it, sir.
+12 D OSWALD: Or she'll stay here, if I stay.
+13 A ¶ Involuntarily.
+14 D REGINA: Here!
+15 D MANDERS: I am thunderstruck at your conduct, Mrs. Alving.
+16 D MRS. ALVING: They will do neither one thing nor the other; for now I can speak out plainly.
+17 D MANDERS: You surely will not do that! No, no, no!
+18 D MRS. ALVING: Yes, I can speak and I will. And no ideals shall suffer after all.
+19 D OSWALD: Mother--what is it you are hiding from me?
+20 A ¶ Listening.
+21 D REGINA: Oh, ma'am, listen! Don't you hear shouts outside.
+22 A ¶ She goes into the conservatory and looks out.
+23 A ¶ At the window on the left.
+24 D OSWALD: What's going on? Where does that light come from?
+25 A ¶ Cries out.
+26 D REGINA: The Orphanage is on fire!
+27 A ¶ Rushing to the window.
+28 D MRS. ALVING: On fire!
+29 D MANDERS: On fire! Impossible! I've just come from there.
+30 D OSWALD: Where's my hat? Oh, never mind it--Father's Orphanage--!
+31 A ¶ He rushes out through the garden door.
+32 D MRS. ALVING: My shawl, Regina! The whole place is in a blaze!
+33 D MANDERS: Terrible! Mrs. Alving, it is a judgment upon this abode of lawlessness.
+34 D MRS. ALVING: Yes, of course. Come, Regina.
+35 A ¶ She and REGINA hasten out through the hall.
+36 A ¶ Clasps his hands together.
+37 D MANDERS: And we left it uninsured!
+38 A ¶ He goes out the same way.
+* 39 A ¶ The room as before.
+* 40 A All the doors stand open.
+* 41 A The lamp is still burning on the table.
+* 42 A It is dark out of doors; there is only a faint glow from the conflagration in the background to the left.
+43 A ¶ MRS. ALVING, with a shawl over her head, stands in the conservatory, looking out.
+44 A REGINA, also with a shawl on, stands a little behind her.
+45 D MRS. ALVING: The whole thing burnt!--burnt to the ground!
+46 D REGINA: The basement is still burning.
+47 D MRS. ALVING: How is it Oswald doesn't come home? There's nothing to be saved.
+48 D REGINA: Should you like me to take down his hat to him?
+49 D MRS. ALVING: Has he not even got his hat on?
+
+### SCENE pt_ghosts_29 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): OSWALD, MRS. ALVING, REGINA
+1 A ¶ Impatiently.
+2 D OSWALD: Oh, do shut all the doors! This killing dread--
+3 D MRS. ALVING: Close the doors, Regina.
+4 A ¶ REGINA shuts them and remains standing by the hall door.
+5 A MRS. ALVING takes her shawl off: REGINA does the same.
+6 A MRS. ALVING draws a chair across to OSWALD'S, and sits by him.
+7 D MRS. ALVING: There now! I am going to sit beside you--
+8 D OSWALD: Yes, do. And Regina shall stay here too. Regina shall be with me always. You will come to the rescue, Regina, won't you?
+9 D REGINA: I don't understand--
+10 D MRS. ALVING: To the rescue?
+11 D OSWALD: Yes--when the need comes.
+12 D MRS. ALVING: Oswald, have you not your mother to come to the rescue?
+13 D OSWALD: You?
+14 A ¶ Smiles.
+15 D OSWALD: No, mother; that rescue you will never bring me.
+16 A ¶ Laughs sadly.
+17 D OSWALD: You! ha ha!
+18 A ¶ Looks earnestly at her.
+19 D OSWALD: Though, after all, who ought to do it if not you?
+20 A ¶ Impetuously.
+21 D OSWALD: Why can't you say "thou" to me, Regina?
+* 22 A ¶ Note: "Sige du" = Fr. tutoyer.
+23 D OSWALD: Why don't you call me "Oswald"?
+24 A ¶ Softly.
+25 D REGINA: I don't think Mrs. Alving would like it.
+26 D MRS. ALVING: You shall have leave to, presently. And meanwhile sit over here beside us.
+27 A ¶ REGINA seats herself demurely and hesitatingly at the other side of the table.
+28 D MRS. ALVING: And now, my poor suffering boy, I am going to take the burden off your mind--
+29 D OSWALD: You, mother?
+30 D MRS. ALVING: --all the gnawing remorse and self-reproach you speak of.
+31 D OSWALD: And you think you can do that?
+32 D MRS. ALVING: Yes, now I can, Oswald. A little while ago you spoke of the joy of life; and at that word a new light burst for me over my life and everything connected with it.
+33 A ¶ Shakes his head.
+34 D OSWALD: I don't understand you.
+35 D MRS. ALVING: You ought to have known your father when he was a young lieutenant. He was brimming over with the joy of life!
+36 D OSWALD: Yes, I know he was.
+37 D MRS. ALVING: It was like a breezy day only to look at him. And what exuberant strength and vitality there was in him!
+38 D OSWALD: Well--?
+39 D MRS. ALVING: Well then, child of joy as he was--for he was like a child in those days--he had to live at home here in a half-grown town, which had no joys to offer him--only dissipations. He had no object in life--only an official position. He had no work into which he could throw himself heart and soul; he had only business. He had not a single comrade that could realise what the joy of life meant--only loungers and boon-companions--
+40 D OSWALD: Mother--!
+41 D MRS. ALVING: So the inevitable happened.
+42 D OSWALD: The inevitable?
+43 D MRS. ALVING: You told me yourself, this evening, what would become of you if you stayed at home.
+44 D OSWALD: Do you mean to say that father--?
+45 D MRS. ALVING: Your poor father found no outlet for the overpowering joy of life that was in him. And I brought no brightness into his home.
+46 D OSWALD: Not even you?
+47 D MRS. ALVING: They had taught me a great deal about duties and so forth, which I went on obstinately believing in. Everything was marked out into duties--into my duties, and his duties, and--I am afraid I made his home intolerable for your poor father, Oswald.
+
+### SCENE pt_ghosts_3 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): PASTOR MANDERS, REGINA
+1 D MANDERS: Terrible weather we have been having lately.
+2 A ¶ Follows him.
+3 D REGINA: It's such blessed weather for the country, sir.
+4 D MANDERS: No doubt; you are quite right. We townspeople give too little thought to that.
+5 A ¶ He begins to take off his overcoat.
+6 D REGINA: Oh, mayn't I help you?--There! Why, how wet it is? I'll just hang it up in the hall. And your umbrella, too--I'll open it and let it dry.
+7 A ¶ She goes out with the things through the second door on the right.
+8 A PASTOR MANDERS takes off his travelling bag and lays it and his hat on a chair.
+9 A Meanwhile REGINA comes in again.
+10 D MANDERS: Ah, it's a comfort to get safe under cover. I hope everything is going on well here?
+11 D REGINA: Yes, thank you, sir.
+12 D MANDERS: You have your hands full, I suppose, in preparation for to-morrow?
+13 D REGINA: Yes, there's plenty to do, of course.
+14 D MANDERS: And Mrs. Alving is at home, I trust?
+15 D REGINA: Oh dear, yes. She's just upstairs, looking after the young master's chocolate.
+16 D MANDERS: Yes, by-the-bye--I heard down at the pier that Oswald had arrived.
+17 D REGINA: Yes, he came the day before yesterday. We didn't expect him before to-day.
+18 D MANDERS: Quite strong and well, I hope?
+19 D REGINA: Yes, thank you, quite; but dreadfully tired with the journey. He has made one rush right through from Paris--the whole way in one train, I believe. He's sleeping a little now, I think; so perhaps we'd better talk a little quietly.
+20 D MANDERS: Sh!--as quietly as you please.
+21 A ¶ Arranging an arm-chair beside the table.
+22 D REGINA: Now, do sit down, Pastor Manders, and make yourself comfortable.
+23 A ¶ He sits down; she places a footstool under his feet.
+24 D REGINA: There! Are you comfortable now, sir?
+25 D MANDERS: Thanks, thanks, extremely so.
+26 A ¶ Looks at her.
+27 D MANDERS: Do you know, Miss Engstrand, I positively believe you have grown since I last saw you.
+28 D REGINA: Do you think so, Sir? Mrs. Alving says I've filled out too.
+29 D MANDERS: Filled out? Well, perhaps a little; just enough.
+* 30 A ¶ Short pause.
+31 D REGINA: Shall I tell Mrs. Alving you are here?
+32 D MANDERS: Thanks, thanks, there is no hurry, my dear child.--By-the-bye, Regina, my good girl, tell me: how is your father getting on out here?
+33 D REGINA: Oh, thank you, sir, he's getting on well enough.
+34 D MANDERS: He called upon me last time he was in town.
+35 D REGINA: Did he, indeed? He's always so glad of a chance of talking to you, sir.
+36 D MANDERS: And you often look in upon him at his work, I daresay?
+37 D REGINA: I? Oh, of course, when I have time, I--
+38 D MANDERS: Your father is not a man of strong character, Miss Engstrand. He stands terribly in need of a guiding hand.
+39 D REGINA: Oh, yes; I daresay he does.
+40 D MANDERS: He requires some one near him whom he cares for, and whose judgment he respects. He frankly admitted as much when he last came to see me.
+41 D REGINA: Yes, he mentioned something of the sort to me. But I don't know whether Mrs. Alving can spare me; especially now that we've got the new Orphanage to attend to. And then I should be so sorry to leave Mrs. Alving; she has always been so kind to me.
+42 D MANDERS: But a daughter's duty, my good girl--Of course, we should first have to get your mistress's consent.
+43 D REGINA: But I don't know whether it would be quite proper for me, at my age, to keep house for a single man.
+44 D MANDERS: What! My dear Miss Engstrand! When the man is your own father!
+45 D REGINA: Yes, that may be; but all the same--Now, if it were in a thoroughly nice house, and with a real gentleman--
+46 D MANDERS: Why, my dear Regina--
+47 D REGINA: --one I could love and respect, and be a daughter to--
+
+### SCENE pt_ghosts_34 | INT. GHOSTS - CONTINUOUS
+Detected names (may be incomplete or contain aliases): OSWALD, MRS. ALVING
+1 D OSWALD: Do not leave me! Where are you going?
+2 A ¶ In the hall.
+3 D MRS. ALVING: To fetch the doctor, Oswald! Let me pass!
+4 A ¶ Also outside.
+5 D OSWALD: You shall not go out. And no one shall come in.
+* 6 A ¶ The locking of a door is heard.
+7 A ¶ Comes in again.
+8 D MRS. ALVING: Oswald! Oswald--my child!
+9 A ¶ Follows her.
+10 D OSWALD: Have you a mother's heart for me--and yet can see me suffer from this unutterable dread?
+11 A ¶ After a moment's silence, commands herself, and says:.
+12 D MRS. ALVING: Here is my hand upon it.
+13 D OSWALD: Will you--?
+14 D MRS. ALVING: If it should ever be necessary. But it will never be necessary. No, no; it is impossible.
+15 D OSWALD: Well, let us hope so. And let us live together as long as we can. Thank you, mother.
+16 A ¶ He seats himself in the arm-chair which MRS. ALVING has moved to the sofa.
+* 17 A Day is breaking.
+* 18 A The lamp is still burning on the table.
+19 A ¶ Drawing near cautiously.
+20 D MRS. ALVING: Do you feel calm now?
+21 D OSWALD: Yes.
+22 A ¶ Bending over him.
+23 D MRS. ALVING: It has been a dreadful fancy of yours, Oswald--nothing but a fancy. All this excitement has been too much for you. But now you shall have a long rest; at home with your mother, my own blessëd boy. Everything you point to you shall have, just as when you were a little child.--There now. The crisis is over. You see how easily it passed! Oh, I was sure it would.--And do you see, Oswald, what a lovely day we are going to have? Brilliant sunshine! Now you can really see your home.
+24 A ¶ She goes to the table and puts out the lamp.
+* 25 A Sunrise.
+* 26 A The glacier and the snow-peaks in the background glow in the morning light.
+27 A ¶ Sits in the arm-chair with his back towards the landscape, without moving.
+28 A Suddenly he says:.
+29 D OSWALD: Mother, give me the sun.
+30 A ¶ By the table, starts and looks at him.
+31 D MRS. ALVING: What do you say?
+32 A ¶ Repeats, in a dull, toneless voice.
+33 D OSWALD: The sun. The sun.
+34 A ¶ Goes to him.
+35 D MRS. ALVING: Oswald, what is the matter with you?
+36 A ¶ Seems to shrink together to the chair; all his muscles relax; his face is expressionless, his eyes have a glassy stare.
+37 A ¶ Quivering with terror.
+38 D MRS. ALVING: What is this?
+39 A ¶ Shrieks.
+40 D MRS. ALVING: Oswald! what is the matter with you?
+41 A ¶ Falls on her knees beside him and shakes him.
+42 D MRS. ALVING: Oswald! Oswald! look at me! Don't you know me?
+43 A ¶ Tonelessly as before.
+44 D OSWALD: The sun.--The sun.
+45 A ¶ Springs up in despair, entwines her hands in her hair and shrieks.
+46 D MRS. ALVING: I cannot bear it!
+47 A ¶ Whispers, as though petrified.
+48 D MRS. ALVING: ; I cannot bear it! Never!
+49 A ¶ Suddenly.
+50 D MRS. ALVING: Where has he got them?
+
+### SCENE pt_hedda_0 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): MISS JULIANA TESMAN, BERTA
+* 1 A ¶ A spacious, handsome, and tastefully furnished drawing room, decorated in dark colours.
+* 2 A In the back, a wide doorway with curtains drawn back, leading into a smaller room decorated in the same style as the drawing-room.
+* 3 A In the right-hand wall of the front room, a folding door leading out to the hall.
+* 4 A In the opposite wall, on the left, a glass door, also with curtains drawn back.
+* 5 A Through the panes can be seen part of a verandah outside, and trees covered with autumn foliage.
+* 6 A An oval table, with a cover on it, and surrounded by chairs, stands well forward.
+* 7 A In front, by the wall on the right, a wide stove of dark porcelain, a high-backed arm-chair, a cushioned foot-rest, and two footstools.
+* 8 A A settee, with a small round table in front of it, fills the upper right-hand corner.
+* 9 A In front, on the left, a little way from the wall, a sofa.
+* 10 A Further back than the glass door, a piano.
+* 11 A On either side of the doorway at the back a whatnot with terra-cotta and majolica ornaments.-- Against the back wall of the inner room a sofa, with a table, and one or two chairs.
+* 12 A Over the sofa hangs the portrait of a handsome elderly man in a General's uniform.
+* 13 A Over the table a hanging lamp, with an opal glass shade.--A number of bouquets are arranged about the drawing-room, in vases and glasses.
+* 14 A Others lie upon the tables.
+* 15 A The floors in both rooms are covered with thick carpets.--Morning light.
+* 16 A The sun shines in through the glass door.
+17 A ¶ MISS JULIANA TESMAN, with her bonnet on a carrying a parasol, comes in from the hall, followed by BERTA, who carries a bouquet wrapped in paper.
+18 A MISS TESMAN is a comely and pleasant- looking lady of about sixty-five.
+19 A She is nicely but simply dressed in a grey walking-costume.
+20 A BERTA is a middle-aged woman of plain and rather countrified appearance.
+21 A ¶ [Stops close to the door, listens, and says softly:] Upon my word, I don't believe they are stirring yet!
+22 A ¶ [Also softly.] I told you so, Miss.
+23 A Remember how late the steamboat got in last night.
+24 A And then, when they got home!--good Lord, what a lot the young mistress had to unpack before she could get to bed.
+25 A ¶ Well well--let them have their sleep out.
+26 A But let us see that they get a good breath of the fresh morning air when they do appear.
+27 A ¶ [She goes to the glass door and throws it open.
+28 A ¶ [Beside the table, at a loss what to do with the bouquet in her hand.] I declare there isn't a bit of room left.
+29 A I think I'll put it down here, Miss. [She places it on the piano.
+30 A ¶ So you've got a new mistress now, my dear Berta.
+31 A Heaven knows it was a wrench to me to part with you.
+32 A ¶ [On the point of weeping.] And do you think it wasn't hard for me, too, Miss?
+33 A After all the blessed years I've been with you and Miss Rina.(1)
+34 A ¶ We must make the best of it, Berta.
+35 A There was nothing else to be done.
+36 A George can't do without you, you see-he absolutely can't.
+37 A He has had you to look after him ever since he was a little boy.
+38 A ¶ Ah but, Miss Julia, I can't help thinking of Miss Rina lying helpless at home there, poor thing.
+39 A And with only that new girl too!
+40 A She'll never learn to take proper care of an invalid.
+41 A ¶ Oh, I shall manage to train her.
+42 A And of course, you know, I shall take most of it upon myself.
+43 A You needn't be uneasy about my poor sister, my dear Berta.
+44 A ¶ Well, but there's another thing, Miss.
+45 A I'm so mortally afraid I shan't be able to suit the young mistress.
+46 A ¶ Oh well--just at first there may be one or two things--
+47 A ¶ Most like she'll be terrible grand in her ways.
+48 A ¶ Well, you can't wonder at that--General Gabler's daughter!
+49 A Think of the sort of life she was accustomed to in her father's time.
+50 A Don't you remember how we used to see her riding down the road along with the General?
+51 A In that long black habit--and with feathers in her hat?
+52 A ¶ Yes, indeed--I remember well enough!--But, good Lord, I should never have dreamt in those days that she and Master George would make a match of it.
+53 A ¶ Nor I.--But by-the-bye, Berta--while I think of it: in future you mustn't say Master George.
+54 A You must say Dr. Tesman.
+55 A ¶ Yes, the young mistress spoke of that too--last night--the moment they set foot in the house.
+56 A Is it true then, Miss?
+57 A ¶ Yes, indeed it is.
+58 A Only think, Berta--some foreign university has made him a doctor--while he has been abroad, you understand.
+59 A I hadn't heard a word about it, until he told me himself upon the pier.
+60 A ¶ Well well, he's clever enough for anything, he is.
+61 A But I didn't think he'd have gone in for doctoring people.
+62 A ¶ No no, it's not that sort of doctor he is. [Nods significantly.] But let me tell you, we may have to call him something still grander before long.
+63 A ¶ You don't say so!
+64 A What can that be, Miss?
+65 A ¶ [Smiling.] H'm--wouldn't you like to know! [With emotion.] Ah, dear dear--if my poor brother could only look up from his grave now, and see what his little boy has grown into! [Looks around.] But bless me, Berta--why have you done this?
+66 A Taken the chintz covers off all the furniture.
+67 A ¶ The mistress told me to.
+68 A She can't abide covers on the chairs, she says.
+69 A ¶ Are they going to make this their everyday sitting-room then?
+70 A ¶ Yes, that's what I understood--from the mistress.
+71 A Master George--the doctor--he said nothing.
+72 A ¶ GEORGE TESMAN comes from the right into the inner room, humming to himself, and carrying an unstrapped empty portmanteau.
+73 A He is a middle-sized, young-looking man of thirty-three, rather stout, with a round, open, cheerful face, fair hair and beard.
+74 A He wears spectacles, and is somewhat carelessly dressed in comfortable indoor clothes.
+75 A ¶ Good morning, good morning, George.
+76 A ¶ [In the doorway between the rooms.] Aunt Julia!
+77 A Dear Aunt Julia! [Goes up to her and shakes hands warmly.] Come all this way--so early!
+78 A Eh?
+79 A ¶ Why, of course I had to come and see how you were getting on.
+80 A ¶ In spite of your having had no proper night's rest?
+81 A ¶ Oh, that makes no difference to me.
+82 A ¶ Well, I suppose you got home all right from the pier?
+83 A Eh?
+84 A ¶ Yes, quite safely, thank goodness.
+85 A Judge Brack was good enough to see me right to my door.
+86 A ¶ We were so sorry we couldn't give you a seat in the carriage.
+87 A But you saw what a pile of boxes Hedda had to bring with her.
+88 A ¶ Yes, she had certainly plenty of boxes.
+89 A ¶ [To TESMAN.] Shall I go in and see if there's anything I can do for the mistress?
+90 A ¶ No thank you, Berta--you needn't.
+91 A She said she would ring if she wanted anything.
+92 A ¶ [Going towards the right.] Very well.
+93 A ¶ But look here--take this portmanteau with you.
+94 A ¶ [Taking it.] I'll put it in the attic.
+95 A ¶ [She goes out by the hall door.
+96 A ¶ Fancy, Auntie--I had the whole of that portmanteau chock full of copies of the documents.
+97 A You wouldn't believe how much I have picked up from all the archives I have been examining--curious old details that no one has had any idea of--
+98 A ¶ Yes, you don't seem to have wasted your time on your wedding trip, George.
+
+### SCENE pt_hedda_11 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): TESMANS, HEDDA, JUDGE BRACK
+1 A ¶ H'm--that is what it may come to, all the same.
+2 A ¶ Well but, Judge Brack--it would show the most incredible lack of consideration for me. [Gesticulates with his arms.] For--just think--I'm a married man!
+3 A We have married on the strength of these prospects, Hedda and I; and run deep into debt; and borrowed money from Aunt Julia too.
+4 A Good heavens, they had as good as promised me the appointment.
+5 A Eh?
+6 A ¶ Well, well, well--no doubt you will get it in the end; only after a contest.
+7 A ¶ [Immovable in her arm-chair.] Fancy, Tesman, there will be a sort of sporting interest in that.
+8 A ¶ Why, my dearest Hedda, how can you be so indifferent about it?
+9 A ¶ [As before.] I am not at all indifferent.
+10 A I am most eager to see who wins.
+11 A ¶ In any case, Mrs. Tesman, it is best that you should know how matters stand.
+12 A I mean--before you set about the little purchases I hear you are threatening.
+13 A ¶ This can make no difference.
+14 A ¶ Indeed!
+15 A Then I have no more to say.
+16 A Good-bye! [To TESMAN.] I shall look in on my way back from my afternoon walk, and take you home with me.
+17 A ¶ Oh yes, yes--your news has quite upset me.
+18 A ¶ [Reclining, holds out her hand.] Good-bye, Judge; and be sure you call in the afternoon.
+19 A ¶ Many thanks.
+20 A Good-bye, good-bye!
+21 A ¶ [Accompanying him to the door.] Good-bye my dear Judge!
+22 A You must really excuse me-- [JUDGE BRACK goes out by the hall door.
+23 A ¶ [Crosses the room.] Oh Hedda--one should never rush into adventures.
+24 A Eh?
+25 A ¶ [Looks at him, smiling.] Do you do that?
+26 A ¶ Yes, dear--there is no denying--it was adventurous to go and marry and set up house upon mere expectations.
+27 A ¶ Perhaps you are right there.
+28 A ¶ Well--at all events, we have our delightful home, Hedda!
+29 A Fancy, the home we both dreamed of--the home we were in love with, I may almost say.
+30 A Eh?
+31 A ¶ [Rising slowly and wearily.] It was part of our compact that we were to go into society--to keep open house.
+32 A ¶ Yes, if you only knew how I had been looking forward to it!
+33 A Fancy--to see you as hostess--in a select circle!
+34 A Eh?
+35 A Well, well, well--for the present we shall have to get on without society, Hedda--only to invite Aunt Julia now and then.--Oh, I intended you to lead such an utterly different life, dear--!
+36 A ¶ Of course I cannot have my man in livery just yet.
+37 A ¶ Oh, no, unfortunately.
+38 A It would be out of the question for us to keep a footman, you know.
+39 A ¶ And the saddle-horse I was to have had--
+40 A ¶ [Aghast.] The saddle-horse!
+41 A ¶ --I suppose I must not think of that now.
+42 A ¶ Good heavens, no!--that's as clear as daylight!
+43 A ¶ [Goes up the room.] Well, I shall have one thing at least to kill time with in the meanwhile.
+44 A ¶ [Beaming.] Oh thank heaven for that!
+45 A What is it, Hedda.
+46 A Eh?
+47 A ¶ [In the middle doorway, looks at him with covert scorn.] My pistols, George.
+48 A ¶ [In alarm.] Your pistols!
+49 A ¶ [With cold eyes.] General Gabler's pistols.
+50 A ¶ [She goes out through the inner room, to the left.
+51 A ¶ [Rushes up to the middle doorway and calls after her:] No, for heaven's sake, Hedda darling--don't touch those dangerous things!
+52 A For my sake Hedda!
+53 A Eh?
+* 54 A ¶ The room at the TESMANS' as in the first Act, except that the piano has been removed, and an elegant little writing-table with the book-shelves put in its place.
+* 55 A A smaller table stands near the sofa on the left.
+* 56 A Most of the bouquets have been taken away.
+* 57 A MRS. ELVSTED'S bouquet is upon the large table in front.--It is afternoon.
+58 A ¶ HEDDA, dressed to receive callers, is alone in the room.
+59 A She stands by the open glass door, loading a revolver.
+* 60 A The fellow to it lies in an open pistol-case on the writing- table.
+61 A ¶ [Looks down the garden, and calls:] So you are here again, Judge!
+62 A ¶ [Is heard calling from a distance.] As you see, Mrs. Tesman!
+63 A ¶ [Raises the pistol and points.] Now I'll shoot you, Judge Brack!
+64 A ¶ [Calling unseen.] No, no, no!
+65 A Don't stand aiming at me!
+66 A ¶ This is what comes of sneaking in by the back way.(7) [She fires.
+67 A ¶ [Nearer.] Are you out of your senses--!
+68 A ¶ Dear me--did I happen to hit you?
+69 A ¶ [Still outside.] I wish you would let these pranks alone!
+70 A ¶ Come in then, Judge.
+71 A ¶ JUDGE BRACK, dressed as though for a men's party, enters by the glass door.
+72 A He carries a light overcoat over his arm.
+
+### SCENE pt_hedda_12 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): 
+1 A ¶ What the deuce--haven't you tired of that sport, yet?
+2 A What are you shooting at?
+3 A ¶ Oh, I am only firing in the air.
+4 A ¶ [Gently takes the pistol out of her hand.] Allow me, madam! [Looks at it.] Ah--I know this pistol well! [Looks around.] Where is the case?
+5 A Ah, here it is. [Lays the pistol in it, and shuts it.] Now we won't play at that game any more to-day.
+6 A ¶ Then what in heaven's name would you have me do with myself?
+7 A ¶ Have you had no visitors?
+8 A ¶ [Closing the glass door.] Not one.
+9 A I suppose all our set are still out of town.
+10 A ¶ And is Tesman not at home either?
+11 A ¶ [At the writing-table, putting the pistol-case in a drawer which she shuts.] No. He rushed off to his aunt's directly after lunch; he didn't expect you so early.
+12 A ¶ H'm--how stupid of me not to have thought of that!
+13 A ¶ [Turning her head to look at him.] Why stupid?
+14 A ¶ Because if I had thought of it I should have come a little--earlier.
+15 A ¶ [Crossing the room.] Then you would have found no one to receive you; for I have been in my room changing my dress ever since lunch.
+16 A ¶ And is there no sort of little chink that we could hold a parley through?
+17 A ¶ You have forgotten to arrange one.
+18 A ¶ That was another piece of stupidity.
+19 A ¶ Well, we must just settle down here--and wait.
+20 A Tesman is not likely to be back for some time yet.
+21 A ¶ Never mind; I shall not be impatient.
+22 A ¶ HEDDA seats herself in the corner of the sofa.
+23 A BRACK lays his overcoat over the back of the nearest chair, and sits down, but keeps his hat in his hand.
+* 24 A A short silence.
+25 A They look at each other.
+26 A ¶ Well?
+27 A ¶ [In the same tone.] Well?
+28 A ¶ I spoke first.
+29 A ¶ [Bending a little forward.] Come, let us have a cosy little chat, Mrs. Hedda.(8)
+30 A ¶ [Leaning further back in the sofa.] Does it not seem like a whole eternity since our last talk?
+31 A Of course I don't count those few words yesterday evening and this morning.
+32 A ¶ You mean since our last confidential talk?
+33 A Our last tete-a-tete ?
+34 A ¶ Well yes--since you put it so.
+35 A ¶ Not a day passed but I have wished that you were home again.
+36 A ¶ And I have done nothing but wish the same thing.
+37 A ¶ You?
+38 A Really, Mrs. Hedda?
+39 A And I thought you had been enjoying your tour so much!
+40 A ¶ Oh yes, you may be sure of that!
+41 A ¶ But Tesman's letters spoke of nothing but happiness.
+42 A ¶ Oh, Tesman!
+43 A You see, he thinks nothing is so delightful as grubbing in libraries and making copies of old parchments, or whatever you call them.
+44 A ¶ [With a smile of malice.] Well, that is his vocation in life--or part of it at any rate.
+45 A ¶ Yes, of course; and no doubt when it's your vocation--.
+46 A But I !
+47 A Oh, my dear Mr. Brack, how mortally bored I have been.
+48 A ¶ [Sympathetically.] Do you really say so?
+49 A In downright earnest?
+50 A ¶ Yes, you can surely understand it--!
+51 A To go for six whole months without meeting a soul that knew anything of our circle, or could talk about things we were interested in.
+52 A ¶ Yes, yes--I too should feel that a deprivation.
+53 A ¶ And then, what I found most intolerable of all--
+54 A ¶ Well?
+55 A ¶ --was being everlastingly in the company of--one and the same person--
+56 A ¶ [With a nod of assent.] Morning, noon, and night, yes--at all possible times and seasons.
+57 A ¶ I said "everlastingly."
+58 A ¶ Just so.
+59 A But I should have thought, with our excellent Tesman, one could--
+60 A ¶ Tesman is--a specialist, my dear Judge.
+61 A ¶ Undeniable.
+62 A ¶ And specialists are not at all amusing to travel with.
+63 A Not in the long run at any rate.
+
+### SCENE pt_hedda_20 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): MRS, ELVSTED
+1 A ¶ Because I have such a dread of scandal.
+2 A ¶ Yes, Hedda, you are a coward at heart.
+3 A ¶ A terrible coward. [Changing her tone.] But it was a lucky thing for you.
+4 A And now you have found ample consolation at the Elvsteds'.
+5 A ¶ I know what Thea has confided to you.
+6 A ¶ And perhaps you have confided to her something about us?
+7 A ¶ Not a word.
+8 A She is too stupid to understand anything of that sort.
+9 A ¶ Stupid?
+10 A ¶ She is stupid about matters of that sort.
+11 A ¶ And I am cowardly. [Bends over towards him, without looking him in the face, and says more softly:] But now I will confide something to you.
+12 A ¶ [Eagerly.] Well?
+13 A ¶ The fact that I dared not shoot you down--
+14 A ¶ Yes!
+15 A ¶ --that was not my arrant cowardice--that evening.
+16 A ¶ [Looks at her a moment, understands, and whispers passionately.] Oh, Hedda!
+17 A Hedda Gabler!
+18 A Now I begin to see a hidden reason beneath our comradeship!
+19 A You(11) and I--!
+20 A After all, then, it was your craving for life--
+21 A ¶ [Softly, with a sharp glance.] Take care!
+22 A Believe nothing of the sort!
+* 23 A ¶ [Twilight has begun to fall.
+24 A The hall door is opened from without by BERTA.
+25 A ¶ [Closes the album with a bang and calls smilingly:] Ah, at last!
+26 A My darling Thea,--come along!
+27 D MRS: ELVSTED enters from the hall. She is in evening dress. The door is closed behind her.
+28 A ¶ [On the sofa, stretches out her arms towards her.] My sweet Thea--you can't think how I have been longing for you!
+29 A ¶ [MRS. ELVSTED, in passing, exchanges slight salutations with the gentlemen in the inner room, then goes up to the table and gives HEDDA her hand.
+30 A EILERT LOVBORG has risen.
+31 A He and MRS. ELVSTED greet each other with a silent nod.
+32 A ¶ Ought I to go in and talk to your husband for a moment?
+33 A ¶ Oh, not at all.
+34 A Leave those two alone.
+35 A They will soon be going.
+36 A ¶ Are they going out?
+37 A ¶ Yes, to a supper-party.
+38 A ¶ [Quickly, to LOVBORG.] Not you?
+39 A ¶ Mr. Lovborg remains with us.
+40 A ¶ [Takes a chair and is about to seat herself at his side.] Oh, how nice it is here!
+41 A ¶ No, thank you, my little Thea!
+42 A Not there!
+43 A You'll be good enough to come over here to me.
+44 A I will sit between you.
+45 A ¶ Yes, just as you please.
+46 A ¶ [She goes round the table and seats herself on the sofa on HEDDA'S right.
+47 A LOVBORG re-seats himself on his chair.
+48 A ¶ [After a short pause, to HEDDA.] Is not she lovely to look at?
+49 A ¶ [Lightly stroking her hair.] Only to look at!
+50 A ¶ Yes.
+51 A For we two--she and I--we are two real comrades.
+52 A We have absolute faith in each other; so we can sit and talk with perfect frankness--
+53 A ¶ Not round about, Mr. Lovborg?
+54 A ¶ Well--
+55 A ¶ [Softly clinging close to HEDDA.] Oh, how happy I am, Hedda!
+56 A For only think, he says I have inspired him too.
+57 A ¶ [Looks at her with a smile.] Ah!
+58 A Does he say that, dear?
+59 A ¶ And then she is so brave, Mrs. Tesman!
+60 A ¶ Good heavens--am I brave?
+61 A ¶ Exceedingly--where your comrade is concerned.
+62 A ¶ Ah, yes--courage!
+63 A If one only had that!
+64 A ¶ What then?
+65 A What do you mean?
+66 A ¶ Then life would perhaps be liveable, after all. [With a sudden change of tone.] But now, my dearest Thea, you really must have a glass of cold punch.
+67 A ¶ No, thanks--I never take anything of that kind.
+68 A ¶ Well then, you, Mr. Lovborg.
+
+### SCENE pt_hedda_23 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): MRS, TESMANS
+1 A ¶ Oh God!--if he would only come as you see him now!
+2 A ¶ He will come as I see him--so, and not otherwise! [Rises and approaches THEA.] You may doubt him as long as you please; I believe in him.
+3 A And now we will try--
+4 A ¶ You have some hidden motive in this, Hedda!
+5 A ¶ Yes, I have.
+6 A I want for once in my life to have power to mould a human destiny.
+7 A ¶ Have you not the power?
+8 A ¶ I have not--and have never had it.
+9 A ¶ Not your husband's?
+10 A ¶ Do you think that is worth the trouble?
+11 A Oh, if you could only understand how poor I am.
+12 A And fate has made you so rich! [Clasps her passionately in her arms.] I think I must burn your hair off after all.
+13 A ¶ Let me go!
+14 A Let me go!
+15 A I am afraid of you, Hedda!
+16 A ¶ [In the middle doorway.] Tea is laid in the dining-room, ma'am.
+17 A ¶ Very well.
+18 A We are coming
+19 A ¶ No, no, no!
+20 A I would rather go home alone!
+21 A At once!
+22 A ¶ Nonsense!
+23 A First you shall have a cup of tea, you little stupid.
+24 A And then--at ten o'clock--Eilert Lovborg will be here--with vine-leaves in his hair.
+25 A ¶ [She drags MRS. ELVSTED almost by force to the middle doorway.
+* 26 A ¶ The room at the TESMANS'.
+* 27 A The curtains are drawn over the middle doorway, and also over the glass door.
+* 28 A The lamp, half turned down, and with a shade over it, is burning on the table.
+* 29 A In the stove, the door of which stands open, there has been a fire, which is now nearly burnt out.
+30 D MRS: ELVSTED, wrapped in a large shawl, and with her feet upon a foot-rest, sits close to the stove, sunk back in the arm-chair. HEDDA, fully dressed, lies sleeping upon the sofa, with a sofa-blanket over her.
+31 A ¶ [After a pause, suddenly sits up in her chair, and listens eagerly.
+32 A Then she sinks back again wearily, moaning to herself.] Not yet!--Oh God--oh God--not yet!
+33 A ¶ BERTA slips cautiously in by the hall door.
+34 A She has a letter in her hand.
+35 A ¶ [Turns and whispers eagerly.] Well--has any one come?
+36 A ¶ [Softly.] Yes, a girl has just brought this letter.
+37 A ¶ [Quickly, holding out her hand.] A letter!
+38 A Give it to me!
+39 A ¶ No, it's for Dr. Tesman, ma'am.
+40 A ¶ Oh, indeed.
+41 A ¶ It was Miss Tesman's servant that brought it.
+42 A I'll lay it here on the table.
+43 A ¶ Yes, do.
+44 A ¶ [Laying down the letter.] I think I had better put out the lamp.
+45 A It's smoking.
+46 A ¶ Yes, put it out.
+47 A It must soon be daylight now.
+48 A ¶ [Putting out the lamp.] It is daylight already, ma'am.
+49 A ¶ Yes, broad day!
+50 A And no one come back yet--!
+51 A ¶ Lord bless you, ma'am--I guessed how it would be.
+52 A ¶ You guessed?
+53 A ¶ Yes, when I saw that a certain person had come back to town--and that he went off with them.
+54 A For we've heard enough about that gentleman before now.
+55 A ¶ Don't speak so loud.
+56 A You will waken Mrs. Tesman.
+57 A ¶ [Looks towards the sofa and sighs.] No, no--let her sleep, poor thing.
+58 A Shan't I put some wood on the fire?
+59 A ¶ Thanks, not for me.
+60 A ¶ Oh, very well. [She goes softly out by the hall door.
+61 A ¶ [Is wakened by the shutting of the door, and looks up.] What's that--?
+62 A ¶ It was only the servant.
+63 A ¶ [Looking about her.] Oh, we're here--!
+64 A Yes, now I remember. [Sits erect upon the sofa, stretches herself, and rubs her eyes.] What o'clock is it, Thea?
+65 A ¶ [Looks at her watch.] It's past seven.
+66 A ¶ When did Tesman come home?
+67 A ¶ He has not come.
+68 A ¶ Not come home yet?
+69 A ¶ [Rising.] No one has come.
+70 A ¶ Think of our watching and waiting here till four in the morning--
+
+### SCENE pt_hedda_24 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): 
+1 A ¶ [Wringing her hands.] And how I watched and waited for him!
+2 A ¶ [Yawns, and says with her hand before her mouth.] Well well--we might have spared ourselves the trouble.
+3 A ¶ Did you get a little sleep?
+4 A ¶ Oh yes; I believe I have slept pretty well.
+5 A Have you not?
+6 A ¶ Not for a moment.
+7 A I couldn't, Hedda!--not to save my life.
+8 A ¶ [Rises and goes towards her.] There there there!
+9 A There's nothing to be so alarmed about.
+10 A I understand quite well what has happened.
+11 A ¶ Well, what do you think?
+12 A Won't you tell me?
+13 A ¶ Why, of course it has been a very late affair at Judge Brack's--
+14 A ¶ Yes, yes--that is clear enough.
+15 A But all the same--
+16 A ¶ And then, you see, Tesman hasn't cared to come home and ring us up in the middle of the night. [Laughing.] Perhaps he wasn't inclined to show himself either--immediately after a jollification.
+17 A ¶ But in that case--where can he have gone?
+18 A ¶ Of course he has gone to his Aunts' and slept there.
+19 A They have his old room ready for him.
+20 A ¶ No, he can't be with them for a letter has just come for him from Miss Tesman.
+21 A There it lies.
+22 A ¶ Indeed? [Looks at the address.] Why yes, it's addressed in Aunt Julia's hand.
+23 A Well then, he has remained at Judge Brack's.
+24 A And as for Eilert Lovborg--he is sitting, with vine-leaves in his hair, reading his manuscript.
+25 A ¶ Oh, Hedda, you are just saying things you don't believe a bit.
+26 A ¶ You really are a little blockhead, Thea.
+27 A ¶ Oh yes, I suppose I am.
+28 A ¶ And how mortally tired you look.
+29 A ¶ Yes, I am mortally tired.
+30 A ¶ Well then, you must do as I tell you.
+31 A You must go into my room and lie down for a little while.
+32 A ¶ Oh no, no--I shouldn't be able to sleep.
+33 A ¶ I am sure you would.
+34 A ¶ Well, but you husband is certain to come soon now; and then I want to know at once--
+35 A ¶ I shall take care to let you know when he comes.
+36 A ¶ Do you promise me, Hedda?
+37 A ¶ Yes, rely upon me.
+38 A Just you go in and have a sleep in the meantime.
+39 A ¶ Thanks; then I'll try. [She goes off to the inner room.
+40 A ¶ [HEDDA goes up to the glass door and draws back the curtains.
+* 41 A The broad daylight streams into the room.
+42 A Then she takes a little hand-glass from the writing-table, looks at herself in it, and arranges her hair.
+43 A Next she goes to the hall door and presses the bell-button.
+44 A ¶ BERTA presently appears at the hall door.
+45 A ¶ Did you want anything, ma'am?
+46 A ¶ Yes; you must put some more wood in the stove.
+47 A I am shivering.
+48 A ¶ Bless me--I'll make up the fire at once. [She rakes the embers together and lays a piece of wood upon them; then stops and listens.] That was a ring at the front door, ma'am.
+49 A ¶ Then go to the door.
+50 A I will look after the fire.
+51 A ¶ It'll soon burn up. [She goes out by the hall door.
+52 A ¶ [HEDDA kneels on the foot-rest and lays some more pieces of wood in the stove.
+53 A ¶ After a short pause, GEORGE TESMAN enters from the hall.
+54 A He steals on tiptoe towards the middle doorway and is about to slip through the curtains.
+55 A ¶ [At the stove, without looking up.] Good morning.
+56 A ¶ [Turns.] Hedda! [Approaching her.] Good heavens--are you up so early?
+57 A Eh?
+58 A ¶ Yes, I am up very early this morning.
+59 A ¶ And I never doubted you were still sound asleep!
+60 A Fancy that, Hedda!
+61 A ¶ Don't speak so loud.
+62 A Mrs. Elvsted is resting in my room.
+63 A ¶ Has Mrs. Elvsted been here all night?
+64 A ¶ Yes, since no one came to fetch her.
+65 A ¶ Ah, to be sure.
+66 A ¶ [Closes the door of the stove and rises.] Well, did you enjoy yourselves at Judge Brack's?
+
+### SCENE pt_hedda_3 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): 
+1 A ¶ [Produces a flat parcel wrapped in newspaper and hands it to him.] Look here, my dear boy.
+2 A ¶ [Opening the parcel.] Well, I declare!--Have you really saved them for me, Aunt Julia!
+3 A Hedda! isn't this touching--eh?
+4 A ¶ [Beside the whatnot on the right.] Well, what is it?
+5 A ¶ My old morning-shoes!
+6 A My slippers.
+7 A ¶ Indeed.
+8 A I remember you often spoke of them while we were abroad.
+9 A ¶ Yes, I missed them terribly. [Goes up to her.] Now you shall see them, Hedda!
+10 A ¶ [Going towards the stove.] Thanks, I really don't care about it.
+11 A ¶ [Following her.] Only think--ill as she was, Aunt Rina embroidered these for me.
+12 A Oh you can't think how many associations cling to them.
+13 A ¶ [At the table.] Scarcely for me.
+14 A ¶ Of course not for Hedda, George.
+15 A ¶ Well, but now that she belongs to the family, I thought--
+16 A ¶ [Interrupting.] We shall never get on with this servant, Tesman.
+17 A ¶ Not get on with Berta?
+18 A ¶ Why, dear, what puts that in your head?
+19 A Eh?
+20 A ¶ [Pointing.] Look there!
+21 A She has left her old bonnet lying about on a chair.
+22 A ¶ [In consternation, drops the slippers on the floor.] Why, Hedda--
+23 A ¶ Just fancy, if any one should come in and see it!
+24 A ¶ But Hedda--that's Aunt Julia's bonnet.
+25 A ¶ Is it!
+26 A ¶ [Taking up the bonnet.] Yes, indeed it's mine.
+27 A And, what's more, it's not old, Madam Hedda.
+28 A ¶ I really did not look closely at it, Miss Tesman.
+29 A ¶ [Trying on the bonnet.] Let me tell you it's the first time I have worn it--the very first time.
+30 A ¶ And a very nice bonnet it is too--quite a beauty!
+31 A ¶ Oh, it's no such great things, George. [Looks around her.] My parasol--?
+32 A Ah, here. [Takes it.] For this is mine too-- [mutters] --not Berta's.
+33 A ¶ A new bonnet and a new parasol!
+34 A Only think, Hedda.
+35 A ¶ Very handsome indeed.
+36 A ¶ Yes, isn't it?
+37 A Eh?
+38 A But Auntie, take a good look at Hedda before you go!
+39 A See how handsome she is!
+40 A ¶ Oh, my dear boy, there's nothing new in that.
+41 A Hedda was always lovely.
+42 A ¶ [She nods and goes toward the right.
+43 A ¶ [Following.] Yes, but have you noticed what splendid condition she is in?
+44 A How she has filled out on the journey?
+45 A ¶ [Crossing the room.] Oh, do be quiet--!
+46 A ¶ [Who has stopped and turned.] Filled out?
+47 A ¶ Of course you don't notice it so much now that she has that dress on.
+48 A But I, who can see--
+49 A ¶ [At the glass door, impatiently.] Oh, you can't see anything.
+50 A ¶ It must be the mountain air in the Tyrol--
+51 A ¶ [Curtly, interrupting.] I am exactly as I was when I started.
+52 A ¶ So you insist; but I'm quite certain you are not.
+53 A Don't you agree with me, Auntie?
+54 A ¶ [Who has been gazing at her with folded hands.] Hedda is lovely-- lovely--lovely. [Goes up to her, takes her head between both hands, draws it downwards, and kisses her hair.] God bless and preserve Hedda Tesman--for George's sake.
+55 A ¶ [Gently freeing herself.] Oh--!
+56 A Let me go.
+57 A ¶ [In quiet emotion.] I shall not let a day pass without coming to see you.
+58 A ¶ No you won't, will you, Auntie?
+59 A Eh?
+60 A ¶ Good-bye--good-bye!
+61 A ¶ [She goes out by the hall door.
+62 A TESMAN accompanies her.
+* 63 A The door remains half open.
+64 A TESMAN can be heard repeating his message to Aunt Rina and his thanks for the slippers.
+65 A ¶ [In the meantime, HEDDA walks about the room, raising her arms and clenching her hands as if in desperation.
+66 A Then she flings back the curtains from the glass door, and stands there looking out.
+67 A ¶ [Presently, TESMAN returns and closes the door behind him.
+
+### SCENE pt_hedda_31 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): TESMANS, HEDDA, MISS TESMAN
+1 A ¶ [HEDDA listens for a moment at the door.
+2 A Then she goes up to the writing-table, takes out the packet of manuscript, peeps under the cover, draws a few of the sheets half out, and looks at them.
+3 A Next she goes over and seats herself in the arm-chair beside the stove, with the packet in her lap.
+4 A Presently she opens the stove door, and then the packet.
+5 A ¶ [Throws one of the quires into the fire and whispers to herself.] Now I am burning your child, Thea!--Burning it, curly-locks! [Throwing one or two more quires into the stove.] Your child and Eilert Lovborg's. [Throws the rest in.] I am burning--I am burning your child.
+* 6 A ¶ The same rooms at the TESMANS'.
+* 7 A It is evening.
+* 8 A The drawing- room is in darkness.
+* 9 A The back room is lighted by the hanging lamp over the table.
+* 10 A The curtains over the glass door are drawn close.
+11 A ¶ HEDDA, dressed in black, walks to and fro in the dark room.
+12 A Then she goes into the back room and disappears for a moment to the left.
+13 A She is heard to strike a few chords on the piano.
+14 A Presently she comes in sight again, and returns to the drawing-room.
+15 A ¶ BERTA enters from the right, through the inner room, with a lighted lamp, which she places on the table in front of the corner settee in the drawing-room.
+16 A Her eyes are red with weeping, and she has black ribbons in her cap.
+17 A She goes quietly and circumspectly out to the right.
+18 A HEDDA goes up to the glass door, lifts the curtain a little aside, and looks out into the darkness.
+19 A ¶ Shortly afterwards, MISS TESMAN, in mourning, with a bonnet and veil on, comes in from the hall.
+20 A HEDDA goes towards her and holds out her hand.
+21 A ¶ Yes, Hedda, here I am, in mourning and forlorn; for now my poor sister has at last found peace.
+22 A ¶ I have heard the news already, as you see.
+23 A Tesman sent me a card.
+24 A ¶ Yes, he promised me he would.
+25 A But nevertheless I thought that to Hedda--here in the house of life--I ought myself to bring the tidings of death.
+26 A ¶ That was very kind of you.
+27 A ¶ Ah, Rina ought not to have left us just now.
+28 A This is not the time for Hedda's house to be a house of mourning.
+29 A ¶ [Changing the subject.] She died quite peacefully, did she not, Miss Tesman?
+30 A ¶ Oh, her end was so calm, so beautiful.
+31 A And then she had the unspeakable happiness of seeing George once more--and bidding him good-bye.--Has he not come home yet?
+32 A ¶ No. He wrote that he might be detained.
+33 A But won't you sit down?
+34 A ¶ No thank you, my dear, dear Hedda.
+35 A I should like to, but I have so much to do.
+36 A I must prepare my dear one for her rest as well as I can.
+37 A She shall go to her grave looking her best.
+38 A ¶ Can I not help you in any way?
+39 A ¶ Oh, you must not think of it!
+40 A Hedda Tesman must have no hand in such mournful work.
+41 A Nor let her thought dwell on it either--not at this time.
+42 A ¶ One is not always mistress of one's thoughts--
+43 A ¶ [Continuing.] Ah yes, it is the way of the world.
+44 A At home we shall be sewing a shroud; and here there will soon be sewing too, I suppose--but of another sort, thank God!
+45 A ¶ GEORGE TESMAN enters by the hall door.
+46 A ¶ Ah, you have come at last!
+47 A ¶ You here, Aunt Julia?
+48 A With Hedda?
+49 A Fancy that!
+50 A ¶ I was just going, my dear boy.
+51 A Well, have you done all you promised?
+52 A ¶ No; I'm really afraid I have forgotten half of it.
+53 A I must come to you again to-morrow.
+54 A To-day my brain is all in a whirl.
+55 A I can't keep my thoughts together.
+56 A ¶ Why, my dear George, you mustn't take it in this way.
+57 A ¶ Mustn't--?
+58 A How do you mean?
+59 A ¶ Even in your sorrow you must rejoice, as I do--rejoice that she is at rest.
+60 A ¶ Oh yes, yes--you are thinking of Aunt Rina.
+61 A ¶ You will feel lonely now, Miss Tesman.
+62 A ¶ Just at first, yes.
+63 A But that will not last very long, I hope.
+64 A I daresay I shall soon find an occupant for Rina's little room.
+65 A ¶ Indeed?
+66 A Who do you think will take it?
+67 A Eh?
+68 A ¶ Oh, there's always some poor invalid or other in want of nursing, unfortunately.
+69 A ¶ Would you really take such a burden upon you again?
+70 A ¶ A burden!
+71 A Heaven forgive you, child--it has been no burden to me.
+72 A ¶ But suppose you had a total stranger on your hands--
+73 A ¶ Oh, one soon makes friends with sick folk; and it's such an absolute necessity for me to have some one to live for.
+74 A Well, heaven be praised, there may soon be something in this house, too, to keep an old aunt busy.
+75 A ¶ Oh, don't trouble about anything here.
+76 A ¶ Yes, just fancy what a nice time we three might have together, if--?
+77 A ¶ If--?
+78 A ¶ [Uneasily.] Oh nothing.
+79 A It will all come right.
+80 A Let us hope so--eh?
+81 A ¶ Well well, I daresay you two want to talk to each other. [Smiling.] And perhaps Hedda may have something to tell you too, George.
+82 A Good-bye!
+83 A I must go home to Rina. [Turning at the door.] How strange it is to think that now Rina is with me and with my poor brother as well!
+84 A ¶ Yes, fancy that, Aunt Julia!
+85 A Eh?
+86 A ¶ [MISS TESMAN goes out by the hall door.
+87 A ¶ [Follows TESMAN coldly and searchingly with her eyes.] I almost believe your Aunt Rina's death affects you more than it does your Aunt Julia.
+88 A ¶ Oh, it's not that alone.
+89 A It's Eilert I am so terribly uneasy about.
+
+### SCENE pt_hedda_37 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): TESMAN, ELVSTED
+1 A ¶ No; the police have it.
+2 A ¶ What will the police do with it?
+3 A ¶ Search till they find the owner.
+4 A ¶ Do you think they will succeed?
+5 A ¶ [Bends over her and whispers.] No, Hedda Gabler--not so long as I say nothing.
+6 A ¶ [Looks frightened at him.] And if you do not say nothing,--what then?
+7 A ¶ [Shrugs his shoulders.] There is always the possibility that the pistol was stolen.
+8 A ¶ [Firmly.] Death rather than that.
+9 A ¶ [Smiling.] People say such things--but they don't do them.
+10 A ¶ [Without replying.] And supposing the pistol was not stolen, and the owner is discovered?
+11 A What then?
+12 A ¶ Well, Hedda--then comes the scandal!
+13 A ¶ The scandal!
+14 A ¶ Yes, the scandal--of which you are so mortally afraid.
+15 A You will, of course, be brought before the court--both you and Mademoiselle Diana.
+16 A She will have to explain how the thing happened--whether it was an accidental shot or murder.
+17 A Did the pistol go off as he was trying to take it out of his pocket, to threaten her with?
+18 A Or did she tear the pistol out of his hand, shoot him, and push it back into his pocket?
+19 A That would be quite like her; for she is an able-bodied young person, this same Mademoiselle Diana.
+20 A ¶ But I have nothing to do with all this repulsive business.
+21 A ¶ No. But you will have to answer the question: Why did you give Eilert the pistol?
+22 A And what conclusions will people draw from the fact that you did give it to him?
+23 A ¶ [Lets her head sink.] That is true.
+24 A I did not think of that.
+25 A ¶ Well, fortunately, there is no danger, so long as I say nothing.
+26 A ¶ [Looks up at him.] So I am in your power, Judge Brack.
+27 A You have me at your beck and call, from this time forward.
+28 A ¶ [Whispers softly.] Dearest Hedda--believe me--I shall not abuse my advantage.
+29 A ¶ I am in your power none the less.
+30 A Subject to your will and your demands.
+31 A A slave, a slave then! [Rises impetuously.] No, I cannot endure the thought of that!
+32 A Never!
+33 A ¶ [Looks half-mockingly at her.] People generally get used to the inevitable.
+34 A ¶ [Returns his look.] Yes, perhaps. [She crosses to the writing-table.
+35 A Suppressing an involuntary smile, she imitates TESMAN'S intonations.] Well?
+36 A Are you getting on, George?
+37 A Eh?
+38 A ¶ Heaven knows, dear.
+39 A In any case it will be the work of months.
+40 A ¶ [As before.] Fancy that! [Passes her hands softly through Mrs. Elvsted's hair.] Doesn't it seem strange to you, Thea?
+41 A Here are you sitting with Tesman--just as you used to sit with Eilert Lovborg?
+42 A ¶ Ah, if I could only inspire your husband in the same way!
+43 A ¶ Oh, that will come too--in time.
+44 A ¶ Yes, do you know, Hedda--I really think I begin to feel something of the sort.
+45 A But won't you go and sit with Brack again?
+46 A ¶ Is there nothing I can do to help you two?
+47 A ¶ No, nothing in the world. [Turning his head.] I trust to you to keep Hedda company, my dear Brack.
+48 A ¶ [With a glance at HEDDA.] With the very greatest of pleasure.
+49 A ¶ Thanks.
+50 A But I am tired this evening.
+51 A I will go in and lie down a little on the sofa.
+52 A ¶ Yes, do dear--eh?
+53 A ¶ [HEDDA goes into the back room and draws the curtains.
+* 54 A A short pause.
+55 A Suddenly she is heard playing a wild dance on the piano.
+56 A ¶ [Starts from her chair.] Oh--what is that?
+57 A ¶ [Runs to the doorway.] Why, my dearest Hedda--don't play dance-music to-night!
+58 A Just think of Aunt Rina!
+59 A And of Eilert too!
+60 A ¶ [Puts her head out between the curtains.] And of Aunt Julia.
+61 A And of all the rest of them.--After this, I will be quiet. [Closes the curtains again.]
+62 A ¶ [At the writing-table.] It's not good for her to see us at this distressing work.
+63 A I'll tell you what, Mrs. Elvsted,--you shall take the empty room at Aunt Julia's, and then I will come over in the evenings, and we can sit and work there--eh?
+64 A ¶ [In the inner room.] I hear what you are saying, Tesman.
+65 A But how am I to get through the evenings out here?
+66 A ¶ [Turning over the papers.] Oh, I daresay Judge Brack will be so kind as to look in now and then, even though I am out.
+67 A ¶ [In the arm-chair, calls out gaily.] Every blessed evening, with all the pleasure in life, Mrs. Tesman!
+68 A We shall get on capitally together, we two!
+69 A ¶ [Speaking loud and clear.] Yes, don't you flatter yourself we will, Judge Brack?
+70 A Now that you are the one cock in the basket--
+* 71 A ¶ [A shot is heard within.
+72 A TESMAN, MRS. ELVSTED, and BRACK leap to their feet.
+73 A ¶ Oh, now she is playing with those pistols again.
+74 A ¶ [He throws back the curtains and runs in, followed by MRS. ELVSTED.
+75 A HEDDA lies stretched on the sofa, lifeless.
+* 76 A Confusion and cries.
+77 A BERTA enters in alarm from the right.
+78 A ¶ [Shrieks to BRACK.] Shot herself!
+79 A Shot herself in the temple!
+80 A Fancy that!
+
+### SCENE pt_hedda_9 | INT. HEDDA - CONTINUOUS
+Detected names (may be incomplete or contain aliases): GEORGE TESMAN, BERTA
+1 A ¶ Oh--then of course it must have been she.
+2 A ¶ [Wringing her hands.] And now just fancy, Hedda--I hear that this singing-woman--that she is in town again!
+3 A Oh, I don't know what to do--
+4 A ¶ [Glancing towards the inner room.] Hush!
+5 A Here comes Tesman. [Rises and whispers.] Thea--all this must remain between you and me.
+6 A ¶ [Springing up.] Oh yes--yes!
+7 A For heaven's sake--!
+8 A ¶ GEORGE TESMAN, with a letter in his hand, comes from the right through the inner room.
+9 A ¶ There now--the epistle is finished.
+10 A ¶ That's right.
+11 A And now Mrs. Elvsted is just going.
+12 A Wait a moment--I'll go with you to the garden gate.
+13 A ¶ Do you think Berta could post the letter, Hedda dear?
+14 A ¶ [Takes it.] I will tell her to.
+15 A ¶ BERTA enters from the hall.
+16 A ¶ Judge Brack wishes to know if Mrs. Tesman will receive him.
+17 A ¶ Yes, ask Judge Brack to come in.
+18 A And look here--put this letter in the post.
+19 A ¶ Taking the letter.
+20 D BERTA: Yes, ma'am.
+21 A ¶ [She opens the door for JUDGE BRACK and goes out herself.
+22 A Brack is a man of forty-five; thick set, but well-built and elastic in his movements.
+23 A His face is roundish with an aristocratic profile.
+24 A His hair is short, still almost black, and carefully dressed.
+25 A His eyebrows thick.
+26 A His moustaches are also thick, with short-cut ends.
+27 A He wears a well-cut walking-suit, a little too youthful for his age.
+28 A He uses an eye-glass, which he now and then lets drop.
+29 A ¶ [With his hat in his hand, bowing.] May one venture to call so early in the day?
+30 A ¶ Of course one may.
+31 A ¶ [Presses his hand.] You are welcome at any time. [Introducing him.] Judge Brack--Miss Rysing--
+32 A ¶ Oh--!
+33 A ¶ [Bowing.] Ah--delighted--
+34 A ¶ [Looks at him and laughs.] It's nice to have a look at you by daylight, Judge!
+35 A ¶ So you find me--altered?
+36 A ¶ A little younger, I think.
+37 A ¶ Thank you so much.
+38 A ¶ But what do you think of Hedda--eh?
+39 A Doesn't she look flourishing?
+40 A She has actually--
+41 A ¶ Oh, do leave me alone.
+42 A You haven't thanked Judge Brack for all the trouble he has taken--
+43 A ¶ Oh, nonsense--it was a pleasure to me--
+44 A ¶ Yes, you are a friend indeed.
+45 A But here stands Thea all impatience to be off--so au revoir Judge.
+46 A I shall be back again presently.
+* 47 A ¶ [Mutual salutations.
+48 A MRS. ELVSTED and HEDDA go out by the hall door.
+49 A ¶ Well,--is your wife tolerably satisfied--
+50 A ¶ Yes, we can't thank you sufficiently.
+51 A Of course she talks of a little re-arrangement here and there; and one or two things are still wanting.
+52 A We shall have to buy some additional trifles.
+53 A ¶ Indeed!
+54 A ¶ But we won't trouble you about these things.
+55 A Hedda says she herself will look after what is wanting.--Shan't we sit down?
+56 A Eh?
+57 A ¶ Thanks, for a moment. [Seats himself beside the table.] There is something I wanted to speak to you about, my dear Tesman.
+58 A ¶ Indeed?
+59 A Ah, I understand! [Seating himself.] I suppose it's the serious part of the frolic that is coming now.
+60 A Eh?
+61 A ¶ Oh, the money question is not so very pressing; though, for that matter, I wish we had gone a little more economically to work.
+62 A ¶ But that would never have done, you know!
+63 A Think of Hedda, my dear fellow!
+64 A You, who know her so well--!
+65 A I couldn't possibly ask her to put up with a shabby style of living!
+66 A ¶ No, no--that is just the difficulty.
+67 A ¶ And then--fortunately--it can't be long before I receive my appointment.
+68 A ¶ Well, you see--such things are often apt to hang fire for a long time.
+69 A ¶ Have you heard anything definite?
+70 A Eh?
+71 A ¶ Nothing exactly definite--. [Interrupting himself.] But by-the-bye--I have one piece of news for you.
+72 A ¶ Well?
+73 A ¶ Your old friend, Eilert Lovborg, has returned to town.
+74 A ¶ I know that already.
+
+### SCENE pt_husband_0 | INT. HUSBAND - CONTINUOUS
+Detected names (may be incomplete or contain aliases): EARL CAVERSHAM, SIR ROBERT CHILTERN, MASON, COUNTESS BASILDON, MARCHMONT, VICOMTE DE NANJAC
+1 A ¶ TIME: The Present
+2 A ¶ PLACE: London .
+3 A ¶ The action of the play is completed within twenty-four hours .
+4 A ¶ THEATRE ROYAL, HAYMARKET
+5 A ¶ Sole Lessee : Mr. Herbert Beerbohm Tree
+6 A ¶ Managers : Mr. Lewis Waller and Mr. H. H. Morell
+7 A ¶ January 3 rd , 1895
+8 A ¶ THE EARL OF CAVERSHAM Mr. Alfred Bishop .
+9 A VISCOUNT GORING Mr. Charles H. Hawtrey .
+10 A SIR ROBERT CHILTERN Mr. Lewis Waller .
+11 A VICOMTE DE NANJAC Mr. Cosmo Stuart .
+12 A MR. MONTFORD Mr. Harry Stanford .
+13 A PHIPPS Mr. C. H. Brookfield .
+14 A MASON Mr. H. Deane .
+15 A JAMES Mr. Charles Meyrick .
+16 A HAROLD Mr. Goodhart .
+17 A LADY CHILTERN Miss Julia Neilson .
+18 A LADY MARKBY Miss Fanny Brough .
+19 A COUNTESS OF BASILDON Miss Vane Featherston .
+20 A MRS. MARCHMONT Miss Helen Forsyth .
+21 A MISS MABEL CHILTERN Miss Maud Millet .
+22 A MRS. CHEVELEY Miss Florence West .
+* 23 A ¶ The octagon room at Sir Robert Chiltern’s house in Grosvenor Square .
+* 24 A ¶ The room is brilliantly lighted and full of guests .
+25 A At the top of the staircase stands LADY CHILTERN, a woman of grave Greek beauty , about twenty-seven years of age .
+26 A She receives the guests as they come up .
+* 27 A Over the well of the staircase hangs a great chandelier with wax lights , which illumine a large eighteenth-century French tapestry—representing the Triumph of Love , from a design by Boucher—that is stretched on the staircase wall .
+* 28 A On the right is the entrance to the music-room .
+* 29 A The sound of a string quartette is faintly heard .
+* 30 A The entrance on the left leads to other reception-rooms .
+31 A MRS. MARCHMONT and LADY BASILDON, two very pretty women , are seated together on a Louis Seize sofa .
+32 A They are types of exquisite fragility .
+33 A Their affectation of manner has a delicate charm .
+34 A Watteau would have loved to paint them .
+35 D MRS. MARCHMONT: Going on to the Hartlocks’ to-night, Margaret?
+36 D LADY BASILDON: I suppose so. Are you?
+37 D MRS. MARCHMONT: Yes. Horribly tedious parties they give, don’t they?
+38 D LADY BASILDON: Horribly tedious! Never know why I go. Never know why I go anywhere.
+39 D MRS. MARCHMONT: I come here to be educated.
+40 D LADY BASILDON: Ah! I hate being educated!
+41 D MRS. MARCHMONT: So do I. It puts one almost on a level with the commercial classes, doesn’t it? But dear Gertrude Chiltern is always telling me that I should have some serious purpose in life. So I come here to try to find one.
+42 A ¶ Looking round through her lorgnette .
+43 D LADY BASILDON: I don’t see anybody here to-night whom one could possibly call a serious purpose. The man who took me in to dinner talked to me about his wife the whole time.
+44 D MRS. MARCHMONT: How very trivial of him!
+45 D LADY BASILDON: Terribly trivial! What did your man talk about?
+46 D MRS. MARCHMONT: About myself.
+47 A ¶ Languidly .
+48 D LADY BASILDON: And were you interested?
+49 A ¶ Shaking her head .
+50 D MRS. MARCHMONT: Not in the smallest degree.
+51 D LADY BASILDON: What martyrs we are, dear Margaret!
+52 A ¶ Rising .
+53 D MRS. MARCHMONT: And how well it becomes us, Olivia!
+54 A ¶ They rise and go towards the music-room .
+55 A The VICOMTE DE NANJAC, a young attaché known for his neckties and his Anglomania , approaches with a low bow , and enters into conversation .
+56 A ¶ Announcing guests from the top of the staircase .
+57 D MASON: Mr. and Lady Jane Barford. Lord Caversham.
+58 A ¶ Enter LORD CAVERSHAM, an old gentleman of seventy , wearing the riband and star of the Garter .
+59 A A fine Whig type .
+60 A Rather like a portrait by Lawrence .
+61 D LORD CAVERSHAM: Good evening, Lady Chiltern! Has my good-for-nothing young son been here?
+62 A ¶ Smiling .
+63 D LADY CHILTERN: I don’t think Lord Goring has arrived yet.
+64 A ¶ Coming up to LORD CAVERSHAM.
+65 D MABEL CHILTERN: Why do you call Lord Goring good-for-nothing?
+66 A ¶ MABEL CHILTERN is a perfect example of the English type of prettiness , the apple-blossom type .
+67 A She has all the fragrance and freedom of a flower .
+68 A There is ripple after ripple of sunlight in her hair , and the little mouth , with its parted lips , is expectant , like the mouth of a child .
+69 A She has the fascinating tyranny of youth , and the astonishing courage of innocence .
+70 A To sane people she is not reminiscent of any work of art .
+71 A But she is really like a Tanagra statuette , and would be rather annoyed if she were told so .
+72 D LORD CAVERSHAM: Because he leads such an idle life.
+73 D MABEL CHILTERN: How can you say such a thing? Why, he rides in the Row at ten o’clock in the morning, goes to the Opera three times a week, changes his clothes at least five times a day, and dines out every night of the season. You don’t call that leading an idle life, do you?
+74 A ¶ Looking at her with a kindly twinkle in his eyes .
+75 D LORD CAVERSHAM: You are a very charming young lady!
+76 D MABEL CHILTERN: How sweet of you to say that, Lord Caversham! Do come to us more often. You know we are always at home on Wednesdays, and you look so well with your star!
+77 D LORD CAVERSHAM: Never go anywhere now. Sick of London Society. Shouldn’t mind being introduced to my own tailor; he always votes on the right side. But object strongly to being sent down to dinner with my wife’s milliner. Never could stand Lady Caversham’s bonnets.
+
+### SCENE pt_husband_22 | INT. HUSBAND - CONTINUOUS
+Detected names (may be incomplete or contain aliases): LORD CAVERSHAM, LORD GORING, PHIPPS
+1 D LORD CAVERSHAM: What do you mean, sir?
+2 D LORD GORING: During the Season, father, I only talk seriously on the first Tuesday in every month, from four to seven.
+3 D LORD CAVERSHAM: Well, make it Tuesday, sir, make it Tuesday.
+4 D LORD GORING: But it is after seven, father, and my doctor says I must not have any serious conversation after seven. It makes me talk in my sleep.
+5 D LORD CAVERSHAM: Talk in your sleep, sir? What does that matter? You are not married.
+6 D LORD GORING: No, father, I am not married.
+7 D LORD CAVERSHAM: Hum! That is what I have come to talk to you about, sir. You have got to get married, and at once. Why, when I was your age, sir, I had been an inconsolable widower for three months, and was already paying my addresses to your admirable mother. Damme, sir, it is your duty to get married. You can’t be always living for pleasure. Every man of position is married nowadays. Bachelors are not fashionable any more. They are a damaged lot. Too much is known about them. You must get a wife, sir. Look where your friend Robert Chiltern has got to by probity, hard work, and a sensible marriage with a good woman. Why don’t you imitate him, sir? Why don’t you take him for your model?
+8 D LORD GORING: I think I shall, father.
+9 D LORD CAVERSHAM: I wish you would, sir. Then I should be happy. At present I make your mother’s life miserable on your account. You are heartless, sir, quite heartless.
+10 D LORD GORING: I hope not, father.
+11 D LORD CAVERSHAM: And it is high time for you to get married. You are thirty-four years of age, sir.
+12 D LORD GORING: Yes, father, but I only admit to thirty-two—thirty-one and a half when I have a really good buttonhole. This buttonhole is not . . . trivial enough.
+13 D LORD CAVERSHAM: I tell you you are thirty-four, sir. And there is a draught in your room, besides, which makes your conduct worse. Why did you tell me there was no draught, sir? I feel a draught, sir, I feel it distinctly.
+14 D LORD GORING: So do I, father. It is a dreadful draught. I will come and see you to-morrow, father. We can talk over anything you like. Let me help you on with your cloak, father.
+15 D LORD CAVERSHAM: No, sir; I have called this evening for a definite purpose, and I am going to see it through at all costs to my health or yours. Put down my cloak, sir.
+16 D LORD GORING: Certainly, father. But let us go into another room.
+17 A ¶ Rings bell .
+18 D LORD GORING: There is a dreadful draught here.
+19 A ¶ Enter PHIPPS.
+20 D LORD GORING: Phipps, is there a good fire in the smoking-room?
+21 D PHIPPS: Yes, my lord.
+22 D LORD GORING: Come in there, father. Your sneezes are quite heartrending.
+23 D LORD CAVERSHAM: Well, sir, I suppose I have a right to sneeze when I choose?
+24 A ¶ Apologetically .
+25 D LORD GORING: Quite so, father. I was merely expressing sympathy.
+26 D LORD CAVERSHAM: Oh, damn sympathy. There is a great deal too much of that sort of thing going on nowadays.
+27 D LORD GORING: I quite agree with you, father. If there was less sympathy in the world there would be less trouble in the world.
+28 A ¶ Going towards the smoking-room .
+29 D LORD CAVERSHAM: That is a paradox, sir. I hate paradoxes.
+30 D LORD GORING: So do I, father. Everybody one meets is a paradox nowadays. It is a great bore. It makes society so obvious.
+31 A ¶ Turning round , and looking at his son beneath his bushy eyebrows .
+32 D LORD CAVERSHAM: Do you always really understand what you say, sir?
+33 A ¶ After some hesitation .
+34 D LORD GORING: Yes, father, if I listen attentively.
+35 A ¶ Indignantly .
+36 D LORD CAVERSHAM: If you listen attentively! . . . Conceited young puppy!
+37 A ¶ Goes off grumbling into the smoking-room .
+38 A PHIPPS enters .
+39 D LORD GORING: Phipps, there is a lady coming to see me this evening on particular business. Show her into the drawing-room when she arrives. You understand?
+40 D PHIPPS: Yes, my lord.
+41 D LORD GORING: It is a matter of the gravest importance, Phipps.
+42 D PHIPPS: I understand, my lord.
+43 D LORD GORING: No one else is to be admitted, under any circumstances.
+44 D PHIPPS: I understand, my lord.
+* 45 A ¶ Bell rings .
+46 D LORD GORING: Ah! that is probably the lady. I shall see her myself.

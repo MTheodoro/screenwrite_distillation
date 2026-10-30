@@ -1,17 +1,17 @@
 | Metric | rule | model |
 |---|---|---|
-| Beat boundary F1 (exact) | 0.615 | 0.535 |
-| Beat boundary F1 (±1 unit) | 0.821 | 0.626 |
-| Who: exact set | 83.0% | 83.0% |
-| Who: top-1 | 85.3% | 85.3% |
-| Who: joint actions (exact) | 36.7% | 36.7% |
-| Addressee: exact set | 77.3% | 82.9% |
-| Addressee: top-1 | 79.1% | 84.8% |
-| Emotion: accuracy | 63.2% | 71.1% |
-| Emotion: macro-F1 | 0.228 | 0.387 |
-| Tension pairs, within scene | 55.6% | 84.0% |
-| Tension pairs, across scenes | 51.4% | 67.6% |
-| Latency ms/scene (mean) | 4.94 | 10.98 |
-| Latency ms/scene (p95) | 10.23 | 22.44 |
+| Beat boundary F1 (exact) | 0.639 | 0.462 |
+| Beat boundary F1 (±1 unit) | 0.852 | 0.541 |
+| Who: exact set | 85.4% | 85.4% |
+| Who: top-1 | 87.1% | 87.1% |
+| Who: joint actions (exact) | 33.8% | 33.8% |
+| Addressee: exact set | 69.4% | 74.7% |
+| Addressee: top-1 | 70.7% | 76.7% |
+| Emotion: accuracy | 63.1% | 74.7% |
+| Emotion: macro-F1 | 0.219 | 0.424 |
+| Tension pairs, within scene | 0.0% | 0.0% |
+| Tension pairs, across scenes | 0.0% | 0.0% |
+| Latency ms/scene (mean) | 3.69 | 8.33 |
+| Latency ms/scene (p95) | 7.33 | 19.19 |
 
-Gold: 137 scenes, who n=3885 (joint 245), addressee n=3086, emotion n=6324, tension pairs within=13285 across=185
+Gold: 60 scenes, who n=1239 (joint 71), addressee n=841, emotion n=1926, tension pairs within=0 across=0

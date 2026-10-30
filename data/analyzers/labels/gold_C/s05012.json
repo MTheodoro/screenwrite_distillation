@@ -1,0 +1,16 @@
+{"scene_id":"s05012","cast":{"ZIP":"ZIP","LUCY":"LUCY","BIG MO":"BIG MO","MO":"BIG MO","GRANDMA TESS":"GRANDMA TESS","DOG":"DOG"},"beats":[1,2,3,4,5,6,8,10,13,14,15],"lines":{
+"1":{"t":"S","who":[],"emo":{},"c":0.95},
+"2":{"t":"A","who":["ZIP","LUCY","BIG MO"],"emo":{},"c":0.5},
+"3":{"t":"A","who":["OTHER"],"emo":{},"c":0.9},
+"4":{"to":["ALL"],"emo":["joy",0.5],"c":0.95},
+"5":{"to":["SELF"],"emo":["surprise",0.2],"c":0.95},
+"6":{"to":["LUCY"],"emo":["fear",0.2],"c":0.95},
+"7":{"to":["BIG MO"],"emo":["joy",0.3],"c":0.95},
+"8":{"t":"S","who":[],"emo":{},"c":0.95},
+"9":{"t":"A","who":["LUCY"],"emo":{},"c":0.95},
+"10":{"to":["LUCY"],"emo":["affection",0.6],"c":0.95},
+"11":{"to":["GRANDMA TESS"],"emo":["joy",0.3],"c":0.95},
+"12":{"to":["LUCY"],"emo":["affection",0.4],"c":0.95},
+"13":{"to":["GRANDMA TESS"],"emo":["anger",0.2],"c":0.9},
+"14":{"to":["DOG"],"emo":["neutral",0.2],"c":0.95},
+"15":{"t":"A","who":["DOG"],"emo":{},"c":0.95}}}
