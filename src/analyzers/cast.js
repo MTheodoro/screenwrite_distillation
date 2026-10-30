@@ -398,6 +398,17 @@ export function buildCast(scene) {
     const objBefore = p0 && !GT("seqobj") && (p0.g === "m" ? /\b(?:him|himself)\b/i.test(pt) : /\b(?:herself)\b|\bher(?=[.,;!?]|\s+(?:to|at|by|and|but|away|back|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight|a|an|the)\b)/i.test(pt) || (CONTACT_V.test(pt.slice(0, pt.search(/\bher\b/) < 0 ? 0 : pt.search(/\bher\b/))) && /\bher\s+[a-z]/.test(pt)));
     if (ids.length === 1 && p0 && p0.at <= 12 && p0.g !== "p" && !mentions[acts[k].i].length && /^(he|she|his|her)$/.test(p0.w) && !objBefore) { (GT("tier") ? chars[ids[0]].g : chars[ids[0]].gs)[p0.g]++; if (GDEBUG) console.error(`G ${chars[ids[0]].name} +${p0.g} sequence: ${acts[k - 1].text.slice(0, 60)} / ${acts[k].text.slice(0, 50)}`); }
   }
+  if ((globalThis.process?.env?.WHO_ON || "").includes("gt_dlgseq2")) {
+    const votes = new Map();
+    for (let i = 1; i < units.length; i++) {
+      const u = units[i], d = units[i - 1];
+      if (u.kind !== "action" || d.kind !== "dialogue" || mentions[i].length) continue;
+      const p0 = pronouns[i][0];
+      const sp = chars.find((c) => c.names.some((n) => sameChar(n, d.name)));
+      if (sp && p0 && p0.at <= 1 && /^(he|she)$/.test(p0.w)) { const v = votes.get(sp) || { m: 0, f: 0 }; v[p0.g]++; votes.set(sp, v); }
+    }
+    for (const [c, v] of votes) if (c.g.m + c.g.f === 0 && (v.m + v.f) >= 2 && (v.m === 0 || v.f === 0)) c.g[v.m ? "m" : "f"] += 2;
+  }
   if ((globalThis.process?.env?.WHO_ON || "").includes("gt_dlgseq")) {
     for (let i = 1; i < units.length; i++) {
       const u = units[i], d = units[i - 1];
@@ -488,7 +499,8 @@ export function buildCast(scene) {
   return { chars, mentions, pronouns };
 }
 
-const EXIT_RE = /\b(leaves|exits|walks out|storms out|is gone|hangs up|disappears|slams the door behind|departs|runs off|heads out)\b/i;
+// "hair full of leaves" is not an exit: "leaves" only as a verb
+const EXIT_RE = /\b((?<!\bof )leaves(?=\s+(?:the|through|without|quickly|quietly|slowly|at once|him|her|them|it|for|by|with|in|on|at|and)\b|[.,;!]|$)|exits|walks out|storms out|is gone|hangs up|disappears|slams the door behind|departs|runs off|heads out)\b/i;
 
 // Presence tracking (single pass): for each unit, ids of characters seen so far and not marked as exited.
 // Also records per character the last unit they were named / spoke, used for recency features.

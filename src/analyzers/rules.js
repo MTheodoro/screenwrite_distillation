@@ -538,7 +538,7 @@ function leadPossessive(ctx, i) {
   if (!OFF.has("pobj2") && !DEVICE_EVENT.test(after)) return [ms[0].c];
   return [];
 }
-const DEVICE_EVENT = /^(?:phone|cell|mobile|radio|pager|watch|alarm|timer|screen|laptop|tablet|computer|monitor|tv|television|speaker|intercom|earpiece|headset|walkie|voice|name|face|reflection|image|picture|photo|door|car|truck|engine|chair|bed|window|house|room|office|shadow|footsteps|boots|heels|stomach|belly|line|number|message|text|email|cup|glass|plate|coffee|tea|drink|beer|food|dinner|lunch)\b(?![^.]*\b(?:slips?|falls?|drops?|flies|spills?|tips?|tumbles?)\b)/i;
+const DEVICE_EVENT = /^(?:phone|cell|mobile|radio|pager|watch|alarm|timer|screen|laptop|tablet|computer|monitor|tv|television|speaker|intercom|earpiece|headset|walkie|voice|name|face|reflection|image|picture|photo|door|car|truck|engine|chair|bed|window|house|room|office|shadow|footsteps|boots|heels|stomach|belly|line|number|message|text|email|cup|glass|plate|coffee|tea|drink|beer|food|dinner|lunch|dryer|washer|machine|printer|kettle|oven|toaster|blender|clipboard|bag|backpack|purse|suitcase|cubicle|desk|nameplate|badge|lamp|light|candle|cigarette|breath|hair|coat|dress|skirt|scarf|cape|cloak|shirt|sleeves?)\b(?![^.]*\b(?:slips?|falls?|drops?|flies|spills?|tips?|tumbles?)\b)/i;
 // "Her phone buzzes." / "His chair scrapes." -> nobody; "Her jaw works." / "His face drains." -> the owner (handled by the
 // pronoun path); returns [] only for the object case.
 function pronounObject(ctx, i) {
@@ -552,6 +552,12 @@ function pronounObject(ctx, i) {
     const pa = prevActorOf(ctx, i);
     if (pa.ids.length === 1 && pa.dist === 1 && ctx.units[i - 1]?.kind === "action") return pa.ids;
     return null;
+  }
+  if (!OFF.has("pobj3")) {
+    // "Her nameplate." / "Her empty cubicle." / "Her own voice, tinny." -> a shot of a thing, nobody acts
+    if (words(t) <= 8 && !t.split(/\s+/).some((w) => VERBS3.has(w.replace(/\W+$/, "").toLowerCase()) || /^(?:is|are|was|were|has|have)$/.test(w))) return [];
+    // "Her son's Xbox sits on the table." / "Her husband's boss's wife has not arrived." -> about someone else's thing
+    if (/^[a-z-]+['’]s\b/i.test(m[2])) return [];
   }
   // "Her pen stops mid-word." / "His strop stops." / "Her light has found a shelf." are the owner's doing; only a device
   // going off by itself ("Her phone buzzes.") is nobody's action (the pronoun path then resolves the owner)
@@ -654,12 +660,18 @@ function clauseSubjects(ctx, i) {
   for (const m of ms) {
     if (m.poss) continue;
     const before = t.slice(0, m.at);
-    if (m.at <= 1 || m.lead || /(?:[,;]\s*(?:and\s+|then\s+|while\s+|as\s+)?|\s(?:and|while|as|but)\s+)$/.test(before) ||
+    if (m.at <= 1 || m.lead || /(?:[,;]\s*(?:and\s+|then\s+|while\s+|as\s+)?|\s(?:and|while|as|but)\s+)(?:(?:Mr|Mrs|Ms|Miss|Dr|Doctor|Sir|Lady|Lord|Judge|Coach|Nurse|Officer|Detective|Det|Sgt|Sergeant|Capt|Captain|Lt|Agent|Professor|Prof|Father|Sister|Brother|Uncle|Aunt|Old|Young|Little|Big)\.?\s+)?$/i.test(before) ||
         (!OFF.has("clause2") && /\b(?:and|while)\s+(?:at|in|on|by|near|behind|beside|across|next to|over)\s+[^,]{0,30}\s$/i.test(before))) {
       const raw = t.slice(m.at), ap = OFF.has("clause2") ? null : raw.match(/^[A-Za-z'’.-]+(?:\s+[A-Z][A-Za-z'’.-]+)*,\s*[^,]{0,40},\s*/);
       const after = ap ? raw.slice(ap[0].length) : raw.replace(/^\S+(?:\s+[A-Z]\S*)*\s*/, "");
       if (/^(?:[a-z]+(?:s|ed)\b|is\b|has\b|can't\b|doesn't\b|does\b|just\b|already\b|still\b|slowly\b|quickly\b)/.test(after) && !ids.includes(m.c)) ids.push(m.c);
     }
+  }
+  // "The Courier punches Irina, she slams him against the Volvo, Hayes scrambles under the bumper." -> Irina too
+  if (!OFF.has("clause3") && ids.length) for (const pc of t.matchAll(/(?:[,;]\s*|\b(?:and|while|as|then)\s+)(he|she)\s+[a-z]+(?:s|es)\b/gi)) {
+    const g = pc[1].toLowerCase() === "he" ? "m" : "f";
+    const named = [...new Set(ms.filter((m) => !m.poss && !ids.includes(m.c) && ctx.cast.chars[m.c].gender === g).map((m) => m.c))];
+    if (named.length === 1) ids.push(named[0]);
   }
   return ids.length >= 2 ? ids : null;
 }
@@ -721,8 +733,9 @@ export function ruleActors(ctx, i) {
   const u = ctx.units[i];
   const ms = ctx.cast.mentions[i];
   const np = namePair(ctx, i);
-  if (np) return W("namePair", np);
   const cs = clauseSubjects(ctx, i);
+  if (np && cs && !OFF.has("npunion")) return W("namePair", [...new Set([...np, ...cs])]);
+  if (np) return W("namePair", np);
   if (cs) return W("clauses", cs);
   const cands = actorCandidates(ctx, i).filter((x) => x >= 0);
   // "Hosea looks at Ezekiel. / At Perpetua, pale. / At Clementine." / "Ashby-Grey studies her. / Then Yusuf." -> the looker
@@ -731,9 +744,9 @@ export function ruleActors(ctx, i) {
     if (pa.length === 1 && !pa.includes(ms[0].c) && (/\b(looks?|points?|glances?|stares?|nods?|gestures?|turns?|watches|studies|eyes|scans|checks)\b/i.test(ctx.units[i - 1].text) ||
         ctx._why.get(i - 1) === "dirFragment" || /^(?:Then|At)\b/.test(ctx.units[i - 1].text))) return W("dirFragment", pa);
   }
-  const tailM = !OFF.has("tail") && u.text.match(/(?:,|;|\band)\s+((?:everyone|everybody|nobody|no one|all (?:two|three|four|five|six)|they both|both of them|the (?:two|three|four|five) of them)\b.*)$/i);
+  const tailM = !OFF.has("tail") && u.text.match(/(?:,|;|\band)\s+((?:everyone|everybody|nobody|no one|all (?:two|three|four|five|six)|they both|both of them|the (?:two|three|four|five) of them|the (?:two|three|four|five)(?= (?:tumble|freeze|turn|stop|run|scatter|duck|look|stare|fall|rise|stand|sit|laugh|go|move|wait|watch)s?\b))\b.*)$/i);
   const core = tailM && !ms.some((m) => m.lead) ? tailM[1][0].toUpperCase() + tailM[1].slice(1) : u.text;
-  if (!OFF.has("leadall") && tailM && ms.length && ms[0].lead && /^(?:the (?:two|three|four|five) of them|everyone|everybody|they all|all (?:two|three|four|five))\b/i.test(tailM[1])) {
+  if (!OFF.has("leadall") && tailM && ms.length && ms[0].lead && /^(?:the (?:two|three|four|five)(?: of them)?|everyone|everybody|they all|all (?:two|three|four|five))\b/i.test(tailM[1])) {
     const all = everyone(ctx, i);
     if (!all.includes(ms[0].c)) all.push(ms[0].c);
     if (all.length > 1) return W("leadAll", all);
@@ -854,7 +867,7 @@ export function ruleActors(ctx, i) {
         /^[\s,]*(?:\(|,\s*(?:\d{1,2}s?\b|(?:early|mid|late)[- ]|[a-z])|\.|$)/.test(u.text.slice(im.at).replace(/^[A-Z][A-Z'’."-]*(?:\s+[A-Z][A-Z'’."-]*)*/, ""))) return W("introLine", [im.c]);
   }
   // "Mo smiles. It is not a happy smile." / "He laughs. It becomes a cough." -> a comment on the character's own action
-  if (!OFF.has("itc") && /^it\s+(?:is|isn't|is not|was|does|doesn't|does not|looks|becomes|takes|lands|reaches|comes|goes|has|hasn't|sounds|feels|means|works|fails|holds|lasts)\b/i.test(u.text) && !ctx.cast.mentions[i].length) {
+  if (ON.has("itc") && /^it\s+(?:is|isn't|is not|was|does|doesn't|does not|looks|becomes|takes|lands|reaches|comes|goes|has|hasn't|sounds|feels|means|works|fails|holds|lasts)\b/i.test(u.text) && !ctx.cast.mentions[i].length) {
     const prev = ctx.units[i - 1];
     if (prev && prev.kind === "action" && prev.para === u.para) {
       const pa = prevActorOf(ctx, i);
@@ -1066,7 +1079,7 @@ export function ruleActors(ctx, i) {
     if (pm) return W("nameBody", [pm.c]);
   }
   if (ms.length) return W("objectOnly", []);
-  if (/^(she|he|they|her|his)\b/i.test(u.text) && cands.length) return W("pronounFallback", [salient(() => true)[0]]);
+  if (ON.has("pfall") && /^(she|he|they|her|his)\b/i.test(u.text) && cands.length) return W("pronounFallback", [salient(() => true)[0]]); // 15% right: opt-in
   return W("none", []);
 }
 
