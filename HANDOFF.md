@@ -5,8 +5,9 @@ For the next session (local, next to the app). Written 1 Nov 2026 at the end of 
 ## Where things are
 
 - **Code**: `github.com/MTheodoro/screenwrite_distillation`.
-  - `main` = what the app has as **v7** (the last zip sent).
-  - `who-clauses` = work in progress for the owner's who report (below). Not shipped.
+  - `main`: the shipped files are what the app has as **v7** (the last zip sent). `main` also holds the start of the
+    work on the owner's who report (below): `clauses.js`, the fixtures and their runner. `clauses.js` is not imported
+    by anything yet, so the app is unaffected.
 - **Data** (training scenes, labels, gold sets: ~130 MB without caches): branch `data-backup`, folder `data/analyzers/`. It is
   gitignored on `main`. Get it with:
   ```sh
@@ -55,7 +56,7 @@ cases.** The gold sets under-cover that style; `test/fixtures/who_cases.json` is
 The report itself is in the conversation; the fixture file has every case (wording neutralised, structure kept; please
 keep fixture text non-explicit). Baseline `node who_fixtures.mjs`: 20/47.
 
-Done on `who-clauses`:
+Done (on `main`, not wired):
 - `src/analyzers/clauses.js`: `splitClauses(sentence)` → `[{from, to, text}]`. Splits at `;`, a colon after a real
   clause, `, <conj> <subject> <verb>`, `<conj> <pronoun>`, comma splices with a new subject + verb, a mid-sentence
   nominative he/she/they with a verb ("so hard he got angry"), a leading subordinate clause, and `NAME, who ...`
