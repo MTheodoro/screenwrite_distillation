@@ -145,7 +145,8 @@ const OFF_GTIER = (globalThis.process?.env?.WHO_OFF || "").includes("gtier"); //
 const GT = (k) => OFF_GTIER || (globalThis.process?.env?.WHO_OFF || "").includes("gt_" + k) ||
   (k === "contact" && !(globalThis.process?.env?.WHO_ON || "").includes("gt_contact")) || // contact verbs: neutral gold, -0.1 dev, opt-in
   (k === "tier" && !(globalThis.process?.env?.WHO_ON || "").includes("gt_tier")) || // tiered weighting: measured -0.7 on both golds, opt-in
-  (k === "cons" && !(globalThis.process?.env?.WHO_ON || "").includes("gt_cons")); // consistency pass: +0.1 gold, -0.2 dev, opt-in
+  (k === "cons" && !/gt_cons/.test(globalThis.process?.env?.WHO_ON || "")); // consistency pass: +0.1 gold, -0.2 dev, opt-in (gt_cons2 = needs two such lines)
+const CONS2 = (globalThis.process?.env?.WHO_ON || "").includes("gt_cons2");
 const LEAD_TITLE = /^(?:(?:then|now|and|but|meanwhile|suddenly|finally|cousin|aunt|auntie|uncle|grandma|grandpa|granny|nana|old|young|little|big|baby|father|mother|brother|sister|mr|mrs|ms|miss|dr|doctor|officer|detective|det|captain|capt|sergeant|sgt|private|pvt|corporal|cpl|lieutenant|lt|agent|nurse|judge|lady|lord|sir|madam|professor|prof|chef|coach|pastor|reverend|rev|saint|st|king|queen|prince|princess)\.?,?\s+){1,2}$/i;
 
 // Build cast + per-unit annotations. Mutates nothing; returns { chars, mentions, pronouns, firstSeen }.
@@ -524,8 +525,9 @@ export function buildCast(scene) {
   if (!GT("cons")) {
     for (const g of ["m", "f"]) {
       const re = g === "m" ? /^(?:he|his)\b/i : /^(?:she|her)\b/i;
-      const line = units.find((u) => u.kind === "action" && re.test(u.text) && !mentions[u.i].length);
-      if (!line || chars.some((c) => c.gender === g)) continue;
+      const lines = units.filter((u) => u.kind === "action" && re.test(u.text) && !mentions[u.i].length);
+      const line = lines[0];
+      if (!line || chars.some((c) => c.gender === g) || (CONS2 && lines.length < 2)) continue;
       const weak = chars.filter((c) => !c.group && c.weak);
       if (!weak.length) continue;
       let pick = null;
