@@ -1051,7 +1051,7 @@ function ruleActorsUncached(ctx, i) {
       // never the actor's own possessive ("adjusts his tie", "grabs her bag")
       const pt = ctx.units[i - 1].text;
       const CONTACT = "(?:grabs?|grips?|takes?|touch(?:es)?|holds?|catch(?:es)?|kiss(?:es)?|slaps?|strokes?|squeez(?:es)?|pulls?|shakes?|brushes|pats?|lifts?|cups?|seiz(?:es)?|clutch(?:es)?|wipes?|pins?|releases?|steadies|guides?|drags?|yanks?|tugs?)";
-      const objG = initPron === "f" ? new RegExp(`\\b(?:herself|${CONTACT}\\s+her\\s+(?:${BODY.source.slice(2, -3)})|her)(?=[.,;!?]|\\s+(?:to|at|by|and|but|away|back|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight)\\b|$)`, "i")
+      const objG = initPron === "f" ? new RegExp(`\\b(?:herself|${CONTACT}\\s+her\\s+(?:${BODY.source.slice(2, -3)})|her)(?=[.,;!?]|\\s+(?:to|at|by|and|but|away|off|out|in|into|on|over|up|down|again|there|here|hard|gently|close|closer|tight)\\b|$)`, "i") // "her back." is a body part, not "her" as object
         : initPron === "m" ? new RegExp(`\\b(?:him|himself|${CONTACT}\\s+his\\s+(?:${BODY.source.slice(2, -3)}))\\b`, "i") : null;
       if (pa.length === 1 && objG && objG.test(pt) && !ctx.cast.mentions[i - 1].some((m) => m.c !== pa[0])) excl = pa[0];
     }

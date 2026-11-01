@@ -21,7 +21,7 @@ const M = ["he", "him", "his", "himself"];
 const F = ["she", "her", "hers", "herself"];
 const P = ["they", "them", "their", "theirs", "themselves"];
 const PRON_RE = /\b(he|him|his|himself|she|her|hers|herself|they|them|their|theirs|themselves)\b/gi;
-const CAPS_SEQ = /(?<![A-Za-zÀ-ÿ])([A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’\-.]*[A-ZÀ-ÖØ-Þ0-9]|[A-ZÀ-ÖØ-Þ]{2,})(?:\s+(?:[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’\-.]*[A-ZÀ-ÖØ-Þ0-9]|[A-ZÀ-ÖØ-Þ]{2,}))*(?![A-Za-zÀ-ÿ])/g;
+const CAPS_SEQ = /(?<![A-Za-zÀ-ÿ])([A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’\-.]*[A-ZÀ-ÖØ-Þ0-9]|[A-ZÀ-ÖØ-Þ]{2,})(?:\s+(?:[A-ZÀ-ÖØ-Þ][A-ZÀ-ÖØ-Þ0-9'’\-.]*[A-ZÀ-ÖØ-Þ0-9]|[A-ZÀ-ÖØ-Þ]{2,}|A(?=\s+[A-ZÀ-ÖØ-Þ]{2})))*(?![A-Za-zÀ-ÿ])/g;
 
 export function pronounClass(w) {
   w = w.toLowerCase();
@@ -128,6 +128,7 @@ const RELATION = /^(?:apprentice|assistant|wife|husband|partner|boyfriend|girlfr
 const CUE_DIRECTION = /^(?:INSERT|ON SCREEN|ON PHONE|ON TV|ON (?:THE )?MONITOR|ON CAMERA|CAMERA|SUPER|TITLE|CUT TO|BACK TO|ANGLE ON|CLOSE ON|MONTAGE|INTERCUT|BLACK|SCREEN|PHONE SCREEN|TEXT|CHYRON|CAPTION|SUBTITLE|THE SCREEN|TV|RADIO BROADCAST|P\.?O\.?V)\b/;
 const OFF_VEHICLE = (globalThis.process?.env?.WHO_OFF || "").includes("vehicle");
 const OFF_LEAD2 = (globalThis.process?.env?.WHO_OFF || "").includes("lead2");
+const OFF_DESCRNAME = (globalThis.process?.env?.WHO_OFF || "").includes("descrname");
 const OFF_PSEUDOCUE = (globalThis.process?.env?.WHO_OFF || "").includes("pseudocue");
 const GDEBUG = !!globalThis.process?.env?.GDEBUG;
 const OFF_ALIASADJ = (globalThis.process?.env?.WHO_OFF || "").includes("aliasadj");
@@ -191,6 +192,16 @@ export function buildCast(scene) {
       if (keyTokens(n).some((t) => GROUP_NOUNS.has(t))) c.group = true;
     }
   }
+  // "A TEENAGE BOY, TOBY, 17, hi-vis vest" -> the description and the name are one person
+  if (!OFF_DESCRNAME) for (const u of units) {
+    if (u.kind !== "action") continue;
+    const dm = u.text.match(/\b((?:A|AN|THE)\s+(?:[A-Z]+\s+){0,3}(?:MAN|WOMAN|GIRL|BOY|KID|GUY|STRANGER|FIGURE|TEENAGER|TEEN|LADY|GENTLEMAN|NURSE|GUARD|CLERK|DRIVER|OFFICER|SOLDIER|COP))\s*,\s*([A-Z][A-Z'’.-]+(?:\s+[A-Z][A-Z'’.-]+)?)\s*,\s*(?:\d{1,2}|\d0s|early|mid|late|twenties|thirties|forties|fifties|sixties|teens)/);
+    if (!dm) continue;
+    const d = chars.find((c) => c && c.names.some((n) => sameChar(n, dm[1].replace(/^(?:A|AN|THE)\s+/, "")) || sameChar(n, dm[1])));
+    const nm = chars.find((c) => c && c !== d && c.names.some((n) => sameChar(n, dm[2])));
+    if (d && nm) { nm.names.push(...d.names.filter((n) => !nm.names.includes(n))); nm.first = Math.min(nm.first, d.first); if (d.intro >= 0 && (nm.intro < 0 || d.intro < nm.intro)) nm.intro = d.intro; nm.spoke += d.spoke; chars[chars.indexOf(d)] = null; }
+  }
+  for (let k = chars.length - 1; k >= 0; k--) if (!chars[k]) chars.splice(k, 1);
   // Named later: a descriptive character ("HOODIE GUY", "THE WOMAN", "STRANGER") who is last seen right where a newly
   // named character first appears, and never alongside them, is that character ("HOODIE GUY: Priya. It's me." /
   // "Desmond?" / "DESMOND: Two years."). Merged before ids are used anywhere.
@@ -531,7 +542,7 @@ export function buildCast(scene) {
 }
 
 // "hair full of leaves" is not an exit: "leaves" only as a verb
-const EXIT_RE = /\b(walks? (?:out|off|away|past (?:them|him|her) into)|goes (?:out|inside|back inside|into the)|steps? (?:out|outside|inside|into the (?:lift|elevator|car|cab|taxi|house|suite|office|hall|corridor|night|rain|street|dark))|heads (?:inside|out|off|back in)|(?:door|doors) (?:closes?|shuts?|sighs? shut|slams?|swings? shut|clicks? shut) behind|(?<!\bof )leaves(?=\s+(?:the|through|without|quickly|quietly|slowly|at once|him|her|them|it|for|by|with|in|on|at|and)\b|[.,;!]|$)|exits|walks out|storms out|is gone|hangs up|disappears|slams the door behind|departs|runs off|heads out)\b/i;
+const EXIT_RE = /\b(walks? (?:out|off|away|past (?:them|him|her) into)|goes (?:out|inside|back inside|into the)|steps? (?:outside|inside|into the (?:lift|elevator|car|cab|taxi|house|suite|office|hall|corridor|night|rain|street|dark))|heads (?:inside|out|off|back in)|(?:door|doors) (?:closes?|shuts?|sighs? shut|slams?|swings? shut|clicks? shut) behind|(?<!\bof )leaves(?=\s+(?:the|through|without|quickly|quietly|slowly|at once|him|her|them|it|for|by|with|in|on|at|and)\b|[.,;!]|$)|exits|walks out|storms out|is gone|hangs up|disappears|slams the door behind|departs|runs off|heads out)\b/i;
 
 // Presence tracking (single pass): for each unit, ids of characters seen so far and not marked as exited.
 // Also records per character the last unit they were named / spoke, used for recency features.
