@@ -119,12 +119,12 @@ rest as suggestions the writer can confirm:
 
 | `why` | share of action lines | accuracy (dev) | show as |
 |---|---|---|---|
-| `nameLead`, `titleLead`, `introLine`, `appositive`, `screenText`, `dirFragment` | ~29% | 92–100% | fact |
-| `pronounUnique` (only one present character fits the pronoun) | ~8.5% | 95% | fact |
+| `nameLead`, `titleLead`, `introLine`, `appositive`, `screenText`, `dirFragment`, `pronounOwner` | ~28% | 96–100% | fact |
+| `pronounUnique` (only one present character fits the pronoun) | ~9% | 95% | fact |
 | `none` (no character: setting / event / camera …) | ~37% | 94% | fact (with `kind`) |
-| `pronounSalient`, `pronounUnknownGender`, `pronounObjectChain`, `fragmentPrev`, `possessive` | ~16% | 86–89% | suggestion (strong) |
-| `namePair`, `pluralTwo`, `pluralCount`, `pluralPair`, `firstMention`, `extras`, `objectOnly`, `pronounAhead` | ~4% | 68–81% | suggestion |
-| `pluralAll`, `everyone`, `nobody`, `countCast`, `clauses`, `itComment`, `pronounFallback`, `narration` | ~3% | 15–60% | suggestion (weak) |
+| `fragmentPrev`, `pronounSalient`, `pronounUnknownGender`, `pronounObjectChain`, `pronounAhead`, `possessive`, `pronounObject`, `namePair` | ~17% | 86–90% | suggestion (strong) |
+| `pluralTwo`, `pluralCount`, `objectOnly`, `firstMention`, `extras`, `pluralPair`, `introAll`, `pluralPrev`, `introducedBefore`, `clauses`, `bodyOwner` | ~4% | 69–81% | suggestion |
+| `pluralAll`, `everyone`, `countCast`, `pluralGroup`, `nobody`, `leadAll`, `narration` | ~3% | 17–62% | suggestion (weak) |
 
 Measured on held-out labels (synthetic + contemporary scenes). Passing the app's character tags (§3) raises all of
 these. Make the "fact" set a setting.
